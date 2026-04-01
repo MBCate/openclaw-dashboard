@@ -1,10 +1,7 @@
-{
-  "updated_at": "2026-04-01T22:00:00+08:00",
-  "projects": [
-    {"name": "helloquant", "path": "~/trading/helloquant", "branch": "main", "uncommitted": 2, "last_commit": "3h ago — feat: add momentum strategy v2", "status": "active"},
-    {"name": "openclaw-dashboard", "path": "~/projects/openclaw-dashboard", "branch": "main", "uncommitted": 0, "last_commit": "1h ago — feat: initial dashboard setup", "status": "active"},
-    {"name": "autonomous-driving", "path": "~/projects/autonomous-driving", "branch": "dev", "uncommitted": 5, "last_commit": "2d ago — refactor: BEV encoder module", "status": "active"},
-    {"name": "researchhub", "path": "~/projects/researchhub", "branch": "main", "uncommitted": 0, "last_commit": "5d ago — docs: update paper index", "status": "active"},
-    {"name": "kliai", "path": "~/projects/backend/kliai", "branch": "main", "uncommitted": 1, "last_commit": "1w ago — fix: subtitle timing offset", "status": "active"}
-  ]
-}
+{"updated_at":"2026-04-01T11:31:47+08:00","projects":[
+{"name":"helloquant","path":"/home/magicbluecate/trading/helloquant","branch":"master","uncommitted":7,"last_commit":"3 个月前 — [Docs] 添加翻译完成后同步 Linear 的规则","status":"active"}
+,
+{"name":"openclaw-dashboard","path":"/home/magicbluecate/projects/openclaw-dashboard","branch":"main","uncommitted":2,"last_commit":"4 分钟前 — chore: trigger pages deploy","status":"active"}
+,
+{"name":"researchhub","path":"/home/magicbluecate/projects/researchhub","branch":"main","uncommitted":1,"last_commit":"3 周前 — chore: add session hooks and finalize configuration","status":"active"}
+]}

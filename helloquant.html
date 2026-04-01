@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HelloQuant 策略 — OpenClaw Dashboard</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+</head>
+<body>
+  <div class="header">
+    <h1>📈 HelloQuant 策略</h1>
+    <div class="updated" id="last-updated"></div>
+    <nav></nav>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <div class="section-title">策略信号</div>
+      <div class="grid-4" id="strategies"></div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">收益曲线</div>
+      <div class="card">
+        <div id="equity-chart" class="chart-container"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Sharpe Ratio 对比</div>
+      <div class="card">
+        <div id="sharpe-chart" class="chart-container-sm"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">策略详情</div>
+      <div class="card">
+        <table>
+          <thead>
+            <tr><th>策略</th><th>1H 信号</th><th>4H 信号</th><th>日收益</th><th>周收益</th><th>最大回撤</th><th>Sharpe</th></tr>
+          </thead>
+          <tbody id="strategy-table"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">Powered by OpenClaw + HelloQuant | Auto-updated at 15:05 CST</div>
+
+  <script src="assets/common.js"></script>
+  <script>
+    renderNav('helloquant');
+
+    async function init() {
+      const data = await loadData('helloquant.json');
+      if (!data) {
+        document.getElementById('strategies').innerHTML = '<div class="card"><p style="color:var(--text-muted)">暂无数据 — 等待收盘 Cron 执行</p></div>';
+        return;
+      }
+
+      document.getElementById('last-updated').textContent = `Updated: ${formatTime(data.updated_at)}`;
+
+      // Strategy cards
+      const strategiesEl = document.getElementById('strategies');
+      (data.strategies || []).forEach(s => {
+        const card = document.createElement('div');
+        card.className = 'card strategy-card';
+        card.innerHTML = `
+          <h3>${s.name}</h3>
+          <div style="margin:8px 0">${signalBadge(s.signal_1h)}</div>
+          <div class="subtitle">日收益: ${formatChange(s.daily_return)}</div>
+          <div class="subtitle">回撤: <span class="down">${s.max_drawdown}%</span></div>
+        `;
+        strategiesEl.appendChild(card);
+      });
+
+      // Equity curve
+      if (data.equity_curve?.length) {
+        initChart('equity-chart', {
+          xAxis: { type: 'category', data: data.equity_curve.map(d => d.date) },
+          yAxis: { type: 'value' },
+          series: [{ type: 'line', data: data.equity_curve.map(d => d.value), smooth: true,
+            areaStyle: { opacity: 0.1, color: '#58a6ff' },
+            lineStyle: { color: '#58a6ff', width: 2 },
+            itemStyle: { color: '#58a6ff' } }],
+          grid: { left: 60, right: 20, top: 20, bottom: 30 },
+        });
+      }
+
+      // Sharpe chart
+      if (data.strategies?.length) {
+        const names = data.strategies.map(s => s.name);
+        const sharpes = data.strategies.map(s => s.sharpe || 0);
+        initChart('sharpe-chart', {
+          xAxis: { type: 'category', data: names, axisLabel: { rotate: 30 } },
+          yAxis: { type: 'value', name: 'Sharpe Ratio' },
+          series: [{ type: 'bar', data: sharpes,
+            itemStyle: { color: d => d.value >= 1.5 ? '#3fb950' : d.value >= 1 ? '#d29922' : '#f85149' },
+            barWidth: 30 }],
+          grid: { left: 60, right: 20, top: 20, bottom: 50 },
+        });
+      }
+
+      // Table
+      const tbody = document.getElementById('strategy-table');
+      (data.strategies || []).forEach(s => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td style="font-weight:600">${s.name}</td>
+          <td>${signalBadge(s.signal_1h)}</td>
+          <td>${signalBadge(s.signal_4h)}</td>
+          <td>${formatChange(s.daily_return)}</td>
+          <td>${formatChange(s.weekly_return)}</td>
+          <td><span class="down">${s.max_drawdown}%</span></td>
+          <td style="font-family:var(--font-mono)">${s.sharpe?.toFixed(2) || '—'}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "date": "2026-04-01",
+  "updated_at": "2026-04-01T15:05:00+08:00",
+  "indices": [
+    {"name": "上证指数", "code": "000001", "close": 3420.56, "change_pct": 1.23, "volume": "3580亿"},
+    {"name": "深证成指", "code": "399001", "close": 13256.78, "change_pct": 0.85, "volume": "4210亿"},
+    {"name": "创业板指", "code": "399006", "close": 3152.34, "change_pct": -0.32, "volume": "1820亿"}
+  ],
+  "sectors_top5": [
+    {"name": "半导体", "change_pct": 3.52},
+    {"name": "新能源车", "change_pct": 2.81},
+    {"name": "光伏", "change_pct": 2.35},
+    {"name": "军工", "change_pct": 1.92},
+    {"name": "AI算力", "change_pct": 1.78}
+  ],
+  "sectors_bottom5": [
+    {"name": "房地产", "change_pct": -2.15},
+    {"name": "白酒", "change_pct": -1.83},
+    {"name": "银行", "change_pct": -1.21},
+    {"name": "煤炭", "change_pct": -0.95},
+    {"name": "保险", "change_pct": -0.72}
+  ],
+  "northbound": {"net_flow": 85.3, "unit": "亿元"},
+  "news": [
+    {"title": "央行降准0.25个百分点 释放长期资金约5000亿", "source": "新华社", "summary": "中国人民银行决定下调金融机构存款准备金率0.25个百分点，预计释放长期流动性约5000亿元。"},
+    {"title": "半导体板块大涨 国产替代逻辑持续强化", "source": "证券时报", "summary": "在政策支持和国产替代趋势下，半导体板块全线走强，多只个股涨停。"},
+    {"title": "北向资金净买入超85亿 连续三日加仓", "source": "上海证券报", "summary": "外资持续看好A股，北向资金连续三个交易日净流入，重点加仓新能源和科技股。"}
+  ]
+}

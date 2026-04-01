@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>论文日报 — OpenClaw Dashboard</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+</head>
+<body>
+  <div class="header">
+    <h1>📚 论文日报</h1>
+    <div class="updated" id="last-updated"></div>
+    <nav></nav>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <div class="section-title">研究趋势</div>
+      <div class="card">
+        <div id="category-chart" class="chart-container-sm"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">今日论文</div>
+      <div id="paper-list"></div>
+    </div>
+  </div>
+
+  <div class="footer">Powered by OpenClaw + arXiv/Semantic Scholar | Auto-updated at 08:00 CST</div>
+
+  <script src="assets/common.js"></script>
+  <script>
+    renderNav('papers');
+
+    async function init() {
+      const data = await loadData('papers.json');
+      if (!data) {
+        document.getElementById('paper-list').innerHTML = '<div class="card"><p style="color:var(--text-muted)">暂无数据 — 等待论文扫描 Cron 执行</p></div>';
+        return;
+      }
+
+      document.getElementById('last-updated').textContent = `Updated: ${formatTime(data.updated_at)}`;
+
+      // Category chart
+      if (data.category_counts) {
+        const cats = Object.entries(data.category_counts).sort((a, b) => b[1] - a[1]);
+        initChart('category-chart', {
+          xAxis: { type: 'category', data: cats.map(c => c[0]), axisLabel: { rotate: 30 } },
+          yAxis: { type: 'value', minInterval: 1 },
+          series: [{ type: 'bar', data: cats.map(c => c[1]),
+            itemStyle: { color: '#bc8cff' }, barWidth: 30 }],
+          grid: { left: 40, right: 20, top: 10, bottom: 50 },
+        });
+      }
+
+      // Paper cards
+      const listEl = document.getElementById('paper-list');
+      const papers = (data.papers || []).sort((a, b) => b.score - a.score);
+
+      papers.forEach(p => {
+        const card = document.createElement('div');
+        card.className = 'card paper-card';
+        card.style.marginBottom = '8px';
+        card.innerHTML = `
+          <div class="stars" style="color:var(--accent-yellow)">${starRating(p.score)} [${p.score}/5]</div>
+          <div class="paper-title">
+            ${p.url ? `<a href="${p.url}" target="_blank" style="color:var(--text-primary);text-decoration:none;">${p.title}</a>` : p.title}
+          </div>
+          <div class="authors">${p.authors || ''} ${p.arxiv_id ? `| arXiv:${p.arxiv_id}` : ''}</div>
+          ${p.categories?.length ? `<div style="margin-top:6px">${p.categories.map(c => `<span class="badge badge-blue">${c}</span>`).join(' ')}</div>` : ''}
+          <div class="paper-summary">${p.summary || ''}</div>
+        `;
+        listEl.appendChild(card);
+      });
+
+      if (!papers.length) {
+        listEl.innerHTML = '<div class="card"><p style="color:var(--text-muted)">今日无相关论文</p></div>';
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>

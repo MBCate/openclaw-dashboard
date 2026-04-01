@@ -1,0 +1,10 @@
+{
+  "updated_at": "2026-04-01T22:00:00+08:00",
+  "projects": [
+    {"name": "helloquant", "path": "~/trading/helloquant", "branch": "main", "uncommitted": 2, "last_commit": "3h ago — feat: add momentum strategy v2", "status": "active"},
+    {"name": "openclaw-dashboard", "path": "~/projects/openclaw-dashboard", "branch": "main", "uncommitted": 0, "last_commit": "1h ago — feat: initial dashboard setup", "status": "active"},
+    {"name": "autonomous-driving", "path": "~/projects/autonomous-driving", "branch": "dev", "uncommitted": 5, "last_commit": "2d ago — refactor: BEV encoder module", "status": "active"},
+    {"name": "researchhub", "path": "~/projects/researchhub", "branch": "main", "uncommitted": 0, "last_commit": "5d ago — docs: update paper index", "status": "active"},
+    {"name": "kliai", "path": "~/projects/backend/kliai", "branch": "main", "uncommitted": 1, "last_commit": "1w ago — fix: subtitle timing offset", "status": "active"}
+  ]
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenClaw Dashboard</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>🦞 OpenClaw Dashboard</h1>
+    <div class="updated" id="last-updated"></div>
+    <nav></nav>
+  </div>
+
+  <div class="container">
+    <div class="grid-3" id="cards"></div>
+  </div>
+
+  <div class="footer">
+    Powered by OpenClaw + Claude Code | Auto-updated daily
+  </div>
+
+  <script src="assets/common.js"></script>
+  <script>
+    renderNav('index');
+
+    const cardDefs = [
+      { id: 'a-shares', icon: '🇨🇳', title: 'A 股日报', desc: '三大指数 · 板块热力 · 北向资金', file: 'a-shares.json',
+        render: d => d ? `${d.indices[0]?.name} ${formatNumber(d.indices[0]?.close)} ${formatChange(d.indices[0]?.change_pct)}` : '暂无数据' },
+      { id: 'global-market', icon: '🌍', title: '国际市场', desc: '美股 · 欧股 · 加密货币 · 财经新闻', file: 'global-market.json',
+        render: d => d ? `S&P500 ${formatNumber(d.indices[0]?.close)} ${formatChange(d.indices[0]?.change_pct)}` : '暂无数据' },
+      { id: 'helloquant', icon: '📈', title: 'HelloQuant 策略', desc: '8 策略信号 · 收益曲线 · Sharpe', file: 'helloquant.json',
+        render: d => d ? `${d.strategies?.length || 0} 个策略运行中` : '暂无数据' },
+      { id: 'papers', icon: '📚', title: '论文日报', desc: 'arXiv 论文追踪 · 研究趋势', file: 'papers.json',
+        render: d => d ? `今日 ${d.papers?.length || 0} 篇相关论文` : '暂无数据' },
+      { id: 'projects', icon: '💻', title: '项目状态', desc: 'Git 仓库状态 · 提交活跃度', file: 'projects.json',
+        render: d => d ? `${d.projects?.length || 0} 个活跃项目` : '暂无数据' },
+      { id: 'system', icon: '🔧', title: '系统概览', desc: 'OpenClaw 运行状态 · Cron 任务', file: null,
+        render: () => '8 个 Cron 任务运行中' },
+    ];
+
+    async function init() {
+      const container = document.getElementById('cards');
+      let latestUpdate = null;
+
+      for (const def of cardDefs) {
+        const data = def.file ? await loadData(def.file) : null;
+        const updated = data?.updated_at;
+        if (updated && (!latestUpdate || new Date(updated) > new Date(latestUpdate))) {
+          latestUpdate = updated;
+        }
+
+        const card = document.createElement('a');
+        card.className = 'card card-link index-card';
+        card.href = def.id === 'system' ? '#' : `${def.id}.html`;
+        card.innerHTML = `
+          <div class="icon">${def.icon}</div>
+          <div class="title">${def.title}</div>
+          <div class="desc">${def.desc}</div>
+          <div class="meta">${def.render(data)}</div>
+          ${updated ? `<div class="subtitle">Updated: ${timeAgo(updated)}</div>` : ''}
+        `;
+        container.appendChild(card);
+      }
+
+      document.getElementById('last-updated').textContent =
+        latestUpdate ? `Last update: ${formatTime(latestUpdate)}` : '';
+    }
+
+    init();
+  </script>
+</body>
+</html>

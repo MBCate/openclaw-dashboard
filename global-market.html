@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>国际市场 — OpenClaw Dashboard</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+</head>
+<body>
+  <div class="header">
+    <h1>🌍 国际市场</h1>
+    <div class="updated" id="last-updated"></div>
+    <nav></nav>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <div class="section-title">全球指数</div>
+      <div class="grid-4" id="indices"></div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">加密货币</div>
+      <div class="grid-2" id="crypto"></div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">财经要闻</div>
+      <div class="card" id="news-list"></div>
+    </div>
+  </div>
+
+  <div class="footer">Powered by OpenClaw + RSS Feeds (CNBC/WSJ/Bloomberg) | Auto-updated at 21:30 CST</div>
+
+  <script src="assets/common.js"></script>
+  <script>
+    renderNav('global-market');
+
+    async function init() {
+      const data = await loadData('global-market.json');
+      if (!data) {
+        document.getElementById('indices').innerHTML = '<div class="card"><p style="color:var(--text-muted)">暂无数据 — 等待晚间 Cron 执行</p></div>';
+        return;
+      }
+
+      document.getElementById('last-updated').textContent = `Updated: ${formatTime(data.updated_at)}`;
+
+      // Indices
+      const indicesEl = document.getElementById('indices');
+      (data.indices || []).forEach(idx => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `
+          <h2>${idx.name}</h2>
+          <div class="value">${formatNumber(idx.close)}</div>
+          <div class="change">${formatChange(idx.change_pct)}</div>
+        `;
+        indicesEl.appendChild(card);
+      });
+
+      // Crypto
+      const cryptoEl = document.getElementById('crypto');
+      (data.crypto || []).forEach(c => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `
+          <h2>${c.name}</h2>
+          <div class="value">$${formatNumber(c.price)}</div>
+          <div class="change">${formatChange(c.change_pct)}</div>
+        `;
+        cryptoEl.appendChild(card);
+      });
+
+      // News
+      const newsList = document.getElementById('news-list');
+      if (data.news?.length) {
+        newsList.innerHTML = data.news.map(n => `
+          <div class="news-item">
+            <div class="source">${n.source || ''}</div>
+            <div class="title">${n.url ? `<a href="${n.url}" target="_blank" style="color:var(--text-primary);text-decoration:none;">${n.title}</a>` : n.title}</div>
+            <div class="summary">${n.summary || ''}</div>
+          </div>
+        `).join('');
+      } else {
+        newsList.innerHTML = '<p style="color:var(--text-muted);padding:12px 0;">暂无要闻</p>';
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>项目状态 — OpenClaw Dashboard</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>💻 项目状态</h1>
+    <div class="updated" id="last-updated"></div>
+    <nav></nav>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <div class="section-title">活跃项目</div>
+      <div class="grid-2" id="project-list"></div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">提交统计</div>
+      <div class="card">
+        <table>
+          <thead>
+            <tr><th>项目</th><th>Branch</th><th>未提交</th><th>最近提交</th><th>状态</th></tr>
+          </thead>
+          <tbody id="project-table"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">Powered by OpenClaw + Claude Code | Auto-updated at 22:00 CST</div>
+
+  <script src="assets/common.js"></script>
+  <script>
+    renderNav('projects');
+
+    async function init() {
+      const data = await loadData('projects.json');
+      if (!data) {
+        document.getElementById('project-list').innerHTML = '<div class="card"><p style="color:var(--text-muted)">暂无数据 — 等待 dashboard-build Cron 执行</p></div>';
+        return;
+      }
+
+      document.getElementById('last-updated').textContent = `Updated: ${formatTime(data.updated_at)}`;
+
+      const listEl = document.getElementById('project-list');
+      const tbody = document.getElementById('project-table');
+
+      (data.projects || []).forEach(p => {
+        // Card
+        const card = document.createElement('div');
+        card.className = 'card project-card';
+        const statusBadge = p.uncommitted > 0
+          ? `<span class="badge badge-yellow">${p.uncommitted} 未提交</span>`
+          : `<span class="badge badge-green">干净</span>`;
+        card.innerHTML = `
+          <div style="display:flex;justify-content:space-between;align-items:center;">
+            <div class="project-name">${p.name}</div>
+            <span class="branch">${p.branch || 'main'}</span>
+          </div>
+          <div style="margin:8px 0">${statusBadge}</div>
+          <div class="commit-msg">${p.last_commit || ''}</div>
+        `;
+        listEl.appendChild(card);
+
+        // Table row
+        const tr = document.createElement('tr');
+        const statusCls = p.uncommitted > 0 ? 'badge-yellow' : 'badge-green';
+        const statusText = p.uncommitted > 0 ? `${p.uncommitted} 未提交` : '干净';
+        tr.innerHTML = `
+          <td style="font-weight:600;font-family:var(--font-mono)">${p.name}</td>
+          <td><span class="branch">${p.branch || 'main'}</span></td>
+          <td>${p.uncommitted || 0}</td>
+          <td style="font-size:12px;color:var(--text-secondary)">${p.last_commit || '—'}</td>
+          <td><span class="badge ${statusCls}">${statusText}</span></td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    init();
+  </script>
+</body>
+</html>

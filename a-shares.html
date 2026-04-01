@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A 股日报 — OpenClaw Dashboard</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+</head>
+<body>
+  <div class="header">
+    <h1>🇨🇳 A 股日报</h1>
+    <div class="updated" id="last-updated"></div>
+    <nav></nav>
+  </div>
+
+  <div class="container">
+    <!-- Indices -->
+    <div class="section">
+      <div class="section-title">主要指数</div>
+      <div class="grid-3" id="indices"></div>
+    </div>
+
+    <!-- Sectors treemap -->
+    <div class="section">
+      <div class="section-title">板块涨跌</div>
+      <div class="grid-2">
+        <div class="card">
+          <h2>涨幅前5</h2>
+          <div id="sectors-top" class="chart-container-sm"></div>
+        </div>
+        <div class="card">
+          <h2>跌幅前5</h2>
+          <div id="sectors-bottom" class="chart-container-sm"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Northbound -->
+    <div class="section">
+      <div class="section-title">北向资金</div>
+      <div class="card">
+        <div id="northbound-value" style="font-size:24px;font-family:var(--font-mono);margin-bottom:12px;"></div>
+        <div id="northbound-chart" class="chart-container-sm"></div>
+      </div>
+    </div>
+
+    <!-- News -->
+    <div class="section">
+      <div class="section-title">要闻</div>
+      <div class="card" id="news-list"></div>
+    </div>
+  </div>
+
+  <div class="footer">Powered by OpenClaw + AkShare | Auto-updated at 15:05 CST</div>
+
+  <script src="assets/common.js"></script>
+  <script>
+    renderNav('a-shares');
+
+    async function init() {
+      const data = await loadData('a-shares.json');
+      if (!data) {
+        document.getElementById('indices').innerHTML = '<div class="card"><p style="color:var(--text-muted)">暂无数据 — 等待收盘 Cron 执行</p></div>';
+        return;
+      }
+
+      document.getElementById('last-updated').textContent = `Updated: ${formatTime(data.updated_at)}`;
+
+      // Indices cards
+      const indicesEl = document.getElementById('indices');
+      (data.indices || []).forEach(idx => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `
+          <h2>${idx.name}</h2>
+          <div class="value">${formatNumber(idx.close)}</div>
+          <div class="change">${formatChange(idx.change_pct)}</div>
+          ${idx.volume ? `<div class="subtitle">成交额: ${idx.volume}</div>` : ''}
+        `;
+        indicesEl.appendChild(card);
+      });
+
+      // Sector bars
+      if (data.sectors_top5?.length) {
+        initChart('sectors-top', {
+          xAxis: { type: 'value', axisLabel: { formatter: '{value}%' } },
+          yAxis: { type: 'category', data: data.sectors_top5.map(s => s.name).reverse() },
+          series: [{ type: 'bar', data: data.sectors_top5.map(s => s.change_pct).reverse(),
+            itemStyle: { color: '#3fb950' }, barWidth: 20 }],
+          grid: { left: 80, right: 40, top: 10, bottom: 10 },
+        });
+      }
+
+      if (data.sectors_bottom5?.length) {
+        initChart('sectors-bottom', {
+          xAxis: { type: 'value', axisLabel: { formatter: '{value}%' } },
+          yAxis: { type: 'category', data: data.sectors_bottom5.map(s => s.name).reverse() },
+          series: [{ type: 'bar', data: data.sectors_bottom5.map(s => s.change_pct).reverse(),
+            itemStyle: { color: '#f85149' }, barWidth: 20 }],
+          grid: { left: 80, right: 40, top: 10, bottom: 10 },
+        });
+      }
+
+      // Northbound
+      if (data.northbound) {
+        const val = data.northbound.net_flow;
+        const cls = val >= 0 ? 'up' : 'down';
+        document.getElementById('northbound-value').innerHTML =
+          `净流入: <span class="${cls}">${val >= 0 ? '+' : ''}${val} ${data.northbound.unit}</span>`;
+      }
+
+      if (data.northbound_history?.length) {
+        initChart('northbound-chart', {
+          xAxis: { type: 'category', data: data.northbound_history.map(d => d.date) },
+          yAxis: { type: 'value', axisLabel: { formatter: '{value}亿' } },
+          series: [{ type: 'line', data: data.northbound_history.map(d => d.value), smooth: true,
+            areaStyle: { opacity: 0.15 }, lineStyle: { color: '#58a6ff' }, itemStyle: { color: '#58a6ff' } }],
+          grid: { left: 60, right: 20, top: 10, bottom: 30 },
+        });
+      }
+
+      // News
+      const newsList = document.getElementById('news-list');
+      if (data.news?.length) {
+        newsList.innerHTML = data.news.map(n => `
+          <div class="news-item">
+            <div class="source">${n.source || ''}</div>
+            <div class="title">${n.title}</div>
+            <div class="summary">${n.summary || ''}</div>
+          </div>
+        `).join('');
+      } else {
+        newsList.innerHTML = '<p style="color:var(--text-muted);padding:12px 0;">暂无要闻</p>';
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>

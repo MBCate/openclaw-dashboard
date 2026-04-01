@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-01",
+  "updated_at": "2026-04-01T21:30:00+08:00",
+  "indices": [
+    {"name": "S&P 500", "close": 5823.45, "change_pct": -0.52},
+    {"name": "NASDAQ", "close": 18567.23, "change_pct": -0.83},
+    {"name": "恒生指数", "close": 22134.56, "change_pct": 0.35},
+    {"name": "DAX", "close": 18234.12, "change_pct": 0.12}
+  ],
+  "crypto": [
+    {"name": "BTC", "price": 87523, "change_pct": 1.25},
+    {"name": "ETH", "price": 3215, "change_pct": 0.58}
+  ],
+  "news": [
+    {"title": "Fed signals potential rate cut in June amid cooling inflation", "source": "CNBC", "summary": "美联储暗示6月可能降息，通胀数据持续降温。", "url": ""},
+    {"title": "Trump tariff threats rattle global markets", "source": "WSJ", "summary": "特朗普关税威胁引发全球市场震荡，欧洲和亚洲股市承压。", "url": ""},
+    {"title": "DeepSeek AI sparks massive tech sell-off in US markets", "source": "Bloomberg", "summary": "DeepSeek 引发美股科技板块大幅回调，AI概念股全线下跌。", "url": ""},
+    {"title": "Oil prices surge as OPEC+ extends production cuts", "source": "Reuters", "summary": "OPEC+延长减产协议，原油价格大幅上涨。", "url": ""}
+  ]
+}

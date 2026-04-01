@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-01",
+  "updated_at": "2026-04-01T15:05:00+08:00",
+  "strategies": [
+    {"name": "DoubleMa", "signal_1h": "long", "signal_4h": "neutral", "daily_return": 0.52, "weekly_return": 2.1, "max_drawdown": -3.2, "sharpe": 1.82},
+    {"name": "TripleMa", "signal_1h": "long", "signal_4h": "neutral", "daily_return": 0.38, "weekly_return": 1.8, "max_drawdown": -2.8, "sharpe": 1.65},
+    {"name": "Supertrend", "signal_1h": "neutral", "signal_4h": "neutral", "daily_return": -0.15, "weekly_return": 0.9, "max_drawdown": -4.1, "sharpe": 1.12},
+    {"name": "RSI", "signal_1h": "neutral", "signal_4h": "neutral", "daily_return": 0.22, "weekly_return": 1.2, "max_drawdown": -3.5, "sharpe": 1.35},
+    {"name": "MACD", "signal_1h": "neutral", "signal_4h": "neutral", "daily_return": 0.08, "weekly_return": 0.5, "max_drawdown": -2.9, "sharpe": 0.95},
+    {"name": "Bollinger", "signal_1h": "neutral", "signal_4h": "neutral", "daily_return": -0.05, "weekly_return": 0.3, "max_drawdown": -3.8, "sharpe": 0.78},
+    {"name": "Momentum", "signal_1h": "short", "signal_4h": "neutral", "daily_return": -0.45, "weekly_return": -1.2, "max_drawdown": -5.1, "sharpe": 0.42},
+    {"name": "MeanReversion", "signal_1h": "neutral", "signal_4h": "neutral", "daily_return": 0.12, "weekly_return": 0.7, "max_drawdown": -2.5, "sharpe": 1.15}
+  ],
+  "equity_curve": [
+    {"date": "03-01", "value": 10000}, {"date": "03-05", "value": 10120},
+    {"date": "03-10", "value": 10350}, {"date": "03-15", "value": 10280},
+    {"date": "03-20", "value": 10520}, {"date": "03-25", "value": 10680},
+    {"date": "03-31", "value": 10850}, {"date": "04-01", "value": 10920}
+  ]
+}

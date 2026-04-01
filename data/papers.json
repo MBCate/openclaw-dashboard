@@ -1,0 +1,21 @@
+{
+  "date": "2026-04-01",
+  "updated_at": "2026-04-01T08:00:00+08:00",
+  "papers": [
+    {"title": "Efficient and Explainable End-to-End Autonomous Driving via Masked Modeling", "authors": "Zhang et al.", "arxiv_id": "2602.20577", "score": 5, "summary": "提出基于掩码建模的高效可解释端到端自动驾驶框架", "categories": ["end-to-end", "VLA"], "url": "https://arxiv.org/abs/2602.20577"},
+    {"title": "ResWorld: Temporal Residual World Model for E2E Autonomous Driving", "authors": "Li et al.", "arxiv_id": "2602.10884", "score": 5, "summary": "时序残差世界模型，减少静态区域建模提升规划精度", "categories": ["world-model", "end-to-end"], "url": "https://arxiv.org/abs/2602.10884"},
+    {"title": "Latent-WAM: Latent World Action Modeling for E2E Driving", "authors": "Wang et al.", "arxiv_id": "2603.24581", "score": 5, "summary": "基于潜在空间的世界-动作建模实现高效规划", "categories": ["world-model", "planning"], "url": "https://arxiv.org/abs/2603.24581"},
+    {"title": "Reconstruction Matters: Geometry-Aligned BEV for Perception", "authors": "Chen et al.", "arxiv_id": "2603.19193", "score": 4, "summary": "学习几何对齐的BEV表示超越端到端训练范式", "categories": ["BEV", "perception"], "url": "https://arxiv.org/abs/2603.19193"},
+    {"title": "CausalVAD: De-confounding E2E Driving via Causal Training", "authors": "Liu et al.", "arxiv_id": "2603.18561", "score": 4, "summary": "因果训练消除混淆变量提升驾驶模型可靠性", "categories": ["end-to-end", "causal"], "url": "https://arxiv.org/abs/2603.18561"},
+    {"title": "AlignDrive: Aligned Lateral-Longitudinal Planning for E2E Driving", "authors": "Zhou et al.", "arxiv_id": "2601.01762", "score": 4, "summary": "对齐横纵规划解决并行规划协调失败", "categories": ["planning", "end-to-end"], "url": "https://arxiv.org/abs/2601.01762"}
+  ],
+  "category_counts": {
+    "end-to-end": 5,
+    "world-model": 2,
+    "VLA": 1,
+    "BEV": 1,
+    "planning": 2,
+    "perception": 1,
+    "causal": 1
+  }
+}

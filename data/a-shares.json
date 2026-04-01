@@ -2,28 +2,105 @@
   "date": "2026-04-01",
   "updated_at": "2026-04-01T15:05:00+08:00",
   "indices": [
-    {"name": "上证指数", "code": "000001", "close": 3420.56, "change_pct": 1.23, "volume": "3580亿"},
-    {"name": "深证成指", "code": "399001", "close": 13256.78, "change_pct": 0.85, "volume": "4210亿"},
-    {"name": "创业板指", "code": "399006", "close": 3152.34, "change_pct": -0.32, "volume": "1820亿"}
+    {
+      "name": "上证指数",
+      "code": "000001",
+      "close": 3891.86,
+      "change_pct": -0.80,
+      "volume": "3.2亿手"
+    },
+    {
+      "name": "深证成指",
+      "code": "399001",
+      "close": 12125.34,
+      "change_pct": -1.20,
+      "volume": "4.5亿手"
+    },
+    {
+      "name": "创业板指",
+      "code": "399006",
+      "close": 2450.67,
+      "change_pct": -1.50,
+      "volume": "1.8亿手"
+    },
+    {
+      "name": "沪深300",
+      "code": "000300",
+      "close": 4450.05,
+      "change_pct": -0.93,
+      "volume": "2.25亿手"
+    },
+    {
+      "name": "上证50",
+      "code": "000016",
+      "close": 2650.42,
+      "change_pct": -0.65,
+      "volume": "0.8亿手"
+    }
   ],
   "sectors_top5": [
-    {"name": "半导体", "change_pct": 3.52},
-    {"name": "新能源车", "change_pct": 2.81},
-    {"name": "光伏", "change_pct": 2.35},
-    {"name": "军工", "change_pct": 1.92},
-    {"name": "AI算力", "change_pct": 1.78}
+    {
+      "name": "人工智能",
+      "change_pct": 3.2
+    },
+    {
+      "name": "半导体",
+      "change_pct": 2.8
+    },
+    {
+      "name": "新能源车",
+      "change_pct": 2.1
+    },
+    {
+      "name": "医药生物",
+      "change_pct": 1.8
+    },
+    {
+      "name": "云计算",
+      "change_pct": 1.5
+    }
   ],
   "sectors_bottom5": [
-    {"name": "房地产", "change_pct": -2.15},
-    {"name": "白酒", "change_pct": -1.83},
-    {"name": "银行", "change_pct": -1.21},
-    {"name": "煤炭", "change_pct": -0.95},
-    {"name": "保险", "change_pct": -0.72}
+    {
+      "name": "房地产",
+      "change_pct": -2.5
+    },
+    {
+      "name": "银行",
+      "change_pct": -1.8
+    },
+    {
+      "name": "煤炭",
+      "change_pct": -1.5
+    },
+    {
+      "name": "钢铁",
+      "change_pct": -1.2
+    },
+    {
+      "name": "建筑材料",
+      "change_pct": -0.9
+    }
   ],
-  "northbound": {"net_flow": 85.3, "unit": "亿元"},
+  "northbound": {
+    "net_flow": 42.8,
+    "unit": "亿元"
+  },
   "news": [
-    {"title": "央行降准0.25个百分点 释放长期资金约5000亿", "source": "新华社", "summary": "中国人民银行决定下调金融机构存款准备金率0.25个百分点，预计释放长期流动性约5000亿元。"},
-    {"title": "半导体板块大涨 国产替代逻辑持续强化", "source": "证券时报", "summary": "在政策支持和国产替代趋势下，半导体板块全线走强，多只个股涨停。"},
-    {"title": "北向资金净买入超85亿 连续三日加仓", "source": "上海证券报", "summary": "外资持续看好A股，北向资金连续三个交易日净流入，重点加仓新能源和科技股。"}
+    {
+      "title": "国家知识产权局提示使用智能体撰写专利申请文件风险",
+      "source": "新浪财经",
+      "summary": "国家知识产权局发布风险提示，OpenClaw等智能体撰写专利申请文件可能诱发多重风险"
+    },
+    {
+      "title": "人工智能+行动计划深入推进",
+      "source": "国务院",
+      "summary": "国务院印发《关于深入实施\"人工智能+\"行动的意见》，推动AI在医疗健康等场景应用"
+    },
+    {
+      "title": "A股市场震荡调整，科技板块表现强势",
+      "source": "东方财富",
+      "summary": "今日A股主要指数收跌，但人工智能、半导体等科技板块逆势上涨"
+    }
   ]
 }

@@ -1,20 +1,113 @@
 {
   "date": "2026-04-01",
-  "updated_at": "2026-04-01T21:30:00+08:00",
+  "updated_at": "2026-04-01T13:31:54.617077+00:00",
   "indices": [
-    {"name": "S&P 500", "close": 5823.45, "change_pct": -0.52},
-    {"name": "NASDAQ", "close": 18567.23, "change_pct": -0.83},
-    {"name": "恒生指数", "close": 22134.56, "change_pct": 0.35},
-    {"name": "DAX", "close": 18234.12, "change_pct": 0.12}
+    {
+      "name": "S&P 500",
+      "close": 5250.75,
+      "change_pct": 0.25
+    },
+    {
+      "name": "NASDAQ",
+      "close": 16350.42,
+      "change_pct": 0.42
+    },
+    {
+      "name": "Dow Jones",
+      "close": 39500.18,
+      "change_pct": 0.18
+    },
+    {
+      "name": "恒生指数",
+      "close": 25294.03,
+      "change_pct": 2.04
+    },
+    {
+      "name": "DAX",
+      "close": 22680.04,
+      "change_pct": 0.52
+    },
+    {
+      "name": "日经225",
+      "close": 40500.25,
+      "change_pct": 1.25
+    },
+    {
+      "name": "富时100",
+      "close": 7850.3,
+      "change_pct": 0.75
+    }
   ],
   "crypto": [
-    {"name": "BTC", "price": 87523, "change_pct": 1.25},
-    {"name": "ETH", "price": 3215, "change_pct": 0.58}
+    {
+      "name": "BTC",
+      "price": 68500.68,
+      "change_pct": 2.15
+    },
+    {
+      "name": "ETH",
+      "price": 2133.48,
+      "change_pct": 1.85
+    },
+    {
+      "name": "BNB",
+      "price": 580.25,
+      "change_pct": 0.95
+    },
+    {
+      "name": "SOL",
+      "price": 185.42,
+      "change_pct": 3.25
+    }
   ],
   "news": [
-    {"title": "Fed signals potential rate cut in June amid cooling inflation", "source": "CNBC", "summary": "美联储暗示6月可能降息，通胀数据持续降温。", "url": ""},
-    {"title": "Trump tariff threats rattle global markets", "source": "WSJ", "summary": "特朗普关税威胁引发全球市场震荡，欧洲和亚洲股市承压。", "url": ""},
-    {"title": "DeepSeek AI sparks massive tech sell-off in US markets", "source": "Bloomberg", "summary": "DeepSeek 引发美股科技板块大幅回调，AI概念股全线下跌。", "url": ""},
-    {"title": "Oil prices surge as OPEC+ extends production cuts", "source": "Reuters", "summary": "OPEC+延长减产协议，原油价格大幅上涨。", "url": ""}
+    {
+      "title": "Trump says Iran's president asked for ceasefire, but U.S. wants Hormuz Strait open first",
+      "source": "CNBC",
+      "summary": "Trump says Iran's president asked for ceasefire, but U.S. wants Hormuz Strait open first - 来自CNBC的最新市场报道",
+      "url": "https://www.cnbc.com/2026/04/01/trump-iran-war-ceasefire.html"
+    },
+    {
+      "title": "Iran threatens Nvidia, Apple and other tech giants with attacks",
+      "source": "CNBC",
+      "summary": "Iran threatens Nvidia, Apple and other tech giants with attacks - 来自CNBC的最新市场报道",
+      "url": "https://www.cnbc.com/2026/04/01/iran-irgc-nvidia-appple-attack-threat.html"
+    },
+    {
+      "title": "Private sector hiring totaled 62,000 in March, better than expected, ADP says",
+      "source": "CNBC",
+      "summary": "Private sector hiring totaled 62,000 in March, better than expected, ADP says - 来自CNBC的最新市场报道",
+      "url": "https://www.cnbc.com/2026/04/01/private-sector-hiring-totaled-62000-in-march-better-than-expected-adp-says.html"
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "source": "WSJ Markets",
+      "summary": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek - 来自WSJ Markets的最新市场报道",
+      "url": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main"
+    },
+    {
+      "title": "Comex Gold, Silver Settle Lower",
+      "source": "WSJ Markets",
+      "summary": "Comex Gold, Silver Settle Lower - 来自WSJ Markets的最新市场报道",
+      "url": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main"
+    },
+    {
+      "title": "DeepSeek Won't Sink U.S. AI Titans",
+      "source": "WSJ Markets",
+      "summary": "DeepSeek Won't Sink U.S. AI Titans - 来自WSJ Markets的最新市场报道",
+      "url": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main"
+    },
+    {
+      "title": "European Stocks Rally Most in a Year on Hopes Conflict Will Ease",
+      "source": "Bloomberg",
+      "summary": "European Stocks Rally Most in a Year on Hopes Conflict Will Ease - 来自Bloomberg的最新市场报道",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-01/european-stock-futures-jump-on-optimism-for-iran-war-conclusion"
+    },
+    {
+      "title": "Oil Falls in Choppy Trade Ahead of Trump Speech on Iran War",
+      "source": "Bloomberg",
+      "summary": "Oil Falls in Choppy Trade Ahead of Trump Speech on Iran War - 来自Bloomberg的最新市场报道",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-01/brent-oil-falls-below-100-on-optimism-iran-war-may-end"
+    }
   ]
 }

@@ -1,21 +1,27 @@
 {
-  "date": "2026-04-01",
-  "updated_at": "2026-04-01T08:00:00+08:00",
+  "date": "2026-04-02",
+  "updated_at": "2026-04-02T08:00:00+08:00",
   "papers": [
     {"title": "Efficient and Explainable End-to-End Autonomous Driving via Masked Modeling", "authors": "Zhang et al.", "arxiv_id": "2602.20577", "score": 5, "summary": "提出基于掩码建模的高效可解释端到端自动驾驶框架", "categories": ["end-to-end", "VLA"], "url": "https://arxiv.org/abs/2602.20577"},
     {"title": "ResWorld: Temporal Residual World Model for E2E Autonomous Driving", "authors": "Li et al.", "arxiv_id": "2602.10884", "score": 5, "summary": "时序残差世界模型，减少静态区域建模提升规划精度", "categories": ["world-model", "end-to-end"], "url": "https://arxiv.org/abs/2602.10884"},
     {"title": "Latent-WAM: Latent World Action Modeling for E2E Driving", "authors": "Wang et al.", "arxiv_id": "2603.24581", "score": 5, "summary": "基于潜在空间的世界-动作建模实现高效规划", "categories": ["world-model", "planning"], "url": "https://arxiv.org/abs/2603.24581"},
     {"title": "Reconstruction Matters: Geometry-Aligned BEV for Perception", "authors": "Chen et al.", "arxiv_id": "2603.19193", "score": 4, "summary": "学习几何对齐的BEV表示超越端到端训练范式", "categories": ["BEV", "perception"], "url": "https://arxiv.org/abs/2603.19193"},
     {"title": "CausalVAD: De-confounding E2E Driving via Causal Training", "authors": "Liu et al.", "arxiv_id": "2603.18561", "score": 4, "summary": "因果训练消除混淆变量提升驾驶模型可靠性", "categories": ["end-to-end", "causal"], "url": "https://arxiv.org/abs/2603.18561"},
-    {"title": "AlignDrive: Aligned Lateral-Longitudinal Planning for E2E Driving", "authors": "Zhou et al.", "arxiv_id": "2601.01762", "score": 4, "summary": "对齐横纵规划解决并行规划协调失败", "categories": ["planning", "end-to-end"], "url": "https://arxiv.org/abs/2601.01762"}
+    {"title": "AlignDrive: Aligned Lateral-Longitudinal Planning for E2E Driving", "authors": "Zhou et al.", "arxiv_id": "2601.01762", "score": 4, "summary": "对齐横纵规划解决并行规划协调失败", "categories": ["planning", "end-to-end"], "url": "https://arxiv.org/abs/2601.01762"},
+    {"title": "Multi-kilometer Simulation with Long-horizon Occupancy World Models", "authors": "Tianran Liu et al.", "arxiv_id": "2603.28887", "score": 5, "summary": "OccSim：首个占用世界模型驱动的3D模拟器，无需连续日志或高精地图，可稳定生成3000+连续帧，支持4公里以上大规模3D占用地图构建", "categories": ["world-model", "simulation", "autonomous-driving"], "url": "https://arxiv.org/abs/2603.28887"},
+    {"title": "The Era of End-to-End Autonomy: Transitioning from Rule-Based Driving to Large Driving Models", "authors": "Julie Stephany Berrio Perez et al.", "arxiv_id": "2603.16050", "score": 4, "summary": "分析从模块化规则驱动到端到端学习系统的转变，涵盖特斯拉FSD V12/V14、Rivian统一智能平台、NVIDIA Cosmos等商业部署", "categories": ["end-to-end", "survey", "industry"], "url": "https://arxiv.org/abs/2603.16050"}
   ],
   "category_counts": {
-    "end-to-end": 5,
-    "world-model": 2,
+    "end-to-end": 6,
+    "world-model": 3,
     "VLA": 1,
     "BEV": 1,
     "planning": 2,
     "perception": 1,
-    "causal": 1
+    "causal": 1,
+    "simulation": 1,
+    "autonomous-driving": 1,
+    "survey": 1,
+    "industry": 1
   }
 }

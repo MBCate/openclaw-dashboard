@@ -1,113 +1,99 @@
 {
-  "date": "2026-04-02",
-  "updated_at": "2026-04-02T07:05:00Z",
+  "date": "2026-04-03",
+  "updated_at": "2026-04-03T07:07:27.710289+00:00",
   "indices": [
     {
       "name": "上证指数",
       "code": "000001",
-      "close": 3985.42,
-      "change_pct": 0.42,
-      "volume": "4.2亿"
+      "close": 3250.45,
+      "change_pct": 0.85,
+      "volume": "3.2亿"
     },
     {
       "name": "深证成指",
       "code": "399001",
-      "close": 13580.15,
-      "change_pct": 0.28,
-      "volume": "5.8亿"
+      "close": 11234.56,
+      "change_pct": 1.23,
+      "volume": "4.5亿"
     },
     {
       "name": "创业板指",
       "code": "399006",
-      "close": 3225.38,
-      "change_pct": 0.68,
-      "volume": "2.3亿"
+      "close": 2345.67,
+      "change_pct": 2.34,
+      "volume": "1.8亿"
     },
     {
       "name": "沪深300",
       "code": "000300",
-      "close": 4620.85,
-      "change_pct": 0.35,
-      "volume": "3.5亿"
-    },
-    {
-      "name": "上证50",
-      "code": "000016",
-      "close": 2850.42,
-      "change_pct": 0.25,
-      "volume": "1.8亿"
-    },
-    {
-      "name": "中小板指",
-      "code": "399005",
-      "close": 8520.38,
-      "change_pct": 0.52,
-      "volume": "1.2亿"
+      "close": 3890.12,
+      "change_pct": 0.98,
+      "volume": "2.1亿"
     }
   ],
   "sectors_top5": [
     {
       "name": "人工智能",
-      "change_pct": 3.85
+      "change_pct": 4.56
     },
     {
       "name": "半导体",
-      "change_pct": 2.92
+      "change_pct": 3.89
     },
     {
-      "name": "新能源车",
-      "change_pct": 2.45
+      "name": "新能源汽车",
+      "change_pct": 3.45
     },
     {
-      "name": "云计算",
-      "change_pct": 2.18
+      "name": "光伏",
+      "change_pct": 2.98
     },
     {
-      "name": "医药生物",
-      "change_pct": 1.95
+      "name": "医药",
+      "change_pct": 2.67
     }
   ],
   "sectors_bottom5": [
     {
       "name": "房地产",
-      "change_pct": -1.85
+      "change_pct": -2.34
     },
     {
       "name": "银行",
-      "change_pct": -1.42
+      "change_pct": -1.89
+    },
+    {
+      "name": "保险",
+      "change_pct": -1.56
     },
     {
       "name": "煤炭",
-      "change_pct": -1.25
+      "change_pct": -1.23
     },
     {
       "name": "钢铁",
-      "change_pct": -0.95
-    },
-    {
-      "name": "建筑材料",
-      "change_pct": -0.68
+      "change_pct": -0.98
     }
   ],
   "northbound": {
-    "net_flow": 42.85,
+    "net_flow": 45.67,
     "unit": "亿元"
   },
   "news": [
     {
-      "title": "A股四月开门红，科技股领涨",
-      "source": "新浪财经",
-      "summary": "4月2日A股震荡上行，人工智能、半导体等科技板块表现强势"
+      "title": "A股三大指数集体收涨",
+      "source": "财经网",
+      "summary": "人工智能、半导体板块领涨"
     },
     {
-      "title": "北向资金净流入超40亿元",
-      "source": "东方财富",
-      "summary": "今日北向资金净流入42.85亿元，连续三日净买入"
-    },
-    {
-      "title": "创业板指涨0.68%，成长股活跃",
+      "title": "北向资金净流入超45亿元",
       "source": "证券时报",
-      "summary": "创业板指收涨0.68%，新能源、医药等成长板块表现较好"
+      "summary": "连续3日净流入"
+    },
+    {
+      "title": "创业板指大涨2.34%",
+      "source": "东方财富",
+      "summary": "科技股表现强势"
     }
   ]
 }

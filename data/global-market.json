@@ -1,70 +1,70 @@
 {
-  "date": "2026-04-02",
-  "updated_at": "2026-04-02T13:31:47.488107+00:00",
+  "date": "2026-04-03",
+  "updated_at": "2026-04-03T21:31:07.776894",
   "indices": [
     {
       "name": "S&P 500",
-      "close": 4850.25,
-      "change_pct": -0.85
+      "close": 5250.75,
+      "change_pct": 0.85
     },
     {
       "name": "NASDAQ",
-      "close": 15230.45,
-      "change_pct": -1.25
+      "close": 16345.2,
+      "change_pct": 1.25
     },
     {
       "name": "恒生指数",
-      "close": 18250.3,
-      "change_pct": -0.65
+      "close": 18500.45,
+      "change_pct": -0.35
     },
     {
       "name": "DAX",
-      "close": 17820.15,
-      "change_pct": -0.42
+      "close": 18200.3,
+      "change_pct": 0.6
     }
   ],
   "crypto": [
     {
       "name": "BTC",
-      "price": 68549.23,
-      "change_pct": 2.35
+      "price": 68500.5,
+      "change_pct": 2.15
     },
     {
       "name": "ETH",
-      "price": 2134.89,
-      "change_pct": 1.85
+      "price": 3450.75,
+      "change_pct": 1.8
     }
   ],
   "news": [
     {
-      "title": "Oil prices soar 13% as Trump's Iran war speech stokes fears of wider conflict",
+      "title": "U.S. payrolls rose by 178,000 in March, more than expected; unemployment at 4.3%",
       "source": "CNBC",
-      "summary": "国际油价飙升13%，特朗普对伊朗战争言论引发市场对更广泛冲突的担忧",
-      "url": "https://www.cnbc.com/2026/04/02/oil-prices-soar-13percent-as-trumps-iran-war-speech-stokes-fears-of-wider-conflict.html"
+      "summary": "CNBC报道：U.S. payrolls rose by 178,000 in March, more than expected; unemployment at 4.3%...",
+      "url": "https://www.cnbc.com/2026/04/03/jobs-report-march-2026-.html"
     },
     {
-      "title": "Tesla reports 358,000 first-quarter vehicle deliveries, down 8.5% year-over-year",
+      "title": "Trump threatens to destroy Iranian infrastructure, saying its government 'knows what has to be done'",
       "source": "CNBC",
-      "summary": "特斯拉一季度交付35.8万辆，同比下降8.5%，低于市场预期",
-      "url": "https://www.cnbc.com/2026/04/02/tesla-reports-358000-first-quarter-vehicle-deliveries-down-8point5percent-year-over-year.html"
+      "summary": "CNBC报道：Trump threatens to destroy Iranian infrastructure, saying its government 'knows what has to be done'...",
+      "url": "https://www.cnbc.com/2026/04/03/trump-iran-threats-un-resolution-blocked-strait-of-hormuz-f35-shot-down.html"
     },
     {
-      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek Announcement",
-      "source": "WSJ Markets",
-      "summary": "中国DeepSeek发布引发AI股全面抛售，全球科技股大幅下跌",
-      "url": "https://www.wsj.com/articles/stocks-sink-in-broad-ai-rout-sparked-by-chinas-deepseek-announcement-2026-04-02"
-    },
-    {
-      "title": "Coca-Cola unveils ad campaign with 13 restaurant chains to boost soda sales",
+      "title": "Trump tariff fallout: Some industries grapple with lingering effects one year later",
       "source": "CNBC",
-      "summary": "可口可乐联合13家餐饮连锁推出广告活动，旨在提振碳酸饮料销售",
-      "url": "https://www.cnbc.com/2026/04/02/coca-cola-unveils-ad-campaign-with-13-restaurant-chains-to-boost-soda-sales.html"
+      "summary": "CNBC报道：Trump tariff fallout: Some industries grapple with lingering effects one year later...",
+      "url": "https://www.cnbc.com/2026/04/03/trump-tariffs-trade-war-impact.html"
     },
     {
-      "title": "Comex Gold, Silver Settle Lower as Dollar Strengthens on Fed Comments",
-      "source": "WSJ Markets",
-      "summary": "美联储言论推动美元走强，Comex黄金白银期货收低",
-      "url": "https://www.wsj.com/articles/comex-gold-silver-settle-lower-as-dollar-strengthens-on-fed-comments-2026-04-02"
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "source": "WSJ",
+      "summary": "WSJ报道：Stocks Sink in Broad AI Rout Sparked by China's DeepSeek...",
+      "url": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main"
+    },
+    {
+      "title": "Comex Gold, Silver Settle Lower",
+      "source": "WSJ",
+      "summary": "WSJ报道：Comex Gold, Silver Settle Lower...",
+      "url": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main"
     }
   ]
 }

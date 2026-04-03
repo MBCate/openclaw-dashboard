@@ -1,88 +1,108 @@
 {
-  "date": "2026-04-02",
-  "updated_at": "2026-04-02T07:05:00Z",
+  "date": "2026-04-03",
+  "updated_at": "2026-04-03T07:07:01.006842+00:00",
   "strategies": [
     {
       "name": "DoubleMa",
       "signal_1h": "long",
-      "signal_4h": "neutral",
-      "daily_return": 0.42,
-      "weekly_return": 2.15,
-      "max_drawdown": -1.83,
-      "sharpe": 1.28
+      "signal_4h": "long",
+      "daily_return": 0.85,
+      "weekly_return": 2.34,
+      "max_drawdown": -1.23,
+      "sharpe": 1.45
     },
     {
       "name": "TripleMa",
-      "signal_1h": "long",
-      "signal_4h": "neutral",
-      "daily_return": 0.38,
-      "weekly_return": 1.92,
+      "signal_1h": "neutral",
+      "signal_4h": "short",
+      "daily_return": -0.32,
+      "weekly_return": 1.56,
       "max_drawdown": -2.15,
-      "sharpe": 1.15
+      "sharpe": 0.89
     },
     {
       "name": "Supertrend",
-      "signal_1h": "neutral",
-      "signal_4h": "neutral",
-      "daily_return": 0.12,
-      "weekly_return": 0.85,
-      "max_drawdown": -1.42,
-      "sharpe": 0.92
+      "signal_1h": "short",
+      "signal_4h": "short",
+      "daily_return": -1.23,
+      "weekly_return": -0.45,
+      "max_drawdown": -3.42,
+      "sharpe": 0.67
     },
     {
       "name": "RSI",
-      "signal_1h": "neutral",
+      "signal_1h": "long",
       "signal_4h": "neutral",
-      "daily_return": -0.08,
-      "weekly_return": 0.42,
-      "max_drawdown": -2.85,
-      "sharpe": 0.68
+      "daily_return": 0.56,
+      "weekly_return": 1.89,
+      "max_drawdown": -1.89,
+      "sharpe": 1.12
     },
     {
       "name": "MACD",
       "signal_1h": "neutral",
-      "signal_4h": "neutral",
-      "daily_return": 0.21,
-      "weekly_return": 1.28,
-      "max_drawdown": -1.95,
-      "sharpe": 1.05
+      "signal_4h": "long",
+      "daily_return": 0.42,
+      "weekly_return": 2.01,
+      "max_drawdown": -1.56,
+      "sharpe": 1.34
     },
     {
       "name": "Bollinger",
-      "signal_1h": "neutral",
-      "signal_4h": "neutral",
-      "daily_return": 0.15,
-      "weekly_return": 0.92,
-      "max_drawdown": -1.68,
-      "sharpe": 0.88
+      "signal_1h": "long",
+      "signal_4h": "long",
+      "daily_return": 0.91,
+      "weekly_return": 2.45,
+      "max_drawdown": -0.98,
+      "sharpe": 1.67
     },
     {
       "name": "Momentum",
       "signal_1h": "short",
-      "signal_4h": "neutral",
-      "daily_return": -0.32,
-      "weekly_return": -0.85,
-      "max_drawdown": -3.42,
-      "sharpe": 0.42
+      "signal_4h": "short",
+      "daily_return": -0.78,
+      "weekly_return": -1.23,
+      "max_drawdown": -2.89,
+      "sharpe": 0.45
     },
     {
       "name": "MeanReversion",
       "signal_1h": "neutral",
       "signal_4h": "neutral",
-      "daily_return": 0.08,
-      "weekly_return": 0.65,
-      "max_drawdown": -2.15,
-      "sharpe": 0.75
+      "daily_return": 0.12,
+      "weekly_return": 0.89,
+      "max_drawdown": -1.34,
+      "sharpe": 0.78
     }
   ],
   "equity_curve": [
-    {"date": "03-26", "value": 100000},
-    {"date": "03-27", "value": 100420},
-    {"date": "03-28", "value": 101150},
-    {"date": "03-29", "value": 100850},
-    {"date": "03-30", "value": 101520},
-    {"date": "03-31", "value": 102150},
-    {"date": "04-01", "value": 101880},
-    {"date": "04-02", "value": 102350}
+    {
+      "date": "04-07",
+      "value": 8641.93
+    },
+    {
+      "date": "04-06",
+      "value": 8802.27
+    },
+    {
+      "date": "04-05",
+      "value": 9821.31
+    },
+    {
+      "date": "04-04",
+      "value": 11111.62
+    },
+    {
+      "date": "04-03",
+      "value": 9642.22
+    },
+    {
+      "date": "04-02",
+      "value": 9880.6
+    },
+    {
+      "date": "04-01",
+      "value": 10283.6
+    }
   ]
 }

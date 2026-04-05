@@ -53,5 +53,60 @@
     "score": 4,
     "status": "新发现",
     "published": "2025-01-20"
+  },
+  {
+    "arxiv_id": "2603.25740",
+    "title": "Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving",
+    "authors": ["Jiachen Li", "et al."],
+    "summary": "提出Drive My Way (DMW)框架，实现个性化VLA驾驶系统，能够适应个体驾驶习惯和实时用户指令。在Bench2Drive基准测试中展示优秀的风格指令适应能力。",
+    "categories": ["cs.RO", "cs.AI", "cs.CV", "cs.LG", "cs.MA"],
+    "url": "https://arxiv.org/abs/2603.25740",
+    "score": 5,
+    "status": "新发现",
+    "published": "2026-03-26"
+  },
+  {
+    "arxiv_id": "2604.02190",
+    "title": "Unifying Understanding, Perception, and Action Planning for Autonomous Driving",
+    "authors": ["Yongkang Li", "Lijun Zhou", "Sixu Yan", "et al."],
+    "summary": "提出UniDriveVLA，基于Mixture-of-Transformers的统一驾驶VLA模型，通过专家解耦解决感知-推理冲突。在nuScenes和Bench2Drive基准测试中达到SOTA性能。",
+    "categories": ["cs.CV", "cs.RO"],
+    "url": "https://arxiv.org/abs/2604.02190",
+    "score": 5,
+    "status": "新发现",
+    "published": "2026-04-02"
+  },
+  {
+    "arxiv_id": "2604.02241",
+    "title": "Embodied Aerial Tracking via Vision-Language-Action Models",
+    "authors": ["Qiyao Zhang", "et al."],
+    "summary": "提出UAV-Track VLA模型，用于无人机视觉语言动作跟踪，解决时序特征冗余和空间几何先验缺乏问题。在CARLA模拟器中验证端到端性能。",
+    "categories": ["cs.CV", "cs.RO"],
+    "url": "https://arxiv.org/abs/2604.02241",
+    "score": 4,
+    "status": "新发现",
+    "published": "2026-04-02"
+  },
+  {
+    "arxiv_id": "2604.02060",
+    "title": "Intent-Driven 3D Affordance Grounding in Functionally Competing Objects",
+    "authors": ["Jingliang Li", "et al."],
+    "summary": "提出CompassNet框架，解决功能竞争对象中的意图驱动3D可供性接地问题。在CompassAD基准测试中达到SOTA结果，在真实机器人操作中展示有效迁移。",
+    "categories": ["cs.CV", "cs.RO"],
+    "url": "https://arxiv.org/abs/2604.02060",
+    "score": 4,
+    "status": "新发现",
+    "published": "2026-04-02"
+  },
+  {
+    "arxiv_id": "2604.01966",
+    "title": "Ego-Grounding for Personalized Question-Answering in Egocentric Videos",
+    "authors": ["Junbin Xiao", "et al."],
+    "summary": "提出MyEgo数据集，系统分析MLLM在自我接地个性化问答中的能力。当前最佳模型在MyEgo上仅达到46%准确率，落后人类性能约40%。",
+    "categories": ["cs.CV", "cs.AI", "cs.RO"],
+    "url": "https://arxiv.org/abs/2604.01966",
+    "score": 4,
+    "status": "新发现",
+    "published": "2026-04-02"
   }
 ]

@@ -1,70 +1,142 @@
 {
-  "date": "2026-04-03",
-  "updated_at": "2026-04-03T21:31:07.776894",
-  "indices": [
-    {
-      "name": "S&P 500",
-      "close": 5250.75,
-      "change_pct": 0.85
+  "timestamp": "2026-04-05T13:30:57.923157+00:00",
+  "last_updated": "2026-04-05 13:30:57 UTC",
+  "us_markets": {
+    "sp500": {
+      "value": 5234.18,
+      "change": "+15.32",
+      "change_percent": "+0.29%",
+      "status": "open"
     },
-    {
-      "name": "NASDAQ",
-      "close": 16345.2,
-      "change_pct": 1.25
+    "nasdaq": {
+      "value": 16302.76,
+      "change": "+42.18",
+      "change_percent": "+0.26%",
+      "status": "open"
     },
-    {
-      "name": "恒生指数",
-      "close": 18500.45,
-      "change_pct": -0.35
-    },
-    {
-      "name": "DAX",
-      "close": 18200.3,
-      "change_pct": 0.6
+    "dow_jones": {
+      "value": 39170.42,
+      "change": "+87.21",
+      "change_percent": "+0.22%",
+      "status": "open"
     }
-  ],
-  "crypto": [
-    {
-      "name": "BTC",
-      "price": 68500.5,
-      "change_pct": 2.15
+  },
+  "crypto": {
+    "btc": {
+      "price": 67432.5,
+      "change_24h": "+2.15%",
+      "market_cap": "1.32T"
     },
-    {
-      "name": "ETH",
-      "price": 3450.75,
-      "change_pct": 1.8
+    "eth": {
+      "price": 3345.8,
+      "change_24h": "+1.87%",
+      "market_cap": "402B"
     }
-  ],
+  },
   "news": [
     {
-      "title": "U.S. payrolls rose by 178,000 in March, more than expected; unemployment at 4.3%",
       "source": "CNBC",
-      "summary": "CNBC报道：U.S. payrolls rose by 178,000 in March, more than expected; unemployment at 4.3%...",
-      "url": "https://www.cnbc.com/2026/04/03/jobs-report-march-2026-.html"
+      "title": "Trump says rescued U.S. airman 'seriously wounded,' threatens to strike Iran power plants and bridges",
+      "link": "https://www.cnbc.com/2026/04/05/us-trump-confirms-missing-us-pilot-rescued.html",
+      "published": "Sun, 05 Apr 2026 13:11:46 GMT",
+      "summary": "Trump says the officer was rescued \"deep in Enemy Territory\" in mountainous terrain."
     },
     {
-      "title": "Trump threatens to destroy Iranian infrastructure, saying its government 'knows what has to be done'",
       "source": "CNBC",
-      "summary": "CNBC报道：Trump threatens to destroy Iranian infrastructure, saying its government 'knows what has to be done'...",
-      "url": "https://www.cnbc.com/2026/04/03/trump-iran-threats-un-resolution-blocked-strait-of-hormuz-f35-shot-down.html"
+      "title": "Chinese chip firms hit record high revenue driven by the AI boom and U.S. curbs",
+      "link": "https://www.cnbc.com/2026/04/03/chinese-chip-firms-record-revenue-ai-boom-us-curbs.html",
+      "published": "Fri, 03 Apr 2026 05:00:01 GMT",
+      "summary": "Chinese chip companies have benefited from strong domestic demand for AI as U.S. tech curbs have bolstered local firms."
     },
     {
-      "title": "Trump tariff fallout: Some industries grapple with lingering effects one year later",
       "source": "CNBC",
-      "summary": "CNBC报道：Trump tariff fallout: Some industries grapple with lingering effects one year later...",
-      "url": "https://www.cnbc.com/2026/04/03/trump-tariffs-trade-war-impact.html"
+      "title": "'Anything but autos': Can defense save Europe’s ailing car industry?",
+      "link": "https://www.cnbc.com/2026/04/05/autos-defense-europe-car-industry.html",
+      "published": "Sun, 05 Apr 2026 05:00:01 GMT",
+      "summary": "The transition from wheels to weapons is achievable in part because many of the underlying skills are highly transferable, according to experts."
     },
     {
+      "source": "CNBC",
+      "title": "'Silent killers': How AI start-ups are trying to solve one of the retail industry's biggest problems",
+      "link": "https://www.cnbc.com/2026/04/05/ai-retail-start-ups-virtual-try-on-tech-margins.html",
+      "published": "Sun, 05 Apr 2026 12:37:57 GMT",
+      "summary": "The rapid evolution of generative AI has finally made these applications good enough to meaningfully impact retailers' bottom lines."
+    },
+    {
+      "source": "CNBC",
+      "title": "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course",
+      "link": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html",
+      "published": "Sat, 04 Apr 2026 13:19:30 GMT",
+      "summary": "A Senate committee will consider Kevin Warsh's nomination even as one of its members still plans to block it."
+    },
+    {
+      "source": "WSJ",
       "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
-      "source": "WSJ",
-      "summary": "WSJ报道：Stocks Sink in Broad AI Rout Sparked by China's DeepSeek...",
-      "url": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main"
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025 14:26:00 -0500",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia was down 16%."
     },
     {
-      "title": "Comex Gold, Silver Settle Lower",
       "source": "WSJ",
-      "summary": "WSJ报道：Comex Gold, Silver Settle Lower...",
-      "url": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main"
+      "title": "Comex Gold, Silver Settle Lower",
+      "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025 14:01:00 -0500",
+      "summary": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions."
+    },
+    {
+      "source": "WSJ",
+      "title": "DeepSeek Won't Sink U.S. AI Titans",
+      "link": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025 13:12:00 -0500",
+      "summary": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown."
+    },
+    {
+      "source": "WSJ",
+      "title": "Financial Services Roundup: Market Talk",
+      "link": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025 12:27:00 -0500",
+      "summary": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services."
+    },
+    {
+      "source": "WSJ",
+      "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
+      "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025 12:20:00 -0500",
+      "summary": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump’s threats to impose tariffs and economic sanctions on Colombia."
     }
-  ]
+  ],
+  "asia_markets": {
+    "shanghai": {
+      "value": 3069.3,
+      "change": "-0.18%",
+      "status": "closed"
+    },
+    "hang_seng": {
+      "value": 16723.92,
+      "change": "+0.57%",
+      "status": "closed"
+    },
+    "nikkei": {
+      "value": 39347.04,
+      "change": "+0.50%",
+      "status": "closed"
+    }
+  },
+  "europe_markets": {
+    "ftse": {
+      "value": 7915.16,
+      "change": "+0.41%",
+      "status": "open"
+    },
+    "dax": {
+      "value": 18261.31,
+      "change": "+0.33%",
+      "status": "open"
+    },
+    "cac": {
+      "value": 8151.92,
+      "change": "+0.28%",
+      "status": "open"
+    }
+  }
 }

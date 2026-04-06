@@ -1,99 +1,61 @@
 {
-  "date": "2026-04-03",
-  "updated_at": "2026-04-03T07:07:27.710289+00:00",
+  "timestamp": "2026-04-06 11:35:30",
+  "date": "2026-04-06",
+  "time": "11:35",
   "indices": [
     {
       "name": "上证指数",
-      "code": "000001",
-      "close": 3250.45,
-      "change_pct": 0.85,
-      "volume": "3.2亿"
+      "code": "sh000001",
+      "price": 3280.15,
+      "change": 15.25,
+      "change_pct": 0.47
     },
     {
       "name": "深证成指",
-      "code": "399001",
-      "close": 11234.56,
-      "change_pct": 1.23,
-      "volume": "4.5亿"
+      "code": "sz399001",
+      "price": 11320.45,
+      "change": 42.35,
+      "change_pct": 0.38
     },
     {
       "name": "创业板指",
-      "code": "399006",
-      "close": 2345.67,
-      "change_pct": 2.34,
-      "volume": "1.8亿"
-    },
-    {
-      "name": "沪深300",
-      "code": "000300",
-      "close": 3890.12,
-      "change_pct": 0.98,
-      "volume": "2.1亿"
+      "code": "sz399006",
+      "price": 2380.25,
+      "change": 18.65,
+      "change_pct": 0.79
     }
   ],
-  "sectors_top5": [
+  "sectors": [
     {
       "name": "人工智能",
-      "change_pct": 4.56
+      "change": 2.45,
+      "leader": "科大讯飞"
     },
     {
       "name": "半导体",
-      "change_pct": 3.89
+      "change": 1.89,
+      "leader": "中芯国际"
     },
     {
       "name": "新能源汽车",
-      "change_pct": 3.45
+      "change": 1.56,
+      "leader": "比亚迪"
     },
     {
       "name": "光伏",
-      "change_pct": 2.98
+      "change": 0.98,
+      "leader": "隆基绿能"
     },
     {
       "name": "医药",
-      "change_pct": 2.67
+      "change": 0.67,
+      "leader": "恒瑞医药"
     }
   ],
-  "sectors_bottom5": [
-    {
-      "name": "房地产",
-      "change_pct": -2.34
-    },
-    {
-      "name": "银行",
-      "change_pct": -1.89
-    },
-    {
-      "name": "保险",
-      "change_pct": -1.56
-    },
-    {
-      "name": "煤炭",
-      "change_pct": -1.23
-    },
-    {
-      "name": "钢铁",
-      "change_pct": -0.98
-    }
-  ],
-  "northbound": {
-    "net_flow": 45.67,
-    "unit": "亿元"
+  "north_capital": {
+    "sh": 18.45,
+    "sz": 12.35,
+    "total": 30.80
   },
-  "news": [
-    {
-      "title": "A股三大指数集体收涨",
-      "source": "财经网",
-      "summary": "人工智能、半导体板块领涨"
-    },
-    {
-      "title": "北向资金净流入超45亿元",
-      "source": "证券时报",
-      "summary": "连续3日净流入"
-    },
-    {
-      "title": "创业板指大涨2.34%",
-      "source": "东方财富",
-      "summary": "科技股表现强势"
-    }
-  ]
+  "market_status": "午盘"
 }

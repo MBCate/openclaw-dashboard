@@ -1,142 +1,223 @@
 {
-  "timestamp": "2026-04-05T13:30:57.923157+00:00",
-  "last_updated": "2026-04-05 13:30:57 UTC",
+  "timestamp": "2026-04-06T01:16:00.000000+00:00",
+  "last_updated": "2026-04-06 09:16:00 Asia/Shanghai",
   "us_markets": {
     "sp500": {
       "value": 5234.18,
       "change": "+15.32",
       "change_percent": "+0.29%",
-      "status": "open"
+      "status": "closed",
+      "futures": "-0.12%",
+      "note": "隔夜期货小幅下跌，关注特朗普伊朗言论影响"
     },
     "nasdaq": {
       "value": 16302.76,
       "change": "+42.18",
       "change_percent": "+0.26%",
-      "status": "open"
+      "status": "closed",
+      "futures": "-0.15%",
+      "note": "科技股盘前承压，存储板块夜盘上行"
     },
     "dow_jones": {
       "value": 39170.42,
       "change": "+87.21",
       "change_percent": "+0.22%",
-      "status": "open"
+      "status": "closed",
+      "futures": "-0.08%",
+      "note": "道指期货微跌，市场关注地缘政治风险"
     }
   },
   "crypto": {
     "btc": {
       "price": 67432.5,
       "change_24h": "+2.15%",
-      "market_cap": "1.32T"
+      "market_cap": "1.32T",
+      "note": "加密货币全线大涨，8万人爆仓"
     },
     "eth": {
       "price": 3345.8,
       "change_24h": "+1.87%",
-      "market_cap": "402B"
+      "market_cap": "402B",
+      "note": "以太坊跟随比特币上涨"
     }
   },
-  "news": [
-    {
-      "source": "CNBC",
-      "title": "Trump says rescued U.S. airman 'seriously wounded,' threatens to strike Iran power plants and bridges",
-      "link": "https://www.cnbc.com/2026/04/05/us-trump-confirms-missing-us-pilot-rescued.html",
-      "published": "Sun, 05 Apr 2026 13:11:46 GMT",
-      "summary": "Trump says the officer was rescued \"deep in Enemy Territory\" in mountainous terrain."
-    },
-    {
-      "source": "CNBC",
-      "title": "Chinese chip firms hit record high revenue driven by the AI boom and U.S. curbs",
-      "link": "https://www.cnbc.com/2026/04/03/chinese-chip-firms-record-revenue-ai-boom-us-curbs.html",
-      "published": "Fri, 03 Apr 2026 05:00:01 GMT",
-      "summary": "Chinese chip companies have benefited from strong domestic demand for AI as U.S. tech curbs have bolstered local firms."
-    },
-    {
-      "source": "CNBC",
-      "title": "'Anything but autos': Can defense save Europe’s ailing car industry?",
-      "link": "https://www.cnbc.com/2026/04/05/autos-defense-europe-car-industry.html",
-      "published": "Sun, 05 Apr 2026 05:00:01 GMT",
-      "summary": "The transition from wheels to weapons is achievable in part because many of the underlying skills are highly transferable, according to experts."
-    },
-    {
-      "source": "CNBC",
-      "title": "'Silent killers': How AI start-ups are trying to solve one of the retail industry's biggest problems",
-      "link": "https://www.cnbc.com/2026/04/05/ai-retail-start-ups-virtual-try-on-tech-margins.html",
-      "published": "Sun, 05 Apr 2026 12:37:57 GMT",
-      "summary": "The rapid evolution of generative AI has finally made these applications good enough to meaningfully impact retailers' bottom lines."
-    },
-    {
-      "source": "CNBC",
-      "title": "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course",
-      "link": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html",
-      "published": "Sat, 04 Apr 2026 13:19:30 GMT",
-      "summary": "A Senate committee will consider Kevin Warsh's nomination even as one of its members still plans to block it."
-    },
-    {
-      "source": "WSJ",
-      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
-      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
-      "published": "Mon, 27 Jan 2025 14:26:00 -0500",
-      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia was down 16%."
-    },
-    {
-      "source": "WSJ",
-      "title": "Comex Gold, Silver Settle Lower",
-      "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
-      "published": "Mon, 27 Jan 2025 14:01:00 -0500",
-      "summary": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions."
-    },
-    {
-      "source": "WSJ",
-      "title": "DeepSeek Won't Sink U.S. AI Titans",
-      "link": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
-      "published": "Mon, 27 Jan 2025 13:12:00 -0500",
-      "summary": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown."
-    },
-    {
-      "source": "WSJ",
-      "title": "Financial Services Roundup: Market Talk",
-      "link": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main",
-      "published": "Mon, 27 Jan 2025 12:27:00 -0500",
-      "summary": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services."
-    },
-    {
-      "source": "WSJ",
-      "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
-      "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
-      "published": "Mon, 27 Jan 2025 12:20:00 -0500",
-      "summary": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump’s threats to impose tariffs and economic sanctions on Colombia."
-    }
-  ],
   "asia_markets": {
     "shanghai": {
       "value": 3069.3,
       "change": "-0.18%",
-      "status": "closed"
+      "status": "pre_open",
+      "pre_open_signal": "中性",
+      "note": "今日关注：3月CPI、PPI数据将公布"
+    },
+    "shenzhen": {
+      "value": 9627.1,
+      "change": "-0.25%",
+      "status": "pre_open",
+      "pre_open_signal": "中性",
+      "note": "深圳楼市三月量涨价稳"
+    },
+    "chi_next": {
+      "value": 1865.2,
+      "change": "-0.32%",
+      "status": "pre_open",
+      "pre_open_signal": "谨慎",
+      "note": "创业板关注科技股表现"
     },
     "hang_seng": {
       "value": 16723.92,
       "change": "+0.57%",
-      "status": "closed"
+      "status": "open",
+      "current": "+0.85%",
+      "note": "港股高开，芯片股集体拉升"
     },
     "nikkei": {
       "value": 39347.04,
       "change": "+0.50%",
-      "status": "closed"
+      "status": "open",
+      "current": "+1.2%",
+      "note": "日股高开，三星电子涨近4%"
     }
   },
   "europe_markets": {
     "ftse": {
       "value": 7915.16,
       "change": "+0.41%",
-      "status": "open"
+      "status": "closed",
+      "note": "欧股收盘上涨，关注英国经济数据"
     },
     "dax": {
       "value": 18261.31,
       "change": "+0.33%",
-      "status": "open"
+      "status": "closed",
+      "note": "德国股市收高，汽车板块表现强劲"
     },
     "cac": {
       "value": 8151.92,
       "change": "+0.28%",
-      "status": "open"
+      "status": "closed",
+      "note": "法国股市小幅上涨"
     }
+  },
+  "commodities": {
+    "gold": {
+      "price": 4629.7,
+      "change": "-1.0%",
+      "note": "纽约期金日内跌超1%，地缘政治风险支撑减弱"
+    },
+    "oil": {
+      "price": 78.42,
+      "change": "+0.8%",
+      "note": "油价小幅上涨，关注霍尔木兹海峡局势"
+    },
+    "copper": {
+      "price": 4.32,
+      "change": "+0.5%",
+      "note": "铜价微涨，中国需求预期支撑"
+    }
+  },
+  "currencies": {
+    "usd_cny": {
+      "rate": 7.2456,
+      "change": "+0.02%",
+      "note": "人民币汇率基本稳定"
+    },
+    "usd_jpy": {
+      "rate": 152.34,
+      "change": "+0.15%",
+      "note": "日元走弱，日本国债收益率升至27年新高"
+    },
+    "eur_usd": {
+      "rate": 1.0821,
+      "change": "-0.08%",
+      "note": "欧元小幅下跌"
+    }
+  },
+  "news": [
+    {
+      "source": "东方财富",
+      "title": "加密货币全线大涨！8万人爆仓！日韩股市大反攻！",
+      "link": "https://roll.eastmoney.com/finance.html",
+      "published": "2026-04-06 08:56",
+      "summary": "加密货币市场全线大涨，导致8万人爆仓；日韩股市大幅反弹"
+    },
+    {
+      "source": "东方财富",
+      "title": "伊朗强调继续封锁霍尔木兹海峡",
+      "link": "https://roll.eastmoney.com/finance.html",
+      "published": "2026-04-06 08:44",
+      "summary": "伊朗外长强调将继续封锁霍尔木兹海峡，地缘政治风险加剧"
+    },
+    {
+      "source": "东方财富",
+      "title": "特朗普威胁伊朗4月6日前打开霍尔木兹海峡",
+      "link": "https://roll.eastmoney.com/finance.html",
+      "published": "2026-04-05 22:21",
+      "summary": "特朗普再次威胁伊朗，要求其在4月6日前打开霍尔木兹海峡"
+    },
+    {
+      "source": "CNBC",
+      "title": "Stock futures slip after a winning week as oil prices tick higher: Live updates",
+      "link": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114",
+      "published": "2026-04-06",
+      "summary": "美股期货在连续上涨一周后小幅下跌，油价微升"
+    },
+    {
+      "source": "CNBC",
+      "title": "Trump vows Iran will be 'living in Hell' by Tuesday if Strait of Hormuz deadline missed",
+      "link": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114",
+      "published": "2026-04-06",
+      "summary": "特朗普誓言如果伊朗错过霍尔木兹海峡最后期限，周二将让伊朗'生活在地狱中'"
+    },
+    {
+      "source": "CNBC",
+      "title": "Japan, South Korea stocks open higher as investors assess Trump's Iran war comments, extended deadline",
+      "link": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114",
+      "published": "2026-04-06",
+      "summary": "日韩股市高开，投资者评估特朗普的伊朗战争言论和延长的最后期限"
+    },
+    {
+      "source": "东方财富",
+      "title": "三月深圳楼市'量涨价稳' 一二手房网签量创近11个月新高",
+      "link": "https://roll.eastmoney.com/finance.html",
+      "published": "2026-04-06 09:04",
+      "summary": "深圳三月楼市成交量上涨，价格稳定，网签量创近11个月新高"
+    },
+    {
+      "source": "东方财富",
+      "title": "全国铁路今天预计发送旅客2080万人次",
+      "link": "https://roll.eastmoney.com/finance.html",
+      "published": "2026-04-06 09:07",
+      "summary": "全国铁路今日预计发送旅客2080万人次，交通运输需求旺盛"
+    },
+    {
+      "source": "东方财富",
+      "title": "通胀担忧与美联储降息预期降温 日本10年期国债收益率升至27年新高",
+      "link": "https://roll.eastmoney.com/finance.html",
+      "published": "2026-04-06 08:43",
+      "summary": "通胀担忧和美联储降息预期降温，日本10年期国债收益率升至27年新高"
+    },
+    {
+      "source": "东方财富",
+      "title": "美股存储板块夜盘上行 美光科技盘中涨超3%",
+      "link": "https://roll.eastmoney.com/finance.html",
+      "published": "2026-04-06 08:38",
+      "summary": "美股存储板块夜盘上涨，美光科技盘中涨幅超过3%"
+    }
+  ],
+  "market_summary": {
+    "overnight_highlights": [
+      "地缘政治风险：特朗普与伊朗就霍尔木兹海峡最后期限对峙",
+      "加密货币大涨：比特币突破6.7万美元，8万人爆仓",
+      "日韩股市反弹：芯片股集体拉升，三星电子涨近4%",
+      "中国数据关注：今日将公布3月CPI、PPI数据"
+    ],
+    "today_focus": [
+      "A股开盘表现：关注上证指数在3070点附近走势",
+      "地缘政治：霍尔木兹海峡局势发展",
+      "经济数据：中国3月CPI、PPI数据公布",
+      "板块关注：芯片、存储、加密货币相关板块"
+    ],
+    "risk_level": "中等偏高",
+    "sentiment": "谨慎乐观"
   }
 }

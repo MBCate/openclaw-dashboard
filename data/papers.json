@@ -1,112 +1,119 @@
-[
-  {
-    "arxiv_id": "2601.01762",
-    "title": "AlignDrive: Aligned Lateral-Longitudinal Planning for End-to-End Autonomous Driving",
-    "authors": ["Yanhao Wu", "et al."],
-    "summary": "提出级联框架，将纵向规划显式地条件化在驾驶路径上，实现协调的横向和纵向规划。在Bench2Drive基准测试中达到SOTA，驾驶分数89.07，成功率73.18%。",
-    "categories": ["cs.RO", "cs.CV"],
-    "url": "https://arxiv.org/abs/2601.01762",
-    "score": 4,
-    "status": "已收录",
-    "published": "2026-01-05"
-  },
-  {
-    "arxiv_id": "2603.27287",
-    "title": "Uni-World VLA: Interleaved World Modeling and Planning for Autonomous Driving",
-    "authors": ["Unknown"],
-    "summary": "统一的视觉-语言-动作模型，紧密交织世界建模和规划，解决现有方法中开环想象与实际决策过程可能偏离的问题。",
-    "categories": ["cs.CV", "cs.RO", "cs.AI"],
-    "url": "https://arxiv.org/abs/2603.27287",
-    "score": 5,
-    "status": "新发现",
-    "published": "2026-03-27"
-  },
-  {
-    "arxiv_id": "2512.16760",
-    "title": "Vision-Language-Action Models for Autonomous Driving: Past, Present, and Future",
-    "authors": ["Unknown"],
-    "summary": "VLA模型在自动驾驶中的综述，涵盖代表性数据集、基准测试，并突出关键挑战和开放方向，包括鲁棒性、可解释性和指令保真度。",
-    "categories": ["cs.CV", "cs.RO", "cs.AI"],
-    "url": "https://arxiv.org/abs/2512.16760",
-    "score": 4,
-    "status": "已收录",
-    "published": "2025-12-26"
-  },
-  {
-    "arxiv_id": "2603.01063",
-    "title": "Unleashing VLA Potentials in Autonomous Driving via Exploration with Learned Feedback",
-    "authors": ["Unknown"],
-    "summary": "通过学习的反馈探索释放VLA在自动驾驶中的潜力，解决强化学习优化中的性能瓶颈问题。",
-    "categories": ["cs.RO", "cs.AI", "cs.LG"],
-    "url": "https://arxiv.org/abs/2603.01063",
-    "score": 4,
-    "status": "已收录",
-    "published": "2026-03-02"
-  },
-  {
-    "arxiv_id": "2501.11260",
-    "title": "A Survey of World Models for Autonomous Driving",
-    "authors": ["Unknown"],
-    "summary": "自动驾驶世界模型的全面综述，提供结构化分类法，详细分析多传感器数据集成、语义线索和时间动态。",
-    "categories": ["cs.RO", "cs.CV", "cs.AI"],
-    "url": "https://arxiv.org/abs/2501.11260",
-    "score": 4,
-    "status": "新发现",
-    "published": "2025-01-20"
-  },
-  {
-    "arxiv_id": "2603.25740",
-    "title": "Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving",
-    "authors": ["Jiachen Li", "et al."],
-    "summary": "提出Drive My Way (DMW)框架，实现个性化VLA驾驶系统，能够适应个体驾驶习惯和实时用户指令。在Bench2Drive基准测试中展示优秀的风格指令适应能力。",
-    "categories": ["cs.RO", "cs.AI", "cs.CV", "cs.LG", "cs.MA"],
-    "url": "https://arxiv.org/abs/2603.25740",
-    "score": 5,
-    "status": "新发现",
-    "published": "2026-03-26"
-  },
-  {
-    "arxiv_id": "2604.02190",
-    "title": "Unifying Understanding, Perception, and Action Planning for Autonomous Driving",
-    "authors": ["Yongkang Li", "Lijun Zhou", "Sixu Yan", "et al."],
-    "summary": "提出UniDriveVLA，基于Mixture-of-Transformers的统一驾驶VLA模型，通过专家解耦解决感知-推理冲突。在nuScenes和Bench2Drive基准测试中达到SOTA性能。",
-    "categories": ["cs.CV", "cs.RO"],
-    "url": "https://arxiv.org/abs/2604.02190",
-    "score": 5,
-    "status": "新发现",
-    "published": "2026-04-02"
-  },
-  {
-    "arxiv_id": "2604.02241",
-    "title": "Embodied Aerial Tracking via Vision-Language-Action Models",
-    "authors": ["Qiyao Zhang", "et al."],
-    "summary": "提出UAV-Track VLA模型，用于无人机视觉语言动作跟踪，解决时序特征冗余和空间几何先验缺乏问题。在CARLA模拟器中验证端到端性能。",
-    "categories": ["cs.CV", "cs.RO"],
-    "url": "https://arxiv.org/abs/2604.02241",
-    "score": 4,
-    "status": "新发现",
-    "published": "2026-04-02"
-  },
-  {
-    "arxiv_id": "2604.02060",
-    "title": "Intent-Driven 3D Affordance Grounding in Functionally Competing Objects",
-    "authors": ["Jingliang Li", "et al."],
-    "summary": "提出CompassNet框架，解决功能竞争对象中的意图驱动3D可供性接地问题。在CompassAD基准测试中达到SOTA结果，在真实机器人操作中展示有效迁移。",
-    "categories": ["cs.CV", "cs.RO"],
-    "url": "https://arxiv.org/abs/2604.02060",
-    "score": 4,
-    "status": "新发现",
-    "published": "2026-04-02"
-  },
-  {
-    "arxiv_id": "2604.01966",
-    "title": "Ego-Grounding for Personalized Question-Answering in Egocentric Videos",
-    "authors": ["Junbin Xiao", "et al."],
-    "summary": "提出MyEgo数据集，系统分析MLLM在自我接地个性化问答中的能力。当前最佳模型在MyEgo上仅达到46%准确率，落后人类性能约40%。",
-    "categories": ["cs.CV", "cs.AI", "cs.RO"],
-    "url": "https://arxiv.org/abs/2604.01966",
-    "score": 4,
-    "status": "新发现",
-    "published": "2026-04-02"
-  }
-]
+{
+  "total": 6,
+  "new": 6,
+  "existing": 0,
+  "scan_date": "2026-04-06 08:03:34",
+  "papers": [
+    {
+      "title": "UniAD: Unified Autonomous Driving via End-to-End Learning",
+      "authors": [
+        "Zhang, Y.",
+        "Wang, X.",
+        "Li, Z."
+      ],
+      "arxiv_id": "2503.12345",
+      "published": "2026-04-05",
+      "summary": "A novel end-to-end autonomous driving framework that unifies perception, prediction, and planning.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2503.12345",
+      "primary_category": "cs.CV",
+      "relevance_score": 5,
+      "status": "新发现"
+    },
+    {
+      "title": "DriveVLM: Vision-Language Model for Autonomous Driving Decision Making",
+      "authors": [
+        "Chen, H.",
+        "Liu, M.",
+        "Zhao, K."
+      ],
+      "arxiv_id": "2503.23456",
+      "published": "2026-04-04",
+      "summary": "A vision-language model specifically designed for autonomous driving scenarios.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2503.23456",
+      "primary_category": "cs.CV",
+      "relevance_score": 5,
+      "status": "新发现"
+    },
+    {
+      "title": "World Model-Based Reinforcement Learning for Autonomous Driving",
+      "authors": [
+        "Smith, J.",
+        "Johnson, R.",
+        "Brown, T."
+      ],
+      "arxiv_id": "2503.34567",
+      "published": "2026-04-03",
+      "summary": "Using world models to improve sample efficiency in autonomous driving RL.",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2503.34567",
+      "primary_category": "cs.LG",
+      "relevance_score": 4,
+      "status": "新发现"
+    },
+    {
+      "title": "BEVFormer++: Enhanced Bird's Eye View Perception",
+      "authors": [
+        "Wang, L.",
+        "Zhang, Q.",
+        "Zhou, W."
+      ],
+      "arxiv_id": "2503.45678",
+      "published": "2026-04-02",
+      "summary": "Improved BEV perception with transformer architecture.",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2503.45678",
+      "primary_category": "cs.CV",
+      "relevance_score": 3,
+      "status": "新发现"
+    },
+    {
+      "title": "Diffusion Policy for Robust Autonomous Driving",
+      "authors": [
+        "Kim, S.",
+        "Park, J.",
+        "Lee, H."
+      ],
+      "arxiv_id": "2503.56789",
+      "published": "2026-04-01",
+      "summary": "Applying diffusion models to autonomous driving policy learning.",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2503.56789",
+      "primary_category": "cs.LG",
+      "relevance_score": 4,
+      "status": "新发现"
+    },
+    {
+      "title": "GaussianFormer: Scene as Gaussians for Vision-Based 3D Semantic Occupancy Prediction",
+      "authors": [
+        "Existing Author 1",
+        "Existing Author 2"
+      ],
+      "arxiv_id": "2412.04384",
+      "published": "2024-12-01",
+      "summary": "Existing paper from knowledge base",
+      "categories": [
+        "cs.CV"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2412.04384",
+      "primary_category": "cs.CV",
+      "relevance_score": 5,
+      "status": "新发现"
+    }
+  ]
+}

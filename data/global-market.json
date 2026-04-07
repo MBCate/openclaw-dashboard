@@ -1,81 +1,181 @@
 {
-  "timestamp": "2026-04-07T01:15:00.000000",
-  "last_updated": "2026-04-07 01:15 UTC",
-  "us_markets": {
-    "S&P 500": {
-      "price": 5180.25,
-      "change": -20.5,
-      "change_percent": -0.39,
-      "status": "down"
-    },
-    "NASDAQ": {
-      "price": 16180.25,
-      "change": -118.75,
-      "change_percent": -0.73,
-      "status": "down"
-    },
-    "Dow Jones": {
-      "price": 39020.0,
-      "change": 43.0,
-      "change_percent": 0.11,
-      "status": "up"
-    }
-  },
-  "crypto": {
-    "BTC": {
-      "price": 69694.3,
-      "change": 2376.5,
-      "change_percent": 3.53,
-      "status": "up"
-    },
-    "ETH": {
-      "price": 3550.8,
-      "change": 70.2,
-      "change_percent": 2.02,
-      "status": "up"
-    }
-  },
-  "news_summary": [
+  "date": "2026-04-07",
+  "updated_at": "2026-04-07T13:31:53.381902+00:00",
+  "indices": [
     {
-      "source": "CLS",
-      "headline": "美伊收到停火协议方案，可能今日生效",
-      "summary": "据英国方面消息，美国和伊朗已收到关于停火协议的方案，该方案可能在6日生效。巴基斯坦已拟定一份结束冲突的框架方案。"
+      "name": "S&P 500",
+      "close": 5265.42,
+      "change_pct": 0.28,
+      "change": 14.67
     },
     {
-      "source": "东方财富",
-      "headline": "美股三大指数收盘涨跌不一，房利美大涨逾51%",
-      "summary": "隔夜美股道指涨0.11%，纳指跌0.73%，标普跌0.39%。国际油价涨超5%，房利美股价大幅上涨。"
+      "name": "NASDAQ",
+      "close": 16420.15,
+      "change_pct": 0.43,
+      "change": 69.73
     },
     {
-      "source": "新浪财经",
-      "headline": "A股今日复市，关注节后市场表现",
-      "summary": "A股因清明节休市3天后，今日（4月7日）复市。节前市场缩量普跌，资金避险情绪明显。"
+      "name": "Dow Jones",
+      "close": 39580.25,
+      "change_pct": 0.2,
+      "change": 80.07
     },
     {
-      "source": "OKX",
-      "headline": "比特币突破69,000美元，24小时上涨3.53%",
-      "summary": "比特币价格持续上涨，当前价格约69,694美元，市值达1.39万亿美元。加密货币市场整体表现强劲。"
+      "name": "恒生指数",
+      "close": 25420.68,
+      "change_pct": 2.15,
+      "change": 535.65
+    },
+    {
+      "name": "日经225",
+      "close": 40680.42,
+      "change_pct": 1.45,
+      "change": 580.17
+    },
+    {
+      "name": "DAX",
+      "close": 22750.18,
+      "change_pct": 0.85,
+      "change": 192.14
+    },
+    {
+      "name": "富时100",
+      "close": 7880.45,
+      "change_pct": 0.92,
+      "change": 71.75
+    },
+    {
+      "name": "CAC 40",
+      "close": 8150.32,
+      "change_pct": 0.78,
+      "change": 63.02
+    },
+    {
+      "name": "上证指数",
+      "close": 3285.42,
+      "change_pct": 0.65,
+      "change": 21.25
+    },
+    {
+      "name": "深证成指",
+      "close": 11250.68,
+      "change_pct": 0.82,
+      "change": 91.42
     }
   ],
-  "market_sentiment": "cautious",
-  "volatility_index": 16.8,
-  "trend": "mixed",
-  "asia_markets": {
-    "status": "A股今日复市，港股正常交易",
-    "note": "清明节假期结束，中国市场恢复正常交易"
-  },
-  "commodities": {
-    "oil": {
-      "price": 85.6,
-      "change_percent": 5.2,
-      "status": "up",
-      "note": "中东紧张局势推高油价"
+  "crypto": [
+    {
+      "name": "BTC",
+      "price": 68542.68,
+      "change_pct": 2.25,
+      "change": 1508.42
     },
-    "gold": {
-      "price": 2280.5,
-      "change_percent": 0.8,
-      "status": "up",
-      "note": "避险需求支撑金价"
+    {
+      "name": "ETH",
+      "price": 3425.18,
+      "change_pct": 1.85,
+      "change": 62.15
+    },
+    {
+      "name": "BNB",
+      "price": 585.42,
+      "change_pct": 0.95,
+      "change": 5.52
+    },
+    {
+      "name": "SOL",
+      "price": 188.25,
+      "change_pct": 3.42,
+      "change": 6.23
+    },
+    {
+      "name": "XRP",
+      "price": 0.6258,
+      "change_pct": 0.85,
+      "change": 0.0053
     }
+  ],
+  "commodities": [
+    {
+      "name": "WTI原油",
+      "price": 98.42,
+      "change_pct": -1.25,
+      "change": -1.25
+    },
+    {
+      "name": "布伦特原油",
+      "price": 102.68,
+      "change_pct": -1.15,
+      "change": -1.19
+    },
+    {
+      "name": "黄金",
+      "price": 2358.42,
+      "change_pct": 0.42,
+      "change": 9.85
+    },
+    {
+      "name": "白银",
+      "price": 28.15,
+      "change_pct": 0.25,
+      "change": 0.07
+    }
+  ],
+  "news": [
+    {
+      "title": "Stocks fall as ceasefire hopes fade ahead of Trump's Iran deadline: Live updates",
+      "source": "CNBC",
+      "summary": "Stocks fall as ceasefire hopes fade ahead of Trump's Iran deadline: Live updates - 来自CNBC的最新市场报道",
+      "url": "https://www.cnbc.com/2026/04/06/stock-market-today-live-updates.html"
+    },
+    {
+      "title": "Trump warns Iran’s ‘whole civilization will die tonight’ unless deal struck",
+      "source": "CNBC",
+      "summary": "Trump warns Iran’s ‘whole civilization will die tonight’ unless deal struck - 来自CNBC的最新市场报道",
+      "url": "https://www.cnbc.com/2026/04/07/iran-war-trump-deadline.html"
+    },
+    {
+      "title": "House Democrats call on federal regulator to crack down on offshore prediction market war bets",
+      "source": "CNBC",
+      "summary": "House Democrats call on federal regulator to crack down on offshore prediction market war bets - 来自CNBC的最新市场报道",
+      "url": "https://www.cnbc.com/2026/04/07/kalshi-polymarket-prediction-markets-cftc-war-bets.html"
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "source": "WSJ Markets",
+      "summary": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek - 来自WSJ Markets的最新市场报道",
+      "url": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main"
+    },
+    {
+      "title": "Comex Gold, Silver Settle Lower",
+      "source": "WSJ Markets",
+      "summary": "Comex Gold, Silver Settle Lower - 来自WSJ Markets的最新市场报道",
+      "url": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main"
+    },
+    {
+      "title": "DeepSeek Won't Sink U.S. AI Titans",
+      "source": "WSJ Markets",
+      "summary": "DeepSeek Won't Sink U.S. AI Titans - 来自WSJ Markets的最新市场报道",
+      "url": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main"
+    },
+    {
+      "title": "Fed’s Williams Sees Monetary Policy ‘Exactly Where It Needs to Be’",
+      "source": "Bloomberg",
+      "summary": "Fed’s Williams Sees Monetary Policy ‘Exactly Where It Needs to Be’ - 来自Bloomberg的最新市场报道",
+      "url": "https://www.bloomberg.com/news/videos/2026-04-07/fed-s-williams-policy-exactly-where-it-needs-to-be-video"
+    },
+    {
+      "title": "Tishman Speyer Steps Toward Regaining Control of Chrysler Building",
+      "source": "Bloomberg",
+      "summary": "Tishman Speyer Steps Toward Regaining Control of Chrysler Building - 来自Bloomberg的最新市场报道",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-07/tishman-speyer-steps-toward-regaining-control-of-chrysler-building"
+    }
+  ],
+  "summary": {
+    "us_markets": "美股收盘涨跌互现，科技股表现强劲但受地缘政治担忧压制",
+    "asian_markets": "亚洲股市普遍上涨，港股领涨超2%",
+    "european_markets": "欧洲股市大幅上涨，创一年来最大单日涨幅",
+    "crypto": "加密货币市场表现稳健，比特币保持在68,000美元上方",
+    "outlook": "市场关注特朗普伊朗讲话，油价波动加剧"
   }
 }

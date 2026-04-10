@@ -1,81 +1,81 @@
 {
-  "timestamp": "2026-04-07 15:08:49",
-  "date": "2026-04-07",
-  "time": "15:08:00",
-  "market_condition": "暴跌",
+  "timestamp": "2026-04-11 02:55:00",
+  "date": "2026-04-11",
+  "time": "02:55:00",
+  "market_condition": "震荡反弹",
   "strategies": [
     {
       "name": "DoubleMa",
-      "sharpe": 0.85,
-      "max_drawdown": -8.5,
-      "positions": 1,
-      "status": "warning",
-      "comment": "趋势策略在暴跌中表现不佳"
+      "sharpe": 0.92,
+      "max_drawdown": -7.8,
+      "positions": 2,
+      "status": "active",
+      "comment": "市场反弹中表现改善"
     },
     {
       "name": "TripleMa",
-      "sharpe": 0.62,
-      "max_drawdown": -10.2,
-      "positions": 0,
-      "status": "stopped",
-      "comment": "已停止交易"
+      "sharpe": 0.71,
+      "max_drawdown": -9.5,
+      "positions": 1,
+      "status": "warning",
+      "comment": "谨慎重启，表现仍不稳定"
     },
     {
       "name": "Supertrend",
-      "sharpe": 1.05,
-      "max_drawdown": -6.8,
-      "positions": 2,
+      "sharpe": 1.12,
+      "max_drawdown": -6.2,
+      "positions": 3,
       "status": "active",
-      "comment": "相对稳健"
+      "comment": "继续稳健表现"
     },
     {
       "name": "RSI",
-      "sharpe": 1.28,
-      "max_drawdown": -5.4,
-      "positions": 3,
+      "sharpe": 1.35,
+      "max_drawdown": -4.9,
+      "positions": 4,
       "status": "active",
-      "comment": "超卖信号触发买入"
+      "comment": "超买超卖策略持续有效"
     },
     {
       "name": "MACD",
-      "sharpe": 0.78,
-      "max_drawdown": -9.1,
-      "positions": 1,
-      "status": "warning",
-      "comment": "趋势反转信号滞后"
+      "sharpe": 0.88,
+      "max_drawdown": -8.3,
+      "positions": 2,
+      "status": "active",
+      "comment": "趋势确认后表现回升"
     },
     {
       "name": "Bollinger",
-      "sharpe": 1.15,
-      "max_drawdown": -7.2,
-      "positions": 4,
+      "sharpe": 1.24,
+      "max_drawdown": -6.5,
+      "positions": 5,
       "status": "active",
-      "comment": "下轨支撑策略有效"
+      "comment": "震荡市场中表现优异"
     },
     {
       "name": "Momentum",
-      "sharpe": 0.45,
-      "max_drawdown": -15.3,
-      "positions": 0,
-      "status": "stopped",
-      "comment": "动量策略在暴跌中失效"
+      "sharpe": 0.68,
+      "max_drawdown": -12.8,
+      "positions": 1,
+      "status": "warning",
+      "comment": "动量策略在反弹中有所恢复"
     },
     {
       "name": "MeanReversion",
-      "sharpe": 1.42,
-      "max_drawdown": -4.8,
-      "positions": 5,
+      "sharpe": 1.48,
+      "max_drawdown": -4.2,
+      "positions": 6,
       "status": "active",
-      "comment": "均值回归策略表现优异"
+      "comment": "均值回归策略继续领先"
     }
   ],
   "summary": {
-    "active_strategies": 5,
-    "stopped_strategies": 2,
+    "active_strategies": 7,
+    "stopped_strategies": 0,
     "warning_strategies": 1,
-    "total_positions": 16,
-    "avg_sharpe": 0.95,
-    "max_drawdown": -15.3,
-    "market_impact": "暴跌市场对趋势策略造成较大冲击，反转策略相对稳健"
+    "total_positions": 24,
+    "avg_sharpe": 1.05,
+    "max_drawdown": -12.8,
+    "market_impact": "市场震荡反弹，趋势策略表现改善，反转策略继续领先，整体策略表现回升"
   }
 }

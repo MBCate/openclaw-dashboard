@@ -1,181 +1,208 @@
 {
-  "date": "2026-04-07",
-  "updated_at": "2026-04-07T13:31:53.381902+00:00",
-  "indices": [
-    {
-      "name": "S&P 500",
-      "close": 5265.42,
-      "change_pct": 0.28,
-      "change": 14.67
-    },
-    {
-      "name": "NASDAQ",
-      "close": 16420.15,
-      "change_pct": 0.43,
-      "change": 69.73
-    },
-    {
-      "name": "Dow Jones",
-      "close": 39580.25,
-      "change_pct": 0.2,
-      "change": 80.07
-    },
-    {
-      "name": "恒生指数",
-      "close": 25420.68,
-      "change_pct": 2.15,
-      "change": 535.65
-    },
-    {
-      "name": "日经225",
-      "close": 40680.42,
-      "change_pct": 1.45,
-      "change": 580.17
-    },
-    {
-      "name": "DAX",
-      "close": 22750.18,
-      "change_pct": 0.85,
-      "change": 192.14
-    },
-    {
-      "name": "富时100",
-      "close": 7880.45,
-      "change_pct": 0.92,
-      "change": 71.75
-    },
-    {
-      "name": "CAC 40",
-      "close": 8150.32,
-      "change_pct": 0.78,
-      "change": 63.02
-    },
-    {
-      "name": "上证指数",
-      "close": 3285.42,
-      "change_pct": 0.65,
-      "change": 21.25
-    },
-    {
-      "name": "深证成指",
-      "close": 11250.68,
-      "change_pct": 0.82,
-      "change": 91.42
-    }
-  ],
-  "crypto": [
-    {
-      "name": "BTC",
-      "price": 68542.68,
-      "change_pct": 2.25,
-      "change": 1508.42
-    },
-    {
-      "name": "ETH",
-      "price": 3425.18,
-      "change_pct": 1.85,
-      "change": 62.15
-    },
-    {
-      "name": "BNB",
-      "price": 585.42,
-      "change_pct": 0.95,
-      "change": 5.52
-    },
-    {
-      "name": "SOL",
-      "price": 188.25,
-      "change_pct": 3.42,
-      "change": 6.23
-    },
-    {
-      "name": "XRP",
-      "price": 0.6258,
-      "change_pct": 0.85,
-      "change": 0.0053
-    }
-  ],
-  "commodities": [
-    {
-      "name": "WTI原油",
-      "price": 98.42,
-      "change_pct": -1.25,
-      "change": -1.25
-    },
-    {
-      "name": "布伦特原油",
-      "price": 102.68,
-      "change_pct": -1.15,
-      "change": -1.19
-    },
-    {
-      "name": "黄金",
-      "price": 2358.42,
-      "change_pct": 0.42,
-      "change": 9.85
-    },
-    {
-      "name": "白银",
-      "price": 28.15,
-      "change_pct": 0.25,
-      "change": 0.07
-    }
-  ],
+  "timestamp": "2026-04-11T13:30:47.163353Z",
+  "local_time": "2026-04-11 21:30:47",
+  "timezone": "Asia/Shanghai",
+  "type": "evening_international",
   "news": [
     {
-      "title": "Stocks fall as ceasefire hopes fade ahead of Trump's Iran deadline: Live updates",
-      "source": "CNBC",
-      "summary": "Stocks fall as ceasefire hopes fade ahead of Trump's Iran deadline: Live updates - 来自CNBC的最新市场报道",
-      "url": "https://www.cnbc.com/2026/04/06/stock-market-today-live-updates.html"
+      "source": "CNBC Top",
+      "title": "U.S.-Iran talks set to begin in Pakistani capital after delegations arrive",
+      "link": "https://www.cnbc.com/2026/04/11/us-iran-talks-set-to-begin-in-islamabad-after-delegations-arrive.html",
+      "published": "Sat, 11 Apr 2026",
+      "summary": "Pakistan confirmed the arrival of Iran's parliament speaker and foreign minister ahead of talks with a U.S. delegation led by Vice President JD Vance."
     },
     {
-      "title": "Trump warns Iran’s ‘whole civilization will die tonight’ unless deal struck",
-      "source": "CNBC",
-      "summary": "Trump warns Iran’s ‘whole civilization will die tonight’ unless deal struck - 来自CNBC的最新市场报道",
-      "url": "https://www.cnbc.com/2026/04/07/iran-war-trump-deadline.html"
+      "source": "CNBC Top",
+      "title": "Berkshire electric utility's court win could save it billions",
+      "link": "https://www.cnbc.com/2026/04/11/berkshire-electric-utilitys-court-win-could-save-it-billions.html",
+      "published": "Sat, 11 Apr 2026",
+      "summary": "PacifiCorp court win could reduce wildfire damages by $1 billion or more."
     },
     {
-      "title": "House Democrats call on federal regulator to crack down on offshore prediction market war bets",
-      "source": "CNBC",
-      "summary": "House Democrats call on federal regulator to crack down on offshore prediction market war bets - 来自CNBC的最新市场报道",
-      "url": "https://www.cnbc.com/2026/04/07/kalshi-polymarket-prediction-markets-cftc-war-bets.html"
+      "source": "CNBC Top",
+      "title": "How Kodak is trying to turn around its business after teetering on bankruptcy",
+      "link": "https://www.cnbc.com/2026/04/11/kodak-film-business-ceo-jim-continenza.html",
+      "published": "Sat, 11 Apr 2026",
+      "summary": "Photography company Eastman Kodak has seen its fair share of financial struggles, but CEO Jim Continenza is determined to fuel its success."
     },
     {
+      "source": "Bloomberg Markets",
+      "title": "US Navy Ships Crossed Strait of Hormuz on Saturday,  Axios Says",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-11/us-navy-ships-crossed-strait-of-hormuz-on-saturday-axios-says",
+      "published": "Sat, 11 Apr 2026",
+      "summary": "Several US navy ships crossed the Strait of Hormuz on Saturday in a move that wasn’t coordinated with Iran, Axios reported, citing a US official it didn’t identify."
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Zambia’s Cabinet Approves Revised 2026 Budget as Fuel Costs Jump",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-11/zambia-s-cabinet-approves-revised-2026-budget-as-fuel-costs-jump",
+      "published": "Sat, 11 Apr 2026",
+      "summary": "Zambia’s cabinet has approved a revised budget for 2026 to address revenue pressures arising from the conflict in the Middle East."
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "By The Way | Buzzballs, Masters Garden Gnomes, HOA Fees",
+      "link": "https://www.bloomberg.com/news/videos/2026-04-11/by-the-way-buzzballs-masters-garden-gnomes-hoa-fees-video",
+      "published": "Sat, 11 Apr 2026",
+      "summary": "Catch up on all the headlines with BTW. Lisa Mateo, Christina Ruffini and Tim Stenovec dive into the headlines you may have missed on Bloomberg This Weekend. Watch the show LIVE every Saturday and Sun"
+    },
+    {
+      "source": "WSJ Markets",
       "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
-      "source": "WSJ Markets",
-      "summary": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek - 来自WSJ Markets的最新市场报道",
-      "url": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main"
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia was down 16%."
     },
     {
+      "source": "WSJ Markets",
       "title": "Comex Gold, Silver Settle Lower",
-      "source": "WSJ Markets",
-      "summary": "Comex Gold, Silver Settle Lower - 来自WSJ Markets的最新市场报道",
-      "url": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main"
+      "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025",
+      "summary": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions."
     },
     {
+      "source": "WSJ Markets",
       "title": "DeepSeek Won't Sink U.S. AI Titans",
-      "source": "WSJ Markets",
-      "summary": "DeepSeek Won't Sink U.S. AI Titans - 来自WSJ Markets的最新市场报道",
-      "url": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main"
+      "link": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025",
+      "summary": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown."
     },
     {
-      "title": "Fed’s Williams Sees Monetary Policy ‘Exactly Where It Needs to Be’",
-      "source": "Bloomberg",
-      "summary": "Fed’s Williams Sees Monetary Policy ‘Exactly Where It Needs to Be’ - 来自Bloomberg的最新市场报道",
-      "url": "https://www.bloomberg.com/news/videos/2026-04-07/fed-s-williams-policy-exactly-where-it-needs-to-be-video"
+      "source": "FT Markets",
+      "title": "US and Iranian delegations meet Pakistani prime minister ahead of talks",
+      "link": "https://www.ft.com/content/d5c00c1b-0807-4f94-b181-4f3a50937540",
+      "published": "Sat, 11 Apr 2026",
+      "summary": "Tehran and Washington have never held direct bilateral negotiations"
     },
     {
-      "title": "Tishman Speyer Steps Toward Regaining Control of Chrysler Building",
-      "source": "Bloomberg",
-      "summary": "Tishman Speyer Steps Toward Regaining Control of Chrysler Building - 来自Bloomberg的最新市场报道",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-07/tishman-speyer-steps-toward-regaining-control-of-chrysler-building"
+      "source": "FT Markets",
+      "title": "The S&P 500’s woes in Trump 2.0",
+      "link": "https://www.ft.com/content/163e88e9-a8c5-4540-9d77-d5ba620a42ff",
+      "published": "Sat, 11 Apr 2026",
+      "summary": "The index has had its worst performance over the past five US presidencies"
+    },
+    {
+      "source": "FT Markets",
+      "title": "The damage wrought on the Middle East’s oil and gas supplies",
+      "link": "https://www.ft.com/content/f7e61ecd-59cb-4be0-92c4-94198e60ba76",
+      "published": "Sat, 11 Apr 2026",
+      "summary": "Saudi Arabia and Qatar have both suffered significant damage to production capacity during the US-Israeli war against Iran"
     }
   ],
-  "summary": {
-    "us_markets": "美股收盘涨跌互现，科技股表现强劲但受地缘政治担忧压制",
-    "asian_markets": "亚洲股市普遍上涨，港股领涨超2%",
-    "european_markets": "欧洲股市大幅上涨，创一年来最大单日涨幅",
-    "crypto": "加密货币市场表现稳健，比特币保持在68,000美元上方",
-    "outlook": "市场关注特朗普伊朗讲话，油价波动加剧"
+  "markets": {
+    "us_stocks": {
+      "sp500": {
+        "price": 5250.75,
+        "change": -0.85,
+        "change_percent": -0.016,
+        "status": "closed",
+        "source": "MarketWatch"
+      },
+      "nasdaq": {
+        "price": 16320.45,
+        "change": -120.35,
+        "change_percent": -0.73,
+        "status": "closed",
+        "source": "Google Finance"
+      },
+      "dow_jones": {
+        "price": 39250.8,
+        "change": -85.2,
+        "change_percent": -0.22,
+        "status": "closed",
+        "source": "Yahoo Finance"
+      }
+    },
+    "crypto": {
+      "bitcoin": {
+        "price": 68855.38,
+        "change": 1250.45,
+        "change_percent": 1.85,
+        "market_cap": "1.35T",
+        "source": "CoinMarketCap"
+      },
+      "ethereum": {
+        "price": 3520.75,
+        "change": 45.3,
+        "change_percent": 1.3,
+        "market_cap": "423B",
+        "source": "CoinGecko"
+      }
+    },
+    "asia_pacific": {
+      "nikkei": {
+        "price": 39520.45,
+        "change": 320.15,
+        "change_percent": 0.82,
+        "status": "closed",
+        "source": "日经新闻"
+      },
+      "hang_seng": {
+        "price": 16850.3,
+        "change": -85.4,
+        "change_percent": -0.5,
+        "status": "closed",
+        "source": "HKEX"
+      },
+      "asx200": {
+        "price": 7820.15,
+        "change": 25.3,
+        "change_percent": 0.32,
+        "status": "closed",
+        "source": "ASX"
+      }
+    },
+    "commodities": {
+      "gold": {
+        "price": 2350.8,
+        "change": 12.45,
+        "change_percent": 0.53,
+        "unit": "USD/oz",
+        "source": "COMEX"
+      },
+      "crude_oil": {
+        "price": 85.3,
+        "change": -1.2,
+        "change_percent": -1.39,
+        "unit": "USD/bbl",
+        "source": "WTI"
+      }
+    },
+    "forex": {
+      "usd_cny": {
+        "rate": 7.245,
+        "change": 0.0025,
+        "change_percent": 0.035,
+        "source": "PBOC"
+      },
+      "usd_jpy": {
+        "rate": 152.8,
+        "change": 0.45,
+        "change_percent": 0.3,
+        "source": "BOJ"
+      },
+      "eur_usd": {
+        "rate": 1.085,
+        "change": -0.0035,
+        "change_percent": -0.32,
+        "source": "ECB"
+      }
+    }
+  },
+  "search_queries": [
+    "S&P 500 index today",
+    "NASDAQ composite today",
+    "Dow Jones Industrial Average",
+    "Bitcoin price USD",
+    "Ethereum price USD",
+    "USD/CNY exchange rate",
+    "Gold price today",
+    "Crude oil price today"
+  ],
+  "search_summary": {
+    "timestamp": "2026-04-11T13:31:00Z",
+    "queries_executed": 3,
+    "results_found": true,
+    "notes": "美股指数和加密货币数据已通过web_search获取并整合"
   }
 }

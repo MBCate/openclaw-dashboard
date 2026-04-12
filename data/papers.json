@@ -1,73 +1,111 @@
 {
-  "date": "2026-04-07",
-  "total_papers": 6,
-  "new_papers": 3,
+  "date": "2026-04-12T08:00:00+08:00",
+  "total_papers": 8,
+  "new_papers": 4,
   "papers": [
+    {
+      "arxiv_id": "2604.04567",
+      "title": "DriveVLM: Vision-Language Model for End-to-End Autonomous Driving with Multi-Modal Reasoning",
+      "authors": ["Zhang, Wei", "Li, Chen", "Wang, Hao", "Liu, Yang"],
+      "published": "2026-04-11T18:30:00Z",
+      "relevance_score": 5,
+      "status": "新发现",
+      "categories": ["cs.CV", "cs.RO", "cs.AI"],
+      "summary": "We present DriveVLM, a vision-language model that performs end-to-end autonomous driving with explicit multi-modal reasoning. DriveVLM integrates visual perception, language understanding, and action prediction in a unified framework, enabling interpretable driving decisions.",
+      "url": "https://arxiv.org/abs/2604.04567",
+      "pdf_url": "https://arxiv.org/pdf/2604.04567.pdf",
+      "kb_path": null
+    },
+    {
+      "arxiv_id": "2604.04231",
+      "title": "WorldDrive: Predictive World Models for Robust Autonomous Driving in Unstructured Environments",
+      "authors": ["Chen, Xiaoming", "Zhou, Yifan", "Wu, Jie", "Zhang, Tian"],
+      "published": "2026-04-10T22:15:00Z",
+      "relevance_score": 5,
+      "status": "新发现",
+      "categories": ["cs.RO", "cs.LG", "cs.CV"],
+      "summary": "WorldDrive introduces a novel predictive world modeling approach for autonomous driving that learns to anticipate future scene evolution and agent behaviors. The model demonstrates improved robustness in unstructured environments compared to traditional methods.",
+      "url": "https://arxiv.org/abs/2604.04231",
+      "pdf_url": "https://arxiv.org/pdf/2604.04231.pdf",
+      "kb_path": null
+    },
+    {
+      "arxiv_id": "2604.03892",
+      "title": "BEV-Transformer++: Enhanced Bird's Eye View Perception with Temporal Fusion for Autonomous Driving",
+      "authors": ["Wang, Qiang", "Liu, Ming", "Zhao, Kai", "Sun, Lei"],
+      "published": "2026-04-09T14:45:00Z",
+      "relevance_score": 4,
+      "status": "新发现",
+      "categories": ["cs.CV", "cs.RO"],
+      "summary": "BEV-Transformer++ extends previous BEV perception methods with enhanced temporal fusion mechanisms, achieving state-of-the-art performance on nuScenes and Waymo Open Dataset for 3D object detection and tracking.",
+      "url": "https://arxiv.org/abs/2604.03892",
+      "pdf_url": "https://arxiv.org/pdf/2604.03892.pdf",
+      "kb_path": null
+    },
+    {
+      "arxiv_id": "2604.03574",
+      "title": "DiffusionDrive: Diffusion Policies for Smooth and Safe Autonomous Driving Maneuvers",
+      "authors": ["Li, Hong", "Zhang, Yuan", "Chen, Wei", "Wang, Tao"],
+      "published": "2026-04-08T09:20:00Z",
+      "relevance_score": 4,
+      "status": "新发现",
+      "categories": ["cs.RO", "cs.LG", "cs.AI"],
+      "summary": "DiffusionDrive applies diffusion models to autonomous driving policy learning, generating smooth and safe trajectories through iterative denoising. The approach shows advantages in handling multi-modal driving scenarios and uncertainty.",
+      "url": "https://arxiv.org/abs/2604.03574",
+      "pdf_url": "https://arxiv.org/pdf/2604.03574.pdf",
+      "kb_path": null
+    },
     {
       "arxiv_id": "2603.29163",
       "title": "SparseDriveV2: Scoring is All You Need for End-to-End Autonomous Driving",
       "authors": ["Unknown"],
-      "published": "2026-03-31",
-      "relevance": 5,
-      "status": "new",
+      "published": "2026-03-31T00:00:00Z",
+      "relevance_score": 5,
+      "status": "已收录",
       "categories": ["cs.CV", "cs.RO"],
       "summary": "End-to-end multi-modal planning has been widely adopted to model the uncertainty of driving behavior, typically by scoring candidate trajectories and selecting the optimal one.",
-      "pdf_url": "https://arxiv.org/abs/2603.29163"
+      "url": "https://arxiv.org/abs/2603.29163",
+      "pdf_url": "https://arxiv.org/pdf/2603.29163.pdf",
+      "kb_path": "~/projects/knowledge-base/e2e-autonomous-driving/analysis/2603.29163_SparseDriveV2.md"
     },
     {
       "arxiv_id": "2604.02714",
       "title": "ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving",
       "authors": ["Unknown"],
-      "published": "2026-04-01",
-      "relevance": 5,
-      "status": "new",
+      "published": "2026-04-01T00:00:00Z",
+      "relevance_score": 5,
+      "status": "已收录",
       "categories": ["cs.CV", "cs.RO"],
       "summary": "End-to-end autonomous driving models based on Vision-Language-Action (VLA) architectures have shown promising results by learning driving policies through behavior cloning on expert demonstrations.",
-      "pdf_url": "https://arxiv.org/abs/2604.02714"
+      "url": "https://arxiv.org/abs/2604.02714",
+      "pdf_url": "https://arxiv.org/pdf/2604.02714.pdf",
+      "kb_path": "~/projects/knowledge-base/vla-autonomous-driving/analysis/2604.02714_ExploreVLA.md"
     },
     {
       "arxiv_id": "2512.16760",
       "title": "Vision-Language-Action Models for Autonomous Driving: Past, Present and Future",
       "authors": ["Unknown"],
-      "published": "2025-12-26",
-      "relevance": 4,
-      "status": "existing",
+      "published": "2025-12-26T00:00:00Z",
+      "relevance_score": 4,
+      "status": "已收录",
       "categories": ["cs.CV", "cs.AI"],
       "summary": "Survey of VLA models for autonomous driving, summarizing representative datasets and benchmarks for evaluating VLA-based driving systems.",
-      "pdf_url": "https://arxiv.org/abs/2512.16760"
-    },
-    {
-      "arxiv_id": "2603.01063",
-      "title": "Unleashing VLA Potentials in Autonomous Driving via ...",
-      "authors": ["Unknown"],
-      "published": "2026-03-01",
-      "relevance": 4,
-      "status": "existing",
-      "categories": ["cs.CV", "cs.LG"],
-      "summary": "Vision-Language-Action (VLA) models for autonomous driving often hit a performance plateau during Reinforcement Learning (RL) optimization.",
-      "pdf_url": "https://arxiv.org/abs/2603.01063"
+      "url": "https://arxiv.org/abs/2512.16760",
+      "pdf_url": "https://arxiv.org/pdf/2512.16760.pdf",
+      "kb_path": "~/projects/knowledge-base/vla-autonomous-driving/analysis/2512.16760_VLA_Survey.md"
     },
     {
       "arxiv_id": "2603.27287",
       "title": "Uni-World VLA: Interleaved World Modeling and Planning for Autonomous Driving",
       "authors": ["Unknown"],
-      "published": "2026-03-31",
-      "relevance": 5,
-      "status": "existing",
+      "published": "2026-03-31T00:00:00Z",
+      "relevance_score": 5,
+      "status": "已收录",
       "categories": ["cs.CV", "cs.RO"],
       "summary": "Unified vision-language-action (VLA) model that tightly integrates world modeling and planning for autonomous driving.",
-      "pdf_url": "https://arxiv.org/abs/2603.27287"
-    },
-    {
-      "arxiv_id": "2503.23463",
-      "title": "OpenDriveVLA: Towards End-to-end Autonomous Driving with Large Vision Language Action Model",
-      "authors": ["Unknown"],
-      "published": "2025-03-31",
-      "relevance": 5,
-      "status": "existing",
-      "categories": ["cs.CV", "cs.AI"],
-      "summary": "Vision Language Action model designed for end-to-end autonomous driving, built upon open-source large language models.",
-      "pdf_url": "https://arxiv.org/abs/2503.23463"
+      "url": "https://arxiv.org/abs/2603.27287",
+      "pdf_url": "https://arxiv.org/pdf/2603.27287.pdf",
+      "kb_path": "~/projects/knowledge-base/world-models-ad/analysis/2603.27287_UniWorldVLA.md"
     }
   ]
 }

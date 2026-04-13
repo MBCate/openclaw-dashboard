@@ -1,81 +1,143 @@
 {
-  "timestamp": "2026-04-11 02:55:00",
-  "date": "2026-04-11",
-  "time": "02:55:00",
-  "market_condition": "震荡反弹",
-  "strategies": [
-    {
-      "name": "DoubleMa",
-      "sharpe": 0.92,
-      "max_drawdown": -7.8,
-      "positions": 2,
-      "status": "active",
-      "comment": "市场反弹中表现改善"
+  "timestamp": "2026-04-13 13:32:40",
+  "strategies": {
+    "DoubleMa": {
+      "1h": {
+        "signal": "做多",
+        "confidence": "中等"
+      },
+      "4h": {
+        "signal": "观望",
+        "confidence": "中等"
+      }
     },
-    {
-      "name": "TripleMa",
-      "sharpe": 0.71,
-      "max_drawdown": -9.5,
-      "positions": 1,
-      "status": "warning",
-      "comment": "谨慎重启，表现仍不稳定"
+    "RSI": {
+      "1h": {
+        "signal": "观望",
+        "confidence": "中等"
+      },
+      "4h": {
+        "signal": "观望",
+        "confidence": "中等"
+      }
     },
-    {
-      "name": "Supertrend",
-      "sharpe": 1.12,
-      "max_drawdown": -6.2,
-      "positions": 3,
-      "status": "active",
-      "comment": "继续稳健表现"
+    "MACD": {
+      "1h": {
+        "signal": "观望",
+        "confidence": "中等"
+      },
+      "4h": {
+        "signal": "观望",
+        "confidence": "中等"
+      }
     },
-    {
-      "name": "RSI",
-      "sharpe": 1.35,
-      "max_drawdown": -4.9,
-      "positions": 4,
-      "status": "active",
-      "comment": "超买超卖策略持续有效"
+    "Bollinger": {
+      "1h": {
+        "signal": "观望",
+        "confidence": "中等"
+      },
+      "4h": {
+        "signal": "观望",
+        "confidence": "中等"
+      }
     },
-    {
-      "name": "MACD",
-      "sharpe": 0.88,
-      "max_drawdown": -8.3,
-      "positions": 2,
-      "status": "active",
-      "comment": "趋势确认后表现回升"
+    "Supertrend": {
+      "1h": {
+        "signal": "观望",
+        "confidence": "中等"
+      },
+      "4h": {
+        "signal": "观望",
+        "confidence": "中等"
+      }
     },
-    {
-      "name": "Bollinger",
-      "sharpe": 1.24,
-      "max_drawdown": -6.5,
-      "positions": 5,
-      "status": "active",
-      "comment": "震荡市场中表现优异"
+    "TripleMa": {
+      "1h": {
+        "signal": "做多",
+        "confidence": "中等"
+      },
+      "4h": {
+        "signal": "观望",
+        "confidence": "中等"
+      }
     },
-    {
-      "name": "Momentum",
-      "sharpe": 0.68,
-      "max_drawdown": -12.8,
-      "positions": 1,
-      "status": "warning",
-      "comment": "动量策略在反弹中有所恢复"
+    "Momentum": {
+      "1h": {
+        "signal": "做空",
+        "confidence": "中等"
+      },
+      "4h": {
+        "signal": "观望",
+        "confidence": "中等"
+      }
     },
-    {
-      "name": "MeanReversion",
-      "sharpe": 1.48,
-      "max_drawdown": -4.2,
-      "positions": 6,
-      "status": "active",
-      "comment": "均值回归策略继续领先"
+    "MeanReversion": {
+      "1h": {
+        "signal": "观望",
+        "confidence": "中等"
+      },
+      "4h": {
+        "signal": "观望",
+        "confidence": "中等"
+      }
     }
-  ],
-  "summary": {
-    "active_strategies": 7,
-    "stopped_strategies": 0,
-    "warning_strategies": 1,
-    "total_positions": 24,
-    "avg_sharpe": 1.05,
-    "max_drawdown": -12.8,
-    "market_impact": "市场震荡反弹，趋势策略表现改善，反转策略继续领先，整体策略表现回升"
+  },
+  "market": {
+    "crypto": {
+      "BTC/USDT": {
+        "price": 90037.0,
+        "change_24h": -0.394166381800421,
+        "trend_1h": "偏多",
+        "trend_4h": "偏多"
+      },
+      "ETH/USDT": {
+        "price": 3106.0,
+        "change_24h": -0.5695005105977033,
+        "trend_1h": "偏空",
+        "trend_4h": "偏多"
+      }
+    },
+    "stocks": {
+      "上证指数": {
+        "price": 3968.8401,
+        "change": 0.094
+      },
+      "深证成指": {
+        "price": 13525.022,
+        "change": -0.581
+      },
+      "创业板指": {
+        "price": 3203.172,
+        "change": -1.225
+      },
+      "沪金主力": {
+        "price": 977.56,
+        "change": -0.74
+      },
+      "沪银主力": {
+        "price": 17074.0,
+        "change": -5.88
+      },
+      "沪铜主力": {
+        "price": 98240.0,
+        "change": 0.15
+      },
+      "螺纹钢主力": {
+        "price": 3122.0,
+        "change": -0.38
+      },
+      "沪深300期货": {
+        "price": 4599.8,
+        "change": -0.48
+      },
+      "中证500期货": {
+        "price": 7362.8,
+        "change": -0.25
+      },
+      "50ETF波动率": {
+        "price": 0,
+        "change": 0
+      }
+    }
   }
 }

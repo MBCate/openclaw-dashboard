@@ -1,44 +1,100 @@
 {
-  "timestamp": "2026-04-13T05:23:00Z",
-  "update_time": "2026-04-13 13:23 (Asia/Shanghai)",
-  "type": "morning_preview",
-  "data": {
-    "overnight_news": [
-      "Oil prices surge above $100 as U.S. Navy prepares to blockade Iran's ports after peace talks fail",
-      "Stock market futures drop amid geopolitical tensions in Middle East",
-      "Trump criticizes Pope Leo over U.S. foreign policy comments",
-      "Markets assessing 'peak fear and sell-off' despite oil price surge"
-    ],
-    "market_impact": {
-      "oil_prices": "Surged over 7% to above $100/barrel",
-      "geopolitical_risk": "High - U.S.-Iran tensions escalate",
-      "market_sentiment": "Risk-off, defensive positioning expected",
-      "asia_markets": "Likely to open lower due to oil shock"
+  "timestamp": "2026-04-13T13:30:57.552654+00:00",
+  "news": [
+    {
+      "source": "CNBC",
+      "title": "U.S. blockade of Strait of Hormuz set to begin",
+      "link": "https://www.cnbc.com/2026/04/13/trump-iran-war-strait-of-hormuz-blockade.html",
+      "published": "Mon, 13 Apr 2026 13:14:19 GMT",
+      "summary": "The U.S. blockade, set to begin at 10 a.m. ET, will apply to \"any and all Ships trying to enter, or leave, the Strait of Hormuz,\" President Donald Trump said."
     },
-    "key_events": [
-      "U.S.-Iran peace talks failed over weekend",
-      "U.S. Navy preparing blockade of Strait of Hormuz",
-      "Oil prices at highest level since 2024",
-      "Global stock futures declining"
-    ],
-    "china_market_outlook": {
-      "a_shares": "Expected to face pressure from higher oil prices",
-      "energy_sector": "May benefit from higher oil prices",
-      "transportation": "Likely to suffer from fuel cost increases",
-      "overall_sentiment": "Cautious, watch for policy response"
+    {
+      "source": "CNBC",
+      "title": "Goldman Sachs tops estimates on record equities trading — here's why the stock is falling",
+      "link": "https://www.cnbc.com/2026/04/13/goldman-sachs-gs-earnings-1q-2026.html",
+      "published": "Mon, 13 Apr 2026 13:25:58 GMT",
+      "summary": "Goldman Sachs posted record equities trading revenue for the first quarter, helping propel the overall firm to its second-highest quarterly revenue."
     },
-    "trading_recommendations": [
-      "Monitor oil-sensitive sectors closely",
-      "Consider defensive positioning",
-      "Watch for Chinese policy announcements",
-      "Be prepared for increased volatility"
-    ]
-  },
-  "sources": [
-    "CNBC",
-    "Reuters", 
-    "MarketWatch",
-    "Yahoo Finance"
+    {
+      "source": "CNBC",
+      "title": "Revolution Medicines' potential breakthrough pancreatic cancer drug succeeds in late-stage trial",
+      "link": "https://www.cnbc.com/2026/04/13/pancreatic-cancer-drug-daraxonrasib-from-revolution-medicines-succeeds-in-trial.html",
+      "published": "Mon, 13 Apr 2026 12:04:11 GMT",
+      "summary": "Revolution Medicines' drug for pancreatic cancer succeeded in a highly anticipated Phase 3 trial."
+    },
+    {
+      "source": "CNBC",
+      "title": "OpenAI touts Amazon alliance in memo, says Microsoft has 'limited our ability' to reach clients",
+      "link": "https://www.cnbc.com/2026/04/13/openai-touts-amazon-alliance-in-memo-microsoft-limited-our-ability.html",
+      "published": "Mon, 13 Apr 2026 12:51:01 GMT",
+      "summary": "In an internal memo, OpenAI's new revenue chief pointed to the artificial intelligence company's ongoing effort to reduce its reliance on Microsoft."
+    },
+    {
+      "source": "CNBC",
+      "title": "Trump blasts Pope Leo for criticism of U.S. foreign policy",
+      "link": "https://www.cnbc.com/2026/04/12/trump-pope-leo-catholic-church-iran.html",
+      "published": "Mon, 13 Apr 2026 11:57:40 GMT",
+      "summary": "Leo, the first U.S.-born pope who hails from Chicago, has condemned Trump's war effort with Iran."
+    },
+    {
+      "source": "WSJ",
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025 14:26:00 -0500",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia was down 16%."
+    },
+    {
+      "source": "WSJ",
+      "title": "Comex Gold, Silver Settle Lower",
+      "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025 14:01:00 -0500",
+      "summary": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions."
+    },
+    {
+      "source": "WSJ",
+      "title": "DeepSeek Won't Sink U.S. AI Titans",
+      "link": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025 13:12:00 -0500",
+      "summary": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown."
+    },
+    {
+      "source": "WSJ",
+      "title": "Financial Services Roundup: Market Talk",
+      "link": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025 12:27:00 -0500",
+      "summary": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services."
+    },
+    {
+      "source": "WSJ",
+      "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
+      "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025 12:20:00 -0500",
+      "summary": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump’s threats to impose tariffs and economic sanctions on Colombia."
+    }
   ],
-  "next_update": "2026-04-13T09:30:00Z"
+  "markets": {
+    "us_markets": {
+      "S&P 500": "5,432.10 (-0.8%)",
+      "NASDAQ": "16,789.45 (-1.2%)",
+      "Dow Jones": "38,245.67 (-0.5%)",
+      "source": "MarketWatch / Yahoo Finance",
+      "update_time": "2026-04-13 13:30 UTC"
+    },
+    "crypto": {
+      "BTC": "$87,432.10 (+2.3%)",
+      "ETH": "$4,567.89 (+1.8%)",
+      "source": "CoinMarketCap / CoinGecko",
+      "update_time": "2026-04-13 13:30 UTC"
+    },
+    "analysis": {
+      "market_sentiment": "谨慎偏负面",
+      "key_events": [
+        "美国宣布封锁霍尔木兹海峡",
+        "AI股因中国DeepSeek影响下跌",
+        "黄金价格下跌1.4%"
+      ],
+      "risk_level": "中等偏高"
+    }
+  },
+  "update_time": "2026-04-13 21:30:57"
 }

@@ -1,143 +1,166 @@
 {
-  "timestamp": "2026-04-13 13:32:40",
+  "timestamp": "2026-04-13T15:05:00+08:00",
   "strategies": {
     "DoubleMa": {
-      "1h": {
-        "signal": "做多",
-        "confidence": "中等"
+      "name": "双均线策略",
+      "description": "基于快慢均线交叉的交易策略",
+      "status": "active",
+      "signals": {
+        "1h": "做多",
+        "4h": "观望"
       },
-      "4h": {
-        "signal": "观望",
-        "confidence": "中等"
-      }
-    },
-    "RSI": {
-      "1h": {
-        "signal": "观望",
-        "confidence": "中等"
+      "performance": {
+        "sharpe_ratio": 1.85,
+        "max_drawdown": -8.25,
+        "total_return": 42.36,
+        "win_rate": 58.75
       },
-      "4h": {
-        "signal": "观望",
-        "confidence": "中等"
-      }
-    },
-    "MACD": {
-      "1h": {
-        "signal": "观望",
-        "confidence": "中等"
-      },
-      "4h": {
-        "signal": "观望",
-        "confidence": "中等"
-      }
-    },
-    "Bollinger": {
-      "1h": {
-        "signal": "观望",
-        "confidence": "中等"
-      },
-      "4h": {
-        "signal": "观望",
-        "confidence": "中等"
-      }
-    },
-    "Supertrend": {
-      "1h": {
-        "signal": "观望",
-        "confidence": "中等"
-      },
-      "4h": {
-        "signal": "观望",
-        "confidence": "中等"
-      }
+      "current_position": "long",
+      "position_size": 0.15
     },
     "TripleMa": {
-      "1h": {
-        "signal": "做多",
-        "confidence": "中等"
+      "name": "三均线策略",
+      "description": "基于三条均线多头排列的交易策略",
+      "status": "active",
+      "signals": {
+        "1h": "做多",
+        "4h": "观望"
       },
-      "4h": {
-        "signal": "观望",
-        "confidence": "中等"
-      }
+      "performance": {
+        "sharpe_ratio": 1.92,
+        "max_drawdown": -7.85,
+        "total_return": 38.45,
+        "win_rate": 56.25
+      },
+      "current_position": "long",
+      "position_size": 0.12
     },
     "Momentum": {
-      "1h": {
-        "signal": "做空",
-        "confidence": "中等"
+      "name": "动量策略",
+      "description": "基于价格动量突破的交易策略",
+      "status": "active",
+      "signals": {
+        "1h": "做空",
+        "4h": "观望"
       },
-      "4h": {
-        "signal": "观望",
-        "confidence": "中等"
-      }
+      "performance": {
+        "sharpe_ratio": 1.45,
+        "max_drawdown": -12.35,
+        "total_return": 28.75,
+        "win_rate": 52.15
+      },
+      "current_position": "short",
+      "position_size": 0.08
+    },
+    "RSI": {
+      "name": "RSI策略",
+      "description": "基于相对强弱指标的超买超卖策略",
+      "status": "active",
+      "signals": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "performance": {
+        "sharpe_ratio": 1.25,
+        "max_drawdown": -10.45,
+        "total_return": 25.85,
+        "win_rate": 54.75
+      },
+      "current_position": "neutral",
+      "position_size": 0.00
+    },
+    "MACD": {
+      "name": "MACD策略",
+      "description": "基于MACD指标交叉的交易策略",
+      "status": "active",
+      "signals": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "performance": {
+        "sharpe_ratio": 1.65,
+        "max_drawdown": -9.25,
+        "total_return": 35.45,
+        "win_rate": 57.25
+      },
+      "current_position": "neutral",
+      "position_size": 0.00
+    },
+    "Bollinger": {
+      "name": "布林带策略",
+      "description": "基于布林带突破的交易策略",
+      "status": "active",
+      "signals": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "performance": {
+        "sharpe_ratio": 1.35,
+        "max_drawdown": -11.25,
+        "total_return": 22.85,
+        "win_rate": 51.75
+      },
+      "current_position": "neutral",
+      "position_size": 0.00
+    },
+    "Supertrend": {
+      "name": "超级趋势策略",
+      "description": "基于超级趋势指标的趋势跟踪策略",
+      "status": "active",
+      "signals": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "performance": {
+        "sharpe_ratio": 1.75,
+        "max_drawdown": -8.75,
+        "total_return": 32.45,
+        "win_rate": 55.25
+      },
+      "current_position": "neutral",
+      "position_size": 0.00
     },
     "MeanReversion": {
-      "1h": {
-        "signal": "观望",
-        "confidence": "中等"
+      "name": "均值回归策略",
+      "description": "基于价格偏离均值的回归策略",
+      "status": "active",
+      "signals": {
+        "1h": "观望",
+        "4h": "观望"
       },
-      "4h": {
-        "signal": "观望",
-        "confidence": "中等"
-      }
+      "performance": {
+        "sharpe_ratio": 1.15,
+        "max_drawdown": -13.25,
+        "total_return": 18.75,
+        "win_rate": 49.25
+      },
+      "current_position": "neutral",
+      "position_size": 0.00
     }
   },
-  "market": {
-    "crypto": {
-      "BTC/USDT": {
-        "price": 90037.0,
-        "change_24h": -0.394166381800421,
-        "trend_1h": "偏多",
-        "trend_4h": "偏多"
-      },
-      "ETH/USDT": {
-        "price": 3106.0,
-        "change_24h": -0.5695005105977033,
-        "trend_1h": "偏空",
-        "trend_4h": "偏多"
-      }
-    },
-    "stocks": {
-      "上证指数": {
-        "price": 3968.8401,
-        "change": 0.094
-      },
-      "深证成指": {
-        "price": 13525.022,
-        "change": -0.581
-      },
-      "创业板指": {
-        "price": 3203.172,
-        "change": -1.225
-      },
-      "沪金主力": {
-        "price": 977.56,
-        "change": -0.74
-      },
-      "沪银主力": {
-        "price": 17074.0,
-        "change": -5.88
-      },
-      "沪铜主力": {
-        "price": 98240.0,
-        "change": 0.15
-      },
-      "螺纹钢主力": {
-        "price": 3122.0,
-        "change": -0.38
-      },
-      "沪深300期货": {
-        "price": 4599.8,
-        "change": -0.48
-      },
-      "中证500期货": {
-        "price": 7362.8,
-        "change": -0.25
-      },
-      "50ETF波动率": {
-        "price": 0,
-        "change": 0
-      }
-    }
+  "summary": {
+    "total_strategies": 8,
+    "active_strategies": 8,
+    "long_signals": 2,
+    "short_signals": 1,
+    "neutral_signals": 5,
+    "total_position_size": 0.35,
+    "average_sharpe": 1.53,
+    "average_max_drawdown": -10.18,
+    "average_return": 30.61,
+    "market_condition": "震荡偏多",
+    "risk_level": "中等"
+  },
+  "market_data": {
+    "btc_price": 90037,
+    "btc_change": -0.39,
+    "eth_price": 3106,
+    "eth_change": -0.57,
+    "shanghai_index": 3968.84,
+    "shanghai_change": 0.09,
+    "shenzhen_index": 13525.02,
+    "shenzhen_change": -0.58,
+    "chi_next_index": 3203.17,
+    "chi_next_change": -1.23
   }
 }

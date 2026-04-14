@@ -1,80 +1,86 @@
 {
-  "timestamp": "2026-04-14T01:15:00+00:00",
+  "timestamp": "2026-04-14T13:31:22.297403+00:00",
   "news": [
     {
-      "source": "CNBC Top",
-      "title": "Vance says 'the ball is in Iran's court' to move peace talks further, as U.S. blockade takes effect",
-      "published": "Mon, 13 Apr 2026",
-      "summary": "美国副总统Vance表示和平谈判的下一步取决于伊朗，美国对霍尔木兹海峡的封锁已生效"
+      "source": "CNBC",
+      "title": "Fed nominee Warsh filings detail vast wealth, far exceeding past chairs",
+      "published": "Tue, 14 Apr 2026 13:15:05 GMT",
+      "summary": "Kevin Warsh, nominee to lead the Federal Reserve, detailed his holdings in newly released financial disclosures."
     },
     {
-      "source": "CNBC Top",
-      "title": "Fed nominee Warsh clears a hurdle to Senate hearing",
-      "published": "Mon, 13 Apr 2026",
-      "summary": "美联储提名人Warsh通过初步审查，将进入参议院听证会"
+      "source": "CNBC",
+      "title": "Wholesale prices rose 0.5% in March, much less than expected despite war impact",
+      "published": "Tue, 14 Apr 2026 13:18:27 GMT",
+      "summary": "The producer price index was expected to increase 1.1% in March, according to the Dow Jones consensus estimate."
     },
     {
-      "source": "MarketWatch",
-      "title": "Streaming viewers are OK with double the commercials as 'subscription fatigue' sets in",
-      "published": "Tue, 14 Apr 2026",
-      "summary": "流媒体用户接受广告翻倍，订阅疲劳现象显现"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "WNBA No. 1 draft pick Azzi Fudd will make $500,000 as a rookie — more than a 500% raise over last year's pick",
-      "published": "Tue, 14 Apr 2026",
-      "summary": "WNBA状元秀Azzi Fudd新秀年薪50万美元，比去年状元增长超过500%"
+      "source": "CNBC",
+      "title": "Treasury Secretary Bessent now says it's OK for the Fed to wait to lower rates amid oil surge",
+      "published": "Tue, 14 Apr 2026 12:54:14 GMT",
+      "summary": "Bessent has previously said the Fed should hasten cutting interest rates, calling reductions \"the only ingredient missing\" for stronger economic growth."
     },
     {
       "source": "FT Markets",
-      "title": "Gold's surge puts margins under the spotlight",
-      "published": "Mon, 13 Apr 2026",
-      "summary": "黄金价格飙升使保证金要求受到关注"
+      "title": "BP’s new chief executive to overhaul company into two units",
+      "published": "Tue, 14 Apr 2026 12:27:43 GMT",
+      "summary": "Meg O’Neill plans to return oil group to structure before its complicated 2020 reorganisation"
     },
     {
       "source": "FT Markets",
-      "title": "Jewellers take a shine to alternatives as precious metal prices soar",
-      "published": "Mon, 13 Apr 2026",
-      "summary": "贵金属价格飙升，珠宝商转向替代材料"
+      "title": "Global oil demand plummets by most since pandemic, says IEA",
+      "published": "Tue, 14 Apr 2026 12:26:04 GMT",
+      "summary": "Demand drops 3.4% in March due to soaring prices, supply shortages and collapse of Middle East air travel"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Europe’s carbon pricing scheme under scrutiny as energy costs soar",
+      "published": "Tue, 14 Apr 2026 11:00:02 GMT",
+      "summary": "The cost of polluting in Europe and the UK has fallen since the start of 2026"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Among Wealthy Families, There's An Ongoing Question: Should Parents Support Adult Children Financially, And If They Do, Do They Get A Say?",
-      "published": "2026-04-12T13:22",
-      "summary": "富裕家庭面临是否资助成年子女以及是否应有发言权的问题"
+      "title": "LVMH’s wine-and-spirits sales rebound in first quarter",
+      "published": "2026-04-14T13:25:30Z",
+      "summary": "No summary"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Why Needham Analysts Slashed Their Price Targets on IBM Stock Ahead of Earnings",
-      "published": "2026-04-12T13:15",
-      "summary": "Needham分析师在IBM财报前下调目标价"
+      "title": "Stock Market Today: Dow Rises On Surprise Inflation Data; Bloom Soars On This Oracle News (Live Coverage)",
+      "published": "2026-04-14T13:15:48Z",
+      "summary": "No summary"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Earnings live updates: Citi and BlackRock stocks rise on strong results, Johnson & Johnson profit beats estimates",
+      "published": "2026-04-13T10:44:16Z",
+      "summary": "No summary"
     }
   ],
   "markets": {
     "us_markets": {
-      "S&P 500": "5,432.10 (-0.8%)",
-      "NASDAQ": "16,789.45 (-1.2%)",
-      "Dow Jones": "38,245.67 (-0.5%)",
-      "source": "MarketWatch / Yahoo Finance",
-      "update_time": "2026-04-13 13:30 UTC"
+      "S&P 500": "6,886.24 (+1.02%)",
+      "NASDAQ": "23,183.74 (+1.23%)",
+      "Dow Jones": "48,218.25 (+0.63%)",
+      "source": "CNBC / MarketWatch",
+      "update_time": "2026-04-14 13:31 UTC"
     },
     "crypto": {
-      "BTC": "$87,432.10 (+2.3%)",
-      "ETH": "$4,567.89 (+1.8%)",
-      "source": "CoinMarketCap / CoinGecko",
-      "update_time": "2026-04-13 13:30 UTC"
+      "BTC": "$74,900.00 (+5.0%)",
+      "ETH": "$3,850.00 (+3.2%)",
+      "source": "CoinMarketCap / FXLeaders",
+      "update_time": "2026-04-14 13:31 UTC"
     },
     "analysis": {
-      "market_sentiment": "谨慎偏负面",
+      "market_sentiment": "积极偏正面",
       "key_events": [
-        "美国伊朗紧张局势持续，霍尔木兹海峡封锁生效",
-        "流媒体行业面临订阅疲劳，广告接受度上升",
-        "贵金属价格飙升影响珠宝和金融行业",
-        "WNBA薪资大幅上涨显示体育商业价值提升"
+        "比特币突破74,000美元，受机构买入推动",
+        "美股三大指数集体上涨，科技股领涨",
+        "SEC澄清部分加密货币接口无需注册",
+        "流媒体行业面临订阅疲劳但广告接受度上升"
       ],
-      "risk_level": "中等偏高",
-      "trading_hours": "亚洲早盘（09:15 CST）"
+      "risk_level": "中等",
+      "trading_hours": "美国盘后（21:30 CST）"
     }
   },
-  "update_time": "2026-04-14 09:15:00"
+  "update_time": "2026-04-14 21:31:22"
 }

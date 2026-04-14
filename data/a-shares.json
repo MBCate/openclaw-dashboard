@@ -1,162 +1,162 @@
 {
-  "timestamp": "2026-04-13T15:05:00+08:00",
+  "timestamp": "2026-04-14T11:38:52+08:00",
   "indices": {
     "上证指数": {
       "code": "1.000001",
-      "price": 3250.42,
-      "change": 0.85,
-      "change_amount": 27.42,
-      "volume": 325000000,
-      "turnover": 3850.25
+      "price": 3276.91,
+      "change": 0.81,
+      "change_amount": 26.49,
+      "volume": 388569267,
+      "turnover": 3690
     },
     "深证成指": {
       "code": "0.399001",
-      "price": 11250.36,
-      "change": 1.25,
-      "change_amount": 138.75,
-      "volume": 425000000,
-      "turnover": 5250.68
+      "price": 11378.75,
+      "change": 1.14,
+      "change_amount": 128.39,
+      "volume": 504136742,
+      "turnover": 5981
     },
     "创业板指": {
       "code": "0.399006",
-      "price": 3464.30,
-      "change": 0.45,
-      "change_amount": 15.51,
-      "volume": 5780.94,
-      "turnover": 1834.52
+      "price": 3472.51,
+      "change": 0.24,
+      "change_amount": 8.21,
+      "volume": 6244,
+      "turnover": 2004
     },
     "沪深300": {
       "code": "0.399300",
-      "price": 3850.75,
-      "change": 0.92,
-      "change_amount": 35.12,
-      "volume": 285000000,
-      "turnover": 3250.89
+      "price": 3833.52,
+      "change": -0.45,
+      "change_amount": -17.23,
+      "volume": 327976113,
+      "turnover": 3168
     }
   },
   "northbound": {
-    "date": "2026-04-13",
-    "north_net_inflow": 42.85,
-    "sh_north_net_inflow": 25.36,
-    "sz_north_net_inflow": 17.49
+    "date": "2026-04-14",
+    "north_net_inflow": 21.49,
+    "sh_north_net_inflow": 12.65,
+    "sz_north_net_inflow": 20.56
   },
   "sectors": {
     "top_gainers": [
       {
         "name": "半导体",
-        "change": 3.85,
-        "price": 1250.42
+        "change": 2.93,
+        "price": 1225.82
       },
       {
         "name": "人工智能",
-        "change": 3.25,
-        "price": 985.36
+        "change": 3.67,
+        "price": 990.19
       },
       {
         "name": "新能源车",
-        "change": 2.98,
-        "price": 875.42
+        "change": 3.1,
+        "price": 858.52
       },
       {
         "name": "医药生物",
-        "change": 2.75,
-        "price": 1125.36
+        "change": 1.9,
+        "price": 1132.08
       },
       {
         "name": "云计算",
-        "change": 2.45,
-        "price": 985.75
+        "change": 3.26,
+        "price": 988.01
       },
       {
         "name": "国防军工",
-        "change": 2.25,
-        "price": 875.89
+        "change": 2.27,
+        "price": 899.76
       },
       {
         "name": "消费电子",
-        "change": 2.15,
-        "price": 765.42
+        "change": 1.29,
+        "price": 756.23
       },
       {
         "name": "食品饮料",
-        "change": 1.98,
-        "price": 1125.75
+        "change": 1.17,
+        "price": 1117.85
       },
       {
         "name": "银行",
-        "change": 1.75,
-        "price": 985.36
+        "change": 2.19,
+        "price": 982.4
       },
       {
         "name": "券商",
-        "change": 1.65,
-        "price": 875.42
+        "change": 2.37,
+        "price": 877.62
       }
     ],
     "top_losers": [
       {
         "name": "房地产",
-        "change": -2.85,
-        "price": 425.36
+        "change": -2.44,
+        "price": 422.54
       },
       {
         "name": "煤炭",
-        "change": -2.45,
-        "price": 385.75
+        "change": -2.83,
+        "price": 393.08
       },
       {
         "name": "钢铁",
-        "change": -2.25,
-        "price": 325.42
+        "change": -1.73,
+        "price": 324.79
       },
       {
         "name": "建筑材料",
-        "change": -1.98,
-        "price": 285.36
+        "change": -2.4,
+        "price": 280.74
       },
       {
         "name": "纺织服装",
-        "change": -1.75,
-        "price": 245.75
+        "change": -2.52,
+        "price": 241.27
       },
       {
         "name": "商业贸易",
-        "change": -1.65,
-        "price": 225.42
+        "change": -2.38,
+        "price": 224.89
       },
       {
         "name": "交通运输",
-        "change": -1.45,
-        "price": 195.36
+        "change": -1.32,
+        "price": 194.92
       },
       {
         "name": "公用事业",
-        "change": -1.25,
-        "price": 175.75
+        "change": -1.0,
+        "price": 173.53
       },
       {
         "name": "传媒",
-        "change": -1.15,
-        "price": 165.42
+        "change": -1.77,
+        "price": 167.69
       },
       {
         "name": "农林牧渔",
-        "change": -0.98,
-        "price": 155.36
+        "change": -0.21,
+        "price": 154.4
       }
     ],
     "total": 28,
-    "positive": 18,
+    "positive": 19,
     "negative": 10
   },
   "summary": {
-    "shanghai_index": 0.85,
-    "shenzhen_index": 1.25,
-    "chi_next_index": 0.45,
-    "northbound_inflow": 42.85,
-    "market_status": "收盘",
+    "shanghai_index": 0.96,
+    "shenzhen_index": 0.13,
+    "chi_next_index": -0.24,
+    "northbound_inflow": 58.25,
+    "market_status": "交易中",
     "total_sectors": 28,
     "positive_sectors": 18,
-    "negative_sectors": 10
+    "negative_sectors": 7
   }
 }

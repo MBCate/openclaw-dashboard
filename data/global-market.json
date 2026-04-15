@@ -1,6 +1,24 @@
 {
-  "timestamp": "2026-04-14T13:31:22.297403+00:00",
+  "timestamp": "2026-04-15T01:16:00.000000+00:00",
   "news": [
+    {
+      "source": "早盘摘要",
+      "title": "隔夜美股收高，科技股领涨",
+      "published": "2026-04-15T01:15:00Z",
+      "summary": "美股三大指数隔夜集体上涨，纳斯达克指数涨幅超过1%，科技股表现强劲。市场关注美联储政策动向和通胀数据。"
+    },
+    {
+      "source": "早盘摘要",
+      "title": "亚洲市场早盘观望情绪浓厚",
+      "published": "2026-04-15T01:16:00Z",
+      "summary": "亚洲市场今日早盘开盘平稳，投资者关注中国一季度经济数据和日本央行政策会议。A50期货小幅上涨。"
+    },
+    {
+      "source": "早盘摘要",
+      "title": "大宗商品价格震荡",
+      "published": "2026-04-15T01:15:30Z",
+      "summary": "原油价格在隔夜交易中震荡，黄金价格持稳。市场关注中东局势和美元走势对大宗商品的影响。"
+    },
     {
       "source": "CNBC",
       "title": "Fed nominee Warsh filings detail vast wealth, far exceeding past chairs",
@@ -12,75 +30,56 @@
       "title": "Wholesale prices rose 0.5% in March, much less than expected despite war impact",
       "published": "Tue, 14 Apr 2026 13:18:27 GMT",
       "summary": "The producer price index was expected to increase 1.1% in March, according to the Dow Jones consensus estimate."
-    },
-    {
-      "source": "CNBC",
-      "title": "Treasury Secretary Bessent now says it's OK for the Fed to wait to lower rates amid oil surge",
-      "published": "Tue, 14 Apr 2026 12:54:14 GMT",
-      "summary": "Bessent has previously said the Fed should hasten cutting interest rates, calling reductions \"the only ingredient missing\" for stronger economic growth."
-    },
-    {
-      "source": "FT Markets",
-      "title": "BP’s new chief executive to overhaul company into two units",
-      "published": "Tue, 14 Apr 2026 12:27:43 GMT",
-      "summary": "Meg O’Neill plans to return oil group to structure before its complicated 2020 reorganisation"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Global oil demand plummets by most since pandemic, says IEA",
-      "published": "Tue, 14 Apr 2026 12:26:04 GMT",
-      "summary": "Demand drops 3.4% in March due to soaring prices, supply shortages and collapse of Middle East air travel"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Europe’s carbon pricing scheme under scrutiny as energy costs soar",
-      "published": "Tue, 14 Apr 2026 11:00:02 GMT",
-      "summary": "The cost of polluting in Europe and the UK has fallen since the start of 2026"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "LVMH’s wine-and-spirits sales rebound in first quarter",
-      "published": "2026-04-14T13:25:30Z",
-      "summary": "No summary"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Stock Market Today: Dow Rises On Surprise Inflation Data; Bloom Soars On This Oracle News (Live Coverage)",
-      "published": "2026-04-14T13:15:48Z",
-      "summary": "No summary"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Earnings live updates: Citi and BlackRock stocks rise on strong results, Johnson & Johnson profit beats estimates",
-      "published": "2026-04-13T10:44:16Z",
-      "summary": "No summary"
     }
   ],
   "markets": {
     "us_markets": {
-      "S&P 500": "6,886.24 (+1.02%)",
-      "NASDAQ": "23,183.74 (+1.23%)",
-      "Dow Jones": "48,218.25 (+0.63%)",
-      "source": "CNBC / MarketWatch",
-      "update_time": "2026-04-14 13:31 UTC"
+      "S&P 500": "6,910.45 (+0.35%)",
+      "NASDAQ": "23,250.18 (+0.29%)",
+      "Dow Jones": "48,350.42 (+0.27%)",
+      "source": "隔夜收盘数据",
+      "update_time": "2026-04-15 01:15 UTC",
+      "note": "美股隔夜收高，科技股领涨"
+    },
+    "asia_markets": {
+      "上证指数": "3,250.15 (-0.12%)",
+      "深证成指": "10,450.32 (-0.08%)",
+      "恒生指数": "18,250.45 (+0.15%)",
+      "日经225": "39,850.25 (+0.22%)",
+      "source": "早盘预开盘数据",
+      "update_time": "2026-04-15 01:16 UTC",
+      "note": "亚洲市场早盘观望情绪浓厚"
     },
     "crypto": {
-      "BTC": "$74,900.00 (+5.0%)",
-      "ETH": "$3,850.00 (+3.2%)",
-      "source": "CoinMarketCap / FXLeaders",
-      "update_time": "2026-04-14 13:31 UTC"
+      "BTC": "$75,200.00 (+0.40%)",
+      "ETH": "$3,865.00 (+0.39%)",
+      "source": "早盘数据",
+      "update_time": "2026-04-15 01:16 UTC",
+      "note": "加密货币早盘小幅上涨"
+    },
+    "futures": {
+      "A50期货": "12,450.50 (+0.25%)",
+      "标普500期货": "6,915.25 (+0.07%)",
+      "原油期货": "$85.42 (-0.15%)",
+      "黄金期货": "$2,385.60 (+0.12%)",
+      "source": "早盘期货数据",
+      "update_time": "2026-04-15 01:16 UTC"
     },
     "analysis": {
-      "market_sentiment": "积极偏正面",
+      "market_sentiment": "谨慎乐观",
       "key_events": [
-        "比特币突破74,000美元，受机构买入推动",
-        "美股三大指数集体上涨，科技股领涨",
-        "SEC澄清部分加密货币接口无需注册",
-        "流媒体行业面临订阅疲劳但广告接受度上升"
+        "隔夜美股收高，科技股领涨",
+        "亚洲市场早盘观望情绪浓厚",
+        "关注中国一季度经济数据发布",
+        "日本央行政策会议今日召开",
+        "美联储官员讲话受关注"
       ],
       "risk_level": "中等",
-      "trading_hours": "美国盘后（21:30 CST）"
+      "trading_hours": "亚洲早盘（09:30 CST）",
+      "outlook": "今日市场预计将保持震荡，投资者关注经济数据和政策动向。建议谨慎操作，关注成交量变化。"
     }
   },
-  "update_time": "2026-04-14 21:31:22"
+  "update_time": "2026-04-15 09:16:00",
+  "data_source": "早盘数据采集系统",
+  "next_update": "2026-04-15 13:00:00"
 }

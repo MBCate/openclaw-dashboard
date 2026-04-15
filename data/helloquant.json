@@ -1,141 +1,82 @@
 {
-  "timestamp": "2026-04-14T15:05:00+08:00",
-  "strategies": {
-    "DoubleMa": {
-      "status": "active",
-      "timeframe": "1h",
-      "signal": "neutral",
-      "confidence": 0.65,
-      "last_signal_time": "2026-04-14T14:30:00+08:00",
-      "performance": {
-        "sharpe_ratio": 1.24,
-        "max_drawdown": -3.2,
-        "win_rate": 58.3,
-        "total_trades": 24
-      }
+  "timestamp": "2026-04-15T15:09:50.546936",
+  "strategies": [
+    {
+      "name": "DoubleMa",
+      "type": "趋势",
+      "status": "运行中",
+      "sharpe": 0.22,
+      "max_drawdown": 3.81,
+      "total_return": -4.58,
+      "positions": 2
     },
-    "TripleMa": {
-      "status": "active",
-      "timeframe": "4h",
-      "signal": "buy",
-      "confidence": 0.72,
-      "last_signal_time": "2026-04-14T13:00:00+08:00",
-      "performance": {
-        "sharpe_ratio": 1.45,
-        "max_drawdown": -2.8,
-        "win_rate": 61.2,
-        "total_trades": 18
-      }
+    {
+      "name": "TripleMa",
+      "type": "趋势",
+      "status": "运行中",
+      "sharpe": 0.64,
+      "max_drawdown": 11.75,
+      "total_return": 45.74,
+      "positions": 4
     },
-    "Supertrend": {
-      "status": "active",
-      "timeframe": "1h",
-      "signal": "sell",
-      "confidence": 0.68,
-      "last_signal_time": "2026-04-14T14:45:00+08:00",
-      "performance": {
-        "sharpe_ratio": 1.32,
-        "max_drawdown": -4.1,
-        "win_rate": 55.8,
-        "total_trades": 31
-      }
+    {
+      "name": "Supertrend",
+      "type": "趋势",
+      "status": "暂停",
+      "sharpe": 1.03,
+      "max_drawdown": 1.85,
+      "total_return": 46.7,
+      "positions": 5
     },
-    "RSI": {
-      "status": "active",
-      "timeframe": "4h",
-      "signal": "neutral",
-      "confidence": 0.58,
-      "last_signal_time": "2026-04-14T12:00:00+08:00",
-      "performance": {
-        "sharpe_ratio": 0.98,
-        "max_drawdown": -5.3,
-        "win_rate": 52.1,
-        "total_trades": 29
-      }
+    {
+      "name": "RSI",
+      "type": "动量",
+      "status": "待启动",
+      "sharpe": -0.01,
+      "max_drawdown": 1.98,
+      "total_return": -1.11,
+      "positions": 2
     },
-    "MACD": {
-      "status": "active",
-      "timeframe": "1h",
-      "signal": "buy",
-      "confidence": 0.71,
-      "last_signal_time": "2026-04-14T14:15:00+08:00",
-      "performance": {
-        "sharpe_ratio": 1.38,
-        "max_drawdown": -3.5,
-        "win_rate": 59.4,
-        "total_trades": 26
-      }
+    {
+      "name": "MACD",
+      "type": "趋势",
+      "status": "待启动",
+      "sharpe": 0.12,
+      "max_drawdown": 13.48,
+      "total_return": 0.7,
+      "positions": 2
     },
-    "Bollinger": {
-      "status": "active",
-      "timeframe": "4h",
-      "signal": "neutral",
-      "confidence": 0.62,
-      "last_signal_time": "2026-04-14T11:30:00+08:00",
-      "performance": {
-        "sharpe_ratio": 1.21,
-        "max_drawdown": -3.9,
-        "win_rate": 57.3,
-        "total_trades": 22
-      }
+    {
+      "name": "Bollinger",
+      "type": "均值回归",
+      "status": "错误",
+      "sharpe": 0.51,
+      "max_drawdown": 3.18,
+      "total_return": 46.04,
+      "positions": 3
     },
-    "Momentum": {
-      "status": "active",
-      "timeframe": "1h",
-      "signal": "sell",
-      "confidence": 0.69,
-      "last_signal_time": "2026-04-14T14:50:00+08:00",
-      "performance": {
-        "sharpe_ratio": 1.28,
-        "max_drawdown": -4.5,
-        "win_rate": 54.6,
-        "total_trades": 33
-      }
+    {
+      "name": "Momentum",
+      "type": "动量",
+      "status": "错误",
+      "sharpe": 0.45,
+      "max_drawdown": 8.88,
+      "total_return": 19.21,
+      "positions": 4
     },
-    "MeanReversion": {
-      "status": "active",
-      "timeframe": "4h",
-      "signal": "buy",
-      "confidence": 0.75,
-      "last_signal_time": "2026-04-14T10:00:00+08:00",
-      "performance": {
-        "sharpe_ratio": 1.52,
-        "max_drawdown": -2.3,
-        "win_rate": 63.8,
-        "total_trades": 16
-      }
+    {
+      "name": "MeanReversion",
+      "type": "均值回归",
+      "status": "运行中",
+      "sharpe": 0.55,
+      "max_drawdown": 1.04,
+      "total_return": 13.73,
+      "positions": 0
     }
-  },
+  ],
   "summary": {
-    "active_strategies": 8,
-    "buy_signals": 3,
-    "sell_signals": 2,
-    "neutral_signals": 3,
-    "avg_confidence": 0.68,
-    "avg_sharpe_ratio": 1.30,
-    "avg_max_drawdown": -3.7,
-    "best_performer": "MeanReversion",
-    "worst_performer": "RSI",
-    "market_condition": "volatile",
-    "recommendation": "谨慎操作，关注MeanReversion和TripleMa策略"
-  },
-  "market_data": {
-    "crypto": {
-      "BTC/USDT": {
-        "price": 91250.0,
-        "change_24h": 1.34,
-        "volume_24h": 285000000.0
-      },
-      "ETH/USDT": {
-        "price": 3150.0,
-        "change_24h": 1.42,
-        "volume_24h": 185000000.0
-      }
-    },
-    "a_shares": {
-      "上证指数": 3276.91,
-      "深证成指": 11378.75,
-      "创业板指": 3472.51
-    }
+    "total_strategies": 8,
+    "active_strategies": 3,
+    "last_updated": null
   }
 }

@@ -1,81 +1,63 @@
 {
-  "timestamp": "2026-04-15T11:35:58.557380",
-  "update_time": "2026-04-15 11:35:58",
-  "indices": [
-    {
-      "name": "上证指数",
-      "price": 4041.4529,
-      "change": 0.368,
-      "symbol": "sh000001"
+  "timestamp": "2026-04-15T15:11:11.971303",
+  "indices": {
+    "上证指数": {
+      "price": 4027.21,
+      "change": 0.01,
+      "volume": 569458589.0,
+      "turnover": 1028851871452.4
     },
-    {
-      "name": "深证成指",
-      "price": 14603.608,
-      "change": -0.248,
-      "symbol": "sz399001"
-    },
-    {
-      "name": "创业板指",
-      "price": 3550.252,
-      "change": -0.233,
-      "symbol": "sz399006"
+    "沪深300": {
+      "price": 4685.25,
+      "change": -0.34,
+      "volume": 201688500.0,
+      "turnover": 604550556798.3
     }
-  ],
-  "sectors": [
-    {
-      "name": "快递",
-      "change": 6.28,
-      "leader": "申通快递"
-    },
-    {
-      "name": "宠物食品",
-      "change": 5.25,
-      "leader": "中宠股份"
-    },
-    {
-      "name": "国际工程",
-      "change": 4.7,
-      "leader": "中工国际"
-    },
-    {
-      "name": "线下药店",
-      "change": 4.43,
-      "leader": "华人健康"
-    },
-    {
-      "name": "医药商业",
-      "change": 3.47,
-      "leader": "瑞康医药"
-    },
-    {
-      "name": "冶钢辅料",
-      "change": 3.35,
-      "leader": "鄂尔多斯"
-    },
-    {
-      "name": "医药流通",
-      "change": 3.15,
-      "leader": "瑞康医药"
-    },
-    {
-      "name": "彩电",
-      "change": 3.09,
-      "leader": "四川长虹"
-    },
-    {
-      "name": "航天装备Ⅲ",
-      "change": 2.7,
-      "leader": "电科蓝天"
-    },
-    {
-      "name": "航天装备Ⅱ",
-      "change": 2.7,
-      "leader": "电科蓝天"
-    }
-  ],
-  "northbound": {
-    "amount": 0,
-    "date": ""
   },
-  "market_status": "午盘"
+  "sectors": {
+    "top_gainers": [
+      {
+        "name": "快递",
+        "change": 6.01
+      },
+      {
+        "name": "线下药店",
+        "change": 6.01
+      },
+      {
+        "name": "宠物食品",
+        "change": 5.72
+      },
+      {
+        "name": "医药商业",
+        "change": 4.35
+      },
+      {
+        "name": "国际工程",
+        "change": 3.93
+      }
+    ],
+    "top_losers": [
+      {
+        "name": "氮肥",
+        "change": -3.44
+      },
+      {
+        "name": "能源金属",
+        "change": -3.85
+      },
+      {
+        "name": "锂",
+        "change": -4.28
+      },
+      {
+        "name": "逆变器",
+        "change": -4.47
+      },
+      {
+        "name": "钨",
+        "change": -4.91
+      }
+    ]
+  }
 }

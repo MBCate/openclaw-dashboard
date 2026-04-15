@@ -1,162 +1,81 @@
 {
-  "timestamp": "2026-04-14T15:05:00+08:00",
-  "indices": {
-    "上证指数": {
-      "code": "1.000001",
-      "price": 3276.91,
-      "change": 0.81,
-      "change_amount": 26.49,
-      "volume": 388569267,
-      "turnover": 3690
+  "timestamp": "2026-04-15T11:35:58.557380",
+  "update_time": "2026-04-15 11:35:58",
+  "indices": [
+    {
+      "name": "上证指数",
+      "price": 4041.4529,
+      "change": 0.368,
+      "symbol": "sh000001"
     },
-    "深证成指": {
-      "code": "0.399001",
-      "price": 11378.75,
-      "change": 1.14,
-      "change_amount": 128.39,
-      "volume": 504136742,
-      "turnover": 5981
+    {
+      "name": "深证成指",
+      "price": 14603.608,
+      "change": -0.248,
+      "symbol": "sz399001"
     },
-    "创业板指": {
-      "code": "0.399006",
-      "price": 3472.51,
-      "change": 0.24,
-      "change_amount": 8.21,
-      "volume": 6244,
-      "turnover": 2004
-    },
-    "沪深300": {
-      "code": "0.399300",
-      "price": 3833.52,
-      "change": -0.45,
-      "change_amount": -17.23,
-      "volume": 327976113,
-      "turnover": 3168
+    {
+      "name": "创业板指",
+      "price": 3550.252,
+      "change": -0.233,
+      "symbol": "sz399006"
     }
-  },
+  ],
+  "sectors": [
+    {
+      "name": "快递",
+      "change": 6.28,
+      "leader": "申通快递"
+    },
+    {
+      "name": "宠物食品",
+      "change": 5.25,
+      "leader": "中宠股份"
+    },
+    {
+      "name": "国际工程",
+      "change": 4.7,
+      "leader": "中工国际"
+    },
+    {
+      "name": "线下药店",
+      "change": 4.43,
+      "leader": "华人健康"
+    },
+    {
+      "name": "医药商业",
+      "change": 3.47,
+      "leader": "瑞康医药"
+    },
+    {
+      "name": "冶钢辅料",
+      "change": 3.35,
+      "leader": "鄂尔多斯"
+    },
+    {
+      "name": "医药流通",
+      "change": 3.15,
+      "leader": "瑞康医药"
+    },
+    {
+      "name": "彩电",
+      "change": 3.09,
+      "leader": "四川长虹"
+    },
+    {
+      "name": "航天装备Ⅲ",
+      "change": 2.7,
+      "leader": "电科蓝天"
+    },
+    {
+      "name": "航天装备Ⅱ",
+      "change": 2.7,
+      "leader": "电科蓝天"
+    }
+  ],
   "northbound": {
-    "date": "2026-04-14",
-    "north_net_inflow": 21.49,
-    "sh_north_net_inflow": 12.65,
-    "sz_north_net_inflow": 20.56
+    "amount": 0,
+    "date": ""
   },
-  "sectors": {
-    "top_gainers": [
-      {
-        "name": "半导体",
-        "change": 2.93,
-        "price": 1225.82
-      },
-      {
-        "name": "人工智能",
-        "change": 3.67,
-        "price": 990.19
-      },
-      {
-        "name": "新能源车",
-        "change": 3.1,
-        "price": 858.52
-      },
-      {
-        "name": "医药生物",
-        "change": 1.9,
-        "price": 1132.08
-      },
-      {
-        "name": "云计算",
-        "change": 3.26,
-        "price": 988.01
-      },
-      {
-        "name": "国防军工",
-        "change": 2.27,
-        "price": 899.76
-      },
-      {
-        "name": "消费电子",
-        "change": 1.29,
-        "price": 756.23
-      },
-      {
-        "name": "食品饮料",
-        "change": 1.17,
-        "price": 1117.85
-      },
-      {
-        "name": "银行",
-        "change": 2.19,
-        "price": 982.4
-      },
-      {
-        "name": "券商",
-        "change": 2.37,
-        "price": 877.62
-      }
-    ],
-    "top_losers": [
-      {
-        "name": "房地产",
-        "change": -2.44,
-        "price": 422.54
-      },
-      {
-        "name": "煤炭",
-        "change": -2.83,
-        "price": 393.08
-      },
-      {
-        "name": "钢铁",
-        "change": -1.73,
-        "price": 324.79
-      },
-      {
-        "name": "建筑材料",
-        "change": -2.4,
-        "price": 280.74
-      },
-      {
-        "name": "纺织服装",
-        "change": -2.52,
-        "price": 241.27
-      },
-      {
-        "name": "商业贸易",
-        "change": -2.38,
-        "price": 224.89
-      },
-      {
-        "name": "交通运输",
-        "change": -1.32,
-        "price": 194.92
-      },
-      {
-        "name": "公用事业",
-        "change": -1.0,
-        "price": 173.53
-      },
-      {
-        "name": "传媒",
-        "change": -1.77,
-        "price": 167.69
-      },
-      {
-        "name": "农林牧渔",
-        "change": -0.21,
-        "price": 154.4
-      }
-    ],
-    "total": 28,
-    "positive": 19,
-    "negative": 10
-  },
-  "summary": {
-    "shanghai_index": 0.96,
-    "shenzhen_index": 0.13,
-    "chi_next_index": -0.24,
-    "northbound_inflow": 58.25,
-    "market_status": "交易中",
-    "total_sectors": 28,
-    "positive_sectors": 18,
-    "negative_sectors": 7
-  }
+  "market_status": "午盘"
 }

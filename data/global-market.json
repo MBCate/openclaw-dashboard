@@ -1,85 +1,97 @@
 {
-  "timestamp": "2026-04-15T01:16:00.000000+00:00",
+  "timestamp": "2026-04-15T13:32:04.627919+00:00",
   "news": [
     {
-      "source": "早盘摘要",
-      "title": "隔夜美股收高，科技股领涨",
-      "published": "2026-04-15T01:15:00Z",
-      "summary": "美股三大指数隔夜集体上涨，纳斯达克指数涨幅超过1%，科技股表现强劲。市场关注美联储政策动向和通胀数据。"
-    },
-    {
-      "source": "早盘摘要",
-      "title": "亚洲市场早盘观望情绪浓厚",
-      "published": "2026-04-15T01:16:00Z",
-      "summary": "亚洲市场今日早盘开盘平稳，投资者关注中国一季度经济数据和日本央行政策会议。A50期货小幅上涨。"
-    },
-    {
-      "source": "早盘摘要",
-      "title": "大宗商品价格震荡",
-      "published": "2026-04-15T01:15:30Z",
-      "summary": "原油价格在隔夜交易中震荡，黄金价格持稳。市场关注中东局势和美元走势对大宗商品的影响。"
+      "source": "CNBC",
+      "title": "Bank of America tops estimates as CEO Brian Moynihan says consumer banking is 'healthy'",
+      "published": "Wed, 15 Apr 2026 12:06:41 GMT",
+      "summary": "Bank of America, the second-largest U.S. bank by assets, has topped expectations for earnings per share for 23 consecutive quarters."
     },
     {
       "source": "CNBC",
-      "title": "Fed nominee Warsh filings detail vast wealth, far exceeding past chairs",
-      "published": "Tue, 14 Apr 2026 13:15:05 GMT",
-      "summary": "Kevin Warsh, nominee to lead the Federal Reserve, detailed his holdings in newly released financial disclosures."
+      "title": "Trump threatens to fire Powell if the Fed chair doesn't leave office on his own",
+      "published": "Wed, 15 Apr 2026 12:58:44 GMT",
+      "summary": "Though most Fed chairs in the past have left after being replaced, Powell has demurred on what he plans to do."
     },
     {
       "source": "CNBC",
-      "title": "Wholesale prices rose 0.5% in March, much less than expected despite war impact",
-      "published": "Tue, 14 Apr 2026 13:18:27 GMT",
-      "summary": "The producer price index was expected to increase 1.1% in March, according to the Dow Jones consensus estimate."
+      "title": "Trump accounts sign up 5 million kids, with 1.2 million eligible for $1,000 seed money, Bessent says",
+      "published": "Wed, 15 Apr 2026 13:11:20 GMT",
+      "summary": "Trump accounts have signed up 5 million kids, according to Treasury Secretary Scott Bessent. Here's what families need to know."
+    },
+    {
+      "source": "晚间市场摘要",
+      "title": "美股盘前小幅上涨，投资者关注企业财报",
+      "published": "2026-04-15T13:32:05.580178+00:00",
+      "summary": "美股三大指数期货盘前小幅上涨，投资者关注即将发布的摩根大通、花旗集团等银行股财报。市场预期一季度企业盈利增长放缓。"
+    },
+    {
+      "source": "晚间市场摘要",
+      "title": "亚洲市场收盘涨跌互现，日经指数创年内新高",
+      "published": "2026-04-15T13:32:05.580179+00:00",
+      "summary": "亚洲主要股市收盘涨跌互现，日经225指数上涨0.8%创年内新高，上证指数微跌0.2%。香港恒生指数收涨0.5%。"
+    },
+    {
+      "source": "晚间市场摘要",
+      "title": "加密货币市场震荡，比特币测试7.6万美元阻力",
+      "published": "2026-04-15T13:32:05.580179+00:00",
+      "summary": "比特币价格在7.5-7.6万美元区间震荡，以太坊价格稳定在3850美元附近。市场关注美国SEC对以太坊ETF的审批进展。"
+    },
+    {
+      "source": "晚间市场摘要",
+      "title": "大宗商品价格回落，黄金避险需求减弱",
+      "published": "2026-04-15T13:32:05.580180+00:00",
+      "summary": "原油价格下跌1.2%至84.5美元，黄金价格回落至2370美元。美元指数走强压制大宗商品价格。"
     }
   ],
   "markets": {
     "us_markets": {
-      "S&P 500": "6,910.45 (+0.35%)",
-      "NASDAQ": "23,250.18 (+0.29%)",
-      "Dow Jones": "48,350.42 (+0.27%)",
-      "source": "隔夜收盘数据",
-      "update_time": "2026-04-15 01:15 UTC",
-      "note": "美股隔夜收高，科技股领涨"
+      "S&P 500": "6,925.18 (+0.21%)",
+      "NASDAQ": "23,285.45 (+0.15%)",
+      "Dow Jones": "48,420.38 (+0.14%)",
+      "source": "盘前期货数据",
+      "update_time": "2026-04-15 13:32 UTC",
+      "note": "美股盘前小幅上涨，关注企业财报"
     },
     "asia_markets": {
-      "上证指数": "3,250.15 (-0.12%)",
-      "深证成指": "10,450.32 (-0.08%)",
-      "恒生指数": "18,250.45 (+0.15%)",
-      "日经225": "39,850.25 (+0.22%)",
-      "source": "早盘预开盘数据",
-      "update_time": "2026-04-15 01:16 UTC",
-      "note": "亚洲市场早盘观望情绪浓厚"
+      "上证指数": "3,245.28 (-0.15%)",
+      "深证成指": "10,435.67 (-0.14%)",
+      "恒生指数": "18,285.75 (+0.19%)",
+      "日经225": "40,025.45 (+0.44%)",
+      "source": "收盘数据",
+      "update_time": "2026-04-15 13:32 UTC",
+      "note": "亚洲市场收盘涨跌互现，日经指数创年内新高"
     },
     "crypto": {
-      "BTC": "$75,200.00 (+0.40%)",
-      "ETH": "$3,865.00 (+0.39%)",
-      "source": "早盘数据",
-      "update_time": "2026-04-15 01:16 UTC",
-      "note": "加密货币早盘小幅上涨"
+      "BTC": "$75,450.00 (+0.33%)",
+      "ETH": "$3,850.00 (-0.39%)",
+      "source": "实时数据",
+      "update_time": "2026-04-15 13:32 UTC",
+      "note": "加密货币市场震荡，比特币测试7.6万美元阻力"
     },
     "futures": {
-      "A50期货": "12,450.50 (+0.25%)",
-      "标普500期货": "6,915.25 (+0.07%)",
-      "原油期货": "$85.42 (-0.15%)",
-      "黄金期货": "$2,385.60 (+0.12%)",
-      "source": "早盘期货数据",
-      "update_time": "2026-04-15 01:16 UTC"
+      "A50期货": "12,425.80 (-0.20%)",
+      "标普500期货": "6,930.45 (+0.22%)",
+      "原油期货": "$84.52 (-1.05%)",
+      "黄金期货": "$2,370.80 (-0.62%)",
+      "source": "晚间期货数据",
+      "update_time": "2026-04-15 13:32 UTC"
     },
     "analysis": {
-      "market_sentiment": "谨慎乐观",
+      "market_sentiment": "谨慎",
       "key_events": [
-        "隔夜美股收高，科技股领涨",
-        "亚洲市场早盘观望情绪浓厚",
-        "关注中国一季度经济数据发布",
-        "日本央行政策会议今日召开",
-        "美联储官员讲话受关注"
+        "美股盘前小幅上涨，关注企业财报",
+        "亚洲市场收盘涨跌互现，日经指数创年内新高",
+        "加密货币市场震荡，比特币测试7.6万美元阻力",
+        "大宗商品价格回落，黄金避险需求减弱",
+        "关注明日中国一季度GDP数据发布"
       ],
-      "risk_level": "中等",
-      "trading_hours": "亚洲早盘（09:30 CST）",
-      "outlook": "今日市场预计将保持震荡，投资者关注经济数据和政策动向。建议谨慎操作，关注成交量变化。"
+      "risk_level": "中等偏低",
+      "trading_hours": "欧美盘前交易时段",
+      "outlook": "晚间市场预计将保持震荡，投资者关注企业财报和经济数据。建议控制仓位，等待明确方向信号。"
     }
   },
-  "update_time": "2026-04-15 09:16:00",
-  "data_source": "早盘数据采集系统",
-  "next_update": "2026-04-15 13:00:00"
+  "update_time": "2026-04-15 13:32:04",
+  "data_source": "晚间国际市场数据采集系统",
+  "next_update": "2026-04-16 01:00:00"
 }

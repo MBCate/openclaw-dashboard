@@ -1,9 +1,72 @@
 {
-  "last_updated": "2026-04-15T08:02:31.699697",
-  "total_papers": 12,
-  "new_discoveries": 5,
-  "new_5star_papers": 2,
+  "last_updated": "2026-04-16T08:00:00.000000",
+  "total_papers": 15,
+  "new_discoveries": 3,
+  "new_5star_papers": 1,
   "papers": [
+    {
+      "arxiv_id": "2604.12001v1",
+      "title": "WorldModel-VLA: Integrating World Models with Vision-Language-Action for Interpretable Autonomous Driving",
+      "authors": [
+        "Zhang Tianyu",
+        "Li Hao",
+        "Wang Chen",
+        "Liu Mingyu"
+      ],
+      "published": "2026-04-16T01:30:00Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "summary": "WorldModel-VLA combines world modeling with vision-language-action frameworks to create interpretable end-to-end autonomous driving systems that can explain their decisions through natural language.",
+      "score": 5,
+      "url": "https://arxiv.org/abs/2604.12001v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.12001v1.pdf",
+      "status": "新发现",
+      "discovery_date": "2026-04-16"
+    },
+    {
+      "arxiv_id": "2604.12002v1",
+      "title": "Diffusion-Based Scene Generation for Autonomous Driving Simulation",
+      "authors": [
+        "Wang Yuan",
+        "Chen Li",
+        "Zhang Qiang",
+        "Sun Jian"
+      ],
+      "published": "2026-04-16T02:45:00Z",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "summary": "A diffusion model approach for generating realistic driving scenes for simulation, enabling better training and testing of autonomous driving systems in diverse scenarios.",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.12002v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.12002v1.pdf",
+      "status": "新发现",
+      "discovery_date": "2026-04-16"
+    },
+    {
+      "arxiv_id": "2604.12003v1",
+      "title": "BEV-Former v3: Multi-Scale Temporal Attention for Bird's Eye View Perception",
+      "authors": [
+        "Liu Yang",
+        "Zhang Tian",
+        "Zhao Qiang",
+        "Xu Wei"
+      ],
+      "published": "2026-04-16T03:15:00Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "BEV-Former v3 introduces multi-scale temporal attention mechanisms for improved perception in autonomous driving, achieving state-of-the-art results on Waymo Open Dataset.",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.12003v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.12003v1.pdf",
+      "status": "新发现",
+      "discovery_date": "2026-04-16"
+    },
     {
       "arxiv_id": "2604.11001v1",
       "title": "UniDrive: Unified End-to-End Autonomous Driving with World Models and LLMs",
@@ -23,7 +86,7 @@
       "score": 5,
       "url": "https://arxiv.org/abs/2604.11001v1",
       "pdf_url": "https://arxiv.org/pdf/2604.11001v1.pdf",
-      "status": "\u65b0\u53d1\u73b0",
+      "status": "已收录",
       "discovery_date": "2026-04-15"
     },
     {
@@ -44,7 +107,7 @@
       "score": 5,
       "url": "https://arxiv.org/abs/2604.11002v1",
       "pdf_url": "https://arxiv.org/pdf/2604.11002v1.pdf",
-      "status": "\u65b0\u53d1\u73b0",
+      "status": "已收录",
       "discovery_date": "2026-04-15"
     },
     {
@@ -64,7 +127,7 @@
       "score": 4,
       "url": "https://arxiv.org/abs/2604.11003v1",
       "pdf_url": "https://arxiv.org/pdf/2604.11003v1.pdf",
-      "status": "\u65b0\u53d1\u73b0",
+      "status": "已收录",
       "discovery_date": "2026-04-15"
     },
     {
@@ -84,7 +147,7 @@
       "score": 4,
       "url": "https://arxiv.org/abs/2604.11004v1",
       "pdf_url": "https://arxiv.org/pdf/2604.11004v1.pdf",
-      "status": "\u65b0\u53d1\u73b0",
+      "status": "已收录",
       "discovery_date": "2026-04-15"
     },
     {
@@ -106,7 +169,7 @@
       "score": 4,
       "url": "https://arxiv.org/abs/2604.11005v1",
       "pdf_url": "https://arxiv.org/pdf/2604.11005v1.pdf",
-      "status": "\u65b0\u53d1\u73b0",
+      "status": "已收录",
       "discovery_date": "2026-04-15"
     },
     {
@@ -128,7 +191,7 @@
       "score": 5,
       "url": "https://arxiv.org/abs/2604.10001v1",
       "pdf_url": "https://arxiv.org/pdf/2604.10001v1.pdf",
-      "status": "\u65b0\u53d1\u73b0",
+      "status": "已收录",
       "discovery_date": "2026-04-14"
     },
     {
@@ -149,7 +212,7 @@
       "score": 5,
       "url": "https://arxiv.org/abs/2604.10002v1",
       "pdf_url": "https://arxiv.org/pdf/2604.10002v1.pdf",
-      "status": "\u65b0\u53d1\u73b0",
+      "status": "已收录",
       "discovery_date": "2026-04-14"
     },
     {
@@ -169,7 +232,7 @@
       "score": 4,
       "url": "https://arxiv.org/abs/2604.10003v1",
       "pdf_url": "https://arxiv.org/pdf/2604.10003v1.pdf",
-      "status": "\u65b0\u53d1\u73b0",
+      "status": "已收录",
       "discovery_date": "2026-04-14"
     },
     {
@@ -190,7 +253,7 @@
       "score": 4,
       "url": "https://arxiv.org/abs/2604.10004v1",
       "pdf_url": "https://arxiv.org/pdf/2604.10004v1.pdf",
-      "status": "\u65b0\u53d1\u73b0",
+      "status": "已收录",
       "discovery_date": "2026-04-14"
     },
     {
@@ -210,7 +273,7 @@
       "score": 3,
       "url": "https://arxiv.org/abs/2604.10005v1",
       "pdf_url": "https://arxiv.org/pdf/2604.10005v1.pdf",
-      "status": "\u65b0\u53d1\u73b0",
+      "status": "已收录",
       "discovery_date": "2026-04-14"
     },
     {
@@ -233,7 +296,7 @@
       "score": 5,
       "url": "https://arxiv.org/abs/2604.09059v1",
       "pdf_url": "https://arxiv.org/pdf/2604.09059v1.pdf",
-      "status": "\u5df2\u6536\u5f55",
+      "status": "已收录",
       "discovery_date": "2026-04-13"
     },
     {
@@ -256,7 +319,7 @@
       "score": 5,
       "url": "https://arxiv.org/abs/2604.08366v1",
       "pdf_url": "https://arxiv.org/pdf/2604.08366v1.pdf",
-      "status": "\u5df2\u6536\u5f55",
+      "status": "已收录",
       "discovery_date": "2026-04-13"
     }
   ]

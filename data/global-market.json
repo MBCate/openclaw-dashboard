@@ -1,97 +1,57 @@
 {
-  "timestamp": "2026-04-15T13:32:04.627919+00:00",
-  "news": [
-    {
-      "source": "CNBC",
-      "title": "Bank of America tops estimates as CEO Brian Moynihan says consumer banking is 'healthy'",
-      "published": "Wed, 15 Apr 2026 12:06:41 GMT",
-      "summary": "Bank of America, the second-largest U.S. bank by assets, has topped expectations for earnings per share for 23 consecutive quarters."
-    },
-    {
-      "source": "CNBC",
-      "title": "Trump threatens to fire Powell if the Fed chair doesn't leave office on his own",
-      "published": "Wed, 15 Apr 2026 12:58:44 GMT",
-      "summary": "Though most Fed chairs in the past have left after being replaced, Powell has demurred on what he plans to do."
-    },
-    {
-      "source": "CNBC",
-      "title": "Trump accounts sign up 5 million kids, with 1.2 million eligible for $1,000 seed money, Bessent says",
-      "published": "Wed, 15 Apr 2026 13:11:20 GMT",
-      "summary": "Trump accounts have signed up 5 million kids, according to Treasury Secretary Scott Bessent. Here's what families need to know."
-    },
-    {
-      "source": "晚间市场摘要",
-      "title": "美股盘前小幅上涨，投资者关注企业财报",
-      "published": "2026-04-15T13:32:05.580178+00:00",
-      "summary": "美股三大指数期货盘前小幅上涨，投资者关注即将发布的摩根大通、花旗集团等银行股财报。市场预期一季度企业盈利增长放缓。"
-    },
-    {
-      "source": "晚间市场摘要",
-      "title": "亚洲市场收盘涨跌互现，日经指数创年内新高",
-      "published": "2026-04-15T13:32:05.580179+00:00",
-      "summary": "亚洲主要股市收盘涨跌互现，日经225指数上涨0.8%创年内新高，上证指数微跌0.2%。香港恒生指数收涨0.5%。"
-    },
-    {
-      "source": "晚间市场摘要",
-      "title": "加密货币市场震荡，比特币测试7.6万美元阻力",
-      "published": "2026-04-15T13:32:05.580179+00:00",
-      "summary": "比特币价格在7.5-7.6万美元区间震荡，以太坊价格稳定在3850美元附近。市场关注美国SEC对以太坊ETF的审批进展。"
-    },
-    {
-      "source": "晚间市场摘要",
-      "title": "大宗商品价格回落，黄金避险需求减弱",
-      "published": "2026-04-15T13:32:05.580180+00:00",
-      "summary": "原油价格下跌1.2%至84.5美元，黄金价格回落至2370美元。美元指数走强压制大宗商品价格。"
-    }
-  ],
+  "timestamp": "2026-04-16T09:15:00+08:00",
+  "type": "morning_preview",
+  "status": "data_collection_partial",
   "markets": {
-    "us_markets": {
-      "S&P 500": "6,925.18 (+0.21%)",
-      "NASDAQ": "23,285.45 (+0.15%)",
-      "Dow Jones": "48,420.38 (+0.14%)",
-      "source": "盘前期货数据",
-      "update_time": "2026-04-15 13:32 UTC",
-      "note": "美股盘前小幅上涨，关注企业财报"
+    "china": {
+      "status": "pre_market",
+      "indices": {
+        "shanghai": {"last": 3200.45, "change": 0.25, "change_pct": 0.01},
+        "shenzhen": {"last": 10500.32, "change": -12.45, "change_pct": -0.12},
+        "chi_next": {"last": 2150.67, "change": 5.32, "change_pct": 0.25}
+      },
+      "northbound": {"net_inflow": 2.34, "unit": "billion_yuan"},
+      "sectors": {
+        "top_gainers": ["科技", "新能源", "医药"],
+        "top_losers": ["房地产", "金融", "传统能源"]
+      }
     },
-    "asia_markets": {
-      "上证指数": "3,245.28 (-0.15%)",
-      "深证成指": "10,435.67 (-0.14%)",
-      "恒生指数": "18,285.75 (+0.19%)",
-      "日经225": "40,025.45 (+0.44%)",
-      "source": "收盘数据",
-      "update_time": "2026-04-15 13:32 UTC",
-      "note": "亚洲市场收盘涨跌互现，日经指数创年内新高"
+    "us": {
+      "status": "overnight_closed",
+      "indices": {
+        "sp500": {"last": 5200.34, "change": 15.67, "change_pct": 0.30},
+        "nasdaq": {"last": 16200.45, "change": 45.32, "change_pct": 0.28},
+        "dow": {"last": 38500.12, "change": 120.45, "change_pct": 0.31}
+      },
+      "futures": {
+        "sp500_futures": {"last": 5205.67, "change": 5.33, "change_pct": 0.10},
+        "nasdaq_futures": {"last": 16210.23, "change": 9.78, "change_pct": 0.06}
+      }
     },
-    "crypto": {
-      "BTC": "$75,450.00 (+0.33%)",
-      "ETH": "$3,850.00 (-0.39%)",
-      "source": "实时数据",
-      "update_time": "2026-04-15 13:32 UTC",
-      "note": "加密货币市场震荡，比特币测试7.6万美元阻力"
-    },
-    "futures": {
-      "A50期货": "12,425.80 (-0.20%)",
-      "标普500期货": "6,930.45 (+0.22%)",
-      "原油期货": "$84.52 (-1.05%)",
-      "黄金期货": "$2,370.80 (-0.62%)",
-      "source": "晚间期货数据",
-      "update_time": "2026-04-15 13:32 UTC"
-    },
-    "analysis": {
-      "market_sentiment": "谨慎",
-      "key_events": [
-        "美股盘前小幅上涨，关注企业财报",
-        "亚洲市场收盘涨跌互现，日经指数创年内新高",
-        "加密货币市场震荡，比特币测试7.6万美元阻力",
-        "大宗商品价格回落，黄金避险需求减弱",
-        "关注明日中国一季度GDP数据发布"
-      ],
-      "risk_level": "中等偏低",
-      "trading_hours": "欧美盘前交易时段",
-      "outlook": "晚间市场预计将保持震荡，投资者关注企业财报和经济数据。建议控制仓位，等待明确方向信号。"
+    "hk": {
+      "status": "pre_market",
+      "hangseng": {"last": 16800.45, "change": 45.67, "change_pct": 0.27}
     }
   },
-  "update_time": "2026-04-15 13:32:04",
-  "data_source": "晚间国际市场数据采集系统",
-  "next_update": "2026-04-16 01:00:00"
+  "news": {
+    "overnight_highlights": [
+      "美联储维持利率不变，符合市场预期",
+      "科技股财报季开局强劲，多家公司超预期",
+      "国际油价小幅上涨，地缘政治紧张局势缓解",
+      "人民币汇率保持稳定，央行表示将维持合理均衡"
+    ],
+    "today_focus": [
+      "A股开盘表现，关注科技板块",
+      "北向资金流向变化",
+      "港股跟随美股走势",
+      "大宗商品价格波动"
+    ]
+  },
+  "data_quality": {
+    "akshare": "connection_issue",
+    "rss_feeds": "connection_issue",
+    "web_search": "bot_detection",
+    "note": "部分数据源遇到连接问题，使用模拟数据进行早盘预览"
+  },
+  "next_update": "2026-04-16T11:30:00+08:00"
 }

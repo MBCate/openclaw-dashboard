@@ -1,82 +1,201 @@
 {
-  "timestamp": "2026-04-15T15:09:50.546936",
-  "strategies": [
-    {
-      "name": "DoubleMa",
-      "type": "趋势",
-      "status": "运行中",
-      "sharpe": 0.22,
-      "max_drawdown": 3.81,
-      "total_return": -4.58,
-      "positions": 2
+  "timestamp": "2026-04-16T15:07:17.273222",
+  "strategies": {
+    "DoubleMa": {
+      "1h": {
+        "signal": "做多",
+        "current_price": 90042.9
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 90042.9
+      }
     },
-    {
-      "name": "TripleMa",
-      "type": "趋势",
-      "status": "运行中",
-      "sharpe": 0.64,
-      "max_drawdown": 11.75,
-      "total_return": 45.74,
-      "positions": 4
+    "RSI": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 90042.9
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 90042.9
+      }
     },
-    {
-      "name": "Supertrend",
-      "type": "趋势",
-      "status": "暂停",
-      "sharpe": 1.03,
-      "max_drawdown": 1.85,
-      "total_return": 46.7,
-      "positions": 5
+    "MACD": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 90042.9
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 90042.9
+      }
     },
-    {
-      "name": "RSI",
-      "type": "动量",
-      "status": "待启动",
-      "sharpe": -0.01,
-      "max_drawdown": 1.98,
-      "total_return": -1.11,
-      "positions": 2
+    "Bollinger": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 90042.9
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 90042.9
+      }
     },
-    {
-      "name": "MACD",
-      "type": "趋势",
-      "status": "待启动",
-      "sharpe": 0.12,
-      "max_drawdown": 13.48,
-      "total_return": 0.7,
-      "positions": 2
+    "Supertrend": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 90042.9
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 90042.9
+      }
     },
-    {
-      "name": "Bollinger",
-      "type": "均值回归",
-      "status": "错误",
-      "sharpe": 0.51,
-      "max_drawdown": 3.18,
-      "total_return": 46.04,
-      "positions": 3
+    "TripleMa": {
+      "1h": {
+        "signal": "做多",
+        "current_price": 90042.9
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 90042.9
+      }
     },
-    {
-      "name": "Momentum",
-      "type": "动量",
-      "status": "错误",
-      "sharpe": 0.45,
-      "max_drawdown": 8.88,
-      "total_return": 19.21,
-      "positions": 4
+    "Momentum": {
+      "1h": {
+        "signal": "做空",
+        "current_price": 90042.9
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 90042.9
+      }
     },
-    {
-      "name": "MeanReversion",
-      "type": "均值回归",
-      "status": "运行中",
-      "sharpe": 0.55,
-      "max_drawdown": 1.04,
-      "total_return": 13.73,
-      "positions": 0
+    "MeanReversion": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 90042.9
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 90042.9
+      }
     }
-  ],
-  "summary": {
-    "total_strategies": 8,
-    "active_strategies": 3,
-    "last_updated": null
+  },
+  "crypto_prices": {
+    "BTC/USDT": {
+      "price": 90037.0,
+      "change_24h": -0.394166381800421,
+      "high_24h": 90555.0,
+      "low_24h": 89321.2,
+      "volume_24h": 255203022.51444075,
+      "indicators_1h": {
+        "rsi": 46.1,
+        "macd": 132.43,
+        "macd_signal": 157.49,
+        "macd_status": "死叉",
+        "ma5": 90067.32,
+        "ma20": 90005.12,
+        "bb_upper": 90429.17,
+        "bb_lower": 89581.07,
+        "trend": "偏多"
+      },
+      "indicators_4h": {
+        "rsi": 76.1,
+        "macd": 533.0,
+        "macd_signal": 445.3,
+        "macd_status": "金叉",
+        "ma5": 89934.2,
+        "ma20": 88908.21,
+        "bb_upper": 90817.04,
+        "bb_lower": 86999.38,
+        "trend": "偏多"
+      }
+    },
+    "ETH/USDT": {
+      "price": 3106.0,
+      "change_24h": -0.5695005105977033,
+      "high_24h": 3146.3,
+      "low_24h": 3075.82,
+      "volume_24h": 196131629.80127284,
+      "indicators_1h": {
+        "rsi": 42.2,
+        "macd": 6.91,
+        "macd_signal": 9.97,
+        "macd_status": "死叉",
+        "ma5": 3105.96,
+        "ma20": 3109.32,
+        "bb_upper": 3134.1,
+        "bb_lower": 3084.53,
+        "trend": "偏空"
+      },
+      "indicators_4h": {
+        "rsi": 79.8,
+        "macd": 37.84,
+        "macd_signal": 32.71,
+        "macd_status": "金叉",
+        "ma5": 3104.42,
+        "ma20": 3040.62,
+        "bb_upper": 3159.09,
+        "bb_lower": 2922.14,
+        "trend": "偏多"
+      }
+    }
+  },
+  "market_sentiment": {
+    "crypto_fear_greed": {
+      "value": 29,
+      "classification": "Fear",
+      "timestamp": "1767398400"
+    }
+  },
+  "stocks": {
+    "上证指数": {
+      "price": 3968.8401,
+      "change": 0.094,
+      "volume": 490751490.0
+    },
+    "深证成指": {
+      "price": 13525.022,
+      "change": -0.581
+    },
+    "创业板指": {
+      "price": 3203.172,
+      "change": -1.225
+    },
+    "沪金主力": {
+      "price": 977.56,
+      "change": -0.74,
+      "date": "2025-12-31"
+    },
+    "沪银主力": {
+      "price": 17074.0,
+      "change": -5.88,
+      "date": "2025-12-31"
+    },
+    "沪铜主力": {
+      "price": 98240.0,
+      "change": 0.15,
+      "date": "2025-12-31"
+    },
+    "螺纹钢主力": {
+      "price": 3122.0,
+      "change": -0.38,
+      "date": "2025-12-31"
+    },
+    "沪深300期货": {
+      "price": 4599.8,
+      "change": -0.48,
+      "date": "2025-12-31"
+    },
+    "中证500期货": {
+      "price": 7362.8,
+      "change": -0.25,
+      "date": "2025-12-31"
+    },
+    "50ETF波动率": {
+      "value": 14.81,
+      "date": "2025-12-31"
+    }
   }
 }

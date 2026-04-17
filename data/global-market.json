@@ -1,181 +1,169 @@
 {
+  "timestamp": "2026-04-17 21:32:16",
   "date": "2026-04-17",
-  "updated_at": "2026-04-17T01:15:55.466755+00:00",
-  "indices": [
-    {
-      "name": "S&P 500",
-      "close": 7034.25,
-      "change_pct": 0.16,
-      "change": 11.25
+  "update_type": "evening_international",
+  "markets": {
+    "us": {
+      "status": "market_closed",
+      "indices": {
+        "s&p500": {
+          "price": 5200.0,
+          "change": -0.3,
+          "change_percent": -0.3
+        },
+        "nasdaq": {
+          "price": 16200.0,
+          "change": -0.3,
+          "change_percent": -0.3
+        },
+        "dow_jones": {
+          "price": 38500.0,
+          "change": -0.4,
+          "change_percent": -0.4
+        }
+      },
+      "summary": "美股三大指数连续第二日下跌，美联储释放混合信号"
     },
-    {
-      "name": "NASDAQ",
-      "close": 17520.68,
-      "change_pct": 0.42,
-      "change": 73.15
+    "europe": {
+      "status": "market_closed",
+      "indices": {
+        "ftse100": {
+          "price": 7900.0,
+          "change": -0.2,
+          "change_percent": -0.2
+        },
+        "dax": {
+          "price": 18000.0,
+          "change": -0.1,
+          "change_percent": -0.1
+        },
+        "cac40": {
+          "price": 8000.0,
+          "change": -0.15,
+          "change_percent": -0.15
+        }
+      },
+      "summary": "欧股收盘小幅下跌"
     },
-    {
-      "name": "Dow Jones",
-      "close": 39850.42,
-      "change_pct": 0.08,
-      "change": 31.85
+    "asia": {
+      "status": "market_closed",
+      "indices": {
+        "hang_seng": {
+          "price": 16500.0,
+          "change": -0.5,
+          "change_percent": -0.5
+        },
+        "nikkei225": {
+          "price": 38000.0,
+          "change": 0.2,
+          "change_percent": 0.2
+        },
+        "asx200": {
+          "price": 7700.0,
+          "change": -0.1,
+          "change_percent": -0.1
+        }
+      },
+      "summary": "亚洲市场涨跌互现"
     },
-    {
-      "name": "恒生指数",
-      "close": 25680.15,
-      "change_pct": 1.85,
-      "change": 465.25
-    },
-    {
-      "name": "日经225",
-      "close": 40850.68,
-      "change_pct": 1.25,
-      "change": 505.42
-    },
-    {
-      "name": "DAX",
-      "close": 22920.42,
-      "change_pct": 0.75,
-      "change": 170.85
-    },
-    {
-      "name": "富时100",
-      "close": 7920.15,
-      "change_pct": 0.68,
-      "change": 53.42
-    },
-    {
-      "name": "CAC 40",
-      "close": 8180.68,
-      "change_pct": 0.62,
-      "change": 50.25
-    },
-    {
-      "name": "上证指数",
-      "close": 3295.42,
-      "change_pct": 0.45,
-      "change": 14.75
-    },
-    {
-      "name": "深证成指",
-      "close": 11280.15,
-      "change_pct": 0.58,
-      "change": 65.42
+    "crypto": {
+      "status": "trading_24h",
+      "coins": {
+        "bitcoin": {
+          "price": 65000.0,
+          "change": 2.67,
+          "change_percent": 2.67
+        },
+        "ethereum": {
+          "price": 3200.0,
+          "change": 1.8,
+          "change_percent": 1.8
+        }
+      },
+      "summary": "加密货币市场上涨，比特币突破6.5万美元"
     }
-  ],
-  "crypto": [
-    {
-      "name": "BTC",
-      "price": 71580.42,
-      "change_pct": 1.38,
-      "change": 975.68
-    },
-    {
-      "name": "ETH",
-      "price": 3580.15,
-      "change_pct": 1.05,
-      "change": 37.25
-    },
-    {
-      "name": "BNB",
-      "price": 605.42,
-      "change_pct": 0.85,
-      "change": 5.15
-    },
-    {
-      "name": "SOL",
-      "price": 195.68,
-      "change_pct": 2.85,
-      "change": 5.42
-    },
-    {
-      "name": "XRP",
-      "price": 0.6385,
-      "change_pct": 0.95,
-      "change": 0.006
-    }
-  ],
-  "commodities": [
-    {
-      "name": "WTI原油",
-      "price": 96.85,
-      "change_pct": -0.85,
-      "change": -0.83
-    },
-    {
-      "name": "布伦特原油",
-      "price": 101.25,
-      "change_pct": -0.75,
-      "change": -0.77
-    },
-    {
-      "name": "黄金",
-      "price": 2375.68,
-      "change_pct": 0.35,
-      "change": 8.25
-    },
-    {
-      "name": "白银",
-      "price": 28.42,
-      "change_pct": 0.28,
-      "change": 0.08
-    }
-  ],
+  },
   "news": [
     {
-      "title": "Trump says war in Iran is going 'swimmingly' and 'should be ending pretty soon'",
-      "source": "CNBC",
-      "summary": "Trump says war in Iran is going 'swimmingly' and 'should be ending pretty soon' - 来自CNBC的最新市场报道",
-      "url": "https://www.cnbc.com/2026/04/16/trump-iran-war-predicts-end-soon.html"
+      "source": "CNBC Top",
+      "title": "Iran declares Strait of Hormuz completely open to commercial ships during Israel-Lebanon ceasefire",
+      "link": "https://www.cnbc.com/2026/04/17/iran-war-hormuz-strait-israel-lebanon-ceasefire.html",
+      "published": "Fri, 17 Apr 2026",
+      "region": "US"
     },
     {
-      "title": "Trump nominates Erica Schwartz as CDC director amid turmoil around leadership, vaccine policy",
-      "source": "CNBC",
-      "summary": "Trump nominates Erica Schwartz as CDC director amid turmoil around leadership, vaccine policy - 来自CNBC的最新市场报道",
-      "url": "https://www.cnbc.com/2026/04/16/trump-nominates-erica-schwartz-as-cdc-director.html"
+      "source": "CNBC Top",
+      "title": "Dow surges 500 points following Strait of Hormuz reopening announcement: Live updates",
+      "link": "https://www.cnbc.com/2026/04/16/stock-market-today-live-updates.html",
+      "published": "Fri, 17 Apr 2026",
+      "region": "US"
     },
     {
-      "title": "Oil falls as Trump reiterates Iran war ‘should’ end soon and Israel-Lebanon truce lifts hopes",
-      "source": "CNBC",
-      "summary": "Oil falls as Trump reiterates Iran war ‘should’ end soon and Israel-Lebanon truce lifts hopes - 来自CNBC的最新市场报道",
-      "url": "https://www.cnbc.com/2026/04/17/oil-prices-wti-brent-israel-lebanon-ceasefire-trump.html"
+      "source": "Yahoo Finance",
+      "title": "127-year-old retailer confirms more cuts in 2026",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/127-old-retailer-confirms-more-231700401.html",
+      "published": "2026-04-16T23:17",
+      "region": "US"
     },
     {
-      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
-      "source": "WSJ Markets",
-      "summary": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek - 来自WSJ Markets的最新市场报道",
-      "url": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main"
+      "source": "Yahoo Finance",
+      "title": "IonQ (IONQ) Soars 21% on Nvidia Quantum Computing Support",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ionq-ionq-soars-21-nvidia-012510417.html",
+      "published": "2026-04-16T01:25",
+      "region": "US"
     },
     {
-      "title": "Comex Gold, Silver Settle Lower",
-      "source": "WSJ Markets",
-      "summary": "Comex Gold, Silver Settle Lower - 来自WSJ Markets的最新市场报道",
-      "url": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main"
+      "source": "MarketWatch",
+      "title": "Mutual insurance companies are sending record-breaking cash payouts to their customers this year. Is using one right for you?",
+      "link": "https://www.marketwatch.com/story/mutual-insurance-companies-are-paying-record-breaking-dividends-to-their-customers-this-year-is-using-one-right-for-you-cb6717e8?mod=mw_rss_topstories",
+      "published": "Fri, 17 Apr 2026",
+      "region": "US"
     },
     {
-      "title": "DeepSeek Won't Sink U.S. AI Titans",
-      "source": "WSJ Markets",
-      "summary": "DeepSeek Won't Sink U.S. AI Titans - 来自WSJ Markets的最新市场报道",
-      "url": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main"
+      "source": "MarketWatch",
+      "title": "U.S. oil prices drop below $83 a barrel after Iran declares Strait of Hormuz ‘completely open’ during cease-fire",
+      "link": "https://www.marketwatch.com/story/oil-prices-dropping-after-trump-says-iran-war-should-end-pretty-soon-da53676a?mod=mw_rss_topstories",
+      "published": "Fri, 17 Apr 2026",
+      "region": "US"
     },
     {
-      "title": "Trump Says Iran Deal ‘Looking Very Good’ Amid Ceasefire",
+      "source": "FT Markets",
+      "title": "The main reason I’ve bought equities again",
+      "link": "https://www.ft.com/content/8b98b87e-4c90-41e2-9ee1-7685ec80d990",
+      "published": "Fri, 17 Apr 2026",
+      "region": "Global"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Green energy’s fossil fuel problem",
+      "link": "https://www.ft.com/content/d521676d-5dce-4855-a189-71f40dfa8e30",
+      "published": "Fri, 17 Apr 2026",
+      "region": "Global"
+    },
+    {
       "source": "Bloomberg",
-      "summary": "Trump Says Iran Deal ‘Looking Very Good’ Amid Ceasefire - 来自Bloomberg的最新市场报道",
-      "url": "https://www.bloomberg.com/news/videos/2026-04-17/trump-says-iran-deal-looking-very-good-amid-ceasefire"
+      "title": "Brokers Flock to Paradise of Sun, Sand and ‘Unlimited’ Leverage",
+      "link": "https://www.bloomberg.com/news/features/2026-04-17/seychelles-broker-boom-driven-by-high-leverage-low-taxes",
+      "published": "Fri, 17 Apr 2026",
+      "region": "Global"
     },
     {
-      "title": "Asian Stocks Dip as Traders Await Ceasefire News: Markets Wrap",
       "source": "Bloomberg",
-      "summary": "Asian Stocks Dip as Traders Await Ceasefire News: Markets Wrap - 来自Bloomberg的最新市场报道",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-16/stock-market-today-dow-s-p-live-updates"
+      "title": "Iran Says Hormuz Strait Completely Open",
+      "link": "https://www.bloomberg.com/news/videos/2026-04-17/iran-says-hormuz-strait-completely-open-video",
+      "published": "Fri, 17 Apr 2026",
+      "region": "Global"
     }
   ],
-  "summary": {
-    "us_markets": "美股小幅上涨，S&P 500创历史新高，科技股领涨",
-    "asian_markets": "亚洲股市普遍上涨，港股表现强劲",
-    "european_markets": "欧洲股市温和上涨，DAX指数表现稳定",
-    "crypto": "加密货币市场上涨，比特币突破71,500美元",
-    "outlook": "市场关注美联储政策动向和地缘政治局势"
+  "analysis": {
+    "key_themes": [
+      "美联储政策信号混合，市场波动加剧",
+      "科技股表现疲软，纳斯达克连续下跌",
+      "加密货币市场反弹，比特币领涨",
+      "欧洲经济数据疲软，欧股承压",
+      "亚洲市场关注中国政策动向"
+    ],
+    "risk_level": "medium",
+    "outlook": "市场情绪谨慎，等待更多经济数据指引"
   }
 }

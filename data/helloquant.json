@@ -1,91 +1,91 @@
 {
-  "timestamp": "2026-04-16T15:07:17.273222",
+  "timestamp": "2026-04-17T15:09:39.189446",
   "strategies": {
     "DoubleMa": {
       "1h": {
-        "signal": "做多",
-        "current_price": 90042.9
+        "signal": "做空",
+        "current_price": 89912.5050769233
       },
       "4h": {
         "signal": "观望",
-        "current_price": 90042.9
+        "current_price": 90298.56453368376
       }
     },
     "RSI": {
       "1h": {
         "signal": "观望",
-        "current_price": 90042.9
+        "current_price": 90187.83772736347
       },
       "4h": {
         "signal": "观望",
-        "current_price": 90042.9
+        "current_price": 89795.22004255388
       }
     },
     "MACD": {
       "1h": {
-        "signal": "观望",
-        "current_price": 90042.9
+        "signal": "做多",
+        "current_price": 89578.59083958952
       },
       "4h": {
-        "signal": "观望",
-        "current_price": 90042.9
+        "signal": "做空",
+        "current_price": 89869.33474028649
       }
     },
     "Bollinger": {
       "1h": {
-        "signal": "观望",
-        "current_price": 90042.9
+        "signal": "做空",
+        "current_price": 90411.70214289268
       },
       "4h": {
         "signal": "观望",
-        "current_price": 90042.9
+        "current_price": 90055.65755369922
       }
     },
     "Supertrend": {
       "1h": {
-        "signal": "观望",
-        "current_price": 90042.9
+        "signal": "做多",
+        "current_price": 89932.92369990163
       },
       "4h": {
         "signal": "观望",
-        "current_price": 90042.9
+        "current_price": 90120.86275296316
       }
     },
     "TripleMa": {
       "1h": {
-        "signal": "做多",
-        "current_price": 90042.9
+        "signal": "做空",
+        "current_price": 89948.9629849453
       },
       "4h": {
-        "signal": "观望",
-        "current_price": 90042.9
+        "signal": "做多",
+        "current_price": 89867.043352749
       }
     },
     "Momentum": {
       "1h": {
         "signal": "做空",
-        "current_price": 90042.9
+        "current_price": 90292.71358196545
       },
       "4h": {
-        "signal": "观望",
-        "current_price": 90042.9
+        "signal": "做空",
+        "current_price": 89621.61575343019
       }
     },
     "MeanReversion": {
       "1h": {
-        "signal": "观望",
-        "current_price": 90042.9
+        "signal": "做空",
+        "current_price": 89565.74074261918
       },
       "4h": {
-        "signal": "观望",
-        "current_price": 90042.9
+        "signal": "做空",
+        "current_price": 89989.22467649677
       }
     }
   },
   "crypto_prices": {
     "BTC/USDT": {
-      "price": 90037.0,
-      "change_24h": -0.394166381800421,
+      "price": 90027.26256227662,
+      "change_24h": -0.34458806025851585,
       "high_24h": 90555.0,
       "low_24h": 89321.2,
       "volume_24h": 255203022.51444075,
@@ -113,8 +113,8 @@
       }
     },
     "ETH/USDT": {
-      "price": 3106.0,
-      "change_24h": -0.5695005105977033,
+      "price": 3103.3942105919054,
+      "change_24h": 0.7575988175331585,
       "high_24h": 3146.3,
       "low_24h": 3075.82,
       "volume_24h": 196131629.80127284,

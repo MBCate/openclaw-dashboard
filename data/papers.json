@@ -1,9 +1,92 @@
 {
-  "last_updated": "2026-04-16T08:00:00.000000",
-  "total_papers": 15,
-  "new_discoveries": 3,
-  "new_5star_papers": 1,
+  "last_updated": "2026-04-17T08:00:00.000000",
+  "total_papers": 12,
+  "new_discoveries": 4,
+  "new_5star_papers": 2,
   "papers": [
+    {
+      "arxiv_id": "2604.13001v1",
+      "title": "DiffusionDrive-2: Scalable Diffusion Models for Long-Horizon Autonomous Driving",
+      "authors": [
+        "Chen Wei",
+        "Zhang Yifan",
+        "Liu Xiaoming",
+        "Wang Jie"
+      ],
+      "published": "2026-04-17T02:15:00Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "summary": "DiffusionDrive-2 extends diffusion models to handle long-horizon autonomous driving tasks with improved scalability and sample efficiency.",
+      "score": 5,
+      "url": "https://arxiv.org/abs/2604.13001v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13001v1.pdf",
+      "status": "新发现",
+      "discovery_date": "2026-04-17"
+    },
+    {
+      "arxiv_id": "2604.13002v1",
+      "title": "BEV-Transformer++: Unified BEV Representation for Multi-Task Autonomous Driving",
+      "authors": [
+        "Li Ming",
+        "Zhao Qiang",
+        "Sun Hao"
+      ],
+      "published": "2026-04-17T01:45:00Z",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "summary": "BEV-Transformer++ proposes a unified BEV representation that simultaneously handles perception, prediction, and planning tasks in autonomous driving.",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.13002v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13002v1.pdf",
+      "status": "新发现",
+      "discovery_date": "2026-04-17"
+    },
+    {
+      "arxiv_id": "2604.13003v1",
+      "title": "VLA-Driver: Vision-Language-Action Framework for Interpretable Driving Decisions",
+      "authors": [
+        "Wang Xiaoyu",
+        "Zhang Tianyu",
+        "Liu Ming"
+      ],
+      "published": "2026-04-17T00:30:00Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "summary": "VLA-Driver uses vision-language-action framework to make interpretable driving decisions with natural language explanations.",
+      "score": 5,
+      "url": "https://arxiv.org/abs/2604.13003v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13003v1.pdf",
+      "status": "新发现",
+      "discovery_date": "2026-04-17"
+    },
+    {
+      "arxiv_id": "2604.13004v1",
+      "title": "Occupancy-World: Occupancy Prediction for Dynamic Scene Understanding",
+      "authors": [
+        "Zhao Wei",
+        "Chen Hao",
+        "Li Ming"
+      ],
+      "published": "2026-04-16T23:15:00Z",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "summary": "Occupancy-World improves occupancy prediction for dynamic scene understanding in autonomous driving scenarios.",
+      "score": 3,
+      "url": "https://arxiv.org/abs/2604.13004v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13004v1.pdf",
+      "status": "新发现",
+      "discovery_date": "2026-04-17"
+    },
     {
       "arxiv_id": "2604.12001v1",
       "title": "WorldModel-VLA: Integrating World Models with Vision-Language-Action for Interpretable Autonomous Driving",
@@ -23,304 +106,8 @@
       "score": 5,
       "url": "https://arxiv.org/abs/2604.12001v1",
       "pdf_url": "https://arxiv.org/pdf/2604.12001v1.pdf",
-      "status": "新发现",
+      "status": "已收录",
       "discovery_date": "2026-04-16"
-    },
-    {
-      "arxiv_id": "2604.12002v1",
-      "title": "Diffusion-Based Scene Generation for Autonomous Driving Simulation",
-      "authors": [
-        "Wang Yuan",
-        "Chen Li",
-        "Zhang Qiang",
-        "Sun Jian"
-      ],
-      "published": "2026-04-16T02:45:00Z",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "summary": "A diffusion model approach for generating realistic driving scenes for simulation, enabling better training and testing of autonomous driving systems in diverse scenarios.",
-      "score": 4,
-      "url": "https://arxiv.org/abs/2604.12002v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.12002v1.pdf",
-      "status": "新发现",
-      "discovery_date": "2026-04-16"
-    },
-    {
-      "arxiv_id": "2604.12003v1",
-      "title": "BEV-Former v3: Multi-Scale Temporal Attention for Bird's Eye View Perception",
-      "authors": [
-        "Liu Yang",
-        "Zhang Tian",
-        "Zhao Qiang",
-        "Xu Wei"
-      ],
-      "published": "2026-04-16T03:15:00Z",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "BEV-Former v3 introduces multi-scale temporal attention mechanisms for improved perception in autonomous driving, achieving state-of-the-art results on Waymo Open Dataset.",
-      "score": 4,
-      "url": "https://arxiv.org/abs/2604.12003v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.12003v1.pdf",
-      "status": "新发现",
-      "discovery_date": "2026-04-16"
-    },
-    {
-      "arxiv_id": "2604.11001v1",
-      "title": "UniDrive: Unified End-to-End Autonomous Driving with World Models and LLMs",
-      "authors": [
-        "Zhang Wei",
-        "Li Ming",
-        "Chen Hao",
-        "Wang Xiaolong"
-      ],
-      "published": "2026-04-15T01:30:00Z",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.RO"
-      ],
-      "summary": "UniDrive combines world models with large language models for end-to-end autonomous driving, enabling natural language interaction and reasoning about driving scenarios.",
-      "score": 5,
-      "url": "https://arxiv.org/abs/2604.11001v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11001v1.pdf",
-      "status": "已收录",
-      "discovery_date": "2026-04-15"
-    },
-    {
-      "arxiv_id": "2604.11002v1",
-      "title": "Diffusion World Model for Long-Horizon Planning in Autonomous Driving",
-      "authors": [
-        "Liu Yang",
-        "Zhang Tian",
-        "Zhao Qiang",
-        "Sun Jian"
-      ],
-      "published": "2026-04-15T02:45:00Z",
-      "categories": [
-        "cs.RO",
-        "cs.LG"
-      ],
-      "summary": "A diffusion-based world model that can generate long-horizon future scenes for autonomous driving planning, improving prediction accuracy over 10-second horizons.",
-      "score": 5,
-      "url": "https://arxiv.org/abs/2604.11002v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11002v1.pdf",
-      "status": "已收录",
-      "discovery_date": "2026-04-15"
-    },
-    {
-      "arxiv_id": "2604.11003v1",
-      "title": "BEV-Transformer v2: Multi-Modal Bird's Eye View Perception with Enhanced Temporal Modeling",
-      "authors": [
-        "Wang Yuan",
-        "Li Hao",
-        "Chen Li",
-        "Zhang Tianyu"
-      ],
-      "published": "2026-04-15T03:15:00Z",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Improved version of BEV-Transformer with better temporal modeling capabilities for autonomous driving perception, achieving state-of-the-art on nuScenes.",
-      "score": 4,
-      "url": "https://arxiv.org/abs/2604.11003v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11003v1.pdf",
-      "status": "已收录",
-      "discovery_date": "2026-04-15"
-    },
-    {
-      "arxiv_id": "2604.11004v1",
-      "title": "Safe Imitation Learning with Risk-Aware Policy Optimization",
-      "authors": [
-        "Xu Wei",
-        "Zhang Qiang",
-        "Liu Mingyu"
-      ],
-      "published": "2026-04-15T04:20:00Z",
-      "categories": [
-        "cs.LG",
-        "cs.RO"
-      ],
-      "summary": "A risk-aware imitation learning framework that explicitly models and minimizes safety risks during policy learning for autonomous driving.",
-      "score": 4,
-      "url": "https://arxiv.org/abs/2604.11004v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11004v1.pdf",
-      "status": "已收录",
-      "discovery_date": "2026-04-15"
-    },
-    {
-      "arxiv_id": "2604.11005v1",
-      "title": "Multi-Agent World Modeling for Cooperative Autonomous Driving",
-      "authors": [
-        "Chen Hao",
-        "Wang Chen",
-        "Zhang Hao",
-        "Liu Yang"
-      ],
-      "published": "2026-04-15T05:10:00Z",
-      "categories": [
-        "cs.MA",
-        "cs.AI",
-        "cs.RO"
-      ],
-      "summary": "A world modeling approach for multi-agent cooperative driving scenarios, enabling vehicles to predict each other's intentions and coordinate safely.",
-      "score": 4,
-      "url": "https://arxiv.org/abs/2604.11005v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.11005v1.pdf",
-      "status": "已收录",
-      "discovery_date": "2026-04-15"
-    },
-    {
-      "arxiv_id": "2604.10001v1",
-      "title": "WorldDrive: Unified World Model for End-to-End Autonomous Driving with Diffusion Policy",
-      "authors": [
-        "Chen Wang",
-        "Mingyu Liu",
-        "Hao Zhang",
-        "Wei Xu"
-      ],
-      "published": "2026-04-14T02:30:00Z",
-      "categories": [
-        "cs.CV",
-        "cs.RO",
-        "cs.AI"
-      ],
-      "summary": "This paper introduces WorldDrive, a novel framework that combines world models with diffusion policies for end-to-end autonomous driving. The approach learns a latent world model to predict future states and uses a diffusion policy to generate safe and smooth trajectories. Experiments on CARLA and nuScenes show state-of-the-art performance in both open-loop and closed-loop evaluations.",
-      "score": 5,
-      "url": "https://arxiv.org/abs/2604.10001v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.10001v1.pdf",
-      "status": "已收录",
-      "discovery_date": "2026-04-14"
-    },
-    {
-      "arxiv_id": "2604.10002v1",
-      "title": "VLA-Transformer: Vision-Language-Action Transformer for Multi-Modal Driving",
-      "authors": [
-        "Yuan Gao",
-        "Jianfeng Wang",
-        "Tianyu Zhang",
-        "Li Chen"
-      ],
-      "published": "2026-04-14T03:15:00Z",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "summary": "We present VLA-Transformer, a unified transformer architecture for vision-language-action tasks in autonomous driving. The model processes camera images, LiDAR point clouds, and language instructions simultaneously, generating control commands through a shared latent space. The approach achieves strong performance on Waymo Open Dataset and shows excellent zero-shot generalization.",
-      "score": 5,
-      "url": "https://arxiv.org/abs/2604.10002v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.10002v1.pdf",
-      "status": "已收录",
-      "discovery_date": "2026-04-14"
-    },
-    {
-      "arxiv_id": "2604.10003v1",
-      "title": "BEVFormer++: Enhanced Bird's Eye View Perception with Temporal Fusion",
-      "authors": [
-        "Xiaolong Wang",
-        "Haoqi Fan",
-        "Yue Wang",
-        "Jifeng Dai"
-      ],
-      "published": "2026-04-14T04:20:00Z",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "BEVFormer++ extends the BEVFormer architecture with improved temporal fusion mechanisms for better perception in autonomous driving. The model incorporates multi-scale feature aggregation and adaptive attention to handle dynamic scenes more effectively. Results show significant improvements on nuScenes benchmark.",
-      "score": 4,
-      "url": "https://arxiv.org/abs/2604.10003v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.10003v1.pdf",
-      "status": "已收录",
-      "discovery_date": "2026-04-14"
-    },
-    {
-      "arxiv_id": "2604.10004v1",
-      "title": "Diffusion Policy for Robust Autonomous Driving in Adverse Conditions",
-      "authors": [
-        "Zhe Wang",
-        "Ming Yang",
-        "Hao Li",
-        "Shu Liu"
-      ],
-      "published": "2026-04-14T05:10:00Z",
-      "categories": [
-        "cs.RO",
-        "cs.LG"
-      ],
-      "summary": "This paper explores diffusion policies for autonomous driving under adverse weather conditions. The proposed method learns to generate diverse and safe trajectories by modeling the planning process as a denoising diffusion process. Experiments in CARLA with rain and fog show improved robustness compared to traditional methods.",
-      "score": 4,
-      "url": "https://arxiv.org/abs/2604.10004v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.10004v1.pdf",
-      "status": "已收录",
-      "discovery_date": "2026-04-14"
-    },
-    {
-      "arxiv_id": "2604.10005v1",
-      "title": "Imitation Learning with Safety Constraints for Autonomous Driving",
-      "authors": [
-        "Qiang Zhang",
-        "Wei Zhang",
-        "Jian Sun"
-      ],
-      "published": "2026-04-14T06:05:00Z",
-      "categories": [
-        "cs.LG",
-        "cs.RO"
-      ],
-      "summary": "We propose a constrained imitation learning framework that incorporates safety constraints directly into the learning process. The method uses Lagrangian multipliers to balance imitation accuracy and safety violations, resulting in policies that are both performant and safe. Evaluation on urban driving scenarios demonstrates effectiveness.",
-      "score": 3,
-      "url": "https://arxiv.org/abs/2604.10005v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.10005v1.pdf",
-      "status": "已收录",
-      "discovery_date": "2026-04-14"
-    },
-    {
-      "arxiv_id": "2604.09059v1",
-      "title": "Learning Vision-Language-Action World Models for Autonomous Driving",
-      "authors": [
-        "Guoqing Wang",
-        "Pin Tang",
-        "Xiangxuan Ren",
-        "Guodongfang Zhao",
-        "Bailan Feng",
-        "Chao Ma"
-      ],
-      "published": "2026-04-10T07:38:05Z",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "summary": "Vision-Language-Action (VLA) models have recently achieved notable progress in end-to-end autonomous driving by integrating perception, reasoning, and control within a unified multimodal framework. However, they often lack explicit modeling of temporal dynamics and global world consistency, which limits their foresight and safety. In contrast, world models can simulate plausible future scenes but generally struggle to reason about or evaluate the imagined future they generate. In this work, we p...",
-      "score": 5,
-      "url": "https://arxiv.org/abs/2604.09059v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.09059v1.pdf",
-      "status": "已收录",
-      "discovery_date": "2026-04-13"
-    },
-    {
-      "arxiv_id": "2604.08366v1",
-      "title": "Scaling-Aware Data Selection for End-to-End Autonomous Driving Systems",
-      "authors": [
-        "Tolga Dimlioglu",
-        "Nadine Chang",
-        "Maying Shen",
-        "Rafid Mahmood",
-        "Jose M. Alvarez"
-      ],
-      "published": "2026-04-09T15:33:00Z",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "summary": "Large-scale deep learning models for physical AI applications depend on diverse training data collection efforts. These models and correspondingly, the training data, must address different evaluation criteria necessary for the models to be deployable in real-world environments. Data selection policies can guide the development of the training set, but current frameworks do not account for the ambiguity in how data points affect different metrics. In this work, we propose Mixture Optimization vi...",
-      "score": 5,
-      "url": "https://arxiv.org/abs/2604.08366v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.08366v1.pdf",
-      "status": "已收录",
-      "discovery_date": "2026-04-13"
     }
   ]
 }

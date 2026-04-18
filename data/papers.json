@@ -1,8 +1,56 @@
 {
-  "last_updated": "2026-04-18T16:47:22.702040",
+  "last_updated": "2026-04-18T16:54:00.000000",
   "total_papers": 10,
   "new_discoveries": 9,
   "new_5star_papers": 5,
+  "weekly_report": {
+    "week_start": "2026-04-12",
+    "week_end": "2026-04-18",
+    "summary": "本周自动驾驶研究聚焦于扩散模型、VLA框架和可行性感知规划。DiffusionDrive-2和FeaXDrive在扩散规划方面取得进展，VLA-Driver和OpenDriveVLA推动VLA框架发展，DiffusionPolicy-AD关注安全性。",
+    "top_papers": [
+      {
+        "arxiv_id": "2604.13001v1",
+        "title": "DiffusionDrive-2: Scalable Diffusion Models for Long-Horizon Autonomous Driving",
+        "score": 5,
+        "category": "扩散模型",
+        "contribution": "扩展扩散模型到长时域自动驾驶任务，改进可扩展性和采样效率"
+      },
+      {
+        "arxiv_id": "2604.13003v1",
+        "title": "VLA-Driver: Vision-Language-Action Framework for Interpretable Driving Decisions",
+        "score": 5,
+        "category": "VLA框架",
+        "contribution": "使用视觉-语言-动作框架进行可解释的驾驶决策，提供自然语言解释"
+      },
+      {
+        "arxiv_id": "2604.12656v1",
+        "title": "FeaXDrive: Feasibility-aware Trajectory-Centric Diffusion Planning for Autonomous Driving",
+        "score": 5,
+        "category": "可行性感知规划",
+        "contribution": "引入可行性感知扩散规划框架，确保生成的轨迹满足运动学约束并保持在可行驶区域内"
+      },
+      {
+        "arxiv_id": "2604.12501v1",
+        "title": "OpenDriveVLA: Towards End-to-end Autonomous Driving with Large Vision-Language-Action Models",
+        "score": 5,
+        "category": "开源VLA",
+        "contribution": "基于开源大语言模型构建的VLA模型，在开环轨迹规划和驾驶相关问答任务上达到SOTA"
+      },
+      {
+        "arxiv_id": "2604.12290v1",
+        "title": "DiffusionPolicy-AD: Diffusion-based Policy Learning for Autonomous Driving with Safety Guarantees",
+        "score": 5,
+        "category": "安全策略",
+        "contribution": "引入具有形式化安全保证的扩散策略学习框架，确保真实场景中的安全探索和部署"
+      }
+    ],
+    "trends": [
+      "扩散模型在自动驾驶规划中的应用持续深化",
+      "VLA框架成为端到端自动驾驶的重要方向",
+      "可行性感知和安全性保证受到更多关注",
+      "开源VLA模型推动研究可复现性"
+    ]
+  },
   "papers": [
     {
       "arxiv_id": "2604.12656v1",

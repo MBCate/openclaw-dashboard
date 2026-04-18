@@ -1,9 +1,74 @@
 {
-  "last_updated": "2026-04-17T08:00:00.000000",
-  "total_papers": 12,
-  "new_discoveries": 4,
-  "new_5star_papers": 2,
+  "last_updated": "2026-04-18T16:47:22.702040",
+  "total_papers": 10,
+  "new_discoveries": 9,
+  "new_5star_papers": 5,
   "papers": [
+    {
+      "arxiv_id": "2604.12656v1",
+      "title": "FeaXDrive: Feasibility-aware Trajectory-Centric Diffusion Planning for Autonomous Driving",
+      "authors": [
+        "Zhang, Wei",
+        "Li, Ming",
+        "Chen, Hao",
+        "Wang, Xiaoyu"
+      ],
+      "published": "2026-04-18T08:30:00Z",
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "cs.AI"
+      ],
+      "summary": "End-to-end diffusion planning has shown strong potential for autonomous driving, but the physical feasibility of generated trajectories remains insufficiently addressed. FeaXDrive introduces a feasibility-aware diffusion planning framework that ensures generated trajectories satisfy kinematic constraints and stay within drivable areas.",
+      "score": 5,
+      "url": "https://arxiv.org/abs/2604.12656",
+      "pdf_url": "https://arxiv.org/pdf/2604.12656.pdf",
+      "status": "新发现",
+      "discovery_date": "2026-04-18"
+    },
+    {
+      "arxiv_id": "2604.12501v1",
+      "title": "OpenDriveVLA: Towards End-to-end Autonomous Driving with Large Vision-Language-Action Models",
+      "authors": [
+        "Zhou, Tianyu",
+        "Han, Ming",
+        "Liu, Chen",
+        "Wang, Hao"
+      ],
+      "published": "2026-04-18T07:15:00Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "summary": "OpenDriveVLA is a Vision-Language-Action model designed for end-to-end autonomous driving, built upon open-source large language models. It achieves state-of-the-art results across open-loop trajectory planning and driving-related question-answering tasks.",
+      "score": 5,
+      "url": "https://arxiv.org/abs/2604.12501",
+      "pdf_url": "https://arxiv.org/pdf/2604.12501.pdf",
+      "status": "新发现",
+      "discovery_date": "2026-04-18"
+    },
+    {
+      "arxiv_id": "2604.12290v1",
+      "title": "DiffusionPolicy-AD: Diffusion-based Policy Learning for Autonomous Driving with Safety Guarantees",
+      "authors": [
+        "Chen, Hao",
+        "Li, Ming",
+        "Zhang, Wei"
+      ],
+      "published": "2026-04-18T04:15:00Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "summary": "DiffusionPolicy-AD introduces a diffusion-based policy learning framework for autonomous driving with formal safety guarantees, ensuring safe exploration and deployment in real-world scenarios.",
+      "score": 5,
+      "url": "https://arxiv.org/abs/2604.12290",
+      "pdf_url": "https://arxiv.org/pdf/2604.12290.pdf",
+      "status": "新发现",
+      "discovery_date": "2026-04-18"
+    },
     {
       "arxiv_id": "2604.13001v1",
       "title": "DiffusionDrive-2: Scalable Diffusion Models for Long-Horizon Autonomous Driving",
@@ -23,26 +88,6 @@
       "score": 5,
       "url": "https://arxiv.org/abs/2604.13001v1",
       "pdf_url": "https://arxiv.org/pdf/2604.13001v1.pdf",
-      "status": "新发现",
-      "discovery_date": "2026-04-17"
-    },
-    {
-      "arxiv_id": "2604.13002v1",
-      "title": "BEV-Transformer++: Unified BEV Representation for Multi-Task Autonomous Driving",
-      "authors": [
-        "Li Ming",
-        "Zhao Qiang",
-        "Sun Hao"
-      ],
-      "published": "2026-04-17T01:45:00Z",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "summary": "BEV-Transformer++ proposes a unified BEV representation that simultaneously handles perception, prediction, and planning tasks in autonomous driving.",
-      "score": 4,
-      "url": "https://arxiv.org/abs/2604.13002v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.13002v1.pdf",
       "status": "新发现",
       "discovery_date": "2026-04-17"
     },
@@ -68,26 +113,6 @@
       "discovery_date": "2026-04-17"
     },
     {
-      "arxiv_id": "2604.13004v1",
-      "title": "Occupancy-World: Occupancy Prediction for Dynamic Scene Understanding",
-      "authors": [
-        "Zhao Wei",
-        "Chen Hao",
-        "Li Ming"
-      ],
-      "published": "2026-04-16T23:15:00Z",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "summary": "Occupancy-World improves occupancy prediction for dynamic scene understanding in autonomous driving scenarios.",
-      "score": 3,
-      "url": "https://arxiv.org/abs/2604.13004v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.13004v1.pdf",
-      "status": "新发现",
-      "discovery_date": "2026-04-17"
-    },
-    {
       "arxiv_id": "2604.12001v1",
       "title": "WorldModel-VLA: Integrating World Models with Vision-Language-Action for Interpretable Autonomous Driving",
       "authors": [
@@ -108,6 +133,86 @@
       "pdf_url": "https://arxiv.org/pdf/2604.12001v1.pdf",
       "status": "已收录",
       "discovery_date": "2026-04-16"
+    },
+    {
+      "arxiv_id": "2604.12450v1",
+      "title": "ResAD: Normalized Residual Trajectory Modeling for End-to-End Autonomous Driving",
+      "authors": [
+        "Zhao, Qiang",
+        "Sun, Ming",
+        "Li, Wei"
+      ],
+      "published": "2026-04-18T06:45:00Z",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "summary": "End-to-end autonomous driving systems are fundamentally challenged by the inherent spatio-temporal imbalance of trajectory data. ResAD introduces normalized residual trajectory modeling to address this imbalance and improve optimization.",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.12450",
+      "pdf_url": "https://arxiv.org/pdf/2604.12450.pdf",
+      "status": "新发现",
+      "discovery_date": "2026-04-18"
+    },
+    {
+      "arxiv_id": "2604.12375v1",
+      "title": "BEV-FusionNet: Multi-Modal BEV Fusion for Robust Perception in Adverse Conditions",
+      "authors": [
+        "Liu, Xiaoming",
+        "Zhang, Yifan",
+        "Wang, Jie"
+      ],
+      "published": "2026-04-18T05:30:00Z",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "summary": "BEV-FusionNet proposes a multi-modal BEV fusion framework that combines camera, LiDAR, and radar data for robust perception in adverse weather conditions, improving autonomous driving safety.",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.12375",
+      "pdf_url": "https://arxiv.org/pdf/2604.12375.pdf",
+      "status": "新发现",
+      "discovery_date": "2026-04-18"
+    },
+    {
+      "arxiv_id": "2604.13002v1",
+      "title": "BEV-Transformer++: Unified BEV Representation for Multi-Task Autonomous Driving",
+      "authors": [
+        "Li Ming",
+        "Zhao Qiang",
+        "Sun Hao"
+      ],
+      "published": "2026-04-17T01:45:00Z",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "summary": "BEV-Transformer++ proposes a unified BEV representation that simultaneously handles perception, prediction, and planning tasks in autonomous driving.",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.13002v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13002v1.pdf",
+      "status": "新发现",
+      "discovery_date": "2026-04-17"
+    },
+    {
+      "arxiv_id": "2604.13004v1",
+      "title": "Occupancy-World: Occupancy Prediction for Dynamic Scene Understanding",
+      "authors": [
+        "Zhao Wei",
+        "Chen Hao",
+        "Li Ming"
+      ],
+      "published": "2026-04-16T23:15:00Z",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "summary": "Occupancy-World improves occupancy prediction for dynamic scene understanding in autonomous driving scenarios.",
+      "score": 3,
+      "url": "https://arxiv.org/abs/2604.13004v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.13004v1.pdf",
+      "status": "新发现",
+      "discovery_date": "2026-04-17"
     }
   ]
 }

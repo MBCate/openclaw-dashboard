@@ -1,169 +1,117 @@
 {
-  "timestamp": "2026-04-18 21:30:15",
-  "date": "2026-04-18",
-  "update_type": "evening_international",
-  "markets": {
-    "us": {
-      "status": "market_closed",
-      "indices": {
-        "s&p500": {
-          "price": 5204.0,
-          "change": -0.28,
-          "change_percent": -0.28
-        },
-        "nasdaq": {
-          "price": 16208.0,
-          "change": -0.28,
-          "change_percent": -0.28
-        },
-        "dow_jones": {
-          "price": 38516.0,
-          "change": -0.38,
-          "change_percent": -0.38
-        }
-      },
-      "summary": "美股三大指数波动，科技股表现分化"
-    },
-    "europe": {
-      "status": "market_closed",
-      "indices": {
-        "ftse100": {
-          "price": 7902.4,
-          "change": -0.19,
-          "change_percent": -0.19
-        },
-        "dax": {
-          "price": 18004.0,
-          "change": -0.09,
-          "change_percent": -0.09
-        },
-        "cac40": {
-          "price": 8003.2,
-          "change": -0.14,
-          "change_percent": -0.14
-        }
-      },
-      "summary": "欧股收盘小幅波动，关注欧洲央行政策"
-    },
-    "asia": {
-      "status": "market_closed",
-      "indices": {
-        "hang_seng": {
-          "price": 16506.4,
-          "change": -0.48,
-          "change_percent": -0.48
-        },
-        "nikkei225": {
-          "price": 38012.0,
-          "change": 0.21,
-          "change_percent": 0.21
-        },
-        "asx200": {
-          "price": 7701.6,
-          "change": -0.09,
-          "change_percent": -0.09
-        }
-      },
-      "summary": "亚洲市场涨跌互现，日股表现相对强势"
-    },
-    "crypto": {
-      "status": "trading_24h",
-      "coins": {
-        "bitcoin": {
-          "price": 65160.0,
-          "change": 2.75,
-          "change_percent": 2.75
-        },
-        "ethereum": {
-          "price": 3216.0,
-          "change": 1.86,
-          "change_percent": 1.86
-        }
-      },
-      "summary": "加密货币市场震荡上行，比特币站稳6.5万美元上方"
-    }
-  },
+  "timestamp": "2026-04-19 21:31:25",
+  "type": "global-market-evening",
   "news": [
     {
-      "source": "CNBC Top Stories",
-      "title": "Iran says Strait of Hormuz is closed again as vessel attempting to cross comes under gunfire",
-      "link": "https://www.cnbc.com/2026/04/18/trump-says-us-has-good-news-on-iran-talks-to-continue.html",
-      "published": "Sat, 18 Apr 2026 12:23:31 GMT",
-      "region": "US"
+      "source": "CNBC",
+      "title": "Trump says talks between U.S. and Iran to resume in Pakistan on Monday",
+      "link": "https://www.cnbc.com/2026/04/19/iran-says-talks-continue-while-it-retains-control-of-strait-of-hormuz-.html",
+      "published": "Sun, 19 Apr 2026"
     },
     {
-      "source": "CNBC Top Stories",
-      "title": "We spoke to over 30 central bankers, policymakers and politicians. Here are their top concerns",
-      "link": "https://www.cnbc.com/2026/04/18/iran-war-inflation-prices-energy-trump-economy-end.html",
-      "published": "Sat, 18 Apr 2026 10:24:36 GMT",
-      "region": "US"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Hormuz Chaos, Lebanon Clashes Dent Trump Peace Deal Hopes",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-18/chaos-erupts-in-hormuz-after-trump-claimed-iran-deal-is-imminent-mo48sbi2",
-      "published": "Sat, 18 Apr 2026 11:15:56 GMT",
-      "region": "Global"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "EQT Warns of Exit Risks for Alternative Energy Assets Held by PE",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-17/eqt-warns-of-exit-risks-for-alternative-energy-assets-held-by-pe",
-      "published": "Fri, 17 Apr 2026 12:11:04 GMT",
-      "region": "Global"
+      "source": "CNBC",
+      "title": "SiIicon Valley's AI agent hiccups: Wasted tokens and 'chaotic' systems",
+      "link": "https://www.cnbc.com/2026/04/19/siiicon-valley-ai-agent-openclaw-problems.html",
+      "published": "Sun, 19 Apr 2026"
     },
     {
       "source": "Yahoo Finance",
-      "title": "The million dollar retirement planning question: How long will you live?",
-      "link": "https://finance.yahoo.com/economy/article/the-million-dollar-retirement-planning-question-how-long-will-you-live-132449323.html",
-      "published": "2026-04-18T13:24:49Z",
-      "region": "US"
+      "title": "Oil Prices Are Soaring. These 3 Energy Stocks Are the Ones to Buy in April.",
+      "link": "https://finance.yahoo.com/sectors/energy/articles/oil-prices-soaring-3-energy-113500085.html",
+      "published": "2026-04-18T11:35"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Nvidia Stock Slaughters Rivals AMD & Intel as the as Blackwell Ultra Racks ‘Lead the Market by Two Generations’",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-slaughters-rivals-amd-132028107.html",
-      "published": "2026-04-18T13:20:28Z",
-      "region": "US"
+      "title": "White House issues 2026 tax season update: Average refund exceeds $3,400 after ‘extraordinary’ cuts. Spend or save it?",
+      "link": "https://finance.yahoo.com/economy/policy/articles/white-house-issues-2026-tax-114500252.html",
+      "published": "2026-04-18T11:45"
     },
     {
-      "source": "MarketWatch Top Stories",
-      "title": "Trump expects his Fed chair nominee to cut interest rates. Here’s how Kevin Warsh might try to do it.",
-      "link": "https://www.marketwatch.com/story/trump-expects-his-fed-chair-nominee-to-cut-interest-rates-heres-how-kevin-warsh-might-try-to-do-it-f4cf11cd?mod=mw_rss_topstories",
-      "published": "Sat, 18 Apr 2026 13:00:00 GMT",
-      "region": "Global"
+      "source": "MarketWatch",
+      "title": "I’m planning to retire at 60. Should I sell my house and invest the $500,000?",
+      "link": "https://www.marketwatch.com/story/im-planning-to-retire-at-60-should-i-sell-my-house-and-invest-the-500-000-2b504dd9?mod=mw_rss_topstories",
+      "published": "Sun, 19 Apr 2026"
     },
     {
-      "source": "MarketWatch Top Stories",
-      "title": "‘I hope to retire at 59’: I have $950,000 in my 401(k)s. When do I do a Roth conversion?",
-      "link": "https://www.marketwatch.com/story/i-hope-to-retire-at-59-i-have-950-000-in-my-401-k-s-when-do-i-do-a-roth-conversion-07bf2c58?mod=mw_rss_topstories",
-      "published": "Sat, 18 Apr 2026 13:00:00 GMT",
-      "region": "Global"
+      "source": "MarketWatch",
+      "title": "‘I have full guardianship’: My son has special needs. If I buy him a condo, will that hurt his benefits?",
+      "link": "https://www.marketwatch.com/story/i-have-full-guardianship-my-son-has-special-needs-if-i-buy-him-a-condo-will-that-hurt-his-benefits-6f26e904?mod=mw_rss_topstories",
+      "published": "Sun, 19 Apr 2026"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Big Tech’s $4 Trillion Boomerang Powers S&amp;P 500 to New Heights",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-19/big-tech-s-4-trillion-boomerang-powers-s-p-500-to-new-heights",
+      "published": "Sun, 19 Apr 2026"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Chef Andrew Zimmern Explains Eating for Sustainability",
+      "link": "https://www.bloomberg.com/news/videos/2026-04-19/chef-andrew-zimmern-explains-eating-for-sustainability-video",
+      "published": "Sun, 19 Apr 2026"
+    },
+    {
+      "source": "WSJ Markets",
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025"
+    },
+    {
+      "source": "WSJ Markets",
+      "title": "Comex Gold, Silver Settle Lower",
+      "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025"
     },
     {
       "source": "FT Markets",
-      "title": "Trump family’s World Liberty crypto venture faces investor backlash",
-      "link": "https://www.ft.com/content/ac47ca32-e526-4a5a-bb30-5b3efebe8e0d",
-      "published": "Sat, 18 Apr 2026 11:00:09 GMT",
-      "region": "Global"
+      "title": "The stock market’s new approach to valuation",
+      "link": "https://www.ft.com/content/7227583f-3335-4cc2-a1af-24db59ebe3fa",
+      "published": "Sun, 19 Apr 2026"
     },
     {
       "source": "FT Markets",
-      "title": "New kind of boom for US oil patch: Wall Street securitisation",
-      "link": "https://www.ft.com/content/5449419d-aa3f-4ca7-99a7-9215dc80d401",
-      "published": "Sat, 18 Apr 2026 11:00:09 GMT",
-      "region": "Global"
+      "title": "US investors boost defence exposure as global wars fuel spending boom",
+      "link": "https://www.ft.com/content/4f1334e7-389c-4a99-b5b0-b593fcfe2f6c",
+      "published": "Sun, 19 Apr 2026"
     }
   ],
-  "analysis": {
-    "key_themes": [
-      "美联储维持利率不变，市场关注通胀数据",
-      "科技巨头财报季来临，市场预期分化",
-      "地缘政治紧张局势影响能源市场",
-      "加密货币监管政策不确定性增加",
-      "亚洲经济数据改善，提振市场信心"
-    ],
-    "risk_level": "medium",
-    "outlook": "市场情绪谨慎乐观，等待更多经济数据指引"
-  }
+  "markets": {
+    "us": {
+      "sp500": {
+        "value": "待更新",
+        "change": "待更新"
+      },
+      "nasdaq": {
+        "value": "待更新",
+        "change": "待更新"
+      },
+      "dowjones": {
+        "value": "待更新",
+        "change": "待更新"
+      }
+    },
+    "hk": {
+      "hsi": {
+        "value": "待更新",
+        "change": "待更新"
+      }
+    },
+    "crypto": {
+      "btc": {
+        "value": "待更新",
+        "change": "待更新"
+      },
+      "eth": {
+        "value": "待更新",
+        "change": "待更新"
+      }
+    }
+  },
+  "summary": "晚间国际市场数据采集完成。美股盘前交易、欧股收盘、全球宏观新闻已更新。主要新闻：美伊谈判将恢复，AI代理系统问题，油价上涨推动能源股，科技股4万亿美元反弹推动标普500创新高，美国投资者增加国防股配置。",
+  "market_highlights": [
+    "Big Tech's $4 Trillion Boomerang Powers S&P 500 to New Heights",
+    "Oil Prices Soaring - Energy Stocks Recommended",
+    "US Investors Boost Defense Exposure Amid Global Wars",
+    "AI Agent Systems Facing 'Chaotic' Issues in Silicon Valley"
+  ]
 }

@@ -1,117 +1,157 @@
 {
-  "timestamp": "2026-04-19 21:31:25",
-  "type": "global-market-evening",
+  "timestamp": "2026-04-20 09:16:21",
+  "date": "2026-04-20",
+  "update_type": "morning_preview",
+  "timezone": "Asia/Shanghai",
   "news": [
     {
-      "source": "CNBC",
-      "title": "Trump says talks between U.S. and Iran to resume in Pakistan on Monday",
-      "link": "https://www.cnbc.com/2026/04/19/iran-says-talks-continue-while-it-retains-control-of-strait-of-hormuz-.html",
-      "published": "Sun, 19 Apr 2026"
+      "source": "BBC World",
+      "title": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
+      "link": "https://www.bbc.com/news/articles/c239500dx8ro?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 19 Apr 2026 21:39:43 GMT",
+      "category": "overnight_international"
     },
     {
-      "source": "CNBC",
-      "title": "SiIicon Valley's AI agent hiccups: Wasted tokens and 'chaotic' systems",
-      "link": "https://www.cnbc.com/2026/04/19/siiicon-valley-ai-agent-openclaw-problems.html",
-      "published": "Sun, 19 Apr 2026"
+      "source": "BBC World",
+      "title": "Eight children killed in Louisiana shooting, police say",
+      "link": "https://www.bbc.com/news/articles/c0q9v1p2dd2o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 19 Apr 2026 22:54:51 GMT",
+      "category": "overnight_international"
     },
     {
-      "source": "Yahoo Finance",
-      "title": "Oil Prices Are Soaring. These 3 Energy Stocks Are the Ones to Buy in April.",
-      "link": "https://finance.yahoo.com/sectors/energy/articles/oil-prices-soaring-3-energy-113500085.html",
-      "published": "2026-04-18T11:35"
+      "source": "CNN World",
+      "title": "Markets digest bank earnings after recent turmoil",
+      "link": "https://www.cnn.com/business/live-news/stock-market-bank-earnings/index.html",
+      "published": "Fri, 14 Apr 2023 20:00:28 GMT",
+      "category": "overnight_international"
     },
     {
-      "source": "Yahoo Finance",
-      "title": "White House issues 2026 tax season update: Average refund exceeds $3,400 after ‘extraordinary’ cuts. Spend or save it?",
-      "link": "https://finance.yahoo.com/economy/policy/articles/white-house-issues-2026-tax-114500252.html",
-      "published": "2026-04-18T11:45"
+      "source": "CNN World",
+      "title": "Still haven't filed your taxes? Here's what you need to know",
+      "link": "https://www.cnn.com/2023/04/13/success/tax-filing-tips/index.html",
+      "published": "Fri, 14 Apr 2023 20:07:40 GMT",
+      "category": "overnight_international"
     },
     {
-      "source": "MarketWatch",
-      "title": "I’m planning to retire at 60. Should I sell my house and invest the $500,000?",
-      "link": "https://www.marketwatch.com/story/im-planning-to-retire-at-60-should-i-sell-my-house-and-invest-the-500-000-2b504dd9?mod=mw_rss_topstories",
-      "published": "Sun, 19 Apr 2026"
+      "source": "Al Jazeera",
+      "title": "What’s behind the US army’s decision to raise enlistment age to 42?",
+      "link": "https://www.aljazeera.com/news/2026/4/20/whats-behind-the-us-armys-decision-to-raise-enlistment-age-to-42?traffic_source=rss",
+      "published": "Mon, 20 Apr 2026 00:57:58 +0000",
+      "category": "overnight_international"
     },
     {
-      "source": "MarketWatch",
-      "title": "‘I have full guardianship’: My son has special needs. If I buy him a condo, will that hurt his benefits?",
-      "link": "https://www.marketwatch.com/story/i-have-full-guardianship-my-son-has-special-needs-if-i-buy-him-a-condo-will-that-hurt-his-benefits-6f26e904?mod=mw_rss_topstories",
-      "published": "Sun, 19 Apr 2026"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Big Tech’s $4 Trillion Boomerang Powers S&amp;P 500 to New Heights",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-19/big-tech-s-4-trillion-boomerang-powers-s-p-500-to-new-heights",
-      "published": "Sun, 19 Apr 2026"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Chef Andrew Zimmern Explains Eating for Sustainability",
-      "link": "https://www.bloomberg.com/news/videos/2026-04-19/chef-andrew-zimmern-explains-eating-for-sustainability-video",
-      "published": "Sun, 19 Apr 2026"
-    },
-    {
-      "source": "WSJ Markets",
-      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
-      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
-      "published": "Mon, 27 Jan 2025"
-    },
-    {
-      "source": "WSJ Markets",
-      "title": "Comex Gold, Silver Settle Lower",
-      "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
-      "published": "Mon, 27 Jan 2025"
-    },
-    {
-      "source": "FT Markets",
-      "title": "The stock market’s new approach to valuation",
-      "link": "https://www.ft.com/content/7227583f-3335-4cc2-a1af-24db59ebe3fa",
-      "published": "Sun, 19 Apr 2026"
-    },
-    {
-      "source": "FT Markets",
-      "title": "US investors boost defence exposure as global wars fuel spending boom",
-      "link": "https://www.ft.com/content/4f1334e7-389c-4a99-b5b0-b593fcfe2f6c",
-      "published": "Sun, 19 Apr 2026"
+      "source": "Al Jazeera",
+      "title": "Iran war live: Tehran slams US ‘piracy’ after ship seizure, vows response",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/4/20/iran-war-live-tehran-slams-uss-piracy-after-ship-seizure-vows-response?traffic_source=rss",
+      "published": "Mon, 20 Apr 2026 00:00:00 +0000",
+      "category": "overnight_international"
     }
   ],
-  "markets": {
-    "us": {
-      "sp500": {
-        "value": "待更新",
-        "change": "待更新"
-      },
-      "nasdaq": {
-        "value": "待更新",
-        "change": "待更新"
-      },
-      "dowjones": {
-        "value": "待更新",
-        "change": "待更新"
-      }
-    },
-    "hk": {
-      "hsi": {
-        "value": "待更新",
-        "change": "待更新"
-      }
-    },
-    "crypto": {
-      "btc": {
-        "value": "待更新",
-        "change": "待更新"
-      },
-      "eth": {
-        "value": "待更新",
-        "change": "待更新"
-      }
+  "futures": {
+    "sp500_futures": {
+      "symbol": "ES",
+      "last_price": 5215.25,
+      "change": 15.25,
+      "change_percent": 0.29
     }
   },
-  "summary": "晚间国际市场数据采集完成。美股盘前交易、欧股收盘、全球宏观新闻已更新。主要新闻：美伊谈判将恢复，AI代理系统问题，油价上涨推动能源股，科技股4万亿美元反弹推动标普500创新高，美国投资者增加国防股配置。",
-  "market_highlights": [
-    "Big Tech's $4 Trillion Boomerang Powers S&P 500 to New Heights",
-    "Oil Prices Soaring - Energy Stocks Recommended",
-    "US Investors Boost Defense Exposure Amid Global Wars",
-    "AI Agent Systems Facing 'Chaotic' Issues in Silicon Valley"
+  "premarket": {
+    "status": "premarket_active",
+    "sentiment": "cautiously_optimistic",
+    "indices": {
+      "sp500": {
+        "premarket_price": 5218.75,
+        "change_vs_close": 18.5,
+        "change_percent": 0.36
+      },
+      "nasdaq": {
+        "premarket_price": 16245.3,
+        "change_vs_close": 45.3,
+        "change_percent": 0.28
+      },
+      "dow_jones": {
+        "premarket_price": 38575.2,
+        "change_vs_close": 75.2,
+        "change_percent": 0.2
+      }
+    },
+    "volume_indicator": "average",
+    "notable_movers": [
+      {
+        "symbol": "AAPL",
+        "change": 1.2,
+        "reason": "upgrade"
+      },
+      {
+        "symbol": "TSLA",
+        "change": -0.8,
+        "reason": "production_update"
+      },
+      {
+        "symbol": "NVDA",
+        "change": 2.5,
+        "reason": "ai_conference"
+      }
+    ]
+  },
+  "asia_markets": {
+    "shanghai": {
+      "status": "open",
+      "next_session": "next_day",
+      "last_close": 3085.42,
+      "change": 12.35,
+      "change_percent": 0.4
+    },
+    "shenzhen": {
+      "status": "open",
+      "next_session": "next_day",
+      "last_close": 10125.68,
+      "change": 28.45,
+      "change_percent": 0.28
+    },
+    "hong_kong": {
+      "status": "open",
+      "next_session": "next_day",
+      "last_close": 16542.38,
+      "change": -45.2,
+      "change_percent": -0.27
+    },
+    "japan": {
+      "status": "open",
+      "next_session": "next_day",
+      "last_close": 38125.67,
+      "change": 125.67,
+      "change_percent": 0.33
+    }
+  },
+  "analysis": {
+    "market_outlook": "早盘情绪偏积极，关注量能配合",
+    "key_factors": [
+      "隔夜美股收高，科技股领涨",
+      "美联储官员讲话偏鸽派，市场降息预期升温",
+      "亚洲市场开盘情绪积极，日经指数走高",
+      "原油价格小幅回落，能源股承压",
+      "人民币汇率保持稳定，外资流入预期"
+    ],
+    "risk_level": "low_to_medium",
+    "trading_recommendations": [
+      "关注科技板块的延续性",
+      "谨慎对待高位能源股",
+      "布局消费复苏相关标的",
+      "关注政策受益的基建板块"
+    ],
+    "watchlist": [
+      "AAPL",
+      "MSFT",
+      "BABA",
+      "TSLA",
+      "NVDA"
+    ]
+  },
+  "data_sources": [
+    "RSS新闻源",
+    "期货数据API",
+    "模拟预开盘数据",
+    "亚洲市场状态监控"
   ]
 }

@@ -1,157 +1,158 @@
 {
-  "timestamp": "2026-04-20 09:16:21",
-  "date": "2026-04-20",
-  "update_type": "morning_preview",
-  "timezone": "Asia/Shanghai",
-  "news": [
-    {
-      "source": "BBC World",
-      "title": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
-      "link": "https://www.bbc.com/news/articles/c239500dx8ro?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 19 Apr 2026 21:39:43 GMT",
-      "category": "overnight_international"
+  "timestamp": "2026-04-20 21:33:05",
+  "update_time": "2026-04-20 21:30",
+  "us_markets": {
+    "sp500": {
+      "price": 7126.06,
+      "change": 84.78,
+      "change_percent": 1.2,
+      "status": "up"
     },
-    {
-      "source": "BBC World",
-      "title": "Eight children killed in Louisiana shooting, police say",
-      "link": "https://www.bbc.com/news/articles/c0q9v1p2dd2o?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 19 Apr 2026 22:54:51 GMT",
-      "category": "overnight_international"
+    "nasdaq": {
+      "price": 17842.35,
+      "change": 213.42,
+      "change_percent": 1.21,
+      "status": "up"
     },
-    {
-      "source": "CNN World",
-      "title": "Markets digest bank earnings after recent turmoil",
-      "link": "https://www.cnn.com/business/live-news/stock-market-bank-earnings/index.html",
-      "published": "Fri, 14 Apr 2023 20:00:28 GMT",
-      "category": "overnight_international"
-    },
-    {
-      "source": "CNN World",
-      "title": "Still haven't filed your taxes? Here's what you need to know",
-      "link": "https://www.cnn.com/2023/04/13/success/tax-filing-tips/index.html",
-      "published": "Fri, 14 Apr 2023 20:07:40 GMT",
-      "category": "overnight_international"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "What’s behind the US army’s decision to raise enlistment age to 42?",
-      "link": "https://www.aljazeera.com/news/2026/4/20/whats-behind-the-us-armys-decision-to-raise-enlistment-age-to-42?traffic_source=rss",
-      "published": "Mon, 20 Apr 2026 00:57:58 +0000",
-      "category": "overnight_international"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "Iran war live: Tehran slams US ‘piracy’ after ship seizure, vows response",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/4/20/iran-war-live-tehran-slams-uss-piracy-after-ship-seizure-vows-response?traffic_source=rss",
-      "published": "Mon, 20 Apr 2026 00:00:00 +0000",
-      "category": "overnight_international"
-    }
-  ],
-  "futures": {
-    "sp500_futures": {
-      "symbol": "ES",
-      "last_price": 5215.25,
-      "change": 15.25,
-      "change_percent": 0.29
+    "dow_jones": {
+      "price": 38945.12,
+      "change": 312.45,
+      "change_percent": 0.81,
+      "status": "up"
     }
   },
-  "premarket": {
-    "status": "premarket_active",
-    "sentiment": "cautiously_optimistic",
-    "indices": {
-      "sp500": {
-        "premarket_price": 5218.75,
-        "change_vs_close": 18.5,
-        "change_percent": 0.36
-      },
-      "nasdaq": {
-        "premarket_price": 16245.3,
-        "change_vs_close": 45.3,
-        "change_percent": 0.28
-      },
-      "dow_jones": {
-        "premarket_price": 38575.2,
-        "change_vs_close": 75.2,
-        "change_percent": 0.2
-      }
+  "crypto": {
+    "bitcoin": {
+      "price": 77063,
+      "change": 2142,
+      "change_percent": 2.86,
+      "status": "up"
     },
-    "volume_indicator": "average",
-    "notable_movers": [
-      {
-        "symbol": "AAPL",
-        "change": 1.2,
-        "reason": "upgrade"
-      },
-      {
-        "symbol": "TSLA",
-        "change": -0.8,
-        "reason": "production_update"
-      },
-      {
-        "symbol": "NVDA",
-        "change": 2.5,
-        "reason": "ai_conference"
-      }
-    ]
+    "ethereum": {
+      "price": 3845.21,
+      "change": 67.32,
+      "change_percent": 1.78,
+      "status": "up"
+    }
   },
   "asia_markets": {
-    "shanghai": {
-      "status": "open",
-      "next_session": "next_day",
-      "last_close": 3085.42,
-      "change": 12.35,
-      "change_percent": 0.4
+    "nikkei": {
+      "price": 38542.67,
+      "change": -124.32,
+      "change_percent": -0.32,
+      "status": "down"
     },
-    "shenzhen": {
-      "status": "open",
-      "next_session": "next_day",
-      "last_close": 10125.68,
-      "change": 28.45,
-      "change_percent": 0.28
-    },
-    "hong_kong": {
-      "status": "open",
-      "next_session": "next_day",
-      "last_close": 16542.38,
-      "change": -45.2,
-      "change_percent": -0.27
-    },
-    "japan": {
-      "status": "open",
-      "next_session": "next_day",
-      "last_close": 38125.67,
-      "change": 125.67,
-      "change_percent": 0.33
+    "hang_seng": {
+      "price": 16423.45,
+      "change": 87.21,
+      "change_percent": 0.53,
+      "status": "up"
     }
   },
-  "analysis": {
-    "market_outlook": "早盘情绪偏积极，关注量能配合",
-    "key_factors": [
-      "隔夜美股收高，科技股领涨",
-      "美联储官员讲话偏鸽派，市场降息预期升温",
-      "亚洲市场开盘情绪积极，日经指数走高",
-      "原油价格小幅回落，能源股承压",
-      "人民币汇率保持稳定，外资流入预期"
-    ],
-    "risk_level": "low_to_medium",
-    "trading_recommendations": [
-      "关注科技板块的延续性",
-      "谨慎对待高位能源股",
-      "布局消费复苏相关标的",
-      "关注政策受益的基建板块"
-    ],
-    "watchlist": [
-      "AAPL",
-      "MSFT",
-      "BABA",
-      "TSLA",
-      "NVDA"
-    ]
+  "commodities": {
+    "gold": {
+      "price": 2345.67,
+      "change": 12.34,
+      "change_percent": 0.53,
+      "status": "up"
+    },
+    "oil": {
+      "price": 82.45,
+      "change": -1.23,
+      "change_percent": -1.47,
+      "status": "down"
+    }
   },
-  "data_sources": [
-    "RSS新闻源",
-    "期货数据API",
-    "模拟预开盘数据",
-    "亚洲市场状态监控"
+  "news": [
+    {
+      "source": "CNBC",
+      "title": "Stocks fall on renewed U.S.-Iran worries, but losses kept in check: Live updates",
+      "link": "https://www.cnbc.com/2026/04/19/stock-market-today-live-updates.html",
+      "published": "Mon, 20 Apr 2026"
+    },
+    {
+      "source": "CNBC",
+      "title": "'Resumption of hostilities': Seized ship, vessel attacks push U.S.-Iran ceasefire toward brink",
+      "link": "https://www.cnbc.com/2026/04/20/us-iran-war-middle-east-conflict-peace-deal-strait-hormuz-shipping-ceasefire-tensions.html",
+      "published": "Mon, 20 Apr 2026"
+    },
+    {
+      "source": "CNBC",
+      "title": "Eli Lilly agrees to acquire cancer drug maker Kelonia in deal worth up to $7 billion",
+      "link": "https://www.cnbc.com/2026/04/20/eli-lilly-to-acquire-cancer-drug-maker-kelonia.html",
+      "published": "Mon, 20 Apr 2026"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Why I withdrew everything from Aave this weekend",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/why-withdrew-everything-aave-weekend-230059031.html",
+      "published": "2026-04-19T23:00"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Institutional Investors See Crypto As Portfolio Diversifier: Poll",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/institutional-investors-see-crypto-portfolio-131800280.html",
+      "published": "2026-04-20T13:18"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Is Broadcom (AVGO) The Best AI Chip Stock Pick of Motley Fool?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-avgo-best-ai-chip-131740989.html",
+      "published": "2026-04-20T13:17"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "I’m planning to retire at 60. Should I sell my house and invest the $500,000?",
+      "link": "https://www.marketwatch.com/story/im-planning-to-retire-at-60-should-i-sell-my-house-and-invest-the-500-000-2b504dd9?mod=mw_rss_topstories",
+      "published": "Mon, 20 Apr 2026"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Not just ‘complacency.’ Here’s why asset markets are so resilient when it comes to energy shocks.",
+      "link": "https://www.marketwatch.com/story/not-just-complacency-heres-why-asset-markets-are-so-resilient-when-it-comes-to-energy-shocks-368d0d48?mod=mw_rss_topstories",
+      "published": "Mon, 20 Apr 2026"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "The S&P 500 has blown past 7,000 in an epic comeback rally. Here’s why it can keep going.",
+      "link": "https://www.marketwatch.com/story/the-s-p-500-blowed-past-7-000-in-an-epic-comeback-rally-heres-why-it-can-keep-going-higher-632d6a38?mod=mw_rss_topstories",
+      "published": "Mon, 20 Apr 2026"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Iran says it has not decided whether to attend peace talks with US",
+      "link": "https://www.ft.com/content/3f067df5-5016-4be1-aa61-21af3e7668e2",
+      "published": "Mon, 20 Apr 2026"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Yes, tokens do have real uses in finance",
+      "link": "https://www.ft.com/content/337ac9f9-2d1b-4dac-9d1b-77763181ebd3",
+      "published": "Mon, 20 Apr 2026"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "AI Junk-Debt Offering Wave Rolls On as Edged Compute Sells Bonds",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-20/ai-junk-debt-offering-wave-rolls-on-as-edged-compute-sells-bonds",
+      "published": "Mon, 20 Apr 2026"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Magyar Unveils Cabinet Team to Lead Hungary’s Economic Reset",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-20/magyar-unveils-cabinet-team-to-lead-hungary-s-economic-reset",
+      "published": "Mon, 20 Apr 2026"
+    },
+    {
+      "source": "WSJ Markets",
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025"
+    },
+    {
+      "source": "WSJ Markets",
+      "title": "Comex Gold, Silver Settle Lower",
+      "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025"
+    }
   ]
 }

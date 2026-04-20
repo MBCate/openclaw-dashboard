@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-17T17:00:00.000000",
+  "timestamp": "2026-04-20T15:08:55.383981",
   "weekly_report": {
     "period": "2026-04-11 至 2026-04-17",
     "summary": "本周市场震荡整理，策略信号分歧明显。BTC在9万美元关口反复测试，A股市场分化，期货市场整体承压。",
@@ -27,6 +27,11 @@
         "weekly_performance": "0.3%",
         "win_rate": "55%",
         "sharpe": "0.18"
+      },
+      "收盘": {
+        "signal": "做空",
+        "timestamp": "2026-04-20T15:08:55.383994",
+        "note": "收盘信号"
       }
     },
     "RSI": {
@@ -43,6 +48,11 @@
         "weekly_performance": "-0.5%",
         "win_rate": "51%",
         "sharpe": "0.12"
+      },
+      "收盘": {
+        "signal": "做空",
+        "timestamp": "2026-04-20T15:08:55.383997",
+        "note": "收盘信号"
       }
     },
     "MACD": {
@@ -59,6 +69,11 @@
         "weekly_performance": "-0.9%",
         "win_rate": "45%",
         "sharpe": "-0.22"
+      },
+      "收盘": {
+        "signal": "做多",
+        "timestamp": "2026-04-20T15:08:55.383998",
+        "note": "收盘信号"
       }
     },
     "Bollinger": {
@@ -75,6 +90,11 @@
         "weekly_performance": "0.2%",
         "win_rate": "53%",
         "sharpe": "0.15"
+      },
+      "收盘": {
+        "signal": "观望",
+        "timestamp": "2026-04-20T15:08:55.383998",
+        "note": "收盘信号"
       }
     },
     "Supertrend": {
@@ -91,6 +111,11 @@
         "weekly_performance": "0.4%",
         "win_rate": "57%",
         "sharpe": "0.21"
+      },
+      "收盘": {
+        "signal": "做空",
+        "timestamp": "2026-04-20T15:08:55.383996",
+        "note": "收盘信号"
       }
     },
     "TripleMa": {
@@ -107,6 +132,11 @@
         "weekly_performance": "-0.3%",
         "win_rate": "49%",
         "sharpe": "0.08"
+      },
+      "收盘": {
+        "signal": "观望",
+        "timestamp": "2026-04-20T15:08:55.383995",
+        "note": "收盘信号"
       }
     },
     "Momentum": {
@@ -123,6 +153,11 @@
         "weekly_performance": "-1.5%",
         "win_rate": "36%",
         "sharpe": "-0.38"
+      },
+      "收盘": {
+        "signal": "做多",
+        "timestamp": "2026-04-20T15:08:55.383999",
+        "note": "收盘信号"
       }
     },
     "MeanReversion": {
@@ -139,6 +174,11 @@
         "weekly_performance": "-0.6%",
         "win_rate": "47%",
         "sharpe": "-0.14"
+      },
+      "收盘": {
+        "signal": "做空",
+        "timestamp": "2026-04-20T15:08:55.384000",
+        "note": "收盘信号"
       }
     }
   },

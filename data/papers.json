@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-19T10:00:00.000000",
-  "total_papers": 5,
+  "date": "2026-04-20T08:03:18.165217",
+  "total_papers": 10,
   "new_papers": 5,
-  "existing_papers": 0,
+  "existing_papers": 5,
   "papers": [
     {
       "arxiv_id": "2604.14965",
@@ -107,6 +107,98 @@
       "relevance_score": 5,
       "query": "world-models-ad",
       "status": "新发现"
+    },
+    {
+      "arxiv_id": "2604.08366",
+      "title": "Scaling-Aware Data Selection for End-to-End Autonomous Driving Systems",
+      "authors": [
+        "Tolga Dimlioglu",
+        "et al."
+      ],
+      "abstract": "Large-scale deep learning models for physical AI applications depend on diverse training data collection efforts. These models and correspondingly, the training data, must address different evaluation criteria necessary for the models to be deployable in real-world environments. Data selection policies can guide the development of the training set, but current frameworks do not account for the ambiguity in how data points affect different metrics. In this work, we propose Mixture Optimization via Scaling-Aware Iterative Collection (MOSAIC), a general data selection framework that operates by: (i) partitioning the dataset into domains; (ii) fitting neural scaling laws from each data domain to the evaluation metrics; and (iii) optimizing a data mixture by iteratively adding data from domains that maximize the change in metrics. We apply MOSAIC to autonomous driving (AD), where an End-to-End (E2E) planner model is evaluated on the Extended Predictive Driver Model Score (EPDMS), an aggregate of driving rule compliance metrics. Here, MOSAIC outperforms a diverse set of baselines on EPDMS with up to 80% less data.",
+      "published": "2026-04-09T15:33:00Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "relevance_score": 5,
+      "query": "e2e-autonomous-driving",
+      "status": "已收录"
+    },
+    {
+      "arxiv_id": "2604.09059",
+      "title": "Learning Vision-Language-Action World Models for Autonomous Driving",
+      "authors": [
+        "Guoqing Wang",
+        "et al."
+      ],
+      "abstract": "Vision-Language-Action (VLA) models have recently achieved notable progress in end-to-end autonomous driving by integrating perception, reasoning, and control within a unified multimodal framework. However, they often lack explicit modeling of temporal dynamics and global world consistency, which limits their foresight and safety. In contrast, world models can simulate plausible future scenes but generally struggle to reason about or evaluate the imagined future they generate. In this work, we present VLA-World, a simple yet effective VLA world model that unifies predictive imagination with reflective reasoning to improve driving foresight. VLA-World first uses an action-derived feasible trajectory to guide the generation of the next-frame image, capturing rich spatial and temporal cues that describe how the surrounding environment evolves. The model then reasons over this self-generated future imagined frame to refine the predicted trajectory, achieving higher performance and better interpretability.",
+      "published": "2026-04-10T07:38:05Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "relevance_score": 5,
+      "query": "vla-autonomous-driving",
+      "status": "已收录"
+    },
+    {
+      "arxiv_id": "2603.18561",
+      "title": "De-confounding End-to-End Autonomous Driving via Causal Intervention",
+      "authors": [
+        "Jiacheng Tang",
+        "et al."
+      ],
+      "abstract": "Planning-oriented end-to-end driving models show great promise, yet they fundamentally learn statistical correlations instead of true causal relationships. This vulnerability leads to causal confusion, where models exploit dataset biases as shortcuts, critically harming their reliability and safety in complex scenarios. To address this, we introduce CausalVAD, a de-confounding training framework that leverages causal intervention. At its core, we design the sparse causal intervention scheme (SCIS), a lightweight, plug-and-play module to instantiate the backdoor adjustment theory in neural networks. SCIS constructs a dictionary of prototypes representing latent driving contexts. It then uses this dictionary to intervene on the model's sparse vectorized queries. This step actively eliminates spurious associations induced by confounders, thereby eliminating spurious factors from the representations for downstream tasks.",
+      "published": "2026-03-19T07:21:01Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "relevance_score": 5,
+      "query": "e2e-autonomous-driving",
+      "status": "已收录"
+    },
+    {
+      "arxiv_id": "2603.09465",
+      "title": "EvoDriveVLA: Evolving Autonomous Driving Vision-Language-Action Model via Collaborative Perception-Planning Distillation",
+      "authors": [
+        "Cao",
+        "Zhang",
+        "et al."
+      ],
+      "abstract": "Vision-Language-Action models have shown great promise for autonomous driving, yet they suffer from degraded perception after unfreezing the visual encoder and struggle with accumulated instability in long-term planning. To address these challenges, we propose EvoDriveVLA-a novel collaborative perception-planning distillation framework that integrates self-anchored perceptual constraints and oracle-guided trajectory optimization, and achieves SOTA performance in open-loop evaluation and significantly enhances performance in closed-loop evaluation.",
+      "published": "2026-03-14T00:00:00Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "relevance_score": 5,
+      "query": "vla-autonomous-driving",
+      "status": "已收录"
+    },
+    {
+      "arxiv_id": "2601.04453",
+      "title": "UniDrive-WM: Unified Understanding, Planning and Generation World Model for Autonomous Driving",
+      "authors": [
+        "Unknown"
+      ],
+      "abstract": "World models have become central to autonomous driving, where accurate scene understanding and future prediction are crucial for safe control. Recent work has explored using vision-language models (VLMs) for planning, yet existing approaches typically treat perception, prediction, and planning as separate modules. We propose UniDrive-WM, a unified VLM-based world model that jointly performs perception, prediction, and planning.",
+      "published": "2026-01-15T00:00:00Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "relevance_score": 5,
+      "query": "world-models-ad",
+      "status": "已收录"
     }
   ]
 }

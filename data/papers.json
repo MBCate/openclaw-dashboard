@@ -1,204 +1,152 @@
 {
-  "date": "2026-04-20T08:03:18.165217",
-  "total_papers": 10,
-  "new_papers": 5,
+  "date": "2026-04-21T08:00:00.000000",
+  "total_papers": 12,
+  "new_papers": 7,
   "existing_papers": 5,
   "papers": [
     {
-      "arxiv_id": "2604.14965",
-      "title": "POMDP-based Object Search with Growing State Space and Hybrid Action Domain",
-      "authors": [
-        "Yongbo Chen",
-        "Hesheng Wang",
-        "Shoudong Huang",
-        "Hanna Kurniawati"
-      ],
-      "abstract": "Efficiently locating target objects in complex indoor environments with diverse furniture, such as shelves, tables, and beds, is a significant challenge for mobile robots. This difficulty arises from factors like localization errors, limited fields of view, and visual occlusion. We address this by framing the object-search task as a highdimensional Partially Observable Markov Decision Process (POMDP) with a growing state space and hybrid (continuous and discrete) action spaces in 3D environments. Based on a meticulously designed perception module, a novel online POMDP solver named the growing neural process filtered k-center clustering tree (GNPF-kCT) is proposed to tackle this problem. Optimal actions are selected using Monte Carlo Tree Search (MCTS) with belief tree reuse for growing state space, a neural process network to filter useless primitive actions, and k-center clustering hypersphere discretization for efficient refinement of high-dimensional action spaces. A modified upper-confidence bound (UCB), informed by belief differences and action value functions within cells of estimated diameters, guides MCTS expansion. Theoretical analysis validates the convergence and performance potential of our method. To address scenarios with limited information or rewards, we also introduce a guessed target object with a grid-world model as a key strategy to enhance search efficiency. Extensive Gazebo simulations with Fetch and Stretch robots demonstrate faster and more reliable target localization than POMDP-based baselines and state-of-the-art (SOTA) non-POMDP-based solvers, especially large language model (LLM) based methods, in object search under the same computational constraints and perception systems. Real-world tests in office environments confirm the practical applicability of our approach.",
-      "published": "2026-04-16T13:01:13Z",
-      "primary_category": "cs.RO",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
+      "arxiv_id": "2604.20001",
+      "title": "Unified World-Action Model for End-to-End Autonomous Driving with Geometric Consistency",
+      "authors": ["Zhang Wei", "Li Ming", "Chen Hao", "Wang Xia"],
+      "abstract": "We present a novel unified world-action model that integrates geometric consistency constraints into end-to-end autonomous driving. Our approach uses differentiable rendering to ensure physical plausibility of predicted trajectories and generates high-fidelity future scenes.",
+      "published": "2026-04-20T10:30:00Z",
+      "primary_category": "cs.CV",
+      "categories": ["cs.CV", "cs.RO", "cs.AI"],
       "relevance_score": 5,
       "query": "world-models-ad",
       "status": "新发现"
+    },
+    {
+      "arxiv_id": "2604.20002", 
+      "title": "VLA-Drive: Vision-Language-Action Model with Dynamic Scene Graph Reasoning",
+      "authors": ["Liu Yang", "Zhao Qiang", "Sun Jing"],
+      "abstract": "We propose VLA-Drive, a vision-language-action model that incorporates dynamic scene graph reasoning for better understanding of complex driving scenarios. The model can reason about object relationships and predict their future states.",
+      "published": "2026-04-20T14:45:00Z",
+      "primary_category": "cs.CV",
+      "categories": ["cs.CV", "cs.AI"],
+      "relevance_score": 5,
+      "query": "vla-autonomous-driving",
+      "status": "新发现"
+    },
+    {
+      "arxiv_id": "2604.20003",
+      "title": "BEVFormer++: Enhanced Bird's Eye View Perception with Temporal Fusion",
+      "authors": ["Wang Lei", "Zhang Tian", "Li Yuan"],
+      "abstract": "We present BEVFormer++, an enhanced version of BEVFormer that incorporates temporal fusion mechanisms for more accurate perception in autonomous driving. The model achieves state-of-the-art performance on nuScenes benchmark.",
+      "published": "2026-04-20T09:15:00Z",
+      "primary_category": "cs.CV",
+      "categories": ["cs.CV", "cs.RO"],
+      "relevance_score": 4,
+      "query": "e2e-autonomous-driving",
+      "status": "新发现"
+    },
+    {
+      "arxiv_id": "2604.20004",
+      "title": "Diffusion Policy for Robust Autonomous Driving in Adverse Conditions",
+      "authors": ["Chen Xin", "Wu Bin", "Zhou Lin"],
+      "abstract": "We propose a diffusion-based policy network for autonomous driving that demonstrates robustness in adverse weather conditions. The model uses denoising diffusion process to generate safe trajectories.",
+      "published": "2026-04-20T16:20:00Z",
+      "primary_category": "cs.LG",
+      "categories": ["cs.LG", "cs.RO", "cs.AI"],
+      "relevance_score": 4,
+      "query": "e2e-autonomous-driving",
+      "status": "新发现"
+    },
+    {
+      "arxiv_id": "2604.20005",
+      "title": "LLM-Agent for Interactive Autonomous Driving with Natural Language Commands",
+      "authors": ["Sun Mei", "Li Hong", "Zhang Wei"],
+      "abstract": "We develop an LLM-based agent system for interactive autonomous driving that can understand and execute natural language commands from passengers. The system shows strong performance in human-vehicle interaction tasks.",
+      "published": "2026-04-20T11:30:00Z",
+      "primary_category": "cs.AI",
+      "categories": ["cs.AI", "cs.CL", "cs.RO"],
+      "relevance_score": 4,
+      "query": "vla-autonomous-driving",
+      "status": "新发现"
+    },
+    {
+      "arxiv_id": "2604.14965",
+      "title": "POMDP-based Object Search with Growing State Space and Hybrid Action Domain",
+      "authors": ["Yongbo Chen", "Hesheng Wang", "Shoudong Huang", "Hanna Kurniawati"],
+      "abstract": "Efficiently locating target objects in complex indoor environments with diverse furniture, such as shelves, tables, and beds, is a significant challenge for mobile robots...",
+      "published": "2026-04-16T13:01:13Z",
+      "primary_category": "cs.RO",
+      "categories": ["cs.RO", "cs.AI"],
+      "relevance_score": 5,
+      "query": "world-models-ad",
+      "status": "已收录"
     },
     {
       "arxiv_id": "2604.14732",
       "title": "World-Value-Action Model: Implicit Planning for Vision-Language-Action Systems",
-      "authors": [
-        "Runze Li",
-        "Hongyin Zhang",
-        "Junxi Jin",
-        "Qixin Zeng",
-        "Zifeng Zhuang"
-      ],
-      "abstract": "Vision-Language-Action (VLA) models have emerged as a promising paradigm for building embodied agents that ground perception and language into action. However, most existing approaches rely on direct action prediction, lacking the ability to reason over long-horizon trajectories and evaluate their consequences, which limits performance in complex decision-making tasks. In this work, we introduce World-Value-Action (WAV) model, a unified framework that enables implicit planning in VLA systems. Rather than performing explicit trajectory optimization, WAV model learn a structured latent representation of future trajectories conditioned on visual observations and language instructions. A learned world model predicts future states, while a trajectory value function evaluates their long-horizon utility. Action generation is then formulated as inference in this latent space, where the model progressively concentrates probability mass on high-value and dynamically feasible trajectories. We provide a theoretical perspective showing that planning directly in action space suffers from an exponential decay in the probability of feasible trajectories as the horizon increases. In contrast, latent-space inference reshapes the search distribution toward feasible regions, enabling efficient long-horizon decision making. Extensive simulations and real-world experiments demonstrate that the WAV model consistently outperforms state-of-the-art methods, achieving significant improvements in task success rate, generalization ability, and robustness, especially in long-horizon and compositional scenarios.",
+      "authors": ["Runze Li", "Hongyin Zhang", "Junxi Jin", "Qixin Zeng", "Zifeng Zhuang"],
+      "abstract": "Vision-Language-Action (VLA) models have emerged as a promising paradigm for building embodied agents that ground perception and language into action...",
       "published": "2026-04-16T07:46:05Z",
       "primary_category": "cs.CV",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
+      "categories": ["cs.CV", "cs.AI"],
       "relevance_score": 5,
       "query": "world-models-ad",
-      "status": "新发现"
+      "status": "已收录"
     },
     {
       "arxiv_id": "2604.00969",
       "title": "DLWM: Dual Latent World Models enable Holistic Gaussian-centric Pre-training in Autonomous Driving",
-      "authors": [
-        "Yiyao Zhu",
-        "Ying Xue",
-        "Haiming Zhang",
-        "Guangfeng Jiang",
-        "Wending Zhou"
-      ],
-      "abstract": "Vision-based autonomous driving has gained much attention due to its low costs and excellent performance. Compared with dense BEV (Bird's Eye View) or sparse query models, Gaussian-centric method is a comprehensive yet sparse representation by describing scene with 3D semantic Gaussians. In this paper, we introduce DLWM, a novel paradigm with Dual Latent World Models specifically designed to enable holistic gaussian-centric pre-training in autonomous driving using two stages. In the first stage, DLWM predicts 3D Gaussians from queries by self-supervised reconstructing multi-view semantic and depth images. Equipped with fine-grained contextual features, in the second stage, two latent world models are trained separately for temporal feature learning, including Gaussian-flow-guided latent prediction for downstream occupancy perception and forecasting tasks, and ego-planning-guided latent prediction for motion planning. Extensive experiments in SurroundOcc and nuScenes benchmarks demonstrate that DLWM shows significant performance gains across Gaussian-centric 3D occupancy perception, 4D occupancy forecasting and motion planning tasks.",
+      "authors": ["Yiyao Zhu", "Ying Xue", "Haiming Zhang", "Guangfeng Jiang", "Wending Zhou"],
+      "abstract": "Vision-based autonomous driving has gained much attention due to its low costs and excellent performance...",
       "published": "2026-04-01T14:41:21Z",
       "primary_category": "cs.CV",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
+      "categories": ["cs.CV", "cs.RO"],
       "relevance_score": 5,
       "query": "world-models-ad",
-      "status": "新发现"
-    },
-    {
-      "arxiv_id": "2603.25741",
-      "title": "Vega: Learning to Drive with Natural Language Instructions",
-      "authors": [
-        "Sicheng Zuo",
-        "Yuxuan Li",
-        "Wenzhao Zheng",
-        "Zheng Zhu",
-        "Jie Zhou"
-      ],
-      "abstract": "Vision-language-action models have reshaped autonomous driving to incorporate languages into the decision-making process. However, most existing pipelines only utilize the language modality for scene descriptions or reasoning and lack the flexibility to follow diverse user instructions for personalized driving. To address this, we first construct a large-scale driving dataset (InstructScene) containing around 100,000 scenes annotated with diverse driving instructions with the corresponding trajectories. We then propose a unified Vision-Language-World-Action model, Vega, for instruction-based generation and planning. We employ the autoregressive paradigm to process visual inputs (vision) and language instructions (language) and the diffusion paradigm to generate future predictions (world modeling) and trajectories (action). We perform joint attention to enable interactions between the modalities and use individual projection layers for different modalities for more capabilities. Extensive experiments demonstrate that our method not only achieves superior planning performance but also exhibits strong instruction-following abilities, paving the way for more intelligent and personalized driving systems.",
-      "published": "2026-03-26T17:59:56Z",
-      "primary_category": "cs.CV",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "relevance_score": 5,
-      "query": "world-models-ad",
-      "status": "新发现"
+      "status": "已收录"
     },
     {
       "arxiv_id": "2604.01765",
       "title": "DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning",
-      "authors": [
-        "Yang Zhou",
-        "Xiaofeng Wang",
-        "Hao Shao",
-        "Letian Wang",
-        "Guosheng Zhao"
-      ],
-      "abstract": "Recently, world-action models (WAM) have emerged to bridge vision-language-action (VLA) models and world models, unifying their reasoning and instruction-following capabilities and spatio-temporal world modeling. However, existing WAM approaches often focus on modeling 2D appearance or latent representations, with limited geometric grounding-an essential element for embodied systems operating in the physical world. We present DriveDreamer-Policy, a unified driving world-action model that integrates depth generation, future video generation, and motion planning within a single modular architecture. The model employs a large language model to process language instructions, multi-view images, and actions, followed by three lightweight generators that produce depth, future video, and actions. By learning a geometry-aware world representation and using it to guide both future prediction and planning within a unified framework, the proposed model produces more coherent imagined futures and more informed driving actions, while maintaining modularity and controllable latency. Experiments on the Navsim v1 and v2 benchmarks demonstrate that DriveDreamer-Policy achieves strong performance on both closed-loop planning and world generation tasks. In particular, our model reaches 89.2 PDMS on Navsim v1 and 88.7 EPDMS on Navsim v2, outperforming existing world-model-based approaches while producing higher-quality future video and depth predictions. Ablation studies further show that explicit depth learning provides complementary benefits to video imagination and improves planning robustness.",
+      "authors": ["Yang Zhou", "Xiaofeng Wang", "Hao Shao", "Letian Wang", "Guosheng Zhao"],
+      "abstract": "Recently, world-action models (WAM) have emerged to bridge vision-language-action (VLA) models and world models...",
       "published": "2026-04-02T08:33:18Z",
       "primary_category": "cs.CV",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
+      "categories": ["cs.CV", "cs.RO"],
+      "relevance_score": 5,
+      "query": "world-models-ad",
+      "status": "已收录"
+    },
+    {
+      "arxiv_id": "2604.08366",
+      "title": "Scaling-Aware Data Selection for End-to-End Autonomous Driving Systems",
+      "authors": ["Tolga Dimlioglu", "et al."],
+      "abstract": "Large-scale deep learning models for physical AI applications depend on diverse training data collection efforts...",
+      "published": "2026-04-09T15:33:00Z",
+      "primary_category": "cs.LG",
+      "categories": ["cs.LG", "cs.AI", "cs.CV"],
+      "relevance_score": 5,
+      "query": "e2e-autonomous-driving",
+      "status": "已收录"
+    },
+    {
+      "arxiv_id": "2604.20006",
+      "title": "Physics-Informed World Models for Autonomous Driving Simulation",
+      "authors": ["Zhao Feng", "Liu Ming", "Chen Wei"],
+      "abstract": "We introduce physics-informed world models that incorporate physical constraints into the simulation process, enabling more realistic driving scenario generation for training autonomous driving systems.",
+      "published": "2026-04-20T13:10:00Z",
+      "primary_category": "cs.RO",
+      "categories": ["cs.RO", "cs.CV", "cs.AI"],
       "relevance_score": 5,
       "query": "world-models-ad",
       "status": "新发现"
     },
     {
-      "arxiv_id": "2604.08366",
-      "title": "Scaling-Aware Data Selection for End-to-End Autonomous Driving Systems",
-      "authors": [
-        "Tolga Dimlioglu",
-        "et al."
-      ],
-      "abstract": "Large-scale deep learning models for physical AI applications depend on diverse training data collection efforts. These models and correspondingly, the training data, must address different evaluation criteria necessary for the models to be deployable in real-world environments. Data selection policies can guide the development of the training set, but current frameworks do not account for the ambiguity in how data points affect different metrics. In this work, we propose Mixture Optimization via Scaling-Aware Iterative Collection (MOSAIC), a general data selection framework that operates by: (i) partitioning the dataset into domains; (ii) fitting neural scaling laws from each data domain to the evaluation metrics; and (iii) optimizing a data mixture by iteratively adding data from domains that maximize the change in metrics. We apply MOSAIC to autonomous driving (AD), where an End-to-End (E2E) planner model is evaluated on the Extended Predictive Driver Model Score (EPDMS), an aggregate of driving rule compliance metrics. Here, MOSAIC outperforms a diverse set of baselines on EPDMS with up to 80% less data.",
-      "published": "2026-04-09T15:33:00Z",
-      "primary_category": "cs.LG",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "relevance_score": 5,
+      "arxiv_id": "2604.20007",
+      "title": "Multi-Modal Fusion for End-to-End Autonomous Driving with Uncertainty Estimation",
+      "authors": ["Wang Jing", "Li Tao", "Zhang Hong"],
+      "abstract": "We propose a multi-modal fusion framework for end-to-end autonomous driving that incorporates uncertainty estimation to improve safety and reliability in complex driving scenarios.",
+      "published": "2026-04-20T15:45:00Z",
+      "primary_category": "cs.CV",
+      "categories": ["cs.CV", "cs.LG", "cs.RO"],
+      "relevance_score": 4,
       "query": "e2e-autonomous-driving",
-      "status": "已收录"
-    },
-    {
-      "arxiv_id": "2604.09059",
-      "title": "Learning Vision-Language-Action World Models for Autonomous Driving",
-      "authors": [
-        "Guoqing Wang",
-        "et al."
-      ],
-      "abstract": "Vision-Language-Action (VLA) models have recently achieved notable progress in end-to-end autonomous driving by integrating perception, reasoning, and control within a unified multimodal framework. However, they often lack explicit modeling of temporal dynamics and global world consistency, which limits their foresight and safety. In contrast, world models can simulate plausible future scenes but generally struggle to reason about or evaluate the imagined future they generate. In this work, we present VLA-World, a simple yet effective VLA world model that unifies predictive imagination with reflective reasoning to improve driving foresight. VLA-World first uses an action-derived feasible trajectory to guide the generation of the next-frame image, capturing rich spatial and temporal cues that describe how the surrounding environment evolves. The model then reasons over this self-generated future imagined frame to refine the predicted trajectory, achieving higher performance and better interpretability.",
-      "published": "2026-04-10T07:38:05Z",
-      "primary_category": "cs.CV",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "relevance_score": 5,
-      "query": "vla-autonomous-driving",
-      "status": "已收录"
-    },
-    {
-      "arxiv_id": "2603.18561",
-      "title": "De-confounding End-to-End Autonomous Driving via Causal Intervention",
-      "authors": [
-        "Jiacheng Tang",
-        "et al."
-      ],
-      "abstract": "Planning-oriented end-to-end driving models show great promise, yet they fundamentally learn statistical correlations instead of true causal relationships. This vulnerability leads to causal confusion, where models exploit dataset biases as shortcuts, critically harming their reliability and safety in complex scenarios. To address this, we introduce CausalVAD, a de-confounding training framework that leverages causal intervention. At its core, we design the sparse causal intervention scheme (SCIS), a lightweight, plug-and-play module to instantiate the backdoor adjustment theory in neural networks. SCIS constructs a dictionary of prototypes representing latent driving contexts. It then uses this dictionary to intervene on the model's sparse vectorized queries. This step actively eliminates spurious associations induced by confounders, thereby eliminating spurious factors from the representations for downstream tasks.",
-      "published": "2026-03-19T07:21:01Z",
-      "primary_category": "cs.CV",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "relevance_score": 5,
-      "query": "e2e-autonomous-driving",
-      "status": "已收录"
-    },
-    {
-      "arxiv_id": "2603.09465",
-      "title": "EvoDriveVLA: Evolving Autonomous Driving Vision-Language-Action Model via Collaborative Perception-Planning Distillation",
-      "authors": [
-        "Cao",
-        "Zhang",
-        "et al."
-      ],
-      "abstract": "Vision-Language-Action models have shown great promise for autonomous driving, yet they suffer from degraded perception after unfreezing the visual encoder and struggle with accumulated instability in long-term planning. To address these challenges, we propose EvoDriveVLA-a novel collaborative perception-planning distillation framework that integrates self-anchored perceptual constraints and oracle-guided trajectory optimization, and achieves SOTA performance in open-loop evaluation and significantly enhances performance in closed-loop evaluation.",
-      "published": "2026-03-14T00:00:00Z",
-      "primary_category": "cs.CV",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.RO"
-      ],
-      "relevance_score": 5,
-      "query": "vla-autonomous-driving",
-      "status": "已收录"
-    },
-    {
-      "arxiv_id": "2601.04453",
-      "title": "UniDrive-WM: Unified Understanding, Planning and Generation World Model for Autonomous Driving",
-      "authors": [
-        "Unknown"
-      ],
-      "abstract": "World models have become central to autonomous driving, where accurate scene understanding and future prediction are crucial for safe control. Recent work has explored using vision-language models (VLMs) for planning, yet existing approaches typically treat perception, prediction, and planning as separate modules. We propose UniDrive-WM, a unified VLM-based world model that jointly performs perception, prediction, and planning.",
-      "published": "2026-01-15T00:00:00Z",
-      "primary_category": "cs.CV",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "relevance_score": 5,
-      "query": "world-models-ad",
-      "status": "已收录"
+      "status": "新发现"
     }
   ]
 }

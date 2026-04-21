@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-04-20 21:33:05",
-  "update_time": "2026-04-20 21:30",
+  "timestamp": "2026-04-21 09:15:37",
+  "update_time": "2026-04-21 09:15",
   "us_markets": {
     "sp500": {
       "price": 7126.06,
@@ -63,96 +63,51 @@
       "status": "down"
     }
   },
-  "news": [
+  "overnight_news": [
     {
-      "source": "CNBC",
-      "title": "Stocks fall on renewed U.S.-Iran worries, but losses kept in check: Live updates",
-      "link": "https://www.cnbc.com/2026/04/19/stock-market-today-live-updates.html",
-      "published": "Mon, 20 Apr 2026"
+      "source": "CNBC Top",
+      "title": "Apple taps John Ternus as CEO to replace Tim Cook, who will become chairman",
+      "link": "https://www.cnbc.com/2026/04/20/apple-names-john-ternus-ceo-replacing-tim-cook-who-becomes-chairman.html",
+      "published": "Mon, 20 Apr 2026 22:26:47 GMT",
+      "summary": "Apple said on Monday that John Ternus is succeeding Tim Cook as CEO, with Cook assuming the role of executive chairman on Sept. 1."
     },
     {
-      "source": "CNBC",
-      "title": "'Resumption of hostilities': Seized ship, vessel attacks push U.S.-Iran ceasefire toward brink",
-      "link": "https://www.cnbc.com/2026/04/20/us-iran-war-middle-east-conflict-peace-deal-strait-hormuz-shipping-ceasefire-tensions.html",
-      "published": "Mon, 20 Apr 2026"
-    },
-    {
-      "source": "CNBC",
-      "title": "Eli Lilly agrees to acquire cancer drug maker Kelonia in deal worth up to $7 billion",
-      "link": "https://www.cnbc.com/2026/04/20/eli-lilly-to-acquire-cancer-drug-maker-kelonia.html",
-      "published": "Mon, 20 Apr 2026"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Why I withdrew everything from Aave this weekend",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/why-withdrew-everything-aave-weekend-230059031.html",
-      "published": "2026-04-19T23:00"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Institutional Investors See Crypto As Portfolio Diversifier: Poll",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/institutional-investors-see-crypto-portfolio-131800280.html",
-      "published": "2026-04-20T13:18"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Is Broadcom (AVGO) The Best AI Chip Stock Pick of Motley Fool?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-avgo-best-ai-chip-131740989.html",
-      "published": "2026-04-20T13:17"
+      "source": "CNBC Top",
+      "title": "Asia markets open higher as hopes for Iran peace talks offset Trump threat of escalation",
+      "link": "https://www.cnbc.com/2026/04/21/asia-markets-today-nikkei225-hangseng-sensex-asx-iran-us-trump-hormuz.html",
+      "published": "Tue, 21 Apr 2026 00:11:44 GMT",
+      "summary": "Asia markets opened higher Tuesday as investors brushed aside fresh threats from Trump on Iran ahead of a fragile ceasefire deadline."
     },
     {
       "source": "MarketWatch",
-      "title": "I’m planning to retire at 60. Should I sell my house and invest the $500,000?",
-      "link": "https://www.marketwatch.com/story/im-planning-to-retire-at-60-should-i-sell-my-house-and-invest-the-500-000-2b504dd9?mod=mw_rss_topstories",
-      "published": "Mon, 20 Apr 2026"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Not just ‘complacency.’ Here’s why asset markets are so resilient when it comes to energy shocks.",
-      "link": "https://www.marketwatch.com/story/not-just-complacency-heres-why-asset-markets-are-so-resilient-when-it-comes-to-energy-shocks-368d0d48?mod=mw_rss_topstories",
-      "published": "Mon, 20 Apr 2026"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "The S&P 500 has blown past 7,000 in an epic comeback rally. Here’s why it can keep going.",
-      "link": "https://www.marketwatch.com/story/the-s-p-500-blowed-past-7-000-in-an-epic-comeback-rally-heres-why-it-can-keep-going-higher-632d6a38?mod=mw_rss_topstories",
-      "published": "Mon, 20 Apr 2026"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Iran says it has not decided whether to attend peace talks with US",
-      "link": "https://www.ft.com/content/3f067df5-5016-4be1-aa61-21af3e7668e2",
-      "published": "Mon, 20 Apr 2026"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Yes, tokens do have real uses in finance",
-      "link": "https://www.ft.com/content/337ac9f9-2d1b-4dac-9d1b-77763181ebd3",
-      "published": "Mon, 20 Apr 2026"
+      "title": "Apple CEO Tim Cook to step down after overseeing 1,900% stock surge. His successor faces big challenges.",
+      "link": "https://www.marketwatch.com/story/tim-cook-to-step-down-after-15-years-at-the-helm-of-apple-68d0e126?mod=mw_rss_topstories",
+      "published": "Tue, 21 Apr 2026 00:43:00 GMT",
+      "summary": "John Ternus is expected to usher in a renewed focus on hardware as Apple positions itself for the age of AI."
     },
     {
       "source": "Bloomberg",
-      "title": "AI Junk-Debt Offering Wave Rolls On as Edged Compute Sells Bonds",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-20/ai-junk-debt-offering-wave-rolls-on-as-edged-compute-sells-bonds",
-      "published": "Mon, 20 Apr 2026"
+      "title": "Asian Stocks Gain, Oil Dips on Hopes of Iran Talks: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-20/-stock-market-today-dow-s-p-live-updates",
+      "published": "Mon, 20 Apr 2026 22:24:02 GMT",
+      "summary": "Asian stocks edged higher as signs Iran may join talks with the US fostered cautious optimism about progress in the Middle East ahead of a looming ceasefire deadline. Oil dropped."
     },
     {
       "source": "Bloomberg",
-      "title": "Magyar Unveils Cabinet Team to Lead Hungary’s Economic Reset",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-20/magyar-unveils-cabinet-team-to-lead-hungary-s-economic-reset",
-      "published": "Mon, 20 Apr 2026"
-    },
-    {
-      "source": "WSJ Markets",
-      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
-      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
-      "published": "Mon, 27 Jan 2025"
-    },
-    {
-      "source": "WSJ Markets",
-      "title": "Comex Gold, Silver Settle Lower",
-      "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
-      "published": "Mon, 27 Jan 2025"
+      "title": "South Korean Stock Index Rises to Record as AI Optimism Extends",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-21/south-korean-shares-refresh-record-as-ai-optimism-extends",
+      "published": "Tue, 21 Apr 2026 00:14:43 GMT",
+      "summary": "South Korean stocks climbed to a record, powered by chipmakers as the artificial intelligence trade regained momentum and optimism reemerged about a US-Iran peace deal."
     }
-  ]
+  ],
+  "market_outlook": {
+    "asia_opening": "positive",
+    "key_themes": [
+      "US-Iran peace talks optimism",
+      "Asian markets opening higher",
+      "Apple CEO transition",
+      "AI sector momentum continues"
+    ],
+    "risk_sentiment": "cautiously optimistic"
+  }
 }

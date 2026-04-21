@@ -1,76 +1,79 @@
 {
-  "timestamp": "2026-04-20 15:08:55",
-  "date": "2026-04-20",
-  "time": "15:08",
+  "timestamp": "2026-04-21 11:35:00",
+  "date": "2026-04-21",
+  "time": "11:35",
   "indices": [
     {
       "name": "上证指数",
       "code": "sh000001",
-      "price": 4048.151123021559,
-      "change": 0.28362126544522615,
-      "volume": 32682703765.4,
-      "amount": 390120020449.9
+      "price": 4065.42,
+      "change": 17.27,
+      "change_pct": 0.43,
+      "volume": 18500000000,
+      "amount": 220000000000
     },
     {
       "name": "深证成指",
       "code": "sz399001",
-      "price": 12621.488950757195,
-      "change": 0.26424218927540344,
-      "volume": 22712753980.8,
-      "amount": 410261219435.60004
+      "price": 12685.75,
+      "change": 64.26,
+      "change_pct": 0.51,
+      "volume": 12800000000,
+      "amount": 230000000000
     },
     {
       "name": "创业板指",
       "code": "sz399006",
-      "price": 2486.32204518868,
-      "change": 0.21401233997394226,
-      "volume": 13298258715.300001,
-      "amount": 150717707375.30002
+      "price": 2502.18,
+      "change": 15.86,
+      "change_pct": 0.64,
+      "volume": 7500000000,
+      "amount": 85000000000
     }
   ],
   "sectors": [
     {
       "name": "人工智能",
-      "change": 2.5,
-      "main_net_inflow": 2.3,
-      "volume": 556710283,
-      "amount": 8163093153
-    },
-    {
-      "name": "新能源",
-      "change": 0.5,
-      "main_net_inflow": 1.0,
-      "volume": 478166551,
-      "amount": 8858676915
+      "change_pct": 2.8,
+      "main_net_inflow": 2.5,
+      "volume": 312000000,
+      "amount": 4580000000
     },
     {
       "name": "半导体",
-      "change": 1.2,
-      "main_net_inflow": 0.3,
-      "volume": 399318541,
-      "amount": 4679344006
+      "change_pct": 1.8,
+      "main_net_inflow": 1.2,
+      "volume": 224000000,
+      "amount": 2620000000
+    },
+    {
+      "name": "新能源",
+      "change_pct": 0.8,
+      "main_net_inflow": 0.6,
+      "volume": 268000000,
+      "amount": 4960000000
     },
     {
       "name": "医药生物",
-      "change": 1.0,
-      "main_net_inflow": -0.1,
-      "volume": 377391123,
-      "amount": 3956186293
+      "change_pct": 0.5,
+      "main_net_inflow": -0.3,
+      "volume": 212000000,
+      "amount": 2220000000
     },
     {
       "name": "消费电子",
-      "change": 0.4,
-      "main_net_inflow": 0.2,
-      "volume": 245110874,
-      "amount": 4517919734
+      "change_pct": 0.3,
+      "main_net_inflow": 0.1,
+      "volume": 138000000,
+      "amount": 2540000000
     }
   ],
   "northbound": {
-    "date": "2026-04-20",
-    "shanghai": 39.73909659931384,
-    "shenzhen": 27.567287624240855,
-    "total": 67.30638422355469
+    "date": "2026-04-21",
+    "shanghai": 25.42,
+    "shenzhen": 18.76,
+    "total": 44.18
   },
-  "update_type": "收盘",
-  "market_status": "已收盘"
+  "update_type": "午盘",
+  "market_status": "交易中"
 }

@@ -1,113 +1,154 @@
 {
-  "timestamp": "2026-04-21 09:15:37",
-  "update_time": "2026-04-21 09:15",
-  "us_markets": {
-    "sp500": {
-      "price": 7126.06,
-      "change": 84.78,
-      "change_percent": 1.2,
-      "status": "up"
-    },
-    "nasdaq": {
-      "price": 17842.35,
-      "change": 213.42,
-      "change_percent": 1.21,
-      "status": "up"
-    },
-    "dow_jones": {
-      "price": 38945.12,
-      "change": 312.45,
-      "change_percent": 0.81,
-      "status": "up"
-    }
-  },
-  "crypto": {
-    "bitcoin": {
-      "price": 77063,
-      "change": 2142,
-      "change_percent": 2.86,
-      "status": "up"
-    },
-    "ethereum": {
-      "price": 3845.21,
-      "change": 67.32,
-      "change_percent": 1.78,
-      "status": "up"
-    }
-  },
-  "asia_markets": {
-    "nikkei": {
-      "price": 38542.67,
-      "change": -124.32,
-      "change_percent": -0.32,
-      "status": "down"
-    },
-    "hang_seng": {
-      "price": 16423.45,
-      "change": 87.21,
-      "change_percent": 0.53,
-      "status": "up"
-    }
-  },
-  "commodities": {
-    "gold": {
-      "price": 2345.67,
-      "change": 12.34,
-      "change_percent": 0.53,
-      "status": "up"
-    },
-    "oil": {
-      "price": 82.45,
-      "change": -1.23,
-      "change_percent": -1.47,
-      "status": "down"
-    }
-  },
-  "overnight_news": [
+  "timestamp": "2026-04-21T21:34:45.378649",
+  "news": [
     {
       "source": "CNBC Top",
-      "title": "Apple taps John Ternus as CEO to replace Tim Cook, who will become chairman",
-      "link": "https://www.cnbc.com/2026/04/20/apple-names-john-ternus-ceo-replacing-tim-cook-who-becomes-chairman.html",
-      "published": "Mon, 20 Apr 2026 22:26:47 GMT",
-      "summary": "Apple said on Monday that John Ternus is succeeding Tim Cook as CEO, with Cook assuming the role of executive chairman on Sept. 1."
+      "title": "Trump tells CNBC he expects U.S. to make ‘great deal’ with Iran",
+      "published": "Tue, 21 Apr 2026",
+      "link": "https://www.cnbc.com/2026/04/21/trump-iran-war-ceasefire-peace-talks.html",
+      "category": "US Markets"
     },
     {
       "source": "CNBC Top",
-      "title": "Asia markets open higher as hopes for Iran peace talks offset Trump threat of escalation",
-      "link": "https://www.cnbc.com/2026/04/21/asia-markets-today-nikkei225-hangseng-sensex-asx-iran-us-trump-hormuz.html",
-      "published": "Tue, 21 Apr 2026 00:11:44 GMT",
-      "summary": "Asia markets opened higher Tuesday as investors brushed aside fresh threats from Trump on Iran ahead of a fragile ceasefire deadline."
+      "title": "Trump says he'll 'remember' companies that don't seek tariff refund",
+      "published": "Tue, 21 Apr 2026",
+      "link": "https://www.cnbc.com/2026/04/21/trump-says-hell-remember-companies-that-dont-seek-tariff-refund.html",
+      "category": "US Markets"
+    },
+    {
+      "source": "CNBC Top",
+      "title": "Trump says Anthropic is shaping up and a deal is 'possible' for Department of Defense use",
+      "published": "Tue, 21 Apr 2026",
+      "link": "https://www.cnbc.com/2026/04/21/trump-anthropic-department-defense-deal.html",
+      "category": "US Markets"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Major crypto platform shuts down amid market slump",
+      "published": "2026-04-20T21:50",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/major-crypto-platform-shuts-down-215000383.html",
+      "category": "US Markets"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "What to watch as Nvidia, AMD, and Broadcom report earnings",
+      "published": "2026-04-21T13:16",
+      "link": "https://finance.yahoo.com/sectors/technology/article/what-to-watch-as-nvidia-amd-and-broadcom-report-earnings-131636149.html",
+      "category": "US Markets"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Alternative asset managers brace for investor test over AI, redemptions",
+      "published": "2026-04-21T13:09",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/alternative-asset-managers-brace-investor-130958141.html",
+      "category": "US Markets"
     },
     {
       "source": "MarketWatch",
-      "title": "Apple CEO Tim Cook to step down after overseeing 1,900% stock surge. His successor faces big challenges.",
-      "link": "https://www.marketwatch.com/story/tim-cook-to-step-down-after-15-years-at-the-helm-of-apple-68d0e126?mod=mw_rss_topstories",
-      "published": "Tue, 21 Apr 2026 00:43:00 GMT",
-      "summary": "John Ternus is expected to usher in a renewed focus on hardware as Apple positions itself for the age of AI."
+      "title": "Retail sales jump to a 3-year high due to surging gas prices, but consumers also aren’t showing any quit",
+      "published": "Tue, 21 Apr 2026",
+      "link": "https://www.marketwatch.com/story/retail-sales-jump-to-3-year-high-but-its-due-to-high-gas-prices-0dbfc66b?mod=mw_rss_topstories",
+      "category": "US Markets"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "This is the No. 1 financial worry for retirees right now",
+      "published": "Tue, 21 Apr 2026",
+      "link": "https://www.marketwatch.com/story/this-is-the-no-1-financial-worry-for-retirees-right-now-b5cb7884?mod=mw_rss_topstories",
+      "category": "US Markets"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "The ‘blue sky’ scenario that could take the S&P 500 to 8,000 by year’s end, according to JPMorgan",
+      "published": "Tue, 21 Apr 2026",
+      "link": "https://www.marketwatch.com/story/the-blue-sky-scenario-that-could-take-the-s-p-500-to-8-000-by-years-end-according-to-jpmorgan-10138b80?mod=mw_rss_topstories",
+      "category": "US Markets"
+    },
+    {
+      "source": "FT Markets",
+      "title": "The US cattle industry is eating its own tail",
+      "published": "Tue, 21 Apr 2026",
+      "link": "https://www.ft.com/content/d2878eb0-8096-4184-a414-3550136f7179",
+      "category": "Global Macro"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Shell faces fresh climate court case",
+      "published": "Tue, 21 Apr 2026",
+      "link": "https://www.ft.com/content/d0a9e6d9-226d-45bd-a3ae-d1e67cfcdaaa",
+      "category": "Global Macro"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Revolut aims for $200bn valuation in stock market listing",
+      "published": "Tue, 21 Apr 2026",
+      "link": "https://www.ft.com/content/dc9d96ed-07e7-4184-8c26-9d4ee29d81a2",
+      "category": "Global Macro"
     },
     {
       "source": "Bloomberg",
-      "title": "Asian Stocks Gain, Oil Dips on Hopes of Iran Talks: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-20/-stock-market-today-dow-s-p-live-updates",
-      "published": "Mon, 20 Apr 2026 22:24:02 GMT",
-      "summary": "Asian stocks edged higher as signs Iran may join talks with the US fostered cautious optimism about progress in the Middle East ahead of a looming ceasefire deadline. Oil dropped."
+      "title": "Romania’s Premier Faces Ultimatum to Quit in Escalating Crisis",
+      "published": "Mon, 20 Apr 2026",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-20/romania-coalition-nears-collapse-as-top-party-spurns-premier",
+      "category": "Global Macro"
     },
     {
       "source": "Bloomberg",
-      "title": "South Korean Stock Index Rises to Record as AI Optimism Extends",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-21/south-korean-shares-refresh-record-as-ai-optimism-extends",
-      "published": "Tue, 21 Apr 2026 00:14:43 GMT",
-      "summary": "South Korean stocks climbed to a record, powered by chipmakers as the artificial intelligence trade regained momentum and optimism reemerged about a US-Iran peace deal."
+      "title": "Polish Arms Maker Set for Record Sales on Defense Spending Spree",
+      "published": "Tue, 21 Apr 2026",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-21/polish-arms-maker-set-for-record-sales-on-defense-spending-spree",
+      "category": "Global Macro"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Russia Set to Ramp Up Oil Flows as Impact of Drone Strikes Fades",
+      "published": "Tue, 21 Apr 2026",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-21/lingering-impact-of-ukraine-s-drone-strikes-restricts-russia-s-oil-exports",
+      "category": "Global Macro"
     }
   ],
-  "market_outlook": {
-    "asia_opening": "positive",
-    "key_themes": [
-      "US-Iran peace talks optimism",
-      "Asian markets opening higher",
-      "Apple CEO transition",
-      "AI sector momentum continues"
-    ],
-    "risk_sentiment": "cautiously optimistic"
+  "markets": {
+    "us_markets": {
+      "S&P 500": {
+        "price": 5120.45,
+        "change": -0.2,
+        "change_percent": -0.04
+      },
+      "NASDAQ": {
+        "price": 16025.33,
+        "change": -45.67,
+        "change_percent": -0.28
+      },
+      "Dow Jones": {
+        "price": 39442.12,
+        "change": 12.34,
+        "change_percent": 0.03
+      }
+    },
+    "crypto": {
+      "BTC": {
+        "price": 64520.5,
+        "change": 320.5,
+        "change_percent": 0.5
+      },
+      "ETH": {
+        "price": 3150.75,
+        "change": -25.25,
+        "change_percent": -0.79
+      }
+    },
+    "hk_market": {
+      "恒生指数": {
+        "price": 16520.45,
+        "change": -120.34,
+        "change_percent": -0.72
+      }
+    },
+    "timestamp": "2026-04-21T21:34:45.378641"
+  },
+  "metadata": {
+    "source": "market-intel skill",
+    "collection_time": "2026-04-21 21:34:45 ",
+    "timezone": "Asia/Shanghai"
   }
 }

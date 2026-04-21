@@ -1,367 +1,112 @@
 {
-  "timestamp": "2026-04-20T15:08:55.383981",
-  "weekly_report": {
-    "period": "2026-04-11 至 2026-04-17",
-    "summary": "本周市场震荡整理，策略信号分歧明显。BTC在9万美元关口反复测试，A股市场分化，期货市场整体承压。",
-    "performance": {
-      "total_strategies": 8,
-      "profitable_strategies": 3,
-      "win_rate": "37.5%",
-      "avg_return": "-0.8%",
-      "max_drawdown": "2.3%",
-      "sharpe_ratio": "-0.45"
-    }
-  },
+  "timestamp": "2026-04-21 15:05:00",
   "strategies": {
     "DoubleMa": {
-      "1h": {
-        "signal": "做空",
-        "current_price": 89912.5050769233,
-        "weekly_performance": "-1.2%",
-        "win_rate": "42%",
-        "sharpe": "-0.32"
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 90298.56453368376,
-        "weekly_performance": "0.3%",
-        "win_rate": "55%",
-        "sharpe": "0.18"
-      },
-      "收盘": {
-        "signal": "做空",
-        "timestamp": "2026-04-20T15:08:55.383994",
-        "note": "收盘信号"
-      }
-    },
-    "RSI": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 90187.83772736347,
-        "weekly_performance": "0.1%",
-        "win_rate": "48%",
-        "sharpe": "0.05"
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 89795.22004255388,
-        "weekly_performance": "-0.5%",
-        "win_rate": "51%",
-        "sharpe": "0.12"
-      },
-      "收盘": {
-        "signal": "做空",
-        "timestamp": "2026-04-20T15:08:55.383997",
-        "note": "收盘信号"
-      }
-    },
-    "MACD": {
-      "1h": {
-        "signal": "做多",
-        "current_price": 89578.59083958952,
-        "weekly_performance": "-1.8%",
-        "win_rate": "38%",
-        "sharpe": "-0.41"
-      },
-      "4h": {
-        "signal": "做空",
-        "current_price": 89869.33474028649,
-        "weekly_performance": "-0.9%",
-        "win_rate": "45%",
-        "sharpe": "-0.22"
-      },
-      "收盘": {
-        "signal": "做多",
-        "timestamp": "2026-04-20T15:08:55.383998",
-        "note": "收盘信号"
-      }
-    },
-    "Bollinger": {
-      "1h": {
-        "signal": "做空",
-        "current_price": 90411.70214289268,
-        "weekly_performance": "0.8%",
-        "win_rate": "62%",
-        "sharpe": "0.35"
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 90055.65755369922,
-        "weekly_performance": "0.2%",
-        "win_rate": "53%",
-        "sharpe": "0.15"
-      },
-      "收盘": {
-        "signal": "观望",
-        "timestamp": "2026-04-20T15:08:55.383998",
-        "note": "收盘信号"
-      }
-    },
-    "Supertrend": {
-      "1h": {
-        "signal": "做多",
-        "current_price": 89932.92369990163,
-        "weekly_performance": "-0.7%",
-        "win_rate": "44%",
-        "sharpe": "-0.19"
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 90120.86275296316,
-        "weekly_performance": "0.4%",
-        "win_rate": "57%",
-        "sharpe": "0.21"
-      },
-      "收盘": {
-        "signal": "做空",
-        "timestamp": "2026-04-20T15:08:55.383996",
-        "note": "收盘信号"
-      }
+      "status": "active",
+      "current_position": "long",
+      "entry_price": 40500.0,
+      "current_price": 40821.3,
+      "pnl_percent": 0.79,
+      "sharpe_ratio": 1.85,
+      "max_drawdown": -2.3,
+      "win_rate": 62.5,
+      "total_trades": 24,
+      "signals": ["MA5 > MA20", "Volume increasing"]
     },
     "TripleMa": {
-      "1h": {
-        "signal": "做空",
-        "current_price": 89948.9629849453,
-        "weekly_performance": "-1.1%",
-        "win_rate": "40%",
-        "sharpe": "-0.28"
-      },
-      "4h": {
-        "signal": "做多",
-        "current_price": 89867.043352749,
-        "weekly_performance": "-0.3%",
-        "win_rate": "49%",
-        "sharpe": "0.08"
-      },
-      "收盘": {
-        "signal": "观望",
-        "timestamp": "2026-04-20T15:08:55.383995",
-        "note": "收盘信号"
-      }
+      "status": "active",
+      "current_position": "long",
+      "entry_price": 40350.0,
+      "current_price": 40821.3,
+      "pnl_percent": 1.17,
+      "sharpe_ratio": 2.10,
+      "max_drawdown": -1.8,
+      "win_rate": 65.2,
+      "total_trades": 18,
+      "signals": ["MA5 > MA10 > MA20", "Bullish crossover"]
+    },
+    "Supertrend": {
+      "status": "active",
+      "current_position": "long",
+      "entry_price": 40680.0,
+      "current_price": 40821.3,
+      "pnl_percent": 0.35,
+      "sharpe_ratio": 1.45,
+      "max_drawdown": -3.1,
+      "win_rate": 58.3,
+      "total_trades": 32,
+      "signals": ["Supertrend bullish", "ATR normal"]
+    },
+    "RSI": {
+      "status": "active",
+      "current_position": "long",
+      "entry_price": 40420.0,
+      "current_price": 40821.3,
+      "pnl_percent": 0.99,
+      "sharpe_ratio": 1.92,
+      "max_drawdown": -2.5,
+      "win_rate": 60.8,
+      "total_trades": 28,
+      "signals": ["RSI: 62 (neutral)", "Oversold bounce"]
+    },
+    "MACD": {
+      "status": "active",
+      "current_position": "long",
+      "entry_price": 40250.0,
+      "current_price": 40821.3,
+      "pnl_percent": 1.42,
+      "sharpe_ratio": 2.25,
+      "max_drawdown": -2.0,
+      "win_rate": 67.9,
+      "total_trades": 22,
+      "signals": ["MACD > Signal", "Histogram positive"]
+    },
+    "Bollinger": {
+      "status": "active",
+      "current_position": "long",
+      "entry_price": 40750.0,
+      "current_price": 40821.3,
+      "pnl_percent": 0.17,
+      "sharpe_ratio": 1.20,
+      "max_drawdown": -3.5,
+      "win_rate": 55.6,
+      "total_trades": 36,
+      "signals": ["Price > Middle Band", "Band width normal"]
     },
     "Momentum": {
-      "1h": {
-        "signal": "做空",
-        "current_price": 90292.71358196545,
-        "weekly_performance": "1.2%",
-        "win_rate": "65%",
-        "sharpe": "0.42"
-      },
-      "4h": {
-        "signal": "做空",
-        "current_price": 89621.61575343019,
-        "weekly_performance": "-1.5%",
-        "win_rate": "36%",
-        "sharpe": "-0.38"
-      },
-      "收盘": {
-        "signal": "做多",
-        "timestamp": "2026-04-20T15:08:55.383999",
-        "note": "收盘信号"
-      }
+      "status": "inactive",
+      "current_position": "flat",
+      "entry_price": null,
+      "current_price": 40821.3,
+      "pnl_percent": 0.0,
+      "sharpe_ratio": 1.65,
+      "max_drawdown": -4.2,
+      "win_rate": 59.4,
+      "total_trades": 30,
+      "signals": ["Momentum weak", "Waiting for signal"]
     },
     "MeanReversion": {
-      "1h": {
-        "signal": "做空",
-        "current_price": 89565.74074261918,
-        "weekly_performance": "-2.1%",
-        "win_rate": "33%",
-        "sharpe": "-0.52"
-      },
-      "4h": {
-        "signal": "做空",
-        "current_price": 89989.22467649677,
-        "weekly_performance": "-0.6%",
-        "win_rate": "47%",
-        "sharpe": "-0.14"
-      },
-      "收盘": {
-        "signal": "做空",
-        "timestamp": "2026-04-20T15:08:55.384000",
-        "note": "收盘信号"
-      }
+      "status": "active",
+      "current_position": "short",
+      "entry_price": 40980.0,
+      "current_price": 40821.3,
+      "pnl_percent": 0.39,
+      "sharpe_ratio": 1.38,
+      "max_drawdown": -3.8,
+      "win_rate": 53.8,
+      "total_trades": 26,
+      "signals": ["Overbought correction", "Price reverting to mean"]
     }
   },
-  "crypto_prices": {
-    "BTC/USDT": {
-      "price": 90027.26256227662,
-      "change_24h": -0.34458806025851585,
-      "change_7d": -1.8,
-      "high_24h": 90555.0,
-      "low_24h": 89321.2,
-      "volume_24h": 255203022.51444075,
-      "weekly_high": 91500.0,
-      "weekly_low": 89000.0,
-      "indicators_1h": {
-        "rsi": 46.1,
-        "macd": 132.43,
-        "macd_signal": 157.49,
-        "macd_status": "死叉",
-        "ma5": 90067.32,
-        "ma20": 90005.12,
-        "bb_upper": 90429.17,
-        "bb_lower": 89581.07,
-        "trend": "偏多"
-      },
-      "indicators_4h": {
-        "rsi": 76.1,
-        "macd": 533.0,
-        "macd_signal": 445.3,
-        "macd_status": "金叉",
-        "ma5": 89934.2,
-        "ma20": 88908.21,
-        "bb_upper": 90817.04,
-        "bb_lower": 86999.38,
-        "trend": "偏多"
-      }
-    },
-    "ETH/USDT": {
-      "price": 3103.3942105919054,
-      "change_24h": 0.7575988175331585,
-      "change_7d": -2.3,
-      "high_24h": 3146.3,
-      "low_24h": 3075.82,
-      "volume_24h": 196131629.80127284,
-      "weekly_high": 3250.0,
-      "weekly_low": 3050.0,
-      "indicators_1h": {
-        "rsi": 42.2,
-        "macd": 6.91,
-        "macd_signal": 9.97,
-        "macd_status": "死叉",
-        "ma5": 3105.96,
-        "ma20": 3109.32,
-        "bb_upper": 3134.1,
-        "bb_lower": 3084.53,
-        "trend": "偏空"
-      },
-      "indicators_4h": {
-        "rsi": 79.8,
-        "macd": 37.84,
-        "macd_signal": 32.71,
-        "macd_status": "金叉",
-        "ma5": 3104.42,
-        "ma20": 3040.62,
-        "bb_upper": 3159.09,
-        "bb_lower": 2922.14,
-        "trend": "偏多"
-      }
-    }
+  "summary": {
+    "active_strategies": 7,
+    "total_pnl_percent": 0.75,
+    "best_strategy": "MACD",
+    "worst_strategy": "Bollinger",
+    "overall_sharpe": 1.72,
+    "overall_max_drawdown": -2.6,
+    "market_condition": "bullish",
+    "risk_level": "medium"
   },
-  "market_sentiment": {
-    "crypto_fear_greed": {
-      "value": 29,
-      "classification": "Fear",
-      "timestamp": "1767398400",
-      "weekly_trend": "稳定"
-    },
-    "volatility": {
-      "btc_volatility_7d": "2.8%",
-      "market_stress": "中等"
-    }
-  },
-  "stocks": {
-    "上证指数": {
-      "price": 3968.8401,
-      "change": 0.094,
-      "change_7d": 0.5,
-      "volume": 490751490.0,
-      "weekly_high": 3980.0,
-      "weekly_low": 3940.0
-    },
-    "深证成指": {
-      "price": 13525.022,
-      "change": -0.581,
-      "change_7d": -1.2
-    },
-    "创业板指": {
-      "price": 3203.172,
-      "change": -1.225,
-      "change_7d": -2.8
-    },
-    "沪金主力": {
-      "price": 977.56,
-      "change": -0.74,
-      "change_7d": -1.5,
-      "date": "2025-12-31"
-    },
-    "沪银主力": {
-      "price": 17074.0,
-      "change": -5.88,
-      "change_7d": -7.2,
-      "date": "2025-12-31"
-    },
-    "沪铜主力": {
-      "price": 98240.0,
-      "change": 0.15,
-      "change_7d": 0.8,
-      "date": "2025-12-31"
-    },
-    "螺纹钢主力": {
-      "price": 3122.0,
-      "change": -0.38,
-      "change_7d": -1.2,
-      "date": "2025-12-31"
-    },
-    "沪深300期货": {
-      "price": 4599.8,
-      "change": -0.48,
-      "change_7d": -0.9,
-      "date": "2025-12-31"
-    },
-    "中证500期货": {
-      "price": 7362.8,
-      "change": -0.25,
-      "change_7d": -1.5,
-      "date": "2025-12-31"
-    },
-    "50ETF波动率": {
-      "value": 14.81,
-      "date": "2025-12-31",
-      "weekly_trend": "下降"
-    }
-  },
-  "strategy_ranking": [
-    {
-      "strategy": "Momentum_1h",
-      "performance": "1.2%",
-      "win_rate": "65%",
-      "sharpe": "0.42",
-      "rank": 1
-    },
-    {
-      "strategy": "Bollinger_1h",
-      "performance": "0.8%",
-      "win_rate": "62%",
-      "sharpe": "0.35",
-      "rank": 2
-    },
-    {
-      "strategy": "Supertrend_4h",
-      "performance": "0.4%",
-      "win_rate": "57%",
-      "sharpe": "0.21",
-      "rank": 3
-    },
-    {
-      "strategy": "DoubleMa_4h",
-      "performance": "0.3%",
-      "win_rate": "55%",
-      "sharpe": "0.18",
-      "rank": 4
-    },
-    {
-      "strategy": "Bollinger_4h",
-      "performance": "0.2%",
-      "win_rate": "53%",
-      "sharpe": "0.15",
-      "rank": 5
-    }
-  ],
-  "risk_assessment": {
-    "overall_risk": "中等",
-    "market_risk": "震荡市，方向不明",
-    "strategy_risk": "信号分歧，需谨慎",
-    "recommendation": "轻仓观望，等待明确信号"
-  }
+  "source": "模拟数据（HelloQuant实际数据获取失败）"
 }

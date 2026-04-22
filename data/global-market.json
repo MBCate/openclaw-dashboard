@@ -1,110 +1,75 @@
 {
-  "timestamp": "2026-04-21T21:34:45.378649",
+  "timestamp": "2026-04-22T01:17:27.135008",
   "news": [
     {
       "source": "CNBC Top",
-      "title": "Trump tells CNBC he expects U.S. to make ‘great deal’ with Iran",
+      "title": "Trump extends ceasefire in Iran, citing 'seriously fractured' Iranian government",
       "published": "Tue, 21 Apr 2026",
-      "link": "https://www.cnbc.com/2026/04/21/trump-iran-war-ceasefire-peace-talks.html",
+      "link": "",
+      "category": "Global Macro"
+    },
+    {
+      "source": "CNBC Top",
+      "title": "SpaceX says it can buy Cursor later this year for $60 billion or pay $10 billion for 'our work together'",
+      "published": "Wed, 22 Apr 2026",
+      "link": "",
       "category": "US Markets"
     },
     {
       "source": "CNBC Top",
-      "title": "Trump says he'll 'remember' companies that don't seek tariff refund",
+      "title": "Analysis: Warsh emerges from a difficult hearing with his Fed 'regime-change' plan intact",
       "published": "Tue, 21 Apr 2026",
-      "link": "https://www.cnbc.com/2026/04/21/trump-says-hell-remember-companies-that-dont-seek-tariff-refund.html",
-      "category": "US Markets"
-    },
-    {
-      "source": "CNBC Top",
-      "title": "Trump says Anthropic is shaping up and a deal is 'possible' for Department of Defense use",
-      "published": "Tue, 21 Apr 2026",
-      "link": "https://www.cnbc.com/2026/04/21/trump-anthropic-department-defense-deal.html",
+      "link": "",
       "category": "US Markets"
     },
     {
       "source": "Yahoo Finance",
       "title": "Major crypto platform shuts down amid market slump",
       "published": "2026-04-20T21:50",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/major-crypto-platform-shuts-down-215000383.html",
+      "link": "",
+      "category": "Crypto"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Earnings Preview: What to Expect From EPAM Systems' Report",
+      "published": "2026-04-20T13:07",
+      "link": "",
       "category": "US Markets"
     },
     {
       "source": "Yahoo Finance",
-      "title": "What to watch as Nvidia, AMD, and Broadcom report earnings",
-      "published": "2026-04-21T13:16",
-      "link": "https://finance.yahoo.com/sectors/technology/article/what-to-watch-as-nvidia-amd-and-broadcom-report-earnings-131636149.html",
-      "category": "US Markets"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Alternative asset managers brace for investor test over AI, redemptions",
-      "published": "2026-04-21T13:09",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/alternative-asset-managers-brace-investor-130958141.html",
+      "title": "Is Nvidia (NVDA) The Best AI Stock Pick of Motley Fool Asset Management?",
+      "published": "2026-04-20T13:11",
+      "link": "",
       "category": "US Markets"
     },
     {
       "source": "MarketWatch",
-      "title": "Retail sales jump to a 3-year high due to surging gas prices, but consumers also aren’t showing any quit",
-      "published": "Tue, 21 Apr 2026",
-      "link": "https://www.marketwatch.com/story/retail-sales-jump-to-3-year-high-but-its-due-to-high-gas-prices-0dbfc66b?mod=mw_rss_topstories",
+      "title": "What is Cursor? SpaceX could buy the AI company for a whopping $60 billion.",
+      "published": "Wed, 22 Apr 2026",
+      "link": "",
       "category": "US Markets"
     },
     {
       "source": "MarketWatch",
-      "title": "This is the No. 1 financial worry for retirees right now",
+      "title": "'This is unbelievable': My adviser made $300,000 trading options. Now I'm being killed by taxes. Do I fire him?",
       "published": "Tue, 21 Apr 2026",
-      "link": "https://www.marketwatch.com/story/this-is-the-no-1-financial-worry-for-retirees-right-now-b5cb7884?mod=mw_rss_topstories",
+      "link": "",
       "category": "US Markets"
     },
     {
       "source": "MarketWatch",
-      "title": "The ‘blue sky’ scenario that could take the S&P 500 to 8,000 by year’s end, according to JPMorgan",
+      "title": "Trump Media CEO Devin Nunes is leaving. This digital-media veteran will take his place.",
       "published": "Tue, 21 Apr 2026",
-      "link": "https://www.marketwatch.com/story/the-blue-sky-scenario-that-could-take-the-s-p-500-to-8-000-by-years-end-according-to-jpmorgan-10138b80?mod=mw_rss_topstories",
+      "link": "",
       "category": "US Markets"
     },
     {
-      "source": "FT Markets",
-      "title": "The US cattle industry is eating its own tail",
-      "published": "Tue, 21 Apr 2026",
-      "link": "https://www.ft.com/content/d2878eb0-8096-4184-a414-3550136f7179",
-      "category": "Global Macro"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Shell faces fresh climate court case",
-      "published": "Tue, 21 Apr 2026",
-      "link": "https://www.ft.com/content/d0a9e6d9-226d-45bd-a3ae-d1e67cfcdaaa",
-      "category": "Global Macro"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Revolut aims for $200bn valuation in stock market listing",
-      "published": "Tue, 21 Apr 2026",
-      "link": "https://www.ft.com/content/dc9d96ed-07e7-4184-8c26-9d4ee29d81a2",
-      "category": "Global Macro"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Romania’s Premier Faces Ultimatum to Quit in Escalating Crisis",
-      "published": "Mon, 20 Apr 2026",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-20/romania-coalition-nears-collapse-as-top-party-spurns-premier",
-      "category": "Global Macro"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Polish Arms Maker Set for Record Sales on Defense Spending Spree",
-      "published": "Tue, 21 Apr 2026",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-21/polish-arms-maker-set-for-record-sales-on-defense-spending-spree",
-      "category": "Global Macro"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Russia Set to Ramp Up Oil Flows as Impact of Drone Strikes Fades",
-      "published": "Tue, 21 Apr 2026",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-21/lingering-impact-of-ukraine-s-drone-strikes-restricts-russia-s-oil-exports",
-      "category": "Global Macro"
+      "source": "SCMP Business",
+      "title": "China's shipyards secure wave of oil tanker orders as Iran war drives demand",
+      "published": "Wed, 22 Apr 2026",
+      "link": "",
+      "category": "Asia Markets"
     }
   ],
   "markets": {
@@ -144,11 +109,13 @@
         "change_percent": -0.72
       }
     },
-    "timestamp": "2026-04-21T21:34:45.378641"
+    "timestamp": "2026-04-22T01:17:27.135000"
   },
   "metadata": {
     "source": "market-intel skill",
-    "collection_time": "2026-04-21 21:34:45 ",
-    "timezone": "Asia/Shanghai"
+    "collection_time": "2026-04-22 09:17:27",
+    "timezone": "Asia/Shanghai",
+    "type": "morning_preview",
+    "notes": "早盘预览：隔夜国际新闻汇总，伊朗停火延长，SpaceX考虑收购Cursor，加密货币平台关闭"
   }
 }

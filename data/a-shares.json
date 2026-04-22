@@ -1,23 +1,5 @@
 {
-  "timestamp": "2026-04-22 11:36:39",
-  "update_type": "午盘",
-  "indices": {
-    "上证指数": {
-      "最新价": 4095.0744,
-      "涨跌幅": 0.245,
-      "涨跌额": 9.998
-    },
-    "深证成指": {
-      "最新价": 15076.147,
-      "涨跌幅": 0.627,
-      "涨跌额": 94.007
-    },
-    "创业板指": {
-      "最新价": 3712.279,
-      "涨跌幅": 0.633,
-      "涨跌额": 23.342
-    }
-  },
-  "market_status": "午盘交易中",
-  "note": "数据获取时间: 2026-04-22 11:36"
+  "timestamp": "2026-04-22T15:08:07.064928",
+  "error": "HTTPSConnectionPool(host='48.push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/clist/get?pn=1&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&wbp2u=%7C0%7C0%7C0%7Cweb&fid=f12&fs=m%3A1%2Bt%3A1&fields=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf12%2Cf13%2Cf14%2Cf15%2Cf16%2Cf17%2Cf18%2Cf20%2Cf21%2Cf23%2Cf24%2Cf25%2Cf26%2Cf22%2Cf33%2Cf11%2Cf62%2Cf128%2Cf136%2Cf115%2Cf152 (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('_ssl.c:990: The handshake operation timed out')))",
+  "market_status": "error"
 }

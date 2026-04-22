@@ -1,112 +1,57 @@
 {
-  "timestamp": "2026-04-21 15:05:00",
-  "strategies": {
-    "DoubleMa": {
-      "status": "active",
-      "current_position": "long",
-      "entry_price": 40500.0,
-      "current_price": 40821.3,
-      "pnl_percent": 0.79,
-      "sharpe_ratio": 1.85,
-      "max_drawdown": -2.3,
-      "win_rate": 62.5,
-      "total_trades": 24,
-      "signals": ["MA5 > MA20", "Volume increasing"]
+  "timestamp": "2026-04-22T15:06:41.569096",
+  "strategies": [
+    {
+      "name": "DoubleMa",
+      "sharpe": 1.91,
+      "drawdown": 1.58,
+      "position": "long"
     },
-    "TripleMa": {
-      "status": "active",
-      "current_position": "long",
-      "entry_price": 40350.0,
-      "current_price": 40821.3,
-      "pnl_percent": 1.17,
-      "sharpe_ratio": 2.10,
-      "max_drawdown": -1.8,
-      "win_rate": 65.2,
-      "total_trades": 18,
-      "signals": ["MA5 > MA10 > MA20", "Bullish crossover"]
+    {
+      "name": "TripleMa",
+      "sharpe": 0.58,
+      "drawdown": 3.73,
+      "position": "short"
     },
-    "Supertrend": {
-      "status": "active",
-      "current_position": "long",
-      "entry_price": 40680.0,
-      "current_price": 40821.3,
-      "pnl_percent": 0.35,
-      "sharpe_ratio": 1.45,
-      "max_drawdown": -3.1,
-      "win_rate": 58.3,
-      "total_trades": 32,
-      "signals": ["Supertrend bullish", "ATR normal"]
+    {
+      "name": "Supertrend",
+      "sharpe": 0.81,
+      "drawdown": 1.54,
+      "position": "long"
     },
-    "RSI": {
-      "status": "active",
-      "current_position": "long",
-      "entry_price": 40420.0,
-      "current_price": 40821.3,
-      "pnl_percent": 0.99,
-      "sharpe_ratio": 1.92,
-      "max_drawdown": -2.5,
-      "win_rate": 60.8,
-      "total_trades": 28,
-      "signals": ["RSI: 62 (neutral)", "Oversold bounce"]
+    {
+      "name": "RSI",
+      "sharpe": 0.54,
+      "drawdown": 4.1,
+      "position": "flat"
     },
-    "MACD": {
-      "status": "active",
-      "current_position": "long",
-      "entry_price": 40250.0,
-      "current_price": 40821.3,
-      "pnl_percent": 1.42,
-      "sharpe_ratio": 2.25,
-      "max_drawdown": -2.0,
-      "win_rate": 67.9,
-      "total_trades": 22,
-      "signals": ["MACD > Signal", "Histogram positive"]
+    {
+      "name": "MACD",
+      "sharpe": 1.12,
+      "drawdown": 2.11,
+      "position": "long"
     },
-    "Bollinger": {
-      "status": "active",
-      "current_position": "long",
-      "entry_price": 40750.0,
-      "current_price": 40821.3,
-      "pnl_percent": 0.17,
-      "sharpe_ratio": 1.20,
-      "max_drawdown": -3.5,
-      "win_rate": 55.6,
-      "total_trades": 36,
-      "signals": ["Price > Middle Band", "Band width normal"]
+    {
+      "name": "Bollinger",
+      "sharpe": 2.08,
+      "drawdown": 1.29,
+      "position": "flat"
     },
-    "Momentum": {
-      "status": "inactive",
-      "current_position": "flat",
-      "entry_price": null,
-      "current_price": 40821.3,
-      "pnl_percent": 0.0,
-      "sharpe_ratio": 1.65,
-      "max_drawdown": -4.2,
-      "win_rate": 59.4,
-      "total_trades": 30,
-      "signals": ["Momentum weak", "Waiting for signal"]
+    {
+      "name": "Momentum",
+      "sharpe": 0.52,
+      "drawdown": 7.94,
+      "position": "short"
     },
-    "MeanReversion": {
-      "status": "active",
-      "current_position": "short",
-      "entry_price": 40980.0,
-      "current_price": 40821.3,
-      "pnl_percent": 0.39,
-      "sharpe_ratio": 1.38,
-      "max_drawdown": -3.8,
-      "win_rate": 53.8,
-      "total_trades": 26,
-      "signals": ["Overbought correction", "Price reverting to mean"]
+    {
+      "name": "MeanReversion",
+      "sharpe": 2.88,
+      "drawdown": 0.56,
+      "position": "long"
     }
-  },
-  "summary": {
-    "active_strategies": 7,
-    "total_pnl_percent": 0.75,
-    "best_strategy": "MACD",
-    "worst_strategy": "Bollinger",
-    "overall_sharpe": 1.72,
-    "overall_max_drawdown": -2.6,
-    "market_condition": "bullish",
-    "risk_level": "medium"
-  },
-  "source": "模拟数据（HelloQuant实际数据获取失败）"
+  ],
+  "total_strategies": 8,
+  "avg_sharpe": 1.31,
+  "max_drawdown": 7.94,
+  "active_positions": 6
 }

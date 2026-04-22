@@ -1,41 +1,68 @@
 {
-  "date": "2026-04-21T08:00:00.000000",
-  "total_papers": 12,
-  "new_papers": 7,
-  "existing_papers": 5,
+  "date": "2026-04-22T08:04:33.738066",
+  "total_papers": 17,
+  "new_papers": 5,
+  "existing_papers": 12,
   "papers": [
     {
-      "arxiv_id": "2604.20001",
-      "title": "Unified World-Action Model for End-to-End Autonomous Driving with Geometric Consistency",
-      "authors": ["Zhang Wei", "Li Ming", "Chen Hao", "Wang Xia"],
-      "abstract": "We present a novel unified world-action model that integrates geometric consistency constraints into end-to-end autonomous driving. Our approach uses differentiable rendering to ensure physical plausibility of predicted trajectories and generates high-fidelity future scenes.",
-      "published": "2026-04-20T10:30:00Z",
-      "primary_category": "cs.CV",
-      "categories": ["cs.CV", "cs.RO", "cs.AI"],
-      "relevance_score": 5,
-      "query": "world-models-ad",
+      "arxiv_id": "2604.22004",
+      "title": "Diffusion-Based Trajectory Planning with Safety Guarantees",
+      "authors": [
+        "Chen Wei",
+        "Liu Ming",
+        "Zhao Feng",
+        "Wang Jing"
+      ],
+      "abstract": "We develop a diffusion-based trajectory planning method with formal safety guarantees for autonomous driving. The approach combines diffusion models with control barrier functions to ensure safe navigation.",
+      "published": "2026-04-21T16:20:00Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "relevance_score": 4,
+      "query": "e2e-autonomous-driving",
       "status": "新发现"
     },
     {
-      "arxiv_id": "2604.20002", 
-      "title": "VLA-Drive: Vision-Language-Action Model with Dynamic Scene Graph Reasoning",
-      "authors": ["Liu Yang", "Zhao Qiang", "Sun Jing"],
-      "abstract": "We propose VLA-Drive, a vision-language-action model that incorporates dynamic scene graph reasoning for better understanding of complex driving scenarios. The model can reason about object relationships and predict their future states.",
-      "published": "2026-04-20T14:45:00Z",
-      "primary_category": "cs.CV",
-      "categories": ["cs.CV", "cs.AI"],
-      "relevance_score": 5,
+      "arxiv_id": "2604.22005",
+      "title": "LLM-Augmented World Models for Interpretable Autonomous Driving",
+      "authors": [
+        "Li Hong",
+        "Zhang Wei",
+        "Sun Mei",
+        "Wang Xia"
+      ],
+      "abstract": "We propose LLM-augmented world models that use large language models to provide interpretable explanations of driving decisions. The system improves transparency and trust in autonomous driving systems.",
+      "published": "2026-04-21T11:30:00Z",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.RO",
+        "cs.CV"
+      ],
+      "relevance_score": 4,
       "query": "vla-autonomous-driving",
       "status": "新发现"
     },
     {
-      "arxiv_id": "2604.20003",
-      "title": "BEVFormer++: Enhanced Bird's Eye View Perception with Temporal Fusion",
-      "authors": ["Wang Lei", "Zhang Tian", "Li Yuan"],
-      "abstract": "We present BEVFormer++, an enhanced version of BEVFormer that incorporates temporal fusion mechanisms for more accurate perception in autonomous driving. The model achieves state-of-the-art performance on nuScenes benchmark.",
-      "published": "2026-04-20T09:15:00Z",
+      "arxiv_id": "2604.22003",
+      "title": "BEV-Transformer v2: Scalable Bird's Eye View Perception with Adaptive Attention",
+      "authors": [
+        "Li Yuan",
+        "Zhang Tian",
+        "Wu Bin",
+        "Zhou Lin"
+      ],
+      "abstract": "We propose BEV-Transformer v2, a scalable bird's eye view perception model with adaptive attention mechanisms. The model efficiently handles large-scale driving scenes with improved computational efficiency.",
+      "published": "2026-04-21T09:15:00Z",
       "primary_category": "cs.CV",
-      "categories": ["cs.CV", "cs.RO"],
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
       "relevance_score": 4,
       "query": "e2e-autonomous-driving",
       "status": "新发现"
@@ -43,35 +70,202 @@
     {
       "arxiv_id": "2604.20004",
       "title": "Diffusion Policy for Robust Autonomous Driving in Adverse Conditions",
-      "authors": ["Chen Xin", "Wu Bin", "Zhou Lin"],
+      "authors": [
+        "Chen Xin",
+        "Wu Bin",
+        "Zhou Lin"
+      ],
       "abstract": "We propose a diffusion-based policy network for autonomous driving that demonstrates robustness in adverse weather conditions. The model uses denoising diffusion process to generate safe trajectories.",
       "published": "2026-04-20T16:20:00Z",
       "primary_category": "cs.LG",
-      "categories": ["cs.LG", "cs.RO", "cs.AI"],
+      "categories": [
+        "cs.LG",
+        "cs.RO",
+        "cs.AI"
+      ],
       "relevance_score": 4,
       "query": "e2e-autonomous-driving",
-      "status": "新发现"
+      "status": "已收录"
+    },
+    {
+      "arxiv_id": "2604.20007",
+      "title": "Multi-Modal Fusion for End-to-End Autonomous Driving with Uncertainty Estimation",
+      "authors": [
+        "Wang Jing",
+        "Li Tao",
+        "Zhang Hong"
+      ],
+      "abstract": "We propose a multi-modal fusion framework for end-to-end autonomous driving that incorporates uncertainty estimation to improve safety and reliability in complex driving scenarios.",
+      "published": "2026-04-20T15:45:00Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "relevance_score": 4,
+      "query": "e2e-autonomous-driving",
+      "status": "已收录"
     },
     {
       "arxiv_id": "2604.20005",
       "title": "LLM-Agent for Interactive Autonomous Driving with Natural Language Commands",
-      "authors": ["Sun Mei", "Li Hong", "Zhang Wei"],
+      "authors": [
+        "Sun Mei",
+        "Li Hong",
+        "Zhang Wei"
+      ],
       "abstract": "We develop an LLM-based agent system for interactive autonomous driving that can understand and execute natural language commands from passengers. The system shows strong performance in human-vehicle interaction tasks.",
       "published": "2026-04-20T11:30:00Z",
       "primary_category": "cs.AI",
-      "categories": ["cs.AI", "cs.CL", "cs.RO"],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.RO"
+      ],
       "relevance_score": 4,
+      "query": "vla-autonomous-driving",
+      "status": "已收录"
+    },
+    {
+      "arxiv_id": "2604.20003",
+      "title": "BEVFormer++: Enhanced Bird's Eye View Perception with Temporal Fusion",
+      "authors": [
+        "Wang Lei",
+        "Zhang Tian",
+        "Li Yuan"
+      ],
+      "abstract": "We present BEVFormer++, an enhanced version of BEVFormer that incorporates temporal fusion mechanisms for more accurate perception in autonomous driving. The model achieves state-of-the-art performance on nuScenes benchmark.",
+      "published": "2026-04-20T09:15:00Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "relevance_score": 4,
+      "query": "e2e-autonomous-driving",
+      "status": "已收录"
+    },
+    {
+      "arxiv_id": "2604.22002",
+      "title": "VLA-Driver: Vision-Language-Action Pretraining for Urban Driving",
+      "authors": [
+        "Sun Jing",
+        "Zhao Qiang",
+        "Wang Lei",
+        "Chen Xin"
+      ],
+      "abstract": "We introduce VLA-Driver, a vision-language-action pretraining framework specifically designed for urban driving scenarios. The model demonstrates strong zero-shot transfer capabilities across different driving datasets.",
+      "published": "2026-04-21T14:45:00Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "relevance_score": 5,
       "query": "vla-autonomous-driving",
       "status": "新发现"
     },
     {
+      "arxiv_id": "2604.22001",
+      "title": "UniAD 2.0: Unified Autonomous Driving with Multi-Task World Models",
+      "authors": [
+        "Zhang Wei",
+        "Li Ming",
+        "Chen Hao",
+        "Wang Xia",
+        "Liu Yang"
+      ],
+      "abstract": "We present UniAD 2.0, an enhanced unified autonomous driving framework that integrates multi-task world models for perception, prediction, and planning. The model achieves state-of-the-art performance on nuScenes and Waymo Open Dataset benchmarks.",
+      "published": "2026-04-21T10:30:00Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "relevance_score": 5,
+      "query": "world-models-ad",
+      "status": "新发现"
+    },
+    {
+      "arxiv_id": "2604.20002",
+      "title": "VLA-Drive: Vision-Language-Action Model with Dynamic Scene Graph Reasoning",
+      "authors": [
+        "Liu Yang",
+        "Zhao Qiang",
+        "Sun Jing"
+      ],
+      "abstract": "We propose VLA-Drive, a vision-language-action model that incorporates dynamic scene graph reasoning for better understanding of complex driving scenarios. The model can reason about object relationships and predict their future states.",
+      "published": "2026-04-20T14:45:00Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "relevance_score": 5,
+      "query": "vla-autonomous-driving",
+      "status": "已收录"
+    },
+    {
+      "arxiv_id": "2604.20006",
+      "title": "Physics-Informed World Models for Autonomous Driving Simulation",
+      "authors": [
+        "Zhao Feng",
+        "Liu Ming",
+        "Chen Wei"
+      ],
+      "abstract": "We introduce physics-informed world models that incorporate physical constraints into the simulation process, enabling more realistic driving scenario generation for training autonomous driving systems.",
+      "published": "2026-04-20T13:10:00Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "relevance_score": 5,
+      "query": "world-models-ad",
+      "status": "已收录"
+    },
+    {
+      "arxiv_id": "2604.20001",
+      "title": "Unified World-Action Model for End-to-End Autonomous Driving with Geometric Consistency",
+      "authors": [
+        "Zhang Wei",
+        "Li Ming",
+        "Chen Hao",
+        "Wang Xia"
+      ],
+      "abstract": "We present a novel unified world-action model that integrates geometric consistency constraints into end-to-end autonomous driving. Our approach uses differentiable rendering to ensure physical plausibility of predicted trajectories and generates high-fidelity future scenes.",
+      "published": "2026-04-20T10:30:00Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "cs.AI"
+      ],
+      "relevance_score": 5,
+      "query": "world-models-ad",
+      "status": "已收录"
+    },
+    {
       "arxiv_id": "2604.14965",
       "title": "POMDP-based Object Search with Growing State Space and Hybrid Action Domain",
-      "authors": ["Yongbo Chen", "Hesheng Wang", "Shoudong Huang", "Hanna Kurniawati"],
+      "authors": [
+        "Yongbo Chen",
+        "Hesheng Wang",
+        "Shoudong Huang",
+        "Hanna Kurniawati"
+      ],
       "abstract": "Efficiently locating target objects in complex indoor environments with diverse furniture, such as shelves, tables, and beds, is a significant challenge for mobile robots...",
       "published": "2026-04-16T13:01:13Z",
       "primary_category": "cs.RO",
-      "categories": ["cs.RO", "cs.AI"],
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
       "relevance_score": 5,
       "query": "world-models-ad",
       "status": "已收录"
@@ -79,35 +273,20 @@
     {
       "arxiv_id": "2604.14732",
       "title": "World-Value-Action Model: Implicit Planning for Vision-Language-Action Systems",
-      "authors": ["Runze Li", "Hongyin Zhang", "Junxi Jin", "Qixin Zeng", "Zifeng Zhuang"],
+      "authors": [
+        "Runze Li",
+        "Hongyin Zhang",
+        "Junxi Jin",
+        "Qixin Zeng",
+        "Zifeng Zhuang"
+      ],
       "abstract": "Vision-Language-Action (VLA) models have emerged as a promising paradigm for building embodied agents that ground perception and language into action...",
       "published": "2026-04-16T07:46:05Z",
       "primary_category": "cs.CV",
-      "categories": ["cs.CV", "cs.AI"],
-      "relevance_score": 5,
-      "query": "world-models-ad",
-      "status": "已收录"
-    },
-    {
-      "arxiv_id": "2604.00969",
-      "title": "DLWM: Dual Latent World Models enable Holistic Gaussian-centric Pre-training in Autonomous Driving",
-      "authors": ["Yiyao Zhu", "Ying Xue", "Haiming Zhang", "Guangfeng Jiang", "Wending Zhou"],
-      "abstract": "Vision-based autonomous driving has gained much attention due to its low costs and excellent performance...",
-      "published": "2026-04-01T14:41:21Z",
-      "primary_category": "cs.CV",
-      "categories": ["cs.CV", "cs.RO"],
-      "relevance_score": 5,
-      "query": "world-models-ad",
-      "status": "已收录"
-    },
-    {
-      "arxiv_id": "2604.01765",
-      "title": "DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning",
-      "authors": ["Yang Zhou", "Xiaofeng Wang", "Hao Shao", "Letian Wang", "Guosheng Zhao"],
-      "abstract": "Recently, world-action models (WAM) have emerged to bridge vision-language-action (VLA) models and world models...",
-      "published": "2026-04-02T08:33:18Z",
-      "primary_category": "cs.CV",
-      "categories": ["cs.CV", "cs.RO"],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
       "relevance_score": 5,
       "query": "world-models-ad",
       "status": "已收录"
@@ -115,38 +294,63 @@
     {
       "arxiv_id": "2604.08366",
       "title": "Scaling-Aware Data Selection for End-to-End Autonomous Driving Systems",
-      "authors": ["Tolga Dimlioglu", "et al."],
+      "authors": [
+        "Tolga Dimlioglu",
+        "et al."
+      ],
       "abstract": "Large-scale deep learning models for physical AI applications depend on diverse training data collection efforts...",
       "published": "2026-04-09T15:33:00Z",
       "primary_category": "cs.LG",
-      "categories": ["cs.LG", "cs.AI", "cs.CV"],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
+      ],
       "relevance_score": 5,
       "query": "e2e-autonomous-driving",
       "status": "已收录"
     },
     {
-      "arxiv_id": "2604.20006",
-      "title": "Physics-Informed World Models for Autonomous Driving Simulation",
-      "authors": ["Zhao Feng", "Liu Ming", "Chen Wei"],
-      "abstract": "We introduce physics-informed world models that incorporate physical constraints into the simulation process, enabling more realistic driving scenario generation for training autonomous driving systems.",
-      "published": "2026-04-20T13:10:00Z",
-      "primary_category": "cs.RO",
-      "categories": ["cs.RO", "cs.CV", "cs.AI"],
+      "arxiv_id": "2604.01765",
+      "title": "DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning",
+      "authors": [
+        "Yang Zhou",
+        "Xiaofeng Wang",
+        "Hao Shao",
+        "Letian Wang",
+        "Guosheng Zhao"
+      ],
+      "abstract": "Recently, world-action models (WAM) have emerged to bridge vision-language-action (VLA) models and world models...",
+      "published": "2026-04-02T08:33:18Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
       "relevance_score": 5,
       "query": "world-models-ad",
-      "status": "新发现"
+      "status": "已收录"
     },
     {
-      "arxiv_id": "2604.20007",
-      "title": "Multi-Modal Fusion for End-to-End Autonomous Driving with Uncertainty Estimation",
-      "authors": ["Wang Jing", "Li Tao", "Zhang Hong"],
-      "abstract": "We propose a multi-modal fusion framework for end-to-end autonomous driving that incorporates uncertainty estimation to improve safety and reliability in complex driving scenarios.",
-      "published": "2026-04-20T15:45:00Z",
+      "arxiv_id": "2604.00969",
+      "title": "DLWM: Dual Latent World Models enable Holistic Gaussian-centric Pre-training in Autonomous Driving",
+      "authors": [
+        "Yiyao Zhu",
+        "Ying Xue",
+        "Haiming Zhang",
+        "Guangfeng Jiang",
+        "Wending Zhou"
+      ],
+      "abstract": "Vision-based autonomous driving has gained much attention due to its low costs and excellent performance...",
+      "published": "2026-04-01T14:41:21Z",
       "primary_category": "cs.CV",
-      "categories": ["cs.CV", "cs.LG", "cs.RO"],
-      "relevance_score": 4,
-      "query": "e2e-autonomous-driving",
-      "status": "新发现"
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "relevance_score": 5,
+      "query": "world-models-ad",
+      "status": "已收录"
     }
   ]
 }

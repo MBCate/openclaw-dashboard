@@ -1,121 +1,169 @@
 {
-  "timestamp": "2026-04-22T01:17:27.135008",
-  "news": [
-    {
-      "source": "CNBC Top",
-      "title": "Trump extends ceasefire in Iran, citing 'seriously fractured' Iranian government",
-      "published": "Tue, 21 Apr 2026",
-      "link": "",
-      "category": "Global Macro"
-    },
-    {
-      "source": "CNBC Top",
-      "title": "SpaceX says it can buy Cursor later this year for $60 billion or pay $10 billion for 'our work together'",
-      "published": "Wed, 22 Apr 2026",
-      "link": "",
-      "category": "US Markets"
-    },
-    {
-      "source": "CNBC Top",
-      "title": "Analysis: Warsh emerges from a difficult hearing with his Fed 'regime-change' plan intact",
-      "published": "Tue, 21 Apr 2026",
-      "link": "",
-      "category": "US Markets"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Major crypto platform shuts down amid market slump",
-      "published": "2026-04-20T21:50",
-      "link": "",
-      "category": "Crypto"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Earnings Preview: What to Expect From EPAM Systems' Report",
-      "published": "2026-04-20T13:07",
-      "link": "",
-      "category": "US Markets"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Is Nvidia (NVDA) The Best AI Stock Pick of Motley Fool Asset Management?",
-      "published": "2026-04-20T13:11",
-      "link": "",
-      "category": "US Markets"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "What is Cursor? SpaceX could buy the AI company for a whopping $60 billion.",
-      "published": "Wed, 22 Apr 2026",
-      "link": "",
-      "category": "US Markets"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "'This is unbelievable': My adviser made $300,000 trading options. Now I'm being killed by taxes. Do I fire him?",
-      "published": "Tue, 21 Apr 2026",
-      "link": "",
-      "category": "US Markets"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Trump Media CEO Devin Nunes is leaving. This digital-media veteran will take his place.",
-      "published": "Tue, 21 Apr 2026",
-      "link": "",
-      "category": "US Markets"
-    },
-    {
-      "source": "SCMP Business",
-      "title": "China's shipyards secure wave of oil tanker orders as Iran war drives demand",
-      "published": "Wed, 22 Apr 2026",
-      "link": "",
-      "category": "Asia Markets"
-    }
-  ],
+  "timestamp": "2026-04-22 21:30:37",
+  "date": "2026-04-22",
+  "update_type": "evening_international",
   "markets": {
-    "us_markets": {
-      "S&P 500": {
-        "price": 5120.45,
-        "change": -0.2,
-        "change_percent": -0.04
+    "us": {
+      "status": "market_closed",
+      "indices": {
+        "s&p500": {
+          "price": 5206.0,
+          "change": -0.28,
+          "change_percent": -0.28
+        },
+        "nasdaq": {
+          "price": 16212.0,
+          "change": -0.26,
+          "change_percent": -0.26
+        },
+        "dow_jones": {
+          "price": 38524.0,
+          "change": -0.38,
+          "change_percent": -0.38
+        }
       },
-      "NASDAQ": {
-        "price": 16025.33,
-        "change": -45.67,
-        "change_percent": -0.28
+      "summary": "美股三大指数波动，科技股表现分化"
+    },
+    "europe": {
+      "status": "market_closed",
+      "indices": {
+        "ftse100": {
+          "price": 7903.6,
+          "change": -0.19,
+          "change_percent": -0.19
+        },
+        "dax": {
+          "price": 18006.0,
+          "change": -0.08,
+          "change_percent": -0.08
+        },
+        "cac40": {
+          "price": 8004.8,
+          "change": -0.14,
+          "change_percent": -0.14
+        }
       },
-      "Dow Jones": {
-        "price": 39442.12,
-        "change": 12.34,
-        "change_percent": 0.03
-      }
+      "summary": "欧股收盘小幅波动，关注欧洲央行政策"
+    },
+    "asia": {
+      "status": "market_closed",
+      "indices": {
+        "hang_seng": {
+          "price": 16509.6,
+          "change": -0.46,
+          "change_percent": -0.46
+        },
+        "nikkei225": {
+          "price": 38018.0,
+          "change": 0.21,
+          "change_percent": 0.21
+        },
+        "asx200": {
+          "price": 7702.4,
+          "change": -0.08,
+          "change_percent": -0.08
+        }
+      },
+      "summary": "亚洲市场涨跌互现，日股表现相对强势"
     },
     "crypto": {
-      "BTC": {
-        "price": 64520.5,
-        "change": 320.5,
-        "change_percent": 0.5
+      "status": "trading_24h",
+      "coins": {
+        "bitcoin": {
+          "price": 65240.0,
+          "change": 2.79,
+          "change_percent": 2.79
+        },
+        "ethereum": {
+          "price": 3224.0,
+          "change": 1.9,
+          "change_percent": 1.9
+        }
       },
-      "ETH": {
-        "price": 3150.75,
-        "change": -25.25,
-        "change_percent": -0.79
-      }
-    },
-    "hk_market": {
-      "恒生指数": {
-        "price": 16520.45,
-        "change": -120.34,
-        "change_percent": -0.72
-      }
-    },
-    "timestamp": "2026-04-22T01:17:27.135000"
+      "summary": "加密货币市场震荡上行，比特币站稳6.5万美元上方"
+    }
   },
-  "metadata": {
-    "source": "market-intel skill",
-    "collection_time": "2026-04-22 09:17:27",
-    "timezone": "Asia/Shanghai",
-    "type": "morning_preview",
-    "notes": "早盘预览：隔夜国际新闻汇总，伊朗停火延长，SpaceX考虑收购Cursor，加密货币平台关闭"
+  "news": [
+    {
+      "source": "CNBC Top Stories",
+      "title": "Iran says it has seized two ships in Strait of Hormuz after U.S. extends ceasefire",
+      "link": "https://www.cnbc.com/2026/04/22/strait-of-hormuz-ships-attacked-iran-war.html",
+      "published": "Wed, 22 Apr 2026 11:25:53 GMT",
+      "region": "US"
+    },
+    {
+      "source": "CNBC Top Stories",
+      "title": "Google unveils chips for AI training and inference in latest shot at Nvidia",
+      "link": "https://www.cnbc.com/2026/04/22/google-launches-training-and-inference-tpus-in-latest-shot-at-nvidia.html",
+      "published": "Wed, 22 Apr 2026 13:18:40 GMT",
+      "region": "US"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "US Can Sustain Blockade Indefinitely, Esper Says",
+      "link": "https://www.bloomberg.com/news/videos/2026-04-22/us-can-sustain-blockade-indefinitely-esper-says-video",
+      "published": "Wed, 22 Apr 2026 13:18:06 GMT",
+      "region": "Global"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Vietnam, South Korea Ink Deals on Security, Nuclear Power",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-22/vietnam-south-korea-ink-deals-on-security-nuclear-power-plants",
+      "published": "Wed, 22 Apr 2026 12:33:43 GMT",
+      "region": "Global"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Warren Buffett dumped 77% of Amazon to buy surging media stock",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-dumped-77-amazon-003700673.html",
+      "published": "2026-04-22T00:37:00Z",
+      "region": "US"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Tech stocks today: Tesla earnings on deck, Google announces new chips raising stakes for Nvidia",
+      "link": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-tesla-earnings-on-deck-google-announces-new-chips-raising-stakes-for-nvidia-144220187.html",
+      "published": "2026-03-13T14:42:20Z",
+      "region": "US"
+    },
+    {
+      "source": "MarketWatch Top Stories",
+      "title": "I’m planning to retire at 60. Should I sell my house, rent and invest the $500,000?",
+      "link": "https://www.marketwatch.com/story/im-planning-to-retire-at-60-should-i-sell-my-house-and-invest-the-500-000-2b504dd9?mod=mw_rss_topstories",
+      "published": "Wed, 22 Apr 2026 13:22:00 GMT",
+      "region": "Global"
+    },
+    {
+      "source": "MarketWatch Top Stories",
+      "title": "My 20-year-old daughter quit her job. What should she do with her 401(k)?",
+      "link": "https://www.marketwatch.com/story/my-20-year-old-daughter-quit-her-job-what-should-she-do-with-her-401-k-d7ab7fc9?mod=mw_rss_topstories",
+      "published": "Wed, 22 Apr 2026 12:52:00 GMT",
+      "region": "Global"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Russia to suspend Kazakh oil flows through key pipeline supplying Berlin",
+      "link": "https://www.ft.com/content/3738ba48-b4e2-493d-96b1-0a80b4e2c4b8",
+      "published": "Wed, 22 Apr 2026 13:23:28 GMT",
+      "region": "Global"
+    },
+    {
+      "source": "FT Markets",
+      "title": "UK dilutes post-crisis ‘fit and proper’ rules for financial services staff",
+      "link": "https://www.ft.com/content/7e810957-2370-4960-89d9-e4dc389e3189",
+      "published": "Wed, 22 Apr 2026 11:23:46 GMT",
+      "region": "Global"
+    }
+  ],
+  "analysis": {
+    "key_themes": [
+      "美联储维持利率不变，市场关注通胀数据",
+      "科技巨头财报季来临，市场预期分化",
+      "地缘政治紧张局势影响能源市场",
+      "加密货币监管政策不确定性增加",
+      "亚洲经济数据改善，提振市场信心"
+    ],
+    "risk_level": "medium",
+    "outlook": "市场情绪谨慎乐观，等待更多经济数据指引"
   }
 }

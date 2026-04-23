@@ -1,57 +1,57 @@
 {
-  "timestamp": "2026-04-22T15:06:41.569096",
+  "timestamp": "2026-04-23T15:08:38.399121",
   "strategies": [
     {
       "name": "DoubleMa",
-      "sharpe": 1.91,
-      "drawdown": 1.58,
+      "sharpe": 1.8629101133609487,
+      "drawdown": 1.7505372554211536,
       "position": "long"
     },
     {
       "name": "TripleMa",
-      "sharpe": 0.58,
-      "drawdown": 3.73,
-      "position": "short"
+      "sharpe": 0.6737170550402267,
+      "drawdown": 3.5889865909612446,
+      "position": "flat"
     },
     {
       "name": "Supertrend",
-      "sharpe": 0.81,
-      "drawdown": 1.54,
+      "sharpe": 0.7727075429858051,
+      "drawdown": 1.4350761876259386,
       "position": "long"
     },
     {
       "name": "RSI",
-      "sharpe": 0.54,
-      "drawdown": 4.1,
+      "sharpe": 0.48107689200257747,
+      "drawdown": 4.008959560702726,
       "position": "flat"
     },
     {
       "name": "MACD",
-      "sharpe": 1.12,
-      "drawdown": 2.11,
+      "sharpe": 1.197970298404489,
+      "drawdown": 2.136897958038202,
       "position": "long"
     },
     {
       "name": "Bollinger",
-      "sharpe": 2.08,
-      "drawdown": 1.29,
+      "sharpe": 2.0822551691551667,
+      "drawdown": 1.4490100723107893,
       "position": "flat"
     },
     {
       "name": "Momentum",
-      "sharpe": 0.52,
-      "drawdown": 7.94,
+      "sharpe": 0.43970435900266425,
+      "drawdown": 7.906960772834832,
       "position": "short"
     },
     {
       "name": "MeanReversion",
-      "sharpe": 2.88,
-      "drawdown": 0.56,
+      "sharpe": 2.794161913769919,
+      "drawdown": 0.6562867196860077,
       "position": "long"
     }
   ],
   "total_strategies": 8,
-  "avg_sharpe": 1.31,
-  "max_drawdown": 7.94,
-  "active_positions": 6
+  "avg_sharpe": 1.29,
+  "max_drawdown": 7.91,
+  "active_positions": 5
 }

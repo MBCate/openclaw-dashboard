@@ -1,46 +1,77 @@
 {
-  "timestamp": "2026-04-23 11:38:16",
-  "market_status": "trading",
-  "session": "noon",
-  "indices": {
-    "上证指数": {
-      "price": 4073.71,
-      "change": -0.79,
-      "status": "下跌"
+  "timestamp": "2026-04-23T15:08:38.398926",
+  "date": "2026-04-23",
+  "time": "15:08",
+  "update_type": "收盘",
+  "indices": [
+    {
+      "name": "上证指数",
+      "code": "000001",
+      "price": 3108.8946662539397,
+      "change": -0.8120017744722698,
+      "change_amount": 29.31928994648466,
+      "volume": 1467172.735877952,
+      "amount": 1875972.9305026913
     },
-    "深证成指": {
-      "price": 12485.32,
-      "change": -1.25,
-      "status": "下跌"
+    {
+      "name": "深证成指",
+      "code": "399001",
+      "price": 10493.832486278841,
+      "change": -0.5774671188231322,
+      "change_amount": -22.185672069937397,
+      "volume": 1278874.605981855,
+      "amount": 1826628.2676767139
     },
-    "创业板指": {
-      "price": 2567.89,
-      "change": -1.85,
-      "status": "下跌"
+    {
+      "name": "创业板指",
+      "code": "399006",
+      "price": 2101.3672002069884,
+      "change": -0.4925102171121889,
+      "change_amount": -19.686465537297334,
+      "volume": 788992.009240011,
+      "amount": 1122527.2973556235
     }
-  },
-  "north_flow": {
+  ],
+  "sectors": [
+    {
+      "name": "食用菌",
+      "change": 7.3,
+      "price": 1852.56
+    },
+    {
+      "name": "风力发电",
+      "change": 3.67,
+      "price": 2458.18
+    },
+    {
+      "name": "油气及炼化工程",
+      "change": 3.06,
+      "price": 2061.27
+    },
+    {
+      "name": "其他数字媒体",
+      "change": 2.81,
+      "price": 861.61
+    },
+    {
+      "name": "白酒Ⅱ",
+      "change": 2.79,
+      "price": 4787.48
+    }
+  ],
+  "northbound": {
     "date": "2026-04-23",
-    "north_flow": 15.42,
-    "south_flow": 8.76,
-    "unit": "亿元"
+    "total": -3.6344264801636283,
+    "shanghai": -1.2864670343082958,
+    "shenzhen": -2.3479594458553326
   },
-  "sectors": {
-    "top_gainers": [
-      {"name": "煤炭开采", "change": 2.85},
-      {"name": "石油化工", "change": 1.92},
-      {"name": "银行", "change": 0.78},
-      {"name": "电力", "change": 0.65},
-      {"name": "钢铁", "change": 0.42}
-    ],
-    "top_losers": [
-      {"name": "半导体", "change": -3.25},
-      {"name": "计算机", "change": -2.87},
-      {"name": "传媒", "change": -2.45},
-      {"name": "电子", "change": -2.12},
-      {"name": "通信", "change": -1.89}
-    ]
+  "summary": {
+    "market_status": "已收盘",
+    "average_change": -0.63,
+    "northbound_inflow": -3.6344264801636283,
+    "indices_count": 3,
+    "sectors_count": 5,
+    "update_time": "15:08"
   },
-  "update_time": "2026-04-23T11:38:16+08:00",
-  "source": "午盘数据更新"
+  "market_status": "已收盘"
 }

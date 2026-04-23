@@ -1,169 +1,54 @@
 {
-  "timestamp": "2026-04-22 21:30:37",
-  "date": "2026-04-22",
-  "update_type": "evening_international",
-  "markets": {
-    "us": {
-      "status": "market_closed",
-      "indices": {
-        "s&p500": {
-          "price": 5206.0,
-          "change": -0.28,
-          "change_percent": -0.28
-        },
-        "nasdaq": {
-          "price": 16212.0,
-          "change": -0.26,
-          "change_percent": -0.26
-        },
-        "dow_jones": {
-          "price": 38524.0,
-          "change": -0.38,
-          "change_percent": -0.38
-        }
-      },
-      "summary": "美股三大指数波动，科技股表现分化"
+  "timestamp": "2026-04-23 09:15:41",
+  "type": "morning_preview",
+  "china": {
+    "上证指数": {
+      "price": 4106.258,
+      "change": 0.0
     },
-    "europe": {
-      "status": "market_closed",
-      "indices": {
-        "ftse100": {
-          "price": 7903.6,
-          "change": -0.19,
-          "change_percent": -0.19
-        },
-        "dax": {
-          "price": 18006.0,
-          "change": -0.08,
-          "change_percent": -0.08
-        },
-        "cac40": {
-          "price": 8004.8,
-          "change": -0.14,
-          "change_percent": -0.14
-        }
-      },
-      "summary": "欧股收盘小幅波动，关注欧洲央行政策"
+    "深证成指": {
+      "price": 15177.286,
+      "change": 0.0
     },
-    "asia": {
-      "status": "market_closed",
-      "indices": {
-        "hang_seng": {
-          "price": 16509.6,
-          "change": -0.46,
-          "change_percent": -0.46
-        },
-        "nikkei225": {
-          "price": 38018.0,
-          "change": 0.21,
-          "change_percent": 0.21
-        },
-        "asx200": {
-          "price": 7702.4,
-          "change": -0.08,
-          "change_percent": -0.08
-        }
-      },
-      "summary": "亚洲市场涨跌互现，日股表现相对强势"
-    },
-    "crypto": {
-      "status": "trading_24h",
-      "coins": {
-        "bitcoin": {
-          "price": 65240.0,
-          "change": 2.79,
-          "change_percent": 2.79
-        },
-        "ethereum": {
-          "price": 3224.0,
-          "change": 1.9,
-          "change_percent": 1.9
-        }
-      },
-      "summary": "加密货币市场震荡上行，比特币站稳6.5万美元上方"
+    "创业板指": {
+      "price": 3752.759,
+      "change": 0.0
     }
   },
+  "us": {},
+  "hk": {},
   "news": [
     {
-      "source": "CNBC Top Stories",
-      "title": "Iran says it has seized two ships in Strait of Hormuz after U.S. extends ceasefire",
-      "link": "https://www.cnbc.com/2026/04/22/strait-of-hormuz-ships-attacked-iran-war.html",
-      "published": "Wed, 22 Apr 2026 11:25:53 GMT",
-      "region": "US"
+      "source": "CNBC",
+      "title": "Tesla misses on revenue but beats on profit as auto margins jump",
+      "published": "Wed, 22 Apr 2026",
+      "url": "https://www.cnbc.com/2026/04/22/tesla-tsla-q1-2026-earnings-report.html"
     },
     {
-      "source": "CNBC Top Stories",
-      "title": "Google unveils chips for AI training and inference in latest shot at Nvidia",
-      "link": "https://www.cnbc.com/2026/04/22/google-launches-training-and-inference-tpus-in-latest-shot-at-nvidia.html",
-      "published": "Wed, 22 Apr 2026 13:18:40 GMT",
-      "region": "US"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "US Can Sustain Blockade Indefinitely, Esper Says",
-      "link": "https://www.bloomberg.com/news/videos/2026-04-22/us-can-sustain-blockade-indefinitely-esper-says-video",
-      "published": "Wed, 22 Apr 2026 13:18:06 GMT",
-      "region": "Global"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Vietnam, South Korea Ink Deals on Security, Nuclear Power",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-22/vietnam-south-korea-ink-deals-on-security-nuclear-power-plants",
-      "published": "Wed, 22 Apr 2026 12:33:43 GMT",
-      "region": "Global"
+      "source": "CNBC",
+      "title": "IBM shares drop as company beats but opts to maintain guidance",
+      "published": "Wed, 22 Apr 2026",
+      "url": "https://www.cnbc.com/2026/04/22/ibm-q1-earnings-report-2026.html"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Warren Buffett dumped 77% of Amazon to buy surging media stock",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-dumped-77-amazon-003700673.html",
-      "published": "2026-04-22T00:37:00Z",
-      "region": "US"
+      "title": "Bearish Tesla analyst has good news for Rivian stock investors",
+      "published": "2026-04-21T18:17",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bearish-tesla-analyst-good-news-181700034.html"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Tech stocks today: Tesla earnings on deck, Google announces new chips raising stakes for Nvidia",
-      "link": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-tesla-earnings-on-deck-google-announces-new-chips-raising-stakes-for-nvidia-144220187.html",
-      "published": "2026-03-13T14:42:20Z",
-      "region": "US"
+      "title": "Teradyne (TER) Surged on Investors’ Favour",
+      "published": "2026-04-21T13:35",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/teradyne-ter-surged-investors-favour-133502156.html"
     },
     {
-      "source": "MarketWatch Top Stories",
-      "title": "I’m planning to retire at 60. Should I sell my house, rent and invest the $500,000?",
-      "link": "https://www.marketwatch.com/story/im-planning-to-retire-at-60-should-i-sell-my-house-and-invest-the-500-000-2b504dd9?mod=mw_rss_topstories",
-      "published": "Wed, 22 Apr 2026 13:22:00 GMT",
-      "region": "Global"
-    },
-    {
-      "source": "MarketWatch Top Stories",
-      "title": "My 20-year-old daughter quit her job. What should she do with her 401(k)?",
-      "link": "https://www.marketwatch.com/story/my-20-year-old-daughter-quit-her-job-what-should-she-do-with-her-401-k-d7ab7fc9?mod=mw_rss_topstories",
-      "published": "Wed, 22 Apr 2026 12:52:00 GMT",
-      "region": "Global"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Russia to suspend Kazakh oil flows through key pipeline supplying Berlin",
-      "link": "https://www.ft.com/content/3738ba48-b4e2-493d-96b1-0a80b4e2c4b8",
-      "published": "Wed, 22 Apr 2026 13:23:28 GMT",
-      "region": "Global"
-    },
-    {
-      "source": "FT Markets",
-      "title": "UK dilutes post-crisis ‘fit and proper’ rules for financial services staff",
-      "link": "https://www.ft.com/content/7e810957-2370-4960-89d9-e4dc389e3189",
-      "published": "Wed, 22 Apr 2026 11:23:46 GMT",
-      "region": "Global"
+      "source": "MarketWatch",
+      "title": "Why ServiceNow’s stock is sliding in the wake of earnings",
+      "published": "Thu, 23 Apr 2026",
+      "url": "https://www.marketwatch.com/story/why-servicenows-stock-is-sliding-in-the-wake-of-earnings-d1f63e4e?mod=mw_rss_topstories"
     }
   ],
-  "analysis": {
-    "key_themes": [
-      "美联储维持利率不变，市场关注通胀数据",
-      "科技巨头财报季来临，市场预期分化",
-      "地缘政治紧张局势影响能源市场",
-      "加密货币监管政策不确定性增加",
-      "亚洲经济数据改善，提振市场信心"
-    ],
-    "risk_level": "medium",
-    "outlook": "市场情绪谨慎乐观，等待更多经济数据指引"
-  }
+  "futures": {},
+  "analysis": "隔夜美股财报季继续，特斯拉营收不及预期但利润超预期。A股昨日收盘点位较高，关注今日开盘表现。"
 }

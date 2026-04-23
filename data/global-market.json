@@ -1,54 +1,96 @@
 {
-  "timestamp": "2026-04-23 09:15:41",
-  "type": "morning_preview",
-  "china": {
-    "上证指数": {
-      "price": 4106.258,
-      "change": 0.0
+  "updated": "2026-04-23T21:30:00+08:00",
+  "date": "2026-04-23",
+  "timezone": "Asia/Shanghai",
+  "us_markets": {
+    "last_close": "2026-04-22",
+    "sp500": {
+      "level": 7137.90,
+      "change": 73.89,
+      "change_pct": 1.0,
+      "note": "Record close, topped prior ATH from Apr 17"
     },
-    "深证成指": {
-      "price": 15177.286,
-      "change": 0.0
+    "dow_jones": {
+      "level": 49490.03,
+      "change": 340.65,
+      "change_pct": 0.7,
+      "note": "Up 341 pts after Trump extended Iran ceasefire"
     },
-    "创业板指": {
-      "price": 3752.759,
-      "change": 0.0
+    "nasdaq": {
+      "level": 24657.57,
+      "change": 397.60,
+      "change_pct": 1.6,
+      "note": "Record close, tech rally"
+    },
+    "russell2000": {
+      "level": 2785.38,
+      "change": 20.41,
+      "change_pct": 0.7
+    },
+    "futures": {
+      "sp500_futures": "+0.62%",
+      "dow_futures": "+0.63%",
+      "nasdaq100_futures": "+0.79%",
+      "russell2000_futures": "+0.88%",
+      "note": "Futures higher after ceasefire extension (Apr 23 pre-market)"
     }
   },
-  "us": {},
-  "hk": {},
-  "news": [
-    {
-      "source": "CNBC",
-      "title": "Tesla misses on revenue but beats on profit as auto margins jump",
-      "published": "Wed, 22 Apr 2026",
-      "url": "https://www.cnbc.com/2026/04/22/tesla-tsla-q1-2026-earnings-report.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "IBM shares drop as company beats but opts to maintain guidance",
-      "published": "Wed, 22 Apr 2026",
-      "url": "https://www.cnbc.com/2026/04/22/ibm-q1-earnings-report-2026.html"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Bearish Tesla analyst has good news for Rivian stock investors",
-      "published": "2026-04-21T18:17",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bearish-tesla-analyst-good-news-181700034.html"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Teradyne (TER) Surged on Investors’ Favour",
-      "published": "2026-04-21T13:35",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/teradyne-ter-surged-investors-favour-133502156.html"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Why ServiceNow’s stock is sliding in the wake of earnings",
-      "published": "Thu, 23 Apr 2026",
-      "url": "https://www.marketwatch.com/story/why-servicenows-stock-is-sliding-in-the-wake-of-earnings-d1f63e4e?mod=mw_rss_topstories"
+  "treasury": {
+    "10y_yield": 4.31,
+    "2y_yield": 3.77,
+    "fed_rate_prob": {
+      "hold_apr": "99.5%",
+      "note": "FedWatch: market prices near-certainty rate unchanged in April"
     }
+  },
+  "commodities": {
+    "brent_crude": 103.38,
+    "brent_change": "+1.34%",
+    "wti_crude": "~$99",
+    "note": "Brent briefly topped $102 Apr 22; Iran/Hormuz tensions keep oil elevated. Goldman expects record-low global inventories."
+  },
+  "crypto": {
+    "bitcoin": {
+      "price": 77464.56,
+      "open": 78192.98,
+      "change_pct": "+2.4%",
+      "change_1w": "+4.5%",
+      "change_1m": "+15.3%",
+      "change_1y": "-16.3%",
+      "ath": 126198.07,
+      "note": "Strong open above $78K (highest since Feb, pre-war), but traders cautious on Iran headlines"
+    },
+    "ethereum": {
+      "price": 2316.88,
+      "open": 2375.12,
+      "change_pct": "+2.0%",
+      "change_1w": "+0.7%",
+      "change_1m": "+15.7%",
+      "change_1y": "+35.2%",
+      "ath": 4953.73
+    },
+    "market_cap_total": "~$2.69T",
+    "btc_dominance": "58.2%",
+    "fear_greed_index": 46,
+    "fear_greed_label": "Fear (+14 vs yesterday)"
+  },
+  "news_headlines": [
+    "S&P 500, Nasdaq close at new records Apr 22 after Trump extends Iran ceasefire",
+    "CNBC: Trump orders Navy to 'shoot and kill any boat' laying mines in Hormuz Strait",
+    "Brent crude above $103 as Iran tensions persist; Goldman warns record-low inventories ahead",
+    "US futures decline April 23 as US-Iran impasse continues, oil price jumps",
+    "Trump net approval on economy falls to lowest of two terms (CNBC survey)",
+    "Fed Chair nominee Warsh hawkish hearing adds uncertainty; 99.5% probability of rate hold in April",
+    "Weekly Initial Jobless Claims due Thursday; UMich Consumer Sentiment due Friday",
+    "American Airlines cuts 2026 earnings outlook on jet fuel surge",
+    "Iran fired on 3 ships near Strait of Hormuz; US naval blockade remains"
   ],
-  "futures": {},
-  "analysis": "隔夜美股财报季继续，特斯拉营收不及预期但利润超预期。A股昨日收盘点位较高，关注今日开盘表现。"
+  "key_themes": [
+    "US-Iran ceasefire extended but peace talks stalled — markets volatile on headlines",
+    "S&P 500 YTD +4.3%, Nasdaq YTD +6.1%, Russell 2000 YTD +12.2%",
+    "Oil prices elevated by Middle East conflict, energy supply disruption fears",
+    "Tech sector resilient (Tesla earnings beat), but energy/industrial sectors lagged Apr 22",
+    "Kevin Warsh (incoming Fed Chair) hawkish tone at Senate hearing",
+    "Most global central banks on hold awaiting clarity on energy disruption duration"
+  ]
 }

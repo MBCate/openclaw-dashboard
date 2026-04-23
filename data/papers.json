@@ -1,9 +1,45 @@
 {
-  "date": "2026-04-22T08:04:33.738066",
-  "total_papers": 17,
-  "new_papers": 5,
-  "existing_papers": 12,
+  "date": "2026-04-23T00:00:09.000000",
+  "total_papers": 19,
+  "new_papers": 2,
+  "existing_papers": 17,
   "papers": [
+    {
+      "arxiv_id": "2604.17915",
+      "title": "OneDrive: Unified Multi-Paradigm Driving with Vision-Language-Action Models",
+      "authors": [
+        "Authors from search results"
+      ],
+      "abstract": "Vision-Language Models(VLMs) excel at autoregressive text generation, yet end-to-end autonomous driving requires multi-task learning with structured outputs and heterogeneous decoding behaviors, such as autoregressive language generation, parallel object detection and trajectory regression. To accommodate these differences, existing systems typically introduce separate or cascaded decoders ...",
+      "published": "2026-04-17T00:00:00Z",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "relevance_score": 5,
+      "query": "vla-autonomous-driving",
+      "status": "新发现"
+    },
+    {
+      "arxiv_id": "2604.18486",
+      "title": "OneVL: One-Step Latent Reasoning and Planning with Vision-Language Models",
+      "authors": [
+        "Authors from search results"
+      ],
+      "abstract": "Chain-of-Thought (CoT) reasoning has become a powerful driver of trajectory prediction in VLA-based autonomous driving, yet its autoregressive nature imposes a latency cost that is prohibitive for real-time deployment. Latent CoT methods attempt to close this gap by compressing reasoning into continuous hidden states, but consistently fall short of their explicit counterparts. We suggest that ...",
+      "published": "2026-04-18T00:00:00Z",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "relevance_score": 5,
+      "query": "vla-autonomous-driving",
+      "status": "新发现"
+    },
     {
       "arxiv_id": "2604.22004",
       "title": "Diffusion-Based Trajectory Planning with Safety Guarantees",

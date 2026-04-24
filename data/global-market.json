@@ -1,96 +1,114 @@
 {
-  "updated": "2026-04-23T21:30:00+08:00",
-  "date": "2026-04-23",
+  "updated": "2026-04-24T09:15:00+08:00",
+  "date": "2026-04-24",
   "timezone": "Asia/Shanghai",
   "us_markets": {
-    "last_close": "2026-04-22",
+    "last_close": "2026-04-23",
     "sp500": {
-      "level": 7137.90,
-      "change": 73.89,
-      "change_pct": 1.0,
-      "note": "Record close, topped prior ATH from Apr 17"
+      "level": 7108.40,
+      "change": -29.50,
+      "change_pct": -0.41,
+      "note": "Pulled back from record high; Iran ceasefire uncertainty weighs"
     },
     "dow_jones": {
-      "level": 49490.03,
-      "change": 340.65,
-      "change_pct": 0.7,
-      "note": "Up 341 pts after Trump extended Iran ceasefire"
+      "level": 49310.32,
+      "change": -179.71,
+      "change_pct": -0.36,
+      "note": "Down 180 pts after 4-day winning streak"
     },
     "nasdaq": {
-      "level": 24657.57,
-      "change": 397.60,
-      "change_pct": 1.6,
-      "note": "Record close, tech rally"
-    },
-    "russell2000": {
-      "level": 2785.38,
-      "change": 20.41,
-      "change_pct": 0.7
+      "level": 24438.50,
+      "change": -219.07,
+      "change_pct": -0.89,
+      "note": "Tech sell-off; Meta cut 10% workforce"
     },
     "futures": {
-      "sp500_futures": "+0.62%",
-      "dow_futures": "+0.63%",
-      "nasdaq100_futures": "+0.79%",
-      "russell2000_futures": "+0.88%",
-      "note": "Futures higher after ceasefire extension (Apr 23 pre-market)"
+      "sp500_futures": "-0.41%",
+      "note": "US markets declined overnight Apr 23 on renewed Iran tension"
     }
   },
   "treasury": {
-    "10y_yield": 4.31,
+    "10y_yield": 4.32,
     "2y_yield": 3.77,
-    "fed_rate_prob": {
-      "hold_apr": "99.5%",
-      "note": "FedWatch: market prices near-certainty rate unchanged in April"
-    }
+    "note": "Yields edged up; market pricing near-certainty Fed rate hold in April/May"
+  },
+  "vix": {
+    "level": 19.31,
+    "change": 0.39,
+    "note": "VIX up modestly, still below 20"
   },
   "commodities": {
-    "brent_crude": 103.38,
-    "brent_change": "+1.34%",
-    "wti_crude": "~$99",
-    "note": "Brent briefly topped $102 Apr 22; Iran/Hormuz tensions keep oil elevated. Goldman expects record-low global inventories."
+    "brent_crude": 106.25,
+    "brent_change": "+1.12%",
+    "wti_crude": 96.84,
+    "wti_change": "+1.03%",
+    "gold": 4717.10,
+    "gold_change": "-0.15%",
+    "note": "Oil continues rally on Iran/Hormuz tension; gold steady near 4720"
   },
   "crypto": {
     "bitcoin": {
-      "price": 77464.56,
-      "open": 78192.98,
-      "change_pct": "+2.4%",
-      "change_1w": "+4.5%",
-      "change_1m": "+15.3%",
-      "change_1y": "-16.3%",
-      "ath": 126198.07,
-      "note": "Strong open above $78K (highest since Feb, pre-war), but traders cautious on Iran headlines"
+      "price": 78144,
+      "24h_change": "-0.05%"
     },
     "ethereum": {
-      "price": 2316.88,
-      "open": 2375.12,
-      "change_pct": "+2.0%",
-      "change_1w": "+0.7%",
-      "change_1m": "+15.7%",
-      "change_1y": "+35.2%",
-      "ath": 4953.73
+      "price": 2325.27,
+      "24h_change": "-1.71%"
+    }
+  },
+  "hk_markets": {
+    "last_close": "2026-04-24",
+    "hang_seng": {
+      "level": 25915.20,
+      "change": -248.04,
+      "change_pct": -0.95,
+      "note": "Weaker open tracking US tech sell-off"
+    }
+  },
+  "cn_markets": {
+    "date": "2026-04-24",
+    "status": "pre-market",
+    "shanghai": {
+      "level": 4093.24,
+      "change": 0.00,
+      "change_pct": 0.00,
+      "note": "Pre-market 9:15 flat on last close"
     },
-    "market_cap_total": "~$2.69T",
-    "btc_dominance": "58.2%",
-    "fear_greed_index": 46,
-    "fear_greed_label": "Fear (+14 vs yesterday)"
+    "shenzhen": {
+      "level": 15043.45,
+      "change": 0.00,
+      "change_pct": 0.00
+    },
+    "chinext": {
+      "level": 3720.25,
+      "change": 0.00,
+      "change_pct": 0.00
+    },
+    "csi300": {
+      "level": 4786.18,
+      "change": -7.18,
+      "change_pct": -0.15
+    }
   },
   "news_headlines": [
-    "S&P 500, Nasdaq close at new records Apr 22 after Trump extends Iran ceasefire",
-    "CNBC: Trump orders Navy to 'shoot and kill any boat' laying mines in Hormuz Strait",
-    "Brent crude above $103 as Iran tensions persist; Goldman warns record-low inventories ahead",
-    "US futures decline April 23 as US-Iran impasse continues, oil price jumps",
-    "Trump net approval on economy falls to lowest of two terms (CNBC survey)",
-    "Fed Chair nominee Warsh hawkish hearing adds uncertainty; 99.5% probability of rate hold in April",
-    "Weekly Initial Jobless Claims due Thursday; UMich Consumer Sentiment due Friday",
-    "American Airlines cuts 2026 earnings outlook on jet fuel surge",
-    "Iran fired on 3 ships near Strait of Hormuz; US naval blockade remains"
+    "US markets decline Apr 23: S&P -0.41%, Nasdaq -0.89% — tech sell-off on Meta layoffs",
+    "Oil extends rally: Brent $106.25 (+1.1%), WTI $96.84 (+1.0%) as Iran/Hormuz tensions persist",
+    "Trump says Israel-Lebanon ceasefire extended by three weeks",
+    "Meta to cut 10% of workforce (CNBC); Microsoft plans voluntary buyout for up to 7% of US workers",
+    "US soldier arrested for $400K Polymarket bet on Maduro capture using inside info",
+    "Yahoo Finance: Cathie Wood buys $900K of surging megacap stock",
+    "Bloomberg: Amazon-backed X-Energy raises $1.02B in nuclear IPO",
+    "Trump reposts anti-immigrant rant threatening China/India tariff retaliation",
+    "Hong Kong HSI -0.95% trading lower tracking Wall Street; tech names drag",
+    "Weekly jobless claims reported; UMich consumer sentiment due Apr 24"
   ],
   "key_themes": [
-    "US-Iran ceasefire extended but peace talks stalled — markets volatile on headlines",
-    "S&P 500 YTD +4.3%, Nasdaq YTD +6.1%, Russell 2000 YTD +12.2%",
-    "Oil prices elevated by Middle East conflict, energy supply disruption fears",
-    "Tech sector resilient (Tesla earnings beat), but energy/industrial sectors lagged Apr 22",
-    "Kevin Warsh (incoming Fed Chair) hawkish tone at Senate hearing",
-    "Most global central banks on hold awaiting clarity on energy disruption duration"
+    "US markets pause after record run — tech sector correction on Meta/Microsoft layoffs news",
+    "Middle East: Iran ceasefire extension (3 weeks) but Hormuz blockade stalemate continues",
+    "Oil above $106 Brent — energy disruption fears dominating macro",
+    "Gold steady ~$4,720, VIX 19.3 — risk-off but not panic",
+    "US 10Y yield 4.32% — bond market pricing cautious Fed hold",
+    "Bitcoin flat at $78K; crypto market consolidating after recent gains",
+    "A-shares set to open flat at 9:30 — watch for sector rotation from tech to energy/defense"
   ]
 }

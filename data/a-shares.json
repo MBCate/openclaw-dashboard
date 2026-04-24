@@ -1,77 +1,103 @@
 {
-  "timestamp": "2026-04-23T15:08:38.398926",
-  "date": "2026-04-23",
-  "time": "15:08",
-  "update_type": "收盘",
+  "timestamp": "2026-04-24T11:49:32",
+  "date": "2026-04-24",
+  "time": "11:49",
+  "update_type": "午盘",
   "indices": [
     {
       "name": "上证指数",
       "code": "000001",
-      "price": 3108.8946662539397,
-      "change": -0.8120017744722698,
-      "change_amount": 29.31928994648466,
-      "volume": 1467172.735877952,
-      "amount": 1875972.9305026913
+      "price": 4069.37,
+      "change": -0.58,
+      "change_amount": -23.88,
+      "volume": 399405972,
+      "amount": 751687580393.0
     },
     {
       "name": "深证成指",
       "code": "399001",
-      "price": 10493.832486278841,
-      "change": -0.5774671188231322,
-      "change_amount": -22.185672069937397,
-      "volume": 1278874.605981855,
-      "amount": 1826628.2676767139
+      "price": 14837.69,
+      "change": -1.37,
+      "change_amount": -205.76,
+      "volume": 468912069,
+      "amount": 978179680336.0
     },
     {
       "name": "创业板指",
       "code": "399006",
-      "price": 2101.3672002069884,
-      "change": -0.4925102171121889,
-      "change_amount": -19.686465537297334,
-      "volume": 788992.009240011,
-      "amount": 1122527.2973556235
+      "price": 3638.28,
+      "change": -2.2,
+      "change_amount": -81.97,
+      "volume": 152256909,
+      "amount": 483769176379.0
+    },
+    {
+      "name": "科创50",
+      "code": "000688",
+      "price": 1458.31,
+      "change": 1.8,
+      "change_amount": 25.72,
+      "volume": 7227951,
+      "amount": 71563688718.0
+    },
+    {
+      "name": "沪深300",
+      "code": "000300",
+      "price": 4745.79,
+      "change": -0.85,
+      "change_amount": -40.54,
+      "volume": 121920653,
+      "amount": 426878260008.0
+    },
+    {
+      "name": "上证50",
+      "code": "000016",
+      "price": 2936.82,
+      "change": 0.3,
+      "change_amount": 8.89,
+      "volume": 26497460,
+      "amount": 95623200159.0
     }
   ],
   "sectors": [
     {
-      "name": "食用菌",
-      "change": 7.3,
-      "price": 1852.56
+      "name": "宠物消费",
+      "change": 3.5,
+      "price": "-"
     },
     {
-      "name": "风力发电",
-      "change": 3.67,
-      "price": 2458.18
+      "name": "电力",
+      "change": 2.8,
+      "price": "-"
     },
     {
-      "name": "油气及炼化工程",
-      "change": 3.06,
-      "price": 2061.27
+      "name": "维生素",
+      "change": 2.5,
+      "price": "-"
     },
     {
-      "name": "其他数字媒体",
-      "change": 2.81,
-      "price": 861.61
+      "name": "煤炭",
+      "change": 1.5,
+      "price": "-"
     },
     {
-      "name": "白酒Ⅱ",
-      "change": 2.79,
-      "price": 4787.48
+      "name": "油气",
+      "change": 1.2,
+      "price": "-"
     }
   ],
   "northbound": {
-    "date": "2026-04-23",
-    "total": -3.6344264801636283,
-    "shanghai": -1.2864670343082958,
-    "shenzhen": -2.3479594458553326
+    "date": "2026-04-24",
+    "total": "--",
+    "shanghai": "--",
+    "shenzhen": "--",
+    "note": "午间数据获取受限"
   },
   "summary": {
-    "market_status": "已收盘",
-    "average_change": -0.63,
-    "northbound_inflow": -3.6344264801636283,
-    "indices_count": 3,
+    "market_status": "交易中",
+    "indices_count": 6,
     "sectors_count": 5,
-    "update_time": "15:08"
+    "update_time": "11:49"
   },
-  "market_status": "已收盘"
+  "market_status": "交易中"
 }

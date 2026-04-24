@@ -1,57 +1,50 @@
 {
-  "timestamp": "2026-04-23T15:08:38.399121",
-  "strategies": [
-    {
-      "name": "DoubleMa",
-      "sharpe": 1.8629101133609487,
-      "drawdown": 1.7505372554211536,
-      "position": "long"
+  "timestamp": "2026-04-24T15:00:00",
+  "date": "2026-04-24",
+  "status": "no_new_data",
+  "message": "HelloQuant 策略自2026年1月以来未产生新数据，以下为上次运行记录（2026-01-04）",
+  "last_report": "2026-01-04",
+  "strategies": {
+    "DoubleMa": {
+      "status": "inactive",
+      "last_signal": "做多(BTC 1h) / 观望(BTC 4h)",
+      "price": 90042.9,
+      "note": "上次运行: 2026-01-04"
     },
-    {
-      "name": "TripleMa",
-      "sharpe": 0.6737170550402267,
-      "drawdown": 3.5889865909612446,
-      "position": "flat"
+    "TripleMa": {
+      "status": "inactive",
+      "last_signal": "做多(BTC 1h) / 观望(BTC 4h)",
+      "price": 90042.9
     },
-    {
-      "name": "Supertrend",
-      "sharpe": 0.7727075429858051,
-      "drawdown": 1.4350761876259386,
-      "position": "long"
+    "Supertrend": {
+      "status": "inactive",
+      "last_signal": "观望(1h & 4h)",
+      "price": 90042.9
     },
-    {
-      "name": "RSI",
-      "sharpe": 0.48107689200257747,
-      "drawdown": 4.008959560702726,
-      "position": "flat"
+    "RSI": {
+      "status": "inactive",
+      "last_signal": "观望(1h & 4h)",
+      "price": 90042.9
     },
-    {
-      "name": "MACD",
-      "sharpe": 1.197970298404489,
-      "drawdown": 2.136897958038202,
-      "position": "long"
+    "MACD": {
+      "status": "inactive",
+      "last_signal": "观望(1h & 4h)",
+      "price": 90042.9
     },
-    {
-      "name": "Bollinger",
-      "sharpe": 2.0822551691551667,
-      "drawdown": 1.4490100723107893,
-      "position": "flat"
+    "Bollinger": {
+      "status": "inactive",
+      "last_signal": "观望(1h & 4h)",
+      "price": 90042.9
     },
-    {
-      "name": "Momentum",
-      "sharpe": 0.43970435900266425,
-      "drawdown": 7.906960772834832,
-      "position": "short"
+    "Momentum": {
+      "status": "inactive",
+      "last_signal": "做空(BTC 1h) / 观望(BTC 4h)",
+      "price": 90042.9
     },
-    {
-      "name": "MeanReversion",
-      "sharpe": 2.794161913769919,
-      "drawdown": 0.6562867196860077,
-      "position": "long"
+    "MeanReversion": {
+      "status": "inactive",
+      "last_signal": "观望(1h & 4h)",
+      "price": 90042.9
     }
-  ],
-  "total_strategies": 8,
-  "avg_sharpe": 1.29,
-  "max_drawdown": 7.91,
-  "active_positions": 5
+  }
 }

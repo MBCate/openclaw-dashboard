@@ -1,114 +1,47 @@
 {
-  "updated": "2026-04-24T09:15:00+08:00",
+  "updated": "2026-04-24T21:30:00+08:00",
   "date": "2026-04-24",
-  "timezone": "Asia/Shanghai",
-  "us_markets": {
-    "last_close": "2026-04-23",
-    "sp500": {
-      "level": 7108.40,
-      "change": -29.50,
-      "change_pct": -0.41,
-      "note": "Pulled back from record high; Iran ceasefire uncertainty weighs"
+  "sources": ["CNBC", "Bloomberg", "Zacks", "BrentWatch", "CoinGecko", "Gadgets360"],
+  "markets": {
+    "us_indices": {
+      "note": "Market closed Apr 23; Apr 24 session in progress (futures)",
+      "apr23_close": {
+        "sp500": { "value": 7108.40, "change": -0.41, "detail": "Hit intraday ATH then reversed" },
+        "nasdaq": { "value": 24438.50, "change": -0.89, "detail": "Tech sold off" },
+        "dow": { "value": null, "change": -0.40, "change_pts": -179.71, "detail": "Fell amid Iran tensions" }
+      },
+      "apr24_futures": {
+        "sp500": "futures rising, Intel surge lifts sentiment",
+        "nasdaq": "futures jumping on Intel blowout sales outlook",
+        "dow": "mixed, lagging on Hormuz/Iran tensions"
+      }
     },
-    "dow_jones": {
-      "level": 49310.32,
-      "change": -179.71,
-      "change_pct": -0.36,
-      "note": "Down 180 pts after 4-day winning streak"
+    "commodities": {
+      "brent_crude": { "value": 105.32, "change": -1.08, "unit": "USD/bbl", "detail": "Iran-US ceasefire talks delayed, war risk premium persists" },
+      "gold": { "note": "Elevated amid geopolitical uncertainty" }
     },
-    "nasdaq": {
-      "level": 24438.50,
-      "change": -219.07,
-      "change_pct": -0.89,
-      "note": "Tech sell-off; Meta cut 10% workforce"
+    "crypto": {
+      "bitcoin": { "value": 78300, "range": "78,000-78,500", "unit": "USD", "detail": "Capped near $80K resistance; ETF inflows support; $9.8B options expiry today" },
+      "ethereum": { "value": 2280, "unit": "USD", "detail": "Below $2,300, underperforming BTC" }
     },
-    "futures": {
-      "sp500_futures": "-0.41%",
-      "note": "US markets declined overnight Apr 23 on renewed Iran tension"
+    "top_stories": [
+      "Intel (INTC) surges on blockbuster sales outlook, Nasdaq futures jump",
+      "S&P 500 hit intraday record on Apr 23 but closed lower on tech sell-off",
+      "Iran-US ceasefire talks delayed; Hormuz Strait tensions escalate",
+      "Brent crude holds above $105 amid Middle East war risk",
+      "Trump warns of 'big tariff' on UK over digital services tax",
+      "FDA fast-tracks psychedelic drug research following Trump executive order",
+      "$9.8B BTC/ETH options expired today; both traded above max pain",
+      "Csquare (data center) files confidentially for US IPO",
+      "Magnificent Seven earnings week ahead - key catalyst"
+    ],
+    "geopolitical_risk": {
+      "level": "ELEVATED",
+      "factors": [
+        "Iran-US conflict ongoing; Hormuz disruption fears",
+        "Oil above $105 on supply risk",
+        "Trump tariff threats on UK digital services tax"
+      ]
     }
-  },
-  "treasury": {
-    "10y_yield": 4.32,
-    "2y_yield": 3.77,
-    "note": "Yields edged up; market pricing near-certainty Fed rate hold in April/May"
-  },
-  "vix": {
-    "level": 19.31,
-    "change": 0.39,
-    "note": "VIX up modestly, still below 20"
-  },
-  "commodities": {
-    "brent_crude": 106.25,
-    "brent_change": "+1.12%",
-    "wti_crude": 96.84,
-    "wti_change": "+1.03%",
-    "gold": 4717.10,
-    "gold_change": "-0.15%",
-    "note": "Oil continues rally on Iran/Hormuz tension; gold steady near 4720"
-  },
-  "crypto": {
-    "bitcoin": {
-      "price": 78144,
-      "24h_change": "-0.05%"
-    },
-    "ethereum": {
-      "price": 2325.27,
-      "24h_change": "-1.71%"
-    }
-  },
-  "hk_markets": {
-    "last_close": "2026-04-24",
-    "hang_seng": {
-      "level": 25915.20,
-      "change": -248.04,
-      "change_pct": -0.95,
-      "note": "Weaker open tracking US tech sell-off"
-    }
-  },
-  "cn_markets": {
-    "date": "2026-04-24",
-    "status": "pre-market",
-    "shanghai": {
-      "level": 4093.24,
-      "change": 0.00,
-      "change_pct": 0.00,
-      "note": "Pre-market 9:15 flat on last close"
-    },
-    "shenzhen": {
-      "level": 15043.45,
-      "change": 0.00,
-      "change_pct": 0.00
-    },
-    "chinext": {
-      "level": 3720.25,
-      "change": 0.00,
-      "change_pct": 0.00
-    },
-    "csi300": {
-      "level": 4786.18,
-      "change": -7.18,
-      "change_pct": -0.15
-    }
-  },
-  "news_headlines": [
-    "US markets decline Apr 23: S&P -0.41%, Nasdaq -0.89% — tech sell-off on Meta layoffs",
-    "Oil extends rally: Brent $106.25 (+1.1%), WTI $96.84 (+1.0%) as Iran/Hormuz tensions persist",
-    "Trump says Israel-Lebanon ceasefire extended by three weeks",
-    "Meta to cut 10% of workforce (CNBC); Microsoft plans voluntary buyout for up to 7% of US workers",
-    "US soldier arrested for $400K Polymarket bet on Maduro capture using inside info",
-    "Yahoo Finance: Cathie Wood buys $900K of surging megacap stock",
-    "Bloomberg: Amazon-backed X-Energy raises $1.02B in nuclear IPO",
-    "Trump reposts anti-immigrant rant threatening China/India tariff retaliation",
-    "Hong Kong HSI -0.95% trading lower tracking Wall Street; tech names drag",
-    "Weekly jobless claims reported; UMich consumer sentiment due Apr 24"
-  ],
-  "key_themes": [
-    "US markets pause after record run — tech sector correction on Meta/Microsoft layoffs news",
-    "Middle East: Iran ceasefire extension (3 weeks) but Hormuz blockade stalemate continues",
-    "Oil above $106 Brent — energy disruption fears dominating macro",
-    "Gold steady ~$4,720, VIX 19.3 — risk-off but not panic",
-    "US 10Y yield 4.32% — bond market pricing cautious Fed hold",
-    "Bitcoin flat at $78K; crypto market consolidating after recent gains",
-    "A-shares set to open flat at 9:30 — watch for sector rotation from tech to energy/defense"
-  ]
+  }
 }

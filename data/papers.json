@@ -813,7 +813,182 @@
       "relevance_score": 5,
       "query": "world-models-ad",
       "status": "已收录"
+    },
+    {
+      "arxiv_id": "2604.21686",
+      "title": "WorldMark: A Unified Benchmark Suite for Interactive Video World Models",
+      "authors": "WorldMark Team",
+      "published": "2026-04-25",
+      "relevance": 4,
+      "category": "cs.CV",
+      "tags": [
+        "world-model",
+        "benchmark",
+        "video-generation"
+      ],
+      "summary": "统一的的交互式视频世界模型评测基准，将6个主流模型在相同场景和动作序列下进行公平比较。涵盖500个测试用例，含第一/三人称视角、不同光照风格和三个难度级别。提供在线评测平台(warena.ai)，支持未来模型对比。",
+      "status": "新发现",
+      "topics": [
+        "world-models"
+      ]
+    },
+    {
+      "arxiv_id": "2604.03497",
+      "title": "Sim2Real-AD: A Modular Sim-to-Real Framework for Deploying VLM-Guided Reinforcement Learning in Real-World Autonomous Driving",
+      "authors": "Sim2Real-AD Team",
+      "published": "2026-04",
+      "relevance": 4,
+      "category": "cs.RO",
+      "tags": [
+        "sim-to-real",
+        "VLM",
+        "reinforcement-learning",
+        "autonomous-driving"
+      ],
+      "summary": "提出模块化sim-to-real框架，实现CARLA训练的VLM引导RL策略零样本迁移到实车。包含几何观测桥接(BEV转换)、物理感知动作映射、两阶段渐进训练策略等组件。在Ford E-Transit实车上实现90%/80%/75%的成功率(car-following/避障/停车标志)。",
+      "status": "新发现",
+      "topics": [
+        "end-to-end-autonomous-driving",
+        "vla-autonomous-driving"
+      ]
+    },
+    {
+      "arxiv_id": "2604.09206",
+      "title": "Long-SCOPE: Fully Sparse Long-Range Cooperative 3D Perception",
+      "authors": "Jiahao Wang, Zikun Xu, Yuner Zhang et al.",
+      "published": "2026-04",
+      "relevance": 4,
+      "category": "cs.CV",
+      "tags": [
+        "cooperative-perception",
+        "BEV",
+        "V2X",
+        "3D-perception",
+        "sparse"
+      ],
+      "summary": "面向车联网(V2X)的全稀疏长距离协同3D感知框架。解决密集BEV表示二次计算复杂度和远距离特征关联脆弱性问题。包含几何引导查询生成(GQG)模块和可学习上下文感知关联模块。",
+      "status": "新发现",
+      "topics": [
+        "end-to-end-autonomous-driving"
+      ]
+    },
+    {
+      "arxiv_id": "2604.21479",
+      "title": "Frozen LLMs as Map-Aware Spatio-Temporal Reasoners for Vehicle Trajectory Prediction",
+      "authors": "Trajectory LLM Team",
+      "published": "2026-04",
+      "relevance": 4,
+      "category": "cs.CV",
+      "tags": [
+        "LLM",
+        "trajectory-prediction",
+        "HD-map",
+        "autonomous-driving"
+      ],
+      "summary": "利用冻结LLM作为推理引擎进行车辆轨迹预测。通过traffic encoder提取场景特征，CNN编码HD地图，reprogramming adapter将特征转化为LLM兼容token。可定量分析多模态信息影响，支持不同LLM架构的泛化。",
+      "status": "新发现",
+      "topics": [
+        "end-to-end-autonomous-driving"
+      ]
+    },
+    {
+      "arxiv_id": "2604.12918",
+      "title": "CTAB: Radar-Camera BEV Multi-Task Learning with Cross-Task Attention Bridge for Joint 3D Detection and Segmentation",
+      "authors": "CTAB Team",
+      "published": "2026-04",
+      "relevance": 3,
+      "category": "cs.CV",
+      "tags": [
+        "BEV",
+        "radar-camera-fusion",
+        "multi-task",
+        "3D-detection",
+        "segmentation"
+      ],
+      "summary": "雷达-相机BEV多任务学习框架。提出跨任务注意力桥接模块(CTAB)，在检测和分割分支间通过多尺度可变形注意力交换特征。包含IN归一化分割解码器和可学习BEV上采样。在nuScenes上7类分割提升。",
+      "status": "新发现",
+      "topics": [
+        "end-to-end-autonomous-driving"
+      ]
+    },
+    {
+      "arxiv_id": "2604.21249",
+      "title": "Reasoning About Traversability: Language-Guided Off-Road 3D Trajectory Planning",
+      "authors": "Off-road VLM Team",
+      "published": "2026-04",
+      "relevance": 3,
+      "category": "cs.RO",
+      "tags": [
+        "VLM",
+        "trajectory-planning",
+        "off-road",
+        "autonomous-driving"
+      ],
+      "summary": "VLM引导的非结构化道路3D轨迹规划。提出语言精炼框架和几何感知偏好优化策略。在ORAD-3D基准上轨迹误差从1.01m降至0.97m，可行驶一致性从0.621提升至0.644。",
+      "status": "新发现",
+      "topics": [
+        "vla-autonomous-driving"
+      ]
+    },
+    {
+      "arxiv_id": "2604.19257",
+      "title": "Unposed-to-3D: Learning Simulation-Ready Vehicles from Real-World Images",
+      "authors": "Hongyuan Liu, Bochao Zou, Qiankun Liu et al.",
+      "published": "2026-04",
+      "relevance": 3,
+      "category": "cs.CV",
+      "tags": [
+        "3D-generation",
+        "vehicle-reconstruction",
+        "simulation",
+        "autonomous-driving"
+      ],
+      "summary": "从真实驾驶图像中学习重建仿真就绪3D车辆。两阶段框架：先训练图像到3D生成器，再引入尺度感知和姿态对齐适应模块。解决合成数据域差距和车辆姿态/尺度不匹配问题。",
+      "status": "新发现",
+      "topics": [
+        "end-to-end-autonomous-driving"
+      ]
+    },
+    {
+      "arxiv_id": "2604.20278",
+      "title": "Lightweight Low-SNR-Robust Semantic Communication System for Autonomous Driving",
+      "authors": "Semantic Comm Team",
+      "published": "2026-04",
+      "relevance": 3,
+      "category": "eess.SY",
+      "tags": [
+        "V2X",
+        "semantic-communication",
+        "JSCC",
+        "autonomous-driving"
+      ],
+      "summary": "面向车联网协同感知的轻量级低SNR鲁棒语义通信系统。基于深度联合源信道编码，包含结构化剪枝、均匀量化和M-QAM调制。在Cityscapes上验证，剪枝50%参数仍保持性能。",
+      "status": "新发现",
+      "topics": [
+        "end-to-end-autonomous-driving"
+      ]
+    },
+    {
+      "arxiv_id": "2604.17135",
+      "title": "A Survey on Causality for Autonomous Driving",
+      "authors": "Survey Team",
+      "published": "2026-04",
+      "relevance": 3,
+      "category": "cs.AI",
+      "tags": [
+        "survey",
+        "causality",
+        "autonomous-driving",
+        "XAI"
+      ],
+      "summary": "因果推断在自动驾驶中的系统性综述。涵盖因果发现、因果推理、反事实推理在感知、决策、规划、控制中的应用。",
+      "status": "新发现",
+      "topics": [
+        "end-to-end-autonomous-driving"
+      ]
     }
   ],
-  "count": 38
+  "count": 38,
+  "last_updated": "2026-04-26T03:46:00+08:00",
+  "paper_count": 47
 }

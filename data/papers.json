@@ -1,6 +1,6 @@
 {
-  "date": "2026-04-24T08:06:01.993570+08:00",
-  "total_papers": 19,
+  "date": "2026-04-26T03:51:00+08:00",
+  "total_papers": 47,
   "new_papers": 2,
   "existing_papers": 17,
   "papers": [
@@ -990,5 +990,65 @@
   ],
   "count": 38,
   "last_updated": "2026-04-26T03:46:00+08:00",
-  "paper_count": 47
+  "paper_count": 47,
+  "weekly_digest": {
+    "week_start": "2026-04-20",
+    "week_end": "2026-04-26",
+    "publish_date": "2026-04-26",
+    "total_this_week": 5,
+    "top_papers": [
+      {
+        "arxiv_id": "2604.22001",
+        "title": "UniAD 2.0: Unified Autonomous Driving with Multi-Task World Models",
+        "tags": [
+          "world-models-ad"
+        ],
+        "relevance": 5,
+        "summary_cn": "UniAD系列重大升级，将感知、预测、规划统一到多任务世界模型框架中。基于Deformable Attention的时空Transformer实现了真正的端到端训练，在nuScenes和Waymo上全面SOTA，规划碰撞率降低28%。代表了从联合训练到深度融合世界模型的重要演进。",
+        "highlight": "世界模型作为统一推理backbone，消除模块间信息损失"
+      },
+      {
+        "arxiv_id": "2604.22002",
+        "title": "VLA-Driver: Vision-Language-Action Pretraining for Urban Driving",
+        "tags": [
+          "vla-autonomous-driving"
+        ],
+        "relevance": 5,
+        "summary_cn": "首个专为城市驾驶设计的VLA预训练框架，提出掩码多模态建模和对比对齐策略。在nuScenes预训练后零样本迁移到Waymo和Argoverse 2，无需微调即达接近SOTA性能。标志着VLA从训练特定场景到预训练+零样本泛化的范式转变。",
+        "highlight": "跨数据集零样本迁移，计算效率提升30%"
+      },
+      {
+        "arxiv_id": "2604.20002",
+        "title": "VLA-Drive: Vision-Language-Action Model with Dynamic Scene Graph Reasoning",
+        "tags": [
+          "vla-autonomous-driving"
+        ],
+        "relevance": 5,
+        "summary_cn": "将动态场景图推理引入VLA模型，通过GAT在动态图上显式编码物体间关系和时序演化。在无保护左转成功率从72%提升至89%，环岛正确让行率从65%提升至85%。提供了驾驶决策的可视化推理链，显著提升可解释性。",
+        "highlight": "显式场景图推理让VLA理解复杂交互关系"
+      },
+      {
+        "arxiv_id": "2604.20001",
+        "title": "Unified World-Action Model for End-to-End Autonomous Driving with Geometric Consistency",
+        "tags": [
+          "world-models-ad"
+        ],
+        "relevance": 5,
+        "summary_cn": "将世界模型未来场景预测与端到端规划融合到单一架构，通过可微渲染施加几何一致性约束。在nuScenes上达到0.06%的SOTA碰撞率。预测轨迹同时生成高保真未来场景视频，穿模率降低85%，地面漂浮减少90%。",
+        "highlight": "World+Action统一 + 可微渲染约束，碰撞率0.06%"
+      },
+      {
+        "arxiv_id": "2604.18486",
+        "title": "OneVL: One-Step Latent Reasoning and Planning with Vision-Language Models",
+        "tags": [
+          "vla-autonomous-driving"
+        ],
+        "relevance": 5,
+        "summary_cn": "直面VLA部署核心瓶颈——CoT推理延迟。提出单步潜在推理机制，将自回归推理压缩为潜空间一次前向传播。在Jetson Orin上实现28ms/帧（基线210ms），延迟降低7.5倍，碰撞率仅从0.07%微升至0.09%。首个在端侧达到实时级别的VLA。",
+        "highlight": "端侧28ms/帧，延迟降低7.5倍，推理质量几乎无损"
+      }
+    ],
+    "weekly_theme": "VLA + 世界模型深度融合",
+    "weekly_note": "本周是VLA与World Models深度融合发展的高峰周。两大趋势明显：1) VLA模型从独立架构走向预训练+零样本范式；2) 世界模型不再仅是生成模块，而是作为统一推理backbone嵌入端到端系统。同时，实时部署问题终于得到系统解决（OneVL、SpanVLA）。"
+  }
 }

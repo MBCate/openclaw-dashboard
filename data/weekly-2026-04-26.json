@@ -1,0 +1,73 @@
+{
+  "week_of": "2026-04-20",
+  "generated_at": "2026-04-26 10:00 CST",
+  "top_papers": [
+    {
+      "id": "2604.19710",
+      "title": "SpanVLA: Efficient Action Bridging and Learning from Negative-Recovery Samples for VLA",
+      "authors": "Zhou et al.",
+      "relevance": 5,
+      "tags": [
+        "VLA",
+        "action-bridging",
+        "GRPO",
+        "negative-samples"
+      ],
+      "summary_cn": "提出高效动作桥接（VLM推理+流匹配动作专家）和GRPO负样本学习，在NAVSIM v1/v2达到领先水平",
+      "url": "https://arxiv.org/abs/2604.19710"
+    },
+    {
+      "id": "2604.17915",
+      "title": "OneDrive: Unified Multi-Paradigm Driving with Vision-Language-Action Models",
+      "authors": "Lu et al.",
+      "relevance": 5,
+      "tags": [
+        "VLA",
+        "unified-decoder",
+        "causal-decoder"
+      ],
+      "summary_cn": "统一VLA驾驶框架，单因果解码器处理文本、检测、轨迹，nuScenes L2 0.28, NAVSIM 86.8 PDMS",
+      "url": "https://arxiv.org/abs/2604.17915"
+    },
+    {
+      "id": "2604.20834",
+      "title": "PokeVLA: Pocket-Sized VLA with Comprehensive World Knowledge Guidance",
+      "authors": "Zheng et al.",
+      "relevance": 5,
+      "tags": [
+        "VLA",
+        "lightweight",
+        "two-stage-training",
+        "embodied"
+      ],
+      "summary_cn": "紧凑型VLA模型，两阶段训练（VLM预训练→操作知识注入），LIBERO-Plus SOTA",
+      "url": "https://arxiv.org/abs/2604.20834"
+    },
+    {
+      "id": "2604.20289",
+      "title": "X-Cache: Cross-Chunk Block Caching for Few-Step Autoregressive World Models",
+      "authors": "Zeng et al.",
+      "relevance": 5,
+      "tags": [
+        "world-model",
+        "inference-acceleration",
+        "caching"
+      ],
+      "summary_cn": "跨块缓存加速自回归世界模型推理，首次支持少步蒸馏模型，训练无关即插即用",
+      "url": "https://arxiv.org/abs/2604.20289"
+    },
+    {
+      "id": "2604.21686",
+      "title": "WorldMark: A Unified Benchmark Suite for Interactive Video World Models",
+      "authors": "WorldMark Team",
+      "relevance": 4,
+      "tags": [
+        "world-model",
+        "benchmark",
+        "evaluation"
+      ],
+      "summary_cn": "首个统一交互式视频世界模型评测基准，支持6个主流模型苹果对比，在线Arena平台",
+      "url": "https://arxiv.org/abs/2604.21686"
+    }
+  ]
+}

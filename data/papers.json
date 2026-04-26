@@ -470,7 +470,8 @@
       ],
       "relevance_score": 5,
       "query": "vla-autonomous-driving",
-      "status": "新发现"
+      "status": "weekly-featured",
+      "weekly_date": "2026-04-26"
     },
     {
       "arxiv_id": "2604.20289",
@@ -498,7 +499,8 @@
       ],
       "relevance_score": 5,
       "query": "world-models-ad",
-      "status": "新发现"
+      "status": "weekly-featured",
+      "weekly_date": "2026-04-26"
     },
     {
       "arxiv_id": "2604.20472",
@@ -604,7 +606,8 @@
       ],
       "relevance_score": 5,
       "query": "vla-autonomous-driving",
-      "status": "新发现"
+      "status": "weekly-featured",
+      "weekly_date": "2026-04-26"
     },
     {
       "arxiv_id": "2604.22004",
@@ -990,7 +993,8 @@
       ],
       "relevance_score": 5,
       "query": "vla-autonomous-driving",
-      "status": "新发现"
+      "status": "weekly-featured",
+      "weekly_date": "2026-04-26"
     },
     {
       "arxiv_id": "2604.14965",
@@ -1265,10 +1269,11 @@
         "video-generation"
       ],
       "summary": "统一的的交互式视频世界模型评测基准，将6个主流模型在相同场景和动作序列下进行公平比较。涵盖500个测试用例，含第一/三人称视角、不同光照风格和三个难度级别。提供在线评测平台(warena.ai)，支持未来模型对比。",
-      "status": "新发现",
+      "status": "weekly-featured",
       "topics": [
         "world-models"
-      ]
+      ],
+      "weekly_date": "2026-04-26"
     },
     {
       "arxiv_id": "2604.03497",

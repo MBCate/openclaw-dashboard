@@ -1,47 +1,105 @@
 {
-  "updated": "2026-04-24T21:30:00+08:00",
-  "date": "2026-04-24",
-  "sources": ["CNBC", "Bloomberg", "Zacks", "BrentWatch", "CoinGecko", "Gadgets360"],
-  "markets": {
-    "us_indices": {
-      "note": "Market closed Apr 23; Apr 24 session in progress (futures)",
-      "apr23_close": {
-        "sp500": { "value": 7108.40, "change": -0.41, "detail": "Hit intraday ATH then reversed" },
-        "nasdaq": { "value": 24438.50, "change": -0.89, "detail": "Tech sold off" },
-        "dow": { "value": null, "change": -0.40, "change_pts": -179.71, "detail": "Fell amid Iran tensions" }
-      },
-      "apr24_futures": {
-        "sp500": "futures rising, Intel surge lifts sentiment",
-        "nasdaq": "futures jumping on Intel blowout sales outlook",
-        "dow": "mixed, lagging on Hormuz/Iran tensions"
-      }
+  "timestamp": "2026-04-26T21:30:00+08:00",
+  "date": "2026-04-26",
+  "source": "trading-monitor evening collection",
+  "cn": {
+    "上证指数": {
+      "price": 4080,
+      "change_pct": -0.33,
+      "period": "2026-04-24 close",
+      "ytd_pct": "+23.82%",
+      "note": "中东紧张局势升温，油价上涨引发通胀担忧"
     },
-    "commodities": {
-      "brent_crude": { "value": 105.32, "change": -1.08, "unit": "USD/bbl", "detail": "Iran-US ceasefire talks delayed, war risk premium persists" },
-      "gold": { "note": "Elevated amid geopolitical uncertainty" }
-    },
-    "crypto": {
-      "bitcoin": { "value": 78300, "range": "78,000-78,500", "unit": "USD", "detail": "Capped near $80K resistance; ETF inflows support; $9.8B options expiry today" },
-      "ethereum": { "value": 2280, "unit": "USD", "detail": "Below $2,300, underperforming BTC" }
-    },
-    "top_stories": [
-      "Intel (INTC) surges on blockbuster sales outlook, Nasdaq futures jump",
-      "S&P 500 hit intraday record on Apr 23 but closed lower on tech sell-off",
-      "Iran-US ceasefire talks delayed; Hormuz Strait tensions escalate",
-      "Brent crude holds above $105 amid Middle East war risk",
-      "Trump warns of 'big tariff' on UK over digital services tax",
-      "FDA fast-tracks psychedelic drug research following Trump executive order",
-      "$9.8B BTC/ETH options expired today; both traded above max pain",
-      "Csquare (data center) files confidentially for US IPO",
-      "Magnificent Seven earnings week ahead - key catalyst"
-    ],
-    "geopolitical_risk": {
-      "level": "ELEVATED",
-      "factors": [
-        "Iran-US conflict ongoing; Hormuz disruption fears",
-        "Oil above $105 on supply risk",
-        "Trump tariff threats on UK digital services tax"
-      ]
+    "深证成指": {
+      "price": 14940,
+      "change_pct": -0.69,
+      "period": "2026-04-24 close"
     }
+  },
+  "hk": {
+    "恒生指数": {
+      "price": 25978,
+      "change_pct": 0.24,
+      "period": "2026-04-24 close",
+      "ytd_pct": "+18.19%"
+    }
+  },
+  "us": {
+    "S&P 500": {
+      "price": 7165.08,
+      "change_pct": 0.80,
+      "period": "2026-04-24 close",
+      "record_high": true,
+      "note": "美股三大指数涨跌互现，标普和纳指创收盘新高"
+    },
+    "纳斯达克": {
+      "price": 24836.60,
+      "change_pct": 1.63,
+      "period": "2026-04-24 close",
+      "record_high": true
+    },
+    "道琼斯": {
+      "price": null,
+      "change_pct": -0.20,
+      "period": "2026-04-24 estimate",
+      "note": "盘中下跌约0.2%"
+    }
+  },
+  "crypto": {
+    "BTC": {
+      "price": 77407,
+      "change_24h_pct": -0.33,
+      "volume_24h_usd": "16.35B",
+      "period": "2026-04-26 US session"
+    },
+    "ETH": {
+      "price": 2310,
+      "change_24h_pct": -0.34,
+      "period": "2026-04-26 US session",
+      "note": "RSI 35.7 偏弱，MACD中性"
+    }
+  },
+  "top_news": [
+    {
+      "source": "Bloomberg",
+      "title": "Big Tech's $16 Trillion Earnings Week Is Make-Or-Break for Rally",
+      "summary": "科技巨头本周财报将决定美股能否延续涨势"
+    },
+    {
+      "source": "CNBC",
+      "title": "Trump: Shooter at White House press dinner had multiple weapons, one officer shot",
+      "summary": "白宫记者协会晚宴发生枪击，特朗普被紧急撤离"
+    },
+    {
+      "source": "CNBC",
+      "title": "Trump cancels U.S. envoy trip to Pakistan for Iran war negotiations",
+      "summary": "伊朗谈判破裂，特朗普取消特使巴基斯坦之行"
+    },
+    {
+      "source": "CNBC",
+      "title": "Will he stay or will he go? With criminal probe over, Fed Chair Powell faces big decision",
+      "summary": "鲍威尔刑事调查结束，是否留任引关注"
+    },
+    {
+      "source": "CNBC",
+      "title": "U.S. imposes sanctions on Chinese 'teapot' refinery for buying Iranian oil",
+      "summary": "美国制裁中国独立炼油厂涉伊朗石油采购"
+    },
+    {
+      "source": "CNBC",
+      "title": "AI talent war: Software industry is a new target as top executives jump ship to OpenAI",
+      "summary": "AI人才争夺战加剧，软件巨头高管纷纷跳槽OpenAI"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Israel President Holds Off Deciding Whether to Pardon Netanyahu",
+      "summary": "以色列总统推迟决定是否赦免内塔尼亚胡"
+    }
+  ],
+  "risk_indicators": {
+    "geopolitical": "HIGH - 伊朗局势持续紧张，霍尔木兹海峡冲突升级，美国制裁中国炼油厂",
+    "oil_impact": "伊朗局势推高油价，全球通胀担忧加剧",
+    "ai_sector": "关注本周科技巨头财报，标普纳指创新高后能否持续",
+    "fed_watch": "鲍威尔去留悬而未决，货币政策面临不确定性"
   }
 }

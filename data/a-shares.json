@@ -1,119 +1,95 @@
 {
-  "timestamp": "2026-04-24T15:00:00",
-  "date": "2026-04-24",
-  "update_type": "收盘",
+  "timestamp": "2026-04-27T11:38:52",
+  "date": "2026-04-27",
+  "update_type": "午盘",
   "indices": [
     {
       "name": "上证指数",
       "code": "000001",
-      "price": 4079.90,
-      "change": -0.33,
-      "change_amount": -13.35,
-      "open": 4081.03,
-      "high": 4092.61,
-      "low": 4061.15,
-      "prev_close": 4093.25,
-      "volume": 605031798,
-      "amount": 1143000195131
+      "price": 4085.88,
+      "change": 0.15,
+      "change_amount": 5.98,
+      "open": 4074.81,
+      "high": 4091.23,
+      "low": 4071.08,
+      "prev_close": 4079.90,
+      "volume": 389431979,
+      "amount": 752541439477
     },
     {
       "name": "深证成指",
       "code": "399001",
-      "price": 14940.30,
-      "change": -0.69,
-      "change_amount": -103.15,
-      "open": 14951.74,
-      "high": 15033.67,
-      "low": 14795.22,
-      "prev_close": 15043.45,
-      "volume": 70972943878,
-      "amount": 1498859076721
+      "price": 15018.54,
+      "change": 0.52,
+      "change_amount": 78.24,
+      "open": 14960.02,
+      "high": 15054.46,
+      "low": 14919.22,
+      "prev_close": 14940.30,
+      "volume": 461899330,
+      "amount": 948614385251
     },
     {
       "name": "创业板指",
       "code": "399006",
-      "price": 3667.79,
-      "change": -1.41,
-      "change_amount": -52.46,
-      "open": 3682.50,
-      "high": 3699.94,
-      "low": 3625.00,
-      "prev_close": 3720.25,
-      "volume": 22796018188,
-      "amount": 729481270135
+      "price": 3660.53,
+      "change": -0.20,
+      "change_amount": -7.26,
+      "open": 3677.89,
+      "high": 3686.94,
+      "low": 3648.44,
+      "prev_close": 3667.79,
+      "volume": 138216857,
+      "amount": 434852125353
     },
     {
       "name": "科创50",
       "code": "000688",
-      "price": 1458.31,
-      "change": 1.80,
-      "change_amount": 25.72,
-      "note": "午盘数据"
+      "price": 1503.95,
+      "change": 3.46,
+      "change_amount": 50.26,
+      "open": 1478.31,
+      "high": 1509.20,
+      "low": 1466.66,
+      "prev_close": 1453.69,
+      "volume": 9119771,
+      "amount": 84689615878
     },
     {
       "name": "沪深300",
       "code": "000300",
-      "price": 4769.37,
-      "change": -0.35,
-      "change_amount": -16.96,
-      "open": 4771.73,
-      "high": 4786.44,
-      "low": 4735.61,
-      "prev_close": 4786.33,
-      "volume": 193798314,
-      "amount": 680097832547
+      "price": 4779.32,
+      "change": 0.21,
+      "change_amount": 9.95,
+      "open": 4776.34,
+      "high": 4795.17,
+      "low": 4768.90,
+      "prev_close": 4769.37,
+      "volume": 119375281,
+      "amount": 421598431480
     },
     {
       "name": "上证50",
       "code": "000016",
-      "price": 2936.82,
-      "change": 0.30,
-      "change_amount": 8.89,
-      "note": "午盘数据"
+      "price": 2942.34,
+      "change": -0.09,
+      "change_amount": -2.70,
+      "open": 2944.03,
+      "high": 2955.45,
+      "low": 2939.61,
+      "prev_close": 2945.04,
+      "volume": 26621440,
+      "amount": 106839339117
     }
   ],
-  "sectors": [
-    {
-      "name": "能源金属",
-      "change": 3.5
-    },
-    {
-      "name": "半导体",
-      "change": 2.8
-    },
-    {
-      "name": "农化制品",
-      "change": 2.5
-    }
-  ],
-  "sectors_bottom": [
-    {
-      "name": "油气开采及服务",
-      "change": -2.1
-    },
-    {
-      "name": "通信设备",
-      "change": -1.8
-    },
-    {
-      "name": "贵金属",
-      "change": -1.5
-    }
-  ],
-  "northbound": {
-    "date": "2026-04-24",
-    "note": "数据获取受限，未获取到北向资金实时数据"
-  },
-  "market_breadth": {
-    "up": 1890,
-    "down": 2450,
-    "flat": 170,
-    "total": 4510,
-    "note": "估算值"
-  },
+  "sectors": [],
+  "sectors_bottom": [],
+  "northbound": {},
+  "market_breadth": {},
   "summary": {
-    "market_status": "已收盘",
+    "market_status": "午间休市",
     "indices_count": 6,
-    "update_time": "15:00"
+    "update_time": "11:30",
+    "update_type": "午盘"
   }
 }

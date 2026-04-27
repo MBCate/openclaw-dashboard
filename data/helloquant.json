@@ -1,69 +1,43 @@
 {
-  "timestamp": "2026-04-24T17:00:00",
-  "date": "2026-04-24",
-  "report_type": "周报",
-  "week": "2026-04-20 ~ 2026-04-24",
-  "status": "inactive",
-  "message": "HelloQuant 策略引擎自2026年1月以来暂停运行，以下为策略最后状态及本周市场背景",
-  "last_report": "2026-01-04",
-  "market_context": {
-    "a_shares": {
-      "上证指数": { "price": 4079.9, "change_pct": -0.33 },
-      "深证成指": { "price": 14940.3, "change_pct": -0.69 },
-      "创业板指": { "price": 3667.79, "change_pct": -1.41 },
-      "科创50": { "price": 1458.31, "change_pct": 1.8 }
-    },
-    "date_observed": "2026-04-24"
-  },
+  "timestamp": "2026-04-27 15:00",
+  "date": "2026-04-27",
+  "status": "no_recent_data",
+  "last_update": "2026-01-04",
+  "note": "HelloQuant策略数据最后更新日为2026年1月4日，无新数据。",
   "strategies": {
-    "DoubleMa": {
-      "status": "inactive",
-      "last_signal": "做多(BTC 1h) / 观望(BTC 4h)",
-      "last_price_BTC": 90042.9,
-      "note": "双均线策略 - 上次运行: 2026-01-04"
+    "crypto": {
+      "last_data": "2026-01-04",
+      "BTC_USDT": {
+        "price": 90037.0,
+        "trend_1h": "偏多",
+        "trend_4h": "偏多",
+        "indicators": {
+          "rsi_1h": 46.1,
+          "macd_1h": "死叉",
+          "ma5_1h": 90067.32,
+          "ma20_1h": 90005.12
+        }
+      },
+      "ETH_USDT": {
+        "price": 3106.0,
+        "trend_1h": "偏空",
+        "trend_4h": "偏多"
+      }
     },
-    "TripleMa": {
-      "status": "inactive",
-      "last_signal": "做多(BTC 1h) / 观望(BTC 4h)",
-      "last_price_BTC": 90042.9,
-      "note": "三均线策略 - 上次运行: 2026-01-04"
-    },
-    "Supertrend": {
-      "status": "inactive",
-      "last_signal": "观望(1h & 4h)",
-      "last_price_BTC": 90042.9,
-      "note": "SuperTrend策略 - 上次运行: 2026-01-04"
-    },
-    "RSI": {
-      "status": "inactive",
-      "last_signal": "观望(1h & 4h)",
-      "last_price_BTC": 90042.9,
-      "note": "RSI策略 - 上次运行: 2026-01-04"
-    },
-    "MACD": {
-      "status": "inactive",
-      "last_signal": "观望(1h & 4h)",
-      "last_price_BTC": 90042.9,
-      "note": "MACD策略 - 上次运行: 2026-01-04"
-    },
-    "Bollinger": {
-      "status": "inactive",
-      "last_signal": "观望(1h & 4h)",
-      "last_price_BTC": 90042.9,
-      "note": "布林带策略 - 上次运行: 2026-01-04"
-    },
-    "Momentum": {
-      "status": "inactive",
-      "last_signal": "做空(BTC 1h) / 观望(BTC 4h)",
-      "last_price_BTC": 90042.9,
-      "note": "动量策略 - 上次运行: 2026-01-04"
-    },
-    "MeanReversion": {
-      "status": "inactive",
-      "last_signal": "观望(1h & 4h)",
-      "last_price_BTC": 90042.9,
-      "note": "均值回归策略 - 上次运行: 2026-01-04"
+    "stock_signals": {
+      "last_data": "2026-01-04",
+      "上证指数": {
+        "price": 3968.84,
+        "change_pct": 0.09
+      },
+      "深证成指": {
+        "price": 13525.02,
+        "change_pct": -0.58
+      },
+      "创业板指": {
+        "price": 3203.17,
+        "change_pct": -1.23
+      }
     }
-  },
-  "note": "8个策略均为ready状态，策略引擎恢复运行后将自动更新信号。当前BTC参考价格保持自2026-01-04"
+  }
 }

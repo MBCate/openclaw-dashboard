@@ -1,95 +1,54 @@
 {
-  "timestamp": "2026-04-27T11:38:52",
+  "timestamp": "2026-04-27 15:00",
   "date": "2026-04-27",
-  "update_type": "午盘",
-  "indices": [
-    {
-      "name": "上证指数",
-      "code": "000001",
-      "price": 4085.88,
-      "change": 0.15,
-      "change_amount": 5.98,
+  "indices": {
+    "上证指数": {
+      "price": 4086.34,
+      "change": 6.44,
+      "change_pct": 0.16,
       "open": 4074.81,
-      "high": 4091.23,
+      "high": 4092.83,
       "low": 4071.08,
-      "prev_close": 4079.90,
-      "volume": 389431979,
-      "amount": 752541439477
+      "volume": 589950867,
+      "amount": 1136051921710
     },
-    {
-      "name": "深证成指",
-      "code": "399001",
-      "price": 15018.54,
-      "change": 0.52,
-      "change_amount": 78.24,
+    "深证成指": {
+      "price": 14995.75,
+      "change": 55.45,
+      "change_pct": 0.37,
       "open": 14960.02,
       "high": 15054.46,
       "low": 14919.22,
-      "prev_close": 14940.30,
-      "volume": 461899330,
-      "amount": 948614385251
+      "volume": 709930001,
+      "amount": 1453399425008
     },
-    {
-      "name": "创业板指",
-      "code": "399006",
-      "price": 3660.53,
-      "change": -0.20,
-      "change_amount": -7.26,
+    "创业板指": {
+      "price": 3648.79,
+      "change": -19.00,
+      "change_pct": -0.52,
       "open": 3677.89,
       "high": 3686.94,
-      "low": 3648.44,
-      "prev_close": 3667.79,
-      "volume": 138216857,
-      "amount": 434852125353
+      "low": 3640.11,
+      "volume": 215941887,
+      "amount": 674213473938
     },
-    {
-      "name": "科创50",
-      "code": "000688",
-      "price": 1503.95,
-      "change": 3.46,
-      "change_amount": 50.26,
-      "open": 1478.31,
-      "high": 1509.20,
-      "low": 1466.66,
-      "prev_close": 1453.69,
-      "volume": 9119771,
-      "amount": 84689615878
-    },
-    {
-      "name": "沪深300",
-      "code": "000300",
-      "price": 4779.32,
-      "change": 0.21,
-      "change_amount": 9.95,
+    "沪深300": {
+      "price": 4770.95,
+      "change": 1.58,
+      "change_pct": 0.03,
       "open": 4776.34,
       "high": 4795.17,
-      "low": 4768.90,
-      "prev_close": 4769.37,
-      "volume": 119375281,
-      "amount": 421598431480
-    },
-    {
-      "name": "上证50",
-      "code": "000016",
-      "price": 2942.34,
-      "change": -0.09,
-      "change_amount": -2.70,
-      "open": 2944.03,
-      "high": 2955.45,
-      "low": 2939.61,
-      "prev_close": 2945.04,
-      "volume": 26621440,
-      "amount": 106839339117
+      "low": 4762.64,
+      "volume": 192796550,
+      "amount": 648904814981
     }
-  ],
-  "sectors": [],
-  "sectors_bottom": [],
-  "northbound": {},
-  "market_breadth": {},
-  "summary": {
-    "market_status": "午间休市",
-    "indices_count": 6,
-    "update_time": "11:30",
-    "update_type": "午盘"
-  }
+  },
+  "total_volume": 1299880868,
+  "total_amount": 2589451346718,
+  "north_flow": null,
+  "industry_top5": null,
+  "industry_bottom5": null,
+  "concept_top5": null,
+  "concept_bottom5": null,
+  "note": "指数来自腾讯财经实时API。板块及北向数据当前网络受限无法获取，需稍后补全。"
 }

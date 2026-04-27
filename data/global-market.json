@@ -1,26 +1,44 @@
 {
-  "timestamp": "2026-04-26T21:30:00+08:00",
-  "date": "2026-04-26",
-  "source": "trading-monitor evening collection",
+  "timestamp": "2026-04-27T09:55:00+08:00",
+  "date": "2026-04-27",
+  "source": "trading-monitor morning preview",
+  "overnight_futures": {
+    "crude_oil": {
+      "price": 95.78,
+      "change_pct": 0.97,
+      "period": "2026-04-27 Asia session",
+      "note": "伊朗和谈僵局推升油价"
+    },
+    "gold": {
+      "price": 4716.5,
+      "change_pct": -0.18,
+      "period": "2026-04-27 Asia session",
+      "note": "金价小幅回落，和谈重启预期压制"
+    }
+  },
+  "asia_session": {
+    "note": "日韩股市创历史新高，中国工业利润大增15.8%",
+    "japan_korea": "日经/韩国综合指数创纪录新高，投资者无视美伊谈判僵局"
+  },
   "cn": {
     "上证指数": {
       "price": 4080,
       "change_pct": -0.33,
-      "period": "2026-04-24 close",
+      "period": "2026-04-24 close (pre-open)",
       "ytd_pct": "+23.82%",
-      "note": "中东紧张局势升温，油价上涨引发通胀担忧"
+      "note": "中国3月工业利润同比增15.8%，抵消伊朗石油中断冲击"
     },
     "深证成指": {
       "price": 14940,
       "change_pct": -0.69,
-      "period": "2026-04-24 close"
+      "period": "2026-04-24 close (pre-open)"
     }
   },
   "hk": {
     "恒生指数": {
       "price": 25978,
       "change_pct": 0.24,
-      "period": "2026-04-24 close",
+      "period": "2026-04-24 close (pre-open)",
       "ytd_pct": "+18.19%"
     }
   },
@@ -30,7 +48,8 @@
       "change_pct": 0.80,
       "period": "2026-04-24 close",
       "record_high": true,
-      "note": "美股三大指数涨跌互现，标普和纳指创收盘新高"
+      "futures_signal": "mixed",
+      "note": "期货涨跌互现，本周超级财报周+鲍威尔Fed会议"
     },
     "纳斯达克": {
       "price": 24836.60,
@@ -41,8 +60,7 @@
     "道琼斯": {
       "price": null,
       "change_pct": -0.20,
-      "period": "2026-04-24 estimate",
-      "note": "盘中下跌约0.2%"
+      "period": "2026-04-24 estimate"
     }
   },
   "crypto": {
@@ -50,56 +68,76 @@
       "price": 77407,
       "change_24h_pct": -0.33,
       "volume_24h_usd": "16.35B",
-      "period": "2026-04-26 US session"
+      "period": "2026-04-27 early Asia"
     },
     "ETH": {
       "price": 2310,
       "change_24h_pct": -0.34,
-      "period": "2026-04-26 US session",
-      "note": "RSI 35.7 偏弱，MACD中性"
+      "period": "2026-04-27 early Asia",
+      "note": "RSI 35.7 偏弱"
     }
   },
-  "top_news": [
+  "overnight_news": [
+    {
+      "source": "CNBC",
+      "title": "Stock futures fall as Iran peace talks stall, oil rises: Live updates",
+      "summary": "美股期货下跌，伊朗和谈受挫，油价上涨"
+    },
+    {
+      "source": "CNBC",
+      "title": "China industrial profits jump 15.8% in March despite Iran war oil disruption",
+      "summary": "中国3月工业利润同比增15.8%，显示经济复苏韧性"
+    },
+    {
+      "source": "CNBC",
+      "title": "Japan, South Korea stocks hit record high as investors shrug off stalled U.S.-Iran negotiations",
+      "summary": "日韩股市创新高，投资者淡化美伊谈判僵局"
+    },
     {
       "source": "Bloomberg",
-      "title": "Big Tech's $16 Trillion Earnings Week Is Make-Or-Break for Rally",
-      "summary": "科技巨头本周财报将决定美股能否延续涨势"
+      "title": "China's Industrial Profits Surge as Reflation Offsets Cost Shock",
+      "summary": "中国通缩缓解刺激工业利润大增"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Gold Declines as Attempts to Restart US-Iran Peace Talks Falter",
+      "summary": "金价回落，市场仍关注伊朗局势"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Oil Pares Gain, Stocks Rise on Iran Plan Report: Markets Wrap",
+      "summary": "油价涨幅收窄，伊朗方案报道推动股市"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Nomura Stock Hit After Research Affiliate Writedown, Europe Loss",
+      "summary": "野村证券大跌，研究关联公司减记及欧洲亏损"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. stock futures mixed, oil rises ahead of a busy week for Wall Street",
+      "summary": "美股期货涨跌互现，超级财报周即将来临"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Wall Street's Super Bowl Wednesday: Alphabet, Amazon, Microsoft and Meta report along with Powell's last Fed meeting",
+      "summary": "本周三：谷歌/亚马逊/微软/Meta财报+鲍威尔最后一次Fed会议"
     },
     {
       "source": "CNBC",
       "title": "Trump: Shooter at White House press dinner had multiple weapons, one officer shot",
-      "summary": "白宫记者协会晚宴发生枪击，特朗普被紧急撤离"
-    },
-    {
-      "source": "CNBC",
-      "title": "Trump cancels U.S. envoy trip to Pakistan for Iran war negotiations",
-      "summary": "伊朗谈判破裂，特朗普取消特使巴基斯坦之行"
-    },
-    {
-      "source": "CNBC",
-      "title": "Will he stay or will he go? With criminal probe over, Fed Chair Powell faces big decision",
-      "summary": "鲍威尔刑事调查结束，是否留任引关注"
+      "summary": "白宫记者晚宴枪击事件后续"
     },
     {
       "source": "CNBC",
       "title": "U.S. imposes sanctions on Chinese 'teapot' refinery for buying Iranian oil",
       "summary": "美国制裁中国独立炼油厂涉伊朗石油采购"
-    },
-    {
-      "source": "CNBC",
-      "title": "AI talent war: Software industry is a new target as top executives jump ship to OpenAI",
-      "summary": "AI人才争夺战加剧，软件巨头高管纷纷跳槽OpenAI"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Israel President Holds Off Deciding Whether to Pardon Netanyahu",
-      "summary": "以色列总统推迟决定是否赦免内塔尼亚胡"
     }
   ],
   "risk_indicators": {
-    "geopolitical": "HIGH - 伊朗局势持续紧张，霍尔木兹海峡冲突升级，美国制裁中国炼油厂",
-    "oil_impact": "伊朗局势推高油价，全球通胀担忧加剧",
-    "ai_sector": "关注本周科技巨头财报，标普纳指创新高后能否持续",
-    "fed_watch": "鲍威尔去留悬而未决，货币政策面临不确定性"
+    "geopolitical": "HIGH - 美伊谈判僵局持续，霍尔木兹海峡紧张",
+    "oil_impact": "原油95.78美元(+0.97%)，伊朗局势持续推升油价",
+    "super_week": "本周超级财报周(GOOG/AMZN/MSFT/META)+鲍威尔Fed会议决定市场方向",
+    "china_economy": "工业利润+15.8%超预期，通缩缓解政策见效"
   }
 }

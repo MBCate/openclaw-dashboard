@@ -1,54 +1,54 @@
 {
-  "timestamp": "2026-04-27 15:00",
-  "date": "2026-04-27",
+  "timestamp": "2026-04-28 11:35",
+  "date": "2026-04-28",
   "indices": {
     "上证指数": {
-      "price": 4086.34,
-      "change": 6.44,
-      "change_pct": 0.16,
-      "open": 4074.81,
-      "high": 4092.83,
-      "low": 4071.08,
-      "volume": 589950867,
-      "amount": 1136051921710
+      "price": 4083.47,
+      "change": -2.87,
+      "change_pct": -0.07,
+      "open": 4076.14,
+      "high": 4090.20,
+      "low": 4074.29,
+      "volume": 379665926,
+      "amount": 727327990000
     },
     "深证成指": {
-      "price": 14995.75,
-      "change": 55.45,
-      "change_pct": 0.37,
-      "open": 14960.02,
-      "high": 15054.46,
-      "low": 14919.22,
-      "volume": 709930001,
-      "amount": 1453399425008
+      "price": 14934.83,
+      "change": -60.92,
+      "change_pct": -0.41,
+      "open": 14925.22,
+      "high": 14941.76,
+      "low": 14831.45,
+      "volume": 466498272,
+      "amount": 934221460000
     },
     "创业板指": {
-      "price": 3648.79,
-      "change": -19.00,
-      "change_pct": -0.52,
-      "open": 3677.89,
-      "high": 3686.94,
-      "low": 3640.11,
-      "volume": 215941887,
-      "amount": 674213473938
+      "price": 3629.17,
+      "change": -19.62,
+      "change_pct": -0.54,
+      "open": 3623.49,
+      "high": 3633.69,
+      "low": 3586.98,
+      "volume": 141397618,
+      "amount": 442102030000
     },
     "沪深300": {
-      "price": 4770.95,
-      "change": 1.58,
-      "change_pct": 0.03,
-      "open": 4776.34,
-      "high": 4795.17,
-      "low": 4762.64,
-      "volume": 192796550,
-      "amount": 648904814981
+      "price": 4773.98,
+      "change": 3.03,
+      "change_pct": 0.06,
+      "open": 4757.08,
+      "high": 4778.19,
+      "low": 4746.63,
+      "volume": 134660669,
+      "amount": 410148730000
     }
   },
-  "total_volume": 1299880868,
-  "total_amount": 2589451346718,
+  "total_volume": 1122222485,
+  "total_amount": 2513800210000,
   "north_flow": null,
   "industry_top5": null,
   "industry_bottom5": null,
   "concept_top5": null,
   "concept_bottom5": null,
-  "note": "指数来自腾讯财经实时API。板块及北向数据当前网络受限无法获取，需稍后补全。"
+  "note": "指数来自腾讯证券实时API(11:35)。板块涨跌及北向资金因API超时暂缺，收盘后补全。"
 }

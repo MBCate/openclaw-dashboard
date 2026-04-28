@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-27",
-  "total_papers": 69,
+  "last_updated": "2026-04-28",
+  "total_papers": 74,
   "papers": [
     {
       "arxiv_id": "2411.15139",
@@ -1432,6 +1432,118 @@
       ],
       "weekly_date": "2026-04-26",
       "score": 0
+    },
+    {
+      "arxiv_id": "2604.18484",
+      "title": "XEmbodied: Towards a Cloud-Side Vision-Language-Action Foundation Model for Embodied Agents",
+      "year": 2026,
+      "score": 5,
+      "category": "VLA Foundation Model",
+      "keywords": [
+        "VLA",
+        "foundation model",
+        "cloud-side",
+        "3D",
+        "embodied",
+        "CVPR 2026"
+      ],
+      "abstract": "Cloud-side VLA model accepting image+language+3D as input, supporting diverse embodied tasks including driving. Xiaomi Embodied Intelligence team. CVPR 2026.",
+      "authors": [
+        "Xiaomi Embodied Intelligence Team"
+      ],
+      "cites": 0,
+      "status": "新发现",
+      "date": "2026-04-25",
+      "note": "5★ 云端VLA基础模型，3D感知+语言+动作统一框架"
+    },
+    {
+      "arxiv_id": "2604.22260",
+      "title": "UniVLT: A Unified Visual-Language-Transformer Powered Transportation Foundation Model",
+      "year": 2026,
+      "score": 5,
+      "category": "VLA / Transportation Foundation Model",
+      "keywords": [
+        "VLA",
+        "transportation",
+        "foundation model",
+        "visual-language",
+        "transformer"
+      ],
+      "abstract": "Unified transportation VLA foundation model covering autonomous driving, traffic prediction, and related transportation tasks.",
+      "authors": [
+        "TBD"
+      ],
+      "cites": 0,
+      "status": "新发现",
+      "date": "2026-04-24",
+      "note": "5★ 交通运输领域VLA基础模型"
+    },
+    {
+      "arxiv_id": "2604.19683",
+      "title": "Mask World Model: Predicting What Matters for Robust Robot Policy Learning",
+      "year": 2026,
+      "score": 4,
+      "category": "World Model / Robot Policy",
+      "keywords": [
+        "world model",
+        "mask prediction",
+        "diffusion",
+        "robot policy",
+        "robustness"
+      ],
+      "abstract": "Video diffusion predicts semantic masks instead of pixels. Forces model to learn essential dynamics. Outperforms RGB-based world models on LIBERO and RLBench.",
+      "authors": [
+        "Yunfan Lou",
+        "Xiaowei Chi",
+        "Shanghang Zhang",
+        "et al."
+      ],
+      "cites": 0,
+      "status": "新发现",
+      "date": "2026-04-21",
+      "note": "4★ 语义mask世界模型，避免RGB过拟合，鲁棒性强"
+    },
+    {
+      "arxiv_id": "2604.00813",
+      "title": "DVGT-2: Dynamic Vision Graph Transformer for Trajectory Prediction 2.0",
+      "year": 2026,
+      "score": 4,
+      "category": "Trajectory Prediction / Graph",
+      "keywords": [
+        "graph transformer",
+        "trajectory prediction",
+        "dynamic vision"
+      ],
+      "abstract": "Enhanced dynamic vision graph transformer for trajectory prediction.",
+      "authors": [
+        "TBD"
+      ],
+      "cites": 0,
+      "status": "新发现",
+      "date": "2026-04-01",
+      "note": "4★ 动态图Transformer轨迹预测2.0"
+    },
+    {
+      "arxiv_id": "2604.00597",
+      "title": "Towards Viewpoint-Robust End-to-End Autonomous Driving with 3D Foundation Model Priors",
+      "year": 2026,
+      "score": 3,
+      "category": "E2E Driving / Robustness",
+      "keywords": [
+        "viewpoint robustness",
+        "3D foundation model",
+        "end-to-end",
+        "CVPR workshop"
+      ],
+      "abstract": "Uses 3D foundation model priors (depth + cross-attention) for viewpoint-robust E2E driving. CVPR 2026 Workshop on Simulation for AD.",
+      "authors": [
+        "Kazuhiko Kawamoto",
+        "et al."
+      ],
+      "cites": 0,
+      "status": "新发现",
+      "date": "2026-04-01",
+      "note": "3★ 3D基础模型先验增强视角鲁棒性"
     }
   ]
 }

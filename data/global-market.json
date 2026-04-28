@@ -1,136 +1,165 @@
 {
-  "timestamp": "2026-04-28T09:15:00+08:00",
+  "timestamp": "2026-04-28T21:30:00+08:00",
   "date": "2026-04-28",
-  "source": "trading-monitor morning preview",
+  "source": "trading-monitor evening update",
   "asia_session": {
-    "note": "日经小幅回调(-0.5%)，韩国KOSPI创新高(+1.43%)，台湾加权逼近4万(+0.8%)，亚洲早盘涨跌互现",
-    "japan_korea": "日经225: 60237 (-0.5%) | 韩国KOSPI: 6710 (+1.43%) | 台湾加权: 39933 (+0.8%)",
     "a_share": {
-      "note": "A股开盘前，指数持平昨日收盘。北向资金尚未开始交易",
-      "上证指数": 4086.14,
-      "沪深300": 4770.78,
-      "科创50": 1508.38
+      "上证指数": 4078.64,
+      "change_pct": -0.03,
+      "深证成指": 14830.46,
+      "sz_change_pct": -0.74,
+      "创业板指": 3596.71,
+      "cy_change_pct": -1.43,
+      "note": "A股今日窄幅震荡，创业板回调较大，市场等待美联储决议"
     },
     "hong_kong": {
-      "恒生指数": 25925.65,
-      "恒生国企": 8756.32,
-      "恒生科技": 4939.84,
-      "note": "港股开盘前数据"
+      "恒生指数": 25679.78,
+      "change_pct": -0.95,
+      "note": "港股走弱，恒指失守25700点"
     }
   },
   "eu": {
-    "德国DAX": 24083.53,
-    "change_pct": -0.19,
-    "英国富时100": 10321.09,
-    "ftse_change": -0.56,
-    "note": "欧股周一收盘小幅回落"
+    "欧洲Stoxx50": 5839.17,
+    "stoxx_change": -0.36,
+    "德国DAX": 23986.45,
+    "dax_change": -0.40,
+    "英国富时100": 10306.14,
+    "ftse_change": -0.14,
+    "note": "欧股周二全线小幅回落，市场关注美联储周三利率决议"
   },
   "us": {
+    "period": "2026-04-28 Tuesday intraday",
+    "note": "美股盘中：标普回调但道指走强，科技股受OpenAI收入不及预期拖累下跌，超级财报周+鲍威尔最后一次FOMC会议前市场情绪谨慎",
     "S&P 500": {
-      "price": 7173.91,
-      "change_pct": 0.12,
-      "period": "2026-04-27 Monday close",
-      "record_high": true,
-      "futures_signal": "等待开盘",
-      "note": "标普再创历史新高，市场等待超级财报周"
+      "price": 7136.10,
+      "change_pct": -0.53,
+      "prev_close": 7173.91,
+      "record_close": false,
+      "note": "标普从历史高点回落，AI板块领跌"
     },
     "纳斯达克": {
-      "price": null,
-      "change_pct": null,
-      "period": "2026-04-27",
-      "record_high": null,
-      "futures_signal": "AI板块关注度高"
+      "price": 24622.26,
+      "change_pct": -1.06,
+      "prev_close": 24886.26,
+      "note": "纳指跌幅最大，OpenAI收入不及预期冲击科技股，Oracle和芯片股下跌"
     },
     "道琼斯": {
-      "price": null,
-      "change_pct": null,
-      "period": "2026-04-27 estimate",
-      "futures_signal": "futures data unavailable"
+      "price": 49267.66,
+      "change_pct": 0.20,
+      "prev_close": 49169.54,
+      "note": "道指逆势上涨，防御板块获资金流入"
     }
   },
   "commodities": {
     "crude_oil_wti": {
-      "price": 96.04,
-      "change_pct": 1.74,
-      "period": "2026-04-27",
-      "note": "美伊和谈新进展：川普与高层讨论伊朗提案，油价高位震荡"
+      "price": 99.74,
+      "change_pct": 3.50,
+      "prev_close": 96.37,
+      "note": "油价暴涨！阿联酋5月退出OPEC消息引爆供应担忧，WTI逼近100美元"
     },
     "brent": {
-      "price": 107.34,
-      "change_pct": 1.91,
-      "period": "2026-04-27",
-      "note": "布伦特维持107美元上方"
+      "price": 104.47,
+      "change_pct": 2.73,
+      "note": "布伦特同步大涨，突破104美元"
     },
     "gold": {
-      "price": 4703.68,
-      "change_pct": -0.18,
-      "period": "2026-04-27",
-      "note": "金价小幅回落"
+      "price": 4590.70,
+      "change_pct": -2.19,
+      "prev_close": 4693.70,
+      "note": "金价大幅回落，油价暴涨+美元走强压制黄金"
     }
   },
   "crypto": {
     "BTC": {
-      "price": 78871,
-      "change_24h_pct": 1.75,
-      "period": "2026-04-28 morning",
-      "note": "BTC 78K-80K区间震荡"
+      "price": 76131,
+      "change_24h_pct": -2.07,
+      "period": "2026-04-28 21:30 CST",
+      "note": "BTC跌破77K，加密市场随科技股下跌，美联储决议前资金流出风险资产"
     },
     "ETH": {
-      "price": 2315,
-      "change_24h_pct": -0.72,
-      "period": "2026-04-28 morning",
-      "note": "ETH弱于BTC"
+      "price": 2268.11,
+      "change_24h_pct": -2.00,
+      "period": "2026-04-28 21:30 CST",
+      "note": "ETH同步回调，维持在2270附近"
     }
   },
+  "geopolitical_events": [
+    {
+      "priority": "HIGH",
+      "event": "阿联酋宣布5月1日退出OPEC",
+      "impact": "油价暴涨3.5%，WTI逼近100美元。阿联酋为OPEC第三大产油国，退出将重塑全球能源格局"
+    },
+    {
+      "priority": "HIGH",
+      "event": "OpenAI收入不及预期，拖累科技股",
+      "impact": "Oracle和芯片股大跌，纳斯达克跌超1%。OpenAI营收增长低于预期引发AI板块估值担忧"
+    },
+    {
+      "priority": "HIGH",
+      "event": "超级周三：FOMC鲍威尔最后一次利率决议 + Alphabet/Microsoft/Meta/Amazon财报",
+      "impact": "市场焦点集中，美联储是否暗示利率路径变化将决定后续走向。这是鲍威尔任内最后一次FOMC会议"
+    },
+    {
+      "priority": "MEDIUM",
+      "event": "Musk v. Altman审判开庭",
+      "impact": "马斯克诉OpenAI案开庭辩论，可能影响AI行业治理和开源/闭源之争"
+    }
+  ],
   "news_highlights": [
     {
       "source": "CNBC",
-      "title": "Judge in Musk v. Altman seats nine-person jury. Opening arguments start Tuesday",
-      "summary": "Musk诉Altman案陪审团选定，周二开庭辩论，OpenAI控制权之争升级"
+      "title": "United Arab Emirates leaving OPEC, effective May 1",
+      "summary": "阿联酋宣布5月1日正式退出OPEC，全球石油市场面临重大变局"
     },
     {
       "source": "CNBC",
-      "title": "Trump discussed Iran's Hormuz Strait proposal with top aides, White House says",
-      "summary": "川普与高层讨论伊朗霍尔木兹海峡提案，地缘局势有望缓和"
+      "title": "OpenAI reportedly missed revenue targets. Oracle and chip stocks falling",
+      "summary": "OpenAI营收不及预期，拖累科技板块，Oracle和芯片股大跌"
+    },
+    {
+      "source": "CNBC",
+      "title": "Inflation could get in way of Warsh's desire to cut rates, CNBC survey finds",
+      "summary": "CNBC调查：通胀可能阻碍Warsh降息意愿，市场对美联储转向预期降温"
+    },
+    {
+      "source": "CNBC",
+      "title": "OpenAI trial live updates: Opening arguments in Musk v. Altman lawsuit set to begin",
+      "summary": "马斯克诉Altman案周二正式开庭，OpenAI控制权争议进入法庭阶段"
     },
     {
       "source": "Bloomberg",
-      "title": "Asian Shares Hold Near Eight-Week High Before BOJ: Markets Wrap",
-      "summary": "亚洲股市维持8周高位，日银决议前观望"
+      "title": "UAE to Exit OPEC in May After Six Decades",
+      "summary": "阿联酋结束60年OPEC成员身份，5月正式退出"
     },
     {
       "source": "Bloomberg",
-      "title": "CATL Prices $5 Billion HK Share Placement at Low End of Range",
-      "summary": "宁德时代50亿美元港股配股完成，定价区间低端"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Korea Passes UK to Become World's Eighth-Largest Stock Market",
-      "summary": "韩国股市市值超越英国，跃居全球第8"
+      "title": "Why US Stocks Don't Care About Iran",
+      "summary": "美股无视伊朗地缘风险，市场关注重心在财报和美联储"
     },
     {
       "source": "MarketWatch",
-      "title": "Bed Bath & Beyond is seeing new life, as rare sales growth lifts stock more than 25%",
-      "summary": "Bed Bath & Beyond销售罕见增长，股价暴涨25%以上"
+      "title": "Resist the temptation to close your eyes and buy into S&P 500 rally",
+      "summary": "对冲基金传奇警告：不要闭眼追涨标普500"
     },
     {
-      "source": "CNBC",
-      "title": "Cole Allen charged with trying to assassinate Trump at WHCD event",
-      "summary": "白宫记者协会晚宴枪击威胁事件，特勤局面临安全审查"
+      "source": "MarketWatch",
+      "title": "Higher inflation is on the way. The Fed needs to make this clear",
+      "summary": "通胀抬头预期升温，市场呼吁美联储明确立场"
     }
   ],
   "risk_indicators": {
-    "geopolitical": "HIGH - 霍尔木兹海峡局势出现缓和信号（伊朗提案），白宫正在讨论",
-    "super_week": "本超级财报周持续：AMD周二盘后/Google/微软/Meta/Amazon周三/Apple周四",
-    "fed_watch": "本周FOMC会议（鲍威尔最后一次），周三利率决议",
-    "oil_impact": "WTI $96附近，布伦特$107，关注美伊和谈进展",
-    "musk_altman_trial": "马斯克诉OpenAI案周二开庭，可能影响AI行业治理格局"
+    "geopolitical": "CRITICAL - 阿联酋退出OPEC，油价飙升3.5%。伊朗霍尔木兹海峡局势仍在讨论中",
+    "super_week": "超级财报周持续：AMD周二发布；Alphabet/Microsoft/Meta/Amazon周三；Apple周四",
+    "fed_watch": "周三FOMC利率决议——鲍威尔任内最后一次会议，市场预期按兵不动但关注措辞",
+    "oil_impact": "WTI $99.74逼近100大关，阿联酋退出OPEC加剧供应不确定性",
+    "musk_altman_trial": "马斯克诉OpenAI案开庭，可能重塑AI行业格局",
+    "vibe": "risk-off — 油价暴涨引发通胀担忧，科技股回调，资金从风险资产流出"
   },
   "week_ahead": {
-    "monday": "Earnings: GE, Coca-Cola, Home Depot; Iran proposal discussed",
-    "tuesday": "Earnings: AMD; Consumer Confidence; Musk v Altman trial opens",
-    "wednesday": "SUPER WEDNESDAY — Alphabet/Microsoft/Meta/Amazon earnings + Powell's last FOMC decision",
-    "thursday": "Earnings: Apple; Initial Jobless Claims; GDP Q1 advance",
-    "friday": "Earnings: Exxon; PCE inflation data (core measure)"
+    "monday": "Done — 标普/纳指再创历史新高；阿联酋不退出OPEC传言发酵",
+    "tuesday": "UAE退出OPEC确认(油价暴涨)；OpenAI营收不及预期；Musk v Altman开庭",
+    "wednesday": "SUPER WEDNESDAY — Alphabet/Microsoft/Meta/Amazon财报 + 鲍威尔最后一次FOMC决议",
+    "thursday": "Apple财报；初请失业金；GDP Q1初值",
+    "friday": "Exxon财报；核心PCE通胀数据"
   }
 }

@@ -1,127 +1,134 @@
 {
-  "timestamp": "2026-04-27T21:30:00+08:00",
-  "date": "2026-04-27",
-  "source": "trading-monitor evening report",
+  "timestamp": "2026-04-28T09:15:00+08:00",
+  "date": "2026-04-28",
+  "source": "trading-monitor morning preview",
   "asia_session": {
-    "note": "日韩股市延续历史高位，A股小幅回调后企稳",
-    "japan_korea": "日经/韩国综合指数高位震荡"
+    "note": "日经小幅回调(-0.5%)，韩国KOSPI创新高(+1.43%)，台湾加权逼近4万(+0.8%)，亚洲早盘涨跌互现",
+    "japan_korea": "日经225: 60237 (-0.5%) | 韩国KOSPI: 6710 (+1.43%) | 台湾加权: 39933 (+0.8%)",
+    "a_share": {
+      "note": "A股开盘前，指数持平昨日收盘。北向资金尚未开始交易",
+      "上证指数": 4086.14,
+      "沪深300": 4770.78,
+      "科创50": 1508.38
+    },
+    "hong_kong": {
+      "恒生指数": 25925.65,
+      "恒生国企": 8756.32,
+      "恒生科技": 4939.84,
+      "note": "港股开盘前数据"
+    }
+  },
+  "eu": {
+    "德国DAX": 24083.53,
+    "change_pct": -0.19,
+    "英国富时100": 10321.09,
+    "ftse_change": -0.56,
+    "note": "欧股周一收盘小幅回落"
   },
   "us": {
     "S&P 500": {
-      "price": 7165.08,
-      "change_pct": 0.80,
-      "period": "2026-04-24 close (last Fri)",
+      "price": 7173.91,
+      "change_pct": 0.12,
+      "period": "2026-04-27 Monday close",
       "record_high": true,
-      "futures_signal": "flat to slightly lower (-0.1%)",
-      "note": "期货早盘小幅回落，本周超级财报周+鲍威尔Fed会议"
+      "futures_signal": "等待开盘",
+      "note": "标普再创历史新高，市场等待超级财报周"
     },
     "纳斯达克": {
-      "price": 24836.60,
-      "change_pct": 1.63,
-      "period": "2026-04-24 close",
-      "record_high": true,
-      "futures": "flat"
+      "price": null,
+      "change_pct": null,
+      "period": "2026-04-27",
+      "record_high": null,
+      "futures_signal": "AI板块关注度高"
     },
     "道琼斯": {
       "price": null,
-      "change_pct": -0.20,
-      "period": "2026-04-24 estimate",
-      "futures": "futures -0.2%"
+      "change_pct": null,
+      "period": "2026-04-27 estimate",
+      "futures_signal": "futures data unavailable"
     }
   },
   "commodities": {
     "crude_oil_wti": {
       "price": 96.04,
       "change_pct": 1.74,
-      "period": "2026-04-27 session",
-      "note": "美伊和谈僵持，霍尔木兹海峡封锁持续推升油价"
+      "period": "2026-04-27",
+      "note": "美伊和谈新进展：川普与高层讨论伊朗提案，油价高位震荡"
     },
     "brent": {
       "price": 107.34,
       "change_pct": 1.91,
-      "period": "2026-04-27 session",
-      "note": "布伦特突破107美元"
+      "period": "2026-04-27",
+      "note": "布伦特维持107美元上方"
     },
     "gold": {
       "price": 4703.68,
       "change_pct": -0.18,
       "period": "2026-04-27",
-      "note": "金价小幅回落，市场关注伊朗和谈重启可能"
+      "note": "金价小幅回落"
     }
   },
   "crypto": {
     "BTC": {
       "price": 78871,
       "change_24h_pct": 1.75,
-      "volume_24h_usd": null,
-      "period": "2026-04-27 US session",
-      "note": "BTC在78K-80K区间震荡，测试阻力位"
+      "period": "2026-04-28 morning",
+      "note": "BTC 78K-80K区间震荡"
     },
     "ETH": {
       "price": 2315,
       "change_24h_pct": -0.72,
-      "period": "2026-04-27 US session",
-      "note": "ETH表现弱于BTC，YTD落后"
+      "period": "2026-04-28 morning",
+      "note": "ETH弱于BTC"
     }
   },
-  "total_crypto_mcap": "2.71T",
   "news_highlights": [
     {
-      "source": "Bloomberg",
-      "title": "Oil Rises as Stalled US-Iran Peace Talks Keep Hormuz Strait Shut",
-      "summary": "美伊和谈停滞，霍尔木兹海峡封锁持续，油价继续攀升"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Walmart Plans to Sell Investment-Grade Bonds on Monday",
-      "summary": "沃尔玛计划发行投资级债券"
+      "source": "CNBC",
+      "title": "Judge in Musk v. Altman seats nine-person jury. Opening arguments start Tuesday",
+      "summary": "Musk诉Altman案陪审团选定，周二开庭辩论，OpenAI控制权之争升级"
     },
     {
       "source": "CNBC",
-      "title": "United Airlines CEO confirms he approached American Airlines about merger",
-      "summary": "美联航CEO确认曾接触美航探讨合并"
-    },
-    {
-      "source": "CNBC",
-      "title": "This bank CEO let his AI clone handle an earnings call — now he's signing an OpenAI deal",
-      "summary": "Customers Bank CEO用AI分身处理财报电话会议，签OpenAI协议"
-    },
-    {
-      "source": "CNBC",
-      "title": "Intellia Therapeutics says its Crispr-based treatment succeeds in pivotal trial",
-      "summary": "Intellia基因编辑疗法三期临床成功"
-    },
-    {
-      "source": "CNBC",
-      "title": "Spotify teams up with Peloton to launch global fitness content hub",
-      "summary": "Spotify与Peloton合作推出健身内容"
+      "title": "Trump discussed Iran's Hormuz Strait proposal with top aides, White House says",
+      "summary": "川普与高层讨论伊朗霍尔木兹海峡提案，地缘局势有望缓和"
     },
     {
       "source": "Bloomberg",
-      "title": "Hormuz Closure Drives Energy Investment — Apollo Infrastructure",
-      "summary": "霍尔木兹封锁加速能源基础设施投资"
+      "title": "Asian Shares Hold Near Eight-Week High Before BOJ: Markets Wrap",
+      "summary": "亚洲股市维持8周高位，日银决议前观望"
     },
     {
-      "source": "Yahoo Finance",
-      "title": "Iran reportedly offers US proposal to reopen Hormuz",
-      "summary": "伊朗据报向美方提出重开霍尔木兹海峡的方案"
+      "source": "Bloomberg",
+      "title": "CATL Prices $5 Billion HK Share Placement at Low End of Range",
+      "summary": "宁德时代50亿美元港股配股完成，定价区间低端"
     },
     {
-      "source": "WSJ",
-      "title": "Stock Market Today: Oil Climbs, Dow Futures Slip",
-      "summary": "油价上涨，道指期货小幅回落"
+      "source": "Bloomberg",
+      "title": "Korea Passes UK to Become World's Eighth-Largest Stock Market",
+      "summary": "韩国股市市值超越英国，跃居全球第8"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Bed Bath & Beyond is seeing new life, as rare sales growth lifts stock more than 25%",
+      "summary": "Bed Bath & Beyond销售罕见增长，股价暴涨25%以上"
+    },
+    {
+      "source": "CNBC",
+      "title": "Cole Allen charged with trying to assassinate Trump at WHCD event",
+      "summary": "白宫记者协会晚宴枪击威胁事件，特勤局面临安全审查"
     }
   ],
   "risk_indicators": {
-    "geopolitical": "CRITICAL - 美伊和谈停滞，霍尔木兹海峡持续封锁，油价创多年新高",
-    "super_week": "本周超级财报周(GOOG/AMZN/MSFT/META/Apple)+鲍威尔最后一次Fed会议决定方向",
-    "oil_impact": "WTI $96.04 (+1.74%)，Brent $107.34 (+1.91%)，通胀压力上升",
-    "fed_watch": "本周FOMC会议（鲍威尔最后一次），市场关注利率路径表态",
-    "china_economy": "工业利润+15.8%超预期，通缩缓解但制裁中国炼油厂风险"
+    "geopolitical": "HIGH - 霍尔木兹海峡局势出现缓和信号（伊朗提案），白宫正在讨论",
+    "super_week": "本超级财报周持续：AMD周二盘后/Google/微软/Meta/Amazon周三/Apple周四",
+    "fed_watch": "本周FOMC会议（鲍威尔最后一次），周三利率决议",
+    "oil_impact": "WTI $96附近，布伦特$107，关注美伊和谈进展",
+    "musk_altman_trial": "马斯克诉OpenAI案周二开庭，可能影响AI行业治理格局"
   },
   "week_ahead": {
-    "monday": "Earnings: GE, Coca-Cola, Home Depot; Walmart IG bond sale; Iran situation monitor",
-    "tuesday": "Earnings: AMD; Consumer Confidence data",
+    "monday": "Earnings: GE, Coca-Cola, Home Depot; Iran proposal discussed",
+    "tuesday": "Earnings: AMD; Consumer Confidence; Musk v Altman trial opens",
     "wednesday": "SUPER WEDNESDAY — Alphabet/Microsoft/Meta/Amazon earnings + Powell's last FOMC decision",
     "thursday": "Earnings: Apple; Initial Jobless Claims; GDP Q1 advance",
     "friday": "Earnings: Exxon; PCE inflation data (core measure)"

@@ -1,54 +1,54 @@
 {
-  "timestamp": "2026-04-28 11:35",
+  "updated_at": "2026-04-28 15:15:00",
   "date": "2026-04-28",
-  "indices": {
-    "上证指数": {
-      "price": 4083.47,
-      "change": -2.87,
-      "change_pct": -0.07,
-      "open": 4076.14,
-      "high": 4090.20,
-      "low": 4074.29,
-      "volume": 379665926,
-      "amount": 727327990000
+  "indices": [
+    {
+      "name": "上证指数",
+      "code": "000001",
+      "price": 4078.64,
+      "change_pct": -0.19,
+      "change": -7.71,
+      "volume": 6005074000,
+      "amount": 111395556000
     },
-    "深证成指": {
-      "price": 14934.83,
-      "change": -60.92,
-      "change_pct": -0.41,
-      "open": 14925.22,
-      "high": 14941.76,
-      "low": 14831.45,
-      "volume": 466498272,
-      "amount": 934221460000
+    {
+      "name": "深证成指",
+      "code": "399001",
+      "price": 14830.46,
+      "change_pct": -1.1,
+      "change": -165.29,
+      "volume": 72372754700,
+      "amount": 142235227000
     },
-    "创业板指": {
-      "price": 3629.17,
-      "change": -19.62,
-      "change_pct": -0.54,
-      "open": 3623.49,
-      "high": 3633.69,
-      "low": 3586.98,
-      "volume": 141397618,
-      "amount": 442102030000
+    {
+      "name": "创业板指",
+      "code": "399006",
+      "price": 3596.71,
+      "change_pct": -1.43,
+      "change": -52.08,
+      "volume": 3959743200,
+      "amount": 26920384000
     },
-    "沪深300": {
-      "price": 4773.98,
-      "change": 3.03,
-      "change_pct": 0.06,
-      "open": 4757.08,
-      "high": 4778.19,
-      "low": 4746.63,
-      "volume": 134660669,
-      "amount": 410148730000
+    {
+      "name": "沪深300",
+      "code": "000300",
+      "price": 4758.21,
+      "change_pct": -0.27,
+      "change": -12.74,
+      "volume": 2167242000,
+      "amount": 63152166000
+    },
+    {
+      "name": "科创50",
+      "code": "000688",
+      "price": 1488.66,
+      "change_pct": -1.31,
+      "change": -19.72,
+      "volume": 119255000,
+      "amount": 10192973000
     }
-  },
-  "total_volume": 1122222485,
-  "total_amount": 2513800210000,
-  "north_flow": null,
-  "industry_top5": null,
-  "industry_bottom5": null,
-  "concept_top5": null,
-  "concept_bottom5": null,
-  "note": "指数来自腾讯证券实时API(11:35)。板块涨跌及北向资金因API超时暂缺，收盘后补全。"
+  ],
+  "data_source": "sina_real_time",
+  "data_source_note": "指数数据来自新浪实时行情API (2026-04-28 15:05 CST)",
+  "note": "沪指微跌0.19%，深成指跌1.10%，创业板指跌1.43%，科创50跌1.31%。两市成交约2536亿元（上证1114亿+深证1422亿）。行业板块及北向资金数据因数据源（东方财富/sina）网络异常暂缺，请手动查看东方财富网。"
 }

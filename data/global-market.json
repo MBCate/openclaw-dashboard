@@ -1,61 +1,63 @@
 {
   "date": "2026-04-29",
-  "time": "21:30 CST",
-  "updatedAt": "2026-04-29T13:30:00Z",
+  "time": "03:30 CST",
+  "updatedAt": "2026-04-29T19:30:00Z",
+  "asiaMarkets": {
+    "shanghai": "4107.51 (+0.71%)",
+    "shenzhen": "15120.92 (+1.96%)",
+    "chiNext": "3687.17 (+2.51%)",
+    "csi300": "4810.35 (+1.10%)",
+    "note": "A股强势收涨，创业板领涨+2.51%。北向资金有望持续流入。市场对国内政策宽松预期升温。"
+  },
   "usMarkets": {
-    "sAndP500": "7139 (-0.49%)",
-    "nasdaq100": "Futures +0.3%",
-    "dow": "Futures flat",
-    "note": "S&P 500 off record highs, AI tech stocks under pressure ahead of Mag 7 earnings. Fed expected to hold rates (Powell's likely final meeting). Visa +5% pre-market on strong earnings."
+    "sAndP500": "7132 (-0.08%)",
+    "nasdaqComposite": "Fell ~0.5% (from record)",
+    "dowJones": "49,142 (-0.1%)",
+    "note": "美股尾盘走弱，美联储按兵不动但出现1992年以来最大内部分歧(8-4投票)。Mag 7盘后财报即将公布。Visa +10%领涨。"
   },
   "commodities": {
-    "brentCrude": "$108.17 (+4.41%)",
-    "note": "Oil extends multi-day rally, Brent tops $114 intraday. Trump issues new threats to Iran, Middle East supply concerns."
+    "brentCrude": "$118 (+2.8%)",
+    "note": "布伦特原油突破$118。特朗普宣布全面封锁伊朗直至达成核协议，中东供应链风险加剧。"
   },
   "crypto": {
     "bitcoin": "$77,630 (+1.5%)",
     "ethereum": "$2,340 (+2.1%)",
-    "solana": "$85.27 (+1.2%)",
-    "xrp": "$1.40 (+0.4%)",
-    "note": "White House teases announcement on $25B BTC strategic reserve. Mastercard bridges AI agents with crypto wallets."
+    "note": "白宫计划宣布250亿BTC战略储备。Mastercard桥接AI代理与加密钱包。"
   },
   "hongKong": {
-    "hangSeng": "26,112 (+1.68%)",
-    "hstech": "4,910 (+1.72%)",
-    "note": "HK rebound. HKEX Q1 revenue +20%, profit +27% (record high). Ping An +6%, Taiping +5% on strong earnings. Solid-state battery stocks rally. South-bound net sell HK$3.9B."
+    "hangSeng": "25,680 (+0.63%)",
+    "hstech": "~4,830 (+1.07%)",
+    "note": "港股高开0.63%，恒生科技高开1.07%。夜期收报25,762（高水82点）。韩国资金涌入港股硬科技。"
   },
   "news": [
     {
       "source": "CNBC",
-      "title": "OpenAI's subtle drift from Microsoft has become an aggressive move toward Amazon"
+      "title": "Fed holds rates steady but with highest level of dissent since 1992 (8-4 vote)"
     },
     {
       "source": "CNBC",
-      "title": "Oil prices extend multi-day rally as Trump issues new threat to Iran; Brent tops $114"
+      "title": "Jerome Powell says he will continue to serve as Fed governor, calls Trump criticism 'unprecedented'"
     },
     {
-      "source": "Bloomberg",
-      "title": "US Core Capital Goods Orders Rise by Most in Nearly Six Years"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Blackstone Forms New Unit to Oversee AI, High-Growth Tech Bets"
+      "source": "CNBC",
+      "title": "Brent oil tops $118 after Trump says he will blockade Iran until it agrees to a nuclear deal"
     },
     {
       "source": "MarketWatch",
-      "title": "Soros alum betting on copper and cables over AI chips"
+      "title": "S&P 500 falls from ATH, AI stocks under pressure ahead of Mag 7 earnings"
     },
     {
-      "source": "FT",
-      "title": "BoE cracks down on insurers' offshore pension transfers"
+      "source": "TradingEconomics",
+      "title": "US core capital goods orders rise by most in nearly six years"
     }
   ],
   "keyEvents": [
-    "Fed rate decision today (Powell's likely final meeting) — expected to hold",
-    "Mag 7 earnings (MSFT, META, GOOGL, AMZN) after the bell — AI capex in focus",
-    "US core capital goods orders surge — strongest in nearly 6 years",
-    "Brent crude tops $114 amid renewed US-Iran tensions",
-    "White House signals major update on US Strategic Bitcoin Reserve"
+    "FOMC 4月决议：利率维持3.5%-3.75%，8-4投票为1992年来最大分歧",
+    "鲍威尔：将继续担任美联储理事，称特朗普的批评'史无前例'",
+    "布伦特原油突破$118，特朗普宣布全面封锁伊朗直至核协议",
+    "Mag 7盘后财报（MSFT/META/GOOGL/AMZN）— AI资本支出成焦点",
+    "Visa Q1业绩超预期，涨幅+10%",
+    "美股从历史高点回落，AI科技股承压"
   ],
-  "alert": "WARN: Oil spike + Middle East tension could pressure global equities. Watch Fed decision and Mag 7 earnings tonight."
+  "alert": "WARN: FOMC内部分歧加剧+油价暴涨+Irang封锁，全球市场波动率上升。关注今晚Mag 7财报及鲍威尔讲话后续影响。"
 }

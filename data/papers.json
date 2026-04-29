@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-28",
-  "total_papers": 74,
+  "last_updated": "2026-04-29",
+  "total_papers": 81,
   "papers": [
     {
       "arxiv_id": "2411.15139",
@@ -1544,6 +1544,148 @@
       "status": "新发现",
       "date": "2026-04-01",
       "note": "3★ 3D基础模型先验增强视角鲁棒性"
+    },
+    {
+      "arxiv_id": "2604.24119",
+      "title": "TopoHR: Hierarchical Centerline Representation for Cyclic Topology Reasoning in Driving Scenes with Point-to-Instance Relations",
+      "authors": [
+        "TBD"
+      ],
+      "year": 2026,
+      "score": 4,
+      "category": "BEV / Topology Planning",
+      "keywords": [
+        "topology reasoning",
+        "centerline",
+        "hierarchical",
+        "driving scenes"
+      ],
+      "abstract": "Topology reasoning is crucial for autonomous driving. Proposes hierarchical centerline representation and point-to-instance relational modeling for cyclic topology reasoning in driving scenes.",
+      "status": "新发现",
+      "date": "2026-04-27",
+      "note": "4★ 层次中心线拓扑推理，点-实例关系建模"
+    },
+    {
+      "arxiv_id": "2604.23362",
+      "title": "UniAda: Universal Adaptive Multi-objective Adversarial Attack for End-to-End Autonomous Driving Systems",
+      "authors": [
+        "TBD"
+      ],
+      "year": 2026,
+      "score": 3,
+      "category": "E2E / Robustness",
+      "keywords": [
+        "adversarial attack",
+        "end-to-end",
+        "robustness",
+        "multi-objective"
+      ],
+      "abstract": "Universal adaptive multi-objective adversarial attack for end-to-end autonomous driving systems. Tests reliability of E2E AD against subtle perturbations to the input.",
+      "status": "新发现",
+      "date": "2026-04-25",
+      "note": "3★ 自适应多目标对抗攻击测试E2E驾驶系统鲁棒性"
+    },
+    {
+      "arxiv_id": "2604.23105",
+      "title": "Transferable Physical-World Adversarial Patches Against Object Detection in Autonomous Driving",
+      "authors": [
+        "TBD"
+      ],
+      "year": 2026,
+      "score": 3,
+      "category": "Perception / Robustness",
+      "keywords": [
+        "adversarial patch",
+        "object detection",
+        "physical-world",
+        "transferable"
+      ],
+      "abstract": "Transferable physical-world adversarial patches against object detection in autonomous driving. Addresses threats to AD perception reliability.",
+      "status": "新发现",
+      "date": "2026-04-25",
+      "note": "3★ 物理世界对抗补丁攻击AD目标检测"
+    },
+    {
+      "arxiv_id": "2604.23604",
+      "title": "Learning to Identify Out-of-Distribution Objects for 3D LiDAR Anomaly Segmentation",
+      "authors": [
+        "TBD"
+      ],
+      "year": 2026,
+      "score": 3,
+      "category": "Perception",
+      "keywords": [
+        "OOD",
+        "anomaly segmentation",
+        "LiDAR",
+        "autonomous driving"
+      ],
+      "abstract": "Understanding the surrounding environment is fundamental in autonomous driving and robotic perception. Distinguishing between known classes and previously unseen objects is crucial. Proposes OOD anomaly segmentation for 3D LiDAR.",
+      "status": "新发现",
+      "date": "2026-04-26",
+      "note": "3★ 3D LiDAR异常分割，检测未知物体"
+    },
+    {
+      "arxiv_id": "2604.23934",
+      "title": "VLM-VPI: A Vision-Language Reasoning Framework for Improving Automated Vehicle-Pedestrian Interactions",
+      "authors": [
+        "TBD"
+      ],
+      "year": 2026,
+      "score": 4,
+      "category": "VLA / VLM Driving",
+      "keywords": [
+        "VLM",
+        "pedestrian",
+        "interaction",
+        "reasoning",
+        "driving"
+      ],
+      "abstract": "Autonomous driving systems often infer pedestrian yielding behavior from geometric and kinematic cues alone, limiting their ability to reason about visual scene context and age-dependent behavioral variance. Proposes VLM-VPI for reasoning-informed vehicle-pedestrian interactions.",
+      "status": "新发现",
+      "date": "2026-04-27",
+      "note": "4★ VLM推理框架理解行人意愿，超越几何线索"
+    },
+    {
+      "arxiv_id": "2604.24562",
+      "title": "Towards Lawful Autonomous Driving: Deriving Scenario-Aware Driving Requirements from Traffic Laws and Regulations",
+      "authors": [
+        "TBD"
+      ],
+      "year": 2026,
+      "score": 3,
+      "category": "Planning / Safety",
+      "keywords": [
+        "traffic laws",
+        "regulation compliance",
+        "autonomous driving",
+        "scenario-aware"
+      ],
+      "abstract": "Driving in compliance with traffic laws is a basic requirement for human drivers, yet AVs can violate these requirements in diverse real-world scenarios. Proposes deriving scenario-aware driving requirements from traffic laws.",
+      "status": "新发现",
+      "date": "2026-04-27",
+      "note": "3★ 从交通法规推导场景感知驾驶需求"
+    },
+    {
+      "arxiv_id": "2604.21489",
+      "title": "MISTY: High-Throughput Motion Planning via Mixer-based Single-step Drifting",
+      "authors": [
+        "TBD"
+      ],
+      "year": 2026,
+      "score": 4,
+      "category": "Diffusion Policy / Planning",
+      "keywords": [
+        "diffusion",
+        "motion planning",
+        "single-step",
+        "mixer",
+        "efficient"
+      ],
+      "abstract": "Multi-modal trajectory generation is essential for safe autonomous driving, yet existing diffusion-based planners suffer from high inference latency due to iterative neural function evaluations. MISTY proposes mixer-based single-step drifting for high-throughput motion planning.",
+      "status": "新发现",
+      "date": "2026-04-23",
+      "note": "4★ 单步扩散运动规划，Mixer架构加速推理"
     }
   ]
 }

@@ -1,165 +1,127 @@
 {
-  "timestamp": "2026-04-28T21:30:00+08:00",
-  "date": "2026-04-28",
-  "source": "trading-monitor evening update",
-  "asia_session": {
-    "a_share": {
-      "上证指数": 4078.64,
-      "change_pct": -0.03,
-      "深证成指": 14830.46,
-      "sz_change_pct": -0.74,
-      "创业板指": 3596.71,
-      "cy_change_pct": -1.43,
-      "note": "A股今日窄幅震荡，创业板回调较大，市场等待美联储决议"
+  "updatedAt": "2026-04-29T09:15:00+08:00",
+  "session": "morning",
+  "summary": "隔夜美股全线收跌，科技股领跌。UAE退出OPEC冲击油价，OpenAI收入不及预期引发芯片抛售。亚洲早盘分化，恒指期货小幅走高。聚焦今晚Fed利率决议。",
+
+  "usMarket": {
+    "date": "2026-04-28",
+    "sp500": {
+      "close": 7138.80,
+      "change": -0.49,
+      "open": 7133.74,
+      "high": 7152.52,
+      "low": 7115.17,
+      "prevClose": 7173.91
     },
-    "hong_kong": {
-      "恒生指数": 25679.78,
-      "change_pct": -0.95,
-      "note": "港股走弱，恒指失守25700点"
+    "nasdaq": {
+      "close": 24663.80,
+      "change": -0.90,
+      "prevClose": 24887.10
+    },
+    "dow": {
+      "close": 49141.93,
+      "change": -0.05,
+      "prevClose": 49167.79
     }
   },
-  "eu": {
-    "欧洲Stoxx50": 5839.17,
-    "stoxx_change": -0.36,
-    "德国DAX": 23986.45,
-    "dax_change": -0.40,
-    "英国富时100": 10306.14,
-    "ftse_change": -0.14,
-    "note": "欧股周二全线小幅回落，市场关注美联储周三利率决议"
-  },
-  "us": {
-    "period": "2026-04-28 Tuesday intraday",
-    "note": "美股盘中：标普回调但道指走强，科技股受OpenAI收入不及预期拖累下跌，超级财报周+鲍威尔最后一次FOMC会议前市场情绪谨慎",
-    "S&P 500": {
-      "price": 7136.10,
-      "change_pct": -0.53,
-      "prev_close": 7173.91,
-      "record_close": false,
-      "note": "标普从历史高点回落，AI板块领跌"
-    },
-    "纳斯达克": {
-      "price": 24622.26,
-      "change_pct": -1.06,
-      "prev_close": 24886.26,
-      "note": "纳指跌幅最大，OpenAI收入不及预期冲击科技股，Oracle和芯片股下跌"
-    },
-    "道琼斯": {
-      "price": 49267.66,
-      "change_pct": 0.20,
-      "prev_close": 49169.54,
-      "note": "道指逆势上涨，防御板块获资金流入"
-    }
-  },
+
   "commodities": {
-    "crude_oil_wti": {
-      "price": 99.74,
-      "change_pct": 3.50,
-      "prev_close": 96.37,
-      "note": "油价暴涨！阿联酋5月退出OPEC消息引爆供应担忧，WTI逼近100美元"
-    },
-    "brent": {
-      "price": 104.47,
-      "change_pct": 2.73,
-      "note": "布伦特同步大涨，突破104美元"
+    "wtiCrude": {
+      "price": 100.27,
+      "change": 0.34,
+      "prevClose": 99.93,
+      "note": "UAE退出OPEC冲击石油市场"
     },
     "gold": {
-      "price": 4590.70,
-      "change_pct": -2.19,
-      "prev_close": 4693.70,
-      "note": "金价大幅回落，油价暴涨+美元走强压制黄金"
+      "price": 4592.90,
+      "change": -0.34,
+      "prevClose": 4608.40,
+      "note": "黄金小幅回调"
     }
   },
-  "crypto": {
-    "BTC": {
-      "price": 76131,
-      "change_24h_pct": -2.07,
-      "period": "2026-04-28 21:30 CST",
-      "note": "BTC跌破77K，加密市场随科技股下跌，美联储决议前资金流出风险资产"
+
+  "fxAndBonds": {
+    "us10y": {
+      "yield": 4.348,
+      "change": -0.006,
+      "note": "收益率微降，市场等待Fed决议"
     },
-    "ETH": {
-      "price": 2268.11,
-      "change_24h_pct": -2.00,
-      "period": "2026-04-28 21:30 CST",
-      "note": "ETH同步回调，维持在2270附近"
+    "dollarIndex": {
+      "value": null,
+      "change": null,
+      "note": ""
     }
   },
-  "geopolitical_events": [
+
+  "asiaPremarket": {
+    "date": "2026-04-29",
+    "nikkei": {
+      "status": "休市",
+      "note": "日本假期休市"
+    },
+    "hangsengFutures": 25762,
+    "hangsengLastClose": 25679.78,
+    "kospi": {
+      "change": -0.39,
+      "status": "盘中"
+    },
+    "asx200": {
+      "change": -0.28,
+      "status": "盘中"
+    }
+  },
+
+  "usFutures": {
+    "sp500": 0.1,
+    "nasdaq100": 0.2,
+    "dow": 0.1,
+    "note": "隔夜期货小幅反弹"
+  },
+
+  "keyEvents": [
     {
-      "priority": "HIGH",
-      "event": "阿联酋宣布5月1日退出OPEC",
-      "impact": "油价暴涨3.5%，WTI逼近100美元。阿联酋为OPEC第三大产油国，退出将重塑全球能源格局"
+      "title": "UAE宣布5月1日退出OPEC",
+      "source": "CNBC",
+      "impact": "对OPEC结构重大打击，油价波动性上升",
+      "severity": "critical"
     },
     {
-      "priority": "HIGH",
-      "event": "OpenAI收入不及预期，拖累科技股",
-      "impact": "Oracle和芯片股大跌，纳斯达克跌超1%。OpenAI营收增长低于预期引发AI板块估值担忧"
+      "title": "OpenAI收入增长不及预期，WSJ报道引发AI芯片抛售",
+      "source": "WSJ/CNBC",
+      "impact": "Oracle、芯片股下跌，AI叙事受考验",
+      "severity": "high"
     },
     {
-      "priority": "HIGH",
-      "event": "超级周三：FOMC鲍威尔最后一次利率决议 + Alphabet/Microsoft/Meta/Amazon财报",
-      "impact": "市场焦点集中，美联储是否暗示利率路径变化将决定后续走向。这是鲍威尔任内最后一次FOMC会议"
+      "title": "中国否决Meta收购Manus AI交易",
+      "source": "CNBC",
+      "impact": "中美AI竞赛加剧",
+      "severity": "medium"
     },
     {
-      "priority": "MEDIUM",
-      "event": "Musk v. Altman审判开庭",
-      "impact": "马斯克诉OpenAI案开庭辩论，可能影响AI行业治理和开源/闭源之争"
+      "title": "Jamie Dimon警告债务危机风险",
+      "source": "CNBC",
+      "impact": "债券市场或面临危机",
+      "severity": "warning"
+    },
+    {
+      "title": "美联储4月议息会议启动",
+      "source": "CNBC",
+      "impact": "周三公布利率决议，预计按兵不动",
+      "severity": "high"
+    },
+    {
+      "title": "DeepSeek CEO评论新一代AI模型",
+      "source": "CNBC",
+      "impact": "中国AI竞争加速",
+      "severity": "medium"
     }
   ],
-  "news_highlights": [
-    {
-      "source": "CNBC",
-      "title": "United Arab Emirates leaving OPEC, effective May 1",
-      "summary": "阿联酋宣布5月1日正式退出OPEC，全球石油市场面临重大变局"
-    },
-    {
-      "source": "CNBC",
-      "title": "OpenAI reportedly missed revenue targets. Oracle and chip stocks falling",
-      "summary": "OpenAI营收不及预期，拖累科技板块，Oracle和芯片股大跌"
-    },
-    {
-      "source": "CNBC",
-      "title": "Inflation could get in way of Warsh's desire to cut rates, CNBC survey finds",
-      "summary": "CNBC调查：通胀可能阻碍Warsh降息意愿，市场对美联储转向预期降温"
-    },
-    {
-      "source": "CNBC",
-      "title": "OpenAI trial live updates: Opening arguments in Musk v. Altman lawsuit set to begin",
-      "summary": "马斯克诉Altman案周二正式开庭，OpenAI控制权争议进入法庭阶段"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "UAE to Exit OPEC in May After Six Decades",
-      "summary": "阿联酋结束60年OPEC成员身份，5月正式退出"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Why US Stocks Don't Care About Iran",
-      "summary": "美股无视伊朗地缘风险，市场关注重心在财报和美联储"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Resist the temptation to close your eyes and buy into S&P 500 rally",
-      "summary": "对冲基金传奇警告：不要闭眼追涨标普500"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Higher inflation is on the way. The Fed needs to make this clear",
-      "summary": "通胀抬头预期升温，市场呼吁美联储明确立场"
-    }
-  ],
-  "risk_indicators": {
-    "geopolitical": "CRITICAL - 阿联酋退出OPEC，油价飙升3.5%。伊朗霍尔木兹海峡局势仍在讨论中",
-    "super_week": "超级财报周持续：AMD周二发布；Alphabet/Microsoft/Meta/Amazon周三；Apple周四",
-    "fed_watch": "周三FOMC利率决议——鲍威尔任内最后一次会议，市场预期按兵不动但关注措辞",
-    "oil_impact": "WTI $99.74逼近100大关，阿联酋退出OPEC加剧供应不确定性",
-    "musk_altman_trial": "马斯克诉OpenAI案开庭，可能重塑AI行业格局",
-    "vibe": "risk-off — 油价暴涨引发通胀担忧，科技股回调，资金从风险资产流出"
-  },
-  "week_ahead": {
-    "monday": "Done — 标普/纳指再创历史新高；阿联酋不退出OPEC传言发酵",
-    "tuesday": "UAE退出OPEC确认(油价暴涨)；OpenAI营收不及预期；Musk v Altman开庭",
-    "wednesday": "SUPER WEDNESDAY — Alphabet/Microsoft/Meta/Amazon财报 + 鲍威尔最后一次FOMC决议",
-    "thursday": "Apple财报；初请失业金；GDP Q1初值",
-    "friday": "Exxon财报；核心PCE通胀数据"
-  }
+
+  "watchlist": [
+    "Fed利率决议（周三）",
+    "Magnificent Seven财报",
+    "UAE退出OPEC后油价走势",
+    "AI/芯片股情绪修复",
+    "A股开盘表现（港股走势指引）"
+  ]
 }

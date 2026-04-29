@@ -1,127 +1,61 @@
 {
-  "updatedAt": "2026-04-29T09:15:00+08:00",
-  "session": "morning",
-  "summary": "隔夜美股全线收跌，科技股领跌。UAE退出OPEC冲击油价，OpenAI收入不及预期引发芯片抛售。亚洲早盘分化，恒指期货小幅走高。聚焦今晚Fed利率决议。",
-
-  "usMarket": {
-    "date": "2026-04-28",
-    "sp500": {
-      "close": 7138.80,
-      "change": -0.49,
-      "open": 7133.74,
-      "high": 7152.52,
-      "low": 7115.17,
-      "prevClose": 7173.91
-    },
-    "nasdaq": {
-      "close": 24663.80,
-      "change": -0.90,
-      "prevClose": 24887.10
-    },
-    "dow": {
-      "close": 49141.93,
-      "change": -0.05,
-      "prevClose": 49167.79
-    }
+  "date": "2026-04-29",
+  "time": "21:30 CST",
+  "updatedAt": "2026-04-29T13:30:00Z",
+  "usMarkets": {
+    "sAndP500": "7139 (-0.49%)",
+    "nasdaq100": "Futures +0.3%",
+    "dow": "Futures flat",
+    "note": "S&P 500 off record highs, AI tech stocks under pressure ahead of Mag 7 earnings. Fed expected to hold rates (Powell's likely final meeting). Visa +5% pre-market on strong earnings."
   },
-
   "commodities": {
-    "wtiCrude": {
-      "price": 100.27,
-      "change": 0.34,
-      "prevClose": 99.93,
-      "note": "UAE退出OPEC冲击石油市场"
-    },
-    "gold": {
-      "price": 4592.90,
-      "change": -0.34,
-      "prevClose": 4608.40,
-      "note": "黄金小幅回调"
-    }
+    "brentCrude": "$108.17 (+4.41%)",
+    "note": "Oil extends multi-day rally, Brent tops $114 intraday. Trump issues new threats to Iran, Middle East supply concerns."
   },
-
-  "fxAndBonds": {
-    "us10y": {
-      "yield": 4.348,
-      "change": -0.006,
-      "note": "收益率微降，市场等待Fed决议"
-    },
-    "dollarIndex": {
-      "value": null,
-      "change": null,
-      "note": ""
-    }
+  "crypto": {
+    "bitcoin": "$77,630 (+1.5%)",
+    "ethereum": "$2,340 (+2.1%)",
+    "solana": "$85.27 (+1.2%)",
+    "xrp": "$1.40 (+0.4%)",
+    "note": "White House teases announcement on $25B BTC strategic reserve. Mastercard bridges AI agents with crypto wallets."
   },
-
-  "asiaPremarket": {
-    "date": "2026-04-29",
-    "nikkei": {
-      "status": "休市",
-      "note": "日本假期休市"
-    },
-    "hangsengFutures": 25762,
-    "hangsengLastClose": 25679.78,
-    "kospi": {
-      "change": -0.39,
-      "status": "盘中"
-    },
-    "asx200": {
-      "change": -0.28,
-      "status": "盘中"
-    }
+  "hongKong": {
+    "hangSeng": "26,112 (+1.68%)",
+    "hstech": "4,910 (+1.72%)",
+    "note": "HK rebound. HKEX Q1 revenue +20%, profit +27% (record high). Ping An +6%, Taiping +5% on strong earnings. Solid-state battery stocks rally. South-bound net sell HK$3.9B."
   },
-
-  "usFutures": {
-    "sp500": 0.1,
-    "nasdaq100": 0.2,
-    "dow": 0.1,
-    "note": "隔夜期货小幅反弹"
-  },
-
-  "keyEvents": [
+  "news": [
     {
-      "title": "UAE宣布5月1日退出OPEC",
       "source": "CNBC",
-      "impact": "对OPEC结构重大打击，油价波动性上升",
-      "severity": "critical"
+      "title": "OpenAI's subtle drift from Microsoft has become an aggressive move toward Amazon"
     },
     {
-      "title": "OpenAI收入增长不及预期，WSJ报道引发AI芯片抛售",
-      "source": "WSJ/CNBC",
-      "impact": "Oracle、芯片股下跌，AI叙事受考验",
-      "severity": "high"
+      "source": "CNBC",
+      "title": "Oil prices extend multi-day rally as Trump issues new threat to Iran; Brent tops $114"
     },
     {
-      "title": "中国否决Meta收购Manus AI交易",
-      "source": "CNBC",
-      "impact": "中美AI竞赛加剧",
-      "severity": "medium"
+      "source": "Bloomberg",
+      "title": "US Core Capital Goods Orders Rise by Most in Nearly Six Years"
     },
     {
-      "title": "Jamie Dimon警告债务危机风险",
-      "source": "CNBC",
-      "impact": "债券市场或面临危机",
-      "severity": "warning"
+      "source": "Bloomberg",
+      "title": "Blackstone Forms New Unit to Oversee AI, High-Growth Tech Bets"
     },
     {
-      "title": "美联储4月议息会议启动",
-      "source": "CNBC",
-      "impact": "周三公布利率决议，预计按兵不动",
-      "severity": "high"
+      "source": "MarketWatch",
+      "title": "Soros alum betting on copper and cables over AI chips"
     },
     {
-      "title": "DeepSeek CEO评论新一代AI模型",
-      "source": "CNBC",
-      "impact": "中国AI竞争加速",
-      "severity": "medium"
+      "source": "FT",
+      "title": "BoE cracks down on insurers' offshore pension transfers"
     }
   ],
-
-  "watchlist": [
-    "Fed利率决议（周三）",
-    "Magnificent Seven财报",
-    "UAE退出OPEC后油价走势",
-    "AI/芯片股情绪修复",
-    "A股开盘表现（港股走势指引）"
-  ]
+  "keyEvents": [
+    "Fed rate decision today (Powell's likely final meeting) — expected to hold",
+    "Mag 7 earnings (MSFT, META, GOOGL, AMZN) after the bell — AI capex in focus",
+    "US core capital goods orders surge — strongest in nearly 6 years",
+    "Brent crude tops $114 amid renewed US-Iran tensions",
+    "White House signals major update on US Strategic Bitcoin Reserve"
+  ],
+  "alert": "WARN: Oil spike + Middle East tension could pressure global equities. Watch Fed decision and Mag 7 earnings tonight."
 }

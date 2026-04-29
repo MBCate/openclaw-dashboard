@@ -1,54 +1,93 @@
 {
-  "updated_at": "2026-04-29 11:35:00",
   "date": "2026-04-29",
+  "time": "15:00",
+  "source": "akshare+sina+news",
+  "market_summary": {
+    "description": "A股三大指数全线上涨，创业板指涨超2.5%，两市超3700只个股上涨，近100股涨停。电力设备、有色金属两大板块爆发涨停潮。",
+    "total_volume_hand": "上证6.14亿手",
+    "total_amount": "上证11266亿 + 深证14635亿 = 约25901亿"
+  },
   "indices": [
     {
       "name": "上证指数",
-      "code": "000001",
-      "price": 4094.80,
-      "change_pct": 0.40,
-      "change": 16.16,
-      "volume": 386216691,
-      "amount": 706208436216
+      "price": 4107.5144,
+      "open": 4061.8221,
+      "prev_close": 4078.6374,
+      "high": 4112.1518,
+      "low": 4061.8221,
+      "change_pct": 0.71,
+      "change_amount": 28.88
     },
     {
       "name": "深证成指",
-      "code": "399001",
-      "price": 15064.27,
-      "change_pct": 1.58,
-      "change": 233.81,
-      "volume": 72372754700,
-      "amount": 914700000000
+      "price": 15120.923,
+      "open": 14751.418,
+      "prev_close": 14830.455,
+      "high": 15139.711,
+      "low": 14751.418,
+      "change_pct": 1.96,
+      "change_amount": 290.47
     },
     {
       "name": "创业板指",
-      "code": "399006",
-      "price": 3678.49,
-      "change_pct": 2.27,
-      "change": 81.78,
-      "volume": 3959743200,
-      "amount": 26920384000
+      "price": 3687.168,
+      "open": 3578.423,
+      "prev_close": 3596.712,
+      "high": 3692.206,
+      "low": 3578.423,
+      "change_pct": 2.51,
+      "change_amount": 90.46
     },
     {
       "name": "沪深300",
-      "code": "000300",
-      "price": 4788.53,
-      "change_pct": 0.64,
-      "change": 30.32,
-      "volume": 2167242000,
-      "amount": 63152166000
-    },
-    {
-      "name": "科创50",
-      "code": "000688",
-      "price": 1483.84,
-      "change_pct": -0.32,
-      "change": -4.82,
-      "volume": 7372248,
-      "amount": 61506147988
+      "price": 4810.3468,
+      "open": 4737.5755,
+      "prev_close": 4758.2083,
+      "high": 4813.6104,
+      "low": 4737.1139,
+      "change_pct": 1.1,
+      "change_amount": 52.14
     }
   ],
-  "data_source": "sina_tencent_combined",
-  "data_source_note": "指数数据来自腾讯实时行情API (2026-04-29 11:35 CST)。板块数据暂缺（东方财富API因IPv6路由限制不可达）。",
-  "note": "沪指半日涨0.40%报4094.80，深成指涨1.58%报15064.27，创业板指大涨2.27%报3678.49。沪市半日成交约7062亿，深市约9147亿，合计约1.62万亿。市场近4100只个股上涨，近百股涨停。稀土永磁板块暴涨3.78%领涨，算力租赁、PCB概念、猪肉概念活跃。主力资金大幅流入：北方稀土26亿、胜宏科技21亿、中际旭创14亿。银行板块承压调整。"
+  "sectors": {
+    "top5": [
+      {
+        "name": "电力设备",
+        "change_pct": 2.87
+      },
+      {
+        "name": "有色金属",
+        "change_pct": 2.85
+      },
+      {
+        "name": "建筑材料",
+        "change_pct": null
+      },
+      {
+        "name": "环保",
+        "change_pct": null
+      },
+      {
+        "name": "汽车",
+        "change_pct": null
+      }
+    ],
+    "bottom5": [
+      {
+        "name": "银行",
+        "change_pct": -0.85
+      },
+      {
+        "name": "食品饮料",
+        "change_pct": null
+      }
+    ]
+  },
+  "concept": {
+    "top5": [],
+    "bottom5": []
+  },
+  "north_flow": {
+    "value": 0
+  }
 }

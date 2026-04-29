@@ -1,37 +1,48 @@
 {
-  "updated_at": "2026-04-28 15:12:38",
-  "status": "idle",
-  "last_run": "2026-01-04",
-  "note": "策略引擎当前未运行。每日数据采集需安装 python-dotenv。",
-  "strategies": {
-    "DoubleMa": {
-      "status": "idle"
+  "date": "2026-04-29",
+  "timestamp": "2026-04-29T15:00:00",
+  "status": "stale",
+  "last_update": "2026-01-04T02:07:38.498529",
+  "note": "HelloQuant 策略数据已过期，最后更新于2026年1月4日。需重新启动策略引擎。",
+  "strategies": [
+    {
+      "name": "DoubleMa",
+      "status": "inactive"
     },
-    "TripleMa": {
-      "status": "idle"
+    {
+      "name": "TripleMa",
+      "status": "inactive"
     },
-    "Supertrend": {
-      "status": "idle"
+    {
+      "name": "Supertrend",
+      "status": "inactive"
     },
-    "RSI": {
-      "status": "idle"
+    {
+      "name": "RSI",
+      "status": "inactive"
     },
-    "MACD": {
-      "status": "idle"
+    {
+      "name": "MACD",
+      "status": "inactive"
     },
-    "Bollinger": {
-      "status": "idle"
+    {
+      "name": "Bollinger",
+      "status": "inactive"
     },
-    "Momentum": {
-      "status": "idle"
+    {
+      "name": "Momentum",
+      "status": "inactive"
     },
-    "MeanReversion": {
-      "status": "idle"
+    {
+      "name": "MeanReversion",
+      "status": "inactive"
     }
-  },
-  "crypto_snapshot": {
-    "BTC": 90037.0,
-    "ETH": 3106.0,
-    "date": "2026-01-04"
+  ],
+  "indicators": {
+    "crypto_fear_greed": {
+      "value": 29,
+      "classification": "Fear",
+      "timestamp": "1767398400"
+    }
   }
 }

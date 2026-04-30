@@ -1,48 +1,17 @@
 {
-  "date": "2026-04-29",
-  "timestamp": "2026-04-29T15:00:00",
-  "status": "stale",
-  "last_update": "2026-01-04T02:07:38.498529",
-  "note": "HelloQuant 策略数据已过期，最后更新于2026年1月4日。需重新启动策略引擎。",
+  "date": "2026-04-30",
+  "timestamp": "2026-04-30T15:00:00+08:00",
+  "status": "inactive",
+  "last_active": "2026-01-04",
+  "note": "HelloQuant 策略引擎未运行，8个策略均为inactive状态。需手动启动策略引擎或检查OKX API连接。",
   "strategies": [
-    {
-      "name": "DoubleMa",
-      "status": "inactive"
-    },
-    {
-      "name": "TripleMa",
-      "status": "inactive"
-    },
-    {
-      "name": "Supertrend",
-      "status": "inactive"
-    },
-    {
-      "name": "RSI",
-      "status": "inactive"
-    },
-    {
-      "name": "MACD",
-      "status": "inactive"
-    },
-    {
-      "name": "Bollinger",
-      "status": "inactive"
-    },
-    {
-      "name": "Momentum",
-      "status": "inactive"
-    },
-    {
-      "name": "MeanReversion",
-      "status": "inactive"
-    }
-  ],
-  "indicators": {
-    "crypto_fear_greed": {
-      "value": 29,
-      "classification": "Fear",
-      "timestamp": "1767398400"
-    }
-  }
+    { "name": "DoubleMa", "status": "inactive" },
+    { "name": "TripleMa", "status": "inactive" },
+    { "name": "Supertrend", "status": "inactive" },
+    { "name": "RSI", "status": "inactive" },
+    { "name": "MACD", "status": "inactive" },
+    { "name": "Bollinger", "status": "inactive" },
+    { "name": "Momentum", "status": "inactive" },
+    { "name": "MeanReversion", "status": "inactive" }
+  ]
 }

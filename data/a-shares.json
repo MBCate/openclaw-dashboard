@@ -1,63 +1,61 @@
 {
   "date": "2026-04-30",
-  "time": "11:35",
-  "source": "sina_live",
-  "market_summary": {
-    "description": "A股三大指数午盘震荡分化，上证微跌，深成指和创业板小幅上涨。半日成交约22181亿元。",
-    "total_volume_hand": "上证约4.4亿手",
-    "total_amount": "上证8484亿 + 深证9573亿 + 创业板4124亿 = 约22181亿"
-  },
+  "timestamp": "2026-04-30T15:00:00+08:00",
+  "data_source": "Sina Finance API",
+  "note": "北向资金和行业板块明细因EastMoney/东方财富API超时未获取到",
   "indices": [
     {
       "name": "上证指数",
-      "price": 4107.3,
-      "open": 4111.02,
+      "price": 4112.16,
+      "change_pct": 0.11,
+      "change_amount": 4.64,
+      "open": 4107.30,
       "prev_close": 4107.51,
-      "high": 4117.43,
-      "low": 4101.26,
-      "change_pct": -0.01,
-      "change_amount": -0.22
+      "high": 4112.16,
+      "low": 4104.57,
+      "volume": 6569127
     },
     {
       "name": "深证成指",
-      "price": 15157.07,
+      "price": 15107.55,
+      "change_pct": -0.09,
+      "change_amount": -13.37,
       "open": 15111.33,
       "prev_close": 15120.92,
-      "high": 15186.12,
-      "low": 15044.86,
-      "change_pct": 0.24,
-      "change_amount": 36.15
+      "high": null,
+      "low": null,
+      "volume": 737703742
     },
     {
       "name": "创业板指",
-      "price": 3704.11,
+      "price": 3677.15,
+      "change_pct": -0.27,
+      "change_amount": -10.02,
       "open": 3682.49,
       "prev_close": 3687.17,
-      "high": 3718.4,
-      "low": 3660.22,
-      "change_pct": 0.46,
-      "change_amount": 16.94
+      "high": null,
+      "low": null,
+      "volume": 35458459
     },
     {
       "name": "沪深300",
-      "price": 4820.97,
+      "price": 4807.31,
+      "change_pct": -0.06,
+      "change_amount": -3.04,
       "open": 4809.76,
       "prev_close": 4810.35,
-      "high": 4829.27,
-      "low": 4797.54,
-      "change_pct": 0.22,
-      "change_amount": 10.62
+      "high": null,
+      "low": null,
+      "volume": 2506333
     }
   ],
   "sectors": {
-    "top5": [],
-    "bottom5": []
-  },
-  "concept": {
+    "summary": "AI应用、机器人、算力、消费电子、华为鸿蒙、半导体、低空经济概念股活跃；银行股全线调整，电力、港口板块跌幅靠前",
     "top5": [],
     "bottom5": []
   },
   "north_flow": {
-    "value": 0
+    "value": null,
+    "note": "数据获取失败（EastMoney API超时）"
   }
 }

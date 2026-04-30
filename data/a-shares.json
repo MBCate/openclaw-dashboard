@@ -1,87 +1,57 @@
 {
-  "date": "2026-04-29",
-  "time": "15:00",
-  "source": "akshare+sina+news",
+  "date": "2026-04-30",
+  "time": "11:35",
+  "source": "sina_live",
   "market_summary": {
-    "description": "A股三大指数全线上涨，创业板指涨超2.5%，两市超3700只个股上涨，近100股涨停。电力设备、有色金属两大板块爆发涨停潮。",
-    "total_volume_hand": "上证6.14亿手",
-    "total_amount": "上证11266亿 + 深证14635亿 = 约25901亿"
+    "description": "A股三大指数午盘震荡分化，上证微跌，深成指和创业板小幅上涨。半日成交约22181亿元。",
+    "total_volume_hand": "上证约4.4亿手",
+    "total_amount": "上证8484亿 + 深证9573亿 + 创业板4124亿 = 约22181亿"
   },
   "indices": [
     {
       "name": "上证指数",
-      "price": 4107.5144,
-      "open": 4061.8221,
-      "prev_close": 4078.6374,
-      "high": 4112.1518,
-      "low": 4061.8221,
-      "change_pct": 0.71,
-      "change_amount": 28.88
+      "price": 4107.3,
+      "open": 4111.02,
+      "prev_close": 4107.51,
+      "high": 4117.43,
+      "low": 4101.26,
+      "change_pct": -0.01,
+      "change_amount": -0.22
     },
     {
       "name": "深证成指",
-      "price": 15120.923,
-      "open": 14751.418,
-      "prev_close": 14830.455,
-      "high": 15139.711,
-      "low": 14751.418,
-      "change_pct": 1.96,
-      "change_amount": 290.47
+      "price": 15157.07,
+      "open": 15111.33,
+      "prev_close": 15120.92,
+      "high": 15186.12,
+      "low": 15044.86,
+      "change_pct": 0.24,
+      "change_amount": 36.15
     },
     {
       "name": "创业板指",
-      "price": 3687.168,
-      "open": 3578.423,
-      "prev_close": 3596.712,
-      "high": 3692.206,
-      "low": 3578.423,
-      "change_pct": 2.51,
-      "change_amount": 90.46
+      "price": 3704.11,
+      "open": 3682.49,
+      "prev_close": 3687.17,
+      "high": 3718.4,
+      "low": 3660.22,
+      "change_pct": 0.46,
+      "change_amount": 16.94
     },
     {
       "name": "沪深300",
-      "price": 4810.3468,
-      "open": 4737.5755,
-      "prev_close": 4758.2083,
-      "high": 4813.6104,
-      "low": 4737.1139,
-      "change_pct": 1.1,
-      "change_amount": 52.14
+      "price": 4820.97,
+      "open": 4809.76,
+      "prev_close": 4810.35,
+      "high": 4829.27,
+      "low": 4797.54,
+      "change_pct": 0.22,
+      "change_amount": 10.62
     }
   ],
   "sectors": {
-    "top5": [
-      {
-        "name": "电力设备",
-        "change_pct": 2.87
-      },
-      {
-        "name": "有色金属",
-        "change_pct": 2.85
-      },
-      {
-        "name": "建筑材料",
-        "change_pct": null
-      },
-      {
-        "name": "环保",
-        "change_pct": null
-      },
-      {
-        "name": "汽车",
-        "change_pct": null
-      }
-    ],
-    "bottom5": [
-      {
-        "name": "银行",
-        "change_pct": -0.85
-      },
-      {
-        "name": "食品饮料",
-        "change_pct": null
-      }
-    ]
+    "top5": [],
+    "bottom5": []
   },
   "concept": {
     "top5": [],

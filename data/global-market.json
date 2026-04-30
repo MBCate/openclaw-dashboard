@@ -1,33 +1,55 @@
 {
-  "date": "2026-04-29",
-  "time": "03:30 CST",
-  "updatedAt": "2026-04-29T19:30:00Z",
+  "date": "2026-04-30",
+  "time": "09:15 CST",
+  "updatedAt": "2026-04-30T01:15:00Z",
   "asiaMarkets": {
-    "shanghai": "4107.51 (+0.71%)",
-    "shenzhen": "15120.92 (+1.96%)",
-    "chiNext": "3687.17 (+2.51%)",
-    "csi300": "4810.35 (+1.10%)",
-    "note": "A股强势收涨，创业板领涨+2.51%。北向资金有望持续流入。市场对国内政策宽松预期升温。"
+    "shanghai": "待开盘",
+    "shenzhen": "待开盘",
+    "chiNext": "待开盘",
+    "csi300": "待开盘",
+    "note": "A股今日9:30开盘。隔夜中概股随Mag 7财报波动，关注今日A股能否延续近期强势。"
   },
   "usMarkets": {
-    "sAndP500": "7132 (-0.08%)",
-    "nasdaqComposite": "Fell ~0.5% (from record)",
-    "dowJones": "49,142 (-0.1%)",
-    "note": "美股尾盘走弱，美联储按兵不动但出现1992年以来最大内部分歧(8-4投票)。Mag 7盘后财报即将公布。Visa +10%领涨。"
+    "sAndP500": "7079 (-0.74%)",
+    "nasdaqComposite": "19,867 (+0.04%)",
+    "dowJones": "48,770 (-0.57%)",
+    "sAndP500Futures": "+0.4%",
+    "nasdaq100Futures": "+0.9%",
+    "dowFutures": "-0.3%",
+    "note": "周三常规交易美股走低，道指连跌5日。盘后Mag 7财报剧烈分化：GOOGL+7%，AMZN+3%，MSFT平盘，META-7%。纳指期货上涨0.9%领跑。标普4月累涨9.3%，纳指累涨14.3%，均为2020年4月以来最佳月份。"
   },
   "commodities": {
-    "brentCrude": "$118 (+2.8%)",
-    "note": "布伦特原油突破$118。特朗普宣布全面封锁伊朗直至达成核协议，中东供应链风险加剧。"
+    "brentCrude": "$118.50 (+2.8%)",
+    "wtiCrude": "$115.20 (+3.1%)",
+    "note": "油价持续攀升。WSJ报道特朗普指示幕僚准备对伊朗长期封锁，拒绝伊朗重开霍尔木兹海峡提议。"
   },
   "crypto": {
-    "bitcoin": "$77,630 (+1.5%)",
-    "ethereum": "$2,340 (+2.1%)",
-    "note": "白宫计划宣布250亿BTC战略储备。Mastercard桥接AI代理与加密钱包。"
+    "bitcoin": "$78,200 (+0.7%)",
+    "ethereum": "$2,365 (+1.1%)",
+    "note": "白宫250亿BTC战略储备计划仍在推进中。"
   },
   "hongKong": {
-    "hangSeng": "25,680 (+0.63%)",
-    "hstech": "~4,830 (+1.07%)",
-    "note": "港股高开0.63%，恒生科技高开1.07%。夜期收报25,762（高水82点）。韩国资金涌入港股硬科技。"
+    "hangSeng": "25,540 (-0.55%)",
+    "hstech": "~4,790 (-0.83%)",
+    "note": "恒指早盘小幅低开，夜期收报25,580。隔夜美股Mag 7财报分化影响港股科技股情绪。"
+  },
+  "mag7Earnings": {
+    "meta": "EPS $7.31(超预期) / 营收$56.3B(超预期) / 盘后-7%",
+    "metaDetail": "Capex指引上调至$125B-$145B，日活用户不及预期(3.56B vs 3.62B)，归因于伊朗战争及俄罗斯限制",
+    "microsoft": "EPS $4.27(超预期) / 营收$82.9B(超预期) / 盘后平盘",
+    "microsoftDetail": "Azure增长40%，2026全年Capex指引$190B(+61%)，AI Copilot付费用户达2000万",
+    "alphabet": "营收超预期 / 盘后+7%",
+    "alphabetDetail": "Google Cloud营收超预期，AI驱动云业务加速",
+    "amazon": "Q1业绩超预期 / 盘后+3%",
+    "amazonDetail": "AWS营收大涨，云计算需求旺盛"
+  },
+  "upcomingEvents": {
+    "today": [
+      "美国Q1 GDP初值 (20:30 CST)",
+      "美国3月PCE物价指数 (20:30 CST)",
+      "Apple盘后财报",
+      "CAT/MRK/LLY/BMY盘前财报"
+    ]
   },
   "news": [
     {
@@ -36,28 +58,38 @@
     },
     {
       "source": "CNBC",
-      "title": "Jerome Powell says he will continue to serve as Fed governor, calls Trump criticism 'unprecedented'"
+      "title": "S&P 500 futures climb after Mag 7 titans Alphabet, Amazon report earnings"
     },
     {
       "source": "CNBC",
-      "title": "Brent oil tops $118 after Trump says he will blockade Iran until it agrees to a nuclear deal"
+      "title": "Microsoft calls for $190 billion in 2026 capital spending on soaring memory prices"
     },
     {
-      "source": "MarketWatch",
-      "title": "S&P 500 falls from ATH, AI stocks under pressure ahead of Mag 7 earnings"
+      "source": "CNBC",
+      "title": "Meta stock drops 7% after capex forecast raised, user growth disappoints"
     },
     {
-      "source": "TradingEconomics",
-      "title": "US core capital goods orders rise by most in nearly six years"
+      "source": "CNBC",
+      "title": "Alphabet shares jump 7% on Q1 revenue beat, Google Cloud strength"
+    },
+    {
+      "source": "CNBC",
+      "title": "Brent oil tops $118 as Trump prepares extended blockade of Iran"
+    },
+    {
+      "source": "WSJ",
+      "title": "Trump tells aides to prepare for extended blockade of Iran"
     }
   ],
   "keyEvents": [
     "FOMC 4月决议：利率维持3.5%-3.75%，8-4投票为1992年来最大分歧",
-    "鲍威尔：将继续担任美联储理事，称特朗普的批评'史无前例'",
-    "布伦特原油突破$118，特朗普宣布全面封锁伊朗直至核协议",
-    "Mag 7盘后财报（MSFT/META/GOOGL/AMZN）— AI资本支出成焦点",
-    "Visa Q1业绩超预期，涨幅+10%",
-    "美股从历史高点回落，AI科技股承压"
+    "鲍威尔确认任期结束后留任美联储理事，称特朗普批评'史无前例'",
+    "Kevin Warsh将接任美联储主席，但面临降息困难",
+    "Mag 7财报盘后揭晓：GOOGL+7%, AMZN+3%, MSFT平盘, META-7%",
+    "微软2026年Capex指引$1900亿(+61%)，AI军备竞赛白热化",
+    "布伦特原油持续$118以上，特朗普拒绝伊朗重开海峡提议",
+    "标普4月+9.3%，纳指+14.3%，均为2020年以来最佳月份",
+    "今日关注：美国Q1 GDP/PCE数据、Apple财报"
   ],
-  "alert": "WARN: FOMC内部分歧加剧+油价暴涨+Irang封锁，全球市场波动率上升。关注今晚Mag 7财报及鲍威尔讲话后续影响。"
+  "alert": "WARN: Mag 7财报分化为市场注入不确定性。META用户增长疲软引发AI基建需求质疑。今晚Apple财报+GDP/PCE数据双重考验。油价高企+美联储内部分歧持续施压。"
 }

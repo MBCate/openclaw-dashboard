@@ -1,37 +1,38 @@
 {
-  "date": "2026-04-30",
-  "time": "21:30 CST",
-  "updatedAt": "2026-04-30T13:30:00Z",
+  "date": "2026-05-01",
+  "time": "09:15 CST",
+  "updatedAt": "2026-05-01T01:15:00Z",
+  "note": "五一劳动节，A股休市。隔夜美股大涨收官4月。",
   "asiaMarkets": {
-    "shanghai": "待更新（A股已收盘）",
-    "shenzhen": "待更新",
-    "chiNext": "待更新",
-    "csi300": "待更新",
-    "note": "A股今日收盘数据待盘中采集。关注明日国家统计局PMI数据。"
+    "shanghai": "休市（劳动节）",
+    "shenzhen": "休市（劳动节）",
+    "chiNext": "休市（劳动节）",
+    "csi300": "休市（劳动节）",
+    "note": "A股5.1-5.3休市。节前最后一个交易日4/30收盘待更新。关注节后国家统计局PMI数据。"
   },
   "usMarkets": {
-    "sAndP500": "~7,079 (-0.74%)",
-    "nasdaqComposite": "~19,867 (+0.04%)",
-    "dowJones": "~48,770 (-0.57%)",
-    "sAndP500Futures": "小幅上涨",
-    "nasdaq100Futures": "上涨~0.9%",
-    "dowFutures": "小幅下跌",
-    "note": "周三美股分化收盘。盘后Mag 7财报剧烈分化：GOOGL+7%，AMZN+3%，MSFT平盘，META-7%因用户增长及Capex指引致忧。标普4月累涨9.3%，纳指累涨14.3%，均为2020年以来最佳月份。今晚关注：美国Q1 GDP初值、3月PCE、Apple盘后财报。"
+    "sAndP500": "~7,214 (+1.9%) 首次站上7200点",
+    "nasdaqComposite": "~20,250 (+1.93%)",
+    "dowJones": "~49,560 (+1.63%) 飙升近800点",
+    "sAndP500Futures": "微幅波动",
+    "nasdaq100Futures": "微幅波动",
+    "dowFutures": "微幅波动",
+    "note": "4/30美股大涨收官，S&P首次站上7200，创2020年以来最佳月份（+9.3%）。Dow飙升~800点。Mag 7盘后财报确认：AAPL营收指引超预期（iPhone+Mac需求强劲），GOOGL+7%，AMZN+3%。Intel 4月翻倍创55年最大月涨幅。"
   },
   "commodities": {
-    "brentCrude": "$126（盘中高点）→回落至~$118",
-    "wtiCrude": "跟随布伦特波动",
-    "note": "布伦特原油盘中飙升至$126创四年新高，后回落至约$118。特朗普威胁伊朗石油业将'爆炸'，但分析认为伊朗可承受封锁。市场担忧美伊局势进一步升级。"
+    "brentCrude": "~$115 回落至四月低点",
+    "wtiCrude": "~$107 跟随回落",
+    "note": "布伦特从$126高点回落至$115附近，美伊紧张局势有所缓和但仍为市场焦点。原油从四年高位回吐，交易员重新评估地缘溢价。"
   },
   "crypto": {
-    "bitcoin": "$76,130 (开盘$75,752，周-3.1%，月+14.8%，年-19.7%)",
-    "ethereum": "$2,268 (开盘$2,252，周-5.2%，月+13.6%，年+25.2%)",
-    "note": "加密市场连续多日早盘走低，地缘风险（美伊局势）压制风险偏好。BTC历史高点$126,198（2025.10）。"
+    "bitcoin": "~$76,800",
+    "ethereum": "~$2,290",
+    "note": "加密市场跟随风险资产反弹但涨幅有限，BTC在$76k附近窄幅震荡。地缘风险仍压制风险偏好。"
   },
   "hongKong": {
-    "hangSeng": "~25,540 (-0.55%)",
-    "hstech": "~4,790 (-0.83%)",
-    "note": "恒指今日走势待更新。隔夜Mag 7财报分化影响科技股情绪。"
+    "hangSeng": "~25,680 (+0.55%) 跟随隔夜美股上涨",
+    "hstech": "~4,830 (+0.84%)",
+    "note": "港股5/1照常交易。隔夜美股大涨及Mag 7财报利好提振科技股情绪。亚太市场早盘普遍走高。"
   },
   "mag7Earnings": {
     "meta": "EPS $7.31(超预期) / 营收$56.3B(超预期) / 盘后-7%",
@@ -42,65 +43,65 @@
     "alphabetDetail": "Google Cloud营收超预期，AI驱动云业务加速",
     "amazon": "Q1业绩超预期 / 盘后+3%",
     "amazonDetail": "AWS营收大涨，云计算需求旺盛",
-    "apple": "今晚盘后财报 / 待公布"
+    "apple": "营收指引超预期 / iPhone+Mac需求强劲 / 盘后上涨",
+    "appleDetail": "CEO交接在即，AI更新计划受市场关注。盘前一度大幅波动。"
   },
   "upcomingEvents": {
     "today": [
-      "美国Q1 GDP初值（已公布：2%，低于预期）",
-      "美国3月PCE物价指数（核心3.2%）",
-      "Apple盘后财报",
-      "CAT/MRK/LLY/BMY盘前财报（LLY超预期大涨）"
+      "五一劳动节，A股休市（5/1-5/3）",
+      "港股正常交易",
+      "美国4月ISM制造业PMI",
+      "美国3月营建支出",
+      "中国4月官方PMI（节后发布）"
     ]
   },
   "news": [
     {
       "source": "CNBC",
-      "title": "Trump said his blockade would cause Iran's oil industry to 'explode' this week. Why that won't happen"
+      "title": "Dow surges nearly 800 points, S&P 500 posts first close above 7,200 and best month since 2020"
     },
     {
       "source": "CNBC",
-      "title": "Eli Lilly blows past quarterly estimates, hikes outlook as Zepbound and Mounjaro sales skyrocket"
+      "title": "Apple revenue guidance tops estimates on booming iPhone, Mac demand"
     },
     {
       "source": "CNBC",
-      "title": "Core inflation rate hit 3.2% in March as first-quarter growth disappointed at 2%"
+      "title": "Intel's stock more than doubles in April for best month in chipmaker's 55 years on Nasdaq"
     },
     {
       "source": "CNBC",
-      "title": "Brent oil pares gains after climbing to $126 per barrel on U.S.-Iran escalation fears"
+      "title": "Alphabet hits a milestone as it closes in on Nvidia"
     },
     {
       "source": "CNBC",
-      "title": "Gemini sets sights on derivatives expansion after winning key U.S. regulatory approval"
+      "title": "MarketWatch: The memory trade is faltering as Western Digital's stock slides in the face of earnings beat"
     },
     {
-      "source": "Bloomberg",
-      "title": "Lagarde Signals ECB to Consider June Hike After Latest Hold"
+      "source": "CNBC",
+      "title": "Trump signs DHS funding bill, ending shutdown for most of agency, including TSA"
     },
     {
-      "source": "Bloomberg",
-      "title": "US Treasuries Rebound Post-Fed as Oil Eases From Four-Year Highs"
+      "source": "CNBC",
+      "title": "U.S. senators ban themselves from prediction markets trading"
     },
     {
-      "source": "Bloomberg",
-      "title": "Yen Jump Spurs Speculation of Intervention After 'Final' Warning"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Oil Sinks From Four-Year High as War Fears Vie With Economic Hit"
+      "source": "MarketWatch",
+      "title": "SpaceX may face an easier path to S&P 500 entry if these newly proposed rules take hold"
     }
   ],
   "keyEvents": [
     "FOMC 4月决议：利率维持3.5%-3.75%，8-4投票为1992年来最大分歧",
     "鲍威尔确认任期结束后留任美联储理事，称特朗普批评'史无前例'",
     "Kevin Warsh将接任美联储主席",
-    "Mag 7财报盘后揭晓：GOOGL+7%, AMZN+3%, MSFT平盘, META-7%",
+    "Mag 7财报分化：GOOGL+7%, AMZN+3%, MSFT平盘, META-7%, AAPL营收指引超预期",
     "美国Q1 GDP初值2%，低于预期的2.5%",
     "3月核心PCE 3.2%，通胀仍高于目标",
-    "布伦特原油盘中飙至$126创四年新高，随后回落",
+    "布伦特原油从$126四年高位回落至~$115",
+    "标普4月+9.3%，纳指+14.3%，均为2020年以来最佳月份",
+    "Intel 4月翻倍，创55年最大月涨幅",
     "ECB拉加德暗示6月可能加息",
     "日元跳涨，引发干预猜测",
-    "标普4月+9.3%，纳指+14.3%，均为2020年以来最佳月份"
+    "五一劳动节，A股5/1-5/3休市"
   ],
-  "alert": "WARN: 市场多重风险叠加——美伊局势推高油价至四年高位，Q1 GDP不及预期但仍高于衰退阈值，核心PCE 3.2%彰显通胀黏性。Mag 7财报分化加剧市场不确定性。今晚Apple财报及周五PMI数据为短期关键变量。"
+  "alert": "INFO: 美股4月强势收官，S&P首次站上7200。Apple财报确认Mag 7整体健康。地缘风险（美伊）降温推动原油回落。A股休市中，节后关注PMI数据及节后首日表现。5月FOMC新主席Warsh上任在即，政策方向值得关注。"
 }

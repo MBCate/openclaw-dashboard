@@ -1,61 +1,97 @@
 {
   "date": "2026-04-30",
-  "timestamp": "2026-04-30T15:00:00+08:00",
-  "data_source": "Sina Finance API",
-  "note": "北向资金和行业板块明细因EastMoney/东方财富API超时未获取到",
-  "indices": [
-    {
-      "name": "上证指数",
+  "updateTime": "2026-05-01 11:38",
+  "note": "今日五一劳动节休市，数据为4月30日收盘数据",
+  "indexes": {
+    "上证指数": {
       "price": 4112.16,
-      "change_pct": 0.11,
-      "change_amount": 4.64,
-      "open": 4107.30,
-      "prev_close": 4107.51,
-      "high": 4112.16,
-      "low": 4104.57,
-      "volume": 6569127
+      "change": 4.65,
+      "changePct": 0.11,
+      "high": 4118.76,
+      "low": 4100.97
     },
-    {
-      "name": "深证成指",
+    "深证成指": {
       "price": 15107.55,
-      "change_pct": -0.09,
-      "change_amount": -13.37,
-      "open": 15111.33,
-      "prev_close": 15120.92,
-      "high": null,
-      "low": null,
-      "volume": 737703742
+      "change": -13.37,
+      "changePct": -0.09,
+      "high": 15186.12,
+      "low": 15044.86
     },
-    {
-      "name": "创业板指",
+    "创业板指": {
       "price": 3677.15,
-      "change_pct": -0.27,
-      "change_amount": -10.02,
-      "open": 3682.49,
-      "prev_close": 3687.17,
-      "high": null,
-      "low": null,
-      "volume": 35458459
+      "change": -10.02,
+      "changePct": -0.27,
+      "high": 3718.4,
+      "low": 3660.22
     },
-    {
-      "name": "沪深300",
+    "沪深300": {
       "price": 4807.31,
-      "change_pct": -0.06,
-      "change_amount": -3.04,
-      "open": 4809.76,
-      "prev_close": 4810.35,
-      "high": null,
-      "low": null,
-      "volume": 2506333
+      "change": -3.04,
+      "changePct": -0.06,
+      "high": 4829.27,
+      "low": 4797.54
     }
-  ],
-  "sectors": {
-    "summary": "AI应用、机器人、算力、消费电子、华为鸿蒙、半导体、低空经济概念股活跃；银行股全线调整，电力、港口板块跌幅靠前",
-    "top5": [],
-    "bottom5": []
   },
-  "north_flow": {
-    "value": null,
-    "note": "数据获取失败（EastMoney API超时）"
+  "sectors": {
+    "gainers": [
+      {
+        "name": "燃料电池",
+        "price": 383.44,
+        "changePct": 9.46
+      },
+      {
+        "name": "集成电路制造",
+        "price": 3418.03,
+        "changePct": 6.56
+      },
+      {
+        "name": "体育Ⅲ",
+        "price": 1348.62,
+        "changePct": 6.43
+      },
+      {
+        "name": "图片媒体",
+        "price": 3684.67,
+        "changePct": 5.21
+      },
+      {
+        "name": "汽车金融",
+        "price": 1798.79,
+        "changePct": 4.57
+      }
+    ],
+    "losers": [
+      {
+        "name": "蓄电池及其他电池",
+        "price": 2927.21,
+        "changePct": -5.45
+      },
+      {
+        "name": "玻纤制造",
+        "price": 14189.07,
+        "changePct": -3.22
+      },
+      {
+        "name": "房地产综合服务",
+        "price": 1708.12,
+        "changePct": -2.83
+      },
+      {
+        "name": "餐饮",
+        "price": 1662.99,
+        "changePct": -2.56
+      },
+      {
+        "name": "光伏发电",
+        "price": 4030.26,
+        "changePct": -2.56
+      }
+    ]
+  },
+  "northFlow": {
+    "note": "五一假期暂无实时数据，最新为4月30日",
+    "沪股通": "-",
+    "深股通": "-",
+    "合计": "-"
   }
 }

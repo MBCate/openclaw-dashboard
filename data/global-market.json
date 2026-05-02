@@ -1,107 +1,65 @@
 {
-  "date": "2026-05-01",
-  "time": "09:15 CST",
-  "updatedAt": "2026-05-01T01:15:00Z",
-  "note": "五一劳动节，A股休市。隔夜美股大涨收官4月。",
-  "asiaMarkets": {
-    "shanghai": "休市（劳动节）",
-    "shenzhen": "休市（劳动节）",
-    "chiNext": "休市（劳动节）",
-    "csi300": "休市（劳动节）",
-    "note": "A股5.1-5.3休市。节前最后一个交易日4/30收盘待更新。关注节后国家统计局PMI数据。"
+  "updated": "2026-05-02T21:38:46+08:00",
+  "date": "2026-05-02",
+  "dayOfWeek": "Saturday",
+  "source": "Yahoo Finance, CNBC RSS, WSJ RSS, CoinDesk, OilCrudePrice",
+  "us_markets": {
+    "sp500": {
+      "value": 7230.12,
+      "change": 21.11,
+      "changePercent": 0.29,
+      "high": "Record close - S&P 500 and Nasdaq advanced to record closing highs on Friday"
+    },
+    "dow": {
+      "value": 49499.27,
+      "change": -152.87,
+      "changePercent": -0.31
+    },
+    "nasdaq": {
+      "value": 25114.44,
+      "change": 222.13,
+      "changePercent": 0.89
+    }
   },
-  "usMarkets": {
-    "sAndP500": "~7,214 (+1.9%) 首次站上7200点",
-    "nasdaqComposite": "~20,250 (+1.93%)",
-    "dowJones": "~49,560 (+1.63%) 飙升近800点",
-    "sAndP500Futures": "微幅波动",
-    "nasdaq100Futures": "微幅波动",
-    "dowFutures": "微幅波动",
-    "note": "4/30美股大涨收官，S&P首次站上7200，创2020年以来最佳月份（+9.3%）。Dow飙升~800点。Mag 7盘后财报确认：AAPL营收指引超预期（iPhone+Mac需求强劲），GOOGL+7%，AMZN+3%。Intel 4月翻倍创55年最大月涨幅。"
+  "hk_markets": {
+    "hsi": {
+      "value": 25776.53,
+      "change": -335.31,
+      "changePercent": -1.28
+    }
   },
   "commodities": {
-    "brentCrude": "~$115 回落至四月低点",
-    "wtiCrude": "~$107 跟随回落",
-    "note": "布伦特从$126高点回落至$115附近，美伊紧张局势有所缓和但仍为市场焦点。原油从四年高位回吐，交易员重新评估地缘溢价。"
+    "wti_crude": {
+      "value": 101.94,
+      "change": -3.13,
+      "changePercent": -2.98,
+      "note": "Dropped ~$3 as Iran sent fresh proposal on negotiations"
+    },
+    "gold": {
+      "value": 4644.5,
+      "change": 29.8,
+      "changePercent": 0.65
+    }
   },
   "crypto": {
-    "bitcoin": "~$76,800",
-    "ethereum": "~$2,290",
-    "note": "加密市场跟随风险资产反弹但涨幅有限，BTC在$76k附近窄幅震荡。地缘风险仍压制风险偏好。"
-  },
-  "hongKong": {
-    "hangSeng": "~25,680 (+0.55%) 跟随隔夜美股上涨",
-    "hstech": "~4,830 (+0.84%)",
-    "note": "港股5/1照常交易。隔夜美股大涨及Mag 7财报利好提振科技股情绪。亚太市场早盘普遍走高。"
-  },
-  "mag7Earnings": {
-    "meta": "EPS $7.31(超预期) / 营收$56.3B(超预期) / 盘后-7%",
-    "metaDetail": "Capex指引上调至$125B-$145B，日活用户不及预期(3.56B vs 3.62B)，归因于伊朗战争及俄罗斯限制",
-    "microsoft": "EPS $4.27(超预期) / 营收$82.9B(超预期) / 盘后平盘",
-    "microsoftDetail": "Azure增长40%，2026全年Capex指引$190B(+61%)，AI Copilot付费用户达2000万",
-    "alphabet": "营收超预期 / 盘后+7%",
-    "alphabetDetail": "Google Cloud营收超预期，AI驱动云业务加速",
-    "amazon": "Q1业绩超预期 / 盘后+3%",
-    "amazonDetail": "AWS营收大涨，云计算需求旺盛",
-    "apple": "营收指引超预期 / iPhone+Mac需求强劲 / 盘后上涨",
-    "appleDetail": "CEO交接在即，AI更新计划受市场关注。盘前一度大幅波动。"
-  },
-  "upcomingEvents": {
-    "today": [
-      "五一劳动节，A股休市（5/1-5/3）",
-      "港股正常交易",
-      "美国4月ISM制造业PMI",
-      "美国3月营建支出",
-      "中国4月官方PMI（节后发布）"
-    ]
-  },
-  "news": [
-    {
-      "source": "CNBC",
-      "title": "Dow surges nearly 800 points, S&P 500 posts first close above 7,200 and best month since 2020"
+    "bitcoin": {
+      "value": 78303.46,
+      "change": 124.46,
+      "changePercent": 0.16,
+      "marketCap": "1.57T"
     },
-    {
-      "source": "CNBC",
-      "title": "Apple revenue guidance tops estimates on booming iPhone, Mac demand"
-    },
-    {
-      "source": "CNBC",
-      "title": "Intel's stock more than doubles in April for best month in chipmaker's 55 years on Nasdaq"
-    },
-    {
-      "source": "CNBC",
-      "title": "Alphabet hits a milestone as it closes in on Nvidia"
-    },
-    {
-      "source": "CNBC",
-      "title": "MarketWatch: The memory trade is faltering as Western Digital's stock slides in the face of earnings beat"
-    },
-    {
-      "source": "CNBC",
-      "title": "Trump signs DHS funding bill, ending shutdown for most of agency, including TSA"
-    },
-    {
-      "source": "CNBC",
-      "title": "U.S. senators ban themselves from prediction markets trading"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "SpaceX may face an easier path to S&P 500 entry if these newly proposed rules take hold"
+    "ethereum": {
+      "value": 2306.54,
+      "change": 11.45,
+      "changePercent": 0.5
     }
-  ],
-  "keyEvents": [
-    "FOMC 4月决议：利率维持3.5%-3.75%，8-4投票为1992年来最大分歧",
-    "鲍威尔确认任期结束后留任美联储理事，称特朗普批评'史无前例'",
-    "Kevin Warsh将接任美联储主席",
-    "Mag 7财报分化：GOOGL+7%, AMZN+3%, MSFT平盘, META-7%, AAPL营收指引超预期",
-    "美国Q1 GDP初值2%，低于预期的2.5%",
-    "3月核心PCE 3.2%，通胀仍高于目标",
-    "布伦特原油从$126四年高位回落至~$115",
-    "标普4月+9.3%，纳指+14.3%，均为2020年以来最佳月份",
-    "Intel 4月翻倍，创55年最大月涨幅",
-    "ECB拉加德暗示6月可能加息",
-    "日元跳涨，引发干预猜测",
-    "五一劳动节，A股5/1-5/3休市"
-  ],
-  "alert": "INFO: 美股4月强势收官，S&P首次站上7200。Apple财报确认Mag 7整体健康。地缘风险（美伊）降温推动原油回落。A股休市中，节后关注PMI数据及节后首日表现。5月FOMC新主席Warsh上任在即，政策方向值得关注。"
+  },
+  "news_highlights": [
+    "S&P 500 and Nasdaq advanced to record closing highs, boosted by robust earnings",
+    "Berkshire Hathaway annual meeting: Greg Abel takes the stage as new CEO in Omaha",
+    "Spirit Airlines shuts down after failing to reach a bailout deal",
+    "Crude oil drops ~$3 as Iran sends fresh proposal on negotiations",
+    "BlackRock highlights bonds with attractive yields that can insulate from AI disruption",
+    "Arabica coffee prices hit record on US and Colombia tariff spat"
+  ]
 }

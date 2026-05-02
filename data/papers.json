@@ -1,6 +1,1180 @@
 {
-  "total_papers": 106,
+  "total_papers": 121,
+  "new_finds": 7,
+  "last_updated": "2026-05-02",
   "papers": [
+    {
+      "arxiv_id": "2604.21249",
+      "title": "Reasoning About Traversability: Language-Guided Off-Road 3D Trajectory Planning",
+      "authors": [
+        "Byounggun Park",
+        "Soonmin Hwang"
+      ],
+      "published": "2026-04-23",
+      "abstract": "While Vision-Language Models (VLMs) enable high-level semantic reasoning for end-to-end autonomous driving, particularly in unstructured environments, existing off-road datasets suffer from language annotations that are weakly aligned with vehicle actions and terrain geometry. To address this misali",
+      "score": 5,
+      "topic": "End-to-End, RL",
+      "status": "已收录",
+      "categories": [
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2604.19710",
+      "title": "SpanVLA: Efficient Action Bridging and Learning from Negative-Recovery Samples for Vision-Language-Action Model",
+      "authors": [
+        "Zewei Zhou",
+        "Ruining Yang",
+        " Xuewei",
+        " Qi",
+        "Yiluan Guo",
+        "Sherry X. Chen",
+        "Tao Feng",
+        "Kateryna Pistunova",
+        "Yishan Shen",
+        "Lili Su",
+        "Jiaqi Ma"
+      ],
+      "published": "2026-04-21",
+      "abstract": "Vision-Language-Action (VLA) models offer a promising autonomous driving paradigm for leveraging world knowledge and reasoning capabilities, especially in long-tail scenarios. However, existing VLA models often struggle with the high latency in action generation using an autoregressive generation fr",
+      "score": 5,
+      "topic": "VLA, RL",
+      "status": "已收录",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.17915",
+      "title": "OneDrive: Unified Multi-Paradigm Driving with Vision-Language-Action Models",
+      "authors": [
+        "Yiwei Zhang",
+        "Xuesong Chen",
+        "Jin Gao",
+        "Hanshi Wang",
+        "Fudong Ge",
+        "Weiming Hu",
+        "Shaoshuai Shi",
+        "Zhipeng Zhang"
+      ],
+      "published": "2026-04-20",
+      "abstract": "Vision-Language Models(VLMs) excel at autoregressive text generation, yet end-to-end autonomous driving requires multi-task learning with structured outputs and heterogeneous decoding behaviors, such as autoregressive language generation, parallel object detection and trajectory regression. To accom",
+      "score": 5,
+      "topic": "End-to-End, VLA",
+      "status": "已收录",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.12208",
+      "title": "Unveiling the Surprising Efficacy of Navigation Understanding in End-to-End Autonomous Driving",
+      "authors": [
+        "Zhihua Hua",
+        "Junli Wang",
+        "Pengfei LI",
+        "Qihao Jin",
+        "Bo Zhang",
+        "Kehua Sheng",
+        "Yilun Chen",
+        "Zhongxue Gan",
+        "Wenchao Ding"
+      ],
+      "published": "2026-04-14",
+      "abstract": "Global navigation information and local scene understanding are two crucial components of autonomous driving systems. However, our experimental results indicate that many end-to-end autonomous driving systems tend to over-rely on local scene understanding while failing to utilize global navigation i",
+      "score": 5,
+      "topic": "End-to-End",
+      "status": "已收录",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ]
+    },
+    {
+      "arxiv_id": "2604.09059",
+      "title": "Learning Vision-Language-Action World Models for Autonomous Driving",
+      "authors": [
+        "Guoqing Wang",
+        "Pin Tang",
+        "Xiangxuan Ren",
+        "Guodongfang Zhao",
+        "Bailan Feng",
+        "Chao Ma"
+      ],
+      "published": "2026-04-10",
+      "abstract": "Vision-Language-Action (VLA) models have recently achieved notable progress in end-to-end autonomous driving by integrating perception, reasoning, and control within a unified multimodal framework. However, they often lack explicit modeling of temporal dynamics and global world consistency, which li",
+      "score": 5,
+      "topic": "End-to-End, VLA, World Models, RL",
+      "status": "已收录",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "arxiv_id": "2604.08719",
+      "title": "LMGenDrive: Bridging Multimodal Understanding and Generative World Modeling for End-to-End Driving",
+      "authors": [
+        "Hao Shao",
+        "Letian Wang",
+        "Yang Zhou",
+        "Yuxuan Hu",
+        "Zhuofan Zong",
+        "Steven L. Waslander",
+        "Wei Zhan",
+        "Hongsheng Li"
+      ],
+      "published": "2026-04-09",
+      "abstract": "Recent years have seen remarkable progress in autonomous driving, yet generalization to long-tail and open-world scenarios remains a major bottleneck for large-scale deployment. To address this challenge, some works use LLMs and VLMs for vision-language understanding and reasoning, enabling vehicles",
+      "score": 5,
+      "topic": "End-to-End, World Models, RL",
+      "status": "已收录",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2604.05449",
+      "title": "Not All Agents Matter: From Global Attention Dilution to Risk-Prioritized Game Planning",
+      "authors": [
+        "Kang Ding",
+        "Hongsong Wang",
+        "Jie Gui",
+        "Lei He"
+      ],
+      "published": "2026-04-07",
+      "abstract": "End-to-end autonomous driving resides not in the integration of perception and planning, but rather in the dynamic multi-agent game within a unified representation space. Most existing end-to-end models treat all agents equally, hindering the decoupling of real collision threats from complex backgro",
+      "score": 5,
+      "topic": "End-to-End",
+      "status": "已收录",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.02714",
+      "title": "ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving",
+      "authors": [
+        "Zihao Sheng",
+        "Xin Ye",
+        "Jingru Luo",
+        "Sikai Chen",
+        "Liu Ren"
+      ],
+      "published": "2026-04-03",
+      "abstract": "End-to-end autonomous driving models based on Vision-Language-Action (VLA) architectures have shown promising results by learning driving policies through behavior cloning on expert demonstrations. However, imitation learning inherently limits the model to replicating observed behaviors without expl",
+      "score": 5,
+      "topic": "End-to-End, VLA, World Models, RL, Imitation Learning",
+      "status": "已收录",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.18484",
+      "title": "XEmbodied: A Foundation Model with Enhanced Geometric and Physical Cues for Large-Scale Embodied Environments",
+      "authors": [
+        "Kangan Qian",
+        "ChuChu Xie",
+        "Yang Zhong",
+        "Jingrui Pang",
+        "Siwen Jiao",
+        "Sicong Jiang",
+        "Zilin Huang",
+        "Yunlong Wang",
+        "Kun Jiang",
+        "Mengmeng Yang",
+        "Hao Ye",
+        "Guanghao Zhang",
+        "Hangjun Ye",
+        "Guang Chen",
+        "Long Chen",
+        "Diange Yang"
+      ],
+      "published": "2026-04-20",
+      "abstract": "Vision-Language-Action (VLA) models drive next-generation autonomous systems, but training them requires scalable, high-quality annotations from complex environments. Current cloud pipelines rely on generic vision-language models (VLMs) that lack geometric reasoning and domain semantics due to their",
+      "score": 5,
+      "topic": "VLA",
+      "status": "已收录",
+      "categories": [
+        "cs.CV",
+        "cs.MM",
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2604.16067",
+      "title": "AEGIS: Anchor-Enforced Gradient Isolation for Knowledge-Preserving Vision-Language-Action Fine-Tuning",
+      "authors": [
+        "Guransh Singh"
+      ],
+      "published": "2026-04-17",
+      "abstract": "Adapting pre-trained vision-language models (VLMs) for robotic control requires injecting high-magnitude continuous gradients from a flow-matching action expert into a backbone trained exclusively with cross-entropy. This cross-modal gradient asymmetry - the spectral dimensionality mismatch between ",
+      "score": 5,
+      "topic": "VLA",
+      "status": "新发现",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.08266",
+      "title": "Orion-Lite: Distilling LLM Reasoning into Efficient Vision-Only Driving Models",
+      "authors": [
+        "Jing Gu",
+        "Niccolò Cavagnero",
+        "Gijs Dubbelman"
+      ],
+      "published": "2026-04-09",
+      "abstract": "Leveraging the general world knowledge of Large Language Models (LLMs) holds significant promise for improving the ability of autonomous driving systems to handle rare and complex scenarios. While integrating LLMs into Vision-Language-Action (VLA) models has yielded state-of-the-art performance, the",
+      "score": 5,
+      "topic": "VLA, RL",
+      "status": "已收录",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.05378",
+      "title": "ICR-Drive: Instruction Counterfactual Robustness for End-to-End Language-Driven Autonomous Driving",
+      "authors": [
+        "Kaiser Hamid",
+        "Can Cui",
+        "Nade Liang"
+      ],
+      "published": "2026-04-07",
+      "abstract": "Recent progress in vision-language-action (VLA) models has enabled language-conditioned driving agents to execute natural-language navigation commands in closed-loop simulation, yet standard evaluations largely assume instructions are precise and well-formed. In deployment, instructions vary in phra",
+      "score": 5,
+      "topic": "VLA",
+      "status": "已收录",
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.02190",
+      "title": "UniDriveVLA: Unifying Understanding, Perception, and Action Planning for Autonomous Driving",
+      "authors": [
+        "Yongkang Li",
+        "Lijun Zhou",
+        "Sixu Yan",
+        "Bencheng Liao",
+        "Tianyi Yan",
+        "Kaixin Xiong",
+        "Long Chen",
+        "Hongwei Xie",
+        "Bing Wang",
+        "Guang Chen",
+        "Hangjun Ye",
+        "Wenyu Liu",
+        "Haiyang Sun",
+        "Xinggang Wang"
+      ],
+      "published": "2026-04-02",
+      "abstract": "Vision-Language-Action (VLA) models have recently emerged in autonomous driving, with the promise of leveraging rich world knowledge to improve the cognitive capabilities of driving systems. However, adapting such models for driving tasks currently faces a critical dilemma between spatial perception",
+      "score": 5,
+      "topic": "VLA, RL",
+      "status": "已收录",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2604.01765",
+      "title": "DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning",
+      "authors": [
+        "Yang Zhou",
+        "Xiaofeng Wang",
+        "Hao Shao",
+        "Letian Wang",
+        "Guosheng Zhao",
+        "Jiangnan Shao",
+        "Jiagang Zhu",
+        "Tingdong Yu",
+        "Zheng Zhu",
+        "Guan Huang",
+        "Steven L. Waslander"
+      ],
+      "published": "2026-04-02",
+      "abstract": "Recently, world-action models (WAM) have emerged to bridge vision-language-action (VLA) models and world models, unifying their reasoning and instruction-following capabilities and spatio-temporal world modeling. However, existing WAM approaches often focus on modeling 2D appearance or latent repres",
+      "score": 5,
+      "topic": "VLA, World Models, RL",
+      "status": "已收录",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2604.01723",
+      "title": "Causal Scene Narration with Runtime Safety Supervision for Vision-Language-Action Driving",
+      "authors": [
+        "Yun Li",
+        "Yidu Zhang",
+        "Simon Thompson",
+        "Ehsan Javanmardi",
+        "Manabu Tsukada"
+      ],
+      "published": "2026-04-02",
+      "abstract": "Vision-Language-Action (VLA) models for autonomous driving must integrate diverse textual inputs, including navigation commands, hazard warnings, and traffic state descriptions, yet current systems often present these as disconnected fragments, forcing the model to discover on its own which environm",
+      "score": 5,
+      "topic": "VLA",
+      "status": "已收录",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ]
+    },
+    {
+      "arxiv_id": "2604.00813",
+      "title": "DVGT-2: Vision-Geometry-Action Model for Autonomous Driving at Scale",
+      "authors": [
+        "Sicheng Zuo",
+        "Zixun Xie",
+        "Wenzhao Zheng",
+        "Shaoqing Xu",
+        "Fang Li",
+        "Hanbing Li",
+        "Long Chen",
+        "Zhi-Xin Yang",
+        "Jiwen Lu"
+      ],
+      "published": "2026-04-01",
+      "abstract": "End-to-end autonomous driving has evolved from the conventional paradigm based on sparse perception into vision-language-action (VLA) models, which focus on learning language descriptions as an auxiliary task to facilitate planning. In this paper, we propose an alternative Vision-Geometry-Action (VG",
+      "score": 5,
+      "topic": "End-to-End, VLA",
+      "status": "已收录",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2604.20289",
+      "title": "X-Cache: Cross-Chunk Block Caching for Few-Step Autoregressive World Models Inference",
+      "authors": [
+        "Yixiao Zeng",
+        "Jianlei Zheng",
+        "Chaoda Zheng",
+        "Shijia Chen",
+        "Mingdian Liu",
+        "Tongping Liu",
+        "Tengwei Luo",
+        "Yu Zhang",
+        "Boyang Wang",
+        "Linkun Xu",
+        "Siyuan Lu",
+        "Bo Tian",
+        "Xianming Liu"
+      ],
+      "published": "2026-04-22",
+      "abstract": "Real-time world simulation is becoming a key infrastructure for scalable evaluation and online reinforcement learning of autonomous driving systems. Recent driving world models built on autoregressive video diffusion achieve high-fidelity, controllable multi-camera generation, but their inference co",
+      "score": 5,
+      "topic": "World Models, RL",
+      "status": "已收录",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.18486",
+      "title": "OneVL: One-Step Latent Reasoning and Planning with Vision-Language Explanation",
+      "authors": [
+        "Jinghui Lu",
+        "Jiayi Guan",
+        "Zhijian Huang",
+        "Jinlong Li",
+        "Guang Li",
+        "Lingdong Kong",
+        "Yingyan Li",
+        "Han Wang",
+        "Shaoqing Xu",
+        "Yuechen Luo",
+        "Fang Li",
+        "Chenxu Dang",
+        "Junli Wang",
+        "Tao Xu",
+        "Jing Wu",
+        "Jianhua Wu",
+        "Xiaoshuai Hao",
+        "Wen Zhang",
+        "Tianyi Jiang",
+        "Lingfeng Zhang",
+        "Lei Zhou",
+        "Yingbo Tang",
+        "Jie Wang",
+        "Yinfeng Gao",
+        "Xizhou Bu",
+        "Haochen Tian",
+        "Yihang Qiu",
+        "Feiyang Jia",
+        "Lin Liu",
+        "Yigu Ge",
+        "Hanbing Li",
+        "Yuannan Shen",
+        "Jianwei Cui",
+        "Hongwei Xie",
+        "Bing Wang",
+        "Haiyang Sun",
+        "Jingwei Zhao",
+        "Jiahui Huang",
+        "Pei Liu",
+        "Zeyu Zhu",
+        "Yuncheng Jiang",
+        "Zibin Guo",
+        "Chuhong Gong",
+        "Hanchao Leng",
+        "Kun Ma",
+        "Naiyang Wang",
+        "Guang Chen",
+        "Kuiyuan Yang",
+        "Hangjun Ye",
+        "Long Chen"
+      ],
+      "published": "2026-04-20",
+      "abstract": "Chain-of-Thought (CoT) reasoning has become a powerful driver of trajectory prediction in VLA-based autonomous driving, yet its autoregressive nature imposes a latency cost that is prohibitive for real-time deployment. Latent CoT methods attempt to close this gap by compressing reasoning into contin",
+      "score": 5,
+      "topic": "VLA",
+      "status": "已收录",
+      "categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2604.17651",
+      "title": "Infrastructure-Centric World Models: Bridging Temporal Depth and Spatial Breadth for Roadside Perception",
+      "authors": [
+        "Siyuan Meng",
+        "Chengbo Ai"
+      ],
+      "published": "2026-04-19",
+      "abstract": "World models, generative AI systems that simulate how environments evolve, are transforming autonomous driving, yet all existing approaches adopt an ego-vehicle perspective, leaving the infrastructure viewpoint unexplored. We argue that infrastructure-centric world models offer a fundamentally compl",
+      "score": 5,
+      "topic": "World Models, RL",
+      "status": "已收录",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2604.07991",
+      "title": "MotionScape: A Large-Scale Real-World Highly Dynamic UAV Video Dataset for World Models",
+      "authors": [
+        "Zile Guo",
+        "Zhan Chen",
+        "Enze Zhu",
+        "Kan Wei",
+        "Yongkang Zou",
+        "Xiaoxuan Liu",
+        "Lei Wang"
+      ],
+      "published": "2026-04-09",
+      "abstract": "Recent advances in world models have demonstrated strong capabilities in simulating physical reality, making them an increasingly important foundation for embodied intelligence. For UAV agents in particular, accurate prediction of complex 3D dynamics is essential for autonomous navigation and robust",
+      "score": 5,
+      "topic": "World Models, RL",
+      "status": "已收录",
+      "categories": [
+        "cs.CV",
+        "cs.MM"
+      ]
+    },
+    {
+      "arxiv_id": "2604.00969",
+      "title": "DLWM: Dual Latent World Models enable Holistic Gaussian-centric Pre-training in Autonomous Driving",
+      "authors": [
+        "Yiyao Zhu",
+        "Ying Xue",
+        "Haiming Zhang",
+        "Guangfeng Jiang",
+        "Wending Zhou",
+        "Xu Yan",
+        "Jiantao Gao",
+        "Yingjie Cai",
+        "Bingbing Liu",
+        "Zhen Li",
+        "Shaojie Shen"
+      ],
+      "published": "2026-04-01",
+      "abstract": "Vision-based autonomous driving has gained much attention due to its low costs and excellent performance. Compared with dense BEV (Bird's Eye View) or sparse query models, Gaussian-centric method is a comprehensive yet sparse representation by describing scene with 3D semantic Gaussians. In this pap",
+      "score": 5,
+      "topic": "World Models, BEV, RL",
+      "status": "已收录",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.21489",
+      "title": "MISTY: High-Throughput Motion Planning via Mixer-based Single-step Drifting",
+      "authors": [
+        "Yining Xing",
+        "Zehong Ke",
+        "Yiqian Tu",
+        "Zhiyuan Liu",
+        "Wenhao Yu",
+        "Jianqiang Wang"
+      ],
+      "published": "2026-04-23",
+      "abstract": "Multi-modal trajectory generation is essential for safe autonomous driving, yet existing diffusion-based planners suffer from high inference latency due to iterative neural function evaluations. This paper presents MISTY (Mixer-based Inference for Single-step Trajectory-drifting Yield), a high-throu",
+      "score": 5,
+      "topic": "AD-related",
+      "status": "已收录",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ]
+    },
+    {
+      "arxiv_id": "2604.15308",
+      "title": "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework",
+      "authors": [
+        "Hao Gao",
+        "Shaoyu Chen",
+        "Yifan Zhu",
+        "Yuehao Song",
+        "Wenyu Liu",
+        "Qian Zhang",
+        "Xinggang Wang"
+      ],
+      "published": "2026-04-16",
+      "abstract": "High-level autonomous driving requires motion planners capable of modeling multimodal future uncertainties while remaining robust in closed-loop interactions. Although diffusion-based planners are effective at modeling complex trajectory distributions, they often suffer from stochastic instabilities",
+      "score": 5,
+      "topic": "RL",
+      "status": "已收录",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.06832",
+      "title": "Fast-dVLM: Efficient Block-Diffusion VLM via Direct Conversion from Autoregressive VLM",
+      "authors": [
+        "Chengyue Wu",
+        "Shiyi Lan",
+        "Yonggan Fu",
+        "Sensen Gao",
+        "Jin Wang",
+        "Jincheng Yu",
+        "Jose M. Alvarez",
+        "Pavlo Molchanov",
+        "Ping Luo",
+        "Song Han",
+        "Ligeng Zhu",
+        "Enze Xie"
+      ],
+      "published": "2026-04-08",
+      "abstract": "Vision-language models (VLMs) predominantly rely on autoregressive decoding, which generates tokens one at a time and fundamentally limits inference throughput. This limitation is especially acute in physical AI scenarios such as robotics and autonomous driving, where VLMs are deployed on edge devic",
+      "score": 5,
+      "topic": "AD-related",
+      "status": "新发现",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "arxiv_id": "2604.14454",
+      "title": "CooperDrive: Enhancing Driving Decisions Through Cooperative Perception",
+      "authors": [
+        "Deyuan Qu",
+        "Qi Chen",
+        "Takayuki Shimizu",
+        "Onur Altintas"
+      ],
+      "published": "2026-04-15",
+      "abstract": "Autonomous vehicles equipped with robust onboard perception, localization, and planning still face limitations in occlusion and non-line-of-sight (NLOS) scenarios, where delayed reactions can increase collision risk. We propose CooperDrive, a cooperative perception framework that augments situationa",
+      "score": 5,
+      "topic": "AD-related",
+      "status": "已收录",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.12918",
+      "title": "Radar-Camera BEV Multi-Task Learning with Cross-Task Attention Bridge for Joint 3D Detection and Segmentation",
+      "authors": [
+        "Ahmet İnanç",
+        "Özgür Erkent"
+      ],
+      "published": "2026-04-14",
+      "abstract": "Bird's-eye-view (BEV) representations are the dominant paradigm for 3D perception in autonomous driving, providing a unified spatial canvas where detection and segmentation features are geometrically registered to the same physical coordinate system. However, existing radar-camera fusion methods tre",
+      "score": 5,
+      "topic": "BEV",
+      "status": "已收录",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.09206",
+      "title": "Long-SCOPE: Fully Sparse Long-Range Cooperative 3D Perception",
+      "authors": [
+        "Jiahao Wang",
+        "Zikun Xu",
+        "Yuner Zhang",
+        "Zhongwei Jiang",
+        "Chenyang Lu",
+        "Shuocheng Yang",
+        "Yuxuan Wang",
+        "Jiaru Zhong",
+        "Chuang Zhang",
+        "Shaobing Xu",
+        "Jianqiang Wang"
+      ],
+      "published": "2026-04-10",
+      "abstract": "Cooperative 3D perception via Vehicle-to-Everything communication is a promising paradigm for enhancing autonomous driving, offering extended sensing horizons and occlusion resolution. However, the practical deployment of existing methods is hindered at long distances by two critical bottlenecks: th",
+      "score": 5,
+      "topic": "AD-related",
+      "status": "已收录",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.03497",
+      "title": "Sim2Real-AD: A Modular Sim-to-Real Framework for Deploying VLM-Guided Reinforcement Learning in Real-World Autonomous Driving",
+      "authors": [
+        "Zilin Huang",
+        "Zhengyang Wan",
+        "Zihao Sheng",
+        "Boyue Wang",
+        "Junwei You",
+        "Yue Leng",
+        "Sikai Chen"
+      ],
+      "published": "2026-04-03",
+      "abstract": "Deploying reinforcement learning policies trained in simulation to real autonomous vehicles remains a fundamental challenge, particularly for VLM-guided RL frameworks whose policies are typically learned with simulator-native observations and simulator-coupled action semantics that are unavailable o",
+      "score": 5,
+      "topic": "RL",
+      "status": "已收录",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.02930",
+      "title": "BEVPredFormer: Spatio-temporal Attention for BEV Instance Prediction in Autonomous Driving",
+      "authors": [
+        "Miguel Antunes-García",
+        "Santiago Montiel-Marín",
+        "Fabio Sánchez-García",
+        "Rodrigo Gutiérrez-Moreno",
+        "Rafael Barea",
+        "Luis M. Bergasa"
+      ],
+      "published": "2026-04-03",
+      "abstract": "A robust awareness of how dynamic scenes evolve is essential for Autonomous Driving systems, as they must accurately detect, track, and predict the behaviour of surrounding obstacles. Traditional perception pipelines that rely on modular architectures tend to suffer from cumulative errors and latenc",
+      "score": 5,
+      "topic": "BEV",
+      "status": "已收录",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.25329",
+      "title": "ProDrive: Proactive Planning for Autonomous Driving via Ego-Environment Co-Evolution",
+      "authors": [
+        "Chuyao Fu",
+        "Shengzhe Gan",
+        "Zhuoli Ouyang",
+        "Yuhan Rui",
+        "Xiaowei Chi",
+        "Sirui Han",
+        "Jiankun Wang",
+        "Hong Zhang"
+      ],
+      "published": "2026-04-28",
+      "abstract": "End-to-end autonomous driving planners typically generate trajectories from current observations alone. However, real-world driving is highly dynamic, and such reactive planning cannot anticipate future scene evolution, often leading to myopic decisions and safety-critical failures. We propose ProDr",
+      "score": 4,
+      "topic": "End-to-End, RL",
+      "status": "已收录",
+      "categories": [
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2604.23362",
+      "title": "UniAda: Universal Adaptive Multi-objective Adversarial Attack for End-to-End Autonomous Driving Systems",
+      "authors": [
+        "Jingyu Zhang",
+        "Jacky Wai Keung",
+        "Yan Xiao",
+        "Yihan Liao",
+        "Yishu Li",
+        "Xiaoxue Ma"
+      ],
+      "published": "2026-04-25",
+      "abstract": "Adversarial attacks play a pivotal role in testing and improving the reliability of deep learning (DL) systems. Existing literature has demonstrated that subtle perturbations to the input can elicit erroneous outcomes, thereby substantially compromising the security of DL systems. This has emerged a",
+      "score": 4,
+      "topic": "End-to-End",
+      "status": "已收录",
+      "categories": [
+        "cs.SE",
+        "cs.LG"
+      ]
+    },
+    {
+      "arxiv_id": "2604.12656",
+      "title": "FeaXDrive: Feasibility-aware Trajectory-Centric Diffusion Planning for End-to-End Autonomous Driving",
+      "authors": [
+        "Baoyun Wang",
+        "Zhuoren Li",
+        "Ran Yu",
+        "Yu Che",
+        "Xinrui Zhang",
+        "Ming Liu",
+        "Jia Hu",
+        "Chen Lv",
+        "Bo Leng"
+      ],
+      "published": "2026-04-14",
+      "abstract": "End-to-end diffusion planning has shown strong potential for autonomous driving, but the physical feasibility of generated trajectories remains insufficiently addressed. In particular, generated trajectories may exhibit local geometric irregularities, violate trajectory-level kinematic constraints, ",
+      "score": 4,
+      "topic": "End-to-End",
+      "status": "已收录",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ]
+    },
+    {
+      "arxiv_id": "2604.11854",
+      "title": "MVAdapt: Zero-Shot Multi-Vehicle Adaptation for End-to-End Autonomous Driving",
+      "authors": [
+        "Haesung Oh",
+        "Jaeheung Park"
+      ],
+      "published": "2026-04-13",
+      "abstract": "End-to-End (E2E) autonomous driving models are usually trained and evaluated with a fixed ego-vehicle, even though their driving policy is implicitly tied to vehicle dynamics. When such a model is deployed on a vehicle with different size, mass, or drivetrain characteristics, its performance can deg",
+      "score": 4,
+      "topic": "End-to-End",
+      "status": "已收录",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ]
+    },
+    {
+      "arxiv_id": "2604.10856",
+      "title": "BridgeSim: Unveiling the OL-CL Gap in End-to-End Autonomous Driving",
+      "authors": [
+        "Seth Z. Zhao",
+        "Luobin Wang",
+        "Hongwei Ruan",
+        "Yuxin Bao",
+        "Yilan Chen",
+        "Ziyang Leng",
+        "Abhijit Ravichandran",
+        "Honglin He",
+        "Zewei Zhou",
+        "Xu Han",
+        "Abhishek Peri",
+        "Zhiyu Huang",
+        "Pranav Desai",
+        "Henrik Christensen",
+        "Jiaqi Ma",
+        "Bolei Zhou"
+      ],
+      "published": "2026-04-12",
+      "abstract": "Open-loop (OL) to closed-loop (CL) gap (OL-CL gap) exists when OL-pretrained policies scoring high in OL evaluations fail to transfer effectively in closed-loop (CL) deployment. In this paper, we unveil the root causes of this systemic failure and propose a practical remedy. Specifically, we demonst",
+      "score": 4,
+      "topic": "End-to-End",
+      "status": "已收录",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ]
+    },
+    {
+      "arxiv_id": "2604.08366",
+      "title": "Scaling-Aware Data Selection for End-to-End Autonomous Driving Systems",
+      "authors": [
+        "Tolga Dimlioglu",
+        "Nadine Chang",
+        "Maying Shen",
+        "Rafid Mahmood",
+        "Jose M. Alvarez"
+      ],
+      "published": "2026-04-09",
+      "abstract": "Large-scale deep learning models for physical AI applications depend on diverse training data collection efforts. These models and correspondingly, the training data, must address different evaluation criteria necessary for the models to be deployable in real-world environments. Data selection polic",
+      "score": 4,
+      "topic": "End-to-End, RL",
+      "status": "已收录",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.03581",
+      "title": "HAD: Combining Hierarchical Diffusion with Metric-Decoupled RL for End-to-End Driving",
+      "authors": [
+        "Wenhao Yao",
+        "Xinglong Sun",
+        "Zhenxin Li",
+        "Shiyi Lan",
+        "Zi Wang",
+        "Jose M. Alvarez",
+        "Zuxuan Wu"
+      ],
+      "published": "2026-04-04",
+      "abstract": "End-to-end planning has emerged as a dominant paradigm for autonomous driving, where recent models often adopt a scoring-selection framework to choose trajectories from a large set of candidates, with diffusion-based decoding showing strong promise. However, directly selecting from the entire candid",
+      "score": 4,
+      "topic": "End-to-End, RL",
+      "status": "已收录",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.27366",
+      "title": "Judge, Then Drive: A Critic-Centric Vision Language Action Framework for Autonomous Driving",
+      "authors": [
+        "Lijin Yang",
+        "Jianing Huang",
+        "Zhongzhan Huang",
+        "Shu Liu",
+        "Hao Yang"
+      ],
+      "published": "2026-04-30",
+      "abstract": "Recent advances in vision language action (VLA) models have shown remarkable potential for autonomous driving by directly mapping multimodal inputs to control signals. However, previous VLA-based methods have not explicitly exploited the critic capability of VLAs to refine driving decisions, even th",
+      "score": 4,
+      "topic": "VLA",
+      "status": "新发现",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.28196",
+      "title": "HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation",
+      "authors": [
+        "Xin Zhou",
+        "Dingkang Liang",
+        "Xiwu Chen",
+        "Feiyang Tan",
+        "Dingyuan Zhang",
+        "Hengshuang Zhao",
+        "Xiang Bai"
+      ],
+      "published": "2026-04-30",
+      "abstract": "Driving world models serve as a pivotal technology for autonomous driving by simulating environmental dynamics. However, existing approaches predominantly focus on future scene generation, often overlooking comprehensive 3D scene understanding. Conversely, while Large Language Models (LLMs) demonstr",
+      "score": 4,
+      "topic": "World Models, RL",
+      "status": "新发现",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.22240",
+      "title": "OccDirector: Language-Guided Behavior and Interaction Generation in 4D Occupancy Space",
+      "authors": [
+        "Zhuding Liang",
+        "Tianyi Yan",
+        "Dubing Chen",
+        "Jiasen Zheng",
+        "Huan Zheng",
+        "Cheng-zhong Xu",
+        "Yida Wang",
+        "Kun Zhan",
+        "Jianbing Shen"
+      ],
+      "published": "2026-04-24",
+      "abstract": "Generative world models increasingly rely on 4D occupancy for realistic autonomous driving simulation. However, existing generation frameworks depend on rigid geometric conditions (e.g., explicit trajectories) or simplistic attribute-level text, failing to orchestrate complex, sequential multi-agent",
+      "score": 4,
+      "topic": "World Models, RL",
+      "status": "已收录",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.04198",
+      "title": "DriveVA: Video Action Models are Zero-Shot Drivers",
+      "authors": [
+        "Mengmeng Liu",
+        "Diankun Zhang",
+        "Jiuming Liu",
+        "Jianfeng Cui",
+        "Hongwei Xie",
+        "Guang Chen",
+        "Hangjun Ye",
+        "Michael Ying Yang",
+        "Francesco Nex",
+        "Hao Cheng"
+      ],
+      "published": "2026-04-05",
+      "abstract": "Generalization is a central challenge in autonomous driving, as real-world deployment requires robust performance under unseen scenarios, sensor domains, and environmental conditions. Recent world-model-based planning methods have shown strong capabilities in scene understanding and multi-modal futu",
+      "score": 4,
+      "topic": "RL",
+      "status": "已收录",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2604.11707",
+      "title": "Representations Before Pixels: Semantics-Guided Hierarchical Video Prediction",
+      "authors": [
+        "Efstathios Karypidis",
+        "Spyros Gidaris",
+        "Nikos Komodakis"
+      ],
+      "published": "2026-04-13",
+      "abstract": "Accurate future video prediction requires both high visual fidelity and consistent scene semantics, particularly in complex dynamic environments such as autonomous driving. We present Re2Pix, a hierarchical video prediction framework that decomposes forecasting into two stages: semantic representati",
+      "score": 4,
+      "topic": "RL",
+      "status": "新发现",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.07250",
+      "title": "Geo-EVS: Geometry-Conditioned Extrapolative View Synthesis for Autonomous Driving",
+      "authors": [
+        "Yatong Lan",
+        "Rongkui Tang",
+        "Lei He"
+      ],
+      "published": "2026-04-08",
+      "abstract": "Extrapolative novel view synthesis can reduce camera-rig dependency in autonomous driving by generating standardized virtual views from heterogeneous sensors. Existing methods degrade outside recorded trajectories because extrapolated poses provide weak geometric support and no dense target-view sup",
+      "score": 4,
+      "topic": "AD-related",
+      "status": "已收录",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.05908",
+      "title": "Appearance Decomposition Gaussian Splatting for Multi-Traversal Reconstruction",
+      "authors": [
+        "Yangyi Xiao",
+        "Siting Zhu",
+        "Baoquan Yang",
+        "Tianchen Deng",
+        "Yongbo Chen",
+        "Hesheng Wang"
+      ],
+      "published": "2026-04-07",
+      "abstract": "Multi-traversal scene reconstruction is important for high-fidelity autonomous driving simulation and digital twin construction. This task involves integrating multiple sequences captured from the same geographical area at different times. In this context, a primary challenge is the significant appe",
+      "score": 4,
+      "topic": "AD-related",
+      "status": "新发现",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.04630",
+      "title": "Multimodal Backdoor Attack on VLMs for Autonomous Driving via Graffiti and Cross-Lingual Triggers",
+      "authors": [
+        "Jiancheng Wang",
+        "Lidan Liang",
+        "Yong Wang",
+        "Zengzhen Su",
+        "Haifeng Xia",
+        "Yuanting Yan",
+        "Wei Wang"
+      ],
+      "published": "2026-04-06",
+      "abstract": "Visual language model (VLM) is rapidly being integrated into safety-critical systems such as autonomous driving, making it an important attack surface for potential backdoor attacks. Existing backdoor attacks mainly rely on unimodal, explicit, and easily detectable triggers, making it difficult to c",
+      "score": 4,
+      "topic": "AD-related",
+      "status": "已收录",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.04331",
+      "title": "GA-GS: Generation-Assisted Gaussian Splatting for Static Scene Reconstruction",
+      "authors": [
+        "Yedong Shen",
+        "Shiqi Zhang",
+        "Sha Zhang",
+        "Yifan Duan",
+        "Xinran Zhang",
+        "Wenhao Yu",
+        "Lu Zhang",
+        "Jiajun Deng",
+        "Yanyong Zhang"
+      ],
+      "published": "2026-04-06",
+      "abstract": "Reconstructing static 3D scene from monocular video with dynamic objects is important for numerous applications such as virtual reality and autonomous driving. Current approaches typically rely on background for static scene reconstruction, limiting the ability to recover regions occluded by dynamic",
+      "score": 4,
+      "topic": "AD-related",
+      "status": "已收录",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "arxiv_id": "2604.03462",
+      "title": "SpectralSplat: Appearance-Disentangled Feed-Forward Gaussian Splatting for Driving Scenes",
+      "authors": [
+        "Quentin Herau",
+        "Tianshuo Xu",
+        "Depu Meng",
+        "Jiezhi Yang",
+        "Chensheng Peng",
+        "Spencer Sherk",
+        "Yihan Hu",
+        "Wei Zhan"
+      ],
+      "published": "2026-04-03",
+      "abstract": "Feed-forward 3D Gaussian Splatting methods have achieved impressive reconstruction quality for autonomous driving scenes, yet they entangle scene geometry with transient appearance properties such as lighting, weather, and time of day. This coupling prevents relighting, appearance transfer, and cons",
+      "score": 4,
+      "topic": "AD-related",
+      "status": "新发现",
+      "categories": [
+        "cs.CV",
+        "cs.GR",
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2604.25405",
+      "title": "Leveraging Previous-Traversal Point Cloud Map Priors for Camera-Based 3D Object Detection and Tracking",
+      "authors": [
+        "Markus Käppeler",
+        "Özgün Çiçek",
+        "Yakov Miron",
+        "Abhinav Valada"
+      ],
+      "published": "2026-04-28",
+      "abstract": "Camera-based 3D object detection and tracking are central to autonomous driving, yet precise 3D object localization remains fundamentally constrained by depth ambiguity when no expensive, depth-rich online LiDAR is available at inference. In many deployments, however, vehicles repeatedly traverse th",
+      "score": 4,
+      "topic": "AD-related",
+      "status": "已收录",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2604.18940",
+      "title": "Localization-Guided Foreground Augmentation in Autonomous Driving",
+      "authors": [
+        "Jiawei Yong",
+        "Deyuan Qu",
+        "Qi Chen",
+        "Kentaro Oguchi",
+        "Shintaro Fukushima"
+      ],
+      "published": "2026-04-21",
+      "abstract": "Autonomous driving systems often degrade under adverse visibility conditions-such as rain, nighttime, or snow-where online scene geometry (e.g., lane dividers, road boundaries, and pedestrian crossings) becomes sparse or fragmented. While high-definition (HD) maps can provide missing structural cont",
+      "score": 4,
+      "topic": "AD-related",
+      "status": "已收录",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2604.22835",
+      "title": "ParkingScenes: A Structured Dataset for End-to-End Autonomous Parking in Simulation Scenes",
+      "authors": [
+        "Haonan Chen",
+        "Kaiwen Xiao",
+        "Bin Tian",
+        "Jun Fu"
+      ],
+      "published": "2026-04-20",
+      "abstract": "Autonomous parking remains a critical yet challenging task in intelligent driving systems, particularly within constrained urban environments where maneuvering space is limited and precise control is essential. While recent advances in end-to-end learning have shown great promise, the lack of high-q",
+      "score": 4,
+      "topic": "RL",
+      "status": "已收录",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "arxiv_id": "2604.17135",
+      "title": "OptiMVMap: Offline Vectorized Map Construction via Optimal Multi-vehicle Perspectives",
+      "authors": [
+        "Zedong Dan",
+        "Zijie Wang",
+        "Wei Zhang",
+        "Xiangru Lin",
+        "Weiming Zhang",
+        "Xiao Tan",
+        "Jingdong Wang",
+        "Liang Lin",
+        "Guanbin Li"
+      ],
+      "published": "2026-04-18",
+      "abstract": "Offline vectorized maps constitute critical infrastructure for high-precision autonomous driving and mapping services. Existing approaches rely predominantly on single ego-vehicle trajectories, which fundamentally suffer from viewpoint insufficiency: while memory-based methods extend observation tim",
+      "score": 4,
+      "topic": "AD-related",
+      "status": "已收录",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.04887",
+      "title": "HorizonWeaver: Generalizable Multi-Level Semantic Editing for Driving Scenes",
+      "authors": [
+        "Mauricio Soroco",
+        "Francesco Pittaluga",
+        "Zaid Tasneem",
+        "Abhishek Aich",
+        "Bingbing Zhuang",
+        "Wuyang Chen",
+        "Manmohan Chandraker",
+        "Ziyu Jiang"
+      ],
+      "published": "2026-04-06",
+      "abstract": "Ensuring safety in autonomous driving requires scalable generation of realistic, controllable driving scenes beyond what real-world testing provides. Yet existing instruction guided image editors, trained on object-centric or artistic data, struggle with dense, safety-critical driving layouts. We pr",
+      "score": 4,
+      "topic": "RL",
+      "status": "已收录",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2604.04797",
+      "title": "Multi-Modal Sensor Fusion using Hybrid Attention for Autonomous Driving",
+      "authors": [
+        "Mayank Mayank",
+        "Bharanidhar Duraisamy",
+        "Florian Geiß",
+        "Abhinav Valada"
+      ],
+      "published": "2026-04-06",
+      "abstract": "Accurate 3D object detection for autonomous driving requires complementary sensors. Cameras provide dense semantics but unreliable depth, while millimeter-wave radar offers precise range and velocity measurements with sparse geometry. We propose MMF-BEV, a radar-camera BEV fusion framework that leve",
+      "score": 4,
+      "topic": "BEV",
+      "status": "已收录",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
     {
       "arxiv_id": "2411.15139",
       "title": "DiffusionDrive: Truncated Diffusion Model for End-to-End Autonomous Driving",
@@ -297,140 +1471,6 @@
       ]
     },
     {
-      "arxiv_id": "2604.02714",
-      "title": "ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving",
-      "authors": "",
-      "published": "",
-      "abstract": "VLA with dense world model + exploration for end-to-end AD",
-      "score": 5,
-      "topic": "VLA-WorldModel",
-      "status": "新发现",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.08719",
-      "title": "LMGenDrive: Bridging Multimodal Understanding and Generative World Modeling for End-to-End Driving",
-      "authors": "",
-      "published": "",
-      "abstract": "",
-      "score": 5,
-      "topic": "world model VLM",
-      "status": "已收录",
-      "categories": [
-        "world model VLM"
-      ]
-    },
-    {
-      "arxiv_id": "2604.09059",
-      "title": "Learning Vision-Language-Action World Models for Autonomous Driving",
-      "authors": "",
-      "published": "",
-      "abstract": "",
-      "score": 5,
-      "topic": "VLA world model",
-      "status": "已收录",
-      "categories": [
-        "VLA world model"
-      ]
-    },
-    {
-      "arxiv_id": "2604.17651",
-      "title": "Infrastructure-Centric World Models: Bridging Temporal Depth and Spatial Breadth for Roadside Perception",
-      "authors": "",
-      "published": "",
-      "abstract": "First infrastructure-centric world model for roadside perception",
-      "score": 5,
-      "topic": "WorldModel",
-      "status": "新发现",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.17915",
-      "title": "OneDrive: Unified Multi-Paradigm Driving with Vision-Language-Action Models",
-      "authors": [
-        "Authors from search results"
-      ],
-      "published": "2026-04-17T00:00:00Z",
-      "abstract": "Vision-Language Models(VLMs) excel at autoregressive text generation, yet end-to-end autonomous driving requires multi-task learning with structured outputs and heterogeneous decoding behaviors, such as autoregressive language generation, parallel object detection and trajectory regression. To accommodate these differences, existing systems typically introduce separate or cascaded decoders ...",
-      "score": 5,
-      "topic": "VLA",
-      "status": "已收录",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.18484",
-      "title": "XEmbodied: Towards a Cloud-Side Vision-Language-Action Foundation Model for Embodied Agents",
-      "authors": [
-        "Xiaomi Embodied Intelligence Team"
-      ],
-      "published": "2026-04-25",
-      "abstract": "Cloud-side VLA model accepting image+language+3D as input, supporting diverse embodied tasks including driving. Xiaomi Embodied Intelligence team. CVPR 2026.",
-      "score": 5,
-      "topic": "VLA Foundation Model",
-      "status": "新发现",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.18486",
-      "title": "OneVL: One-Step Latent Reasoning and Planning with Vision-Language Models",
-      "authors": [
-        "Authors from search results"
-      ],
-      "published": "2026-04-18T00:00:00Z",
-      "abstract": "Chain-of-Thought (CoT) reasoning has become a powerful driver of trajectory prediction in VLA-based autonomous driving, yet its autoregressive nature imposes a latency cost that is prohibitive for real-time deployment. Latent CoT methods attempt to close this gap by compressing reasoning into continuous hidden states, but consistently fall short of their explicit counterparts. We suggest that ...",
-      "score": 5,
-      "topic": "VLA",
-      "status": "已收录",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.19710",
-      "title": "SpanVLA: Efficient Action Bridging and Learning from Negative-Recovery Samples for Vision-Language-Action Model",
-      "authors": [
-        "Zewei Zhou",
-        "Ruining Yang",
-        "Xuewei Qi",
-        "Yiluan Guo",
-        "Sherry X. Chen",
-        "Tao Feng",
-        "Kateryna Pistunova",
-        "Yishan Shen",
-        "Lili Su",
-        "Jiaqi Ma"
-      ],
-      "published": "2026-04-21T17:34:19Z",
-      "abstract": "Vision-Language-Action (VLA) models offer a promising autonomous driving paradigm for leveraging world knowledge and reasoning capabilities, especially in long-tail scenarios. However, existing VLA models often struggle with high latency in action generation using autoregressive frameworks. SpanVLA proposes efficient action bridging and negative-recovery sample learning for end-to-end autonomous driving.",
-      "score": 5,
-      "topic": "VLA",
-      "status": "已收录",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.22240",
-      "title": "OccDirector: Language-Guided Behavior and Interaction Generation in 4D Occupancy Space",
-      "authors": "",
-      "published": "",
-      "abstract": "Language-guided 4D occupancy world model for AD simulation",
-      "score": 5,
-      "topic": "WorldModel",
-      "status": "新发现",
-      "categories": [
-        "general"
-      ]
-    },
-    {
       "arxiv_id": "2604.22260",
       "title": "UniVLT: A Unified Visual-Language-Transformer Powered Transportation Foundation Model",
       "authors": [
@@ -465,28 +1505,6 @@
       "abstract": "Addresses efficiency bottleneck in flow-based VLA policies by restructuring action generation into coarse initialization (action-aware starting point) with single-step local refinement. Achieves 75.4% latency reduction, outperforms NFE=2 methods and matches NFE=10 π0.5 baselines, 83.0% real-robot success rate.",
       "score": 5,
       "topic": "VLA / Diffusion Policy",
-      "status": "新发现",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.25329",
-      "title": "ProDrive: Proactive Planning for Autonomous Driving via Ego-Environment Co-Evolution",
-      "authors": [
-        "Chuyao Fu",
-        "Shengzhe Gan",
-        "Zhuoli Ouyang",
-        "Yuhan Rui",
-        "Xiaowei Chi",
-        "Sirui Han",
-        "Jiankun Wang",
-        "Hong Zhang"
-      ],
-      "published": "2026-04-28",
-      "abstract": "World-model-based proactive planning framework enabling ego-environment co-evolution. Jointly trains a query-centric trajectory planner and a BEV world model end-to-end, generating diverse candidate trajectories and planning-aware future scene predictions.",
-      "score": 5,
-      "topic": "World Models / End-to-End",
       "status": "新发现",
       "categories": [
         "general"
@@ -538,77 +1556,6 @@
       ]
     },
     {
-      "arxiv_id": "2604.00813",
-      "title": "DVGT-2: Dynamic Vision Graph Transformer for Trajectory Prediction 2.0",
-      "authors": [
-        "TBD"
-      ],
-      "published": "2026-04-01",
-      "abstract": "Enhanced dynamic vision graph transformer for trajectory prediction.",
-      "score": 4,
-      "topic": "Trajectory Prediction / Graph",
-      "status": "新发现",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.03581",
-      "title": "HAD: Combining Hierarchical Diffusion with Metric-Decoupled RL for End-to-End Driving",
-      "authors": "",
-      "published": "",
-      "abstract": "",
-      "score": 4,
-      "topic": "diffusion planning",
-      "status": "新发现",
-      "categories": [
-        "diffusion planning"
-      ]
-    },
-    {
-      "arxiv_id": "2604.04198",
-      "title": "DriveVA: Video Action Models are Zero-Shot Drivers",
-      "authors": "",
-      "published": "",
-      "abstract": "",
-      "score": 4,
-      "topic": "world model driving",
-      "status": "新发现",
-      "categories": [
-        "world model driving"
-      ]
-    },
-    {
-      "arxiv_id": "2604.10856",
-      "title": "BridgeSim: Unveiling the OL-CL Gap in End-to-End Autonomous Driving",
-      "authors": [
-        "Seth Z. Zhao",
-        "Luobin Wang",
-        "Hongwei Ruan",
-        "Yuxin Bao",
-        "Yilan Chen",
-        "Ziyang Leng",
-        "Abhijit Ravichandran",
-        "Honglin He",
-        "Zewei Zhou",
-        "Xu Han",
-        "Abhishek Peri",
-        "Zhiyu Huang",
-        "Pranav Desai",
-        "Henrik Christensen",
-        "Jiaqi Ma",
-        "Bolei Zhou"
-      ],
-      "published": "2026-04-12T23:37:07Z",
-      "abstract": "Reveals root causes of open-loop to closed-loop gap in E2E driving policies: Observational Domain Shift and Objective Mismatch. Proposes practical remedy bridging the OL-CL gap.",
-      "score": 4,
-      "topic": "End2End",
-      "status": "已收录",
-      "categories": [
-        "general"
-      ]
-    },
-    {
       "arxiv_id": "2604.11734",
       "title": "Multi-ORFT: Stable Online Reinforcement Fine-Tuning for Multi-Agent Diffusion Planning in Cooperative Driving",
       "authors": [
@@ -621,44 +1568,6 @@
       "abstract": "Stable online RL fine-tuning for multi-agent diffusion planners in cooperative driving scenarios with closed-loop evaluation.",
       "score": 4,
       "topic": "DiffusionPolicy",
-      "status": "已收录",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.12656",
-      "title": "FeaXDrive: Feasibility-aware Trajectory-Centric Diffusion Planning for End-to-End Autonomous Driving",
-      "authors": [
-        "Baoyun Wang",
-        "Zhuoren Li",
-        "Ming Liu",
-        "Xinrui Zhang",
-        "Bo Leng",
-        "Lu Xiong"
-      ],
-      "published": "2026-04-14T12:24:54Z",
-      "abstract": "End-to-end diffusion planning for autonomous driving addressing physical feasibility of generated trajectories. Proposes feasibility-aware trajectory-centric formulation that enforces kinematic constraints and geometric regularity in the diffusion process.",
-      "score": 4,
-      "topic": "DiffusionPolicy",
-      "status": "已收录",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.14454",
-      "title": "CooperDrive: Enhancing Driving Decisions Through Cooperative Perception",
-      "authors": [
-        "Deyuan Qu",
-        "Qi Chen",
-        "Takayuki Shimizu",
-        "Onur Altintas"
-      ],
-      "published": "2026-04-15T00:00:00Z",
-      "abstract": "Cooperative perception framework augmenting situational awareness in occlusion/NLOS scenarios for autonomous vehicles.",
-      "score": 4,
-      "topic": "Cooperative",
       "status": "已收录",
       "categories": [
         "general"
@@ -695,21 +1604,6 @@
       "abstract": "Video diffusion predicts semantic masks instead of pixels. Forces model to learn essential dynamics. Outperforms RGB-based world models on LIBERO and RLBench.",
       "score": 4,
       "topic": "World Model / Robot Policy",
-      "status": "新发现",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.21489",
-      "title": "MISTY: High-Throughput Motion Planning via Mixer-based Single-step Drifting",
-      "authors": [
-        "TBD"
-      ],
-      "published": "2026-04-23",
-      "abstract": "Multi-modal trajectory generation is essential for safe autonomous driving, yet existing diffusion-based planners suffer from high inference latency due to iterative neural function evaluations. MISTY proposes mixer-based single-step drifting for high-throughput motion planning.",
-      "score": 4,
-      "topic": "Diffusion Policy / Planning",
       "status": "新发现",
       "categories": [
         "general"
@@ -814,24 +1708,6 @@
       ]
     },
     {
-      "arxiv_id": "2604.25405",
-      "title": "Leveraging Previous-Traversal Point Cloud Map Priors for Camera-Based 3D Object Detection and Tracking",
-      "authors": [
-        "Markus Käppeler",
-        "Özgün Çiçek",
-        "Yakov Miron",
-        "Abhinav Valada"
-      ],
-      "published": "2026-04-28",
-      "abstract": "Camera-only inference framework that retrieves static point cloud map priors from previous traversals to mitigate LiDAR absence during deployment. Uses BEV representations for map-query interaction, achieving competitive 3D detection without online LiDAR.",
-      "score": 4,
-      "topic": "BEV / Perception",
-      "status": "新发现",
-      "categories": [
-        "general"
-      ]
-    },
-    {
       "arxiv_id": "2604.25574",
       "title": "Control Your Queries: Heterogeneous Query Interaction for Camera-Radar Fusion",
       "authors": [
@@ -878,66 +1754,6 @@
       ]
     },
     {
-      "arxiv_id": "2604.04887",
-      "title": "HorizonWeaver: Generalizable Multi-Level Semantic Editing for Driving Scenes",
-      "authors": "",
-      "published": "",
-      "abstract": "",
-      "score": 3,
-      "topic": "scene editing AD",
-      "status": "新发现",
-      "categories": [
-        "scene editing AD"
-      ]
-    },
-    {
-      "arxiv_id": "2604.05449",
-      "title": "Not All Agents Matter: From Global Attention Dilution to Risk-Prioritized Game Planning",
-      "authors": "",
-      "published": "",
-      "abstract": "",
-      "score": 3,
-      "topic": "end-to-end AD planning",
-      "status": "新发现",
-      "categories": [
-        "end-to-end AD planning"
-      ]
-    },
-    {
-      "arxiv_id": "2604.07991",
-      "title": "MotionScape: A Large-Scale Real-World Highly Dynamic UAV Video Dataset for World Models",
-      "authors": [
-        "Zile Guo",
-        "Zhan Chen",
-        "Enze Zhu",
-        "Kan Wei",
-        "Yongkang Zou",
-        "Xiaoxuan Liu",
-        "Lei Wang"
-      ],
-      "published": "2026-04-09",
-      "abstract": "Large-scale real-world UAV video dataset capturing highly dynamic camera trajectories for training world models. Addresses distribution bias in existing datasets that limits world model performance under dynamic 3D environments.",
-      "score": 3,
-      "topic": "World Models / Dataset",
-      "status": "新发现",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.08266",
-      "title": "Orion-Lite: Distilling LLM Reasoning into Efficient Vision-Only Driving Models",
-      "authors": "",
-      "published": "",
-      "abstract": "",
-      "score": 3,
-      "topic": "LLM for driving",
-      "status": "已收录",
-      "categories": [
-        "LLM for driving"
-      ]
-    },
-    {
       "arxiv_id": "2604.10391",
       "title": "FishRoPE: Projective Rotary Position Embeddings for Omnidirectional Visual Perception",
       "authors": [
@@ -969,19 +1785,6 @@
       "status": "新发现",
       "categories": [
         "world model IL"
-      ]
-    },
-    {
-      "arxiv_id": "2604.15308",
-      "title": "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework",
-      "authors": "",
-      "published": "",
-      "abstract": "",
-      "score": 3,
-      "topic": "diffusion planning RL",
-      "status": "新发现",
-      "categories": [
-        "diffusion planning RL"
       ]
     },
     {
@@ -1031,19 +1834,6 @@
       ]
     },
     {
-      "arxiv_id": "2604.22835",
-      "title": "ParkingScenes: A Structured Dataset for End-to-End Autonomous Parking in Simulation Scenes",
-      "authors": "",
-      "published": "",
-      "abstract": "",
-      "score": 3,
-      "topic": "autonomous parking",
-      "status": "新发现",
-      "categories": [
-        "autonomous parking"
-      ]
-    },
-    {
       "arxiv_id": "2604.22851",
       "title": "EgoDyn-Bench: Evaluating Ego-Motion Understanding in Vision-Centric Foundation Models for Autonomous Driving",
       "authors": "",
@@ -1066,21 +1856,6 @@
       "abstract": "Transferable physical-world adversarial patches against object detection in autonomous driving. Addresses threats to AD perception reliability.",
       "score": 3,
       "topic": "Perception / Robustness",
-      "status": "新发现",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.23362",
-      "title": "UniAda: Universal Adaptive Multi-objective Adversarial Attack for End-to-End Autonomous Driving Systems",
-      "authors": [
-        "TBD"
-      ],
-      "published": "2026-04-25",
-      "abstract": "Universal adaptive multi-objective adversarial attack for end-to-end autonomous driving systems. Tests reliability of E2E AD against subtle perturbations to the input.",
-      "score": 3,
-      "topic": "E2E / Robustness",
       "status": "新发现",
       "categories": [
         "general"
@@ -1218,138 +1993,6 @@
       ]
     },
     {
-      "arxiv_id": "2604.00969",
-      "title": "DLWM: Dual Latent World Models enable Holistic Gaussian-centric Pre-training in Autonomous Driving",
-      "authors": [
-        "Yiyao Zhu",
-        "Ying Xue",
-        "Haiming Zhang",
-        "Guangfeng Jiang",
-        "Wending Zhou"
-      ],
-      "published": "2026-04-01T14:41:21Z",
-      "abstract": "Vision-based autonomous driving has gained much attention due to its low costs and excellent performance...",
-      "score": 0,
-      "topic": "",
-      "status": "已收录",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.01765",
-      "title": "DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning",
-      "authors": [
-        "Yang Zhou",
-        "Xiaofeng Wang",
-        "Hao Shao",
-        "Letian Wang",
-        "Guosheng Zhao"
-      ],
-      "published": "2026-04-02T08:33:18Z",
-      "abstract": "Recently, world-action models (WAM) have emerged to bridge vision-language-action (VLA) models and world models...",
-      "score": 0,
-      "topic": "",
-      "status": "已收录",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.03497",
-      "title": "Sim2Real-AD: A Modular Sim-to-Real Framework for Deploying VLM-Guided Reinforcement Learning in Real-World Autonomous Driving",
-      "authors": "Sim2Real-AD Team",
-      "published": "2026-04",
-      "abstract": "提出模块化sim-to-real框架，实现CARLA训练的VLM引导RL策略零样本迁移到实车。包含几何观测桥接(BEV转换)、物理感知动作映射、两阶段渐进训练策略等组件。在Ford E-Transit实车上实现90%/80%/75%的成功率(car-following/避障/停车标志)。",
-      "score": 0,
-      "topic": "cs.RO",
-      "status": "已收录",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.08366",
-      "title": "Scaling-Aware Data Selection for End-to-End Autonomous Driving Systems",
-      "authors": [
-        "Tolga Dimlioglu",
-        "et al."
-      ],
-      "published": "2026-04-09T15:33:00Z",
-      "abstract": "Large-scale deep learning models for physical AI applications depend on diverse training data collection efforts...",
-      "score": 0,
-      "topic": "",
-      "status": "已收录",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.09206",
-      "title": "Long-SCOPE: Fully Sparse Long-Range Cooperative 3D Perception",
-      "authors": "Jiahao Wang, Zikun Xu, Yuner Zhang et al.",
-      "published": "2026-04",
-      "abstract": "面向车联网(V2X)的全稀疏长距离协同3D感知框架。解决密集BEV表示二次计算复杂度和远距离特征关联脆弱性问题。包含几何引导查询生成(GQG)模块和可学习上下文感知关联模块。",
-      "score": 0,
-      "topic": "cs.CV",
-      "status": "已收录",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.11854",
-      "title": "MVAdapt: Zero-Shot Multi-Vehicle Adaptation for End-to-End Autonomous Driving",
-      "authors": [
-        "Haesung Oh",
-        "Jaeheung Park"
-      ],
-      "published": "2026-04-13T05:05:04Z",
-      "abstract": "E2E driving models degrade substantially when deployed on vehicles with different dynamics (size, mass, drivetrain). Proposes zero-shot multi-vehicle adaptation addressing this vehicle-domain gap without retraining.",
-      "score": 0,
-      "topic": "",
-      "status": "已收录",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.12208",
-      "title": "Unveiling the Surprising Efficacy of Navigation Understanding in End-to-End Autonomous Driving",
-      "authors": [
-        "Zhihua Hua",
-        "Junli Wang",
-        "Pengfei LI",
-        "Qihao Jin",
-        "Bo Zhang",
-        "Kehua Sheng",
-        "Yilun Chen",
-        "Zhongxue Gan",
-        "Wenchao Ding"
-      ],
-      "published": "2026-04-14T02:34:44Z",
-      "abstract": "Analyzes how end-to-end driving systems rely on global navigation vs local scene understanding. Shows many E2E models over-rely on local understanding and fail to utilize global navigation information, revealing weak correlation between planning capabilities and navigation understanding.",
-      "score": 0,
-      "topic": "",
-      "status": "已收录",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.12918",
-      "title": "CTAB: Radar-Camera BEV Multi-Task Learning with Cross-Task Attention Bridge for Joint 3D Detection and Segmentation",
-      "authors": "CTAB Team",
-      "published": "2026-04",
-      "abstract": "雷达-相机BEV多任务学习框架。提出跨任务注意力桥接模块(CTAB)，在检测和分割分支间通过多尺度可变形注意力交换特征。包含IN归一化分割解码器和可学习BEV上采样。在nuScenes上7类分割提升。",
-      "score": 0,
-      "topic": "cs.CV",
-      "status": "已收录",
-      "categories": [
-        "general"
-      ]
-    },
-    {
       "arxiv_id": "2604.14732",
       "title": "World-Value-Action Model: Implicit Planning for Vision-Language-Action Systems",
       "authors": [
@@ -1405,19 +2048,6 @@
       ]
     },
     {
-      "arxiv_id": "2604.17135",
-      "title": "A Survey on Causality for Autonomous Driving",
-      "authors": "Survey Team",
-      "published": "2026-04",
-      "abstract": "因果推断在自动驾驶中的系统性综述。涵盖因果发现、因果推理、反事实推理在感知、决策、规划、控制中的应用。",
-      "score": 0,
-      "topic": "cs.AI",
-      "status": "已收录",
-      "categories": [
-        "general"
-      ]
-    },
-    {
       "arxiv_id": "2604.17841",
       "title": "Driving Risk Emerges from the Required Two-Dimensional Joint Evasive Acceleration",
       "authors": [
@@ -1428,24 +2058,6 @@
       ],
       "published": "2026-04-20T00:00:00Z",
       "abstract": "Safety benchmark for autonomous driving modeling risk as 2D joint evasive acceleration instead of 1D TTC.",
-      "score": 0,
-      "topic": "",
-      "status": "已收录",
-      "categories": [
-        "general"
-      ]
-    },
-    {
-      "arxiv_id": "2604.18940",
-      "title": "Localization-Guided Foreground Augmentation in Autonomous Driving",
-      "authors": [
-        "Jiawei Yong",
-        "Deyuan Qu",
-        "Qi Chen",
-        "Kentaro Oguchi"
-      ],
-      "published": "2026-04-21T00:00:00Z",
-      "abstract": "Foreground augmentation for autonomous driving under adverse visibility conditions using HD map priors.",
       "score": 0,
       "topic": "",
       "status": "已收录",
@@ -1675,33 +2287,6 @@
       ]
     },
     {
-      "arxiv_id": "2604.20289",
-      "title": "X-Cache: Cross-Chunk Block Caching for Few-Step Autoregressive World Models Inference",
-      "authors": [
-        "Yixiao Zeng",
-        "Jianlei Zheng",
-        "Chaoda Zheng",
-        "Shijia Chen",
-        "Mingdian Liu",
-        "Tongping Liu",
-        "Tengwei Luo",
-        "Yu Zhang",
-        "Boyang Wang",
-        "Linkun Xu",
-        "Siyuan Lu",
-        "Bo Tian",
-        "Xianming Liu"
-      ],
-      "published": "2026-04-22T07:36:59Z",
-      "abstract": "Real-time world simulation for autonomous driving. Proposes cross-chunk block caching to accelerate autoregressive world model inference for driving simulation. Driving world models built on autoregressive video diffusion achieve high-fidelity controllable multi-camera generation but are bottlenecked by inference cost.",
-      "score": 0,
-      "topic": "",
-      "status": "已收录",
-      "categories": [
-        "general"
-      ]
-    },
-    {
       "arxiv_id": "2604.20423",
       "title": "OVPD: A Virtual-Physical Fusion Testing Dataset of On-Site Autonomous Driving Challenge",
       "authors": [
@@ -1764,19 +2349,6 @@
       ]
     },
     {
-      "arxiv_id": "2604.21249",
-      "title": "Reasoning About Traversability: Language-Guided Off-Road 3D Trajectory Planning",
-      "authors": "Off-road VLM Team",
-      "published": "2026-04",
-      "abstract": "VLM引导的非结构化道路3D轨迹规划。提出语言精炼框架和几何感知偏好优化策略。在ORAD-3D基准上轨迹误差从1.01m降至0.97m，可行驶一致性从0.621提升至0.644。",
-      "score": 0,
-      "topic": "cs.RO",
-      "status": "已收录",
-      "categories": [
-        "general"
-      ]
-    },
-    {
       "arxiv_id": "2604.21479",
       "title": "Frozen LLMs as Map-Aware Spatio-Temporal Reasoners for Vehicle Trajectory Prediction",
       "authors": "Trajectory LLM Team",
@@ -1802,63 +2374,5 @@
         "general"
       ]
     }
-  ],
-  "last_updated": "2026-05-01",
-  "updated_at": "2026-05-01T08:00:00+08:00",
-  "category_counts": {
-    "other": 25,
-    "VLA": 9,
-    "BEV / Perception": 6,
-    "cs.CV": 5,
-    "WorldModel": 4,
-    "Diffusion Policy / Planning": 3,
-    "World Models": 3,
-    "End2End": 2,
-    "DiffusionPolicy": 2,
-    "BEV / Mapping": 2,
-    "cs.RO": 2,
-    "Diffusion Policy / End-to-End": 1,
-    "End-to-End": 1,
-    "World Models / RL": 1,
-    "End-to-End / VLA + Diffusion": 1,
-    "End-to-End / Foundation Models": 1,
-    "End-to-End / Imitation + RL": 1,
-    "VLA-WorldModel": 1,
-    "world model VLM": 1,
-    "VLA world model": 1,
-    "VLA Foundation Model": 1,
-    "VLA / Transportation Foundation Model": 1,
-    "VLA / Diffusion Policy": 1,
-    "World Models / End-to-End": 1,
-    "End-to-End / Planning": 1,
-    "Trajectory Prediction / Graph": 1,
-    "diffusion planning": 1,
-    "world model driving": 1,
-    "Cooperative": 1,
-    "Simulation": 1,
-    "World Model / Robot Policy": 1,
-    "VLA / LLM Driving": 1,
-    "VLA / VLM Driving": 1,
-    "BEV / Topology Planning": 1,
-    "Diffusion Policy / Robotics": 1,
-    "E2E Driving / Robustness": 1,
-    "scene editing AD": 1,
-    "end-to-end AD planning": 1,
-    "World Models / Dataset": 1,
-    "LLM for driving": 1,
-    "world model IL": 1,
-    "diffusion planning RL": 1,
-    "Testing": 1,
-    "autonomous parking": 1,
-    "VLM eval AD": 1,
-    "Perception / Robustness": 1,
-    "E2E / Robustness": 1,
-    "Perception": 1,
-    "Perception / Prediction": 1,
-    "Planning / Evaluation": 1,
-    "Planning / Safety": 1,
-    "Platforms / Open Source": 1,
-    "cs.AI": 1,
-    "eess.SY": 1
-  }
+  ]
 }

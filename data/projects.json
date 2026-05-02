@@ -1,7 +1,7 @@
-{"updated_at":"2026-05-02T21:39:00+08:00","projects":[
+{"updated_at":"2026-05-02T22:00:04+08:00","projects":[
 {"name":"helloquant","path":"/home/magicbluecate/trading/helloquant","branch":"master","uncommitted":8,"last_commit":"4 个月前 — [Docs] 添加翻译完成后同步 Linear 的规则","status":"active"}
 ,
-{"name":"openclaw-dashboard","path":"/home/magicbluecate/projects/openclaw-dashboard","branch":"main","uncommitted":4,"last_commit":"11 秒钟前 — data: 国际市场 2026-05-02","status":"active"}
+{"name":"openclaw-dashboard","path":"/home/magicbluecate/projects/openclaw-dashboard","branch":"main","uncommitted":4,"last_commit":"13 分钟前 — data: 论文日报 2026-05-02","status":"active"}
 ,
 {"name":"researchhub","path":"/home/magicbluecate/projects/researchhub","branch":"main","uncommitted":1,"last_commit":"7 周前 — chore: add session hooks and finalize configuration","status":"active"}
 ]}

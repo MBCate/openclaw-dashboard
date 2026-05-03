@@ -1,14 +1,15 @@
 {
-  "updated": "2026-05-02T21:38:46+08:00",
-  "date": "2026-05-02",
-  "dayOfWeek": "Saturday",
-  "source": "Yahoo Finance, CNBC RSS, WSJ RSS, CoinDesk, OilCrudePrice",
+  "updated": "2026-05-03T21:30:00+08:00",
+  "date": "2026-05-03",
+  "dayOfWeek": "Sunday",
+  "source": "CNBC RSS, Bloomberg RSS, CoinDesk, CoinMarketCap, Investopedia",
   "us_markets": {
+    "note": "Last trading day (Friday May 1 close) – US markets closed Sunday",
     "sp500": {
       "value": 7230.12,
       "change": 21.11,
       "changePercent": 0.29,
-      "high": "Record close - S&P 500 and Nasdaq advanced to record closing highs on Friday"
+      "detail": "Record closing high, 5th straight weekly gain. Driven by tech stocks and robust earnings."
     },
     "dow": {
       "value": 49499.27,
@@ -18,14 +19,16 @@
     "nasdaq": {
       "value": 25114.44,
       "change": 222.13,
-      "changePercent": 0.89
+      "changePercent": 0.89,
+      "detail": "Surged on AI-related tech strength"
     }
   },
   "hk_markets": {
     "hsi": {
       "value": 25776.53,
       "change": -335.31,
-      "changePercent": -1.28
+      "changePercent": -1.28,
+      "note": "Last trading day (Friday)"
     }
   },
   "commodities": {
@@ -33,7 +36,12 @@
       "value": 101.94,
       "change": -3.13,
       "changePercent": -2.98,
-      "note": "Dropped ~$3 as Iran sent fresh proposal on negotiations"
+      "note": "OPEC+ announced 188k bpd output increase; US crude exports surge to record amid Iran war"
+    },
+    "brent_crude": {
+      "value": 105.40,
+      "changePercent": -2.5,
+      "note": "Estimated based on WTI spread"
     },
     "gold": {
       "value": 4644.5,
@@ -43,23 +51,24 @@
   },
   "crypto": {
     "bitcoin": {
-      "value": 78303.46,
-      "change": 124.46,
+      "value": 78406.82,
       "changePercent": 0.16,
-      "marketCap": "1.57T"
+      "marketCap": "1.57T",
+      "note": "BTC/ETH ratio ~33.83"
     },
     "ethereum": {
-      "value": 2306.54,
-      "change": 11.45,
-      "changePercent": 0.5
+      "value": 2328.07,
+      "changePercent": 0.5,
+      "note": "24h volume $2.99B"
     }
   },
   "news_highlights": [
-    "S&P 500 and Nasdaq advanced to record closing highs, boosted by robust earnings",
-    "Berkshire Hathaway annual meeting: Greg Abel takes the stage as new CEO in Omaha",
-    "Spirit Airlines shuts down after failing to reach a bailout deal",
-    "Crude oil drops ~$3 as Iran sends fresh proposal on negotiations",
-    "BlackRock highlights bonds with attractive yields that can insulate from AI disruption",
-    "Arabica coffee prices hit record on US and Colombia tariff spat"
-  ]
+    "S&P 500 and Nasdaq close at record highs – 5th straight weekly gain",
+    "Berkshire Hathaway annual meeting: Greg Abel takes over as CEO, rules out break-up, stresses continuity",
+    "Spirit Airlines shuts down after failing to reach bailout deal",
+    "OPEC+ announces 188k bpd output increase in first meeting without UAE; US crude exports surge to record",
+    "Big Tech earnings show widening split between AI trade winners and losers",
+    "Healthcare cost surge makes parental paid leave a target of workplace cuts"
+  ],
+  "economic_outlook": "US markets remain in rally mode led by AI tech. Oil volatile on OPEC+ supply increase and geopolitics (Iran). Gold continues climb as safe haven. BTC consolidates around $78k."
 }

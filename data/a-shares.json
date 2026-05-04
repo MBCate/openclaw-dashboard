@@ -1,112 +1,204 @@
 {
-  "date": "2026-05-01",
-  "updateTime": "2026-05-01 15:05",
-  "marketStatus": "closed",
-  "note": "五一劳动节休市（5/1-5/5），数据为4月30日收盘数据",
-  "indexes": {
+  "updated_at": "2026-05-04 11:41:07",
+  "market_time": "午盘",
+  "indices": {
     "上证指数": {
-      "code": "000001",
       "price": 4112.16,
-      "changePct": 0.11,
-      "changeAmount": 4.65,
-      "open": 4107.3,
-      "preClose": 4107.51,
+      "change_pct": 0.11,
       "high": 4118.76,
       "low": 4100.97,
-      "date": "2026-04-30"
+      "volume": 656912728,
+      "amount": 1276194739058.0
     },
     "深证成指": {
-      "code": "399001",
       "price": 15107.55,
-      "changePct": -0.09,
-      "changeAmount": -13.37,
-      "open": 15157.07,
-      "preClose": 15120.92,
+      "change_pct": -0.09,
       "high": 15186.12,
-      "low": 15044.86,
-      "date": "2026-04-30"
+      "low": 15044.85,
+      "volume": 73770374281,
+      "amount": 1464716733139.0
     },
     "创业板指": {
-      "code": "399006",
       "price": 3677.15,
-      "changePct": -0.27,
-      "changeAmount": -10.02,
-      "open": 3704.11,
-      "preClose": 3687.17,
+      "change_pct": -0.27,
       "high": 3718.4,
       "low": 3660.22,
-      "date": "2026-04-30"
+      "volume": 20180814133,
+      "amount": 638060867618.0
     },
     "沪深300": {
-      "code": "000300",
       "price": 4807.31,
-      "changePct": -0.06,
-      "changeAmount": -3.04,
-      "open": 4820.97,
-      "preClose": 4810.35,
+      "change_pct": -0.06,
       "high": 4829.27,
       "low": 4797.54,
-      "date": "2026-04-30"
+      "volume": 250633370,
+      "amount": 726665374516.0
+    },
+    "上证50": {
+      "price": 2985.5,
+      "change_pct": 0.61,
+      "high": 2989.05,
+      "low": 2971.29,
+      "volume": 62185756,
+      "amount": 215537994304.0
+    },
+    "科创50": {
+      "price": 1571.07,
+      "change_pct": 5.19,
+      "high": 1580.52,
+      "low": 1511.39,
+      "volume": 15109612,
+      "amount": 143368848802.0
+    },
+    "中证500": {
+      "price": 8349.51,
+      "change_pct": 0.09,
+      "high": 8375.19,
+      "low": 8300.5,
+      "volume": 247554652,
+      "amount": 535036483481.0
+    },
+    "中证1000": {
+      "price": 8381.95,
+      "change_pct": 0.47,
+      "high": 8402.36,
+      "low": 8324.29,
+      "volume": 299115110,
+      "amount": 595981862152.0
     }
   },
-  "northFlow": {
-    "note": "五一假期暂无实时数据",
-    "沪股通": "-",
-    "深股通": "-",
-    "合计": "-",
-    "date": "2026-04-30"
-  },
-  "sectors": {
-    "gainers": [
-      {
-        "name": "燃料电池",
-        "changePct": 9.46
-      },
-      {
-        "name": "集成电路制造",
-        "changePct": 6.56
-      },
-      {
-        "name": "体育Ⅲ",
-        "changePct": 6.43
-      },
-      {
-        "name": "图片媒体",
-        "changePct": 5.21
-      },
-      {
-        "name": "汽车金融",
-        "changePct": 4.57
-      }
-    ],
-    "losers": [
-      {
-        "name": "蓄电池及其他电池",
-        "changePct": -5.45
-      },
-      {
-        "name": "玻纤制造",
-        "changePct": -3.22
-      },
-      {
-        "name": "房地产综合服务",
-        "changePct": -2.83
-      },
-      {
-        "name": "餐饮",
-        "changePct": -2.56
-      },
-      {
-        "name": "光伏发电",
-        "changePct": -2.56
-      }
-    ]
-  },
-  "marketBreadth": {
-    "note": "基于4月30日数据",
-    "rising": "-",
-    "falling": "-",
-    "flat": "-"
-  },
-  "timestamp": "2026-05-01T15:05:00+08:00"
+  "industry_top": [
+    {
+      "name": "燃料电池",
+      "change_pct": 9.46
+    },
+    {
+      "name": "集成电路制造",
+      "change_pct": 6.56
+    },
+    {
+      "name": "体育Ⅲ",
+      "change_pct": 6.43
+    },
+    {
+      "name": "体育Ⅱ",
+      "change_pct": 6.43
+    },
+    {
+      "name": "图片媒体",
+      "change_pct": 5.21
+    },
+    {
+      "name": "锂",
+      "change_pct": 5.13
+    },
+    {
+      "name": "模拟芯片设计",
+      "change_pct": 4.63
+    },
+    {
+      "name": "能源金属",
+      "change_pct": 3.8
+    }
+  ],
+  "industry_bottom": [
+    {
+      "name": "蓄电池及其他电池",
+      "change_pct": -5.45
+    },
+    {
+      "name": "玻纤制造",
+      "change_pct": -3.22
+    },
+    {
+      "name": "房地产综合服务",
+      "change_pct": -2.83
+    },
+    {
+      "name": "光伏发电",
+      "change_pct": -2.56
+    },
+    {
+      "name": "餐饮",
+      "change_pct": -2.56
+    },
+    {
+      "name": "其他饰品",
+      "change_pct": -2.5
+    },
+    {
+      "name": "氮肥",
+      "change_pct": -2.44
+    },
+    {
+      "name": "火力发电",
+      "change_pct": -2.37
+    }
+  ],
+  "concept_top": [
+    {
+      "name": "先进封装",
+      "change_pct": 3.82
+    },
+    {
+      "name": "2026—季报扭亏",
+      "change_pct": 3.52
+    },
+    {
+      "name": "PLC概念",
+      "change_pct": 3.41
+    },
+    {
+      "name": "彩票概念",
+      "change_pct": 3.35
+    },
+    {
+      "name": "汽车芯片",
+      "change_pct": 3.0
+    }
+  ],
+  "concept_bottom": [
+    {
+      "name": "电子纸概念",
+      "change_pct": -3.1
+    },
+    {
+      "name": "国资云概念",
+      "change_pct": -2.45
+    },
+    {
+      "name": "超跌股",
+      "change_pct": -2.23
+    },
+    {
+      "name": "举牌",
+      "change_pct": -2.14
+    },
+    {
+      "name": "氦气概念",
+      "change_pct": -1.82
+    }
+  ],
+  "fund_flow": {
+    "沪股通": {
+      "net_buy": 0.0,
+      "direction": "北向",
+      "index_change": 0.11
+    },
+    "港股通(沪)": {
+      "net_buy": 101.34,
+      "direction": "南向",
+      "index_change": 1.77
+    },
+    "深股通": {
+      "net_buy": 0.0,
+      "direction": "北向",
+      "index_change": -0.09
+    },
+    "港股通(深)": {
+      "net_buy": 20.58,
+      "direction": "南向",
+      "index_change": 1.77
+    }
+  }
 }

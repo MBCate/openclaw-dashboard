@@ -1,8 +1,8 @@
 {
-  "updated": "2026-05-03T21:30:00+08:00",
-  "date": "2026-05-03",
-  "dayOfWeek": "Sunday",
-  "source": "CNBC RSS, Bloomberg RSS, CoinDesk, CoinMarketCap, Investopedia",
+  "updated": "2026-05-04T09:18:37+08:00",
+  "date": "2026-05-04",
+  "dayOfWeek": "Monday",
+  "source": "CNBC RSS, MarketWatch RSS, AkShare, EastMoney",
   "us_markets": {
     "note": "Last trading day (Friday May 1 close) – US markets closed Sunday",
     "sp500": {
@@ -39,7 +39,7 @@
       "note": "OPEC+ announced 188k bpd output increase; US crude exports surge to record amid Iran war"
     },
     "brent_crude": {
-      "value": 105.40,
+      "value": 105.4,
       "changePercent": -2.5,
       "note": "Estimated based on WTI spread"
     },
@@ -63,12 +63,50 @@
     }
   },
   "news_highlights": [
+    "Trump says US will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure",
+    "Oil prices volatile as Trump plans to partially reopen Strait of Hormuz",
+    "Berkshire annual meeting: Buffett says investing environment not ideal, sees 'gambling' in markets",
     "S&P 500 and Nasdaq close at record highs – 5th straight weekly gain",
-    "Berkshire Hathaway annual meeting: Greg Abel takes over as CEO, rules out break-up, stresses continuity",
-    "Spirit Airlines shuts down after failing to reach bailout deal",
-    "OPEC+ announces 188k bpd output increase in first meeting without UAE; US crude exports surge to record",
-    "Big Tech earnings show widening split between AI trade winners and losers",
-    "Healthcare cost surge makes parental paid leave a target of workplace cuts"
+    "US stock futures little changed on Monday as market watches Iran developments",
+    "A-share sector: Fuel cell surging +9.46%, battery sector weak -5.45%"
   ],
-  "economic_outlook": "US markets remain in rally mode led by AI tech. Oil volatile on OPEC+ supply increase and geopolitics (Iran). Gold continues climb as safe haven. BTC consolidates around $78k."
+  "economic_outlook": "Pre-market Monday: Focus on Hormuz Strait reopening news and oil price volatility. China A-shares open mixed (SH +0.11%, CSI300 -0.06%), with fuel cell sector surging. US futures flat after record-high close last week. BTC ~$78.4k, gold $4,644.",
+  "overnight_update": {
+    "time": "2026-05-04 09:15 CST",
+    "note": "Pre-market Monday – US futures little changed",
+    "futures": "US stock futures flat as market watches Iran/Hormuz developments"
+  },
+  "china_markets": {
+    "shanghai_composite": {
+      "value": 4112.16,
+      "changePercent": 0.11,
+      "time": "2026-05-04 09:15 CST",
+      "note": "Opening tick – slight green"
+    },
+    "shenzhen_component": {
+      "value": 15107.55,
+      "changePercent": -0.09,
+      "note": "Friday Apr 30 close (full-day data, market now open)"
+    },
+    "chi_next": {
+      "value": 3677.15,
+      "changePercent": -0.27,
+      "note": "Friday Apr 30 close"
+    },
+    "csi300": {
+      "value": 4807.31,
+      "changePercent": -0.06,
+      "time": "2026-05-04 09:15 CST"
+    },
+    "sector_leaders": [
+      "燃料电池 +9.46%",
+      "集成电路制造 +6.56%",
+      "体育 +6.43%"
+    ],
+    "sector_laggards": [
+      "蓄电池及其他电池 -5.45%",
+      "玻纤制造 -3.22%",
+      "房地产综合服务 -2.83%"
+    ]
+  }
 }

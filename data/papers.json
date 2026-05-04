@@ -1,13 +1,38 @@
 {
-  "total_papers": 17,
-  "new_finds": 12,
-  "last_updated": "2026-05-04",
+  "total_papers": 32,
+  "new_finds": 19,
+  "last_updated": "2026-05-05",
   "weekly_top5": [
-    "2604.28196",
-    "2604.28111",
-    "2604.25329",
-    "2604.22240",
-    "2604.19710"
+    {
+      "arxiv_id": "2604.28196",
+      "title": "HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation",
+      "score": 5,
+      "reason": "..."
+    },
+    {
+      "arxiv_id": "2604.28111",
+      "title": "GSDrive: Reinforcing Driving Policies by Multi-mode Trajectory Probing with 3D Gaussian Splatting Environment",
+      "score": 5,
+      "reason": "..."
+    },
+    {
+      "arxiv_id": "2604.25329",
+      "title": "ProDrive: Proactive Planning for Autonomous Driving via Ego-Environment Co-Evolution",
+      "score": 5,
+      "reason": "..."
+    },
+    {
+      "arxiv_id": "2604.23362",
+      "title": "UniAda: Universal Adaptive Multi-objective Adversarial Attack for End-to-End Autonomous Driving Systems",
+      "score": 5,
+      "reason": "..."
+    },
+    {
+      "arxiv_id": "2604.21249",
+      "title": "Reasoning About Traversability: Language-Guided Off-Road 3D Trajectory Planning",
+      "score": 5,
+      "reason": "..."
+    }
   ],
   "papers": [
     {
@@ -519,6 +544,69 @@
       ],
       "source": "arxiv",
       "date_added": "2026-05-04"
+    },
+    {
+      "arxiv_id": "2605.00066",
+      "title": "Do Open-Loop Metrics Predict Closed-Loop Driving? A Cross-Benchmark Correlation Study of NAVSIM and Bench2Drive",
+      "score": 4,
+      "status": "新发现",
+      "category": "end-to-end autonomous driving",
+      "authors": "Yiru Wang, Anqing Jiang, Shuo Wang, Yuwen Heng, Hai Yang, Yang Chen, Hao Sun",
+      "relevance": "NAVSIM与Bench2Drive跨benchmark相关性研究，验证开环指标对闭环驾驶性能的预测能力，对端到端规划评估方法论有重要意义"
+    },
+    {
+      "arxiv_id": "2605.00078",
+      "title": "Being-H0.7: A Latent World-Action Model from Egocentric Videos",
+      "score": 5,
+      "status": "新发现",
+      "category": "world-models-ad",
+      "authors": "Hao Luo, Wanpeng Zhang, Yicheng Feng, Sipeng Zheng, Haiweng Xu, Chaoyi Xu, Ziheng Xi, Yuhui Shi et al.",
+      "relevance": "Latent world-action model从第一视角视频学习动力学和任务进度表征，解决VLA shortcut mapping问题，构建世界-动作联合模型"
+    },
+    {
+      "arxiv_id": "2605.00080",
+      "title": "World Model for Robot Learning: A Comprehensive Survey",
+      "score": 4,
+      "status": "新发现",
+      "category": "world-models-ad",
+      "authors": "Bohan Hou, Gen Li, Jindou Jia, Tuo An, Xinying Guo, Sicong Leng, Haoran Geng, Yanjie Ze, Tat et al.",
+      "relevance": "世界模型在机器人学习中的全面综述，覆盖策略学习、规划、仿真、评估、数据生成，与自动驾驶世界模型高相关性"
+    },
+    {
+      "arxiv_id": "2605.00291",
+      "title": "An End-to-End Decision-Aware Multi-Scale Attention-Based Model for Explainable Autonomous Driving",
+      "score": 3,
+      "status": "新发现",
+      "category": "end-to-end autonomous driving",
+      "authors": "Maryam Sadat Hosseini Azad, Shahriar Baradaran Shokouhi, Amir Abbas Hamidi Imani, Shahin Atashi",
+      "relevance": "决策感知多尺度注意力可解释自动驾驶模型，涉及可解释性但在方法创新上较为常规"
+    },
+    {
+      "arxiv_id": "2605.00412",
+      "title": "Physically Native World Models: A Hamiltonian Perspective on Generative World Modeling",
+      "score": 5,
+      "status": "新发现",
+      "category": "world-models-ad",
+      "authors": "Sen Cui, Jingheng Ma",
+      "relevance": "哈密顿力学视角的世界模型，将物理约束整合到生成式世界建模中，对自动驾驶物理一致性世界模型有重要启发"
+    },
+    {
+      "arxiv_id": "2605.00556",
+      "title": "Linking Behaviour and Perception to Evaluate Meaningful Human Control over Partially Automated Driving",
+      "score": 3,
+      "status": "新发现",
+      "category": "end-to-end autonomous driving",
+      "authors": "Ashwin George, Lucas Elbert Suryana, Lorenzo Flipse, Bart van Arem, David A. Abbink, Simeon C. Calvert et al.",
+      "relevance": "部分自动驾驶中人类有意义控制(MHC)的行为感知评估，人机交互角度"
+    },
+    {
+      "arxiv_id": "2605.00050",
+      "title": "Learning physically grounded traffic accident reconstruction from public accident reports",
+      "score": 3,
+      "status": "新发现",
+      "category": "world-models-ad",
+      "authors": "Yanchen Guan, Haicheng Liao, Chengyue Wang, Zhenning Li",
+      "relevance": "从公开事故报告学习物理层面的交通事故重建，多模态参数学习方法"
     }
   ]
 }

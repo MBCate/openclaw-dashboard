@@ -1,69 +1,23 @@
 {
-  "date": "2026-05-01",
-  "timestamp": "2026-05-01T15:05:00+08:00",
-  "marketStatus": "closed",
-  "note": "【第18周周报】五一假期休市，策略引擎未运行（自2026-01-04起无活跃数据）",
-  "strategies": [
-    {
-      "name": "DoubleMa",
-      "status": "inactive",
-      "lastActive": "2026-01-04",
-      "pair": "BTC/USDT",
-      "signal": "-"
-    },
-    {
-      "name": "TripleMa",
-      "status": "inactive",
-      "lastActive": "2026-01-04",
-      "pair": "BTC/USDT",
-      "signal": "-"
-    },
-    {
-      "name": "Supertrend",
-      "status": "inactive",
-      "lastActive": "2026-01-04",
-      "pair": "BTC/USDT",
-      "signal": "-"
-    },
-    {
-      "name": "RSI",
-      "status": "inactive",
-      "lastActive": "2026-01-04",
-      "pair": "BTC/USDT",
-      "signal": "-"
-    },
-    {
-      "name": "MACD",
-      "status": "inactive",
-      "lastActive": "2026-01-04",
-      "pair": "BTC/USDT",
-      "signal": "-"
-    },
-    {
-      "name": "Bollinger",
-      "status": "inactive",
-      "lastActive": "2026-01-04",
-      "pair": "BTC/USDT",
-      "signal": "-"
-    },
-    {
-      "name": "Momentum",
-      "status": "inactive",
-      "lastActive": "2026-01-04",
-      "pair": "BTC/USDT",
-      "signal": "-"
-    },
-    {
-      "name": "MeanReversion",
-      "status": "inactive",
-      "lastActive": "2026-01-04",
-      "pair": "BTC/USDT",
-      "signal": "-"
-    }
+  "date": "2026-04-30",
+  "update_time": "2026-04-30 15:00",
+  "status": "no_recent_data",
+  "last_report": "2026-01-04.md",
+  "strategies": [],
+  "available_data": [
+    "stock",
+    "backtest_result.png",
+    "crypto",
+    "supertrend_result.png",
+    "optimization_heatmap.png",
+    "optimization_results.csv",
+    "daily_raw.json",
+    "futures"
   ],
-  "summary": {
-    "active_count": 0,
-    "total_count": 8,
-    "alerts": []
-  }
+  "available_strategies": [
+    "crypto/double_ma_optimize",
+    "crypto/double_ma_backtest",
+    "crypto/double_ma_strategy",
+    "crypto/supertrend_strategy"
+  ]
 }

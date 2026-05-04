@@ -1,112 +1,127 @@
 {
-  "updated": "2026-05-04T09:18:37+08:00",
-  "date": "2026-05-04",
-  "dayOfWeek": "Monday",
-  "source": "CNBC RSS, MarketWatch RSS, AkShare, EastMoney",
-  "us_markets": {
-    "note": "Last trading day (Friday May 1 close) – US markets closed Sunday",
-    "sp500": {
-      "value": 7230.12,
-      "change": 21.11,
-      "changePercent": 0.29,
-      "detail": "Record closing high, 5th straight weekly gain. Driven by tech stocks and robust earnings."
-    },
-    "dow": {
-      "value": 49499.27,
-      "change": -152.87,
-      "changePercent": -0.31
-    },
-    "nasdaq": {
-      "value": 25114.44,
-      "change": 222.13,
-      "changePercent": 0.89,
-      "detail": "Surged on AI-related tech strength"
-    }
+  "meta": {
+    "updated": "2026-05-04T21:31:13+08:00",
+    "type": "evening-international",
+    "source": "RSS + web_search"
   },
-  "hk_markets": {
-    "hsi": {
-      "value": 25776.53,
-      "change": -335.31,
-      "changePercent": -1.28,
-      "note": "Last trading day (Friday)"
-    }
-  },
-  "commodities": {
-    "wti_crude": {
-      "value": 101.94,
-      "change": -3.13,
-      "changePercent": -2.98,
-      "note": "OPEC+ announced 188k bpd output increase; US crude exports surge to record amid Iran war"
+  "indices": {
+    "us": {
+      "s&p_500": {
+        "close": 7230.12,
+        "change": "+0.3%",
+        "note": "2026-05-01 close (Fri). Today futures -0.1~0.2% amid Iran tensions"
+      },
+      "nasdaq": {
+        "close": 25114.44,
+        "change": "+0.9%",
+        "note": "Record high Fri; futures flat today"
+      },
+      "dow": {
+        "close": 49499.27,
+        "change": "-0.3%",
+        "note": "-152pts Fri, futures -0.4% premarket"
+      },
+      "russell_2000": {
+        "close": 2812.82,
+        "change": "+0.5%"
+      }
     },
-    "brent_crude": {
-      "value": 105.4,
-      "changePercent": -2.5,
-      "note": "Estimated based on WTI spread"
+    "hk": {
+      "hsi": {
+        "close": 26095.88,
+        "change": "+1.24%",
+        "note": "May 4 close, +319pts"
+      }
     },
-    "gold": {
-      "value": 4644.5,
-      "change": 29.8,
-      "changePercent": 0.65
+    "europe": {
+      "note": "Markets expected higher open on May 4. AI sentiment positive."
     }
   },
   "crypto": {
     "bitcoin": {
-      "value": 78406.82,
-      "changePercent": 0.16,
-      "marketCap": "1.57T",
-      "note": "BTC/ETH ratio ~33.83"
+      "price": 79902,
+      "change_24h": "+0.83%",
+      "note": "BTC broke above 0K briefly, highest since Jan"
     },
     "ethereum": {
-      "value": 2328.07,
-      "changePercent": 0.5,
-      "note": "24h volume $2.99B"
+      "price": 2300,
+      "note": "Reclaimed 300 handle"
+    },
+    "context": "BTC up 15.66% over 30 days from 7,389. Yearly still -18.9% from 5K. Fear & Greed Index at 26."
+  },
+  "commodities": {
+    "oil": "Spiked on Iran-Hormuz tensions. Iran claimed strike on US warship (denied by Pentagon). Strait blocked since late Feb.",
+    "gold": "Supported by geopolitical uncertainty",
+    "note": "Iran war continues to drive energy price shocks"
+  },
+  "geopolitics": {
+    "iran_hormuz": "Iran blocked Strait of Hormuz since late Feb. Iran claimed striking US warship May 4 (US denied). Trump announced Hormuz plan but shipping remains at near-standstill.",
+    "ecb": "ECB rate hike in June all but inevitable per Kazimir, due to Iran war inflation",
+    "trade": "EU-Mercosur deal could hurt Canada beef. EU Made in Europe law sets up economic showdown with China.",
+    "austria_russia": "Austria expelled 3 Russian diplomats over signals spying"
+  },
+  "headlines": [
+    {
+      "source": "CNBC",
+      "title": "Dow futures drop 150 pts as oil spikes on increased Iran tensions",
+      "sentiment": "negative"
+    },
+    {
+      "source": "CNBC",
+      "title": "US military denies Iran claim it struck warship in Strait of Hormuz",
+      "sentiment": "negative"
+    },
+    {
+      "source": "CNBC",
+      "title": "eBay soars as Ryan Cohen/GameStop makes 5.5B takeover bid",
+      "sentiment": "positive"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Bitcoin busted through 0K for first time since January",
+      "sentiment": "positive"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Market pricing in stagflation — Citi analysts",
+      "sentiment": "negative"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "World's super-rich boost conflict-economy bets amid Iran war",
+      "sentiment": "neutral"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "ECB rate hike in June all but inevitable — Kazimir",
+      "sentiment": "negative"
+    },
+    {
+      "source": "FT",
+      "title": "Iran warns US Navy against entering Strait of Hormuz",
+      "sentiment": "negative"
+    },
+    {
+      "source": "AP",
+      "title": "S&P 500 +0.5% Fri to new record; Nasdaq +0.9% to record; Dow -0.3%",
+      "sentiment": "mixed"
+    },
+    {
+      "source": "SCMP",
+      "title": "Wall St dips, oil rises on reports of strike on US Navy vessel near Iran",
+      "sentiment": "negative"
     }
-  },
-  "news_highlights": [
-    "Trump says US will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure",
-    "Oil prices volatile as Trump plans to partially reopen Strait of Hormuz",
-    "Berkshire annual meeting: Buffett says investing environment not ideal, sees 'gambling' in markets",
-    "S&P 500 and Nasdaq close at record highs – 5th straight weekly gain",
-    "US stock futures little changed on Monday as market watches Iran developments",
-    "A-share sector: Fuel cell surging +9.46%, battery sector weak -5.45%"
   ],
-  "economic_outlook": "Pre-market Monday: Focus on Hormuz Strait reopening news and oil price volatility. China A-shares open mixed (SH +0.11%, CSI300 -0.06%), with fuel cell sector surging. US futures flat after record-high close last week. BTC ~$78.4k, gold $4,644.",
-  "overnight_update": {
-    "time": "2026-05-04 09:15 CST",
-    "note": "Pre-market Monday – US futures little changed",
-    "futures": "US stock futures flat as market watches Iran/Hormuz developments"
-  },
-  "china_markets": {
-    "shanghai_composite": {
-      "value": 4112.16,
-      "changePercent": 0.11,
-      "time": "2026-05-04 09:15 CST",
-      "note": "Opening tick – slight green"
-    },
-    "shenzhen_component": {
-      "value": 15107.55,
-      "changePercent": -0.09,
-      "note": "Friday Apr 30 close (full-day data, market now open)"
-    },
-    "chi_next": {
-      "value": 3677.15,
-      "changePercent": -0.27,
-      "note": "Friday Apr 30 close"
-    },
-    "csi300": {
-      "value": 4807.31,
-      "changePercent": -0.06,
-      "time": "2026-05-04 09:15 CST"
-    },
-    "sector_leaders": [
-      "燃料电池 +9.46%",
-      "集成电路制造 +6.56%",
-      "体育 +6.43%"
-    ],
-    "sector_laggards": [
-      "蓄电池及其他电池 -5.45%",
-      "玻纤制造 -3.22%",
-      "房地产综合服务 -2.83%"
-    ]
+  "weekly_summary": {
+    "s&p_500_weekly": "+0.9%",
+    "nasdaq_weekly": "+1.1%",
+    "dow_weekly": "+0.5%",
+    "russell_2000_weekly": "+0.9%",
+    "ytd": {
+      "s&p_500": "+5.6%",
+      "nasdaq": "+8.1%",
+      "dow": "+3.0%",
+      "russell_2000": "+13.3%"
+    }
   }
 }

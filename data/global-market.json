@@ -1,127 +1,170 @@
 {
   "meta": {
-    "updated": "2026-05-04T21:31:13+08:00",
-    "type": "evening-international",
-    "source": "RSS + web_search"
+    "updated": "2026-05-05T09:15:00+08:00",
+    "type": "morning-preview",
+    "source": "RSS + AkShare + web_fetch"
   },
-  "indices": {
-    "us": {
+  "overnight_markets_us": {
+    "monday_close_may4": {
       "s&p_500": {
-        "close": 7230.12,
-        "change": "+0.3%",
-        "note": "2026-05-01 close (Fri). Today futures -0.1~0.2% amid Iran tensions"
+        "close": 7198.45,
+        "change": "-0.41%",
+        "note": "Dow 557pts drop as Iran attacked UAE, ceasefire unraveling"
       },
       "nasdaq": {
-        "close": 25114.44,
-        "change": "+0.9%",
-        "note": "Record high Fri; futures flat today"
+        "close": 25066.25,
+        "change": "-0.19%",
+        "note": "Tech relatively resilient"
       },
       "dow": {
-        "close": 49499.27,
-        "change": "-0.3%",
-        "note": "-152pts Fri, futures -0.4% premarket"
-      },
-      "russell_2000": {
-        "close": 2812.82,
-        "change": "+0.5%"
+        "close": 48942.27,
+        "change": "-1.13%",
+        "note": "-557pts, worst since Liberation Day tariffs"
       }
     },
-    "hk": {
-      "hsi": {
-        "close": 26095.88,
-        "change": "+1.24%",
-        "note": "May 4 close, +319pts"
-      }
+    "futures_premarket": {
+      "s&p_500_futures": "near flatline",
+      "nasdaq_100_futures": "-0.1%",
+      "dow_futures": "+14pts",
+      "note": "Little changed after Monday sell-off. Oil retreating from highs."
+    }
+  },
+  "asia_premarket": {
+    "shanghai": {
+      "value": 4112.16,
+      "change": "+0.11%",
+      "note": "Pre-market, A-shares opening soon (9:30)"
     },
-    "europe": {
-      "note": "Markets expected higher open on May 4. AI sentiment positive."
+    "shenzhen_component": {
+      "note": "Data not matched - check code mapping"
+    },
+    "csi_300": {
+      "value": 4807.31,
+      "change": "-0.06%"
+    },
+    "csi_500": {
+      "value": 8349.51,
+      "change": "+0.08%"
+    },
+    "star_50": {
+      "value": 1571.07,
+      "change": "+5.19%",
+      "note": "STS 50 surging on AI/semiconductor momentum"
+    },
+    "sse_50": {
+      "value": 2985.50,
+      "change": "+0.61%"
+    },
+    "hsi": {
+      "close": 26095.88,
+      "change": "+1.24%",
+      "note": "May 4 close, but overnight risk-off may pressure today"
+    }
+  },
+  "commodities": {
+    "wti_crude": {
+      "price": 105.06,
+      "change": "-1.35%",
+      "note": "Retreating from Monday's +4% spike after Iran attacked UAE"
+    },
+    "brent_crude": {
+      "price": 113.77,
+      "change": "-0.60%"
+    },
+    "shanghai_crude": {
+      "price": 689.0,
+      "change": "+0.00%",
+      "note": "Night session flat at 689 CNY/barrel"
+    },
+    "shanghai_gold": {
+      "price": 1016.12,
+      "change": "-0.00%",
+      "note": "Gold elevated on geopolitical risk"
     }
   },
   "crypto": {
     "bitcoin": {
       "price": 79902,
       "change_24h": "+0.83%",
-      "note": "BTC broke above 0K briefly, highest since Jan"
+      "note": "Risk-off didn't hit crypto Monday. BTC above 80K briefly."
     },
     "ethereum": {
       "price": 2300,
-      "note": "Reclaimed 300 handle"
+      "note": "Steady amid macro uncertainty"
     },
-    "context": "BTC up 15.66% over 30 days from 7,389. Yearly still -18.9% from 5K. Fear & Greed Index at 26."
-  },
-  "commodities": {
-    "oil": "Spiked on Iran-Hormuz tensions. Iran claimed strike on US warship (denied by Pentagon). Strait blocked since late Feb.",
-    "gold": "Supported by geopolitical uncertainty",
-    "note": "Iran war continues to drive energy price shocks"
+    "context": "BTC up 15.66% over 30 days. Fear & Greed Index ~26."
   },
   "geopolitics": {
-    "iran_hormuz": "Iran blocked Strait of Hormuz since late Feb. Iran claimed striking US warship May 4 (US denied). Trump announced Hormuz plan but shipping remains at near-standstill.",
-    "ecb": "ECB rate hike in June all but inevitable per Kazimir, due to Iran war inflation",
-    "trade": "EU-Mercosur deal could hurt Canada beef. EU Made in Europe law sets up economic showdown with China.",
-    "austria_russia": "Austria expelled 3 Russian diplomats over signals spying"
+    "iran_hormuz": "⚠️ CRITICAL: Iran launched drones/missiles at UAE Mon, ceasefire unraveling. US sunk Iranian boats in Hormuz. Trump threatens Iran be 'blown off face of earth'. Oil spiked then retreated slightly. Brent ~$114, WTI ~$105.",
+    "gameStop_ebay": "GameStop makes record $55.5B takevoer bid for eBay. eBay surged Monday.",
+    "palantir": "Palantir earnings beat, fastest revenue growth ever. Calls out 'AI slop'.",
+    "tesla_fsd": "Tesla hit 'symbolic' self-driving milestone but real-world success uncertain.",
+    "ecb": "ECB rate hike in June all but inevitable - Kazimir. Iran war driving inflation."
   },
   "headlines": [
     {
       "source": "CNBC",
-      "title": "Dow futures drop 150 pts as oil spikes on increased Iran tensions",
-      "sentiment": "negative"
+      "title": "Iran attacks UAE; U.S. says it sank boats in Strait of Hormuz",
+      "sentiment": "negative",
+      "time": "2026-05-04"
     },
     {
       "source": "CNBC",
-      "title": "US military denies Iran claim it struck warship in Strait of Hormuz",
-      "sentiment": "negative"
+      "title": "Stock futures little changed after Monday sell-off - Middle East in focus",
+      "sentiment": "neutral",
+      "time": "2026-05-04"
     },
     {
       "source": "CNBC",
-      "title": "eBay soars as Ryan Cohen/GameStop makes 5.5B takeover bid",
-      "sentiment": "positive"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Bitcoin busted through 0K for first time since January",
-      "sentiment": "positive"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Market pricing in stagflation — Citi analysts",
-      "sentiment": "negative"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "World's super-rich boost conflict-economy bets amid Iran war",
-      "sentiment": "neutral"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "ECB rate hike in June all but inevitable — Kazimir",
-      "sentiment": "negative"
+      "title": "Oil slides to $105 WTI as traders assess Middle East developments",
+      "sentiment": "neutral",
+      "time": "2026-05-05"
     },
     {
       "source": "FT",
-      "title": "Iran warns US Navy against entering Strait of Hormuz",
-      "sentiment": "negative"
+      "title": "US and Iran exchange fire as Hormuz crisis reignites - Oil jumps to $115",
+      "sentiment": "negative",
+      "time": "2026-05-04"
     },
     {
-      "source": "AP",
-      "title": "S&P 500 +0.5% Fri to new record; Nasdaq +0.9% to record; Dow -0.3%",
-      "sentiment": "mixed"
+      "source": "FT",
+      "title": "The oil price crunch is looming - Strait blockade risks crisis adjustment",
+      "sentiment": "negative",
+      "time": "2026-05-04"
     },
     {
-      "source": "SCMP",
-      "title": "Wall St dips, oil rises on reports of strike on US Navy vessel near Iran",
-      "sentiment": "negative"
+      "source": "BBC",
+      "title": "GameStop makes $55.5bn takeover offer for eBay",
+      "sentiment": "positive",
+      "time": "2026-05-04"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Palantir posts fastest revenue growth ever, calls out 'AI slop'",
+      "sentiment": "positive",
+      "time": "2026-05-05"
+    },
+    {
+      "source": "BBC",
+      "title": "Samsung family pays off record $8bn inheritance tax bill",
+      "sentiment": "neutral",
+      "time": "2026-05-04"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Tesla reached symbolic self-driving milestone; real-world harder",
+      "sentiment": "neutral",
+      "time": "2026-05-04"
+    },
+    {
+      "source": "CNBC",
+      "title": "Morgan Stanley: Market treating geopolitics as 'pop-up ads' along AI/economy narrative",
+      "sentiment": "positive",
+      "time": "2026-05-04"
     }
   ],
-  "weekly_summary": {
-    "s&p_500_weekly": "+0.9%",
-    "nasdaq_weekly": "+1.1%",
-    "dow_weekly": "+0.5%",
-    "russell_2000_weekly": "+0.9%",
-    "ytd": {
-      "s&p_500": "+5.6%",
-      "nasdaq": "+8.1%",
-      "dow": "+3.0%",
-      "russell_2000": "+13.3%"
-    }
+  "asia_watch": {
+    "a_share_opening": "A-shares opening at 9:30. Overnight US sell-off + Iran escalation weigh, but MS sees resilient narrative. STS 50 surging pre-market +5.19%.",
+    "hk_watch": "HSI +1.24% yesterday but Iran escalation + US sell-off likely pressure today."
   }
 }

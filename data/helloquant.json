@@ -1,23 +1,86 @@
 {
-  "date": "2026-04-30",
-  "update_time": "2026-04-30 15:00",
-  "status": "no_recent_data",
-  "last_report": "2026-01-04.md",
-  "strategies": [],
-  "available_data": [
-    "stock",
-    "backtest_result.png",
-    "crypto",
-    "supertrend_result.png",
-    "optimization_heatmap.png",
-    "optimization_results.csv",
-    "daily_raw.json",
-    "futures"
-  ],
-  "available_strategies": [
-    "crypto/double_ma_optimize",
-    "crypto/double_ma_backtest",
-    "crypto/double_ma_strategy",
-    "crypto/supertrend_strategy"
-  ]
+  "time": "2026-05-05 15:05",
+  "date": "2026-05-05",
+  "strategy_signals": {
+    "DoubleMa": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 80949.8
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 80949.8
+      }
+    },
+    "RSI": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 80949.8
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 80949.8
+      }
+    },
+    "MACD": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 80949.8
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 80949.8
+      }
+    },
+    "Bollinger": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 80949.8
+      },
+      "4h": {
+        "signal": "做空",
+        "current_price": 80949.8
+      }
+    },
+    "Supertrend": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 80949.8
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 80949.8
+      }
+    },
+    "TripleMa": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 80949.8
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 80949.8
+      }
+    },
+    "Momentum": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 80949.8
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 80949.8
+      }
+    },
+    "MeanReversion": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 80949.8
+      },
+      "4h": {
+        "signal": "做空",
+        "current_price": 80949.8
+      }
+    }
+  }
 }

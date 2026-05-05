@@ -1,124 +1,143 @@
 {
+  "time": "2026-05-05 15:05",
   "date": "2026-05-05",
-  "update_time": "2026-05-05 11:30",
-  "market_type": "午盘",
   "indices": {
     "上证指数": {
-      "price": 4112.16,
-      "change_pct": 0.11,
-      "change": 4.65,
-      "volume": 656912728,
-      "amount": 1276194739057.5,
-      "open": 4107.3,
-      "high": 4118.76,
-      "low": 4100.97,
-      "pre_close": 4107.51
-    },
-    "沪深300": {
-      "price": 4807.31,
-      "change_pct": -0.06,
-      "change": -3.04,
-      "volume": 250633370,
-      "amount": 726665374516.3,
-      "pre_close": 4810.35
-    },
-    "上证50": {
-      "price": 2985.5,
-      "change_pct": 0.61,
-      "change": 18.0,
-      "volume": 62185756,
-      "amount": 215537994304.0,
-      "pre_close": 2967.5
-    },
-    "科创50": {
-      "price": 1571.07,
-      "change_pct": 5.19,
-      "change": 77.57,
-      "volume": 15109612,
-      "amount": 143368848802.0,
-      "pre_close": 1493.5
+      "price": 4112.1593,
+      "change_pct": 0.113,
+      "change": 4.645,
+      "volume": 656912728.0,
+      "amount": 1276194739058.0,
+      "high": 4118.7552,
+      "low": 4100.9656,
+      "open": 4107.2974,
+      "prev_close": 4107.5144
     },
     "深证成指": {
-      "price": 15107.55,
-      "change_pct": -0.09,
+      "price": 15107.553,
+      "change_pct": -0.088,
       "change": -13.37,
-      "volume": 737703743,
-      "amount": 1464716733139.2,
-      "open": 15157.07,
+      "volume": 73770374281.0,
+      "amount": 1464716733139.0,
       "high": 15186.12,
-      "low": 15044.86,
-      "pre_close": 15120.92
+      "low": 15044.855,
+      "open": 15157.067,
+      "prev_close": 15120.923
     },
     "创业板指": {
-      "price": 3677.15,
-      "change_pct": -0.27,
+      "price": 3677.148,
+      "change_pct": -0.272,
       "change": -10.02,
-      "volume": 207981816,
-      "amount": 641724142143.0,
-      "open": 3704.11,
-      "high": 3718.4,
-      "low": 3660.22,
-      "pre_close": 3687.17
+      "volume": 20180814133.0,
+      "amount": 638060867618.0,
+      "high": 3718.399,
+      "low": 3660.219,
+      "open": 3704.109,
+      "prev_close": 3687.168
+    },
+    "沪深300": {
+      "price": 4807.3069,
+      "change_pct": -0.063,
+      "change": -3.04,
+      "volume": 250633370.0,
+      "amount": 726665374516.0,
+      "high": 4829.2715,
+      "low": 4797.5445,
+      "open": 4820.9716,
+      "prev_close": 4810.3468
+    },
+    "科创50": {
+      "price": 1571.0652,
+      "change_pct": 5.193,
+      "change": 77.561,
+      "volume": 15109612.0,
+      "amount": 143368848802.0,
+      "high": 1580.515,
+      "low": 1511.3875,
+      "open": 1511.3875,
+      "prev_close": 1493.5045
     },
     "恒生指数": {
-      "price": 25793.11,
-      "change_pct": -1.16,
-      "change": -302.77,
-      "pre_close": 26095.88
+      "price": 25886.85,
+      "change_pct": -0.8,
+      "change": -209.03,
+      "volume": 5478463744.0,
+      "amount": 98617810944.0,
+      "high": 25945.75,
+      "low": 25690.36,
+      "open": 25945.75,
+      "prev_close": 26095.88
+    },
+    "恒生科技指数": {
+      "price": 4924.96,
+      "change_pct": -1.04,
+      "change": -51.74,
+      "volume": 476279648.0,
+      "amount": 20325465088.0,
+      "high": 4949.12,
+      "low": 4859.44,
+      "open": 4949.12,
+      "prev_close": 4976.7
     }
-  },
-  "market_breadth": {
-    "shanghai_gainers": null,
-    "shanghai_losers": null
   },
   "sectors": {
-    "top_gainers": [
-      {"name": "燃料电池", "change_pct": 9.46, "leading": "亿华通-U"},
-      {"name": "集成电路制造", "change_pct": 6.56, "leading": "灿芯股份"},
-      {"name": "体育Ⅲ", "change_pct": 6.43, "leading": "中体产业"},
-      {"name": "体育Ⅱ", "change_pct": 6.43, "leading": "中体产业"},
-      {"name": "图片媒体", "change_pct": 5.21, "leading": "视觉中国"},
-      {"name": "锂", "change_pct": 5.13, "leading": "永杉锂业"},
-      {"name": "模拟芯片设计", "change_pct": 4.63, "leading": "明微电子"},
-      {"name": "能源金属", "change_pct": 3.8, "leading": "永杉锂业"},
-      {"name": "半导体设备", "change_pct": 3.43, "leading": "芯源微"},
-      {"name": "半导体", "change_pct": 3.4, "leading": "明微电子"}
+    "top5": [
+      {
+        "板块名称": "燃料电池",
+        "涨跌幅": 9.46
+      },
+      {
+        "板块名称": "集成电路制造",
+        "涨跌幅": 6.56
+      },
+      {
+        "板块名称": "体育Ⅲ",
+        "涨跌幅": 6.43
+      },
+      {
+        "板块名称": "体育Ⅱ",
+        "涨跌幅": 6.43
+      },
+      {
+        "板块名称": "图片媒体",
+        "涨跌幅": 5.21
+      }
     ],
-    "top_losers": [
-      {"name": "蓄电池及其他电池", "change_pct": -5.45, "leading": "安孚科技"},
-      {"name": "玻纤制造", "change_pct": -3.22, "leading": "宏和科技"},
-      {"name": "房地产综合服务", "change_pct": -2.83, "leading": "珠江股份"},
-      {"name": "光伏发电", "change_pct": -2.56, "leading": "*ST聆达"},
-      {"name": "餐饮", "change_pct": -2.56, "leading": "西安饮食"},
-      {"name": "其他饰品", "change_pct": -2.5, "leading": "瑞贝卡"},
-      {"name": "氮肥", "change_pct": -2.44, "leading": "四川美丰"},
-      {"name": "火力发电", "change_pct": -2.37, "leading": "天富能源"},
-      {"name": "酒店餐饮", "change_pct": -2.33, "leading": "锦江Ｂ股"},
-      {"name": "通信线缆及配套", "change_pct": -2.32, "leading": "富士达"}
+    "bottom5": [
+      {
+        "板块名称": "光伏发电",
+        "涨跌幅": -2.56
+      },
+      {
+        "板块名称": "餐饮",
+        "涨跌幅": -2.56
+      },
+      {
+        "板块名称": "房地产综合服务",
+        "涨跌幅": -2.83
+      },
+      {
+        "板块名称": "玻纤制造",
+        "涨跌幅": -3.22
+      },
+      {
+        "板块名称": "蓄电池及其他电池",
+        "涨跌幅": -5.45
+      }
     ]
   },
-  "northbound": {
-    "沪股通": {
+  "north_flow": [
+    {
       "date": "2026-05-05",
-      "net_buy": 0,
-      "flow_in": 0,
-      "status": "待更新"
+      "board": "沪股通",
+      "net_buy": 0.0,
+      "net_inflow": 0.0
     },
-    "港股通(沪)": {
+    {
       "date": "2026-05-05",
-      "net_buy": 101.34,
-      "flow_in": 420.0
-    },
-    "深股通": {
-      "date": "2026-05-05",
-      "net_buy": 0,
-      "flow_in": 0,
-      "status": "待更新"
-    },
-    "港股通(深)": {
-      "date": "2026-05-05",
-      "net_buy": 20.58,
-      "flow_in": 420.0
+      "board": "深股通",
+      "net_buy": 0.0,
+      "net_inflow": 0.0
     }
-  }
+  ]
 }

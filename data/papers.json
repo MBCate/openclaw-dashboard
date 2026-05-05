@@ -1,8 +1,26 @@
 {
-  "total_papers": 32,
-  "new_finds": 19,
+  "total_papers": 37,
+  "new_finds": 5,
   "last_updated": "2026-05-05",
   "weekly_top5": [
+    {
+      "arxiv_id": "2605.00080",
+      "title": "World Model for Robot Learning: A Comprehensive Survey",
+      "score": 5,
+      "reason": "机器人学习世界模型全面综述，涵盖导航和自动驾驶应用"
+    },
+    {
+      "arxiv_id": "2605.00078",
+      "title": "Being-H0.7: A Latent World-Action Model from Egocentric Videos",
+      "score": 5,
+      "reason": "潜空间世界-动作模型，将VLA与隐式世界模型结合，6个benchmark达SOTA"
+    },
+    {
+      "arxiv_id": "2605.00066",
+      "title": "Do Open-Loop Metrics Predict Closed-Loop Driving? A Cross-Benchmark Correlation Study of NAVSIM and Bench2Drive",
+      "score": 5,
+      "reason": "系统研究开环与闭环指标关联性，对端到端规划评估有重要方法论意义"
+    },
     {
       "arxiv_id": "2604.28196",
       "title": "HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation",
@@ -12,24 +30,6 @@
     {
       "arxiv_id": "2604.28111",
       "title": "GSDrive: Reinforcing Driving Policies by Multi-mode Trajectory Probing with 3D Gaussian Splatting Environment",
-      "score": 5,
-      "reason": "..."
-    },
-    {
-      "arxiv_id": "2604.25329",
-      "title": "ProDrive: Proactive Planning for Autonomous Driving via Ego-Environment Co-Evolution",
-      "score": 5,
-      "reason": "..."
-    },
-    {
-      "arxiv_id": "2604.23362",
-      "title": "UniAda: Universal Adaptive Multi-objective Adversarial Attack for End-to-End Autonomous Driving Systems",
-      "score": 5,
-      "reason": "..."
-    },
-    {
-      "arxiv_id": "2604.21249",
-      "title": "Reasoning About Traversability: Language-Guided Off-Road 3D Trajectory Planning",
       "score": 5,
       "reason": "..."
     }
@@ -607,6 +607,69 @@
       "category": "world-models-ad",
       "authors": "Yanchen Guan, Haicheng Liao, Chengyue Wang, Zhenning Li",
       "relevance": "从公开事故报告学习物理层面的交通事故重建，多模态参数学习方法"
+    },
+    {
+      "arxiv_id": "2605.00051",
+      "title": "Learning from the Unseen: Generative Data Augmentation for Geometric-Semantic Accident Anticipation",
+      "score": 3,
+      "topics": [
+        "end-to-end autonomous driving",
+        "accident anticipation"
+      ],
+      "new_discovery": true,
+      "key_contribution": "双路径框架：视频合成管线生成高保真驾驶场景 + GNN增强语义推理，用于交通事故预测",
+      "method_overview": "结构化prompt驱动的视频合成 + 图神经网络动态推理空间和语义关系",
+      "date_added": "2026-05-05"
+    },
+    {
+      "arxiv_id": "2605.00321",
+      "title": "Embodied Interpretability: Linking Causal Understanding to Generalization in Vision-Language-Action Models",
+      "score": 4,
+      "topics": [
+        "VLA"
+      ],
+      "new_discovery": true,
+      "key_contribution": "提出Interventional Significance Score (ISS)和Nuisance Mass Ratio (NMR)，分析VLA策略的因果归因和泛化能力",
+      "method_overview": "干预式掩码流程估计视觉区域对动作预测的因果影响",
+      "date_added": "2026-05-05"
+    },
+    {
+      "arxiv_id": "2605.00416",
+      "title": "Learning while Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies",
+      "score": 3,
+      "topics": [
+        "VLA",
+        "reinforcement learning"
+      ],
+      "new_discovery": true,
+      "key_contribution": "LWD框架：实现从离线到在线的机器人VLA策略持续后训练",
+      "method_overview": "Distributional Implicit Value Learning + Q-learning via Adjoint Matching",
+      "date_added": "2026-05-05"
+    },
+    {
+      "arxiv_id": "2605.00397",
+      "title": "MiniVLA-Nav v1: A Multi-Scene Simulation Dataset for Language-Conditioned Robot Navigation",
+      "score": 3,
+      "topics": [
+        "VLA"
+      ],
+      "new_discovery": true,
+      "key_contribution": "发布语言条件导航仿真数据集MiniVLA-Nav v1",
+      "method_overview": "NVIDIA Nova Carter机器人在Isaac Sim中4场景下的1,174 episode数据集",
+      "date_added": "2026-05-05"
+    },
+    {
+      "arxiv_id": "2605.00005",
+      "title": "Cloud Is Closer Than It Appears: Revisiting the Tradeoffs of Distributed Real-Time Inference",
+      "score": 3,
+      "topics": [
+        "end-to-end autonomous driving",
+        "infrastructure"
+      ],
+      "new_discovery": true,
+      "key_contribution": "挑战自动驾驶中云推理不适合实时控制的假设，证明云平台可在紧急制动场景匹配或超越设备端性能",
+      "method_overview": "分布式推理延迟分析模型，在自动驾驶紧急制动场景下验证",
+      "date_added": "2026-05-05"
     }
   ]
 }

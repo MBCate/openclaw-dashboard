@@ -1,86 +1,18 @@
 {
-  "time": "2026-05-05 15:05",
-  "date": "2026-05-05",
-  "strategy_signals": {
-    "DoubleMa": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 80949.8
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 80949.8
-      }
-    },
-    "RSI": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 80949.8
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 80949.8
-      }
-    },
-    "MACD": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 80949.8
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 80949.8
-      }
-    },
-    "Bollinger": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 80949.8
-      },
-      "4h": {
-        "signal": "做空",
-        "current_price": 80949.8
-      }
-    },
-    "Supertrend": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 80949.8
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 80949.8
-      }
-    },
-    "TripleMa": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 80949.8
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 80949.8
-      }
-    },
-    "Momentum": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 80949.8
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 80949.8
-      }
-    },
-    "MeanReversion": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 80949.8
-      },
-      "4h": {
-        "signal": "做空",
-        "current_price": 80949.8
-      }
-    }
+  "time": "2026-05-06 15:05",
+  "date": "2026-05-06",
+  "status": "stale",
+  "last_update": "2026-01-04",
+  "note": "HelloQuant 策略数据最后更新于2026年1月4日，当前无新运行结果",
+  "strategies": {
+    "total": 8,
+    "last_report": "2026-01-04",
+    "strategies_list": ["DoubleMa", "TripleMa", "Supertrend", "RSI", "MACD", "Bollinger", "Momentum", "MeanReversion"]
+  },
+  "crypto_latest": {
+    "btc_usdt": 90037,
+    "eth_usdt": 3106,
+    "btc_trend_4h": "偏多",
+    "eth_trend_4h": "偏多"
   }
 }

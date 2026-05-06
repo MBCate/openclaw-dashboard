@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-05-05T09:15:00+08:00",
+    "updated": "2026-05-06T09:15:00+08:00",
     "type": "morning-preview",
     "source": "RSS + AkShare + web_fetch"
   },
@@ -52,7 +52,7 @@
       "note": "STS 50 surging on AI/semiconductor momentum"
     },
     "sse_50": {
-      "value": 2985.50,
+      "value": 2985.5,
       "change": "+0.61%"
     },
     "hsi": {
@@ -166,5 +166,27 @@
   "asia_watch": {
     "a_share_opening": "A-shares opening at 9:30. Overnight US sell-off + Iran escalation weigh, but MS sees resilient narrative. STS 50 surging pre-market +5.19%.",
     "hk_watch": "HSI +1.24% yesterday but Iran escalation + US sell-off likely pressure today."
+  },
+  "rss_headlines_20260506": [
+    "Trump pauses Hormuz operation, cites Iran deal progress — Oil slides to ~05",
+    "AMD stock +15% on data center revenue/guidance beat",
+    "Super Micro +18% as revenue more than doubles, margin recovery cheered",
+    "Semiconductor stocks at highest since dot-com era — bubble concerns",
+    "Small caps best monthly showing since 2020 — BofA sees more upside",
+    "Palantir fastest revenue growth ever, CEO calls out AI slop"
+  ],
+  "macroeconomics_20260506": {
+    "geopolitics": {
+      "hormuz": "Trump pauses US bid to reopen Hormuz, citing diplomatic progress with Iran. Oil retreating from Mon highs.",
+      "iran_uae": "⚠️ Iran attacked UAE Monday; US sank Iranian boats. Escalation risk remains despite pause."
+    },
+    "earnings": {
+      "amd": "+15%, data center revenue beat, strong AI GPU demand",
+      "smci": "+18%, revenue >2x YoY, gross margin recovering",
+      "palantir": "Fastest revenue growth ever, govt + commercial AI adoption accelerating"
+    },
+    "rates": {
+      "fed_watch": "Market pricing ~90% chance Fed holds in June. ECB rate hike in June all but inevitable."
+    }
   }
 }

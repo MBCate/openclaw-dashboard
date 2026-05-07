@@ -1,18 +1,116 @@
 {
-  "time": "2026-05-06 15:05",
-  "date": "2026-05-06",
-  "status": "stale",
-  "last_update": "2026-01-04",
-  "note": "HelloQuant 策略数据最后更新于2026年1月4日，当前无新运行结果",
+  "date": "2026-05-07",
+  "timestamp": "2026-05-07T15:09:03.978774",
   "strategies": {
-    "total": 8,
-    "last_report": "2026-01-04",
-    "strategies_list": ["DoubleMa", "TripleMa", "Supertrend", "RSI", "MACD", "Bollinger", "Momentum", "MeanReversion"]
+    "DoubleMa": {
+      "1h": "观望",
+      "4h": "观望"
+    },
+    "TripleMa": {
+      "1h": "观望",
+      "4h": "观望"
+    },
+    "Supertrend": {
+      "1h": "观望",
+      "4h": "观望"
+    },
+    "RSI": {
+      "1h": "观望",
+      "4h": "观望"
+    },
+    "MACD": {
+      "1h": "观望",
+      "4h": "做空"
+    },
+    "Bollinger": {
+      "1h": "观望",
+      "4h": "观望"
+    },
+    "Momentum": {
+      "1h": "做多",
+      "4h": "观望"
+    },
+    "MeanReversion": {
+      "1h": "观望",
+      "4h": "观望"
+    }
   },
-  "crypto_latest": {
-    "btc_usdt": 90037,
-    "eth_usdt": 3106,
-    "btc_trend_4h": "偏多",
-    "eth_trend_4h": "偏多"
+  "crypto": {
+    "BTCUSDT": {
+      "price": 81494.2,
+      "change_24h_pct": -8.94,
+      "rsi": 50.9,
+      "macd_status": "死叉",
+      "trend": "偏空",
+      "ma5": 81168.56,
+      "ma20": 81396.12
+    },
+    "ETHUSDT": {
+      "price": 2338.86,
+      "change_24h_pct": -137.84,
+      "rsi": 42.4,
+      "macd_status": "死叉",
+      "trend": "偏空",
+      "ma5": 2331.49,
+      "ma20": 2346.85
+    }
+  },
+  "futures": {
+    "沪金主力": {
+      "price": 1028.48,
+      "change": 1.22,
+      "date": "2026-05-06"
+    },
+    "沪银主力": {
+      "price": 18851.0,
+      "change": 3.95,
+      "date": "2026-05-06"
+    },
+    "沪铜主力": {
+      "price": 102660.0,
+      "change": 1.61,
+      "date": "2026-05-06"
+    },
+    "螺纹钢主力": {
+      "price": 3264.0,
+      "change": 1.56,
+      "date": "2026-05-06"
+    },
+    "沪深300期货": {
+      "price": 4839.4,
+      "change": 1.6,
+      "date": "2026-05-06"
+    },
+    "中证500期货": {
+      "price": 8497.6,
+      "change": 2.75,
+      "date": "2026-05-06"
+    }
+  },
+  "a_shares": {
+    "上证指数": {
+      "price": 4180.0922,
+      "change": 0.479,
+      "volume": 685574249.0
+    },
+    "深证成指": {
+      "price": 15641.886,
+      "change": 1.179
+    },
+    "创业板指": {
+      "price": 3833.057,
+      "change": 1.453
+    }
+  },
+  "news_count": 2,
+  "sentiment": {
+    "status": "success",
+    "data": {
+      "crypto_fear_greed": {
+        "value": 47,
+        "classification": "Neutral",
+        "timestamp": "1778112000"
+      }
+    }
   }
 }

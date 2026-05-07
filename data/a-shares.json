@@ -1,70 +1,145 @@
 {
-  "time": "2026-05-07 11:35",
   "date": "2026-05-07",
-  "indexes": {
-    "上证指数": {
-      "代码": "1.000001",
-      "最新价": 4170.75,
-      "涨跌幅": 0.25,
-      "涨跌额": 10.58,
-      "成交额": 8642
+  "time": "15:00",
+  "source": "sina_finance + web",
+  "indices": [
+    {
+      "name": "上证指数",
+      "code": "000001",
+      "price": 4180.09,
+      "change": 19.92,
+      "change_pct": 0.48
     },
-    "深证成指": {
-      "代码": "0.399001",
-      "最新价": 15569.46,
-      "涨跌幅": 0.71,
-      "涨跌额": 109.84,
-      "成交额": 11182
+    {
+      "name": "深证成指",
+      "code": "399001",
+      "price": 15641.89,
+      "change": 182.27,
+      "change_pct": 1.18
     },
-    "创业板指": {
-      "代码": "0.399006",
-      "最新价": 3815.24,
-      "涨跌幅": 0.98,
-      "涨跌额": 37.08,
-      "成交额": 5087
+    {
+      "name": "创业板指",
+      "code": "399006",
+      "price": 3833.06,
+      "change": 54.9,
+      "change_pct": 1.45
     },
-    "沪深300": {
-      "代码": "0.399300",
-      "最新价": 4886.24,
-      "涨跌幅": 0.19,
-      "涨跌额": 9.15,
-      "成交额": 4975
-    },
-    "科创50": {
-      "代码": "1.000688",
-      "最新价": 1663.93,
-      "涨跌幅": 0.42,
-      "涨跌额": 6.98,
-      "成交额": 920
+    {
+      "name": "沪深300",
+      "code": "399300",
+      "price": 4900.51,
+      "change": 23.42,
+      "change_pct": 0.48
     }
+  ],
+  "market_overview": {
+    "total_volume": "3.17万亿",
+    "up_stocks": 3246,
+    "down_stocks": 1801,
+    "limit_up": 126,
+    "limit_down": 64
   },
   "boards": {
     "top5": [
-      {"name": "AI算力/半导体", "change": 4.5},
-      {"name": "储能电力设备", "change": 3.8},
-      {"name": "商业航天", "change": 3.2},
-      {"name": "光模块", "change": 3.0},
-      {"name": "存储芯片", "change": 2.8}
+      {
+        "name": "算力硬件",
+        "change_pct": "+6.07"
+      },
+      {
+        "name": "半导体芯片",
+        "change_pct": "领涨"
+      },
+      {
+        "name": "机器人概念",
+        "change_pct": "活跃"
+      },
+      {
+        "name": "光纤/CPO",
+        "change_pct": "领涨"
+      },
+      {
+        "name": "消费电子",
+        "change_pct": "领涨"
+      }
     ],
     "bottom5": [
-      {"name": "白酒", "change": -1.2},
-      {"name": "旅游酒店", "change": -0.9},
-      {"name": "地产", "change": -0.6},
-      {"name": "银行", "change": -0.3},
-      {"name": "煤炭", "change": -0.2}
+      {
+        "name": "煤炭",
+        "change_pct": "领跌"
+      },
+      {
+        "name": "油气",
+        "change_pct": "领跌"
+      },
+      {
+        "name": "化工",
+        "change_pct": "领跌"
+      },
+      {
+        "name": "猪肉",
+        "change_pct": "领跌"
+      },
+      {
+        "name": "锂矿",
+        "change_pct": "领跌"
+      }
     ]
   },
-  "market_summary": {
-    "advancing_stocks": 3700,
-    "total_volume_billions": 1982.5,
-    "north_bound_flow_billions": 120,
-    "north_bound_flow_consecutive_days": 8,
-    "source": "tencent_api"
+  "highlights": {
+    "headlines": [
+      "深成指、创业板指均涨超1%，连续两日超百股涨停",
+      "算力硬件股再度爆发，炬光科技、杭电股份、大族激光等涨停",
+      "半导体芯片延续强势，中国长城3连板，华虹公司涨超9%创新高",
+      "机器人概念活跃，宇环数控、巨轮智能等多股涨停",
+      "油气、煤炭板块调整，潜能恒信跌超10%，中煤能源跌近8%"
+    ],
+    "yesterday_close": {
+      "shanghai": 4160.17,
+      "shenzhen": 15459.62,
+      "chi_next": 3778.16
+    }
   },
   "north_flow": {
-    "date": "2026-05-07",
-    "total_inflow_billions": 120,
-    "consecutive_net_inflow_days": 8,
-    "status": "net_inflow"
+    "note": "北向资金数据源暂时不可用，详见后续更新"
+  },
+  "notable_stocks": [
+    {
+      "code": "600519",
+      "name": "贵州茅台",
+      "price": 1371.05,
+      "change_pct": 0.0
+    },
+    {
+      "code": "300750",
+      "name": "宁德时代",
+      "price": 451.64,
+      "change_pct": -3.65
+    },
+    {
+      "code": "000858",
+      "name": "五粮液",
+      "price": 92.6,
+      "change_pct": 0.18
+    },
+    {
+      "code": "601318",
+      "name": "中国平安",
+      "price": 60.04,
+      "change_pct": 1.14
+    }
+  ],
+  "yesterday_vs_today": {
+    "yesterday_index": {
+      "上证": 4160.17,
+      "深证": 15459.62,
+      "创业板": 3778.16
+    },
+    "today_index": {
+      "上证": 4180.09,
+      "深证": 15641.89,
+      "创业板": 3833.06
+    },
+    "yesterday_volume": "3.25万亿",
+    "today_volume": "3.17万亿"
   }
 }

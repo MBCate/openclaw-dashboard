@@ -1,117 +1,121 @@
 {
-  "updatedAt": "2026-05-06T21:30:00+08:00",
-  "date": "2026-05-06",
+  "updatedAt": "2026-05-07T09:17:00+08:00",
+  "date": "2026-05-07",
   "indices": {
     "s&p500": {
       "name": "S&P 500",
-      "last": 7307.59,
-      "change": 48.37,
-      "changePercent": 0.67,
-      "status": "intraday",
-      "note": "盘中新高，52-week高"
+      "last": 7365.12,
+      "change": 105.90,
+      "changePercent": 1.46,
+      "status": "closed",
+      "note": "隔夜收涨，美伊停战预期推动风险偏好"
     },
     "dowJones": {
       "name": "道琼斯",
-      "last": 49827.35,
-      "change": 529.10,
-      "changePercent": 1.07,
-      "status": "intraday",
-      "note": "盘中上涨"
+      "last": 49910.59,
+      "change": 612.34,
+      "changePercent": 1.24,
+      "status": "closed",
+      "note": "隔夜上涨"
     },
     "nasdaq": {
       "name": "纳斯达克",
-      "last": 25495.23,
-      "change": 169.10,
-      "changePercent": 0.67,
-      "status": "intraday",
-      "note": "52-week新高"
+      "last": 25838.94,
+      "change": 512.81,
+      "changePercent": 2.02,
+      "status": "closed",
+      "note": "科技股领涨，Arm财报后下跌"
     },
     "shanghai": {
       "name": "上证指数",
       "last": 4160.17,
-      "change": 48.01,
-      "changePercent": 1.17,
-      "status": "closed",
-      "note": "A股收涨，接近52-week高"
+      "change": 0.00,
+      "changePercent": 0.00,
+      "status": "presession",
+      "note": "昨日收盘4160，待开盘"
     },
     "hangSeng": {
       "name": "恒生指数",
-      "last": 26029.65,
-      "change": 131.04,
-      "changePercent": 0.51,
-      "status": "closed",
-      "note": "盘中交易，52-week中位"
+      "last": 25898.61,
+      "change": -131.04,
+      "changePercent": -0.50,
+      "status": "intraday",
+      "note": "早盘回落，美伊乐观情绪消退"
+    }
+  },
+  "asiaPacific": {
+    "nikkei": {
+      "name": "日经225",
+      "last": 62102.79,
+      "change": 2589.67,
+      "changePercent": 4.35,
+      "note": "突破62000点创历史新高！领涨亚太"
     }
   },
   "commodities": {
     "wti": {
       "name": "WTI原油",
-      "last": 96.31,
-      "change": -5.96,
-      "changePercent": -5.83,
-      "status": "intraday",
-      "note": "伊朗停战传闻导致暴跌，日低88.66"
-    },
-    "brentClose": {
-      "name": "布伦特原油（昨日收盘）",
-      "last": 114.03,
-      "date": "2026-05-05"
+      "last": 96.34,
+      "change": -5.93,
+      "changePercent": -5.80,
+      "status": "closed",
+      "note": "隔夜续跌，伊朗停战预期打压油价"
     },
     "gold": {
       "name": "黄金",
-      "last": 4692.80,
-      "change": 124.30,
-      "changePercent": 2.72,
-      "status": "intraday",
-      "note": "地缘避险+美元走弱"
+      "last": 4705.90,
+      "change": 150.10,
+      "changePercent": 3.29,
+      "status": "closed",
+      "note": "强劲反弹，地缘风险与美元走弱双驱动"
     }
   },
   "bonds": {
     "us10y": {
       "name": "美国10年期国债收益率",
-      "yield": 4.362,
-      "changeBps": -5.4,
-      "note": "伊朗停战预期推低收益率"
+      "yield": 4.36,
+      "changeBps": -6.0,
+      "note": "降息预期推动收益率下行"
     }
   },
   "currencies": {
     "dxy": {
       "name": "美元指数",
-      "last": 97.994,
-      "change": -0.45,
-      "changePercent": -0.46,
-      "note": "11周低点"
+      "last": 98.02,
+      "change": -0.46,
+      "changePercent": -0.47,
+      "note": "继续走弱，11周低点附近"
     }
   },
   "crypto": {
     "bitcoin": {
       "name": "比特币",
-      "price": 81930,
-      "changePercent24h": 0.55
+      "price": 81106,
+      "changePercent24h": 0.22
     },
     "ethereum": {
       "name": "以太坊",
-      "price": 2382.36,
-      "changePercent24h": -0.42
+      "price": 2325.90,
+      "changePercent24h": -1.49
     },
     "solana": {
       "name": "Solana",
-      "price": 88.51,
-      "changePercent24h": 3.23
+      "price": 88.26,
+      "changePercent24h": 2.25
     }
   },
   "headlines": [
-    "Bloomberg: 美伊接近达成停战协议，原油暴跌近6%，股市大涨",
-    "Bloomberg: 黄金白银因伊朗战争结束希望和美元走弱而大涨",
-    "Bloomberg: 美国债收益率下跌，财政部宣布2027年前不变更债券发行规模",
-    "Bloomberg: 摩根士丹利推出E*Trade加密交易，定价低于竞争对手",
-    "Bloomberg: 新兴市场股票创历史新高，货币因伊朗和平信号走强",
-    "Bloomberg: 美国汽油价格突破$4.50/加仑，原油分析师称不太可能到$5",
-    "Bloomberg: 页岩油商终于响应川普号召增产，因中东战争和$100油价",
-    "Bloomberg: AI交易机器人试水华尔街，多数仍在亏损",
-    "CNBC: Stock Market Today: Wall Street rallies on Iran ceasefire hopes",
-    "CNBC: 迪士尼Q2财报超预期，流媒体和公园业务提振盈利",
-    "CNBC: 美国页岩油商在$100油价下终于增产"
+    "Bloomberg: Asian stocks rise on Japan as Iran optimism builds — 日经突破62000创历史新高",
+    "Bloomberg: Gold holds hefty gain as US-Iran truce hopes ease inflation fear (金价+3.3%)",
+    "Bloomberg: 日本股市因美伊停战预期和科技股上涨跳涨",
+    "CNBC: Snap issues cautious guidance citing Middle East geopolitical uncertainty",
+    "CNBC: Japan's Nikkei 225 tops 62,000 for first time as Asia markets look past Trump's Iran threats",
+    "CNBC: Iran war threatens jet fuel shortage that could disrupt summer travel in Asia and Europe",
+    "MarketWatch: Arm puts a big number on its newest venture, but its stock falls",
+    "MarketWatch: Fortinet's stock rockets higher as earnings help dispel fears of AI disruption",
+    "Apollo CEO Rowan warns of market correction, slams practices at rival insurers",
+    "美股三大指数全线收涨：S&P 500 +1.46%，纳指+2.02%，道指+1.24%",
+    "WTI原油续跌至$96.34 (-5.8%)，美元指数跌至98附近"
   ],
-  "summary": "受美伊停战谈判重大进展推动，美股三大指数盘中全线上涨，S&P 500和纳指创52周新高；A股上证收涨1.17%逼近年内高点。大宗商品剧烈分化：WTI原油暴跌5.83%至$96.31，盘中低见$88.66；黄金飙涨2.72%至$4,693，避险资金涌入。美元指数跌至11周低点97.99，10年期美债收益率回落至4.36%。加密市场稳定，比特币$81,930微涨。宏观焦点：美伊和谈、油价波动、美联储降息预期再起。"
+  "summary": "隔夜美股三大指数全线收涨，美伊停战预期继续推动风险偏好。S&P 500 +1.46%，纳指+2.02%领涨。亚太方面，日经225突破62000点创历史新高（+4.35%），而恒指早盘小幅回落。大宗商品剧烈分化：WTI原油续跌-5.8%至$96.34，黄金飙涨+3.29%重回$4700上方。美元指数继续走弱至98附近，美债收益率回落至4.36%。今日A股即将开盘，上证昨日收于4160点。加密市场分化，BTC微涨，ETH回调。"
 }

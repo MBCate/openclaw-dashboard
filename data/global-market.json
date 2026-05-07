@@ -1,46 +1,70 @@
 {
-  "updatedAt": "2026-05-07T09:17:00+08:00",
+  "updatedAt": "2026-05-07T21:30:00+08:00",
   "date": "2026-05-07",
   "indices": {
     "s&p500": {
       "name": "S&P 500",
-      "last": 7365.12,
-      "change": 105.90,
-      "changePercent": 1.46,
-      "status": "closed",
-      "note": "隔夜收涨，美伊停战预期推动风险偏好"
+      "last": 7371.02,
+      "change": 5.9,
+      "changePercent": 0.08,
+      "status": "afterhours",
+      "note": "盘后微涨，等待明日美股开盘"
     },
     "dowJones": {
       "name": "道琼斯",
-      "last": 49910.59,
-      "change": 612.34,
-      "changePercent": 1.24,
-      "status": "closed",
-      "note": "隔夜上涨"
+      "last": 50022.8,
+      "change": 112.21,
+      "changePercent": 0.22,
+      "status": "afterhours",
+      "note": "站稳50000点上方"
     },
     "nasdaq": {
       "name": "纳斯达克",
-      "last": 25838.94,
-      "change": 512.81,
-      "changePercent": 2.02,
-      "status": "closed",
-      "note": "科技股领涨，Arm财报后下跌"
+      "last": 25883.0,
+      "change": 44.06,
+      "changePercent": 0.17,
+      "status": "afterhours",
+      "note": "盘后小幅震荡"
     },
     "shanghai": {
       "name": "上证指数",
-      "last": 4160.17,
-      "change": 0.00,
-      "changePercent": 0.00,
-      "status": "presession",
-      "note": "昨日收盘4160，待开盘"
+      "last": 4180.09,
+      "change": 19.92,
+      "changePercent": 0.48,
+      "status": "closed",
+      "note": "今日收盘，小幅上涨"
+    },
+    "shenzhen": {
+      "name": "深证成指",
+      "last": 15641.89,
+      "change": 182.27,
+      "changePercent": 1.18,
+      "status": "closed",
+      "note": "表现优于上证"
+    },
+    "chinext": {
+      "name": "创业板指",
+      "last": 3833.06,
+      "change": 54.9,
+      "changePercent": 1.45,
+      "status": "closed",
+      "note": "领涨A股三大指数"
+    },
+    "csi300": {
+      "name": "沪深300",
+      "last": 4900.51,
+      "change": 23.42,
+      "changePercent": 0.48,
+      "status": "closed",
+      "note": "跟随大盘上涨"
     },
     "hangSeng": {
       "name": "恒生指数",
-      "last": 25898.61,
-      "change": -131.04,
-      "changePercent": -0.50,
-      "status": "intraday",
-      "note": "早盘回落，美伊乐观情绪消退"
+      "last": 26626.28,
+      "change": 596.63,
+      "changePercent": 2.29,
+      "status": "closed",
+      "note": "收涨！日内从低位大幅反弹"
     }
   },
   "asiaPacific": {
@@ -49,25 +73,25 @@
       "last": 62102.79,
       "change": 2589.67,
       "changePercent": 4.35,
-      "note": "突破62000点创历史新高！领涨亚太"
+      "note": "突破62000创历史新高"
     }
   },
   "commodities": {
     "wti": {
       "name": "WTI原油",
-      "last": 96.34,
-      "change": -5.93,
-      "changePercent": -5.80,
-      "status": "closed",
-      "note": "隔夜续跌，伊朗停战预期打压油价"
+      "last": 101.07,
+      "change": 0.85,
+      "changePercent": 0.85,
+      "status": "intraday",
+      "note": "美盘盘中回升至$101上方，美伊谈判引波动"
     },
     "gold": {
       "name": "黄金",
-      "last": 4705.90,
-      "change": 150.10,
-      "changePercent": 3.29,
-      "status": "closed",
-      "note": "强劲反弹，地缘风险与美元走弱双驱动"
+      "last": 4705.9,
+      "change": 0.0,
+      "changePercent": 0.0,
+      "status": "settled",
+      "note": "隔夜收涨+3.29%，地缘与弱美元双驱动"
     }
   },
   "bonds": {
@@ -90,32 +114,32 @@
   "crypto": {
     "bitcoin": {
       "name": "比特币",
-      "price": 81106,
-      "changePercent24h": 0.22
+      "price": 80882,
+      "changePercent24h": -1.32
     },
     "ethereum": {
       "name": "以太坊",
-      "price": 2325.90,
-      "changePercent24h": -1.49
+      "price": 2321.96,
+      "changePercent24h": -2.61
     },
     "solana": {
       "name": "Solana",
-      "price": 88.26,
-      "changePercent24h": 2.25
+      "price": 89.16,
+      "changePercent24h": 0.74
     }
   },
   "headlines": [
-    "Bloomberg: Asian stocks rise on Japan as Iran optimism builds — 日经突破62000创历史新高",
-    "Bloomberg: Gold holds hefty gain as US-Iran truce hopes ease inflation fear (金价+3.3%)",
-    "Bloomberg: 日本股市因美伊停战预期和科技股上涨跳涨",
+    "Bloomberg: Inflation Fears Are Making Linkers a Winning Bond Trade in 2026",
+    "Bloomberg: Chipmaker Silex Micro More Than Doubles After Stockholm IPO",
+    "Bloomberg: Bolivia Is Tapping Global Bond Markets for First Time Since 2022",
+    "Bloomberg: Oil Falls as US and Iran Weigh Deal to Reopen Strait of Hormuz",
     "CNBC: Snap issues cautious guidance citing Middle East geopolitical uncertainty",
     "CNBC: Japan's Nikkei 225 tops 62,000 for first time as Asia markets look past Trump's Iran threats",
-    "CNBC: Iran war threatens jet fuel shortage that could disrupt summer travel in Asia and Europe",
     "MarketWatch: Arm puts a big number on its newest venture, but its stock falls",
     "MarketWatch: Fortinet's stock rockets higher as earnings help dispel fears of AI disruption",
-    "Apollo CEO Rowan warns of market correction, slams practices at rival insurers",
-    "美股三大指数全线收涨：S&P 500 +1.46%，纳指+2.02%，道指+1.24%",
-    "WTI原油续跌至$96.34 (-5.8%)，美元指数跌至98附近"
+    "WTI原油盘中回升至$101，美伊谈判消息反复引波动",
+    "A股三大指数全线收涨，创业板+1.45%领涨，科创50+1.32%",
+    "北向资金尾盘加速流入，全天净买入约80亿元"
   ],
-  "summary": "隔夜美股三大指数全线收涨，美伊停战预期继续推动风险偏好。S&P 500 +1.46%，纳指+2.02%领涨。亚太方面，日经225突破62000点创历史新高（+4.35%），而恒指早盘小幅回落。大宗商品剧烈分化：WTI原油续跌-5.8%至$96.34，黄金飙涨+3.29%重回$4700上方。美元指数继续走弱至98附近，美债收益率回落至4.36%。今日A股即将开盘，上证昨日收于4160点。加密市场分化，BTC微涨，ETH回调。"
+  "summary": "【晚间速报】A股三大指数全线收涨：上证+0.48%，深证+1.18%，创业板+1.45%领涨。恒生指数收涨+2.29%报26626，日经225突破62000创历史新高（+4.35%）。隔夜美股三大指数强劲收涨后盘后小幅波动。WTI原油日内回升至$101附近，受美伊谈判反复影响。黄金保持4700上方高位。美元指数继续走弱至98附近。加密市场回调：BTC $80,882（-1.32%），ETH $2,322（-2.61%）。"
 }

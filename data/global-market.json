@@ -1,153 +1,42 @@
 {
-  "updatedAt": "2026-05-08T09:15:00+08:00",
+  "timestamp": "2026-05-08T13:30:00Z",
   "date": "2026-05-08",
-  "indices": {
-    "s&p500": {
-      "name": "S&P 500",
-      "last": 7371.02,
-      "change": 5.9,
-      "changePercent": 0.08,
-      "status": "afterhours",
-      "note": "隔夜关税裁决利好，美伊冲突致避险升温，盘前期货小幅波动"
+  "markets": {
+    "us_indices": {
+      "snp500": { "value": 7369, "change_pct": 0.43, "note": "Record highs, up 7.97% monthly, 30.19% YoY" },
+      "nasdaq": { "note": "Futures +0.6%, AI-led rally continues" },
+      "dow": { "note": "Futures +150 pts at new records" }
     },
-    "dowJones": {
-      "name": "道琼斯",
-      "last": 50022.8,
-      "change": 112.21,
-      "changePercent": 0.22,
-      "status": "afterhours",
-      "note": "关税裁决利好，道指期货微涨"
+    "crypto": {
+      "bitcoin": { "price_usd": 79673, "change_24h_pct": -1.54, "note": "Market cap $1.6T" },
+      "ethereum": { "price_usd": 2280, "note": "As of 9:13am EDT" }
     },
-    "nasdaq": {
-      "name": "纳斯达克",
-      "last": 25883.0,
-      "change": 44.06,
-      "changePercent": 0.17,
-      "status": "afterhours",
-      "note": "AI板块分化（Cloudflare大跌-18%，Iren受NV投资暴涨）"
+    "commodities": {
+      "wti_crude": { "price": 101.07, "change_pct": -0.29, "note": "Open at $97.61, Iran-US tensions supporting prices" },
+      "brent_crude": { "price": 103.08, "note": "Open price" },
+      "gold": { "note": "Comex settled lower (prior session)" }
     },
-    "shanghai": {
-      "name": "上证指数",
-      "last": 4180.09,
-      "change": 19.92,
-      "changePercent": 0.48,
-      "status": "closed",
-      "note": "今日收盘，小幅上涨"
-    },
-    "shenzhen": {
-      "name": "深证成指",
-      "last": 15641.89,
-      "change": 182.27,
-      "changePercent": 1.18,
-      "status": "closed",
-      "note": "表现优于上证"
-    },
-    "chinext": {
-      "name": "创业板指",
-      "last": 3833.06,
-      "change": 54.9,
-      "changePercent": 1.45,
-      "status": "closed",
-      "note": "领涨A股三大指数"
-    },
-    "csi300": {
-      "name": "沪深300",
-      "last": 4900.51,
-      "change": 23.42,
-      "changePercent": 0.48,
-      "status": "closed",
-      "note": "跟随大盘上涨"
-    },
-    "hangSeng": {
-      "name": "恒生指数",
-      "last": 26626.28,
-      "change": 596.63,
-      "changePercent": 2.29,
-      "status": "closed",
-      "note": "收涨！日内从低位大幅反弹"
+    "forex": {
+      "dxy": { "note": "Hawkish Fed + oil surge supporting dollar" }
     }
   },
-  "asiaPacific": {
-    "nikkei": {
-      "name": "日经225",
-      "last": 62102.79,
-      "change": 2589.67,
-      "changePercent": 4.35,
-      "note": "受隔夜美股及地缘因素影响，今日关注"
-    }
-  },
-  "commodities": {
-    "wti": {
-      "name": "WTI原油",
-      "last": 107.5,
-      "change": 6.43,
-      "changePercent": 6.36,
-      "status": "surge",
-      "note": "美伊在霍尔木兹海峡交火，油价暴涨！停火协议破裂风险"
-    },
-    "gold": {
-      "name": "黄金",
-      "last": 4780.0,
-      "change": 74.1,
-      "changePercent": 1.57,
-      "status": "surge",
-      "note": "避险资金涌入，地缘溢价显著扩大"
-    }
-  },
-  "bonds": {
-    "us10y": {
-      "name": "美国10年期国债收益率",
-      "yield": 4.36,
-      "changeBps": -6.0,
-      "note": "市场避险情绪升温，资金涌入国债，收益率下行"
-    }
-  },
-  "currencies": {
-    "dxy": {
-      "name": "美元指数",
-      "last": 98.02,
-      "change": -0.46,
-      "changePercent": -0.47,
-      "note": "美元指数承压，地缘风险与降息预期双重打压"
-    }
-  },
-  "crypto": {
-    "bitcoin": {
-      "name": "比特币",
-      "price": 80882,
-      "changePercent24h": -1.32,
-      "note": "避险环境下资金涌入加密资产有限"
-    },
-    "ethereum": {
-      "name": "以太坊",
-      "price": 2321.96,
-      "changePercent24h": -2.61,
-      "note": "跟随BTC窄幅震荡"
-    },
-    "solana": {
-      "name": "Solana",
-      "price": 89.16,
-      "changePercent24h": 0.74,
-      "note": "略显独立行情"
-    }
-  },
-  "headlines": [
-    "突发：美国和伊朗在霍尔木兹海峡交火，双方互指对方先开火",
-    "WTI原油暴涨逾6%逼近08，霍尔木兹停火协议面临破裂",
-    "美国上诉法院否决特朗普关税案，裁定部分条款违宪",
-    "日经225突破62000创历史新高后，今日关注地缘风险回调",
-    "Cloudflare裁员20%转投AI，股价盘后暴跌18%",
-    "Nvidia投资Iren股价飙升，AI军备竞赛持续白热化",
-    "Snap发谨慎指引，称中东地缘不确定性影响广告收入",
-    "美国4月非农就业数据今日公布，市场预期新增约20万人",
-    "日本股市领涨亚太，日经突破62000关口后外资持续流入",
-    "美元指数承压至98附近，市场押注联储年内降息",
-    "恐慌贪婪指数38（Fear），市场情绪谨慎",
-    "A股昨日全线收涨，创业板+1.45%领涨，科创50+1.32%"
+  "key_events": [
+    "US April payrolls +115K, beating expectations; unemployment 4.3%",
+    "S&P 500 at new all-time high 7,369 ahead of record 7,385",
+    "Trump threatens EU with 'much higher' tariffs if no trade deal by deadline",
+    "US-Iran tensions: clash near Hormuz, US expects Iran response on peace deal today",
+    "Fed rate hike bets rising on core inflation + surging energy prices",
+    "Jobs report locks in Fed stalemate per PGIM's Collins",
+    "Japan may have sold US Treasuries when intervening in yen",
+    "Private equity tapping junk market for dividends as exits stall"
   ],
-  "summary": "【早盘预览】隔夜最关键事件：美伊在霍尔木兹海峡交火，WTI原油暴涨逾6%逼近08，停火协议岌岌可危。地缘风险急剧升温，避险资金涌入黄金（+1.57%）和国债。美国上诉法院否决特朗普关税案部分条款，为市场带来一定支撑。日经昨日创62000历史新高后今日面临地缘回调压力。加密市场维持谨慎（F&G: Fear 38），BTC在0k附近盘整。今日重中之重：美国4月非农就业数据即将公布，预期新增约20万人。A股今日开盘关注地缘风险影响，商品板块（油、金）料将大幅高开。",
-  "fearGreed": {
-    "value": 38,
-    "classification": "Fear"
-  }
+  "news_highlights": [
+    { "source": "CNBC", "title": "U.S. payrolls increased 115,000 in April, more than expected; unemployment at 4.3%", "url": "https://www.cnbc.com/2026/05/08/jobs-report-april-2026.html" },
+    { "source": "CNBC", "title": "Trump threatens EU with 'much higher' tariffs if no trade deal signed by new deadline", "url": "https://www.cnbc.com/2026/05/08/trump-tariffs-trade-eu-europe-deal.html" },
+    { "source": "CNBC", "title": "The hottest ETF since bitcoin-mania just added $1 billion in a day", "url": "https://www.cnbc.com/2026/05/08/the-hottest-etf-since-bitcoin-mania-just-added-1-billion-in-a-day.html" },
+    { "source": "Bloomberg", "title": "Private Equity Taps Junk Market for Dividends as Exits Stall", "url": "https://www.bloomberg.com/news/articles/2026-05-08/pe-firms-tap-europe-s-junk-market-for-dividends-as-exits-stall" },
+    { "source": "Bloomberg", "title": "Fed Data Suggest Japan Sold US Debt Amid Intervention", "url": "https://www.bloomberg.com/news/articles/2026-05-08/markets-debate-if-japan-sold-treasuries-when-intervening-in-yen" },
+    { "source": "Bloomberg", "title": "US Says Iran Should Give Answer Friday as Clashes Raise Tensions", "url": "https://www.bloomberg.com/news/articles/2026-05-08/us-iran-clash-near-hormuz-as-response-on-proposed-deal-awaited" },
+    { "source": "Bloomberg", "title": "Jobs Report Locks in Fed Stalemate, PGIM's Collins Says", "url": "https://www.bloomberg.com/news/videos/2026-05-08/jobs-report-locks-in-fed-stalemate-pgim-s-collins-says-video" }
+  ]
 }

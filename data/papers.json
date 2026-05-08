@@ -1,8 +1,80 @@
 {
-  "total_papers": 48,
-  "new_finds": 14,
-  "last_updated": "2026-05-07",
+  "total_papers": 55,
+  "new_finds": 42,
+  "last_updated": "2026-05-08",
   "weekly_top5": [
+    {
+      "arxiv_id": "2605.05092",
+      "title": "Driver-WM: A Driver-Centric Traffic-Conditioned Latent World Model for In-Cabin Dynamics Rollout",
+      "authors": [],
+      "published": "2026-05-06",
+      "abstract": "Driver-centric latent world model for in-cabin dynamics rollout conditioned on traffic context. Dual-stream architecture with gated causal injection for driver state forecasting.",
+      "score": 5,
+      "topic": "World Model, Driver Modeling",
+      "status": "新发现",
+      "categories": [
+        "cs.CV"
+      ],
+      "date_added": "2026-05-08",
+      "tags": [
+        "world model",
+        "autonomous driving",
+        "driver modeling"
+      ]
+    },
+    {
+      "arxiv_id": "2605.04647",
+      "title": "ReflectDrive-2: Reinforcement-Learning-Aligned Self-Editing for Discrete Diffusion Driving",
+      "authors": [
+        "Huimin Wang"
+      ],
+      "published": "2026-05-06",
+      "abstract": "Masked discrete diffusion planner with separate action expert for AD. Discrete trajectory tokens with AutoEdit in-place revision. Two-stage: structure-aware perturbation + RL fine-tune. 91.0 PDMS on NAVSIM (camera-only), 31.8ms on NVIDIA Thor.",
+      "score": 5,
+      "topic": "Diffusion Policy, E2E Planning",
+      "status": "新发现",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "date_added": "2026-05-08",
+      "tags": [
+        "diffusion policy",
+        "autonomous driving",
+        "RL",
+        "planning"
+      ]
+    },
+    {
+      "arxiv_id": "2605.02762",
+      "title": "Unified Map Prior Encoder for Mapping and Planning",
+      "authors": [
+        "Zongzheng Zhang",
+        "Sizhe Zou",
+        "Guantian Zheng",
+        "Zhenxin Zhu",
+        "Yu Gao",
+        "Guoxuan Chi",
+        "Shuo Wang",
+        "Yuwen Heng",
+        "Zhigang Sun",
+        "Yiru Wang",
+        "Hao Sun",
+        "Chao Ma",
+        "Zhen Li",
+        "Anqing Jiang",
+        "Hao Zhao"
+      ],
+      "published": "2026-05-04",
+      "abstract": "We present UMPE, a Unified Map Prior Encoder that can ingest any subset of four priors (HD/SD vector maps, rasterized SD maps, satellite imagery) and fuse them with BEV features for both mapping and planning. UMPE has two branches: a vector encoder with SE(2) polyline correction and confidence-aware cross-attention, and a raster encoder with FiLM conditioning and micro-alignment. On nuScenes, UMPE achieves 63.6 mIoU on the online map segmentation task and 0.43m avg. planning error on the NMP motion planning benchmark, setting a new SOTA for map-prior-based E2E driving.",
+      "score": 5,
+      "topic": "E2E, Mapping, Planning",
+      "status": "新发现",
+      "categories": [
+        "cs.CV"
+      ],
+      "date_added": "2026-05-06"
+    },
     {
       "arxiv_id": "2604.27375",
       "title": "Judge, Then Drive: A Critic-Centric Vision Language Action Framework for Autonomous Driving",
@@ -42,60 +114,158 @@
       ],
       "source": "arxiv",
       "date_added": "2026-05-04"
-    },
+    }
+  ],
+  "papers": [
     {
-      "arxiv_id": "2605.00078",
-      "title": "Being-H0.7: A Latent World-Action Model from Egocentric Videos",
-      "score": 5,
+      "arxiv_id": "2605.04564",
+      "title": "Practical validation of synthetic pre-crash scenarios",
+      "authors": [],
+      "published": "2026-05-06",
+      "abstract": "Validation of synthetic pre-crash scenarios for assessing safety impact of Driving Automation Systems (DAS).",
+      "score": 3,
+      "topic": "AD, Safety",
       "status": "新发现",
-      "category": "world-models-ad",
-      "authors": [
-        "Hao Luo",
-        "Wanpeng Zhang",
-        "Yicheng Feng",
-        "Sipeng Zheng",
-        "Haiweng Xu",
-        "Chaoyi Xu",
-        "Ziheng Xi",
-        "Yuhui Shi"
+      "categories": [
+        "cs.RO",
+        "cs.CV"
       ],
-      "relevance": "Latent world-action model从第一视角视频学习动力学和任务进度表征，解决VLA shortcut mapping问题"
+      "date_added": "2026-05-08",
+      "tags": [
+        "autonomous driving",
+        "safety",
+        "scenario validation"
+      ]
     },
     {
-      "arxiv_id": "2605.00412",
-      "title": "Physically Native World Models: A Hamiltonian Perspective on Generative World Modeling",
-      "score": 5,
+      "arxiv_id": "2605.05187",
+      "title": "LoViF 2026: The First Challenge on Holistic Quality Assessment for 4D World Model (PhyScore)",
+      "authors": [],
+      "published": "2026-05-07",
+      "abstract": "Challenge on holistic quality assessment of world-model-generated videos across 2D and 4D settings. Jointly evaluates video quality, physical realism, temporal coherence, and input condition consistency.",
+      "score": 3,
+      "topic": "World Model, Benchmark",
       "status": "新发现",
-      "category": "world-models-ad",
-      "authors": [
-        "Sen Cui",
-        "Jingheng Ma"
+      "categories": [
+        "cs.CV"
       ],
-      "relevance": "哈密顿力学视角的世界模型，对自动驾驶物理一致性世界模型有重要启发"
+      "date_added": "2026-05-08",
+      "tags": [
+        "world model",
+        "benchmark",
+        "video generation",
+        "physics"
+      ]
     },
     {
-      "arxiv_id": "2604.12656",
-      "title": "FeaXDrive: Feasibility-aware Trajectory-Centric Diffusion Planning for End-to-End Autonomous Driving",
+      "arxiv_id": "2605.04299",
+      "title": "Beyond Fixed Thresholds and Domain-Specific Benchmarks for Explainable Multi-Task Classification in Autonomous Vehicles",
       "authors": [
-        "Baoyun Wang",
-        "Zhuoren Li",
-        "Ran Yu",
-        "Yu Che",
-        "Xinrui Zhang",
-        "Ming Liu"
+        "Maryam Sadat Hosseini Azad"
       ],
-      "published": "2026-04-14",
-      "abstract": "End-to-end diffusion planning has shown strong potential for autonomous driving, but the physical feasibility of generated trajectories remains insufficiently addressed.",
-      "score": 5,
-      "topic": "Diffusion Planning, E2E",
+      "published": "2026-05-05",
+      "abstract": "Confidence threshold sensitivity analysis for multi-task AD perception. Introduces IUST-XAI-AD dataset (958 images) for explainable driving decisions with cross-cultural patterns.",
+      "score": 3,
+      "topic": "AD, Explainability",
       "status": "新发现",
       "categories": [
         "cs.CV",
         "cs.RO"
+      ],
+      "date_added": "2026-05-08",
+      "tags": [
+        "autonomous driving",
+        "explainability",
+        "multi-task"
       ]
-    }
-  ],
-  "papers": [
+    },
+    {
+      "arxiv_id": "2605.04475",
+      "title": "InfoCoordiBridge: A Neuro-Symbolic Architecture for Reliable Autonomous Driving Scene Understanding",
+      "authors": [
+        "Yucheng Shi"
+      ],
+      "published": "2026-05-06",
+      "abstract": "BEV-centric neuro-symbolic architecture with coordination bridge between perception and language reasoning. ICA aligns multi-source outputs, SSRE performs grounded reasoning. 98% attribute agreement, reduced hallucination on NuScenes-QA.",
+      "score": 4,
+      "topic": "BEV, Perception, Scene Understanding",
+      "status": "新发现",
+      "categories": [
+        "cs.CV"
+      ],
+      "date_added": "2026-05-08",
+      "tags": [
+        "BEV",
+        "autonomous driving",
+        "neuro-symbolic",
+        "perception"
+      ]
+    },
+    {
+      "arxiv_id": "2605.04678",
+      "title": "From Pixels to Tokens: A Systematic Study of Latent Action Supervision for Vision-Language-Action Models",
+      "authors": [
+        "Yihan Lin"
+      ],
+      "published": "2026-05-06",
+      "abstract": "Systematic study of latent action supervision for VLA models from two perspectives: image-based (long-horizon reasoning) vs action-based (motor coordination) latent actions. Discrete latent action tokens yield best performance.",
+      "score": 4,
+      "topic": "VLA, Imitation Learning",
+      "status": "新发现",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "date_added": "2026-05-08",
+      "tags": [
+        "VLA",
+        "latent action",
+        "imitation learning",
+        "robotics"
+      ]
+    },
+    {
+      "arxiv_id": "2605.05092",
+      "title": "Driver-WM: A Driver-Centric Traffic-Conditioned Latent World Model for In-Cabin Dynamics Rollout",
+      "authors": [],
+      "published": "2026-05-06",
+      "abstract": "Driver-centric latent world model for in-cabin dynamics rollout conditioned on traffic context. Dual-stream architecture with gated causal injection for driver state forecasting.",
+      "score": 5,
+      "topic": "World Model, Driver Modeling",
+      "status": "新发现",
+      "categories": [
+        "cs.CV"
+      ],
+      "date_added": "2026-05-08",
+      "tags": [
+        "world model",
+        "autonomous driving",
+        "driver modeling"
+      ]
+    },
+    {
+      "arxiv_id": "2605.04647",
+      "title": "ReflectDrive-2: Reinforcement-Learning-Aligned Self-Editing for Discrete Diffusion Driving",
+      "authors": [
+        "Huimin Wang"
+      ],
+      "published": "2026-05-06",
+      "abstract": "Masked discrete diffusion planner with separate action expert for AD. Discrete trajectory tokens with AutoEdit in-place revision. Two-stage: structure-aware perturbation + RL fine-tune. 91.0 PDMS on NAVSIM (camera-only), 31.8ms on NVIDIA Thor.",
+      "score": 5,
+      "topic": "Diffusion Policy, E2E Planning",
+      "status": "新发现",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "date_added": "2026-05-08",
+      "tags": [
+        "diffusion policy",
+        "autonomous driving",
+        "RL",
+        "planning"
+      ]
+    },
     {
       "arxiv_id": "2605.02762",
       "title": "Unified Map Prior Encoder for Mapping and Planning",

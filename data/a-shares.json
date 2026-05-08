@@ -1,145 +1,130 @@
 {
-  "date": "2026-05-07",
-  "time": "15:00",
-  "source": "sina_finance + web",
-  "indices": [
+  "date": "2026-05-08",
+  "updateTime": "11:35",
+  "session": "午盘",
+  "market": "A股",
+  "indices": {
+    "上证指数": {
+      "price": 4162.2698,
+      "changePct": -0.43,
+      "change": -17.822,
+      "high": 4176.4359,
+      "low": 4154.2456,
+      "open": 4163.8537,
+      "volume": 453763026.0,
+      "amount": 855651991016.0,
+      "preClose": 4180.0922
+    },
+    "深证成指": {
+      "price": 15495.219,
+      "changePct": -0.94,
+      "change": -146.667,
+      "high": 15639.388,
+      "low": 15466.838,
+      "open": 15520.381,
+      "volume": 53749945869.0,
+      "amount": 1110722029570.0,
+      "preClose": 15641.886
+    },
+    "创业板指": {
+      "price": 3795.44,
+      "changePct": -0.98,
+      "change": -37.617,
+      "high": 3840.156,
+      "low": 3787.174,
+      "open": 3792.042,
+      "volume": 15779534666.0,
+      "amount": 508623184090.0,
+      "preClose": 3833.057
+    },
+    "沪深300": {
+      "price": 4856.5735,
+      "changePct": -0.9,
+      "change": -43.936,
+      "high": 4887.2129,
+      "low": 4849.9871,
+      "open": 4871.1185,
+      "volume": 155363813.0,
+      "amount": 452628377999.0,
+      "preClose": 4900.5098
+    },
+    "恒生指数": {
+      "price": 26281.56,
+      "changePct": -1.29,
+      "change": -344.72,
+      "volume": 7067878400.0,
+      "amount": 138608934912.0,
+      "high": 26424.02,
+      "low": 26274.8,
+      "open": 26359.79,
+      "preClose": 26626.28
+    },
+    "国企指数": {
+      "price": 8845.35,
+      "changePct": -0.83,
+      "change": -74.13,
+      "volume": 1141435296.0,
+      "amount": 42122770944.0,
+      "high": 8886.45,
+      "low": 8840.78,
+      "open": 8863.45,
+      "preClose": 8919.48
+    },
+    "恒生科技指数": {
+      "price": 5049.5,
+      "changePct": -1.4,
+      "change": -71.6,
+      "volume": 620701344.0,
+      "amount": 30368149504.0,
+      "high": 5094.33,
+      "low": 5047.17,
+      "open": 5079.77,
+      "preClose": 5121.1
+    }
+  },
+  "sectorsTop": [
     {
-      "name": "上证指数",
-      "code": "000001",
-      "price": 4180.09,
-      "change": 19.92,
-      "change_pct": 0.48
+      "name": "航天装备Ⅲ",
+      "changePct": 4.81
     },
     {
-      "name": "深证成指",
-      "code": "399001",
-      "price": 15641.89,
-      "change": 182.27,
-      "change_pct": 1.18
+      "name": "航天装备Ⅱ",
+      "changePct": 4.81
     },
     {
-      "name": "创业板指",
-      "code": "399006",
-      "price": 3833.06,
-      "change": 54.9,
-      "change_pct": 1.45
+      "name": "诊断服务",
+      "changePct": 4.23
     },
     {
-      "name": "沪深300",
-      "code": "399300",
-      "price": 4900.51,
-      "change": 23.42,
-      "change_pct": 0.48
+      "name": "房产租赁经纪",
+      "changePct": 3.79
+    },
+    {
+      "name": "印染",
+      "changePct": 3.6
     }
   ],
-  "market_overview": {
-    "total_volume": "3.17万亿",
-    "up_stocks": 3246,
-    "down_stocks": 1801,
-    "limit_up": 126,
-    "limit_down": 64
-  },
-  "boards": {
-    "top5": [
-      {
-        "name": "算力硬件",
-        "change_pct": "+6.07"
-      },
-      {
-        "name": "半导体芯片",
-        "change_pct": "领涨"
-      },
-      {
-        "name": "机器人概念",
-        "change_pct": "活跃"
-      },
-      {
-        "name": "光纤/CPO",
-        "change_pct": "领涨"
-      },
-      {
-        "name": "消费电子",
-        "change_pct": "领涨"
-      }
-    ],
-    "bottom5": [
-      {
-        "name": "煤炭",
-        "change_pct": "领跌"
-      },
-      {
-        "name": "油气",
-        "change_pct": "领跌"
-      },
-      {
-        "name": "化工",
-        "change_pct": "领跌"
-      },
-      {
-        "name": "猪肉",
-        "change_pct": "领跌"
-      },
-      {
-        "name": "锂矿",
-        "change_pct": "领跌"
-      }
-    ]
-  },
-  "highlights": {
-    "headlines": [
-      "深成指、创业板指均涨超1%，连续两日超百股涨停",
-      "算力硬件股再度爆发，炬光科技、杭电股份、大族激光等涨停",
-      "半导体芯片延续强势，中国长城3连板，华虹公司涨超9%创新高",
-      "机器人概念活跃，宇环数控、巨轮智能等多股涨停",
-      "油气、煤炭板块调整，潜能恒信跌超10%，中煤能源跌近8%"
-    ],
-    "yesterday_close": {
-      "shanghai": 4160.17,
-      "shenzhen": 15459.62,
-      "chi_next": 3778.16
-    }
-  },
-  "north_flow": {
-    "note": "北向资金数据源暂时不可用，详见后续更新"
-  },
-  "notable_stocks": [
+  "sectorsBottom": [
     {
-      "code": "600519",
-      "name": "贵州茅台",
-      "price": 1371.05,
-      "change_pct": 0.0
+      "name": "钾肥",
+      "changePct": -3.48
     },
     {
-      "code": "300750",
-      "name": "宁德时代",
-      "price": 451.64,
-      "change_pct": -3.65
+      "name": "粘胶",
+      "changePct": -3.54
     },
     {
-      "code": "000858",
-      "name": "五粮液",
-      "price": 92.6,
-      "change_pct": 0.18
+      "name": "综合电力设备商",
+      "changePct": -3.63
     },
     {
-      "code": "601318",
-      "name": "中国平安",
-      "price": 60.04,
-      "change_pct": 1.14
+      "name": "钨",
+      "changePct": -3.65
+    },
+    {
+      "name": "镍",
+      "changePct": -3.77
     }
   ],
-  "yesterday_vs_today": {
-    "yesterday_index": {
-      "上证": 4160.17,
-      "深证": 15459.62,
-      "创业板": 3778.16
-    },
-    "today_index": {
-      "上证": 4180.09,
-      "深证": 15641.89,
-      "创业板": 3833.06
-    },
-    "yesterday_volume": "3.25万亿",
-    "today_volume": "3.17万亿"
-  }
+  "northFlow": null
 }

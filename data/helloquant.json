@@ -1,116 +1,155 @@
 {
-  "date": "2026-05-07",
-  "timestamp": "2026-05-07T15:09:03.978774",
+  "timestamp": "2026-05-08T15:09:36.879167",
+  "date": "2026-05-08",
   "strategies": {
     "DoubleMa": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "TripleMa": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "Supertrend": {
-      "1h": "观望",
-      "4h": "观望"
+      "1h": {
+        "signal": "观望",
+        "current_price": 79380.3
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 79380.3
+      }
     },
     "RSI": {
-      "1h": "观望",
-      "4h": "观望"
+      "1h": {
+        "signal": "观望",
+        "current_price": 79380.3
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 79380.3
+      }
     },
     "MACD": {
-      "1h": "观望",
-      "4h": "做空"
+      "1h": {
+        "signal": "观望",
+        "current_price": 79380.3
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 79380.3
+      }
     },
     "Bollinger": {
-      "1h": "观望",
-      "4h": "观望"
+      "1h": {
+        "signal": "观望",
+        "current_price": 79380.3
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 79380.3
+      }
+    },
+    "Supertrend": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 79380.3
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 79380.3
+      }
+    },
+    "TripleMa": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 79380.3
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 79380.3
+      }
     },
     "Momentum": {
-      "1h": "做多",
-      "4h": "观望"
+      "1h": {
+        "signal": "观望",
+        "current_price": 79380.3
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 79380.3
+      }
     },
     "MeanReversion": {
-      "1h": "观望",
-      "4h": "观望"
+      "1h": {
+        "signal": "观望",
+        "current_price": 79380.3
+      },
+      "4h": {
+        "signal": "观望",
+        "current_price": 79380.3
+      }
     }
   },
   "crypto": {
-    "BTCUSDT": {
-      "price": 81494.2,
-      "change_24h_pct": -8.94,
-      "rsi": 50.9,
+    "BTC/USDT": {
+      "price": 79354.3,
+      "change_24h": -2.56,
+      "rsi_1h": 30.4,
+      "macd_1h": -379.27,
       "macd_status": "死叉",
-      "trend": "偏空",
-      "ma5": 81168.56,
-      "ma20": 81396.12
+      "trend_1h": "偏空",
+      "trend_4h": "偏空"
     },
-    "ETHUSDT": {
-      "price": 2338.86,
-      "change_24h_pct": -137.84,
-      "rsi": 42.4,
-      "macd_status": "死叉",
-      "trend": "偏空",
-      "ma5": 2331.49,
-      "ma20": 2346.85
+    "ETH/USDT": {
+      "price": 2269.99,
+      "change_24h": -2.93,
+      "rsi_1h": 15.6,
+      "macd_1h": -15.16,
+      "macd_status": "金叉",
+      "trend_1h": "偏空",
+      "trend_4h": "偏空"
     }
   },
-  "futures": {
-    "沪金主力": {
-      "price": 1028.48,
-      "change": 1.22,
-      "date": "2026-05-06"
-    },
-    "沪银主力": {
-      "price": 18851.0,
-      "change": 3.95,
-      "date": "2026-05-06"
-    },
-    "沪铜主力": {
-      "price": 102660.0,
-      "change": 1.61,
-      "date": "2026-05-06"
-    },
-    "螺纹钢主力": {
-      "price": 3264.0,
-      "change": 1.56,
-      "date": "2026-05-06"
-    },
-    "沪深300期货": {
-      "price": 4839.4,
-      "change": 1.6,
-      "date": "2026-05-06"
-    },
-    "中证500期货": {
-      "price": 8497.6,
-      "change": 2.75,
-      "date": "2026-05-06"
-    }
+  "sentiment": {
+    "fear_greed": 38,
+    "classification": "Fear"
   },
-  "a_shares": {
+  "stocks": {
     "上证指数": {
-      "price": 4180.0922,
-      "change": 0.479,
-      "volume": 685574249.0
+      "price": 4179.9524,
+      "change": -0.003,
+      "volume": 697019094.0
     },
     "深证成指": {
-      "price": 15641.886,
-      "change": 1.179
+      "price": 15563.797,
+      "change": -0.499
     },
     "创业板指": {
-      "price": 3833.057,
-      "change": 1.453
-    }
-  },
-  "news_count": 2,
-  "sentiment": {
-    "status": "success",
-    "data": {
-      "crypto_fear_greed": {
-        "value": 47,
-        "classification": "Neutral",
-        "timestamp": "1778112000"
-      }
+      "price": 3796.128,
+      "change": -0.963
+    },
+    "沪金主力": {
+      "price": 1040.98,
+      "change": 1.22,
+      "date": "2026-05-07"
+    },
+    "沪银主力": {
+      "price": 19493.0,
+      "change": 3.41,
+      "date": "2026-05-07"
+    },
+    "沪铜主力": {
+      "price": 103000.0,
+      "change": 0.33,
+      "date": "2026-05-07"
+    },
+    "螺纹钢主力": {
+      "price": 3273.0,
+      "change": 0.28,
+      "date": "2026-05-07"
+    },
+    "沪深300期货": {
+      "price": 4862.4,
+      "change": 0.48,
+      "date": "2026-05-07"
+    },
+    "中证500期货": {
+      "price": 8624.8,
+      "change": 1.5,
+      "date": "2026-05-07"
     }
   }
 }

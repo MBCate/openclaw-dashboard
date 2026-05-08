@@ -1,130 +1,140 @@
 {
-  "date": "2026-05-08",
-  "updateTime": "11:35",
-  "session": "午盘",
-  "market": "A股",
-  "indices": {
+  "timestamp": "2026-05-08 15:05",
+  "trading_day": "2026-05-08",
+  "indexes": {
     "上证指数": {
-      "price": 4162.2698,
-      "changePct": -0.43,
-      "change": -17.822,
-      "high": 4176.4359,
-      "low": 4154.2456,
-      "open": 4163.8537,
-      "volume": 453763026.0,
-      "amount": 855651991016.0,
-      "preClose": 4180.0922
-    },
-    "深证成指": {
-      "price": 15495.219,
-      "changePct": -0.94,
-      "change": -146.667,
-      "high": 15639.388,
-      "low": 15466.838,
-      "open": 15520.381,
-      "volume": 53749945869.0,
-      "amount": 1110722029570.0,
-      "preClose": 15641.886
-    },
-    "创业板指": {
-      "price": 3795.44,
-      "changePct": -0.98,
-      "change": -37.617,
-      "high": 3840.156,
-      "low": 3787.174,
-      "open": 3792.042,
-      "volume": 15779534666.0,
-      "amount": 508623184090.0,
-      "preClose": 3833.057
+      "price": 4179.95,
+      "change_pct": 0.0,
+      "change": -0.14,
+      "high": 4183.06,
+      "low": 4154.25,
+      "open": 4163.85,
+      "prev_close": 4180.09,
+      "volume": 697019094,
+      "amount": 1331673066130.8
     },
     "沪深300": {
-      "price": 4856.5735,
-      "changePct": -0.9,
-      "change": -43.936,
-      "high": 4887.2129,
-      "low": 4849.9871,
-      "open": 4871.1185,
-      "volume": 155363813.0,
-      "amount": 452628377999.0,
-      "preClose": 4900.5098
+      "price": 4871.91,
+      "change_pct": -0.58,
+      "change": -28.6,
+      "high": 4887.21,
+      "low": 4849.99,
+      "open": 4871.12,
+      "prev_close": 4900.51,
+      "volume": 251720996,
+      "amount": 716546104146.0
     },
-    "恒生指数": {
-      "price": 26281.56,
-      "changePct": -1.29,
-      "change": -344.72,
-      "volume": 7067878400.0,
-      "amount": 138608934912.0,
-      "high": 26424.02,
-      "low": 26274.8,
-      "open": 26359.79,
-      "preClose": 26626.28
+    "科创50": {
+      "price": 1640.46,
+      "change_pct": -2.29,
+      "change": -38.43,
+      "high": 1655.57,
+      "low": 1625.61,
+      "open": 1653.31,
+      "prev_close": 1678.89,
+      "volume": 15005074,
+      "amount": 134384676003.0
     },
-    "国企指数": {
-      "price": 8845.35,
-      "changePct": -0.83,
-      "change": -74.13,
-      "volume": 1141435296.0,
-      "amount": 42122770944.0,
-      "high": 8886.45,
-      "low": 8840.78,
-      "open": 8863.45,
-      "preClose": 8919.48
+    "上证50": {
+      "price": 3003.58,
+      "change_pct": -0.85,
+      "change": -25.61,
+      "high": 3015.41,
+      "low": 2990.01,
+      "open": 3014.47,
+      "prev_close": 3029.19,
+      "volume": 50496714,
+      "amount": 181204517290.0
     },
-    "恒生科技指数": {
-      "price": 5049.5,
-      "changePct": -1.4,
-      "change": -71.6,
-      "volume": 620701344.0,
-      "amount": 30368149504.0,
-      "high": 5094.33,
-      "low": 5047.17,
-      "open": 5079.77,
-      "preClose": 5121.1
+    "中证500": {
+      "price": 8694.17,
+      "change_pct": -0.03,
+      "change": -2.63,
+      "high": 8706.33,
+      "low": 8616.22,
+      "open": 8638.84,
+      "prev_close": 8696.8,
+      "volume": 271143535,
+      "amount": 609002654328.0
     }
   },
-  "sectorsTop": [
-    {
-      "name": "航天装备Ⅲ",
-      "changePct": 4.81
+  "sectors": {
+    "top5": [
+      {
+        "name": "印染",
+        "change_pct": 5.46,
+        "up": 4,
+        "down": 0
+      },
+      {
+        "name": "房产租赁经纪",
+        "change_pct": 4.44,
+        "up": 3,
+        "down": 0
+      },
+      {
+        "name": "诊断服务",
+        "change_pct": 4.17,
+        "up": 5,
+        "down": 0
+      },
+      {
+        "name": "机器人",
+        "change_pct": 3.6,
+        "up": 18,
+        "down": 2
+      },
+      {
+        "name": "光学元件",
+        "change_pct": 3.41,
+        "up": 19,
+        "down": 5
+      }
+    ],
+    "bottom5": [
+      {
+        "name": "粘胶",
+        "change_pct": -3.27,
+        "up": 0,
+        "down": 3
+      },
+      {
+        "name": "镍",
+        "change_pct": -3.23,
+        "up": 0,
+        "down": 1
+      },
+      {
+        "name": "钨",
+        "change_pct": -3.22,
+        "up": 0,
+        "down": 4
+      },
+      {
+        "name": "综合电力设备商",
+        "change_pct": -3.11,
+        "up": 0,
+        "down": 2
+      },
+      {
+        "name": "涂料",
+        "change_pct": -2.75,
+        "up": 0,
+        "down": 2
+      }
+    ]
+  },
+  "north_flow": {
+    "沪股通": {
+      "net_buy": 0.0,
+      "net_inflow": 0.0,
+      "status": 3
     },
-    {
-      "name": "航天装备Ⅱ",
-      "changePct": 4.81
-    },
-    {
-      "name": "诊断服务",
-      "changePct": 4.23
-    },
-    {
-      "name": "房产租赁经纪",
-      "changePct": 3.79
-    },
-    {
-      "name": "印染",
-      "changePct": 3.6
+    "深股通": {
+      "net_buy": 0.0,
+      "net_inflow": 0.0,
+      "status": 3
     }
-  ],
-  "sectorsBottom": [
-    {
-      "name": "钾肥",
-      "changePct": -3.48
-    },
-    {
-      "name": "粘胶",
-      "changePct": -3.54
-    },
-    {
-      "name": "综合电力设备商",
-      "changePct": -3.63
-    },
-    {
-      "name": "钨",
-      "changePct": -3.65
-    },
-    {
-      "name": "镍",
-      "changePct": -3.77
-    }
-  ],
-  "northFlow": null
+  },
+  "market_summary": {}
 }

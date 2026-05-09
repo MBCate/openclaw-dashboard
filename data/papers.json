@@ -1,7 +1,7 @@
 {
-  "total_papers": 55,
+  "total_papers": 64,
   "new_finds": 42,
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-09",
   "weekly_top5": [
     {
       "arxiv_id": "2605.05092",
@@ -117,6 +117,165 @@
     }
   ],
   "papers": [
+    {
+      "arxiv_id": "2605.05402",
+      "title": "Intelligent CCTV for Urban Design: AI-Based Analysis of Soft Infrastructure at Intersections",
+      "authors": [
+        "Authors not retrieved"
+      ],
+      "url": "https://arxiv.org/abs/2605.05402",
+      "score": 3,
+      "categories": [
+        "cs.CV"
+      ],
+      "status": "新发现",
+      "topic": "智能交通, 城市设计",
+      "summary": "利用CCTV监控分析城市交叉口软基础设施（人行横道、标志标线等），基于AI的交通场景分析，与自动驾驶中的BEV感知和交通场景理解相关。",
+      "pipeline": "e2e-autonomous-driving",
+      "date_added": "2026-05-09"
+    },
+    {
+      "arxiv_id": "2605.06481",
+      "title": "OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation",
+      "authors": [
+        "Authors not retrieved"
+      ],
+      "url": "https://arxiv.org/abs/2605.06481",
+      "score": 3,
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "status": "新发现",
+      "topic": "世界模型, VLA",
+      "summary": "提出物体可寻址世界行动模型，将每帧分解为N+1个slot状态（1个机器人+N个物体），每个slot包含持久地址向量和时变内容向量。通过地址独享键路由跨slot注意力实现可寻址性，flow-matching动作头解码16步连续动作块。",
+      "pipeline": "world-models-ad",
+      "date_added": "2026-05-09"
+    },
+    {
+      "arxiv_id": "2605.05897",
+      "title": "Generating Roadside LiDAR Datasets from Vehicle-Side Datasets via Novel View Synthesis",
+      "authors": [
+        "Authors not retrieved"
+      ],
+      "url": "https://arxiv.org/abs/2605.05897",
+      "score": 3,
+      "categories": [
+        "cs.CV"
+      ],
+      "status": "新发现",
+      "topic": "自动驾驶数据集, V2X",
+      "summary": "提出车辆到路边LiDAR合成(VRS)框架，通过LiDAR新视角合成从车辆侧数据集生成标注路边LiDAR数据集。采用点云补全和基于occupancy的可视性约束来解决域差距。实验验证合成数据有效支持路边3D目标检测。",
+      "pipeline": "e2e-autonomous-driving",
+      "date_added": "2026-05-09"
+    },
+    {
+      "arxiv_id": "2605.06247",
+      "title": "CKT-WAM: Parameter-Efficient Context Knowledge Transfer Between World Action Models",
+      "authors": [
+        "Authors not retrieved"
+      ],
+      "url": "https://arxiv.org/abs/2605.06247",
+      "score": 3,
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "status": "新发现",
+      "topic": "世界模型",
+      "summary": "提出参数高效上下文知识迁移框架，通过文本嵌入空间中的紧凑上下文在异构WAM之间迁移知识。使用LQCA压缩token、通用适配器和稀疏激活专用适配器，将上下文追加到学生模型条件文本嵌入中，提升零样本泛化。",
+      "pipeline": "world-models-ad",
+      "date_added": "2026-05-09"
+    },
+    {
+      "arxiv_id": "2605.06222",
+      "title": "When to Trust Imagination: Adaptive Action Execution for World Action Models",
+      "authors": [
+        "Authors not retrieved"
+      ],
+      "url": "https://arxiv.org/abs/2605.06222",
+      "score": 3,
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "status": "新发现",
+      "topic": "世界模型",
+      "summary": "提出WAM自适应执行问题，将未来与现实验证结合。设计FFDC轻量验证器联合推理预测动作/预测视觉/真实观测/语言指令来判断动作rollout是否可信，实现自适应动作块大小。",
+      "pipeline": "world-models-ad",
+      "date_added": "2026-05-09"
+    },
+    {
+      "arxiv_id": "2605.06175",
+      "title": "VLA-GSE: Boosting Parameter-Efficient Fine-Tuning in VLA with Generalized and Specialized Experts",
+      "authors": [
+        "Yuhua Jiang et al."
+      ],
+      "url": "https://arxiv.org/abs/2605.06175",
+      "score": 4,
+      "categories": [
+        "cs.RO"
+      ],
+      "status": "新发现",
+      "topic": "VLA, 机器人",
+      "summary": "针对VLA模型参数高效微调(PEFT)提出VLA-GSE框架，通过频谱分解冻结骨干网络将主导奇异分量分配给广义专家、剩余残差分量分配给专门专家。仅更新2.51%参数，LIBERO-Plus零样本81.2%成功率，保持VLM能力优于LoRA。",
+      "pipeline": "vla-autonomous-driving",
+      "date_added": "2026-05-09"
+    },
+    {
+      "arxiv_id": "2605.06192",
+      "title": "EA-WM: Event-Aware Generative World Model with Structured Kinematic-to-Visual Action Fields",
+      "authors": [
+        "Zhaoyang Yang et al."
+      ],
+      "url": "https://arxiv.org/abs/2605.06192",
+      "score": 4,
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "status": "新发现",
+      "topic": "世界模型, VLA",
+      "summary": "利用预训练视频扩散模型作为机器人世界模型基础。提出结构化运动到视觉动作场(Structured Kinematic-to-Visual Action Fields)将动作和运动状态投影到目标相机视角，结合事件感知双向融合模块。在WorldArena基准上达到SOTA。",
+      "pipeline": "world-models-ad",
+      "date_added": "2026-05-09"
+    },
+    {
+      "arxiv_id": "2605.05439",
+      "title": "Safety-Critical Camera Reliability Monitoring for ADAS via Degradation-Aware Uncertainty Pattern Analysis",
+      "authors": [
+        "Authors not retrieved"
+      ],
+      "url": "https://arxiv.org/abs/2605.05439",
+      "score": 4,
+      "categories": [
+        "cs.CV"
+      ],
+      "status": "新发现",
+      "topic": "BEV感知, ADAS安全",
+      "summary": "提出主动式相机可靠性监控框架，引入全局传感器健康指数(GSHI)聚合退化严重度，轻量多任务网络从单张RGB预测退化类型/严重度/GSHI/空间不确定性图，在KITTI退化数据上健康估计MAE=0.064，提前预警0.47 severity units。",
+      "pipeline": "world-models-ad",
+      "date_added": "2026-05-09"
+    },
+    {
+      "arxiv_id": "2605.06264",
+      "title": "Can Attribution Predict Risk? From Multi-View Attribution to Planning Risk Signals in End-to-End Autonomous Driving",
+      "authors": [
+        "Authors not retrieved - see arXiv page"
+      ],
+      "url": "https://arxiv.org/abs/2605.06264",
+      "score": 5,
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "status": "新发现",
+      "topic": "端到端自动驾驶",
+      "summary": "提出层次化归因框架，从多视角输入到规划风险信号。设计粗到细的区域归因策略，提取三种归因统计量预测规划风险（熵、空间方差、基尼系数），在BridgeAD/UniAD/GenAD上验证与规划误差的斯皮尔曼相关0.30，碰撞检测AUROC 0.77。",
+      "pipeline": "e2e-autonomous-driving",
+      "date_added": "2026-05-09"
+    },
     {
       "arxiv_id": "2605.04564",
       "title": "Practical validation of synthetic pre-crash scenarios",

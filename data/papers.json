@@ -1,7 +1,7 @@
 {
-  "total_papers": 64,
-  "new_finds": 42,
-  "last_updated": "2026-05-09",
+  "total_papers": 67,
+  "new_finds": 45,
+  "last_updated": "2026-05-10",
   "weekly_top5": [
     {
       "arxiv_id": "2605.05092",
@@ -1299,6 +1299,79 @@
       "status": "新发现",
       "categories": "cs.CV, cs.RO",
       "date_added": "2026-05-07"
+    },
+    {
+      "arxiv_id": "2605.04470",
+      "title": "CRAFT: Counterfactual-to-Interactive Reinforcement Fine-Tuning for Driving Policies",
+      "authors": [
+        "Keyu Chen",
+        "Curry Chen"
+      ],
+      "url": "https://arxiv.org/abs/2605.04470",
+      "score": 5,
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "status": "新发现",
+      "topic": "VLA, RL Fine-tuning",
+      "tags": [
+        "reinforcement learning",
+        "VLA",
+        "autonomous driving",
+        "Bench2Drive"
+      ],
+      "summary": "提出Counterfactual-to-Interactive RL微调框架(CRAFT)，将闭环后训练形式化为代理-残差优化。使用组归一化反事实优势作为密集代理信号，通过交互关键事件的闭环残差校正对齐。在Bench2Drive上实现层次规划、VLA和词汇评分架构的最强闭环提升。",
+      "pipeline": "e2e-autonomous-driving",
+      "date_added": "2026-05-10"
+    },
+    {
+      "arxiv_id": "2604.22851",
+      "title": "EgoDyn-Bench: Evaluating Ego-Motion Understanding in Vision-Centric Foundation Models for Autonomous Driving",
+      "authors": [
+        "Finn Rasmus Schäfer"
+      ],
+      "url": "https://arxiv.org/abs/2604.22851",
+      "score": 4,
+      "categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.RO"
+      ],
+      "status": "新发现",
+      "topic": "VLA, Benchmark, Reasoning",
+      "tags": [
+        "VLM",
+        "ego-motion",
+        "physical reasoning",
+        "autonomous driving"
+      ],
+      "summary": "提出EgoDyn-Bench诊断基准，评估以视觉为中心的基础模型在自动驾驶中的语义自车运动理解能力。覆盖20+模型（闭源MLLM、开源VLM、VLA），发现显著感知瓶颈：模型具有逻辑物理概念但无法准确对齐视觉观察。提供显式轨迹编码可恢复物理一致性，揭示视觉与语言的功能性解耦。",
+      "pipeline": "e2e-autonomous-driving",
+      "date_added": "2026-05-10"
+    },
+    {
+      "arxiv_id": "2605.05960",
+      "title": "Plug-and-Play Label Map Diffusion for Universal Goal-Oriented Navigation",
+      "authors": [
+        "Zhixuan Shen"
+      ],
+      "url": "https://arxiv.org/abs/2605.05960",
+      "score": 3,
+      "categories": [
+        "cs.RO"
+      ],
+      "status": "新发现",
+      "topic": "Diffusion, Navigation, BEV",
+      "tags": [
+        "diffusion",
+        "navigation",
+        "BEV",
+        "ICML 2026"
+      ],
+      "summary": "提出PLMD，基于DDPM的地图补全扩散模型，为未观测区域生成障碍物和语义标签。利用已知/未知障碍布局的结构一致性实现目标定位。三种GON导航任务SOTA，ICML 2026论文。与自动驾驶BEV感知和扩散规划相关。",
+      "pipeline": "e2e-autonomous-driving",
+      "date_added": "2026-05-10"
     }
   ]
 }

@@ -1,119 +1,123 @@
 {
   "total_papers": 67,
-  "new_finds": 45,
+  "new_finds": 5,
   "last_updated": "2026-05-10",
   "weekly_top5": [
     {
-      "arxiv_id": "2605.05092",
-      "title": "Driver-WM: A Driver-Centric Traffic-Conditioned Latent World Model for In-Cabin Dynamics Rollout",
+      "arxiv_id": "2605.06192",
+      "title": "EA-WM: Event-Aware Generative World Model with Structured Kinematic-to-Visual Action Fields",
+      "authors": [
+        "Zhaoyang Yang et al."
+      ],
+      "published": "2026-05-07",
+      "abstract": "Event-aware generative world model that projects kinematic control signals into visual space as Structured Kinematic-to-Visual Action Fields (SKV Action Fields). Introduces event-aware bidirectional fusion to capture robot-object interaction dynamics. SOTA on WorldArena benchmark for robotic video generation and policy learning.",
+      "score": 5,
+      "topic": "World Model, Robotics",
+      "status": "新发现",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "date_added": "2026-05-10",
+      "tags": [
+        "world model",
+        "diffusion",
+        "kinematics",
+        "robotics",
+        "action-conditioned"
+      ]
+    },
+    {
+      "arxiv_id": "2605.06388",
+      "title": "Reconstruction or Semantics? What Makes a Latent Space Useful for Robotic World Models",
+      "authors": [
+        "Nilaksh Nilaksh et al."
+      ],
+      "published": "2026-05-07",
+      "abstract": "Systematic evaluation of 6 reconstruction vs semantic encoders for action-conditioned latent diffusion world models. Key finding: semantic latent spaces (V-JEPA 2.1) outperform reconstruction ones (VAE, Cosmos) on policy performance despite lower pixel-level scores. Proposes 3-axis evaluation: visual fidelity, planning/policy, latent quality.",
+      "score": 5,
+      "topic": "World Model, Latent Space",
+      "status": "新发现",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "date_added": "2026-05-10",
+      "tags": [
+        "world model",
+        "latent diffusion",
+        "semantic encoder",
+        "V-JEPA",
+        "robotics"
+      ]
+    },
+    {
+      "arxiv_id": "2605.06010",
+      "title": "FusionProxy: Adding Thermal Awareness to Visual Systems in Real-Time via Distilled Diffusion Models",
+      "authors": [
+        "Yuchen Guo et al."
+      ],
+      "published": "2026-05-07",
+      "abstract": "Real-time RGB-infrared image fusion module with diffusion-level quality. Plug-and-play design using complementary statistics (per-pixel variance in raw space and frozen backbone) from teacher diffusion ensemble. Real-time on diverse platforms. Significantly enhances robustness in closed-loop autonomous driving in nighttime/fog conditions.",
+      "score": 5,
+      "topic": "Multimodal Fusion, Real-Time Perception",
+      "status": "新发现",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "date_added": "2026-05-10",
+      "tags": [
+        "infrared fusion",
+        "real-time",
+        "diffusion",
+        "autonomous driving",
+        "all-weather"
+      ]
+    },
+    {
+      "arxiv_id": "2605.05714",
+      "title": "TriRelVLA: Triadic Relational Structure for Generalizable Embodied Manipulation",
+      "authors": [],
+      "published": "2026-05-07",
+      "abstract": "Triadic relational VLA framework (Object-Hand-Task) for generalizable embodied manipulation. Explicit relational bottleneck reduces reliance on appearance statistics. Task-grounded relational graph with relation-aware graph transformer. Strong cross-scene, cross-object, cross-task generalization.",
+      "score": 4,
+      "topic": "VLA, Generalization",
+      "status": "新发现",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "date_added": "2026-05-10",
+      "tags": [
+        "VLA",
+        "generalization",
+        "embodied manipulation",
+        "relational reasoning"
+      ]
+    },
+    {
+      "arxiv_id": "2605.05483",
+      "title": "Safety-Critical Camera Reliability Monitoring for ADAS via Degradation-Aware Uncertainty Pattern Analysis",
       "authors": [],
       "published": "2026-05-06",
-      "abstract": "Driver-centric latent world model for in-cabin dynamics rollout conditioned on traffic context. Dual-stream architecture with gated causal injection for driver state forecasting.",
-      "score": 5,
-      "topic": "World Model, Driver Modeling",
+      "abstract": "Degradation-aware uncertainty pattern analysis for camera reliability monitoring in ADAS. Detects when perception systems become unreliable under low-light, rain, fog, lens dirt conditions. Real-time monitoring of perception degradation for safety-critical autonomous driving applications.",
+      "score": 4,
+      "topic": "Driving Safety, Perception Robustness",
       "status": "新发现",
       "categories": [
         "cs.CV"
       ],
-      "date_added": "2026-05-08",
+      "date_added": "2026-05-10",
       "tags": [
-        "world model",
-        "autonomous driving",
-        "driver modeling"
+        "ADAS",
+        "safety",
+        "camera reliability",
+        "uncertainty",
+        "perception"
       ]
-    },
-    {
-      "arxiv_id": "2605.04647",
-      "title": "ReflectDrive-2: Reinforcement-Learning-Aligned Self-Editing for Discrete Diffusion Driving",
-      "authors": [
-        "Huimin Wang"
-      ],
-      "published": "2026-05-06",
-      "abstract": "Masked discrete diffusion planner with separate action expert for AD. Discrete trajectory tokens with AutoEdit in-place revision. Two-stage: structure-aware perturbation + RL fine-tune. 91.0 PDMS on NAVSIM (camera-only), 31.8ms on NVIDIA Thor.",
-      "score": 5,
-      "topic": "Diffusion Policy, E2E Planning",
-      "status": "新发现",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "date_added": "2026-05-08",
-      "tags": [
-        "diffusion policy",
-        "autonomous driving",
-        "RL",
-        "planning"
-      ]
-    },
-    {
-      "arxiv_id": "2605.02762",
-      "title": "Unified Map Prior Encoder for Mapping and Planning",
-      "authors": [
-        "Zongzheng Zhang",
-        "Sizhe Zou",
-        "Guantian Zheng",
-        "Zhenxin Zhu",
-        "Yu Gao",
-        "Guoxuan Chi",
-        "Shuo Wang",
-        "Yuwen Heng",
-        "Zhigang Sun",
-        "Yiru Wang",
-        "Hao Sun",
-        "Chao Ma",
-        "Zhen Li",
-        "Anqing Jiang",
-        "Hao Zhao"
-      ],
-      "published": "2026-05-04",
-      "abstract": "We present UMPE, a Unified Map Prior Encoder that can ingest any subset of four priors (HD/SD vector maps, rasterized SD maps, satellite imagery) and fuse them with BEV features for both mapping and planning. UMPE has two branches: a vector encoder with SE(2) polyline correction and confidence-aware cross-attention, and a raster encoder with FiLM conditioning and micro-alignment. On nuScenes, UMPE achieves 63.6 mIoU on the online map segmentation task and 0.43m avg. planning error on the NMP motion planning benchmark, setting a new SOTA for map-prior-based E2E driving.",
-      "score": 5,
-      "topic": "E2E, Mapping, Planning",
-      "status": "新发现",
-      "categories": [
-        "cs.CV"
-      ],
-      "date_added": "2026-05-06"
-    },
-    {
-      "arxiv_id": "2604.27375",
-      "title": "Judge, Then Drive: A Critic-Centric Vision Language Action Framework for Autonomous Driving",
-      "authors": [
-        "Lijin Yang",
-        "Jianing Huang",
-        "Zhongzhan Huang",
-        "Shu Liu"
-      ],
-      "abstract": "Recent advances in vision language action (VLA) models have shown remarkable potential for autonomous driving by directly mapping multimodal inputs to control signals. However, previous VLA-based methods have not explicitly exploited the critic capability of VLAs to refine driving decisions.",
-      "score": 5,
-      "topic": "VLA",
-      "tags": [
-        "end-to-end autonomous driving",
-        "VLA driving",
-        "vision language action"
-      ],
-      "source": "arxiv",
-      "date_added": "2026-05-04"
-    },
-    {
-      "arxiv_id": "2603.22201",
-      "title": "Do World Action Models Generalize Better than VLAs? A Robustness Study",
-      "authors": [
-        "Zhanguang Zhang",
-        "Zhiyuan Li",
-        "Behnam Rahmati",
-        "Rui Heng Yang"
-      ],
-      "abstract": "Robot action planning in the real world requires not only understanding the current state but also predicting how it will evolve. Vision-language-action (VLA) models have achieved notable success, but we compare their generalization against world-action models.",
-      "score": 5,
-      "topic": "VLA/World Model",
-      "tags": [
-        "world model",
-        "VLA",
-        "robot action"
-      ],
-      "source": "arxiv",
-      "date_added": "2026-05-04"
     }
   ],
   "papers": [

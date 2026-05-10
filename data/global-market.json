@@ -1,100 +1,61 @@
 {
-  "timestamp": "2026-05-09T13:30:00Z",
-  "date": "2026-05-09",
-  "markets": {
-    "us_indices": {
-      "snp500": {
-        "note": "Record territory; closed near 7,369 on May 8. Apr payrolls +115K beat. Earnings bonanza fueling rally (Bloomberg)."
-      },
-      "nasdaq": {
-        "note": "AI trade took breather but Nvidia pushing past 0B in equity bets (CNBC)."
-      },
-      "dow": {
-        "note": "Futures rose on US-Iran ceasefire hopes (Benzinga)."
-      }
+  "timestamp": "2026-05-10T21:30:00+08:00",
+  "date": "2026-05-10",
+  "market_status": "Sunday (US markets closed, crypto active)",
+  "indices": {},
+  "crypto": {
+    "btc": {
+      "price": 80953.2,
+      "source": "Kraken",
+      "change_24h": "+0.35% (approx)"
     },
-    "crypto": {
-      "bitcoin": {
-        "note": "Targeting 0K in May; Senate Banking Committee crypto bill slated for May 14 vote (CNBC)."
-      },
-      "ethereum": {
-        "price_usd": 2316,
-        "note": ",315.92 as of May 9 9:11am EDT (CoinDesk)."
-      }
-    },
-    "commodities": {
-      "gold": {
-        "price_usd": 4716,
-        "note": "Spot gold ,715.6/oz on May 9 (GoldPrice.org). Iran war + Fed uncertainty supporting safe haven."
-      },
-      "wti_crude": {
-        "note": "Iran war draining oil buffer at unprecedented pace (Bloomberg). Oil execs discuss permanent energy market changes (CNBC)."
-      },
-      "brent_crude": {
-        "note": "UK moves warship to Middle East for Hormuz mission (Bloomberg)."
-      }
-    },
-    "forex": {
-      "dxy": {
-        "note": "Dollar supported by oil-driven inflation, Fed stalemate on rates."
-      }
+    "eth": {
+      "price": 2328.26,
+      "source": "Kraken",
+      "change_24h": "+0.4% (approx)"
     }
   },
-  "key_events": [
-    "Iran war draining world oil buffer at unprecedented pace — Bloomberg",
-    "Nvidia pushes past 0B in AI equity bets this year — CNBC",
-    "Major crypto bill slated for May 14 Senate Banking Committee vote — CNBC",
-    "Earnings bonanza no one saw coming fuels stocks record run — Bloomberg",
-    "China vows to advance local government debt defusion efforts — Bloomberg",
-    "UK moves warship to Middle East for potential Hormuz mission — Bloomberg",
-    "Trump-Xi summit may delay progress on tariffs, focus on Iran — CNBC",
-    "Introducing the NACHO trade: Wall Street betting on higher oil and persistent inflation — MarketWatch"
-  ],
-  "news_highlights": [
+  "news": [
     {
       "source": "CNBC",
-      "title": "Nvidia embraces role of AI investor, pushing past 0 billion in equity bets this year",
-      "url": "https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html"
+      "title": "Alphabet rallies 160% in year, reflecting value of owning most of AI stack",
+      "url": "https://www.cnbc.com/2026/05/10/alphabet-160percent-rally-in-year-reflects-value-of-owning-most-of-ai-stack.html"
     },
     {
       "source": "CNBC",
-      "title": "The Iran war will change global energy markets in these important ways, oil executives say",
-      "url": "https://www.cnbc.com/2026/05/09/iran-war-oil-gas-energy-security.html"
+      "title": "SEC delays prediction markets ETFs, echoing bitcoin fund battle",
+      "url": "https://www.cnbc.com/2026/05/10/sec-prediction-markets-etfs-trading-launch-delay.html"
     },
     {
       "source": "CNBC",
-      "title": "Major crypto bill slated for May 14 Senate Banking Committee vote",
-      "url": "https://www.cnbc.com/2026/05/08/congress-crypto-bill-vote-senate-banking-committee.html"
+      "title": "Saudi Aramco Q1 profit jumps 26% as key pipeline reaches capacity amid Iran war",
+      "url": "https://www.cnbc.com/2026/05/10/saudi-aramco-q1-profit-jumps-26percent-as-key-pipeline-reaches-capacity.html"
+    },
+    {
+      "source": "WSJ/MW",
+      "title": "S&P 500 walking tightrope to fresh record highs — handful of names doing heavy lifting",
+      "url": "https://www.marketwatch.com/story/stocks-are-walking-a-tightrope-to-fresh-record-highs-as-a-handful-of-names-do-most-of-the-heavy-lifting-fe5a166a"
+    },
+    {
+      "source": "WSJ/MW",
+      "title": "eBay permanently bans GameStop CEO Ryan Cohen following takeover attempt",
+      "url": "https://www.marketwatch.com/story/ebay-permanently-bans-gamestop-ceo-ryan-cohen-for-putting-its-community-at-risk-following-takeover-attempt-71b44c37"
     },
     {
       "source": "Bloomberg",
-      "title": "Earnings Bonanza That No One Saw Coming Fuels Stocks Record Run",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-09/earnings-bonanza-that-no-one-saw-coming-fuels-stocks-record-run"
+      "title": "Qatar sends first LNG shipment through Hormuz since war started",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-10/qatar-sends-first-lng-ship-through-hormuz-since-war-video"
     },
     {
       "source": "Bloomberg",
-      "title": "Iran War Is Draining World Oil Buffer at an Unprecedented Pace",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-09/iran-war-is-draining-world-s-oil-buffer-at-unprecedented-pace"
+      "title": "Drone hits ship near Qatar as US awaits Iran peace plan response",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-awaits-iran-reply-as-aramco-says-hormuz-opening-no-quick-fix"
     },
     {
       "source": "Bloomberg",
-      "title": "China Vows to Advance Efforts to Defuse Local Government Debt",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-09/china-vows-to-advance-efforts-to-defuse-local-government-debt"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Introducing the NACHO trade: How Wall Street is betting on higher oil prices and persistent inflation",
-      "url": "https://www.marketwatch.com/story/introducing-the-nacho-trade-how-wall-street-is-betting-on-higher-oil-prices-and-persistent-inflation-eb915434"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "The unsinkable U.S. economy cruises on, despite headwinds from the Iran war",
-      "url": "https://www.marketwatch.com/story/the-unsinkable-u-s-economy-cruises-on-despite-headwinds-from-the-iran-war-dac45af5"
-    },
-    {
-      "source": "FT",
-      "title": "The narrow ceasefire rally",
-      "url": "https://www.ft.com/content/abd225f9-4b02-4eb1-b25c-5f0dca4b690f"
+      "title": "Hantavirus-hit cruise ship begins evacuation in Canary Islands",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-10/hantavirus-hit-cruise-ship-begins-evacuation-in-canary-islands"
     }
-  ]
+  ],
+  "summary": "周日（5月10日）全球主要股市休市。BTC 0,953，ETH ,328，24h小幅上涨。本周焦点：伊朗局势（霍尔木兹海峡复航进展）、SEC预测市场ETF裁决、Alphabet AI行情持续强势。"
 }

@@ -1,61 +1,120 @@
 {
-  "timestamp": "2026-05-10T21:30:00+08:00",
-  "date": "2026-05-10",
-  "market_status": "Sunday (US markets closed, crypto active)",
-  "indices": {},
+  "timestamp": "2026-05-11T09:15:00+08:00",
+  "date": "2026-05-11",
+  "market_status": "Monday — A-share pre-market (9:15), US futures down, oil surging",
+  "indices": {
+    "shanghai_composite": {
+      "previous_close": 4179.95,
+      "change_pct": "0.00%",
+      "note": "上证综指上周五平收"
+    },
+    "shenzhen_component": {
+      "previous_close": 15563.80,
+      "change_pct": "-0.50%",
+      "note": "深证成指上周五跌0.50%"
+    },
+    "chi_next": {
+      "previous_close": 3796.13,
+      "change_pct": "-0.96%",
+      "note": "创业板指上周五跌0.96%"
+    },
+    "csi300": {
+      "value": "N/A",
+      "note": "沪深300数据未获取"
+    },
+    "sp500": {
+      "previous_close": 7398.93,
+      "change_pct": "+0.84%",
+      "record": true,
+      "note": "S&P 500上周五创历史新高7,398.93"
+    },
+    "nasdaq": {
+      "previous_close": 26247.08,
+      "change_pct": "+1.71%",
+      "record": true,
+      "note": "纳斯达克上周五创历史新高26,247.08"
+    },
+    "dow_jones": {
+      "previous_close": 49609.16,
+      "change_pct": "+0.02%",
+      "note": "道琼斯上周五微涨至49,609.16"
+    },
+    "hang_seng": {
+      "value": "N/A",
+      "note": "港股数据未获取"
+    }
+  },
+  "futures_premarket": {
+    "us_futures": "下跌约0.4%",
+    "note": "特朗普拒绝伊朗和谈提议，称'totally unacceptable'，美股期货应声下跌"
+  },
   "crypto": {
     "btc": {
       "price": 80953.2,
-      "source": "Kraken",
+      "source": "Kraken (from prior update)",
       "change_24h": "+0.35% (approx)"
     },
     "eth": {
       "price": 2328.26,
-      "source": "Kraken",
+      "source": "Kraken (from prior update)",
       "change_24h": "+0.4% (approx)"
     }
+  },
+  "oil": {
+    "brent": "飙升",
+    "note": "布伦特原油大涨，特朗普拒绝伊朗方案后霍尔木兹海峡复航前景恶化，上周五阿联酋富查伊拉遭袭后油价已涨5.8%"
   },
   "news": [
     {
       "source": "CNBC",
-      "title": "Alphabet rallies 160% in year, reflecting value of owning most of AI stack",
-      "url": "https://www.cnbc.com/2026/05/10/alphabet-160percent-rally-in-year-reflects-value-of-owning-most-of-ai-stack.html"
+      "title": "Stock futures slide as Iran war negotiations collapse — Trump calls Iran's offer 'totally unacceptable'",
+      "url": "https://www.cnbc.com/2026/05/10/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "US stock futures fall, oil surges as Trump rejects Iran's offer to end war",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-fall-oil-surges-as-trump-calls-irans-latest-offer-to-end-war-totally-unacceptable-187e3d87"
     },
     {
       "source": "CNBC",
-      "title": "SEC delays prediction markets ETFs, echoing bitcoin fund battle",
-      "url": "https://www.cnbc.com/2026/05/10/sec-prediction-markets-etfs-trading-launch-delay.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "Saudi Aramco Q1 profit jumps 26% as key pipeline reaches capacity amid Iran war",
-      "url": "https://www.cnbc.com/2026/05/10/saudi-aramco-q1-profit-jumps-26percent-as-key-pipeline-reaches-capacity.html"
-    },
-    {
-      "source": "WSJ/MW",
-      "title": "S&P 500 walking tightrope to fresh record highs — handful of names doing heavy lifting",
-      "url": "https://www.marketwatch.com/story/stocks-are-walking-a-tightrope-to-fresh-record-highs-as-a-handful-of-names-do-most-of-the-heavy-lifting-fe5a166a"
-    },
-    {
-      "source": "WSJ/MW",
-      "title": "eBay permanently bans GameStop CEO Ryan Cohen following takeover attempt",
-      "url": "https://www.marketwatch.com/story/ebay-permanently-bans-gamestop-ceo-ryan-cohen-for-putting-its-community-at-risk-following-takeover-attempt-71b44c37"
+      "title": "From Singapore to Brussels, world leaders eye Trump-Xi summit from afar",
+      "url": "https://www.cnbc.com/2026/05/11/trump-xi-summit-global-reaction.html"
     },
     {
       "source": "Bloomberg",
-      "title": "Qatar sends first LNG shipment through Hormuz since war started",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-10/qatar-sends-first-lng-ship-through-hormuz-since-war-video"
+      "title": "Tencent, Alibaba Face Slowing Growth as AI Costs Mount",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-10/tencent-alibaba-face-slowing-growth-as-ai-costs-mount"
     },
     {
       "source": "Bloomberg",
-      "title": "Drone hits ship near Qatar as US awaits Iran peace plan response",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-awaits-iran-reply-as-aramco-says-hormuz-opening-no-quick-fix"
+      "title": "Yen Bears Retreat as Intervention Seen Capping Currency Weakness",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-10/yen-bears-retreat-as-intervention-seen-capping-currency-weakness"
     },
     {
       "source": "Bloomberg",
-      "title": "Hantavirus-hit cruise ship begins evacuation in Canary Islands",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-10/hantavirus-hit-cruise-ship-begins-evacuation-in-canary-islands"
+      "title": "Oil Jumps as Hormuz Stays Shut After Trump Rebuffs Iran's Offer",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-10/oil-jumps-as-hormuz-stays-shut-after-trump-rebuffs-irans-offer"
+    },
+    {
+      "source": "Bloomberg/Pimco",
+      "title": "Iran war could prompt Federal Reserve to raise rates, Pimco says",
+      "url": "https://www.ft.com/content/iran-war-fed-rate-pimco"
+    },
+    {
+      "source": "SCMP",
+      "title": "Israel's election may end the Netanyahu era but not the 'forever wars'",
+      "url": "https://www.scmp.com/news/israel-election-netanyahu"
+    },
+    {
+      "source": "AP News",
+      "title": "US stocks hit records — S&P 500 +0.8%, Nasdaq +1.7%, Dow +0.02% on strong jobs report",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-b7ff696f0770489a60427121a6931ada"
+    },
+    {
+      "source": "WSJ",
+      "title": "Stocks sink in broad AI rout sparked by China's DeepSeek — then recover",
+      "url": "https://www.wsj.com/finance/stocks/deepseek-ai-rout-2026"
     }
   ],
-  "summary": "周日（5月10日）全球主要股市休市。BTC 0,953，ETH ,328，24h小幅上涨。本周焦点：伊朗局势（霍尔木兹海峡复航进展）、SEC预测市场ETF裁决、Alphabet AI行情持续强势。"
+  "summary": "周一5/11 A股盘前：上周五美股S&P 500和纳指双双创历史收盘新高（+0.84%/+1.71%），4月非农超预期。但周末特朗普拒绝伊朗和谈方案（'totally unacceptable'），霍尔木兹海峡复航前景恶化，美股期货跌约0.4%，油价飙升。A股上周五上证平收4,180，深成指-0.50%，创业板-0.96%，军工板块强势。焦点：美伊谈判破裂、霍尔木兹航运、中美领导人会晤预期、DeepSeek融资10亿美元AI行业影响。"
 }

@@ -1,140 +1,54 @@
 {
-  "timestamp": "2026-05-08 15:05",
-  "trading_day": "2026-05-08",
-  "indexes": {
+  "updateTime": "2026-05-11 11:42",
+  "period": "midday",
+  "marketStatus": "open",
+  "indices": {
     "上证指数": {
-      "price": 4179.95,
-      "change_pct": 0.0,
-      "change": -0.14,
-      "high": 4183.06,
-      "low": 4154.25,
-      "open": 4163.85,
-      "prev_close": 4180.09,
-      "volume": 697019094,
-      "amount": 1331673066130.8
+      "code": "000001",
+      "current": 4219.13,
+      "change_pct": 0.94,
+      "open": 4201.35,
+      "high": 4220.25,
+      "low": 4186.08,
+      "prev_close": 4179.95
+    },
+    "深证成指": {
+      "code": "399001",
+      "current": 15895.75,
+      "change_pct": 2.13,
+      "open": 15697.44,
+      "high": 15901.02,
+      "low": 15622.33,
+      "prev_close": 15563.8
+    },
+    "创业板指": {
+      "code": "399006",
+      "current": 3911.32,
+      "change_pct": 3.03,
+      "open": 3829.61,
+      "high": 3914.54,
+      "low": 3797.5,
+      "prev_close": 3796.13
     },
     "沪深300": {
-      "price": 4871.91,
-      "change_pct": -0.58,
-      "change": -28.6,
-      "high": 4887.21,
-      "low": 4849.99,
-      "open": 4871.12,
-      "prev_close": 4900.51,
-      "volume": 251720996,
-      "amount": 716546104146.0
+      "code": "000300",
+      "current": 4940.41,
+      "change_pct": 1.41,
+      "open": 4902.28,
+      "high": 4943.66,
+      "low": 4889.57,
+      "prev_close": 4871.91
     },
-    "科创50": {
-      "price": 1640.46,
-      "change_pct": -2.29,
-      "change": -38.43,
-      "high": 1655.57,
-      "low": 1625.61,
-      "open": 1653.31,
-      "prev_close": 1678.89,
-      "volume": 15005074,
-      "amount": 134384676003.0
-    },
-    "上证50": {
-      "price": 3003.58,
-      "change_pct": -0.85,
-      "change": -25.61,
-      "high": 3015.41,
-      "low": 2990.01,
-      "open": 3014.47,
-      "prev_close": 3029.19,
-      "volume": 50496714,
-      "amount": 181204517290.0
-    },
-    "中证500": {
-      "price": 8694.17,
-      "change_pct": -0.03,
-      "change": -2.63,
-      "high": 8706.33,
-      "low": 8616.22,
-      "open": 8638.84,
-      "prev_close": 8696.8,
-      "volume": 271143535,
-      "amount": 609002654328.0
+    "恒生指数": {
+      "code": "HSI",
+      "current": 26305.86,
+      "change": -87.85,
+      "change_pct": -0.33,
+      "high": 26354.42,
+      "low": 26219.26
     }
   },
-  "sectors": {
-    "top5": [
-      {
-        "name": "印染",
-        "change_pct": 5.46,
-        "up": 4,
-        "down": 0
-      },
-      {
-        "name": "房产租赁经纪",
-        "change_pct": 4.44,
-        "up": 3,
-        "down": 0
-      },
-      {
-        "name": "诊断服务",
-        "change_pct": 4.17,
-        "up": 5,
-        "down": 0
-      },
-      {
-        "name": "机器人",
-        "change_pct": 3.6,
-        "up": 18,
-        "down": 2
-      },
-      {
-        "name": "光学元件",
-        "change_pct": 3.41,
-        "up": 19,
-        "down": 5
-      }
-    ],
-    "bottom5": [
-      {
-        "name": "粘胶",
-        "change_pct": -3.27,
-        "up": 0,
-        "down": 3
-      },
-      {
-        "name": "镍",
-        "change_pct": -3.23,
-        "up": 0,
-        "down": 1
-      },
-      {
-        "name": "钨",
-        "change_pct": -3.22,
-        "up": 0,
-        "down": 4
-      },
-      {
-        "name": "综合电力设备商",
-        "change_pct": -3.11,
-        "up": 0,
-        "down": 2
-      },
-      {
-        "name": "涂料",
-        "change_pct": -2.75,
-        "up": 0,
-        "down": 2
-      }
-    ]
-  },
-  "north_flow": {
-    "沪股通": {
-      "net_buy": 0.0,
-      "net_inflow": 0.0,
-      "status": 3
-    },
-    "深股通": {
-      "net_buy": 0.0,
-      "net_inflow": 0.0,
-      "status": 3
-    }
-  },
-  "market_summary": {}
+  "northbound": null,
+  "sectors": null,
+  "notes": "指数数据来自新浪财经实时行情。北向资金和板块数据暂不可用(网络限制)"
 }

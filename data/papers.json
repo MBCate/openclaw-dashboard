@@ -1,7 +1,7 @@
 {
-  "total_papers": 67,
-  "new_finds": 5,
-  "last_updated": "2026-05-10",
+  "total_papers": 74,
+  "new_finds": 12,
+  "last_updated": "2026-05-11",
   "weekly_top5": [
     {
       "arxiv_id": "2605.06192",
@@ -121,6 +121,151 @@
     }
   ],
   "papers": [
+    {
+      "title": "Ground4D: Spatially-Grounded Feedforward 4D Reconstruction for Unstructured Off-Road Scenes",
+      "authors": "Wang, Shuo; Mei, Jilin; Liu, Fuyang; Guan, Wenfei; Kong, Fanjie; Zhao, Zhihua; Wang, Shuai; Min, Chen; Hu, Yu",
+      "arxiv_id": "2605.04435",
+      "date": "2026-05-06",
+      "categories": [
+        "cs.CV"
+      ],
+      "keywords": [
+        "4D reconstruction",
+        "off-road",
+        "3D Gaussian Splatting",
+        "feedforward"
+      ],
+      "relevance_score": 4,
+      "status": "新发现",
+      "abstract": "Feedforward Gaussian Splatting for efficient 4D reconstruction in unstructured off-road scenes.",
+      "topic": "3D perception",
+      "source": "arXiv search"
+    },
+    {
+      "title": "Conditional Flow-VAE for Safety-Critical Traffic Scenario Generation",
+      "authors": "Gong, Zimu; Zhang, Brian Zhaoning; Zhang, Chris; Wong, Kelvin; Urtasun, Raquel",
+      "arxiv_id": "2605.04366",
+      "date": "2026-05-06",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "keywords": [
+        "traffic scenario generation",
+        "Flow-VAE",
+        "safety-critical",
+        "Waabi/Urtasun"
+      ],
+      "relevance_score": 5,
+      "status": "新发现",
+      "abstract": "Safety-critical traffic scenario generation using conditional Flow-VAE. ICRA 2026.",
+      "topic": "simulation/scenario generation",
+      "source": "arXiv search"
+    },
+    {
+      "title": "InterFuserDVS: Event-Enhanced Sensor Fusion for Safe RL-Based Decision Making",
+      "authors": "Sakhaia, Mustafa; Sithua, Kaung; Okea, Min Khant Soe; Wielgosza, Maciej",
+      "arxiv_id": "2605.04355",
+      "date": "2026-05-05",
+      "categories": [
+        "cs.CV"
+      ],
+      "keywords": [
+        "event camera",
+        "sensor fusion",
+        "RL",
+        "DVS",
+        "autonomous driving"
+      ],
+      "relevance_score": 4,
+      "status": "新发现",
+      "abstract": "Event-enhanced sensor fusion using DVS cameras for safe RL-based decision making in autonomous driving.",
+      "topic": "sensor fusion",
+      "source": "arXiv search"
+    },
+    {
+      "title": "Dual-Foundation Models for Unsupervised Domain Adaptation",
+      "authors": "Cheon, Yerin; Balasubramanian, Aruna; Rameau, Francois",
+      "arxiv_id": "2605.03365",
+      "date": "2026-05-05",
+      "categories": [
+        "cs.CV"
+      ],
+      "keywords": [
+        "domain adaptation",
+        "semantic segmentation",
+        "foundation models",
+        "autonomous driving"
+      ],
+      "relevance_score": 3,
+      "status": "新发现",
+      "abstract": "Dual-foundation models for unsupervised domain adaptation in semantic segmentation. ICPR 2026.",
+      "topic": "domain adaptation",
+      "source": "arXiv search"
+    },
+    {
+      "title": "Physical Adversarial Clothing Evades Visible-Thermal Detectors via Non-Overlapping RGB-T Pattern",
+      "authors": "Zhu, Xiaopei; Zeng, Guanning; Hu, Zhanhao; Zhu, Jun; Hu, Xiaolin",
+      "arxiv_id": "2605.04675",
+      "date": "2026-05-06",
+      "categories": [
+        "cs.CV"
+      ],
+      "keywords": [
+        "adversarial clothing",
+        "visible-thermal detection",
+        "autonomous driving safety",
+        "RGB-T"
+      ],
+      "relevance_score": 4,
+      "status": "新发现",
+      "abstract": "Physical adversarial attacks on RGB-T detectors using adversarial clothing with non-overlapping patterns.",
+      "topic": "adversarial robustness",
+      "source": "arXiv search"
+    },
+    {
+      "title": "CARD: A Multi-Modal Automotive Dataset for Dense 3D Reconstruction in Challenging Road Topography",
+      "authors": "Elazab, Gasser; Neuhaus, Frank; Koß, Tilman; Splietker, Malte; Date, Aditya; Unterreiner, Michael; Jansen, Maximilian; Hellwich, Olaf",
+      "arxiv_id": "2605.05014",
+      "date": "2026-05-06",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "keywords": [
+        "dataset",
+        "3D reconstruction",
+        "multi-modal",
+        "challenging road",
+        "off-road"
+      ],
+      "relevance_score": 4,
+      "status": "新发现",
+      "abstract": "Multi-modal automotive dataset for dense 3D reconstruction on challenging road topography beyond paved roads.",
+      "topic": "dataset/perception",
+      "source": "arXiv search"
+    },
+    {
+      "title": "Uncertainty Estimation via Hyperspherical Confidence Mapping",
+      "authors": "Choi, Eunseo; Kim, Ho-Yeon; Lee, Jaewon; jo, Taeyong; lee, Myungjun; Ahn, Heejin",
+      "arxiv_id": "2605.05964",
+      "date": "2026-05-07",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "keywords": [
+        "uncertainty estimation",
+        "hyperspherical",
+        "autonomous driving",
+        "confidence"
+      ],
+      "relevance_score": 3,
+      "status": "新发现",
+      "abstract": "Novel uncertainty estimation method via hyperspherical confidence mapping without costly sampling.",
+      "topic": "uncertainty estimation",
+      "source": "arXiv search"
+    },
     {
       "arxiv_id": "2605.05402",
       "title": "Intelligent CCTV for Urban Design: AI-Based Analysis of Soft Infrastructure at Intersections",

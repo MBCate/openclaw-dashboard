@@ -1,54 +1,75 @@
 {
-  "updateTime": "2026-05-11 11:42",
-  "period": "midday",
-  "marketStatus": "open",
+  "date": "2026-05-11",
+  "update_time": "2026-05-11 15:05",
   "indices": {
     "上证指数": {
-      "code": "000001",
-      "current": 4219.13,
-      "change_pct": 0.94,
-      "open": 4201.35,
-      "high": 4220.25,
-      "low": 4186.08,
-      "prev_close": 4179.95
+      "price": 4225.02,
+      "change_pct": 1.08,
+      "change_amount": 45.07,
+      "volume": 762736287,
+      "amount_亿": 15843.67
     },
     "深证成指": {
-      "code": "399001",
-      "current": 15895.75,
-      "change_pct": 2.13,
-      "open": 15697.44,
-      "high": 15901.02,
-      "low": 15622.33,
-      "prev_close": 15563.8
+      "price": 15899.3,
+      "change_pct": 2.16,
+      "change_amount": 335.5,
+      "volume": 91163485896,
+      "amount_亿": 19544.95
     },
     "创业板指": {
-      "code": "399006",
-      "current": 3911.32,
-      "change_pct": 3.03,
-      "open": 3829.61,
-      "high": 3914.54,
-      "low": 3797.5,
-      "prev_close": 3796.13
+      "price": 3928.97,
+      "change_pct": 3.5,
+      "change_amount": 132.85,
+      "volume": 26404616003,
+      "amount_亿": 9228.47
     },
     "沪深300": {
-      "code": "000300",
-      "current": 4940.41,
-      "change_pct": 1.41,
-      "open": 4902.28,
-      "high": 4943.66,
-      "low": 4889.57,
-      "prev_close": 4871.91
+      "price": 4951.84,
+      "change_pct": 1.64,
+      "change_amount": 79.92,
+      "volume": 305734801,
+      "amount_亿": 9044.79
     },
-    "恒生指数": {
-      "code": "HSI",
-      "current": 26305.86,
-      "change": -87.85,
-      "change_pct": -0.33,
-      "high": 26354.42,
-      "low": 26219.26
+    "科创50": {
+      "price": 1687.64,
+      "change_pct": 2.88,
+      "change_amount": 47.18,
+      "volume": 18294058,
+      "amount_亿": 1830.92
     }
   },
-  "northbound": null,
-  "sectors": null,
-  "notes": "指数数据来自新浪财经实时行情。北向资金和板块数据暂不可用(网络限制)"
+  "market_breadth": {
+    "description": "三大指数全线大涨，沪指站上4200点创近11年新高",
+    "total_volume_avg": "合计成交超4.4万亿"
+  },
+  "north_flow": {
+    "date": "2026-05-11",
+    "note": "东财数据源暂不可达"
+  },
+  "industry_boards": {
+    "note": "存储芯片、半导体领涨，市场全线飘红",
+    "top5": [
+      {
+        "name": "存储芯片",
+        "change_pct_desc": "大涨"
+      },
+      {
+        "name": "半导体",
+        "change_pct_desc": "大涨"
+      },
+      {
+        "name": "AI算力",
+        "change_pct_desc": "大涨"
+      },
+      {
+        "name": "科创50",
+        "change_pct_desc": "+2.88%"
+      },
+      {
+        "name": "创业板指",
+        "change_pct_desc": "+3.50%"
+      }
+    ],
+    "bottom5": []
+  }
 }

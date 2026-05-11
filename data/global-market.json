@@ -1,120 +1,136 @@
 {
-  "timestamp": "2026-05-11T09:15:00+08:00",
+  "timestamp": "2026-05-11T21:30:00+08:00",
   "date": "2026-05-11",
-  "market_status": "Monday — A-share pre-market (9:15), US futures down, oil surging",
+  "market_status": "Monday evening — A-share closed for day, US session live, oil surging, crypto flat",
   "indices": {
     "shanghai_composite": {
-      "previous_close": 4179.95,
-      "change_pct": "0.00%",
-      "note": "上证综指上周五平收"
+      "value": "N/A",
+      "change_pct": "N/A",
+      "note": "A股周一收盘数据待更新"
     },
     "shenzhen_component": {
-      "previous_close": 15563.80,
-      "change_pct": "-0.50%",
-      "note": "深证成指上周五跌0.50%"
+      "value": "N/A",
+      "change_pct": "N/A",
+      "note": "深证成指周一收盘数据待更新"
     },
     "chi_next": {
-      "previous_close": 3796.13,
-      "change_pct": "-0.96%",
-      "note": "创业板指上周五跌0.96%"
+      "value": "N/A",
+      "change_pct": "N/A",
+      "note": "创业板指周一收盘数据待更新"
     },
     "csi300": {
       "value": "N/A",
-      "note": "沪深300数据未获取"
+      "note": "沪深300周一收盘数据待更新"
     },
     "sp500": {
-      "previous_close": 7398.93,
-      "change_pct": "+0.84%",
-      "record": true,
-      "note": "S&P 500上周五创历史新高7,398.93"
+      "previous_close": 7383.00,
+      "change_pct": "-0.21%",
+      "note": "S&P 500周一回落0.21%至7,383，上周五创历史新高后回调"
     },
     "nasdaq": {
-      "previous_close": 26247.08,
-      "change_pct": "+1.71%",
-      "record": true,
-      "note": "纳斯达克上周五创历史新高26,247.08"
+      "value": "微跌-0.1%",
+      "change_pct": "-0.10%",
+      "note": "纳斯达克周一微跌0.1%，科技股承压"
     },
     "dow_jones": {
-      "previous_close": 49609.16,
-      "change_pct": "+0.02%",
-      "note": "道琼斯上周五微涨至49,609.16"
+      "value": "下跌",
+      "change_pct": "N/A",
+      "note": "道琼斯周一回落，市场避险情绪升温"
     },
     "hang_seng": {
       "value": "N/A",
-      "note": "港股数据未获取"
+      "note": "恒生指数周一收盘数据待更新"
     }
   },
   "futures_premarket": {
-    "us_futures": "下跌约0.4%",
-    "note": "特朗普拒绝伊朗和谈提议，称'totally unacceptable'，美股期货应声下跌"
+    "us_futures": "下跌，S&P 500期货-0.4%",
+    "note": "特朗普拒绝伊朗和谈提议后，美股期货承压下行，霍尔木兹海峡复航前景恶化"
   },
   "crypto": {
     "btc": {
-      "price": 80953.2,
-      "source": "Kraken (from prior update)",
-      "change_24h": "+0.35% (approx)"
+      "price": 81224.17,
+      "change_24h": "+$263",
+      "source": "Fortune (2026-05-11 9:15am ET)",
+      "change_pct": "+0.33%"
     },
     "eth": {
-      "price": 2328.26,
-      "source": "Kraken (from prior update)",
-      "change_24h": "+0.4% (approx)"
+      "price": 2330.99,
+      "change_24h": "+$1.84",
+      "source": "Fortune (2026-05-11 9:15am ET)",
+      "change_pct": "+0.08%"
     }
   },
   "oil": {
-    "brent": "飙升",
-    "note": "布伦特原油大涨，特朗普拒绝伊朗方案后霍尔木兹海峡复航前景恶化，上周五阿联酋富查伊拉遭袭后油价已涨5.8%"
+    "brent": "$103+",
+    "change_pct": "飙升",
+    "note": "布伦特原油突破$103，特朗普拒绝伊朗方案后霍尔木兹海峡持续关闭，沙特阿美CEO称年内无法恢复常态"
   },
   "news": [
     {
       "source": "CNBC",
-      "title": "Stock futures slide as Iran war negotiations collapse — Trump calls Iran's offer 'totally unacceptable'",
-      "url": "https://www.cnbc.com/2026/05/10/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "US stock futures fall, oil surges as Trump rejects Iran's offer to end war",
-      "url": "https://www.marketwatch.com/story/u-s-stock-futures-fall-oil-surges-as-trump-calls-irans-latest-offer-to-end-war-totally-unacceptable-187e3d87"
+      "title": "Brent oil tops $103 after Trump dismisses Iran's peace proposal response",
+      "url": "https://www.cnbc.com/2026/05/11/oil-price-today-brent-wti-iran-war-trump.html"
     },
     {
       "source": "CNBC",
-      "title": "From Singapore to Brussels, world leaders eye Trump-Xi summit from afar",
-      "url": "https://www.cnbc.com/2026/05/11/trump-xi-summit-global-reaction.html"
+      "title": "Hantavirus cases spark surge in pharma and biotech stocks — here's why",
+      "url": "https://www.cnbc.com/2026/05/11/hantavirus-cases-pharma-stocks-surge-moderna-novavax.html"
+    },
+    {
+      "source": "CNBC",
+      "title": "Micron shares rising again despite weak market — memory chip rally unstoppable",
+      "url": "https://www.cnbc.com/2026/05/11/micron-shares-are-rising-again-despite-weak-overall-market-why-memory-chip-rally-seems-unstoppable.html"
+    },
+    {
+      "source": "CNBC",
+      "title": "Cerebras bumps up IPO range to raise up to $4.8 billion",
+      "url": "https://www.cnbc.com/2026/05/11/cerebras-raises-ipo-range.html"
+    },
+    {
+      "source": "CNBC",
+      "title": "Circle raises $222M from BlackRock, Apollo for Arc blockchain presale",
+      "url": "https://www.cnbc.com/2026/05/11/circle-closes-222-million-from-blackrock-apollo-for-arc-blockchain.html"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Oil market won't return to normal this year if Iran conflict not solved within weeks — Aramco CEO",
+      "url": "https://www.marketwatch.com/story/oil-market-wont-return-to-normal-this-year-if-iran-conflict-isnt-solved-within-weeks-aramco-ceo-says-085513ca"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Goldman Sachs: Investors now tell companies to invest in growth, not buybacks",
+      "url": "https://www.marketwatch.com/story/investors-are-now-telling-companies-to-invest-in-growth-not-their-own-stocks-goldman-sachs-finds-6a71c0cd"
     },
     {
       "source": "Bloomberg",
-      "title": "Tencent, Alibaba Face Slowing Growth as AI Costs Mount",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-10/tencent-alibaba-face-slowing-growth-as-ai-costs-mount"
+      "title": "China warns of imported inflation risk as oil prices increase",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-11/china-warns-of-imported-inflation-risk-as-oil-prices-increase"
     },
     {
       "source": "Bloomberg",
-      "title": "Yen Bears Retreat as Intervention Seen Capping Currency Weakness",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-10/yen-bears-retreat-as-intervention-seen-capping-currency-weakness"
+      "title": "Oil climbs as Hormuz stays shut after Trump rebuffs Iran's offer",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-10/latest-oil-market-news-and-analysis-for-may-11"
     },
     {
       "source": "Bloomberg",
-      "title": "Oil Jumps as Hormuz Stays Shut After Trump Rebuffs Iran's Offer",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-10/oil-jumps-as-hormuz-stays-shut-after-trump-rebuffs-irans-offer"
+      "title": "India considering emergency measures to save foreign exchange",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-11/india-considering-emergency-measures-to-save-foreign-exchange"
     },
     {
-      "source": "Bloomberg/Pimco",
-      "title": "Iran war could prompt Federal Reserve to raise rates, Pimco says",
-      "url": "https://www.ft.com/content/iran-war-fed-rate-pimco"
+      "source": "MarketWatch",
+      "title": "Kevin Warsh will be richest Fed chair ever — wealth mystery",
+      "url": "https://www.marketwatch.com/story/kevin-warshs-undisclosed-wealth-leaves-a-100-million-mystery-atop-the-federal-reserve-19f0dc78"
     },
     {
-      "source": "SCMP",
-      "title": "Israel's election may end the Netanyahu era but not the 'forever wars'",
-      "url": "https://www.scmp.com/news/israel-election-netanyahu"
+      "source": "Economist Times",
+      "title": "Why are US stock market futures down — Iran tensions hit markets",
+      "url": "https://economictimes.indiatimes.com/news/international/us/why-are-us-stock-market-futures-down-today-and-will-sp-500-nasdaq-and-dow-jones-stay-in-red-or-turn-green-global-tensions-hit-markets/articleshow/131000973.cms"
     },
     {
-      "source": "AP News",
-      "title": "US stocks hit records — S&P 500 +0.8%, Nasdaq +1.7%, Dow +0.02% on strong jobs report",
-      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-b7ff696f0770489a60427121a6931ada"
-    },
-    {
-      "source": "WSJ",
-      "title": "Stocks sink in broad AI rout sparked by China's DeepSeek — then recover",
-      "url": "https://www.wsj.com/finance/stocks/deepseek-ai-rout-2026"
+      "source": "Bloomberg",
+      "title": "Bill Gates-backed Fervo Energy boosts IPO target to $1.8B",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-11/bill-gates-backed-fervo-energy-boosts-ipo-target-to-1-8-billion"
     }
   ],
-  "summary": "周一5/11 A股盘前：上周五美股S&P 500和纳指双双创历史收盘新高（+0.84%/+1.71%），4月非农超预期。但周末特朗普拒绝伊朗和谈方案（'totally unacceptable'），霍尔木兹海峡复航前景恶化，美股期货跌约0.4%，油价飙升。A股上周五上证平收4,180，深成指-0.50%，创业板-0.96%，军工板块强势。焦点：美伊谈判破裂、霍尔木兹航运、中美领导人会晤预期、DeepSeek融资10亿美元AI行业影响。"
+  "summary": "周一5/11晚间：美股上周五创历史新高后周一回调（S&P 500 -0.21%，Nasdaq -0.1%），特朗普拒绝伊朗和谈导致霍尔木兹海峡持续封锁。布伦特原油冲破$103，沙特阿美CEO警告年内油价无法恢复常态。BTC $81,224 (+0.33%)，ETH $2,331 (+0.08%)，加密市场变动不大。中国警告输入性通胀风险，印度考虑紧急外汇措施。美股期货下跌约0.4%，市场聚焦美伊局势及5/15中美领导人会晤预期。医药股因汉坦病毒病例活跃，Micron记忆芯片持续走强，Cerebras IPO目标上调至$48亿。"
 }

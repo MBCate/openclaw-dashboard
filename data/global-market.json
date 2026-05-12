@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-05-11T21:30:00+08:00",
-  "date": "2026-05-11",
-  "market_status": "Monday evening — A-share closed for day, US session live, oil surging, crypto flat",
+  "timestamp": "2026-05-12T09:18:13+08:00",
+  "date": "2026-05-12",
+  "market_status": "Tuesday morning 9:15 — Pre-market, A-share about to open, oil at $98+, Iran tensions simmer, Asian markets rise",
   "indices": {
     "shanghai_composite": {
       "value": "N/A",
@@ -23,7 +23,7 @@
       "note": "沪深300周一收盘数据待更新"
     },
     "sp500": {
-      "previous_close": 7383.00,
+      "previous_close": 7383.0,
       "change_pct": "-0.21%",
       "note": "S&P 500周一回落0.21%至7,383，上周五创历史新高后回调"
     },
@@ -38,13 +38,15 @@
       "note": "道琼斯周一回落，市场避险情绪升温"
     },
     "hang_seng": {
-      "value": "N/A",
-      "note": "恒生指数周一收盘数据待更新"
+      "value": "上涨",
+      "change_pct": "N/A",
+      "note": "恒生指数周二早盘跟随亚洲市场走高，特朗普邀CEO团访华提振信心"
     }
   },
   "futures_premarket": {
-    "us_futures": "下跌，S&P 500期货-0.4%",
-    "note": "特朗普拒绝伊朗和谈提议后，美股期货承压下行，霍尔木兹海峡复航前景恶化"
+    "us_futures": "S&P 500期货小幅波动，等待CPI数据",
+    "asia_open": "亚洲股市周二多数走高，投资者无视特朗普停火警告",
+    "note": "美股期货窄幅震荡，市场等待通胀数据和美伊局势进一步明朗，5/15中美领导人会晤预期支撑风险情绪"
   },
   "crypto": {
     "btc": {
@@ -61,11 +63,56 @@
     }
   },
   "oil": {
-    "brent": "$103+",
-    "change_pct": "飙升",
-    "note": "布伦特原油突破$103，特朗普拒绝伊朗方案后霍尔木兹海峡持续关闭，沙特阿美CEO称年内无法恢复常态"
+    "wti_crude": "$98.45",
+    "change_pct": "+4.2% (overnight)",
+    "note": "WTI原油回落至$98.45（从亚洲早盘$100+高位），特朗普拒绝伊朗和谈后霍尔木兹海峡持续封锁，布伦特仍处$103+"
   },
   "news": [
+    {
+      "source": "MarketWatch",
+      "title": "Oil price charts produced a pattern not seen in 36 years",
+      "url": "https://www.marketwatch.com/story/oil-price-pattern-not-seen-in-36-years"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Meet the Nvidias of power — 5 stocks winning Big Tech's $700 billion AI energy grab",
+      "url": "https://www.marketwatch.com/story/nvidia-of-power-5-stocks-winning-ai-energy-grab"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "AI investment 'advice' is 50% more likely to pump you up — and trip you into costly blunders",
+      "url": "https://www.marketwatch.com/story/ai-investment-advice-pump-trip-blunders"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "AST SpaceMobile's stock drops as earnings come with a big disappointment",
+      "url": "https://www.marketwatch.com/story/ast-spacemobile-stock-drops-earnings-disappointment"
+    },
+    {
+      "source": "CNBC",
+      "title": "OpenAI trial: Nadella says Musk never raised concerns to him about Microsoft investment",
+      "url": "https://www.cnbc.com/2026/05/11/openai-trial-nadella-testimony.html"
+    },
+    {
+      "source": "CNBC",
+      "title": "Trump invites Elon Musk, Tim Cook, Larry Fink and other CEOs to join China trip for Xi summit",
+      "url": "https://www.cnbc.com/2026/05/11/trump-china-trip-ceos-musk-cook-fink-xi-summit.html"
+    },
+    {
+      "source": "CNBC",
+      "title": "Asia markets rise as investors brush off Trump's ceasefire warning",
+      "url": "https://www.cnbc.com/2026/05/11/asia-markets-open.html"
+    },
+    {
+      "source": "CNBC",
+      "title": "Oil prices extend gains as Trump comments diminish hopes for a U.S.-Iran peace deal",
+      "url": "https://www.cnbc.com/2026/05/11/oil-prices-rise-iran-war-trump.html"
+    },
+    {
+      "source": "CNBC",
+      "title": "Stock futures are little changed as traders await inflation reading, monitor Iran war developments: Live updates",
+      "url": "https://www.cnbc.com/2026/05/11/stock-market-today-live-updates.html"
+    },
     {
       "source": "CNBC",
       "title": "Brent oil tops $103 after Trump dismisses Iran's peace proposal response",
@@ -120,17 +167,7 @@
       "source": "MarketWatch",
       "title": "Kevin Warsh will be richest Fed chair ever — wealth mystery",
       "url": "https://www.marketwatch.com/story/kevin-warshs-undisclosed-wealth-leaves-a-100-million-mystery-atop-the-federal-reserve-19f0dc78"
-    },
-    {
-      "source": "Economist Times",
-      "title": "Why are US stock market futures down — Iran tensions hit markets",
-      "url": "https://economictimes.indiatimes.com/news/international/us/why-are-us-stock-market-futures-down-today-and-will-sp-500-nasdaq-and-dow-jones-stay-in-red-or-turn-green-global-tensions-hit-markets/articleshow/131000973.cms"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Bill Gates-backed Fervo Energy boosts IPO target to $1.8B",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-11/bill-gates-backed-fervo-energy-boosts-ipo-target-to-1-8-billion"
     }
   ],
-  "summary": "周一5/11晚间：美股上周五创历史新高后周一回调（S&P 500 -0.21%，Nasdaq -0.1%），特朗普拒绝伊朗和谈导致霍尔木兹海峡持续封锁。布伦特原油冲破$103，沙特阿美CEO警告年内油价无法恢复常态。BTC $81,224 (+0.33%)，ETH $2,331 (+0.08%)，加密市场变动不大。中国警告输入性通胀风险，印度考虑紧急外汇措施。美股期货下跌约0.4%，市场聚焦美伊局势及5/15中美领导人会晤预期。医药股因汉坦病毒病例活跃，Micron记忆芯片持续走强，Cerebras IPO目标上调至$48亿。"
+  "summary": "周二5/12早盘预览：A 股即将开盘，隔夜油价回落至$98.45但伊朗局势仍紧张。美股期货小幅波动，等待 CPI 数据。亚洲股市多数上涨，投资者对5/15特朗普访华峰会抱期待。特朗普邀请马斯克、库克、芬克等CEO随行访华。OpenAI审判中纳德拉称马斯克从未向其表达对微软投资的担忧。美油1小时内波动$2+，原油走势图出现36年未见的技术形态。"
 }

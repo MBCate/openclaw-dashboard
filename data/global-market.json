@@ -1,173 +1,58 @@
 {
-  "timestamp": "2026-05-12T09:18:13+08:00",
-  "date": "2026-05-12",
-  "market_status": "Tuesday morning 9:15 — Pre-market, A-share about to open, oil at $98+, Iran tensions simmer, Asian markets rise",
-  "indices": {
-    "shanghai_composite": {
-      "value": "N/A",
-      "change_pct": "N/A",
-      "note": "A股周一收盘数据待更新"
-    },
-    "shenzhen_component": {
-      "value": "N/A",
-      "change_pct": "N/A",
-      "note": "深证成指周一收盘数据待更新"
-    },
-    "chi_next": {
-      "value": "N/A",
-      "change_pct": "N/A",
-      "note": "创业板指周一收盘数据待更新"
-    },
-    "csi300": {
-      "value": "N/A",
-      "note": "沪深300周一收盘数据待更新"
-    },
-    "sp500": {
-      "previous_close": 7383.0,
-      "change_pct": "-0.21%",
-      "note": "S&P 500周一回落0.21%至7,383，上周五创历史新高后回调"
-    },
-    "nasdaq": {
-      "value": "微跌-0.1%",
-      "change_pct": "-0.10%",
-      "note": "纳斯达克周一微跌0.1%，科技股承压"
-    },
-    "dow_jones": {
-      "value": "下跌",
-      "change_pct": "N/A",
-      "note": "道琼斯周一回落，市场避险情绪升温"
-    },
-    "hang_seng": {
-      "value": "上涨",
-      "change_pct": "N/A",
-      "note": "恒生指数周二早盘跟随亚洲市场走高，特朗普邀CEO团访华提振信心"
-    }
-  },
-  "futures_premarket": {
-    "us_futures": "S&P 500期货小幅波动，等待CPI数据",
-    "asia_open": "亚洲股市周二多数走高，投资者无视特朗普停火警告",
-    "note": "美股期货窄幅震荡，市场等待通胀数据和美伊局势进一步明朗，5/15中美领导人会晤预期支撑风险情绪"
+  "updatedAt": "2026-05-12T21:30:00+08:00",
+  "usMarkets": {
+    "s&p500": { "value": 7384.67, "change": -28.17, "changePercent": -0.38 },
+    "dowJones": { "value": 49657.43, "change": -47.04, "changePercent": -0.09 },
+    "nasdaq": { "value": 26072.40, "change": -201.72, "changePercent": -0.77 }
   },
   "crypto": {
-    "btc": {
-      "price": 81224.17,
-      "change_24h": "+$263",
-      "source": "Fortune (2026-05-11 9:15am ET)",
-      "change_pct": "+0.33%"
-    },
-    "eth": {
-      "price": 2330.99,
-      "change_24h": "+$1.84",
-      "source": "Fortune (2026-05-11 9:15am ET)",
-      "change_pct": "+0.08%"
-    }
+    "bitcoin": { "price": 80619, "change24hPercent": -0.47 },
+    "ethereum": { "price": 2283.63, "change24hPercent": -1.66 },
+    "solana": { "price": 94.99, "change24hPercent": -0.11 },
+    "ripple": { "price": 1.45, "change24hPercent": -0.90 },
+    "dogecoin": { "price": 0.1091, "change24hPercent": -0.57 }
   },
-  "oil": {
-    "wti_crude": "$98.45",
-    "change_pct": "+4.2% (overnight)",
-    "note": "WTI原油回落至$98.45（从亚洲早盘$100+高位），特朗普拒绝伊朗和谈后霍尔木兹海峡持续封锁，布伦特仍处$103+"
+  "commodities": {
+    "gold": { "price": 4697.00, "changePercent": -0.67 },
+    "wtiCrude": { "price": 101.30, "changePercent": 3.29 }
+  },
+  "forex": {
+    "eurUsd": 0.85,
+    "usdJpy": 157.15,
+    "gbpUsd": 0.735,
+    "usdCny": 6.81,
+    "usdHkd": 7.83
   },
   "news": [
     {
-      "source": "MarketWatch",
-      "title": "Oil price charts produced a pattern not seen in 36 years",
-      "url": "https://www.marketwatch.com/story/oil-price-pattern-not-seen-in-36-years"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Meet the Nvidias of power — 5 stocks winning Big Tech's $700 billion AI energy grab",
-      "url": "https://www.marketwatch.com/story/nvidia-of-power-5-stocks-winning-ai-energy-grab"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "AI investment 'advice' is 50% more likely to pump you up — and trip you into costly blunders",
-      "url": "https://www.marketwatch.com/story/ai-investment-advice-pump-trip-blunders"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "AST SpaceMobile's stock drops as earnings come with a big disappointment",
-      "url": "https://www.marketwatch.com/story/ast-spacemobile-stock-drops-earnings-disappointment"
+      "source": "CNBC",
+      "title": "Consumer prices rose 3.8% annually in April, the highest since May 2023",
+      "url": "https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html"
     },
     {
       "source": "CNBC",
-      "title": "OpenAI trial: Nadella says Musk never raised concerns to him about Microsoft investment",
-      "url": "https://www.cnbc.com/2026/05/11/openai-trial-nadella-testimony.html"
+      "title": "EBay rejects GameStop's $56 billion takeover bid, calling it 'neither credible nor attractive'",
+      "url": "https://www.cnbc.com/2026/05/12/ebay-rejects-gamestops-takeover-ryan-cohen.html"
     },
     {
       "source": "CNBC",
-      "title": "Trump invites Elon Musk, Tim Cook, Larry Fink and other CEOs to join China trip for Xi summit",
-      "url": "https://www.cnbc.com/2026/05/11/trump-china-trip-ceos-musk-cook-fink-xi-summit.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "Asia markets rise as investors brush off Trump's ceasefire warning",
-      "url": "https://www.cnbc.com/2026/05/11/asia-markets-open.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "Oil prices extend gains as Trump comments diminish hopes for a U.S.-Iran peace deal",
-      "url": "https://www.cnbc.com/2026/05/11/oil-prices-rise-iran-war-trump.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "Stock futures are little changed as traders await inflation reading, monitor Iran war developments: Live updates",
-      "url": "https://www.cnbc.com/2026/05/11/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "Brent oil tops $103 after Trump dismisses Iran's peace proposal response",
-      "url": "https://www.cnbc.com/2026/05/11/oil-price-today-brent-wti-iran-war-trump.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "Hantavirus cases spark surge in pharma and biotech stocks — here's why",
-      "url": "https://www.cnbc.com/2026/05/11/hantavirus-cases-pharma-stocks-surge-moderna-novavax.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "Micron shares rising again despite weak market — memory chip rally unstoppable",
-      "url": "https://www.cnbc.com/2026/05/11/micron-shares-are-rising-again-despite-weak-overall-market-why-memory-chip-rally-seems-unstoppable.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "Cerebras bumps up IPO range to raise up to $4.8 billion",
-      "url": "https://www.cnbc.com/2026/05/11/cerebras-raises-ipo-range.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "Circle raises $222M from BlackRock, Apollo for Arc blockchain presale",
-      "url": "https://www.cnbc.com/2026/05/11/circle-closes-222-million-from-blackrock-apollo-for-arc-blockchain.html"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Oil market won't return to normal this year if Iran conflict not solved within weeks — Aramco CEO",
-      "url": "https://www.marketwatch.com/story/oil-market-wont-return-to-normal-this-year-if-iran-conflict-isnt-solved-within-weeks-aramco-ceo-says-085513ca"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Goldman Sachs: Investors now tell companies to invest in growth, not buybacks",
-      "url": "https://www.marketwatch.com/story/investors-are-now-telling-companies-to-invest-in-growth-not-their-own-stocks-goldman-sachs-finds-6a71c0cd"
+      "title": "AI super rally has retail investors acting most aggressive since Covid trading frenzy",
+      "url": "https://www.cnbc.com/2026/05/12/ai-super-rally-has-retail-investors-acting-the-most-aggressive-since-trading-frenzy-during-covid.html"
     },
     {
       "source": "Bloomberg",
-      "title": "China warns of imported inflation risk as oil prices increase",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-11/china-warns-of-imported-inflation-risk-as-oil-prices-increase"
+      "title": "Treasuries Hold Losses as Rising Gas Costs Fuel Inflation",
+      "url": "https://www.bloomberg.com/markets"
     },
     {
       "source": "Bloomberg",
-      "title": "Oil climbs as Hormuz stays shut after Trump rebuffs Iran's offer",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-10/latest-oil-market-news-and-analysis-for-may-11"
+      "title": "Tech Firm CGI Picks Tim Hurlebaus as CEO After AI Fears Crush Share Price",
+      "url": "https://www.bloomberg.com/markets"
     },
     {
       "source": "Bloomberg",
-      "title": "India considering emergency measures to save foreign exchange",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-11/india-considering-emergency-measures-to-save-foreign-exchange"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Kevin Warsh will be richest Fed chair ever — wealth mystery",
-      "url": "https://www.marketwatch.com/story/kevin-warshs-undisclosed-wealth-leaves-a-100-million-mystery-atop-the-federal-reserve-19f0dc78"
+      "title": "Stocks and Bonds Hold Losses After Inflation Data: Markets Wrap",
+      "url": "https://www.bloomberg.com/markets"
     }
-  ],
-  "summary": "周二5/12早盘预览：A 股即将开盘，隔夜油价回落至$98.45但伊朗局势仍紧张。美股期货小幅波动，等待 CPI 数据。亚洲股市多数上涨，投资者对5/15特朗普访华峰会抱期待。特朗普邀请马斯克、库克、芬克等CEO随行访华。OpenAI审判中纳德拉称马斯克从未向其表达对微软投资的担忧。美油1小时内波动$2+，原油走势图出现36年未见的技术形态。"
+  ]
 }

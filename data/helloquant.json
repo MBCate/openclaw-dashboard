@@ -1,179 +1,47 @@
 {
-  "date": "2026-05-11",
-  "update_time": "2026-05-11 15:11",
+  "date": "2026-05-12",
+  "updated_at": "15:06",
   "crypto": {
     "BTC/USDT": {
-      "price": 80792.3,
-      "change_24h_pct": 3.53,
-      "indicators_1h": {
-        "rsi": 42.0,
-        "macd": 8.09,
-        "macd_signal": 104.97,
-        "macd_status": "死叉",
-        "ma5": 80806.54,
-        "ma20": 81187.15,
-        "bb_upper": 82048.38,
-        "bb_lower": 80325.92,
-        "trend": "偏空"
+      "price": 81038,
+      "change_24h_pct": 0.35,
+      "previous_data": {
+        "date": "2026-05-11",
+        "price": 80792,
+        "indicators_1h": {"rsi": 42.0, "macd": "死叉", "trend": "偏空"},
+        "indicators_4h": {"rsi": 56.6, "macd": "金叉", "trend": "偏多"}
       },
-      "indicators_4h": {
-        "rsi": 56.6,
-        "macd": 233.08,
-        "macd_signal": 198.21,
-        "macd_status": "金叉",
-        "ma5": 81316.9,
-        "ma20": 80601.7,
-        "bb_upper": 81819.93,
-        "bb_lower": 79383.47,
-        "trend": "偏多"
-      }
+      "source": "CoinGecko"
     },
     "ETH/USDT": {
-      "price": 2331.53,
-      "change_24h_pct": 10.13,
-      "indicators_1h": {
-        "rsi": 39.8,
-        "macd": 1.21,
-        "macd_signal": 4.64,
-        "macd_status": "死叉",
-        "ma5": 2332.87,
-        "ma20": 2344.9,
-        "bb_upper": 2376.93,
-        "bb_lower": 2312.88,
-        "trend": "偏空"
+      "price": 2302.74,
+      "change_24h_pct": -1.19,
+      "previous_data": {
+        "date": "2026-05-11",
+        "price": 2331.53,
+        "indicators_1h": {"rsi": 39.8, "macd": "死叉", "trend": "偏空"},
+        "indicators_4h": {"rsi": 59.3, "macd": "金叉", "trend": "偏多"}
       },
-      "indicators_4h": {
-        "rsi": 59.3,
-        "macd": 4.61,
-        "macd_signal": 1.24,
-        "macd_status": "金叉",
-        "ma5": 2349.41,
-        "ma20": 2320.95,
-        "bb_upper": 2368.55,
-        "bb_lower": 2273.36,
-        "trend": "偏多"
-      }
+      "source": "CoinGecko"
     }
   },
-  "a_shares": {
-    "上证指数": {
-      "price": 4225.0207,
-      "change_pct": 1.078
-    },
-    "深证成指": {
-      "price": 15899.302,
-      "change_pct": 2.156
-    },
-    "创业板指": {
-      "price": 3928.974,
-      "change_pct": 3.5
-    }
+  "strategies": {
+    "status": "data_only",
+    "strategy_pool": ["DoubleMa", "TripleMa", "Supertrend", "RSI", "MACD", "Bollinger", "Momentum", "MeanReversion"],
+    "last_backtest": "2026-01 (optimization: DoubleMa on BTC/USDT)",
+    "notes": "策略框架已就绪，当前未运行实时交易信号生成"
   },
   "futures": {
-    "沪金主力": {
-      "price": 1038.22,
-      "change_pct": -0.27
-    },
-    "沪银主力": {
-      "price": 19840.0,
-      "change_pct": 1.78
-    },
-    "沪铜主力": {
-      "price": 104550.0,
-      "change_pct": 1.5
-    },
-    "螺纹钢主力": {
-      "price": 3263.0,
-      "change_pct": -0.31
-    }
+    "沪金主力": {"price": 1038.22, "change_pct": -0.27},
+    "沪银主力": {"price": 19840.0, "change_pct": 1.78},
+    "沪铜主力": {"price": 104550.0, "change_pct": 1.50},
+    "螺纹钢主力": {"price": 3263.0, "change_pct": -0.31},
+    "沪深300期货": {"price": 4836.8, "change_pct": -0.53},
+    "中证500期货": {"price": 8620.8, "change_pct": -0.05},
+    "data_date": "2026-05-11"
   },
-  "crypto_signals": {
-    "DoubleMa": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 80783.3
-      },
-      "4h": {
-        "signal": "做多",
-        "current_price": 80783.3
-      }
-    },
-    "RSI": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 80783.3
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 80783.3
-      }
-    },
-    "MACD": {
-      "1h": {
-        "signal": "做空",
-        "current_price": 80783.3
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 80783.3
-      }
-    },
-    "Bollinger": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 80783.3
-      },
-      "4h": {
-        "signal": "做空",
-        "current_price": 80783.3
-      }
-    },
-    "Supertrend": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 80783.3
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 80783.3
-      }
-    },
-    "TripleMa": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 80783.3
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 80783.3
-      }
-    },
-    "Momentum": {
-      "1h": {
-        "signal": "做空",
-        "current_price": 80783.3
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 80783.3
-      }
-    },
-    "MeanReversion": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 80783.3
-      },
-      "4h": {
-        "signal": "做空",
-        "current_price": 80783.3
-      }
-    }
-  },
-  "sentiment": {
-    "crypto_fear_greed": {
-      "value": 48,
-      "classification": "Neutral",
-      "timestamp": "1778457600"
-    }
+  "a_shares_signals": {
+    "status": "no_live_signals",
+    "notes": "A股信号功能已架构，等待数据采集管道完善后激活"
   }
 }

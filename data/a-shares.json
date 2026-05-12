@@ -1,75 +1,80 @@
 {
-  "date": "2026-05-11",
-  "update_time": "2026-05-11 15:05",
+  "date": "2026-05-12",
+  "update_time": "2026-05-12 11:35 (午盘)",
   "indices": {
     "上证指数": {
-      "price": 4225.02,
-      "change_pct": 1.08,
-      "change_amount": 45.07,
-      "volume": 762736287,
-      "amount_亿": 15843.67
+      "price": 4208.0,
+      "change_pct": -0.4,
+      "note": "午盘小幅回调"
     },
     "深证成指": {
-      "price": 15899.3,
-      "change_pct": 2.16,
-      "change_amount": 335.5,
-      "volume": 91163485896,
-      "amount_亿": 19544.95
+      "price": 15757.36,
+      "change_pct": -0.89,
+      "note": "回调幅度较大"
     },
     "创业板指": {
-      "price": 3928.97,
-      "change_pct": 3.5,
-      "change_amount": 132.85,
-      "volume": 26404616003,
-      "amount_亿": 9228.47
+      "price": 3914.55,
+      "change_pct": -0.37,
+      "note": "相对抗跌"
     },
     "沪深300": {
-      "price": 4951.84,
-      "change_pct": 1.64,
-      "change_amount": 79.92,
-      "volume": 305734801,
-      "amount_亿": 9044.79
-    },
-    "科创50": {
-      "price": 1687.64,
-      "change_pct": 2.88,
-      "change_amount": 47.18,
-      "volume": 18294058,
-      "amount_亿": 1830.92
+      "price": 4936.52,
+      "change_pct": -0.31,
+      "note": "权重股小幅回落"
     }
   },
   "market_breadth": {
-    "description": "三大指数全线大涨，沪指站上4200点创近11年新高",
-    "total_volume_avg": "合计成交超4.4万亿"
+    "description": "三大指数午盘全线小幅回调，沪指4208点附近震荡",
+    "note": "深成指回调幅度最大，创业板相对抗跌"
   },
   "north_flow": {
-    "date": "2026-05-11",
-    "note": "东财数据源暂不可达"
+    "date": "2026-05-12",
+    "note": "午间数据暂未更新"
   },
   "industry_boards": {
-    "note": "存储芯片、半导体领涨，市场全线飘红",
     "top5": [
       {
-        "name": "存储芯片",
-        "change_pct_desc": "大涨"
+        "name": "涂料",
+        "change_pct": "+3.07%"
       },
       {
-        "name": "半导体",
-        "change_pct_desc": "大涨"
+        "name": "水力发电",
+        "change_pct": "+2.95%"
       },
       {
-        "name": "AI算力",
-        "change_pct_desc": "大涨"
+        "name": "体育",
+        "change_pct": "+2.93%"
       },
       {
-        "name": "科创50",
-        "change_pct_desc": "+2.88%"
+        "name": "半导体设备",
+        "change_pct": "+2.77%"
       },
       {
-        "name": "创业板指",
-        "change_pct_desc": "+3.50%"
+        "name": "光纤光缆",
+        "change_pct": "+2.61%"
       }
     ],
-    "bottom5": []
+    "bottom5": [
+      {
+        "name": "航天装备",
+        "change_pct": "-3.94%"
+      },
+      {
+        "name": "诊断服务",
+        "change_pct": "-4.41%"
+      },
+      {
+        "name": "稀土",
+        "change_pct": "-4.59%"
+      },
+      {
+        "name": "钴",
+        "change_pct": "-4.71%"
+      },
+      {
+        "name": "氟化工",
+        "change_pct": "-3.68%"
+      }
+    ]
   }
 }

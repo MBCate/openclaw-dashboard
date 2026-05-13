@@ -1,81 +1,31 @@
 {
-  "date": "2026-05-12",
-  "updated_at": "15:06",
+  "time": "2026-05-13 11:35",
+  "date": "2026-05-13",
+  "period": "noon",
   "indices": {
-    "上证指数": {
-      "latest": 4214.49,
-      "change": -10.53,
-      "change_pct": -0.25,
-      "open": 4229.28,
-      "high": 4230.18,
-      "low": 4199.34,
-      "pre_close": 4225.02,
-      "volume": 7189840,
-      "amount": 146527259,
-      "amount_billion": 14652.73
-    },
-    "深证成指": {
-      "latest": 15824.92,
-      "change": -74.38,
-      "change_pct": -0.47,
-      "open": 15952.79,
-      "high": 15952.79,
-      "low": 15711.27,
-      "pre_close": 15899.30,
-      "volume": 847817149,
-      "amount": 177738375,
-      "amount_billion": 17773.84
-    },
-    "创业板指": {
-      "latest": 3934.88,
-      "change": 5.91,
-      "change_pct": 0.15,
-      "open": 3947.14,
-      "high": 3954.99,
-      "low": 3897.82,
-      "pre_close": 3928.97,
-      "volume": 43314895,
-      "amount": 33169985,
-      "amount_billion": 3317.00
-    },
-    "沪深300": {
-      "latest": 4948.05,
-      "change": -3.79,
-      "change_pct": -0.08,
-      "open": 4965.02,
-      "high": 4971.30,
-      "low": 4926.79,
-      "pre_close": 4951.84,
-      "volume": 273812001,
-      "amount": 81935144,
-      "amount_billion": 8193.51
-    }
-  },
-  "total_amount_billion": 43937.08,
-  "market_summary": {
-    "trend": "三大指数高开低走，沪指微跌0.25%，创业板指微涨0.15%。早盘高开后全日单边走弱，沪指从开盘点位4229回落至4214，市场情绪偏谨慎。",
-    "style": "沪弱深更弱，权重股相对抗跌"
+    "上证指数": { "price": 4218.22, "change_pct": 0.09, "change": 3.73 },
+    "深证成指": { "price": 15881.76, "change_pct": 0.36, "change": 56.84 },
+    "创业板指": { "price": 3946.79, "change_pct": 0.30, "change": 11.91 },
+    "沪深300": { "price": 4948.23, "change_pct": 0.00, "change": 0.18 }
   },
   "boards": {
-    "top_gainers": [
-      {"name": "电网设备", "change_pct": "领涨"},
-      {"name": "绿色电力", "change_pct": "逆势走强"},
-      {"name": "证券", "change_pct": "涨幅居前"},
-      {"name": "光纤", "change_pct": "涨幅居前"},
-      {"name": "特高压", "change_pct": "涨幅居前"}
+    "gainers": [
+      { "name": "综合电力设备商", "change_pct": 6.42 },
+      { "name": "钨", "change_pct": 5.00 },
+      { "name": "其他电源设备Ⅲ", "change_pct": 4.85 },
+      { "name": "其他电源设备Ⅱ", "change_pct": 4.61 },
+      { "name": "输变电设备", "change_pct": 4.52 }
     ],
-    "top_losers": [
-      {"name": "稀土", "change_pct": "跌幅居前"},
-      {"name": "能源金属", "change_pct": "跌幅居前"},
-      {"name": "航天装备", "change_pct": "跌幅居前"},
-      {"name": "猪肉", "change_pct": "跌幅居前"},
-      {"name": "医疗器械", "change_pct": "跌幅居前"}
-    ],
-    "notes": "全市场超4200只个股下跌，行业分化明显。电网、电力板块逆势走强，稀土、能源金属等资源板块领跌。"
+    "losers": [
+      { "name": "保险", "change_pct": -3.11 },
+      { "name": "防水材料", "change_pct": -2.85 },
+      { "name": "锂", "change_pct": -2.60 },
+      { "name": "印染", "change_pct": -2.24 },
+      { "name": "粘胶", "change_pct": -2.08 }
+    ]
   },
-  "northbound": {
-    "status": "pending_retrieval",
-    "notes": "北向资金今日数据待获取"
-  },
-  "source": "Sina Finance API (实时数据)"
+  "flow": {
+    "main_net": -70.32,
+    "super_large_net": 5.16
+  }
 }

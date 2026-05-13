@@ -1,58 +1,81 @@
 {
-  "updatedAt": "2026-05-12T21:30:00+08:00",
+  "updatedAt": "2026-05-13T09:15:00+08:00",
   "usMarkets": {
-    "s&p500": { "value": 7384.67, "change": -28.17, "changePercent": -0.38 },
-    "dowJones": { "value": 49657.43, "change": -47.04, "changePercent": -0.09 },
-    "nasdaq": { "value": 26072.40, "change": -201.72, "changePercent": -0.77 }
+    "s&p500": { "value": 7384.67, "change": -11.82, "changePercent": -0.16 },
+    "dowJones": { "value": 49713.52, "change": 56.09, "changePercent": 0.11 },
+    "nasdaq": { "value": 25870.68, "change": -202.72, "changePercent": -0.71 }
+  },
+  "asiaMarkets": {
+    "nikkei": { "value": 38642, "changePercent": -0.52 },
+    "kospi": { "value": 2548, "changePercent": -2.15 },
+    "hsiFutures": { "value": 26264, "changePercent": -0.32 },
+    "asx200": { "value": 7730, "changePercent": -0.56 }
   },
   "crypto": {
-    "bitcoin": { "price": 80619, "change24hPercent": -0.47 },
-    "ethereum": { "price": 2283.63, "change24hPercent": -1.66 },
-    "solana": { "price": 94.99, "change24hPercent": -0.11 },
-    "ripple": { "price": 1.45, "change24hPercent": -0.90 },
-    "dogecoin": { "price": 0.1091, "change24hPercent": -0.57 }
+    "bitcoin": { "price": 80550, "change24hPercent": -0.09 },
+    "ethereum": { "price": 2268.00, "change24hPercent": -0.68 },
+    "solana": { "price": 94.30, "change24hPercent": -0.73 },
+    "ripple": { "price": 1.43, "change24hPercent": -1.38 },
+    "dogecoin": { "price": 0.1085, "change24hPercent": -0.55 }
   },
   "commodities": {
-    "gold": { "price": 4697.00, "changePercent": -0.67 },
-    "wtiCrude": { "price": 101.30, "changePercent": 3.29 }
+    "gold": { "price": 4672.00, "changePercent": -0.53 },
+    "wtiCrude": { "price": 101.66, "changePercent": 0.36 },
+    "brentCrude": { "price": 107.16, "changePercent": -0.57 }
   },
   "forex": {
     "eurUsd": 0.85,
-    "usdJpy": 157.15,
-    "gbpUsd": 0.735,
-    "usdCny": 6.81,
+    "usdJpy": 157.30,
+    "gbpUsd": 0.734,
+    "usdCny": 6.82,
     "usdHkd": 7.83
+  },
+  "macro": {
+    "usCpiYoy": 3.8,
+    "usCoreCpiYoy": 2.8,
+    "us10yYield": 4.82,
+    "fedRateHikeProb": 0.37
   },
   "news": [
     {
-      "source": "CNBC",
-      "title": "Consumer prices rose 3.8% annually in April, the highest since May 2023",
+      "source": "BLS/CNBC",
+      "title": "美国4月CPI同比+3.8%，核心CPI+2.8%，均超预期，能源项贡献超40%涨幅",
       "url": "https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html"
     },
     {
       "source": "CNBC",
-      "title": "EBay rejects GameStop's $56 billion takeover bid, calling it 'neither credible nor attractive'",
-      "url": "https://www.cnbc.com/2026/05/12/ebay-rejects-gamestops-takeover-ryan-cohen.html"
+      "title": "市场开始定价2026年底前加息概率37%，Warsh上任前通胀压力加剧",
+      "url": "https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html"
     },
     {
       "source": "CNBC",
-      "title": "AI super rally has retail investors acting most aggressive since Covid trading frenzy",
-      "url": "https://www.cnbc.com/2026/05/12/ai-super-rally-has-retail-investors-acting-the-most-aggressive-since-trading-frenzy-during-covid.html"
+      "title": "Trump称美伊停火协议"基本死亡"，拒绝伊朗反提案后威胁恢复打击",
+      "url": "https://www.cnbc.com/2026/05/11/trump-iran-war-ceasefire-life-support.html"
     },
     {
-      "source": "Bloomberg",
-      "title": "Treasuries Hold Losses as Rising Gas Costs Fuel Inflation",
-      "url": "https://www.bloomberg.com/markets"
+      "source": "CNBC",
+      "title": "亚洲开盘普跌，投资者关注Trump-Xi会晤及伊朗局势",
+      "url": "https://www.cnbc.com/2026/05/13/asia-markets-today-live-updates-nikkei-kospi-csi-300-hang-seng-trump-iran.html"
     },
     {
-      "source": "Bloomberg",
-      "title": "Tech Firm CGI Picks Tim Hurlebaus as CEO After AI Fears Crush Share Price",
-      "url": "https://www.bloomberg.com/markets"
+      "source": "CNBC",
+      "title": "美股不惧伊朗战争——科技巨头盈利强劲、S&P 500创历史新高后小幅回调",
+      "url": "https://www.cnbc.com/2026/05/12/the-stock-market-isnt-ignoring-iran-its-rising-for-these-three-very-real-reasons.html"
     },
     {
-      "source": "Bloomberg",
-      "title": "Stocks and Bonds Hold Losses After Inflation Data: Markets Wrap",
-      "url": "https://www.bloomberg.com/markets"
+      "source": "WSJ",
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek (周二科技股领跌)",
+      "url": "https://www.wsj.com"
+    },
+    {
+      "source": "FT",
+      "title": "中国大型科技公司错失AI股票狂潮",
+      "url": "https://www.ft.com/markets"
+    },
+    {
+      "source": "SCMP",
+      "title": "Trump即将访华，北京开始展示姿态——'谈判的艺术'策略正面临挑战",
+      "url": "https://www.scmp.com"
     }
   ]
 }

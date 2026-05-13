@@ -1,81 +1,134 @@
 {
-  "updatedAt": "2026-05-13T09:15:00+08:00",
-  "usMarkets": {
-    "s&p500": { "value": 7384.67, "change": -11.82, "changePercent": -0.16 },
-    "dowJones": { "value": 49713.52, "change": 56.09, "changePercent": 0.11 },
-    "nasdaq": { "value": 25870.68, "change": -202.72, "changePercent": -0.71 }
+  "meta": {
+    "updated": "2026-05-13T21:31:50",
+    "date": "2026-05-13",
+    "time": "21:31",
+    "timezone": "Asia/Shanghai",
+    "source": "market-intel agent"
   },
-  "asiaMarkets": {
-    "nikkei": { "value": 38642, "changePercent": -0.52 },
-    "kospi": { "value": 2548, "changePercent": -2.15 },
-    "hsiFutures": { "value": 26264, "changePercent": -0.32 },
-    "asx200": { "value": 7730, "changePercent": -0.56 }
+  "us_indices": {
+    "title": "美股指数",
+    "data_date": "2026-05-12（收盘）",
+    "sp500": {
+      "value": 7400.96,
+      "change": -11.88,
+      "change_pct": -0.16,
+      "ytd_pct": 8.1,
+      "note": "S&P 500 从历史高点小幅回落"
+    },
+    "dow": {
+      "value": 49760.56,
+      "change": 56.09,
+      "change_pct": 0.11,
+      "ytd_pct": 3.5,
+      "note": "道指微涨"
+    },
+    "nasdaq": {
+      "value": 26088.2,
+      "change": -185.92,
+      "change_pct": -0.71,
+      "ytd_pct": 12.2,
+      "note": "纳斯达克从记录高点回落，AI科技股承压"
+    },
+    "russell2000": {
+      "value": 2842.83,
+      "change": -27.81,
+      "change_pct": -1.0,
+      "ytd_pct": 14.5,
+      "note": "小盘股下跌"
+    }
   },
-  "crypto": {
-    "bitcoin": { "price": 80550, "change24hPercent": -0.09 },
-    "ethereum": { "price": 2268.00, "change24hPercent": -0.68 },
-    "solana": { "price": 94.30, "change24hPercent": -0.73 },
-    "ripple": { "price": 1.43, "change24hPercent": -1.38 },
-    "dogecoin": { "price": 0.1085, "change24hPercent": -0.55 }
+  "us_futures": {
+    "title": "美股期货（5月13日盘中）",
+    "sp500_futures": {
+      "value": "~7408",
+      "change_pct": 0.1,
+      "note": "CPI超预期后反弹受限"
+    },
+    "nasdaq_futures": {
+      "value": "~26095",
+      "change_pct": "持平",
+      "note": "AI股仍受关注"
+    },
+    "dow_futures": {
+      "value": "~49510",
+      "change_pct": -0.5,
+      "note": "期货下跌约250点"
+    }
   },
   "commodities": {
-    "gold": { "price": 4672.00, "changePercent": -0.53 },
-    "wtiCrude": { "price": 101.66, "changePercent": 0.36 },
-    "brentCrude": { "price": 107.16, "changePercent": -0.57 }
-  },
-  "forex": {
-    "eurUsd": 0.85,
-    "usdJpy": 157.30,
-    "gbpUsd": 0.734,
-    "usdCny": 6.82,
-    "usdHkd": 7.83
-  },
-  "macro": {
-    "usCpiYoy": 3.8,
-    "usCoreCpiYoy": 2.8,
-    "us10yYield": 4.82,
-    "fedRateHikeProb": 0.37
-  },
-  "news": [
-    {
-      "source": "BLS/CNBC",
-      "title": "美国4月CPI同比+3.8%，核心CPI+2.8%，均超预期，能源项贡献超40%涨幅",
-      "url": "https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html"
+    "title": "大宗商品",
+    "data_date": "2026-05-13",
+    "crude_oil_wti": {
+      "value": 102.41,
+      "change_pct": 0.22,
+      "note": "IEA警告库存创纪录下降，中东紧张局势持续"
     },
-    {
-      "source": "CNBC",
-      "title": "市场开始定价2026年底前加息概率37%，Warsh上任前通胀压力加剧",
-      "url": "https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "Trump称美伊停火协议"基本死亡"，拒绝伊朗反提案后威胁恢复打击",
-      "url": "https://www.cnbc.com/2026/05/11/trump-iran-war-ceasefire-life-support.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "亚洲开盘普跌，投资者关注Trump-Xi会晤及伊朗局势",
-      "url": "https://www.cnbc.com/2026/05/13/asia-markets-today-live-updates-nikkei-kospi-csi-300-hang-seng-trump-iran.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "美股不惧伊朗战争——科技巨头盈利强劲、S&P 500创历史新高后小幅回调",
-      "url": "https://www.cnbc.com/2026/05/12/the-stock-market-isnt-ignoring-iran-its-rising-for-these-three-very-real-reasons.html"
-    },
-    {
-      "source": "WSJ",
-      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek (周二科技股领跌)",
-      "url": "https://www.wsj.com"
-    },
-    {
-      "source": "FT",
-      "title": "中国大型科技公司错失AI股票狂潮",
-      "url": "https://www.ft.com/markets"
-    },
-    {
-      "source": "SCMP",
-      "title": "Trump即将访华，北京开始展示姿态——'谈判的艺术'策略正面临挑战",
-      "url": "https://www.scmp.com"
+    "gold": {
+      "value": 4690.66,
+      "change_pct": -0.52,
+      "note": "CPI超预期削弱降息预期，金价承压；但仍同比涨47%"
     }
-  ]
+  },
+  "crypto": {
+    "title": "加密货币",
+    "data_date": "2026-05-13",
+    "bitcoin": {
+      "value": 80794.77,
+      "change_24h_pct": "持平",
+      "note": "围绕8万关口窄幅震荡"
+    },
+    "ethereum": {
+      "value": 2306.06,
+      "change_24h_pct": "持平",
+      "note": "JPMorgan提交以太坊代币化货币市场基金申请"
+    },
+    "xrp": {
+      "value": 1.46,
+      "change_24h_pct": -1.2
+    },
+    "solana": {
+      "value": 94.77,
+      "change_24h_pct": -2.3
+    }
+  },
+  "key_events": {
+    "title": "晚间要点",
+    "events": [
+      "美国4月CPI同比升至3.8%（预期3.7%），创三年新高，降息预期降温",
+      "PPI超预期飙升，能源与非能源服务业均上涨",
+      "WTI原油三日累涨7.6%，IEA警告供应可能延续短缺至10月",
+      "中东局势持续紧张，伊朗出口运输首次出现持续中断",
+      "特朗普称局势可控，即将与习近平会晤",
+      "美国参议院银行委员会明日审议CLARITY加密法案（100+修正案）",
+      "JPMorgan提交以太坊链上代币化货币市场基金申请",
+      "软银因OpenAI持仓录得巨大收益，AI叙事仍强",
+      "韩国Kospi暴跌2.3%因政府可能重新分配AI利润"
+    ]
+  },
+  "headlines": {
+    "title": "焦点新闻",
+    "items": [
+      {
+        "source": "CNBC",
+        "title": "S&P 500 和纳斯达克从纪录高点回落，CPI数据高于预期",
+        "url": "https://www.cnbc.com/2026/05/11/stock-market-today-live-updates.html"
+      },
+      {
+        "source": "CNBC",
+        "title": "油价上涨超3%，伊朗冲突迫使亚洲炼油商寻求替代供应",
+        "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"
+      },
+      {
+        "source": "Bloomberg",
+        "title": "UBS向私人财富客户开放比特币和以太坊交易",
+        "url": "https://feeds.bloomberg.com/markets/news.rss"
+      },
+      {
+        "source": "WSJ",
+        "title": "美国通胀加速至三年来最高水平",
+        "url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"
+      }
+    ]
+  }
 }

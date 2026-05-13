@@ -1,31 +1,49 @@
 {
-  "time": "2026-05-13 11:35",
-  "date": "2026-05-13",
-  "period": "noon",
+  "timestamp": "2026-05-13 15:05",
+  "source": "sina_finance",
   "indices": {
-    "上证指数": { "price": 4218.22, "change_pct": 0.09, "change": 3.73 },
-    "深证成指": { "price": 15881.76, "change_pct": 0.36, "change": 56.84 },
-    "创业板指": { "price": 3946.79, "change_pct": 0.30, "change": 11.91 },
-    "沪深300": { "price": 4948.23, "change_pct": 0.00, "change": 0.18 }
+    "上证指数": {
+      "price": 4242.572,
+      "change_pct": 0.67,
+      "high": 4245.0684,
+      "low": 4192.3145,
+      "open": 4192.3145,
+      "pre_close": 4214.4891,
+      "volume": 705018739,
+      "amount": 1447463947685
+    },
+    "深证成指": {
+      "price": 16089.749,
+      "change_pct": 1.67,
+      "high": 16100.456,
+      "low": 15713.542,
+      "open": 15713.542,
+      "pre_close": 15824.921
+    },
+    "创业板指": {
+      "price": 4038.333,
+      "change_pct": 2.63,
+      "high": 4041.989,
+      "low": 3893.803,
+      "open": 3900.737,
+      "pre_close": 3934.882
+    },
+    "沪深300": {
+      "price": 4998.3417,
+      "change_pct": 1.02,
+      "high": 5001.1201,
+      "low": 4919.4248,
+      "open": 4919.4248,
+      "pre_close": 4948.0465,
+      "volume": 268454537,
+      "amount": 823173197929
+    }
   },
-  "boards": {
-    "gainers": [
-      { "name": "综合电力设备商", "change_pct": 6.42 },
-      { "name": "钨", "change_pct": 5.00 },
-      { "name": "其他电源设备Ⅲ", "change_pct": 4.85 },
-      { "name": "其他电源设备Ⅱ", "change_pct": 4.61 },
-      { "name": "输变电设备", "change_pct": 4.52 }
-    ],
-    "losers": [
-      { "name": "保险", "change_pct": -3.11 },
-      { "name": "防水材料", "change_pct": -2.85 },
-      { "name": "锂", "change_pct": -2.60 },
-      { "name": "印染", "change_pct": -2.24 },
-      { "name": "粘胶", "change_pct": -2.08 }
-    ]
+  "sectors": {
+    "top5": [],
+    "bottom5": []
   },
-  "flow": {
-    "main_net": -70.32,
-    "super_large_net": 5.16
-  }
+  "north_flow": [],
+  "total_volume": "83439161682",
+  "total_amount": "3240014038578"
 }

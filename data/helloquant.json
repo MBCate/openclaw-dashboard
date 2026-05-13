@@ -1,47 +1,120 @@
 {
-  "date": "2026-05-12",
-  "updated_at": "15:06",
+  "timestamp": "2026-05-13 15:05",
+  "last_update": "2026-05-11",
+  "strategies": [
+    "DoubleMa",
+    "TripleMa",
+    "Supertrend",
+    "RSI",
+    "MACD",
+    "Bollinger",
+    "Momentum",
+    "MeanReversion"
+  ],
   "crypto": {
     "BTC/USDT": {
-      "price": 81038,
-      "change_24h_pct": 0.35,
-      "previous_data": {
-        "date": "2026-05-11",
-        "price": 80792,
-        "indicators_1h": {"rsi": 42.0, "macd": "死叉", "trend": "偏空"},
-        "indicators_4h": {"rsi": 56.6, "macd": "金叉", "trend": "偏多"}
+      "price": 80792.3,
+      "change_24h": 0.035288086989468,
+      "high_24h": 82473.6,
+      "low_24h": 80280.1,
+      "volume_24h": 354382021.30868655,
+      "indicators_1h": {
+        "rsi": 42.0,
+        "macd": 8.09,
+        "macd_signal": 104.97,
+        "macd_status": "死叉",
+        "ma5": 80806.54,
+        "ma20": 81187.15,
+        "bb_upper": 82048.38,
+        "bb_lower": 80325.92,
+        "trend": "偏空"
       },
-      "source": "CoinGecko"
+      "indicators_4h": {
+        "rsi": 56.6,
+        "macd": 233.08,
+        "macd_signal": 198.21,
+        "macd_status": "金叉",
+        "ma5": 81316.9,
+        "ma20": 80601.7,
+        "bb_upper": 81819.93,
+        "bb_lower": 79383.47,
+        "trend": "偏多"
+      }
     },
     "ETH/USDT": {
-      "price": 2302.74,
-      "change_24h_pct": -1.19,
-      "previous_data": {
-        "date": "2026-05-11",
-        "price": 2331.53,
-        "indicators_1h": {"rsi": 39.8, "macd": "死叉", "trend": "偏空"},
-        "indicators_4h": {"rsi": 59.3, "macd": "金叉", "trend": "偏多"}
+      "price": 2331.53,
+      "change_24h": 0.1013236474795742,
+      "high_24h": 2382.99,
+      "low_24h": 2311.46,
+      "volume_24h": 277592332.99233204,
+      "indicators_1h": {
+        "rsi": 39.8,
+        "macd": 1.21,
+        "macd_signal": 4.64,
+        "macd_status": "死叉",
+        "ma5": 2332.87,
+        "ma20": 2344.9,
+        "bb_upper": 2376.93,
+        "bb_lower": 2312.88,
+        "trend": "偏空"
       },
-      "source": "CoinGecko"
+      "indicators_4h": {
+        "rsi": 59.3,
+        "macd": 4.61,
+        "macd_signal": 1.24,
+        "macd_status": "金叉",
+        "ma5": 2349.41,
+        "ma20": 2320.95,
+        "bb_upper": 2368.55,
+        "bb_lower": 2273.36,
+        "trend": "偏多"
+      }
     }
   },
-  "strategies": {
-    "status": "data_only",
-    "strategy_pool": ["DoubleMa", "TripleMa", "Supertrend", "RSI", "MACD", "Bollinger", "Momentum", "MeanReversion"],
-    "last_backtest": "2026-01 (optimization: DoubleMa on BTC/USDT)",
-    "notes": "策略框架已就绪，当前未运行实时交易信号生成"
+  "note": "HelloQuant last run on 2026-05-11. No new strategy output today.",
+  "sentiment": {
+    "crypto_fear_greed": {
+      "value": 48,
+      "classification": "Neutral",
+      "timestamp": "1778457600"
+    }
   },
-  "futures": {
-    "沪金主力": {"price": 1038.22, "change_pct": -0.27},
-    "沪银主力": {"price": 19840.0, "change_pct": 1.78},
-    "沪铜主力": {"price": 104550.0, "change_pct": 1.50},
-    "螺纹钢主力": {"price": 3263.0, "change_pct": -0.31},
-    "沪深300期货": {"price": 4836.8, "change_pct": -0.53},
-    "中证500期货": {"price": 8620.8, "change_pct": -0.05},
-    "data_date": "2026-05-11"
-  },
-  "a_shares_signals": {
-    "status": "no_live_signals",
-    "notes": "A股信号功能已架构，等待数据采集管道完善后激活"
+  "stocks": {
+    "上证指数": {
+      "price": 4242.572,
+      "change_pct": 0.67,
+      "high": 4245.0684,
+      "low": 4192.3145,
+      "open": 4192.3145,
+      "pre_close": 4214.4891,
+      "volume": 705018739,
+      "amount": 1447463947685
+    },
+    "深证成指": {
+      "price": 16089.749,
+      "change_pct": 1.67,
+      "high": 16100.456,
+      "low": 15713.542,
+      "open": 15713.542,
+      "pre_close": 15824.921
+    },
+    "创业板指": {
+      "price": 4038.333,
+      "change_pct": 2.63,
+      "high": 4041.989,
+      "low": 3893.803,
+      "open": 3900.737,
+      "pre_close": 3934.882
+    },
+    "沪深300": {
+      "price": 4998.3417,
+      "change_pct": 1.02,
+      "high": 5001.1201,
+      "low": 4919.4248,
+      "open": 4919.4248,
+      "pre_close": 4948.0465,
+      "volume": 268454537,
+      "amount": 823173197929
+    }
   }
 }

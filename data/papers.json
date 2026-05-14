@@ -1,8 +1,23 @@
 {
-  "date": "2026-05-13",
-  "total": 30,
-  "new_discoveries": 19,
+  "date": "2026-05-14",
+  "total": 36,
+  "new_discoveries": 26,
   "papers": [
+    {
+      "id": "2605.11678",
+      "title": "OOM-Free Alpamayo via CPU-GPU Memory Swapping for Vision-Language-Action Models",
+      "authors": "Marco Coscuy, Zewei Zhou, Seth Z. Zhao, et al.",
+      "relevance": 4,
+      "category": "VLA",
+      "tags": [
+        "VLA",
+        "memory-efficiency",
+        "deployment",
+        "Alpamayo"
+      ],
+      "summary": "提出CPU-GPU内存交换方案解决VLA模型部署时20-60GB显存瓶颈，实现OOM-free推理",
+      "new": true
+    },
     {
       "id": "2605.10858",
       "title": "Is Your Driving World Model an All-Around Player?",
@@ -35,7 +50,7 @@
     {
       "id": "2605.10564",
       "title": "DeepSight: Long-Horizon World Modeling via Latent States Prediction for End-to-End Autonomous Driving",
-      "authors": "Mingze Wang, Jingyu Chen, Yuntao Chen, et al.",
+      "authors": "Lingjun Zhang, Changjie Wu, Linzhe Shi, et al.",
       "relevance": 5,
       "category": "world-model",
       "tags": [
@@ -50,7 +65,7 @@
     {
       "id": "2605.10426",
       "title": "CoWorld-VLA: Thinking in a Multi-Expert World Model for Autonomous Driving",
-      "authors": "Yuan Wu, Heng Lian, Jianfeng Zhang, et al.",
+      "authors": "Minqing Huang, Yujiao Xiang, Zihan Liang, et al.",
       "relevance": 5,
       "category": "VLA",
       "tags": [
@@ -60,6 +75,21 @@
         "reasoning"
       ],
       "summary": "提出多专家世界推理框架，在潜在空间进行世界推理并直接条件化动作生成，解决文本CoT丢失时空结构的问题",
+      "new": true
+    },
+    {
+      "id": "2605.10177",
+      "title": "MTA-RL: Robust Urban Driving via Multi-modal Transformer-based 3D Affordances and Reinforcement Learning",
+      "authors": "Guangli Chen, Dianzhao Li, Wenjian Zhong, et al.",
+      "relevance": 4,
+      "category": "end-to-end",
+      "tags": [
+        "end-to-end",
+        "3D-affordance",
+        "RL",
+        "urban-driving"
+      ],
+      "summary": "提出多模态Transformer 3D可通行性+RL的鲁棒城市驾驶框架，结合可解释3D场景理解与强化学习决策",
       "new": true
     },
     {
@@ -78,9 +108,24 @@
       "new": true
     },
     {
+      "id": "2605.08975",
+      "title": "Latency Analysis and Optimization of Alpamayo 1 via Efficient Trajectory Generation",
+      "authors": "Yunseong Jeon, Namcheol Lee, Yoonsu Lee, et al.",
+      "relevance": 4,
+      "category": "end-to-end",
+      "tags": [
+        "end-to-end",
+        "latency",
+        "trajectory",
+        "optimization"
+      ],
+      "summary": "分析推理型E2E系统的延迟瓶颈，提出推理压缩+轨迹预生成+轻量级规划器实现4倍加速",
+      "new": true
+    },
+    {
       "id": "2605.08830",
       "title": "VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving",
-      "authors": "Guanzhi Wang, Yuning Wang, Zhangwei Cheng, et al.",
+      "authors": "Rui Zhao, Jianlin Yu, Zhenhai Gao, et al.",
       "relevance": 5,
       "category": "VLA",
       "tags": [
@@ -95,7 +140,7 @@
     {
       "id": "2605.08133",
       "title": "VLADriver-RAG: Retrieval-Augmented Vision-Language-Action Models for Autonomous Driving",
-      "authors": "Zhijian Huang, Sihao Wu, Zhi Chen, et al.",
+      "authors": "Rui Zhao, Haofeng Hu, Zhenhai Gao, et al.",
       "relevance": 5,
       "category": "VLA",
       "tags": [
@@ -108,17 +153,78 @@
       "new": true
     },
     {
-      "id": "2605.10942",
-      "title": "HarmoWAM: Harmonizing Generalizable and Precise Manipulation via Adaptive World Action Models",
-      "authors": "Mingdong Wu, Yizhou Wang, Hao Dong",
-      "relevance": 3,
-      "category": "robotics",
+      "id": "2605.06264",
+      "title": "Can Attribution Predict Risk? From Multi-View Attribution to Planning Risk Signals in End-to-End Autonomous Driving",
+      "authors": "Le Yang, Ruoyu Chen, Haijun Liu, et al.",
+      "relevance": 4,
+      "category": "end-to-end",
       "tags": [
-        "world-model",
-        "manipulation",
-        "robotics"
+        "end-to-end",
+        "attribution",
+        "risk",
+        "safety"
       ],
-      "summary": "提出自适应世界动作模型，平衡泛化性与精度",
+      "summary": "提出多视角归因→规划风险信号的转换方法，利用归因图预测规划风险，实现可解释安全监控",
+      "new": true
+    },
+    {
+      "id": "2605.06010",
+      "title": "FusionProxy: Adding Thermal Awareness to Visual Systems in Real-Time via Distilled Diffusion Models",
+      "authors": "Yuchen Guo, Junli Gong, Wenjun Dong, et al.",
+      "relevance": 3,
+      "category": "diffusion",
+      "tags": [
+        "diffusion",
+        "thermal",
+        "fusion",
+        "real-time"
+      ],
+      "summary": "通过蒸馏扩散模型为RGB系统添加红外热感知能力，实现夜间/雾天闭环驾驶鲁棒性提升",
+      "new": true
+    },
+    {
+      "id": "2605.02762",
+      "title": "Unified Map Prior Encoder for Mapping and Planning",
+      "authors": "Yunping Huang, et al.",
+      "relevance": 3,
+      "category": "e2e-autonomous-driving",
+      "tags": [
+        "BEV",
+        "mapping",
+        "planning",
+        "HD-map"
+      ],
+      "summary": "提出统一地图先验编码器，融合HD/SD向量图、栅格图和卫星图实现传感器无关的端到端规划",
+      "new": true
+    },
+    {
+      "id": "2605.00880",
+      "title": "Adversarial Flow Matching for Imperceptible Attacks on End-to-End Autonomous Driving",
+      "authors": "Anonymous",
+      "relevance": 3,
+      "category": "end-to-end",
+      "tags": [
+        "end-to-end",
+        "adversarial",
+        "security",
+        "flow-matching"
+      ],
+      "summary": "分析VLA与模块化E2E系统对对抗扰动的鲁棒性，使用流匹配生成不可感知攻击",
+      "new": true
+    },
+    {
+      "id": "2605.00531",
+      "title": "From Research to Practice: An Interactive Rapid Review of Autonomous Driving System Testing in Industry",
+      "authors": "Anonymous",
+      "relevance": 3,
+      "category": "survey",
+      "tags": [
+        "survey",
+        "testing",
+        "industry",
+        "deployment"
+      ],
+      "summary": "交互式快速综述自动驾驶系统行业测试实践，弥合学术研究到工业应用的方法论差距",
       "new": true
     },
     {
@@ -279,33 +385,6 @@
       "new": true
     },
     {
-      "id": "2605.10762",
-      "title": "GridProbe: Posterior-Probing for Adaptive Test-Time Compute in Long-Video VLMs",
-      "authors": "Rui Yang, Zhongkai Zhao, Zhenyu Wang, et al.",
-      "relevance": 2,
-      "category": "VLM",
-      "tags": [
-        "VLM",
-        "video",
-        "test-time"
-      ],
-      "summary": "长视频VLM的后验探针自适应测试时计算",
-      "new": false
-    },
-    {
-      "id": "2605.10201",
-      "title": "HeteroGenManip: Generalizable Manipulation For Heterogeneous Object Interactions",
-      "authors": "Zhenjia Xu, Zhuoran Wang, Zhanpeng He, et al.",
-      "relevance": 2,
-      "category": "robotics",
-      "tags": [
-        "robotics",
-        "manipulation"
-      ],
-      "summary": "异构物体交互的泛化操作",
-      "new": false
-    },
-    {
       "id": "2605.07326",
       "title": "GEM: Generating LiDAR World Model via Deformable Mamba",
       "authors": "Yang Wu, Zhaojiang Liu, Qiang Meng, et al.",
@@ -331,6 +410,49 @@
         "foresight"
       ],
       "summary": "提出前瞻式自动驾驶规划框架，先通过世界模型想象未来场景再做决策，从反应式转为前瞻式范式",
+      "new": false
+    },
+    {
+      "id": "2604.22002",
+      "title": "VLA-Driver: Vision-Language-Action Pretraining for Urban Driving",
+      "authors": "Anonymous",
+      "relevance": 5,
+      "category": "VLA",
+      "tags": [
+        "VLA",
+        "pretraining",
+        "urban"
+      ],
+      "summary": "大规模VLA预训练框架，在nuScenes等数据集上实现SOTA驾驶性能",
+      "new": false
+    },
+    {
+      "id": "2604.21479",
+      "title": "Frozen LLMs as Map-Aware Spatio-Temporal Reasoners for Vehicle Trajectory Prediction",
+      "authors": "Yanjiao Liu, Jiawei Liu, Xun Gong, Zifei Nie",
+      "relevance": 4,
+      "category": "end-to-end",
+      "tags": [
+        "llm",
+        "trajectory-prediction",
+        "hd-map"
+      ],
+      "summary": "利用frozen LLM作为推理引擎进行轨迹预测，结合HD map语义信息",
+      "new": false
+    },
+    {
+      "id": "2604.21249",
+      "title": "Reasoning About Traversability: Language-Guided Off-Road 3D Trajectory Planning",
+      "authors": "Byounggun Park, Soonmin Hwang",
+      "relevance": 4,
+      "category": "vla",
+      "tags": [
+        "off-road",
+        "trajectory",
+        "vlm",
+        "traversability"
+      ],
+      "summary": "语言引导的越野轨迹规划，通过action-aligned标注和地形感知优化实现单图3D轨迹推断",
       "new": false
     },
     {
@@ -377,20 +499,6 @@
       "new": false
     },
     {
-      "id": "2604.23604",
-      "title": "Learning to Identify Out-of-Distribution Objects for 3D LiDAR Anomaly Segmentation",
-      "authors": "Simone Mosco, Daniel Fusaro, Alberto Pretto",
-      "relevance": 3,
-      "category": "perception",
-      "tags": [
-        "lidar",
-        "anomaly",
-        "segmentation"
-      ],
-      "summary": "3D LiDAR异常分割，通过特征空间分布建模检测未知物体",
-      "new": false
-    },
-    {
       "id": "2604.22835",
       "title": "ParkingScenes: A Structured Dataset for End-to-End Autonomous Parking in Simulation Scenes",
       "authors": "Haonan Chen, Kaiwen Xiao, Bin Tian, Jun Fu",
@@ -405,32 +513,17 @@
       "new": false
     },
     {
-      "id": "2604.21479",
-      "title": "Frozen LLMs as Map-Aware Spatio-Temporal Reasoners for Vehicle Trajectory Prediction",
-      "authors": "Yanjiao Liu, Jiawei Liu, Xun Gong, Zifei Nie",
-      "relevance": 4,
-      "category": "end-to-end",
+      "id": "2604.23604",
+      "title": "Learning to Identify Out-of-Distribution Objects for 3D LiDAR Anomaly Segmentation",
+      "authors": "Simone Mosco, Daniel Fusaro, Alberto Pretto",
+      "relevance": 3,
+      "category": "perception",
       "tags": [
-        "llm",
-        "trajectory-prediction",
-        "hd-map"
+        "lidar",
+        "anomaly",
+        "segmentation"
       ],
-      "summary": "利用frozen LLM作为推理引擎进行轨迹预测，结合HD map语义信息",
-      "new": false
-    },
-    {
-      "id": "2604.21249",
-      "title": "Reasoning About Traversability: Language-Guided Off-Road 3D Trajectory Planning",
-      "authors": "Byounggun Park, Soonmin Hwang",
-      "relevance": 4,
-      "category": "vla",
-      "tags": [
-        "off-road",
-        "trajectory",
-        "vlm",
-        "traversability"
-      ],
-      "summary": "语言引导的越野轨迹规划，通过action-aligned标注和地形感知优化实现单图3D轨迹推断",
+      "summary": "3D LiDAR异常分割，通过特征空间分布建模检测未知物体",
       "new": false
     }
   ]

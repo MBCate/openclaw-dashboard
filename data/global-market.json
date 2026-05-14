@@ -1,133 +1,142 @@
 {
   "meta": {
-    "updated": "2026-05-13T21:31:50",
-    "date": "2026-05-13",
-    "time": "21:31",
+    "updated": "2026-05-14T09:15",
+    "date": "2026-05-14",
+    "time": "09:15",
     "timezone": "Asia/Shanghai",
     "source": "market-intel agent"
   },
   "us_indices": {
-    "title": "美股指数",
-    "data_date": "2026-05-12（收盘）",
+    "title": "美股指数（隔夜收盘）",
+    "data_date": "2026-05-13（收盘）",
     "sp500": {
-      "value": 7400.96,
-      "change": -11.88,
-      "change_pct": -0.16,
-      "ytd_pct": 8.1,
-      "note": "S&P 500 从历史高点小幅回落"
+      "value": 7444.25,
+      "change": 43.29,
+      "change_pct": 0.58,
+      "note": "S&P 500 反弹，CPI数据消化后回升"
     },
     "dow": {
-      "value": 49760.56,
-      "change": 56.09,
-      "change_pct": 0.11,
-      "ytd_pct": 3.5,
-      "note": "道指微涨"
+      "value": 49693.20,
+      "change": -67.36,
+      "change_pct": -0.14,
+      "note": "道指小幅下跌"
     },
     "nasdaq": {
-      "value": 26088.2,
-      "change": -185.92,
-      "change_pct": -0.71,
-      "ytd_pct": 12.2,
-      "note": "纳斯达克从记录高点回落，AI科技股承压"
-    },
-    "russell2000": {
-      "value": 2842.83,
-      "change": -27.81,
-      "change_pct": -1.0,
-      "ytd_pct": 14.5,
-      "note": "小盘股下跌"
+      "value": 26402.34,
+      "change": 314.14,
+      "change_pct": 1.20,
+      "note": "纳斯达克强劲反弹，科技股领涨"
     }
   },
   "us_futures": {
-    "title": "美股期货（5月13日盘中）",
+    "title": "美股期货（5月14日早盘）",
     "sp500_futures": {
-      "value": "~7408",
-      "change_pct": 0.1,
-      "note": "CPI超预期后反弹受限"
-    },
-    "nasdaq_futures": {
-      "value": "~26095",
-      "change_pct": "持平",
-      "note": "AI股仍受关注"
+      "value": "~7486",
+      "change_pct": 1.15,
+      "note": "期货涨约85点，显示反弹动能"
     },
     "dow_futures": {
-      "value": "~49510",
-      "change_pct": -0.5,
-      "note": "期货下跌约250点"
+      "value": "~49894",
+      "change_pct": 0.27,
+      "note": "道指期货微涨"
+    },
+    "nasdaq_futures": {
+      "value": "~29676",
+      "change_pct": 1.87,
+      "note": "纳指期货领涨，科技股情绪回暖"
+    }
+  },
+  "asia_context": {
+    "title": "亚太早盘",
+    "hsi_futures": {
+      "note": "恒指期货待开盘，夜期未更新"
+    },
+    "nikkei_futures": {
+      "value": "~38500",
+      "note": "日经期货小幅走高"
+    },
+    "dxy": {
+      "value": 99.85,
+      "note": "美元指数走弱"
+    },
+    "usdcny": {
+      "value": 6.7910,
+      "note": "人民币持稳"
     }
   },
   "commodities": {
     "title": "大宗商品",
-    "data_date": "2026-05-13",
+    "data_date": "2026-05-14",
     "crude_oil_wti": {
-      "value": 102.41,
-      "change_pct": 0.22,
-      "note": "IEA警告库存创纪录下降，中东紧张局势持续"
+      "value": 101.06,
+      "change_pct": -1.32,
+      "note": "油价小幅回落，IEA库存警告仍存"
     },
     "gold": {
-      "value": 4690.66,
-      "change_pct": -0.52,
-      "note": "CPI超预期削弱降息预期，金价承压；但仍同比涨47%"
+      "value": 4700.50,
+      "change_pct": 0.21,
+      "note": "金价持稳于4700上方"
     }
   },
   "crypto": {
     "title": "加密货币",
-    "data_date": "2026-05-13",
+    "data_date": "2026-05-14",
     "bitcoin": {
-      "value": 80794.77,
-      "change_24h_pct": "持平",
-      "note": "围绕8万关口窄幅震荡"
+      "value": 79554,
+      "change_24h_pct": -0.3,
+      "note": "围绕8万美元关口震荡"
     },
     "ethereum": {
-      "value": 2306.06,
-      "change_24h_pct": "持平",
-      "note": "JPMorgan提交以太坊代币化货币市场基金申请"
-    },
-    "xrp": {
-      "value": 1.46,
-      "change_24h_pct": -1.2
-    },
-    "solana": {
-      "value": 94.77,
-      "change_24h_pct": -2.3
+      "value": 2264,
+      "change_24h_pct": -1.8,
+      "note": "以太坊承压"
     }
   },
   "key_events": {
-    "title": "晚间要点",
+    "title": "隔夜要点",
     "events": [
-      "美国4月CPI同比升至3.8%（预期3.7%），创三年新高，降息预期降温",
-      "PPI超预期飙升，能源与非能源服务业均上涨",
-      "WTI原油三日累涨7.6%，IEA警告供应可能延续短缺至10月",
-      "中东局势持续紧张，伊朗出口运输首次出现持续中断",
-      "特朗普称局势可控，即将与习近平会晤",
-      "美国参议院银行委员会明日审议CLARITY加密法案（100+修正案）",
-      "JPMorgan提交以太坊链上代币化货币市场基金申请",
-      "软银因OpenAI持仓录得巨大收益，AI叙事仍强",
-      "韩国Kospi暴跌2.3%因政府可能重新分配AI利润"
+      "美国CPI数据消化后美股反弹，科技股领涨",
+      "Kevin Warsh获参院确认为美联储主席，市场关注其政策立场",
+      "WTI油价回撤至101美元，但供应担忧持续",
+      "中东局势仍紧张，伊朗出口受影响",
+      "黄金持稳4700上方，避险需求仍存",
+      "人民币汇率持稳于6.79附近",
+      "美国参议院银行委员会审议CLARITY加密法案",
+      "特朗普称即将与习近平会晤"
     ]
   },
   "headlines": {
     "title": "焦点新闻",
     "items": [
       {
-        "source": "CNBC",
-        "title": "S&P 500 和纳斯达克从纪录高点回落，CPI数据高于预期",
-        "url": "https://www.cnbc.com/2026/05/11/stock-market-today-live-updates.html"
+        "source": "BBC",
+        "title": "Trump's Fed chair pick Kevin Warsh confirmed by US Senate",
+        "url": "https://www.bbc.com/news"
       },
       {
-        "source": "CNBC",
-        "title": "油价上涨超3%，伊朗冲突迫使亚洲炼油商寻求替代供应",
-        "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"
+        "source": "NYT",
+        "title": "CPI数据消化后美股强势反弹，科技股领涨",
+        "url": "https://www.nytimes.com/section/business"
       },
       {
-        "source": "Bloomberg",
-        "title": "UBS向私人财富客户开放比特币和以太坊交易",
-        "url": "https://feeds.bloomberg.com/markets/news.rss"
+        "source": "Reuters",
+        "title": "Kevin Warsh确认将接任美联储主席，市场关注货币政策走向",
+        "url": "https://www.reuters.com/markets/"
       },
       {
-        "source": "WSJ",
-        "title": "美国通胀加速至三年来最高水平",
-        "url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"
+        "source": "BBC",
+        "title": "Higher Europe air fares 'inevitable', says industry head",
+        "url": "https://www.bbc.com/news/business"
+      },
+      {
+        "source": "BBC",
+        "title": "Tui sees summer sales fall 10% due to cautious UK customers",
+        "url": "https://www.bbc.com/news/business"
+      },
+      {
+        "source": "Investing.com",
+        "title": "美股期货盘前上涨：S&P期货+1.15%，纳指期货+1.87%",
+        "url": "https://www.investing.com/indices/us-spx-500-futures"
       }
     ]
   }

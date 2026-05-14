@@ -1,143 +1,117 @@
 {
-  "meta": {
-    "updated": "2026-05-14T09:15",
-    "date": "2026-05-14",
-    "time": "09:15",
-    "timezone": "Asia/Shanghai",
-    "source": "market-intel agent"
+  "updated": "2026-05-14T21:30:00+08:00",
+  "date": "2026-05-14",
+  "fear_greed": {
+    "value": 34,
+    "classification": "Fear"
   },
-  "us_indices": {
-    "title": "美股指数（隔夜收盘）",
-    "data_date": "2026-05-13（收盘）",
-    "sp500": {
-      "value": 7444.25,
-      "change": 43.29,
-      "change_pct": 0.58,
-      "note": "S&P 500 反弹，CPI数据消化后回升"
-    },
-    "dow": {
-      "value": 49693.20,
-      "change": -67.36,
-      "change_pct": -0.14,
-      "note": "道指小幅下跌"
-    },
-    "nasdaq": {
-      "value": 26402.34,
-      "change": 314.14,
-      "change_pct": 1.20,
-      "note": "纳斯达克强劲反弹，科技股领涨"
-    }
+  "us_markets": {
+    "dow": "~50,000 (+0.7%) — retook 50,000 level",
+    "sp500": "new record (intraday & closing)",
+    "nasdaq": "new record (+0.1%)",
+    "note": "Thursday session data from CNBC live updates",
+    "key_story": "Cisco +15% on earnings beat, DJIA tops 50K. US retail sales +0.5% (in-line). Import prices +1.9% MoM (highest since Oct 2022). Jobless claims 211K (above est 205K). Trump-Xi summit in Beijing ongoing."
   },
-  "us_futures": {
-    "title": "美股期货（5月14日早盘）",
-    "sp500_futures": {
-      "value": "~7486",
-      "change_pct": 1.15,
-      "note": "期货涨约85点，显示反弹动能"
-    },
-    "dow_futures": {
-      "value": "~49894",
-      "change_pct": 0.27,
-      "note": "道指期货微涨"
-    },
-    "nasdaq_futures": {
-      "value": "~29676",
-      "change_pct": 1.87,
-      "note": "纳指期货领涨，科技股情绪回暖"
-    }
-  },
-  "asia_context": {
-    "title": "亚太早盘",
-    "hsi_futures": {
-      "note": "恒指期货待开盘，夜期未更新"
-    },
-    "nikkei_futures": {
-      "value": "~38500",
-      "note": "日经期货小幅走高"
-    },
-    "dxy": {
-      "value": 99.85,
-      "note": "美元指数走弱"
-    },
-    "usdcny": {
-      "value": 6.7910,
-      "note": "人民币持稳"
-    }
-  },
-  "commodities": {
-    "title": "大宗商品",
-    "data_date": "2026-05-14",
-    "crude_oil_wti": {
-      "value": 101.06,
-      "change_pct": -1.32,
-      "note": "油价小幅回落，IEA库存警告仍存"
-    },
-    "gold": {
-      "value": 4700.50,
-      "change_pct": 0.21,
-      "note": "金价持稳于4700上方"
-    }
+  "asia_markets": {
+    "note": "Asia closed mixed on Trump-Xi summit",
+    "nikkei": "62,654.05 (-0.98%)",
+    "topix": "declined",
+    "key_event": "Trump in Beijing for high-stakes summit with Xi"
   },
   "crypto": {
-    "title": "加密货币",
-    "data_date": "2026-05-14",
     "bitcoin": {
-      "value": 79554,
-      "change_24h_pct": -0.3,
-      "note": "围绕8万美元关口震荡"
+      "usd": 79736,
+      "change_24h_pct": -0.24
     },
     "ethereum": {
-      "value": 2264,
-      "change_24h_pct": -1.8,
-      "note": "以太坊承压"
+      "usd": 2252.64,
+      "change_24h_pct": -0.94
+    },
+    "solana": {
+      "usd": 91.14,
+      "change_24h_pct": -2.19
+    },
+    "ripple": {
+      "usd": 1.45,
+      "change_24h_pct": 1.03
+    },
+    "dogecoin": {
+      "usd": 0.114753,
+      "change_24h_pct": 2.79
+    },
+    "cardano": {
+      "usd": 0.266916,
+      "change_24h_pct": 0.02
+    },
+    "polkadot": {
+      "usd": 1.34,
+      "change_24h_pct": -1.07
     }
   },
-  "key_events": {
-    "title": "隔夜要点",
-    "events": [
-      "美国CPI数据消化后美股反弹，科技股领涨",
-      "Kevin Warsh获参院确认为美联储主席，市场关注其政策立场",
-      "WTI油价回撤至101美元，但供应担忧持续",
-      "中东局势仍紧张，伊朗出口受影响",
-      "黄金持稳4700上方，避险需求仍存",
-      "人民币汇率持稳于6.79附近",
-      "美国参议院银行委员会审议CLARITY加密法案",
-      "特朗普称即将与习近平会晤"
-    ]
-  },
-  "headlines": {
-    "title": "焦点新闻",
-    "items": [
+  "news_highlights": {
+    "cnbc": [
       {
-        "source": "BBC",
-        "title": "Trump's Fed chair pick Kevin Warsh confirmed by US Senate",
-        "url": "https://www.bbc.com/news"
+        "title": "Xi tells Musk, Tim Cook and other CEOs on Trump's trip: China will 'open wider'",
+        "link": "https://www.cnbc.com/2026/05/14/xi-china-open-us-business-ai-chips.html",
+        "date": "Thu, 14 May 2026"
       },
       {
-        "source": "NYT",
-        "title": "CPI数据消化后美股强势反弹，科技股领涨",
-        "url": "https://www.nytimes.com/section/business"
+        "title": "Xi asks Trump if U.S. and China can avoid 'Thucydides Trap' at high-stakes summit",
+        "link": "https://www.cnbc.com/2026/05/14/trump-xi-beijing-summit-trade-taiwan-ai-iran-rare-earths-tariffs.html",
+        "date": "Thu, 14 May 2026"
       },
       {
-        "source": "Reuters",
-        "title": "Kevin Warsh确认将接任美联储主席，市场关注货币政策走向",
-        "url": "https://www.reuters.com/markets/"
+        "title": "Dow surges more than 300 points to retake 50,000 level as Cisco shares jump: Live updates",
+        "link": "https://www.cnbc.com/2026/05/13/stock-market-today-live-updates.html",
+        "date": "Thu, 14 May 2026"
       },
       {
-        "source": "BBC",
-        "title": "Higher Europe air fares 'inevitable', says industry head",
-        "url": "https://www.bbc.com/news/business"
+        "title": "Trump-Xi summit could hinge on these two crucial tech flashpoints",
+        "link": "https://www.cnbc.com/2026/05/14/trump-xi-summit-tech-flashpoints.html",
+        "date": "Thu, 14 May 2026"
       },
       {
-        "source": "BBC",
-        "title": "Tui sees summer sales fall 10% due to cautious UK customers",
-        "url": "https://www.bbc.com/news/business"
+        "title": "3 ways the pros are trading markets right now, including why JPMorgan downgraded semiconductor stocks",
+        "link": "https://www.cnbc.com/2026/05/14/3-ways-the-pros-are-trading-markets-right-now.html",
+        "date": "Thu, 14 May 2026"
+      }
+    ],
+    "bloomberg": [
+      {
+        "title": "Amazon’s AI Success Sends Stock Racing Toward $3 Trillion Club",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-14/amazon-s-ai-success-sends-stock-racing-toward-3-trillion-club",
+        "date": "Thu, 14 May 2026"
       },
       {
-        "source": "Investing.com",
-        "title": "美股期货盘前上涨：S&P期货+1.15%，纳指期货+1.87%",
-        "url": "https://www.investing.com/indices/us-spx-500-futures"
+        "title": "NYC College Merger Brings $203 Million Gain for Northeastern",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-13/nyc-college-merger-brings-203-million-windfall-for-northeastern",
+        "date": "Wed, 13 May 2026"
+      },
+      {
+        "title": "Stocks Rise After Retail Sales Data as Cisco Soars: Markets Wrap",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-13/asian-stocks-to-climb-as-wall-street-hits-new-high-markets-wrap",
+        "date": "Wed, 13 May 2026"
+      },
+      {
+        "title": "India Bans Sugar Exports for Four Months to Protect Supply",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-13/india-bans-sugar-exports-until-end-september-to-protect-supply",
+        "date": "Wed, 13 May 2026"
+      },
+      {
+        "title": "Oil Steady After Trump-Xi Talks as Iran War Remains in Limbo",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-13/latest-oil-market-news-and-analysis-for-may-14",
+        "date": "Wed, 13 May 2026"
       }
     ]
+  },
+  "macro_data": {
+    "us_retail_sales_apr": "+0.5% MoM (in-line)",
+    "us_jobless_claims": "211K (vs 205K est)",
+    "us_import_prices_apr": "+1.9% MoM, +4.2% YoY (highest since Oct 2022)",
+    "us_export_prices_apr": "+3.3% MoM, +8.8% YoY (highest since Sep 2022)"
+  },
+  "geopolitics": {
+    "trump_xi_summit": "Two-day Beijing meeting. Topics: Taiwan, trade, AI chips, rare earths, Iran. AI protocol agreed. US cleared ~10 Chinese firms for H200 chips (no deliveries yet). Strait of Hormuz must remain open - agreed.",
+    "middle_east": "Iran conflict ongoing, oil prices elevated"
   }
 }

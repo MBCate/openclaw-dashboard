@@ -1,49 +1,59 @@
 {
-  "timestamp": "2026-05-13 15:05",
-  "source": "sina_finance",
+  "timestamp": "2026-05-14 11:35",
+  "source": "eastmoney_api",
   "indices": {
     "上证指数": {
-      "price": 4242.572,
-      "change_pct": 0.67,
-      "high": 4245.0684,
-      "low": 4192.3145,
-      "open": 4192.3145,
-      "pre_close": 4214.4891,
-      "volume": 705018739,
-      "amount": 1447463947685
+      "price": 4199.19,
+      "change_pct": -1.02,
+      "change": -43.38,
+      "volume": 515909734,
+      "amount": 1009006444520
     },
     "深证成指": {
-      "price": 16089.749,
-      "change_pct": 1.67,
-      "high": 16100.456,
-      "low": 15713.542,
-      "open": 15713.542,
-      "pre_close": 15824.921
+      "price": 15831.83,
+      "change_pct": -1.60,
+      "change": -257.92,
+      "volume": 592496687,
+      "amount": 1259748207785
     },
     "创业板指": {
-      "price": 4038.333,
-      "change_pct": 2.63,
-      "high": 4041.989,
-      "low": 3893.803,
-      "open": 3900.737,
-      "pre_close": 3934.882
+      "price": 3960.51,
+      "change_pct": -1.93,
+      "change": -77.82,
+      "volume": 174338929,
+      "amount": 599961638790
     },
     "沪深300": {
-      "price": 4998.3417,
-      "change_pct": 1.02,
-      "high": 5001.1201,
-      "low": 4919.4248,
-      "open": 4919.4248,
-      "pre_close": 4948.0465,
-      "volume": 268454537,
-      "amount": 823173197929
+      "price": 4933.13,
+      "change_pct": -1.30,
+      "change": -65.21,
+      "volume": 182818252,
+      "amount": 565993539565
     }
   },
   "sectors": {
-    "top5": [],
-    "bottom5": []
+    "top5": [
+      {"name": "期货", "change_pct": 3.85},
+      {"name": "防水材料", "change_pct": 3.82},
+      {"name": "氨纶", "change_pct": 2.83},
+      {"name": "耐火材料", "change_pct": 2.43},
+      {"name": "生猪养殖", "change_pct": 2.37}
+    ],
+    "bottom5": [
+      {"name": "文字媒体", "change_pct": -6.55},
+      {"name": "教育运营及其他", "change_pct": -5.17},
+      {"name": "航天装备", "change_pct": -5.16},
+      {"name": "钨", "change_pct": -4.74},
+      {"name": "稀土", "change_pct": -4.66}
+    ]
   },
-  "north_flow": [],
-  "total_volume": "83439161682",
-  "total_amount": "3240014038578"
+  "north_flow": {
+    "date": "2026-05-14",
+    "sh_net": 0,
+    "sz_net": 0,
+    "total_net": 0
+  },
+  "total_volume": 1108406421,
+  "total_amount": 2268754652305,
+  "note": "午盘数据 — 北向资金午间数据暂未更新"
 }

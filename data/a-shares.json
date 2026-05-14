@@ -1,59 +1,105 @@
 {
-  "timestamp": "2026-05-14 11:35",
-  "source": "eastmoney_api",
-  "indices": {
+  "date": "2026-05-14",
+  "update_time": "2026-05-14 15:15:14",
+  "indexes": {
     "上证指数": {
-      "price": 4199.19,
-      "change_pct": -1.02,
-      "change": -43.38,
-      "volume": 515909734,
-      "amount": 1009006444520
+      "code": "000001.SH",
+      "name": "上证指数",
+      "price": 4177.92,
+      "change": -64.65,
+      "change_pct": -1.52,
+      "open": 4256.16,
+      "high": 4258.86,
+      "low": 4177.92,
+      "prev_close": 4242.57,
+      "volume": 764235004,
+      "amount": 1498116800622
     },
     "深证成指": {
-      "price": 15831.83,
-      "change_pct": -1.60,
-      "change": -257.92,
-      "volume": 592496687,
-      "amount": 1259748207785
+      "code": "399001.SZ",
+      "name": "深证成指",
+      "price": 15745.74,
+      "change": -344.01,
+      "change_pct": -2.14,
+      "open": 16202.22,
+      "high": 16207.75,
+      "low": 15745.74,
+      "prev_close": 16089.75,
+      "volume": 87352549161,
+      "amount": 1864136878632
     },
     "创业板指": {
-      "price": 3960.51,
-      "change_pct": -1.93,
-      "change": -77.82,
-      "volume": 174338929,
-      "amount": 599961638790
+      "code": "399006.SZ",
+      "name": "创业板指",
+      "price": 3951.14,
+      "change": -87.19,
+      "change_pct": -2.16,
+      "open": 4087.85,
+      "high": 4090.42,
+      "low": 3937.6,
+      "prev_close": 4038.33,
+      "volume": 25032317176,
+      "amount": 887382494107
     },
     "沪深300": {
-      "price": 4933.13,
-      "change_pct": -1.30,
-      "change": -65.21,
-      "volume": 182818252,
-      "amount": 565993539565
+      "code": "000300.SH",
+      "name": "沪深300",
+      "price": 4914.6,
+      "change": -83.74,
+      "change_pct": -1.68,
+      "open": 5027.64,
+      "high": 5030.52,
+      "low": 4913.6,
+      "prev_close": 4998.34,
+      "volume": 280695379,
+      "amount": 857446326248
+    },
+    "上证50": {
+      "code": "000016.SH",
+      "name": "上证50",
+      "price": 2996.57,
+      "change": -50.67,
+      "change_pct": -1.66,
+      "open": 3056.85,
+      "high": 3059.79,
+      "low": 2995.82,
+      "prev_close": 3047.25,
+      "volume": 63245575,
+      "amount": 215190927195
+    },
+    "科创50": {
+      "code": "000688.SH",
+      "name": "科创50",
+      "price": 1725.09,
+      "change": -45.05,
+      "change_pct": -2.55,
+      "open": 1792.34,
+      "high": 1800.61,
+      "low": 1723.7,
+      "prev_close": 1770.15,
+      "volume": 21071023,
+      "amount": 170925244425
     }
   },
-  "sectors": {
-    "top5": [
-      {"name": "期货", "change_pct": 3.85},
-      {"name": "防水材料", "change_pct": 3.82},
-      {"name": "氨纶", "change_pct": 2.83},
-      {"name": "耐火材料", "change_pct": 2.43},
-      {"name": "生猪养殖", "change_pct": 2.37}
-    ],
-    "bottom5": [
-      {"name": "文字媒体", "change_pct": -6.55},
-      {"name": "教育运营及其他", "change_pct": -5.17},
-      {"name": "航天装备", "change_pct": -5.16},
-      {"name": "钨", "change_pct": -4.74},
-      {"name": "稀土", "change_pct": -4.66}
-    ]
-  },
-  "north_flow": {
+  "market": {
+    "total_volume": 113514113318,
+    "total_amount_yi": 54932.0,
     "date": "2026-05-14",
-    "sh_net": 0,
-    "sz_net": 0,
-    "total_net": 0
+    "time": "15:00",
+    "update_time": "2026-05-14 15:15:14"
   },
-  "total_volume": 1108406421,
-  "total_amount": 2268754652305,
-  "note": "午盘数据 — 北向资金午间数据暂未更新"
+  "sectors": {
+    "top_gainers": [],
+    "top_losers": [],
+    "total_count": 56,
+    "total_gainers": 0,
+    "total_losers": 0,
+    "note": "行业板块数据获取受限，请查看完整版"
+  },
+  "northbound": {
+    "note": "北向资金数据需通过东方财富接口获取，当前接口不可用",
+    "status": "unavailable",
+    "date": "2026-05-14"
+  },
+  "source": "Sina Finance API (East Money API unavailable)"
 }

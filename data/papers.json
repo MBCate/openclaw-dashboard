@@ -1,7 +1,7 @@
 {
-  "date": "2026-05-14",
-  "total": 36,
-  "new_discoveries": 26,
+  "date": "2026-05-15",
+  "total": 46,
+  "new_discoveries": 36,
   "papers": [
     {
       "id": "2605.11678",
@@ -525,6 +525,186 @@
       ],
       "summary": "3D LiDAR异常分割，通过特征空间分布建模检测未知物体",
       "new": false
+    },
+    {
+      "id": "2605.13646",
+      "title": "Causality-Aware End-to-End Autonomous Driving via Ego-Centric Joint Scene Modeling",
+      "authors": "Moon, Seokha; Lee, Minseung; Seo, Joon; Kim, Jinkyu; Lee, Jungbeom",
+      "relevance": 5,
+      "category": "End-to-End Driving",
+      "tags": [
+        "end-to-end",
+        "causality",
+        "scene modeling",
+        "planning",
+        "cs.RO"
+      ],
+      "summary": "提出因果感知的端到端驾驶方法CaAD，通过以自我为中心联合场景建模，建模自车与周围智能体的因果相互依赖关系，实现更一致的轨迹预测。",
+      "new": true,
+      "date": "2026-05-13",
+      "url": "https://arxiv.org/abs/2605.13646"
+    },
+    {
+      "id": "2605.08528",
+      "title": "SceneFactory: GPU-Accelerated Multi-Agent Driving Simulation with Physics-Based Vehicle Dynamics",
+      "authors": "Zhu, Yicheng; Chen, Yang; Li, Tao; Bian, Zilin",
+      "relevance": 5,
+      "category": "Simulation",
+      "tags": [
+        "simulation",
+        "GPU",
+        "physics",
+        "multi-agent",
+        "cs.MA"
+      ],
+      "summary": "提出SceneFactory GPU加速驾驶仿真器，在保持物理保真度的同时实现大规模并行训练，桥接GPU批量仿真与物理精确动力学之间的鸿沟。",
+      "new": true,
+      "date": "2026-05-08",
+      "url": "https://arxiv.org/abs/2605.08528"
+    },
+    {
+      "id": "2605.08911",
+      "title": "Unified Modeling of Lane and Lane Topology for Driving Scene Reasoning",
+      "authors": "Li, Han; Gao, Yulu; Liu, Si; Wang, Yuhang; Liu, Bo",
+      "relevance": 4,
+      "category": "Perception",
+      "tags": [
+        "lane topology",
+        "driving scene",
+        "lane detection",
+        "reasoning",
+        "cs.CV"
+      ],
+      "summary": "提出统一的车道与车道拓扑建模方法，打破传统先检测后推理范式，在端到端框架中同时学习车道线和拓扑关系。",
+      "new": true,
+      "date": "2026-05-09",
+      "url": "https://arxiv.org/abs/2605.08911"
+    },
+    {
+      "id": "2605.08572",
+      "title": "Enhancing Consistency Models for Multi-Agent Trajectory Prediction",
+      "authors": "Mrdovic, Alen; Qingze; Liu; Li, Danrui; Schwartz, Mathew",
+      "relevance": 4,
+      "category": "Prediction",
+      "tags": [
+        "trajectory prediction",
+        "consistency models",
+        "diffusion",
+        "multi-agent",
+        "cs.CV"
+      ],
+      "summary": "改进一致性模型实现多智能体轨迹预测的真实单步生成，解决扩散模型推理延迟问题，适用于自动驾驶等时延敏感场景。",
+      "new": true,
+      "date": "2026-05-09",
+      "url": "https://arxiv.org/abs/2605.08572"
+    },
+    {
+      "id": "2605.13751",
+      "title": "Learning Responsibility-Attributed Adversarial Scenarios for Testing Autonomous Vehicles",
+      "authors": "Xiao, Yizhuo; Yan, Haotian; Wang, Ying; Zhu, Zhongpan; Zhang, Yuxin",
+      "relevance": 4,
+      "category": "Safety",
+      "tags": [
+        "adversarial testing",
+        "safety",
+        "responsibility",
+        "scenario generation",
+        "cs.RO"
+      ],
+      "summary": "提出CARS方法，生成可归责责任的对抗性驾驶场景，区分系统缺陷导致的故障与不可避免的交通冲突，提升自动驾驶安全验证的可信度。",
+      "new": true,
+      "date": "2026-05-13",
+      "url": "https://arxiv.org/abs/2605.13751"
+    },
+    {
+      "id": "2605.09774",
+      "title": "DRIVE-C: A Controlled Corruption Dataset for Autonomous Driving",
+      "authors": "Aher, Shiva",
+      "relevance": 3,
+      "category": "Dataset",
+      "tags": [
+        "dataset",
+        "robustness",
+        "corruption",
+        "perception",
+        "cs.CV"
+      ],
+      "summary": "DRIVE-C是一个受控退化数据集，在真实驾驶视频上施加物理启发的合成退化（噪声、模糊、天气等），用于评估自动驾驶视觉感知鲁棒性。",
+      "new": true,
+      "date": "2026-05-10",
+      "url": "https://arxiv.org/abs/2605.09774"
+    },
+    {
+      "id": "2605.10026",
+      "title": "MUSDA: Multi-source Multi-modality Unsupervised Domain Adaptive 3D Object Detection for Autonomous Driving",
+      "authors": "Lu, Xiaohu; Khatounabadi, Hamed; Radha, Hayder",
+      "relevance": 3,
+      "category": "Detection",
+      "tags": [
+        "domain adaptation",
+        "3D detection",
+        "multi-modality",
+        "unsupervised",
+        "cs.CV"
+      ],
+      "summary": "提出多源多模态无监督域自适应3D目标检测方法MUSDA，利用多个标注数据集提升在新环境中的检测鲁棒性，无需人工标注。",
+      "new": true,
+      "date": "2026-05-11",
+      "url": "https://arxiv.org/abs/2605.10026"
+    },
+    {
+      "id": "2605.13755",
+      "title": "Generative Texture Diversification of 3D Pedestrians for Robust Autonomous Driving Perception",
+      "authors": "Bhowmick, Arka; Ozeren, Enes; Abdullah, Ahmed; Wasenmuller, Oliver",
+      "relevance": 3,
+      "category": "Data Augmentation",
+      "tags": [
+        "data augmentation",
+        "pedestrian",
+        "texture",
+        "generative",
+        "cs.CV"
+      ],
+      "summary": "利用生成模型对3D行人纹理进行多样化，提升自动驾驶感知模型在长尾场景中的泛化鲁棒性，解决真实数据多样性不足问题。",
+      "new": true,
+      "date": "2026-05-13",
+      "url": "https://arxiv.org/abs/2605.13755"
+    },
+    {
+      "id": "2605.09425",
+      "title": "AtteConDA: Attention-Based Conflict Suppression in Multi-Condition Diffusion Models and Synthetic Data Augmentation",
+      "authors": "Noguchi, Shogo",
+      "relevance": 3,
+      "category": "Data Augmentation",
+      "tags": [
+        "diffusion",
+        "data augmentation",
+        "attention",
+        "driving perception",
+        "cs.CV"
+      ],
+      "summary": "提出AtteConDA方法，通过注意力机制抑制多条件扩散模型中的条件冲突，实现更高质量的高层驾驶任务合成数据增强。",
+      "new": true,
+      "date": "2026-05-10",
+      "url": "https://arxiv.org/abs/2605.09425"
+    },
+    {
+      "id": "2605.08293",
+      "title": "Distill, Diffuse, and Semanticize (DDS): Annotation-Free 3D Scene Understanding",
+      "authors": "Wang, Yijing; Li, Ruonan; Wang, Qilin; Zhao, Rongqiang; Liu, Jie",
+      "relevance": 3,
+      "category": "3D Perception",
+      "tags": [
+        "3D scene understanding",
+        "annotation-free",
+        "distillation",
+        "diffusion",
+        "cs.CV"
+      ],
+      "summary": "提出DDS无标注3D场景理解方法，结合多粒度蒸馏和图扩散分割，适用于自动驾驶、数字孪生等场景的3D语义理解。",
+      "new": true,
+      "date": "2026-05-08",
+      "url": "https://arxiv.org/abs/2605.08293"
     }
   ]
 }

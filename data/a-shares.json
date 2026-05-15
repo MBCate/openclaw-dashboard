@@ -1,105 +1,96 @@
 {
-  "date": "2026-05-14",
-  "update_time": "2026-05-14 15:15:14",
-  "indexes": {
+  "update_time": "2026-05-15 11:35",
+  "session": "noon",
+  "indices": {
     "上证指数": {
-      "code": "000001.SH",
-      "name": "上证指数",
-      "price": 4177.92,
-      "change": -64.65,
-      "change_pct": -1.52,
-      "open": 4256.16,
-      "high": 4258.86,
-      "low": 4177.92,
-      "prev_close": 4242.57,
-      "volume": 764235004,
-      "amount": 1498116800622
+      "current": 4183.06,
+      "change_pct": 0.12,
+      "open": 4174.18,
+      "high": 4191.81,
+      "low": 4129.82
     },
     "深证成指": {
-      "code": "399001.SZ",
-      "name": "深证成指",
-      "price": 15745.74,
-      "change": -344.01,
-      "change_pct": -2.14,
-      "open": 16202.22,
-      "high": 16207.75,
-      "low": 15745.74,
-      "prev_close": 16089.75,
-      "volume": 87352549161,
-      "amount": 1864136878632
+      "current": 15783.18,
+      "change_pct": 0.24,
+      "open": 15753.19,
+      "high": 15855.55,
+      "low": 15453.77
     },
     "创业板指": {
-      "code": "399006.SZ",
-      "name": "创业板指",
-      "price": 3951.14,
-      "change": -87.19,
-      "change_pct": -2.16,
-      "open": 4087.85,
-      "high": 4090.42,
-      "low": 3937.6,
-      "prev_close": 4038.33,
-      "volume": 25032317176,
-      "amount": 887382494107
+      "current": 3973.78,
+      "change_pct": 0.57,
+      "open": 3957.74,
+      "high": 4002.73,
+      "low": 3870.37
     },
     "沪深300": {
-      "code": "000300.SH",
-      "name": "沪深300",
-      "price": 4914.6,
-      "change": -83.74,
-      "change_pct": -1.68,
-      "open": 5027.64,
-      "high": 5030.52,
-      "low": 4913.6,
-      "prev_close": 4998.34,
-      "volume": 280695379,
-      "amount": 857446326248
-    },
-    "上证50": {
-      "code": "000016.SH",
-      "name": "上证50",
-      "price": 2996.57,
-      "change": -50.67,
-      "change_pct": -1.66,
-      "open": 3056.85,
-      "high": 3059.79,
-      "low": 2995.82,
-      "prev_close": 3047.25,
-      "volume": 63245575,
-      "amount": 215190927195
+      "current": 4916.49,
+      "change_pct": 0.04,
+      "open": 4911.62,
+      "high": 4935.62,
+      "low": 4847.62
     },
     "科创50": {
-      "code": "000688.SH",
-      "name": "科创50",
-      "price": 1725.09,
-      "change": -45.05,
-      "change_pct": -2.55,
-      "open": 1792.34,
-      "high": 1800.61,
-      "low": 1723.7,
-      "prev_close": 1770.15,
-      "volume": 21071023,
-      "amount": 170925244425
+      "current": 1744.4,
+      "change_pct": 1.12,
+      "open": 1724.36,
+      "high": 1769.8,
+      "low": 1669.99
     }
   },
-  "market": {
-    "total_volume": 113514113318,
-    "total_amount_yi": 54932.0,
-    "date": "2026-05-14",
-    "time": "15:00",
-    "update_time": "2026-05-14 15:15:14"
+  "total_volume": {
+    "sh_volume_yi": 4679,
+    "sz_volume_yi": 541,
+    "cyb_volume_yi": 155,
+    "sh_amount_yi": 9875,
+    "sz_amount_yi": 11828,
+    "total_amount_yi": 21703
   },
   "sectors": {
-    "top_gainers": [],
-    "top_losers": [],
-    "total_count": 56,
-    "total_gainers": 0,
-    "total_losers": 0,
-    "note": "行业板块数据获取受限，请查看完整版"
+    "top_gainers": [
+      {
+        "name": "电机",
+        "change_pct": 6.1
+      },
+      {
+        "name": "自动化设备",
+        "change_pct": 3.42
+      },
+      {
+        "name": "小家电",
+        "change_pct": 2.96
+      },
+      {
+        "name": "汽车零部件",
+        "change_pct": 2.59
+      },
+      {
+        "name": "电子化学品",
+        "change_pct": 2.44
+      }
+    ],
+    "bottom_losers": [
+      {
+        "name": "造纸",
+        "change_pct": 0.17
+      },
+      {
+        "name": "物流",
+        "change_pct": 0.11
+      },
+      {
+        "name": "元件",
+        "change_pct": 0.08
+      },
+      {
+        "name": "汽车整车",
+        "change_pct": 0.07
+      },
+      {
+        "name": "房地产",
+        "change_pct": 0.07
+      }
+    ]
   },
-  "northbound": {
-    "note": "北向资金数据需通过东方财富接口获取，当前接口不可用",
-    "status": "unavailable",
-    "date": "2026-05-14"
-  },
-  "source": "Sina Finance API (East Money API unavailable)"
+  "summary": "三大指数午盘小幅收涨，科创50涨超1%领跑。电机板块大涨6.10%，机器人产业链持续活跃。全市场半日成交2.17万亿，交投活跃。北向资金数据暂未获取到。"
 }

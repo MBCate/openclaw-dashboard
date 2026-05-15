@@ -1,155 +1,69 @@
 {
-  "date": "2026-05-14",
-  "update_time": "2026-05-14 15:15:21",
-  "last_data_from": "2026-05-11",
-  "timestamp": "2026-05-11T15:11:37.944566",
-  "strategies": {
-    "crypto": {
-      "status": "success",
-      "signals": {
-        "BTC": {
-          "DoubleMa": {
-            "1h": {
-              "signal": "观望",
-              "price": 80783.3
-            },
-            "4h": {
-              "signal": "做多",
-              "price": 80783.3
-            }
-          },
-          "RSI": {
-            "1h": {
-              "signal": "观望",
-              "price": 80783.3
-            },
-            "4h": {
-              "signal": "观望",
-              "price": 80783.3
-            }
-          },
-          "MACD": {
-            "1h": {
-              "signal": "做空",
-              "price": 80783.3
-            },
-            "4h": {
-              "signal": "观望",
-              "price": 80783.3
-            }
-          },
-          "Bollinger": {
-            "1h": {
-              "signal": "观望",
-              "price": 80783.3
-            },
-            "4h": {
-              "signal": "做空",
-              "price": 80783.3
-            }
-          },
-          "Supertrend": {
-            "1h": {
-              "signal": "观望",
-              "price": 80783.3
-            },
-            "4h": {
-              "signal": "观望",
-              "price": 80783.3
-            }
-          },
-          "TripleMa": {
-            "1h": {
-              "signal": "观望",
-              "price": 80783.3
-            },
-            "4h": {
-              "signal": "观望",
-              "price": 80783.3
-            }
-          },
-          "Momentum": {
-            "1h": {
-              "signal": "做空",
-              "price": 80783.3
-            },
-            "4h": {
-              "signal": "观望",
-              "price": 80783.3
-            }
-          },
-          "MeanReversion": {
-            "1h": {
-              "signal": "观望",
-              "price": 80783.3
-            },
-            "4h": {
-              "signal": "做空",
-              "price": 80783.3
-            }
-          }
-        },
-        "ETH": {}
-      }
+  "date": "2026-05-15",
+  "updated_at": "2026-05-15T15:06:55.787901+08:00",
+  "last_full_data": "2026-05-11 (old snapshot)",
+  "strategies": [
+    {
+      "name": "DoubleMa",
+      "status": "configured",
+      "last_update": "2026-05-11"
     },
-    "a_stock": {
-      "status": "success",
-      "indeces": {
-        "上证指数": {
-          "price": 4225.0207,
-          "change_pct": 1.078
-        },
-        "深证成指": {
-          "price": 15899.302,
-          "change_pct": 2.156
-        },
-        "创业板指": {
-          "price": 3928.974,
-          "change_pct": 3.5
-        }
-      }
+    {
+      "name": "TripleMa",
+      "status": "configured",
+      "last_update": "2026-05-11"
     },
-    "sentiment": {
-      "crypto_fear_greed": {
-        "value": 48,
-        "classification": "Neutral",
-        "timestamp": "1778457600"
-      }
+    {
+      "name": "Supertrend",
+      "status": "configured",
+      "last_update": "2026-05-11"
     },
-    "signals_summary": {
-      "DoubleMa": {
-        "1h": "观望",
-        "4h": "做多"
-      },
-      "RSI": {
-        "1h": "观望",
-        "4h": "观望"
-      },
-      "MACD": {
-        "1h": "做空",
-        "4h": "观望"
-      },
-      "Bollinger": {
-        "1h": "观望",
-        "4h": "做空"
-      },
-      "Supertrend": {
-        "1h": "观望",
-        "4h": "观望"
-      },
-      "TripleMa": {
-        "1h": "观望",
-        "4h": "观望"
-      },
-      "Momentum": {
-        "1h": "做空",
-        "4h": "观望"
-      },
-      "MeanReversion": {
-        "1h": "观望",
-        "4h": "做空"
-      }
+    {
+      "name": "RSI",
+      "status": "configured",
+      "last_update": "2026-05-11"
+    },
+    {
+      "name": "MACD",
+      "status": "configured",
+      "last_update": "2026-05-11"
+    },
+    {
+      "name": "Bollinger",
+      "status": "configured",
+      "last_update": "2026-05-11"
+    },
+    {
+      "name": "Momentum",
+      "status": "configured",
+      "last_update": "2026-05-11"
+    },
+    {
+      "name": "MeanReversion",
+      "status": "configured",
+      "last_update": "2026-05-11"
+    }
+  ],
+  "crypto_snapshot": {
+    "source": "daily_raw.json 2026-05-11",
+    "BTC": {
+      "price": 80792.3,
+      "trend_1h": "偏空",
+      "trend_4h": "偏多",
+      "rsi_1h": 42.0,
+      "rsi_4h": 56.6
+    },
+    "ETH": {
+      "price": 2331.53,
+      "trend_1h": "偏空",
+      "trend_4h": "偏多",
+      "rsi_1h": 39.8,
+      "rsi_4h": 59.3
     }
   },
-  "note": "数据来自最近一次HelloQuant运行(2026-05-11)，今日尚未更新"
+  "fear_greed_index": {
+    "value": 48,
+    "classification": "中性"
+  },
+  "notes": "No recent strategy execution data. daily_raw.json is 4 days stale."
 }

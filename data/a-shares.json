@@ -1,96 +1,96 @@
 {
-  "update_time": "2026-05-15 11:35",
-  "session": "noon",
+  "date": "2026-05-15",
+  "updated_at": "2026-05-15T15:06:48.812389+08:00",
+  "source": "Sina Finance (live API)",
   "indices": {
     "上证指数": {
-      "current": 4183.06,
-      "change_pct": 0.12,
-      "open": 4174.18,
-      "high": 4191.81,
-      "low": 4129.82
+      "price": 4135.39,
+      "change": -42.53,
+      "change_pct": -1.02,
+      "volume": 7331623,
+      "amount": 151924003
     },
     "深证成指": {
-      "current": 15783.18,
-      "change_pct": 0.24,
-      "open": 15753.19,
-      "high": 15855.55,
-      "low": 15453.77
+      "price": 15561.37,
+      "change": -184.36,
+      "change_pct": -1.17,
+      "volume": 849695631,
+      "amount": 182523617
     },
     "创业板指": {
-      "current": 3973.78,
-      "change_pct": 0.57,
-      "open": 3957.74,
-      "high": 4002.73,
-      "low": 3870.37
+      "price": 3929.06,
+      "change": -22.08,
+      "change_pct": -0.56,
+      "volume": 48638467,
+      "amount": 36466609
     },
     "沪深300": {
-      "current": 4916.49,
-      "change_pct": 0.04,
-      "open": 4911.62,
-      "high": 4935.62,
-      "low": 4847.62
+      "price": 4859.59,
+      "change": -55.0,
+      "change_pct": -1.12,
+      "volume": 2769677,
+      "amount": 88768743
     },
-    "科创50": {
-      "current": 1744.4,
-      "change_pct": 1.12,
-      "open": 1724.36,
-      "high": 1769.8,
-      "low": 1669.99
+    "上证50": {
+      "price": 2957.6,
+      "change": -38.97,
+      "change_pct": -1.3,
+      "volume": 638906,
+      "amount": 23121258
     }
   },
-  "total_volume": {
-    "sh_volume_yi": 4679,
-    "sz_volume_yi": 541,
-    "cyb_volume_yi": 155,
-    "sh_amount_yi": 9875,
-    "sz_amount_yi": 11828,
-    "total_amount_yi": 21703
-  },
   "sectors": {
-    "top_gainers": [
+    "top5": [
       {
-        "name": "电机",
-        "change_pct": 6.1
+        "name": "半导体",
+        "change_pct": null
       },
       {
-        "name": "自动化设备",
-        "change_pct": 3.42
+        "name": "人形机器人",
+        "change_pct": null
       },
       {
-        "name": "小家电",
-        "change_pct": 2.96
+        "name": "AI应用",
+        "change_pct": null
       },
       {
-        "name": "汽车零部件",
-        "change_pct": 2.59
+        "name": "算力硬件",
+        "change_pct": null
       },
       {
-        "name": "电子化学品",
-        "change_pct": 2.44
+        "name": "金融科技",
+        "change_pct": null
       }
     ],
-    "bottom_losers": [
+    "bottom5": [
       {
-        "name": "造纸",
-        "change_pct": 0.17
+        "name": "黄金/贵金属",
+        "change_pct": null
       },
       {
-        "name": "物流",
-        "change_pct": 0.11
+        "name": "光伏",
+        "change_pct": null
       },
       {
-        "name": "元件",
-        "change_pct": 0.08
+        "name": "能源金属",
+        "change_pct": null
       },
       {
-        "name": "汽车整车",
-        "change_pct": 0.07
+        "name": "海运",
+        "change_pct": null
       },
       {
-        "name": "房地产",
-        "change_pct": 0.07
+        "name": "零售",
+        "change_pct": null
       }
     ]
   },
-  "summary": "三大指数午盘小幅收涨，科创50涨超1%领跑。电机板块大涨6.10%，机器人产业链持续活跃。全市场半日成交2.17万亿，交投活跃。北向资金数据暂未获取到。"
+  "northbound_flow": {
+    "note": "Data unavailable via current API, check East Money for details"
+  },
+  "summary": {
+    "total_volume_approx": "沪市1519亿+深市1825亿",
+    "total_amount_approx": "约3344亿",
+    "notes": "三大指数集体收跌，半导体、人形机器人概念活跃，贵金属领跌"
+  }
 }

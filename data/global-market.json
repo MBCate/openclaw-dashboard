@@ -1,117 +1,61 @@
 {
-  "updated": "2026-05-15T09:15:00+08:00",
+  "updated": "2026-05-15T21:30:00+08:00",
   "date": "2026-05-15",
   "fear_greed": {
-    "value": 55,
-    "classification": "Neutral"
+    "value": 43,
+    "classification": "Fear"
   },
   "us_markets": {
-    "dow": "50,063.46 (+0.75%) — retook 50,000 on Cisco earnings",
-    "sp500": "7,501.24 (+0.77%) — new record close, above 7,500 for first time",
-    "nasdaq": "26,635.22 (+0.88%) — new record close",
-    "vix": "~14 (low volatility)",
-    "futures": "Dow futures -0.05%, S&P futures -0.04%, Nasdaq +0.03% (little changed)",
-    "note": "Thursday close data; 7th straight winning week in progress",
-    "key_story": "S&P 500 and Nasdaq both at new record highs for 7th consecutive winning week. Dow retakes 50,000. Cisco strong earnings. Cerebras IPO +68% debut (market cap $95B). SpaceX plans IPO prospectus next week. US-China summit Day 2 focus. Bond market pricing in higher rates under new Fed Chair Warsh."
+    "note": "Friday pre-market / futures session — risk-off triggered",
+    "sp500_futures": "down, tech selloff (unwinding Thurs record)",
+    "nasdaq_futures": "down sharply — tech trade cools",
+    "30y_treasury_yield": ">5.1%, highest in nearly a year",
+    "key_story": "S&P/Nasdaq futures tumble Friday as tech trade cools, yields surge. 30yr tops 5.1% for first time in nearly a year. Trump-Xi summit Day 2: Trump declines to commit to defending Taiwan. Cerebras IPO +68% on Thurs debut. Fed Chair Warsh rate path concerns persist."
   },
   "asia_markets": {
-    "note": "Asia Friday morning session — Kospi record 8,000, Nikkei +0.89%, Trump-Xi summit Day 2",
-    "nikkei": "+0.89% (Friday open)",
-    "topix": "+1.18% (Friday open)",
+    "note": "Friday Asia close — Kospi record, Nikkei higher",
+    "nikkei": "+0.89% (close)",
+    "topix": "+1.18% (close)",
     "kospi": "8,000+ (+0.6%) — fresh record high",
-    "hsi_futures": "26,341 (below last close 26,389.04)",
-    "asx200": "+0.42% (Friday open)",
-    "key_event": "Trump-Xi Beijing summit enters Day 2. Kospi hits 8,000 record. Xi warned Taiwan mishandling puts US-China in 'great jeopardy'. Both sides agree Strait of Hormuz must remain open."
-  },
-  "a50_futures": {
-    "note": "FTSE China A50 futures — data proxy error, monitoring via CNBC"
-  },
-  "crypto": {
-    "bitcoin": {
-      "usd": 79736,
-      "change_24h_pct": -0.24
-    },
-    "ethereum": {
-      "usd": 2252.64,
-      "change_24h_pct": -0.94
-    },
-    "solana": {
-      "usd": 91.14,
-      "change_24h_pct": -2.19
-    },
-    "ripple": {
-      "usd": 1.45,
-      "change_24h_pct": 1.03
-    },
-    "dogecoin": {
-      "usd": 0.114753,
-      "change_24h_pct": 2.79
-    },
-    "cardano": {
-      "usd": 0.266916,
-      "change_24h_pct": 0.02
-    },
-    "polkadot": {
-      "usd": 1.34,
-      "change_24h_pct": -1.07
-    }
+    "hsi": "down ~0.2% (mixed on Taiwan tensions)",
+    "key_event": "Trump-Xi Beijing summit Day 2. Trump 'I don't talk about' defending Taiwan. Kospi hits 8,000 record. Strait of Hormuz commitment maintained."
   },
   "news_highlights": {
-    "cnbc": [
+    "evening_headlines": [
       {
-        "title": "Cerebras pops 68% in Nasdaq debut, pushing AI chipmaker's market cap to $95 billion",
-        "link": "https://www.cnbc.com/2026/05/14/cerebras-cbrs-stock-trade-nasdaq-ipo.html",
-        "date": "Thu, 14 May 2026"
+        "title": "Trump told Xi 'I don't talk about' whether US would defend Taiwan",
+        "link": "https://www.cnbc.com/2026/05/15/trump-china-xi-taiwan.html",
+        "source": "CNBC"
       },
       {
-        "title": "Xi warns Trump: Mishandling Taiwan will put US-China relationship in 'great jeopardy'",
-        "link": "https://www.cnbc.com/2026/05/14/trump-xi-beijing-summit-trade-taiwan-ai-iran-rare-earths-tariffs.html",
-        "date": "Thu, 14 May 2026"
-      },
-      {
-        "title": "Stock futures little changed after Dow retakes 50,000 — S&P closes above 7,500 for first time",
+        "title": "S&P, Nasdaq futures tumble as tech trade cools, yields surge",
         "link": "https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html",
-        "date": "Thu, 14 May 2026"
+        "source": "CNBC"
       },
       {
-        "title": "Applied Materials beats Q2 estimates, shares rise ~2% after hours",
-        "link": "https://www.cnbc.com/2026/05/14/applied-materials-amat-earnings-q2-2026.html",
-        "date": "Thu, 14 May 2026"
+        "title": "30-year Treasury yield tops 5.1%, highest in nearly a year",
+        "link": "https://www.cnbc.com/2026/05/15/treasury-yields-surge-as-inflation-data-points-to-tricky-rates-path.html",
+        "source": "CNBC"
       },
       {
-        "title": "SpaceX IPO prospectus could land as soon as next week, sources say",
-        "link": "https://www.cnbc.com/2026/05/14/spacex-ipo-prospectus-could-land-as-soon-as-next-week-sources-say.html",
-        "date": "Thu, 14 May 2026"
-      }
-    ],
-    "asia_pacific": [
-      {
-        "title": "South Korea's Kospi hits fresh record of 8,000 as Trump-Xi talks enter second day",
-        "link": "https://www.cnbc.com/2026/05/15/asia-markets-live-updates-today-trump-xi-nikkei-225-kospi-hang-seng-index.html",
-        "date": "Fri, 15 May 2026"
+        "title": "Starbucks to lay off 300 US employees, shutter regional offices",
+        "link": "https://www.cnbc.com/2026/05/15/starbucks-to-lay-off-300-us-employees-close-some-regional-offices.html",
+        "source": "CNBC"
       },
       {
-        "title": "Nikkei 225 +0.89%, Topix +1.18% — Asia broad rally on summit optimism",
-        "link": "",
-        "date": "Fri, 15 May 2026"
-      },
-      {
-        "title": "Kospi concentration risk: Samsung+SK Hynix = 42.2% of index",
-        "link": "https://www.cnbc.com/2026/05/12/tsmc-samsung-sk-hynixs-south-korea-taiwan-stocks-ai-chipmakers-concentration-risk.html",
-        "date": "Fri, 15 May 2026"
-      }
-    ],
-    "marketwatch": [
-      {
-        "title": "Bond market already hiking rates as Kevin Warsh takes over as Fed's new chair",
-        "link": "https://www.marketwatch.com/story/the-bond-market-is-already-hiking-rates-as-kevin-warsh-takes-over-as-feds-new-chair-7a74acbd",
-        "date": "Thu, 14 May 2026"
-      },
-      {
-        "title": "Figma has a fix for its ailing stock — new ways to make money off AI products",
-        "link": "https://www.marketwatch.com/story/figma-has-a-fix-for-its-ailing-stock-a-new-way-to-make-money-off-its-ai-products-2a4f3489",
-        "date": "Fri, 15 May 2026"
+        "title": "Stock market surge delivers rare signal — Goldman Sachs on history",
+        "link": "https://www.marketwatch.com/story/the-stock-market-surge-has-delivered-a-rare-signal-heres-what-history-suggests-happens-next-says-goldman-sachs-fc0d6dd9",
+        "source": "MarketWatch"
       }
     ]
+  },
+  "crypto": {
+    "bitcoin": { "usd": 79980, "change_24h_pct": 0.12 },
+    "ethereum": { "usd": 2245.73, "change_24h_pct": -0.58 },
+    "solana": { "usd": 90.40, "change_24h_pct": -0.93 },
+    "ripple": { "usd": 1.45, "change_24h_pct": 0.27 },
+    "dogecoin": { "usd": 0.1138, "change_24h_pct": -1.39 },
+    "cardano": { "usd": 0.2645, "change_24h_pct": -1.02 },
+    "polkadot": { "usd": 1.33, "change_24h_pct": -0.86 }
   }
 }

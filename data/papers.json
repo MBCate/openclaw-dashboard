@@ -1,8 +1,55 @@
 {
-  "date": "2026-05-15",
-  "total": 46,
-  "new_discoveries": 36,
+  "date": "2026-05-16",
+  "total": 48,
+  "new_discoveries": 2,
   "papers": [
+    {
+      "id": "2605.12624",
+      "title": "MindVLA-U1: VLA Beats VA with Unified Streaming Architecture for Autonomous Driving",
+      "title_cn": "MindVLA-U1：统一流式架构让VLA超越VA的自动驾驶方案",
+      "authors": "Yuzhou Huang, Benjin Zhu, Hengtong Lu, Victor Shea-Jay Huang, Haiming Zhang, Wei Chen, Jifeng Dai, Yan Xie, Hongsheng Li",
+      "relevance": 5,
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-16",
+      "tags": [
+        "VLA",
+        "streaming architecture",
+        "flow matching",
+        "autonomous driving",
+        "unified backbone"
+      ],
+      "category": "vla-autonomous-driving",
+      "status": "new",
+      "summary": "首次证明VLA架构在规划质量上超越传统VA。统一VLM骨干在单次前向传播中同时生成语言token（可选）和流匹配连续动作轨迹。全流式设计逐帧处理驾驶视频，无需固定视频-动作块。学习式流式分布对齐实现平滑轨迹演化。"
+    },
+    {
+      "id": "2605.14201",
+      "title": "MAPLE: Latent Multi-Agent Play for End-to-End Autonomous Driving",
+      "title_cn": "MAPLE：端到端自动驾驶的潜空间多智能体博弈框架",
+      "authors": "Rajeev Yasarla, Deepti Hegde, Hsin-Pai Cheng, Shizhong Han, Yunxiao Shi, Meysam Sadeghigooghari, Hanno Ackermann, Litian Liu, Pranav Desai, Fatih Porikli, Mohammad Ghavamzadeh, Hong Cai",
+      "relevance": 5,
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-16",
+      "tags": [
+        "VLA",
+        "end-to-end driving",
+        "multi-agent",
+        "RL",
+        "closed-loop",
+        "latent space"
+      ],
+      "category": "e2e-autonomous-driving",
+      "status": "new",
+      "summary": "在VLA潜空间中实现反应式多智能体rollout，两阶段训练：潜空间SFT + RL（全局+智能体奖励）。引入多样性奖励生成日志外行为。无需外部模拟器，可扩展的闭环训练。Bench2Drive SOTA。"
+    },
     {
       "id": "2605.11678",
       "title": "OOM-Free Alpamayo via CPU-GPU Memory Swapping for Vision-Language-Action Models",
@@ -706,5 +753,6 @@
       "date": "2026-05-08",
       "url": "https://arxiv.org/abs/2605.08293"
     }
-  ]
+  ],
+  "last_updated": "2026-05-16 08:05:40"
 }

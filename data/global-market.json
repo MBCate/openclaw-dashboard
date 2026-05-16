@@ -1,61 +1,52 @@
 {
-  "updated": "2026-05-15T21:30:00+08:00",
-  "date": "2026-05-15",
-  "fear_greed": {
-    "value": 43,
-    "classification": "Fear"
-  },
+  "updated": "2026-05-16T21:30:00+08:00",
+  "date": "2026-05-16",
   "us_markets": {
-    "note": "Friday pre-market / futures session — risk-off triggered",
-    "sp500_futures": "down, tech selloff (unwinding Thurs record)",
-    "nasdaq_futures": "down sharply — tech trade cools",
+    "note": "Friday May 15 close — broad selloff, tech-led downturn",
+    "dow": "-530 pts (-1.0%) — back below 50,000",
+    "sp500": "-1.2% — pulled back from Thursday's all-time closing high",
+    "nasdaq": "down sharply — tech trade unwound",
     "30y_treasury_yield": ">5.1%, highest in nearly a year",
-    "key_story": "S&P/Nasdaq futures tumble Friday as tech trade cools, yields surge. 30yr tops 5.1% for first time in nearly a year. Trump-Xi summit Day 2: Trump declines to commit to defending Taiwan. Cerebras IPO +68% on Thurs debut. Fed Chair Warsh rate path concerns persist."
+    "10y_treasury_yield": "surged — inflation fears + oil spike",
+    "key_story": "Dow loses 500+ points as tech slumps and yields spike. S&P 500 retreats from new all-time high. Rising oil prices and bond yields trigger risk-off. Trump-Xi summit ends with no meaningful trade progress. Volatile week ahead with Nvidia and Walmart earnings."
   },
   "asia_markets": {
-    "note": "Friday Asia close — Kospi record, Nikkei higher",
-    "nikkei": "+0.89% (close)",
-    "topix": "+1.18% (close)",
-    "kospi": "8,000+ (+0.6%) — fresh record high",
-    "hsi": "down ~0.2% (mixed on Taiwan tensions)",
-    "key_event": "Trump-Xi Beijing summit Day 2. Trump 'I don't talk about' defending Taiwan. Kospi hits 8,000 record. Strait of Hormuz commitment maintained."
-  },
-  "news_highlights": {
-    "evening_headlines": [
-      {
-        "title": "Trump told Xi 'I don't talk about' whether US would defend Taiwan",
-        "link": "https://www.cnbc.com/2026/05/15/trump-china-xi-taiwan.html",
-        "source": "CNBC"
-      },
-      {
-        "title": "S&P, Nasdaq futures tumble as tech trade cools, yields surge",
-        "link": "https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html",
-        "source": "CNBC"
-      },
-      {
-        "title": "30-year Treasury yield tops 5.1%, highest in nearly a year",
-        "link": "https://www.cnbc.com/2026/05/15/treasury-yields-surge-as-inflation-data-points-to-tricky-rates-path.html",
-        "source": "CNBC"
-      },
-      {
-        "title": "Starbucks to lay off 300 US employees, shutter regional offices",
-        "link": "https://www.cnbc.com/2026/05/15/starbucks-to-lay-off-300-us-employees-close-some-regional-offices.html",
-        "source": "CNBC"
-      },
-      {
-        "title": "Stock market surge delivers rare signal — Goldman Sachs on history",
-        "link": "https://www.marketwatch.com/story/the-stock-market-surge-has-delivered-a-rare-signal-heres-what-history-suggests-happens-next-says-goldman-sachs-fc0d6dd9",
-        "source": "MarketWatch"
-      }
-    ]
+    "note": "Friday May 15 close",
+    "hsi": "down ~0.2% — mixed, weighed by Taiwan tensions",
+    "nikkei": "+0.89%",
+    "kospi": "8000+ (+0.6%) — fresh record high",
+    "key_event": "Trump-Xi Beijing summit concludes. Trump declines to commit to defending Taiwan. Strait of Hormuz commitment maintained."
   },
   "crypto": {
-    "bitcoin": { "usd": 79980, "change_24h_pct": 0.12 },
-    "ethereum": { "usd": 2245.73, "change_24h_pct": -0.58 },
-    "solana": { "usd": 90.40, "change_24h_pct": -0.93 },
-    "ripple": { "usd": 1.45, "change_24h_pct": 0.27 },
-    "dogecoin": { "usd": 0.1138, "change_24h_pct": -1.39 },
-    "cardano": { "usd": 0.2645, "change_24h_pct": -1.02 },
-    "polkadot": { "usd": 1.33, "change_24h_pct": -0.86 }
+    "updated_utc": "2026-05-16T13:30:00Z",
+    "bitcoin": { "usd": 77923, "change_24h_pct": -2.16 },
+    "ethereum": { "usd": 2176.04, "change_24h_pct": -2.76 },
+    "solana": { "usd": 86.19, "change_24h_pct": -4.66 },
+    "ripple": { "usd": 1.41, "change_24h_pct": -2.97 },
+    "dogecoin": { "usd": 0.1081, "change_24h_pct": -5.04 },
+    "cardano": { "usd": 0.2544, "change_24h_pct": -3.80 },
+    "polkadot": { "usd": 1.27, "change_24h_pct": -4.77 }
+  },
+  "news_highlights": [
+    { "title": "Dow loses more than 500 points Friday as tech slumps and yields spike", "source": "CNBC", "link": "https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html" },
+    { "title": "Why Taiwan became the defining issue in the Trump-Xi talks", "source": "CNBC", "link": "https://www.cnbc.com/2026/05/16/trumps-meeting-with-chinas-xi-steers-the-us-away-from-taiwan-again.html" },
+    { "title": "Trump went big on tech stocks in first quarter of 2026, new filings show", "source": "CNBC", "link": "https://www.cnbc.com/2026/05/15/trump-stock-trade-tech-oge.html" },
+    { "title": "UAE says its decision to leave OPEC was a strategic economic move", "source": "CNBC", "link": "https://www.cnbc.com/2026/05/16/uae-decision-to-leave-opec-was-not-a-political-move.html" },
+    { "title": "S&P 500, Nasdaq still near highs as Nvidia, Walmart earnings loom", "source": "Investors.com", "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-nvidia-walmart-earnings/" },
+    { "title": "Small caps still riding high despite latest setback — more trouble ahead", "source": "MarketWatch", "link": "https://www.marketwatch.com/story/small-caps-are-still-riding-high-despite-latest-setback-but-more-trouble-could-lie-ahead-19d778ea" },
+    { "title": "High gas prices and inflation stressing people out — but economy fine as long as spending holds", "source": "MarketWatch", "link": "https://www.marketwatch.com/story/high-gas-prices-and-inflation-are-stressing-people-out-but-the-economy-will-be-fine-as-long-as-they-keep-spending-4f4b66e3" },
+    { "title": "MicroVision turns $33M Luminar deal into trucking LiDAR expansion", "source": "Yahoo Finance", "link": "https://finance.yahoo.com/sectors/technology/articles/microvision-turns-33m-luminar-deal-130000948.html" },
+    { "title": "Tesla, Toyota expose surprising auto industry truth", "source": "Yahoo Finance", "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-toyota-expose-surprising-auto-043700448.html" }
+  ],
+  "fear_greed": {
+    "note": "Prior close estimate (Friday selloff)",
+    "value": "~35-40",
+    "classification": "Fear"
+  },
+  "week_ahead": {
+    "note": "Key events week starting May 18",
+    "earnings": ["Nvidia", "Walmart", "Target", "Applied Materials"],
+    "economic_data": ["Housing starts", "Existing home sales", "Jobless claims"],
+    "fed_watch": "Rate path uncertainty — bond yields surging"
   }
 }

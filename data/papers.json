@@ -1,8 +1,120 @@
 {
-  "date": "2026-05-16",
-  "total": 48,
-  "new_discoveries": 2,
+  "date": "2026-05-17",
+  "total": 53,
+  "new_discoveries": 5,
   "papers": [
+    {
+      "id": "2605.14832",
+      "title": "Learning Direct Control Policies with Flow Matching for Autonomous Driving",
+      "title_cn": "流匹配直接控制策略的自动驾驶规划",
+      "authors": "Marcello Ceresini, Federico Pirazzoli, Andrea Bertogalli, Lorenzo Cipelli, Filippo D'Addeo, Anthony Dell'Eva, Alessandro Paolo Capasso, Alberto Broggi",
+      "relevance": 4,
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-17",
+      "tags": [
+        "flow matching",
+        "control policy",
+        "BEV",
+        "sim-to-real",
+        "closed-loop"
+      ],
+      "category": "e2e-autonomous-driving",
+      "status": "new",
+      "summary": "流匹配规划器直接输出加速度/曲率控制轨迹，以BEV栅格为条件，少量ODE步实现实时重规划。仅城市仿真数据训练，泛化到高速公路等OOD场景。"
+    },
+    {
+      "id": "2605.13632",
+      "title": "Guide, Think, Act: Interactive Embodied Reasoning in Vision-Language-Action Models",
+      "title_cn": "GTA-VLA：VLA模型的交互式具身推理",
+      "authors": "Yiran Ling, Qing Lian, Jinghang Li, Qing Jiang, Tianming Zhang, Xiaoke Jiang, Chuanxiu Liu, Jie Liu, Lei Zhang",
+      "relevance": 5,
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-17",
+      "tags": [
+        "VLA",
+        "embodied reasoning",
+        "interactive",
+        "steerable policy"
+      ],
+      "category": "vla-autonomous-driving",
+      "status": "new",
+      "summary": "提出三阶段Guide-Think-Act VLA框架，允许用户通过视觉线索实时引导机器人策略。突破端到端Sense-to-Act在OOD下的脆弱性，实现可纠错的交互式执行。"
+    },
+    {
+      "id": "2605.15178",
+      "title": "SANA-WM: Efficient Minute-Scale World Modeling with Hybrid Linear Diffusion Transformer",
+      "title_cn": "SANA-WM：混合线性注意力扩散Transformer的高效分钟级世界建模",
+      "authors": "Haoyi Zhu, Haozhe Liu, Yuyang Zhao, Tian Ye, Junsong Chen, Jincheng Yu, Tong He, Song Han, Enze Xie",
+      "relevance": 4,
+      "categories": [
+        "cs.CV"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-17",
+      "tags": [
+        "world-model",
+        "diffusion transformer",
+        "linear attention",
+        "video generation"
+      ],
+      "category": "world-models-ad",
+      "status": "new",
+      "summary": "2.6B参数开源世界模型，原生支持720p分钟级视频生成和6-DoF相机控制。仅213K视频训练，36×吞吐量优于基线。蒸馏版RTX5090上60s视频仅34s。"
+    },
+    {
+      "id": "2605.14696",
+      "title": "EponaV2: Driving World Model with Comprehensive Future Reasoning",
+      "title_cn": "EponaV2：全面未来推理的驾驶世界模型",
+      "authors": "Jiawei Xu, Zhizhou Zhong, Zhijian Shu, Mingkai Jia, Mingxiao Li, Jia-Wang Bian, Qian Zhang, Kaicheng Zhang, Jin Xie, Jian Yang",
+      "relevance": 5,
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-17",
+      "tags": [
+        "world-model",
+        "future reasoning",
+        "planning",
+        "flow matching",
+        "GRPO"
+      ],
+      "category": "world-models-ad",
+      "status": "new",
+      "summary": "超越纯帧预测，训练世界模型预测未来几何和语义地图。引入流匹配GRPO机制，NAVSIM感知-free模型SOTA（+1.3 PDMS/+5.5 EPDMS）。"
+    },
+    {
+      "id": "2605.15120",
+      "title": "CLOVER: Closed-Loop Value Estimation & Ranking for End-to-End Autonomous Driving Planning",
+      "title_cn": "CLOVER：端到端自动驾驶规划的闭环价值估计与排序",
+      "authors": "Sining Ang, Yuguang Yang, Canyu Chen, Yan Wang",
+      "relevance": 5,
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-17",
+      "tags": [
+        "end-to-end",
+        "planning",
+        "closed-loop",
+        "value estimation",
+        "ranking"
+      ],
+      "category": "e2e-autonomous-driving",
+      "status": "new",
+      "summary": "提出Generator-Scorer框架解决训练-评估不匹配问题。保守闭环自蒸馏使scorer辅助generator优化，NAVSIM上PDMS 94.5/EPDMS 90.4达到SOTA。"
+    },
     {
       "id": "2605.12624",
       "title": "MindVLA-U1: VLA Beats VA with Unified Streaming Architecture for Autonomous Driving",
@@ -754,5 +866,5 @@
       "url": "https://arxiv.org/abs/2605.08293"
     }
   ],
-  "last_updated": "2026-05-16 08:05:40"
+  "last_updated": "2026-05-17 15:55:00"
 }

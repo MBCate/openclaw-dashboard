@@ -1,7 +1,7 @@
 {
-  "date": "2026-05-17",
-  "total": 53,
-  "new_discoveries": 5,
+  "date": "2026-05-18",
+  "total": 59,
+  "new_discoveries": 13,
   "papers": [
     {
       "id": "2605.14832",
@@ -864,6 +864,138 @@
       "new": true,
       "date": "2026-05-08",
       "url": "https://arxiv.org/abs/2605.08293"
+    },
+    {
+      "id": "2605.12622",
+      "title": "Action Emergence from Streaming Intent",
+      "title_cn": "流式意图驱动的端到端驾驶动作涌现",
+      "authors": "Pengfei Jing, Victor Shea-Jay Huang, Hengtong Lu, Jifeng Dai, Yan Xie, Benjin Zhu",
+      "relevance": 5,
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-18",
+      "tags": [
+        "VLA",
+        "streaming intent",
+        "autoregressive",
+        "flow matching",
+        "Waymo benchmark",
+        "end-to-end driving"
+      ],
+      "category": "e2e-autonomous-driving",
+      "status": "new",
+      "summary": "提出Streaming Intent范式：自回归解码四步推理链并发射意图token，意图驱动CFG流匹配动作头，仅2步去噪即可生成轨迹。Waymo E2E榜RFS 7.96 val / 7.74 test。首次实现全端到端VLA的意图可控性。"
+    },
+    {
+      "id": "2605.11594",
+      "title": "PointForward: Feedforward Driving Reconstruction through Point-Aligned Representations",
+      "title_cn": "PointForward：点对齐表示的驾驶场景前馈重建",
+      "authors": "Cheng Chi, Xianqi Wang, Hongcheng Luo, Mingfei Tu, Gangwei Xu, Zehan Zhang, Bing Wang, Guang Chen, Hangjun Ye, Sida Peng, Xin Yang, Haiyang Sun",
+      "relevance": 3,
+      "categories": [
+        "cs.CV"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-18",
+      "tags": [
+        "3D reconstruction",
+        "3DGS",
+        "feedforward",
+        "point-aligned",
+        "driving scenes"
+      ],
+      "category": "e2e-autonomous-driving",
+      "status": "new",
+      "summary": "提出点对齐表示的驾驶场景前馈重建框架，世界空间初始化稀疏3D查询，通过时空融合聚合多视图信息，引入场景图处理动态实例。在大型驾驶基准数据集上SOTA。"
+    },
+    {
+      "id": "2605.12743",
+      "title": "Still Camouflage, Moving Illusion: View-Induced Trajectory Manipulation in Autonomous Driving",
+      "title_cn": "静态伪装、运动幻觉：视角诱导的自动驾驶轨迹操纵",
+      "authors": "Zhongwen Zhang, et al.",
+      "relevance": 3,
+      "categories": [
+        "cs.CV"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-18",
+      "tags": [
+        "adversarial attack",
+        "safety",
+        "perception",
+        "trajectory manipulation"
+      ],
+      "category": "e2e-autonomous-driving",
+      "status": "new",
+      "summary": "研究发现可通过伪装/干扰物体外观诱导端到端自动驾驶模型产生错误运动预测和规划轨迹。揭示端到端视觉感知系统的对抗脆弱性。"
+    },
+    {
+      "id": "2605.13591",
+      "title": "Real2Sim: A Physics-driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes",
+      "title_cn": "Real2Sim：自动驾驶场景的物理驱动可编辑高斯泼溅框架",
+      "authors": "Tianyi Huang, et al.",
+      "relevance": 3,
+      "categories": [
+        "cs.CV"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-18",
+      "tags": [
+        "Gaussian Splatting",
+        "scene editing",
+        "sim2real",
+        "autonomous driving scenes"
+      ],
+      "category": "e2e-autonomous-driving",
+      "status": "new",
+      "summary": "提出物理驱动可编辑Gaussian Splatting框架，将真实驾驶场景重建为可交互的数字仿真环境，支持场景元素编辑和物理交互。"
+    },
+    {
+      "id": "2605.10117",
+      "title": "Think as Needed: Geometry-Driven Adaptive Perception for Autonomous Driving",
+      "title_cn": "按需思考：几何驱动的自适应自动驾驶感知",
+      "authors": "Donghyun Kim, et al.",
+      "relevance": 3,
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-18",
+      "tags": [
+        "adaptive perception",
+        "LiDAR",
+        "geometric complexity",
+        "temporal memory",
+        "efficient inference"
+      ],
+      "category": "e2e-autonomous-driving",
+      "status": "new",
+      "summary": "自适应感知架构，用无监督几何复杂度估计器动态选择轻/重处理路径。线性空间子网替代二次交互，持久化时序记忆模块可恢复5秒以上遮挡。nuScenes/CARLA：简单场景延迟-38%，长尾mAP+2.7。"
+    },
+    {
+      "id": "2605.09619",
+      "title": "GSMap: 2D Gaussians for Online HD Mapping",
+      "title_cn": "GSMap：基于2D高斯的在线高精地图构建",
+      "authors": "Zhenxuan Zeng, et al.",
+      "relevance": 3,
+      "categories": [
+        "cs.CV"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-18",
+      "tags": [
+        "HD mapping",
+        "Gaussian Splatting",
+        "vectorization",
+        "rasterization"
+      ],
+      "category": "e2e-autonomous-driving",
+      "status": "new",
+      "summary": "统一矢量化与光栅化HD地图构建。地图元素建模为2D高斯序列，通过可微分渲染施加像素级几何约束并进行拓扑感知矢量优化。nuScenes和Argoverse2上SOTA。"
     }
   ],
   "last_updated": "2026-05-17 15:55:00"

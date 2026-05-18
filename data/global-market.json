@@ -1,73 +1,65 @@
 {
-  "updated": "2026-05-18T09:15:00+08:00",
+  "updated": "2026-05-18T21:30:00+08:00",
   "date": "2026-05-18",
-  "session": "premarket",
+  "session": "evening",
   "us_markets": {
-    "note": "Friday May 15 close — volatile week, tech selloff; Monday overnight futures",
-    "sp500": { "value": 7408.50, "daily_change": -0.06, "note": "Pulled back from Thursday's all-time high (7501). Friday selloff erased gains." },
-    "dow": { "value": 49526.17, "daily_change": -1.07, "note": "Below 50,000 again. Lost 537 pts Friday on tech slump. Overnight futures flat." },
-    "nasdaq": { "value": 26225.14, "daily_change": -1.54, "note": "AI rout Friday, DeepSeek news spooked tech names. Nvidia earnings Wed key." },
-    "10y_treasury_yield": { "value": "4.59%", "note": "Yields rising on inflation fears + oil spike" },
-    "wti_crude": { "value": "$103.89", "note": "Overnight futures rising $103.89 — Hormuz premium persisting" },
-    "gold": { "value": "$4,499.16", "note": "Pulling back from record high $4,562. Overnight futures ~$4,499" },
-    "usd_cny": { "value": "6.8087", "note": "CNY relatively stable" },
-    "key_story": "Week ended on a sour note. S&P 500 hit a fresh all-time high Thursday at 7501 but plunged Friday as tech slumped on DeepSeek AI competition fears. Dow lost 537 points. Berkshire's new CEO overhauled portfolio. Kevin Warsh faces Fed rate-cut debate. Overnight: WTI crude edges up to $103.89, Gold pulling back to ~$4,499. This week: Nvidia earnings (Wed) key test for AI narrative, FOMC minutes, housing data.",
+    "note": "Monday May 18 — Dow futures down 350+ pts. S&P 500 session close ~7421 (+0.16%). Bond rout deepens.",
+    "sp500": { "value": 7421, "daily_change": +0.16, "note": "Rallied slightly from Friday's selloff. Still off all-time high 7517." },
+    "dow": { "value": 49526, "daily_change": -0.7, "note": "Futures down ~350 pts on session. Rising yields pressuring." },
+    "nasdaq": { "value": 26188, "daily_change": -0.5, "note": "Tech mixed — Nvidia earnings Wednesday crucial. Meta laying off staff." },
+    "10y_treasury_yield": { "value": "4.59%+", "note": "Touched highest in a year. Global bond selloff continuing. Japan 30Y hit record." },
+    "wti_crude": { "value": "$103.30", "note": "Slipped from morning peak of $106. Still elevated on Iran-Hormuz risk." },
+    "brent_crude": { "value": "$110-111", "note": "Brent ~$111 at Asian open. Middle East risk premium baked in." },
+    "gold": { "value": "~$4,450", "note": "Continued pullback from record $4,562. Strong dollar weighing." },
+    "usd_cny": { "value": "6.81-6.82", "note": "CNY near 6.817. Stable despite risk-off tone." },
+    "key_story": "Monday sees global bond rout deepen — 10Y Treasury touched 1-year high, Japan 30Y hit record. Dow futures down 350+ as oil and yields pile pressure. NextEra Energy buying Dominion for $67B to create utility/ power-AI colossus. Meta layoffs starting this week marking harsh AI reality. Nvidia earnings Wednesday is the week's defining event. Kevin Warsh incoming Fed chair faces rate-cut vs inflation dilemma. Iran-US stalemate keeps Hormuz risk premium intact.",
     "week_ahead": {
-      "note": "Week of May 18-22",
-      "earnings": ["Nvidia (Wed — the big one)", "Walmart (Tue)", "Target", "Applied Materials"],
+      "note": "Week of May 18-22 — Continued",
+      "earnings": ["Nvidia (Wed — most important AI earnings of the quarter)", "Walmart (Tue)", "Target", "Applied Materials"],
       "economic_data": ["Housing starts (Tue)", "Existing home sales (Thu)", "Jobless claims (Thu)", "FOMC minutes (Thu)"],
-      "fed_watch": "Warsh's first major test — rate cut debate intensifying"
+      "fed_watch": "Warsh's first major test — rate cut outlook vs sticky inflation debate"
     }
   },
-  "asia_premarket": {
-    "note": "Monday May 18 pre-market (09:15 CST)",
-    "shanghai_composite": { "value": 4135.18, "change": 0.00, "note": "Flat open expected. Friday closed at 4135.39." },
-    "csi300": { "value": 4859.50, "change": 0.00, "note": "Flat pre-market" },
-    "hsi": { "value": 25962.73, "change": 0.00, "note": "yet to open. Last close 25962.73" },
-    "crude_oil_futures": { "value": 103.89, "change": "+2.84%", "note": "Overnight WTI at $103.89" },
-    "gold_futures": { "value": 4499.16, "change": "-1.37%", "note": "Gold futures pulling back from highs" },
-    "key_story": "China market opens flat. Market digesting Trump-Xi summit outcome — Taiwan ambiguity unresolved. G7 finance ministers to meet on Hormuz situation this week."
-  },
   "asia_markets": {
-    "note": "Friday May 15 close",
-    "shanghai_composite": { "value": 4135.39, "change": -1.02, "note": "Slight pullback last week" },
-    "hsi": { "note": "Lower on Taiwan tensions after Trump-Xi summit" },
-    "nikkei": { "note": "Weak yen supporting exporters" },
-    "key_event": "Trump-Xi Beijing summit concluded. Taiwan stance ambiguity weighing on sentiment. G7 finance ministers to meet on Hormuz situation."
+    "note": "Monday May 18 close",
+    "shanghai_composite": { "value": "~4130", "change": -0.1, "note": "Flat session. Markets cautious on Taiwan ambiguity post Trump-Xi." },
+    "csi300": { "value": "~4855", "change": -0.1, "note": "Slight pullback tracking global risk-off." },
+    "hsi": { "value": 25610.93, "change": -1.11, "note": "Closed lower. Financials weak, oil stocks rose. Opened 25839, low 25505." },
+    "hscei": { "value": 8647, "change": -0.5, "note": "H-shares tracked HSI lower." },
+    "hstec": { "value": 4897, "change": -0.87, "note": "Tech index weakest performer." },
+    "nikkei": { "note": "Yet to close for session" }
   },
   "crypto": {
-    "updated_utc": "2026-05-18T01:15:00Z",
-    "fear_greed": { "value": 25, "classification": "Fear" },
-    "bitcoin": { "usd": 76965, "change_24h_pct": -1.33 },
-    "ethereum": { "usd": 2110.55, "change_24h_pct": -3.15 },
-    "note": "Crypto dipping overnight with risk-off sentiment. BTC below $77K. ETH down 3.15%."
+    "updated_utc": "2026-05-18T13:30:00Z",
+    "fear_greed": { "value": 22, "classification": "Extreme Fear" },
+    "bitcoin": { "usd": 77277, "change_24h_pct": -1.22 },
+    "ethereum": { "usd": 2143, "change_24h_pct": -2.14 },
+    "note": "Crypto continues to slide with risk-off. BTC below $78K. ETH below $2,150. Market cap eroding amid rate fears."
   },
   "news_highlights": [
-    { "title": "AI-related layoffs a boost for stocks? Not necessarily", "source": "CNBC", "link": "https://www.cnbc.com/2026/05/17/ai-related-layoffs-a-boost-for-stocks-not-necessarily.html" },
-    { "title": "G7 finance ministers to meet amid warning of economic consequences of prolonged Strait of Hormuz closure", "source": "CNBC", "link": "https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html" },
-    { "title": "Kevin Warsh comes into the Fed facing a big 'family fight' over cutting interest rates", "source": "CNBC", "link": "https://www.cnbc.com/2026/05/16/kevin-warsh-comes-into-the-fed-facing-a-big-family-fight-over-cutting-interest-rates.html" },
-    { "title": "Berkshire's new CEO overhauls portfolio, dumping a slate of stocks", "source": "CNBC", "link": "https://www.cnbc.com/2026/05/16/berkshires-new-ceo-overhauls-portfolio-dumping-a-slate-of-stocks.html" },
-    { "title": "Why Taiwan became the defining issue in the Trump-Xi talks", "source": "CNBC", "link": "https://www.cnbc.com/2026/05/16/trumps-meeting-with-chinas-xi-steers-the-us-away-from-taiwan-again.html" },
-    { "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek — S&P, NASDAQ plunge Friday", "source": "WSJ", "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056" },
-    { "title": "DeepSeek Won't Sink U.S. AI Titans — Analysts say overreaction", "source": "WSJ", "link": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81" },
-    { "title": "Nvidia earnings Wednesday — most important report of the quarter for AI thesis", "source": "Multiple", "link": "" },
-    { "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat", "source": "WSJ", "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe" },
-    { "title": "Gulf freight rates jump as shipping companies turn to trucks to move cargo", "source": "Financial Times", "link": "https://www.ft.com/content/0c2adc44-5dcf-4273-943e-9899a1ce44ff" },
-    { "title": "EU plan to slash steel imports will hurt Ukraine, officials warn", "source": "Financial Times", "link": "https://www.ft.com/content/501e3207-4a9e-4edb-9a80-812cbfbd4f46" }
+    { "title": "NextEra Energy to buy Dominion for $67 billion — unites two key players in race to power AI data centers", "source": "CNBC", "link": "https://www.cnbc.com/2026/05/18/nextera-nee-dominion-energy-d-data-center-ai.html" },
+    { "title": "10-year Treasury yield touches highest in a year; Japan's 30-year yield rises to a record", "source": "CNBC", "link": "https://www.cnbc.com/2026/05/18/treasury-yields-inflation-bond-rout-oil.html" },
+    { "title": "Meta layoffs starting this week stress harsh AI reality inside Zuckerberg's company", "source": "CNBC", "link": "https://www.cnbc.com/2026/05/18/metas-layoffs-starting-this-week-underscore-zuckerbergs-ai-reality-.html" },
+    { "title": "Trump drops $10 billion lawsuit against IRS", "source": "CNBC", "link": "https://www.cnbc.com/2026/05/18/trump-dismiss-irs-lawsuit.html" },
+    { "title": "US Futures Waver as Oil Prices Edge Lower, Chips Stocks Rally", "source": "Bloomberg", "link": "https://www.bloomberg.com/news/articles/2026-05-18/us-futures-slip-as-inflation-worries-feed-risk-off-sentiment" },
+    { "title": "Billionaire Rinehart Bets $100 Million on US Defense Stocks", "source": "Bloomberg", "link": "https://www.bloomberg.com/news/articles/2026-05-18/billionaire-gina-rinehart-bets-100-million-on-us-defense-stocks" },
+    { "title": "Europe Won't Run Out of Jet Fuel, Ryanair CEO Says", "source": "Bloomberg", "link": "https://www.bloomberg.com/news/videos/2026-05-18/europe-won-t-run-out-of-jet-fuel-ryanair-ceo-says-video" },
+    { "title": "Nvidia earnings Wednesday — most important report of the quarter for AI thesis", "source": "Multiple", "link": "" }
   ],
   "commodities": {
-    "gold": { "usd": 4499.16, "trend": "Pulling back from record $4,562 — down ~1.4% overnight" },
-    "wti_crude": { "usd": 103.89, "trend": "Edging up — Hormuz risk premium persisting" },
-    "coffee": { "note": "Record high on US-Colombia tariff spat" }
+    "gold": { "usd": 4450, "trend": "Pulling back from record $4,562. Strong USD headwind." },
+    "wti_crude": { "usd": 103.30, "trend": "Slipped from morning high of $106 but elevated on Iran-US Hormuz risk" },
+    "brent_crude": { "usd": 111, "trend": "Global benchmark ~$111. Middle East uncertainty persists." }
   },
   "geopolitical_risk": {
-    "note": "Elevated",
+    "note": "Elevated — multiple flashpoints",
     "factors": [
-      "Strait of Hormuz closure — G7 finance ministers emergency meeting this week",
-      "Trump-Xi summit: Taiwan ambiguity, no meaningful trade progress",
-      "Ukraine drone strikes on Moscow continuing",
-      "US-Colombia tariff spat hitting coffee prices",
-      "Kevin Warsh Fed confirmation — rate cut outlook in focus"
+      "Iran-US stalemate — Strait of Hormuz closure risk persisting, oil risk premium elevated",
+      "G7 finance ministers emergency meeting this week on Hormuz economic consequences",
+      "Trump-Xi summit fallout: Taiwan stance ambiguity weighing on Asian sentiment",
+      "Global bond rout — 10Y Treasury at 1-year high, Japan 30Y record",
+      "Kevin Warsh incoming Fed chair — rate cut vs inflation tug-of-war",
+      "NextEra-Dominion $67B megamerger reshaping utility/AI infrastructure landscape"
     ]
   }
 }

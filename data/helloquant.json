@@ -1,113 +1,35 @@
 {
-  "date": "2026-05-15",
-  "updated_at": "2026-05-15T17:00:59+08:00",
-  "last_full_data": "2026-05-11 (strategy signals snapshot)",
-  "report_type": "weekly",
-  "week_range": "2026-05-11 ~ 2026-05-15",
+  "updated_at": "2026-05-18 15:05:00",
+  "date": "2026-05-18",
+  "status": "stale",
+  "note": "HelloQuant 上次运行: 2026-05-11（7天前），今日未采集新策略数据",
+  "last_daily_data": {
+    "timestamp": "2026-05-11T15:11:37",
+    "data": {
+      "上证指数": {
+        "price": 4225.02,
+        "change_pct": 1.08
+      },
+      "深证成指": {
+        "price": 15899.3,
+        "change_pct": 2.16
+      },
+      "创业板指": {
+        "price": 3928.97,
+        "change_pct": 3.5
+      }
+    }
+  },
   "strategies": [
-    {
-      "name": "DoubleMa",
-      "status": "configured",
-      "last_update": "2026-05-11",
-      "signal_1h": "观望",
-      "signal_4h": "做多"
-    },
-    {
-      "name": "TripleMa",
-      "status": "configured",
-      "last_update": "2026-05-11",
-      "signal_1h": "观望",
-      "signal_4h": "观望"
-    },
-    {
-      "name": "Supertrend",
-      "status": "configured",
-      "last_update": "2026-05-11",
-      "signal_1h": "观望",
-      "signal_4h": "观望"
-    },
-    {
-      "name": "RSI",
-      "status": "configured",
-      "last_update": "2026-05-11",
-      "signal_1h": "观望",
-      "signal_4h": "观望"
-    },
-    {
-      "name": "MACD",
-      "status": "configured",
-      "last_update": "2026-05-11",
-      "signal_1h": "做空",
-      "signal_4h": "观望"
-    },
-    {
-      "name": "Bollinger",
-      "status": "configured",
-      "last_update": "2026-05-11",
-      "signal_1h": "观望",
-      "signal_4h": "做空"
-    },
-    {
-      "name": "Momentum",
-      "status": "configured",
-      "last_update": "2026-05-11",
-      "signal_1h": "做空",
-      "signal_4h": "观望"
-    },
-    {
-      "name": "MeanReversion",
-      "status": "configured",
-      "last_update": "2026-05-11",
-      "signal_1h": "观望",
-      "signal_4h": "做空"
-    }
+    "DoubleMa",
+    "TripleMa",
+    "Supertrend",
+    "RSI",
+    "MACD",
+    "Bollinger",
+    "Momentum",
+    "MeanReversion"
   ],
-  "crypto_snapshot": {
-    "source": "daily_raw.json 2026-05-11",
-    "BTC": {
-      "price": 80792.3,
-      "trend_1h": "偏空",
-      "trend_4h": "偏多",
-      "rsi_1h": 42.0,
-      "rsi_4h": 56.6,
-      "macd_1h_status": "死叉",
-      "macd_4h_status": "金叉"
-    },
-    "ETH": {
-      "price": 2331.53,
-      "trend_1h": "偏空",
-      "trend_4h": "偏多",
-      "rsi_1h": 39.8,
-      "rsi_4h": 59.3,
-      "macd_1h_status": "死叉",
-      "macd_4h_status": "金叉"
-    }
-  },
-  "stocks_snapshot": {
-    "source": "daily_raw.json 2026-05-11",
-    "上证指数": 4225.02,
-    "上证涨跌幅": 1.08,
-    "深证成指": 15899.3,
-    "深证涨跌幅": 2.16,
-    "创业板指": 3928.97,
-    "创业板涨跌幅": 3.5
-  },
-  "fear_greed_index": {
-    "value": 43,
-    "classification": "恐惧",
-    "updated": "2026-05-15"
-  },
-  "optimization": {
-    "best_doublema": {
-      "fast": 6,
-      "slow": 55,
-      "return_pct": 0.09,
-      "sharpe": 0.23,
-      "max_dd_pct": -3.68,
-      "win_rate": 0.0,
-      "note": "最佳 DoubleMa 参数组合 (by Sharpe)"
-    },
-    "note": "回测数据基于 A-share 指数，仅供参考"
-  },
-  "notes": "本周无新策略执行数据。BTC 4h 金叉但 1h 死叉，多空分歧。市场恐惧(43)。策略信号偏保守，7/8 策略 4h 观望/做空。"
+  "optimization_results_file": "optimization_results.csv",
+  "optimization_rows": 424
 }

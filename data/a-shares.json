@@ -1,64 +1,57 @@
 {
+  "updated_at": "2026-05-18 15:05:00",
   "date": "2026-05-18",
-  "updated_at": "2026-05-18T11:35:00+08:00",
-  "source": "East Money push2 API",
-  "period": "午盘",
-  "indices": {
+  "indexes": {
     "上证指数": {
-      "price": 4126.35,
-      "change": -9.04,
-      "change_pct": -0.22,
-      "high": 4145.66,
-      "low": 4110.83,
+      "code": "000001",
+      "current": 4131.53,
+      "change_pct": -0.09,
+      "change": -3.86,
       "open": 4120.14,
-      "prev_close": 4135.39
+      "high": 4145.66,
+      "low": 4108.6,
+      "prev_close": 4135.39,
+      "volume": "627233137手",
+      "amount": "1315.08亿"
     },
     "深证成指": {
-      "price": 15513.13,
-      "change": -48.24,
-      "change_pct": -0.31,
+      "code": "399001",
+      "current": 15530.23,
+      "change_pct": -0.2,
+      "change": -31.14,
+      "open": 15465.3,
       "high": 15658.11,
-      "low": 15431.74,
-      "open": 15465.30,
-      "prev_close": 15561.37
+      "low": 15419.04,
+      "prev_close": 15561.37,
+      "volume": "738305604手",
+      "amount": "1578.90亿"
     },
     "创业板指": {
-      "price": 3909.26,
-      "change": -19.80,
-      "change_pct": -0.50,
-      "high": 3961.16,
-      "low": 3895.07,
+      "code": "399006",
+      "current": 3914.88,
+      "change_pct": -0.36,
+      "change": -14.18,
       "open": 3895.07,
-      "prev_close": 3929.06
+      "high": 3961.16,
+      "low": 3883.4,
+      "prev_close": 3929.06,
+      "volume": "217646936手",
+      "amount": "757.35亿"
     },
     "沪深300": {
-      "price": 4826.19,
-      "change": -33.40,
-      "change_pct": -0.69,
-      "high": 4868.60,
-      "low": 4817.03,
+      "code": "000300",
+      "current": 4833.52,
+      "change_pct": -0.54,
+      "change": -26.07,
       "open": 4836.33,
+      "high": 4868.6,
+      "low": 4806.15,
       "prev_close": 4859.59
     }
   },
-  "sectors_top5": [
-    {"name": "元件", "change_pct": 1.71},
-    {"name": "煤炭", "change_pct": 1.05},
-    {"name": "通信设备", "change_pct": 0.97},
-    {"name": "软件开发", "change_pct": 0.73},
-    {"name": "互联网服务", "change_pct": 0.66}
-  ],
-  "sectors_bottom5": [
-    {"name": "化学纤维", "change_pct": -1.87},
-    {"name": "家居用品", "change_pct": -1.86},
-    {"name": "工程机械", "change_pct": -1.84},
-    {"name": "造纸印刷", "change_pct": -1.80},
-    {"name": "化学制药", "change_pct": -1.72}
-  ],
-  "northbound_flow": {
-    "note": "午盘实时数据暂不可用，收盘后更新"
-  },
-  "summary": {
-    "notes": "三大指数午盘小幅收跌，元件、煤炭、通信设备板块领涨，化学纤维、家居用品、工程机械板块跌幅居前，市场呈震荡格局"
-  }
+  "market_status": "closed",
+  "data_source": "腾讯行情API",
+  "note": "上证缩量微跌-0.09%，深证/创业板跌幅略大，沪深300跌-0.54%领跌",
+  "sectors": {},
+  "north_flow": {}
 }

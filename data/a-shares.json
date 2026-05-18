@@ -1,96 +1,64 @@
 {
-  "date": "2026-05-15",
-  "updated_at": "2026-05-15T15:06:48.812389+08:00",
-  "source": "Sina Finance (live API)",
+  "date": "2026-05-18",
+  "updated_at": "2026-05-18T11:35:00+08:00",
+  "source": "East Money push2 API",
+  "period": "午盘",
   "indices": {
     "上证指数": {
-      "price": 4135.39,
-      "change": -42.53,
-      "change_pct": -1.02,
-      "volume": 7331623,
-      "amount": 151924003
+      "price": 4126.35,
+      "change": -9.04,
+      "change_pct": -0.22,
+      "high": 4145.66,
+      "low": 4110.83,
+      "open": 4120.14,
+      "prev_close": 4135.39
     },
     "深证成指": {
-      "price": 15561.37,
-      "change": -184.36,
-      "change_pct": -1.17,
-      "volume": 849695631,
-      "amount": 182523617
+      "price": 15513.13,
+      "change": -48.24,
+      "change_pct": -0.31,
+      "high": 15658.11,
+      "low": 15431.74,
+      "open": 15465.30,
+      "prev_close": 15561.37
     },
     "创业板指": {
-      "price": 3929.06,
-      "change": -22.08,
-      "change_pct": -0.56,
-      "volume": 48638467,
-      "amount": 36466609
+      "price": 3909.26,
+      "change": -19.80,
+      "change_pct": -0.50,
+      "high": 3961.16,
+      "low": 3895.07,
+      "open": 3895.07,
+      "prev_close": 3929.06
     },
     "沪深300": {
-      "price": 4859.59,
-      "change": -55.0,
-      "change_pct": -1.12,
-      "volume": 2769677,
-      "amount": 88768743
-    },
-    "上证50": {
-      "price": 2957.6,
-      "change": -38.97,
-      "change_pct": -1.3,
-      "volume": 638906,
-      "amount": 23121258
+      "price": 4826.19,
+      "change": -33.40,
+      "change_pct": -0.69,
+      "high": 4868.60,
+      "low": 4817.03,
+      "open": 4836.33,
+      "prev_close": 4859.59
     }
   },
-  "sectors": {
-    "top5": [
-      {
-        "name": "半导体",
-        "change_pct": null
-      },
-      {
-        "name": "人形机器人",
-        "change_pct": null
-      },
-      {
-        "name": "AI应用",
-        "change_pct": null
-      },
-      {
-        "name": "算力硬件",
-        "change_pct": null
-      },
-      {
-        "name": "金融科技",
-        "change_pct": null
-      }
-    ],
-    "bottom5": [
-      {
-        "name": "黄金/贵金属",
-        "change_pct": null
-      },
-      {
-        "name": "光伏",
-        "change_pct": null
-      },
-      {
-        "name": "能源金属",
-        "change_pct": null
-      },
-      {
-        "name": "海运",
-        "change_pct": null
-      },
-      {
-        "name": "零售",
-        "change_pct": null
-      }
-    ]
-  },
+  "sectors_top5": [
+    {"name": "元件", "change_pct": 1.71},
+    {"name": "煤炭", "change_pct": 1.05},
+    {"name": "通信设备", "change_pct": 0.97},
+    {"name": "软件开发", "change_pct": 0.73},
+    {"name": "互联网服务", "change_pct": 0.66}
+  ],
+  "sectors_bottom5": [
+    {"name": "化学纤维", "change_pct": -1.87},
+    {"name": "家居用品", "change_pct": -1.86},
+    {"name": "工程机械", "change_pct": -1.84},
+    {"name": "造纸印刷", "change_pct": -1.80},
+    {"name": "化学制药", "change_pct": -1.72}
+  ],
   "northbound_flow": {
-    "note": "Data unavailable via current API, check East Money for details"
+    "note": "午盘实时数据暂不可用，收盘后更新"
   },
   "summary": {
-    "total_volume_approx": "沪市1519亿+深市1825亿",
-    "total_amount_approx": "约3344亿",
-    "notes": "三大指数集体收跌，半导体、人形机器人概念活跃，贵金属领跌"
+    "notes": "三大指数午盘小幅收跌，元件、煤炭、通信设备板块领涨，化学纤维、家居用品、工程机械板块跌幅居前，市场呈震荡格局"
   }
 }

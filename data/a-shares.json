@@ -1,63 +1,48 @@
 {
-  "updated_at": "2026-05-19 11:35:00",
+  "update_time": "2026-05-19 15:09",
   "date": "2026-05-19",
-  "indexes": {
+  "indices": {
     "上证指数": {
       "code": "000001",
-      "current": 4132.46,
-      "change_pct": 0.02,
-      "change": 0.87,
-      "prev_close": 4131.53
+      "price": 4169.54,
+      "change": 38.01,
+      "change_pct": 0.92,
+      "open": 4122.96,
+      "high": 4170.29,
+      "low": 4107.99,
+      "volume": 61761106700,
+      "amount": 1306522480000
     },
     "深证成指": {
       "code": "399001",
-      "current": 15408.72,
-      "change_pct": -0.78,
-      "change": -121.51,
-      "prev_close": 15530.23
+      "price": 15569.91,
+      "change": 39.68,
+      "change_pct": 0.26,
+      "volume": 731216529000,
+      "amount": 1580035920000
     },
     "创业板指": {
       "code": "399006",
-      "current": 3867.59,
-      "change_pct": -1.21,
-      "change": -47.29,
-      "prev_close": 3914.88
+      "price": 3908.44,
+      "change": -6.44,
+      "change_pct": -0.16
     },
     "沪深300": {
       "code": "000300",
-      "current": 4808.46,
-      "change_pct": -0.52,
-      "change": -25.06,
-      "prev_close": 4833.52
-    },
-    "科创50": {
-      "code": "000688",
-      "change_pct": 1.0
+      "price": 4852.88,
+      "change": 19.36,
+      "change_pct": 0.40,
+      "open": 4818.71,
+      "high": 4854.52,
+      "low": 4773.53,
+      "volume": 23228085200,
+      "amount": 712401050000
     }
   },
-  "market_status": "midday",
-  "data_source": "新浪行情API",
-  "note": "沪指平盘震荡微涨+0.02%，科创50探底回升涨超1%领涨，创业板跌-1.21%领跌。绿电、影视、传媒、算力租赁领涨；体育、CPO、锂矿、有色领跌。个股跌多涨少，半天成交1.83万亿。",
-  "sectors": {
-    "leaders": [
-      {"name": "绿电", "change": "领涨"},
-      {"name": "影视", "change": "领涨"},
-      {"name": "传媒", "change": "领涨"},
-      {"name": "算力租赁", "change": "领涨"}
-    ],
-    "laggards": [
-      {"name": "体育概念", "change": "领跌"},
-      {"name": "CPO概念", "change": "领跌"},
-      {"name": "锂矿", "change": "领跌"},
-      {"name": "有色金属", "change": "领跌"}
-    ]
-  },
-  "market_overview": {
-    "advance": 2182,
-    "decline": 2853,
-    "limit_up": 78,
-    "limit_down": 26,
-    "half_day_amount": "1.83万亿"
-  },
-  "north_flow": {}
+  "market_status": "已收盘",
+  "notes": {
+    "northbound_flow": "数据暂不可用（东方财富接口超时）",
+    "sector_performance": "数据暂不可用（东方财富接口超时）",
+    "total_ashare_amount": "约 2.89 万亿（沪市1.31万亿+深市1.58万亿）"
+  }
 }

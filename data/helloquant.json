@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-05-18 15:05:00",
-  "date": "2026-05-18",
-  "status": "stale",
-  "note": "HelloQuant 上次运行: 2026-05-11（7天前），今日未采集新策略数据",
-  "last_daily_data": {
-    "timestamp": "2026-05-11T15:11:37",
-    "data": {
-      "上证指数": {
-        "price": 4225.02,
-        "change_pct": 1.08
-      },
-      "深证成指": {
-        "price": 15899.3,
-        "change_pct": 2.16
-      },
-      "创业板指": {
-        "price": 3928.97,
-        "change_pct": 3.5
-      }
+  "update_time": "2026-05-19 15:09",
+  "date": "2026-05-19",
+  "status": "ok",
+  "crypto": {
+    "BTC/USDT": {
+      "price": 77070.6,
+      "change_24h": "+170.60",
+      "source": "OKX"
+    },
+    "ETH/USDT": {
+      "price": 2139.39,
+      "change_24h": "+22.39",
+      "source": "OKX"
     }
   },
-  "strategies": [
-    "DoubleMa",
-    "TripleMa",
-    "Supertrend",
-    "RSI",
-    "MACD",
-    "Bollinger",
-    "Momentum",
-    "MeanReversion"
-  ],
-  "optimization_results_file": "optimization_results.csv",
-  "optimization_rows": 424
+  "strategies": {
+    "last_full_update": "2026-05-11",
+    "note": "策略全量数据上次更新于2026-05-11，今日仅更新了实时BTC/ETH行情"
+  },
+  "a_shares": {
+    "上证指数": {
+      "price": 4169.54,
+      "change_pct": 0.92
+    },
+    "深证成指": {
+      "price": 15569.91,
+      "change_pct": 0.26
+    },
+    "创业板指": {
+      "price": 3908.44,
+      "change_pct": -0.16
+    }
+  }
 }

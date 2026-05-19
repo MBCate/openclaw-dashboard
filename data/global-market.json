@@ -1,65 +1,69 @@
 {
-  "updated": "2026-05-18T21:30:00+08:00",
-  "date": "2026-05-18",
-  "session": "evening",
+  "updated": "2026-05-19T09:15:00+08:00",
+  "date": "2026-05-19",
+  "session": "morning",
   "us_markets": {
-    "note": "Monday May 18 — Dow futures down 350+ pts. S&P 500 session close ~7421 (+0.16%). Bond rout deepens.",
-    "sp500": { "value": 7421, "daily_change": +0.16, "note": "Rallied slightly from Friday's selloff. Still off all-time high 7517." },
-    "dow": { "value": 49526, "daily_change": -0.7, "note": "Futures down ~350 pts on session. Rising yields pressuring." },
-    "nasdaq": { "value": 26188, "daily_change": -0.5, "note": "Tech mixed — Nvidia earnings Wednesday crucial. Meta laying off staff." },
-    "10y_treasury_yield": { "value": "4.59%+", "note": "Touched highest in a year. Global bond selloff continuing. Japan 30Y hit record." },
-    "wti_crude": { "value": "$103.30", "note": "Slipped from morning peak of $106. Still elevated on Iran-Hormuz risk." },
-    "brent_crude": { "value": "$110-111", "note": "Brent ~$111 at Asian open. Middle East risk premium baked in." },
-    "gold": { "value": "~$4,450", "note": "Continued pullback from record $4,562. Strong dollar weighing." },
-    "usd_cny": { "value": "6.81-6.82", "note": "CNY near 6.817. Stable despite risk-off tone." },
-    "key_story": "Monday sees global bond rout deepen — 10Y Treasury touched 1-year high, Japan 30Y hit record. Dow futures down 350+ as oil and yields pile pressure. NextEra Energy buying Dominion for $67B to create utility/ power-AI colossus. Meta layoffs starting this week marking harsh AI reality. Nvidia earnings Wednesday is the week's defining event. Kevin Warsh incoming Fed chair faces rate-cut vs inflation dilemma. Iran-US stalemate keeps Hormuz risk premium intact.",
-    "week_ahead": {
-      "note": "Week of May 18-22 — Continued",
-      "earnings": ["Nvidia (Wed — most important AI earnings of the quarter)", "Walmart (Tue)", "Target", "Applied Materials"],
-      "economic_data": ["Housing starts (Tue)", "Existing home sales (Thu)", "Jobless claims (Thu)", "FOMC minutes (Thu)"],
-      "fed_watch": "Warsh's first major test — rate cut outlook vs sticky inflation debate"
-    }
+    "note": "Overnight — Monday May 18 close. Oil eased on Iran-Hormuz optimism. Trump says postponed Iran attack. 10Y yield remains elevated. Nvidia earnings Wednesday is focus.",
+    "sp500": { "value": 7421, "daily_change": 0.16, "note": "Session close. Modest rally from Friday selloff. Pre-market futures flat." },
+    "dow": { "value": 49526, "daily_change": -0.7, "note": "Rising yields pressure. Futures recovered slightly from -350 pts overnight." },
+    "nasdaq": { "value": 26188, "daily_change": -0.5, "note": "Tech mixed. Nvidia Wed earnings key. Meta layoffs underway." },
+    "10y_treasury_yield": { "value": "~4.55-4.59%", "note": "Remains near 1-year high. Bond rout eased slightly overnight." },
+    "wti_crude": { "value": "$102.76", "note": "Overnight futures slipped from $105 highs. US eases Russian oil sanctions to contain Iran price surge. Trump postpones Iran attack." },
+    "brent_crude": { "value": "~$109-110", "note": "Brent eased alongside WTI. Geopolitical risk premium still baked in." },
+    "gold": { "value": "$4,568", "note": "Overnight recovery to ~$4,568 from low of $4,483. Safe-haven bid intact." },
+    "usd_cny": { "value": "6.81-6.82", "note": "CNY stable despite global risk-off and A-share opening." },
+    "key_story": "Overnight: Trump says he postponed 'scheduled attack of Iran tomorrow' at Mideast leaders' request — de-escalation catalyst sent oil sliding from highs. US also easing Russian oil sanctions to contain price surge. Japan Q1 GDP beat at 2.1% annualized. Global bond rout shows signs of stabilizing. Nvidia earnings Wednesday remains the week's defining event. NextEra-Dominion $67B utility megamerger reshaping AI power landscape. A-shares open lower tracking global caution.",
+    "overnight_headlines": [
+      "Trump postpones scheduled attack of Iran — oil slides",
+      "US to ease Russian oil sanctions to cap Iran-triggered price surge",
+      "Japan Q1 GDP annualized +2.1%, beats expectations",
+      "Nvidia earnings Wednesday — AI thesis test",
+      "NextEra-Dominion $67B utility mega-merger for AI data centers"
+    ]
   },
   "asia_markets": {
-    "note": "Monday May 18 close",
-    "shanghai_composite": { "value": "~4130", "change": -0.1, "note": "Flat session. Markets cautious on Taiwan ambiguity post Trump-Xi." },
-    "csi300": { "value": "~4855", "change": -0.1, "note": "Slight pullback tracking global risk-off." },
-    "hsi": { "value": 25610.93, "change": -1.11, "note": "Closed lower. Financials weak, oil stocks rose. Opened 25839, low 25505." },
-    "hscei": { "value": 8647, "change": -0.5, "note": "H-shares tracked HSI lower." },
-    "hstec": { "value": 4897, "change": -0.87, "note": "Tech index weakest performer." },
-    "nikkei": { "note": "Yet to close for session" }
+    "note": "Tuesday May 19 — pre-market / early open. A-shares tracking lower. SH Comp closed 4131 on Monday.",
+    "shanghai_composite": { "value": "~4110-4130", "change": -0.3, "note": "Opened lower. Monday close 4131.5. Risk-off tone persists." },
+    "csi300": { "value": "~4840-4855", "change": -0.3, "note": "Weaker open tracking global markets." },
+    "hsi": { "note": "Pre-market. Monday close at 25611. Financials weak, oil stocks gain." },
+    "hscei": { "value": 8647, "change": -0.5, "note": "Tracking HSI lower from Monday." },
+    "nikkei": { "value": "~TBD", "note": "Japan GDP beat (+2.1% annualized) may support. Market opening mixed." },
+    "shanghai_monday_close": { "value": 4131.53, "change": -0.09, "note": "Shanghai Composite Monday May 18 close (actual data)" }
   },
   "crypto": {
-    "updated_utc": "2026-05-18T13:30:00Z",
+    "updated_utc": "2026-05-19T01:00:00Z",
     "fear_greed": { "value": 22, "classification": "Extreme Fear" },
     "bitcoin": { "usd": 77277, "change_24h_pct": -1.22 },
     "ethereum": { "usd": 2143, "change_24h_pct": -2.14 },
-    "note": "Crypto continues to slide with risk-off. BTC below $78K. ETH below $2,150. Market cap eroding amid rate fears."
+    "note": "Crypto remains in risk-off territory. BTC below $78K. ETH below $2,150. Fear & Greed at Extreme Fear (22)."
   },
   "news_highlights": [
-    { "title": "NextEra Energy to buy Dominion for $67 billion — unites two key players in race to power AI data centers", "source": "CNBC", "link": "https://www.cnbc.com/2026/05/18/nextera-nee-dominion-energy-d-data-center-ai.html" },
-    { "title": "10-year Treasury yield touches highest in a year; Japan's 30-year yield rises to a record", "source": "CNBC", "link": "https://www.cnbc.com/2026/05/18/treasury-yields-inflation-bond-rout-oil.html" },
-    { "title": "Meta layoffs starting this week stress harsh AI reality inside Zuckerberg's company", "source": "CNBC", "link": "https://www.cnbc.com/2026/05/18/metas-layoffs-starting-this-week-underscore-zuckerbergs-ai-reality-.html" },
-    { "title": "Trump drops $10 billion lawsuit against IRS", "source": "CNBC", "link": "https://www.cnbc.com/2026/05/18/trump-dismiss-irs-lawsuit.html" },
-    { "title": "US Futures Waver as Oil Prices Edge Lower, Chips Stocks Rally", "source": "Bloomberg", "link": "https://www.bloomberg.com/news/articles/2026-05-18/us-futures-slip-as-inflation-worries-feed-risk-off-sentiment" },
-    { "title": "Billionaire Rinehart Bets $100 Million on US Defense Stocks", "source": "Bloomberg", "link": "https://www.bloomberg.com/news/articles/2026-05-18/billionaire-gina-rinehart-bets-100-million-on-us-defense-stocks" },
-    { "title": "Europe Won't Run Out of Jet Fuel, Ryanair CEO Says", "source": "Bloomberg", "link": "https://www.bloomberg.com/news/videos/2026-05-18/europe-won-t-run-out-of-jet-fuel-ryanair-ceo-says-video" },
-    { "title": "Nvidia earnings Wednesday — most important report of the quarter for AI thesis", "source": "Multiple", "link": "" }
+    { "title": "Trump says he's postponing 'scheduled attack of Iran tomorrow' at Middle East leaders' request", "source": "CNBC", "link": "" },
+    { "title": "US eases Russian oil sanctions in bid to contain Iran price surge", "source": "FT", "link": "" },
+    { "title": "Japan's economy grows at annualized 2.1% rate in Q1, beating expectations", "source": "CNBC", "link": "" },
+    { "title": "Citi strikes €15bn partnership with BlackRock for private European lending", "source": "FT", "link": "" },
+    { "title": "Nvidia earnings Wednesday — most important AI earnings of the quarter", "source": "Multiple", "link": "" },
+    { "title": "NextEra Energy to buy Dominion for $67 billion — unites two key players in race to power AI data centers", "source": "CNBC", "link": "" },
+    { "title": "Meta layoffs starting this week underscore Zuckerberg's AI reality", "source": "CNBC", "link": "" },
+    { "title": "Musk slams Altman trial verdict as 'technicality,' vows to appeal", "source": "CNBC", "link": "" },
+    { "title": "China's firms face barrage of EU probes — a glaring weakness exposed", "source": "SCMP", "link": "" },
+    { "title": "UK plans to relax key banking rules set up after 2008 financial crisis", "source": "FT", "link": "" }
   ],
   "commodities": {
-    "gold": { "usd": 4450, "trend": "Pulling back from record $4,562. Strong USD headwind." },
-    "wti_crude": { "usd": 103.30, "trend": "Slipped from morning high of $106 but elevated on Iran-US Hormuz risk" },
-    "brent_crude": { "usd": 111, "trend": "Global benchmark ~$111. Middle East uncertainty persists." }
+    "gold": { "usd": 4568, "trend": "Recovering from intraday low of $4,483. Safe-haven bid intact. Overnight +0.8%." },
+    "wti_crude": { "usd": 102.76, "trend": "Slipped from $105 highs after Trump postpones Iran attack and US eases Russian oil sanctions." },
+    "brent_crude": { "usd": 110, "trend": "Eased alongside WTI. Iran de-escalation narrative." }
   },
   "geopolitical_risk": {
-    "note": "Elevated — multiple flashpoints",
+    "note": "Elevated but with de-escalation signals overnight",
     "factors": [
-      "Iran-US stalemate — Strait of Hormuz closure risk persisting, oil risk premium elevated",
-      "G7 finance ministers emergency meeting this week on Hormuz economic consequences",
-      "Trump-Xi summit fallout: Taiwan stance ambiguity weighing on Asian sentiment",
-      "Global bond rout — 10Y Treasury at 1-year high, Japan 30Y record",
+      "Trump postpones scheduled attack of Iran — Mideast de-escalation catalyst",
+      "US easing Russian oil sanctions to cap Iran-triggered price surge",
+      "Global bond rout stabilizing — 10Y Treasury still near 1-year high",
+      "G7 finance ministers emergency meeting on Hormuz economic consequences",
       "Kevin Warsh incoming Fed chair — rate cut vs inflation tug-of-war",
-      "NextEra-Dominion $67B megamerger reshaping utility/AI infrastructure landscape"
+      "EU probes targeting Chinese firms — trade friction escalating",
+      "NextEra-Dominion $67B utility megamerger reshaping AI infrastructure"
     ]
   }
 }

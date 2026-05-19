@@ -1,69 +1,76 @@
 {
-  "updated": "2026-05-19T09:15:00+08:00",
   "date": "2026-05-19",
-  "session": "morning",
+  "time": "13:30 UTC",
+  "source": "evening-report",
   "us_markets": {
-    "note": "Overnight — Monday May 18 close. Oil eased on Iran-Hormuz optimism. Trump says postponed Iran attack. 10Y yield remains elevated. Nvidia earnings Wednesday is focus.",
-    "sp500": { "value": 7421, "daily_change": 0.16, "note": "Session close. Modest rally from Friday selloff. Pre-market futures flat." },
-    "dow": { "value": 49526, "daily_change": -0.7, "note": "Rising yields pressure. Futures recovered slightly from -350 pts overnight." },
-    "nasdaq": { "value": 26188, "daily_change": -0.5, "note": "Tech mixed. Nvidia Wed earnings key. Meta layoffs underway." },
-    "10y_treasury_yield": { "value": "~4.55-4.59%", "note": "Remains near 1-year high. Bond rout eased slightly overnight." },
-    "wti_crude": { "value": "$102.76", "note": "Overnight futures slipped from $105 highs. US eases Russian oil sanctions to contain Iran price surge. Trump postpones Iran attack." },
-    "brent_crude": { "value": "~$109-110", "note": "Brent eased alongside WTI. Geopolitical risk premium still baked in." },
-    "gold": { "value": "$4,568", "note": "Overnight recovery to ~$4,568 from low of $4,483. Safe-haven bid intact." },
-    "usd_cny": { "value": "6.81-6.82", "note": "CNY stable despite global risk-off and A-share opening." },
-    "key_story": "Overnight: Trump says he postponed 'scheduled attack of Iran tomorrow' at Mideast leaders' request — de-escalation catalyst sent oil sliding from highs. US also easing Russian oil sanctions to contain price surge. Japan Q1 GDP beat at 2.1% annualized. Global bond rout shows signs of stabilizing. Nvidia earnings Wednesday remains the week's defining event. NextEra-Dominion $67B utility megamerger reshaping AI power landscape. A-shares open lower tracking global caution.",
-    "overnight_headlines": [
-      "Trump postpones scheduled attack of Iran — oil slides",
-      "US to ease Russian oil sanctions to cap Iran-triggered price surge",
-      "Japan Q1 GDP annualized +2.1%, beats expectations",
-      "Nvidia earnings Wednesday — AI thesis test",
-      "NextEra-Dominion $67B utility mega-merger for AI data centers"
-    ]
+    "snp500": {
+      "value": 7369,
+      "change_pct": -0.46,
+      "all_time_high": 7517.12,
+      "month_change_pct": 3.66,
+      "yoy_change_pct": 24.05
+    },
+    "nasdaq_composite": {
+      "previous_close": 26090.73,
+      "yoy_return_pct": 35.78
+    },
+    "dow_jones": {
+      "note": "near 50,000 level"
+    },
+    "note": "AI infrastructure stocks correcting after May rally; rising yields putting pressure. Premarket: Nasdaq 100 -1%. Nvidia, Tesla, Meta lower."
   },
-  "asia_markets": {
-    "note": "Tuesday May 19 — pre-market / early open. A-shares tracking lower. SH Comp closed 4131 on Monday.",
-    "shanghai_composite": { "value": "~4110-4130", "change": -0.3, "note": "Opened lower. Monday close 4131.5. Risk-off tone persists." },
-    "csi300": { "value": "~4840-4855", "change": -0.3, "note": "Weaker open tracking global markets." },
-    "hsi": { "note": "Pre-market. Monday close at 25611. Financials weak, oil stocks gain." },
-    "hscei": { "value": 8647, "change": -0.5, "note": "Tracking HSI lower from Monday." },
-    "nikkei": { "value": "~TBD", "note": "Japan GDP beat (+2.1% annualized) may support. Market opening mixed." },
-    "shanghai_monday_close": { "value": 4131.53, "change": -0.09, "note": "Shanghai Composite Monday May 18 close (actual data)" }
+  "treasury": {
+    "3m_yield": 3.69,
+    "2y_yield": 4.09,
+    "5y_yield": 4.26,
+    "10y_yield": 4.59,
+    "30y_yield": 5.12,
+    "10y_change_bp": 12,
+    "note": "Bear-steepening trend; 10Y near two-decade highs. Japan and China reducing US Treasury holdings."
   },
   "crypto": {
-    "updated_utc": "2026-05-19T01:00:00Z",
-    "fear_greed": { "value": 22, "classification": "Extreme Fear" },
-    "bitcoin": { "usd": 77277, "change_24h_pct": -1.22 },
-    "ethereum": { "usd": 2143, "change_24h_pct": -2.14 },
-    "note": "Crypto remains in risk-off territory. BTC below $78K. ETH below $2,150. Fear & Greed at Extreme Fear (22)."
+    "total_market_cap_trillion": 2.65,
+    "btc": {
+      "price": 77151,
+      "change_24h_pct": 0.11,
+      "volume_b": 40,
+      "market_cap_trillion": 1.54,
+      "dominance_pct": 58.2
+    },
+    "eth": {
+      "price": 2134,
+      "change_24h_pct": 0.94,
+      "volume_b": 18.5,
+      "market_cap_b": 257.8,
+      "dominance_pct": 9.71
+    },
+    "xrp": 1.39,
+    "sol": 85.54,
+    "btc_dominance_pct": 58.2,
+    "fear_greed_index": 37,
+    "note": "Extreme fear sentiment. $814M liquidations on Monday."
   },
   "news_highlights": [
-    { "title": "Trump says he's postponing 'scheduled attack of Iran tomorrow' at Middle East leaders' request", "source": "CNBC", "link": "" },
-    { "title": "US eases Russian oil sanctions in bid to contain Iran price surge", "source": "FT", "link": "" },
-    { "title": "Japan's economy grows at annualized 2.1% rate in Q1, beating expectations", "source": "CNBC", "link": "" },
-    { "title": "Citi strikes €15bn partnership with BlackRock for private European lending", "source": "FT", "link": "" },
-    { "title": "Nvidia earnings Wednesday — most important AI earnings of the quarter", "source": "Multiple", "link": "" },
-    { "title": "NextEra Energy to buy Dominion for $67 billion — unites two key players in race to power AI data centers", "source": "CNBC", "link": "" },
-    { "title": "Meta layoffs starting this week underscore Zuckerberg's AI reality", "source": "CNBC", "link": "" },
-    { "title": "Musk slams Altman trial verdict as 'technicality,' vows to appeal", "source": "CNBC", "link": "" },
-    { "title": "China's firms face barrage of EU probes — a glaring weakness exposed", "source": "SCMP", "link": "" },
-    { "title": "UK plans to relax key banking rules set up after 2008 financial crisis", "source": "FT", "link": "" }
+    "Treasury yields rise with 30-year rate touching levels not seen since 2023",
+    "Japan, China lead foreign government retreat from US Treasuries — China holdings at 18-year low",
+    "Home Depot Q1 earnings: sales rise 5%, core shopper resilient",
+    "Bond yields near two-decade high open rift among investors",
+    "Banks kick off $6.2B Warner Bros junk loan sale",
+    "The AI economy is rewriting the American Dream — blue-collar workers poised to win"
   ],
-  "commodities": {
-    "gold": { "usd": 4568, "trend": "Recovering from intraday low of $4,483. Safe-haven bid intact. Overnight +0.8%." },
-    "wti_crude": { "usd": 102.76, "trend": "Slipped from $105 highs after Trump postpones Iran attack and US eases Russian oil sanctions." },
-    "brent_crude": { "usd": 110, "trend": "Eased alongside WTI. Iran de-escalation narrative." }
-  },
-  "geopolitical_risk": {
-    "note": "Elevated but with de-escalation signals overnight",
-    "factors": [
-      "Trump postpones scheduled attack of Iran — Mideast de-escalation catalyst",
-      "US easing Russian oil sanctions to cap Iran-triggered price surge",
-      "Global bond rout stabilizing — 10Y Treasury still near 1-year high",
-      "G7 finance ministers emergency meeting on Hormuz economic consequences",
-      "Kevin Warsh incoming Fed chair — rate cut vs inflation tug-of-war",
-      "EU probes targeting Chinese firms — trade friction escalating",
-      "NextEra-Dominion $67B utility megamerger reshaping AI infrastructure"
+  "headlines_raw": {
+    "cnbc": [
+      "Treasury yields rise with 30-year rate touching levels not seen since 2023",
+      "The AI economy is rewriting the American Dream — and blue-collar workers are poised to win",
+      "Home Depot says core shopper is resilient in the face of higher gas prices, sales rise 5%",
+      "Japan, China lead foreign government retreat from U.S. Treasurys as Iran war fallout stokes currency fears",
+      "Startup backed by American Eagle CEO reaches unicorn status in latest funding round"
+    ],
+    "bloomberg": [
+      "Banks Kick Off $6.2 Billion Warner Bros. Junk Loan Sale",
+      "Ecolab Starts Five-Part Bond Sale to Fund Acquisition of CoolIT",
+      "Bond Yields Near Two-Decade High Open Rift Among Investors",
+      "AllianzGI's Zeng on US Rates & Bond Yields"
     ]
   }
 }

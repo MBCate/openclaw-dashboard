@@ -1,57 +1,63 @@
 {
-  "updated_at": "2026-05-18 15:05:00",
-  "date": "2026-05-18",
+  "updated_at": "2026-05-19 11:35:00",
+  "date": "2026-05-19",
   "indexes": {
     "上证指数": {
       "code": "000001",
-      "current": 4131.53,
-      "change_pct": -0.09,
-      "change": -3.86,
-      "open": 4120.14,
-      "high": 4145.66,
-      "low": 4108.6,
-      "prev_close": 4135.39,
-      "volume": "627233137手",
-      "amount": "1315.08亿"
+      "current": 4132.46,
+      "change_pct": 0.02,
+      "change": 0.87,
+      "prev_close": 4131.53
     },
     "深证成指": {
       "code": "399001",
-      "current": 15530.23,
-      "change_pct": -0.2,
-      "change": -31.14,
-      "open": 15465.3,
-      "high": 15658.11,
-      "low": 15419.04,
-      "prev_close": 15561.37,
-      "volume": "738305604手",
-      "amount": "1578.90亿"
+      "current": 15408.72,
+      "change_pct": -0.78,
+      "change": -121.51,
+      "prev_close": 15530.23
     },
     "创业板指": {
       "code": "399006",
-      "current": 3914.88,
-      "change_pct": -0.36,
-      "change": -14.18,
-      "open": 3895.07,
-      "high": 3961.16,
-      "low": 3883.4,
-      "prev_close": 3929.06,
-      "volume": "217646936手",
-      "amount": "757.35亿"
+      "current": 3867.59,
+      "change_pct": -1.21,
+      "change": -47.29,
+      "prev_close": 3914.88
     },
     "沪深300": {
       "code": "000300",
-      "current": 4833.52,
-      "change_pct": -0.54,
-      "change": -26.07,
-      "open": 4836.33,
-      "high": 4868.6,
-      "low": 4806.15,
-      "prev_close": 4859.59
+      "current": 4808.46,
+      "change_pct": -0.52,
+      "change": -25.06,
+      "prev_close": 4833.52
+    },
+    "科创50": {
+      "code": "000688",
+      "change_pct": 1.0
     }
   },
-  "market_status": "closed",
-  "data_source": "腾讯行情API",
-  "note": "上证缩量微跌-0.09%，深证/创业板跌幅略大，沪深300跌-0.54%领跌",
-  "sectors": {},
+  "market_status": "midday",
+  "data_source": "新浪行情API",
+  "note": "沪指平盘震荡微涨+0.02%，科创50探底回升涨超1%领涨，创业板跌-1.21%领跌。绿电、影视、传媒、算力租赁领涨；体育、CPO、锂矿、有色领跌。个股跌多涨少，半天成交1.83万亿。",
+  "sectors": {
+    "leaders": [
+      {"name": "绿电", "change": "领涨"},
+      {"name": "影视", "change": "领涨"},
+      {"name": "传媒", "change": "领涨"},
+      {"name": "算力租赁", "change": "领涨"}
+    ],
+    "laggards": [
+      {"name": "体育概念", "change": "领跌"},
+      {"name": "CPO概念", "change": "领跌"},
+      {"name": "锂矿", "change": "领跌"},
+      {"name": "有色金属", "change": "领跌"}
+    ]
+  },
+  "market_overview": {
+    "advance": 2182,
+    "decline": 2853,
+    "limit_up": 78,
+    "limit_down": 26,
+    "half_day_amount": "1.83万亿"
+  },
   "north_flow": {}
 }

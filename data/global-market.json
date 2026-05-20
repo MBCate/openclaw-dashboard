@@ -1,32 +1,59 @@
 {
-  "date": "2026-05-19",
-  "time": "13:30 UTC",
-  "source": "evening-report",
+  "date": "2026-05-20",
+  "time": "09:15 CST (01:15 UTC)",
+  "source": "morning-preview",
   "us_markets": {
     "snp500": {
-      "value": 7369,
-      "change_pct": -0.46,
+      "value": 7355.04,
+      "close": 7353.61,
+      "change_pct": -0.67,
       "all_time_high": 7517.12,
-      "month_change_pct": 3.66,
-      "yoy_change_pct": 24.05
+      "month_change_pct": -4.12,
+      "yoy_change_pct": 25.84
     },
     "nasdaq_composite": {
-      "previous_close": 26090.73,
+      "close": 25870.71,
+      "change_pct": -0.84,
       "yoy_return_pct": 35.78
     },
     "dow_jones": {
-      "note": "near 50,000 level"
+      "close": 49363.88,
+      "change_pct": -0.65,
+      "note": "fell back below 50k amid soaring yields"
     },
-    "note": "AI infrastructure stocks correcting after May rally; rising yields putting pressure. Premarket: Nasdaq 100 -1%. Nvidia, Tesla, Meta lower."
+    "note": "Soaring Treasury yields hit 16-month highs; 30Y spiked above 5.19%. Tech weighed down by Nvidia/AMD selloff ahead of Nvidia earnings. Home Depot Q1 beat. Micron popped on analyst PT hikes."
   },
   "treasury": {
-    "3m_yield": 3.69,
-    "2y_yield": 4.09,
-    "5y_yield": 4.26,
+    "3m_yield": null,
+    "2y_yield": null,
+    "5y_yield": null,
     "10y_yield": 4.59,
-    "30y_yield": 5.12,
-    "10y_change_bp": 12,
-    "note": "Bear-steepening trend; 10Y near two-decade highs. Japan and China reducing US Treasury holdings."
+    "30y_yield": 5.19,
+    "10y_change_bp": "elevated",
+    "note": "10Y at 16-month high. 30Y above 5.19% — highest in nearly two decades. Bear-steepening continues. Oil kept around $100+ keeping inflation fears alive."
+  },
+  "commodities": {
+    "oil_wti": "$100+",
+    "note": "Oil eased slightly but remains elevated near $100. Iran diplomatic progress helping, but risk premium persists."
+  },
+  "asia_markets": {
+    "shanghai_composite": {
+      "close_519": 4170,
+      "change_pct_519": 0.92,
+      "note": "Rebounded on US–Iran peace breakthrough, tech stock reversal ahead of Nvidia earnings. Chengxu CEO stated China will permit AI processor imports."
+    },
+    "shenzhen_component": {
+      "close_519": 15570,
+      "change_pct_519": 0.26,
+      "note": "Tech-led rebound: Cambricon +8.4%, Hygon +2.76%, NAURA +3.63%, Huagong +7.48%"
+    },
+    "hang_seng": {
+      "close_519": 25798,
+      "change_pct_519": 0.48,
+      "note": "Tech services +10.5%. Tencent +2.1%, Meituan +0.7%, AIA +0.8%. SMIC -2.8%, Li Auto -3.5%"
+    },
+    "asia_sentiment": "Asian markets mixed overnight. Japan/Shanghai recovery on Iran deal hopes but chip stocks remain under selling pressure.",
+    "lpr_outlook": "Markets expect 1Y LPR unchanged at 3.0% and 5Y at 3.5% — announcement later today."
   },
   "crypto": {
     "total_market_cap_trillion": 2.65,
@@ -48,29 +75,47 @@
     "sol": 85.54,
     "btc_dominance_pct": 58.2,
     "fear_greed_index": 37,
-    "note": "Extreme fear sentiment. $814M liquidations on Monday."
+    "note": "Extreme fear sentiment persists."
   },
+  "key_events_today": [
+    "📅 China LPR rate decision (1Y expected 3.0%, 5Y expected 3.5%)",
+    "📅 Nvidia Q1 earnings after US close — pivotal for AI sentiment",
+    "📅 Walmart, Target earnings this week",
+    "📅 Fed speeches: rate path signals amid elevated oil/yields",
+    "🌍 US–Iran peace negotiations: Trump cancelled strike, 'very good chance' of deal"
+  ],
   "news_highlights": [
-    "Treasury yields rise with 30-year rate touching levels not seen since 2023",
-    "Japan, China lead foreign government retreat from US Treasuries — China holdings at 18-year low",
-    "Home Depot Q1 earnings: sales rise 5%, core shopper resilient",
-    "Bond yields near two-decade high open rift among investors",
-    "Banks kick off $6.2B Warner Bros junk loan sale",
-    "The AI economy is rewriting the American Dream — blue-collar workers poised to win"
+    "S&P 500 -0.67%, Nasdaq -0.84%, Dow -0.65% — all pressured by surging yields",
+    "10Y Treasury at 16-month high; 30Y above 5.19% — highest in nearly 20 years",
+    "Oil near $100+ despite slight pullback; Iran developments watched closely",
+    "Home Depot Q1 beats: sales up 5%, core shopper resilient",
+    "Nvidia earnings tomorrow: AI boom under scrutiny; expectations very high",
+    "China Shanghai +0.92% on Iran peace news, AI chip import hopes",
+    "Hong Kong HSI +0.48%; tech services surged 10.5%",
+    "Fed rate cut expectations fading as bond yields soar"
   ],
   "headlines_raw": {
     "cnbc": [
+      "Bond yields near two-decade high open rift among investors",
       "Treasury yields rise with 30-year rate touching levels not seen since 2023",
-      "The AI economy is rewriting the American Dream — and blue-collar workers are poised to win",
       "Home Depot says core shopper is resilient in the face of higher gas prices, sales rise 5%",
-      "Japan, China lead foreign government retreat from U.S. Treasurys as Iran war fallout stokes currency fears",
-      "Startup backed by American Eagle CEO reaches unicorn status in latest funding round"
+      "Japan, China lead foreign government retreat from U.S. Treasurys",
+      "The AI economy is rewriting the American Dream"
     ],
     "bloomberg": [
-      "Banks Kick Off $6.2 Billion Warner Bros. Junk Loan Sale",
-      "Ecolab Starts Five-Part Bond Sale to Fund Acquisition of CoolIT",
       "Bond Yields Near Two-Decade High Open Rift Among Investors",
+      "Banks Kick Off $6.2 Billion Warner Bros. Junk Loan Sale",
       "AllianzGI's Zeng on US Rates & Bond Yields"
+    ],
+    "fool": [
+      "S&P 500 -0.67% to 7,353.61: Soaring Treasury Yields Pressure Markets",
+      "Micron Technology popped on analyst price target increases",
+      "Nvidia earnings key for AI sector direction"
+    ],
+    "overnight_summary": [
+      "Overseas trading volatile: oil near $110/bbl, yields elevated",
+      "Asian markets declined sharply, European stocks recovered",
+      "US futures weakened ahead of Nvidia earnings and LPR decision"
     ]
   }
 }

@@ -1,121 +1,41 @@
 {
-  "date": "2026-05-20",
-  "time": "09:15 CST (01:15 UTC)",
-  "source": "morning-preview",
-  "us_markets": {
-    "snp500": {
-      "value": 7355.04,
-      "close": 7353.61,
-      "change_pct": -0.67,
-      "all_time_high": 7517.12,
-      "month_change_pct": -4.12,
-      "yoy_change_pct": 25.84
-    },
-    "nasdaq_composite": {
-      "close": 25870.71,
-      "change_pct": -0.84,
-      "yoy_return_pct": 35.78
-    },
-    "dow_jones": {
-      "close": 49363.88,
-      "change_pct": -0.65,
-      "note": "fell back below 50k amid soaring yields"
-    },
-    "note": "Soaring Treasury yields hit 16-month highs; 30Y spiked above 5.19%. Tech weighed down by Nvidia/AMD selloff ahead of Nvidia earnings. Home Depot Q1 beat. Micron popped on analyst PT hikes."
-  },
-  "treasury": {
-    "3m_yield": null,
-    "2y_yield": null,
-    "5y_yield": null,
-    "10y_yield": 4.59,
-    "30y_yield": 5.19,
-    "10y_change_bp": "elevated",
-    "note": "10Y at 16-month high. 30Y above 5.19% — highest in nearly two decades. Bear-steepening continues. Oil kept around $100+ keeping inflation fears alive."
-  },
-  "commodities": {
-    "oil_wti": "$100+",
-    "note": "Oil eased slightly but remains elevated near $100. Iran diplomatic progress helping, but risk premium persists."
-  },
-  "asia_markets": {
-    "shanghai_composite": {
-      "close_519": 4170,
-      "change_pct_519": 0.92,
-      "note": "Rebounded on US–Iran peace breakthrough, tech stock reversal ahead of Nvidia earnings. Chengxu CEO stated China will permit AI processor imports."
-    },
-    "shenzhen_component": {
-      "close_519": 15570,
-      "change_pct_519": 0.26,
-      "note": "Tech-led rebound: Cambricon +8.4%, Hygon +2.76%, NAURA +3.63%, Huagong +7.48%"
-    },
-    "hang_seng": {
-      "close_519": 25798,
-      "change_pct_519": 0.48,
-      "note": "Tech services +10.5%. Tencent +2.1%, Meituan +0.7%, AIA +0.8%. SMIC -2.8%, Li Auto -3.5%"
-    },
-    "asia_sentiment": "Asian markets mixed overnight. Japan/Shanghai recovery on Iran deal hopes but chip stocks remain under selling pressure.",
-    "lpr_outlook": "Markets expect 1Y LPR unchanged at 3.0% and 5Y at 3.5% — announcement later today."
+  "updated": "2026-05-20T21:30:00+08:00",
+  "source": "trading-monitor-evening-cron",
+  "indices": {
+    "sp500": { "name": "S&P 500", "value": 7375.81, "change_pct": 0.30 },
+    "dow": { "name": "Dow Jones", "value": 49447.50, "change_pct": 0.17 },
+    "nasdaq": { "name": "Nasdaq", "value": 26011.89, "change_pct": 0.55 }
   },
   "crypto": {
-    "total_market_cap_trillion": 2.65,
-    "btc": {
-      "price": 77151,
-      "change_24h_pct": 0.11,
-      "volume_b": 40,
-      "market_cap_trillion": 1.54,
-      "dominance_pct": 58.2
-    },
-    "eth": {
-      "price": 2134,
-      "change_24h_pct": 0.94,
-      "volume_b": 18.5,
-      "market_cap_b": 257.8,
-      "dominance_pct": 9.71
-    },
-    "xrp": 1.39,
-    "sol": 85.54,
-    "btc_dominance_pct": 58.2,
-    "fear_greed_index": 37,
-    "note": "Extreme fear sentiment persists."
+    "bitcoin": { "name": "Bitcoin", "price_usd": 77247.56, "change_24h_pct": 0.65 },
+    "ethereum": { "name": "Ethereum", "price_usd": 2125.49, "change_24h_pct": 0.74 }
   },
-  "key_events_today": [
-    "📅 China LPR rate decision (1Y expected 3.0%, 5Y expected 3.5%)",
-    "📅 Nvidia Q1 earnings after US close — pivotal for AI sentiment",
-    "📅 Walmart, Target earnings this week",
-    "📅 Fed speeches: rate path signals amid elevated oil/yields",
-    "🌍 US–Iran peace negotiations: Trump cancelled strike, 'very good chance' of deal"
+  "headlines": [
+    {
+      "source": "CNBC",
+      "title": "S&P 500 futures tick higher as oil falls and traders await Nvidia's earnings",
+      "url": "https://www.cnbc.com/2026/05/19/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "CNBC",
+      "title": "Hedge funds just dumped stocks in record numbers ahead of Nvidia earnings",
+      "url": "https://www.cnbc.com/2026/05/20/fading-the-tech-boom-hedge-funds-just-dumped-stocks-in-record-numbers.html"
+    },
+    {
+      "source": "CNBC",
+      "title": "Target beats Wall Street estimates, hikes sales outlook as shoppers start to return",
+      "url": "https://www.cnbc.com/2026/05/20/target-tgt-q1-2026-earnings.html"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Tether Buys Out SoftBank Stake in Bitcoin Treasury Firm",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-20/tether-buys-out-softbank-stake-in-bitcoin-treasury-firm"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Rheinmetall Prepares First Public Bond Deal Since 2010 as defense industry booms",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-20/tankmaker-rheinmetall-preps-first-public-bond-deal-since-2010"
+    }
   ],
-  "news_highlights": [
-    "S&P 500 -0.67%, Nasdaq -0.84%, Dow -0.65% — all pressured by surging yields",
-    "10Y Treasury at 16-month high; 30Y above 5.19% — highest in nearly 20 years",
-    "Oil near $100+ despite slight pullback; Iran developments watched closely",
-    "Home Depot Q1 beats: sales up 5%, core shopper resilient",
-    "Nvidia earnings tomorrow: AI boom under scrutiny; expectations very high",
-    "China Shanghai +0.92% on Iran peace news, AI chip import hopes",
-    "Hong Kong HSI +0.48%; tech services surged 10.5%",
-    "Fed rate cut expectations fading as bond yields soar"
-  ],
-  "headlines_raw": {
-    "cnbc": [
-      "Bond yields near two-decade high open rift among investors",
-      "Treasury yields rise with 30-year rate touching levels not seen since 2023",
-      "Home Depot says core shopper is resilient in the face of higher gas prices, sales rise 5%",
-      "Japan, China lead foreign government retreat from U.S. Treasurys",
-      "The AI economy is rewriting the American Dream"
-    ],
-    "bloomberg": [
-      "Bond Yields Near Two-Decade High Open Rift Among Investors",
-      "Banks Kick Off $6.2 Billion Warner Bros. Junk Loan Sale",
-      "AllianzGI's Zeng on US Rates & Bond Yields"
-    ],
-    "fool": [
-      "S&P 500 -0.67% to 7,353.61: Soaring Treasury Yields Pressure Markets",
-      "Micron Technology popped on analyst price target increases",
-      "Nvidia earnings key for AI sector direction"
-    ],
-    "overnight_summary": [
-      "Overseas trading volatile: oil near $110/bbl, yields elevated",
-      "Asian markets declined sharply, European stocks recovered",
-      "US futures weakened ahead of Nvidia earnings and LPR decision"
-    ]
-  }
+  "summary": "美股三大指数小幅上涨，市场聚焦盘后Nvidia财报。标普涨0.3%，纳指涨0.55%，道指涨0.17%。加密货币小幅走高，BTC $77,248 (+0.65%)，ETH $2,125 (+0.74%)。Target财报超预期上调指引。对冲基金在大科技财报前创纪录抛售。伊朗局势紧张持续。"
 }

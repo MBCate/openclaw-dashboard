@@ -1,7 +1,4 @@
 {
-  "date": "2026-05-18",
-  "total": 59,
-  "new_discoveries": 13,
   "papers": [
     {
       "id": "2605.14832",
@@ -996,7 +993,259 @@
       "category": "e2e-autonomous-driving",
       "status": "new",
       "summary": "统一矢量化与光栅化HD地图构建。地图元素建模为2D高斯序列，通过可微分渲染施加像素级几何约束并进行拓扑感知矢量优化。nuScenes和Argoverse2上SOTA。"
+    },
+    {
+      "id": "2605.17284",
+      "title": "Contrastive Latent-space Prompt Optimization for End-to-end Autonomous Driving",
+      "title_cn": "对比隐空间提示优化的端到端自动驾驶",
+      "authors": "Ruiyang Zhu, et al.",
+      "relevance": 5,
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-20",
+      "tags": [
+        "VLA",
+        "prompt optimization",
+        "contrastive learning",
+        "long-tail",
+        "V2X",
+        "NAVSIM"
+      ],
+      "category": "e2e-autonomous-driving",
+      "status": "new",
+      "summary": "CLAP提出对比隐空间提示优化，利用V2X通信为VLA驾驶模型按路段作软提示优化。在NAVSIM上减少24%长尾场景规划错误，正常场景无退化。"
+    },
+    {
+      "id": "2605.18137",
+      "title": "A Joint World Model Integrating Reconstruction and Generation for Autonomous Driving",
+      "title_cn": "面向自动驾驶的重建与生成联合世界模型",
+      "authors": "Lijun Zhou, Hongcheng Luo, Zhenxin Zhu, et al.",
+      "relevance": 5,
+      "categories": [
+        "cs.CV"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-20",
+      "tags": [
+        "world model",
+        "reconstruction",
+        "video generation",
+        "3D Gaussian",
+        "ODE distillation"
+      ],
+      "category": "world-models-ad",
+      "status": "new",
+      "summary": "JWM统一世界模型的表示(WorldRec/3D高斯重建)与生成(WorldGen/双向预训练+因果微调)能力。4步去噪即可实现高质量因果视频生成，支撑闭环仿真与端到端训练。Xiaomi EV技术报告。"
+    },
+    {
+      "id": "2605.16737",
+      "title": "End-to-End Autonomous Driving with Safety Guidance",
+      "title_cn": "带安全引导的端到端自动驾驶",
+      "authors": "Shounak Sural, et al.",
+      "relevance": 5,
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-20",
+      "tags": [
+        "end-to-end",
+        "safety",
+        "diffusion model",
+        "DriveSafer",
+        "NAVSIM"
+      ],
+      "category": "e2e-autonomous-driving",
+      "status": "new",
+      "summary": "DriveSafer针对生成式端到端规划器的灾难性安全失败，在训练时加入安全约束、推理时加入安全引导。相比DiffusionDrive减少48%灾难性失败，驶入区域合规失败减少65%。"
+    },
+    {
+      "id": "2605.16892",
+      "title": "GaussianWorld: Gaussian World Model for Autonomous Driving",
+      "title_cn": "GaussianWorld：基于高斯世界模型的自动驾驶场景表示与预测",
+      "authors": "Siyu Chen, et al.",
+      "relevance": 5,
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-20",
+      "tags": [
+        "world model",
+        "4D Gaussian",
+        "scene flow",
+        "autonomous driving",
+        "GaussianWorld"
+      ],
+      "category": "world-models-ad",
+      "status": "new",
+      "summary": "GaussianWorld以4D高斯场景表示为世界模型核心，统一完成感知+预测+规划。用稀疏3D查询从多视图图像中重建高斯参数，时间平滑项保证时序一致性。"
+    },
+    {
+      "id": "2605.16911",
+      "title": "DriveMoe: A Hybrid Vision-Language-Action Model for Scalable Autonomous Driving",
+      "title_cn": "DriveMoe：可扩展的混合视觉-语言-动作驾驶模型",
+      "authors": "Xiaodong Tian, et al.",
+      "relevance": 5,
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-20",
+      "tags": [
+        "VLA",
+        "Mixture of Experts",
+        "end-to-end",
+        "hybrid architecture"
+      ],
+      "category": "vla-autonomous-driving",
+      "status": "new",
+      "summary": "DriveMoe提出混合VLA架构，融合稀疏MoE与密集Transformer以平衡效率与性能。在nuScenes和NAVSIM上取得SOTA。"
+    },
+    {
+      "id": "2605.17682",
+      "title": "Gaussian Evolution Model for Occupancy Forecasting and Motion Planning",
+      "title_cn": "高斯演化模型：用于占据预测与运动规划的场景演化",
+      "authors": "Yuanchao Wu, et al.",
+      "relevance": 4,
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-20",
+      "tags": [
+        "world model",
+        "Gaussian",
+        "occupancy forecasting",
+        "motion planning",
+        "non-autoregressive"
+      ],
+      "category": "world-models-ad",
+      "status": "new",
+      "summary": "GEM以显式连续4D高斯原语表示驾驶场景，直接查询任意时间戳的高斯世界表示进行非自回归占据预测和运动规划，避免自回归误差累积。"
+    },
+    {
+      "id": "2605.18287",
+      "title": "Towards Robust Vision-Language-Action Models without Extra Data",
+      "title_cn": "无需额外数据的鲁棒VLA模型",
+      "authors": "Ying Wang, et al.",
+      "relevance": 4,
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-20",
+      "tags": [
+        "VLA",
+        "robustness",
+        "information bottleneck",
+        "StableVLA",
+        "IB-Adapter"
+      ],
+      "category": "vla-autonomous-driving",
+      "status": "new",
+      "summary": "提出IB-Adapter（信息瓶颈适配器），无需额外数据或增强，在可见扰动下VLA模型性能提升30%。0.5B参数StableVLA即可匹敌7B模型鲁棒性。"
+    },
+    {
+      "id": "2603.18178",
+      "title": "Post-Training Vision-Language Models for Safety-Critical Autonomous Driving Events",
+      "title_cn": "视觉语言模型后训练用于安全关键驾驶事件检测",
+      "authors": "VLM-AutoDrive Team",
+      "relevance": 4,
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "date": "2026-03",
+      "found_date": "2026-05-20",
+      "tags": [
+        "VLA",
+        "VLM",
+        "safety-critical",
+        "anomaly detection",
+        "post-training"
+      ],
+      "category": "e2e-autonomous-driving",
+      "status": "new",
+      "summary": "VLM-AutoDrive提出模块化后训练框架，使通用VLM适配安全关键驾驶事件检测（碰撞/近碰撞），将Cosmos-Reason1的Collision F1从0.00提升到0.69。"
+    },
+    {
+      "id": "2605.11567",
+      "title": "Dynamic Execution Commitment of Vision-Language-Action Models",
+      "title_cn": "VLA模型的动态执行承诺机制",
+      "authors": "Chen Chen, et al.",
+      "relevance": 3,
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-20",
+      "tags": [
+        "VLA",
+        "action chunking",
+        "adaptive execution",
+        "self-speculative"
+      ],
+      "category": "vla-autonomous-driving",
+      "status": "new",
+      "summary": "A3机制将VLA动作分块执行转为自适应接受，基于群采样的一致性分数决定接受或拒绝哪些动作，实现效率与成功率平衡。"
+    },
+    {
+      "id": "2605.06317",
+      "title": "One-Step Global Planning for Vision-Language Navigation on Top-Down Maps",
+      "title_cn": "基于俯视图的视觉-语言导航单步全局规划",
+      "authors": "NavOne Team",
+      "relevance": 3,
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-20",
+      "tags": [
+        "VLN",
+        "navigation",
+        "top-down map",
+        "global planning",
+        "NavOne"
+      ],
+      "category": "e2e-autonomous-driving",
+      "status": "new",
+      "summary": "NavOne将VLN重定义为预建俯视图上的单步全局路径规划，端到端直接预测密集路径概率。规划速度比现有地图方法快8倍，比自我中心方法快80倍。"
+    },
+    {
+      "id": "2605.08567",
+      "title": "Investigating Generalized Physical Interaction in Action-Conditioned Video World Models",
+      "title_cn": "动作条件视频世界模型中的通用物理交互研究",
+      "authors": "ACWM-Phys Team",
+      "relevance": 3,
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "date": "2026-05",
+      "found_date": "2026-05-20",
+      "tags": [
+        "world model",
+        "video prediction",
+        "physics",
+        "benchmark",
+        "ACWM"
+      ],
+      "category": "world-models-ad",
+      "status": "new",
+      "summary": "ACWM-Phys构建新基准评估动作条件世界模型在不同物理动力学下的预测能力，涵盖刚体、运动学、可变形物体、粒子系统，提供ID/OOD评估协议。"
     }
-  ],
-  "last_updated": "2026-05-17 15:55:00"
+  ]
 }

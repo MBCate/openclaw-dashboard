@@ -1,35 +1,58 @@
 {
-  "update_time": "2026-05-19 15:09",
-  "date": "2026-05-19",
-  "status": "ok",
+  "date": "2026-05-20",
+  "updateTime": "15:05",
+  "strategies": {
+    "DoubleMa": {
+      "1h": {"signal": "观望", "price": 80783.3},
+      "4h": {"signal": "做多", "price": 80783.3}
+    },
+    "RSI": {
+      "1h": {"signal": "观望", "price": 80783.3},
+      "4h": {"signal": "观望", "price": 80783.3}
+    },
+    "MACD": {
+      "1h": {"signal": "做空", "price": 80783.3},
+      "4h": {"signal": "观望", "price": 80783.3}
+    },
+    "Bollinger": {
+      "1h": {"signal": "观望", "price": 80783.3},
+      "4h": {"signal": "做空", "price": 80783.3}
+    },
+    "Supertrend": {
+      "1h": {"signal": "观望", "price": 80783.3},
+      "4h": {"signal": "观望", "price": 80783.3}
+    },
+    "TripleMa": {
+      "1h": {"signal": "观望", "price": 80783.3},
+      "4h": {"signal": "观望", "price": 80783.3}
+    },
+    "Momentum": {
+      "1h": {"signal": "做空", "price": 80783.3},
+      "4h": {"signal": "观望", "price": 80783.3}
+    },
+    "MeanReversion": {
+      "1h": {"signal": "观望", "price": 80783.3},
+      "4h": {"signal": "做空", "price": 80783.3}
+    }
+  },
   "crypto": {
     "BTC/USDT": {
-      "price": 77070.6,
-      "change_24h": "+170.60",
-      "source": "OKX"
+      "price": 77330,
+      "change24h": 0.35,
+      "high24h": 77414.2,
+      "low24h": 76151,
+      "trend1h": null,
+      "trend4h": null
     },
     "ETH/USDT": {
-      "price": 2139.39,
-      "change_24h": "+22.39",
-      "source": "OKX"
+      "price": 2131.95,
+      "change24h": -0.34,
+      "high24h": 2145.00,
+      "low24h": 2093.98,
+      "trend1h": null,
+      "trend4h": null
     }
   },
-  "strategies": {
-    "last_full_update": "2026-05-11",
-    "note": "策略全量数据上次更新于2026-05-11，今日仅更新了实时BTC/ETH行情"
-  },
-  "a_shares": {
-    "上证指数": {
-      "price": 4169.54,
-      "change_pct": 0.92
-    },
-    "深证成指": {
-      "price": 15569.91,
-      "change_pct": 0.26
-    },
-    "创业板指": {
-      "price": 3908.44,
-      "change_pct": -0.16
-    }
-  }
+  "dataFreshness": "策略信号数据来自2026-05-11，BTC/ETH价格实时更新",
+  "note": "HelloQuant 策略数据最后更新于2026-05-11，今日未生成新数据"
 }

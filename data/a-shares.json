@@ -1,14 +1,107 @@
 {
-  "date": "2026-05-20",
-  "updateTime": "15:00",
+  "date": "2026-05-21",
+  "updateTime": "11:37",
   "indices": [
-    {"name": "上证指数", "code": "1.000001", "price": 4162.18, "change": -0.18, "high": 4169.85, "low": 4139.97, "open": 4152.70},
-    {"name": "深证成指", "code": "0.399001", "price": 15569.98, "change": 0.00, "high": 15622.21, "low": 15426.38, "open": 15487.43},
-    {"name": "创业板指", "code": "0.399006", "price": 3921.79, "change": 0.34, "high": 3947.22, "low": 3887.16, "open": 3889.68},
-    {"name": "沪深300", "code": "0.399300", "price": 4850.70, "change": -0.04, "high": 4866.21, "low": 4825.64, "open": 4829.61}
+    {
+      "name": "上证指数",
+      "code": "1.000001",
+      "price": 4162.37,
+      "change": 0.0,
+      "high": null,
+      "low": null,
+      "open": null
+    },
+    {
+      "name": "深证成指",
+      "code": "0.399001",
+      "price": 15662.21,
+      "change": 0.59,
+      "high": null,
+      "low": null,
+      "open": null
+    },
+    {
+      "name": "创业板指",
+      "code": "0.399006",
+      "price": 3942.36,
+      "change": 0.52,
+      "high": null,
+      "low": null,
+      "open": null
+    },
+    {
+      "name": "沪深300",
+      "code": "0.399300",
+      "price": 4878.61,
+      "change": 0.58,
+      "high": null,
+      "low": null,
+      "open": null
+    },
+    {
+      "name": "恒生指数",
+      "code": "2.HSI",
+      "price": 25624.32,
+      "change": -0.1,
+      "high": 25833.71,
+      "low": 25616.74,
+      "open": 25833.24
+    }
   ],
-  "northBound": null,
-  "northBoundNote": "数据接口超时，暂未获取到北向资金数据",
-  "marketSummary": "科创50指数涨超2%，半导体产业链持续爆发，全市场超4100只个股下跌，沪深两市成交额放量",
-  "source": "Sina Finance API + 财联社"
+  "boardTop5": [
+    {
+      "name": "玻璃玻纤",
+      "change": 3.22
+    },
+    {
+      "name": "航空机场",
+      "change": 2.39
+    },
+    {
+      "name": "证券Ⅱ",
+      "change": 2.0
+    },
+    {
+      "name": "小金属",
+      "change": 1.71
+    },
+    {
+      "name": "元件",
+      "change": 1.61
+    }
+  ],
+  "boardBot5": [
+    {
+      "name": "石油石化",
+      "change": -2.31
+    },
+    {
+      "name": "通信服务",
+      "change": -1.73
+    },
+    {
+      "name": "通信设备",
+      "change": -1.71
+    },
+    {
+      "name": "装修装饰Ⅱ",
+      "change": -1.5
+    },
+    {
+      "name": "煤炭",
+      "change": -1.46
+    }
+  ],
+  "northBound": {
+    "value": null,
+    "note": "北向资金数据盘中暂未更新"
+  },
+  "boardSummary": {
+    "total": 55,
+    "up": 23,
+    "down": 32,
+    "flat": 0
+  },
+  "marketSummary": "午盘三大指数涨跌互现，上证指数4162.37(0.00%)，深证成指15662.21(+0.59%)，创业板指3942.36(+0.52%)，沪深300报4878.61(+0.58%)，恒生指数25624.32(-0.10%)。涨幅居前：玻璃玻纤+3.22%、航空机场+2.39%、证券Ⅱ+2.00%；跌幅居前：石油石化-2.31%、通信服务-1.73%、通信设备-1.71%。",
+  "source": "eastmoney (via API direct fetch)"
 }

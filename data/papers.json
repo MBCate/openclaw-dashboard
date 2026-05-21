@@ -172,7 +172,9 @@
         "Alpamayo"
       ],
       "summary": "提出CPU-GPU内存交换方案解决VLA模型部署时20-60GB显存瓶颈，实现OOM-free推理",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.10858",
@@ -186,7 +188,9 @@
         "evaluation"
       ],
       "summary": "提出WorldLens统一基准，评测驾驶世界模型在真实性、物理一致性、闭环规划等多维度的保真度",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.10744",
@@ -201,7 +205,9 @@
         "reasoning"
       ],
       "summary": "提出反事实思维链方法，结合VLM进行安全关键规划，在低概率高风险场景中进行因果推理决策",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.10564",
@@ -216,7 +222,9 @@
         "end-to-end"
       ],
       "summary": "提出面向端到端自动驾驶的长时序潜在状态世界模型，集成VLM架构进行深度视觉推理",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.10426",
@@ -231,7 +239,9 @@
         "reasoning"
       ],
       "summary": "提出多专家世界推理框架，在潜在空间进行世界推理并直接条件化动作生成，解决文本CoT丢失时空结构的问题",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.10177",
@@ -246,7 +256,9 @@
         "urban-driving"
       ],
       "summary": "提出多模态Transformer 3D可通行性+RL的鲁棒城市驾驶框架，结合可解释3D场景理解与强化学习决策",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.09701",
@@ -261,7 +273,9 @@
         "foresight"
       ],
       "summary": "提出面向规划的潜在世界模型，学习规划导向的前瞻感知，显式解耦当前与未来特征",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.08975",
@@ -276,7 +290,9 @@
         "optimization"
       ],
       "summary": "分析推理型E2E系统的延迟瓶颈，提出推理压缩+轨迹预生成+轻量级规划器实现4倍加速",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.08830",
@@ -291,7 +307,9 @@
         "expert-routing"
       ],
       "summary": "提出紧耦合VLA+轨迹专家路由架构，通过共享编码器保持多模态交互同时减少语言推理与轨迹预测的耦合冲突",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.08133",
@@ -306,7 +324,9 @@
         "end-to-end"
       ],
       "summary": "提出检索增强VLA框架，通过结构化检索知识库+可微分场景编码器克服隐式参数泛化瓶颈",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.06264",
@@ -321,7 +341,9 @@
         "safety"
       ],
       "summary": "提出多视角归因→规划风险信号的转换方法，利用归因图预测规划风险，实现可解释安全监控",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.06010",
@@ -336,7 +358,9 @@
         "real-time"
       ],
       "summary": "通过蒸馏扩散模型为RGB系统添加红外热感知能力，实现夜间/雾天闭环驾驶鲁棒性提升",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.02762",
@@ -351,7 +375,9 @@
         "HD-map"
       ],
       "summary": "提出统一地图先验编码器，融合HD/SD向量图、栅格图和卫星图实现传感器无关的端到端规划",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.00880",
@@ -366,7 +392,9 @@
         "flow-matching"
       ],
       "summary": "分析VLA与模块化E2E系统对对抗扰动的鲁棒性，使用流匹配生成不可感知攻击",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.00531",
@@ -381,7 +409,9 @@
         "deployment"
       ],
       "summary": "交互式快速综述自动驾驶系统行业测试实践，弥合学术研究到工业应用的方法论差距",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.10904",
@@ -396,7 +426,9 @@
         "closed-loop"
       ],
       "summary": "提出V2X闭环协同驾驶基准，评估端到端多智能体系统的行为多样性与交互能力",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.10821",
@@ -410,7 +442,9 @@
         "adaptation"
       ],
       "summary": "提出统一噪声引导框架用于VLA高效适应，结合人类反馈引导实际部署分布",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.10717",
@@ -424,7 +458,9 @@
         "trajectory"
       ],
       "summary": "异方差扩散模型用于多智能体轨迹建模",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.10388",
@@ -439,7 +475,9 @@
         "sampling"
       ],
       "summary": "将时序采样频率作为显式训练设计变量，发现高频率并非最优，验证容量感知的频率选择",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.09999",
@@ -453,7 +491,9 @@
         "acceleration"
       ],
       "summary": "提出无需重训的diffusion轨迹规划加速方法，对预训练模型进行风险感知的关键步骤优化",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.09972",
@@ -467,7 +507,9 @@
         "long-tail"
       ],
       "summary": "提出高阶闭环驾驶基准，覆盖长尾场景、多目标多样性等现有基准饱和后的能力评估缺口",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.09886",
@@ -481,7 +523,9 @@
         "streaming"
       ],
       "summary": "研究世界模型token流式传输的网络效率优化",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.09672",
@@ -495,7 +539,9 @@
         "robotics"
       ],
       "summary": "最小体积盒过滤的扩散抓取生成，用于正面操作",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.09586",
@@ -509,7 +555,9 @@
         "deformable"
       ],
       "summary": "从视频学习可变形物体的物理-神经世界模型，恢复几何外观及动力学交互",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.08879",
@@ -524,7 +572,9 @@
         "catastrophic-forgetting"
       ],
       "summary": "提出保守SFT(ConSFT)，防止流匹配VLA模型微调时灾难性遗忘，动态缩放学习信号",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.08757",
@@ -538,7 +588,9 @@
         "data-collection"
       ],
       "summary": "视触觉数据采集系统，带触觉反馈的由粗到精模仿学习",
-      "new": true
+      "new": true,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.07326",
@@ -552,7 +604,9 @@
         "generative"
       ],
       "summary": "首个利用Deformable Mamba的LiDAR世界模型，解决点云无序性和动静态分离挑战",
-      "new": false
+      "new": false,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.07195",
@@ -566,7 +620,9 @@
         "foresight"
       ],
       "summary": "提出前瞻式自动驾驶规划框架，先通过世界模型想象未来场景再做决策，从反应式转为前瞻式范式",
-      "new": false
+      "new": false,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2604.22002",
@@ -580,7 +636,9 @@
         "urban"
       ],
       "summary": "大规模VLA预训练框架，在nuScenes等数据集上实现SOTA驾驶性能",
-      "new": false
+      "new": false,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2604.21479",
@@ -594,7 +652,9 @@
         "hd-map"
       ],
       "summary": "利用frozen LLM作为推理引擎进行轨迹预测，结合HD map语义信息",
-      "new": false
+      "new": false,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2604.21249",
@@ -609,7 +669,9 @@
         "traversability"
       ],
       "summary": "语言引导的越野轨迹规划，通过action-aligned标注和地形感知优化实现单图3D轨迹推断",
-      "new": false
+      "new": false,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.01924",
@@ -623,7 +685,9 @@
         "multi-camera"
       ],
       "summary": "统一2D透视和3D BEV检测的端到端模型，支持混合监督",
-      "new": false
+      "new": false,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.00291",
@@ -637,7 +701,9 @@
         "explainability"
       ],
       "summary": "多尺度注意力模型实现可解释的自动驾驶决策，提出Joint F1评估指标",
-      "new": false
+      "new": false,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2604.23934",
@@ -652,7 +718,9 @@
         "safety"
       ],
       "summary": "利用Qwen3-VL+GPT-OSS实现行人意图理解与年龄感知的差异化刹车控制",
-      "new": false
+      "new": false,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2604.22835",
@@ -666,7 +734,9 @@
         "simulation"
       ],
       "summary": "基于CARLA的结构化自动泊车数据集，包含704个episode和约105K帧",
-      "new": false
+      "new": false,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2604.23604",
@@ -680,7 +750,9 @@
         "segmentation"
       ],
       "summary": "3D LiDAR异常分割，通过特征空间分布建模检测未知物体",
-      "new": false
+      "new": false,
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.13646",
@@ -698,7 +770,9 @@
       "summary": "提出因果感知的端到端驾驶方法CaAD，通过以自我为中心联合场景建模，建模自车与周围智能体的因果相互依赖关系，实现更一致的轨迹预测。",
       "new": true,
       "date": "2026-05-13",
-      "url": "https://arxiv.org/abs/2605.13646"
+      "url": "https://arxiv.org/abs/2605.13646",
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.08528",
@@ -716,7 +790,9 @@
       "summary": "提出SceneFactory GPU加速驾驶仿真器，在保持物理保真度的同时实现大规模并行训练，桥接GPU批量仿真与物理精确动力学之间的鸿沟。",
       "new": true,
       "date": "2026-05-08",
-      "url": "https://arxiv.org/abs/2605.08528"
+      "url": "https://arxiv.org/abs/2605.08528",
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.08911",
@@ -734,7 +810,9 @@
       "summary": "提出统一的车道与车道拓扑建模方法，打破传统先检测后推理范式，在端到端框架中同时学习车道线和拓扑关系。",
       "new": true,
       "date": "2026-05-09",
-      "url": "https://arxiv.org/abs/2605.08911"
+      "url": "https://arxiv.org/abs/2605.08911",
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.08572",
@@ -752,7 +830,9 @@
       "summary": "改进一致性模型实现多智能体轨迹预测的真实单步生成，解决扩散模型推理延迟问题，适用于自动驾驶等时延敏感场景。",
       "new": true,
       "date": "2026-05-09",
-      "url": "https://arxiv.org/abs/2605.08572"
+      "url": "https://arxiv.org/abs/2605.08572",
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.13751",
@@ -770,7 +850,9 @@
       "summary": "提出CARS方法，生成可归责责任的对抗性驾驶场景，区分系统缺陷导致的故障与不可避免的交通冲突，提升自动驾驶安全验证的可信度。",
       "new": true,
       "date": "2026-05-13",
-      "url": "https://arxiv.org/abs/2605.13751"
+      "url": "https://arxiv.org/abs/2605.13751",
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.09774",
@@ -788,7 +870,9 @@
       "summary": "DRIVE-C是一个受控退化数据集，在真实驾驶视频上施加物理启发的合成退化（噪声、模糊、天气等），用于评估自动驾驶视觉感知鲁棒性。",
       "new": true,
       "date": "2026-05-10",
-      "url": "https://arxiv.org/abs/2605.09774"
+      "url": "https://arxiv.org/abs/2605.09774",
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.10026",
@@ -806,7 +890,9 @@
       "summary": "提出多源多模态无监督域自适应3D目标检测方法MUSDA，利用多个标注数据集提升在新环境中的检测鲁棒性，无需人工标注。",
       "new": true,
       "date": "2026-05-11",
-      "url": "https://arxiv.org/abs/2605.10026"
+      "url": "https://arxiv.org/abs/2605.10026",
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.13755",
@@ -824,7 +910,9 @@
       "summary": "利用生成模型对3D行人纹理进行多样化，提升自动驾驶感知模型在长尾场景中的泛化鲁棒性，解决真实数据多样性不足问题。",
       "new": true,
       "date": "2026-05-13",
-      "url": "https://arxiv.org/abs/2605.13755"
+      "url": "https://arxiv.org/abs/2605.13755",
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.09425",
@@ -842,7 +930,9 @@
       "summary": "提出AtteConDA方法，通过注意力机制抑制多条件扩散模型中的条件冲突，实现更高质量的高层驾驶任务合成数据增强。",
       "new": true,
       "date": "2026-05-10",
-      "url": "https://arxiv.org/abs/2605.09425"
+      "url": "https://arxiv.org/abs/2605.09425",
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.08293",
@@ -860,7 +950,9 @@
       "summary": "提出DDS无标注3D场景理解方法，结合多粒度蒸馏和图扩散分割，适用于自动驾驶、数字孪生等场景的3D语义理解。",
       "new": true,
       "date": "2026-05-08",
-      "url": "https://arxiv.org/abs/2605.08293"
+      "url": "https://arxiv.org/abs/2605.08293",
+      "found_date": "2026-05-19",
+      "status": "existing"
     },
     {
       "id": "2605.12622",
@@ -1246,6 +1338,76 @@
       "category": "world-models-ad",
       "status": "new",
       "summary": "ACWM-Phys构建新基准评估动作条件世界模型在不同物理动力学下的预测能力，涵盖刚体、运动学、可变形物体、粒子系统，提供ID/OOD评估协议。"
+    },
+    {
+      "id": "2605.19524",
+      "title": "SafeAlign-VLA: A Negative-Enhanced Safe Alignment Framework for Risk-Aware Autonomous Driving",
+      "authors": [
+        "Yuansheng Lian",
+        "et al."
+      ],
+      "abstract": "End-to-end autonomous driving systems excel in common scenarios but struggle with safety-critical long-tail cases. Vision-Language-Action (VLA) models are promising due to their strong reasoning capabilities. However, most VLA-based approaches rely on positive expert demonstrations, rarely exploiting negative samples, leading to insufficient understanding of risky behaviors and safety boundaries. To address this limitation, we propose SafeAlign-VLA, a unified negative-enhanced safe alignment framework that incorporates negative data into supervised learning and reinforcement learning.",
+      "category": "VLA-AD",
+      "relevance": 5,
+      "status": "new",
+      "found_date": "2026-05-21",
+      "arxiv_date": "2026-05-19",
+      "tags": [
+        "VLA",
+        "end-to-end AD",
+        "safe alignment",
+        "negative sampling",
+        "RLHF"
+      ],
+      "url": "https://arxiv.org/abs/2605.19524",
+      "comments": "89.1 PDMS on NAVSIM v1. Collision rate 3.36%. Uses counterfactual reasoning + group relative policy optimization."
+    },
+    {
+      "id": "2605.19631",
+      "title": "Heterogeneous End-to-End Autonomous Driving via Trajectory-Guided World Models",
+      "authors": [
+        "Giwon Lee",
+        "et al."
+      ],
+      "abstract": "End-to-end autonomous driving has emerged as a compelling alternative to traditional modular pipelines by directly mapping raw sensor data to driving actions. While recent approaches achieve strong performance on single-domain datasets, their performance degrades significantly when trained jointly across multiple heterogeneous domains. To address this, we propose a trajectory-driven learning paradigm that organizes training around planning trajectories, enabling the model to capture domain-invariant representations of driving intent. Furthermore, we incorporate a world model that predicts future latent features conditioned on ego actions.",
+      "category": "e2e-AD",
+      "relevance": 4,
+      "status": "new",
+      "found_date": "2026-05-21",
+      "arxiv_date": "2026-05-19",
+      "tags": [
+        "end-to-end AD",
+        "world model",
+        "multi-domain",
+        "heterogeneous",
+        "domain adaptation"
+      ],
+      "url": "https://arxiv.org/abs/2605.19631",
+      "comments": "Evaluated on nuScenes, NAVSIM, Waymo. Uses trajectory-guided world model for domain-invariant feature learning."
+    },
+    {
+      "id": "2605.19771",
+      "title": "BeyondDrive: Beyond Imitation — Learning Safe End-to-End Autonomous Driving from Hard Negatives",
+      "authors": [
+        "Junli Wang",
+        "et al."
+      ],
+      "abstract": "Existing imitation learning methods for end-to-end autonomous driving predominantly learn from successful demonstrations by minimizing geometric deviations from expert trajectories. This paradigm implicitly assumes that spatial proximity implies behavioral safety, leading to a critical objective mismatch. To address this limitation, we propose BeyondDrive, a failure-aware imitation learning framework that jointly learns from successful and failed driving behaviors.",
+      "category": "e2e-AD",
+      "relevance": 3,
+      "status": "new",
+      "found_date": "2026-05-21",
+      "arxiv_date": "2026-05-19",
+      "tags": [
+        "end-to-end AD",
+        "imitation learning",
+        "safe driving",
+        "negative sampling",
+        "flow matching"
+      ],
+      "url": "https://arxiv.org/abs/2605.19771",
+      "comments": "89.7 PDMS on NAVSIMv1. Uses flow matching for negative trajectory generation. Zero-shot transfer to HUGSIM."
     }
-  ]
+  ],
+  "last_updated": "2026-05-21T00:00:00+08:00"
 }

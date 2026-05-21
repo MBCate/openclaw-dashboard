@@ -1,58 +1,13 @@
 {
-  "date": "2026-05-20",
-  "updateTime": "15:05",
+  "timestamp": "2026-05-21 15:05",
   "strategies": {
-    "DoubleMa": {
-      "1h": {"signal": "观望", "price": 80783.3},
-      "4h": {"signal": "做多", "price": 80783.3}
-    },
-    "RSI": {
-      "1h": {"signal": "观望", "price": 80783.3},
-      "4h": {"signal": "观望", "price": 80783.3}
-    },
-    "MACD": {
-      "1h": {"signal": "做空", "price": 80783.3},
-      "4h": {"signal": "观望", "price": 80783.3}
-    },
-    "Bollinger": {
-      "1h": {"signal": "观望", "price": 80783.3},
-      "4h": {"signal": "做空", "price": 80783.3}
-    },
-    "Supertrend": {
-      "1h": {"signal": "观望", "price": 80783.3},
-      "4h": {"signal": "观望", "price": 80783.3}
-    },
-    "TripleMa": {
-      "1h": {"signal": "观望", "price": 80783.3},
-      "4h": {"signal": "观望", "price": 80783.3}
-    },
-    "Momentum": {
-      "1h": {"signal": "做空", "price": 80783.3},
-      "4h": {"signal": "观望", "price": 80783.3}
-    },
-    "MeanReversion": {
-      "1h": {"signal": "观望", "price": 80783.3},
-      "4h": {"signal": "做空", "price": 80783.3}
-    }
-  },
-  "crypto": {
-    "BTC/USDT": {
-      "price": 77330,
-      "change24h": 0.35,
-      "high24h": 77414.2,
-      "low24h": 76151,
-      "trend1h": null,
-      "trend4h": null
-    },
-    "ETH/USDT": {
-      "price": 2131.95,
-      "change24h": -0.34,
-      "high24h": 2145.00,
-      "low24h": 2093.98,
-      "trend1h": null,
-      "trend4h": null
-    }
-  },
-  "dataFreshness": "策略信号数据来自2026-05-11，BTC/ETH价格实时更新",
-  "note": "HelloQuant 策略数据最后更新于2026-05-11，今日未生成新数据"
+    "DoubleMa": {},
+    "TripleMa": {},
+    "Supertrend": {},
+    "RSI": {},
+    "MACD": {},
+    "Bollinger": {},
+    "Momentum": {},
+    "MeanReversion": {}
+  }
 }

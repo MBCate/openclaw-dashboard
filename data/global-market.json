@@ -1,65 +1,47 @@
 {
-  "updated": "2026-05-21T09:15:00+08:00",
-  "source": "trading-monitor-morning-cron",
+  "ts": "2026-05-21T21:30:00+08:00",
+  "date": "2026-05-21",
   "indices": {
-    "sp500": { "name": "S&P 500", "value": 7375.81, "change_pct": 0.30 },
-    "dow": { "name": "Dow Jones", "value": 49447.50, "change_pct": 0.17 },
-    "nasdaq": { "name": "Nasdaq", "value": 26011.89, "change_pct": 0.55 },
-    "ftse100": { "name": "FTSE 100", "value": 8842.00, "change_pct": 0.25 },
-    "nikkei225": { "name": "日经225", "value": 35080.00, "change_pct": -0.30 },
-    "hsi": { "name": "恒生指数", "value": 21580.00, "change_pct": -0.15 },
-    "shanghai": { "name": "上证指数", "value": 4162.05, "change_pct": 0.00 },
-    "shenzhen": { "name": "深证成指", "value": 15569.98, "change_pct": 0.00 },
-    "cyb": { "name": "创业板指", "value": 3921.79, "change_pct": 0.00 }
-  },
-  "futures": {
-    "sp500_futures": { "name": "S&P500期货", "value": 7427, "change_pct": -0.34 },
-    "nasdaq_futures": { "name": "纳斯达克期货", "value": 29248, "change_pct": -0.48 },
-    "crude_oil": { "name": "原油", "value": 98.26, "change_pct": -5.80 }
+    "s&p500": { "value": "7,432.97", "change": "+1.08%", "notes": "5/20 close (Wed rally)" },
+    "nasdaq": { "value": "26,270.36", "change": "+1.54%", "notes": "5/20 close" },
+    "dow": { "value": "50,009.35", "change": "+1.31%", "notes": "5/20 close (Dow +645pts)" },
+    "sp500_futures": { "value": "7,451.75", "change": "-0.25%", "notes": "5/21 premarket futures" },
+    "nasdaq_futures": { "value": "—", "change": "-0.42%", "notes": "5/21 premarket futures" }
   },
   "crypto": {
-    "bitcoin": { "name": "Bitcoin", "price_usd": 77998.00, "change_24h_pct": 1.60 },
-    "ethereum": { "name": "Ethereum", "price_usd": 2144.22, "change_24h_pct": 1.55 }
+    "btc": { "value": "$77,505", "change": "~0%", "notes": "BTC market cap ~$1.33T" },
+    "eth": { "value": "$2,116", "change": "-0.20%", "notes": "ETH market cap ~$233B" }
   },
-  "forex": {
-    "dxy": { "name": "美元指数", "value": 99.09 }
+  "commodities": {
+    "gold": { "value": "$4,502.10", "change": "-0.73%", "notes": "COMEX Jun'26 futures down amid easing Middle East tensions" },
+    "wti": { "value": "$101.96", "change": "+3.9%", "notes": "Iran refuses to ship enriched uranium abroad; Strait of Hormuz disrupted" },
+    "brent": { "value": "$108.34", "change": "+3.0%", "notes": "IEA warns oil market entering 'red zone' if Hormuz stays blocked" }
   },
-  "headlines": [
+  "news": [
     {
       "source": "CNBC",
-      "title": "Nvidia earnings takeaways: Data center revenue nearly doubles, report strong but stock slides",
-      "url": "https://www.cnbc.com/2026/05/20/nvidia-earnings.html"
+      "headline": "Oil prices jump more than 3% after Iran supreme leader says uranium must remain in country",
+      "url": "https://www.cnbc.com/2026/05/21/oil-price-today-iran-war-strait-hormuz-trump.html",
+      "summary": "Iran's enriched uranium standoff complicates U.S. peace talks; Strait of Hormuz remains blocked."
     },
     {
       "source": "CNBC",
-      "title": "SoftBank Group shares soar over 16% as Nvidia earnings signal strong AI momentum",
-      "url": ""
+      "headline": "Quantum stocks soar as U.S. reportedly plans $2 billion 'award' and taking equity stakes",
+      "url": "https://www.cnbc.com/2026/05/21/quantum-stocks--us-taking-equity-stakes.html",
+      "summary": "Quantum computing shares pop on reports of U.S. government grants to nine firms."
     },
     {
-      "source": "FT Markets",
-      "title": "Oil drops nearly 6% as two China-bound supertankers cross Strait of Hormuz",
-      "url": ""
+      "source": "CNBC",
+      "headline": "Walmart issues worse-than-expected outlook as high gas prices hit shoppers",
+      "url": "https://www.cnbc.com/2026/05/21/walmart-wmt-earnings-q1-2027.html",
+      "summary": "Walmart CFO cites elevated gas prices offsetting higher tax returns."
     },
     {
-      "source": "FT Markets",
-      "title": "Elon Musk's SpaceX sets out plans for biggest IPO in history",
-      "url": ""
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Tether Buys Out SoftBank Stake in Bitcoin Treasury Firm",
-      "url": ""
-    },
-    {
-      "source": "SCMP",
-      "title": "Trump says Iran talks are nearing an end but warns of more strikes",
-      "url": ""
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "White-hot semiconductor stocks like Sandisk and Micron are now in meltdown mode",
-      "url": ""
+      "source": "CNBC",
+      "headline": "Retail investors get direct access to SpaceX IPO through major brokerage platforms",
+      "url": "https://www.cnbc.com/2026/05/21/retail-investors-get-direct-access-to-spacex-ipo-through-major-brokerage-platforms.html",
+      "summary": "SpaceX public offering opens to everyday traders, breaking Wall Street exclusivity."
     }
   ],
-  "summary": "隔夜美股三大指数小幅收涨（标普+0.30%、纳指+0.55%、道指+0.17%），盘后Nvidia财报公布——数据中心营收近翻倍、整体强劲但股价回落。软银因AI动能大涨16%。盘前美股期货小幅回落（标普-0.34%、纳指-0.48%），市场消化财报并等待进一步走势。原油暴跌近6%至$98/桶，因两艘驶往中国的超级油轮通过霍尔木兹海峡缓解供应担忧。比特币回升至$77,998（+1.60%），ETH $2,144（+1.55%）。美元指数99.09。A股开盘前，上证4162、深证15570、创业板3921。关注Nvidia财报后续影响、伊朗局势及霍尔木兹海峡油轮动态。"
+  "summary": "美股周三强劲反弹（降息预期+原油回落+中东局势缓和），道指涨1.3%突破50000点。今日盘前期货小幅回落。原油因地缘冲突加剧本周持续上涨，WTI逼近$102。黄金小跌。比特币$77,500附近窄幅震荡。量子计算板块受美国补贴消息大涨。"
 }

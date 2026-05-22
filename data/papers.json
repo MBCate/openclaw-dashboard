@@ -1407,7 +1407,303 @@
       ],
       "url": "https://arxiv.org/abs/2605.19771",
       "comments": "89.7 PDMS on NAVSIMv1. Uses flow matching for negative trajectory generation. Zero-shot transfer to HUGSIM."
+    },
+    {
+      "id": "2603.09529",
+      "title": "RESBev: Making BEV Perception More Robust",
+      "authors": "Multiple authors",
+      "relevance": 4,
+      "category": "BEV Perception",
+      "tags": [
+        "bev",
+        "robustness",
+        "world model",
+        "adversarial",
+        "cvpr2026"
+      ],
+      "date": "2026-05-22",
+      "summary": "插件式BEV感知鲁棒增强框架，利用潜空间世界模型预测来自历史帧的干净BEV语义先验，再通过异常重建器与污染当前观测融合。在 nuScenes 上使四种 LSS 模型在10种扰动下平均提升15-20 IoU。",
+      "url": "https://arxiv.org/abs/2603.09529",
+      "status": "新发现"
+    },
+    {
+      "id": "2603.10688",
+      "title": "MapGCLR: Geospatial Contrastive Learning for Online Vectorized HD Map Construction",
+      "authors": "Multiple authors",
+      "relevance": 4,
+      "category": "Perception",
+      "tags": [
+        "hd map",
+        "contrastive learning",
+        "semi-supervised",
+        "bev",
+        "cvpr2026"
+      ],
+      "date": "2026-05-22",
+      "summary": "利用多趟次地理重叠的 BEV 特征构建地理空间对比学习（InfoNCE损失），实现半监督在线 HD Map。仅用5%标注数据即达到18.9 mAP（超越全监督13.3基线42%）。",
+      "url": "https://arxiv.org/abs/2603.10688",
+      "status": "新发现"
+    },
+    {
+      "id": "2512.20299",
+      "title": "KnowVal: A Knowledge-Augmented and Value-Guided Autonomous Driving System",
+      "authors": "Multiple authors",
+      "relevance": 5,
+      "category": "End-to-End Driving",
+      "tags": [
+        "e2e",
+        "knowledge graph",
+        "value model",
+        "world model",
+        "vlm",
+        "cvpr2026"
+      ],
+      "date": "2026-05-22",
+      "summary": "知识增强+价值引导的端到端自动驾驶系统。三大模块：(1) 检索引导的开放世界感知；(2) 驱动知识图谱；(3) 世界模型+人类偏好价值模型。nuScenes最低碰撞率，Bench2Drive/NVISIM SOTA。",
+      "url": "https://arxiv.org/abs/2512.20299",
+      "status": "新发现"
+    },
+    {
+      "id": "2511.23369",
+      "title": "SimScale: Learning to Drive via Real-World Simulation at Scale",
+      "authors": "Haochen Tian, Tianyu Li, Haochen Liu, Jiazhi Yang et al.",
+      "relevance": 5,
+      "category": "Simulation",
+      "tags": [
+        "simulation",
+        "sim-to-real",
+        "neural rendering",
+        "data scaling",
+        "cvpr2026-oral"
+      ],
+      "date": "2026-05-22",
+      "summary": "CVPR 2026 Oral。通过轨迹扰动+响应环境模拟+神经渲染生成大规模仿真数据。NAVSIM v2 navhard +8.6 EPDMS，性能随仿真数据量平滑扩展。CASIA/OpenDriveLab/小米汽车联合。",
+      "url": "https://arxiv.org/abs/2511.23369",
+      "status": "新发现"
+    },
+    {
+      "id": "2602.21333",
+      "title": "HorizonForge: Driving Scene Editing with Any Trajectories and Any Vehicles",
+      "authors": "Multiple authors",
+      "relevance": 3,
+      "category": "Scene Generation",
+      "tags": [
+        "scene editing",
+        "3dgs",
+        "diffusion",
+        "simulation",
+        "cvpr2026"
+      ],
+      "date": "2026-05-22",
+      "summary": "可编辑高斯泼溅+车辆网格的统一驾驶场景编辑框架。支持轨迹控制和语言驱动车辆插入，视频扩散模型渲染一致性视频。用户偏好率91.02%。",
+      "url": "https://arxiv.org/abs/2602.21333",
+      "status": "新发现"
+    },
+    {
+      "id": "new_bev_001",
+      "title": "CycleBEV: Regularizing View Transformation Networks via View Cycle Consistency",
+      "authors": "Multiple authors",
+      "relevance": 4,
+      "category": "BEV Perception",
+      "tags": [
+        "bev",
+        "view transformation",
+        "cycle consistency",
+        "cvpr2026"
+      ],
+      "date": "2026-05-22",
+      "summary": "通过视角循环一致性正则化BEV视图变换网络，增强几何一致性。",
+      "url": "",
+      "status": "新发现"
+    },
+    {
+      "id": "new_occ_001",
+      "title": "ProOOD: Prototype-Guided Out-of-Distribution 3D Occupancy Prediction",
+      "authors": "Multiple authors",
+      "relevance": 3,
+      "category": "3D Occupancy",
+      "tags": [
+        "occupancy",
+        "ood",
+        "3d perception",
+        "cvpr2026"
+      ],
+      "date": "2026-05-22",
+      "summary": "原型引导的分布外3D占用预测。",
+      "url": "",
+      "status": "新发现"
+    },
+    {
+      "id": "new_occ_002",
+      "title": "O3N: Omnidirectional Open-Vocabulary Occupancy Prediction",
+      "authors": "Multiple authors",
+      "relevance": 3,
+      "category": "3D Occupancy",
+      "tags": [
+        "occupancy",
+        "open-vocabulary",
+        "3d perception",
+        "cvpr2026"
+      ],
+      "date": "2026-05-22",
+      "summary": "全向开放词汇3D占用预测。",
+      "url": "",
+      "status": "新发现"
+    },
+    {
+      "id": "new_occ_003",
+      "title": "OccAny: Generalized Unconstrained Urban 3D Occupancy",
+      "authors": "Multiple authors",
+      "relevance": 3,
+      "category": "3D Occupancy",
+      "tags": [
+        "occupancy",
+        "generalized",
+        "urban",
+        "cvpr2026"
+      ],
+      "date": "2026-05-22",
+      "summary": "泛化无约束城市3D占用预测。",
+      "url": "",
+      "status": "新发现"
+    },
+    {
+      "id": "new_occ_004",
+      "title": "GPOcc: Generalizing Visual Geometry Priors to Sparse Gaussian Occupancy",
+      "authors": "Multiple authors",
+      "relevance": 3,
+      "category": "3D Occupancy",
+      "tags": [
+        "occupancy",
+        "gaussian splatting",
+        "geometry prior",
+        "cvpr2026"
+      ],
+      "date": "2026-05-22",
+      "summary": "将视觉几何先验泛化到稀疏高斯占用预测。",
+      "url": "",
+      "status": "新发现"
+    },
+    {
+      "id": "new_occ_005",
+      "title": "Dr.Occ: Depth- and Region-Guided 3D Occupancy for Incomplete Cameras",
+      "authors": "Multiple authors",
+      "relevance": 3,
+      "category": "3D Occupancy",
+      "tags": [
+        "occupancy",
+        "depth-guided",
+        "region-guided",
+        "cvpr2026"
+      ],
+      "date": "2026-05-22",
+      "summary": "深度和区域引导的3D占用预测，支持摄像头缺失场景。",
+      "url": "",
+      "status": "新发现"
+    },
+    {
+      "id": "new_misc_001",
+      "title": "TTSG: Traffic Scene Generation from Natural Language",
+      "authors": "Multiple authors",
+      "relevance": 3,
+      "category": "Scene Generation",
+      "tags": [
+        "scene generation",
+        "language",
+        "simulation",
+        "cvpr2026"
+      ],
+      "date": "2026-05-22",
+      "summary": "从自然语言生成交通场景。",
+      "url": "",
+      "status": "新发现"
+    },
+    {
+      "id": "new_perc_001",
+      "title": "Look Before You Fuse: 2D-Guided Cross-Modal Alignment for 3D Detection",
+      "authors": "Multiple authors",
+      "relevance": 3,
+      "category": "Perception",
+      "tags": [
+        "3d detection",
+        "cross-modal",
+        "2d-guided",
+        "cvpr2026"
+      ],
+      "date": "2026-05-22",
+      "summary": "2D引导的跨模态对齐策略用于3D检测。",
+      "url": "",
+      "status": "新发现"
+    },
+    {
+      "id": "new_perc_002",
+      "title": "CoIn3D: Configuration-Invariant Multi-Camera 3D Detection",
+      "authors": "Multiple authors",
+      "relevance": 3,
+      "category": "Perception",
+      "tags": [
+        "3d detection",
+        "multi-camera",
+        "configuration-invariant",
+        "cvpr2026"
+      ],
+      "date": "2026-05-22",
+      "summary": "配置不变的多相机3D检测，对相机配置变化具有鲁棒性。",
+      "url": "",
+      "status": "新发现"
+    },
+    {
+      "id": "new_perc_003",
+      "title": "R4Det: 4D Radar-Camera Fusion for 3D Detection",
+      "authors": "Multiple authors",
+      "relevance": 3,
+      "category": "Perception",
+      "tags": [
+        "radar",
+        "camera fusion",
+        "4d",
+        "cvpr2026"
+      ],
+      "date": "2026-05-22",
+      "summary": "4D毫米波雷达-相机融合用于3D目标检测。",
+      "url": "",
+      "status": "新发现"
+    },
+    {
+      "id": "new_misc_002",
+      "title": "TerraSeg: Self-Supervised Ground Segmentation for Any LiDAR",
+      "authors": "Multiple authors",
+      "relevance": 3,
+      "category": "Perception",
+      "tags": [
+        "lidar",
+        "ground segmentation",
+        "self-supervised",
+        "cvpr2026"
+      ],
+      "date": "2026-05-22",
+      "summary": "自监督地面分割方法，适用于任意LiDAR传感器。",
+      "url": "",
+      "status": "新发现"
+    },
+    {
+      "id": "new_misc_003",
+      "title": "Scaling-Aware Data Selection for End-to-End Driving (MOSAIC)",
+      "authors": "Multiple authors",
+      "relevance": 4,
+      "category": "End-to-End Driving",
+      "tags": [
+        "e2e",
+        "data selection",
+        "scaling",
+        "cvpr2026"
+      ],
+      "date": "2026-05-22",
+      "summary": "面向端到端驾驶的缩放感知数据选择方法。",
+      "url": "",
+      "status": "新发现"
     }
   ],
-  "last_updated": "2026-05-21T00:00:00+08:00"
+  "last_updated": "2026-05-21T00:00:00+08:00",
+  "updated": "2026-05-22"
 }

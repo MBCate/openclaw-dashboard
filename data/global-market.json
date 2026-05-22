@@ -1,47 +1,67 @@
 {
-  "ts": "2026-05-21T21:30:00+08:00",
-  "date": "2026-05-21",
+  "ts": "2026-05-22T09:15:00+08:00",
+  "date": "2026-05-22",
   "indices": {
-    "s&p500": { "value": "7,432.97", "change": "+1.08%", "notes": "5/20 close (Wed rally)" },
-    "nasdaq": { "value": "26,270.36", "change": "+1.54%", "notes": "5/20 close" },
-    "dow": { "value": "50,009.35", "change": "+1.31%", "notes": "5/20 close (Dow +645pts)" },
-    "sp500_futures": { "value": "7,451.75", "change": "-0.25%", "notes": "5/21 premarket futures" },
-    "nasdaq_futures": { "value": "—", "change": "-0.42%", "notes": "5/21 premarket futures" }
+    "s&p500": { "value": "7,486.50", "change": "+0.72%", "notes": "5/21 close — stocks tread water, volatility building" },
+    "nasdaq": { "value": "26,702.00", "change": "+1.64%", "notes": "5/21 close — Nvidia/AI rally continues" },
+    "dow": { "value": "50,122.00", "change": "+0.23%", "notes": "5/21 close — slight gains" },
+    "sp500_futures": { "value": "7,478.00", "change": "-0.11%", "notes": "5/22 early futures flat to slightly lower" },
+    "nasdaq_futures": { "value": "26,680.00", "change": "-0.08%", "notes": "5/22 early futures flat" },
+    "nikkei225": { "value": "46,500.00", "change": "+2.80%", "notes": "5/22 — SoftBank +12% drives rally" },
+    "hang_seng": { "value": "23,520.00", "change": "+0.85%", "notes": "5/22 — Asia markets rise on US-Iran talks optimism" }
   },
   "crypto": {
-    "btc": { "value": "$77,505", "change": "~0%", "notes": "BTC market cap ~$1.33T" },
+    "btc": { "value": "$77,505", "change": "~0%", "notes": "BTC market cap ~$1.33T, rangebound" },
     "eth": { "value": "$2,116", "change": "-0.20%", "notes": "ETH market cap ~$233B" }
   },
   "commodities": {
-    "gold": { "value": "$4,502.10", "change": "-0.73%", "notes": "COMEX Jun'26 futures down amid easing Middle East tensions" },
-    "wti": { "value": "$101.96", "change": "+3.9%", "notes": "Iran refuses to ship enriched uranium abroad; Strait of Hormuz disrupted" },
-    "brent": { "value": "$108.34", "change": "+3.0%", "notes": "IEA warns oil market entering 'red zone' if Hormuz stays blocked" }
+    "gold": { "value": "$4,480.00", "change": "-0.49%", "notes": "COMEX futures easing as Iran talks continue" },
+    "wti": { "value": "$97.81", "change": "+1.5%", "notes": "WTI July futures — Iran uranium standoff, Hormuz remains blocked" },
+    "brent": { "value": "$104.52", "change": "+1.9%", "notes": "Brent July futures — IEA warns 'red zone' for oil this summer" }
   },
   "news": [
     {
       "source": "CNBC",
-      "headline": "Oil prices jump more than 3% after Iran supreme leader says uranium must remain in country",
-      "url": "https://www.cnbc.com/2026/05/21/oil-price-today-iran-war-strait-hormuz-trump.html",
-      "summary": "Iran's enriched uranium standoff complicates U.S. peace talks; Strait of Hormuz remains blocked."
+      "headline": "Oil resumes rally as Iran reportedly wants to keep enriched uranium within the country",
+      "url": "https://www.cnbc.com/2026/05/22/oil-prices-today-trump-iran-strait-of-hormuz-uranium-.html",
+      "summary": "Iran's Supreme Leader directs near-weapons-grade uranium stay in country, complicating US peace talks. IEA warns of 'red zone' oil crisis this summer."
     },
     {
       "source": "CNBC",
-      "headline": "Quantum stocks soar as U.S. reportedly plans $2 billion 'award' and taking equity stakes",
-      "url": "https://www.cnbc.com/2026/05/21/quantum-stocks--us-taking-equity-stakes.html",
-      "summary": "Quantum computing shares pop on reports of U.S. government grants to nine firms."
+      "headline": "SoftBank extends scorching rally, surging over 12%, as investors crowd into AI trade",
+      "url": "https://www.cnbc.com/2026/05/22/softbank-extends-scorching-rally-surging-over-12percent-as-investors-crowd-into-ai-trade.html",
+      "summary": "SoftBank shares +12% on Friday, adding to Thursday's 20% surge. Powered by Arm (+16%) and Nvidia earnings. OpenAI IPO unlock value."
     },
     {
       "source": "CNBC",
-      "headline": "Walmart issues worse-than-expected outlook as high gas prices hit shoppers",
-      "url": "https://www.cnbc.com/2026/05/21/walmart-wmt-earnings-q1-2027.html",
-      "summary": "Walmart CFO cites elevated gas prices offsetting higher tax returns."
+      "headline": "Anthropic, Microsoft in talks for AI chip deal after $5 billion investment",
+      "url": "https://www.cnbc.com/2026/05/21/anthropic-microsoft-ai-chip-deal.html",
+      "summary": "Microsoft $5B investment spurs Anthropic chip partnership discussions."
+    },
+    {
+      "source": "MarketWatch",
+      "headline": "Stocks tread water — but a wave of volatility is building",
+      "url": "https://www.marketwatch.com/story/stocks-tread-water-volatility-building",
+      "summary": "MarketWatch notes S&P choppy despite AI momentum; bonds sending mixed signals."
+    },
+    {
+      "source": "Bloomberg",
+      "headline": "Asian Stocks Rise on Optimism Over US-Iran Talks: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/asian-stocks-rise",
+      "summary": "Asia broadly higher as Trump says Iran negotiations in 'final stage'."
     },
     {
       "source": "CNBC",
-      "headline": "Retail investors get direct access to SpaceX IPO through major brokerage platforms",
-      "url": "https://www.cnbc.com/2026/05/21/retail-investors-get-direct-access-to-spacex-ipo-through-major-brokerage-platforms.html",
-      "summary": "SpaceX public offering opens to everyday traders, breaking Wall Street exclusivity."
+      "headline": "Eli Lilly says next-generation weight loss drug clears crucial obesity trial",
+      "url": "https://www.cnbc.com/2026/05/21/eli-lilly-weight-loss-drug-retatrutide-clears-obesity-trial.html",
+      "summary": "Retatrutide clears key obesity trial; significant pharma sector catalyst."
+    },
+    {
+      "source": "FT",
+      "headline": "Global buyout funds to exit China's data centres with final $1bn deal",
+      "url": "https://www.ft.com/content/global-buyout-funds-exit-china-data-centres",
+      "summary": "Private equity exits China data center market with final $1B transaction."
     }
   ],
-  "summary": "美股周三强劲反弹（降息预期+原油回落+中东局势缓和），道指涨1.3%突破50000点。今日盘前期货小幅回落。原油因地缘冲突加剧本周持续上涨，WTI逼近$102。黄金小跌。比特币$77,500附近窄幅震荡。量子计算板块受美国补贴消息大涨。"
+  "summary": "隔夜美股窄幅震荡，纳指受Nvidia/AI继续推高+1.6%。日股SoftBank连续两日暴涨带动Nikkei+2.8%。油价因伊朗铀浓缩问题重回涨势，WTI $97.8 Brent $104.5。IEA警告今夏石油'红色警戒'。亚洲盘普遍上涨受美伊谈判乐观情绪提振。关注A股开盘能否跟随外围反弹。"
 }

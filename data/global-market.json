@@ -1,67 +1,65 @@
 {
-  "ts": "2026-05-22T09:15:00+08:00",
+  "ts": "2026-05-22T21:30:00+08:00",
   "date": "2026-05-22",
   "indices": {
-    "s&p500": { "value": "7,486.50", "change": "+0.72%", "notes": "5/21 close — stocks tread water, volatility building" },
-    "nasdaq": { "value": "26,702.00", "change": "+1.64%", "notes": "5/21 close — Nvidia/AI rally continues" },
-    "dow": { "value": "50,122.00", "change": "+0.23%", "notes": "5/21 close — slight gains" },
-    "sp500_futures": { "value": "7,478.00", "change": "-0.11%", "notes": "5/22 early futures flat to slightly lower" },
-    "nasdaq_futures": { "value": "26,680.00", "change": "-0.08%", "notes": "5/22 early futures flat" },
-    "nikkei225": { "value": "46,500.00", "change": "+2.80%", "notes": "5/22 — SoftBank +12% drives rally" },
-    "hang_seng": { "value": "23,520.00", "change": "+0.85%", "notes": "5/22 — Asia markets rise on US-Iran talks optimism" }
+    "s&p500": { "value": "7,486.01", "change": "+0.54%", "notes": "5/22 close — S&P nears longest winning streak since 2023, Iran peace hopes drive rally" },
+    "nasdaq": { "value": "26,443.32", "change": "+0.57%", "notes": "5/22 close — tech gains modest; GitHub outages, Nvidia mixed" },
+    "dow": { "value": "50,668.49", "change": "+0.76%", "notes": "5/22 close — Dow leads, +382 pts on renewed Iran ceasefire optimism" },
+    "hang_seng": { "value": "25,606.03", "change": "+0.86%", "notes": "5/22 close — Asia rally on US-Iran progress, Hang Seng up +219 pts" },
+    "nikkei225": { "value": "46,500.00", "change": "+2.80%", "notes": "5/22 — SoftBank continues massive rally, AI trade frenzy persists" }
   },
   "crypto": {
-    "btc": { "value": "$77,505", "change": "~0%", "notes": "BTC market cap ~$1.33T, rangebound" },
-    "eth": { "value": "$2,116", "change": "-0.20%", "notes": "ETH market cap ~$233B" }
+    "btc": { "value": "$77,166", "change": "-0.48%", "notes": "BTC $77.2K, market cap ~$1.54T, slight pullback from yesterday" },
+    "eth": { "value": "$2,126", "change": "-0.25%", "notes": "ETH $2,126, consolidating in $2,100-2,200 range" }
   },
   "commodities": {
-    "gold": { "value": "$4,480.00", "change": "-0.49%", "notes": "COMEX futures easing as Iran talks continue" },
-    "wti": { "value": "$97.81", "change": "+1.5%", "notes": "WTI July futures — Iran uranium standoff, Hormuz remains blocked" },
-    "brent": { "value": "$104.52", "change": "+1.9%", "notes": "Brent July futures — IEA warns 'red zone' for oil this summer" }
+    "gold": { "value": "$4,480.00", "change": "-0.49%", "notes": "COMEX gold easing as Iran talks progress - safe haven demand fading" },
+    "wti": { "value": "$96.06", "change": "-1.79%", "notes": "WTI July futures slipping on Iran peace progress, but Hormuz tolls remain unresolved" },
+    "brent": { "value": "$102.86", "change": "-1.59%", "notes": "Brent July futures easing alongside WTI on ceasefire optimism" }
   },
   "news": [
     {
       "source": "CNBC",
-      "headline": "Oil resumes rally as Iran reportedly wants to keep enriched uranium within the country",
-      "url": "https://www.cnbc.com/2026/05/22/oil-prices-today-trump-iran-strait-of-hormuz-uranium-.html",
-      "summary": "Iran's Supreme Leader directs near-weapons-grade uranium stay in country, complicating US peace talks. IEA warns of 'red zone' oil crisis this summer."
+      "headline": "Iran war leaves U.S. gas prices at highest levels in nearly four years ahead of Memorial Day",
+      "url": "https://www.cnbc.com/2026/05/22/iran-war-gas-prices-memorial-day.html",
+      "summary": "US gas prices at nearly 4-year highs as Memorial Day weekend approaches, driven by Iran conflict."
     },
     {
       "source": "CNBC",
-      "headline": "SoftBank extends scorching rally, surging over 12%, as investors crowd into AI trade",
-      "url": "https://www.cnbc.com/2026/05/22/softbank-extends-scorching-rally-surging-over-12percent-as-investors-crowd-into-ai-trade.html",
-      "summary": "SoftBank shares +12% on Friday, adding to Thursday's 20% surge. Powered by Arm (+16%) and Nvidia earnings. OpenAI IPO unlock value."
-    },
-    {
-      "source": "CNBC",
-      "headline": "Anthropic, Microsoft in talks for AI chip deal after $5 billion investment",
-      "url": "https://www.cnbc.com/2026/05/21/anthropic-microsoft-ai-chip-deal.html",
-      "summary": "Microsoft $5B investment spurs Anthropic chip partnership discussions."
-    },
-    {
-      "source": "MarketWatch",
-      "headline": "Stocks tread water — but a wave of volatility is building",
-      "url": "https://www.marketwatch.com/story/stocks-tread-water-volatility-building",
-      "summary": "MarketWatch notes S&P choppy despite AI momentum; bonds sending mixed signals."
+      "headline": "U.S., Iran signal peace progress — but remain at odds over enriched uranium, Strait of Hormuz tolls",
+      "url": "https://www.cnbc.com/2026/05/22/us-iran-peace-talks-uranium-hormuz.html",
+      "summary": "US and Iran making progress in talks, but disagreements remain on enriched uranium and Hormuz tolls."
     },
     {
       "source": "Bloomberg",
-      "headline": "Asian Stocks Rise on Optimism Over US-Iran Talks: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-21/asian-stocks-rise",
-      "summary": "Asia broadly higher as Trump says Iran negotiations in 'final stage'."
+      "headline": "S&P 500 on Track for Strongest Earnings Growth Since 2021",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-22/sp-500-strongest-earnings-growth",
+      "summary": "S&P 500 earnings growth strongest since 2021, supporting market rally despite geopolitical headwinds."
     },
     {
       "source": "CNBC",
-      "headline": "Eli Lilly says next-generation weight loss drug clears crucial obesity trial",
-      "url": "https://www.cnbc.com/2026/05/21/eli-lilly-weight-loss-drug-retatrutide-clears-obesity-trial.html",
-      "summary": "Retatrutide clears key obesity trial; significant pharma sector catalyst."
+      "headline": "Trump said he'd 'remember' companies that didn't apply for tariff refunds. Many of them are anyway",
+      "url": "https://www.cnbc.com/2026/05/22/trump-tariff-refund-remember-companies.html",
+      "summary": "Despite Trump's warnings, many companies are applying for tariff refunds on imported goods."
     },
     {
-      "source": "FT",
-      "headline": "Global buyout funds to exit China's data centres with final $1bn deal",
-      "url": "https://www.ft.com/content/global-buyout-funds-exit-china-data-centres",
-      "summary": "Private equity exits China data center market with final $1B transaction."
+      "source": "CNBC",
+      "headline": "Microsoft's GitHub was positioned to win the AI coding race. Outages got in the way",
+      "url": "https://www.cnbc.com/2026/05/22/github-outages-ai-coding-race.html",
+      "summary": "GitHub faces service reliability challenges amid surging demand for AI-powered coding tools."
+    },
+    {
+      "source": "WSJ",
+      "headline": "Stock Market Today: S&P 500 Nears Longest Winning Streak Since 2023",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-05-22-2026",
+      "summary": "S&P 500 approaching longest winning streak since 2023 as markets rally on Iran peace hopes and strong earnings."
+    },
+    {
+      "source": "Bloomberg",
+      "headline": "Djibouti Says Dangote, Ethiopia to Build Pipelines to Its Port",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-22/djibouti-dangote-ethiopia-pipelines",
+      "summary": "Infrastructure developments in East Africa as Djibouti ports expand connectivity."
     }
   ],
-  "summary": "隔夜美股窄幅震荡，纳指受Nvidia/AI继续推高+1.6%。日股SoftBank连续两日暴涨带动Nikkei+2.8%。油价因伊朗铀浓缩问题重回涨势，WTI $97.8 Brent $104.5。IEA警告今夏石油'红色警戒'。亚洲盘普遍上涨受美伊谈判乐观情绪提振。关注A股开盘能否跟随外围反弹。"
+  "summary": "📈 美股全线收涨：S&P 500 +0.54% 接近2023年以来最长连涨纪录，道琼斯 +0.76%（+382点），纳斯达克 +0.57%。伊朗和平谈判进展为主要驱动力，但铀浓缩和霍尔木兹海峡通行费问题仍未解决。油价因停火预期小幅回落，WTI $96.06 Brent $102.86。港股恒指 +0.86% 收 25,606 跟随亚洲涨势。加密货币窄幅震荡，BTC $77,166 (-0.48%)，ETH $2,126 (-0.25%)。关注美伊谈判进展及季末资金流向。"
 }

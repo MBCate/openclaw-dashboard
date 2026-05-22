@@ -1,13 +1,61 @@
 {
-  "timestamp": "2026-05-21 15:05",
+  "date": "2026-05-22",
+  "time": "15:05",
+  "timestamp": "2026-05-22 15:05",
+  "last_report_date": "2026-01-04",
+  "last_raw_data": "2026-05-11",
+  "status": "checking",
   "strategies": {
-    "DoubleMa": {},
-    "TripleMa": {},
-    "Supertrend": {},
-    "RSI": {},
-    "MACD": {},
-    "Bollinger": {},
-    "Momentum": {},
-    "MeanReversion": {}
+    "stock": {
+      "strategies": [
+        "DoubleMa",
+        "TripleMa",
+        "Supertrend",
+        "RSI",
+        "MACD",
+        "Bollinger",
+        "Momentum",
+        "MeanReversion"
+      ],
+      "latest_data_date": "2026-05-11",
+      "market_snapshot": {
+        "上证指数": 4225.02,
+        "深证成指": 15899.3,
+        "创业板指": 3928.97
+      }
+    },
+    "crypto": {
+      "pairs": [
+        "BTC/USDT",
+        "ETH/USDT"
+      ],
+      "BTC": {
+        "price": 80792.3,
+        "change_24h_pct": 3.53
+      },
+      "ETH": {
+        "price": 2331.53,
+        "change_24h_pct": 10.13
+      },
+      "sentiment": "Neutral (48/100)"
+    }
+  },
+  "today_indices": {
+    "上证指数": {
+      "latest": 4112.9,
+      "change_pct": 0.87
+    },
+    "深证成指": {
+      "latest": 15597.3,
+      "change_pct": 2.3
+    },
+    "创业板指": {
+      "latest": 3938.5,
+      "change_pct": 2.84
+    },
+    "沪深300": {
+      "latest": 4845.1,
+      "change_pct": 1.3
+    }
   }
 }

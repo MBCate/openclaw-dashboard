@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-23 08:04:46",
-  "totalPapers": 117,
-  "newThisScan": 27,
+  "lastUpdated": "2026-05-24 02:28:01",
+  "totalPapers": 118,
+  "newThisScan": 28,
   "papers": [
     {
       "id": "2512.20299",
@@ -527,7 +527,11 @@
         "world-model"
       ],
       "reasoning": "用RL突破IL上限，结合认知基础模型+世界模型预测。端到端驾驶+RL方向的重要探索。",
-      "abstract": "Current end-to-end autonomous driving models are fundamentally constrained by the behavioral cloning ceiling of imitation learning. Distill to Think, Foresee to Act proposes using RL with (1) a cognitive foundation model for reasoning and (2) a physical world model for foresight."
+      "abstract": "Current end-to-end autonomous driving models are fundamentally constrained by the behavioral cloning ceiling of imitation learning. Distill to Think, Foresee to Act proposes using RL with (1) a cognitive foundation model for reasoning and (2) a physical world model for foresight.",
+      "status": "new",
+      "found_date": "2026-05-24",
+      "new": true,
+      "summary": "VLM蒸馏+自回归BEV世界模型+GRPO强化学习的认知物理框架，突破IL天花板"
     },
     {
       "id": "2605.21273",
@@ -2117,6 +2121,23 @@
       ],
       "url": "https://arxiv.org/abs/2605.19771",
       "comments": "89.7 PDMS on NAVSIMv1. Uses flow matching for negative trajectory generation. Zero-shot transfer to HUGSIM."
+    },
+    {
+      "id": "2605.20082",
+      "title": "VL-DPO: Vision-Language-Guided Finetuning for Preference-Aligned Autonomous Driving",
+      "authors": "Zhefan Xu et al.",
+      "relevance": 4,
+      "category": "end-to-end",
+      "tags": [
+        "VLM",
+        "DPO",
+        "preference alignment",
+        "ICRA 2026"
+      ],
+      "summary": "ICRA 2026：VLM零样本生成偏好对+DPO微调实现人类偏好对齐，RFS↑11.94%",
+      "new": true,
+      "found_date": "2026-05-24",
+      "status": "new"
     }
   ]
 }

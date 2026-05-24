@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24 08:01:21",
+  "lastUpdated": "2026-05-24 10:00:00",
   "totalPapers": 120,
   "newThisScan": 2,
   "papers": [
@@ -44,16 +44,21 @@
       "id": "2605.22089",
       "title": "LVDrive: Latent Visual Representation Enhanced Vision-Language-Action Autonomous Driving Model",
       "url": "https://arxiv.org/abs/2605.22089",
-      "date": "2026-05-22",
-      "category": "cs.CV",
+      "date": "2026-05-21",
+      "category": "VLA",
       "relevance": 5,
       "tags": [
         "VLA",
         "end-to-end-driving",
-        "autonomous-driving"
+        "autonomous-driving",
+        "latent-world-model",
+        "future-prediction"
       ],
       "reasoning": "提出隐式视觉表示增强VLA驾驶模型，解决稀疏动作监督问题。核心是LV Drive框架，端到端驾驶VLA方向重要贡献。",
-      "abstract": "Vision-Language-Action (VLA) models have emerged as a promising framework for end-to-end autonomous driving. However, existing VLAs typically rely on sparse action supervision, which underutilizes their powerful scene understanding and reasoning capabilities. LVDrive proposes a Latent Visual Representation enhanced Vision-Language-Action Autonomous Driving Model that bridges this gap."
+      "abstract": "Vision-Language-Action (VLA) models have emerged as a promising framework for end-to-end autonomous driving. However, existing VLAs typically rely on sparse action supervision, which underutilizes their powerful scene understanding and reasoning capabilities. LVDrive proposes a Latent Visual Representation enhanced Vision-Language-Action Autonomous Driving Model that bridges this gap.",
+      "authors": "Xiaodong Mei et al.",
+      "summary": "隐空间视觉表示增强的 VLA 驾驶框架。在隐空间中进行未来场景预测并联合建模运动和场景，单次前向传播完成未来感知推理。Bench2Drive 闭环评测超越纯动作监督和图像重建方法。",
+      "status": "本周精选"
     },
     {
       "id": "2605.22446",
@@ -146,15 +151,21 @@
       "title": "Sensor2Sensor: Cross-Embodiment Sensor Conversion for Autonomous Driving",
       "url": "https://arxiv.org/abs/2605.22809",
       "date": "2026-05-22",
-      "category": "cs.CV",
-      "relevance": 4,
+      "category": "Data Generation",
+      "relevance": 5,
       "tags": [
         "autonomous-driving",
         "data-generation",
-        "diffusion"
+        "diffusion",
+        "4DGS",
+        "CVPR-2026",
+        "sensor-conversion"
       ],
       "reasoning": "将dashcam视频转化为多模态AV传感器数据(相机+LiDAR)，解决数据稀缺问题。使用4DGS重建+扩散架构。创新性强但偏数据工具。",
-      "abstract": "Robust training and validation of Autonomous Driving Systems (ADS) require massive, diverse datasets. Proprietary data collected by Autonomous Vehicle (AV) fleets, while high-fidelity, are limited in scale, diversity of sensor configurations, as well as geographic and long-tail-behavioral coverage. Sensor2Sensor proposes a novel generative modeling paradigm that translates in-the-wild monocular dashcam videos into a high-fidelity, multi-modal sensor suite (AV logs) comprising multi-view camera images and LiDAR point clouds."
+      "abstract": "Robust training and validation of Autonomous Driving Systems (ADS) require massive, diverse datasets. Proprietary data collected by Autonomous Vehicle (AV) fleets, while high-fidelity, are limited in scale, diversity of sensor configurations, as well as geographic and long-tail-behavioral coverage. Sensor2Sensor proposes a novel generative modeling paradigm that translates in-the-wild monocular dashcam videos into a high-fidelity, multi-modal sensor suite (AV logs) comprising multi-view camera images and LiDAR point clouds.",
+      "authors": "Jiahao Wang, Bo Sun, Yijing Bai et al. (Waymo/Google)",
+      "summary": "CVPR 2026。将网络行车记录仪视频生成多模态传感器数据（多视角相机+LiDAR），4DGS构建伪配对数据用于训练扩散模型，解锁海量外部驾驶数据。",
+      "status": "本周精选"
     },
     {
       "id": "2602.21333",
@@ -612,17 +623,22 @@
       "id": "2605.20390",
       "title": "STELLAR: Scaling 3D Perception Large Models for Autonomous Driving",
       "url": "https://arxiv.org/abs/2605.20390",
-      "date": "2026-05-20",
-      "category": "cs.AI",
-      "relevance": 4,
+      "date": "2026-05-22",
+      "category": "3D Perception",
+      "relevance": 5,
       "tags": [
         "autonomous-driving",
         "3D-perception",
         "BEV",
-        "scaling"
+        "scaling",
+        "scaling-law",
+        "Waymo"
       ],
       "reasoning": "自动驾驶3D感知大模型的scaling方法。与BEV感知、端到端感知相关。",
-      "abstract": "STELLAR tackles scaling 3D perception large models specifically for autonomous driving, addressing the unique challenges of the driving domain."
+      "abstract": "STELLAR tackles scaling 3D perception large models specifically for autonomous driving, addressing the unique challenges of the driving domain.",
+      "authors": "Yingwei Li, Xin Huang, Yang Liu, Yang Fu et al. (Waymo/Google)",
+      "summary": "Waymo 自动驾驶 3D 感知大模型。Sparse Window Transformer 支持 LiDAR+Radar+Camera+Map，5000万×5亿参数训练。揭示自动驾驶感知的 scaling law，Waymo Open Dataset SOTA。",
+      "status": "本周精选"
     },
     {
       "id": "2605.20255",
@@ -1866,15 +1882,12 @@
     },
     {
       "id": "2605.19631",
-      "title": "Heterogeneous End-to-End Autonomous Driving via Trajectory-Guided World Models",
-      "authors": [
-        "Giwon Lee",
-        "et al."
-      ],
+      "title": "HEAT: Heterogeneous End-to-End Autonomous Driving via Trajectory-Guided World Models",
+      "authors": "Giwon Lee et al.",
       "abstract": "End-to-end autonomous driving has emerged as a compelling alternative to traditional modular pipelines by directly mapping raw sensor data to driving actions. While recent approaches achieve strong performance on single-domain datasets, their performance degrades significantly when trained jointly across multiple heterogeneous domains. To address this, we propose a trajectory-driven learning paradigm that organizes training around planning trajectories, enabling the model to capture domain-invariant representations of driving intent. Furthermore, we incorporate a world model that predicts future latent features conditioned on ego actions.",
-      "category": "e2e-AD",
-      "relevance": 4,
-      "status": "new",
+      "category": "End-to-End Driving",
+      "relevance": 5,
+      "status": "本周精选",
       "found_date": "2026-05-21",
       "arxiv_date": "2026-05-19",
       "tags": [
@@ -1885,7 +1898,9 @@
         "domain adaptation"
       ],
       "url": "https://arxiv.org/abs/2605.19631",
-      "comments": "Evaluated on nuScenes, NAVSIM, Waymo. Uses trajectory-guided world model for domain-invariant feature learning."
+      "comments": "Evaluated on nuScenes, NAVSIM, Waymo. Uses trajectory-guided world model for domain-invariant feature learning.",
+      "date": "2026-05-19",
+      "summary": "端到端多域联合训练方法。轨迹驱动学习让模型捕捉跨域不变驾驶意图，世界模型预测未来隐特征消除域偏置。单一模型在 nuScenes、NAVSIM、Waymo 上均取得实质性改进。"
     },
     {
       "id": "2605.06010",
@@ -2102,14 +2117,11 @@
     {
       "id": "2605.19771",
       "title": "BeyondDrive: Beyond Imitation — Learning Safe End-to-End Autonomous Driving from Hard Negatives",
-      "authors": [
-        "Junli Wang",
-        "et al."
-      ],
+      "authors": "Junli Wang, Zhihua Hua, Xueyi Liu et al.",
       "abstract": "Existing imitation learning methods for end-to-end autonomous driving predominantly learn from successful demonstrations by minimizing geometric deviations from expert trajectories. This paradigm implicitly assumes that spatial proximity implies behavioral safety, leading to a critical objective mismatch. To address this limitation, we propose BeyondDrive, a failure-aware imitation learning framework that jointly learns from successful and failed driving behaviors.",
-      "category": "e2e-AD",
-      "relevance": 3,
-      "status": "new",
+      "category": "End-to-End Driving",
+      "relevance": 5,
+      "status": "本周精选",
       "found_date": "2026-05-21",
       "arxiv_date": "2026-05-19",
       "tags": [
@@ -2117,10 +2129,13 @@
         "imitation learning",
         "safe driving",
         "negative sampling",
-        "flow matching"
+        "flow matching",
+        "hard negatives"
       ],
       "url": "https://arxiv.org/abs/2605.19771",
-      "comments": "89.7 PDMS on NAVSIMv1. Uses flow matching for negative trajectory generation. Zero-shot transfer to HUGSIM."
+      "comments": "89.7 PDMS on NAVSIMv1. Uses flow matching for negative trajectory generation. Zero-shot transfer to HUGSIM.",
+      "date": "2026-05-19",
+      "summary": "失败感知模仿学习框架，Flow Matching 生成接近专家轨迹的硬负样本，Repulsive Distance Loss 同时吸引真实轨迹、排斥负样本。NAVSIMv1 89.7 PDMS SOTA，零样本迁移到 HUGSIM。"
     },
     {
       "id": "2605.20082",

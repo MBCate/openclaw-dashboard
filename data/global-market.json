@@ -1,156 +1,89 @@
 {
-  "timestamp": "2026-05-23T21:30:00+08:00",
-  "date": "2026-05-23",
-  "updated": "周六晚间",
-
-  "us_markets": {
+  "timestamp": "2026-05-24T21:30:00+08:00",
+  "date": "2026-05-24",
+  "us": {
     "sp500": {
-      "name": "S&P 500",
-      "last": 7473.47,
-      "change": 27.75,
-      "change_pct": 0.37,
-      "prev_close": 7445.72,
-      "day_high": 7506.32,
-      "day_low": 7463.29,
-      "52w_high": 7517.12,
-      "52w_low": 5767.41,
-      "date": "2026-05-22"
+      "price": 7473.47,
+      "changePct": 0.88,
+      "prevClose": 7408.5,
+      "high52": 7517.12,
+      "low52": 5843.66
     },
-    "dow": {
-      "name": "道琼斯工业平均",
-      "open": 50434.65,
-      "day_high": 50830.24,
-      "day_low": 50434.65,
-      "prev_close": 50285.66,
-      "52w_high": 50830.24,
-      "52w_low": 41828.35,
-      "date": "2026-05-22"
+    "dowJones": {
+      "price": 50579.7,
+      "changePct": 2.13,
+      "prevClose": 49526.17,
+      "high52": 50830.24,
+      "low52": 41828.35
     },
     "nasdaq": {
-      "name": "纳斯达克综合",
-      "open": 26381.564,
-      "day_high": 26504.55,
-      "day_low": 26309.80,
-      "prev_close": 26293.098,
-      "52w_high": 26707.14,
-      "52w_low": 18599.69,
-      "date": "2026-05-22"
+      "price": 26343.97,
+      "changePct": 0.45,
+      "prevClose": 26225.14,
+      "high52": 26707.14,
+      "low52": 18847.74
     }
   },
-
-  "cn_markets": {
-    "shanghai": {
-      "name": "上证指数",
-      "last": 4112.90,
-      "prev_close": 4077.28,
-      "day_high": 4120.09,
-      "day_low": 4067.75,
-      "date": "2026-05-22"
-    },
-    "shenzhen": {
-      "name": "深证成指",
-      "last": 15597.30,
-      "prev_close": 15247.27,
-      "day_high": 15624.97,
-      "day_low": 15295.57,
-      "date": "2026-05-22"
-    },
+  "hk": {
     "hsi": {
-      "name": "恒生指数",
-      "last": 25641.80,
-      "change": 219.51,
-      "change_pct": 0.86,
-      "prev_close": 25483.24,
-      "day_high": 25732.36,
-      "day_low": 25386.52,
-      "52w_high": 28056.10,
-      "52w_low": 22668.35,
-      "date": "2026-05-22"
+      "price": 25606.03,
+      "changePct": -1.37
     }
   },
-
-  "commodities": {
-    "gold": {
-      "name": "黄金 COMEX (Jun'26)",
-      "last": 4510.50,
-      "change": -32.00,
-      "change_pct": -0.70,
-      "open": 4544.20,
-      "day_high": 4547.00,
-      "day_low": 4487.30,
-      "prev_close": 4542.50,
-      "date": "2026-05-22"
-    },
-    "wti_crude": {
-      "name": "WTI原油 (Jul'26)",
-      "last": 97.00,
-      "change": 0.65,
-      "change_pct": 0.67,
-      "open": 98.00,
-      "day_high": 99.43,
-      "day_low": 94.73,
-      "prev_close": 96.35,
-      "date": "2026-05-22"
-    }
-  },
-
   "crypto": {
     "bitcoin": {
-      "name": "Bitcoin",
-      "price_usd": 74893,
-      "change_24h_pct": -3.07
+      "usd": 76893,
+      "usd_24h_change": 2.68
     },
     "ethereum": {
-      "name": "Ethereum",
-      "price_usd": 2040.11,
-      "change_24h_pct": -4.15
+      "usd": 2116.06,
+      "usd_24h_change": 3.78
     }
   },
-
-  "news_highlights": {
-    "cnbc": [
-      {
-        "title": "High fuel prices test limits of summer vacation spending",
-        "published": "2026-05-23"
-      },
-      {
-        "title": "Americans are feeling inflation's pinch into the holiday weekend",
-        "published": "2026-05-23"
-      },
-      {
-        "title": "Nvidia says its forecast for $200 billion CPU market includes China",
-        "published": "2026-05-23"
-      },
-      {
-        "title": "Magnitude 6 earthquake strikes Hawaii's Big Island",
-        "published": "2026-05-23"
-      },
-      {
-        "title": "Stock market returns are often subpar after a strong 3-year streak, history shows",
-        "published": "2026-05-23"
-      }
-    ],
-    "bloomberg": [
-      {
-        "title": "Trump's 3,711 Trades Point to Multiple Stock-Market Strategies",
-        "published": "2026-05-23"
-      },
-      {
-        "title": "SpaceX Starship Deploys Mock Satellites in Successful Test",
-        "published": "2026-05-23"
-      },
-      {
-        "title": "Bangladesh Central Bank Launches $5 Billion Fund to Spur Growth",
-        "published": "2026-05-23"
-      },
-      {
-        "title": "Gas Prices Rise as Summer Holiday Travel Begins",
-        "published": "2026-05-23"
-      },
-      {
-        "title": "Uganda Confirms Three More Ebola Cases as Outbreak Spreads",
-        "published": "2026-05-23"
-      }
-    ]
-  }
+  "news": [
+    {
+      "source": "CNBC",
+      "title": "Trump says Iran deal reopening Strait of Hormuz 'largely negotiated,' will be announced soon"
+    },
+    {
+      "source": "CNBC",
+      "title": "Russia hits Ukraine with hypersonic missile in one of the war's biggest attacks on Kyiv"
+    },
+    {
+      "source": "CNBC",
+      "title": "Asia markets mostly rise as peace deal diplomacy advances"
+    },
+    {
+      "source": "FT",
+      "title": "US oil producers increase output to capture price surge from Iran war"
+    },
+    {
+      "source": "FT",
+      "title": "ECB 'hell-bent' on rate hikes despite recession risks, economist warns"
+    },
+    {
+      "source": "SCMP",
+      "title": "How Chinese traders in Iran are keeping business afloat as war capsizes naval shipping"
+    },
+    {
+      "source": "CNBC Pro",
+      "title": "China tech plays to ride out macro volatility"
+    },
+    {
+      "source": "CNBC Pro",
+      "title": "Stock market returns subpar after a strong 3-year streak, history shows"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Fed's Warsh regime change may happen deep inside Wall Street's plumbing"
+    }
+  ],
+  "key_events": [
+    "Trump暗示美伊谈判进入最后一阶段，伊朗最高领袖下令铀留在境内",
+    "俄军向基辅发射高超音速导弹，大规模空袭持续",
+    "加州化工厂爆炸威胁4万人撤离",
+    "Kevin Warsh就任美联储引发收益率曲线陡峭化预期",
+    "ECB坚持加息路线，经济学家警告衰退风险",
+    "亚太市场总体上涨，市场评估伊朗和平协议前景"
+  ]
 }

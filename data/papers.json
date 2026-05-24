@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-24 02:28:01",
-  "totalPapers": 118,
-  "newThisScan": 28,
+  "lastUpdated": "2026-05-24 08:01:21",
+  "totalPapers": 120,
+  "newThisScan": 2,
   "papers": [
     {
       "id": "2512.20299",
@@ -2138,6 +2138,43 @@
       "new": true,
       "found_date": "2026-05-24",
       "status": "new"
+    },
+    {
+      "id": "2605.22189",
+      "title": "Learning A Unified Risk Map for Autonomous Driving in Partially Observable Environments",
+      "authors": "Jie Jia et al.",
+      "relevance": 4,
+      "category": "Planning",
+      "tags": [
+        "risk map",
+        "occlusion-aware",
+        "diffusion",
+        "planning",
+        "partial observability"
+      ],
+      "date": "2026-05-22",
+      "summary": "面向部分可观测环境的统一风险图建模与学习框架。融合交通流风险与碰撞风险的时空建模，并引入扩散模型生成对抗性遮拦场景用于训练。Waymo Open Motion Dataset上最小碰撞时间提升0.78倍，平均碰撞时间提升1.67倍。IEEE RA-L已收录。",
+      "url": "https://arxiv.org/abs/2605.22189",
+      "status": "新发现"
+    },
+    {
+      "id": "2605.22456",
+      "title": "Semantic Safety Arbitration over Structured Futures for Latency-Decoupled LLM Planning",
+      "authors": "Anjie Qiu et al.",
+      "relevance": 5,
+      "category": "World Models for AD",
+      "tags": [
+        "LLM planner",
+        "world model",
+        "latency decoupling",
+        "safety arbitration",
+        "counterfactual futures",
+        "worldline"
+      ],
+      "date": "2026-05-22",
+      "summary": "SteinsGateDrive：延迟解耦的LLM规划器架构。LLM在控制窗口前选择反事实驾驶未来（worldline），运行时仅在安全合约有效时复用预测。生成三种worldline：alpha自我轨迹、beta周边交互反事实、gamma危险场景。GPT-5.4 mini在4秒预测窗口下有效延迟从+3.07s降至-0.01s，维持零碰撞安全边界。",
+      "url": "https://arxiv.org/abs/2605.22456",
+      "status": "新发现"
     }
   ]
 }

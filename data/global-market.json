@@ -1,120 +1,104 @@
 {
-  "timestamp": "2026-05-25T09:15:00+08:00",
-  "date": "2026-05-25",
-  "us": {
-    "sp500": {
-      "price": 7473.47,
-      "changePct": 0.88,
-      "prevClose": 7408.5,
-      "high52": 7517.12,
-      "low52": 5843.66
-    },
-    "dowJones": {
-      "price": 50579.7,
-      "changePct": 2.13,
-      "prevClose": 49526.17,
-      "high52": 50830.24,
-      "low52": 41828.35
-    },
-    "nasdaq": {
-      "price": 26343.97,
-      "changePct": 0.45,
-      "prevClose": 26225.14,
-      "high52": 26707.14,
-      "low52": 18847.74
-    }
-  },
-  "hk": {
-    "hsi": {
-      "price": 25606.03,
-      "changePct": -1.37
-    }
-  },
-  "crypto": {
-    "bitcoin": {
-      "usd": 76893,
-      "usd_24h_change": 2.68
-    },
-    "ethereum": {
-      "usd": 2116.06,
-      "usd_24h_change": 3.78
-    }
-  },
-  "overnight": {
-    "note": "Monday May 25 pre-market/overnight snapshot",
-    "oil": {
-      "status": "down ~5% on Iran peace deal hopes",
-      "keyEvent": "Trump says Iran talks 'constructive', Strait of Hormuz reopening likely"
-    },
-    "asia": {
-      "nikkei225": "breached 65,000 for first time, +significant on oil decline",
-      "note": "Asia risk-on as oil declines boost sentiment"
-    },
-    "futures": {
-      "sp500_futures": "little changed (Memorial Day holiday)",
-      "note": "US markets likely closed Monday for Memorial Day"
-    },
-    "keyEvents": [
-      "油价暴跌5%：特朗普称美伊谈判取得进展，霍尔木兹海峡有望重开",
-      "日经225突破65000点创历史新高，受油价下跌提振",
-      "今天美国阵亡将士纪念日，美股休市",
-      "加州化工厂化学储罐过热，5万人收到撤离令处于紧急状态",
-      "伊朗达成协议预期推动风险资产上涨，避险资产承压",
-      "美股处于历史高位，分析师警告夏季风险增加"
-    ]
-  },
   "news": [
     {
       "source": "CNBC",
-      "title": "Oil prices fall 5% after Trump says Iran talks proceeding in a 'constructive manner'"
+      "articles": [
+        {
+          "title": "Iran is in the 'process of blinking' over the Strait of Hormuz, Petraeus says",
+          "url": "https://www.cnbc.com/2026/05/25/iran-in-the-process-of-blinking-over-the-strait-ofoh-ex-cia-director.html"
+        },
+        {
+          "title": "Oil market at 'tank bottoms' in Asia, and Europe isn't far behind, warns market veteran Jeff Currie",
+          "url": "https://www.cnbc.com/2026/05/25/oil-prices-iran-war-carlyle-currie.html"
+        },
+        {
+          "title": "Huawei plans new smartphone chips this fall as rivalry with Nvidia and Apple heats up",
+          "url": "https://www.cnbc.com/2026/05/25/huawei-chip-logicfolding-semiconductor-nvidia-china.html"
+        },
+        {
+          "title": "Iran and U.S. play down hopes for imminent breakthrough in war",
+          "url": "https://www.cnbc.com/2026/05/25/iran-and-us-play-down-hopes-for-imminent-breakthrough-in-war.html"
+        },
+        {
+          "title": "Want to hop off the AI trade? Goldman says buy these stocks that have nothing to do with it",
+          "url": "https://www.cnbc.com/2026/05/25/want-to-hop-off-the-ai-trade-goldman-says-buy-these-stocks-that-have-nothing-to-do-with-it.html"
+        }
+      ]
     },
     {
-      "source": "CNBC",
-      "title": "Japan's Nikkei 225 tops 65,000 for first time as oil falls on Hormuz reopening hopes"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Oil prices tumble as deal to end Iran war appears close, though Trump says there's no rush"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Is the stock market closed on Memorial Day? Does the post office deliver mail?"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Stocks are riding an earnings hot streak — but investors are facing a summer that's rife with risks"
-    },
-    {
-      "source": "NPR",
-      "title": "California chemical tank has cracked causing state of emergency, thousands to evacuate"
-    },
-    {
-      "source": "CNBC",
-      "title": "Americans are feeling inflation's pinch into the holiday weekend. Here's where prices are rising the most"
-    },
-    {
-      "source": "FT",
-      "title": "US oil producers increase output to capture price surge from Iran war"
-    },
-    {
-      "source": "FT",
-      "title": "ECB 'hell-bent' on rate hikes despite recession risks, economist warns"
-    },
-    {
-      "source": "SCMP",
-      "title": "How Chinese traders in Iran are keeping business afloat as war capsizes naval shipping"
-    },
-    {
-      "source": "CNBC Pro",
-      "title": "Stock market returns subpar after a strong 3-year streak, history shows"
+      "source": "WSJ Markets",
+      "articles": [
+        {
+          "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+          "url": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main"
+        },
+        {
+          "title": "Comex Gold, Silver Settle Lower",
+          "url": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main"
+        },
+        {
+          "title": "DeepSeek Won't Sink U.S. AI Titans",
+          "url": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main"
+        },
+        {
+          "title": "Financial Services Roundup: Market Talk",
+          "url": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main"
+        },
+        {
+          "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
+          "url": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main"
+        }
+      ]
     }
   ],
-  "key_events": [
-    "油价暴跌5%：特朗普称美伊谈判建设性，霍尔木兹海峡有望重开",
-    "日经225突破65000点创历史新高，亚太风险偏好回升",
-    "今天美国阵亡将士纪念日，美股休市",
-    "加州化工厂化学储罐过热，5万人撤离",
-    "美股处于历史高位，分析师警示夏季风险",
-    "伊朗和平协议前景推动风险资产，避险资产承压"
-  ]
+  "markets": {
+    "BTC": {
+      "label": "Bitcoin",
+      "price": 77257,
+      "usd_24h_change": 0.49
+    },
+    "ETH": {
+      "label": "Ethereum",
+      "price": 2113.08,
+      "usd_24h_change": -0.19
+    },
+    "SPX": {
+      "label": "S&P 500",
+      "price": 7473.47,
+      "change_pct": null
+    },
+    "IXIC": {
+      "label": "NASDAQ",
+      "price": 26343.97,
+      "change_pct": null
+    },
+    "DJI": {
+      "label": "Dow Jones",
+      "price": 50579.7,
+      "change_pct": null
+    },
+    "HSI": {
+      "label": "恒生指数",
+      "price": 25606.03,
+      "change_pct": null
+    },
+    "SSE": {
+      "label": "上证指数",
+      "price": 4152.57,
+      "change_pct": null
+    },
+    "SZSE": {
+      "label": "深证成指",
+      "price": 15856.61,
+      "change_pct": null
+    },
+    "SPX_change_context": {
+      "note": "Using SPY (S&P 500 ETF) as proxy for daily change",
+      "spy_close": 745.64,
+      "spy_prev_close": 742.72,
+      "spy_change_pct": 0.39
+    }
+  },
+  "fetched_at": "2026-05-25T13:30:00Z",
+  "source": "evening cron"
 }

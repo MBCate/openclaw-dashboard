@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-05-24T21:30:00+08:00",
-  "date": "2026-05-24",
+  "timestamp": "2026-05-25T09:15:00+08:00",
+  "date": "2026-05-25",
   "us": {
     "sp500": {
       "price": 7473.47,
@@ -40,18 +40,57 @@
       "usd_24h_change": 3.78
     }
   },
+  "overnight": {
+    "note": "Monday May 25 pre-market/overnight snapshot",
+    "oil": {
+      "status": "down ~5% on Iran peace deal hopes",
+      "keyEvent": "Trump says Iran talks 'constructive', Strait of Hormuz reopening likely"
+    },
+    "asia": {
+      "nikkei225": "breached 65,000 for first time, +significant on oil decline",
+      "note": "Asia risk-on as oil declines boost sentiment"
+    },
+    "futures": {
+      "sp500_futures": "little changed (Memorial Day holiday)",
+      "note": "US markets likely closed Monday for Memorial Day"
+    },
+    "keyEvents": [
+      "油价暴跌5%：特朗普称美伊谈判取得进展，霍尔木兹海峡有望重开",
+      "日经225突破65000点创历史新高，受油价下跌提振",
+      "今天美国阵亡将士纪念日，美股休市",
+      "加州化工厂化学储罐过热，5万人收到撤离令处于紧急状态",
+      "伊朗达成协议预期推动风险资产上涨，避险资产承压",
+      "美股处于历史高位，分析师警告夏季风险增加"
+    ]
+  },
   "news": [
     {
       "source": "CNBC",
-      "title": "Trump says Iran deal reopening Strait of Hormuz 'largely negotiated,' will be announced soon"
+      "title": "Oil prices fall 5% after Trump says Iran talks proceeding in a 'constructive manner'"
     },
     {
       "source": "CNBC",
-      "title": "Russia hits Ukraine with hypersonic missile in one of the war's biggest attacks on Kyiv"
+      "title": "Japan's Nikkei 225 tops 65,000 for first time as oil falls on Hormuz reopening hopes"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Oil prices tumble as deal to end Iran war appears close, though Trump says there's no rush"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Is the stock market closed on Memorial Day? Does the post office deliver mail?"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Stocks are riding an earnings hot streak — but investors are facing a summer that's rife with risks"
+    },
+    {
+      "source": "NPR",
+      "title": "California chemical tank has cracked causing state of emergency, thousands to evacuate"
     },
     {
       "source": "CNBC",
-      "title": "Asia markets mostly rise as peace deal diplomacy advances"
+      "title": "Americans are feeling inflation's pinch into the holiday weekend. Here's where prices are rising the most"
     },
     {
       "source": "FT",
@@ -67,23 +106,15 @@
     },
     {
       "source": "CNBC Pro",
-      "title": "China tech plays to ride out macro volatility"
-    },
-    {
-      "source": "CNBC Pro",
       "title": "Stock market returns subpar after a strong 3-year streak, history shows"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Fed's Warsh regime change may happen deep inside Wall Street's plumbing"
     }
   ],
   "key_events": [
-    "Trump暗示美伊谈判进入最后一阶段，伊朗最高领袖下令铀留在境内",
-    "俄军向基辅发射高超音速导弹，大规模空袭持续",
-    "加州化工厂爆炸威胁4万人撤离",
-    "Kevin Warsh就任美联储引发收益率曲线陡峭化预期",
-    "ECB坚持加息路线，经济学家警告衰退风险",
-    "亚太市场总体上涨，市场评估伊朗和平协议前景"
+    "油价暴跌5%：特朗普称美伊谈判建设性，霍尔木兹海峡有望重开",
+    "日经225突破65000点创历史新高，亚太风险偏好回升",
+    "今天美国阵亡将士纪念日，美股休市",
+    "加州化工厂化学储罐过热，5万人撤离",
+    "美股处于历史高位，分析师警示夏季风险",
+    "伊朗和平协议前景推动风险资产，避险资产承压"
   ]
 }

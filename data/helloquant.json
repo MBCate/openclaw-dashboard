@@ -1,9 +1,9 @@
 {
-  "date": "2026-05-22",
-  "time": "17:00",
-  "timestamp": "2026-05-22 17:00",
-  "last_report_date": "2026-05-22",
-  "last_raw_data": "2026-05-11",
+  "date": "2026-05-25",
+  "time": "15:00",
+  "timestamp": "2026-05-25 15:00",
+  "last_report_date": "2026-05-25",
+  "last_raw_data": "2026-05-25",
   "status": "updated",
   "strategies": {
     "stock": {
@@ -17,11 +17,12 @@
         "Momentum",
         "MeanReversion"
       ],
-      "latest_data_date": "2026-05-11",
+      "latest_data_date": "2026-05-25",
       "market_snapshot": {
-        "上证指数": 4225.02,
-        "深证成指": 15899.3,
-        "创业板指": 3928.97
+        "上证指数": 4152.57,
+        "深证成指": 15856.61,
+        "创业板指": 4021.16,
+        "沪深300": 4921.6
       }
     },
     "crypto": {
@@ -42,27 +43,31 @@
   },
   "today_indices": {
     "上证指数": {
-      "latest": 4112.9,
-      "change_pct": 0.87
+      "latest": 4152.57,
+      "change_pct": 0.96
     },
     "深证成指": {
-      "latest": 15597.3,
-      "change_pct": 2.3
+      "latest": 15856.61,
+      "change_pct": 1.66
     },
     "创业板指": {
-      "latest": 3938.5,
-      "change_pct": 2.84
+      "latest": 4021.16,
+      "change_pct": 2.1
     },
     "沪深300": {
-      "latest": 4845.1,
-      "change_pct": 1.3
+      "latest": 4921.6,
+      "change_pct": 1.58
+    },
+    "科创50": {
+      "latest": 1896.04,
+      "change_pct": 5.88
     }
   },
   "week_summary": {
-    "period": "2026-05-18 ~ 2026-05-22",
-    "last_raw_data": "2026-05-11",
-    "stock_market": "本周A股延续反弹，创业板指领涨。上一期上证4225(+1.08%)，深证15899(+2.16%)，创业板3929(+3.5%)，市场情绪偏乐观。",
-    "crypto_market": "BTC当前77195(-0.85%)，ETH 2120.56(-0.73%)，较上周有所回落。恐惧贪婪指数48/100 (Neutral)。",
+    "period": "2026-05-25",
+    "last_raw_data": "2026-05-25",
+    "stock_market": "今日A股三大指数全线大涨。上证4152.57(+0.96%)，深证15856.61(+1.66%)，创业板4021.16(+2.1%)，科创50大涨5.88%。全市场情绪强势。",
+    "crypto_market": "BTC当前77195(-0.85%)，ETH 2120.56(-0.73%)。恐惧贪婪指数48/100 (Neutral)。",
     "strategy_status": "8个策略正常运行。BTC 4H级别MACD金叉，1H级别偏空；ETH同样4H金叉1H偏空，短线震荡格局。"
   }
 }

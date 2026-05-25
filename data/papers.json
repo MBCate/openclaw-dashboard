@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-24 10:00:00",
-  "totalPapers": 120,
-  "newThisScan": 2,
+  "lastUpdated": "2026-05-25 08:00:00",
+  "totalPapers": 127,
+  "newThisScan": 7,
   "papers": [
     {
       "id": "2512.20299",
@@ -2189,6 +2189,130 @@
       "date": "2026-05-22",
       "summary": "SteinsGateDrive：延迟解耦的LLM规划器架构。LLM在控制窗口前选择反事实驾驶未来（worldline），运行时仅在安全合约有效时复用预测。生成三种worldline：alpha自我轨迹、beta周边交互反事实、gamma危险场景。GPT-5.4 mini在4秒预测窗口下有效延迟从+3.07s降至-0.01s，维持零碰撞安全边界。",
       "url": "https://arxiv.org/abs/2605.22456",
+      "status": "新发现"
+    },
+    {
+      "id": "2605.22138",
+      "title": "Efficient Agentic Reasoning Through Self-Regulated Simulative Planning",
+      "authors": "Mingkai Deng, Jinyu Hou, Lara Sá Neves, Varad Pimpalkhute, Taylor W. Killian, Zhengzhong Liu, Eric P. Xing",
+      "relevance": 4,
+      "category": "Planning/World Model",
+      "tags": [
+        "world-model",
+        "planning",
+        "agentic-reasoning",
+        "adaptive-computation"
+      ],
+      "date": "2026-05-21",
+      "summary": "提出自调节模拟规划框架，让智能体自主决定何时、如何、以及是否进行规划推理。核心思想是规划质量感知的控制——通过量化当前状态执行规划的价值来决定计算资源分配。解决 reactive policy 中隐含规划缺乏结构化控制的问题。",
+      "url": "https://arxiv.org/abs/2605.22138",
+      "status": "新发现"
+    },
+    {
+      "id": "2605.22164",
+      "title": "Beyond Euclidean Proximity: Repairing Latent World Models with Horizon-Matched Trajectory Reachability Metrics",
+      "authors": "Liangyu Li, Shengzhi Wang, Qingwen Liu",
+      "relevance": 5,
+      "category": "World Model",
+      "tags": [
+        "world-model",
+        "latent-MPC",
+        "reachability",
+        "planning",
+        "latent-representation"
+      ],
+      "date": "2026-05-21",
+      "summary": "揭示潜空间MPC的核心缺陷——终端成本函数使用欧氏距离作为目标状态的可达性度量，这会导致决策信息失真。提出horizon-matched trajectory reachability metrics替代方案，修复潜世界模型的规划接口。",
+      "url": "https://arxiv.org/abs/2605.22164",
+      "status": "新发现"
+    },
+    {
+      "id": "2605.21800",
+      "title": "stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation",
+      "authors": "Lucas Maes, Quentin Le Lidec, Luiz Facury, Nassim Massaudi, Ayush Chaurasia, Francesco Capuano, Richard Gao, Taj Gillin, Dan Haramati, Damien Scieur, Yann LeCun, Randall Balestriero",
+      "relevance": 4,
+      "category": "World Model",
+      "tags": [
+        "world-model",
+        "benchmark",
+        "reproducibility",
+        "evaluation",
+        "platform"
+      ],
+      "date": "2026-05-20",
+      "summary": "世界模型领域第一个标准化可复现研究平台。整合不同数据管道、训练协议和评估方法，提供统一的基准测试环境。解决世界模型研究碎片化问题，支持公平对比和可复现性。",
+      "url": "https://arxiv.org/abs/2605.21800",
+      "status": "新发现"
+    },
+    {
+      "id": "2605.22420",
+      "title": "Diffusion-guided Generalizable Enhancer for Urban Scene Reconstruction",
+      "authors": "Henry Che, Jingkang Wang, Yun Chen, Ze Yang, Sivabalan Manivasagam, Raquel Urtasun",
+      "relevance": 4,
+      "category": "Scene Reconstruction",
+      "tags": [
+        "diffusion",
+        "neural-rendering",
+        "urban-scene",
+        "reconstruction",
+        "gaussian-splatting"
+      ],
+      "date": "2026-05-21",
+      "summary": "扩散引导的城市场景重建增强器。现有神经渲染方法在记录轨迹上高保真但视角偏移后质量严重下降。Diffusion-guided Enhancer 利用扩散先验泛化到未见视角，显著提升大规模视角偏移下的重建质量。Waabi/Uber ATG团队。",
+      "url": "https://arxiv.org/abs/2605.22420",
+      "status": "新发现"
+    },
+    {
+      "id": "2605.22600",
+      "title": "Branch-Stochastic Model Predictive Control for Motion Planning under Multi-Modal Uncertainty with Scenario Clustering",
+      "authors": "Zekun Xing, Ramkrishna Chaudhari, Marion Leibold, Dirk Wollherr, Martin Buss",
+      "relevance": 4,
+      "category": "Motion Planning",
+      "tags": [
+        "MPC",
+        "motion-planning",
+        "stochastic-control",
+        "uncertainty",
+        "scenario-clustering"
+      ],
+      "date": "2026-05-21",
+      "summary": "面向自动驾驶运动规划的分支随机MPC方法。处理周围车辆意图和轨迹的多模态不确定性。通过场景聚类对不确定性进行分支处理，在鲁棒性和非保守性之间取得平衡。",
+      "url": "https://arxiv.org/abs/2605.22600",
+      "status": "新发现"
+    },
+    {
+      "id": "2605.22578",
+      "title": "Beyond Chamfer Distance: Granular Order-aware Evaluation Metric For Online Mapping",
+      "authors": "Chouaib Bencheikh Lehocine, Adam Lilja, Junsheng Fu, Lars Hammarstrand",
+      "relevance": 3,
+      "category": "Perception",
+      "tags": [
+        "online-mapping",
+        "evaluation-metric",
+        "HD-map",
+        "autonomous-driving"
+      ],
+      "date": "2026-05-21",
+      "summary": "针对在线地图估计的细粒度有序感知评估指标。现有Chamfer Distance无法准确反映地图元素（多段线/多边形）的拓扑结构。提出尊重顺序和结构的评估度量，推进在线建图方法的发展。",
+      "url": "https://arxiv.org/abs/2605.22578",
+      "status": "新发现"
+    },
+    {
+      "id": "2605.22748",
+      "title": "Superhuman Safe and Agile Racing through Multi-Agent Reinforcement Learning",
+      "authors": "Ismail Geles, Leonard Bauersfeld, Markus Wulfmeier, Davide Scaramuzza",
+      "relevance": 3,
+      "category": "Reinforcement Learning",
+      "tags": [
+        "reinforcement-learning",
+        "racing",
+        "multi-agent",
+        "autonomous",
+        "safety"
+      ],
+      "date": "2026-05-21",
+      "summary": "多智能体强化学习实现超人类水平的鲁棒安全敏捷赛车。指出当前单智能体范式在共享动态空间中脆弱的根本问题——将其他智能体视为环境噪声。Scaramuzza团队，端到端多智能体物理交互方法。",
+      "url": "https://arxiv.org/abs/2605.22748",
       "status": "新发现"
     }
   ]

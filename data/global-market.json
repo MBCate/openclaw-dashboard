@@ -1,27 +1,19 @@
 {
   "news": [
     {
-      "source": "CNBC",
+      "source": "CNBC Top",
       "articles": [
+        {
+          "title": "U.S. conducts 'self-defense strikes' in Iran as Trump tries to push for peace deal",
+          "url": "https://www.cnbc.com/2026/05/26/us-strikes-iran-trumps-peace-deal.html"
+        },
+        {
+          "title": "Oil prices mixed as U.S. military strikes against Iran cloud Middle East peace prospects",
+          "url": "https://www.cnbc.com/2026/05/26/oil-mixed-us-strikes-iran.html"
+        },
         {
           "title": "Iran is in the 'process of blinking' over the Strait of Hormuz, Petraeus says",
           "url": "https://www.cnbc.com/2026/05/25/iran-in-the-process-of-blinking-over-the-strait-ofoh-ex-cia-director.html"
-        },
-        {
-          "title": "Oil market at 'tank bottoms' in Asia, and Europe isn't far behind, warns market veteran Jeff Currie",
-          "url": "https://www.cnbc.com/2026/05/25/oil-prices-iran-war-carlyle-currie.html"
-        },
-        {
-          "title": "Huawei plans new smartphone chips this fall as rivalry with Nvidia and Apple heats up",
-          "url": "https://www.cnbc.com/2026/05/25/huawei-chip-logicfolding-semiconductor-nvidia-china.html"
-        },
-        {
-          "title": "Iran and U.S. play down hopes for imminent breakthrough in war",
-          "url": "https://www.cnbc.com/2026/05/25/iran-and-us-play-down-hopes-for-imminent-breakthrough-in-war.html"
-        },
-        {
-          "title": "Want to hop off the AI trade? Goldman says buy these stocks that have nothing to do with it",
-          "url": "https://www.cnbc.com/2026/05/25/want-to-hop-off-the-ai-trade-goldman-says-buy-these-stocks-that-have-nothing-to-do-with-it.html"
         }
       ]
     },
@@ -29,24 +21,55 @@
       "source": "WSJ Markets",
       "articles": [
         {
+          "title": "Treasuries Rally as Trump Signals Progress in Iran Negotiations",
+          "url": "https://www.wsj.com/articles/treasuries-rally-trump-iran"
+        },
+        {
           "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
-          "url": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main"
+          "url": "https://www.wsj.com/articles/stocks-sink-ai-rout-deepseek"
         },
         {
           "title": "Comex Gold, Silver Settle Lower",
-          "url": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main"
+          "url": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb"
+        }
+      ]
+    },
+    {
+      "source": "MarketWatch",
+      "articles": [
+        {
+          "title": "Oil prices tumble as deal to end Iran war appears close, though Trump says there's no rush",
+          "url": "https://www.marketwatch.com/story/oil-tumbles-iran-war-deal"
         },
         {
-          "title": "DeepSeek Won't Sink U.S. AI Titans",
-          "url": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main"
+          "title": "These underdogs are a big reason why S&P 500 profit growth is the fastest in nearly 5 years",
+          "url": "https://www.marketwatch.com/story/sp-500-profit-growth-underdogs"
+        }
+      ]
+    },
+    {
+      "source": "FT Markets",
+      "articles": [
+        {
+          "title": "The energy shock is not over yet",
+          "url": "https://www.ft.com/content/energy-shock-not-over"
         },
         {
-          "title": "Financial Services Roundup: Market Talk",
-          "url": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main"
+          "title": "Two LNG tankers pass through Strait of Hormuz",
+          "url": "https://www.ft.com/content/lng-tankers-hormuz"
+        }
+      ]
+    },
+    {
+      "source": "Bloomberg",
+      "articles": [
+        {
+          "title": "Treasuries Rally as Trump Signals Progress in Iran Negotiations",
+          "url": "https://www.bloomberg.com/news/articles/treasuries-rally-iran"
         },
         {
-          "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
-          "url": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main"
+          "title": "Stocks Pare Gain, Oil Climbs on Iran Attack Report: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/markets-wrap-oil-iran-strikes"
         }
       ]
     }
@@ -54,28 +77,28 @@
   "markets": {
     "BTC": {
       "label": "Bitcoin",
-      "price": 77257,
-      "usd_24h_change": 0.49
+      "price": 76756,
+      "usd_24h_change": -0.42
     },
     "ETH": {
       "label": "Ethereum",
-      "price": 2113.08,
-      "usd_24h_change": -0.19
+      "price": 2096.92,
+      "usd_24h_change": -0.29
     },
     "SPX": {
       "label": "S&P 500",
       "price": 7473.47,
-      "change_pct": null
+      "change_pct": 0.37
     },
     "IXIC": {
       "label": "NASDAQ",
       "price": 26343.97,
-      "change_pct": null
+      "change_pct": 0.19
     },
     "DJI": {
       "label": "Dow Jones",
-      "price": 50579.7,
-      "change_pct": null
+      "price": 50579.70,
+      "change_pct": 0.58
     },
     "HSI": {
       "label": "恒生指数",
@@ -85,20 +108,27 @@
     "SSE": {
       "label": "上证指数",
       "price": 4152.57,
-      "change_pct": null
+      "change_pct": 0.0
     },
     "SZSE": {
       "label": "深证成指",
       "price": 15856.61,
-      "change_pct": null
+      "change_pct": 0.0
     },
-    "SPX_change_context": {
-      "note": "Using SPY (S&P 500 ETF) as proxy for daily change",
-      "spy_close": 745.64,
-      "spy_prev_close": 742.72,
-      "spy_change_pct": 0.39
+    "CYB": {
+      "label": "创业板指",
+      "price": 4021.16,
+      "change_pct": 0.0
     }
   },
-  "fetched_at": "2026-05-25T13:30:00Z",
-  "source": "evening cron"
+  "overnight_headlines": [
+    "🇺🇸 美军对伊朗实施'自卫打击'，伊朗局势持续紧张",
+    "🛢️ 油价受伊朗局势影响剧烈波动，市场对和平协议预期分歧",
+    "🏦 美债因伊朗谈判进展信号而上涨",
+    "📉 DeepSeek引发AI板块抛售，美股芯片股承压",
+    "☕ 阿拉比卡咖啡因美哥关税争端创新高",
+    "📊 S&P500盈利增速创近5年最快，但主要由非AI板块支撑"
+  ],
+  "fetched_at": "2026-05-26T09:18:00+08:00",
+  "source": "morning cron"
 }

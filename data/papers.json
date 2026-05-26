@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-25 08:00:00",
-  "totalPapers": 127,
-  "newThisScan": 7,
+  "lastUpdated": "2026-05-26 08:00:00",
+  "totalPapers": 132,
+  "newThisScan": 5,
   "papers": [
     {
       "id": "2512.20299",
@@ -2313,6 +2313,93 @@
       "date": "2026-05-21",
       "summary": "多智能体强化学习实现超人类水平的鲁棒安全敏捷赛车。指出当前单智能体范式在共享动态空间中脆弱的根本问题——将其他智能体视为环境噪声。Scaramuzza团队，端到端多智能体物理交互方法。",
       "url": "https://arxiv.org/abs/2605.22748",
+      "status": "新发现"
+    },
+    {
+      "id": "2605.23270",
+      "title": "ChainFlow-VLA: Causal Flow Matching Planning with Visual-Language-Action Models for Autonomous Driving",
+      "authors": "Multiple authors",
+      "relevance": 5,
+      "category": "End-to-End Driving",
+      "tags": [
+        "vla",
+        "diffusion",
+        "planning",
+        "world model",
+        "flow matching",
+        "driving"
+      ],
+      "date": "2026-05-23",
+      "summary": "因果流匹配VLA驾驶规划器。利用VLM推理能力通过思维链输出规划指令，结合因果流匹配CFG生成安全轨迹。可视化因果关系图增强可解释性。",
+      "url": "https://arxiv.org/abs/2605.23270",
+      "status": "新发现"
+    },
+    {
+      "id": "2605.23176",
+      "title": "DRIVESPATIAL: A Benchmark for Spatiotemporal Intelligence in Autonomous Driving",
+      "authors": "Multiple authors",
+      "relevance": 4,
+      "category": "End-to-End Driving",
+      "tags": [
+        "vlm",
+        "benchmark",
+        "spatiotemporal",
+        "driving vision"
+      ],
+      "date": "2026-05-23",
+      "summary": "面向自动驾驶时空智能的基准测试，评估VLM在驾驶场景中的时空推理能力。",
+      "url": "https://arxiv.org/abs/2605.23176",
+      "status": "新发现"
+    },
+    {
+      "id": "2605.23406",
+      "title": "RS2AD-LiDAR: End-to-End Autonomous Driving Using Roadside LiDAR Data Generation",
+      "authors": "Multiple authors",
+      "relevance": 3,
+      "category": "Perception",
+      "tags": [
+        "lidar",
+        "data generation",
+        "roadside",
+        "e2e"
+      ],
+      "date": "2026-05-23",
+      "summary": "利用路侧LiDAR数据生成实现端到端自动驾驶，解决车端感知盲区问题。",
+      "url": "https://arxiv.org/abs/2605.23406",
+      "status": "新发现"
+    },
+    {
+      "id": "2605.23341",
+      "title": "Sparse Compositional Flow Matching",
+      "authors": "Multiple authors",
+      "relevance": 3,
+      "category": "Planning",
+      "tags": [
+        "flow matching",
+        "trajectory",
+        "robotics",
+        "generative"
+      ],
+      "date": "2026-05-23",
+      "summary": "稀疏组合流匹配方法，将流匹配扩展到组合动作空间，适用于机器人轨迹生成。",
+      "url": "https://arxiv.org/abs/2605.23341",
+      "status": "新发现"
+    },
+    {
+      "id": "2605.23327",
+      "title": "GFSR: Geometric Fidelity for Lane Detection in Severe Rain",
+      "authors": "Multiple authors",
+      "relevance": 3,
+      "category": "Perception",
+      "tags": [
+        "lane detection",
+        "geometric",
+        "perception",
+        "adverse weather"
+      ],
+      "date": "2026-05-23",
+      "summary": "面向暴雨场景的车道线检测几何保真度方法，解决极端天气下的感知退化问题。",
+      "url": "https://arxiv.org/abs/2605.23327",
       "status": "新发现"
     }
   ]

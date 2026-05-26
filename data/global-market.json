@@ -1,134 +1,114 @@
 {
-  "news": [
-    {
-      "source": "CNBC Top",
-      "articles": [
-        {
-          "title": "U.S. conducts 'self-defense strikes' in Iran as Trump tries to push for peace deal",
-          "url": "https://www.cnbc.com/2026/05/26/us-strikes-iran-trumps-peace-deal.html"
-        },
-        {
-          "title": "Oil prices mixed as U.S. military strikes against Iran cloud Middle East peace prospects",
-          "url": "https://www.cnbc.com/2026/05/26/oil-mixed-us-strikes-iran.html"
-        },
-        {
-          "title": "Iran is in the 'process of blinking' over the Strait of Hormuz, Petraeus says",
-          "url": "https://www.cnbc.com/2026/05/25/iran-in-the-process-of-blinking-over-the-strait-ofoh-ex-cia-director.html"
-        }
-      ]
+  "updatedAt": "2026-05-26T21:30:00+08:00",
+  "indices": {
+    "sp500": {
+      "name": "S&P 500",
+      "price": 7514.07,
+      "change": 40.60,
+      "changePercent": 0.54,
+      "currency": "USD"
     },
-    {
-      "source": "WSJ Markets",
-      "articles": [
-        {
-          "title": "Treasuries Rally as Trump Signals Progress in Iran Negotiations",
-          "url": "https://www.wsj.com/articles/treasuries-rally-trump-iran"
-        },
-        {
-          "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
-          "url": "https://www.wsj.com/articles/stocks-sink-ai-rout-deepseek"
-        },
-        {
-          "title": "Comex Gold, Silver Settle Lower",
-          "url": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb"
-        }
-      ]
+    "nasdaq": {
+      "name": "NASDAQ Composite",
+      "price": 26584.75,
+      "change": 240.77,
+      "changePercent": 0.91,
+      "currency": "USD"
     },
-    {
-      "source": "MarketWatch",
-      "articles": [
-        {
-          "title": "Oil prices tumble as deal to end Iran war appears close, though Trump says there's no rush",
-          "url": "https://www.marketwatch.com/story/oil-tumbles-iran-war-deal"
-        },
-        {
-          "title": "These underdogs are a big reason why S&P 500 profit growth is the fastest in nearly 5 years",
-          "url": "https://www.marketwatch.com/story/sp-500-profit-growth-underdogs"
-        }
-      ]
+    "dow": {
+      "name": "Dow Jones Industrial Average",
+      "price": 50707.67,
+      "change": 127.97,
+      "changePercent": 0.25,
+      "currency": "USD"
     },
-    {
-      "source": "FT Markets",
-      "articles": [
-        {
-          "title": "The energy shock is not over yet",
-          "url": "https://www.ft.com/content/energy-shock-not-over"
-        },
-        {
-          "title": "Two LNG tankers pass through Strait of Hormuz",
-          "url": "https://www.ft.com/content/lng-tankers-hormuz"
-        }
-      ]
+    "hsi": {
+      "name": "恒生指数",
+      "price": 25599.45,
+      "change": -6.58,
+      "changePercent": -0.03,
+      "currency": "HKD"
     },
-    {
-      "source": "Bloomberg",
-      "articles": [
-        {
-          "title": "Treasuries Rally as Trump Signals Progress in Iran Negotiations",
-          "url": "https://www.bloomberg.com/news/articles/treasuries-rally-iran"
-        },
-        {
-          "title": "Stocks Pare Gain, Oil Climbs on Iran Attack Report: Markets Wrap",
-          "url": "https://www.bloomberg.com/news/articles/markets-wrap-oil-iran-strikes"
-        }
-      ]
-    }
-  ],
-  "markets": {
-    "BTC": {
-      "label": "Bitcoin",
-      "price": 76756,
-      "usd_24h_change": -0.42
+    "shanghai": {
+      "name": "上证指数",
+      "price": 4137.32,
+      "change": -7.20,
+      "changePercent": -0.17,
+      "currency": "CNY"
     },
-    "ETH": {
-      "label": "Ethereum",
-      "price": 2096.92,
-      "usd_24h_change": -0.29
+    "shenzhen": {
+      "name": "深证成指",
+      "price": 15786.82,
+      "change": 19.55,
+      "changePercent": 0.12,
+      "currency": "CNY"
     },
-    "SPX": {
-      "label": "S&P 500",
-      "price": 7473.47,
-      "change_pct": 0.37
-    },
-    "IXIC": {
-      "label": "NASDAQ",
-      "price": 26343.97,
-      "change_pct": 0.19
-    },
-    "DJI": {
-      "label": "Dow Jones",
-      "price": 50579.70,
-      "change_pct": 0.58
-    },
-    "HSI": {
-      "label": "恒生指数",
-      "price": 25606.03,
-      "change_pct": null
-    },
-    "SSE": {
-      "label": "上证指数",
-      "price": 4152.57,
-      "change_pct": 0.0
-    },
-    "SZSE": {
-      "label": "深证成指",
-      "price": 15856.61,
-      "change_pct": 0.0
-    },
-    "CYB": {
-      "label": "创业板指",
-      "price": 4021.16,
-      "change_pct": 0.0
+    "chiNext": {
+      "name": "创业板指",
+      "price": 4003.13,
+      "change": 21.91,
+      "changePercent": 0.54,
+      "currency": "CNY"
     }
   },
-  "overnight_headlines": [
-    "🇺🇸 美军对伊朗实施'自卫打击'，伊朗局势持续紧张",
-    "🛢️ 油价受伊朗局势影响剧烈波动，市场对和平协议预期分歧",
-    "🏦 美债因伊朗谈判进展信号而上涨",
-    "📉 DeepSeek引发AI板块抛售，美股芯片股承压",
-    "☕ 阿拉比卡咖啡因美哥关税争端创新高",
-    "📊 S&P500盈利增速创近5年最快，但主要由非AI板块支撑"
-  ],
-  "fetched_at": "2026-05-26T09:18:00+08:00",
-  "source": "morning cron"
+  "crypto": {
+    "btc": {
+      "name": "Bitcoin",
+      "price": 76828.6,
+      "changePercent24h": -0.69,
+      "high24h": 77906.8,
+      "low24h": 76473.0
+    },
+    "eth": {
+      "name": "Ethereum",
+      "price": 2115.44,
+      "changePercent24h": -0.03,
+      "high24h": 2141.99,
+      "low24h": 2084.69
+    }
+  },
+  "news": {
+    "headlines": [
+      {
+        "source": "CNBC",
+        "title": "U.S. conducts 'self-defense strikes' in Iran as Trump pushes for peace deal",
+        "url": "https://www.cnbc.com/2026/05/26/us-conducts-self-defense-strikes-in-iran-as-trump-seeks-peace-deal.html"
+      },
+      {
+        "source": "CNBC",
+        "title": "Stocks open higher on hope Iran deal is near, relentless Micron and tech rally",
+        "url": "https://www.cnbc.com/2026/05/25/stock-futures-today-live-updates.html"
+      },
+      {
+        "source": "CNBC",
+        "title": "BP shares fall after board removes chairman Albert Manifold over conduct concerns",
+        "url": "https://www.cnbc.com/2026/05/26/bp-chair-albert-manifold-removed-conduct-governance-issues.html"
+      },
+      {
+        "source": "CNBC",
+        "title": "Ferrari shares fall after carmaker unveils first fully electric vehicle",
+        "url": "https://www.cnbc.com/2026/05/26/ferrari-stock-shares-luce-electric-vehicle-ev-launch.html"
+      },
+      {
+        "source": "Bloomberg",
+        "title": "Fed's Case for Cutting Rates 'Very, Very Weak,' Bill Dudley Says",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-26/case-for-cutting-rates-very-very-weak-bill-dudley-video"
+      },
+      {
+        "source": "Bloomberg",
+        "title": "US Bonds Gain in Catch-Up Trade as Trump Sees Iran Progress",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-26/treasuries-rally-as-trump-signals-progress-in-iran-negotiations"
+      },
+      {
+        "source": "Bloomberg",
+        "title": "Oil Rebounds as US-Iran Clashes Muddy Outlook for Peace Deal",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-25/latest-oil-market-news-and-analysis-for-may-26"
+      },
+      {
+        "source": "Bloomberg",
+        "title": "ECB to Do 'Everything in Its Power' to Tame Inflation: Sleijpen",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-26/ecb-to-do-everything-in-its-power-to-tame-inflation-sleijpen"
+      }
+    ]
+  }
 }

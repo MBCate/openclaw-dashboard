@@ -1,73 +1,44 @@
 {
-  "date": "2026-05-25",
-  "time": "15:00",
-  "timestamp": "2026-05-25 15:00",
-  "last_report_date": "2026-05-25",
-  "last_raw_data": "2026-05-25",
-  "status": "updated",
+  "timestamp": "2026-05-26T15:07:52",
+  "date": "2026-05-26",
+  "stocks": {
+    "上证指数": { "price": 4145.37, "change_pct": -0.17 },
+    "深证成指": { "price": 15876.16, "change_pct": 0.12 },
+    "创业板指": { "price": 4043.07, "change_pct": 0.54 },
+    "沪金主力": { "price": 1001.40, "change_pct": 0.57 },
+    "沪银主力": { "price": 18995.00, "change_pct": 1.68 },
+    "沪铜主力": { "price": 105650.00, "change_pct": 0.74 },
+    "螺纹钢主力": { "price": 3218.00, "change_pct": 1.58 }
+  },
+  "crypto": {
+    "BTC/USDT": {
+      "price": 76808.90,
+      "change_24h_pct": -0.79,
+      "rsi_1h": 29.6,
+      "rsi_4h": 50.8,
+      "trend_1h": "偏空",
+      "trend_4h": "偏多"
+    },
+    "ETH/USDT": {
+      "price": 2098.63,
+      "change_24h_pct": -0.71,
+      "rsi_1h": 31.0,
+      "rsi_4h": 42.1,
+      "trend_1h": "偏空",
+      "trend_4h": "偏多"
+    }
+  },
+  "sentiment": {
+    "crypto_fear_greed": { "value": 34, "label": "Fear" }
+  },
   "strategies": {
-    "stock": {
-      "strategies": [
-        "DoubleMa",
-        "TripleMa",
-        "Supertrend",
-        "RSI",
-        "MACD",
-        "Bollinger",
-        "Momentum",
-        "MeanReversion"
-      ],
-      "latest_data_date": "2026-05-25",
-      "market_snapshot": {
-        "上证指数": 4152.57,
-        "深证成指": 15856.61,
-        "创业板指": 4021.16,
-        "沪深300": 4921.6
-      }
-    },
-    "crypto": {
-      "pairs": [
-        "BTC/USDT",
-        "ETH/USDT"
-      ],
-      "BTC": {
-        "price": 77195.0,
-        "change_24h_pct": -0.85
-      },
-      "ETH": {
-        "price": 2120.56,
-        "change_24h_pct": -0.73
-      },
-      "sentiment": "Neutral (48/100)"
-    }
-  },
-  "today_indices": {
-    "上证指数": {
-      "latest": 4152.57,
-      "change_pct": 0.96
-    },
-    "深证成指": {
-      "latest": 15856.61,
-      "change_pct": 1.66
-    },
-    "创业板指": {
-      "latest": 4021.16,
-      "change_pct": 2.1
-    },
-    "沪深300": {
-      "latest": 4921.6,
-      "change_pct": 1.58
-    },
-    "科创50": {
-      "latest": 1896.04,
-      "change_pct": 5.88
-    }
-  },
-  "week_summary": {
-    "period": "2026-05-25",
-    "last_raw_data": "2026-05-25",
-    "stock_market": "今日A股三大指数全线大涨。上证4152.57(+0.96%)，深证15856.61(+1.66%)，创业板4021.16(+2.1%)，科创50大涨5.88%。全市场情绪强势。",
-    "crypto_market": "BTC当前77195(-0.85%)，ETH 2120.56(-0.73%)。恐惧贪婪指数48/100 (Neutral)。",
-    "strategy_status": "8个策略正常运行。BTC 4H级别MACD金叉，1H级别偏空；ETH同样4H金叉1H偏空，短线震荡格局。"
+    "DoubleMa": { "1h": "观望", "4h": "观望" },
+    "RSI": { "1h": "做多", "4h": "做空" },
+    "MACD": { "1h": "观望", "4h": "观望" },
+    "Bollinger": { "1h": "观望", "4h": "观望" },
+    "Supertrend": { "1h": "观望", "4h": "观望" },
+    "TripleMa": { "1h": "观望", "4h": "观望" },
+    "Momentum": { "1h": "观望", "4h": "观望" },
+    "MeanReversion": { "1h": "观望", "4h": "观望" }
   }
 }

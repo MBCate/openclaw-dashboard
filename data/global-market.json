@@ -1,39 +1,52 @@
 {
-  "updatedAt": "2026-05-26T21:30:00+08:00",
+  "updatedAt": "2026-05-27T09:15:00+08:00",
   "indices": {
     "sp500": {
       "name": "S&P 500",
-      "price": 7514.07,
-      "change": 40.60,
-      "changePercent": 0.54,
+      "price": 7519.12,
+      "change": 45.65,
+      "changePercent": 0.61,
+      "high": 7539.09,
+      "low": 7501.10,
       "currency": "USD"
     },
     "nasdaq": {
       "name": "NASDAQ Composite",
-      "price": 26584.75,
-      "change": 240.77,
-      "changePercent": 0.91,
+      "price": 26656.18,
+      "change": 312.21,
+      "changePercent": 1.19,
+      "high": 26725.29,
+      "low": 26520.30,
       "currency": "USD"
     },
     "dow": {
       "name": "Dow Jones Industrial Average",
-      "price": 50707.67,
-      "change": 127.97,
-      "changePercent": 0.25,
+      "price": 50461.68,
+      "change": -118.02,
+      "changePercent": -0.23,
+      "high": 50785.68,
+      "low": 50356.64,
       "currency": "USD"
     },
     "hsi": {
       "name": "恒生指数",
       "price": 25599.45,
-      "change": -6.58,
-      "changePercent": -0.03,
+      "change": 0.00,
+      "changePercent": 0.00,
+      "currency": "HKD"
+    },
+    "hscei": {
+      "name": "恒生中国企业指数",
+      "price": 8576.89,
+      "change": 0.00,
+      "changePercent": 0.00,
       "currency": "HKD"
     },
     "shanghai": {
       "name": "上证指数",
-      "price": 4137.32,
-      "change": -7.20,
-      "changePercent": -0.17,
+      "price": 4144.42,
+      "change": -0.95,
+      "changePercent": -0.02,
       "currency": "CNY"
     },
     "shenzhen": {
@@ -48,6 +61,56 @@
       "price": 4003.13,
       "change": 21.91,
       "changePercent": 0.54,
+      "currency": "CNY"
+    },
+    "csi300": {
+      "name": "沪深300",
+      "price": 4946.37,
+      "change": -1.48,
+      "changePercent": -0.03,
+      "currency": "CNY"
+    }
+  },
+  "commodities": {
+    "crudeOil": {
+      "name": "WTI原油",
+      "price": 92.83,
+      "high": 93.69,
+      "low": 92.55,
+      "changePercent": -0.17,
+      "currency": "USD"
+    },
+    "gold": {
+      "name": "COMEX黄金",
+      "price": 4551.84,
+      "high": 4561.20,
+      "low": 4531.90,
+      "changePercent": 0.37,
+      "currency": "USD"
+    },
+    "silver": {
+      "name": "COMEX白银",
+      "price": 77.52,
+      "high": 77.90,
+      "low": 77.29,
+      "changePercent": 0.25,
+      "currency": "USD"
+    },
+    "naturalGas": {
+      "name": "天然气",
+      "price": 3.006,
+      "high": 3.019,
+      "low": 3.003,
+      "changePercent": -0.13,
+      "currency": "USD"
+    }
+  },
+  "fx": {
+    "usdcny": {
+      "name": "美元/人民币",
+      "price": 6.7865,
+      "high": 6.7939,
+      "low": 6.7822,
       "currency": "CNY"
     }
   },
@@ -70,44 +133,64 @@
   "news": {
     "headlines": [
       {
-        "source": "CNBC",
-        "title": "U.S. conducts 'self-defense strikes' in Iran as Trump pushes for peace deal",
-        "url": "https://www.cnbc.com/2026/05/26/us-conducts-self-defense-strikes-in-iran-as-trump-seeks-peace-deal.html"
-      },
-      {
-        "source": "CNBC",
-        "title": "Stocks open higher on hope Iran deal is near, relentless Micron and tech rally",
-        "url": "https://www.cnbc.com/2026/05/25/stock-futures-today-live-updates.html"
+        "source": "Bloomberg",
+        "title": "Memory Chip Frenzy Sends SK Hynix, Micron Into $1 Trillion Club",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-26/memory-chip-frenzy"
       },
       {
         "source": "CNBC",
-        "title": "BP shares fall after board removes chairman Albert Manifold over conduct concerns",
-        "url": "https://www.cnbc.com/2026/05/26/bp-chair-albert-manifold-removed-conduct-governance-issues.html"
+        "title": "S&P 500 closes at another record; Nasdaq rallies 1.2% led by semiconductor surge",
+        "url": "https://www.cnbc.com/2026/05/26/stock-market-today-live-updates.html"
       },
       {
         "source": "CNBC",
-        "title": "Ferrari shares fall after carmaker unveils first fully electric vehicle",
-        "url": "https://www.cnbc.com/2026/05/26/ferrari-stock-shares-luce-electric-vehicle-ev-launch.html"
+        "title": "Japan, South Korea stocks hit fresh records as markets weigh Iran tensions",
+        "url": "https://www.cnbc.com/2026/05/26/asia-markets-open.html"
+      },
+      {
+        "source": "CNBC",
+        "title": "SK Hynix hits $1 trillion valuation as AI boom lifts South Korean chip stocks",
+        "url": "https://www.cnbc.com/2026/05/26/sk-hynix-1-trillion-valuation.html"
+      },
+      {
+        "source": "CNBC",
+        "title": "Piper Sandler: Strait of Hormuz to remain closed for months — oil to hit new highs",
+        "url": "https://www.cnbc.com/2026/05/26/piper-sandler-hormuz-oil.html"
       },
       {
         "source": "Bloomberg",
-        "title": "Fed's Case for Cutting Rates 'Very, Very Weak,' Bill Dudley Says",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-26/case-for-cutting-rates-very-very-weak-bill-dudley-video"
+        "title": "Oil Dips as US Sees Progress in Iran Deal Despite Fresh Tensions",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-26/oil-market"
+      },
+      {
+        "source": "FT",
+        "title": "BP removes chair Albert Manifold after claims of bullying",
+        "url": "https://www.ft.com/content/bp-chair-removal"
+      },
+      {
+        "source": "CNBC",
+        "title": "SpaceX-Tesla merger chatter reignites as Musk pushes rocket company towards Nasdaq",
+        "url": "https://www.cnbc.com/2026/05/26/spacex-tesla-merger-chatter.html"
+      },
+      {
+        "source": "FT",
+        "title": "Chipmaker ETF rides AI excitement to quickest $10bn valuation on record",
+        "url": "https://www.ft.com/content/chipmaker-etf-ai"
+      },
+      {
+        "source": "CNBC",
+        "title": "Apple's surge to record highs faces major test next month",
+        "url": "https://www.cnbc.com/2026/05/26/apple-record-highs-test.html"
       },
       {
         "source": "Bloomberg",
-        "title": "US Bonds Gain in Catch-Up Trade as Trump Sees Iran Progress",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-26/treasuries-rally-as-trump-signals-progress-in-iran-negotiations"
+        "title": "Asian Stocks Climb to Record on Tech, Oil Drops: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-26/asia-markets-wrap"
       },
       {
         "source": "Bloomberg",
-        "title": "Oil Rebounds as US-Iran Clashes Muddy Outlook for Peace Deal",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-25/latest-oil-market-news-and-analysis-for-may-26"
-      },
-      {
-        "source": "Bloomberg",
-        "title": "ECB to Do 'Everything in Its Power' to Tame Inflation: Sleijpen",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-26/ecb-to-do-everything-in-its-power-to-tame-inflation-sleijpen"
+        "title": "Adnoc Exports Another LNG Shipment Through Hormuz to India",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-26/adnoc-lng-hormuz"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-27T09:15:00+08:00",
+  "updatedAt": "2026-05-27T21:30:00+08:00",
   "indices": {
     "sp500": {
       "name": "S&P 500",
@@ -8,7 +8,8 @@
       "changePercent": 0.61,
       "high": 7539.09,
       "low": 7501.10,
-      "currency": "USD"
+      "currency": "USD",
+      "note": "Record close (May 26)"
     },
     "nasdaq": {
       "name": "NASDAQ Composite",
@@ -17,7 +18,8 @@
       "changePercent": 1.19,
       "high": 26725.29,
       "low": 26520.30,
-      "currency": "USD"
+      "currency": "USD",
+      "note": "Record close, tech-led rally"
     },
     "dow": {
       "name": "Dow Jones Industrial Average",
@@ -26,20 +28,37 @@
       "changePercent": -0.23,
       "high": 50785.68,
       "low": 50356.64,
-      "currency": "USD"
+      "currency": "USD",
+      "note": "Slightly lower, mixed session"
+    },
+    "russell2000": {
+      "name": "Russell 2000",
+      "price": 2385.47,
+      "change": 41.52,
+      "changePercent": 1.77,
+      "currency": "USD",
+      "note": "Record close, small caps surge"
     },
     "hsi": {
       "name": "恒生指数",
-      "price": 25599.45,
-      "change": 0.00,
-      "changePercent": 0.00,
-      "currency": "HKD"
+      "price": 25328.23,
+      "change": -271.22,
+      "changePercent": -1.06,
+      "currency": "HKD",
+      "note": "May 27 close, southbound net outflow 77.17B HKD"
     },
     "hscei": {
       "name": "恒生中国企业指数",
-      "price": 8576.89,
-      "change": 0.00,
-      "changePercent": 0.00,
+      "price": 8462.75,
+      "change": -114.14,
+      "changePercent": -1.33,
+      "currency": "HKD"
+    },
+    "hstech": {
+      "name": "恒生科技指数",
+      "price": 4907.57,
+      "change": -39.31,
+      "changePercent": -0.79,
       "currency": "HKD"
     },
     "shanghai": {
@@ -71,38 +90,72 @@
       "currency": "CNY"
     }
   },
+  "futures": {
+    "sp500Futures": {
+      "name": "S&P 500 Futures",
+      "price": 7531.00,
+      "changePercent": 0.20,
+      "note": "Pre-market, May 27 evening"
+    },
+    "nasdaqFutures": {
+      "name": "Nasdaq 100 Futures",
+      "price": 27912.00,
+      "changePercent": 0.60,
+      "note": "Tech rally continues"
+    },
+    "dowFutures": {
+      "name": "Dow Futures",
+      "price": 50450.00,
+      "changePercent": 0.02,
+      "note": "Near flat"
+    }
+  },
   "commodities": {
     "crudeOil": {
       "name": "WTI原油",
-      "price": 92.83,
-      "high": 93.69,
-      "low": 92.55,
-      "changePercent": -0.17,
-      "currency": "USD"
+      "price": 91.67,
+      "change": -1.90,
+      "changePercent": -2.03,
+      "high": 93.57,
+      "low": 91.50,
+      "currency": "USD",
+      "note": "Falls on US-Iran Hormuz progress report"
+    },
+    "brent": {
+      "name": "Brent原油",
+      "price": 94.81,
+      "change": -1.86,
+      "changePercent": -1.92,
+      "high": 96.67,
+      "low": 94.50,
+      "currency": "USD",
+      "note": "Pullback from strike-led rally"
     },
     "gold": {
       "name": "COMEX黄金",
-      "price": 4551.84,
-      "high": 4561.20,
-      "low": 4531.90,
-      "changePercent": 0.37,
-      "currency": "USD"
+      "price": 4403.80,
+      "change": -102.60,
+      "changePercent": -2.28,
+      "high": 4551.10,
+      "low": 4400.70,
+      "currency": "USD",
+      "note": "Sharp drop, risk appetite improves"
     },
     "silver": {
       "name": "COMEX白银",
       "price": 77.52,
-      "high": 77.90,
-      "low": 77.29,
-      "changePercent": 0.25,
-      "currency": "USD"
+      "change": 0.00,
+      "changePercent": 0.00,
+      "currency": "USD",
+      "note": "Steady"
     },
     "naturalGas": {
       "name": "天然气",
-      "price": 3.006,
-      "high": 3.019,
-      "low": 3.003,
-      "changePercent": -0.13,
-      "currency": "USD"
+      "price": 2.88,
+      "change": -0.13,
+      "changePercent": -4.32,
+      "currency": "USD",
+      "note": "Declining"
     }
   },
   "fx": {
@@ -117,35 +170,72 @@
   "crypto": {
     "btc": {
       "name": "Bitcoin",
-      "price": 76828.6,
-      "changePercent24h": -0.69,
-      "high24h": 77906.8,
-      "low24h": 76473.0
+      "price": 75069,
+      "changePercent24h": -1.02,
+      "high24h": 76002,
+      "low24h": 75069,
+      "note": "Slight pullback, holding 75K"
     },
     "eth": {
       "name": "Ethereum",
       "price": 2115.44,
       "changePercent24h": -0.03,
       "high24h": 2141.99,
-      "low24h": 2084.69
+      "low24h": 2084.69,
+      "note": "Steady"
     }
   },
   "news": {
     "headlines": [
       {
-        "source": "Bloomberg",
-        "title": "Memory Chip Frenzy Sends SK Hynix, Micron Into $1 Trillion Club",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-26/memory-chip-frenzy"
+        "source": "CNBC",
+        "title": "U.S. oil falls below $90 on report Iran agreement would restore Hormuz traffic in one month",
+        "url": "https://www.cnbc.com/2026/05/27/oil-markets.html"
+      },
+      {
+        "source": "CNBC",
+        "title": "Goldman raises its S&P 500 year-end forecast — for one simple reason",
+        "url": "https://www.cnbc.com/2026/05/27/goldman-sp500-forecast.html"
+      },
+      {
+        "source": "CNBC",
+        "title": "Republicans stare down inflation abyss with midterms fast approaching",
+        "url": "https://www.cnbc.com/2026/05/27/midterms-inflation.html"
+      },
+      {
+        "source": "CNBC",
+        "title": "Amazon starts selling its AI shopping technology to other retailers",
+        "url": "https://www.cnbc.com/2026/05/27/amazon-ai-shopping.html"
+      },
+      {
+        "source": "Yahoo Finance",
+        "title": "Stock market today: S&P 500, Nasdaq futures rise as tech rally continues, oil falls amid US-Iran talks",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today/"
+      },
+      {
+        "source": "Yahoo Finance",
+        "title": "Micron stock jumps after company tops $1 trillion in market cap",
+        "url": "https://finance.yahoo.com/news/micron-1-trillion-market-cap/"
+      },
+      {
+        "source": "Yahoo Finance",
+        "title": "IREN Enters $1.6 Billion A.I. Deal With Dell Technologies",
+        "url": "https://finance.yahoo.com/news/iren-dell-ai-deal/"
+      },
+      {
+        "source": "MarketWatch",
+        "title": "Why America is losing the AI productivity war to 3.5 million Chinese STEM graduates",
+        "url": "https://www.marketwatch.com/story/ai-productivity-war-china-stem"
+      },
+      {
+        "source": "MarketWatch",
+        "title": "The market isn't fully pricing in a peace deal yet, as investors see no alternative to U.S. stocks, says Barclays",
+        "url": "https://www.marketwatch.com/story/barclays-peace-deal-stocks"
       },
       {
         "source": "CNBC",
         "title": "S&P 500 closes at another record; Nasdaq rallies 1.2% led by semiconductor surge",
         "url": "https://www.cnbc.com/2026/05/26/stock-market-today-live-updates.html"
-      },
-      {
-        "source": "CNBC",
-        "title": "Japan, South Korea stocks hit fresh records as markets weigh Iran tensions",
-        "url": "https://www.cnbc.com/2026/05/26/asia-markets-open.html"
       },
       {
         "source": "CNBC",
@@ -158,40 +248,17 @@
         "url": "https://www.cnbc.com/2026/05/26/piper-sandler-hormuz-oil.html"
       },
       {
-        "source": "Bloomberg",
-        "title": "Oil Dips as US Sees Progress in Iran Deal Despite Fresh Tensions",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-26/oil-market"
-      },
-      {
-        "source": "FT",
-        "title": "BP removes chair Albert Manifold after claims of bullying",
-        "url": "https://www.ft.com/content/bp-chair-removal"
-      },
-      {
-        "source": "CNBC",
-        "title": "SpaceX-Tesla merger chatter reignites as Musk pushes rocket company towards Nasdaq",
-        "url": "https://www.cnbc.com/2026/05/26/spacex-tesla-merger-chatter.html"
-      },
-      {
-        "source": "FT",
-        "title": "Chipmaker ETF rides AI excitement to quickest $10bn valuation on record",
-        "url": "https://www.ft.com/content/chipmaker-etf-ai"
-      },
-      {
-        "source": "CNBC",
-        "title": "Apple's surge to record highs faces major test next month",
-        "url": "https://www.cnbc.com/2026/05/26/apple-record-highs-test.html"
-      },
-      {
-        "source": "Bloomberg",
-        "title": "Asian Stocks Climb to Record on Tech, Oil Drops: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-26/asia-markets-wrap"
-      },
-      {
-        "source": "Bloomberg",
-        "title": "Adnoc Exports Another LNG Shipment Through Hormuz to India",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-26/adnoc-lng-hormuz"
+        "source": "东方财富",
+        "title": "港股5月27日收盘：恒指跌1.06%，恒生科技指数跌0.79%",
+        "url": "https://finance.eastmoney.com/a/202605273751310236.html"
       }
     ]
+  },
+  "marketSummary": {
+    "date": "2026-05-27",
+    "overall": "美股隔夜创新高（S&P 500 +0.61%，纳指 +1.19%）后，盘后期货延续涨势。港股今日回调（恒指 -1.06%），科技芯片逆势走强。原油因美伊谈判进展预期大幅回落（WTI -2.03%），黄金大跌2.28%因风险偏好回升。市场聚焦Hormuz航道恢复及科技AI主题。",
+    "keyThemes": ["AI/半导体创纪录涨势", "美伊谈判推动原油回落", "黄金大跌反映risk-on", "港股受中东地缘和美联储鹰派发言扰动"],
+    "riskLevel": "MODERATE",
+    "watchItems": ["美伊谈判/Hormuz进展", "EIA原油库存数据(5月28日)", "美股科技股能否持续突破", "港股北向资金流向"]
   }
 }

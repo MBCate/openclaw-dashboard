@@ -1,53 +1,60 @@
 {
-  "timestamp": "2026-05-26 15:05",
-  "date": "2026-05-26",
+  "timestamp": "2026-05-27 11:35",
+  "date": "2026-05-27",
+  "period": "noon",
   "indices": {
     "上证指数": {
-      "price": 4145.37,
-      "change_pct": -0.17,
-      "change": -7.20,
-      "volume": 6547777000,
-      "amount": 146168538000
+      "price": 4099.23,
+      "change_pct": -1.11,
+      "change": -46.14
     },
     "深证成指": {
-      "price": 15876.16,
-      "change_pct": 0.12,
-      "change": 19.55,
-      "volume": 8232735000,
-      "amount": 178200671000
+      "price": 15809.79,
+      "change_pct": -0.42,
+      "change": -66.37
     },
     "创业板指": {
-      "price": 4043.07,
-      "change_pct": 0.54,
-      "change": 21.91,
-      "volume": 426082100,
-      "amount": 35048027000
+      "price": 4071.41,
+      "change_pct": 0.70,
+      "change": 28.34
+    },
+    "沪深300": {
+      "price": 4912.07,
+      "change_pct": -0.72,
+      "change": -35.78
     },
     "上证50": {
-      "price": 2973.39,
-      "change_pct": 0.16,
-      "change": 4.69,
-      "volume": 551099000,
-      "amount": 21674776000
+      "price": 2927.60,
+      "change_pct": -1.54,
+      "change": -45.79
     },
     "科创50": {
-      "price": 1867.71,
-      "change_pct": -1.49,
-      "change": -28.33,
-      "volume": 194088000,
-      "amount": 19315289000
+      "price": 1851.68,
+      "change_pct": -0.86,
+      "change": -16.03
     }
   },
   "north_flow": {
     "status": "unavailable",
-    "note": "北向资金接口暂时无法访问"
+    "note": "午间休市期间接口暂不可用"
   },
   "board": {
-    "status": "unavailable",
-    "note": "行业板块接口暂时无法访问"
+    "top_gainers": [
+      { "name": "文字媒体", "change_pct": 7.60 },
+      { "name": "钼", "change_pct": 7.34 },
+      { "name": "分立器件", "change_pct": 3.89 },
+      { "name": "逆变器", "change_pct": 3.46 },
+      { "name": "超市", "change_pct": 3.29 }
+    ],
+    "top_losers": [
+      { "name": "个护小家电", "change_pct": -6.70 },
+      { "name": "白银", "change_pct": -5.47 },
+      { "name": "贵金属", "change_pct": -5.36 },
+      { "name": "黄金", "change_pct": -5.32 },
+      { "name": "铅锌", "change_pct": -4.58 }
+    ]
   },
   "market_summary": {
-    "沪深两市成交额": "约3244亿",
-    "涨跌家数": "数据暂缺"
+    "note": "上证指数午盘收跌1.11%，深证成指跌0.42%，创业板指逆势涨0.70%。有色、贵金属板块领跌，传媒、半导体相关板块走强。"
   }
 }

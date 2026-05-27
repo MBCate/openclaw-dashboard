@@ -2401,6 +2401,168 @@
       "summary": "面向暴雨场景的车道线检测几何保真度方法，解决极端天气下的感知退化问题。",
       "url": "https://arxiv.org/abs/2605.23327",
       "status": "新发现"
+    },
+    {
+      "id": "2605.26113",
+      "title": "AnyScene: Towards Highly Controllable Driving Scene Generation at Anywhere and Beyond",
+      "url": "https://arxiv.org/abs/2605.26113",
+      "published": "2026-05-26",
+      "relevance": 4,
+      "categories": [
+        "cs.CV"
+      ],
+      "keywords": [
+        "driving scene generation",
+        "controllable generation",
+        "3DGS"
+      ],
+      "status": "新发现",
+      "date_added": "2026-05-27",
+      "tags": []
+    },
+    {
+      "id": "2605.24354",
+      "title": "SparseWorld: Enhancing End-to-End Autonomous Driving via World Models with Sparse Scene Representation",
+      "url": "https://arxiv.org/abs/2605.24354",
+      "published": "2026-05-26",
+      "relevance": 5,
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "keywords": [
+        "world model",
+        "end-to-end",
+        "sparse",
+        "E2E driving"
+      ],
+      "status": "新发现",
+      "date_added": "2026-05-27",
+      "tags": []
+    },
+    {
+      "id": "2605.24004",
+      "title": "Reason--Imagine--Act: Closed-Loop LLM Decision Making with World Models for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2605.24004",
+      "published": "2026-05-26",
+      "relevance": 5,
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "cs.AI"
+      ],
+      "keywords": [
+        "LLM",
+        "world model",
+        "decision making",
+        "closed-loop",
+        "AD"
+      ],
+      "status": "新发现",
+      "date_added": "2026-05-27",
+      "tags": []
+    },
+    {
+      "id": "2605.25393",
+      "title": "Decision-Making with Lightweight Confidence-Aware Language Model for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2605.25393",
+      "published": "2026-05-26",
+      "relevance": 4,
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "keywords": [
+        "LLM",
+        "confidence-aware",
+        "distillation",
+        "decision-making"
+      ],
+      "status": "新发现",
+      "date_added": "2026-05-27",
+      "tags": []
+    },
+    {
+      "id": "2605.23163",
+      "title": "Fast-dDrive: Efficient Block-Diffusion VLM for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2605.23163",
+      "published": "2026-05-25",
+      "relevance": 5,
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "keywords": [
+        "VLA",
+        "diffusion",
+        "block diffusion",
+        "VLM",
+        "end-to-end"
+      ],
+      "status": "新发现",
+      "date_added": "2026-05-27",
+      "tags": []
+    },
+    {
+      "id": "2605.25095",
+      "title": "RECTOR: Priority-Aware Rule-Based Reranking for Compliance-Aware Autonomous Driving Trajectory Selection",
+      "url": "https://arxiv.org/abs/2605.25095",
+      "published": "2026-05-26",
+      "relevance": 3,
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "keywords": [
+        "trajectory",
+        "reranking",
+        "rule-based",
+        "Waymo"
+      ],
+      "status": "新发现",
+      "date_added": "2026-05-27",
+      "tags": []
+    },
+    {
+      "id": "2605.24098",
+      "title": "D2-V2X: Depth-Driven Cooperative V2X Reasoning for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2605.24098",
+      "published": "2026-05-26",
+      "relevance": 3,
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "keywords": [
+        "V2X",
+        "cooperative",
+        "depth",
+        "VLM"
+      ],
+      "status": "新发现",
+      "date_added": "2026-05-27",
+      "tags": []
+    },
+    {
+      "id": "2605.25373",
+      "title": "RoVES: Physics-Aware 3D Gaussian Editing for Driving Scene Generation",
+      "url": "https://arxiv.org/abs/2605.25373",
+      "published": "2026-05-26",
+      "relevance": 4,
+      "categories": [
+        "cs.CV"
+      ],
+      "keywords": [
+        "3DGS",
+        "driving scene",
+        "scene editing",
+        "physics",
+        "simulation"
+      ],
+      "status": "新发现",
+      "date_added": "2026-05-27",
+      "tags": []
     }
-  ]
+  ],
+  "updated": "2026-05-27"
 }

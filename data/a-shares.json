@@ -1,60 +1,39 @@
 {
-  "timestamp": "2026-05-27 11:35",
   "date": "2026-05-27",
-  "period": "noon",
+  "update_time": "15:05",
   "indices": {
     "上证指数": {
-      "price": 4099.23,
-      "change_pct": -1.11,
-      "change": -46.14
+      "price": 4093.73,
+      "change_pct": -1.25,
+      "change": -51.64,
+      "volume": 660467399,
+      "amount": 1473449050997.9
     },
     "深证成指": {
-      "price": 15809.79,
-      "change_pct": -0.42,
-      "change": -66.37
+      "price": 15736.47,
+      "change_pct": -0.88,
+      "change": -139.69,
+      "volume": 815871163,
+      "amount": 1765113240574.7036
     },
     "创业板指": {
-      "price": 4071.41,
-      "change_pct": 0.70,
-      "change": 28.34
+      "price": 4045.77,
+      "change_pct": 0.07,
+      "change": 2.7,
+      "volume": 232890885,
+      "amount": 839664812553.11
     },
     "沪深300": {
-      "price": 4912.07,
-      "change_pct": -0.72,
-      "change": -35.78
-    },
-    "上证50": {
-      "price": 2927.60,
-      "change_pct": -1.54,
-      "change": -45.79
-    },
-    "科创50": {
-      "price": 1851.68,
-      "change_pct": -0.86,
-      "change": -16.03
+      "price": 4908.17,
+      "change_pct": -0.8,
+      "change": -39.68,
+      "volume": 301709175,
+      "amount": 909011906950.0
     }
   },
+  "board_top": [],
+  "board_bottom": [],
   "north_flow": {
-    "status": "unavailable",
-    "note": "午间休市期间接口暂不可用"
-  },
-  "board": {
-    "top_gainers": [
-      { "name": "文字媒体", "change_pct": 7.60 },
-      { "name": "钼", "change_pct": 7.34 },
-      { "name": "分立器件", "change_pct": 3.89 },
-      { "name": "逆变器", "change_pct": 3.46 },
-      { "name": "超市", "change_pct": 3.29 }
-    ],
-    "top_losers": [
-      { "name": "个护小家电", "change_pct": -6.70 },
-      { "name": "白银", "change_pct": -5.47 },
-      { "name": "贵金属", "change_pct": -5.36 },
-      { "name": "黄金", "change_pct": -5.32 },
-      { "name": "铅锌", "change_pct": -4.58 }
-    ]
-  },
-  "market_summary": {
-    "note": "上证指数午盘收跌1.11%，深证成指跌0.42%，创业板指逆势涨0.70%。有色、贵金属板块领跌，传媒、半导体相关板块走强。"
+    "data_unavailable": true
   }
 }

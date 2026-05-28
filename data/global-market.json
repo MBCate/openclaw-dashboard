@@ -1,244 +1,43 @@
 {
-  "updatedAt": "2026-05-28T09:15:00+08:00",
-  "indices": {
-    "sp500": {
-      "name": "S&P 500",
-      "price": 7519.12,
-      "change": 45.65,
-      "changePercent": 0.61,
-      "high": 7539.09,
-      "low": 7501.10,
-      "currency": "USD",
-      "note": "Record close (May 27); overnight futures: +0.20%"
-    },
-    "nasdaq": {
-      "name": "NASDAQ Composite",
-      "price": 26656.18,
-      "change": 312.21,
-      "changePercent": 1.19,
-      "high": 26725.29,
-      "low": 26520.30,
-      "currency": "USD",
-      "note": "Record close (May 27); tech-led, SNOW +36% AH"
-    },
-    "dow": {
-      "name": "Dow Jones Industrial Average",
-      "price": 50461.68,
-      "change": -118.02,
-      "changePercent": -0.23,
-      "high": 50785.68,
-      "low": 50356.64,
-      "currency": "USD",
-      "note": "Slightly lower; mixed session"
-    },
-    "russell2000": {
-      "name": "Russell 2000",
-      "price": 2385.47,
-      "change": 41.52,
-      "changePercent": 1.77,
-      "currency": "USD",
-      "note": "Record close, small caps surge"
-    },
-    "hsi": {
-      "name": "恒生指数",
-      "price": 25328.23,
-      "change": -271.22,
-      "changePercent": -1.06,
-      "currency": "HKD",
-      "note": "May 27 close"
-    },
-    "hscei": {
-      "name": "恒生中国企业指数",
-      "price": 8462.75,
-      "change": -114.14,
-      "changePercent": -1.33,
-      "currency": "HKD"
-    },
-    "hstech": {
-      "name": "恒生科技指数",
-      "price": 4907.57,
-      "change": -39.31,
-      "changePercent": -0.79,
-      "currency": "HKD"
-    },
-    "shanghai": {
-      "name": "上证指数",
-      "price": 4144.42,
-      "change": -0.95,
-      "changePercent": -0.02,
-      "currency": "CNY"
-    },
-    "shenzhen": {
-      "name": "深证成指",
-      "price": 15786.82,
-      "change": 19.55,
-      "changePercent": 0.12,
-      "currency": "CNY"
-    },
-    "chiNext": {
-      "name": "创业板指",
-      "price": 4003.13,
-      "change": 21.91,
-      "changePercent": 0.54,
-      "currency": "CNY"
-    },
-    "csi300": {
-      "name": "沪深300",
-      "price": 4946.37,
-      "change": -1.48,
-      "changePercent": -0.03,
-      "currency": "CNY"
-    }
+  "updated": "2026-05-28T21:30:00+08:00",
+  "date": "2026-05-28",
+  "us_markets": {
+    "sp500": 7519.12,
+    "sp500_change": -0.02,
+    "nasdaq": 26682.44,
+    "nasdaq_change": 0.03,
+    "dow": 50365.41,
+    "dow_change": null
   },
-  "futures": {
-    "sp500Futures": {
-      "name": "S&P 500 Futures",
-      "price": 7531.00,
-      "changePercent": 0.20,
-      "note": "Steady pre-market; Fed Kashkari hawkish"
-    },
-    "nasdaqFutures": {
-      "name": "Nasdaq 100 Futures (E-mini)",
-      "price": 30051.00,
-      "changePercent": -0.25,
-      "note": "Pullback from 30125 close; SNOW +36% AH vs MRVL -5%"
-    },
-    "dowFutures": {
-      "name": "Dow Futures",
-      "price": 50450.00,
-      "changePercent": 0.02,
-      "note": "Near flat"
-    }
+  "hk_markets": {
+    "hsi": 25006.16
   },
   "commodities": {
-    "crudeOil": {
-      "name": "WTI原油",
-      "price": 93.50,
-      "change": 1.83,
-      "changePercent": 2.00,
-      "high": 94.20,
-      "low": 91.50,
-      "currency": "USD",
-      "note": "Rebounds after fresh US strikes in Iran revive Hormuz fears"
-    },
-    "brent": {
-      "name": "Brent原油",
-      "price": 96.30,
-      "change": 1.49,
-      "changePercent": 1.57,
-      "high": 97.10,
-      "low": 94.50,
-      "currency": "USD",
-      "note": "Follows WTI higher on geopolitical risk"
-    },
-    "gold": {
-      "name": "COMEX黄金",
-      "price": 4380.20,
-      "change": -23.60,
-      "changePercent": -0.54,
-      "high": 4420.00,
-      "low": 4360.50,
-      "currency": "USD",
-      "note": "Continued pressure; risk-on mood"
-    },
-    "silver": {
-      "name": "COMEX白银",
-      "price": 77.10,
-      "change": -0.42,
-      "changePercent": -0.54,
-      "currency": "USD",
-      "note": "Slight decline"
-    },
-    "naturalGas": {
-      "name": "天然气",
-      "price": 2.85,
-      "change": -0.03,
-      "changePercent": -1.04,
-      "currency": "USD",
-      "note": "Marginal decline"
-    }
-  },
-  "fx": {
-    "usdcny": {
-      "name": "美元/人民币",
-      "price": 6.7850,
-      "high": 6.7950,
-      "low": 6.7800,
-      "currency": "CNY"
-    }
+    "gold": 4461.60,
+    "gold_change": -0.44,
+    "crude_oil": 90.91,
+    "crude_oil_change": 2.51
   },
   "crypto": {
-    "btc": {
-      "name": "Bitcoin",
-      "price": 75100,
-      "changePercent24h": -0.35,
-      "high24h": 75800,
-      "low24h": 74800,
-      "note": "Ranging near 75K; low volatility"
-    },
-    "eth": {
-      "name": "Ethereum",
-      "price": 2110.00,
-      "changePercent24h": -0.26,
-      "high24h": 2140.00,
-      "low24h": 2080.00,
-      "note": "Steady, correlated with BTC"
-    }
+    "bitcoin": 73042,
+    "bitcoin_change_24h": -2.75,
+    "ethereum": 1984.00,
+    "ethereum_change_24h": -3.99
   },
-  "news": {
-    "headlines": [
-      {
-        "source": "CNBC",
-        "title": "Oil jumps after fresh U.S. strikes in Iran revive Strait of Hormuz disruption fears",
-        "url": "https://www.cnbc.com/2026/05/28/oil-markets.html"
-      },
-      {
-        "source": "CNBC",
-        "title": "Fed's Kashkari says inflation fight takes priority as labor market is 'in decent shape'",
-        "url": "https://www.cnbc.com/2026/05/28/kashkari-inflation-priority.html"
-      },
-      {
-        "source": "MarketWatch",
-        "title": "Snowflake's stock surges nearly 40% as AI acceleration drives record product-revenue growth",
-        "url": "https://www.marketwatch.com/story/snowflakes-stock-is-on-fire-as-ai-acceleration-drives-record-product-revenue-growth-fdc80a57"
-      },
-      {
-        "source": "MarketWatch",
-        "title": "Marvell's stock falls despite 'exceptional' AI demand driving a stronger growth outlook",
-        "url": "https://www.marketwatch.com/story/marvells-stock-seesaws-as-exceptional-ai-demand-drives-a-stronger-growth-outlook-05324935"
-      },
-      {
-        "source": "MarketWatch",
-        "title": "Salesforce shares dip on soft revenue outlook as AI disruption concerns linger",
-        "url": "https://www.marketwatch.com/story/salesforce-ai-disruption-concerns"
-      },
-      {
-        "source": "CNBC",
-        "title": "Dell wins a $9.7 billion Pentagon software deal after cozying up to Trump",
-        "url": "https://www.cnbc.com/2026/05/27/dell-pentagon-software-deal.html"
-      },
-      {
-        "source": "CNBC",
-        "title": "Prediction markets regulation proposal by CFTC eyed by White House",
-        "url": "https://www.cnbc.com/2026/05/27/cftc-prediction-markets-regulation.html"
-      },
-      {
-        "source": "CNBC",
-        "title": "Snowflake rockets 36% on earnings beat and plan to spend $6 billion on Amazon cloud",
-        "url": "https://www.cnbc.com/2026/05/27/snowflake-earnings.html"
-      },
-      {
-        "source": "Yahoo Finance",
-        "title": "Banks reduce headcounts globally as AI boosts efficiency",
-        "url": "https://finance.yahoo.com/news/banks-ai-efficiency-headcount/"
-      }
-    ]
+  "macro": {
+    "pce_inflation": "3.3% YoY (Apr, core)",
+    "headline_inflation": "3.8% YoY (Apr)"
   },
-  "marketSummary": {
-    "date": "2026-05-28",
-    "overall": "美股上日创新高后，隔夜纳指期货小幅回落（-0.25%），SNOW盘后暴涨36%领涨AI。原油因美国对伊朗新空袭而跳涨（WTI +2%），逆转昨日跌势。Fed Kashkari偏鹰重申通胀优先。Salesforce、Marvell业绩分化，AI板块继续剧烈轮动。A股今日关注资源板块跟涨原油及科技股联动。",
-    "keyThemes": ["AI板块强势分化（SNOW+36% vs MRVL跌/Salesforce跌）", "美伊冲突升级推高原油", "Fed鹰派发言压制宽松预期", "银行/金融AI裁员潮持续"],
-    "riskLevel": "MODERATE",
-    "watchItems": ["美伊军事冲突升级程度", "原油能否突破前高", "A股资源股/油服板块开盘反应", "港股科技股联动", "NQ期货能否站稳30000"]
+  "headlines": [
+    "Core inflation hit 3.3% in April, as expected — PCE gauge shows",
+    "Oil jumps 2% after Iran targets US airbase; fresh US strikes in Iran",
+    "Consumer spending edges up; annual inflation at highest since 2023",
+    "Stocks & bonds bounce from lows after inflation data relief",
+    "Snowflake rockets 36% on earnings beat, $6B Amazon cloud deal"
+  ],
+  "sources": {
+    "cnbc": "https://search.cnbc.com/rs/search/combinedcms/view.xml",
+    "bloomberg": "https://feeds.bloomberg.com/markets/news.rss",
+    "yahoo_finance": "https://query1.finance.yahoo.com/v8/finance/chart/"
   }
 }

@@ -1,39 +1,81 @@
 {
-  "date": "2026-05-27",
-  "update_time": "15:05",
+  "time": "2026-05-28 11:48",
   "indices": {
     "上证指数": {
-      "price": 4093.73,
-      "change_pct": -1.25,
-      "change": -51.64,
-      "volume": 660467399,
-      "amount": 1473449050997.9
-    },
-    "深证成指": {
-      "price": 15736.47,
-      "change_pct": -0.88,
-      "change": -139.69,
-      "volume": 815871163,
-      "amount": 1765113240574.7036
-    },
-    "创业板指": {
-      "price": 4045.77,
-      "change_pct": 0.07,
-      "change": 2.7,
-      "volume": 232890885,
-      "amount": 839664812553.11
+      "price": 4087.86,
+      "change_pct": -0.14,
+      "change": -5.87
     },
     "沪深300": {
-      "price": 4908.17,
-      "change_pct": -0.8,
-      "change": -39.68,
-      "volume": 301709175,
-      "amount": 909011906950.0
+      "price": 4881.17,
+      "change_pct": -0.55,
+      "change": -27.0
+    },
+    "深证成指": {
+      "price": 15695.48,
+      "change_pct": -0.26,
+      "change": -40.99
+    },
+    "创业板指": {
+      "price": 4054.21,
+      "change_pct": 0.21,
+      "change": 8.43
     }
   },
-  "board_top": [],
-  "board_bottom": [],
-  "north_flow": {
-    "data_unavailable": true
-  }
+  "top_gainers": [
+    {
+      "name": "煤炭开采加工",
+      "change_pct": 2.51,
+      "amount": 12316000000.0
+    },
+    {
+      "name": "其他电子",
+      "change_pct": 2.45,
+      "amount": 22448000000.0
+    },
+    {
+      "name": "金属新材料",
+      "change_pct": 2.39,
+      "amount": 9809000000.0
+    },
+    {
+      "name": "电力",
+      "change_pct": 2.34,
+      "amount": 76463000000.0
+    },
+    {
+      "name": "电子化学品",
+      "change_pct": 2.14,
+      "amount": 39024000000.0
+    }
+  ],
+  "top_losers": [
+    {
+      "name": "保险",
+      "change_pct": -1.7,
+      "amount": 4528000000.0
+    },
+    {
+      "name": "影视院线",
+      "change_pct": -1.75,
+      "amount": 5696000000.0
+    },
+    {
+      "name": "证券",
+      "change_pct": -1.86,
+      "amount": 19318000000.0
+    },
+    {
+      "name": "白酒",
+      "change_pct": -2.91,
+      "amount": 10119000000.0
+    },
+    {
+      "name": "贵金属",
+      "change_pct": -3.33,
+      "amount": 13975000000.0
+    }
+  ],
+  "north_flow": "+0.00亿",
+  "trading_date": "2026-05-28"
 }

@@ -2562,7 +2562,162 @@
       "status": "新发现",
       "date_added": "2026-05-27",
       "tags": []
+    },
+    {
+      "id": "2605.27038",
+      "title": "TPS-Drive: Task-Guided Representation Purification for VLM-based Autonomous Driving",
+      "authors": "Jiaxiang Li et al.",
+      "date": "2026-05-26",
+      "venue": "arXiv cs.RO",
+      "relevance": 5,
+      "topics": [
+        "autonomous driving",
+        "VLM",
+        "planning"
+      ],
+      "status": "新发现",
+      "abstract": "提出 TPS-Drive 框架，核心是 Agent-Centric Tokenizer 通过 task-guided VQ 机制将 codebook 容量从静态背景重分配到动态 agent。采用解耦推理 pipeline（场景理解→未来预测→动作生成），三阶段训练范式 + reward-driven 优化。在 nuScenes 开放循环和 NAVSIMv1/v2 闭环基准上取得新安全记录。",
+      "key_contribution": "任务导向表示净化方法，解决 VLM 在驾驶中的空间幻觉和表示干扰问题",
+      "url": "https://arxiv.org/abs/2605.27038"
+    },
+    {
+      "id": "2605.27284",
+      "title": "FineVLA: Fine-Grained Instruction Alignment for Steerable Vision-Language-Action Policies",
+      "authors": "Xintong Hu, Xuhong Huang, Jinyu Zhang et al.",
+      "date": "2026-05-26",
+      "venue": "arXiv cs.RO",
+      "relevance": 5,
+      "topics": [
+        "VLA",
+        "robotics",
+        "imitation learning"
+      ],
+      "status": "新发现",
+      "abstract": "提出 FineVLA 框架，统一 10 个开源机器人数据集（972K 轨迹，85K 任务），构建 FineVLA-Data 细粒度数据集（47K 细粒度轨迹）。包含 VLM 标注器、500 视频的 held-out benchmark。训练可引导的 VLA 策略，支持细粒度指令控制。",
+      "key_contribution": "首个大规模精细粒度 VLA 监督框架，实现可引导的机器人策略学习",
+      "url": "https://arxiv.org/abs/2605.27284"
+    },
+    {
+      "id": "2605.26155",
+      "title": "When Does Adaptive Guidance Help? Belief-Aware Privileged Distillation for Autonomous Driving Under Partial Observability",
+      "authors": "Multiple authors",
+      "date": "2026-05-25",
+      "venue": "arXiv cs.RO (CVPR 2026 WAD)",
+      "relevance": 4,
+      "topics": [
+        "autonomous driving",
+        "distillation",
+        "RL"
+      ],
+      "status": "新发现",
+      "abstract": "提出 Belief-Aware GSAC (BA-GSAC)，通过 ensemble disagreement 动态调节蒸馏系数 λ。系统研究了自适应指导何时真正有效：轻中度部分可观测性下有效，但严重遮挡下 λ 快速坍缩。发现线性衰减调度比自适应方法更稳定。被 CVPR 2026 WAD 录用。",
+      "key_contribution": "揭示 teacher-student 蒸馏中自适应系数的局限性，为不确定性感知框架提供设计指导",
+      "url": "https://arxiv.org/abs/2605.26155"
+    },
+    {
+      "id": "2605.25029",
+      "title": "ParkingWorld: End-to-End Autonomous Parking Reinforcement Learning from Corrective Experience in 3DGS Simulation",
+      "authors": "Multiple authors",
+      "date": "2026-05-22",
+      "venue": "arXiv cs.RO",
+      "relevance": 5,
+      "topics": [
+        "autonomous driving",
+        "RL",
+        "parking",
+        "3DGS"
+      ],
+      "status": "新发现",
+      "abstract": "提出 CIL-SERL 框架，在 3DGS 逼真模拟器中训练端到端自主泊车。设计多级 replay buffer 机制实现 correction-in-the-loop 样本高效强化学习。定位为下阶段重点分析对象。",
+      "key_contribution": "3DGS 仿真 + 纠错回放 buffer 实现样本高效的端到端自主泊车 RL 训练",
+      "url": "https://arxiv.org/abs/2605.25029"
+    },
+    {
+      "id": "2605.26820",
+      "title": "Can VLA Models Learn from Real-World Data Continually without Forgetting?",
+      "authors": "Multiple authors",
+      "date": "2026-05-26",
+      "venue": "arXiv cs.RO",
+      "relevance": 5,
+      "topics": [
+        "VLA",
+        "continual learning",
+        "robotics"
+      ],
+      "status": "新发现",
+      "abstract": "首个面向真实世界场景的 VLA 持续学习实证研究。构建包含 4 个顺序操作任务的真实数据集（刚性物体抓取、接触按压、可变形折叠）。发现 VLA 模型遭受严重灾难性遗忘，系统评估 experience replay 及关键实现因素。提供部署长期机器人策略的实践指导。",
+      "key_contribution": "首次真实环境 VLA 持续学习研究，揭示灾难性遗忘严重程度及缓解方案",
+      "url": "https://arxiv.org/abs/2605.26820"
+    },
+    {
+      "id": "2605.26456",
+      "title": "Sparse-LiDAR Prompting of Monocular Geometry Foundations: An Empirical Study Toward Long-Range Driving Depth",
+      "authors": "Multiple authors",
+      "date": "2026-05-25",
+      "venue": "arXiv cs.CV",
+      "relevance": 4,
+      "topics": [
+        "depth estimation",
+        "LiDAR",
+        "perception"
+      ],
+      "status": "新发现",
+      "abstract": "SLIM: 首个将 MoGe-2 适配接受真正稀疏 LiDAR 输入的工作。部分卷积稀疏编码器 + 多尺度融合 neck。在 100-150m 范围将 MoGe-2 基线绝对相对误差降低 39-51%。",
+      "key_contribution": "稀疏 LiDAR 注入单目几何基础模型，显著提升远距离驾驶深度估计",
+      "url": "https://arxiv.org/abs/2605.26456"
+    },
+    {
+      "id": "2601.14702",
+      "title": "Drive-P2D: A Progressive Perception-to-Decision Benchmark for VLMs in Autonomous Driving",
+      "authors": "Zecong Tang, Zixu Wang, Yifei Wang et al.",
+      "date": "2026-01-25",
+      "venue": "arXiv cs.RO",
+      "relevance": 4,
+      "topics": [
+        "autonomous driving",
+        "VLM",
+        "benchmark"
+      ],
+      "status": "新发现",
+      "abstract": "为自动驾驶 VLM 设计渐进式感知到决策 benchmark，系统评估 VLM 在推理各阶段的能力边界。",
+      "key_contribution": "VLM 自动驾驶渐进式评估基准，覆盖感知→决策全流程",
+      "url": "https://arxiv.org/abs/2601.14702"
+    },
+    {
+      "id": "2605.26500",
+      "title": "3D Gaussian Map with Open-Set Semantic Grouping for Vision-Language Navigation",
+      "authors": "Multiple authors",
+      "date": "2026-05-25",
+      "venue": "arXiv cs.CV",
+      "relevance": 3,
+      "topics": [
+        "navigation",
+        "3DGS",
+        "VLN"
+      ],
+      "status": "新发现",
+      "abstract": "将环境表示为可微 3D Gaussians，通过 Open-Set Semantic Grouping 支持开放世界导航。在线构建 Ego-centric Scene Map。",
+      "key_contribution": "3DGS 用于视觉语言导航的开放场景表示",
+      "url": "https://arxiv.org/abs/2605.26500"
+    },
+    {
+      "id": "2605.00412",
+      "title": "Physically Native World Models: A Hamiltonian Perspective on Generative World Modeling",
+      "authors": "Multiple authors",
+      "date": "2026-05-01",
+      "venue": "arXiv cs.RO",
+      "relevance": 4,
+      "topics": [
+        "world model",
+        "physics",
+        "generative model"
+      ],
+      "status": "已收录",
+      "abstract": "从 Hamiltonian 力学视角构建生成式世界模型，保持物理一致性。已有详细分析。",
+      "key_contribution": "基于 Hamiltonian 力学的物理一致世界模型框架",
+      "url": "https://arxiv.org/abs/2605.00412"
     }
   ],
-  "updated": "2026-05-27"
+  "updated": "2026-05-27",
+  "last_updated": "2026-05-28"
 }

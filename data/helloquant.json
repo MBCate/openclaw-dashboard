@@ -1,66 +1,22 @@
 {
-  "date": "2026-05-27",
+  "date": "2026-05-28",
   "update_time": "15:05",
   "crypto": {
     "status": "success",
     "data": {
       "BTC/USDT": {
-        "price": 76808.9,
-        "change_24h": -0.7868960876074199,
-        "high_24h": 77906.8,
-        "low_24h": 76473.0,
-        "volume_24h": 227097637.9253026,
-        "indicators_1h": {
-          "rsi": 29.6,
-          "macd": -104.69,
-          "macd_signal": -40.92,
-          "macd_status": "死叉",
-          "ma5": 76810.92,
-          "ma20": 77185.67,
-          "bb_upper": 77925.93,
-          "bb_lower": 76445.41,
-          "trend": "偏空"
-        },
-        "indicators_4h": {
-          "rsi": 50.8,
-          "macd": 104.72,
-          "macd_signal": 72.43,
-          "macd_status": "金叉",
-          "ma5": 77173.84,
-          "ma20": 76602.0,
-          "bb_upper": 78336.25,
-          "bb_lower": 74867.74,
-          "trend": "偏多"
-        }
+        "price": 73183.9,
+        "change_24h": -3.5,
+        "high_24h": 76181.9,
+        "low_24h": 72736.3,
+        "volume_24h": 521936636.85330784
       },
       "ETH/USDT": {
-        "price": 2098.63,
-        "change_24h": -0.7115585687453576,
-        "high_24h": 2141.99,
-        "low_24h": 2084.69,
-        "volume_24h": 129819275.6304627,
-        "indicators_1h": {
-          "rsi": 31.0,
-          "macd": -3.84,
-          "macd_signal": -2.14,
-          "macd_status": "死叉",
-          "ma5": 2097.69,
-          "ma20": 2110.43,
-          "bb_upper": 2139.14,
-          "bb_lower": 2081.71,
-          "trend": "偏空"
-        },
-        "indicators_4h": {
-          "rsi": 42.1,
-          "macd": 0.02,
-          "macd_signal": -0.7,
-          "macd_status": "金叉",
-          "ma5": 2110.67,
-          "ma20": 2096.48,
-          "bb_upper": 2154.84,
-          "bb_lower": 2038.13,
-          "trend": "偏多"
-        }
+        "price": 1984.35,
+        "change_24h": -4.56,
+        "high_24h": 2097.39,
+        "low_24h": 1967.71,
+        "volume_24h": 324437618.3906188
       }
     }
   },
@@ -70,81 +26,81 @@
       "DoubleMa": {
         "1h": {
           "signal": "观望",
-          "current_price": 76807.5
+          "current_price": 73183.9
         },
         "4h": {
           "signal": "观望",
-          "current_price": 76807.5
+          "current_price": 73183.9
         }
       },
       "RSI": {
         "1h": {
-          "signal": "做多",
-          "current_price": 76807.5
+          "signal": "观望",
+          "current_price": 73183.9
         },
         "4h": {
-          "signal": "做空",
-          "current_price": 76807.5
+          "signal": "观望",
+          "current_price": 73183.9
         }
       },
       "MACD": {
         "1h": {
           "signal": "观望",
-          "current_price": 76807.5
+          "current_price": 73183.9
         },
         "4h": {
           "signal": "观望",
-          "current_price": 76807.5
+          "current_price": 73183.9
         }
       },
       "Bollinger": {
         "1h": {
           "signal": "观望",
-          "current_price": 76807.5
+          "current_price": 73183.9
         },
         "4h": {
           "signal": "观望",
-          "current_price": 76807.5
+          "current_price": 73183.9
         }
       },
       "Supertrend": {
         "1h": {
           "signal": "观望",
-          "current_price": 76807.5
+          "current_price": 73183.9
         },
         "4h": {
           "signal": "观望",
-          "current_price": 76807.5
+          "current_price": 73183.9
         }
       },
       "TripleMa": {
         "1h": {
           "signal": "观望",
-          "current_price": 76807.5
+          "current_price": 73183.9
         },
         "4h": {
           "signal": "观望",
-          "current_price": 76807.5
+          "current_price": 73183.9
         }
       },
       "Momentum": {
         "1h": {
           "signal": "观望",
-          "current_price": 76807.5
+          "current_price": 73183.9
         },
         "4h": {
           "signal": "观望",
-          "current_price": 76807.5
+          "current_price": 73183.9
         }
       },
       "MeanReversion": {
         "1h": {
           "signal": "观望",
-          "current_price": 76807.5
+          "current_price": 73183.9
         },
         "4h": {
           "signal": "观望",
-          "current_price": 76807.5
+          "current_price": 73183.9
         }
       }
     }
@@ -163,47 +119,16 @@
     "status": "success",
     "data": {
       "上证指数": {
-        "price": 4145.373,
-        "change": -0.173,
-        "volume": 654777756.0
+        "price": 4098.64,
+        "change": 0.12
       },
       "深证成指": {
-        "price": 15876.163,
-        "change": 0.123
+        "price": 15861.89,
+        "change": 0.8
       },
       "创业板指": {
-        "price": 4043.066,
-        "change": 0.545
-      },
-      "沪金主力": {
-        "price": 1001.4,
-        "change": 0.57,
-        "date": "2026-05-25"
-      },
-      "沪银主力": {
-        "price": 18995.0,
-        "change": 1.68,
-        "date": "2026-05-25"
-      },
-      "沪铜主力": {
-        "price": 105650.0,
-        "change": 0.74,
-        "date": "2026-05-25"
-      },
-      "螺纹钢主力": {
-        "price": 3218.0,
-        "change": 1.58,
-        "date": "2026-05-25"
-      },
-      "沪深300期货": {
-        "price": 4852.6,
-        "change": 1.34,
-        "date": "2026-05-25"
-      },
-      "中证500期货": {
-        "price": 8582.8,
-        "change": 1.34,
-        "date": "2026-05-25"
+        "price": 4125.08,
+        "change": 1.96
       }
     }
   }

@@ -1,24 +1,87 @@
 {
   "date": "2026-05-29",
-  "strategy_check_time": "15:05 CST",
+  "update_time": "17:00 CST",
+  "report_period": "2026-05-20 ~ 2026-05-28",
+  "summary": "HelloQuant 策略周报",
+  "markets": {
+    "A股": {
+      "上证指数": {
+        "weekly_open": 4162.185,
+        "close": 4098.636,
+        "weekly_change_pct": -1.53,
+        "trend": "下跌"
+      },
+      "深证成指": {
+        "weekly_open": 15569.979,
+        "close": 15861.891,
+        "weekly_change_pct": 1.87,
+        "trend": "上涨"
+      },
+      "创业板指": {
+        "weekly_open": 3921.789,
+        "close": 4125.075,
+        "weekly_change_pct": 5.18,
+        "trend": "上涨"
+      }
+    },
+    "数字货币": {
+      "BTC": {
+        "price": 73553,
+        "24h_change_pct": 0.48
+      },
+      "ETH": {
+        "price": 2003.6,
+        "24h_change_pct": 0.92
+      }
+    }
+  },
   "strategies": {
-    "status": "no_recent_runs",
-    "last_report_date": "2026-01-04",
-    "note": "HelloQuant reports directory has no recent output. Last report was 2026-01-04. Strategies may need restart."
+    "status": "signals_from_cache",
+    "existing_strategies": [
+      "DoubleMa",
+      "TripleMa",
+      "Supertrend",
+      "RSI",
+      "MACD",
+      "Bollinger",
+      "Momentum",
+      "MeanReversion"
+    ],
+    "last_data_date": "2026-05-26"
   },
-  "existing_strategies": [
-    "DoubleMa", "TripleMa", "Supertrend", "RSI", "MACD", 
-    "Bollinger", "Momentum", "MeanReversion"
-  ],
   "cached_signals": {
-    "DoubleMa": {"1h": "观望", "4h": "观望"},
-    "RSI": {"1h": "做多", "4h": "做空"},
-    "MACD": {"1h": "观望", "4h": "观望"},
-    "Bollinger": {"1h": "观望", "4h": "观望"},
-    "Supertrend": {"1h": "观望", "4h": "观望"},
-    "TripleMa": {"1h": "观望", "4h": "观望"},
-    "Momentum": {"1h": "观望", "4h": "观望"},
-    "MeanReversion": {"1h": "观望", "4h": "观望"}
+    "DoubleMa": {
+      "1h": "观望",
+      "4h": "观望"
+    },
+    "RSI": {
+      "1h": "做多",
+      "4h": "做空"
+    },
+    "MACD": {
+      "1h": "观望",
+      "4h": "观望"
+    },
+    "Bollinger": {
+      "1h": "观望",
+      "4h": "观望"
+    },
+    "Supertrend": {
+      "1h": "观望",
+      "4h": "观望"
+    },
+    "TripleMa": {
+      "1h": "观望",
+      "4h": "观望"
+    },
+    "Momentum": {
+      "1h": "观望",
+      "4h": "观望"
+    },
+    "MeanReversion": {
+      "1h": "观望",
+      "4h": "观望"
+    }
   },
-  "note": "以上信号来自1月缓存的daily_raw.json，非实时数据"
+  "note": "信号基于 5月26日 cached daily_raw.json。本期A股整体震荡偏弱。"
 }

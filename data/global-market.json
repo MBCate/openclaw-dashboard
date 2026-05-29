@@ -1,52 +1,45 @@
 {
-  "updated": "2026-05-29T09:15:00+08:00",
+  "source": "晚间国际市场采集",
+  "timestamp": "2026-05-29T21:30:00+08:00",
   "date": "2026-05-29",
+  "time": "21:30 CST",
   "us_markets": {
-    "sp500": 7562.78,
-    "sp500_change": 0.58,
-    "nasdaq": 26925.70,
-    "nasdaq_change": 0.91,
-    "dow": 50390.42,
-    "dow_change": 0.05
-  },
-  "us_futures": {
-    "sp500_futures": "flat",
-    "nasdaq_futures": "flat",
-    "dow_futures": -0.10
-  },
-  "hk_markets": {
-    "hsi": 25006.16,
-    "hsi_change": null
+    "last_close": "2026-05-27",
+    "summary": "美股三大指数周三（5/27）再创历史新高，为5月最后一个完整交易周延续强劲表现。",
+    "indices": {
+      "sp500": { "value": 7520.36, "change_pct": 0.02, "note": "收盘纪录" },
+      "nasdaq": { "value": 26674.73, "change_pct": 0.07, "note": "收盘纪录" },
+      "dow_jones": { "value": 50644, "change_pct": 0.41, "note": "盘中+收盘纪录" }
+    },
+    "futures_outlook": {
+      "date": "2026-05-29",
+      "note": "周五盘前期货小幅走高，标普纳指月涨幅约8%。市场关注中东局势及美联储态度。"
+    }
   },
   "commodities": {
-    "gold": 4461.60,
-    "gold_change": -0.44,
-    "crude_oil": 90.91,
-    "crude_oil_change": 2.51
+    "brent_oil": { "value": 91.01, "change_pct": -1.83, "note": "伊朗局势缓和带动油价回落，月跌17.57%" },
+    "gold": { "value": 4529.66, "change_pct": null, "note": "现货黄金/盎司，年中高位徘徊" }
   },
   "crypto": {
-    "bitcoin": 73042,
-    "bitcoin_change_24h": -2.75,
-    "ethereum": 1984.00,
-    "ethereum_change_24h": -3.99
+    "bitcoin": { "value": 73200, "change_pct_24h": -0.47, "note": "7.3万附近整理" },
+    "ethereum": { "value": 1995.48, "change_pct_24h": null, "note": "近2000关口" }
   },
-  "macro": {
-    "pce_inflation": "3.3% YoY (Apr, core)",
-    "headline_inflation": "3.8% YoY (Apr)"
-  },
-  "headlines": [
-    "S&P 500 & Nasdaq hit new all-time closing highs (+0.58%, +0.91%) on tech rally",
-    "US-Iran ceasefire deal 'mostly agreed' — 60-day MOU pending Trump approval",
-    "Iran launches missiles after ceasefire deal reported — futures turn flat",
-    "Dell surges 38% AH on earnings beat, raises full-year guidance",
-    "Asian stocks rise on US-Iran truce hopes; oil drops on deal progress",
-    "Chevron CEO warns oil prices to jump over summer as supplies dwindle",
-    "US govt reportedly set to invest in drone industry",
-    "S&P 500: 7,562.78 | Nasdaq: 26,925.70 | Dow: 50,390.42"
+  "news_highlights": [
+    "Fed理事Bowman警告不应因通胀上升而加息",
+    "Nvidia投资数十亿美元押注光子技术改变AI产业",
+    "SpaceX上市申请与Musk言论分歧引发质疑",
+    "Michael Dell早期押注特朗普关系，公司获丰厚回报",
+    "伊朗战争可能趋于结束，但60美元油价时代或已终结",
+    "蓝源火箭爆炸致太空股下跌",
+    "Salesforce上调年度营收预测"
   ],
-  "sources": {
-    "cnbc": "https://search.cnbc.com/rs/search/combinedcms/view.xml",
-    "bloomberg": "https://feeds.bloomberg.com/markets/news.rss",
-    "ft_markets": "https://www.ft.com/markets?format=rss"
+  "major_events": {
+    "geopolitical": "伊朗局势趋缓，布油回落至91美元。",
+    "fed": "Bowman发声反对基于单次通胀数据加息，市场预期6月维持利率不变。",
+    "tech": "Nvidia押注光子计算；SpaceX估值受IPO文件与现实分歧拖累。",
+    "market_sentiment": "牛市情绪浓厚，三大指数同创纪录，但估值偏高引发质疑信号。"
+  },
+  "hk_market": {
+    "note": "港股今日已收盘，等待周末更新详细数据"
   }
 }

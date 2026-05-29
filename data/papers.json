@@ -1,8 +1,29 @@
 {
-  "lastUpdated": "2026-05-26 08:00:00",
-  "totalPapers": 132,
-  "newThisScan": 5,
+  "lastUpdated": "2026-05-29 08:00:00",
+  "totalPapers": 150,
+  "newThisScan": 48,
   "papers": [
+    {
+      "id": "2605.28544",
+      "title": "DriveWAM: Video Generative Priors Enable Scalable World-Action Modeling for Autonomous Driving",
+      "authors": "Chen Shi et al.",
+      "relevance": 5,
+      "category": "World-Action Model",
+      "tags": [
+        "world-model",
+        "VLA",
+        "video-diffusion",
+        "flow-matching",
+        "autoregressive",
+        "end-to-end-driving",
+        "autonomous-driving"
+      ],
+      "date": "2026-05-27",
+      "found_date": "2026-05-29",
+      "summary": "将预训练视频扩散Transformer适配为自回归视频-动作世界动作模型。统一视频与动作为时序token序列，联合流匹配训练。引入场景演化驾驶引导（frozen VLM产生语义意图指导生成）+选择性KV记忆缓存。NAVSIM和PhysicalAI基准强规划性能，4k→100k数据缩放实验证实scale潜力。",
+      "url": "https://arxiv.org/abs/2605.28544",
+      "status": "新发现"
+    },
     {
       "id": "2512.20299",
       "title": "KnowVal: A Knowledge-Augmented and Value-Guided Autonomous Driving System",

@@ -1,16 +1,22 @@
 {
-  "updated": "2026-05-28T21:30:00+08:00",
-  "date": "2026-05-28",
+  "updated": "2026-05-29T09:15:00+08:00",
+  "date": "2026-05-29",
   "us_markets": {
-    "sp500": 7519.12,
-    "sp500_change": -0.02,
-    "nasdaq": 26682.44,
-    "nasdaq_change": 0.03,
-    "dow": 50365.41,
-    "dow_change": null
+    "sp500": 7562.78,
+    "sp500_change": 0.58,
+    "nasdaq": 26925.70,
+    "nasdaq_change": 0.91,
+    "dow": 50390.42,
+    "dow_change": 0.05
+  },
+  "us_futures": {
+    "sp500_futures": "flat",
+    "nasdaq_futures": "flat",
+    "dow_futures": -0.10
   },
   "hk_markets": {
-    "hsi": 25006.16
+    "hsi": 25006.16,
+    "hsi_change": null
   },
   "commodities": {
     "gold": 4461.60,
@@ -29,15 +35,18 @@
     "headline_inflation": "3.8% YoY (Apr)"
   },
   "headlines": [
-    "Core inflation hit 3.3% in April, as expected — PCE gauge shows",
-    "Oil jumps 2% after Iran targets US airbase; fresh US strikes in Iran",
-    "Consumer spending edges up; annual inflation at highest since 2023",
-    "Stocks & bonds bounce from lows after inflation data relief",
-    "Snowflake rockets 36% on earnings beat, $6B Amazon cloud deal"
+    "S&P 500 & Nasdaq hit new all-time closing highs (+0.58%, +0.91%) on tech rally",
+    "US-Iran ceasefire deal 'mostly agreed' — 60-day MOU pending Trump approval",
+    "Iran launches missiles after ceasefire deal reported — futures turn flat",
+    "Dell surges 38% AH on earnings beat, raises full-year guidance",
+    "Asian stocks rise on US-Iran truce hopes; oil drops on deal progress",
+    "Chevron CEO warns oil prices to jump over summer as supplies dwindle",
+    "US govt reportedly set to invest in drone industry",
+    "S&P 500: 7,562.78 | Nasdaq: 26,925.70 | Dow: 50,390.42"
   ],
   "sources": {
     "cnbc": "https://search.cnbc.com/rs/search/combinedcms/view.xml",
     "bloomberg": "https://feeds.bloomberg.com/markets/news.rss",
-    "yahoo_finance": "https://query1.finance.yahoo.com/v8/finance/chart/"
+    "ft_markets": "https://www.ft.com/markets?format=rss"
   }
 }

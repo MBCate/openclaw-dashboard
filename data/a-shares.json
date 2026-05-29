@@ -1,82 +1,49 @@
 {
-  "meta": {
-    "source": "Sina Finance / Jiemian News",
-    "updatedAt": "2026-05-29 11:35",
-    "timezone": "Asia/Shanghai",
-    "type": "noon"
-  },
-  "indices": [
-    {
-      "name": "上证指数",
-      "code": "000001",
-      "price": 4083.62,
-      "change": -0.37,
-      "high": 4112.96,
-      "low": 4079.57,
+  "date": "2026-05-29",
+  "time": "15:05 CST",
+  "source": "Sina Finance API",
+  "indices": {
+    "上证指数": {
+      "price": 4068.57,
+      "change_pct": -0.73,
       "open": 4110.52,
-      "prevClose": 4098.64
+      "high": 4112.96,
+      "low": 4055.89,
+      "pre_close": 4098.64,
+      "volume": "731597710",
+      "amount": "1532067352982"
     },
-    {
-      "name": "深证成指",
-      "code": "399001",
-      "price": 15704.04,
-      "change": -1.0,
+    "深证成指": {
+      "price": 15575.13,
+      "change_pct": -1.81,
+      "open": 15957.12,
       "high": 15981.93,
-      "low": 15653.98,
-      "open": 15957.11,
-      "prevClose": 15861.89
+      "low": 15492.84,
+      "pre_close": 15861.89,
+      "volume": "84887972757",
+      "amount": "1786964795181"
     },
-    {
-      "name": "创业板指",
-      "code": "399006",
-      "price": 4077.94,
-      "change": -1.14,
-      "high": 4158.69,
-      "low": 4052.39,
+    "创业板指": {
+      "price": 4037.95,
+      "change_pct": -2.11,
       "open": 4141.91,
-      "prevClose": 4125.07
+      "high": 4158.69,
+      "low": 4010.12,
+      "pre_close": 4125.08,
+      "volume": "23341375890",
+      "amount": "850350414242"
     },
-    {
-      "name": "沪深300",
-      "code": "399300",
-      "price": 4917.02,
-      "change": 0.06,
-      "high": 4946.25,
-      "low": 4895.21,
+    "沪深300": {
+      "price": 4892.12,
+      "change_pct": -0.45,
       "open": 4937.51,
-      "prevClose": 4914.21
+      "high": 4954.07,
+      "low": 4878.79,
+      "pre_close": 4914.21,
+      "volume": "332518610",
+      "amount": "942236490058"
     }
-  ],
-  "marketStats": {
-    "rising": 4441,
-    "falling": 828,
-    "limitUp": 89,
-    "limitDown": 3,
-    "totalVolume": "7436.78亿",
-    "volumeChange": "+912.91亿"
   },
-  "sectors": {
-    "gaining": [
-      "EDA/EDA设计",
-      "无人车辆",
-      "跨境支付",
-      "金融科技",
-      "数字货币",
-      "计算机",
-      "汽车整车",
-      "生物制品",
-      "化学制药",
-      "交运设备"
-    ],
-    "lagging": [
-      "黄金",
-      "休闲食品",
-      "培育钻石",
-      "离境退税",
-      "代糖/甜味剂"
-    ]
-  },
-  "northFlow": {
-    "note": "午盘实时北向数据获取受限，仅从新闻报道中获取"
-  }
+  "market_summary": "三大指数全线收跌，创业板指跌幅最大(-2.11%)。上证指数高开低走，失守4100点。",
+  "notes": "北向资金和板块数据因东方财富API代理连接超时暂缺"
 }

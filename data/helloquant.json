@@ -1,135 +1,24 @@
 {
-  "date": "2026-05-28",
-  "update_time": "15:05",
-  "crypto": {
-    "status": "success",
-    "data": {
-      "BTC/USDT": {
-        "price": 73183.9,
-        "change_24h": -3.5,
-        "high_24h": 76181.9,
-        "low_24h": 72736.3,
-        "volume_24h": 521936636.85330784
-      },
-      "ETH/USDT": {
-        "price": 1984.35,
-        "change_24h": -4.56,
-        "high_24h": 2097.39,
-        "low_24h": 1967.71,
-        "volume_24h": 324437618.3906188
-      }
-    }
+  "date": "2026-05-29",
+  "strategy_check_time": "15:05 CST",
+  "strategies": {
+    "status": "no_recent_runs",
+    "last_report_date": "2026-01-04",
+    "note": "HelloQuant reports directory has no recent output. Last report was 2026-01-04. Strategies may need restart."
   },
-  "signals": {
-    "status": "success",
-    "data": {
-      "DoubleMa": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 73183.9
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 73183.9
-        }
-      },
-      "RSI": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 73183.9
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 73183.9
-        }
-      },
-      "MACD": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 73183.9
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 73183.9
-        }
-      },
-      "Bollinger": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 73183.9
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 73183.9
-        }
-      },
-      "Supertrend": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 73183.9
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 73183.9
-        }
-      },
-      "TripleMa": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 73183.9
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 73183.9
-        }
-      },
-      "Momentum": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 73183.9
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 73183.9
-        }
-      },
-      "MeanReversion": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 73183.9
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 73183.9
-        }
-      }
-    }
+  "existing_strategies": [
+    "DoubleMa", "TripleMa", "Supertrend", "RSI", "MACD", 
+    "Bollinger", "Momentum", "MeanReversion"
+  ],
+  "cached_signals": {
+    "DoubleMa": {"1h": "观望", "4h": "观望"},
+    "RSI": {"1h": "做多", "4h": "做空"},
+    "MACD": {"1h": "观望", "4h": "观望"},
+    "Bollinger": {"1h": "观望", "4h": "观望"},
+    "Supertrend": {"1h": "观望", "4h": "观望"},
+    "TripleMa": {"1h": "观望", "4h": "观望"},
+    "Momentum": {"1h": "观望", "4h": "观望"},
+    "MeanReversion": {"1h": "观望", "4h": "观望"}
   },
-  "sentiment": {
-    "status": "success",
-    "data": {
-      "crypto_fear_greed": {
-        "value": 34,
-        "classification": "Fear",
-        "timestamp": "1779753600"
-      }
-    }
-  },
-  "stocks": {
-    "status": "success",
-    "data": {
-      "上证指数": {
-        "price": 4098.64,
-        "change": 0.12
-      },
-      "深证成指": {
-        "price": 15861.89,
-        "change": 0.8
-      },
-      "创业板指": {
-        "price": 4125.08,
-        "change": 1.96
-      }
-    }
-  }
+  "note": "以上信号来自1月缓存的daily_raw.json，非实时数据"
 }

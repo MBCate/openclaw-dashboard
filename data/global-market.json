@@ -1,45 +1,72 @@
 {
-  "source": "晚间国际市场采集",
-  "timestamp": "2026-05-29T21:30:00+08:00",
-  "date": "2026-05-29",
-  "time": "21:30 CST",
-  "us_markets": {
-    "last_close": "2026-05-27",
-    "summary": "美股三大指数周三（5/27）再创历史新高，为5月最后一个完整交易周延续强劲表现。",
-    "indices": {
-      "sp500": { "value": 7520.36, "change_pct": 0.02, "note": "收盘纪录" },
-      "nasdaq": { "value": 26674.73, "change_pct": 0.07, "note": "收盘纪录" },
-      "dow_jones": { "value": 50644, "change_pct": 0.41, "note": "盘中+收盘纪录" }
+  "updated": "2026-05-30T21:30:00+08:00",
+  "date": "2026-05-30",
+  "indices": {
+    "us": {
+      "sp500": {
+        "value": 7580.06,
+        "change_pct": 0.22,
+        "name": "S&P 500"
+      },
+      "nasdaq": {
+        "value": 26972.62,
+        "change_pct": 0.2,
+        "name": "NASDAQ Composite"
+      },
+      "dow": {
+        "value": 51032.46,
+        "change_pct": 0.72,
+        "name": "Dow Jones Industrial Average"
+      }
     },
-    "futures_outlook": {
-      "date": "2026-05-29",
-      "note": "周五盘前期货小幅走高，标普纳指月涨幅约8%。市场关注中东局势及美联储态度。"
+    "hk": {
+      "hsi": {
+        "value": 25182.39,
+        "change_pct": 0.7,
+        "name": "恒生指数 (HSI)"
+      }
     }
   },
   "commodities": {
-    "brent_oil": { "value": 91.01, "change_pct": -1.83, "note": "伊朗局势缓和带动油价回落，月跌17.57%" },
-    "gold": { "value": 4529.66, "change_pct": null, "note": "现货黄金/盎司，年中高位徘徊" }
+    "crude_oil_wti": {
+      "value": 87.36,
+      "change_pct": -1.73,
+      "unit": "USD/bbl"
+    },
+    "gold": {
+      "value": 4560.5,
+      "change_pct": 1.36,
+      "unit": "USD/oz"
+    }
   },
   "crypto": {
-    "bitcoin": { "value": 73200, "change_pct_24h": -0.47, "note": "7.3万附近整理" },
-    "ethereum": { "value": 1995.48, "change_pct_24h": null, "note": "近2000关口" }
+    "bitcoin": {
+      "value": 73663,
+      "change_pct": 1.13,
+      "unit": "USD"
+    },
+    "ethereum": {
+      "value": 2017.62,
+      "change_pct": 1.5,
+      "unit": "USD"
+    }
   },
-  "news_highlights": [
-    "Fed理事Bowman警告不应因通胀上升而加息",
-    "Nvidia投资数十亿美元押注光子技术改变AI产业",
-    "SpaceX上市申请与Musk言论分歧引发质疑",
-    "Michael Dell早期押注特朗普关系，公司获丰厚回报",
-    "伊朗战争可能趋于结束，但60美元油价时代或已终结",
-    "蓝源火箭爆炸致太空股下跌",
-    "Salesforce上调年度营收预测"
+  "news_headlines": [
+    "'Dinosaur' Tech Stocks Reborn as AI Fuels $1.7 Trillion Rally — Bloomberg",
+    "Historic cattle shortages push US beef prices to record highs — FT",
+    "Crypto treasuries turn to risky equity in drive to raise cash — FT",
+    "Meta has struggled at selling anything other than ads. Will AI be different? — CNBC",
+    "Analysis: End of Iran war may be just the beginning of a new era of U.S. inequality — CNBC",
+    "Wall Street's red-hot momentum trade delivers best 2-month gain on record — MarketWatch",
+    "Why Britain's Bond Market Is Sounding the Alarm — Bloomberg",
+    "Chipmaker aims for 9th straight triple-digit gain — Yahoo Finance"
   ],
-  "major_events": {
-    "geopolitical": "伊朗局势趋缓，布油回落至91美元。",
-    "fed": "Bowman发声反对基于单次通胀数据加息，市场预期6月维持利率不变。",
-    "tech": "Nvidia押注光子计算；SpaceX估值受IPO文件与现实分歧拖累。",
-    "market_sentiment": "牛市情绪浓厚，三大指数同创纪录，但估值偏高引发质疑信号。"
-  },
-  "hk_market": {
-    "note": "港股今日已收盘，等待周末更新详细数据"
-  }
+  "summary": "美股三大指数周五全线上涨。道指涨0.72%领跑，标普500涨0.22%报7580.06点，纳指涨0.20%报26972.62点。伊朗和平协议谈判提振市场情绪，但对通胀的担忧仍存。港股恒指周五收涨0.70%报25182.39点，本周先跌后回升。商品方面，WTI原油跌1.73%至$87.36，伊朗局势缓和压制油价；黄金涨1.36%至$4560.50。加密市场企稳，BTC报$73,663(+1.13%)，ETH报$2,017.62(+1.50%)。AI板块持续走强，科技股\"恐龙复活\"为AI驱动的1.7万亿反弹贡献力量。",
+  "key_focus": [
+    "美伊和平协议谈判进展：油价承压但通胀不确定性仍存",
+    "AI板块持续领涨：S&P 500与纳指维持纪录高位附近",
+    "美国PCE通胀率升至3.8%，创近三年新高",
+    "恒指本周探底回升，新能源与科技板块领涨",
+    "美国牛肉价格因历史性短缺创纪录新高"
+  ]
 }

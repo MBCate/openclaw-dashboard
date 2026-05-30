@@ -2737,8 +2737,73 @@
       "abstract": "从 Hamiltonian 力学视角构建生成式世界模型，保持物理一致性。已有详细分析。",
       "key_contribution": "基于 Hamiltonian 力学的物理一致世界模型框架",
       "url": "https://arxiv.org/abs/2605.00412"
+    },
+    {
+      "id": "2605.29114",
+      "title": "ReasonBreak: Probing Vulnerabilities in Reasoning-Enabled Vision-Language-Action Models for Autonomous Driving",
+      "authors": "Mohammadreza Teymoorianfard et al.",
+      "relevance": 4,
+      "category": "VLA Safety",
+      "tags": [
+        "VLA",
+        "safety",
+        "robustness",
+        "reasoning",
+        "adversarial",
+        "autonomous-driving",
+        "vulnerability"
+      ],
+      "date": "2026-05-27",
+      "found_date": "2026-05-30",
+      "summary": "首个系统性的黑盒攻击研究，针对推理增强型VLA驾驶模型（基于NVIDIA Alpamayo）。发现真实输入扰动可达89%推理攻击成功率和72%轨迹操控成功率，碰撞率显著上升。引入推理感知评估框架和ReasonBreak基准。",
+      "url": "https://arxiv.org/abs/2605.29114",
+      "status": "新发现"
+    },
+    {
+      "id": "2605.28583",
+      "title": "SARAD: LLM-Based Safety-Aware Hybrid Reinforcement Learning with Collision Prediction for Autonomous Driving",
+      "authors": "Kangyu Wu et al.",
+      "relevance": 3,
+      "category": "Reinforcement Learning",
+      "tags": [
+        "LLM",
+        "RL",
+        "safety",
+        "collision-prediction",
+        "autonomous-driving",
+        "RAG",
+        "hybrid"
+      ],
+      "date": "2026-05-27",
+      "found_date": "2026-05-30",
+      "summary": "将大语言模型与深度强化学习结合的决策框架替代DRL随机探索，使用RAG增强的LLM专家知识引导，引入注意力判别器和碰撞预测模块。在Highway-Env上验证。Accepted by IJCNN 2026。",
+      "url": "https://arxiv.org/abs/2605.28583",
+      "status": "新发现"
+    },
+    {
+      "id": "2605.29935",
+      "title": "CityGen: Structure-Guided City-Style Synthesis for Cross-City Autonomous Driving",
+      "authors": "Zezhong Qian et al.",
+      "relevance": 3,
+      "category": "Domain Adaptation",
+      "tags": [
+        "cross-city",
+        "domain-adaptation",
+        "generative",
+        "diffusion",
+        "autonomous-driving",
+        "benchmark",
+        "perception"
+      ],
+      "date": "2026-05-28",
+      "found_date": "2026-05-30",
+      "summary": "扩散模型驱动的跨城市自动驾驶域适应框架。提出CityTransfer-Bench跨城市基准（感知、分割、规划），通过HD地图条件合成实现零标签城市适应。实验证明能一致提升跨城市鲁棒性。",
+      "url": "https://arxiv.org/abs/2605.29935",
+      "status": "新发现"
     }
   ],
   "updated": "2026-05-27",
-  "last_updated": "2026-05-28"
+  "last_updated": "2026-05-28",
+  "last_scanned": "2026-05-30",
+  "total_papers": 153
 }

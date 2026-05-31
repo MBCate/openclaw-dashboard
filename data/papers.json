@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-05-31 08:00 CST",
-  "totalPapers": 169,
-  "newThisScan": 16,
+  "lastUpdated": "2026-05-31 10:00 CST",
+  "totalPapers": 170,
+  "newThisScan": "top5-weekly",
   "papers": [
+    {
+      "id": "weekly-2026-W22",
+      "title": "📚 本周论文精选 (2026-05-25 ~ 05-31)",
+      "type": "weekly",
+      "date": "2026-05-31",
+      "summary": "本周精选5篇：(1) VisualThink-VLA: 视觉中间推理替代文本CoT, 22.8x延迟降; (2) DriveWAM: 视频扩散先验→世界动作模型, 数据scaling潜力; (3) DeGO: 可变形高斯占用, 解耦刚体/非刚体运动, 弱监督占用SOTA; (4) GEM: 深度图生成作为VLM预训练监督; (5) TPS-Drive: 任务导向表示净化, 解决VLM空间幻觉。",
+      "papers": [
+        "2605.30011",
+        "2605.28544",
+        "2605.28587",
+        "2605.28548",
+        "2605.27038"
+      ]
+    },
     {
       "id": "2605.28544",
       "title": "DriveWAM: Video Generative Priors Enable Scalable World-Action Modeling for Autonomous Driving",
@@ -22,7 +36,8 @@
       "found_date": "2026-05-29",
       "summary": "将预训练视频扩散Transformer适配为自回归视频-动作世界动作模型。统一视频与动作为时序token序列，联合流匹配训练。引入场景演化驾驶引导（frozen VLM产生语义意图指导生成）+选择性KV记忆缓存。NAVSIM和PhysicalAI基准强规划性能，4k→100k数据缩放实验证实scale潜力。",
       "url": "https://arxiv.org/abs/2605.28544",
-      "status": "新发现"
+      "status": "本周精选",
+      "featured_week": "2026-W22"
     },
     {
       "id": "2512.20299",
@@ -2596,10 +2611,11 @@
         "VLM",
         "planning"
       ],
-      "status": "新发现",
+      "status": "本周精选",
       "abstract": "提出 TPS-Drive 框架，核心是 Agent-Centric Tokenizer 通过 task-guided VQ 机制将 codebook 容量从静态背景重分配到动态 agent。采用解耦推理 pipeline（场景理解→未来预测→动作生成），三阶段训练范式 + reward-driven 优化。在 nuScenes 开放循环和 NAVSIMv1/v2 闭环基准上取得新安全记录。",
       "key_contribution": "任务导向表示净化方法，解决 VLM 在驾驶中的空间幻觉和表示干扰问题",
-      "url": "https://arxiv.org/abs/2605.27038"
+      "url": "https://arxiv.org/abs/2605.27038",
+      "featured_week": "2026-W22"
     },
     {
       "id": "2605.27284",
@@ -2815,7 +2831,9 @@
         "visual-evidence"
       ],
       "date": "2026-05-28",
-      "summary": "提出视觉中间推理VLA框架，用紧凑视觉证据接口替代文本CoT，实现22.8倍加速(8.4s→0.37s)同时保持高成功率。引入VisualEvidence-Kit审计资源。"
+      "summary": "提出视觉中间推理VLA框架，用紧凑视觉证据接口替代文本CoT，实现22.8倍加速(8.4s→0.37s)同时保持高成功率。引入VisualEvidence-Kit审计资源。",
+      "status": "本周精选",
+      "featured_week": "2026-W22"
     },
     {
       "id": "2605.28548",
@@ -2831,7 +2849,9 @@
         "pre-training"
       ],
       "date": "2026-05-27",
-      "summary": "在VLM预训练中引入深度图生成任务作为生成式监督，显著提升具身智能体的语义理解和物理操作能力。发布GEM-4M数据集，在多个具身基准上达到SOTA。"
+      "summary": "在VLM预训练中引入深度图生成任务作为生成式监督，显著提升具身智能体的语义理解和物理操作能力。发布GEM-4M数据集，在多个具身基准上达到SOTA。",
+      "status": "本周精选",
+      "featured_week": "2026-W22"
     },
     {
       "id": "2605.28587",
@@ -2848,7 +2868,9 @@
         "autonomous-driving"
       ],
       "date": "2026-05-27",
-      "summary": "提出DeGO框架，解耦刚性和非刚性运动的高斯占用预测。使用因子化4D基础模型蒸馏，在Occ3D-NuScenes上达到SOTA，人类实例提升13.5%，整体提升10.9%。"
+      "summary": "提出DeGO框架，解耦刚性和非刚性运动的高斯占用预测。使用因子化4D基础模型蒸馏，在Occ3D-NuScenes上达到SOTA，人类实例提升13.5%，整体提升10.9%。",
+      "status": "本周精选",
+      "featured_week": "2026-W22"
     },
     {
       "id": "2605.30263",

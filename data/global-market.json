@@ -1,72 +1,34 @@
 {
-  "updated": "2026-05-30T21:30:00+08:00",
-  "date": "2026-05-30",
-  "indices": {
+  "updated": "2026-05-31T21:30:00+08:00",
+  "date": "2026-05-31",
+  "markets": {
     "us": {
-      "sp500": {
-        "value": 7580.06,
-        "change_pct": 0.22,
-        "name": "S&P 500"
-      },
-      "nasdaq": {
-        "value": 26972.62,
-        "change_pct": 0.2,
-        "name": "NASDAQ Composite"
-      },
-      "dow": {
-        "value": 51032.46,
-        "change_pct": 0.72,
-        "name": "Dow Jones Industrial Average"
-      }
+      "dowJones": { "value": 51032.46, "change": 0.72, "date": "2026-05-29" },
+      "nasdaq": { "value": 26972.62, "change": 0.20, "date": "2026-05-29" },
+      "sp500": { "value": 7580.06, "change": 0.22, "date": "2026-05-29" }
     },
     "hk": {
-      "hsi": {
-        "value": 25182.39,
-        "change_pct": 0.7,
-        "name": "恒生指数 (HSI)"
-      }
-    }
-  },
-  "commodities": {
-    "crude_oil_wti": {
-      "value": 87.36,
-      "change_pct": -1.73,
-      "unit": "USD/bbl"
+      "hangSeng": { "value": 25182.39, "change": 0.70, "date": "2026-05-29" }
     },
-    "gold": {
-      "value": 4560.5,
-      "change_pct": 1.36,
-      "unit": "USD/oz"
-    }
-  },
-  "crypto": {
-    "bitcoin": {
-      "value": 73663,
-      "change_pct": 1.13,
-      "unit": "USD"
+    "china": {
+      "shanghai": { "value": 4068.57, "change": -0.73, "date": "2026-05-29" },
+      "csi300": { "value": 4068.57, "change": -0.73, "date": "2026-05-29" }
     },
-    "ethereum": {
-      "value": 2017.62,
-      "change_pct": 1.5,
-      "unit": "USD"
+    "crypto": {
+      "bitcoin": { "value": 73877, "change24h": 0.12, "marketCap": "1.48T" },
+      "ethereum": { "value": 2022.88, "change24h": 0.14, "marketCap": "247.54B" }
     }
   },
-  "news_headlines": [
-    "'Dinosaur' Tech Stocks Reborn as AI Fuels $1.7 Trillion Rally — Bloomberg",
-    "Historic cattle shortages push US beef prices to record highs — FT",
-    "Crypto treasuries turn to risky equity in drive to raise cash — FT",
-    "Meta has struggled at selling anything other than ads. Will AI be different? — CNBC",
-    "Analysis: End of Iran war may be just the beginning of a new era of U.S. inequality — CNBC",
-    "Wall Street's red-hot momentum trade delivers best 2-month gain on record — MarketWatch",
-    "Why Britain's Bond Market Is Sounding the Alarm — Bloomberg",
-    "Chipmaker aims for 9th straight triple-digit gain — Yahoo Finance"
-  ],
-  "summary": "美股三大指数周五全线上涨。道指涨0.72%领跑，标普500涨0.22%报7580.06点，纳指涨0.20%报26972.62点。伊朗和平协议谈判提振市场情绪，但对通胀的担忧仍存。港股恒指周五收涨0.70%报25182.39点，本周先跌后回升。商品方面，WTI原油跌1.73%至$87.36，伊朗局势缓和压制油价；黄金涨1.36%至$4560.50。加密市场企稳，BTC报$73,663(+1.13%)，ETH报$2,017.62(+1.50%)。AI板块持续走强，科技股\"恐龙复活\"为AI驱动的1.7万亿反弹贡献力量。",
-  "key_focus": [
-    "美伊和平协议谈判进展：油价承压但通胀不确定性仍存",
-    "AI板块持续领涨：S&P 500与纳指维持纪录高位附近",
-    "美国PCE通胀率升至3.8%，创近三年新高",
-    "恒指本周探底回升，新能源与科技板块领涨",
-    "美国牛肉价格因历史性短缺创纪录新高"
-  ]
+  "news": {
+    "bloomberg": [
+      { "title": "AI Bubble Debate Gets Real as Chip Stocks Rally Turns Historic", "link": "https://www.bloomberg.com/news/articles/2026-05-31/ai-bubble-debate-gets-real-as-chip-stocks-rally-turns-historic" },
+      { "title": "Congo Adds Lithium to Strategic Minerals in Higher Tax Bracket", "link": "https://www.bloomberg.com/news/articles/2026-05-31/congo-adds-lithium-to-strategic-minerals-in-higher-tax-bracket" },
+      { "title": "EM's Record Rally Leads Two Hedge Funds to Turn Away Investors", "link": "https://www.bloomberg.com/news/articles/2026-05-31/em-s-record-rally-leads-two-hedge-funds-to-turn-away-investors" }
+    ],
+    "cnbc": [
+      { "title": "Why Trump reversed course to fast-track psychedelic drugs for mental healthcare", "link": "https://www.cnbc.com/2026/05/31/why-trump-is-encouraging-psychedelics-for-mental-health.html" },
+      { "title": "Oil exports through the Strait of Hormuz might not return to levels seen before the Iran war", "link": "https://www.cnbc.com/2026/05/30/oil-exports-through-hormuz-might-not-return-to-levels-before-iran-war.html" },
+      { "title": "Analysis: An end to the Iran war may be just the beginning of a new era of U.S. inequality", "link": "https://www.cnbc.com/2026/05/30/iran-war-inequality-affordability-ceasefire-analysis.html" }
+    ]
+  }
 }

@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-29 08:00:00",
-  "totalPapers": 150,
-  "newThisScan": 48,
+  "lastUpdated": "2026-05-31 08:00 CST",
+  "totalPapers": 169,
+  "newThisScan": 16,
   "papers": [
     {
       "id": "2605.28544",
@@ -2800,6 +2800,257 @@
       "summary": "扩散模型驱动的跨城市自动驾驶域适应框架。提出CityTransfer-Bench跨城市基准（感知、分割、规划），通过HD地图条件合成实现零标签城市适应。实验证明能一致提升跨城市鲁棒性。",
       "url": "https://arxiv.org/abs/2605.29935",
       "status": "新发现"
+    },
+    {
+      "id": "2605.30011",
+      "title": "VisualThink-VLA: Visual Intermediate Reasoning for Effective and Low-Latency Vision-Language-Action Policies",
+      "authors": "Mingjian Gao et al.",
+      "relevance": 5,
+      "category": "VLA",
+      "tags": [
+        "VLA",
+        "reasoning",
+        "efficiency",
+        "low-latency",
+        "visual-evidence"
+      ],
+      "date": "2026-05-28",
+      "summary": "提出视觉中间推理VLA框架，用紧凑视觉证据接口替代文本CoT，实现22.8倍加速(8.4s→0.37s)同时保持高成功率。引入VisualEvidence-Kit审计资源。"
+    },
+    {
+      "id": "2605.28548",
+      "title": "GEM: Generative Supervision Helps Embodied Intelligence",
+      "authors": "Ruowen Zhao et al.",
+      "relevance": 5,
+      "category": "Embodied VLA",
+      "tags": [
+        "VLA",
+        "embodied",
+        "depth-generation",
+        "generative-supervision",
+        "pre-training"
+      ],
+      "date": "2026-05-27",
+      "summary": "在VLM预训练中引入深度图生成任务作为生成式监督，显著提升具身智能体的语义理解和物理操作能力。发布GEM-4M数据集，在多个具身基准上达到SOTA。"
+    },
+    {
+      "id": "2605.28587",
+      "title": "Deformable Gaussian Occupancy: Decoupling Rigid and Nonrigid Motion with Factorized Distillation",
+      "authors": "Yang Gao et al.",
+      "relevance": 5,
+      "category": "Occupancy Prediction",
+      "tags": [
+        "occupancy",
+        "dynamic-scene",
+        "Gaussian",
+        "distillation",
+        "nonrigid",
+        "autonomous-driving"
+      ],
+      "date": "2026-05-27",
+      "summary": "提出DeGO框架，解耦刚性和非刚性运动的高斯占用预测。使用因子化4D基础模型蒸馏，在Occ3D-NuScenes上达到SOTA，人类实例提升13.5%，整体提升10.9%。"
+    },
+    {
+      "id": "2605.30263",
+      "title": "minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models",
+      "authors": "Min Zhao et al.",
+      "relevance": 4,
+      "category": "World Model",
+      "tags": [
+        "world-model",
+        "video-generation",
+        "open-source",
+        "diffusion",
+        "real-time"
+      ],
+      "date": "2026-05-28",
+      "summary": "全栈开源实时交互视频世界模型框架。将双向T2V/TI2V模型转为相机可控的少步自回归世界模型。支持Wan2.1-T2V-1.3B和HY1.5-TI2V-8B骨干。"
+    },
+    {
+      "id": "2605.30346",
+      "title": "YoCausal: How Far is Video Generation from World Model? A Causality Perspective",
+      "authors": "You-Zhe Xie et al.",
+      "relevance": 4,
+      "category": "World Model",
+      "tags": [
+        "world-model",
+        "causality",
+        "video-generation",
+        "benchmark"
+      ],
+      "date": "2026-05-28",
+      "summary": "从因果视角评估视频扩散模型是否真正理解因果关系。提出YoCausal两级基准(RSI+CCI)，评估13个SOTA VDM发现时间箭头感知≠因果理解。"
+    },
+    {
+      "id": "2605.28816",
+      "title": "Gamma-World: Generative Multi-Agent World Modeling Beyond Two Players",
+      "authors": "Fangfu Liu et al.",
+      "relevance": 4,
+      "category": "World Model",
+      "tags": [
+        "world-model",
+        "multi-agent",
+        "video-generation",
+        "diffusion"
+      ],
+      "date": "2026-05-27",
+      "summary": "生成式多智能体世界模型。提出Simplex Rotary Agent Encoding实现置换等价智能体表示，及Sparse Hub Attention降低跨智能体注意力复杂度至线性。24 FPS实时rollout。"
+    },
+    {
+      "id": "2605.29416",
+      "title": "3DVLA: Enhancing Vision-Language-Action Models via 3D Spatial and Instance Understanding",
+      "authors": "Zhongyu Xia et al.",
+      "relevance": 4,
+      "category": "VLA",
+      "tags": [
+        "VLA",
+        "3D",
+        "spatial-understanding",
+        "robotics"
+      ],
+      "date": "2026-05-28",
+      "summary": "为VLA注入3D推理能力的即插即用框架。解决3D空间位置提取、实例理解、遮挡推理三大挑战，无需额外标注。在LIBERO-Plus和RoboTwin上展示一致提升。"
+    },
+    {
+      "id": "2605.28803",
+      "title": "Ω-QVLA: Robust Quantization for Vision-Language-Action Models via Composite Rotation and Per-step Scaling",
+      "authors": "Xinyu Wang et al.",
+      "relevance": 4,
+      "category": "VLA",
+      "tags": [
+        "VLA",
+        "quantization",
+        "efficiency",
+        "W4A4",
+        "deployment"
+      ],
+      "date": "2026-05-27",
+      "summary": "首个将VLA模型语言骨干和扩散动作头统一压缩至W4A4的训练后量化框架。Pi0.5和GR00T N1.5上保持98%以上成功率，静态显存减少71.3%。"
+    },
+    {
+      "id": "2605.29562",
+      "title": "VLA-Pro: Cross-Task Procedural Memory Transfer for Vision-Language-Action Models",
+      "authors": "Shengyu Si et al.",
+      "relevance": 4,
+      "category": "VLA",
+      "tags": [
+        "VLA",
+        "procedural-memory",
+        "cross-task",
+        "generalization",
+        "LoRA"
+      ],
+      "date": "2026-05-28",
+      "summary": "通过存储任务相关程序性记忆增强VLA跨任务泛化。训练时存LoRA适配器，推理时基于多模态上下文检索融合。实现207%相对提升，真实世界成功率5.8%→65.0%。"
+    },
+    {
+      "id": "2605.29577",
+      "title": "Mitigating State Aliasing in Vision-Language-Action Models via Inverse Dynamics Learning",
+      "authors": "Kyujin Lee et al.",
+      "relevance": 4,
+      "category": "VLA",
+      "tags": [
+        "VLA",
+        "state-aliasing",
+        "inverse-dynamics",
+        "representation-learning"
+      ],
+      "date": "2026-05-28",
+      "summary": "引入逆动力学学习作为辅助目标缓解VLA状态混淆问题。通过预测当前到未来观测的动作，增强编码器对细粒度视觉差异的敏感度。CALVIN和SimplerEnv上表现一致提升。"
+    },
+    {
+      "id": "2605.29662",
+      "title": "SAFE-Pruner: Semantic Attention-Guided Future-Aware Token Pruning for Efficient VLA",
+      "authors": "Shilin Ma et al.",
+      "relevance": 3,
+      "category": "VLA Efficiency",
+      "tags": [
+        "VLA",
+        "token-pruning",
+        "efficiency",
+        "attention"
+      ],
+      "date": "2026-05-28",
+      "summary": "面向VLA的高效视觉token剪枝框架。利用语义注意力一致性预测深层token重要性，实现1.89x加速且成功率下降<1.7%。"
+    },
+    {
+      "id": "2605.29997",
+      "title": "FRUC: Feedforward Dynamic Scene Reconstruction from Uncalibrated Collaborative Driving Views",
+      "authors": "Yihang Tao et al.",
+      "relevance": 3,
+      "category": "Collaborative Perception",
+      "tags": [
+        "collaborative",
+        "3D-reconstruction",
+        "Gaussian-splatting",
+        "V2X",
+        "driving"
+      ],
+      "date": "2026-05-28",
+      "summary": "面向未标定协同驾驶视角的前馈动态场景重建框架。引入以自我为中心的因果遮挡场+零初始化残差去噪实现鲁棒协同盲点补全。V2XReal和UrbanIng-V2X上SOTA。"
+    },
+    {
+      "id": "2605.29471",
+      "title": "V2XCrafter: Learning to Generate Driving Scene Across Agents",
+      "authors": "Yihang Tao et al.",
+      "relevance": 3,
+      "category": "Data Generation",
+      "tags": [
+        "V2X",
+        "data-generation",
+        "diffusion",
+        "collaborative-perception",
+        "driving"
+      ],
+      "date": "2026-05-28",
+      "summary": "首个可跨越多个智能体视角生成可控驾驶场景的框架。渐进式多智能体扩散模型+跨智能体注意力模块保证一致性和物理属性。增强下游协同3D检测。"
+    },
+    {
+      "id": "2605.29325",
+      "title": "Multi-Stage VLM Pipeline for Zero-Shot Traffic Accident Understanding",
+      "authors": "Fumiya Tatematsu et al.",
+      "relevance": 3,
+      "category": "Traffic Understanding",
+      "tags": [
+        "VLM",
+        "traffic-accident",
+        "zero-shot",
+        "CVPR2026",
+        "challenge"
+      ],
+      "date": "2026-05-28",
+      "summary": "CVPR 2026 AUTOPILOT Workshop ACCIDENT挑战第一名方案。基于Qwen3-VL-32B的三阶段流水线，零样本预测事故时间/撞击中心/碰撞类型。公共榜0.55469。"
+    },
+    {
+      "id": "2605.30111",
+      "title": "xModel-KD: Cross-modal Knowledge Distillation for 3D Scene Perception using LiDAR",
+      "authors": "Thenukan Pathmanathan et al.",
+      "relevance": 3,
+      "category": "3D Perception",
+      "tags": [
+        "LiDAR",
+        "knowledge-distillation",
+        "cross-modal",
+        "point-cloud",
+        "3D-segmentation"
+      ],
+      "date": "2026-05-28",
+      "summary": "面向3D点云分割的跨模态知识蒸馏框架。通过对比学习对齐2D-3D特征，2D纹理辅助3D几何学习。mIoU提升2%。"
+    },
+    {
+      "id": "2605.30328",
+      "title": "Supercharging Thermal Gaussian Splatting with Depth Estimation",
+      "authors": "Manoj Biswanath et al.",
+      "relevance": 3,
+      "category": "3D Reconstruction",
+      "tags": [
+        "Gaussian-splatting",
+        "thermal",
+        "depth-estimation",
+        "autonomous-driving"
+      ],
+      "date": "2026-05-28",
+      "summary": "基于热红外单模态的3D高斯辐射场重建方法。无需RGB，仅用热成像+深度估计实现新颖视图合成。训练时间减少55%。"
     }
   ],
   "updated": "2026-05-27",

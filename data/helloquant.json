@@ -1,87 +1,51 @@
 {
-  "date": "2026-05-29",
-  "update_time": "17:00 CST",
-  "report_period": "2026-05-20 ~ 2026-05-28",
-  "summary": "HelloQuant 策略周报",
-  "markets": {
-    "A股": {
-      "上证指数": {
-        "weekly_open": 4162.185,
-        "close": 4098.636,
-        "weekly_change_pct": -1.53,
-        "trend": "下跌"
-      },
-      "深证成指": {
-        "weekly_open": 15569.979,
-        "close": 15861.891,
-        "weekly_change_pct": 1.87,
-        "trend": "上涨"
-      },
-      "创业板指": {
-        "weekly_open": 3921.789,
-        "close": 4125.075,
-        "weekly_change_pct": 5.18,
-        "trend": "上涨"
-      }
+  "timestamp": "2026-06-01T15:10:12",
+  "date": "2026-06-01",
+  "crypto": {
+    "BTC/USDT": {
+      "price": 73196.7,
+      "change_24h": -1.11,
+      "high_24h": 74210.9,
+      "low_24h": 72964.9,
+      "volume_24h": 274778280.6,
+      "trend_1h": "偏空",
+      "trend_4h": "偏空",
+      "rsi_1h": 40.8,
+      "rsi_4h": 44.5
     },
-    "数字货币": {
-      "BTC": {
-        "price": 73553,
-        "24h_change_pct": 0.48
-      },
-      "ETH": {
-        "price": 2003.6,
-        "24h_change_pct": 0.92
-      }
+    "ETH/USDT": {
+      "price": 1990.42,
+      "change_24h": -1.86,
+      "high_24h": 2029.04,
+      "low_24h": 1980.22,
+      "volume_24h": 136146924.98,
+      "trend_1h": "偏空",
+      "trend_4h": "偏空",
+      "rsi_1h": 41.8,
+      "rsi_4h": 37.3
     }
+  },
+  "fear_greed": {
+    "value": 29,
+    "classification": "Fear"
   },
   "strategies": {
-    "status": "signals_from_cache",
-    "existing_strategies": [
-      "DoubleMa",
-      "TripleMa",
-      "Supertrend",
-      "RSI",
-      "MACD",
-      "Bollinger",
-      "Momentum",
-      "MeanReversion"
-    ],
-    "last_data_date": "2026-05-26"
+    "DoubleMa": {"1h": "观望", "4h": "观望"},
+    "TripleMa": {"1h": "观望", "4h": "做空"},
+    "Supertrend": {"1h": "观望", "4h": "观望"},
+    "RSI": {"1h": "观望", "4h": "观望"},
+    "MACD": {"1h": "观望", "4h": "观望"},
+    "Bollinger": {"1h": "做多", "4h": "做多"},
+    "Momentum": {"1h": "观望", "4h": "做空"},
+    "MeanReversion": {"1h": "做多", "4h": "做多"}
   },
-  "cached_signals": {
-    "DoubleMa": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "RSI": {
-      "1h": "做多",
-      "4h": "做空"
-    },
-    "MACD": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "Bollinger": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "Supertrend": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "TripleMa": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "Momentum": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "MeanReversion": {
-      "1h": "观望",
-      "4h": "观望"
-    }
+  "signals_summary": {
+    "1h": {"做多": 2, "做空": 0, "观望": 6},
+    "4h": {"做多": 2, "做空": 3, "观望": 3}
   },
-  "note": "信号基于 5月26日 cached daily_raw.json。本期A股整体震荡偏弱。"
+  "stocks": {
+    "上证指数": {"price": 4057.74, "change_pct": -0.27},
+    "深证成指": {"price": 15340.36, "change_pct": -1.51},
+    "创业板指": {"price": 3950.94, "change_pct": -2.15}
+  }
 }

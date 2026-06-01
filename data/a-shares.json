@@ -1,27 +1,76 @@
 {
-  "timestamp": "2026-06-01 11:35 CST",
-  "indices": [
-    {"name": "上证指数", "code": "000001", "price": 4063.72, "change": -4.85, "change_pct": -0.12, "main_flow": -164.8, "retail_flow": -117.4},
-    {"name": "深证成指", "code": "399001", "price": 15481.10, "change": -94.03, "change_pct": -0.60, "main_flow": -196.4, "retail_flow": -107.6},
-    {"name": "创业板指", "code": "399006", "price": 4001.52, "change": -36.43, "change_pct": -0.90, "main_flow": -122.9, "retail_flow": -82.1},
-    {"name": "沪深300", "code": "399300", "price": 4865.14, "change": -26.98, "change_pct": -0.55, "main_flow": -110.6, "retail_flow": -85.5}
-  ],
-  "market_flow": {
-    "main_net_inflow": -164.8,
-    "two_market_net_inflow": -361.2
+  "timestamp": "2026-06-01 15:05",
+  "date": "2026-06-01",
+  "indices": {
+    "上证指数": {
+      "price": 4057.74,
+      "change_pct": -0.27,
+      "change_amount": -10.83,
+      "open": 4067.16,
+      "high": 4093.04,
+      "low": 4045.69,
+      "prev_close": 4068.57,
+      "volume": 676025806,
+      "amount": 13198.02
+    },
+    "深证成指": {
+      "price": 15340.36,
+      "change_pct": -1.51,
+      "change_amount": -234.77,
+      "open": 15601.03,
+      "high": 15717.46,
+      "low": 15316.02,
+      "prev_close": 15575.13,
+      "amount": 15576.86
+    },
+    "创业板指": {
+      "price": 3950.94,
+      "change_pct": -2.15,
+      "change_amount": -87.01,
+      "open": 4057.39,
+      "high": 4081.42,
+      "low": 3942.68,
+      "prev_close": 4037.95,
+      "amount": 7285.31
+    },
+    "沪深300": {
+      "price": 4844.26,
+      "change_pct": -0.98,
+      "change_amount": -47.86,
+      "open": 4897.90,
+      "high": 4918.79,
+      "low": 4836.69,
+      "prev_close": 4892.12,
+      "amount": 8239.85
+    }
   },
-  "sector_leaders": [
-    {"name": "图片媒体", "change_pct": 10.01},
-    {"name": "文字媒体", "change_pct": 7.28},
-    {"name": "肉鸡养殖", "change_pct": 5.94},
-    {"name": "动力煤", "change_pct": 5.53},
-    {"name": "煤炭开采", "change_pct": 5.40}
-  ],
-  "sector_laggards": [
-    {"name": "集成电路制造", "change_pct": -4.62},
-    {"name": "玻纤制造", "change_pct": -3.78},
-    {"name": "分立器件", "change_pct": -3.73},
-    {"name": "半导体设备", "change_pct": -2.83},
-    {"name": "通信网络设备及器件", "change_pct": -2.62}
-  ]
+  "boards": {
+    "top": [
+      {"name": "水泥建材", "change_pct": 2.35, "amount": 285.6},
+      {"name": "银行", "change_pct": 1.82, "amount": 412.3},
+      {"name": "电力行业", "change_pct": 1.56, "amount": 356.8},
+      {"name": "煤炭行业", "change_pct": 1.28, "amount": 198.4},
+      {"name": "石油行业", "change_pct": 0.95, "amount": 267.1}
+    ],
+    "bottom": [
+      {"name": "半导体", "change_pct": -4.12, "amount": 892.5},
+      {"name": "软件开发", "change_pct": -3.85, "amount": 567.3},
+      {"name": "消费电子", "change_pct": -3.52, "amount": 423.6},
+      {"name": "通信设备", "change_pct": -3.18, "amount": 389.2},
+      {"name": "国防军工", "change_pct": -2.86, "amount": 456.7}
+    ]
+  },
+  "north_flow": {
+    "date": "2026-06-01",
+    "value": -35.82,
+    "value_5day": -128.50,
+    "note": "北向资金净流出35.82亿"
+  },
+  "breadth": {
+    "up": 1126,
+    "down": 3128,
+    "flat": 89,
+    "total": 4343,
+    "up_ratio": 25.93
+  }
 }

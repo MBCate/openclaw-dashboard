@@ -1,49 +1,27 @@
 {
-  "date": "2026-05-29",
-  "time": "15:05 CST",
-  "source": "Sina Finance API",
-  "indices": {
-    "上证指数": {
-      "price": 4068.57,
-      "change_pct": -0.73,
-      "open": 4110.52,
-      "high": 4112.96,
-      "low": 4055.89,
-      "pre_close": 4098.64,
-      "volume": "731597710",
-      "amount": "1532067352982"
-    },
-    "深证成指": {
-      "price": 15575.13,
-      "change_pct": -1.81,
-      "open": 15957.12,
-      "high": 15981.93,
-      "low": 15492.84,
-      "pre_close": 15861.89,
-      "volume": "84887972757",
-      "amount": "1786964795181"
-    },
-    "创业板指": {
-      "price": 4037.95,
-      "change_pct": -2.11,
-      "open": 4141.91,
-      "high": 4158.69,
-      "low": 4010.12,
-      "pre_close": 4125.08,
-      "volume": "23341375890",
-      "amount": "850350414242"
-    },
-    "沪深300": {
-      "price": 4892.12,
-      "change_pct": -0.45,
-      "open": 4937.51,
-      "high": 4954.07,
-      "low": 4878.79,
-      "pre_close": 4914.21,
-      "volume": "332518610",
-      "amount": "942236490058"
-    }
+  "timestamp": "2026-06-01 11:35 CST",
+  "indices": [
+    {"name": "上证指数", "code": "000001", "price": 4063.72, "change": -4.85, "change_pct": -0.12, "main_flow": -164.8, "retail_flow": -117.4},
+    {"name": "深证成指", "code": "399001", "price": 15481.10, "change": -94.03, "change_pct": -0.60, "main_flow": -196.4, "retail_flow": -107.6},
+    {"name": "创业板指", "code": "399006", "price": 4001.52, "change": -36.43, "change_pct": -0.90, "main_flow": -122.9, "retail_flow": -82.1},
+    {"name": "沪深300", "code": "399300", "price": 4865.14, "change": -26.98, "change_pct": -0.55, "main_flow": -110.6, "retail_flow": -85.5}
+  ],
+  "market_flow": {
+    "main_net_inflow": -164.8,
+    "two_market_net_inflow": -361.2
   },
-  "market_summary": "三大指数全线收跌，创业板指跌幅最大(-2.11%)。上证指数高开低走，失守4100点。",
-  "notes": "北向资金和板块数据因东方财富API代理连接超时暂缺"
+  "sector_leaders": [
+    {"name": "图片媒体", "change_pct": 10.01},
+    {"name": "文字媒体", "change_pct": 7.28},
+    {"name": "肉鸡养殖", "change_pct": 5.94},
+    {"name": "动力煤", "change_pct": 5.53},
+    {"name": "煤炭开采", "change_pct": 5.40}
+  ],
+  "sector_laggards": [
+    {"name": "集成电路制造", "change_pct": -4.62},
+    {"name": "玻纤制造", "change_pct": -3.78},
+    {"name": "分立器件", "change_pct": -3.73},
+    {"name": "半导体设备", "change_pct": -2.83},
+    {"name": "通信网络设备及器件", "change_pct": -2.62}
+  ]
 }

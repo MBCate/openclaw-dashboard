@@ -1,34 +1,46 @@
 {
-  "updated": "2026-05-31T21:30:00+08:00",
-  "date": "2026-05-31",
+  "timestamp": "2026-06-01T09:15:00+08:00",
+  "date": "2026-06-01",
+  "period": "morning",
   "markets": {
-    "us": {
-      "dowJones": { "value": 51032.46, "change": 0.72, "date": "2026-05-29" },
-      "nasdaq": { "value": 26972.62, "change": 0.20, "date": "2026-05-29" },
-      "sp500": { "value": 7580.06, "change": 0.22, "date": "2026-05-29" }
-    },
-    "hk": {
-      "hangSeng": { "value": 25182.39, "change": 0.70, "date": "2026-05-29" }
-    },
     "china": {
-      "shanghai": { "value": 4068.57, "change": -0.73, "date": "2026-05-29" },
-      "csi300": { "value": 4068.57, "change": -0.73, "date": "2026-05-29" }
+      "shanghai": { "name": "上证指数", "value": 4068.34, "changePct": -0.01, "status": "pre-market" },
+      "shenzhen": { "name": "深证成指", "value": null, "changePct": null, "status": "pre-market" },
+      "cyb": { "name": "创业板指", "value": null, "changePct": null, "status": "pre-market" },
+      "hs300": { "name": "沪深300", "value": 4891.96, "changePct": 0.00, "status": "pre-market" },
+      "sz50": { "name": "上证50", "value": 2920.90, "changePct": -0.01, "status": "pre-market" },
+      "kcb50": { "name": "科创50", "value": 1751.22, "changePct": -0.01, "status": "pre-market" }
+    },
+    "hongkong": {
+      "hsi": { "name": "恒生指数", "value": 25182.39, "changePct": 0.00, "status": "open" }
+    },
+    "us": {
+      "sp500": { "name": "S&P 500", "value": 7580.05, "changePct": 0.22, "status": "closed" },
+      "dow": { "name": "道琼斯", "value": 51032.47, "changePct": 0.72, "status": "closed" },
+      "nasdaq": { "name": "纳斯达克", "value": 26972.62, "changePct": 0.20, "status": "closed" }
+    },
+    "commodities": {
+      "wti": { "name": "WTI原油", "value": 89.65, "changePct": 2.62 },
+      "gold": { "name": "黄金", "value": 4530.73, "changePct": -0.17 }
+    },
+    "fx": {
+      "dxy": { "name": "美元指数", "value": 99.06, "changePct": 0.12 }
+    },
+    "rates": {
+      "us10y": { "name": "美国10年期国债", "value": 4.469, "changePct": 0.72 },
+      "us30y": { "name": "美国30年期国债", "value": 4.997, "changePct": 0.46 }
     },
     "crypto": {
-      "bitcoin": { "value": 73877, "change24h": 0.12, "marketCap": "1.48T" },
-      "ethereum": { "value": 2022.88, "change24h": 0.14, "marketCap": "247.54B" }
+      "btc": { "name": "比特币", "value": 73496, "changePct": -0.10 }
     }
   },
-  "news": {
-    "bloomberg": [
-      { "title": "AI Bubble Debate Gets Real as Chip Stocks Rally Turns Historic", "link": "https://www.bloomberg.com/news/articles/2026-05-31/ai-bubble-debate-gets-real-as-chip-stocks-rally-turns-historic" },
-      { "title": "Congo Adds Lithium to Strategic Minerals in Higher Tax Bracket", "link": "https://www.bloomberg.com/news/articles/2026-05-31/congo-adds-lithium-to-strategic-minerals-in-higher-tax-bracket" },
-      { "title": "EM's Record Rally Leads Two Hedge Funds to Turn Away Investors", "link": "https://www.bloomberg.com/news/articles/2026-05-31/em-s-record-rally-leads-two-hedge-funds-to-turn-away-investors" }
-    ],
-    "cnbc": [
-      { "title": "Why Trump reversed course to fast-track psychedelic drugs for mental healthcare", "link": "https://www.cnbc.com/2026/05/31/why-trump-is-encouraging-psychedelics-for-mental-health.html" },
-      { "title": "Oil exports through the Strait of Hormuz might not return to levels seen before the Iran war", "link": "https://www.cnbc.com/2026/05/30/oil-exports-through-hormuz-might-not-return-to-levels-before-iran-war.html" },
-      { "title": "Analysis: An end to the Iran war may be just the beginning of a new era of U.S. inequality", "link": "https://www.cnbc.com/2026/05/30/iran-war-inequality-affordability-ceasefire-analysis.html" }
-    ]
-  }
+  "news": [
+    { "source": "CNBC", "title": "Stock futures are flat in overnight trading as June trading begins near record highs", "impact": "中性偏多" },
+    { "source": "CNBC", "title": "Berkshire Hathaway makes $6.8 billion housing bet with Taylor Morrison deal", "impact": "地产板块关注" },
+    { "source": "CNBC", "title": "Oil jumps 2% as Israel expands Lebanon offensive, rattling ceasefire hopes", "impact": "油价上行，能源股受益" },
+    { "source": "MarketWatch", "title": "Oil rises, US stock futures flat as Wall Street looks to extend winning streak", "impact": "美股延续强势" },
+    { "source": "Yahoo Finance", "title": "Warren Buffett's Berkshire dumps entire stake in dividend stock", "impact": "巴菲特调仓信号" }
+  ],
+  "summary": "美股上周五收高，道指涨0.72%，标普创新高。6月开局美股期货横盘。中东局势升温推动原油跳涨2.6%至$89.65。恒指开盘持平。A股即将开盘，预判中性偏多。",
+  "summary_en": "Wall Street closed near record highs Friday. Futures flat for June open. Oil surges 2.6% on Middle East escalation. HSI flat at open. Mixed signals for A-share open."
 }

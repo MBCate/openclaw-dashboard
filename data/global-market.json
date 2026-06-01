@@ -1,46 +1,32 @@
 {
-  "timestamp": "2026-06-01T09:15:00+08:00",
-  "date": "2026-06-01",
-  "period": "morning",
-  "markets": {
-    "china": {
-      "shanghai": { "name": "上证指数", "value": 4068.34, "changePct": -0.01, "status": "pre-market" },
-      "shenzhen": { "name": "深证成指", "value": null, "changePct": null, "status": "pre-market" },
-      "cyb": { "name": "创业板指", "value": null, "changePct": null, "status": "pre-market" },
-      "hs300": { "name": "沪深300", "value": 4891.96, "changePct": 0.00, "status": "pre-market" },
-      "sz50": { "name": "上证50", "value": 2920.90, "changePct": -0.01, "status": "pre-market" },
-      "kcb50": { "name": "科创50", "value": 1751.22, "changePct": -0.01, "status": "pre-market" }
-    },
-    "hongkong": {
-      "hsi": { "name": "恒生指数", "value": 25182.39, "changePct": 0.00, "status": "open" }
-    },
+  "updated": "2026-06-01T13:30:00Z",
+  "marketDate": "2026-06-01",
+  "indices": {
     "us": {
-      "sp500": { "name": "S&P 500", "value": 7580.05, "changePct": 0.22, "status": "closed" },
-      "dow": { "name": "道琼斯", "value": 51032.47, "changePct": 0.72, "status": "closed" },
-      "nasdaq": { "name": "纳斯达克", "value": 26972.62, "changePct": 0.20, "status": "closed" }
+      "sp500": { "value": 7580, "change": "+0.22%", "month": "+5.27%", "yoy": "+27.70%" },
+      "nasdaq": { "note": "futures up ~0.1-0.5% premarket" },
+      "dow": { "note": "futures up ~0.3% premarket" }
     },
-    "commodities": {
-      "wti": { "name": "WTI原油", "value": 89.65, "changePct": 2.62 },
-      "gold": { "name": "黄金", "value": 4530.73, "changePct": -0.17 }
-    },
-    "fx": {
-      "dxy": { "name": "美元指数", "value": 99.06, "changePct": 0.12 }
-    },
-    "rates": {
-      "us10y": { "name": "美国10年期国债", "value": 4.469, "changePct": 0.72 },
-      "us30y": { "name": "美国30年期国债", "value": 4.997, "changePct": 0.46 }
-    },
-    "crypto": {
-      "btc": { "name": "比特币", "value": 73496, "changePct": -0.10 }
+    "hk": {
+      "hangSeng": { "value": 25398, "change": "+215.79 (+0.86%)" }
     }
   },
+  "commodities": {
+    "brent": { "value": 93.81, "change": "+2.95%", "note": "spike on Iran-US ceasefire uncertainty" },
+    "wti": { "value": 86.68, "note": "broke below $88, in downtrend since mid-May" }
+  },
+  "crypto": {
+    "btc": { "value": 71840, "change": "-2.37%", "month": "-8.67%", "yoy": "-32.16%" },
+    "eth": { "value": 1988.38, "change": "-1.54%", "month": "-11.97%", "yoy": "-21.73%" }
+  },
   "news": [
-    { "source": "CNBC", "title": "Stock futures are flat in overnight trading as June trading begins near record highs", "impact": "中性偏多" },
-    { "source": "CNBC", "title": "Berkshire Hathaway makes $6.8 billion housing bet with Taylor Morrison deal", "impact": "地产板块关注" },
-    { "source": "CNBC", "title": "Oil jumps 2% as Israel expands Lebanon offensive, rattling ceasefire hopes", "impact": "油价上行，能源股受益" },
-    { "source": "MarketWatch", "title": "Oil rises, US stock futures flat as Wall Street looks to extend winning streak", "impact": "美股延续强势" },
-    { "source": "Yahoo Finance", "title": "Warren Buffett's Berkshire dumps entire stake in dividend stock", "impact": "巴菲特调仓信号" }
+    { "source": "CNBC", "title": "Nvidia jumps into PCs with new Arm-based chip debuting in laptops from Microsoft, Dell, HP", "url": "https://www.cnbc.com/2026/05/31/nvidias-new-chip-to-power-fresh-line-of-windows-laptops-by-dell-hp.html" },
+    { "source": "CNBC", "title": "Fed's Powell warns Trump's political 'stress test' will wreck public trust in central bank", "url": "https://www.cnbc.com/2026/06/01/federal-reserve-trump-political-pressure-powell-stress-test.html" },
+    { "source": "CNBC", "title": "S&P 500 futures turn red as oil jumps, overshadowing Nvidia gain", "url": "https://www.cnbc.com/2026/05/31/stock-market-today-live-updates.html" },
+    { "source": "CNBC", "title": "U.S. intercepted Iranian missiles targeting American forces in Kuwait", "url": "https://www.cnbc.com/2026/06/01/us-iran-war-missiles-kuwait.html" },
+    { "source": "Bloomberg", "title": "Oil Jumps on Report Iran to Halt Exchanges With US: Markets Wrap", "url": "https://www.bloomberg.com/news/articles/2026-05-31/oil-climbs-as-us-iran-ceasefire-remains-elusive-markets-wrap" },
+    { "source": "Bloomberg", "title": "Colombian Assets Surge as Right-Wing Outsider Leads Vote", "url": "https://www.bloomberg.com/news/articles/2026-06-01/colombian-bonds-surge-as-right-wing-outsider-moves-into-runoff" },
+    { "source": "Bloomberg", "title": "Honeywell-Backed Quantinuum Boosts IPO Target to $1.46 Billion", "url": "https://www.bloomberg.com/news/articles/2026-06-01/honeywell-backed-quantinuum-boosts-ipo-target-to-1-46-billion" }
   ],
-  "summary": "美股上周五收高，道指涨0.72%，标普创新高。6月开局美股期货横盘。中东局势升温推动原油跳涨2.6%至$89.65。恒指开盘持平。A股即将开盘，预判中性偏多。",
-  "summary_en": "Wall Street closed near record highs Friday. Futures flat for June open. Oil surges 2.6% on Middle East escalation. HSI flat at open. Mixed signals for A-share open."
+  "summary": "美股期货小幅走高，S&P 500升至7580点创月内新高。Nvidia发布Arm架构PC芯片（RTX Spark），盘前涨超2%。地缘风险推升油价——布伦特原油跳涨2.95%至93.81美元，此前伊朗宣布暂停与美国沟通。加密货币承压，BTC跌2.37%至71,840，ETH跌1.54%至1,988。恒指收涨0.86%报25,398。"
 }

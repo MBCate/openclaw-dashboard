@@ -1,33 +1,59 @@
 {
-  "updated": "2026-06-02T01:17:00Z",
-  "marketDate": "2026-06-02",
-  "indices": {
-    "us": {
-      "sp500": { "value": 7600, "change": "+0.26%", "prevClose": 7580 },
-      "sp500Futures": { "value": 7583, "change": "-0.39%", "note": "ES futures mildly negative premarket" },
-      "nasdaq": { "value": 27087, "change": "+0.42%", "prevClose": 26973 },
-      "dow": { "value": 51079, "change": "+0.09%", "prevClose": 51032 }
+  "timestamp": "2026-06-02T13:30:00Z",
+  "date": "2026-06-02",
+  "us_indices": {
+    "snp500": {
+      "close": 7591.32,
+      "change": -8.64,
+      "change_pct": -0.11,
+      "prev_close": 7599.96,
+      "ytd_pct": 10.5
     },
-    "hk": {
-      "hangSeng": { "value": 25398, "change": "0.00%", "note": "yet to open for the day" }
+    "dow_jones": {
+      "close": 51212.86,
+      "change": 133.98,
+      "change_pct": 0.26,
+      "prev_close": 51078.88
+    },
+    "nasdaq": {
+      "close": 26991.56,
+      "change": -95.25,
+      "change_pct": -0.35,
+      "prev_close": 27086.81
     }
   },
-  "commodities": {
-    "brent": { "value": 94.77, "change": "-0.22%", "note": "pulling back from spike on Iran uncertainty" },
-    "wti": { "value": 91.99, "change": "-0.18%" },
-    "gold": { "value": 4514, "change": "+0.17%" }
+  "hong_kong": {
+    "hsi": {
+      "close": 26038.32,
+      "change": 640.14,
+      "change_pct": 2.52,
+      "prev_close": 25398.18
+    }
   },
   "crypto": {
-    "btc": { "value": 71229, "change": "-3.08%", "month": "-8.6%", "yoy": "-32.7%" },
-    "eth": { "value": 1993, "change": "-0.51%", "month": "-11.9%", "yoy": "-21.6%" }
+    "bitcoin": {
+      "usd": 68935,
+      "change_24h_pct": -4.07
+    },
+    "ethereum": {
+      "usd": 1976.24,
+      "change_24h_pct": -0.11
+    }
   },
-  "news": [
-    { "source": "CNBC", "title": "Alphabet plans to raise $80 billion from stock sales to fund AI buildout", "url": "" },
-    { "source": "CNBC", "title": "HPE skyrockets 30% on biggest earnings beat since 2018", "url": "" },
-    { "source": "CNBC", "title": "Trump tells CNBC: 'I don't care' if Iran negotiations are over", "url": "" },
-    { "source": "CNBC", "title": "Stock futures slip after all three major indexes close at new records", "url": "" },
-    { "source": "MarketWatch", "title": "Alphabet asks shareholders to foot an $80 billion bill for AI expansion", "url": "" },
-    { "source": "MarketWatch", "title": "As Micron's stock blows past $1,000, Wall Street sees more gains in store", "url": "" }
-  ],
-  "summary": "美股隔夜三大指数收创新高后小幅回撤。S&P 500期货-0.39%，现货盘前波动。Alphabet计划筹资800亿美元用于AI建设，HPE财报亮眼暴涨30%。地缘方面特朗普称'不在乎'伊朗谈判破裂，油价温和回落。BTC跌3%至71,229美元，ETH跌0.5%。港股恒指持平报25,398。"
+  "news_headlines": {
+    "cnbc": [
+      "Stocks fall as Wall Street slides from record highs",
+      "Nvidia's new PC chips represent CEO Huang's bid to win at every layer of AI stack",
+      "Alphabet plans to raise $80 billion from stock sales to fund AI build-out",
+      "Anthropic expands Mythos to 150 additional organizations in more than 15 countries",
+      "Trump picks housing Dir. Bill Pulte as acting intelligence chief"
+    ],
+    "bloomberg": [
+      "Stocks Halt Rally as Traders Weigh US-Iran Signals",
+      "M&A Lawyer Pleads Not Guilty to Leading Insider-Trading Ring",
+      "Philip Morris Cuts Outlook on $500 Million Canada Writedown",
+      "Senegal Bonds Go From Emerging-Market Leaders to Laggards",
+      "UniCredit Says Commerzbank Offer Set to Push Direct Stake to 34%"
+    ]
+  }
 }

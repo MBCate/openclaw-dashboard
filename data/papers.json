@@ -4,6 +4,163 @@
   "newThisScan": "top5-weekly",
   "papers": [
     {
+      "id": "2605.31336",
+      "title": "DecMem: Towards Minute-Long Consistent World Generation with Decoupled Memory",
+      "authors": [
+        "Zhenhao Yang",
+        "Xiaoshi Wu",
+        "Zhengyao Lv",
+        "Xiaoyu Shi",
+        "Xintao Wang",
+        "Pengfei Wan",
+        "Kun Gai",
+        "Kwan-Yee K. Wong"
+      ],
+      "date": "2026-06-01",
+      "arxiv_id": "2605.31336",
+      "relevance": 3,
+      "category": "cs.CV",
+      "topic": "world-models-ad",
+      "state": "[新发现]",
+      "abstract": "Decoupled memory architecture for long-horizon world generation. Sparse Global Memory + Anchored Local Memory addressing attention dispersion. Minute-level controllable long video generation.",
+      "url": "https://arxiv.org/abs/2605.31336",
+      "tags": [
+        "world model",
+        "video generation",
+        "long-term consistency"
+      ]
+    },
+    {
+      "id": "2605.31158",
+      "title": "Light Interaction: Training-Free Inference Acceleration for Interactive Video World Models",
+      "authors": [
+        "Jiacheng Lu",
+        "Haoyi Zhu",
+        "Sipei Yi",
+        "Enze Xie",
+        "Yu Li",
+        "Cheng Zhuo"
+      ],
+      "date": "2026-06-01",
+      "arxiv_id": "2605.31158",
+      "relevance": 3,
+      "category": "cs.CV",
+      "topic": "world-models-ad",
+      "state": "[新发现]",
+      "abstract": "Training-free inference acceleration for interactive video world models. Combines adaptive context management, denoising cache, and 3D block sparse attention. Up to 2.59x speedup on HY-WorldPlay and Matrix-Game-3.0.",
+      "url": "https://arxiv.org/abs/2605.31158",
+      "tags": [
+        "world model",
+        "inference acceleration",
+        "interactive video"
+      ]
+    },
+    {
+      "id": "2605.30983",
+      "title": "Can BEV Perception Gracefully Degrade under Sensor Failures?",
+      "authors": [
+        "Haifa Zhang",
+        "Yijing Wang",
+        "Haoyu Wang",
+        "Zheng Li",
+        "Zhiqiang Zuo"
+      ],
+      "date": "2026-06-01",
+      "arxiv_id": "2605.30983",
+      "relevance": 3,
+      "category": "cs.CV",
+      "topic": "e2e-autonomous-driving",
+      "state": "[新发现]",
+      "abstract": "Grace-BEV: lightweight plug-and-play framework for active reliability-aware multi-modal fusion. Recovers from catastrophic LiDAR failure (0.0% → 34.7% mAP) and improves clean accuracy by 1.4%. Three-Phase Training with Modality Dropout.",
+      "url": "https://arxiv.org/abs/2605.30983",
+      "tags": [
+        "BEV",
+        "sensor fusion",
+        "robustness",
+        "sensor failure"
+      ]
+    },
+    {
+      "id": "2605.31271",
+      "title": "DriveMA: Driving Vision-Language-Action Models with verifiable Meta-Actions",
+      "authors": [
+        "Weicheng Zheng",
+        "Yixin Huang",
+        "Qiao Sun",
+        "Derun Li",
+        "Hang Zhao"
+      ],
+      "date": "2026-06-01",
+      "arxiv_id": "2605.31271",
+      "relevance": 4,
+      "category": "cs.CV",
+      "topic": "vla-autonomous-driving",
+      "state": "[新发现]",
+      "abstract": "Driving VLA framework with verifiable meta-actions and action-centric supervised training. Uses trajectory-grounded annotation and RL with turn-level credit assignment. SOTA on Waymo (8.060 RFS with 2B, 8.079 with 4B).",
+      "url": "https://arxiv.org/abs/2605.31271",
+      "tags": [
+        "VLA",
+        "meta-actions",
+        "RL",
+        "end-to-end planning"
+      ]
+    },
+    {
+      "id": "2605.31041",
+      "title": "Does Visual Information Play a Decisive Role in Vision-Language-Action Model Driving Behavior?",
+      "authors": [
+        "Jingtao He",
+        "Hongliang Lu",
+        "Xiaoyun Qiu",
+        "Yixuan Wang",
+        "Xinhu Zheng"
+      ],
+      "date": "2026-06-01",
+      "arxiv_id": "2605.31041",
+      "relevance": 4,
+      "category": "cs.CV",
+      "topic": "vla-autonomous-driving",
+      "state": "[新发现]",
+      "abstract": "Structured multi-level visual perturbation framework to analyze visual-behavior dependency in VLA-based driving models. Reveals evaluation-dependent dependency patterns and uneven visual grounding across abstraction levels.",
+      "url": "https://arxiv.org/abs/2605.31041",
+      "tags": [
+        "VLA",
+        "visual grounding",
+        "behavior analysis",
+        "robustness"
+      ]
+    },
+    {
+      "id": "2605.31116",
+      "title": "NTR: Neural Token Reconstruction for Scene Token Bottleneck in End-to-End Driving",
+      "authors": [
+        "Jiahui Li",
+        "Jiawei Sun",
+        "Zixiang Ren",
+        "Ming Liu",
+        "Jiamin Shi",
+        "Ruiteng Zhao",
+        "Zhiyang Liu",
+        "Liying Liu",
+        "Zuoguan Wang",
+        "Kaidi Yang"
+      ],
+      "date": "2026-06-01",
+      "arxiv_id": "2605.31116",
+      "relevance": 5,
+      "category": "cs.CV",
+      "topic": "e2e-autonomous-driving",
+      "state": "[新发现]",
+      "abstract": "Perception-free E2E driving with masked latent reconstruction for scene-token bottleneck. SOTA on Waymo E2E (8.0461 RFS) and NavSim1&2 (94.1 PDMS). Self-distillation framework preserves richer visual representations without explicit perception heads.",
+      "url": "https://arxiv.org/abs/2605.31116",
+      "tags": [
+        "end-to-end",
+        "representation learning",
+        "scene tokens",
+        "perception-free"
+      ]
+    },
+    {
       "id": "weekly-2026-W22",
       "title": "📚 本周论文精选 (2026-05-25 ~ 05-31)",
       "type": "weekly",
@@ -3096,7 +3253,8 @@
     }
   ],
   "updated": "2026-05-27",
-  "last_updated": "2026-05-28",
+  "last_updated": "2026-06-02T08:00:00+08:00",
   "last_scanned": "2026-05-30",
-  "total_papers": 153
+  "total_papers": 153,
+  "paper_count": 177
 }

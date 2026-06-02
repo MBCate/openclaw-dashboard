@@ -1,54 +1,25 @@
 {
-  "timestamp": "2026-06-02 11:35",
+  "timestamp": "2026-06-02T15:05:00+08:00",
   "date": "2026-06-02",
-  "period": "noon",
-  "indices": {
-    "上证指数": {
-      "price": 4056.24,
-      "change_pct": -0.04,
-      "change_amount": -1.50
-    },
-    "深证成指": {
-      "price": 15487.63,
-      "change_pct": 0.96,
-      "change_amount": 147.27
-    },
-    "创业板指": {
-      "price": 4035.93,
-      "change_pct": 2.15,
-      "change_amount": 84.99
-    },
-    "沪深300": {
-      "price": 4882.02,
-      "change_pct": 0.78,
-      "change_amount": 37.76
-    }
+  "indices": [
+    { "name": "上证指数", "code": "000001", "price": 4075.10, "change": 17.36, "change_pct": 0.43, "volume": 6422446, "turnover": 128096618 },
+    { "name": "深证成指", "code": "399001", "price": 15591.13, "change": 250.77, "change_pct": 1.63, "volume": 737350306, "turnover": 151202592 },
+    { "name": "创业板指", "code": "399006", "price": 4055.87, "change": 104.93, "change_pct": 2.66, "volume": 36898822, "turnover": 30389372 },
+    { "name": "沪深300", "code": "000300", "price": 4914.56, "change": 70.30, "change_pct": 1.45, "volume": 2817316, "turnover": 80675134 },
+    { "name": "上证50", "code": "000016", "price": 2920.27, "change": 26.55, "change_pct": 0.92, "volume": 599761, "turnover": 17169367 },
+    { "name": "科创50", "code": "000688", "price": 1690.56, "change": 26.86, "change_pct": 1.61, "volume": 155762, "turnover": 13370924 },
+    { "name": "中证500", "code": "399905", "price": 8321.43, "change": 47.22, "change_pct": 0.57, "volume": 239589696, "turnover": 54805091 }
+  ],
+  "north_flow": {
+    "note": "北向资金数据收盘后显示交易状态为已关闭(状态3)，最终数据待确认",
+    "沪股通": { "net_buy": 0, "status": "closed" },
+    "深股通": { "net_buy": 0, "status": "closed" }
   },
   "boards": {
-    "top_industry": [
-      {"name": "通信线缆及配套", "change_pct": 5.32},
-      {"name": "被动元件", "change_pct": 5.30},
-      {"name": "通信网络设备及器件", "change_pct": 3.21},
-      {"name": "非金属材料", "change_pct": 3.06},
-      {"name": "非金属材料Ⅱ", "change_pct": 3.06}
-    ],
-    "top_concept": [
-      {"name": "MLCC", "change_pct": 7.24},
-      {"name": "历史新高", "change_pct": 4.47},
-      {"name": "被动元件概念", "change_pct": 4.05},
-      {"name": "CPO概念", "change_pct": 3.48},
-      {"name": "光通信模块", "change_pct": 3.48}
-    ],
-    "bottom_industry": [
-      {"name": "体育", "change_pct": -7.60},
-      {"name": "其他数字媒体", "change_pct": -5.86},
-      {"name": "影视动漫制作", "change_pct": -4.84},
-      {"name": "综合电力设备商", "change_pct": -4.83},
-      {"name": "焦炭Ⅱ", "change_pct": -4.78}
-    ]
+    "note": "行业板块数据获取异常（东财API连接超时），以下为实时观察到的指数表现"
   },
-  "north_flow": {
-    "note": "午盘数据 - 北向实时指标尚未刷新"
-  },
-  "note": "午盘数据 (11:35) — 创业板领涨 +2.15%，通信/MLCC板块爆发，体育/传媒调整"
+  "market_summary": {
+    "advance": "三大指数全线上涨，创业板指涨2.66%领涨，深证成指涨1.63%，沪深300涨1.45%，科创50涨1.61%",
+    "note": "今日A股市场整体表现强势，中小创领涨，沪指涨幅相对温和"
+  }
 }

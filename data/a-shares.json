@@ -1,76 +1,54 @@
 {
-  "timestamp": "2026-06-01 15:05",
-  "date": "2026-06-01",
+  "timestamp": "2026-06-02 11:35",
+  "date": "2026-06-02",
+  "period": "noon",
   "indices": {
     "上证指数": {
-      "price": 4057.74,
-      "change_pct": -0.27,
-      "change_amount": -10.83,
-      "open": 4067.16,
-      "high": 4093.04,
-      "low": 4045.69,
-      "prev_close": 4068.57,
-      "volume": 676025806,
-      "amount": 13198.02
+      "price": 4056.24,
+      "change_pct": -0.04,
+      "change_amount": -1.50
     },
     "深证成指": {
-      "price": 15340.36,
-      "change_pct": -1.51,
-      "change_amount": -234.77,
-      "open": 15601.03,
-      "high": 15717.46,
-      "low": 15316.02,
-      "prev_close": 15575.13,
-      "amount": 15576.86
+      "price": 15487.63,
+      "change_pct": 0.96,
+      "change_amount": 147.27
     },
     "创业板指": {
-      "price": 3950.94,
-      "change_pct": -2.15,
-      "change_amount": -87.01,
-      "open": 4057.39,
-      "high": 4081.42,
-      "low": 3942.68,
-      "prev_close": 4037.95,
-      "amount": 7285.31
+      "price": 4035.93,
+      "change_pct": 2.15,
+      "change_amount": 84.99
     },
     "沪深300": {
-      "price": 4844.26,
-      "change_pct": -0.98,
-      "change_amount": -47.86,
-      "open": 4897.90,
-      "high": 4918.79,
-      "low": 4836.69,
-      "prev_close": 4892.12,
-      "amount": 8239.85
+      "price": 4882.02,
+      "change_pct": 0.78,
+      "change_amount": 37.76
     }
   },
   "boards": {
-    "top": [
-      {"name": "水泥建材", "change_pct": 2.35, "amount": 285.6},
-      {"name": "银行", "change_pct": 1.82, "amount": 412.3},
-      {"name": "电力行业", "change_pct": 1.56, "amount": 356.8},
-      {"name": "煤炭行业", "change_pct": 1.28, "amount": 198.4},
-      {"name": "石油行业", "change_pct": 0.95, "amount": 267.1}
+    "top_industry": [
+      {"name": "通信线缆及配套", "change_pct": 5.32},
+      {"name": "被动元件", "change_pct": 5.30},
+      {"name": "通信网络设备及器件", "change_pct": 3.21},
+      {"name": "非金属材料", "change_pct": 3.06},
+      {"name": "非金属材料Ⅱ", "change_pct": 3.06}
     ],
-    "bottom": [
-      {"name": "半导体", "change_pct": -4.12, "amount": 892.5},
-      {"name": "软件开发", "change_pct": -3.85, "amount": 567.3},
-      {"name": "消费电子", "change_pct": -3.52, "amount": 423.6},
-      {"name": "通信设备", "change_pct": -3.18, "amount": 389.2},
-      {"name": "国防军工", "change_pct": -2.86, "amount": 456.7}
+    "top_concept": [
+      {"name": "MLCC", "change_pct": 7.24},
+      {"name": "历史新高", "change_pct": 4.47},
+      {"name": "被动元件概念", "change_pct": 4.05},
+      {"name": "CPO概念", "change_pct": 3.48},
+      {"name": "光通信模块", "change_pct": 3.48}
+    ],
+    "bottom_industry": [
+      {"name": "体育", "change_pct": -7.60},
+      {"name": "其他数字媒体", "change_pct": -5.86},
+      {"name": "影视动漫制作", "change_pct": -4.84},
+      {"name": "综合电力设备商", "change_pct": -4.83},
+      {"name": "焦炭Ⅱ", "change_pct": -4.78}
     ]
   },
   "north_flow": {
-    "date": "2026-06-01",
-    "value": -35.82,
-    "value_5day": -128.50,
-    "note": "北向资金净流出35.82亿"
+    "note": "午盘数据 - 北向实时指标尚未刷新"
   },
-  "breadth": {
-    "up": 1126,
-    "down": 3128,
-    "flat": 89,
-    "total": 4343,
-    "up_ratio": 25.93
-  }
+  "note": "午盘数据 (11:35) — 创业板领涨 +2.15%，通信/MLCC板块爆发，体育/传媒调整"
 }

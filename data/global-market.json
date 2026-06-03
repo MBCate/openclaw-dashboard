@@ -1,59 +1,84 @@
 {
-  "timestamp": "2026-06-02T13:30:00Z",
-  "date": "2026-06-02",
+  "timestamp": "2026-06-03T01:15:00Z",
+  "date": "2026-06-03",
+  "a_share": {
+    "shanghai_composite": {
+      "pre_open": 4074.74,
+      "change_pct": -0.01,
+      "open_pct": "09:30开盘"
+    },
+    "shenzhen_component": {
+      "pre_open": 15591.13,
+      "change_pct": 0.00,
+      "open_pct": "09:30开盘"
+    },
+    "chi_next": {
+      "pre_open": 4055.87,
+      "change_pct": 0.00,
+      "open_pct": "09:30开盘"
+    },
+    "csi_300": {
+      "pre_open": 4914.44,
+      "change_pct": 0.00
+    },
+    "star_50": {
+      "pre_open": 1690.56,
+      "change_pct": 0.00
+    }
+  },
   "us_indices": {
     "snp500": {
-      "close": 7591.32,
-      "change": -8.64,
-      "change_pct": -0.11,
-      "prev_close": 7599.96,
-      "ytd_pct": 10.5
+      "close": 7605,
+      "change_pct": null,
+      "note": "CNBC: S&P 500 posts first close above 7,600, 9th straight gain"
     },
     "dow_jones": {
-      "close": 51212.86,
-      "change": 133.98,
-      "change_pct": 0.26,
-      "prev_close": 51078.88
+      "close": 51462,
+      "change_pct": null,
+      "note": "Up 200+ points per CNBC"
     },
     "nasdaq": {
       "close": 26991.56,
-      "change": -95.25,
-      "change_pct": -0.35,
-      "prev_close": 27086.81
+      "change_pct": null,
+      "ytd_pct": null
     }
   },
   "hong_kong": {
     "hsi": {
       "close": 26038.32,
-      "change": 640.14,
       "change_pct": 2.52,
-      "prev_close": 25398.18
+      "prev_close": 25398.18,
+      "date": "2026-06-02"
     }
   },
   "crypto": {
     "bitcoin": {
-      "usd": 68935,
-      "change_24h_pct": -4.07
+      "usd": 66773,
+      "change_24h_pct": -6.24
     },
     "ethereum": {
-      "usd": 1976.24,
-      "change_24h_pct": -0.11
+      "usd": 1856.79,
+      "change_24h_pct": -6.88
     }
   },
-  "news_headlines": {
-    "cnbc": [
-      "Stocks fall as Wall Street slides from record highs",
-      "Nvidia's new PC chips represent CEO Huang's bid to win at every layer of AI stack",
-      "Alphabet plans to raise $80 billion from stock sales to fund AI build-out",
-      "Anthropic expands Mythos to 150 additional organizations in more than 15 countries",
-      "Trump picks housing Dir. Bill Pulte as acting intelligence chief"
+  "overnight_news": {
+    "geopolitics": [
+      "US-Iran stalemate: Iran has mined 'large segments' of Hormuz Strait (Rubio), oil climbs on escalating strikes",
+      "Trump-Netanyahu relationship under growing strain over Iran deal negotiations",
+      "US government appeals judge's order for Trump tariff refunds"
     ],
-    "bloomberg": [
-      "Stocks Halt Rally as Traders Weigh US-Iran Signals",
-      "M&A Lawyer Pleads Not Guilty to Leading Insider-Trading Ring",
-      "Philip Morris Cuts Outlook on $500 Million Canada Writedown",
-      "Senegal Bonds Go From Emerging-Market Leaders to Laggards",
-      "UniCredit Says Commerzbank Offer Set to Push Direct Stake to 34%"
+    "macro": [
+      "S&P 500 climbs 9th straight day — 'breadth paradox' rare warning signal (MarketWatch)",
+      "Palo Alto Networks AI boost to revenue outlook",
+      "SpaceX seeks $75 billion IPO at $135/share (Reuters)",
+      "Gold steady as uncertainty clouds US-Iran war talks (Bloomberg)",
+      "Asia stocks edge up to record (Bloomberg)"
+    ],
+    "markets": [
+      "Oil extends advance as US-Iran peace talk progress stalls",
+      "GameStop to buy back $2 billion of stock after eBay-fueled selloff",
+      "Alphabet plans $80 billion stock sale to fund AI build-out",
+      "Cliffwater's flagship private credit fund redemption requests hit 17%"
     ]
   }
 }

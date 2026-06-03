@@ -1,7 +1,8 @@
 {
-  "timestamp": "2026-06-02T15:05:00+08:00",
-  "date": "2026-06-02",
-  "source_updated": "2026-06-01T15:10:12.747707",
+  "date": "2026-06-03",
+  "time": "15:05",
+  "last_collected": "2026-06-01",
+  "note": "HelloQuant数据采集于2026-06-01，今日收盘尚未更新",
   "crypto": {
     "BTC/USDT": {
       "price": 73196.7,
@@ -60,6 +61,58 @@
         "bb_lower": 1993.12,
         "trend": "偏空"
       }
+    }
+  },
+  "stocks": {
+    "上证指数": {
+      "price": 4057.74,
+      "change": -0.266,
+      "volume": 676025806.0
+    },
+    "深证成指": {
+      "price": 15340.356,
+      "change": -1.507
+    },
+    "创业板指": {
+      "price": 3950.943,
+      "change": -2.155
+    },
+    "沪金主力": {
+      "price": 989.4,
+      "change": 2.94,
+      "date": "2026-05-29"
+    },
+    "沪银主力": {
+      "price": 18358.0,
+      "change": 3.19,
+      "date": "2026-05-29"
+    },
+    "沪铜主力": {
+      "price": 105000.0,
+      "change": 0.82,
+      "date": "2026-05-29"
+    },
+    "螺纹钢主力": {
+      "price": 3158.0,
+      "change": 0.41,
+      "date": "2026-05-29"
+    },
+    "沪深300期货": {
+      "price": 4847.8,
+      "change": -0.17,
+      "date": "2026-05-29"
+    },
+    "中证500期货": {
+      "price": 8274.6,
+      "change": -2.17,
+      "date": "2026-05-29"
+    }
+  },
+  "sentiment": {
+    "crypto_fear_greed": {
+      "value": 29,
+      "classification": "Fear",
+      "timestamp": "1780272000"
     }
   },
   "signals": {
@@ -143,27 +196,5 @@
         "current_price": 73169.5
       }
     }
-  },
-  "a_shares": {
-    "上证指数": {
-      "price": 4075.1,
-      "change_pct": 0.43
-    },
-    "深证成指": {
-      "price": 15591.13,
-      "change_pct": 1.63
-    },
-    "创业板指": {
-      "price": 4055.87,
-      "change_pct": 2.66
-    }
-  },
-  "sentiment": {
-    "crypto_fear_greed": {
-      "value": 29,
-      "classification": "Fear",
-      "timestamp": "1780272000"
-    },
-    "note": "今日A股情绪偏乐观，三大指数全线上涨"
   }
 }

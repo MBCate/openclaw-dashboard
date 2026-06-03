@@ -1,84 +1,80 @@
 {
-  "timestamp": "2026-06-03T01:15:00Z",
+  "timestamp": "2026-06-03T21:30:41+08:00",
   "date": "2026-06-03",
-  "a_share": {
-    "shanghai_composite": {
-      "pre_open": 4074.74,
-      "change_pct": -0.01,
-      "open_pct": "09:30开盘"
-    },
-    "shenzhen_component": {
-      "pre_open": 15591.13,
-      "change_pct": 0.00,
-      "open_pct": "09:30开盘"
-    },
-    "chi_next": {
-      "pre_open": 4055.87,
-      "change_pct": 0.00,
-      "open_pct": "09:30开盘"
-    },
-    "csi_300": {
-      "pre_open": 4914.44,
-      "change_pct": 0.00
-    },
-    "star_50": {
-      "pre_open": 1690.56,
-      "change_pct": 0.00
-    }
-  },
-  "us_indices": {
-    "snp500": {
-      "close": 7605,
-      "change_pct": null,
-      "note": "CNBC: S&P 500 posts first close above 7,600, 9th straight gain"
-    },
-    "dow_jones": {
-      "close": 51462,
-      "change_pct": null,
-      "note": "Up 200+ points per CNBC"
+  "us_markets": {
+    "sp500": {
+      "price": 7599.33,
+      "change": -10.45,
+      "change_pct": -0.14
     },
     "nasdaq": {
-      "close": 26991.56,
-      "change_pct": null,
-      "ytd_pct": null
+      "price": 27092.94,
+      "change": -0.96,
+      "change_pct": 0.0
+    },
+    "dow_jones": {
+      "price": 51050.64,
+      "change": -257.15,
+      "change_pct": -0.5
     }
   },
-  "hong_kong": {
-    "hsi": {
-      "close": 26038.32,
-      "change_pct": 2.52,
-      "prev_close": 25398.18,
-      "date": "2026-06-02"
+  "hk_markets": {
+    "hang_seng": {
+      "price": 25633.21,
+      "change": -405.11,
+      "change_pct": -1.56
     }
   },
   "crypto": {
     "bitcoin": {
-      "usd": 66773,
-      "change_24h_pct": -6.24
+      "price": 66787,
+      "change_pct_24h": -3.12
     },
     "ethereum": {
-      "usd": 1856.79,
-      "change_24h_pct": -6.88
+      "price": 1866.5,
+      "change_pct_24h": -5.56
     }
   },
-  "overnight_news": {
-    "geopolitics": [
-      "US-Iran stalemate: Iran has mined 'large segments' of Hormuz Strait (Rubio), oil climbs on escalating strikes",
-      "Trump-Netanyahu relationship under growing strain over Iran deal negotiations",
-      "US government appeals judge's order for Trump tariff refunds"
-    ],
-    "macro": [
-      "S&P 500 climbs 9th straight day — 'breadth paradox' rare warning signal (MarketWatch)",
-      "Palo Alto Networks AI boost to revenue outlook",
-      "SpaceX seeks $75 billion IPO at $135/share (Reuters)",
-      "Gold steady as uncertainty clouds US-Iran war talks (Bloomberg)",
-      "Asia stocks edge up to record (Bloomberg)"
-    ],
-    "markets": [
-      "Oil extends advance as US-Iran peace talk progress stalls",
-      "GameStop to buy back $2 billion of stock after eBay-fueled selloff",
-      "Alphabet plans $80 billion stock sale to fund AI build-out",
-      "Cliffwater's flagship private credit fund redemption requests hit 17%"
-    ]
-  }
+  "news": [
+    {
+      "source": "CNBC",
+      "title": "Trump says Iran agreed to not have nuclear weapons, but 'they can change their mind'"
+    },
+    {
+      "source": "CNBC",
+      "title": "Private payrolls grew by 122,000 in May, stronger than expected, ADP reports"
+    },
+    {
+      "source": "CNBC",
+      "title": "Dow futures drop 200 points as oil prices and bond yields creep higher"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Stock Market Today: Dow Falls Amid Latest Trump Comments On Iran Nukes; AI Stock Marvell Soars"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Marvell stock extends gains after 32% pop as Nvidia CEO calls chipmaker 'the next trillion-dollar company'"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Treasuries Fall Most in Two Weeks on Rate-Hike Bets"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "SpaceX Is Said to Target 5 Billion in IPO at 35 Per Share"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "OECD gives stark warning: Inflation headed higher and growth lower"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "ADP says businesses create the most new jobs in 16 months, hiring rebounds"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "AI-powered trading has erased investors' 6% edge"
+    }
+  ]
 }

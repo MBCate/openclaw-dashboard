@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-31 10:00 CST",
-  "totalPapers": 170,
-  "newThisScan": "top5-weekly",
+  "lastUpdated": "2026-06-03 08:00 CST",
+  "totalPapers": 184,
+  "newThisScan": "7 new papers (June 1, 2026 scan)",
   "papers": [
     {
       "id": "2605.31336",
@@ -3250,11 +3250,174 @@
       "summary": "CVPR 2026 Oral。通过轨迹扰动+响应环境模拟+神经渲染生成大规模仿真数据。NAVSIM v2 navhard +8.6 EPDMS，性能随仿真数据量平滑扩展。CASIA/OpenDriveLab/小米汽车联合。",
       "url": "https://arxiv.org/abs/2511.23369",
       "status": "新发现"
+    },
+    {
+      "id": "2606.02105",
+      "title": "Multimodal Action Diffusion for Robust End-to-End Autonomous Driving",
+      "authors": [
+        "Jorge Daniel Rodríguez-Vidal",
+        "et al."
+      ],
+      "date": "2026-06-01",
+      "arxiv_id": "2606.02105",
+      "relevance": 5,
+      "category": "cs.CV",
+      "topic": "e2e-autonomous-driving",
+      "state": "[新发现]",
+      "abstract": "提出Action Diffusion Transformer (ADT)，一种anchor-free扩散transformer原生建模多模态驾驶动作分布。生成K个action候选并通过最近邻匹配选择，在Bench2Drive上超越SOTA，延迟降低10倍。论证动作多模态性对表征质量和训练稳定性的核心作用。",
+      "url": "https://arxiv.org/abs/2606.02105",
+      "tags": [
+        "end-to-end driving",
+        "diffusion policy",
+        "action multimodality",
+        "transformer",
+        "Bench2Drive"
+      ]
+    },
+    {
+      "id": "2606.01847",
+      "title": "The Lie We Tell: Correcting the Euclidean Fallacy in Vision Language Action Policies via Score Matching on Tangent Space",
+      "authors": [
+        "Bing-Cheng Chuang",
+        "et al."
+      ],
+      "date": "2026-06-01",
+      "arxiv_id": "2606.01847",
+      "relevance": 4,
+      "category": "cs.RO",
+      "topic": "vla-autonomous-driving",
+      "state": "[新发现]",
+      "abstract": "指出VLA策略将SE(3)姿态视为平坦R^12向量的欧几里得谬误。提出Lie Diffuser Actor (LDA)，在SE(3)流形上运行的扩散框架，通过左不变SDE注入噪声、切空间分数预测、指数映射回缩。消除流形漂移并保证坐标框架等变性。CALVIN ABC→D提升7.3%。ICML 2026接收。",
+      "url": "https://arxiv.org/abs/2606.01847",
+      "tags": [
+        "VLA",
+        "diffusion policy",
+        "SE(3)",
+        "Lie group",
+        "robot manipulation",
+        "ICML 2026"
+      ]
+    },
+    {
+      "id": "2606.02486",
+      "title": "Intercepting the Future: Latent-Space Predictive World Model for Dynamic VLA Manipulation",
+      "authors": [
+        "Shahram Najam Syed",
+        "et al."
+      ],
+      "date": "2026-06-01",
+      "arxiv_id": "2606.02486",
+      "relevance": 5,
+      "category": "cs.RO",
+      "topic": "world-models-ad",
+      "state": "[新发现]",
+      "abstract": "提出AHEAD (Anticipatory Horizon Extrapolation with Adaptive Dynamics)，一种predict-then-act包装器，用运动感知潜空间世界模型增强冻结的VLA。预测未来patch token，使用语言-运动显著掩码聚焦任务相关区域，自适应预测视界。仅增加4.9M参数，在动态场景中79-97%成功率（基线31-58%），真机实验大幅超越基线。",
+      "url": "https://arxiv.org/abs/2606.02486",
+      "tags": [
+        "world model",
+        "VLA",
+        "latent prediction",
+        "dynamic manipulation",
+        "motion-aware"
+      ]
+    },
+    {
+      "id": "2606.02510",
+      "title": "Not All Points Are Equal: Uncertainty-Aware 4D LiDAR Scene Synthesis",
+      "authors": [
+        "Lingdong Kong",
+        "et al."
+      ],
+      "date": "2026-06-01",
+      "arxiv_id": "2606.02510",
+      "relevance": 4,
+      "category": "cs.CV",
+      "topic": "world-models-ad",
+      "state": "[新发现]",
+      "abstract": "提出U4D框架，利用空间不确定性引导LiDAR场景生成。通过香农熵生成逐点不确定性图，用无条件扩散合成高熵区域，条件扩散补全剩余区域。MoST块实现时空一致性。在nuScenes和SemanticKITTI上SOTA。CVPR 2026 E2E3D Workshop。",
+      "url": "https://arxiv.org/abs/2606.02510",
+      "tags": [
+        "LiDAR",
+        "4D scene synthesis",
+        "uncertainty",
+        "diffusion",
+        "autonomous driving",
+        "nuScenes",
+        "CVPR 2026"
+      ]
+    },
+    {
+      "id": "2606.01950",
+      "title": "Learning Action-Conditional and Object-Centric Gaussian Splatting World Models for Rigid Objects",
+      "authors": [
+        "Jens Ulrich Kreber",
+        "et al."
+      ],
+      "date": "2026-06-01",
+      "arxiv_id": "2606.01950",
+      "relevance": 4,
+      "category": "cs.RO",
+      "topic": "world-models-ad",
+      "state": "[新发现]",
+      "abstract": "提出MRO-GWM，用物体中心Gaussians学习刚体物体动作条件动力学。新颖的时空transformer从历史物体Gaussians和未来动作预测刚体运动。支持任意物体形状和多物体场景，在模型预测控制中验证非抓取操作。",
+      "url": "https://arxiv.org/abs/2606.01950",
+      "tags": [
+        "world model",
+        "Gaussian Splatting",
+        "object-centric",
+        "dynamics prediction",
+        "robot manipulation"
+      ]
+    },
+    {
+      "id": "2606.02577",
+      "title": "RoboDream: Compositional World Models for Scalable Robot Data Synthesis",
+      "authors": [
+        "Junjie Ye",
+        "et al."
+      ],
+      "date": "2026-06-01",
+      "arxiv_id": "2606.02577",
+      "relevance": 4,
+      "category": "cs.RO",
+      "topic": "world-models-ad",
+      "state": "[新发现]",
+      "abstract": "提出以embodiment为中心的世界模型，通过合成照片级逼真的演示实现可扩展数据生成。将轨迹执行与环境合成解耦，实现两个能力：(1) 将现有轨迹重用于全新环境，(2) 无道具遥操作（操作员空手操作，模型生成物体和场景）。真实实验证实生成数据提升策略性能。",
+      "url": "https://arxiv.org/abs/2606.02577",
+      "tags": [
+        "world model",
+        "data synthesis",
+        "robot learning",
+        "video diffusion",
+        "teleoperation"
+      ]
+    },
+    {
+      "id": "2606.02027",
+      "title": "World-Task Factorization for Robot Learning",
+      "authors": [
+        "et al."
+      ],
+      "date": "2026-06-01",
+      "arxiv_id": "2606.02027",
+      "relevance": 3,
+      "category": "cs.RO",
+      "topic": "world-models-ad",
+      "state": "[新发现]",
+      "abstract": "研究机器人学习中world/task分解的基础问题。通过贝叶斯模型证据形式化非对称性，用AICON可微图与紧凑策略配对实现。梯度作为两因子间接口，实现低维学习同时保持结构泛化。在异构机器人、环境和任务逻辑中超越端到端基线。",
+      "url": "https://arxiv.org/abs/2606.02027",
+      "tags": [
+        "world model",
+        "task factorization",
+        "robot learning",
+        "generalization",
+        "Bayesian"
+      ]
     }
   ],
-  "updated": "2026-05-27",
-  "last_updated": "2026-06-02T08:00:00+08:00",
-  "last_scanned": "2026-05-30",
-  "total_papers": 153,
-  "paper_count": 177
+  "updated": "2026-06-03T00:00:00Z",
+  "last_updated": "2026-06-03T00:00:00Z",
+  "last_scanned": "2026-06-03",
+  "total_papers": 184,
+  "paper_count": 184
 }

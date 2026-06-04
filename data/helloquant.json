@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-03",
+  "date": "2026-06-04",
   "time": "15:05",
   "last_collected": "2026-06-01",
-  "note": "HelloQuant数据采集于2026-06-01，今日收盘尚未更新",
+  "note": "HelloQuant数据采集于6月1日，今日数据源暂不可用",
   "crypto": {
     "BTC/USDT": {
       "price": 73196.7,
@@ -63,56 +63,64 @@
       }
     }
   },
-  "stocks": {
-    "上证指数": {
-      "price": 4057.74,
-      "change": -0.266,
-      "volume": 676025806.0
+  "indicators": {
+    "BTC/USDT": {
+      "price": 73196.7,
+      "change_24h": -1.1050522464486736,
+      "high_24h": 74210.9,
+      "low_24h": 72964.9,
+      "volume_24h": 274778280.58697736,
+      "indicators_1h": {
+        "rsi": 40.8,
+        "macd": -133.99,
+        "macd_signal": -75.5,
+        "macd_status": "死叉",
+        "ma5": 73392.8,
+        "ma20": 73633.27,
+        "bb_upper": 74112.62,
+        "bb_lower": 73153.93,
+        "trend": "偏空"
+      },
+      "indicators_4h": {
+        "rsi": 44.5,
+        "macd": -322.67,
+        "macd_signal": -384.5,
+        "macd_status": "金叉",
+        "ma5": 73569.98,
+        "ma20": 73668.82,
+        "bb_upper": 74155.26,
+        "bb_lower": 73182.38,
+        "trend": "偏空"
+      }
     },
-    "深证成指": {
-      "price": 15340.356,
-      "change": -1.507
-    },
-    "创业板指": {
-      "price": 3950.943,
-      "change": -2.155
-    },
-    "沪金主力": {
-      "price": 989.4,
-      "change": 2.94,
-      "date": "2026-05-29"
-    },
-    "沪银主力": {
-      "price": 18358.0,
-      "change": 3.19,
-      "date": "2026-05-29"
-    },
-    "沪铜主力": {
-      "price": 105000.0,
-      "change": 0.82,
-      "date": "2026-05-29"
-    },
-    "螺纹钢主力": {
-      "price": 3158.0,
-      "change": 0.41,
-      "date": "2026-05-29"
-    },
-    "沪深300期货": {
-      "price": 4847.8,
-      "change": -0.17,
-      "date": "2026-05-29"
-    },
-    "中证500期货": {
-      "price": 8274.6,
-      "change": -2.17,
-      "date": "2026-05-29"
-    }
-  },
-  "sentiment": {
-    "crypto_fear_greed": {
-      "value": 29,
-      "classification": "Fear",
-      "timestamp": "1780272000"
+    "ETH/USDT": {
+      "price": 1990.42,
+      "change_24h": -1.8583804625981826,
+      "high_24h": 2029.04,
+      "low_24h": 1980.22,
+      "volume_24h": 136146924.9815634,
+      "indicators_1h": {
+        "rsi": 41.8,
+        "macd": -6.63,
+        "macd_signal": -4.99,
+        "macd_status": "死叉",
+        "ma5": 1996.4,
+        "ma20": 2005.72,
+        "bb_upper": 2024.33,
+        "bb_lower": 1987.11,
+        "trend": "偏空"
+      },
+      "indicators_4h": {
+        "rsi": 37.3,
+        "macd": -11.44,
+        "macd_signal": -11.54,
+        "macd_status": "金叉",
+        "ma5": 2003.45,
+        "ma20": 2015.4,
+        "bb_upper": 2037.68,
+        "bb_lower": 1993.12,
+        "trend": "偏空"
+      }
     }
   },
   "signals": {

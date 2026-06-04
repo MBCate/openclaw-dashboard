@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-03T21:30:41+08:00",
-  "date": "2026-06-03",
-  "us_markets": {
+  "timestamp": "2026-06-04T09:15:00+08:00",
+  "date": "2026-06-04",
+  "us_markets_closed": {
     "sp500": {
       "price": 7599.33,
       "change": -10.45,
@@ -18,6 +18,16 @@
       "change_pct": -0.5
     }
   },
+  "us_futures": {
+    "sp500_futures": {
+      "direction": "down",
+      "note": "Futures lower pre-market driven by Broadcom AI rout"
+    },
+    "nasdaq_futures": {
+      "direction": "down",
+      "note": "AI stocks under pressure after Broadcom forecast"
+    }
+  },
   "hk_markets": {
     "hang_seng": {
       "price": 25633.21,
@@ -25,56 +35,93 @@
       "change_pct": -1.56
     }
   },
+  "asia_markets_preopen": {
+    "japan_nikkei": {
+      "direction": "lower expected",
+      "note": "Futures pointing down on AI rout"
+    },
+    "hk_hang_seng": {
+      "direction": "lower expected",
+      "note": "Following US tech selloff"
+    },
+    "china_a50_futures": {
+      "direction": "mixed",
+      "note": "Awaiting A-share open"
+    }
+  },
+  "commodities": {
+    "wti_crude": {
+      "price": 95.30,
+      "change_pct": -0.75,
+      "note": "Israel-Lebanon ceasefire, US-Iran tensions ease partially"
+    },
+    "gold": {
+      "note": "Settled lower, Comex gold/silver down"
+    }
+  },
   "crypto": {
     "bitcoin": {
-      "price": 66787,
-      "change_pct_24h": -3.12
+      "price": 62860,
+      "change_pct_24h": -5.88
     },
     "ethereum": {
       "price": 1866.5,
       "change_pct_24h": -5.56
     }
   },
-  "news": [
+  "overnight_news": [
     {
       "source": "CNBC",
-      "title": "Trump says Iran agreed to not have nuclear weapons, but 'they can change their mind'"
+      "title": "Broadcom stock plunges on weak software sales, unchanged AI chip forecast for the year"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Asian Stocks Drop After Broadcom Outlook, Oil Dips: Markets Wrap"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Oil Falls as Israel and Lebanon Agree to Conditional Ceasefire"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Quantinuum raises $1.68 billion in IPO that seeks to give quantum computing more street cred"
+    },
+    {
+      "source": "WSJ",
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek"
+    },
+    {
+      "source": "CNBC",
+      "title": "SpaceX targets $135 IPO price at valuation of $1.77 trillion"
+    },
+    {
+      "source": "BBC",
+      "title": "US announces new tariffs over forced labour concerns"
     },
     {
       "source": "CNBC",
       "title": "Private payrolls grew by 122,000 in May, stronger than expected, ADP reports"
     },
     {
-      "source": "CNBC",
-      "title": "Dow futures drop 200 points as oil prices and bond yields creep higher"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Stock Market Today: Dow Falls Amid Latest Trump Comments On Iran Nukes; AI Stock Marvell Soars"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Marvell stock extends gains after 32% pop as Nvidia CEO calls chipmaker 'the next trillion-dollar company'"
+      "source": "MarketWatch",
+      "title": "CrowdStrike's stock falls as investors find more reason to pan cybersecurity earnings"
     },
     {
       "source": "Bloomberg",
-      "title": "Treasuries Fall Most in Two Weeks on Rate-Hike Bets"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "SpaceX Is Said to Target 5 Billion in IPO at 35 Per Share"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "OECD gives stark warning: Inflation headed higher and growth lower"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "ADP says businesses create the most new jobs in 16 months, hiring rebounds"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "AI-powered trading has erased investors' 6% edge"
+      "title": "Deadly Screwworm Parasite Found in US Threatens Cattle Herd"
     }
+  ],
+  "macro_highlights": {
+    "oil": "WTI $95.30 (-0.75%) — Israel-Lebanon ceasefire deal weighed on risk premium",
+    "dollar": "USD steady, bond yields creeping higher",
+    "data": "ADP May +122K jobs (above est), weekly jobless claims due today",
+    "geopolitics": "US-Iran fresh clashes, Israel-Lebanon conditional ceasefire agreed",
+    "tech": "Broadcom AVGO drops 10% after-hours — unchanged AI chip forecast, weak software sales ripple across tech"
+  },
+  "today_calendar": [
+    "09:30 中国5月财新服务业PMI",
+    "20:15 美国5月ADP就业数据(已公布122K)",
+    "20:30 美国初请失业金人数",
+    "22:00 美国5月ISM非制造业PMI"
   ]
 }

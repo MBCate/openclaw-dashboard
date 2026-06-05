@@ -63,7 +63,40 @@
       }
     }
   },
-  "strategy_signals": {},
+  "strategy_signals": {
+    "DoubleMa": {
+      "1h": "观望",
+      "4h": "观望"
+    },
+    "RSI": {
+      "1h": "做多",
+      "4h": "做多"
+    },
+    "MACD": {
+      "1h": "做空",
+      "4h": "观望"
+    },
+    "Bollinger": {
+      "1h": "做多",
+      "4h": "观望"
+    },
+    "Supertrend": {
+      "1h": "观望",
+      "4h": "观望"
+    },
+    "TripleMa": {
+      "1h": "观望",
+      "4h": "观望"
+    },
+    "Momentum": {
+      "1h": "观望",
+      "4h": "观望"
+    },
+    "MeanReversion": {
+      "1h": "做多",
+      "4h": "观望"
+    }
+  },
   "futures": {},
   "sentiment": {
     "crypto_fear_greed": {
@@ -72,5 +105,74 @@
       "timestamp": "1780617600"
     }
   },
-  "raw_signals_text": "信号概况：\n- DoubleMa: 1h=观望, 4h=观望\n- RSI: 1h=做多, 4h=做多\n- MACD: 1h=做空, 4h=观望\n- Bollinger: 1h=做多, 4h=观望\n- Supertrend: 1h=观望, 4h=观望\n- TripleMa: 1h=观望, 4h=观望\n- Momentum: 1h=观望, 4h=观望\n- MeanReversion: 1h=做多, 4h=观望"
+  "raw_signals_text": "信号概况：\n- DoubleMa: 1h=观望, 4h=观望\n- RSI: 1h=做多, 4h=做多\n- MACD: 1h=做空, 4h=观望\n- Bollinger: 1h=做多, 4h=观望\n- Supertrend: 1h=观望, 4h=观望\n- TripleMa: 1h=观望, 4h=观望\n- Momentum: 1h=观望, 4h=观望\n- MeanReversion: 1h=做多, 4h=观望",
+  "weekly": {
+    "report_date": "2026-06-05",
+    "period": "2026-06-01 ~ 2026-06-05",
+    "market_summary": {
+      "btc_weekly_change": -3.7,
+      "eth_weekly_change": -7.9,
+      "btc_weekly_low": 61128,
+      "btc_weekly_high": 64489,
+      "trend": "偏空",
+      "fear_greed": 12,
+      "fear_level": "极度恐惧"
+    },
+    "strategy_performance": [
+      {
+        "name": "RSI",
+        "1h": "做多",
+        "4h": "做多",
+        "signal_count": "看涨信号"
+      },
+      {
+        "name": "Bollinger",
+        "1h": "做多",
+        "4h": "观望",
+        "signal_count": "1个看涨"
+      },
+      {
+        "name": "MeanReversion",
+        "1h": "做多",
+        "4h": "观望",
+        "signal_count": "1个看涨"
+      },
+      {
+        "name": "MACD",
+        "1h": "做空",
+        "4h": "观望",
+        "signal_count": "1个看跌"
+      },
+      {
+        "name": "DoubleMa",
+        "1h": "观望",
+        "4h": "观望",
+        "signal_count": "观望"
+      },
+      {
+        "name": "Supertrend",
+        "1h": "观望",
+        "4h": "观望",
+        "signal_count": "观望"
+      },
+      {
+        "name": "TripleMa",
+        "1h": "观望",
+        "4h": "观望",
+        "signal_count": "观望"
+      },
+      {
+        "name": "Momentum",
+        "1h": "观望",
+        "4h": "观望",
+        "signal_count": "观望"
+      }
+    ],
+    "strategy_outlook": {
+      "bullish_signals": 3,
+      "bearish_signals": 1,
+      "neutral_signals": 4,
+      "consensus": "偏多震荡 — RSI超卖区域出现反弹信号，但MACD死叉压制中期空间"
+    }
+  }
 }

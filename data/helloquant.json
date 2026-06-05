@@ -1,208 +1,76 @@
 {
-  "date": "2026-06-04",
+  "date": "2026-06-05",
   "time": "15:05",
-  "last_collected": "2026-06-01",
-  "note": "HelloQuant数据采集于6月1日，今日数据源暂不可用",
+  "last_collected": "2026-06-05",
+  "note": "HelloQuant数据采集于2026-06-05 15:07，信号基于OKX行情计算",
   "crypto": {
     "BTC/USDT": {
-      "price": 73196.7,
-      "change_24h": -1.1050522464486736,
-      "high_24h": 74210.9,
-      "low_24h": 72964.9,
-      "volume_24h": 274778280.58697736,
+      "price": 61440.0,
+      "change_24h": -3.7034366776431793,
+      "high_24h": 64488.7,
+      "low_24h": 61128.1,
+      "volume_24h": 845739151.1763526,
       "indicators_1h": {
-        "rsi": 40.8,
-        "macd": -133.99,
-        "macd_signal": -75.5,
+        "rsi": 32.2,
+        "macd": -601.78,
+        "macd_signal": -486.38,
         "macd_status": "死叉",
-        "ma5": 73392.8,
-        "ma20": 73633.27,
-        "bb_upper": 74112.62,
-        "bb_lower": 73153.93,
+        "ma5": 62416.3,
+        "ma20": 63322.42,
+        "bb_upper": 64782.34,
+        "bb_lower": 61862.51,
         "trend": "偏空"
       },
       "indicators_4h": {
-        "rsi": 44.5,
-        "macd": -322.67,
-        "macd_signal": -384.5,
-        "macd_status": "金叉",
-        "ma5": 73569.98,
-        "ma20": 73668.82,
-        "bb_upper": 74155.26,
-        "bb_lower": 73182.38,
+        "rsi": 27.3,
+        "macd": -2350.91,
+        "macd_signal": -2189.65,
+        "macd_status": "死叉",
+        "ma5": 63122.16,
+        "ma20": 65693.52,
+        "bb_upper": 70886.58,
+        "bb_lower": 60500.46,
         "trend": "偏空"
       }
     },
     "ETH/USDT": {
-      "price": 1990.42,
-      "change_24h": -1.8583804625981826,
-      "high_24h": 2029.04,
-      "low_24h": 1980.22,
-      "volume_24h": 136146924.9815634,
+      "price": 1638.46,
+      "change_24h": -7.94444506871327,
+      "high_24h": 1794.72,
+      "low_24h": 1622.0,
+      "volume_24h": 489118646.5206186,
       "indicators_1h": {
-        "rsi": 41.8,
-        "macd": -6.63,
-        "macd_signal": -4.99,
+        "rsi": 17.0,
+        "macd": -32.22,
+        "macd_signal": -21.85,
         "macd_status": "死叉",
-        "ma5": 1996.4,
-        "ma20": 2005.72,
-        "bb_upper": 2024.33,
-        "bb_lower": 1987.11,
+        "ma5": 1690.75,
+        "ma20": 1749.06,
+        "bb_upper": 1833.09,
+        "bb_lower": 1665.04,
         "trend": "偏空"
       },
       "indicators_4h": {
-        "rsi": 37.3,
-        "macd": -11.44,
-        "macd_signal": -11.54,
-        "macd_status": "金叉",
-        "ma5": 2003.45,
-        "ma20": 2015.4,
-        "bb_upper": 2037.68,
-        "bb_lower": 1993.12,
+        "rsi": 21.8,
+        "macd": -68.33,
+        "macd_signal": -55.29,
+        "macd_status": "死叉",
+        "ma5": 1738.56,
+        "ma20": 1836.1,
+        "bb_upper": 2019.93,
+        "bb_lower": 1652.27,
         "trend": "偏空"
       }
     }
   },
-  "indicators": {
-    "BTC/USDT": {
-      "price": 73196.7,
-      "change_24h": -1.1050522464486736,
-      "high_24h": 74210.9,
-      "low_24h": 72964.9,
-      "volume_24h": 274778280.58697736,
-      "indicators_1h": {
-        "rsi": 40.8,
-        "macd": -133.99,
-        "macd_signal": -75.5,
-        "macd_status": "死叉",
-        "ma5": 73392.8,
-        "ma20": 73633.27,
-        "bb_upper": 74112.62,
-        "bb_lower": 73153.93,
-        "trend": "偏空"
-      },
-      "indicators_4h": {
-        "rsi": 44.5,
-        "macd": -322.67,
-        "macd_signal": -384.5,
-        "macd_status": "金叉",
-        "ma5": 73569.98,
-        "ma20": 73668.82,
-        "bb_upper": 74155.26,
-        "bb_lower": 73182.38,
-        "trend": "偏空"
-      }
-    },
-    "ETH/USDT": {
-      "price": 1990.42,
-      "change_24h": -1.8583804625981826,
-      "high_24h": 2029.04,
-      "low_24h": 1980.22,
-      "volume_24h": 136146924.9815634,
-      "indicators_1h": {
-        "rsi": 41.8,
-        "macd": -6.63,
-        "macd_signal": -4.99,
-        "macd_status": "死叉",
-        "ma5": 1996.4,
-        "ma20": 2005.72,
-        "bb_upper": 2024.33,
-        "bb_lower": 1987.11,
-        "trend": "偏空"
-      },
-      "indicators_4h": {
-        "rsi": 37.3,
-        "macd": -11.44,
-        "macd_signal": -11.54,
-        "macd_status": "金叉",
-        "ma5": 2003.45,
-        "ma20": 2015.4,
-        "bb_upper": 2037.68,
-        "bb_lower": 1993.12,
-        "trend": "偏空"
-      }
+  "strategy_signals": {},
+  "futures": {},
+  "sentiment": {
+    "crypto_fear_greed": {
+      "value": 12,
+      "classification": "Extreme Fear",
+      "timestamp": "1780617600"
     }
   },
-  "signals": {
-    "DoubleMa": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 73169.5
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 73169.5
-      }
-    },
-    "RSI": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 73169.5
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 73169.5
-      }
-    },
-    "MACD": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 73169.5
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 73169.5
-      }
-    },
-    "Bollinger": {
-      "1h": {
-        "signal": "做多",
-        "current_price": 73169.5
-      },
-      "4h": {
-        "signal": "做多",
-        "current_price": 73169.5
-      }
-    },
-    "Supertrend": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 73169.5
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 73169.5
-      }
-    },
-    "TripleMa": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 73169.5
-      },
-      "4h": {
-        "signal": "做空",
-        "current_price": 73169.5
-      }
-    },
-    "Momentum": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 73169.5
-      },
-      "4h": {
-        "signal": "做空",
-        "current_price": 73169.5
-      }
-    },
-    "MeanReversion": {
-      "1h": {
-        "signal": "做多",
-        "current_price": 73169.5
-      },
-      "4h": {
-        "signal": "做多",
-        "current_price": 73169.5
-      }
-    }
-  }
+  "raw_signals_text": "信号概况：\n- DoubleMa: 1h=观望, 4h=观望\n- RSI: 1h=做多, 4h=做多\n- MACD: 1h=做空, 4h=观望\n- Bollinger: 1h=做多, 4h=观望\n- Supertrend: 1h=观望, 4h=观望\n- TripleMa: 1h=观望, 4h=观望\n- Momentum: 1h=观望, 4h=观望\n- MeanReversion: 1h=做多, 4h=观望"
 }

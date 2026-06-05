@@ -1,92 +1,56 @@
 {
-  "updateTime": "2026-06-05 11:37",
-  "session": "noon",
+  "updateTime": "2026-06-05 15:09",
+  "session": "close",
   "date": "2026-06-05",
-  "note": "午盘数据 - Sina API获取",
+  "note": "收盘数据 - Sina API实时获取 (3:05PM)",
   "indices": {
     "上证指数": {
       "code": "000001",
-      "price": 4075.31,
-      "change_pct": 0.43,
-      "volume": 4168637,
-      "amount": 83584836
+      "price": 4027.74,
+      "change_pct": -0.74,
+      "change_amount": -30.04,
+      "open": 4044.83,
+      "high": 4078.93,
+      "low": 4015.06,
+      "prev_close": 4057.78,
+      "volume": 662918577,
+      "amount": 1363887869
     },
     "深证成指": {
       "code": "399001",
-      "price": 15623.57,
-      "change_pct": -0.24,
-      "volume": 529568872,
-      "amount": 104706793
+      "price": 15314.7,
+      "change_pct": -2.21,
+      "change_amount": -346.87,
+      "open": 15595.7,
+      "high": 15710.14,
+      "low": 15243.51,
+      "prev_close": 15661.57
     },
     "创业板指": {
       "code": "399006",
-      "price": 4055.23,
-      "change_pct": -0.82,
-      "volume": 22130445,
-      "amount": 19360094
+      "price": 3957.94,
+      "change_pct": -3.2,
+      "change_amount": -130.94,
+      "open": 4079.95,
+      "high": 4105.21,
+      "low": 3933.07,
+      "prev_close": 4088.88
     },
     "沪深300": {
       "code": "399300",
-      "price": 4899.1,
-      "change_pct": -0.12,
-      "volume": 1897063,
-      "amount": 48301407
+      "price": 4816.92,
+      "change_pct": -1.79,
+      "change_amount": -87.83,
+      "open": 4886.96,
+      "high": 4924.34,
+      "low": 4798.91,
+      "prev_close": 4904.75
     }
   },
-  "sectors": {
-    "top5": [
-      {
-        "name": "玻璃制造",
-        "change_pct": 7.67
-      },
-      {
-        "name": "橡胶助剂",
-        "change_pct": 6.41
-      },
-      {
-        "name": "其他化学纤维",
-        "change_pct": 5.48
-      },
-      {
-        "name": "航天装备Ⅲ",
-        "change_pct": 4.94
-      },
-      {
-        "name": "航天装备Ⅱ",
-        "change_pct": 4.94
-      }
-    ],
-    "bottom5": [
-      {
-        "name": "通信",
-        "change_pct": 2.56
-      },
-      {
-        "name": "院线",
-        "change_pct": 2.54
-      },
-      {
-        "name": "数字媒体",
-        "change_pct": 2.45
-      },
-      {
-        "name": "民爆制品",
-        "change_pct": 2.45
-      },
-      {
-        "name": "钾肥",
-        "change_pct": 2.43
-      }
-    ]
-  },
-  "northFlow": {
-    "date": "2026-06-04",
-    "沪股通": 1708.29,
-    "深股通": 1943.4,
-    "北向资金合计": 3651.69
-  },
-  "marketOverview": {
-    "totalTurnover": 2.56
-  },
-  "available": true
+  "north_flow": null,
+  "sectors": [],
+  "market_summary": {
+    "total_change": "三大指数全线收跌，创业板跌幅最大(-3.20%)。北向资金及板块数据因东方财富API SSL连接问题暂缺。",
+    "note": "深证成指成交额约17053亿，创业板成交额约8161亿"
+  }
 }

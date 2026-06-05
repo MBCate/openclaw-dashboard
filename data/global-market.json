@@ -1,71 +1,92 @@
 {
-  "updated": "2026-06-04T13:30:00Z",
-  "date": "2026-06-04",
+  "updated": "2026-06-05T01:15:00Z",
+  "date": "2026-06-05",
   "markets": {
     "us": {
-      "title": "🇺🇸 美股 (6月3日收盘)",
+      "title": "🇺🇸 美股 (6月4日收盘)",
       "items": [
-        {"name": "S&P 500", "value": "7553.68", "change": "-0.74%", "note": "结束连涨纪录"},
-        {"name": "纳斯达克", "value": "26853.98", "change": "-0.89%", "note": "Broadcom拖累芯片股"},
+        {"name": "S&P 500", "value": "7553.68", "change": "-0.74%", "note": "Broadcom拖累科技板块"},
+        {"name": "纳斯达克", "value": "26853.98", "change": "-0.89%", "note": "AI芯片股领跌"},
         {"name": "道琼斯", "value": null, "change": "-1.2%", "note": "跌超600点"}
       ],
-      "summary": "三大指数结束连续5日创新高走势，Broadcom财报不及预期引发科技板块抛售。"
+      "summary": "Broadcom财报不及预期拖累AI板块，三大指数结束连涨。亚洲AI科技股跟跌。"
     },
-    "hk": {
-      "title": "🇭🇰 港股 (6月4日收盘)",
+    "asia": {
+      "title": "🌏 亚洲盘 (6月5日早盘)",
       "items": [
-        {"name": "恒生指数", "value": "25253", "change": "-1.48%", "note": "跌379点，成交2702亿"}
+        {"name": "韩国KOSPI", "value": "-4.0%", "change": "-4.0%", "note": "科技权重暴跌"},
+        {"name": "日经225", "value": "期货下跌", "change": "-2.1%", "note": "AI出口股承压"},
+        {"name": "恒生指数(夜期)", "value": "期货走弱", "change": null, "note": "腾讯、阿里盘前下跌"}
       ],
-      "summary": "恒指随美股回调，科技股承压，量化派暴升逾倍成为焦点。"
+      "summary": "亚洲市场显著承压，韩国股市暴跌4%领跌亚洲，AI板块避险情绪浓重。"
+    },
+    "cn": {
+      "title": "🇨🇳 A股 (6月4日收盘 / 集合竞价)",
+      "items": [
+        {"name": "上证指数", "value": "4057.78", "change": "-0.64%", "note": "缩量至6212亿"},
+        {"name": "深证成指", "value": "15661.57", "change": "-0.27%", "note": "成交7194亿"},
+        {"name": "IF期货", "value": "4870.8", "change": "贴水", "note": "收盘偏强，持仓117531手"}
+      ],
+      "summary": "A股昨日震荡调整，量能萎缩。今日关注AI板块跟跌风险。"
     },
     "crypto": {
       "title": "🪙 加密货币",
       "items": [
-        {"name": "BTC", "value": "$64,000", "change": "-3.2% (24h)", "note": "CoinDesk: $63,995"},
-        {"name": "ETH", "value": "$1,755", "change": "-6.76% (24h)", "note": "创近期新低"}
+        {"name": "BTC", "value": "$63,257", "change": "+0.75% (24h)", "note": "CoinGecko"},
+        {"name": "ETH", "value": "$1,752", "change": "-1.52% (24h)", "note": "继续承压"}
       ],
-      "summary": "加密市场跟随美股下跌，ETH跌幅显著高于BTC，地缘政治风险叠加ETF资金外流。"
+      "summary": "BTC小幅反弹但整体维持弱势，ETH持续走弱。"
     },
     "macro": {
-      "title": "📊 宏观要闻",
+      "title": "📊 隔夜宏观要闻",
       "items": [
         {
-          "source": "Yahoo Finance",
-          "title": "Broadcom盘后跌近15%，AI芯片营收指引不及预期",
-          "impact": "半导体板块承压，AMD、Marvell、美光跟跌"
+          "source": "Bloomberg",
+          "title": "US Futures, Asian Tech Stocks Drop as AI Mania Fades",
+          "impact": "Broadcom引发AI板块抛售扩散至亚洲市场"
         },
         {
           "source": "CNBC",
-          "title": "黑石限制旗舰基金赎回，私人信贷担忧重燃",
-          "impact": "私人市场流动性风险引发关注"
-        },
-        {
-          "source": "MarketWatch",
-          "title": "初请失业金人数升至4个月高位，但分析师认为非裁员信号",
-          "impact": "劳动力市场边际走软"
+          "title": "Trump says he could meet Iran's supreme leader 'if it was to make a deal'",
+          "impact": "中东地缘风险缓和预期，油价承压"
         },
         {
           "source": "Bloomberg",
-          "title": "美国贸易代表Greer：对已设关税上限经济体'deal is a deal'",
-          "impact": "贸易政策稳定信号"
+          "title": "Bond Traders Expecting Fed Hike Look Ahead to Jobs Data Risk",
+          "impact": "非农就业数据即将公布，债市关注加息信号"
         },
         {
-          "source": "SCMP",
-          "title": "中国拒绝OECD关于产业补贴'片面'报告",
-          "impact": "中欧贸易摩擦持续"
+          "source": "CNBC",
+          "title": "Quantinuum closes flat in Nasdaq debut, after upsized offering",
+          "impact": "量子计算公司上市表现平淡"
+        },
+        {
+          "source": "Bloomberg",
+          "title": "Oil Steadies After First Drop This Week on Peace Talk Optimism",
+          "impact": "WTI原油回落至93美元附近"
         }
+      ]
+    },
+    "futures": {
+      "title": "⛽ 隔夜商品期货",
+      "items": [
+        {"name": "黄金 (GC)", "value": "$4,485.9", "change": "-0.37%", "note": "中东缓和预期打压避险"},
+        {"name": "原油 (WTI)", "value": "$93.07", "change": "小幅回升", "note": "和平谈判乐观情绪"},
+        {"name": "纳指ETF", "value": "2.813", "change": "-1.99%", "note": "A股纳指ETF跟跌"}
       ]
     }
   },
   "focus_points": [
-    "🔴 Broadcom财报不及预期引发AI板块抛售，关注今晚美股开盘走势",
-    "🔴 黑石限制赎回，私人信贷市场风险需持续跟踪",
-    "🟡 美伊局势扰动油价，原油价格走高",
-    "🟢 SpaceX官宣即将IPO，Coinbase上线pre-IPO期货",
-    "🟢 Anthropic获Whale Rock看好AI用户前景，筹备IPO"
+    "🔴 韩国股市暴跌4%，AI板块退潮从美股蔓延至亚洲——关注今日A股科技股承压",
+    "🔴 Broadcom财报不及预期持续发酵，亚洲AI供应链全线承压",
+    "🟡 特朗普暗示可能会见伊朗最高领袖，中东地缘缓和，油价承压回落至93美元",
+    "🟡 非农就业数据公布在即，债市预期加息概率上升",
+    "🟢 BTC小幅反弹至6.3万美元",
+    "🟢 Quantinuum纳斯达克上市首日平收"
   ],
   "sources": {
-    "rss": ["CNBC", "Yahoo Finance", "MarketWatch", "FT", "Bloomberg", "SCMP"],
-    "web": ["CoinDesk", "Altrady", "Investopedia", "Barron's"]
+    "rss": ["CNBC", "Bloomberg", "MarketWatch", "SCMP"],
+    "web": ["CoinGecko", "Binance", "AkShare", "OKX"],
+    "notice": "DuckDuckGo temporarily unavailable due to rate limit"
   }
 }

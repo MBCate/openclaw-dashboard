@@ -3573,6 +3573,270 @@
         "2605.28548",
         "2605.27038"
       ]
+    },
+    {
+      "id": "2606.06219",
+      "title": "CLEAR: Cognition and Latent Evaluation for Adaptive Routing in End-to-End Autonomous Driving",
+      "authors": [
+        "Yining Xing",
+        "Zehong Ke",
+        "Zhiyuan Liu",
+        "Yanbo Jiang",
+        "Wenhao Yu"
+      ],
+      "summary": "CLEAR combines Drive-JEPA visual encoder with single-step conditional drift in VAE latent space to replace multi-step denoising. Uses Qwen 3.5 0.8B for scene understanding to guide adaptive scheduling and cross-attention scoring. Achieves SOTA 93.7 PDMS on NAVSIM v1. Addresses diffusion latency vs multi-modal diversity trade-off.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "published": "2026-06-04",
+      "relevance": 5,
+      "is_new": true,
+      "tags": [
+        "end-to-end-driving",
+        "diffusion",
+        "llm",
+        "navsim"
+      ],
+      "topic": "e2e-autonomous-driving",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2606.06014",
+      "title": "PLAN-S: Bridging Planning with Latent Style Dynamics for Autonomous Driving World Models",
+      "authors": [
+        "Xiaoyun Qiu",
+        "Jingtao He",
+        "Yijie Chen",
+        "Yusong Huang",
+        "Haotian Wang"
+      ],
+      "summary": "PLAN-S decodes style-conditioned 4-channel semantic cost maps from latent world model representations, enabling explicit risk/drivability/style modeling. Validated on ResWorld (nuScenes, 0.55m avg L2, 42% collision reduction) and WoTE (NAVSIM, 89.4 PDMS). Bridges the compactness-controllability dilemma in LWM-based planners.",
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "published": "2026-06-04",
+      "relevance": 5,
+      "is_new": true,
+      "tags": [
+        "world-models",
+        "latent-world-models",
+        "planning",
+        "driving-style"
+      ],
+      "topic": "world-models-ad",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2606.05645",
+      "title": "Discrete-WAM: Unified Discrete Vision-Action Token Editing for World-Policy Learning",
+      "authors": [
+        "Ziyang Yao",
+        "Haochen Liu",
+        "Yuncheng Jiang",
+        "Zeyu Zhu",
+        "Zibin Guo"
+      ],
+      "summary": "Discrete-WAM unifies world model and policy into a discrete vision-action token framework, enabling compositional causal reasoning across counterfactual futures. Uses discrete diffusion for joint world modeling, world-action policy, and hierarchical decision-making. Supports controllable generation and counterfactual reasoning.",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-06-04",
+      "relevance": 5,
+      "is_new": true,
+      "tags": [
+        "world-models",
+        "discrete-tokens",
+        "causal-reasoning",
+        "world-policy"
+      ],
+      "topic": "world-models-ad",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2606.04884",
+      "title": "D$^3$-MoE: Dual Disentangled Diffusion Mixture-of-Experts for Style-Controllable End-to-End Autonomous Driving",
+      "authors": [
+        "Renju Feng",
+        "Rukang Wang",
+        "Ning Xi",
+        "Jianguo Yu",
+        "Liping Lu"
+      ],
+      "summary": "D3-MoE disentangles trajectory modeling along behavioral axis (generation vs selection) and physical axis (longitudinal vs lateral). Uses Diffusion Transformers with style-conditioned AdaLN. SOTA 88.2 PDMS (91.3 with ensemble) on NAVSIM. Enables style-controllable end-to-end driving without manual labels.",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-06-03",
+      "relevance": 5,
+      "is_new": true,
+      "tags": [
+        "end-to-end-driving",
+        "diffusion",
+        "mixture-of-experts",
+        "style-control",
+        "navsim"
+      ],
+      "topic": "e2e-autonomous-driving",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2606.03296",
+      "title": "Bridging Predictive Uncertainty and Safe Action: Sample-Conditioned Differentiable Planning for Autonomous Driving",
+      "authors": [
+        "Chengzhen Meng",
+        "Pei Liu",
+        "Zhiyu Huang",
+        "Chen Lv",
+        "Jun Ma"
+      ],
+      "summary": "Proposes sample-conditioned differentiable planning that feeds diffusion-generated future scenarios into a differentiable planner with CVaR tail-risk constraints. Uses directed graph for scene context. Outperforms SOTA on Waymo Open Motion and Argoverse 2. Bridges uncertainty modeling with interpretable safe planning.",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-06-02",
+      "relevance": 4,
+      "is_new": true,
+      "tags": [
+        "diffusion",
+        "planning",
+        "uncertainty",
+        "safety",
+        "differentiable-planning"
+      ],
+      "topic": "e2e-autonomous-driving",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2606.03159",
+      "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
+      "authors": [
+        "Aarti Basant",
+        "Amlan Kar",
+        "Despoina Paschalidou",
+        "NVIDIA Research"
+      ],
+      "summary": "NVIDIA introduces OmniDreams, a real-time generative world model mid/post-trained from Cosmos diffusion model on 21k hours driving data. Autoregressively generates action-conditioned videos for closed-loop simulation. Supports extreme weather and dynamic agents. Preliminary results show WAM post-trained from OmniDreams surpasses VLA-based Alpamayo 1.5 with 1/5 params.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "published": "2026-06-02",
+      "relevance": 5,
+      "is_new": true,
+      "tags": [
+        "world-models",
+        "nvidia",
+        "cosmos",
+        "closed-loop-simulation",
+        "real-time"
+      ],
+      "topic": "world-models-ad",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2606.06423",
+      "title": "RiskFlow: Fast and Faithful Safety-Critical Traffic Scenario Generation",
+      "authors": [
+        "Qi Lan",
+        "Yining Tang",
+        "Yu Shen",
+        "Yi Zhou",
+        "Yuhao Wei"
+      ],
+      "summary": "RiskFlow formulates safety-critical scenario generation as transport in action space, learning velocity fields for single-pass generation instead of iterative denoising. Uses JVP-based training. Achieves strong adversariality-realism trade-off on nuScenes, with substantially reduced inference time vs diffusion baselines.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "published": "2026-06-04",
+      "relevance": 4,
+      "is_new": true,
+      "tags": [
+        "diffusion",
+        "safety-critical",
+        "scenario-generation",
+        "traffic-simulation"
+      ],
+      "topic": "e2e-autonomous-driving",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2606.04271",
+      "title": "StandardE2E: A Unified Framework for End-to-End Autonomous Driving Datasets",
+      "authors": [
+        "Stepan Konev"
+      ],
+      "summary": "StandardE2E provides a unified interface over 6 E2E driving datasets (Waymo E2E, Waymo Perception, Argoverse 2 Sensor/LiDAR, NAVSIM, WayveScenes101). Standardizes preprocessing under one schema, enables cross-dataset training. Released as open-source Python package.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "published": "2026-06-02",
+      "relevance": 3,
+      "is_new": true,
+      "tags": [
+        "dataset",
+        "framework",
+        "open-source",
+        "e2e-driving"
+      ],
+      "topic": "e2e-autonomous-driving",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2606.04513",
+      "title": "MapAgent: An Industrial-Grade Agentic Framework for City-scale Lane-level Map Generation",
+      "authors": [
+        "Deguo Xia",
+        "Zihan Li",
+        "Haochen Zhao",
+        "Dong Xie",
+        "Yuyao Kong"
+      ],
+      "summary": "MapAgent augments vectorization backbone with Judge-Planner-Worker agent loop for specification-compliant lane-map generation. Vision-language Judge diagnoses errors, tool-calling Planner generates corrective edits. Integrated into Baidu Maps for 360+ cities with >95% production automation.",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-06-03",
+      "relevance": 3,
+      "is_new": true,
+      "tags": [
+        "hd-mapping",
+        "lane-level-map",
+        "agentic",
+        "baidu",
+        "industrial"
+      ],
+      "topic": "e2e-autonomous-driving",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2605.31476",
+      "title": "IDOL: Inverse-Dynamics-Guided Future Prediction for End-to-End Autonomous Driving",
+      "authors": [
+        "Chenghao Zhang",
+        "Timin Li",
+        "Dongmei Li"
+      ],
+      "summary": "IDOL uses inverse dynamics model to decode transition-aware trajectory features from latent BEV world model predictions, turning future forecasting into actionable planning guidance. Lightweight closed-loop refinement module. SOTA on NAVSIM v1/v2 benchmarks among comparable world-model-based approaches.",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-05-29",
+      "relevance": 4,
+      "is_new": true,
+      "tags": [
+        "world-models",
+        "inverse-dynamics",
+        "bev",
+        "planning",
+        "navsim"
+      ],
+      "topic": "world-models-ad",
+      "found_date": "2026-06-06 08:32:01"
     }
   ],
   "last_updated": "2026-06-04 08:52:58",

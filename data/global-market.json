@@ -1,100 +1,81 @@
 {
-  "updated": "2026-06-05T13:33:51Z",
-  "date": "2026-06-05",
-  "markets": {
-    "us": {
-      "title": "🇺🇸 美股 (6月5日盘中)",
-      "items": [
-        {
-          "name": "S&P 500",
-          "value": "7528.71",
-          "change": "-0.73%",
-          "note": "6月非农超预期17.2万，加息预期升温"
-        },
-        {
-          "name": "纳斯达克",
-          "value": "26557.73",
-          "change": "-1.02%",
-          "note": "科技股承压"
-        },
-        {
-          "name": "道琼斯",
-          "value": "51595.42",
-          "change": "+0.06%",
-          "note": "创历史新高，远离科技股"
-        }
-      ],
-      "summary": "美国5月非农超预期（+17.2万），交易员完全定价今年内加息。美股分化，道指持续创纪录，科技股回调。AI裁员潮后企业因人工更便宜开始回招人类员工。",
-      "news": [
-        "CNBC: 5月非农+17.2万远超预期，失业率4.3%",
-        "Bloomberg: 交易员完全定价今年内加息",
-        "WSJ: 道指创历史新高，资金从科技转向传统板块",
-        "MarketWatch: AI预算缩减，Uber/Microsoft/Nvidia开始回招人类员工"
-      ]
+  "updated": "2026-06-06T13:30:00Z",
+  "us_market": {
+    "date": "2026-06-05",
+    "indices": {
+      "sp500": {
+        "price": 7383.74,
+        "change_pct": -2.64,
+        "prev_close": 7584.31,
+        "high": 7541.81,
+        "low": 7368.63
+      },
+      "dow": {
+        "price": 50866.78,
+        "change_pct": -1.35,
+        "prev_close": 51561.93,
+        "high": 51660.4,
+        "low": 50781.45
+      },
+      "nasdaq": {
+        "price": 25709.43,
+        "change_pct": -4.18,
+        "prev_close": 26830.96
+      }
     },
-    "asia": {
-      "title": "🌏 亚太盘 (6月5日收盘)",
-      "items": [
-        {
-          "name": "恒生指数",
-          "value": "24961.95",
-          "change": "-1.15%",
-          "note": "科技股跟随美股下跌"
-        },
-        {
-          "name": "日经225",
-          "value": "66588.12",
-          "change": "-1.31%",
-          "note": "AI出口股承压"
-        },
-        {
-          "name": "韩国KOSPI",
-          "value": "N/A",
-          "change": null,
-          "note": "亚太科技板块联动下跌"
-        }
-      ],
-      "summary": "亚太市场普遍走弱，韩国科技权重领跌，恒指受内地及外围双重压力。"
-    },
-    "europe": {
-      "title": "🇪🇺 欧股 (6月5日收盘)",
-      "items": [
-        {
-          "name": "FTSE 100",
-          "value": "10411.34",
-          "change": "+0.49%",
-          "note": "防御板块支撑"
-        }
-      ],
-      "summary": "欧股整体偏强，英国FTSE受防御性板块支撑上行。"
-    },
-    "crypto": {
-      "title": "₿ 加密货币",
-      "items": [
-        {
-          "name": "Bitcoin",
-          "value": "$62,091",
-          "change": "-2.50%",
-          "note": "24h下跌，市场避险情绪升温"
-        },
-        {
-          "name": "Ethereum",
-          "value": "$1,665",
-          "change": "-6.34%",
-          "note": "跌幅显著，DeFi资金流出"
-        }
-      ],
-      "summary": "加密货币市场承压，ETH跌幅较大。美元走强及加息预期对风险资产构成压力。"
-    }
+    "summary": "美股周五大幅下挫。纳指暴跌4.2%领跌，标普500跌2.6%，道指跌695点（1.4%）。AI芯片股成重灾区，英伟达、博通领跌。VIX恐慌指数飙升，市场担忧美联储加息预期升温。"
   },
-  "keyEvents": [
-    "美国5月非农就业+17.2万远超预期，失业率4.3%",
-    "交易员完全定价2026年内加息一次",
-    "道指创历史新高，科技/价值板块轮动加速",
-    "SpaceX估值1.75万亿$，计划最大规模IPO零售配售",
-    "Alphabet寻求新融资，股价连跌4周",
-    "Lululemon下调全年展望",
-    "中国DeepSeek引发的AI板块调整余波仍在"
-  ],
-  "riskSentiment": "Risk Off — 加息预期升温，科技板块承压，资金流入传统/防御板块"
+  "hong_kong": {
+    "date": "2026-06-05",
+    "hsi": {
+      "price": 24961.95,
+      "change_pct": -1.15,
+      "prev_close": 25253.4
+    },
+    "summary": "恒生指数收报24962点，小幅下跌。"
+  },
+  "crypto": {
+    "date": "2026-06-06",
+    "bitcoin": {
+      "price": 60885,
+      "change_24h_pct": -1.98
+    },
+    "ethereum": {
+      "price": 1564.73,
+      "change_24h_pct": -6.09
+    },
+    "summary": "加密货币周末承压，BTC跌至60885美元（-1.98%），ETH跌幅较大至1565美元（-6.09%）。"
+  },
+  "news": [
+    {
+      "source": "CNBC",
+      "title": "纳指暴跌4%，芯片股遭抛售，创2025年4月以来最大单日跌幅",
+      "url": "https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "CNBC",
+      "title": "华尔街恐慌指数VIX大幅回升，芯片股\"疯涨\"行情终结",
+      "url": "https://www.cnbc.com/2026/06/06/wall-streets-fear-gauge-punches-back-as-the-crash-up-in-chip-stocks-finally-reverses.html"
+    },
+    {
+      "source": "CNBC",
+      "title": "Abel另辟蹊径布局伯克希尔新投资，数十亿押注AI",
+      "url": "https://www.cnbc.com/2026/06/06/abel-goes-his-own-way-with-new-berkshire-investments-including-billions-for-ai.html"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "美国提出针对强迫劳动的新关税方案",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-06/us-proposes-new-tariffs-over-forced-labor-video"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "宏观预测师与股票分析师对市场看法严重分歧",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-06/macro-soothsayers-stock-analysts-see-vastly-different-markets"
+    },
+    {
+      "source": "AP",
+      "title": "标普500本周收跌2.6%，终结连续9周上涨",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-b9d2661cbba6cc326c618c06769d8291"
+    }
+  ]
 }

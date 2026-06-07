@@ -3837,9 +3837,114 @@
       ],
       "topic": "world-models-ad",
       "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2606.06155",
+      "title": "AffordanceVLA: A Vision-Language-Action Model Empowering Action Generation through Affordance-Aware Understanding",
+      "authors": [
+        "Qize Yu",
+        "Jiadi You",
+        "Yuran Wang",
+        "Jiaqi Liang",
+        "Bowen Ping",
+        "Yang Tian",
+        "Yue Chen",
+        "Minghong Cai"
+      ],
+      "summary": "提出 AffordanceVLA 框架，通过结构化 affordance 预测作为任务导向的中间表示，弥补 VLM 语义空间与具身控制策略之间的结构不匹配。包含 Which2Act（物体级聚焦）、Where2Act（2D交互定位）、How2Act（3D几何推理）三个互补模块，实现视觉-语言-动作的自然桥接。",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "published": "2026-06-04",
+      "relevance": 4,
+      "tags": [
+        "VLA",
+        "Robotic Manipulation"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.05774",
+      "title": "LiAuto-GeoX: Efficient Grounded Driving Transformer",
+      "authors": [
+        "Jiawei Lian",
+        "Haoyi Sun",
+        "Yang Wu",
+        "Lifu Mu",
+        "Siyuan Wang",
+        "Le Hui",
+        "Ning Mao",
+        "Tao Wei"
+      ],
+      "summary": "提出 LiAuto-GeoX，一种高效的驾驶场景 3D 感知 Transformer，利用稀疏 LiDAR 先验提供远距离区域的几何基准，通过几何保持蒸馏将大模型压缩为紧凑的 155M 参数车载模型。在 KITTI 上达到 220 FPS，支持实时环视 3D 场景理解。",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-06-04",
+      "relevance": 5,
+      "tags": [
+        "3D Perception",
+        "Autonomous Driving",
+        "LiDAR"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.05737",
+      "title": "Let It Be Simple: One-Step Action Generation for Vision-Language-Action Models",
+      "authors": [
+        "Yitong Chen",
+        "et al."
+      ],
+      "summary": "论证 VLA 动作生成与图像生成的条件-目标结构不同：策略以丰富的观测、语言和状态为条件，但预测的是紧凑的低维动作块。通过将训练时间分布偏向高噪声状态，无需教师模型或蒸馏即可实现单步动作生成，匹配十步解码性能。1.4B VLM 模型在 LIBERO-Long 上达到 95.6%。",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "published": "2026-06-04",
+      "relevance": 5,
+      "tags": [
+        "VLA",
+        "Diffusion",
+        "Action Generation"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.06476",
+      "title": "Thinking with Imagination: Agentic Visual Spatial Reasoning with World Simulators",
+      "authors": [
+        "Chenming Zhu",
+        "Jingli Lin",
+        "Yilin Long",
+        "Peizhou Cao",
+        "Tai Wang",
+        "Jiangmiao Pang",
+        "Xihui Liu"
+      ],
+      "summary": "提出用想象思考范式，让 VLM 主动获取想象的可视化证据以改进空间推理。VLM 利用世界模拟器（如 3D 场景生成器）生成假设视角的图像，实现跨视角一致性和隐含布局的空间推理，弥补仅依赖观测图像的局限性。",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-06-04",
+      "relevance": 4,
+      "tags": [
+        "VLM",
+        "Spatial Reasoning",
+        "World Model"
+      ],
+      "is_new": true
     }
   ],
   "last_updated": "2026-06-04 08:52:58",
   "total_count": 192,
-  "new_this_update": 8
+  "new_this_update": 8,
+  "metadata": {
+    "total": 206,
+    "last_updated": "2026-06-07",
+    "week": "2026-W23"
+  }
 }

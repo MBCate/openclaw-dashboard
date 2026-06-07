@@ -1,81 +1,126 @@
 {
-  "updated": "2026-06-06T13:30:00Z",
-  "us_market": {
+  "date": "2026-06-07",
+  "updatedAt": "2026-06-07 21:30 CST",
+  "summary": "美股大跌，中东局势持续影响全球市场",
+  "marketStatus": "假日（周日，引用上周五数据）",
+
+  "usMarkets": {
     "date": "2026-06-05",
-    "indices": {
-      "sp500": {
-        "price": 7383.74,
-        "change_pct": -2.64,
-        "prev_close": 7584.31,
-        "high": 7541.81,
-        "low": 7368.63
-      },
-      "dow": {
-        "price": 50866.78,
-        "change_pct": -1.35,
-        "prev_close": 51561.93,
-        "high": 51660.4,
-        "low": 50781.45
-      },
-      "nasdaq": {
-        "price": 25709.43,
-        "change_pct": -4.18,
-        "prev_close": 26830.96
-      }
+    "snp500": {
+      "close": 7383.74,
+      "change": -200.57,
+      "changePercent": -2.6,
+      "weeklyChangePercent": -2.6,
+      "note": "九周连胜终结；就业数据强劲引发加息担忧"
     },
-    "summary": "美股周五大幅下挫。纳指暴跌4.2%领跌，标普500跌2.6%，道指跌695点（1.4%）。AI芯片股成重灾区，英伟达、博通领跌。VIX恐慌指数飙升，市场担忧美联储加息预期升温。"
+    "nasdaq": {
+      "close": 25709.43,
+      "change": -1121.53,
+      "changePercent": -4.2,
+      "weeklyChangePercent": -4.7,
+      "note": "AI/半导体龙头领跌"
+    },
+    "dowJones": {
+      "close": 50866.78,
+      "change": -695.15,
+      "changePercent": -1.4,
+      "weeklyChangePercent": -0.3
+    }
   },
-  "hong_kong": {
+
+  "chinaMarkets": {
     "date": "2026-06-05",
-    "hsi": {
-      "price": 24961.95,
-      "change_pct": -1.15,
-      "prev_close": 25253.4
+    "shanghaiComposite": {
+      "close": 4027.74,
+      "change": -30.04,
+      "changePercent": -0.74
     },
-    "summary": "恒生指数收报24962点，小幅下跌。"
+    "shenzhenComponent": {
+      "close": null,
+      "changePercent": null,
+      "note": "深证未从搜索获取到精确收盘价"
+    },
+    "chiNext": {
+      "close": null,
+      "changePercent": null
+    },
+    "note": "上证微跌0.74%，权重股承压但中小盘上涨，超3800只个股上涨"
   },
+
+  "hongKongMarkets": {
+    "date": "2026-06-05",
+    "hangSeng": {
+      "close": null,
+      "changePercent": -1.15,
+      "note": "跌1.15%失守25000点关口，三连跌"
+    }
+  },
+
   "crypto": {
-    "date": "2026-06-06",
+    "date": "2026-06-07",
     "bitcoin": {
-      "price": 60885,
-      "change_24h_pct": -1.98
+      "price": 62323.92,
+      "change24hPercent": null,
+      "note": "加密市场整体下跌约3.8%，恐惧情绪蔓延"
     },
     "ethereum": {
-      "price": 1564.73,
-      "change_24h_pct": -6.09
-    },
-    "summary": "加密货币周末承压，BTC跌至60885美元（-1.98%），ETH跌幅较大至1565美元（-6.09%）。"
-  },
-  "news": [
-    {
-      "source": "CNBC",
-      "title": "纳指暴跌4%，芯片股遭抛售，创2025年4月以来最大单日跌幅",
-      "url": "https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "华尔街恐慌指数VIX大幅回升，芯片股\"疯涨\"行情终结",
-      "url": "https://www.cnbc.com/2026/06/06/wall-streets-fear-gauge-punches-back-as-the-crash-up-in-chip-stocks-finally-reverses.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "Abel另辟蹊径布局伯克希尔新投资，数十亿押注AI",
-      "url": "https://www.cnbc.com/2026/06/06/abel-goes-his-own-way-with-new-berkshire-investments-including-billions-for-ai.html"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "美国提出针对强迫劳动的新关税方案",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-06/us-proposes-new-tariffs-over-forced-labor-video"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "宏观预测师与股票分析师对市场看法严重分歧",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-06/macro-soothsayers-stock-analysts-see-vastly-different-markets"
-    },
-    {
-      "source": "AP",
-      "title": "标普500本周收跌2.6%，终结连续9周上涨",
-      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-b9d2661cbba6cc326c618c06769d8291"
+      "price": 1984.19,
+      "change24hPercent": null,
+      "note": "ETH周跌约10%"
     }
+  },
+
+  "commodities": {
+    "date": "2026-06-05",
+    "crudeOilWTI": {
+      "close": 90.34,
+      "change": -2.70,
+      "note": "WTI早盘开$92.94，收跌；中东局势支撑油价在$90上方"
+    },
+    "brentCrude": {
+      "close": 95.00,
+      "note": "Brent开于$95，中东冲突持续推高风险溢价"
+    },
+    "gold": {
+      "close": 4347.20,
+      "change": -157.80,
+      "note": "利率前景打压金价，单日大跌"
+    }
+  },
+
+  "macro": {
+    "us10yYield": 4.54,
+    "usdIndex": 100.05,
+    "fedRateCutProbability2026": "低于1%",
+    "fedRateHikeProbability2026": "70%",
+    "usJobMarket": {
+      "mayJobsAdded": 172000,
+      "unemploymentRate": 4.3,
+      "note": "连续第三个月超预期，加息预期升温"
+    }
+  },
+
+  "geopolitics": {
+    "iranWar": "即将进入第100天，和谈悬而未决。美国考虑动用伊朗资产援助海湾盟国重建。",
+    "usChinaTariffs": "中国电动车可能通过第三国进入美国市场。"
+  },
+
+  "newsHighlights": [
+    "CNBC: 伊朗战争100天 - 全球市场与经济影响图表分析",
+    "CNBC: 美国考虑扣押伊朗资产用于海湾盟国重建",
+    "CNBC: 中国电动车未来几年可能进入美国",
+    "WSJ: 美股因AI板块暴跌，中国DeepSeek引发抛售（往期）",
+    "WSJ: 金价收跌1.4%，白银跌2.5%",
+    "Bloomberg: 美联航CEO讨论恢复海湾航线",
+    "Bloomberg: SpaceX IPO - 你需要知道的一切",
+    "宏观: 5月非农+17.2万，失业率4.3%，加息概率升至70%"
+  ],
+
+  "concerns": [
+    "中东冲突持续第100天，和谈进程不明",
+    "美国5月就业超预期 → 加息预期升温 → 股债双杀",
+    "科技股估值压力：Nasdaq单日跌4.2%",
+    "恒指失守25000，三连跌",
+    "加密市场情绪恐惧"
   ]
 }

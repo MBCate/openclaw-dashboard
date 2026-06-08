@@ -1,178 +1,21 @@
 {
-  "date": "2026-06-05",
-  "time": "15:05",
-  "last_collected": "2026-06-05",
-  "note": "HelloQuant数据采集于2026-06-05 15:07，信号基于OKX行情计算",
+  "timestamp": "2026-06-08 15:05:00",
+  "last_update": "2026-06-05 15:07",
+  "status": "no_new_data_today",
   "crypto": {
     "BTC/USDT": {
       "price": 61440.0,
-      "change_24h": -3.7034366776431793,
-      "high_24h": 64488.7,
-      "low_24h": 61128.1,
-      "volume_24h": 845739151.1763526,
-      "indicators_1h": {
-        "rsi": 32.2,
-        "macd": -601.78,
-        "macd_signal": -486.38,
-        "macd_status": "死叉",
-        "ma5": 62416.3,
-        "ma20": 63322.42,
-        "bb_upper": 64782.34,
-        "bb_lower": 61862.51,
-        "trend": "偏空"
-      },
-      "indicators_4h": {
-        "rsi": 27.3,
-        "macd": -2350.91,
-        "macd_signal": -2189.65,
-        "macd_status": "死叉",
-        "ma5": 63122.16,
-        "ma20": 65693.52,
-        "bb_upper": 70886.58,
-        "bb_lower": 60500.46,
-        "trend": "偏空"
-      }
+      "change_24h_pct": -3.70,
+      "indicators_1h": {"rsi": 32.2, "macd_status": "死叉", "trend": "偏空"},
+      "indicators_4h": {"rsi": 27.3, "macd_status": "死叉", "trend": "偏空"}
     },
     "ETH/USDT": {
       "price": 1638.46,
-      "change_24h": -7.94444506871327,
-      "high_24h": 1794.72,
-      "low_24h": 1622.0,
-      "volume_24h": 489118646.5206186,
-      "indicators_1h": {
-        "rsi": 17.0,
-        "macd": -32.22,
-        "macd_signal": -21.85,
-        "macd_status": "死叉",
-        "ma5": 1690.75,
-        "ma20": 1749.06,
-        "bb_upper": 1833.09,
-        "bb_lower": 1665.04,
-        "trend": "偏空"
-      },
-      "indicators_4h": {
-        "rsi": 21.8,
-        "macd": -68.33,
-        "macd_signal": -55.29,
-        "macd_status": "死叉",
-        "ma5": 1738.56,
-        "ma20": 1836.1,
-        "bb_upper": 2019.93,
-        "bb_lower": 1652.27,
-        "trend": "偏空"
-      }
+      "change_24h_pct": -7.94,
+      "indicators_1h": {"rsi": 17.0, "macd_status": "死叉", "trend": "偏空"},
+      "indicators_4h": {"rsi": 21.1, "macd_status": "死叉", "trend": "偏空"}
     }
   },
-  "strategy_signals": {
-    "DoubleMa": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "RSI": {
-      "1h": "做多",
-      "4h": "做多"
-    },
-    "MACD": {
-      "1h": "做空",
-      "4h": "观望"
-    },
-    "Bollinger": {
-      "1h": "做多",
-      "4h": "观望"
-    },
-    "Supertrend": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "TripleMa": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "Momentum": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "MeanReversion": {
-      "1h": "做多",
-      "4h": "观望"
-    }
-  },
-  "futures": {},
-  "sentiment": {
-    "crypto_fear_greed": {
-      "value": 12,
-      "classification": "Extreme Fear",
-      "timestamp": "1780617600"
-    }
-  },
-  "raw_signals_text": "信号概况：\n- DoubleMa: 1h=观望, 4h=观望\n- RSI: 1h=做多, 4h=做多\n- MACD: 1h=做空, 4h=观望\n- Bollinger: 1h=做多, 4h=观望\n- Supertrend: 1h=观望, 4h=观望\n- TripleMa: 1h=观望, 4h=观望\n- Momentum: 1h=观望, 4h=观望\n- MeanReversion: 1h=做多, 4h=观望",
-  "weekly": {
-    "report_date": "2026-06-05",
-    "period": "2026-06-01 ~ 2026-06-05",
-    "market_summary": {
-      "btc_weekly_change": -3.7,
-      "eth_weekly_change": -7.9,
-      "btc_weekly_low": 61128,
-      "btc_weekly_high": 64489,
-      "trend": "偏空",
-      "fear_greed": 12,
-      "fear_level": "极度恐惧"
-    },
-    "strategy_performance": [
-      {
-        "name": "RSI",
-        "1h": "做多",
-        "4h": "做多",
-        "signal_count": "看涨信号"
-      },
-      {
-        "name": "Bollinger",
-        "1h": "做多",
-        "4h": "观望",
-        "signal_count": "1个看涨"
-      },
-      {
-        "name": "MeanReversion",
-        "1h": "做多",
-        "4h": "观望",
-        "signal_count": "1个看涨"
-      },
-      {
-        "name": "MACD",
-        "1h": "做空",
-        "4h": "观望",
-        "signal_count": "1个看跌"
-      },
-      {
-        "name": "DoubleMa",
-        "1h": "观望",
-        "4h": "观望",
-        "signal_count": "观望"
-      },
-      {
-        "name": "Supertrend",
-        "1h": "观望",
-        "4h": "观望",
-        "signal_count": "观望"
-      },
-      {
-        "name": "TripleMa",
-        "1h": "观望",
-        "4h": "观望",
-        "signal_count": "观望"
-      },
-      {
-        "name": "Momentum",
-        "1h": "观望",
-        "4h": "观望",
-        "signal_count": "观望"
-      }
-    ],
-    "strategy_outlook": {
-      "bullish_signals": 3,
-      "bearish_signals": 1,
-      "neutral_signals": 4,
-      "consensus": "偏多震荡 — RSI超卖区域出现反弹信号，但MACD死叉压制中期空间"
-    }
-  }
+  "stock_strategies": [],
+  "note": "2026-06-08 未生成新数据。stock/futures 策略目录为空，仅 crypto 数据于 6月5日更新。"
 }

@@ -1,97 +1,57 @@
 {
-  "type": "midday",
-  "date": "2026-06-08",
-  "time": "11:35",
-  "indices": [
-    {
-      "code": "sh000001",
-      "name": "上证指数",
-      "price": 3976.83,
-      "change": -50.91,
-      "changePercent": -1.26,
-      "high": 4007.49,
-      "low": 3938.71,
-      "open": 3938.71,
-      "prevClose": 4027.74
+  "timestamp": "2026-06-08 15:05:00",
+  "indexes": {
+    "上证指数": {
+      "code": "1.000001",
+      "price": 3959.34,
+      "change_pct": -1.70,
+      "change": -68.49,
+      "volume": "1267277000000",
+      "amount": "1267277000000"
     },
-    {
-      "code": "sz399001",
-      "name": "深证成指",
-      "price": 14933.82,
-      "change": -380.88,
-      "changePercent": -2.49,
-      "high": 15137.75,
-      "low": 14835.37,
-      "open": 14835.37,
-      "prevClose": 15314.7
+    "深证成指": {
+      "code": "0.399001",
+      "price": 14821.19,
+      "change_pct": -3.22,
+      "change": -492.92,
+      "volume": "1525461000000",
+      "amount": "1525461000000"
     },
-    {
-      "code": "sz399006",
-      "name": "创业板指",
-      "price": 3845.78,
-      "change": -112.16,
-      "changePercent": -2.83,
-      "high": 3903.77,
-      "low": 3820.23,
-      "open": 3820.23,
-      "prevClose": 3957.93
-    },
-    {
-      "code": "sz399300",
-      "name": "沪深300",
-      "price": 4737.5,
-      "change": -79.42,
-      "changePercent": -1.65,
-      "high": 4779.86,
-      "low": 4703.77,
-      "open": 4703.77,
-      "prevClose": 4816.92
+    "创业板指": {
+      "code": "0.399006",
+      "price": 3811.79,
+      "change_pct": -3.69,
+      "change": -146.10,
+      "volume": "722402000000",
+      "amount": "722402000000"
     }
+  },
+  "money_flow": {
+    "shanghai": {
+      "date": "2026-06-08",
+      "main_net_flow": -49616912384,
+      "super_large_in": 29801316352,
+      "large_in": 19815591936,
+      "medium_net_flow": -15254458368
+    },
+    "shenzhen": {
+      "date": "2026-06-08",
+      "main_net_flow": -66744401920,
+      "super_large_in": 56986337280,
+      "large_in": 9758068736,
+      "medium_net_flow": -30799249408
+    }
+  },
+  "board_top": [
+    {"name": "工程机械", "change_pct": null},
+    {"name": "油气开采及服务", "change_pct": null},
+    {"name": "保险", "change_pct": null}
   ],
-  "sectors": {
-    "gainers": [
-      {
-        "name": "饲料养殖",
-        "changePercent": "+2.5%"
-      },
-      {
-        "name": "园区开发",
-        "changePercent": "+2.1%"
-      },
-      {
-        "name": "种植业",
-        "changePercent": "+1.8%"
-      },
-      {
-        "name": "主营房地产",
-        "changePercent": "+1.5%"
-      },
-      {
-        "name": "化学原料",
-        "changePercent": "+1.2%"
-      }
-    ],
-    "losers": [
-      {
-        "name": "贸易",
-        "changePercent": "-2.8%"
-      },
-      {
-        "name": "专业工程及装饰",
-        "changePercent": "-2.5%"
-      }
-    ]
-  },
-  "northFlow": {
-    "total": 258.3,
-    "sh": 52.06,
-    "sz": 206.24,
-    "time": "10:00"
-  },
-  "marketSummary": {
-    "totalVolume": "4.01亿手",
-    "totalAmount": "8015.86亿"
-  },
-  "summary": "午盘三大指数集体下挫，上证指数跌1.26%报3976.83点，深证成指跌2.49%，创业板指跌2.83%。板块方面，饲料养殖、园区开发、种植业逆势上涨，贸易、专业工程板块领跌。北向资金截至10:00净流入约258亿。市场情绪偏弱。",
-  "updatedAt": "2026-06-08T11:52:03.332803"
+  "board_bottom": [
+    {"name": "贸易", "change_pct": null},
+    {"name": "其他电子", "change_pct": null},
+    {"name": "贵金属", "change_pct": null}
+  ],
+  "north_flow": null,
+  "summary": "三大指数集体收跌。上证指数跌1.70%报3959.34，失守4000点；深证成指跌3.22%报14821.19；创业板指跌3.69%报3811.79。两市成交额约2.79万亿。工程机械、油气板块逆势上涨，贸易、贵金属板块领跌。"
 }

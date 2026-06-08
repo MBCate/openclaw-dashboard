@@ -3937,14 +3937,383 @@
         "World Model"
       ],
       "is_new": true
+    },
+    {
+      "id": "2606.04436",
+      "title": "3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training",
+      "authors": [
+        "Zihao Sheng et al."
+      ],
+      "summary": "提出3D思考引导的共训练框架，让VLA模型在动作预测时隐式进行3D空间推理。核心洞察是3D几何感知和3D空间推理是可解耦的，在不同特征层次注入。三个紧耦合组件协同工作，使VLA模型获得隐式3D先验知识，提升驾驶决策的空间理解能力。",
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "cs.AI"
+      ],
+      "published": "2026-06-04",
+      "relevance": 5,
+      "tags": [
+        "vla-driving",
+        "3d-reasoning",
+        "end-to-end-driving"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.01955",
+      "title": "WALL-WM: Carving World Action Modeling at the Event Joints",
+      "authors": [
+        "WALL-WM Team"
+      ],
+      "summary": "WALL-WM是一个World Action Model，将视频-动作学习从固定块优化转向事件驱动的VLA预训练，以语义连贯的动作事件作为基本学习单元。不同于固定长度动作块，WALL-WM以事件边界切割学习，更自然地对齐视觉-语言-动作语义。",
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "cs.LG"
+      ],
+      "published": "2026-06-01",
+      "relevance": 5,
+      "tags": [
+        "world-models",
+        "vla-driving",
+        "world-action-models"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.01935",
+      "title": "Unified Driving Tokens: Representation- and Geometry-Guided Discrete Tokenizer for Driving World Models",
+      "authors": [
+        "UniTok Team"
+      ],
+      "summary": "提出表示引导和几何增强的离散分词器，用于驾驶世界模型。核心创新：通过特征解码对齐离散瓶颈与冻结的DINO特征空间，同时通过RGB重建保持外观。添加相邻帧深度和相对姿态监督，用多头码本量化稳定联合训练。在NAVSIM上重建保真度更优，生成质量更好。",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "published": "2026-06-01",
+      "relevance": 5,
+      "tags": [
+        "world-models",
+        "tokenizer",
+        "end-to-end-driving"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.05254",
+      "title": "Flash-WAM: Modality-Aware Distillation for World Action Models",
+      "authors": [
+        "Flash-WAM Team"
+      ],
+      "summary": "Flash-WAM是一种模态感知的步长蒸馏框架，专为World Action Models设计。视频和动作流使用不同的信噪比噪声调度，单模态蒸馏无法处理。Flash-WAM为每种模态选择不同的蒸馏函数，将推理压缩到单步，延迟从8.1秒降至348毫秒（23倍加速），在L40S上实现实时推理。RoboTwin 2.0达85.5%成功率。",
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "cs.LG"
+      ],
+      "published": "2026-06-03",
+      "relevance": 5,
+      "tags": [
+        "world-action-models",
+        "distillation",
+        "real-time"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.03598",
+      "title": "PHASER: Phase-Aware and Semantic Experience Replay for Vision-Language-Action Models",
+      "authors": [
+        "PHASER Team"
+      ],
+      "summary": "VLA模型在开放环境部署需要持续学习新技能，这会导致严重的灾难性遗忘。提出PHASER：阶段感知和语义经验回放方法。不同于朴素统一回放，PHASER根据学习阶段和语义相关性智能选择回放样本，有效缓解VLA模型的灾难性遗忘问题。",
+      "categories": [
+        "cs.RO",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "published": "2026-06-02",
+      "relevance": 4,
+      "tags": [
+        "vla",
+        "continual-learning",
+        "robotics"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.02274",
+      "title": "Dexterity-BEV: Aligning 3D World and Actions for Generalizable Robot Policies Learning",
+      "authors": [
+        "Dex-BEV Team"
+      ],
+      "summary": "端到端操作策略结合web-scale预训练VLM展现了通用灵巧操作的潜力，但继承2D基础模型的两个关键局限：依赖忽略内在3D结构的2D RGB输入。提出Dexterity-BEV，将BEV感知与机器人动作空间对齐，实现更具泛化性的策略学习。",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-06-01",
+      "relevance": 4,
+      "tags": [
+        "bev-perception",
+        "robotics",
+        "vla"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.02979",
+      "title": "Towards Compact Autonomous Driving Perception with Balanced Learning and Multi-sensor Fusion",
+      "authors": [
+        "Oskar Natan et al."
+      ],
+      "summary": "提出紧凑型多任务深度学习模型，在一个前向传播中处理多种自动驾驶感知任务：语义分割、深度估计、LiDAR分割和BEV投影。提供自适应损失加权算法处理多任务不平衡学习问题。支持RGB、DVS和LiDAR多模态输入融合。在CARLA和nuScenes上验证，参数量更少但性能更好。",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "published": "2026-06-02",
+      "relevance": 3,
+      "tags": [
+        "bev-perception",
+        "multi-task",
+        "sensor-fusion"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2605.27582",
+      "title": "Uni-LaViRA: Language-Vision-Robot Actions Translation for Unified Embodied Navigation",
+      "authors": [
+        "Uni-LaViRA Team"
+      ],
+      "summary": "统一具身导航架构，将导航任务简化为语言-视觉-机器人动作翻译。语言动作发出语义级方向指令，视觉动作发出像素级视觉目标。零样本迁移到四个任务族（VLN-CE, ObjectNav, EQA, Aerial-VLN）和四种异构机器人（轮式、四足、人形、无人机），匹配甚至超越近期训练导航基础模型。",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "published": "2026-05-27",
+      "relevance": 4,
+      "tags": [
+        "vla",
+        "navigation",
+        "embodied-ai"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.01277",
+      "title": "DeepIPCv3: Event-Aware Multi-Modal Sensor Fusion for Sudden Pedestrian Crossing Avoidance",
+      "authors": [
+        "DeepIPC Team"
+      ],
+      "summary": "当前端到端自动驾驶系统主要依赖帧式传感器，在行人突然横穿等动态场景中存在感知延迟和运动模糊。提出DeepIPCv3，融合LiDAR密集3D空间几何与事件相机的高时间分辨率优势，专门处理行人突然横穿场景，提升安全避让能力。",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-05-31",
+      "relevance": 4,
+      "tags": [
+        "end-to-end-driving",
+        "sensor-fusion",
+        "event-camera"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.01600",
+      "title": "RoboTrustBench: Benchmarking the Trustworthiness of Video World Models for Robotic Manipulation",
+      "authors": [
+        "RoboTrust Team"
+      ],
+      "summary": "视频世界模型在机器人操作中应用广泛，但现有基准只在有效、可行和安全的指令下评估。提出RoboTrustBench，在Normal、Constraint-Sensitive、Counterfactual和Adversarial四类场景下评估世界模型的可信度。发现当前模型在约束推理、反事实基础和危险指令抑制方面存在严重不足。",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "published": "2026-05-31",
+      "relevance": 4,
+      "tags": [
+        "world-models",
+        "benchmark",
+        "trustworthiness"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2605.04470",
+      "title": "CRAFT: Counterfactual-to-Interactive Reinforcement Fine-Tuning for Driving Policies",
+      "authors": [
+        "CRAFT Team"
+      ],
+      "summary": "开环模仿学习推进了端到端驾驶策略架构，但闭环部署仍易受策略诱导的分布偏移影响。提出CRAFT：反事实到交互的强化微调框架。通过反事实推理生成训练场景，结合交互式RL微调，在闭环驾驶场景中策略安全性和鲁棒性显著提升。",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "published": "2026-05-06",
+      "relevance": 4,
+      "tags": [
+        "end-to-end-driving",
+        "reinforcement-learning",
+        "imitation-learning"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.00747",
+      "title": "SkyShield: Occupancy as a Safety Interface for Low-Altitude UAV Autonomy",
+      "authors": [
+        "SkyShield Team"
+      ],
+      "summary": "低空无人机自主飞行中，3D空间理解是安全接口。提出SkyShield使用Occupancy作为安全接口，用于低空无人机自主飞行中的碰撞避免和路径规划。针对20m以下城市空域的细薄几何、遮挡、植被等挑战设计。",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-05-30",
+      "relevance": 3,
+      "tags": [
+        "occupancy",
+        "uav",
+        "autonomy"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.00709",
+      "title": "BEVIO: Efficient Bird's-Eye-View based Sparse-Update Visual-Inertial Odometry",
+      "authors": [
+        "BEVIO Team"
+      ],
+      "summary": "基于BEV的稀疏更新视觉-惯性里程计，面向月球日夜导航。VIO性能依赖视觉更新频率，对于极端资源约束和低帧率环境具有挑战性。提出BEV视角下的高效VIO方法，实现可靠导航。",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-05-30",
+      "relevance": 3,
+      "tags": [
+        "bev-perception",
+        "visual-odometry",
+        "navigation"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.00664",
+      "title": "SKIP: Sparse Keyframe Interpolation Paradigm for Efficient Embodied World Models",
+      "authors": [
+        "SKIP Team"
+      ],
+      "summary": "具身世界模型的回滚推理计算成本高。提出稀疏关键帧插值范式SKIP，利用机器人感知的多模态特征识别任务相关关键帧，仅合成关键帧，用动作条件的插值器重建缺失间隔。生成速度比稠密基线快4.16倍，聚合FVD降低89%。生成视频可作为有效策略训练数据。",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "published": "2026-05-30",
+      "relevance": 4,
+      "tags": [
+        "world-models",
+        "video-generation",
+        "efficiency"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2604.02714",
+      "title": "ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving",
+      "authors": [
+        "Zihao Sheng et al."
+      ],
+      "summary": "基于VLA架构的端到端自动驾驶模型通过模仿专家行为学习策略，但模仿学习限制模型探索不同策略。提出统一理解和生成框架，利用世界模型同时实现有意义探索和提供密集监督。将未来RGB和深度图像生成作为密集世界模型目标，还作为策略探索的内禀奖励源。NAVSIM上达到SOTA PDMS 93.7。",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "published": "2026-04-03",
+      "relevance": 5,
+      "tags": [
+        "vla-driving",
+        "world-models",
+        "exploration",
+        "end-to-end-driving"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2604.28111",
+      "title": "GSDrive: Reinforcing Driving Policies by Multi-mode Future Trajectory Probing with 3D Gaussian Splatting Environment",
+      "authors": [
+        "ZionGo6 et al."
+      ],
+      "summary": "利用可微3DGS环境进行未来感知轨迹探测和奖励塑造的端到端驾驶框架。GSDrive先通过IL学习多模态轨迹探测器，再用RL在3DGS环境中评估多个候选未来轨迹，将模拟回报转化为密集塑造奖励用于策略优化。在nuScenes上验证优于其他基于模拟的RL方法。",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-04-30",
+      "relevance": 5,
+      "tags": [
+        "end-to-end-driving",
+        "3dgs",
+        "reinforcement-learning",
+        "world-models"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2604.11351",
+      "title": "WM-DAgger: Enabling Efficient Data Aggregation for Imitation Learning with World Models",
+      "authors": [
+        "WM-DAgger Team"
+      ],
+      "summary": "模仿学习受复合误差限制。DAgger框架依赖持续人工参与。提出WM-DAgger，利用世界模型合成OOD恢复数据无需人工参与。引入修正动作合成模块和一致性引导过滤模块，避免误导性数据和幻觉。在真实机器人任务中仅需5个演示达到93.3%成功率。",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-04-13",
+      "relevance": 4,
+      "tags": [
+        "world-models",
+        "imitation-learning",
+        "robotics"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.00730",
+      "title": "Infeasible optimization problems and the hierarchical augmented Lagrangian method in imitation learning",
+      "authors": [
+        "HAL Team"
+      ],
+      "summary": "模仿学习中引入硬约束确保策略安全性和鲁棒性，但这些约束有时不可行，导致训练不稳定。研究了约束不可行时的简单补救方法——层级增广拉格朗日法，用于处理模仿学习中的不可行优化问题。",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-05-30",
+      "relevance": 3,
+      "tags": [
+        "imitation-learning",
+        "optimization",
+        "safety"
+      ],
+      "is_new": true
     }
   ],
-  "last_updated": "2026-06-04 08:52:58",
+  "last_updated": "2026-06-08 08:43:11",
   "total_count": 192,
   "new_this_update": 8,
   "metadata": {
     "total": 206,
     "last_updated": "2026-06-07",
     "week": "2026-W23"
-  }
+  },
+  "total_papers": 224
 }

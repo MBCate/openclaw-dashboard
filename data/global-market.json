@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-07",
-  "updatedAt": "2026-06-07 21:30 CST",
-  "summary": "美股大跌，中东局势持续影响全球市场",
-  "marketStatus": "假日（周日，引用上周五数据）",
+  "date": "2026-06-08",
+  "updatedAt": "2026-06-08 09:15 CST",
+  "summary": "中东局势升级！伊朗向以色列发射导弹，停火协议面临破裂；原油暴涨，亚洲市场剧烈震荡",
+  "marketStatus": "盘中（周一早盘）",
 
   "usMarkets": {
     "date": "2026-06-05",
@@ -25,6 +25,14 @@
       "change": -695.15,
       "changePercent": -1.4,
       "weeklyChangePercent": -0.3
+    },
+    "futures": {
+      "date": "2026-06-08 06:30 ET",
+      "snp500Futures": -1.0,
+      "nasdaqFutures": -1.4,
+      "dowFutures": -1.1,
+      "russell2000Futures": -1.2,
+      "note": "伊朗导弹袭击以色列后，美股期货全线下跌"
     }
   },
 
@@ -35,16 +43,12 @@
       "change": -30.04,
       "changePercent": -0.74
     },
-    "shenzhenComponent": {
-      "close": null,
-      "changePercent": null,
-      "note": "深证未从搜索获取到精确收盘价"
-    },
     "chiNext": {
       "close": null,
-      "changePercent": null
+      "changePercent": -3.2,
+      "note": "创业板指跌3.2%"
     },
-    "note": "上证微跌0.74%，权重股承压但中小盘上涨，超3800只个股上涨"
+    "note": "上周五收跌；今日开盘关注中东局势影响。9:30开盘"
   },
 
   "hongKongMarkets": {
@@ -56,40 +60,49 @@
     }
   },
 
-  "crypto": {
-    "date": "2026-06-07",
-    "bitcoin": {
-      "price": 62323.92,
-      "change24hPercent": null,
-      "note": "加密市场整体下跌约3.8%，恐惧情绪蔓延"
+  "asiaMarkets": {
+    "date": "2026-06-08",
+    "kospi": {
+      "changePercent": -8.0,
+      "note": "韩国KOSPI暴跌超8%！触发熔断停牌，科技股恐慌性抛售，三星电子跌逾6%"
     },
-    "ethereum": {
-      "price": 1984.19,
-      "change24hPercent": null,
-      "note": "ETH周跌约10%"
+    "nikkei": {
+      "note": "日经指数预期大幅低开"
+    }
+  },
+
+  "crypto": {
+    "date": "2026-06-08",
+    "bitcoin": {
+      "price": 62052.40,
+      "change24hPercent": 1.43,
+      "note": "比特币小幅反弹至$62,052，市值$1.24万亿"
     }
   },
 
   "commodities": {
-    "date": "2026-06-05",
+    "date": "2026-06-08",
     "crudeOilWTI": {
-      "close": 90.34,
-      "change": -2.70,
-      "note": "WTI早盘开$92.94，收跌；中东局势支撑油价在$90上方"
+      "close": 92.52,
+      "changePercent": 2.19,
+      "note": "WTI冲至$92.52，伊朗袭击以色列后地缘溢价飙升"
     },
     "brentCrude": {
-      "close": 95.00,
-      "note": "Brent开于$95，中东冲突持续推高风险溢价"
+      "close": 96.68,
+      "changePercent": 3.85,
+      "note": "布油$96.68，中东局势恶化推升油价，月跌7.23%但年涨44%"
     },
     "gold": {
-      "close": 4347.20,
-      "change": -157.80,
-      "note": "利率前景打压金价，单日大跌"
+      "close": 4341.52,
+      "change": -2.43,
+      "changePercent": -0.06,
+      "note": "黄金$4,341/oz，小幅回调；避险需求被强势美元抵消"
     }
   },
 
   "macro": {
-    "us10yYield": 4.54,
+    "us10yYield": 4.55,
+    "us10yYieldChgBps": 8,
     "usdIndex": 100.05,
     "fedRateCutProbability2026": "低于1%",
     "fedRateHikeProbability2026": "70%",
@@ -101,26 +114,31 @@
   },
 
   "geopolitics": {
-    "iranWar": "即将进入第100天，和谈悬而未决。美国考虑动用伊朗资产援助海湾盟国重建。",
-    "usChinaTariffs": "中国电动车可能通过第三国进入美国市场。"
+    "iranIsrael": "伊朗向以色列发射导弹，脆弱的停火协议面临破裂。特朗普呼吁以色列保持克制。",
+    "iranWarDuration": "即将进入第100天，和谈悬而未决",
+    "usChinaTariffs": "中国电动车可能通过第三国进入美国市场"
   },
 
   "newsHighlights": [
-    "CNBC: 伊朗战争100天 - 全球市场与经济影响图表分析",
-    "CNBC: 美国考虑扣押伊朗资产用于海湾盟国重建",
-    "CNBC: 中国电动车未来几年可能进入美国",
-    "WSJ: 美股因AI板块暴跌，中国DeepSeek引发抛售（往期）",
-    "WSJ: 金价收跌1.4%，白银跌2.5%",
-    "Bloomberg: 美联航CEO讨论恢复海湾航线",
-    "Bloomberg: SpaceX IPO - 你需要知道的一切",
-    "宏观: 5月非农+17.2万，失业率4.3%，加息概率升至70%"
+    "CNBC: 伊朗向以色列发射导弹，停火协议濒临破裂；特朗普呼吁克制",
+    "CNBC: 美国期货全线下跌 - S&P -1%, Nasdaq -1.4%, Dow -1.1%",
+    "CNBC: 韩国KOSPI暴跌8%触发熔断！科技股恐慌抛售",
+    "CNBC: 香港IPO热潮面临表现问题",
+    "MarketWatch: 美股期货涨跌互现，油价因伊朗攻击飙升",
+    "MarketWatch: S&P 500公司纷纷谈论油价走高，但少有人认为会损失利润",
+    "MarketWatch: 市场热股切换 - 投资者逃离科技股",
+    "Investors.com: 道指期货下跌，SpaceX IPO、苹果和甲骨文是本周焦点",
+    "宏观: 5月非农+17.2万，失业率4.3%，加息概率升至70%",
+    "宏观: 美国10年期收益率升至4.55%（+8bp）"
   ],
 
   "concerns": [
-    "中东冲突持续第100天，和谈进程不明",
-    "美国5月就业超预期 → 加息预期升温 → 股债双杀",
-    "科技股估值压力：Nasdaq单日跌4.2%",
-    "恒指失守25000，三连跌",
-    "加密市场情绪恐惧"
+    "🚨 伊朗导弹袭击以色列！中东冲突急剧升级",
+    "韩国KOSPI暴跌8%触发熔断 - 亚洲风险传导",
+    "美股期货全线下跌，亚洲开盘预计承压",
+    "美10年收益率升至4.55%，市场持续承受利率压力",
+    "恒指三连跌失守25000，今日料继续承压",
+    "科技股估值压力持续：Nasdaq期货-1.4%",
+    "原油暴涨 - WTI、布油均大幅走高"
   ]
 }

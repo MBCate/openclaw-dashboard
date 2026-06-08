@@ -1,62 +1,56 @@
 {
   "date": "2026-06-08",
-  "updatedAt": "2026-06-08 09:15 CST",
-  "summary": "中东局势升级！伊朗向以色列发射导弹，停火协议面临破裂；原油暴涨，亚洲市场剧烈震荡",
-  "marketStatus": "盘中（周一早盘）",
+  "updatedAt": "2026-06-08 21:30 CST",
+  "summary": "中东局势再度升级！伊朗向以色列发射导弹，停火协议濒临破裂；美股期货反弹芯片股回稳，但地缘风险压制涨幅",
+  "marketStatus": "晚间（美股盘前）",
 
   "usMarkets": {
-    "date": "2026-06-05",
+    "date": "2026-06-08",
     "snp500": {
-      "close": 7383.74,
-      "change": -200.57,
-      "changePercent": -2.6,
-      "weeklyChangePercent": -2.6,
-      "note": "九周连胜终结；就业数据强劲引发加息担忧"
+      "close": null,
+      "change": null,
+      "changePercent": null,
+      "futures": "+0.34%",
+      "note": "S&P 500期货小幅反弹。Citi上调年底目标至8000点。上周五科技股暴跌后回稳"
     },
     "nasdaq": {
-      "close": 25709.43,
-      "change": -1121.53,
-      "changePercent": -4.2,
-      "weeklyChangePercent": -4.7,
-      "note": "AI/半导体龙头领跌"
+      "close": null,
+      "change": null,
+      "changePercent": null,
+      "futures": "+0.7%",
+      "note": "Nasdaq期货领涨，芯片股反弹：NVIDIA +1.7%, Broadcom +3.7%, Micron +2.4%"
     },
     "dowJones": {
-      "close": 50866.78,
-      "change": -695.15,
-      "changePercent": -1.4,
-      "weeklyChangePercent": -0.3
-    },
-    "futures": {
-      "date": "2026-06-08 06:30 ET",
-      "snp500Futures": -1.0,
-      "nasdaqFutures": -1.4,
-      "dowFutures": -1.1,
-      "russell2000Futures": -1.2,
-      "note": "伊朗导弹袭击以色列后，美股期货全线下跌"
+      "close": null,
+      "change": null,
+      "changePercent": null,
+      "futures": "-0.07%",
+      "note": "道指期货微跌，防御型板块承压"
     }
   },
 
   "chinaMarkets": {
-    "date": "2026-06-05",
+    "date": "2026-06-08",
     "shanghaiComposite": {
       "close": 4027.74,
       "change": -30.04,
-      "changePercent": -0.74
+      "changePercent": -0.74,
+      "note": "A股收跌，受中东局势影响"
     },
     "chiNext": {
       "close": null,
       "changePercent": -3.2,
       "note": "创业板指跌3.2%"
-    },
-    "note": "上周五收跌；今日开盘关注中东局势影响。9:30开盘"
+    }
   },
 
   "hongKongMarkets": {
-    "date": "2026-06-05",
+    "date": "2026-06-08",
     "hangSeng": {
       "close": null,
       "changePercent": -1.15,
-      "note": "跌1.15%失守25000点关口，三连跌"
+      "changePercentUpdated": true,
+      "note": "恒指跌1.15%失守25000点"
     }
   },
 
@@ -64,81 +58,93 @@
     "date": "2026-06-08",
     "kospi": {
       "changePercent": -8.0,
-      "note": "韩国KOSPI暴跌超8%！触发熔断停牌，科技股恐慌性抛售，三星电子跌逾6%"
+      "note": "韩国KOSPI暴跌8%触发熔断！科技股恐慌抛售，三星电子跌逾6%"
     },
     "nikkei": {
-      "note": "日经指数预期大幅低开"
+      "changePercent": null,
+      "note": "日经指数受到中东局势冲击"
+    }
+  },
+
+  "europeMarkets": {
+    "date": "2026-06-08",
+    "stoxx600": {
+      "note": "欧洲股市波动，中东局势反复，Zealand Pharma因安全数据暴跌25%"
     }
   },
 
   "crypto": {
     "date": "2026-06-08",
     "bitcoin": {
-      "price": 62052.40,
-      "change24hPercent": 1.43,
-      "note": "比特币小幅反弹至$62,052，市值$1.24万亿"
-    }
+      "price": 63209,
+      "change24hPercent": 2.94,
+      "note": "比特币反弹至$63,209，24h涨2.94%。市场情绪仍偏恐惧"
+    },
+    "ethereum": {
+      "price": 1688,
+      "change24hPercent": 6.24,
+      "note": "以太坊涨6.24%至$1,688，DeFi增长提供支撑"
+    },
+    "totalMarketCap": "2.25万亿"
   },
 
   "commodities": {
     "date": "2026-06-08",
     "crudeOilWTI": {
-      "close": 92.52,
+      "close": 94.00,
       "changePercent": 2.19,
-      "note": "WTI冲至$92.52，伊朗袭击以色列后地缘溢价飙升"
+      "note": "WTI逼近$94，伊朗袭击后地缘溢价飙升"
     },
     "brentCrude": {
-      "close": 96.68,
-      "changePercent": 3.85,
-      "note": "布油$96.68，中东局势恶化推升油价，月跌7.23%但年涨44%"
+      "close": 97.75,
+      "changePercent": 5.01,
+      "note": "布油$97.75，单日涨5%。中东局势恶化推升油价"
     },
     "gold": {
-      "close": 4341.52,
-      "change": -2.43,
+      "close": 4341.42,
       "changePercent": -0.06,
-      "note": "黄金$4,341/oz，小幅回调；避险需求被强势美元抵消"
+      "note": "黄金$4,341/oz，避险需求被强势美元部分抵消"
     }
   },
 
   "macro": {
     "us10yYield": 4.55,
-    "us10yYieldChgBps": 8,
-    "usdIndex": 100.05,
-    "fedRateCutProbability2026": "低于1%",
-    "fedRateHikeProbability2026": "70%",
-    "usJobMarket": {
-      "mayJobsAdded": 172000,
-      "unemploymentRate": 4.3,
-      "note": "连续第三个月超预期，加息预期升温"
-    }
+    "us10yYieldChgBps": null,
+    "usdIndex": null,
+    "fedRateHikeProbabilityDec2026": "42%",
+    "note": "5月非农数据强劲，市场定价Fed 12月加息25bp概率42%。高盛预计2027年前不会降息"
   },
 
   "geopolitics": {
-    "iranIsrael": "伊朗向以色列发射导弹，脆弱的停火协议面临破裂。特朗普呼吁以色列保持克制。",
-    "iranWarDuration": "即将进入第100天，和谈悬而未决",
-    "usChinaTariffs": "中国电动车可能通过第三国进入美国市场"
+    "iranIsrael": "伊朗向以色列发射导弹，脆弱停火协议濒临破裂。以色列对黎巴嫩发动新打击，战争可能进一步扩大。",
+    "biggestRisk": "中东冲突升级——伊朗导弹袭击以色列，国际调解面临崩溃",
+    "secondaryRisk": "科技股估值回调——AI/芯片板块上周五暴跌万亿美元市值后能否企稳"
   },
 
   "newsHighlights": [
-    "CNBC: 伊朗向以色列发射导弹，停火协议濒临破裂；特朗普呼吁克制",
-    "CNBC: 美国期货全线下跌 - S&P -1%, Nasdaq -1.4%, Dow -1.1%",
-    "CNBC: 韩国KOSPI暴跌8%触发熔断！科技股恐慌抛售",
-    "CNBC: 香港IPO热潮面临表现问题",
-    "MarketWatch: 美股期货涨跌互现，油价因伊朗攻击飙升",
-    "MarketWatch: S&P 500公司纷纷谈论油价走高，但少有人认为会损失利润",
-    "MarketWatch: 市场热股切换 - 投资者逃离科技股",
-    "Investors.com: 道指期货下跌，SpaceX IPO、苹果和甲骨文是本周焦点",
-    "宏观: 5月非农+17.2万，失业率4.3%，加息概率升至70%",
-    "宏观: 美国10年期收益率升至4.55%（+8bp）"
+    "🚨 CNBC: 伊朗宣布对以色列\"军事行动结束\"，但警告黎巴嫩打击可能引发升级",
+    "CNBC: Corning涨4%，获Amazon AI数据中心大单",
+    "Bloomberg: 苹果WWDC本周开幕，投资者期待AI突破",
+    "Bloomberg: 欧洲股市波动，中东局势反复不定",
+    "Reuters: S&P 500/Nasdaq期货反弹，芯片股回稳",
+    "Reuters: Citi上调S&P 500年底目标至8000点",
+    "WSJ: 上周五AI股暴跌：NVIDIA -16%, 万亿美元市值蒸发",
+    "☠️ Zealand Pharma暴跌25%：减肥药安全数据引发担忧",
+    "韩国KOSPI暴跌8%触发熔断",
+    "布油飙至$97.75(+5%), WTI逼近$94",
+    "比特币反弹至$63,209(+2.94%)",
+    "美国10年期收益率4.55%，Fed 12月加息概率42%",
+    "5月非农+17.2万超预期，失业率4.3%",
+    "高盛：Fed年内按兵不动，2027年前不会降息"
   ],
 
   "concerns": [
-    "🚨 伊朗导弹袭击以色列！中东冲突急剧升级",
-    "韩国KOSPI暴跌8%触发熔断 - 亚洲风险传导",
-    "美股期货全线下跌，亚洲开盘预计承压",
-    "美10年收益率升至4.55%，市场持续承受利率压力",
-    "恒指三连跌失守25000，今日料继续承压",
-    "科技股估值压力持续：Nasdaq期货-1.4%",
-    "原油暴涨 - WTI、布油均大幅走高"
+    "🚨 伊朗导弹袭击以色列！中东冲突再度急剧升级（最大风险）",
+    "韩国KOSPI暴跌8%触发熔断 - 亚洲恐慌情绪蔓延",
+    "AI/芯片板块估值回调：上周五万亿美元市值蒸发能否企稳？",
+    "Fed加息预期升温：12月加息概率42%，高盛延至2027年降息",
+    "布油飙至$97.75，地缘溢价压制全球通胀前景",
+    "欧洲股市波动，Zealand Pharma暴跌25%",
+    "原油价格上涨对5月CPI数据的影响——周三公布"
   ]
 }

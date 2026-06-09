@@ -1,57 +1,41 @@
 {
-  "timestamp": "2026-06-08 15:05:00",
+  "timestamp": "2026-06-09 11:40:29",
   "indexes": {
     "上证指数": {
       "code": "1.000001",
-      "price": 3959.34,
-      "change_pct": -1.70,
-      "change": -68.49,
-      "volume": "1267277000000",
-      "amount": "1267277000000"
+      "price": 3979.6764,
+      "change_pct": 0.51,
+      "change_amount": 20.3386,
+      "volume": 3623893.0,
+      "amount": 72662130.0
     },
     "深证成指": {
       "code": "0.399001",
-      "price": 14821.19,
-      "change_pct": -3.22,
-      "change": -492.92,
-      "volume": "1525461000000",
-      "amount": "1525461000000"
+      "price": 15007.11,
+      "change_pct": 1.25,
+      "change_amount": 185.923,
+      "volume": 448901332.0,
+      "amount": 88715254.0
     },
     "创业板指": {
       "code": "0.399006",
-      "price": 3811.79,
-      "change_pct": -3.69,
-      "change": -146.10,
-      "volume": "722402000000",
-      "amount": "722402000000"
+      "price": 3884.54,
+      "change_pct": 1.91,
+      "change_amount": 72.756,
+      "volume": 20254859.0,
+      "amount": 17592660.0
     }
   },
-  "money_flow": {
-    "shanghai": {
-      "date": "2026-06-08",
-      "main_net_flow": -49616912384,
-      "super_large_in": 29801316352,
-      "large_in": 19815591936,
-      "medium_net_flow": -15254458368
-    },
-    "shenzhen": {
-      "date": "2026-06-08",
-      "main_net_flow": -66744401920,
-      "super_large_in": 56986337280,
-      "large_in": 9758068736,
-      "medium_net_flow": -30799249408
-    }
+  "north_flow": {
+    "date": "2026-06-09",
+    "net_amount": 0.0
   },
-  "board_top": [
-    {"name": "工程机械", "change_pct": null},
-    {"name": "油气开采及服务", "change_pct": null},
-    {"name": "保险", "change_pct": null}
-  ],
-  "board_bottom": [
-    {"name": "贸易", "change_pct": null},
-    {"name": "其他电子", "change_pct": null},
-    {"name": "贵金属", "change_pct": null}
-  ],
-  "north_flow": null,
-  "summary": "三大指数集体收跌。上证指数跌1.70%报3959.34，失守4000点；深证成指跌3.22%报14821.19；创业板指跌3.69%报3811.79。两市成交额约2.79万亿。工程机械、油气板块逆势上涨，贸易、贵金属板块领跌。"
+  "market_breadth": {
+    "up": 100,
+    "down": 0,
+    "flat": 0
+  },
+  "sectors": {
+    "note": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  }
 }

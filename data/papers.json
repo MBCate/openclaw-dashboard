@@ -4315,5 +4315,17 @@
     "last_updated": "2026-06-07",
     "week": "2026-W23"
   },
-  "total_papers": 224
+  "total_papers": 224,
+  "meta": {
+    "total_papers": 224,
+    "last_scan": "2026-06-09T00:26:26Z",
+    "new_found": 0,
+    "topics": [
+      "end-to-end-autonomous-driving",
+      "vla",
+      "world-models",
+      "bev-perception",
+      "diffusion-policy"
+    ]
+  }
 }

@@ -1,41 +1,16 @@
 {
-  "timestamp": "2026-06-09 11:40:29",
-  "indexes": {
-    "上证指数": {
-      "code": "1.000001",
-      "price": 3979.6764,
-      "change_pct": 0.51,
-      "change_amount": 20.3386,
-      "volume": 3623893.0,
-      "amount": 72662130.0
-    },
-    "深证成指": {
-      "code": "0.399001",
-      "price": 15007.11,
-      "change_pct": 1.25,
-      "change_amount": 185.923,
-      "volume": 448901332.0,
-      "amount": 88715254.0
-    },
-    "创业板指": {
-      "code": "0.399006",
-      "price": 3884.54,
-      "change_pct": 1.91,
-      "change_amount": 72.756,
-      "volume": 20254859.0,
-      "amount": 17592660.0
-    }
+  "time": "2026-06-09 15:00",
+  "indices": {
+    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
   },
+  "hs300": {},
+  "hsi": {
+    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  "sector_rise_top5": [],
+  "sector_fall_top5": [],
   "north_flow": {
-    "date": "2026-06-09",
-    "net_amount": 0.0
+    "error": "module 'akshare' has no attribute 'stock_hsgt_north_net_flow_in_em'"
   },
-  "market_breadth": {
-    "up": 100,
-    "down": 0,
-    "flat": 0
-  },
-  "sectors": {
-    "note": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-  }
+  "sector_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 }

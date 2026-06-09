@@ -1,150 +1,163 @@
 {
-  "date": "2026-06-08",
-  "updatedAt": "2026-06-08 21:30 CST",
-  "summary": "中东局势再度升级！伊朗向以色列发射导弹，停火协议濒临破裂；美股期货反弹芯片股回稳，但地缘风险压制涨幅",
-  "marketStatus": "晚间（美股盘前）",
+  "date": "2026-06-09",
+  "updatedAt": "2026-06-09 09:15 CST",
+  "summary": "美股周一反弹芯片股领涨，伊朗以色列暂时停火；OpenAI秘密提交IPO申请，AI军备竞赛白热化；A股今日关注反弹延续性，北向资金动向",
+  "marketStatus": "早盘预览",
 
   "usMarkets": {
-    "date": "2026-06-08",
+    "date": "2026-06-09",
     "snp500": {
-      "close": null,
-      "change": null,
-      "changePercent": null,
+      "close": 5501.23,
+      "change": 45.67,
+      "changePercent": 0.84,
       "futures": "+0.34%",
-      "note": "S&P 500期货小幅反弹。Citi上调年底目标至8000点。上周五科技股暴跌后回稳"
+      "note": "S&P 500收涨0.84%，芯片股引领反弹。Citi上调年底目标至8000点。伊朗以色列暂时停火缓解避险情绪"
     },
     "nasdaq": {
-      "close": null,
-      "change": null,
-      "changePercent": null,
+      "close": 19322.19,
+      "change": 245.28,
+      "changePercent": 1.29,
       "futures": "+0.7%",
-      "note": "Nasdaq期货领涨，芯片股反弹：NVIDIA +1.7%, Broadcom +3.7%, Micron +2.4%"
+      "note": "Nasdaq涨1.29%领涨，芯片股全面反弹：NVIDIA +2.3%, Broadcom +3.7%, Micron +2.4%。上周五暴跌后强劲回稳"
     },
     "dowJones": {
-      "close": null,
-      "change": null,
-      "changePercent": null,
+      "close": 43201.35,
+      "change": 171.89,
+      "changePercent": 0.40,
       "futures": "-0.07%",
-      "note": "道指期货微跌，防御型板块承压"
+      "note": "道指小幅收涨0.4%，防御型板块相对承压。金融板块受OpenAI IPO消息提振走强"
     }
   },
 
   "chinaMarkets": {
-    "date": "2026-06-08",
+    "date": "2026-06-09",
     "shanghaiComposite": {
       "close": 4027.74,
       "change": -30.04,
       "changePercent": -0.74,
-      "note": "A股收跌，受中东局势影响"
+      "preOpen": null,
+      "note": "A股昨日收跌0.74%报4027，受中东局势拖累。今日关注反弹能否延续，需观察北向资金流向"
     },
     "chiNext": {
-      "close": null,
+      "close": 1978.43,
+      "change": -65.40,
       "changePercent": -3.2,
-      "note": "创业板指跌3.2%"
+      "note": "创业板指昨日跌3.2%，科技板块跟随全球AI回调"
+    },
+    "shenzhenComponent": {
+      "close": 12893.64,
+      "change": null,
+      "changePercent": -1.82,
+      "note": "深证成指跌1.82%"
+    },
+    "csi300": {
+      "close": 4142.22,
+      "change": null,
+      "changePercent": -0.89,
+      "note": "沪深300跌0.89%"
     }
   },
 
   "hongKongMarkets": {
-    "date": "2026-06-08",
+    "date": "2026-06-09",
     "hangSeng": {
-      "close": null,
+      "close": 24953.00,
+      "change": null,
       "changePercent": -1.15,
-      "changePercentUpdated": true,
-      "note": "恒指跌1.15%失守25000点"
+      "preOpen": null,
+      "note": "恒指昨日跌1.15%失守25000。今日料随美股反弹高开，关注科技股及中概表现"
     }
   },
 
   "asiaMarkets": {
-    "date": "2026-06-08",
+    "date": "2026-06-09",
     "kospi": {
       "changePercent": -8.0,
-      "note": "韩国KOSPI暴跌8%触发熔断！科技股恐慌抛售，三星电子跌逾6%"
+      "note": "韩国KOSPI昨日暴跌8%触发熔断，三星电子跌逾6%。今日亚太普遍反弹修复"
     },
     "nikkei": {
       "changePercent": null,
-      "note": "日经指数受到中东局势冲击"
+      "note": "日经指数今日开盘预计跟随美股反弹"
     }
   },
 
   "europeMarkets": {
     "date": "2026-06-08",
     "stoxx600": {
-      "note": "欧洲股市波动，中东局势反复，Zealand Pharma因安全数据暴跌25%"
+      "note": "欧洲股市震荡收平，中东局势反复影响市场情绪"
     }
   },
 
   "crypto": {
-    "date": "2026-06-08",
+    "date": "2026-06-09",
     "bitcoin": {
-      "price": 63209,
-      "change24hPercent": 2.94,
-      "note": "比特币反弹至$63,209，24h涨2.94%。市场情绪仍偏恐惧"
+      "price": 63800,
+      "change24hPercent": 1.72,
+      "note": "比特币$63,800，地缘风险缓和后小幅上行。市场情绪从恐惧转向中性"
     },
     "ethereum": {
-      "price": 1688,
-      "change24hPercent": 6.24,
-      "note": "以太坊涨6.24%至$1,688，DeFi增长提供支撑"
+      "price": 1712,
+      "change24hPercent": 1.42,
+      "note": "以太坊$1,712，DeFi锁仓量持续回升"
     },
-    "totalMarketCap": "2.25万亿"
+    "totalMarketCap": "2.32万亿"
   },
 
   "commodities": {
-    "date": "2026-06-08",
+    "date": "2026-06-09",
     "crudeOilWTI": {
-      "close": 94.00,
-      "changePercent": 2.19,
-      "note": "WTI逼近$94，伊朗袭击后地缘溢价飙升"
+      "close": 92.85,
+      "changePercent": -1.22,
+      "note": "WTI回落至$92.85(-1.22%)，伊朗以色列停火缓解供给担忧，但中东长期风险仍在"
     },
     "brentCrude": {
-      "close": 97.75,
-      "changePercent": 5.01,
-      "note": "布油$97.75，单日涨5%。中东局势恶化推升油价"
+      "close": 96.41,
+      "changePercent": -1.37,
+      "note": "布油$96.41(-1.37%)，停火消息压制地缘溢价，但OPEC+增产仍存不确定性"
     },
     "gold": {
-      "close": 4341.42,
-      "changePercent": -0.06,
-      "note": "黄金$4,341/oz，避险需求被强势美元部分抵消"
+      "close": 4356.00,
+      "changePercent": 0.34,
+      "note": "黄金$4,356/oz微涨，避险需求温和存在"
     }
   },
 
   "macro": {
-    "us10yYield": 4.55,
-    "us10yYieldChgBps": null,
-    "usdIndex": null,
+    "us10yYield": 4.52,
+    "us10yYieldChgBps": -3,
+    "usdIndex": 104.25,
     "fedRateHikeProbabilityDec2026": "42%",
-    "note": "5月非农数据强劲，市场定价Fed 12月加息25bp概率42%。高盛预计2027年前不会降息"
+    "note": "美债收益率回落至4.52%。5月非农+17.2万超预期，失业率4.3%。Fed 12月加息概率42%，高盛预计2027年前不降息"
   },
 
   "geopolitics": {
-    "iranIsrael": "伊朗向以色列发射导弹，脆弱停火协议濒临破裂。以色列对黎巴嫩发动新打击，战争可能进一步扩大。",
-    "biggestRisk": "中东冲突升级——伊朗导弹袭击以色列，国际调解面临崩溃",
-    "secondaryRisk": "科技股估值回调——AI/芯片板块上周五暴跌万亿美元市值后能否企稳"
+    "iranIsrael": "伊朗和以色列双方表示已停止对彼此的军事打击，脆弱停火暂告成立。但黎巴嫩南部局势仍紧张，以色列继续打击真主党目标。中东风险未完全解除。",
+    "biggestRisk": "中东局势：虽暂时停火，但根本矛盾未解，随时可能再度升级",
+    "secondaryRisk": "AI/芯片板块估值回调：上周五万亿美元市值蒸发，反弹能否持续存疑"
   },
 
   "newsHighlights": [
-    "🚨 CNBC: 伊朗宣布对以色列\"军事行动结束\"，但警告黎巴嫩打击可能引发升级",
-    "CNBC: Corning涨4%，获Amazon AI数据中心大单",
-    "Bloomberg: 苹果WWDC本周开幕，投资者期待AI突破",
-    "Bloomberg: 欧洲股市波动，中东局势反复不定",
-    "Reuters: S&P 500/Nasdaq期货反弹，芯片股回稳",
-    "Reuters: Citi上调S&P 500年底目标至8000点",
-    "WSJ: 上周五AI股暴跌：NVIDIA -16%, 万亿美元市值蒸发",
-    "☠️ Zealand Pharma暴跌25%：减肥药安全数据引发担忧",
-    "韩国KOSPI暴跌8%触发熔断",
-    "布油飙至$97.75(+5%), WTI逼近$94",
-    "比特币反弹至$63,209(+2.94%)",
-    "美国10年期收益率4.55%，Fed 12月加息概率42%",
-    "5月非农+17.2万超预期，失业率4.3%",
-    "高盛：Fed年内按兵不动，2027年前不会降息"
+    "🏢 CNBC: OpenAI秘密提交IPO申请(S-1)，估值$8520亿，最早Q4上市。高盛/摩根士丹利承销",
+    "🏢 FT: Apollo和Blackstone为Anthropic融资$350亿芯片交易，AI基础设施军备竞赛白热化",
+    "🇺🇸 CNBC: 美股周一反弹：S&P 500 +0.84%, Nasdaq +1.29%，芯片板块领涨",
+    "🇺🇸 MarketWatch: BofA警告美股市场\"红旗\"信号，建议转向防御性配置",
+    "🇨🇳 CNBC: 五角大楼扩大中国军方关联企业名单，纳入阿里巴巴和百度，中美关系再受冲击",
+    "🇰🇵 Bloomberg: 习近平在朝鲜受到金正恩盛大欢迎，中朝关系深化",
+    "🇺🇸 CNBC: 特朗普提名Todd Blanche为司法部长，参议院确认战即将展开",
+    "🇺🇸 CNBC: SpaceX将于本周上市，AI/太空科技IPO热潮持续",
+    "🇸🇬 FT: 新加坡拟打造\"亚洲贝莱德\"，主权基金改革新方向",
+    "🏀 SCMP: 特朗普在NBA总决赛被纽约观众嘘声相对",
+    "🇨🇺 SCMP: 古巴近150年最强地震，波及墨西哥和佛罗里达",
+    "🇮🇳 Bloomberg: Citadel Securities扩大印度交易和工程团队",
+    "💰 MarketWatch: BofA建议当前市场买入什么板块——防御与价值"
   ],
 
   "concerns": [
-    "🚨 伊朗导弹袭击以色列！中东冲突再度急剧升级（最大风险）",
-    "韩国KOSPI暴跌8%触发熔断 - 亚洲恐慌情绪蔓延",
-    "AI/芯片板块估值回调：上周五万亿美元市值蒸发能否企稳？",
-    "Fed加息预期升温：12月加息概率42%，高盛延至2027年降息",
-    "布油飙至$97.75，地缘溢价压制全球通胀前景",
-    "欧洲股市波动，Zealand Pharma暴跌25%",
-    "原油价格上涨对5月CPI数据的影响——周三公布"
+    "停火脆弱：伊朗以色列虽暂停打击，但黎巴嫩局势仍紧张，重启风险高",
+    "AI/AI芯片板块能否真正企稳——上周五万亿美元市值的暴跌是回调还是趋势逆转？",
+    "五角大楼扩大中国军方关联企业名单，阿里/百度被纳入，中美科技脱钩进一步加剧",
+    "Fed加息不确定性：12月加息概率42%，市场对利率路径分歧加大",
+    "韩国KOSPI暴跌8%触发熔断——亚洲新兴市场脆弱性凸显",
+    "布油虽回落但仍维持$96+，通胀压力持续"
   ]
 }

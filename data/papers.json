@@ -4305,6 +4305,215 @@
         "safety"
       ],
       "is_new": true
+    },
+    {
+      "id": "2606.08684",
+      "title": "BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving",
+      "authors": [
+        "George Ling",
+        "Lijin Yang",
+        "Hao Yang",
+        "Zhongzhan Huang"
+      ],
+      "summary": "提出BLUE方法，通过分析发现语言仅在少数路线上有用，提出按需使用语言的VLA模型框架。实验证明大多数帧不需要语言生成，可大幅降低计算开销同时保持性能。揭示了预训练VLA隐藏状态已编码语言信息，可直接利用避免冗余生成。",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-06-07",
+      "relevance": 5,
+      "tags": [
+        "vla-driving",
+        "efficiency",
+        "end-to-end-driving"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2605.24531",
+      "title": "NudgeVAD: Language-Nudged End-to-End Driving via FiLM Residuals",
+      "authors": [
+        "Chieh-Chi Yang",
+        "Yu-Hsiang Chen",
+        "Yi-Ting Chen"
+      ],
+      "summary": "提出NudgeVAD，冻结规划器的残差框架，用语言作为校准微调信号调整VAD轨迹。使用恒等初始化FiLM和零初始化残差头，初始等价于冻结规划器，语言条件残差引导轨迹偏移。在NAVSIM上验证有效性。",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-05-23",
+      "relevance": 4,
+      "tags": [
+        "vla-driving",
+        "end-to-end-driving",
+        "language-conditioned"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.00267",
+      "title": "StressDream: Steering Video World Models for Robust Policy Evaluation and Improvement",
+      "authors": [
+        "StressDream Team"
+      ],
+      "summary": "探索引导视频世界模型进行压力测试和鲁棒策略评估。通过干预世界模型的潜在空间生成OOD场景，用于检测策略失败模式并改进。为世界模型在策略评估中的应用提供新方法论。",
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "cs.LG"
+      ],
+      "published": "2026-05-31",
+      "relevance": 4,
+      "tags": [
+        "world-models",
+        "robustness",
+        "policy-evaluation"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.09273",
+      "title": "EditSSC: Toward Editable Semantic Occupancy Scenes with Unconditional Diffusion Models",
+      "authors": [
+        "EditSSC Team"
+      ],
+      "summary": "提出EditSSC，用2D BEV表示和vanilla diffusion模型生成可编辑3D语义占用场景。避免复杂3D架构，支持场景编辑。用于自动驾驶数据增强和场景多样性扩展。CVPR 2026 USM3D Workshop。",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-06-08",
+      "relevance": 3,
+      "tags": [
+        "bev",
+        "semantic-occupancy",
+        "scene-generation",
+        "diffusion"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.08680",
+      "title": "Distortion-Aware PETR for BEV Object Detection with Mixed Pinhole-Fisheye Cameras",
+      "authors": [
+        "Xiangzhong Liu"
+      ],
+      "summary": "提出DAPETR，面向混合针孔-鱼眼相机的BEV检测器。采用统一畸变感知位置编码，解决鱼眼畸变导致的均匀采样假设失效问题。ICRA 2026接收。",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "published": "2026-06-08",
+      "relevance": 3,
+      "tags": [
+        "bev",
+        "object-detection",
+        "fisheye",
+        "perception"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.01164",
+      "title": "Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends",
+      "authors": [
+        "Interactive World Models Team"
+      ],
+      "summary": "交互式视频世界建模综述，涵盖前沿方法、挑战、基准和未来趋势。涵盖从视频生成到可交互世界模型的最新进展，包括扩散世界模型和自回归视频模型。",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "published": "2026-06-01",
+      "relevance": 3,
+      "tags": [
+        "world-models",
+        "survey",
+        "video-generation"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.00133",
+      "title": "A Comprehensive Survey of Architectures, Methodologies, Reasoning Paradigms, and Applications",
+      "authors": [
+        "Arif Hassan Zidan",
+        "Yi Pan",
+        "Hanqi Jiang"
+      ],
+      "summary": "大型世界模型全面综述，覆盖架构设计、方法论、推理范式和实际应用。系统分类当前世界模型方法并分析关键挑战和未来方向。",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "published": "2026-05-31",
+      "relevance": 3,
+      "tags": [
+        "world-models",
+        "survey",
+        "foundation-models"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2605.25262",
+      "title": "Semantics-Guided Multimodal Masked Autoencoder Pretraining for 3D BEV Object Detection",
+      "authors": [
+        "Sem-Guided MAE Team"
+      ],
+      "summary": "提出语义引导的多模态掩码自编码器预训练，引入语义信息指导相机和LiDAR输入的非均匀掩码策略。在nuScenes和Waymo BEV检测中验证有效性。",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-05-26",
+      "relevance": 3,
+      "tags": [
+        "bev",
+        "object-detection",
+        "pretraining",
+        "multimodal"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2605.27589",
+      "title": "A Causal Benchmark for General World Models in Embodied Scenarios",
+      "authors": [
+        "Causal World Models Team"
+      ],
+      "summary": "提出因果基准测试，用于评估视频世界模型在具身场景中的因果推理能力。通过双提示法（仅改变一个物理细节）检验模型输出是否按物理规律变化。直接相关于驾驶和操作场景中的世界模型评估。",
+      "categories": [
+        "cs.LG",
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-05-29",
+      "relevance": 3,
+      "tags": [
+        "world-models",
+        "benchmarking",
+        "causality"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2605.25293",
+      "title": "Neuromorphic LiDAR-based Bird's Eye View Object Detection using Energy-efficient Spiking Neural Networks",
+      "authors": [
+        "Neuromorphic BEV Team"
+      ],
+      "summary": "神经形态LiDAR BEV目标检测，使用脉冲神经网络（SNN）实现高能效3D感知。探索类脑计算在自动驾驶感知中的应用。",
+      "categories": [
+        "cs.CV",
+        "cs.NE"
+      ],
+      "published": "2026-05-26",
+      "relevance": 3,
+      "tags": [
+        "bev",
+        "object-detection",
+        "neuromorphic",
+        "efficiency"
+      ],
+      "is_new": true
     }
   ],
   "last_updated": "2026-06-08 08:43:11",

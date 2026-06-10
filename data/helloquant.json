@@ -1,21 +1,85 @@
 {
-  "timestamp": "2026-06-08 15:05:00",
-  "last_update": "2026-06-05 15:07",
-  "status": "no_new_data_today",
-  "crypto": {
-    "BTC/USDT": {
-      "price": 61440.0,
-      "change_24h_pct": -3.70,
-      "indicators_1h": {"rsi": 32.2, "macd_status": "死叉", "trend": "偏空"},
-      "indicators_4h": {"rsi": 27.3, "macd_status": "死叉", "trend": "偏空"}
+  "date": "2026-06-05",
+  "update_time": "2026-06-10 15:20",
+  "latest_data_date": "2026-06-05",
+  "note": "Last data update was 2026-06-05 (Friday). No new HelloQuant run today.",
+  "strategies": [
+    {
+      "name": "DoubleMa",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "price": 61617.1
     },
-    "ETH/USDT": {
-      "price": 1638.46,
-      "change_24h_pct": -7.94,
-      "indicators_1h": {"rsi": 17.0, "macd_status": "死叉", "trend": "偏空"},
-      "indicators_4h": {"rsi": 21.1, "macd_status": "死叉", "trend": "偏空"}
+    {
+      "name": "RSI",
+      "signal_1h": "做多",
+      "signal_4h": "做多",
+      "price": 61617.1
+    },
+    {
+      "name": "MACD",
+      "signal_1h": "做空",
+      "signal_4h": "观望",
+      "price": 61617.1
+    },
+    {
+      "name": "Bollinger",
+      "signal_1h": "做多",
+      "signal_4h": "观望",
+      "price": 61617.1
+    },
+    {
+      "name": "Supertrend",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "price": 61617.1
+    },
+    {
+      "name": "TripleMa",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "price": 61617.1
+    },
+    {
+      "name": "Momentum",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "price": 61617.1
+    },
+    {
+      "name": "MeanReversion",
+      "signal_1h": "做多",
+      "signal_4h": "观望",
+      "price": 61617.1
     }
-  },
-  "stock_strategies": [],
-  "note": "2026-06-08 未生成新数据。stock/futures 策略目录为空，仅 crypto 数据于 6月5日更新。"
+  ],
+  "btc_price": 61440.0,
+  "btc_change_24h": -3.7034366776431793,
+  "btc_trend": "偏空",
+  "eth_price": 1638.46,
+  "eth_change_24h": -7.94444506871327,
+  "eth_trend": "偏空",
+  "fear_greed": 12,
+  "fear_greed_label": "Extreme Fear",
+  "market_summary": {
+    "stocks": {
+      "sh": {
+        "price": 4027.7362,
+        "change": -0.74
+      },
+      "sz": {
+        "price": 15314.7,
+        "change": -2.215
+      },
+      "cy": {
+        "price": 3957.935,
+        "change": -3.203
+      }
+    },
+    "commodities": {
+      "gold": 977.94,
+      "silver": 17730.0,
+      "copper": 105150.0
+    }
+  }
 }

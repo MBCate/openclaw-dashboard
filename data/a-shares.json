@@ -1,80 +1,82 @@
 {
-  "update_time": "2026-06-10 11:59",
-  "indexes": {
-    "shanghai": {
-      "name": "上证指数",
-      "price": 3986.66,
-      "change": -23.37,
-      "change_pct": -0.58
-    },
-    "shenzhen": {
-      "name": "深证成指",
-      "price": 14972.75,
-      "change": -295.96,
-      "change_pct": -1.94
-    },
-    "chuangyeban": {
-      "name": "创业板指",
-      "price": 3870.83,
-      "change": -90.92,
-      "change_pct": -2.29
-    },
-    "hs300": {
-      "name": "沪深300",
-      "price": 4754.8,
-      "change": -47.01,
-      "change_pct": -0.98
-    },
-    "hsi": {
-      "name": "恒生指数",
-      "price": 24298.17,
-      "change": -267.73,
-      "change_pct": -1.09
-    }
-  },
-  "north_flow_yi": null,
-  "board_top5": [
+  "date": "2026-06-10",
+  "update_time": "2026-06-10 15:19:00",
+  "indices": [
     {
-      "name": "环氧丙烷",
-      "change_pct": 3.7
+      "code": "上证指数",
+      "name": "000001",
+      "price": 3993.23,
+      "open": 3985.12,
+      "high": 4006.31,
+      "low": 3963.44,
+      "prev_close": 4010.03,
+      "change": -16.8,
+      "change_pct": -0.42,
+      "volume_hand": 598694739,
+      "amount_yi": 12270.7
     },
     {
-      "name": "兵装重组概念",
-      "change_pct": 3.7
+      "code": "深证成指",
+      "name": "399001",
+      "price": 14954.1,
+      "open": 15062.51,
+      "high": 15149.37,
+      "low": 14817.11,
+      "prev_close": 15268.71,
+      "change": -314.61,
+      "change_pct": -2.06,
+      "volume_hand": 710462329,
+      "amount_yi": 13921.73
     },
     {
-      "name": "光刻胶",
-      "change_pct": 1.44
+      "code": "创业板指",
+      "name": "399006",
+      "price": 3854.79,
+      "open": 3897.73,
+      "high": 3928.36,
+      "low": 3818.31,
+      "prev_close": 3961.75,
+      "change": -106.96,
+      "change_pct": -2.7,
+      "volume_hand": 203947087,
+      "amount_yi": 6488.12
     },
     {
-      "name": "丙烯酸",
-      "change_pct": 1.12
+      "code": "沪深300",
+      "name": "000300",
+      "price": 4748.59,
+      "open": 4753.12,
+      "high": 4786.52,
+      "low": 4718.99,
+      "prev_close": 4801.81,
+      "change": -53.22,
+      "change_pct": -1.11,
+      "volume_hand": 259297109,
+      "amount_yi": 6946.28
     },
     {
-      "name": "中芯国际概念",
-      "change_pct": 0.92
+      "code": "科创50",
+      "name": "000688",
+      "price": 1652.22,
+      "open": 1662.85,
+      "high": 1722.33,
+      "low": 1632.33,
+      "prev_close": 1663.11,
+      "change": -10.89,
+      "change_pct": -0.65,
+      "volume_hand": 15911725,
+      "amount_yi": 1390.89
     }
   ],
-  "board_bottom5": [
-    {
-      "name": "培育钻石",
-      "change_pct": -3.56
-    },
-    {
-      "name": "高压快充",
-      "change_pct": -3.62
-    },
-    {
-      "name": "柔性直流输电",
-      "change_pct": -3.74
-    },
-    {
-      "name": "同花顺果指数",
-      "change_pct": -4.1
-    },
-    {
-      "name": "铜缆高速连接",
-      "change_pct": -4.39
-    }
-  ]
+  "northbound_flow": {
+    "date": "2026-06-10",
+    "沪股通净买入_亿": "暂无(交易状态3)",
+    "深股通净买入_亿": "暂无(交易状态3)",
+    "港股通沪净买入_亿": 71.61,
+    "港股通深净买入_亿": -2.56,
+    "沪股通额度余额_亿": "52亿/520亿",
+    "深股通额度余额_亿": "暂无",
+    "note": "北向交易显示状态3(不活跃)，可能今日北向交易数据未更新或有延迟"
+  },
+  "sectors_note": "EastMoney API blocked today. From homepage scraped data, 光模块, F5G, CPO, 通信设备, HALO, PCB appear as top gainer concepts"
 }

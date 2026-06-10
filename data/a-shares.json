@@ -1,16 +1,80 @@
 {
-  "time": "2026-06-09 15:00",
-  "indices": {
-    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  "update_time": "2026-06-10 11:59",
+  "indexes": {
+    "shanghai": {
+      "name": "上证指数",
+      "price": 3986.66,
+      "change": -23.37,
+      "change_pct": -0.58
+    },
+    "shenzhen": {
+      "name": "深证成指",
+      "price": 14972.75,
+      "change": -295.96,
+      "change_pct": -1.94
+    },
+    "chuangyeban": {
+      "name": "创业板指",
+      "price": 3870.83,
+      "change": -90.92,
+      "change_pct": -2.29
+    },
+    "hs300": {
+      "name": "沪深300",
+      "price": 4754.8,
+      "change": -47.01,
+      "change_pct": -0.98
+    },
+    "hsi": {
+      "name": "恒生指数",
+      "price": 24298.17,
+      "change": -267.73,
+      "change_pct": -1.09
+    }
   },
-  "hs300": {},
-  "hsi": {
-    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-  },
-  "sector_rise_top5": [],
-  "sector_fall_top5": [],
-  "north_flow": {
-    "error": "module 'akshare' has no attribute 'stock_hsgt_north_net_flow_in_em'"
-  },
-  "sector_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  "north_flow_yi": null,
+  "board_top5": [
+    {
+      "name": "环氧丙烷",
+      "change_pct": 3.7
+    },
+    {
+      "name": "兵装重组概念",
+      "change_pct": 3.7
+    },
+    {
+      "name": "光刻胶",
+      "change_pct": 1.44
+    },
+    {
+      "name": "丙烯酸",
+      "change_pct": 1.12
+    },
+    {
+      "name": "中芯国际概念",
+      "change_pct": 0.92
+    }
+  ],
+  "board_bottom5": [
+    {
+      "name": "培育钻石",
+      "change_pct": -3.56
+    },
+    {
+      "name": "高压快充",
+      "change_pct": -3.62
+    },
+    {
+      "name": "柔性直流输电",
+      "change_pct": -3.74
+    },
+    {
+      "name": "同花顺果指数",
+      "change_pct": -4.1
+    },
+    {
+      "name": "铜缆高速连接",
+      "change_pct": -4.39
+    }
+  ]
 }

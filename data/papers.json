@@ -1,6 +1,632 @@
 {
   "papers": [
     {
+      "id": "2606.11019",
+      "title": "Diffusion Forcing Planner: History-Annealed Planning with Time-Dependent Guidance for Autonomous Driving",
+      "authors": [
+        "Yaoyi Li et al."
+      ],
+      "summary": "CVPR2026. 提出扩散强制规划器(DFP)，将完整轨迹分解为历史/当前/未来三段并分配独立噪声水平，异质联合去噪过程。推理时使用CFG通过退火历史可控引导未来采样。在nuPlan闭环评测上实现竞争性性能，生成连续、稳定、可控的运动规划。",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "published": "2026-06-09",
+      "relevance": 5,
+      "tags": [
+        "diffusion-planning",
+        "e2e-ad",
+        "CVPR2026",
+        "autonomous-driving"
+      ],
+      "is_new": true,
+      "url": "https://arxiv.org/abs/2606.11019"
+    },
+    {
+      "id": "2606.07464",
+      "title": "COMPACT-VA: Planning-aligned Token Compression for Long-Context Autonomous Driving",
+      "authors": [
+        "Zhixuan Liang",
+        "Yuxiao Chen",
+        "Yurong You",
+        "Peter Karkus",
+        "Wenhao Ding",
+        "Boyi Li",
+        "Alexander Popov",
+        "Yan Wang",
+        "Maximilian Igl",
+        "Yiming Li",
+        "Danfei Xu",
+        "Nikolai Smolyanskiy",
+        "Boris Ivanovic",
+        "Ping Luo",
+        "Marco Pavone"
+      ],
+      "summary": "面向长上下文自动驾驶的规划对齐工作记忆框架。基于条件VQ-VAE将扩展上下文压缩为有界表示，压缩条件同时依赖于历史轨迹和学习的规划意图(后验编码器从未来轨迹蒸馏，先验编码器学习预测该意图)。在NAVSIM上验证保留决策关键信息。",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "published": "2026-06-09",
+      "relevance": 4,
+      "tags": [
+        "token-compression",
+        "e2e-ad",
+        "planning",
+        "VQ-VAE"
+      ],
+      "is_new": true,
+      "url": "https://arxiv.org/abs/2606.07464"
+    },
+    {
+      "id": "2606.10856",
+      "title": "An Exposure-Time-Aligned Primary-Path Architecture for Autonomous-Driving ECUs",
+      "authors": [
+        "Toru Saito et al."
+      ],
+      "summary": "面向生产车载SoC的AD架构设计，提出三条原则：(i)主路径(Primary-Path)将主感知链优先放入单SoC对；(ii)曝光时间对齐(Exposure-Time-Aligned)传播主传感器曝光时间标记触发融合；(iii)共路径共存(Co-Path Coexistence)允许E2E影子模式与模块化管线并行运行。Dual-SoC ECU实测延迟均值296ms。",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-06-09",
+      "relevance": 3,
+      "tags": [
+        "e2e-ad",
+        "system-architecture",
+        "production",
+        "SoC"
+      ],
+      "is_new": true,
+      "url": "https://arxiv.org/abs/2606.10856"
+    },
+    {
+      "id": "2606.10303",
+      "title": "Isolation-aware Scheduling for End-to-End Autonomous Driving Workloads",
+      "authors": [
+        "Multiple authors"
+      ],
+      "summary": "针对端到端自动驾驶计算负载的隔离感知任务调度方法，在多NN共存的SoC上优化时序和资源分配。",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-06-09",
+      "relevance": 3,
+      "tags": [
+        "scheduling",
+        "e2e-ad",
+        "SoC",
+        "real-time"
+      ],
+      "is_new": true,
+      "url": "https://arxiv.org/abs/2606.10303"
+    },
+    {
+      "id": "2606.09273",
+      "title": "EditSSC: Toward Editable Semantic Occupancy Scenes with Unconditional Diffusion Models",
+      "authors": [
+        "EditSSC Team"
+      ],
+      "summary": "提出EditSSC，用2D BEV表示和vanilla diffusion模型生成可编辑3D语义占用场景。避免复杂3D架构，支持场景编辑。用于自动驾驶数据增强和场景多样性扩展。CVPR 2026 USM3D Workshop。",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-06-08",
+      "relevance": 3,
+      "tags": [
+        "bev",
+        "semantic-occupancy",
+        "scene-generation",
+        "diffusion"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.08680",
+      "title": "Distortion-Aware PETR for BEV Object Detection with Mixed Pinhole-Fisheye Cameras",
+      "authors": [
+        "Xiangzhong Liu"
+      ],
+      "summary": "提出DAPETR，面向混合针孔-鱼眼相机的BEV检测器。采用统一畸变感知位置编码，解决鱼眼畸变导致的均匀采样假设失效问题。ICRA 2026接收。",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "published": "2026-06-08",
+      "relevance": 3,
+      "tags": [
+        "bev",
+        "object-detection",
+        "fisheye",
+        "perception"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.08684",
+      "title": "BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving",
+      "authors": [
+        "George Ling",
+        "Lijin Yang",
+        "Hao Yang",
+        "Zhongzhan Huang"
+      ],
+      "summary": "提出BLUE方法，通过分析发现语言仅在少数路线上有用，提出按需使用语言的VLA模型框架。实验证明大多数帧不需要语言生成，可大幅降低计算开销同时保持性能。揭示了预训练VLA隐藏状态已编码语言信息，可直接利用避免冗余生成。",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-06-07",
+      "relevance": 5,
+      "tags": [
+        "vla-driving",
+        "efficiency",
+        "end-to-end-driving"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.07170",
+      "title": "TOAD: Test-Time Trajectory Optimization for Autonomous Driving",
+      "authors": [
+        "Yihong Xu et al. (Valeo)"
+      ],
+      "summary": "将评分器视为学习到的轨迹级奖励函数，在测试时基于Cross-Entropy Method搜索优化轨迹，从规划器候选集热启动。无需重新训练，即插即用。在6种基规划器上改进NAVSIM-v1 (94.7 PDMS)、NAVSIM-v2 (56.3 EPDMS)、HUGSIM闭环。",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-06-05",
+      "relevance": 3,
+      "tags": [
+        "trajectory-optimization",
+        "planning",
+        "NAVSIM",
+        "test-time"
+      ],
+      "is_new": true,
+      "url": "https://arxiv.org/abs/2606.07170"
+    },
+    {
+      "id": "2606.07067",
+      "title": "Extending Responsibility-Sensitive Safety for Offloaded Autonomous Driving",
+      "authors": [
+        "Multiple authors"
+      ],
+      "summary": "将责任敏感安全(RSS)模型扩展到支持远程遥控驾驶场景，定义在通信延迟和不完美感知条件下的安全责任分配机制。",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-06-05",
+      "relevance": 3,
+      "tags": [
+        "safety",
+        "RSS",
+        "teleoperation"
+      ],
+      "is_new": true,
+      "url": "https://arxiv.org/abs/2606.07067"
+    },
+    {
+      "id": "2606.06219",
+      "title": "CLEAR: Cognition and Latent Evaluation for Adaptive Routing in End-to-End Autonomous Driving",
+      "authors": [
+        "Yining Xing",
+        "Zehong Ke",
+        "Zhiyuan Liu",
+        "Yanbo Jiang",
+        "Wenhao Yu"
+      ],
+      "summary": "CLEAR combines Drive-JEPA visual encoder with single-step conditional drift in VAE latent space to replace multi-step denoising. Uses Qwen 3.5 0.8B for scene understanding to guide adaptive scheduling and cross-attention scoring. Achieves SOTA 93.7 PDMS on NAVSIM v1. Addresses diffusion latency vs multi-modal diversity trade-off.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "published": "2026-06-04",
+      "relevance": 5,
+      "is_new": true,
+      "tags": [
+        "end-to-end-driving",
+        "diffusion",
+        "llm",
+        "navsim"
+      ],
+      "topic": "e2e-autonomous-driving",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2606.06014",
+      "title": "PLAN-S: Bridging Planning with Latent Style Dynamics for Autonomous Driving World Models",
+      "authors": [
+        "Xiaoyun Qiu",
+        "Jingtao He",
+        "Yijie Chen",
+        "Yusong Huang",
+        "Haotian Wang"
+      ],
+      "summary": "PLAN-S decodes style-conditioned 4-channel semantic cost maps from latent world model representations, enabling explicit risk/drivability/style modeling. Validated on ResWorld (nuScenes, 0.55m avg L2, 42% collision reduction) and WoTE (NAVSIM, 89.4 PDMS). Bridges the compactness-controllability dilemma in LWM-based planners.",
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "published": "2026-06-04",
+      "relevance": 5,
+      "is_new": true,
+      "tags": [
+        "world-models",
+        "latent-world-models",
+        "planning",
+        "driving-style"
+      ],
+      "topic": "world-models-ad",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2606.05645",
+      "title": "Discrete-WAM: Unified Discrete Vision-Action Token Editing for World-Policy Learning",
+      "authors": [
+        "Ziyang Yao",
+        "Haochen Liu",
+        "Yuncheng Jiang",
+        "Zeyu Zhu",
+        "Zibin Guo"
+      ],
+      "summary": "Discrete-WAM unifies world model and policy into a discrete vision-action token framework, enabling compositional causal reasoning across counterfactual futures. Uses discrete diffusion for joint world modeling, world-action policy, and hierarchical decision-making. Supports controllable generation and counterfactual reasoning.",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-06-04",
+      "relevance": 5,
+      "is_new": true,
+      "tags": [
+        "world-models",
+        "discrete-tokens",
+        "causal-reasoning",
+        "world-policy"
+      ],
+      "topic": "world-models-ad",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2606.05774",
+      "title": "LiAuto-GeoX: Efficient Grounded Driving Transformer",
+      "authors": [
+        "Jiawei Lian",
+        "Haoyi Sun",
+        "Yang Wu",
+        "Lifu Mu",
+        "Siyuan Wang",
+        "Le Hui",
+        "Ning Mao",
+        "Tao Wei"
+      ],
+      "summary": "提出 LiAuto-GeoX，一种高效的驾驶场景 3D 感知 Transformer，利用稀疏 LiDAR 先验提供远距离区域的几何基准，通过几何保持蒸馏将大模型压缩为紧凑的 155M 参数车载模型。在 KITTI 上达到 220 FPS，支持实时环视 3D 场景理解。",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-06-04",
+      "relevance": 5,
+      "tags": [
+        "3D Perception",
+        "Autonomous Driving",
+        "LiDAR"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.05737",
+      "title": "Let It Be Simple: One-Step Action Generation for Vision-Language-Action Models",
+      "authors": [
+        "Yitong Chen",
+        "et al."
+      ],
+      "summary": "论证 VLA 动作生成与图像生成的条件-目标结构不同：策略以丰富的观测、语言和状态为条件，但预测的是紧凑的低维动作块。通过将训练时间分布偏向高噪声状态，无需教师模型或蒸馏即可实现单步动作生成，匹配十步解码性能。1.4B VLM 模型在 LIBERO-Long 上达到 95.6%。",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "published": "2026-06-04",
+      "relevance": 5,
+      "tags": [
+        "VLA",
+        "Diffusion",
+        "Action Generation"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.04436",
+      "title": "3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training",
+      "authors": [
+        "Zihao Sheng et al."
+      ],
+      "summary": "提出3D思考引导的共训练框架，让VLA模型在动作预测时隐式进行3D空间推理。核心洞察是3D几何感知和3D空间推理是可解耦的，在不同特征层次注入。三个紧耦合组件协同工作，使VLA模型获得隐式3D先验知识，提升驾驶决策的空间理解能力。",
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "cs.AI"
+      ],
+      "published": "2026-06-04",
+      "relevance": 5,
+      "tags": [
+        "vla-driving",
+        "3d-reasoning",
+        "end-to-end-driving"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.06423",
+      "title": "RiskFlow: Fast and Faithful Safety-Critical Traffic Scenario Generation",
+      "authors": [
+        "Qi Lan",
+        "Yining Tang",
+        "Yu Shen",
+        "Yi Zhou",
+        "Yuhao Wei"
+      ],
+      "summary": "RiskFlow formulates safety-critical scenario generation as transport in action space, learning velocity fields for single-pass generation instead of iterative denoising. Uses JVP-based training. Achieves strong adversariality-realism trade-off on nuScenes, with substantially reduced inference time vs diffusion baselines.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "published": "2026-06-04",
+      "relevance": 4,
+      "is_new": true,
+      "tags": [
+        "diffusion",
+        "safety-critical",
+        "scenario-generation",
+        "traffic-simulation"
+      ],
+      "topic": "e2e-autonomous-driving",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2606.06155",
+      "title": "AffordanceVLA: A Vision-Language-Action Model Empowering Action Generation through Affordance-Aware Understanding",
+      "authors": [
+        "Qize Yu",
+        "Jiadi You",
+        "Yuran Wang",
+        "Jiaqi Liang",
+        "Bowen Ping",
+        "Yang Tian",
+        "Yue Chen",
+        "Minghong Cai"
+      ],
+      "summary": "提出 AffordanceVLA 框架，通过结构化 affordance 预测作为任务导向的中间表示，弥补 VLM 语义空间与具身控制策略之间的结构不匹配。包含 Which2Act（物体级聚焦）、Where2Act（2D交互定位）、How2Act（3D几何推理）三个互补模块，实现视觉-语言-动作的自然桥接。",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "published": "2026-06-04",
+      "relevance": 4,
+      "tags": [
+        "VLA",
+        "Robotic Manipulation"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.06476",
+      "title": "Thinking with Imagination: Agentic Visual Spatial Reasoning with World Simulators",
+      "authors": [
+        "Chenming Zhu",
+        "Jingli Lin",
+        "Yilin Long",
+        "Peizhou Cao",
+        "Tai Wang",
+        "Jiangmiao Pang",
+        "Xihui Liu"
+      ],
+      "summary": "提出用想象思考范式，让 VLM 主动获取想象的可视化证据以改进空间推理。VLM 利用世界模拟器（如 3D 场景生成器）生成假设视角的图像，实现跨视角一致性和隐含布局的空间推理，弥补仅依赖观测图像的局限性。",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-06-04",
+      "relevance": 4,
+      "tags": [
+        "VLM",
+        "Spatial Reasoning",
+        "World Model"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.04884",
+      "title": "D$^3$-MoE: Dual Disentangled Diffusion Mixture-of-Experts for Style-Controllable End-to-End Autonomous Driving",
+      "authors": [
+        "Renju Feng",
+        "Rukang Wang",
+        "Ning Xi",
+        "Jianguo Yu",
+        "Liping Lu"
+      ],
+      "summary": "D3-MoE disentangles trajectory modeling along behavioral axis (generation vs selection) and physical axis (longitudinal vs lateral). Uses Diffusion Transformers with style-conditioned AdaLN. SOTA 88.2 PDMS (91.3 with ensemble) on NAVSIM. Enables style-controllable end-to-end driving without manual labels.",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-06-03",
+      "relevance": 5,
+      "is_new": true,
+      "tags": [
+        "end-to-end-driving",
+        "diffusion",
+        "mixture-of-experts",
+        "style-control",
+        "navsim"
+      ],
+      "topic": "e2e-autonomous-driving",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2606.05254",
+      "title": "Flash-WAM: Modality-Aware Distillation for World Action Models",
+      "authors": [
+        "Flash-WAM Team"
+      ],
+      "summary": "Flash-WAM是一种模态感知的步长蒸馏框架，专为World Action Models设计。视频和动作流使用不同的信噪比噪声调度，单模态蒸馏无法处理。Flash-WAM为每种模态选择不同的蒸馏函数，将推理压缩到单步，延迟从8.1秒降至348毫秒（23倍加速），在L40S上实现实时推理。RoboTwin 2.0达85.5%成功率。",
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "cs.LG"
+      ],
+      "published": "2026-06-03",
+      "relevance": 5,
+      "tags": [
+        "world-action-models",
+        "distillation",
+        "real-time"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.04513",
+      "title": "MapAgent: An Industrial-Grade Agentic Framework for City-scale Lane-level Map Generation",
+      "authors": [
+        "Deguo Xia",
+        "Zihan Li",
+        "Haochen Zhao",
+        "Dong Xie",
+        "Yuyao Kong"
+      ],
+      "summary": "MapAgent augments vectorization backbone with Judge-Planner-Worker agent loop for specification-compliant lane-map generation. Vision-language Judge diagnoses errors, tool-calling Planner generates corrective edits. Integrated into Baidu Maps for 360+ cities with >95% production automation.",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-06-03",
+      "relevance": 3,
+      "is_new": true,
+      "tags": [
+        "hd-mapping",
+        "lane-level-map",
+        "agentic",
+        "baidu",
+        "industrial"
+      ],
+      "topic": "e2e-autonomous-driving",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2606.03159",
+      "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
+      "authors": [
+        "Aarti Basant",
+        "Amlan Kar",
+        "Despoina Paschalidou",
+        "NVIDIA Research"
+      ],
+      "summary": "NVIDIA introduces OmniDreams, a real-time generative world model mid/post-trained from Cosmos diffusion model on 21k hours driving data. Autoregressively generates action-conditioned videos for closed-loop simulation. Supports extreme weather and dynamic agents. Preliminary results show WAM post-trained from OmniDreams surpasses VLA-based Alpamayo 1.5 with 1/5 params.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "published": "2026-06-02",
+      "relevance": 5,
+      "is_new": true,
+      "tags": [
+        "world-models",
+        "nvidia",
+        "cosmos",
+        "closed-loop-simulation",
+        "real-time"
+      ],
+      "topic": "world-models-ad",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2606.03296",
+      "title": "Bridging Predictive Uncertainty and Safe Action: Sample-Conditioned Differentiable Planning for Autonomous Driving",
+      "authors": [
+        "Chengzhen Meng",
+        "Pei Liu",
+        "Zhiyu Huang",
+        "Chen Lv",
+        "Jun Ma"
+      ],
+      "summary": "Proposes sample-conditioned differentiable planning that feeds diffusion-generated future scenarios into a differentiable planner with CVaR tail-risk constraints. Uses directed graph for scene context. Outperforms SOTA on Waymo Open Motion and Argoverse 2. Bridges uncertainty modeling with interpretable safe planning.",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-06-02",
+      "relevance": 4,
+      "is_new": true,
+      "tags": [
+        "diffusion",
+        "planning",
+        "uncertainty",
+        "safety",
+        "differentiable-planning"
+      ],
+      "topic": "e2e-autonomous-driving",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2606.03598",
+      "title": "PHASER: Phase-Aware and Semantic Experience Replay for Vision-Language-Action Models",
+      "authors": [
+        "PHASER Team"
+      ],
+      "summary": "VLA模型在开放环境部署需要持续学习新技能，这会导致严重的灾难性遗忘。提出PHASER：阶段感知和语义经验回放方法。不同于朴素统一回放，PHASER根据学习阶段和语义相关性智能选择回放样本，有效缓解VLA模型的灾难性遗忘问题。",
+      "categories": [
+        "cs.RO",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "published": "2026-06-02",
+      "relevance": 4,
+      "tags": [
+        "vla",
+        "continual-learning",
+        "robotics"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.04271",
+      "title": "StandardE2E: A Unified Framework for End-to-End Autonomous Driving Datasets",
+      "authors": [
+        "Stepan Konev"
+      ],
+      "summary": "StandardE2E provides a unified interface over 6 E2E driving datasets (Waymo E2E, Waymo Perception, Argoverse 2 Sensor/LiDAR, NAVSIM, WayveScenes101). Standardizes preprocessing under one schema, enables cross-dataset training. Released as open-source Python package.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "published": "2026-06-02",
+      "relevance": 3,
+      "is_new": true,
+      "tags": [
+        "dataset",
+        "framework",
+        "open-source",
+        "e2e-driving"
+      ],
+      "topic": "e2e-autonomous-driving",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2606.02979",
+      "title": "Towards Compact Autonomous Driving Perception with Balanced Learning and Multi-sensor Fusion",
+      "authors": [
+        "Oskar Natan et al."
+      ],
+      "summary": "提出紧凑型多任务深度学习模型，在一个前向传播中处理多种自动驾驶感知任务：语义分割、深度估计、LiDAR分割和BEV投影。提供自适应损失加权算法处理多任务不平衡学习问题。支持RGB、DVS和LiDAR多模态输入融合。在CARLA和nuScenes上验证，参数量更少但性能更好。",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "published": "2026-06-02",
+      "relevance": 3,
+      "tags": [
+        "bev-perception",
+        "multi-task",
+        "sensor-fusion"
+      ],
+      "is_new": true
+    },
+    {
       "id": "2606.02800",
       "title": "Cosmos 3: Omnimodal World Models for Physical AI",
       "authors": [
@@ -85,6 +711,47 @@
       "is_new": true
     },
     {
+      "id": "2606.01955",
+      "title": "WALL-WM: Carving World Action Modeling at the Event Joints",
+      "authors": [
+        "WALL-WM Team"
+      ],
+      "summary": "WALL-WM是一个World Action Model，将视频-动作学习从固定块优化转向事件驱动的VLA预训练，以语义连贯的动作事件作为基本学习单元。不同于固定长度动作块，WALL-WM以事件边界切割学习，更自然地对齐视觉-语言-动作语义。",
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "cs.LG"
+      ],
+      "published": "2026-06-01",
+      "relevance": 5,
+      "tags": [
+        "world-models",
+        "vla-driving",
+        "world-action-models"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.01935",
+      "title": "Unified Driving Tokens: Representation- and Geometry-Guided Discrete Tokenizer for Driving World Models",
+      "authors": [
+        "UniTok Team"
+      ],
+      "summary": "提出表示引导和几何增强的离散分词器，用于驾驶世界模型。核心创新：通过特征解码对齐离散瓶颈与冻结的DINO特征空间，同时通过RGB重建保持外观。添加相邻帧深度和相对姿态监督，用多头码本量化稳定联合训练。在NAVSIM上重建保真度更优，生成质量更好。",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "published": "2026-06-01",
+      "relevance": 5,
+      "tags": [
+        "world-models",
+        "tokenizer",
+        "end-to-end-driving"
+      ],
+      "is_new": true
+    },
+    {
       "id": "2606.02745",
       "title": "SeeTraceAct: Visibility-Aware Latent Planning from Cross-Embodiment Demonstration Videos",
       "authors": [
@@ -106,6 +773,130 @@
       "is_new": true
     },
     {
+      "id": "2606.02274",
+      "title": "Dexterity-BEV: Aligning 3D World and Actions for Generalizable Robot Policies Learning",
+      "authors": [
+        "Dex-BEV Team"
+      ],
+      "summary": "端到端操作策略结合web-scale预训练VLM展现了通用灵巧操作的潜力，但继承2D基础模型的两个关键局限：依赖忽略内在3D结构的2D RGB输入。提出Dexterity-BEV，将BEV感知与机器人动作空间对齐，实现更具泛化性的策略学习。",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-06-01",
+      "relevance": 4,
+      "tags": [
+        "bev-perception",
+        "robotics",
+        "vla"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.01164",
+      "title": "Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends",
+      "authors": [
+        "Interactive World Models Team"
+      ],
+      "summary": "交互式视频世界建模综述，涵盖前沿方法、挑战、基准和未来趋势。涵盖从视频生成到可交互世界模型的最新进展，包括扩散世界模型和自回归视频模型。",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "published": "2026-06-01",
+      "relevance": 3,
+      "tags": [
+        "world-models",
+        "survey",
+        "video-generation"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.01277",
+      "title": "DeepIPCv3: Event-Aware Multi-Modal Sensor Fusion for Sudden Pedestrian Crossing Avoidance",
+      "authors": [
+        "DeepIPC Team"
+      ],
+      "summary": "当前端到端自动驾驶系统主要依赖帧式传感器，在行人突然横穿等动态场景中存在感知延迟和运动模糊。提出DeepIPCv3，融合LiDAR密集3D空间几何与事件相机的高时间分辨率优势，专门处理行人突然横穿场景，提升安全避让能力。",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-05-31",
+      "relevance": 4,
+      "tags": [
+        "end-to-end-driving",
+        "sensor-fusion",
+        "event-camera"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.01600",
+      "title": "RoboTrustBench: Benchmarking the Trustworthiness of Video World Models for Robotic Manipulation",
+      "authors": [
+        "RoboTrust Team"
+      ],
+      "summary": "视频世界模型在机器人操作中应用广泛，但现有基准只在有效、可行和安全的指令下评估。提出RoboTrustBench，在Normal、Constraint-Sensitive、Counterfactual和Adversarial四类场景下评估世界模型的可信度。发现当前模型在约束推理、反事实基础和危险指令抑制方面存在严重不足。",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "published": "2026-05-31",
+      "relevance": 4,
+      "tags": [
+        "world-models",
+        "benchmark",
+        "trustworthiness"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.00267",
+      "title": "StressDream: Steering Video World Models for Robust Policy Evaluation and Improvement",
+      "authors": [
+        "StressDream Team"
+      ],
+      "summary": "探索引导视频世界模型进行压力测试和鲁棒策略评估。通过干预世界模型的潜在空间生成OOD场景，用于检测策略失败模式并改进。为世界模型在策略评估中的应用提供新方法论。",
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "cs.LG"
+      ],
+      "published": "2026-05-31",
+      "relevance": 4,
+      "tags": [
+        "world-models",
+        "robustness",
+        "policy-evaluation"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.00133",
+      "title": "A Comprehensive Survey of Architectures, Methodologies, Reasoning Paradigms, and Applications",
+      "authors": [
+        "Arif Hassan Zidan",
+        "Yi Pan",
+        "Hanqi Jiang"
+      ],
+      "summary": "大型世界模型全面综述，覆盖架构设计、方法论、推理范式和实际应用。系统分类当前世界模型方法并分析关键挑战和未来方向。",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "published": "2026-05-31",
+      "relevance": 3,
+      "tags": [
+        "world-models",
+        "survey",
+        "foundation-models"
+      ],
+      "is_new": true
+    },
+    {
       "id": "2606.02641",
       "title": "CARVE: Certified Affordable Repair of Vetoed Maneuvers via Envelopes for Interactive Driving",
       "authors": [
@@ -122,6 +913,27 @@
         "e2e-ad",
         "planning",
         "interactive-driving"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.00664",
+      "title": "SKIP: Sparse Keyframe Interpolation Paradigm for Efficient Embodied World Models",
+      "authors": [
+        "SKIP Team"
+      ],
+      "summary": "具身世界模型的回滚推理计算成本高。提出稀疏关键帧插值范式SKIP，利用机器人感知的多模态特征识别任务相关关键帧，仅合成关键帧，用动作条件的插值器重建缺失间隔。生成速度比稠密基线快4.16倍，聚合FVD降低89%。生成视频可作为有效策略训练数据。",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "published": "2026-05-30",
+      "relevance": 4,
+      "tags": [
+        "world-models",
+        "video-generation",
+        "efficiency"
       ],
       "is_new": true
     },
@@ -160,6 +972,132 @@
       "tags": [
         "planning",
         "survey"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.00747",
+      "title": "SkyShield: Occupancy as a Safety Interface for Low-Altitude UAV Autonomy",
+      "authors": [
+        "SkyShield Team"
+      ],
+      "summary": "低空无人机自主飞行中，3D空间理解是安全接口。提出SkyShield使用Occupancy作为安全接口，用于低空无人机自主飞行中的碰撞避免和路径规划。针对20m以下城市空域的细薄几何、遮挡、植被等挑战设计。",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-05-30",
+      "relevance": 3,
+      "tags": [
+        "occupancy",
+        "uav",
+        "autonomy"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.00709",
+      "title": "BEVIO: Efficient Bird's-Eye-View based Sparse-Update Visual-Inertial Odometry",
+      "authors": [
+        "BEVIO Team"
+      ],
+      "summary": "基于BEV的稀疏更新视觉-惯性里程计，面向月球日夜导航。VIO性能依赖视觉更新频率，对于极端资源约束和低帧率环境具有挑战性。提出BEV视角下的高效VIO方法，实现可靠导航。",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-05-30",
+      "relevance": 3,
+      "tags": [
+        "bev-perception",
+        "visual-odometry",
+        "navigation"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2606.00730",
+      "title": "Infeasible optimization problems and the hierarchical augmented Lagrangian method in imitation learning",
+      "authors": [
+        "HAL Team"
+      ],
+      "summary": "模仿学习中引入硬约束确保策略安全性和鲁棒性，但这些约束有时不可行，导致训练不稳定。研究了约束不可行时的简单补救方法——层级增广拉格朗日法，用于处理模仿学习中的不可行优化问题。",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-05-30",
+      "relevance": 3,
+      "tags": [
+        "imitation-learning",
+        "optimization",
+        "safety"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2605.31476",
+      "title": "IDOL: Inverse-Dynamics-Guided Future Prediction for End-to-End Autonomous Driving",
+      "authors": [
+        "Chenghao Zhang",
+        "Timin Li",
+        "Dongmei Li"
+      ],
+      "summary": "IDOL uses inverse dynamics model to decode transition-aware trajectory features from latent BEV world model predictions, turning future forecasting into actionable planning guidance. Lightweight closed-loop refinement module. SOTA on NAVSIM v1/v2 benchmarks among comparable world-model-based approaches.",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-05-29",
+      "relevance": 4,
+      "is_new": true,
+      "tags": [
+        "world-models",
+        "inverse-dynamics",
+        "bev",
+        "planning",
+        "navsim"
+      ],
+      "topic": "world-models-ad",
+      "found_date": "2026-06-06 08:32:01"
+    },
+    {
+      "id": "2605.27589",
+      "title": "A Causal Benchmark for General World Models in Embodied Scenarios",
+      "authors": [
+        "Causal World Models Team"
+      ],
+      "summary": "提出因果基准测试，用于评估视频世界模型在具身场景中的因果推理能力。通过双提示法（仅改变一个物理细节）检验模型输出是否按物理规律变化。直接相关于驾驶和操作场景中的世界模型评估。",
+      "categories": [
+        "cs.LG",
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-05-29",
+      "relevance": 3,
+      "tags": [
+        "world-models",
+        "benchmarking",
+        "causality"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2605.27582",
+      "title": "Uni-LaViRA: Language-Vision-Robot Actions Translation for Unified Embodied Navigation",
+      "authors": [
+        "Uni-LaViRA Team"
+      ],
+      "summary": "统一具身导航架构，将导航任务简化为语言-视觉-机器人动作翻译。语言动作发出语义级方向指令，视觉动作发出像素级视觉目标。零样本迁移到四个任务族（VLN-CE, ObjectNav, EQA, Aerial-VLN）和四种异构机器人（轮式、四足、人形、无人机），匹配甚至超越近期训练导航基础模型。",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "published": "2026-05-27",
+      "relevance": 4,
+      "tags": [
+        "vla",
+        "navigation",
+        "embodied-ai"
       ],
       "is_new": true
     },
@@ -304,6 +1242,47 @@
       "tags": []
     },
     {
+      "id": "2605.25262",
+      "title": "Semantics-Guided Multimodal Masked Autoencoder Pretraining for 3D BEV Object Detection",
+      "authors": [
+        "Sem-Guided MAE Team"
+      ],
+      "summary": "提出语义引导的多模态掩码自编码器预训练，引入语义信息指导相机和LiDAR输入的非均匀掩码策略。在nuScenes和Waymo BEV检测中验证有效性。",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-05-26",
+      "relevance": 3,
+      "tags": [
+        "bev",
+        "object-detection",
+        "pretraining",
+        "multimodal"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2605.25293",
+      "title": "Neuromorphic LiDAR-based Bird's Eye View Object Detection using Energy-efficient Spiking Neural Networks",
+      "authors": [
+        "Neuromorphic BEV Team"
+      ],
+      "summary": "神经形态LiDAR BEV目标检测，使用脉冲神经网络（SNN）实现高能效3D感知。探索类脑计算在自动驾驶感知中的应用。",
+      "categories": [
+        "cs.CV",
+        "cs.NE"
+      ],
+      "published": "2026-05-26",
+      "relevance": 3,
+      "tags": [
+        "bev",
+        "object-detection",
+        "neuromorphic",
+        "efficiency"
+      ],
+      "is_new": true
+    },
+    {
       "id": "2605.23163",
       "title": "Fast-dDrive: Efficient Block-Diffusion VLM for Autonomous Driving",
       "url": "https://arxiv.org/abs/2605.23163",
@@ -323,6 +1302,109 @@
       "status": "新发现",
       "date_added": "2026-05-27",
       "tags": []
+    },
+    {
+      "id": "2605.24531",
+      "title": "NudgeVAD: Language-Nudged End-to-End Driving via FiLM Residuals",
+      "authors": [
+        "Chieh-Chi Yang",
+        "Yu-Hsiang Chen",
+        "Yi-Ting Chen"
+      ],
+      "summary": "提出NudgeVAD，冻结规划器的残差框架，用语言作为校准微调信号调整VAD轨迹。使用恒等初始化FiLM和零初始化残差头，初始等价于冻结规划器，语言条件残差引导轨迹偏移。在NAVSIM上验证有效性。",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-05-23",
+      "relevance": 4,
+      "tags": [
+        "vla-driving",
+        "end-to-end-driving",
+        "language-conditioned"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2605.04470",
+      "title": "CRAFT: Counterfactual-to-Interactive Reinforcement Fine-Tuning for Driving Policies",
+      "authors": [
+        "CRAFT Team"
+      ],
+      "summary": "开环模仿学习推进了端到端驾驶策略架构，但闭环部署仍易受策略诱导的分布偏移影响。提出CRAFT：反事实到交互的强化微调框架。通过反事实推理生成训练场景，结合交互式RL微调，在闭环驾驶场景中策略安全性和鲁棒性显著提升。",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "published": "2026-05-06",
+      "relevance": 4,
+      "tags": [
+        "end-to-end-driving",
+        "reinforcement-learning",
+        "imitation-learning"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2604.28111",
+      "title": "GSDrive: Reinforcing Driving Policies by Multi-mode Future Trajectory Probing with 3D Gaussian Splatting Environment",
+      "authors": [
+        "ZionGo6 et al."
+      ],
+      "summary": "利用可微3DGS环境进行未来感知轨迹探测和奖励塑造的端到端驾驶框架。GSDrive先通过IL学习多模态轨迹探测器，再用RL在3DGS环境中评估多个候选未来轨迹，将模拟回报转化为密集塑造奖励用于策略优化。在nuScenes上验证优于其他基于模拟的RL方法。",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-04-30",
+      "relevance": 5,
+      "tags": [
+        "end-to-end-driving",
+        "3dgs",
+        "reinforcement-learning",
+        "world-models"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2604.11351",
+      "title": "WM-DAgger: Enabling Efficient Data Aggregation for Imitation Learning with World Models",
+      "authors": [
+        "WM-DAgger Team"
+      ],
+      "summary": "模仿学习受复合误差限制。DAgger框架依赖持续人工参与。提出WM-DAgger，利用世界模型合成OOD恢复数据无需人工参与。引入修正动作合成模块和一致性引导过滤模块，避免误导性数据和幻觉。在真实机器人任务中仅需5个演示达到93.3%成功率。",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-04-13",
+      "relevance": 4,
+      "tags": [
+        "world-models",
+        "imitation-learning",
+        "robotics"
+      ],
+      "is_new": true
+    },
+    {
+      "id": "2604.02714",
+      "title": "ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving",
+      "authors": [
+        "Zihao Sheng et al."
+      ],
+      "summary": "基于VLA架构的端到端自动驾驶模型通过模仿专家行为学习策略，但模仿学习限制模型探索不同策略。提出统一理解和生成框架，利用世界模型同时实现有意义探索和提供密集监督。将未来RGB和深度图像生成作为密集世界模型目标，还作为策略探索的内禀奖励源。NAVSIM上达到SOTA PDMS 93.7。",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "published": "2026-04-03",
+      "relevance": 5,
+      "tags": [
+        "vla-driving",
+        "world-models",
+        "exploration",
+        "end-to-end-driving"
+      ],
+      "is_new": true
     },
     {
       "id": "2605.31116",
@@ -3573,947 +4655,6 @@
         "2605.28548",
         "2605.27038"
       ]
-    },
-    {
-      "id": "2606.06219",
-      "title": "CLEAR: Cognition and Latent Evaluation for Adaptive Routing in End-to-End Autonomous Driving",
-      "authors": [
-        "Yining Xing",
-        "Zehong Ke",
-        "Zhiyuan Liu",
-        "Yanbo Jiang",
-        "Wenhao Yu"
-      ],
-      "summary": "CLEAR combines Drive-JEPA visual encoder with single-step conditional drift in VAE latent space to replace multi-step denoising. Uses Qwen 3.5 0.8B for scene understanding to guide adaptive scheduling and cross-attention scoring. Achieves SOTA 93.7 PDMS on NAVSIM v1. Addresses diffusion latency vs multi-modal diversity trade-off.",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "published": "2026-06-04",
-      "relevance": 5,
-      "is_new": true,
-      "tags": [
-        "end-to-end-driving",
-        "diffusion",
-        "llm",
-        "navsim"
-      ],
-      "topic": "e2e-autonomous-driving",
-      "found_date": "2026-06-06 08:32:01"
-    },
-    {
-      "id": "2606.06014",
-      "title": "PLAN-S: Bridging Planning with Latent Style Dynamics for Autonomous Driving World Models",
-      "authors": [
-        "Xiaoyun Qiu",
-        "Jingtao He",
-        "Yijie Chen",
-        "Yusong Huang",
-        "Haotian Wang"
-      ],
-      "summary": "PLAN-S decodes style-conditioned 4-channel semantic cost maps from latent world model representations, enabling explicit risk/drivability/style modeling. Validated on ResWorld (nuScenes, 0.55m avg L2, 42% collision reduction) and WoTE (NAVSIM, 89.4 PDMS). Bridges the compactness-controllability dilemma in LWM-based planners.",
-      "categories": [
-        "cs.AI",
-        "cs.RO"
-      ],
-      "published": "2026-06-04",
-      "relevance": 5,
-      "is_new": true,
-      "tags": [
-        "world-models",
-        "latent-world-models",
-        "planning",
-        "driving-style"
-      ],
-      "topic": "world-models-ad",
-      "found_date": "2026-06-06 08:32:01"
-    },
-    {
-      "id": "2606.05645",
-      "title": "Discrete-WAM: Unified Discrete Vision-Action Token Editing for World-Policy Learning",
-      "authors": [
-        "Ziyang Yao",
-        "Haochen Liu",
-        "Yuncheng Jiang",
-        "Zeyu Zhu",
-        "Zibin Guo"
-      ],
-      "summary": "Discrete-WAM unifies world model and policy into a discrete vision-action token framework, enabling compositional causal reasoning across counterfactual futures. Uses discrete diffusion for joint world modeling, world-action policy, and hierarchical decision-making. Supports controllable generation and counterfactual reasoning.",
-      "categories": [
-        "cs.RO"
-      ],
-      "published": "2026-06-04",
-      "relevance": 5,
-      "is_new": true,
-      "tags": [
-        "world-models",
-        "discrete-tokens",
-        "causal-reasoning",
-        "world-policy"
-      ],
-      "topic": "world-models-ad",
-      "found_date": "2026-06-06 08:32:01"
-    },
-    {
-      "id": "2606.04884",
-      "title": "D$^3$-MoE: Dual Disentangled Diffusion Mixture-of-Experts for Style-Controllable End-to-End Autonomous Driving",
-      "authors": [
-        "Renju Feng",
-        "Rukang Wang",
-        "Ning Xi",
-        "Jianguo Yu",
-        "Liping Lu"
-      ],
-      "summary": "D3-MoE disentangles trajectory modeling along behavioral axis (generation vs selection) and physical axis (longitudinal vs lateral). Uses Diffusion Transformers with style-conditioned AdaLN. SOTA 88.2 PDMS (91.3 with ensemble) on NAVSIM. Enables style-controllable end-to-end driving without manual labels.",
-      "categories": [
-        "cs.RO"
-      ],
-      "published": "2026-06-03",
-      "relevance": 5,
-      "is_new": true,
-      "tags": [
-        "end-to-end-driving",
-        "diffusion",
-        "mixture-of-experts",
-        "style-control",
-        "navsim"
-      ],
-      "topic": "e2e-autonomous-driving",
-      "found_date": "2026-06-06 08:32:01"
-    },
-    {
-      "id": "2606.03296",
-      "title": "Bridging Predictive Uncertainty and Safe Action: Sample-Conditioned Differentiable Planning for Autonomous Driving",
-      "authors": [
-        "Chengzhen Meng",
-        "Pei Liu",
-        "Zhiyu Huang",
-        "Chen Lv",
-        "Jun Ma"
-      ],
-      "summary": "Proposes sample-conditioned differentiable planning that feeds diffusion-generated future scenarios into a differentiable planner with CVaR tail-risk constraints. Uses directed graph for scene context. Outperforms SOTA on Waymo Open Motion and Argoverse 2. Bridges uncertainty modeling with interpretable safe planning.",
-      "categories": [
-        "cs.RO"
-      ],
-      "published": "2026-06-02",
-      "relevance": 4,
-      "is_new": true,
-      "tags": [
-        "diffusion",
-        "planning",
-        "uncertainty",
-        "safety",
-        "differentiable-planning"
-      ],
-      "topic": "e2e-autonomous-driving",
-      "found_date": "2026-06-06 08:32:01"
-    },
-    {
-      "id": "2606.03159",
-      "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
-      "authors": [
-        "Aarti Basant",
-        "Amlan Kar",
-        "Despoina Paschalidou",
-        "NVIDIA Research"
-      ],
-      "summary": "NVIDIA introduces OmniDreams, a real-time generative world model mid/post-trained from Cosmos diffusion model on 21k hours driving data. Autoregressively generates action-conditioned videos for closed-loop simulation. Supports extreme weather and dynamic agents. Preliminary results show WAM post-trained from OmniDreams surpasses VLA-based Alpamayo 1.5 with 1/5 params.",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.RO"
-      ],
-      "published": "2026-06-02",
-      "relevance": 5,
-      "is_new": true,
-      "tags": [
-        "world-models",
-        "nvidia",
-        "cosmos",
-        "closed-loop-simulation",
-        "real-time"
-      ],
-      "topic": "world-models-ad",
-      "found_date": "2026-06-06 08:32:01"
-    },
-    {
-      "id": "2606.06423",
-      "title": "RiskFlow: Fast and Faithful Safety-Critical Traffic Scenario Generation",
-      "authors": [
-        "Qi Lan",
-        "Yining Tang",
-        "Yu Shen",
-        "Yi Zhou",
-        "Yuhao Wei"
-      ],
-      "summary": "RiskFlow formulates safety-critical scenario generation as transport in action space, learning velocity fields for single-pass generation instead of iterative denoising. Uses JVP-based training. Achieves strong adversariality-realism trade-off on nuScenes, with substantially reduced inference time vs diffusion baselines.",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "published": "2026-06-04",
-      "relevance": 4,
-      "is_new": true,
-      "tags": [
-        "diffusion",
-        "safety-critical",
-        "scenario-generation",
-        "traffic-simulation"
-      ],
-      "topic": "e2e-autonomous-driving",
-      "found_date": "2026-06-06 08:32:01"
-    },
-    {
-      "id": "2606.04271",
-      "title": "StandardE2E: A Unified Framework for End-to-End Autonomous Driving Datasets",
-      "authors": [
-        "Stepan Konev"
-      ],
-      "summary": "StandardE2E provides a unified interface over 6 E2E driving datasets (Waymo E2E, Waymo Perception, Argoverse 2 Sensor/LiDAR, NAVSIM, WayveScenes101). Standardizes preprocessing under one schema, enables cross-dataset training. Released as open-source Python package.",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "published": "2026-06-02",
-      "relevance": 3,
-      "is_new": true,
-      "tags": [
-        "dataset",
-        "framework",
-        "open-source",
-        "e2e-driving"
-      ],
-      "topic": "e2e-autonomous-driving",
-      "found_date": "2026-06-06 08:32:01"
-    },
-    {
-      "id": "2606.04513",
-      "title": "MapAgent: An Industrial-Grade Agentic Framework for City-scale Lane-level Map Generation",
-      "authors": [
-        "Deguo Xia",
-        "Zihan Li",
-        "Haochen Zhao",
-        "Dong Xie",
-        "Yuyao Kong"
-      ],
-      "summary": "MapAgent augments vectorization backbone with Judge-Planner-Worker agent loop for specification-compliant lane-map generation. Vision-language Judge diagnoses errors, tool-calling Planner generates corrective edits. Integrated into Baidu Maps for 360+ cities with >95% production automation.",
-      "categories": [
-        "cs.AI"
-      ],
-      "published": "2026-06-03",
-      "relevance": 3,
-      "is_new": true,
-      "tags": [
-        "hd-mapping",
-        "lane-level-map",
-        "agentic",
-        "baidu",
-        "industrial"
-      ],
-      "topic": "e2e-autonomous-driving",
-      "found_date": "2026-06-06 08:32:01"
-    },
-    {
-      "id": "2605.31476",
-      "title": "IDOL: Inverse-Dynamics-Guided Future Prediction for End-to-End Autonomous Driving",
-      "authors": [
-        "Chenghao Zhang",
-        "Timin Li",
-        "Dongmei Li"
-      ],
-      "summary": "IDOL uses inverse dynamics model to decode transition-aware trajectory features from latent BEV world model predictions, turning future forecasting into actionable planning guidance. Lightweight closed-loop refinement module. SOTA on NAVSIM v1/v2 benchmarks among comparable world-model-based approaches.",
-      "categories": [
-        "cs.RO"
-      ],
-      "published": "2026-05-29",
-      "relevance": 4,
-      "is_new": true,
-      "tags": [
-        "world-models",
-        "inverse-dynamics",
-        "bev",
-        "planning",
-        "navsim"
-      ],
-      "topic": "world-models-ad",
-      "found_date": "2026-06-06 08:32:01"
-    },
-    {
-      "id": "2606.06155",
-      "title": "AffordanceVLA: A Vision-Language-Action Model Empowering Action Generation through Affordance-Aware Understanding",
-      "authors": [
-        "Qize Yu",
-        "Jiadi You",
-        "Yuran Wang",
-        "Jiaqi Liang",
-        "Bowen Ping",
-        "Yang Tian",
-        "Yue Chen",
-        "Minghong Cai"
-      ],
-      "summary": "提出 AffordanceVLA 框架，通过结构化 affordance 预测作为任务导向的中间表示，弥补 VLM 语义空间与具身控制策略之间的结构不匹配。包含 Which2Act（物体级聚焦）、Where2Act（2D交互定位）、How2Act（3D几何推理）三个互补模块，实现视觉-语言-动作的自然桥接。",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "published": "2026-06-04",
-      "relevance": 4,
-      "tags": [
-        "VLA",
-        "Robotic Manipulation"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.05774",
-      "title": "LiAuto-GeoX: Efficient Grounded Driving Transformer",
-      "authors": [
-        "Jiawei Lian",
-        "Haoyi Sun",
-        "Yang Wu",
-        "Lifu Mu",
-        "Siyuan Wang",
-        "Le Hui",
-        "Ning Mao",
-        "Tao Wei"
-      ],
-      "summary": "提出 LiAuto-GeoX，一种高效的驾驶场景 3D 感知 Transformer，利用稀疏 LiDAR 先验提供远距离区域的几何基准，通过几何保持蒸馏将大模型压缩为紧凑的 155M 参数车载模型。在 KITTI 上达到 220 FPS，支持实时环视 3D 场景理解。",
-      "categories": [
-        "cs.CV"
-      ],
-      "published": "2026-06-04",
-      "relevance": 5,
-      "tags": [
-        "3D Perception",
-        "Autonomous Driving",
-        "LiDAR"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.05737",
-      "title": "Let It Be Simple: One-Step Action Generation for Vision-Language-Action Models",
-      "authors": [
-        "Yitong Chen",
-        "et al."
-      ],
-      "summary": "论证 VLA 动作生成与图像生成的条件-目标结构不同：策略以丰富的观测、语言和状态为条件，但预测的是紧凑的低维动作块。通过将训练时间分布偏向高噪声状态，无需教师模型或蒸馏即可实现单步动作生成，匹配十步解码性能。1.4B VLM 模型在 LIBERO-Long 上达到 95.6%。",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG",
-        "cs.RO"
-      ],
-      "published": "2026-06-04",
-      "relevance": 5,
-      "tags": [
-        "VLA",
-        "Diffusion",
-        "Action Generation"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.06476",
-      "title": "Thinking with Imagination: Agentic Visual Spatial Reasoning with World Simulators",
-      "authors": [
-        "Chenming Zhu",
-        "Jingli Lin",
-        "Yilin Long",
-        "Peizhou Cao",
-        "Tai Wang",
-        "Jiangmiao Pang",
-        "Xihui Liu"
-      ],
-      "summary": "提出用想象思考范式，让 VLM 主动获取想象的可视化证据以改进空间推理。VLM 利用世界模拟器（如 3D 场景生成器）生成假设视角的图像，实现跨视角一致性和隐含布局的空间推理，弥补仅依赖观测图像的局限性。",
-      "categories": [
-        "cs.CV"
-      ],
-      "published": "2026-06-04",
-      "relevance": 4,
-      "tags": [
-        "VLM",
-        "Spatial Reasoning",
-        "World Model"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.04436",
-      "title": "3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training",
-      "authors": [
-        "Zihao Sheng et al."
-      ],
-      "summary": "提出3D思考引导的共训练框架，让VLA模型在动作预测时隐式进行3D空间推理。核心洞察是3D几何感知和3D空间推理是可解耦的，在不同特征层次注入。三个紧耦合组件协同工作，使VLA模型获得隐式3D先验知识，提升驾驶决策的空间理解能力。",
-      "categories": [
-        "cs.CV",
-        "cs.RO",
-        "cs.AI"
-      ],
-      "published": "2026-06-04",
-      "relevance": 5,
-      "tags": [
-        "vla-driving",
-        "3d-reasoning",
-        "end-to-end-driving"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.01955",
-      "title": "WALL-WM: Carving World Action Modeling at the Event Joints",
-      "authors": [
-        "WALL-WM Team"
-      ],
-      "summary": "WALL-WM是一个World Action Model，将视频-动作学习从固定块优化转向事件驱动的VLA预训练，以语义连贯的动作事件作为基本学习单元。不同于固定长度动作块，WALL-WM以事件边界切割学习，更自然地对齐视觉-语言-动作语义。",
-      "categories": [
-        "cs.CV",
-        "cs.RO",
-        "cs.LG"
-      ],
-      "published": "2026-06-01",
-      "relevance": 5,
-      "tags": [
-        "world-models",
-        "vla-driving",
-        "world-action-models"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.01935",
-      "title": "Unified Driving Tokens: Representation- and Geometry-Guided Discrete Tokenizer for Driving World Models",
-      "authors": [
-        "UniTok Team"
-      ],
-      "summary": "提出表示引导和几何增强的离散分词器，用于驾驶世界模型。核心创新：通过特征解码对齐离散瓶颈与冻结的DINO特征空间，同时通过RGB重建保持外观。添加相邻帧深度和相对姿态监督，用多头码本量化稳定联合训练。在NAVSIM上重建保真度更优，生成质量更好。",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "published": "2026-06-01",
-      "relevance": 5,
-      "tags": [
-        "world-models",
-        "tokenizer",
-        "end-to-end-driving"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.05254",
-      "title": "Flash-WAM: Modality-Aware Distillation for World Action Models",
-      "authors": [
-        "Flash-WAM Team"
-      ],
-      "summary": "Flash-WAM是一种模态感知的步长蒸馏框架，专为World Action Models设计。视频和动作流使用不同的信噪比噪声调度，单模态蒸馏无法处理。Flash-WAM为每种模态选择不同的蒸馏函数，将推理压缩到单步，延迟从8.1秒降至348毫秒（23倍加速），在L40S上实现实时推理。RoboTwin 2.0达85.5%成功率。",
-      "categories": [
-        "cs.CV",
-        "cs.RO",
-        "cs.LG"
-      ],
-      "published": "2026-06-03",
-      "relevance": 5,
-      "tags": [
-        "world-action-models",
-        "distillation",
-        "real-time"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.03598",
-      "title": "PHASER: Phase-Aware and Semantic Experience Replay for Vision-Language-Action Models",
-      "authors": [
-        "PHASER Team"
-      ],
-      "summary": "VLA模型在开放环境部署需要持续学习新技能，这会导致严重的灾难性遗忘。提出PHASER：阶段感知和语义经验回放方法。不同于朴素统一回放，PHASER根据学习阶段和语义相关性智能选择回放样本，有效缓解VLA模型的灾难性遗忘问题。",
-      "categories": [
-        "cs.RO",
-        "cs.LG",
-        "cs.AI"
-      ],
-      "published": "2026-06-02",
-      "relevance": 4,
-      "tags": [
-        "vla",
-        "continual-learning",
-        "robotics"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.02274",
-      "title": "Dexterity-BEV: Aligning 3D World and Actions for Generalizable Robot Policies Learning",
-      "authors": [
-        "Dex-BEV Team"
-      ],
-      "summary": "端到端操作策略结合web-scale预训练VLM展现了通用灵巧操作的潜力，但继承2D基础模型的两个关键局限：依赖忽略内在3D结构的2D RGB输入。提出Dexterity-BEV，将BEV感知与机器人动作空间对齐，实现更具泛化性的策略学习。",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "published": "2026-06-01",
-      "relevance": 4,
-      "tags": [
-        "bev-perception",
-        "robotics",
-        "vla"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.02979",
-      "title": "Towards Compact Autonomous Driving Perception with Balanced Learning and Multi-sensor Fusion",
-      "authors": [
-        "Oskar Natan et al."
-      ],
-      "summary": "提出紧凑型多任务深度学习模型，在一个前向传播中处理多种自动驾驶感知任务：语义分割、深度估计、LiDAR分割和BEV投影。提供自适应损失加权算法处理多任务不平衡学习问题。支持RGB、DVS和LiDAR多模态输入融合。在CARLA和nuScenes上验证，参数量更少但性能更好。",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "published": "2026-06-02",
-      "relevance": 3,
-      "tags": [
-        "bev-perception",
-        "multi-task",
-        "sensor-fusion"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2605.27582",
-      "title": "Uni-LaViRA: Language-Vision-Robot Actions Translation for Unified Embodied Navigation",
-      "authors": [
-        "Uni-LaViRA Team"
-      ],
-      "summary": "统一具身导航架构，将导航任务简化为语言-视觉-机器人动作翻译。语言动作发出语义级方向指令，视觉动作发出像素级视觉目标。零样本迁移到四个任务族（VLN-CE, ObjectNav, EQA, Aerial-VLN）和四种异构机器人（轮式、四足、人形、无人机），匹配甚至超越近期训练导航基础模型。",
-      "categories": [
-        "cs.RO",
-        "cs.CV",
-        "cs.AI"
-      ],
-      "published": "2026-05-27",
-      "relevance": 4,
-      "tags": [
-        "vla",
-        "navigation",
-        "embodied-ai"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.01277",
-      "title": "DeepIPCv3: Event-Aware Multi-Modal Sensor Fusion for Sudden Pedestrian Crossing Avoidance",
-      "authors": [
-        "DeepIPC Team"
-      ],
-      "summary": "当前端到端自动驾驶系统主要依赖帧式传感器，在行人突然横穿等动态场景中存在感知延迟和运动模糊。提出DeepIPCv3，融合LiDAR密集3D空间几何与事件相机的高时间分辨率优势，专门处理行人突然横穿场景，提升安全避让能力。",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "published": "2026-05-31",
-      "relevance": 4,
-      "tags": [
-        "end-to-end-driving",
-        "sensor-fusion",
-        "event-camera"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.01600",
-      "title": "RoboTrustBench: Benchmarking the Trustworthiness of Video World Models for Robotic Manipulation",
-      "authors": [
-        "RoboTrust Team"
-      ],
-      "summary": "视频世界模型在机器人操作中应用广泛，但现有基准只在有效、可行和安全的指令下评估。提出RoboTrustBench，在Normal、Constraint-Sensitive、Counterfactual和Adversarial四类场景下评估世界模型的可信度。发现当前模型在约束推理、反事实基础和危险指令抑制方面存在严重不足。",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "published": "2026-05-31",
-      "relevance": 4,
-      "tags": [
-        "world-models",
-        "benchmark",
-        "trustworthiness"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2605.04470",
-      "title": "CRAFT: Counterfactual-to-Interactive Reinforcement Fine-Tuning for Driving Policies",
-      "authors": [
-        "CRAFT Team"
-      ],
-      "summary": "开环模仿学习推进了端到端驾驶策略架构，但闭环部署仍易受策略诱导的分布偏移影响。提出CRAFT：反事实到交互的强化微调框架。通过反事实推理生成训练场景，结合交互式RL微调，在闭环驾驶场景中策略安全性和鲁棒性显著提升。",
-      "categories": [
-        "cs.LG",
-        "cs.RO"
-      ],
-      "published": "2026-05-06",
-      "relevance": 4,
-      "tags": [
-        "end-to-end-driving",
-        "reinforcement-learning",
-        "imitation-learning"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.00747",
-      "title": "SkyShield: Occupancy as a Safety Interface for Low-Altitude UAV Autonomy",
-      "authors": [
-        "SkyShield Team"
-      ],
-      "summary": "低空无人机自主飞行中，3D空间理解是安全接口。提出SkyShield使用Occupancy作为安全接口，用于低空无人机自主飞行中的碰撞避免和路径规划。针对20m以下城市空域的细薄几何、遮挡、植被等挑战设计。",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "published": "2026-05-30",
-      "relevance": 3,
-      "tags": [
-        "occupancy",
-        "uav",
-        "autonomy"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.00709",
-      "title": "BEVIO: Efficient Bird's-Eye-View based Sparse-Update Visual-Inertial Odometry",
-      "authors": [
-        "BEVIO Team"
-      ],
-      "summary": "基于BEV的稀疏更新视觉-惯性里程计，面向月球日夜导航。VIO性能依赖视觉更新频率，对于极端资源约束和低帧率环境具有挑战性。提出BEV视角下的高效VIO方法，实现可靠导航。",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "published": "2026-05-30",
-      "relevance": 3,
-      "tags": [
-        "bev-perception",
-        "visual-odometry",
-        "navigation"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.00664",
-      "title": "SKIP: Sparse Keyframe Interpolation Paradigm for Efficient Embodied World Models",
-      "authors": [
-        "SKIP Team"
-      ],
-      "summary": "具身世界模型的回滚推理计算成本高。提出稀疏关键帧插值范式SKIP，利用机器人感知的多模态特征识别任务相关关键帧，仅合成关键帧，用动作条件的插值器重建缺失间隔。生成速度比稠密基线快4.16倍，聚合FVD降低89%。生成视频可作为有效策略训练数据。",
-      "categories": [
-        "cs.RO",
-        "cs.CV",
-        "cs.LG"
-      ],
-      "published": "2026-05-30",
-      "relevance": 4,
-      "tags": [
-        "world-models",
-        "video-generation",
-        "efficiency"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2604.02714",
-      "title": "ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving",
-      "authors": [
-        "Zihao Sheng et al."
-      ],
-      "summary": "基于VLA架构的端到端自动驾驶模型通过模仿专家行为学习策略，但模仿学习限制模型探索不同策略。提出统一理解和生成框架，利用世界模型同时实现有意义探索和提供密集监督。将未来RGB和深度图像生成作为密集世界模型目标，还作为策略探索的内禀奖励源。NAVSIM上达到SOTA PDMS 93.7。",
-      "categories": [
-        "cs.CV",
-        "cs.LG",
-        "cs.RO"
-      ],
-      "published": "2026-04-03",
-      "relevance": 5,
-      "tags": [
-        "vla-driving",
-        "world-models",
-        "exploration",
-        "end-to-end-driving"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2604.28111",
-      "title": "GSDrive: Reinforcing Driving Policies by Multi-mode Future Trajectory Probing with 3D Gaussian Splatting Environment",
-      "authors": [
-        "ZionGo6 et al."
-      ],
-      "summary": "利用可微3DGS环境进行未来感知轨迹探测和奖励塑造的端到端驾驶框架。GSDrive先通过IL学习多模态轨迹探测器，再用RL在3DGS环境中评估多个候选未来轨迹，将模拟回报转化为密集塑造奖励用于策略优化。在nuScenes上验证优于其他基于模拟的RL方法。",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "published": "2026-04-30",
-      "relevance": 5,
-      "tags": [
-        "end-to-end-driving",
-        "3dgs",
-        "reinforcement-learning",
-        "world-models"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2604.11351",
-      "title": "WM-DAgger: Enabling Efficient Data Aggregation for Imitation Learning with World Models",
-      "authors": [
-        "WM-DAgger Team"
-      ],
-      "summary": "模仿学习受复合误差限制。DAgger框架依赖持续人工参与。提出WM-DAgger，利用世界模型合成OOD恢复数据无需人工参与。引入修正动作合成模块和一致性引导过滤模块，避免误导性数据和幻觉。在真实机器人任务中仅需5个演示达到93.3%成功率。",
-      "categories": [
-        "cs.RO"
-      ],
-      "published": "2026-04-13",
-      "relevance": 4,
-      "tags": [
-        "world-models",
-        "imitation-learning",
-        "robotics"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.00730",
-      "title": "Infeasible optimization problems and the hierarchical augmented Lagrangian method in imitation learning",
-      "authors": [
-        "HAL Team"
-      ],
-      "summary": "模仿学习中引入硬约束确保策略安全性和鲁棒性，但这些约束有时不可行，导致训练不稳定。研究了约束不可行时的简单补救方法——层级增广拉格朗日法，用于处理模仿学习中的不可行优化问题。",
-      "categories": [
-        "cs.RO"
-      ],
-      "published": "2026-05-30",
-      "relevance": 3,
-      "tags": [
-        "imitation-learning",
-        "optimization",
-        "safety"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.08684",
-      "title": "BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving",
-      "authors": [
-        "George Ling",
-        "Lijin Yang",
-        "Hao Yang",
-        "Zhongzhan Huang"
-      ],
-      "summary": "提出BLUE方法，通过分析发现语言仅在少数路线上有用，提出按需使用语言的VLA模型框架。实验证明大多数帧不需要语言生成，可大幅降低计算开销同时保持性能。揭示了预训练VLA隐藏状态已编码语言信息，可直接利用避免冗余生成。",
-      "categories": [
-        "cs.CV"
-      ],
-      "published": "2026-06-07",
-      "relevance": 5,
-      "tags": [
-        "vla-driving",
-        "efficiency",
-        "end-to-end-driving"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2605.24531",
-      "title": "NudgeVAD: Language-Nudged End-to-End Driving via FiLM Residuals",
-      "authors": [
-        "Chieh-Chi Yang",
-        "Yu-Hsiang Chen",
-        "Yi-Ting Chen"
-      ],
-      "summary": "提出NudgeVAD，冻结规划器的残差框架，用语言作为校准微调信号调整VAD轨迹。使用恒等初始化FiLM和零初始化残差头，初始等价于冻结规划器，语言条件残差引导轨迹偏移。在NAVSIM上验证有效性。",
-      "categories": [
-        "cs.CV"
-      ],
-      "published": "2026-05-23",
-      "relevance": 4,
-      "tags": [
-        "vla-driving",
-        "end-to-end-driving",
-        "language-conditioned"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.00267",
-      "title": "StressDream: Steering Video World Models for Robust Policy Evaluation and Improvement",
-      "authors": [
-        "StressDream Team"
-      ],
-      "summary": "探索引导视频世界模型进行压力测试和鲁棒策略评估。通过干预世界模型的潜在空间生成OOD场景，用于检测策略失败模式并改进。为世界模型在策略评估中的应用提供新方法论。",
-      "categories": [
-        "cs.CV",
-        "cs.RO",
-        "cs.LG"
-      ],
-      "published": "2026-05-31",
-      "relevance": 4,
-      "tags": [
-        "world-models",
-        "robustness",
-        "policy-evaluation"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.09273",
-      "title": "EditSSC: Toward Editable Semantic Occupancy Scenes with Unconditional Diffusion Models",
-      "authors": [
-        "EditSSC Team"
-      ],
-      "summary": "提出EditSSC，用2D BEV表示和vanilla diffusion模型生成可编辑3D语义占用场景。避免复杂3D架构，支持场景编辑。用于自动驾驶数据增强和场景多样性扩展。CVPR 2026 USM3D Workshop。",
-      "categories": [
-        "cs.CV"
-      ],
-      "published": "2026-06-08",
-      "relevance": 3,
-      "tags": [
-        "bev",
-        "semantic-occupancy",
-        "scene-generation",
-        "diffusion"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.08680",
-      "title": "Distortion-Aware PETR for BEV Object Detection with Mixed Pinhole-Fisheye Cameras",
-      "authors": [
-        "Xiangzhong Liu"
-      ],
-      "summary": "提出DAPETR，面向混合针孔-鱼眼相机的BEV检测器。采用统一畸变感知位置编码，解决鱼眼畸变导致的均匀采样假设失效问题。ICRA 2026接收。",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "published": "2026-06-08",
-      "relevance": 3,
-      "tags": [
-        "bev",
-        "object-detection",
-        "fisheye",
-        "perception"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.01164",
-      "title": "Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends",
-      "authors": [
-        "Interactive World Models Team"
-      ],
-      "summary": "交互式视频世界建模综述，涵盖前沿方法、挑战、基准和未来趋势。涵盖从视频生成到可交互世界模型的最新进展，包括扩散世界模型和自回归视频模型。",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "published": "2026-06-01",
-      "relevance": 3,
-      "tags": [
-        "world-models",
-        "survey",
-        "video-generation"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2606.00133",
-      "title": "A Comprehensive Survey of Architectures, Methodologies, Reasoning Paradigms, and Applications",
-      "authors": [
-        "Arif Hassan Zidan",
-        "Yi Pan",
-        "Hanqi Jiang"
-      ],
-      "summary": "大型世界模型全面综述，覆盖架构设计、方法论、推理范式和实际应用。系统分类当前世界模型方法并分析关键挑战和未来方向。",
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "published": "2026-05-31",
-      "relevance": 3,
-      "tags": [
-        "world-models",
-        "survey",
-        "foundation-models"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2605.25262",
-      "title": "Semantics-Guided Multimodal Masked Autoencoder Pretraining for 3D BEV Object Detection",
-      "authors": [
-        "Sem-Guided MAE Team"
-      ],
-      "summary": "提出语义引导的多模态掩码自编码器预训练，引入语义信息指导相机和LiDAR输入的非均匀掩码策略。在nuScenes和Waymo BEV检测中验证有效性。",
-      "categories": [
-        "cs.CV"
-      ],
-      "published": "2026-05-26",
-      "relevance": 3,
-      "tags": [
-        "bev",
-        "object-detection",
-        "pretraining",
-        "multimodal"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2605.27589",
-      "title": "A Causal Benchmark for General World Models in Embodied Scenarios",
-      "authors": [
-        "Causal World Models Team"
-      ],
-      "summary": "提出因果基准测试，用于评估视频世界模型在具身场景中的因果推理能力。通过双提示法（仅改变一个物理细节）检验模型输出是否按物理规律变化。直接相关于驾驶和操作场景中的世界模型评估。",
-      "categories": [
-        "cs.LG",
-        "cs.RO",
-        "cs.CV"
-      ],
-      "published": "2026-05-29",
-      "relevance": 3,
-      "tags": [
-        "world-models",
-        "benchmarking",
-        "causality"
-      ],
-      "is_new": true
-    },
-    {
-      "id": "2605.25293",
-      "title": "Neuromorphic LiDAR-based Bird's Eye View Object Detection using Energy-efficient Spiking Neural Networks",
-      "authors": [
-        "Neuromorphic BEV Team"
-      ],
-      "summary": "神经形态LiDAR BEV目标检测，使用脉冲神经网络（SNN）实现高能效3D感知。探索类脑计算在自动驾驶感知中的应用。",
-      "categories": [
-        "cs.CV",
-        "cs.NE"
-      ],
-      "published": "2026-05-26",
-      "relevance": 3,
-      "tags": [
-        "bev",
-        "object-detection",
-        "neuromorphic",
-        "efficiency"
-      ],
-      "is_new": true
     }
   ],
   "last_updated": "2026-06-08 08:43:11",

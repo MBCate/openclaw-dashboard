@@ -1,164 +1,115 @@
 {
+  "timestamp": "2026-06-11T21:30:00+08:00",
   "date": "2026-06-11",
-  "updatedAt": "2026-06-11 09:15 CST",
-  "summary": "隔夜美股暴跌：CPI年率4.2%符合预期但核心通胀顽固，中东冲突升级+Oracle巨额融资拖累科技板块。S&P 500跌1.62%至7267，纳指跌1.98%，道指跌1.87%。伊朗新一轮打击后WTI跳涨至$92。NQ期货盘中继续走弱至28555。CPI符合预期但市场担忧利率维持高位。",
-  "marketStatus": "早盘预览",
-  "usMarkets": {
-    "date": "2026-06-10",
-    "snp500": {
-      "close": 7266.99,
-      "change": -119.66,
-      "changePercent": -1.62,
-      "futures": "Nasdaq 100期货6/11报28555，较前日28469略有回升但仍偏弱",
-      "note": "S&P 500收跌1.62%至7267，为6月最低收盘。CPI年率4.2%符合预期，但核心CPI仍高企。科技板块受Oracle暴跌+AI估值修正拖累"
+  "time": "21:30 CST",
+  "us_markets": {
+    "s&p_500": {
+      "value": 7297.71,
+      "change_pct": 0.42
+    },
+    "dow_jones": {
+      "value": 50164.13,
+      "change_pct": 0.49
     },
     "nasdaq": {
-      "close": 25169.50,
-      "change": -509.32,
-      "changePercent": -1.98,
-      "futures": "Nasdaq 100期货(6/11)报28555，日内容量较弱",
-      "note": "NASDAQ暴跌1.98%至25170，较6/5高点跌超5%。芯片和AI概念股继续修正，Oracle盘后跌超5%"
-    },
-    "dowJones": {
-      "close": 49918.78,
-      "change": -953.33,
-      "changePercent": -1.87,
-      "futures": "道指期货同步走弱",
-      "note": "道指跌1.87%至49919，跌破50000心理关口。防御型板块也未能避险"
+      "value": 25301.62,
+      "change_pct": 0.52
     }
   },
-  "chinaMarkets": {
-    "date": "2026-06-11",
-    "shanghaiComposite": {
-      "close": null,
-      "change": null,
-      "changePercent": null,
-      "preOpen": null,
-      "note": "A股9:30开盘，隔夜美股大跌+中东局势升级将施压开盘。上证昨日-0.27%。关注开盘后沪指能否守住3950"
-    },
-    "shenzhenComponent": {
-      "close": null,
-      "change": null,
-      "changePercent": null,
-      "note": "深证跟随美股预期低开"
-    },
-    "chiNext": {
-      "close": null,
-      "change": null,
-      "changePercent": null,
-      "note": "创业板料承压"
-    },
-    "sse50": {
-      "close": 2851.66,
-      "change": null,
-      "changePercent": 0.32,
-      "note": "上证50昨日+0.32%，银行板块或承压"
-    },
-    "star50": {
-      "close": 1700.14,
-      "change": null,
-      "changePercent": 2.23,
-      "note": "科创50昨日逆势+2.23%，但今日外部压力下能否延续待观察"
+  "hong_kong": {
+    "hang_seng": {
+      "value": 24249.29,
+      "change_pct": -0.65
     }
   },
-  "hongKongMarkets": {
-    "date": "2026-06-11",
-    "hangSeng": {
-      "close": null,
-      "change": null,
-      "changePercent": null,
-      "preOpen": null,
-      "note": "美股暴跌+中东风险施压恒指，预计低开1-1.5%。关注24000支撑"
-    }
-  },
-  "asiaMarkets": {
-    "date": "2026-06-11",
-    "nikkei225": {
-      "close": null,
-      "changePercent": null,
-      "note": "日经预计低开，隔夜美股科技暴跌拖累日股半导体板块"
-    },
-    "kospi": {
-      "close": null,
-      "changePercent": null,
-      "note": "Kospi昨日已跌2.31%，今日继续承压"
-    },
-    "asx200": {
-      "close": null,
-      "changePercent": null,
-      "note": "澳洲市场开盘中，能源+大宗商品板块或成唯一亮点"
-    }
-  },
-  "crypto": {
-    "date": "2026-06-11",
-    "bitcoin": {
-      "price": 62070,
-      "change24hPercent": 0.31,
-      "note": "BTC $62,070，24h+0.31%。中东冲突中BTC展现出避险属性，相对美股独立"
-    },
-    "ethereum": {
-      "price": 1638,
-      "change24hPercent": -0.46,
-      "note": "ETH $1,638，24h-0.46%。弱势震荡，表现弱于BTC"
+  "europe": {
+    "stoxx_600": {
+      "value": 621.62,
+      "change_pct": 0.56
     }
   },
   "commodities": {
-    "date": "2026-06-11",
-    "crudeOilWTI": {
-      "close": 92.10,
-      "changePercent": 1.72,
-      "note": "WTI $92.10(+1.72%)，对伊朗新一轮打击推动油价向上突破$92。霍尔木兹海峡'黑暗航行'增加，供应紧缺加剧"
+    "wti_crude": {
+      "value": 90.47,
+      "change_pct": 0.49
     },
-    "brentCrude": {
-      "close": null,
-      "changePercent": null,
-      "note": "布伦特料同步上涨至$95以上"
+    "brent_crude": {
+      "value": 93.34,
+      "change_pct": 0.26
     },
     "gold": {
-      "close": 4260.00,
-      "changePercent": -1.75,
-      "note": "黄金$4260(-1.75%)，CPI数据后金价回落，但中东局势剧烈下避险买盘将入场"
+      "value": 4096.0,
+      "change_pct": -0.9
     }
   },
-  "macro": {
-    "us10yYield": 4.542,
-    "us10yYieldChgBps": 1.4,
-    "usdIndex": 99.956,
-    "note": "美10年债收益率4.542%(+1.4bps)，CPI4.2%落地后收益率微升。美元指数99.96基本持平。CPI年率4.2%符合预期，核心CPI仍偏高，利率预期偏鹰。Oracle宣布再融资$200亿推高企业债收益率"
+  "forex": {
+    "dxy": {
+      "value": 100.203,
+      "change_pct": 0.256
+    }
   },
-  "currencies": {
-    "usdCny": null,
-    "usdJpy": null,
-    "note": "美CPI后美元/日元震荡。人民币关注今日中间价设定。美元指数DXY报99.96"
+  "crypto": {
+    "bitcoin": {
+      "value": 62779.0,
+      "change_24h_pct": 2.09
+    },
+    "ethereum": {
+      "value": 1647.61,
+      "change_24h_pct": 0.7
+    }
   },
-  "sectors": {
-    "topGainers": [],
-    "topLosers": [],
-    "note": "A股板块数据待开盘后更新"
-  },
-  "geopolitics": {
-    "iranUS": "美国对伊朗发动新一轮自卫打击，油价跳涨至$92。霍尔木兹海峡原油供应中断升级。特朗普称'两三天内'可达成和平协议，但新一轮空袭显示局势恶化。FT报道油轮'黑暗航行'（关闭追踪器避侦）增加。",
-    "biggestRisk": "美股持续修正：6/5至6/10期间S&P 500累跌约4.5%，NASDAQ累跌约5.8%。科技/AI板块过热修正是否已触底存疑。Oracle宣布再融资$200亿加剧市场对AI基础设施成本担忧",
-    "secondaryRisk": "美国5月CPI 4.2%符合预期但偏高，利率预期维持鹰派。核心通胀黏性可能推迟降息时点"
-  },
-  "newsHighlights": [
-    "📉 CNBC: 美股三指暴跌 — S&P 500 -1.62%、NASDAQ -1.98%、Dow -1.87%",
-    "🛢️ CNBC: 美国对伊朗发动新一轮打击 — 油价跳涨WTI $92.10(+1.74%)",
-    "📊 FT: 美国5月CPI年率4.2%符合预期 — 2023年来首次破4%，核心通胀顽固",
-    "💻 CNBC: Oracle财报超预期但盘后跌5% — 计划再融资$200亿引发AI成本担忧",
-    "🔷 FT: Apollo+黑石为Anthropic筹资$350亿芯片融资 — AI基建投入再创新高",
-    "🚢 FT: 霍尔木兹油轮'黑暗航行'增加 — 供应中断担忧持续升级",
-    "🇺🇸 CNBC: 特朗普称'我爱通胀' — CPI达3年高位后表态引发市场解读",
-    "📉 NQ期货继续承压报28555 — 科技股修正仍未完成",
-    "💰 BTC $62,070相对稳定 — 加密货币展现独立走势",
-    "🇨🇳 A股今日低开预期 — 关注沪指3950支撑和科创50能否延续强势"
+  "news_headlines": [
+    {
+      "source": "CNBC",
+      "title": "Trump threatens to seize Iran oil export terminal Kharg Island",
+      "category": "geopolitics"
+    },
+    {
+      "source": "CNBC",
+      "title": "Wholesale prices rose 1.1% in May, more than expected, on surge in energy",
+      "category": "economy"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Wholesale inflation surges again and keeps pressure on businesses",
+      "category": "economy"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Bessent says US will extract funds from Iran accounts if needed",
+      "category": "geopolitics"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Lagarde says ECB hike was response to major energy shock",
+      "category": "central_banks"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Retail traders dump big tech to raise dry powder to buy SpaceX",
+      "category": "markets"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Stocks see cautious rise as Iran risks whipsaw oil",
+      "category": "markets"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Samsung hit by insider-trading probe",
+      "category": "markets"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "S&P 500 futures rise after US completes fresh round of Iran strikes",
+      "category": "markets"
+    }
   ],
-  "concerns": [
-    "美股三指暴跌：S&P 500 7267、NASDAQ 25170、Dow 49918，科技/AI板块是重灾区",
-    "中东局势恶化：伊朗遭新一轮打击，霍尔木兹危机升级，油价破$92",
-    "CPI 4.2%落地：符合预期但核心通胀黏性，降息预期进一步推迟",
-    "Oracle再融资$200亿：AI基建成本高企引发连锁担忧",
-    "A股开盘压力：外部环境恶化，关注沪指3950支撑位（昨日3999收盘）",
-    "全球风险偏好骤降：科技股修正、地缘风险、高利率三重打击"
+  "key_events": [
+    "US PPI May surged 1.1% (energy-driven), above expectations",
+    "ECB hiked rates citing major energy shock — Lagarde press conference",
+    "US-Iran tensions escalate: Trump threatens Kharg Island seizure",
+    "SpaceX IPO anticipation driving retail rotation out of Big Tech",
+    "Oil prices elevated: WTI ~0.5, Brent ~3.3 on geopolitical risk premium"
   ]
 }

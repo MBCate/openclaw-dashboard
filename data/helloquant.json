@@ -1,85 +1,41 @@
 {
-  "date": "2026-06-05",
-  "update_time": "2026-06-10 15:20",
-  "latest_data_date": "2026-06-05",
-  "note": "Last data update was 2026-06-05 (Friday). No new HelloQuant run today.",
-  "strategies": [
-    {
-      "name": "DoubleMa",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
-      "price": 61617.1
+  "time": "2026-06-11 15:00",
+  "date": "2026-06-11",
+  "last_raw_data": "2026-06-05",
+  "source": "HelloQuant ~/trading/helloquant/",
+  "crypto_signals": {
+    "BTC/USDT": {
+      "price": 61440.0,
+      "change_24h": -3.70,
+      "trend_1h": "偏空",
+      "trend_4h": "偏空",
+      "rsi_1h": 32.2,
+      "rsi_4h": 27.3,
+      "macd_status_4h": "死叉"
     },
-    {
-      "name": "RSI",
-      "signal_1h": "做多",
-      "signal_4h": "做多",
-      "price": 61617.1
-    },
-    {
-      "name": "MACD",
-      "signal_1h": "做空",
-      "signal_4h": "观望",
-      "price": 61617.1
-    },
-    {
-      "name": "Bollinger",
-      "signal_1h": "做多",
-      "signal_4h": "观望",
-      "price": 61617.1
-    },
-    {
-      "name": "Supertrend",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
-      "price": 61617.1
-    },
-    {
-      "name": "TripleMa",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
-      "price": 61617.1
-    },
-    {
-      "name": "Momentum",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
-      "price": 61617.1
-    },
-    {
-      "name": "MeanReversion",
-      "signal_1h": "做多",
-      "signal_4h": "观望",
-      "price": 61617.1
+    "ETH/USDT": {
+      "price": 1638.46,
+      "change_24h": -7.94,
+      "trend_1h": "偏空",
+      "trend_4h": "偏空",
+      "rsi_1h": 17.0,
+      "rsi_4h": 21.8,
+      "macd_status_4h": "死叉"
     }
-  ],
-  "btc_price": 61440.0,
-  "btc_change_24h": -3.7034366776431793,
-  "btc_trend": "偏空",
-  "eth_price": 1638.46,
-  "eth_change_24h": -7.94444506871327,
-  "eth_trend": "偏空",
-  "fear_greed": 12,
-  "fear_greed_label": "Extreme Fear",
-  "market_summary": {
-    "stocks": {
-      "sh": {
-        "price": 4027.7362,
-        "change": -0.74
-      },
-      "sz": {
-        "price": 15314.7,
-        "change": -2.215
-      },
-      "cy": {
-        "price": 3957.935,
-        "change": -3.203
-      }
-    },
-    "commodities": {
-      "gold": 977.94,
-      "silver": 17730.0,
-      "copper": 105150.0
-    }
-  }
+  },
+  "strategies": {
+    "DoubleMa": {"1h": "观望", "4h": "观望"},
+    "TripleMa": {"1h": "观望", "4h": "观望"},
+    "Supertrend": {"1h": "观望", "4h": "观望"},
+    "RSI": {"1h": "做多", "4h": "做多"},
+    "MACD": {"1h": "做空", "4h": "观望"},
+    "Bollinger": {"1h": "做多", "4h": "观望"},
+    "Momentum": {"1h": "观望", "4h": "观望"},
+    "MeanReversion": {"1h": "做多", "4h": "观望"}
+  },
+  "crypto_fear_greed": {
+    "value": 12,
+    "classification": "极度恐惧"
+  },
+  "sentiment": "市场情绪极低，BTC/ETH均处于跌势，多空分歧显著"
 }

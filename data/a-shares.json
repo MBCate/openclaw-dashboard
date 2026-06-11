@@ -1,48 +1,82 @@
 {
-  "update_time": "2026-06-11 11:35",
-  "market": "午盘",
-  "indices": [
-    {
-      "name": "上证指数",
-      "price": 3964.2413,
-      "change_pct": -0.73,
-      "open": 3979.7057,
-      "high": 3997.4777,
-      "low": 3958.4371,
-      "amount_yi": 7450.5,
-      "color": "red"
+  "time": "2026-06-11 15:00",
+  "date": "2026-06-11",
+  "source": "eastmoney_push_api",
+  "indices": {
+    "上证指数": {
+      "code": "000001",
+      "latest": 3987.01,
+      "change": -6.22,
+      "change_pct": -0.16,
+      "status": "下跌"
     },
-    {
-      "name": "深证成指",
-      "price": 14756.975,
-      "change_pct": -1.32,
-      "open": 14889.567,
-      "high": 15062.748,
-      "low": 14734.942,
-      "amount_yi": 8495.2,
-      "color": "red"
+    "深证成指": {
+      "code": "399001",
+      "latest": 14851.98,
+      "change": -102.12,
+      "change_pct": -0.68,
+      "status": "下跌"
     },
-    {
-      "name": "创业板指",
-      "price": 3785.626,
-      "change_pct": -1.79,
-      "open": 3839.187,
-      "high": 3910.278,
-      "low": 3782.003,
-      "amount_yi": 3986.3,
-      "color": "red"
+    "创业板指": {
+      "code": "399006",
+      "latest": 3811.25,
+      "change": -43.54,
+      "change_pct": -1.13,
+      "status": "下跌"
     },
-    {
-      "name": "沪深300",
-      "price": 4697.768,
-      "change_pct": -1.07,
-      "open": 4730.072,
-      "high": 4766.173,
-      "low": 4691.648,
-      "amount_yi": 3850.3,
-      "color": "red"
+    "沪深300": {
+      "code": "399300",
+      "latest": 4722.41,
+      "change": -26.18,
+      "change_pct": -0.55,
+      "status": "下跌"
+    },
+    "上证50": {
+      "code": "000016",
+      "latest": 2845.92,
+      "change": -4.45,
+      "change_pct": -0.16,
+      "status": "下跌"
+    },
+    "科创50": {
+      "code": "000688",
+      "latest": 1662.44,
+      "change": 10.22,
+      "change_pct": 0.62,
+      "status": "上涨"
     }
-  ],
-  "total_amount_yi": 23782.3,
-  "sectors": "API暂不可用"
+  },
+  "sectors": {
+    "note": "2026-06-11东方财富行业板块",
+    "top5": [
+      {"name": "证券", "change_pct": null},
+      {"name": "小金属", "change_pct": null},
+      {"name": "有色金属", "change_pct": null},
+      {"name": "能源金属", "change_pct": null},
+      {"name": "交运设备", "change_pct": null}
+    ],
+    "bottom5": [
+      {"name": "美容护理", "change_pct": null},
+      {"name": "医药生物", "change_pct": null},
+      {"name": "航运港口", "change_pct": null},
+      {"name": "创新药", "change_pct": null},
+      {"name": "化学制药", "change_pct": null}
+    ],
+    "top_concepts": ["稀土永磁", "有色·钨", "一体化压铸", "电竞", "汽车拆解"],
+    "bottom_concepts": ["可控核聚变", "航运", "CRO/CMO", "乳业奶粉", "创新药"]
+  },
+  "market_breadth": {
+    "total_approx": 5153,
+    "up": "约3415",
+    "down": "约1738",
+    "description": "涨多跌少，上涨家数约3415家，下跌约1738家"
+  },
+  "volume": {
+    "total_amount": "约12554.67亿",
+    "change": "缩量约1599.06亿"
+  },
+  "northbound_flow": {
+    "note": "北向资金数据未获取到实时API",
+    "date": "2026-06-11"
+  }
 }

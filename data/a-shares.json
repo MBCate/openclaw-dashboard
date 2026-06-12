@@ -1,82 +1,34 @@
 {
-  "time": "2026-06-11 15:00",
-  "date": "2026-06-11",
-  "source": "eastmoney_push_api",
   "indices": {
     "上证指数": {
-      "code": "000001",
-      "latest": 3987.01,
-      "change": -6.22,
-      "change_pct": -0.16,
-      "status": "下跌"
-    },
-    "深证成指": {
-      "code": "399001",
-      "latest": 14851.98,
-      "change": -102.12,
-      "change_pct": -0.68,
-      "status": "下跌"
-    },
-    "创业板指": {
-      "code": "399006",
-      "latest": 3811.25,
-      "change": -43.54,
-      "change_pct": -1.13,
-      "status": "下跌"
+      "price": 4049.29,
+      "change_pct": 1.56,
+      "change": 62.28,
+      "amount": 980320310973.6
     },
     "沪深300": {
-      "code": "399300",
-      "latest": 4722.41,
-      "change": -26.18,
-      "change_pct": -0.55,
-      "status": "下跌"
-    },
-    "上证50": {
-      "code": "000016",
-      "latest": 2845.92,
-      "change": -4.45,
-      "change_pct": -0.16,
-      "status": "下跌"
-    },
-    "科创50": {
-      "code": "000688",
-      "latest": 1662.44,
-      "change": 10.22,
-      "change_pct": 0.62,
-      "status": "上涨"
+      "price": 4794.71,
+      "change_pct": 1.53,
+      "change": 72.3,
+      "amount": 534143982697.0
     }
   },
-  "sectors": {
-    "note": "2026-06-11东方财富行业板块",
-    "top5": [
-      {"name": "证券", "change_pct": null},
-      {"name": "小金属", "change_pct": null},
-      {"name": "有色金属", "change_pct": null},
-      {"name": "能源金属", "change_pct": null},
-      {"name": "交运设备", "change_pct": null}
-    ],
-    "bottom5": [
-      {"name": "美容护理", "change_pct": null},
-      {"name": "医药生物", "change_pct": null},
-      {"name": "航运港口", "change_pct": null},
-      {"name": "创新药", "change_pct": null},
-      {"name": "化学制药", "change_pct": null}
-    ],
-    "top_concepts": ["稀土永磁", "有色·钨", "一体化压铸", "电竞", "汽车拆解"],
-    "bottom_concepts": ["可控核聚变", "航运", "CRO/CMO", "乳业奶粉", "创新药"]
-  },
-  "market_breadth": {
-    "total_approx": 5153,
-    "up": "约3415",
-    "down": "约1738",
-    "description": "涨多跌少，上涨家数约3415家，下跌约1738家"
-  },
-  "volume": {
-    "total_amount": "约12554.67亿",
-    "change": "缩量约1599.06亿"
-  },
-  "northbound_flow": {
-    "note": "北向资金数据未获取到实时API",
-    "date": "2026-06-11"
-  }
+  "north_flow": null,
+  "top_sectors": [
+    {"name": "铅锌", "change_pct": 10.18},
+    {"name": "钼", "change_pct": 10.0},
+    {"name": "镍", "change_pct": 8.77},
+    {"name": "铜", "change_pct": 8.39},
+    {"name": "钴", "change_pct": 7.56}
+  ],
+  "bottom_sectors": [
+    {"name": "半导体材料", "change_pct": -2.2},
+    {"name": "防水材料", "change_pct": -2.64},
+    {"name": "电子化学品Ⅲ", "change_pct": -2.83},
+    {"name": "电子化学品Ⅱ", "change_pct": -2.83},
+    {"name": "橡胶助剂", "change_pct": -4.56}
+  ],
+  "breadth": {"up": 4534, "down": 929, "flat": 49},
+  "timestamp": "2026-06-12 11:30",
+  "name": "A股午盘"
 }

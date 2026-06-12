@@ -1,15 +1,28 @@
 {
   "date": "2026-06-12",
-  "updated_at": "2026-06-12T15:06:35.775957",
+  "updated_at": "2026-06-12T17:13:56",
+  "period": "weekly",
+  "week_end": "2026-06-12",
+  "stocks": {
+    "上证指数": { "price": 4031.51, "change_pct": 1.12, "volume": 743131092 },
+    "深证成指": { "price": 14963.41, "change_pct": 0.75 },
+    "创业板指": { "price": 3830.35, "change_pct": 0.50 }
+  },
+  "futures": {
+    "沪金主力": { "price": 911.62, "change_pct": 1.86 },
+    "沪银主力": { "price": 15972.0, "change_pct": 3.61 },
+    "沪铜主力": { "price": 104660.0, "change_pct": 1.45 },
+    "螺纹钢主力": { "price": 3178.0, "change_pct": 0.70 },
+    "沪深300期货": { "price": 4671.8, "change_pct": 1.74 },
+    "中证500期货": { "price": 8117.2, "change_pct": 1.58 }
+  },
+  "volatility": {
+    "50ETF波动率_QVIX": 17.79,
+    "date": "2026-06-11"
+  },
   "crypto": {
-    "BTC/USDT": {
-      "price": 63018,
-      "change_24h": 0.71
-    },
-    "ETH/USDT": {
-      "price": 1658.46,
-      "change_24h": 0.41
-    }
+    "BTC/USDT": { "price": 63018, "change_24h": 0.71 },
+    "ETH/USDT": { "price": 1658.46, "change_24h": 0.41 }
   },
   "sentiment": {
     "crypto_fear_greed": {
@@ -18,10 +31,18 @@
       "timestamp": "1781222400"
     }
   },
-  "signals": {
-    "status": "error",
-    "error": "'<' not supported between instances of 'NoneType' and 'str'"
+  "strategies": {
+    "DoubleMa": { "status": "backtest_only", "best_params": {"fast": 6, "slow": 55}, "return_pct": 0.09, "sharpe": 0.23, "max_dd_pct": -3.68, "trades": 4, "win_rate_pct": 0.0 },
+    "freqtrade_strategies": { "status": "code_available", "count": 64, "note": "64 freqtrade strategies available for backtesting" }
   },
-  "strategies": {},
-  "news_count": 0
+  "market_comment": "A股今日全线收涨，沪指重回4000点上方报4031.51。期货市场有色板块领涨，沪银涨3.61%表现亮眼。加密市场延续低迷，BTC $63K附近震荡，恐惧贪婪指数12处于极端恐惧区间。本周上证整体偏弱但周五反弹收回部分失地。",
+  "news": [
+    "International sting shuts down $390M crypto money-laundering ring",
+    "SEC plan to scrap 'Rule 611' positive for tokenized US stocks: Galaxy",
+    "LG, Arbitrum launch blockchain-based bid in $679B ad market",
+    "Coinbase launches tool letting AI agents make payments and trade crypto",
+    "Avalanche Treasury Co. falls 16% as it debuts on Nasdaq"
+  ],
+  "papers_count": 10,
+  "strategy_backtest_note": "DoubleMa最优参数(6,55)本周表现小幅正收益0.09%，Sharpe 0.23，最大回撤-3.68%。需注意策略整体表现偏弱，4笔交易胜率0%，建议优化参数或调整市场条件过滤。"
 }

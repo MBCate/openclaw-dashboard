@@ -1,115 +1,185 @@
 {
-  "timestamp": "2026-06-11T21:30:00+08:00",
-  "date": "2026-06-11",
-  "time": "21:30 CST",
+  "timestamp": "2026-06-12T09:15:00+08:00",
+  "date": "2026-06-12",
+  "time": "09:15 CST",
+  "as_markets": {
+    "shanghai_composite": {
+      "note": "pre-market, awaiting open at 09:30"
+    },
+    "shenzhen_component": {
+      "note": "pre-market, awaiting open at 09:30"
+    },
+    "chi_next": {
+      "note": "pre-market, awaiting open at 09:30"
+    },
+    "futures_if": {
+      "value": 4591.8,
+      "change_pct": -2.74,
+      "note": "沪深300期货 6/11收盘，较6/10跌2.74%"
+    },
+    "futures_ih": {
+      "value": 2835.8,
+      "change_pct": 0.07,
+      "note": "上证50期货 6/11收盘"
+    },
+    "futures_ic": {
+      "value": 7990.8,
+      "change_pct": -0.42,
+      "note": "中证500期货 6/11收盘"
+    },
+    "bond_2yr_cn": {
+      "value": 1.288,
+      "note": "中国国债2年期利率"
+    },
+    "bond_10yr_cn": {
+      "value": 1.748,
+      "note": "中国国债10年期利率"
+    },
+    "bond_10yr_us": {
+      "value": 4.45,
+      "note": "美国国债10年期利率 较前日降10bp"
+    }
+  },
   "us_markets": {
     "s&p_500": {
       "value": 7297.71,
-      "change_pct": 0.42
+      "change_pct": 0.42,
+      "note": "6/11收盘，隔夜期货继续走高"
     },
     "dow_jones": {
       "value": 50164.13,
-      "change_pct": 0.49
+      "change_pct": 0.49,
+      "note": "6/11收盘"
     },
     "nasdaq": {
       "value": 25301.62,
-      "change_pct": 0.52
+      "change_pct": 0.52,
+      "note": "6/11收盘"
+    }
+  },
+  "asia_pacific": {
+    "japan_nikkei": {
+      "note": "预计高开，受伊朗和谈消息提振"
+    },
+    "korea_kospi": {
+      "change_pct": 8.0,
+      "note": "6/12韩国KOSPI暴涨8%，芯片股因伊朗和谈预期飙升"
     }
   },
   "hong_kong": {
     "hang_seng": {
       "value": 24249.29,
-      "change_pct": -0.65
+      "change_pct": -0.65,
+      "note": "6/11收盘"
     }
   },
   "europe": {
     "stoxx_600": {
       "value": 621.62,
-      "change_pct": 0.56
+      "change_pct": 0.56,
+      "note": "6/11收盘，受伊朗和谈消息推动反弹"
     }
   },
   "commodities": {
     "wti_crude": {
-      "value": 90.47,
-      "change_pct": 0.49
+      "value": 89.40,
+      "change_pct": -1.18,
+      "note": "隔夜下跌，Trump透露伊朗和谈进展，油价回落"
     },
     "brent_crude": {
-      "value": 93.34,
-      "change_pct": 0.26
+      "value": 92.50,
+      "change_pct": -0.90,
+      "note": "隔夜下跌"
     },
     "gold": {
-      "value": 4096.0,
-      "change_pct": -0.9
+      "value": 895.0,
+      "change_pct": -2.64,
+      "note": "沪金6/11大跌，国际金价受和谈消息承压"
+    },
+    "lme_nickel": {
+      "value": 133980,
+      "change_pct": 0.26,
+      "note": "沪镍6/11收盘"
     }
   },
   "forex": {
     "dxy": {
-      "value": 100.203,
-      "change_pct": 0.256
+      "value": 100.2,
+      "change_pct": 0.256,
+      "note": "美元指数持稳"
+    },
+    "usdcny": {
+      "note": "在岸人民币等待开盘"
     }
   },
   "crypto": {
     "bitcoin": {
-      "value": 62779.0,
-      "change_24h_pct": 2.09
+      "value": 63414,
+      "change_24h_pct": 2.18,
+      "note": "随风险偏好回升上涨"
     },
     "ethereum": {
-      "value": 1647.61,
-      "change_24h_pct": 0.7
+      "value": 1667.29,
+      "change_24h_pct": 1.82,
+      "note": "随风险偏好回升上涨"
     }
   },
   "news_headlines": [
     {
+      "source": "FT",
+      "title": "Trump says US close to deal with Iran, calls off strikes",
+      "category": "geopolitics",
+      "impact": "利空原油，利好全球风险资产"
+    },
+    {
+      "source": "FT",
+      "title": "SpaceX raises $75bn in world's biggest IPO on Nasdaq debut",
+      "category": "markets",
+      "impact": "创历史最大IPO，零售资金从科技股避险转向"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Korea's Kospi surges 8% as Iran deal hopes lift chip stocks",
+      "category": "markets",
+      "impact": "亚太率先反应伊朗和谈利好"
+    },
+    {
       "source": "CNBC",
-      "title": "Trump threatens to seize Iran oil export terminal Kharg Island",
-      "category": "geopolitics"
+      "title": "Oil prices fall on hopes of US-Iran deal despite Tehran pushback",
+      "category": "commodities",
+      "impact": "WTI跌破90，风险溢价快速回落"
     },
     {
       "source": "CNBC",
-      "title": "Wholesale prices rose 1.1% in May, more than expected, on surge in energy",
-      "category": "economy"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Wholesale inflation surges again and keeps pressure on businesses",
-      "category": "economy"
+      "title": "Stock futures tick higher as Wall Street gears up for SpaceX historic IPO",
+      "category": "markets",
+      "impact": "美股期货走高，市场聚焦SpaceX上市"
     },
     {
       "source": "Bloomberg",
-      "title": "Bessent says US will extract funds from Iran accounts if needed",
-      "category": "geopolitics"
+      "title": "Hormuz oil flows surge as Gulf producers embrace workarounds",
+      "category": "energy",
+      "impact": "霍尔木兹海峡航运恢复"
     },
     {
-      "source": "Bloomberg",
-      "title": "Lagarde says ECB hike was response to major energy shock",
-      "category": "central_banks"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Retail traders dump big tech to raise dry powder to buy SpaceX",
-      "category": "markets"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Stocks see cautious rise as Iran risks whipsaw oil",
-      "category": "markets"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Samsung hit by insider-trading probe",
-      "category": "markets"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "S&P 500 futures rise after US completes fresh round of Iran strikes",
-      "category": "markets"
+      "source": "SCMP",
+      "title": "Biotech firm WuXi sues US over allegations it supports China's military",
+      "category": "geopolitics",
+      "impact": "中美科技脱钩持续"
     }
   ],
   "key_events": [
-    "US PPI May surged 1.1% (energy-driven), above expectations",
-    "ECB hiked rates citing major energy shock — Lagarde press conference",
-    "US-Iran tensions escalate: Trump threatens Kharg Island seizure",
-    "SpaceX IPO anticipation driving retail rotation out of Big Tech",
-    "Oil prices elevated: WTI ~0.5, Brent ~3.3 on geopolitical risk premium"
+    "🚨 美伊和谈重大进展 — Trump宣布接近达成协议，取消军事行动，油价应声大跌",
+    "💰 SpaceX $750亿 IPO — 史上最大IPO，纳斯达克上市首日",
+    "🇰🇷 韩国KOSPI暴涨8% — 芯片股领涨，伊朗和谈预期+AI需求",
+    "📉 美债收益率下行 — 10年期降至4.45%，市场避险情绪缓和",
+    "🗑️ US PPI 5月飙1.1% — 能源驱动超预期，但市场更关注伊朗风险消退",
+    "❄️ 中美利差收窄 — 中国10Y 1.75% vs 美国10Y 4.45%，利差缩至270bp"
+  ],
+  "today_focus": [
+    "A股09:30开盘 — 关注IF期货昨日跌2.74%后的修复情况",
+    "伊朗和谈实质性进展 — 将影响能源、石化、军工板块",
+    "SpaceX IPO首日表现 — 映射科技/风投情绪",
+    "日韩市场强势 — 北向资金是否会涌入A股"
   ]
 }

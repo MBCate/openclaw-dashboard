@@ -1,41 +1,27 @@
 {
-  "time": "2026-06-11 15:00",
-  "date": "2026-06-11",
-  "last_raw_data": "2026-06-05",
-  "source": "HelloQuant ~/trading/helloquant/",
-  "crypto_signals": {
+  "date": "2026-06-12",
+  "updated_at": "2026-06-12T15:06:35.775957",
+  "crypto": {
     "BTC/USDT": {
-      "price": 61440.0,
-      "change_24h": -3.70,
-      "trend_1h": "偏空",
-      "trend_4h": "偏空",
-      "rsi_1h": 32.2,
-      "rsi_4h": 27.3,
-      "macd_status_4h": "死叉"
+      "price": 63018,
+      "change_24h": 0.71
     },
     "ETH/USDT": {
-      "price": 1638.46,
-      "change_24h": -7.94,
-      "trend_1h": "偏空",
-      "trend_4h": "偏空",
-      "rsi_1h": 17.0,
-      "rsi_4h": 21.8,
-      "macd_status_4h": "死叉"
+      "price": 1658.46,
+      "change_24h": 0.41
     }
   },
-  "strategies": {
-    "DoubleMa": {"1h": "观望", "4h": "观望"},
-    "TripleMa": {"1h": "观望", "4h": "观望"},
-    "Supertrend": {"1h": "观望", "4h": "观望"},
-    "RSI": {"1h": "做多", "4h": "做多"},
-    "MACD": {"1h": "做空", "4h": "观望"},
-    "Bollinger": {"1h": "做多", "4h": "观望"},
-    "Momentum": {"1h": "观望", "4h": "观望"},
-    "MeanReversion": {"1h": "做多", "4h": "观望"}
+  "sentiment": {
+    "crypto_fear_greed": {
+      "value": 12,
+      "classification": "Extreme Fear",
+      "timestamp": "1781222400"
+    }
   },
-  "crypto_fear_greed": {
-    "value": 12,
-    "classification": "极度恐惧"
+  "signals": {
+    "status": "error",
+    "error": "'<' not supported between instances of 'NoneType' and 'str'"
   },
-  "sentiment": "市场情绪极低，BTC/ETH均处于跌势，多空分歧显著"
+  "strategies": {},
+  "news_count": 0
 }

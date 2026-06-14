@@ -1,93 +1,40 @@
 {
-  "date": "2026-06-12",
-  "updatedAt": "2026-06-12 13:30 UTC (21:30 CST)",
+  "date": "2026-06-14",
+  "updatedAt": "2026-06-14 13:30 UTC (21:30 CST)",
   "indices": {
     "US": {
-      "date": "2026-06-11",
-      "S&P 500": { "change": "+1.8%", "note": "大幅反弹 - 伊核和平谈判进展 + SpaceX IPO 上市推动" },
-      "Dow Jones": { "change": "+1.9% (+930点)", "note": "2026年最大单日涨幅之一" },
-      "Nasdaq": { "change": "+2.5%", "note": "科技股领涨，AI/半导体板块强劲" }
+      "date": "2026-06-12",
+      "S&P 500": { "close": 7431.46, "change": "+0.5%", "ytd": "+8.6%", "note": "SpaceX IPO首日暴涨19.2%，能源下跌推动大盘走高" },
+      "Dow Jones": { "close": 51202.26, "change": "+0.7% (+353点)", "ytd": "+6.5%", "note": "2026年最大单周涨幅之一" },
+      "Nasdaq": { "close": 25888.84, "change": "+0.3%", "ytd": "+11.4%", "note": "AI板块分化，半导体涨跌互现" },
+      "Russell 2000": { "close": 2943.99, "change": "+0.8%", "ytd": "+18.6%", "note": "小盘股周涨3.9%表现强劲" }
     },
     "China": {
-      "date": "2026-06-12",
-      "上证指数": { "note": "受美伊和平预期提振，A股周五小幅上行" },
-      "深证成指": { "note": "震荡偏强" },
-      "创业板指": { "note": "科技成长股表现分化" },
-      "沪深300": { "note": "蓝筹股平稳" }
+      "note": "A股因周末休市，周五(6/12)整体小幅上行，受美伊和平预期提振"
     },
     "HongKong": {
-      "date": "2026-06-12",
-      "恒生指数": { "note": "跟随隔夜美股高开" }
+      "note": "恒指周五跟随隔夜美股高开，周末休市"
     }
   },
   "commodities": {
-    "WTI原油": { "price": "$86.51", "change": "-3.9%", "note": "特朗普宣布将签署伊朗和平协议，Strait of Hormuz 危机缓解预期" },
-    "Brent原油": { "price": "$89.15", "change": "-4.2%", "note": "6月11日收盘大跌，12日延续低位" },
-    "黄金": { "price": "~$2,380", "change": "小幅波动", "note": "避险情绪降温抵消美元走弱影响" }
+    "Brent Crude": { "note": "跌3.4%，美伊和谈推动油价下行，霍尔木兹海峡局势缓和" },
+    "Gold": { "change": "-0.5%", "note": "Comex黄金期货小幅走低" },
+    "Silver": { "change": "-0.4%", "note": "白银跟随黄金走低" },
+    "Arabica Coffee": { "note": "创新高，美国-哥伦比亚关税争端推升价格" }
   },
   "crypto": {
-    "date": "2026-06-12",
-    "totalMarkets": "$2.25万亿 (+1.7%)",
-    "fearGreedIndex": 12,
-    "sentiment": "极度恐惧",
-    "assets": {
-      "BTC": { "price": "$63,031", "daily": "-0.83%", "monthly": "-20.50%" },
-      "ETH": { "price": "$1,652.53", "daily": "-1.19%", "monthly": "-26.80%" },
-      "SOL": { "price": "$66.38", "daily": "-0.65%", "monthly": "-27.13%" },
-      "XRP": { "price": "$1.13", "daily": "-1.34%", "monthly": "-21.10%" },
-      "BNB": { "price": "$604.70", "daily": "-0.21%", "monthly": "-10.02%" }
-    },
-    "note": "整体情绪极度恐惧(12/100)，BTC月度-20.5%，ETH跌超26%"
+    "date": "2026-06-14",
+    "Bitcoin": { "price": "$64,280", "24h_change": "+0.16%", "note": "BTC ETF机构资金持续流入" },
+    "Ethereum": { "price": "$1,665", "24h_change": "-0.83%", "note": "跟随BTC走势，无明显独立催化剂" }
   },
-  "forex": {
-    "美元指数": { "note": "交投于104附近，等待FOMC" },
-    "CNY/USD": { "note": "在岸人民币维持窄幅震荡" }
-  },
-  "topNews": [
-    {
-      "source": "CNBC",
-      "title": "SpaceX IPO今日上市：Elon Musk和Gwynne Shotwell在纽约和德州敲钟",
-      "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "标普500持稳：市场聚焦SpaceX IPO与伊朗和平希望",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-12/us-futures-rally-with-all-eyes-on-spacex-iran-war-peace-hopes"
-    },
-    {
-      "source": "CNBC",
-      "title": "美伊和平协议草案：伊朗国家媒体称将重开Hormuz海峡并解除石油制裁",
-      "url": "https://www.cnbc.com/2026/06/12/iran-us-peace-memo-strait-hormuz-oil-sanctions.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "Meta据报按北京要求开始拆除20亿美元Manus交易",
-      "url": "https://www.cnbc.com/2026/06/12/meta-reportedly-begins-dismantling-2-billion-manus-deal-on-beijings-orders.html"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "油价下跌：投资者权衡美伊和平协议进展",
-      "url": "https://www.marketwatch.com/story/oil-prices-extend-declines-on-possible-u-s-iran-peace-deal-to-reopen-strait-of-hormuz-6d2822bd"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Ken Leech就美国'摘樱桃'欺诈案认罪",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-12/ken-leech-to-plead-guilty-in-us-cherry-picking-fraud-case"
-    },
-    {
-      "source": "CNBC",
-      "title": "SpaceX的Gwynne Shotwell多年来对IPO存疑，如今对投资者有话要说",
-      "url": "https://www.cnbc.com/2026/06/12/spacex-coo-gwynne-shotwell-spcx-ipo.html"
-    }
-  ],
-  "analysis": {
-    "theme": "美伊和平协议 + SpaceX IPO 双线主导市场",
-    "keyEvents": [
-      "🇺🇸🇮🇷 特朗普取消对伊朗空袭，称将在欧洲签署和平协议，Hormuz海峡有望重开",
-      "🚀 SpaceX (SPCX) 今日上市，IPO被高度关注，成为2026年全球最大IPO之一",
-      "🛢️ 布伦特原油大跌4.2%至$89.15，WTI跌3.9%至$86.51，和平协议预期压低油价",
-      "🏛️ Meta被北京要求拆除20亿美元与Manus的交易，中美科技博弈继续",
-      "💸 加密货币市场极度恐惧(12/100)，BTC跌破$63,000，月跌20%"
-    ]
-  }
+  "headlines": [
+    "特朗普与伊朗和平协议周日签署，霍尔木兹海峡局势缓和",
+    "SpaceX IPO首日暴涨19.2%，AI相关股票需求旺盛",
+    "美联储和英国央行在伊朗战争100天后维持利率不变",
+    "特朗普前往法国参加G7峰会，伊朗协议成焦点",
+    "瑞士公投以微弱优势否决1000万人口上限提案",
+    "中国DeepSeek引发AI板块回调，美股AI股分化",
+    "阿拉比卡咖啡期货创新高，美哥关税争端升级",
+    "马斯克与Larry Page十多年前疏远，但旗下公司合作日益紧密"
+  ]
 }

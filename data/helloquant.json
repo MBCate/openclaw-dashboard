@@ -1,48 +1,98 @@
 {
-  "date": "2026-06-12",
-  "updated_at": "2026-06-12T17:13:56",
-  "period": "weekly",
-  "week_end": "2026-06-12",
-  "stocks": {
-    "上证指数": { "price": 4031.51, "change_pct": 1.12, "volume": 743131092 },
-    "深证成指": { "price": 14963.41, "change_pct": 0.75 },
-    "创业板指": { "price": 3830.35, "change_pct": 0.50 }
+  "date": "2026-06-15",
+  "update_time": "15:05 CST",
+  "last_known_data": {
+    "date": "2026-06-12",
+    "timestamp": "2026-06-12T17:13:56.122702",
+    "note": "HelloQuant daily_raw.json 上次更新为上周五(6月12日)收盘数据，周末未运行"
   },
-  "futures": {
-    "沪金主力": { "price": 911.62, "change_pct": 1.86 },
-    "沪银主力": { "price": 15972.0, "change_pct": 3.61 },
-    "沪铜主力": { "price": 104660.0, "change_pct": 1.45 },
-    "螺纹钢主力": { "price": 3178.0, "change_pct": 0.70 },
-    "沪深300期货": { "price": 4671.8, "change_pct": 1.74 },
-    "中证500期货": { "price": 8117.2, "change_pct": 1.58 }
+  "indices_last_known": {
+    "上证指数": {
+      "price": 4031.51,
+      "change_pct": 1.12,
+      "date": "2026-06-12"
+    },
+    "深证成指": {
+      "price": 14963.41,
+      "change_pct": 0.75,
+      "date": "2026-06-12"
+    },
+    "创业板指": {
+      "price": 3830.35,
+      "change_pct": 0.5,
+      "date": "2026-06-12"
+    }
   },
-  "volatility": {
-    "50ETF波动率_QVIX": 17.79,
-    "date": "2026-06-11"
+  "futures_last_known": {
+    "沪金主力": {
+      "price": 911.62,
+      "change_pct": 1.86,
+      "date": "2026-06-12"
+    },
+    "沪银主力": {
+      "price": 15972.0,
+      "change_pct": 3.61,
+      "date": "2026-06-12"
+    },
+    "沪铜主力": {
+      "price": 104660.0,
+      "change_pct": 1.45,
+      "date": "2026-06-12"
+    },
+    "螺纹钢主力": {
+      "price": 3178.0,
+      "change_pct": 0.7,
+      "date": "2026-06-12"
+    },
+    "沪深300期货": {
+      "price": 4671.8,
+      "change_pct": 1.74,
+      "date": "2026-06-12"
+    },
+    "中证500期货": {
+      "price": 8117.2,
+      "change_pct": 1.58,
+      "date": "2026-06-12"
+    },
+    "50ETF波动率": {
+      "value": 17.79,
+      "date": "2026-06-11"
+    }
   },
-  "crypto": {
-    "BTC/USDT": { "price": 63018, "change_24h": 0.71 },
-    "ETH/USDT": { "price": 1658.46, "change_24h": 0.41 }
+  "strategies": {
+    "status": "daily_raw.json中signals字段返回error",
+    "error_detail": "'<' not supported between instances of 'NoneType' and 'str'",
+    "note": "策略模块需排查，可能是input数据异常"
   },
   "sentiment": {
     "crypto_fear_greed": {
       "value": 12,
-      "classification": "Extreme Fear",
-      "timestamp": "1781222400"
+      "classification": "极度恐惧",
+      "timestamp": "2026-06-12"
+    },
+    "note": "加密市场情绪极度恐惧(12/100)"
+  },
+  "stock_data_folders": {
+    "stock": "空文件夹（仅.gitkeep）",
+    "crypto": "空文件夹（仅.gitkeep）",
+    "futures": "空文件夹（仅.gitkeep）"
+  },
+  "reports_available": [
+    {
+      "name": "backtest_result.png",
+      "date": "2026-01-03"
+    },
+    {
+      "name": "optimization_heatmap.png",
+      "date": "2026-01-03"
+    },
+    {
+      "name": "optimization_results.csv",
+      "date": "2026-01-03"
+    },
+    {
+      "name": "supertrend_result.png",
+      "date": "2026-01-03"
     }
-  },
-  "strategies": {
-    "DoubleMa": { "status": "backtest_only", "best_params": {"fast": 6, "slow": 55}, "return_pct": 0.09, "sharpe": 0.23, "max_dd_pct": -3.68, "trades": 4, "win_rate_pct": 0.0 },
-    "freqtrade_strategies": { "status": "code_available", "count": 64, "note": "64 freqtrade strategies available for backtesting" }
-  },
-  "market_comment": "A股今日全线收涨，沪指重回4000点上方报4031.51。期货市场有色板块领涨，沪银涨3.61%表现亮眼。加密市场延续低迷，BTC $63K附近震荡，恐惧贪婪指数12处于极端恐惧区间。本周上证整体偏弱但周五反弹收回部分失地。",
-  "news": [
-    "International sting shuts down $390M crypto money-laundering ring",
-    "SEC plan to scrap 'Rule 611' positive for tokenized US stocks: Galaxy",
-    "LG, Arbitrum launch blockchain-based bid in $679B ad market",
-    "Coinbase launches tool letting AI agents make payments and trade crypto",
-    "Avalanche Treasury Co. falls 16% as it debuts on Nasdaq"
-  ],
-  "papers_count": 10,
-  "strategy_backtest_note": "DoubleMa最优参数(6,55)本周表现小幅正收益0.09%，Sharpe 0.23，最大回撤-3.68%。需注意策略整体表现偏弱，4笔交易胜率0%，建议优化参数或调整市场条件过滤。"
+  ]
 }

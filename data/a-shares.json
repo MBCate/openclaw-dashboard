@@ -1,128 +1,96 @@
 {
   "date": "2026-06-15",
-  "updated_at": "2026-06-15 11:35",
-  "period": "noon",
+  "update_time": "15:05 CST",
   "indices": {
     "上证指数": {
-      "code": "sh000001",
-      "latest": 4068.58,
-      "change_pct": 0.92,
-      "change_amt": 37.07,
-      "open": 4053.58,
-      "high": 4092.23,
-      "low": 4051.07,
-      "pre_close": 4031.51,
-      "volume": "460982714",
-      "amount": "96000000000"
+      "code": "1.000001",
+      "price": 4096.47,
+      "change_pct": 1.61,
+      "change_amount": 64.96,
+      "description": "全天强势，收盘涨1.61%"
     },
     "深证成指": {
-      "code": "sz399001",
-      "latest": 15342.47,
-      "change_pct": 2.53,
-      "change_amt": 379.06,
-      "open": 15153.18,
-      "high": 15359.79,
-      "low": 15055.95,
-      "pre_close": 14963.41,
-      "volume": "503808700",
-      "amount": "207000000000"
+      "code": "0.399001",
+      "price": 15531.11,
+      "change_pct": 3.79,
+      "change_amount": 567.7,
+      "description": "大幅上涨3.79%"
     },
     "创业板指": {
-      "code": "sz399006",
-      "latest": 3970.67,
-      "change_pct": 3.66,
-      "change_amt": 140.32,
-      "open": 3896.17,
-      "high": 3979.37,
-      "low": 3844.08,
-      "pre_close": 3830.35,
-      "volume": "149434024",
-      "amount": "268000000000"
-    },
-    "上证50": {
-      "code": "sh000016",
-      "latest": 2918.75,
-      "change_pct": 0.97,
-      "change_amt": 27.95,
-      "open": 2919.69,
-      "high": 2946.02,
-      "low": 2915.15,
-      "pre_close": 2890.80,
-      "volume": "51725267",
-      "amount": "32000000000"
-    },
-    "科创50": {
-      "code": "sh000688",
-      "latest": 1723.47,
-      "change_pct": 3.62,
-      "change_amt": 60.25,
-      "open": 1687.67,
-      "high": 1732.17,
-      "low": 1658.32,
-      "pre_close": 1663.22,
-      "volume": "10489771",
-      "amount": "150000000000"
+      "code": "0.399006",
+      "price": 4033.53,
+      "change_pct": 5.3,
+      "change_amount": 203.18,
+      "description": "领涨三大指数，大涨5.30%"
     },
     "沪深300": {
-      "code": "sh000300",
-      "latest": 4847.65,
-      "change_pct": 1.47,
-      "change_amt": 70.33,
-      "open": 4829.29,
-      "high": 4858.35,
-      "low": 4803.18,
-      "pre_close": 4777.32,
-      "volume": "222538244",
-      "amount": "67000000000"
+      "code": "0.399300",
+      "price": 4891.71,
+      "change_pct": 2.39,
+      "change_amount": 114.39
     },
-    "中证500": {
-      "code": "sh000905",
-      "latest": 8304.88,
-      "change_pct": 2.45,
-      "change_amt": 198.68,
-      "open": 8175.05,
-      "high": 8324.88,
-      "low": 8174.59,
-      "pre_close": 8106.20,
-      "volume": "174594458",
-      "amount": "159000000000"
+    "科创50": {
+      "code": "1.000688",
+      "price": 1748.33,
+      "change_pct": 5.12,
+      "change_amount": 85.11,
+      "description": "大涨5.12%，科技股全面爆发"
     }
   },
-  "sectors": {
-    "top5": [
-      {"name": "荣耀概念", "change_pct": 5.09},
-      {"name": "LED", "change_pct": 4.33},
-      {"name": "其他自动化设备", "change_pct": 4.25},
-      {"name": "碳基材料", "change_pct": 3.87},
-      {"name": "运动服装", "change_pct": 3.50}
+  "market_overview": {
+    "total_volume_approx": "3.03万亿",
+    "rising_stocks": 3900,
+    "stocks_above_market": "超3900只个股上涨",
+    "limit_up_stocks": "超百股涨停",
+    "key_driver": "美伊达成停战谅解备忘录，中东地缘风险溢价出清，布伦特原油跌超4%，通胀预期降温推动成长股修复"
+  },
+  "hot_sectors": {
+    "gainers": [
+      {
+        "name": "AI硬件/PCB概念",
+        "detail": "国际复材、铜冠铜箔、逸豪新材等超30股涨停"
+      },
+      {
+        "name": "CPO概念",
+        "detail": "炬光科技三天两板，太辰光、光迅科技、可川科技涨停"
+      },
+      {
+        "name": "证券",
+        "detail": "中银证券两连板，南华期货、瑞达期货涨停"
+      },
+      {
+        "name": "航运",
+        "detail": "招商南油、中远海能等涨停（霍尔木兹海峡通航恢复）"
+      },
+      {
+        "name": "有色金属",
+        "detail": "板块大幅走强"
+      },
+      {
+        "name": "半导体芯片",
+        "detail": "板块涨幅居前"
+      }
     ],
-    "bottom5": [
-      {"name": "专业连锁Ⅲ", "change_pct": -0.88},
-      {"name": "其他医疗服务", "change_pct": -1.04},
-      {"name": "股份制银行Ⅲ", "change_pct": -1.26},
-      {"name": "林业Ⅱ", "change_pct": -2.11},
-      {"name": "啤酒", "change_pct": -4.06}
+    "laggards": [
+      {
+        "name": "煤炭",
+        "detail": "大有能源连续两日跌停，兖矿能源、中国神华、中煤能源等跟跌"
+      },
+      {
+        "name": "养殖业",
+        "detail": "京基智农跌超8%，益客食品跌近5%"
+      }
     ]
   },
-  "northbound": {
-    "沪股通": {
-      "net_buy": 0,
-      "net_inflow": 0,
-      "status": "交易中",
-      "up_count": 934,
-      "down_count": 547
-    },
-    "深股通": {
-      "net_buy": 0,
-      "net_inflow": 0,
-      "status": "交易中",
-      "up_count": 1170,
-      "down_count": 512
-    }
+  "northbound_flow": {
+    "description": "大幅净流入（具体数据暂不可获取，AkShare EastMoney API被屏蔽）",
+    "note": "同花顺报道提及北向资金大幅净流入A股"
   },
-  "market_summary": {
-    "total_amount": 363000000000,
-    "up_count": 2104,
-    "down_count": 1059
-  }
+  "macro_events": [
+    "美伊达成停战谅解备忘录，6月19日签署协议，美国解除霍尔木兹海峡封锁",
+    "央行开展6000亿元6个月期买断式逆回购，等效0.5个百分点降准",
+    "日经225涨4.99%，韩国KOSPI涨5.2%，美股纳指100期货涨近2%"
+  ],
+  "data_source": "新浪财经实时行情 + 金十数据/同花顺收盘报道",
+  "akshare_note": "AkShare依赖的东方财富API（push2.eastmoney.com）从本服务器被屏蔽，使用新浪API替代"
 }

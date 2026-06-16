@@ -1,98 +1,43 @@
 {
-  "date": "2026-06-15",
-  "update_time": "15:05 CST",
+  "timestamp": "2026-06-16 15:05:00",
+  "date": "2026-06-16",
+  "session": "close",
+  "helloquant_status": {
+    "status": "stale",
+    "note": "HelloQuant daily_raw.json 最新数据为6月12日(上周五)，今日(6月16日)尚未运行采集",
+    "last_update": "2026-06-12T17:13:56.122702",
+    "data_age_days": 4
+  },
   "last_known_data": {
     "date": "2026-06-12",
-    "timestamp": "2026-06-12T17:13:56.122702",
-    "note": "HelloQuant daily_raw.json 上次更新为上周五(6月12日)收盘数据，周末未运行"
+    "timestamp": "2026-06-12T17:13:56.122702"
   },
-  "indices_last_known": {
-    "上证指数": {
-      "price": 4031.51,
-      "change_pct": 1.12,
-      "date": "2026-06-12"
-    },
-    "深证成指": {
-      "price": 14963.41,
-      "change_pct": 0.75,
-      "date": "2026-06-12"
-    },
-    "创业板指": {
-      "price": 3830.35,
-      "change_pct": 0.5,
-      "date": "2026-06-12"
-    }
+  "indices_6_12": {
+    "上证指数": { "price": 4031.51, "change_pct": 1.12 },
+    "深证成指": { "price": 14963.41, "change_pct": 0.75 },
+    "创业板指": { "price": 3830.35, "change_pct": 0.50 }
+  },
+  "today_indices_close": {
+    "上证指数": { "price": 4091.89, "change_pct": -0.11 },
+    "深证成指": { "price": 15675.25, "change_pct": 0.93 },
+    "创业板指": { "price": 4102.94, "change_pct": 1.72 },
+    "沪深300": { "price": 4884.23, "change_pct": -0.15 }
   },
   "futures_last_known": {
-    "沪金主力": {
-      "price": 911.62,
-      "change_pct": 1.86,
-      "date": "2026-06-12"
-    },
-    "沪银主力": {
-      "price": 15972.0,
-      "change_pct": 3.61,
-      "date": "2026-06-12"
-    },
-    "沪铜主力": {
-      "price": 104660.0,
-      "change_pct": 1.45,
-      "date": "2026-06-12"
-    },
-    "螺纹钢主力": {
-      "price": 3178.0,
-      "change_pct": 0.7,
-      "date": "2026-06-12"
-    },
-    "沪深300期货": {
-      "price": 4671.8,
-      "change_pct": 1.74,
-      "date": "2026-06-12"
-    },
-    "中证500期货": {
-      "price": 8117.2,
-      "change_pct": 1.58,
-      "date": "2026-06-12"
-    },
-    "50ETF波动率": {
-      "value": 17.79,
-      "date": "2026-06-11"
-    }
+    "沪金主力": { "price": 911.62, "change_pct": 1.86, "date": "2026-06-12" },
+    "沪银主力": { "price": 15972.0, "change_pct": 3.61, "date": "2026-06-12" },
+    "沪铜主力": { "price": 104660.0, "change_pct": 1.45, "date": "2026-06-12" },
+    "螺纹钢主力": { "price": 3178.0, "change_pct": 0.70, "date": "2026-06-12" },
+    "沪深300期货": { "price": 4671.8, "change_pct": 1.74, "date": "2026-06-12" },
+    "中证500期货": { "price": 8117.2, "change_pct": 1.58, "date": "2026-06-12" },
+    "50ETF波动率": { "value": 17.79, "date": "2026-06-11" }
   },
   "strategies": {
-    "status": "daily_raw.json中signals字段返回error",
-    "error_detail": "'<' not supported between instances of 'NoneType' and 'str'",
-    "note": "策略模块需排查，可能是input数据异常"
+    "status": "not_run_today",
+    "note": "HelloQuant策略模块需在采集运行后评估。上次运行(6/12) signals字段报错: '<' not supported between instances of 'NoneType' and 'str'",
+    "error_detail": "'<' not supported between instances of 'NoneType' and 'str'"
   },
   "sentiment": {
-    "crypto_fear_greed": {
-      "value": 12,
-      "classification": "极度恐惧",
-      "timestamp": "2026-06-12"
-    },
-    "note": "加密市场情绪极度恐惧(12/100)"
-  },
-  "stock_data_folders": {
-    "stock": "空文件夹（仅.gitkeep）",
-    "crypto": "空文件夹（仅.gitkeep）",
-    "futures": "空文件夹（仅.gitkeep）"
-  },
-  "reports_available": [
-    {
-      "name": "backtest_result.png",
-      "date": "2026-01-03"
-    },
-    {
-      "name": "optimization_heatmap.png",
-      "date": "2026-01-03"
-    },
-    {
-      "name": "optimization_results.csv",
-      "date": "2026-01-03"
-    },
-    {
-      "name": "supertrend_result.png",
-      "date": "2026-01-03"
-    }
-  ]
+    "crypto_fear_greed": { "value": 12, "classification": "极度恐惧", "date": "2026-06-12" }
+  }
 }

@@ -1,148 +1,56 @@
 {
-  "date": "2026-06-15",
-  "updatedAt": "2026-06-15 21:30 CST (13:30 UTC)",
-  "indices": {
-    "US": {
-      "date": "2026-06-15",
-      "S&P 500": {
-        "close": 7538.83,
-        "prevClose": 7431.46,
-        "change": "+1.44%",
-        "high": 7546.72,
-        "low": 7516.75,
-        "note": "Volumes 313M, energy slump vs AI rally"
-      },
-      "Dow Jones": {
-        "close": 51721.85,
-        "prevClose": 51202.26,
-        "change": "+1.01%",
-        "note": "SpaceX持续拉升，Fox收购Roku推动媒体股"
-      },
-      "Nasdaq": {
-        "close": 26483.72,
-        "prevClose": 25888.84,
-        "change": "+2.30%",
-        "note": "AI板块强势反弹，SpaceX二次交易日涨6%"
-      }
-    },
-    "Europe": {
-      "date": "2026-06-15",
-      "Euro STOXX 50": {
-        "close": 6252.92,
-        "prevClose": 6187.63,
-        "change": "+1.06%",
-        "note": "受伊朗和平协议推动，欧股普遍收涨"
-      },
-      "FTSE 100": {
-        "close": 10465.79,
-        "prevClose": 10471.72,
-        "change": "-0.06%",
-        "note": "微跌，能源股承压抵消其他板块涨幅"
-      }
-    },
-    "Asia": {
-      "date": "2026-06-15",
-      "Nikkei 225": {
-        "close": 69317.5,
-        "prevClose": 66020.04,
-        "change": "+4.99%",
-        "note": "暴涨5.0%，中东和平协议为日本能源安全扫清障碍"
-      },
-      "Hang Seng": {
-        "close": 24842.67,
-        "prevClose": 24718.1,
-        "change": "+0.50%",
-        "note": "跟随A股及美股期货走强，科技股普涨"
-      }
-    },
-    "China": {
-      "date": "2026-06-15",
-      "close": {
-        "上证指数": {
-          "close": 4096.47,
-          "change": "+1.61%"
-        },
-        "深证成指": {
-          "close": 15531.11,
-          "change": "+3.79%"
-        },
-        "创业板指": {
-          "close": 4033.53,
-          "change": "+5.30%"
-        },
-        "沪深300": {
-          "close": 4891.71,
-          "change": "+2.39%"
-        },
-        "科创50": {
-          "close": 1748.33,
-          "change": "+5.12%"
-        }
-      },
-      "note": "三大指数集体大涨，成交3.03万亿。美伊和平+央行6000亿逆回购双利好"
-    }
+  "updatedAt": "2026-06-16T09:15:00+08:00",
+  "overnight": {
+    "summary": "美伊达成停战协议，霍尔木兹海峡周五重开，全球市场大涨。道指创历史新高 +0.92%，纳指飙升 +3.07%，标普 +1.65%。原油暴跌近5%。SpaceX IPO次日再涨20%，市值破2万亿美元。",
+    "headlines": [
+      "美伊达成MOU停火协议，周五日内瓦正式签署",
+      "霍尔木兹海峡周五重开，特朗普宣布免费通行",
+      "道指创历史新高 +468点 (+0.92%)",
+      "纳指飙升 +3.07%，科技股领涨",
+      "SpaceX首周上市次日再涨20%至$192.50",
+      "原油暴跌近5%，因海峡重开预期",
+      "亚洲早盘：韩国Kospi +2.01%，日经 +0.18%，恒指期货报24799",
+      "深圳韩国防务股暴涨：韩华宇航 +10%，LIG防务 +28%"
+    ]
   },
-  "commodities": {
-    "WTI Crude": {
-      "price": 80.47,
-      "prevClose": 84.88,
-      "change": "-5.20%",
-      "note": "暴跌5.2%，伊朗和框架协议签署，霍尔木兹通行恢复预期打压油价至三个月低点"
-    },
-    "Brent Crude": {
-      "price": 83.08,
-      "prevClose": 87.33,
-      "change": "-4.87%",
-      "note": "同样暴跌，化肥船仍面临积压"
-    },
-    "Gold": {
-      "price": 4380.8,
-      "prevClose": 4238.8,
-      "change": "+3.35%",
-      "note": "大涨3.3%，避险+美元走弱双重推动，Barclays推荐黄金股"
-    },
-    "Silver": {
-      "price": 71.17,
-      "prevClose": 67.974,
-      "change": "+4.70%",
-      "note": "跟随黄金大涨4.7%"
-    }
-  },
-  "rates": {
-    "US 10Y Yield": {
-      "value": "4.453%",
-      "note": "小幅上行，市场消化制造业数据"
-    },
-    "DXY": {
-      "value": 99.474,
-      "prevClose": 99.747,
-      "change": "-0.27%",
-      "note": "美元指数继续走弱"
-    }
-  },
-  "crypto": {
+  "usMarket": {
     "date": "2026-06-15",
-    "Bitcoin": {
-      "price": 66510,
-      "24h_change": "+3.38%",
-      "note": "反弹至6K上方，分析师警告可能是死猫反弹"
-    },
-    "Ethereum": {
-      "price": 1811.31,
-      "24h_change": "+8.68%",
-      "note": "ETH大幅补涨，链上活动激增"
+    "dowJones": {"change": "+0.92%", "record": "历史新高", "points": "+468.77"},
+    "snp500": {"change": "+1.65%"},
+    "nasdaq": {"change": "+3.07%"},
+    "futuresAfterHours": "标普期货 -0.1%，纳指期货 -0.2%，道指期货 -30点"
+  },
+  "overnightEvents": {
+    "geopolitics": "美伊达成MOU停战协议，60天核谈判框架，霍尔木兹海峡周五开放",
+    "spacex": "SpaceX上市次日涨20%至$192.50，市值破$2万亿，盘中成交量2.44亿股",
+    "oil": "原油跌近5%，因霍尔木兹海峡重新开放预期",
+    "gold": "Comex黄金白银走低",
+    "rss_news": [
+      {"source": "Bloomberg", "title": "Asian Stock Rally Cools Ahead of Rate Decisions: Markets Wrap", "time": "周一晚"},
+      {"source": "Bloomberg", "title": "AllianzGI Trims Bullish Yuan Bet, Turns Neutral After Rally", "time": "周二早"},
+      {"source": "Bloomberg", "title": "SpaceX Surges for 2nd Day to Add $412 Billion in Value", "time": "周一"},
+      {"source": "Bloomberg", "title": "Oil Steadies as Traders Seek Clarity on Planned Hormuz Reopening", "time": "周一晚"}
+    ]
+  },
+  "asiaPreMarket": {
+    "date": "2026-06-16",
+    "nikkei225": "持平",
+    "kospi": "+2.01%",
+    "hangSengFutures": "24799（低于昨收24842.67）",
+    "southKoreaDefenseStocks": "韩华宇航+10%，现代Rotem +11%，LIG防务+28%"
+  },
+  "aSharePreMarket": {
+    "time": "09:15 CST",
+    "lastClose_previous": "2026-06-15",
+    "indices": {
+      "上证指数": "4090.23 (-0.15%)",
+      "沪深300": "4888.63 (-0.06%)",
+      "上证50": "2934.67 (-0.14%)",
+      "科创50": "1739.48 (-0.51%)"
     }
   },
-  "headlines": [
-    "🇺🇸 美国副总统万斯：伊朗协议的许多细节仍需敲定，但美国掌握所有牌",
-    "🛢️ 油价暴跌至三个月低点，美伊和平框架协议签署后市场预期伊朗石油恢复出口",
-    "🚀 Fox以220亿美元收购Roku，流媒体行业大整合",
-    "🚀 SpaceX第二交易日盘前再涨6%，Cathie Wood豪买5亿美元SpaceX股票",
-    "🏭 美国6月制造业产出年内首次停滞，Bloomberg数据",
-    "💰 Nuvei以27.5亿美元收购Payoneer，支付行业整合加速",
-    "🇯🇵 日经225暴涨5%创年内最大单日涨幅，中东和平利好能源安全",
-    "🇨🇳 中国央行6000亿买断式逆回购，A股创业板大涨5%领涨全球",
-    "🌾 化肥船在霍尔木兹即使通航后仍面临积压，Bloomberg报道",
-    "🪙 比特币反弹至6K，分析师警告可能是死猫反弹"
-  ]
+  "sectorTop": {
+    "gainers": ["钼 +6.03%", "玻纤 +5.87%", "钨 +5.80%", "稀土 +4.23%", "玻璃玻纤 +4.20%"],
+    "laggards": ["白银 -4.47%", "锂 -3.32%", "房地产服务 -2.80%", "影视动漫 -2.66%", "图片媒体 -3.73%"]
+  }
 }

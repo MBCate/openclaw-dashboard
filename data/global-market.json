@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-16T21:30:00+08:00",
-  "date": "2026-06-16",
-  "timeLabel": "晚间",
-  "summary": "美股盘初走高，伊朗和平协议+G7峰会+SpaceX狂飙提振情绪。恒指收跌1.40%，A股上证微涨0.06%。布油跌破80美元至3个月新低。BTC反弹至$66,880，ETH $1,815。",
+  "updatedAt": "2026-06-17T09:15:00+08:00",
+  "date": "2026-06-17",
+  "timeLabel": "早盘",
+  "summary": "美股收盘分化：道指再创纪录新高+0.67%至52,016，纳指跌1.15%芯片股拖累，标普跌0.55%至7,512。Warsh首次FOMC今日结果，市场预期不提交点阵图。日本5月出口同比+17%（三年最快），芯片出口飙升61.2%。SpaceX收涨4%市值$2.65万亿超越亚马逊。布油持续承压$80以下。BTC $66,880，ETH $1,815。A股今日关注美联储决议与隔夜美股科技回调。",
   "usMarket": {
     "date": "2026-06-16",
-    "session": "盘中",
-    "status": "美股盘中交易中（美东时间上午）",
-    "dowJones": "盘中涨超+1.2%（周五创历史新高后延续涨势）",
-    "snp500": "盘中涨约+1.3%",
-    "nasdaq": "盘中涨约+2.2%，AI板块领涨",
-    "notes": "周一(6/15)道指+468点(+0.92%)创历史新高。周二盘初受伊朗和平协议余温推动继续走高"
+    "session": "收盘",
+    "status": "美股收盘（美东时间16:00）",
+    "dowJones": "涨345.54点(+0.67%)收52,016.57——连续第二日历史新高",
+    "snp500": "跌0.55%收7,512.44（-0.57%）",
+    "nasdaq": "跌1.15%收26,376.34——AI芯片股领跌",
+    "notes": "道指受周期股与金融股推动再创新高；科技与芯片板块回调拖累纳指和标普。Warsh首次FOMC今日公布决议，市场预期利率不变且可能不提交点阵图。"
   },
   "aShare": {
     "date": "2026-06-16",
@@ -24,7 +24,7 @@
       "low": 4084.67,
       "volume": "8760亿元"
     },
-    "市场概况": "A股窄幅震荡，上证微涨。行业分化，商业航天概念逆势走强"
+    "市场概况": "A股窄幅震荡，上证微涨。行业分化，商业航天概念逆势走强。今日关注美联储决议对亚太市场影响。"
   },
   "hongKong": {
     "date": "2026-06-16",
@@ -39,60 +39,76 @@
       "change": -106.93,
       "changePercent": "-2.24%"
     },
-    "summary": "港股反弹两日后再度调整。科网股普跌(快手/百度/美团/B站跌超3%)，内房股承压(融创跌超7%)，铝业股走弱(中国宏桥跌超7%)。商业航天概念逆势走强(钧达+7%)。南向资金净买入34亿港元。"
+    "summary": "港股反弹两日后再度调整。科网股普跌(快手/百度/美团/B站跌超3%)，内房股承压(融创跌超7%)，铝业股走弱(中国宏桥跌超7%)。商业航天概念逆势走强(钧达+7%)。南向资金净买入34亿港元。关注隔夜美股科技回调对今日港股的传导。"
   },
   "crypto": {
-    "date": "2026-06-16",
-    "bitcoin": "$66,880.29",
-    "ethereum": "$1,815.55",
+    "date": "2026-06-17",
+    "bitcoin": "$66,880（隔夜窄幅震荡）",
+    "ethereum": "$1,815（持稳）",
     "marketCap": "$2.35万亿",
     "fearGreedIndex": 23,
-    "note": "加密市场小幅反弹+1.5%，DeFi +1.9%。恐惧贪婪指数23——极度恐惧"
+    "note": "加密市场隔夜波动有限，BTC在$66,000-67,000区间整理。恐惧贪婪指数23——极度恐惧。市场等待FOMC决议。"
   },
   "commodities": {
-    "brentCrude": "跌破$80/桶（3个月低点），伊朗和平协议导致霍尔木兹海峡重开预期压低油价",
-    "gold": "Comex黄金走低",
-    "oilDetail": "美伊MOU停火协议+霍尔木兹海峡周五重开，布油自3月以来首次跌破$80"
+    "brentCrude": "布油持续承压$80/桶以下，Citi下调Q3/Q4均价预测至$75/$70",
+    "gold": "Comex黄金小幅走低，美元走强压制",
+    "oilDetail": "美伊MOU+霍尔木兹海峡周五重开预期持续打压油价。Citi预计Q3 $75、Q4 $70。化肥运输可能滞后于原油。"
   },
   "geopolitics": {
-    "iranDeal": "美伊MOU停战协议达成，60天核谈判框架，霍尔木兹海峡周五开放",
-    "g7": "特朗普在G7法国峰会否认美国将向伊朗注资，与盟友讨论伊朗和乌克兰问题"
+    "iranDeal": "美伊MOU停战协议，60天核谈判框架，霍尔木兹海峡本周五正式开放。日内瓦签署仪式待定。",
+    "g7": "特朗普G7峰会否认美国将向伊朗注资，与盟国讨论伊朗与乌克兰。UBS称部分股票将从伊朗协议受益。"
+  },
+  "fedMeeting": {
+    "date": "2026-06-17",
+    "expectedDecision": "利率不变（维持4.25%-4.50%）",
+    "dotPlotExpected": "Warsh可能不提交点阵图——上任仅26天，市场预期废除或跳过",
+    "significance": "Warsh首次主持FOMC，市场密切观望其政策信号",
+    "marketImplications": "CNBC调查显示华尔街预期利率将长期不变"
   },
   "spacex": {
     "stock": "SPCX",
-    "priceAction": "盘中涨3%（后收窄至+5.4%），上市第三日持续走高",
-    "marketCap": "约$2.53万亿（逼近亚马逊$2.65万亿）",
-    "news": "SpaceX宣布以$600亿收购AI编程公司Cursor。马斯克称2030年收入可达$1万亿"
+    "priceAction": "收涨约4%市值$2.65万亿，盘中一度触及$2.94万亿超越微软",
+    "marketCap": "收盘约$2.65万亿（超越亚马逊$2.64万亿，盘中曾超微软$2.93万亿）",
+    "news": "SpaceX上市三日累涨约62%。Michael Burry称想做空但期权太贵。马斯克晋身全球首位万亿富翁。"
+  },
+  "japanTrade": {
+    "date": "2026-05",
+    "exportGrowth": "+17% YoY（三年最快增速），预期+16.2%",
+    "highlights": "芯片出口飙升+61.2%（AI需求驱动）、汽车出口+16.4%。对华出口+17.9%，对美+12.5%。中东出口因美伊战争骤降32%。"
   },
   "headlines": [
-    "SpaceX市值接近2.65万亿美元，盘中已超过亚马逊",
-    "布油跌破$80/桶至3个月新低，因伊朗和平协议+海峡重开",
-    "恒指收跌1.40%，恒生科技跌2.24%",
-    "上证微涨0.06%，A股市场震荡整理",
-    "BTC $66,880，ETH $1,815，恐惧指数23（极度恐惧）",
-    "G7峰会：特朗普会见盟友讨论伊朗协议与乌克兰局势",
-    "德国拒绝UniCredit 390亿欧元收购Commerzbank要约",
-    "前美联储理事称Warsh任内可能废除点阵图",
-    "Databricks CEO：AI已够聪明但缺上下文，需达AGI",
-    "Carvana进军新车市场，可能重塑美国汽车零售格局"
+    "美股收盘：道指再创历史新高52,016！标普跌0.55%，纳指跌1.15%芯片股拖累",
+    "SpaceX收涨4%市值$2.65万亿超越亚马逊，盘中一度超微软达$2.94万亿",
+    "Warsh首次FOMC今日公布——利率料不变，市场预期不提交点阵图",
+    "日本5月出口同比+17%（三年最快），芯片出口暴增61.2%",
+    "布油持续承压$80以下，Citi下调预测至Q3 $75、Q4 $70",
+    "Michael Burry称想做空SpaceX但期权太贵放弃",
+    "UBS：部分股票将从伊朗和平协议中受益",
+    "Carvana进军新车市场或重塑美国汽车零售格局",
+    "Intel推进亏损业务转型取得重大进展",
+    "美国生育率跌至历史新低"
   ],
   "watchlist": {
     "今日关注": [
-      "美伊停战协议后续——周五日内瓦正式签署",
-      "霍尔木兹海峡重开对油价的持续影响",
-      "SpaceX上市表现及AI收购Cursor交易",
-      "美股晚间收盘方向",
-      "明日A股开盘可能受港股调整影响"
+      "今日20:00（北京时间）FOMC利率决议——Warsh首秀",
+      "美联储点阵图是否发布——可能直接废除",
+      "隔夜美股科技板块回调对亚太市场的传导",
+      "A股开盘中信表现——商业航天/芯片/算力铜箔概念",
+      "霍尔木兹海峡周五正式重开——油价的持续反应",
+      "港股今日走势——恒指能否止跌",
+      "日元/日经反应——日本出口数据利好"
     ]
   },
   "rss_news": [
-    {"source": "CNBC", "title": "SpaceX set to pass Amazon by market cap in third day of trading as stock rises 3%", "time": "13:25 GMT"},
-    {"source": "CNBC", "title": "Brent oil dips below $80 per barrel for first time since March", "time": "13:03 GMT"},
-    {"source": "CNBC", "title": "Trump denies U.S. will put 'any money' into Iran, as he meets allies at G7 summit", "time": "13:18 GMT"},
-    {"source": "CNBC", "title": "Carvana is expanding into new vehicles, could reshape U.S. automotive retail", "time": "13:20 GMT"},
-    {"source": "Bloomberg", "title": "Germany rejects UniCredit's €39B Commerzbank offer on last day", "time": "06:59 GMT"},
-    {"source": "Bloomberg", "title": "Former Fed Governor Duke expects dot plot 'to go' under Warsh", "time": "12:54 GMT"},
-    {"source": "Bloomberg", "title": "Context needed to reach AGI, says Databricks CEO", "time": "13:04 GMT"},
-    {"source": "Bloomberg", "title": "SpaceX investors at US retail brokers got at least one IPO share", "time": "周一晚"}
+    {"source": "CNBC", "title": "Fed Chair Warsh expected to withhold 'dot' from central bank's interest rate outlook", "time": "Tue 19:12 GMT"},
+    {"source": "CNBC", "title": "Japan May exports grow at fastest pace in over three years, beating estimates, as chip demand soars", "time": "Wed 01:02 GMT"},
+    {"source": "CNBC", "title": "Michael Burry says he's tempted to bet against SpaceX, but passes on expensive options", "time": "Tue 20:55 GMT"},
+    {"source": "CNBC", "title": "These stocks should outperform as the Iran deal is finalized, says UBS", "time": "Tue 20:02 GMT"},
+    {"source": "CNBC", "title": "Carvana is expanding into new vehicles, could reshape U.S. automotive retail", "time": "Tue 15:51 GMT"},
+    {"source": "CNBC", "title": "SpaceX rises 4% to pass Amazon in market cap, closes below Microsoft", "time": "Tue 16:00 GMT ET"},
+    {"source": "MarketWatch", "title": "Oil may move through Strait of Hormuz first, leaving fertilizer supplies stranded", "time": "Wed 00:46 GMT"},
+    {"source": "MarketWatch", "title": "Intel takes major step toward turning around business that's bleeding cash", "time": "Tue 22:49 GMT"},
+    {"source": "Reuters", "title": "Japan exports beat forecast in May on strong chip demand", "time": "Wed 01:00 GMT"},
+    {"source": "AP", "title": "How major US stock indexes fared Tuesday 6/16/2026", "time": "Tue 21:30 GMT"}
   ]
 }

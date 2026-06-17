@@ -1,63 +1,48 @@
 {
-  "timestamp": "2026-06-17 11:35:00",
-  "session": "noon",
   "date": "2026-06-17",
+  "updated_at": "2026-06-17 15:16:36",
   "indices": {
     "上证指数": {
-      "price": 4084.54,
-      "change_pct": -0.18,
-      "change": -7.35,
-      "volume": 3744862,
-      "amount": 86848001000,
-      "en": "shanghai"
+      "code": "000001",
+      "price": "4108.08",
+      "change_pct": 0.4,
+      "change": 16.18
     },
     "深证成指": {
-      "price": 15735.60,
-      "change_pct": 0.39,
-      "change": 60.35,
-      "volume": 485664525,
-      "amount": 108041810000,
-      "en": "shenzhen"
+      "code": "399001",
+      "price": "15880.95",
+      "change_pct": 1.31,
+      "change": 205.71
     },
     "创业板指": {
-      "price": 4103.01,
-      "change_pct": 0.00,
-      "change": 0.07,
-      "volume": 25358492,
-      "amount": 22780879000,
-      "en": "chiNext"
+      "code": "399006",
+      "price": "4167.05",
+      "change_pct": 1.56,
+      "change": 64.11
     },
     "沪深300": {
-      "price": 4889.69,
-      "change_pct": 0.11,
-      "change": 5.46,
-      "volume": 1674328,
-      "amount": 51889640000,
-      "en": "hs300"
+      "code": "000300",
+      "price": "4931.39",
+      "change_pct": 0.97,
+      "change": 47.15
+    },
+    "科创50": {
+      "code": "000688",
+      "price": "1840.82",
+      "change_pct": 4.69,
+      "change": 82.4
     }
   },
+  "indices_summary": "科创50大涨4.69%领跑，创业板指涨1.56%，市场整体偏暖。",
   "sectors": {
-    "gainers": [
-      {"name": "存储芯片", "change_pct": null},
-      {"name": "CPO光模块", "change_pct": null},
-      {"name": "光纤", "change_pct": null},
-      {"name": "PCB", "change_pct": null},
-      {"name": "锂电池", "change_pct": null}
-    ],
-    "laggards": [
-      {"name": "银行", "change_pct": null},
-      {"name": "保险", "change_pct": null},
-      {"name": "白酒", "change_pct": null},
-      {"name": "航运港口", "change_pct": null},
-      {"name": "煤炭", "change_pct": null}
-    ]
+    "description": "数据来源东财行业板块（实时拉取失败，使用搜索摘要）",
+    "top_gainers": [],
+    "top_losers": [],
+    "key_sectors": {}
   },
-  "market_summary": {
-    "trend": "分化震荡",
-    "description": "沪指午盘微跌0.18%，深成指涨0.39%，创业板指平盘。AI科技主线延续活跃（存储芯片、CPO、光纤领涨），传统权重板块（银行、保险、白酒）回调拖累沪指。北向资金数据接口暂不可用。"
+  "northbound_flow": {
+    "description": "北向资金日度数据未获取到（API不可达）"
   },
-  "north_flow": {
-    "status": "unavailable",
-    "note": "北向资金数据接口当前受限，待恢复"
-  }
+  "market_summary": "三大指数全线上涨，科创50大涨4.69%表现亮眼，半导体等科技板块走强。",
+  "data_source": "sina_finance_api"
 }

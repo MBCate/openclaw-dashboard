@@ -1,114 +1,125 @@
 {
-  "updatedAt": "2026-06-17T09:15:00+08:00",
+  "updatedAt": "2026-06-17T21:33:01+08:00",
   "date": "2026-06-17",
-  "timeLabel": "早盘",
-  "summary": "美股收盘分化：道指再创纪录新高+0.67%至52,016，纳指跌1.15%芯片股拖累，标普跌0.55%至7,512。Warsh首次FOMC今日结果，市场预期不提交点阵图。日本5月出口同比+17%（三年最快），芯片出口飙升61.2%。SpaceX收涨4%市值$2.65万亿超越亚马逊。布油持续承压$80以下。BTC $66,880，ETH $1,815。A股今日关注美联储决议与隔夜美股科技回调。",
-  "usMarket": {
-    "date": "2026-06-16",
-    "session": "收盘",
-    "status": "美股收盘（美东时间16:00）",
-    "dowJones": "涨345.54点(+0.67%)收52,016.57——连续第二日历史新高",
-    "snp500": "跌0.55%收7,512.44（-0.57%）",
-    "nasdaq": "跌1.15%收26,376.34——AI芯片股领跌",
-    "notes": "道指受周期股与金融股推动再创新高；科技与芯片板块回调拖累纳指和标普。Warsh首次FOMC今日公布决议，市场预期利率不变且可能不提交点阵图。"
+  "timeLabel": "晚间国际",
+  "summary": "美股盘前小幅波动，FOMC利率决议今晚公布，Warsh首秀备受关注。标普500约7,520，道指52,001，纳指26,502(+0.48%)。港股恒指收盘24,312(-0.74%)。BTC $64,845(-1.81%)，ETH $1,755(-2.63%)。美联储新主席Kevin Warsh将主持首次FOMC会议，市场预期按兵不动但关注点阵图信号。",
+  "usMarkets": {
+    "sp500": {
+      "price": 7520.81,
+      "change": 0.0,
+      "changePercent": 0.0,
+      "note": "盘前交易中，FOMC前市场谨慎"
+    },
+    "nasdaq": {
+      "price": 26502.12,
+      "change": 125.78,
+      "changePercent": 0.48,
+      "note": "纳指期货小幅走高，科技股反弹"
+    },
+    "dowJones": {
+      "price": 52001.61,
+      "change": 1.94,
+      "changePercent": 0.0,
+      "note": "道指持平，盘中创历史新高后回落"
+    },
+    "spy": {
+      "price": 750.56,
+      "change": 0.23,
+      "changePercent": 0.03
+    },
+    "qqq": {
+      "price": 733.7,
+      "change": 3.84,
+      "changePercent": 0.53
+    }
   },
-  "aShare": {
-    "date": "2026-06-16",
-    "session": "收盘",
-    "上证指数": {
-      "close": 4098.85,
-      "change": "+2.38",
-      "changePercent": "+0.06%",
-      "open": 4094.21,
-      "high": 4103.93,
-      "low": 4084.67,
-      "volume": "8760亿元"
-    },
-    "市场概况": "A股窄幅震荡，上证微涨。行业分化，商业航天概念逆势走强。今日关注美联储决议对亚太市场影响。"
-  },
-  "hongKong": {
-    "date": "2026-06-16",
-    "session": "收盘",
-    "恒生指数": {
-      "close": 24493.95,
-      "change": -348.72,
-      "changePercent": "-1.40%"
-    },
-    "恒生科技指数": {
-      "close": 4658.65,
-      "change": -106.93,
-      "changePercent": "-2.24%"
-    },
-    "summary": "港股反弹两日后再度调整。科网股普跌(快手/百度/美团/B站跌超3%)，内房股承压(融创跌超7%)，铝业股走弱(中国宏桥跌超7%)。商业航天概念逆势走强(钧达+7%)。南向资金净买入34亿港元。关注隔夜美股科技回调对今日港股的传导。"
+  "hkMarkets": {
+    "hsi": {
+      "price": 24312.16,
+      "change": -181.79,
+      "changePercent": -0.74,
+      "note": "恒指收盘下跌，科技股拖累"
+    }
   },
   "crypto": {
-    "date": "2026-06-17",
-    "bitcoin": "$66,880（隔夜窄幅震荡）",
-    "ethereum": "$1,815（持稳）",
-    "marketCap": "$2.35万亿",
-    "fearGreedIndex": 23,
-    "note": "加密市场隔夜波动有限，BTC在$66,000-67,000区间整理。恐惧贪婪指数23——极度恐惧。市场等待FOMC决议。"
+    "bitcoin": {
+      "price": 64845,
+      "changePercent24h": -1.81,
+      "note": "BTC回落至$64K附近"
+    },
+    "ethereum": {
+      "price": 1754.62,
+      "changePercent24h": -2.63,
+      "note": "ETH承压，$1,750附近整理"
+    }
   },
-  "commodities": {
-    "brentCrude": "布油持续承压$80/桶以下，Citi下调Q3/Q4均价预测至$75/$70",
-    "gold": "Comex黄金小幅走低，美元走强压制",
-    "oilDetail": "美伊MOU+霍尔木兹海峡周五重开预期持续打压油价。Citi预计Q3 $75、Q4 $70。化肥运输可能滞后于原油。"
-  },
-  "geopolitics": {
-    "iranDeal": "美伊MOU停战协议，60天核谈判框架，霍尔木兹海峡本周五正式开放。日内瓦签署仪式待定。",
-    "g7": "特朗普G7峰会否认美国将向伊朗注资，与盟国讨论伊朗与乌克兰。UBS称部分股票将从伊朗协议受益。"
-  },
-  "fedMeeting": {
-    "date": "2026-06-17",
-    "expectedDecision": "利率不变（维持4.25%-4.50%）",
-    "dotPlotExpected": "Warsh可能不提交点阵图——上任仅26天，市场预期废除或跳过",
-    "significance": "Warsh首次主持FOMC，市场密切观望其政策信号",
-    "marketImplications": "CNBC调查显示华尔街预期利率将长期不变"
-  },
-  "spacex": {
-    "stock": "SPCX",
-    "priceAction": "收涨约4%市值$2.65万亿，盘中一度触及$2.94万亿超越微软",
-    "marketCap": "收盘约$2.65万亿（超越亚马逊$2.64万亿，盘中曾超微软$2.93万亿）",
-    "news": "SpaceX上市三日累涨约62%。Michael Burry称想做空但期权太贵。马斯克晋身全球首位万亿富翁。"
-  },
-  "japanTrade": {
-    "date": "2026-05",
-    "exportGrowth": "+17% YoY（三年最快增速），预期+16.2%",
-    "highlights": "芯片出口飙升+61.2%（AI需求驱动）、汽车出口+16.4%。对华出口+17.9%，对美+12.5%。中东出口因美伊战争骤降32%。"
-  },
-  "headlines": [
-    "美股收盘：道指再创历史新高52,016！标普跌0.55%，纳指跌1.15%芯片股拖累",
-    "SpaceX收涨4%市值$2.65万亿超越亚马逊，盘中一度超微软达$2.94万亿",
-    "Warsh首次FOMC今日公布——利率料不变，市场预期不提交点阵图",
-    "日本5月出口同比+17%（三年最快），芯片出口暴增61.2%",
-    "布油持续承压$80以下，Citi下调预测至Q3 $75、Q4 $70",
-    "Michael Burry称想做空SpaceX但期权太贵放弃",
-    "UBS：部分股票将从伊朗和平协议中受益",
-    "Carvana进军新车市场或重塑美国汽车零售格局",
-    "Intel推进亏损业务转型取得重大进展",
-    "美国生育率跌至历史新低"
+  "keyEvents": [
+    "📌 FOMC利率决议今夜公布 — Kevin Warsh首次担任美联储主席后的首场会议，市场预期维持利率不变，焦点在点阵图和经济预测",
+    "📌 中东局势 — Trump威胁称若伊朗协议不满意将恢复轰炸，地缘风险溢价回升",
+    "📌 IEA报告 — 中东和平协议可能带来明年石油供应过剩，油价面临下行压力",
+    "📌 债市展望 — 分析师预期将进入'债券之夏'，收益率波动加大",
+    "📌 新能源 — 电动车转型面临供应端挑战，行业整合加速"
   ],
-  "watchlist": {
-    "今日关注": [
-      "今日20:00（北京时间）FOMC利率决议——Warsh首秀",
-      "美联储点阵图是否发布——可能直接废除",
-      "隔夜美股科技板块回调对亚太市场的传导",
-      "A股开盘中信表现——商业航天/芯片/算力铜箔概念",
-      "霍尔木兹海峡周五正式重开——油价的持续反应",
-      "港股今日走势——恒指能否止跌",
-      "日元/日经反应——日本出口数据利好"
-    ]
-  },
-  "rss_news": [
-    {"source": "CNBC", "title": "Fed Chair Warsh expected to withhold 'dot' from central bank's interest rate outlook", "time": "Tue 19:12 GMT"},
-    {"source": "CNBC", "title": "Japan May exports grow at fastest pace in over three years, beating estimates, as chip demand soars", "time": "Wed 01:02 GMT"},
-    {"source": "CNBC", "title": "Michael Burry says he's tempted to bet against SpaceX, but passes on expensive options", "time": "Tue 20:55 GMT"},
-    {"source": "CNBC", "title": "These stocks should outperform as the Iran deal is finalized, says UBS", "time": "Tue 20:02 GMT"},
-    {"source": "CNBC", "title": "Carvana is expanding into new vehicles, could reshape U.S. automotive retail", "time": "Tue 15:51 GMT"},
-    {"source": "CNBC", "title": "SpaceX rises 4% to pass Amazon in market cap, closes below Microsoft", "time": "Tue 16:00 GMT ET"},
-    {"source": "MarketWatch", "title": "Oil may move through Strait of Hormuz first, leaving fertilizer supplies stranded", "time": "Wed 00:46 GMT"},
-    {"source": "MarketWatch", "title": "Intel takes major step toward turning around business that's bleeding cash", "time": "Tue 22:49 GMT"},
-    {"source": "Reuters", "title": "Japan exports beat forecast in May on strong chip demand", "time": "Wed 01:00 GMT"},
-    {"source": "AP", "title": "How major US stock indexes fared Tuesday 6/16/2026", "time": "Tue 21:30 GMT"}
+  "newsHeadlines": [
+    {
+      "source": "CNBC",
+      "title": "Fed meeting live: New Chairman Kevin Warsh squares off against a 'hawkish' committee",
+      "impact": "FOMC利率决议日，市场关注点阵图和Warsh首秀立场",
+      "url": "https://www.cnbc.com"
+    },
+    {
+      "source": "CNBC",
+      "title": "Trump says U.S. will 'go right back to dropping bombs' if he doesn't like Iran deal",
+      "impact": "中东地缘政治风险升高，油价波动加剧",
+      "url": "https://www.cnbc.com"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Stock market today: Nasdaq futures climb as Dow, S&P 500 stall ahead of Fed rate decision",
+      "impact": "美股盘前分化，纳指期货小幅上涨等待FOMC",
+      "url": "https://finance.yahoo.com"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Middle East peace deal could herald oil glut next year, says IEA",
+      "impact": "IEA预计中东和平协议将带来石油供应过剩",
+      "url": "https://www.ft.com"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "An oil bull's 'insane' bet: Why this veteran trader is buying energy stocks as crude prices tumble",
+      "impact": "油价回调但能源股获长期投资者看好",
+      "url": "https://www.marketwatch.com"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "We're Entering a 'Summer of the Bond Market,' Goncalves Says",
+      "impact": "债市夏季行情预期升温，收益率波动加大",
+      "url": "https://www.bloomberg.com"
+    },
+    {
+      "source": "FT Markets",
+      "title": "The electric vehicle transition gets heavy",
+      "impact": "电动车转型面临供应端挑战",
+      "url": "https://www.ft.com"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Coinbase Global Launches New A.I. Advisor",
+      "impact": "Coinbase推出AI顾问产品，加密行业AI化加速",
+      "url": "https://finance.yahoo.com"
+    },
+    {
+      "source": "CNBC",
+      "title": "Here are Wednesday's biggest analyst calls: Nvidia, Tesla, Netflix, Broadcom, Micron, Lyft, AMD, Figma & more",
+      "impact": "科技巨头获分析师集中覆盖",
+      "url": "https://www.cnbc.com"
+    }
+  ],
+  "focusPoints": [
+    "20:00 ET (08:00 CST) FOMC利率决议 & 经济预测",
+    "20:30 ET (08:30 CST) 鲍威尔(主席Warsh)新闻发布会",
+    "关注点阵图是否暗示2026年降息时间表",
+    "关注中东伊朗局势对油价的短期冲击"
   ]
 }

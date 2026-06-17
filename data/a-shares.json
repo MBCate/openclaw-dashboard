@@ -1,81 +1,63 @@
 {
-  "timestamp": "2026-06-16 15:05:00",
-  "session": "close",
-  "date": "2026-06-16",
+  "timestamp": "2026-06-17 11:35:00",
+  "session": "noon",
+  "date": "2026-06-17",
   "indices": {
     "上证指数": {
-      "price": 4091.89,
-      "change_pct": -0.11,
-      "change": -4.58,
-      "open": 4094.21,
-      "high": 4103.93,
-      "low": 4077.87,
-      "volume": 615668296,
-      "amount": 1369612989674,
+      "price": 4084.54,
+      "change_pct": -0.18,
+      "change": -7.35,
+      "volume": 3744862,
+      "amount": 86848001000,
       "en": "shanghai"
     },
     "深证成指": {
-      "price": 15675.25,
-      "change_pct": 0.93,
-      "change": 144.14,
-      "open": 15584.37,
-      "high": 15761.00,
-      "low": 15537.50,
-      "volume": 75482880215,
-      "amount": 1695082857789,
+      "price": 15735.60,
+      "change_pct": 0.39,
+      "change": 60.35,
+      "volume": 485664525,
+      "amount": 108041810000,
       "en": "shenzhen"
     },
     "创业板指": {
-      "price": 4102.94,
-      "change_pct": 1.72,
-      "change": 69.41,
-      "open": 4065.27,
-      "high": 4142.43,
-      "low": 4053.88,
-      "volume": 22590511467,
-      "amount": 829816569631,
+      "price": 4103.01,
+      "change_pct": 0.00,
+      "change": 0.07,
+      "volume": 25358492,
+      "amount": 22780879000,
       "en": "chiNext"
     },
     "沪深300": {
-      "price": 4884.23,
-      "change_pct": -0.15,
-      "change": -7.48,
-      "open": 4894.88,
-      "high": 4908.28,
-      "low": 4866.06,
-      "volume": 282584743,
-      "amount": 857202587478,
+      "price": 4889.69,
+      "change_pct": 0.11,
+      "change": 5.46,
+      "volume": 1674328,
+      "amount": 51889640000,
       "en": "hs300"
     }
   },
   "sectors": {
     "gainers": [
-      {"name": "铜箔", "change_pct": null},
-      {"name": "超级电容", "change_pct": null},
-      {"name": "PCB", "change_pct": null},
+      {"name": "存储芯片", "change_pct": null},
+      {"name": "CPO光模块", "change_pct": null},
       {"name": "光纤", "change_pct": null},
+      {"name": "PCB", "change_pct": null},
       {"name": "锂电池", "change_pct": null}
     ],
     "laggards": [
-      {"name": "航运港口", "change_pct": null},
+      {"name": "银行", "change_pct": null},
       {"name": "保险", "change_pct": null},
-      {"name": "汽车整车", "change_pct": null},
-      {"name": "煤炭", "change_pct": null},
-      {"name": "白酒", "change_pct": null}
+      {"name": "白酒", "change_pct": null},
+      {"name": "航运港口", "change_pct": null},
+      {"name": "煤炭", "change_pct": null}
     ]
   },
   "market_summary": {
-    "trend": "分化行情",
-    "description": "沪指全天窄幅震荡收跌0.11%，创业板指冲高回落仍涨1.72%。AI硬件股持续爆发（铜箔、超级电容、PCB、光纤），电池产业链拉升。航运、保险、汽车、煤炭板块回调。两市成交3.09万亿，2626只上涨，2468只下跌。"
+    "trend": "分化震荡",
+    "description": "沪指午盘微跌0.18%，深成指涨0.39%，创业板指平盘。AI科技主线延续活跃（存储芯片、CPO、光纤领涨），传统权重板块（银行、保险、白酒）回调拖累沪指。北向资金数据接口暂不可用。"
   },
   "north_flow": {
     "status": "unavailable",
-    "note": "北向资金数据接口当前受限，待修复"
-  },
-  "total_volume": 30906000000000,
-  "total_amount": 3069000000000,
-  "advancing": 2626,
-  "declining": 2468,
-  "limit_up": 137,
-  "limit_down": 11
+    "note": "北向资金数据接口当前受限，待恢复"
+  }
 }

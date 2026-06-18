@@ -1,154 +1,44 @@
 {
-  "updatedAt": "2026-06-18T09:15:00+08:00",
-  "date": "2026-06-18",
-  "timeLabel": "早盘预览",
-  "summary": "隔夜美股全线回调，标普500收7,420(-1.21%)，道指51,493(-0.98%)，纳指26,022(-1.34%)。FOMC鹰派信号+中东不确定性拖累。S&P期货反弹+0.51%报7,557。港股昨收24,494(-1.40%)。BTC $64,704(-1.39%)，ETH $1,760(-1.36%)。A股昨收上证4,108/深证15,881/创业板4,167，今日09:30开盘。10Y美债4.463%，VIX 18.44。",
-  "usMarkets": {
-    "sp500": {
-      "price": 7420.10,
-      "change": -91.25,
-      "changePercent": -1.21,
-      "note": "FOMC鹰派决议后大幅回调，从52w高7,621回落"
+  "updated": "2026-06-18T21:30:00+08:00",
+  "markets": {
+    "china": {
+      "上证指数": { "price": 4090.48, "change": -0.43 },
+      "深证成指": { "price": 16030.70, "change": 0.94 },
+      "创业板指": { "price": 4252.39, "change": 2.05 },
+      "沪深300": { "price": 4941.60, "change": 0.21 }
     },
-    "nasdaq": {
-      "price": 26021.66,
-      "change": -354.49,
-      "changePercent": -1.34,
-      "note": "科技股领跌，纳指回调压力显著"
+    "hongkong": {
+      "恒生指数": { "price": 23924.81, "change": -1.59 },
+      "国企指数": { "price": 7976.04, "change": -2.06 },
+      "恒生科技指数": { "price": 4604.35, "change": -1.39 }
     },
-    "dowJones": {
-      "price": 51492.55,
-      "change": -509.06,
-      "changePercent": -0.98,
-      "note": "道指尾盘加速下跌"
+    "us": {
+      "道琼斯": { "price": 51808.65, "change": 0.61 },
+      "标普500": { "price": 7481.69, "change": 0.83 },
+      "纳斯达克": { "price": 26277.78, "change": 0.98 }
     },
-    "spy": {
-      "price": 740.42,
-      "change": -9.06,
-      "changePercent": -1.21
-    },
-    "qqq": {
-      "price": 722.35,
-      "change": -9.83,
-      "changePercent": -1.34
-    },
-    "sp500Futures": {
-      "price": 7556.50,
-      "change": 38.00,
-      "changePercent": 0.51,
-      "note": "期货盘前反弹，收复部分失地"
-    },
-    "vix": {
-      "price": 18.44,
-      "note": "恐慌指数上升，市场情绪偏谨慎"
-    },
-    "tenYearYield": {
-      "price": 4.463,
-      "note": "10Y美债收益率走高至4.463%"
+    "crypto": {
+      "BTC": { "price": 63983, "change_24h": -1.93 },
+      "ETH": { "price": 1737.79, "change_24h": -1.50 }
     }
   },
-  "cnMarkets": {
-    "shanghai": {
-      "price": 4108.08,
-      "change": 0,
-      "changePercent": 0,
-      "note": "昨收4,108，今日09:30开盘关注低开可能"
-    },
-    "shenzhen": {
-      "price": 15880.95,
-      "change": 0,
-      "changePercent": 0,
-      "note": "深成指昨收15,881"
-    },
-    "chiNext": {
-      "price": 4167.05,
-      "change": 0,
-      "changePercent": 0,
-      "note": "创业板昨收4,167"
-    },
-    "csi300": {
-      "price": 4931.39,
-      "change": 0,
-      "changePercent": 0,
-      "note": "沪深300昨收4,931"
-    }
+  "news": {
+    "cnbc": [
+      "Trump hits back at critics as Iran peace deal fuels debate over U.S. concessions",
+      "Intel surges 9% after Trump says company will partner with Apple on U.S. chip design",
+      "SpaceX first week on Nasdaq: 5 wild stats",
+      "Stock futures rise as Wall Street tries to rebound from Fed-led sell-off"
+    ],
+    "bloomberg": [
+      "Stocks Rise, Oil Slides After Trump Inks Iran Deal: Markets Wrap",
+      "SpaceX Demand Is 'Off the Charts,' Says Schwab CEO",
+      "Anthropic Ban Forces Investor Rethink of Political Risk"
+    ]
   },
-  "hkMarkets": {
-    "hsi": {
-      "price": 24493.95,
-      "change": -347.31,
-      "changePercent": -1.40,
-      "note": "恒指昨日收跌1.40%至24,494"
-    }
-  },
-  "crypto": {
-    "bitcoin": {
-      "price": 64704,
-      "changePercent24h": -1.39,
-      "note": "BTC $64,704，隔夜小幅回落"
-    },
-    "ethereum": {
-      "price": 1760.30,
-      "changePercent24h": -1.36,
-      "note": "ETH $1,760，跟随大盘走弱"
-    }
-  },
-  "keyEvents": [
-    "📌 FOMC鹰派结果 — Kevin Warsh首秀维持利率不变，点阵图暗示2026年仅降息一次，市场大幅回调",
-    "📌 中东局势 — Trump威胁若伊朗协议不满意将恢复轰炸，地缘风险溢价回升支持油价",
-    "📌 IEA报告 — 中东和平协议可能带来明年石油供应过剩，油价面临下行压力",
-    "📌 美债收益率 — 10Y收益率升至4.463%，'债券之夏'预期下波动加大",
-    "📌 美股全线回调 — S&P 500从52周高点回落121点(-1.6%)，VIX升至18.44",
-    "📌 A股今日关注 — 隔夜外围大跌，A股是否跟跌低开考验支撑"
-  ],
-  "newsHeadlines": [
-    {
-      "source": "CNBC",
-      "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
-      "impact": "FOMC维持利率不变，点阵图偏鹰，年内仅一次降息预期",
-      "url": "https://www.cnbc.com"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "US Futures Climb as Iran Deal Offsets Hawkish Fed",
-      "impact": "中东局势缓解部分抵消美联储鹰派影响，期货小幅反弹",
-      "url": "https://www.bloomberg.com"
-    },
-    {
-      "source": "CNBC",
-      "title": "Trump says U.S. will 'go right back to dropping bombs' if he doesn't like Iran deal",
-      "impact": "中东地缘政治风险升高，油价波动加剧",
-      "url": "https://www.cnbc.com"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "The Fed is 'way above where it should be' on rates, says hedge-fund star Ackman",
-      "impact": "Bill Ackman批评美联储利率过高，呼吁更大幅度降息",
-      "url": "https://www.marketwatch.com"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Middle East peace deal could herald oil glut next year, says IEA",
-      "impact": "IEA预计中东和平协议将带来石油供应过剩",
-      "url": "https://www.ft.com"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "We're Entering a 'Summer of the Bond Market,' Goncalves Says",
-      "impact": "债市夏季行情预期升温，收益率波动加大至4.46%",
-      "url": "https://www.bloomberg.com"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "S&P 500 sinks 1.2% as hawkish Fed outlook rattles Wall Street",
-      "impact": "标普500收跌1.21%，投资者消化鹰派信号",
-      "url": "https://finance.yahoo.com"
-    }
-  ],
-  "focusPoints": [
-    "09:30 A股开盘 — 关注外围大跌是否传导至A股，上证4,100支撑测试",
-    "20:30 美国初请失业金数据",
-    "美债收益率走势 — 10Y 4.46%若继续上行将压制成长股",
-    "中东伊朗谈判进展 — 未来48小时关键窗口"
-  ]
+  "summary": {
+    "us_market": "美股周四反弹，三大指数全线走高。道指+0.61%，标普+0.83%，纳指+0.98%。市场从周二美联储利率决议引发的抛售中反弹。Trump签署伊朗和平协议推动油价下跌，Intel受Apple芯片合作消息大涨9%",
+    "china_market": "A股分化，上证微跌0.43%报4090，创业板强势上涨2.05%。深成指+0.94%，沪深300+0.21%。科技成长板块表现强劲",
+    "hk_market": "港股全线下跌，恒指-1.59%，国企指数-2.06%，恒生科技-1.39%。跟随隔夜美股弱势及美联储鹰派信号",
+    "crypto": "加密市场承压，BTC $63,983 (-1.93%)，ETH $1,737.79 (-1.50%)。市场情绪偏恐惧，Fed鹰派表态压制风险偏好"
+  }
 }

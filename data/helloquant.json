@@ -1,64 +1,87 @@
 {
-  "date": "2026-06-12",
-  "updated_at": "2026-06-12T17:13:56.122702",
-  "is_latest": false,
-  "note": "数据为6月12日采集，今日收盘数据已启动新采集流程",
+  "date": "2026-06-18",
+  "time": "15:47",
+  "timestamp": "2026-06-18T15:47:33.400831",
+  "crypto": {
+    "status": "error",
+    "error": "okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT",
+    "btc_price": null,
+    "eth_price": null
+  },
   "stocks": {
-    "上证指数": {
-      "price": 4031.5129,
-      "change": 1.116,
-      "volume": 743131092.0
+    "status": "success",
+    "indices": {
+      "上证指数": {
+        "price": 4090.48,
+        "change_pct": -0.43
+      },
+      "深证成指": {
+        "price": 16030.7,
+        "change_pct": 0.94
+      },
+      "创业板指": {
+        "price": 4252.39,
+        "change_pct": 2.05
+      },
+      "沪深300": {
+        "price": 4941.6,
+        "change_pct": 0.21
+      }
     },
-    "深证成指": {
-      "price": 14963.407,
-      "change": 0.75
-    },
-    "创业板指": {
-      "price": 3830.353,
-      "change": 0.501
-    },
-    "沪金主力": {
-      "price": 911.62,
-      "change": 1.86,
-      "date": "2026-06-12"
-    },
-    "沪银主力": {
-      "price": 15972.0,
-      "change": 3.61,
-      "date": "2026-06-12"
-    },
-    "沪铜主力": {
-      "price": 104660.0,
-      "change": 1.45,
-      "date": "2026-06-12"
-    },
-    "螺纹钢主力": {
-      "price": 3178.0,
-      "change": 0.7,
-      "date": "2026-06-12"
-    },
-    "沪深300期货": {
-      "price": 4671.8,
-      "change": 1.74,
-      "date": "2026-06-12"
-    },
-    "中证500期货": {
-      "price": 8117.2,
-      "change": 1.58,
-      "date": "2026-06-12"
-    },
-    "50ETF波动率": {
-      "value": 17.79,
-      "date": "2026-06-11"
+    "futures": {
+      "沪金主力": 942.94,
+      "沪银主力": 16865.0,
+      "螺纹钢主力": 3155.0
     }
   },
-  "sentiment": {
-    "crypto_fear_greed": {
-      "value": 12,
-      "classification": "Extreme Fear",
-      "timestamp": "1781222400"
+  "strategies": {
+    "DoubleMa": {
+      "status": "pending",
+      "signal": null,
+      "position": 0
+    },
+    "TripleMa": {
+      "status": "pending",
+      "signal": null,
+      "position": 0
+    },
+    "Supertrend": {
+      "status": "pending",
+      "signal": null,
+      "position": 0
+    },
+    "RSI": {
+      "status": "pending",
+      "signal": null,
+      "position": 0
+    },
+    "MACD": {
+      "status": "pending",
+      "signal": null,
+      "position": 0
+    },
+    "Bollinger": {
+      "status": "pending",
+      "signal": null,
+      "position": 0
+    },
+    "Momentum": {
+      "status": "pending",
+      "signal": null,
+      "position": 0
+    },
+    "MeanReversion": {
+      "status": "pending",
+      "signal": null,
+      "position": 0
     }
   },
-  "signals_error": "策略信号生成失败",
-  "a_shares_today_updated": true
+  "market_sentiment": {
+    "status": "error",
+    "error": "HTTPSConnectionPool(host='api.alternative.me', port=443): Max retries exceeded with url: /fng/?limit=1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))"
+  },
+  "news": {
+    "status": "success",
+    "data": []
+  }
 }

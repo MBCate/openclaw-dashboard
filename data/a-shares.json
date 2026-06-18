@@ -1,48 +1,113 @@
 {
-  "date": "2026-06-17",
-  "updated_at": "2026-06-17 15:16:36",
+  "timestamp": "2026-06-18 11:35 CST",
+  "date": "2026-06-18",
   "indices": {
     "上证指数": {
-      "code": "000001",
-      "price": "4108.08",
-      "change_pct": 0.4,
-      "change": 16.18
+      "price": 4092.764,
+      "change": -15.3122,
+      "change_pct": -0.37,
+      "volume": "4285440",
+      "amount": "100378039"
     },
     "深证成指": {
-      "code": "399001",
-      "price": "15880.95",
-      "change_pct": 1.31,
-      "change": 205.71
+      "price": 15970.86,
+      "change": 89.908,
+      "change_pct": 0.57,
+      "volume": "504218159",
+      "amount": "113272465"
     },
     "创业板指": {
-      "code": "399006",
-      "price": "4167.05",
-      "change_pct": 1.56,
-      "change": 64.11
+      "price": 4224.96,
+      "change": 57.909,
+      "change_pct": 1.39,
+      "volume": "28917287",
+      "amount": "25771346"
     },
     "沪深300": {
-      "code": "000300",
-      "price": "4931.39",
-      "change_pct": 0.97,
-      "change": 47.15
+      "price": 4937.527,
+      "change": 6.1409,
+      "change_pct": 0.12,
+      "volume": "2180101",
+      "amount": "64581939"
+    },
+    "上证50": {
+      "price": 2936.1111,
+      "change": 1.6451,
+      "change_pct": 0.06,
+      "volume": "447168",
+      "amount": "18596379"
     },
     "科创50": {
-      "code": "000688",
-      "price": "1840.82",
-      "change_pct": 4.69,
-      "change": 82.4
+      "price": 1907.1093,
+      "change": 66.2882,
+      "change_pct": 3.6,
+      "volume": "110542",
+      "amount": "13520709"
     }
   },
-  "indices_summary": "科创50大涨4.69%领跑，创业板指涨1.56%，市场整体偏暖。",
-  "sectors": {
-    "description": "数据来源东财行业板块（实时拉取失败，使用搜索摘要）",
-    "top_gainers": [],
-    "top_losers": [],
-    "key_sectors": {}
+  "market_overview": {
+    "up": null,
+    "down": null,
+    "flat": null,
+    "total": null,
+    "note": "涨跌家数获取受限(AkShare eastmoney push blocked)"
   },
-  "northbound_flow": {
-    "description": "北向资金日度数据未获取到（API不可达）"
-  },
-  "market_summary": "三大指数全线上涨，科创50大涨4.69%表现亮眼，半导体等科技板块走强。",
-  "data_source": "sina_finance_api"
+  "top_boards": [
+    {
+      "name": "非金属材料",
+      "pct": 3.65
+    },
+    {
+      "name": "医疗服务",
+      "pct": 2.62
+    },
+    {
+      "name": "生物制品",
+      "pct": 2.36
+    },
+    {
+      "name": "半导体",
+      "pct": 1.8
+    },
+    {
+      "name": "金属新材料",
+      "pct": 1.58
+    },
+    {
+      "name": "自动化设备",
+      "pct": 1.41
+    },
+    {
+      "name": "化学制药",
+      "pct": 1.34
+    },
+    {
+      "name": "元件",
+      "pct": 1.24
+    }
+  ],
+  "bottom_boards": [
+    {
+      "name": "包装印刷",
+      "pct": -0.71
+    },
+    {
+      "name": "种植业与林业",
+      "pct": -0.74
+    },
+    {
+      "name": "旅游及酒店",
+      "pct": -0.74
+    },
+    {
+      "name": "油气开采及服务",
+      "pct": -0.76
+    },
+    {
+      "name": "影视院线",
+      "pct": -0.77
+    }
+  ],
+  "north_flow": "北向资金净流入约42.6亿元 (来源:雪球)",
+  "source_note": "指数:Sina 板块:10jqka 北向:雪球"
 }

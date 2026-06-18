@@ -1,662 +1,189 @@
 {
-  "updated": "2026-06-16",
-  "source": "arXiv daily scan 2026-06-16",
-  "total": 26,
-  "new_count": 24,
-  "known_count": 2,
-  "entries": [
+  "date": "2026-06-18",
+  "papers": [
     {
-      "id": "2606.14409",
-      "title": "Hy-Embodied-0.5-VLA: From Vision-Language-Action Models to a Real-World Robot Learning Stack",
-      "authors": "He Zhang, Lingzhu Xiang, et al.",
-      "published": "2026-06-12",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "relevance": 4,
-      "tags": [
-        "VLA",
-        "robot-manipulation"
-      ],
-      "abstract": "End-to-end system spanning full robot learning stack: data collection, model design, continued pre-training and supervised fine-tuning.",
-      "keywords": [
-        "VLA",
-        "embodied"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.14409"
-    },
-    {
-      "id": "2606.14255",
-      "title": "ReactVLA: Fast and Lightweight Reactive Robot Manipulation via Improved Mean Flow Action Generation",
-      "authors": "Yanzhao Guo, Wenkai Chen, Jianwei Zhang",
-      "published": "2026-06-12",
-      "categories": [
-        "cs.RO"
-      ],
-      "relevance": 3,
-      "tags": [
-        "VLA",
-        "diffusion",
-        "reactive"
-      ],
-      "abstract": "Diffusion-based VLA policies with improved mean flow action generation for fast robot manipulation.",
-      "keywords": [
-        "VLA",
-        "diffusion"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.14255"
-    },
-    {
-      "id": "2606.14238",
-      "title": "When and How Severely: Scenario-Specific Safety Envelopes for Driving VLAs",
-      "authors": "Abhinaw Priyadershi, Jelena Frtunikj",
-      "published": "2026-06-12",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
+      "arxiv_id": "2606.18250",
+      "title": "Future Dynamic 3D Reconstruction: A 3D World Model with Disentangled Ego-Motion",
+      "authors": "Nils Morbitzer, Jonathan Evers, Artem Savkin, Thomas Stauner, Nassir Navab",
+      "published": "2026-06-16",
       "relevance": 5,
-      "tags": [
-        "VLA",
-        "driving",
-        "safety"
+      "reasoning": "世界模型，自动驾驶动力学环境预测，解耦自车运动与场景动态的3D潜在表示",
+      "summary": "Proposes FR3D, a world model that predicts a persistent 3D latent representation for future dynamic 3D reconstruction. Uses disentangled ego-motion and environmental dynamics.",
+      "categories": [
+        "cs.CV"
       ],
-      "abstract": "Safety certification of Vision-Language-Action driving planners under ISO 21448 (SOTIF). Proposes scenario-specific safety envelopes addressing when and how severely driving VLAs can deviate.",
-      "keywords": [
-        "VLA",
-        "driving",
-        "safety",
-        "SOTIF"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.14238"
+      "new_discovery": true,
+      "kb_status": "新发现"
     },
     {
-      "id": "2606.14010",
-      "title": "RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation",
-      "authors": "Xiangyu Huang, Zhenlin Hua, et al.",
-      "published": "2026-06-12",
-      "categories": [
-        "cs.CV",
-        "cs.LG",
-        "cs.RO"
-      ],
+      "arxiv_id": "2606.18242",
+      "title": "EventDrive: Event Cameras for Vision-Language Driving Intelligence",
+      "authors": "Dongyue Lu, Rong Li, Ao Liang, Lingdong Kong, Wei Yin",
+      "published": "2026-06-16",
       "relevance": 5,
-      "tags": [
-        "VLA",
-        "driving",
-        "real-time",
-        "distillation"
-      ],
-      "abstract": "VLA models for end-to-end autonomous driving with knowledge distillation for real-time inference. Jointly models perception, language reasoning, explainability and action prediction.",
-      "keywords": [
-        "VLA",
-        "autonomous driving",
-        "real-time",
-        "distillation"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.14010"
-    },
-    {
-      "id": "2606.14084",
-      "title": "Self-Improving VLA Policies: Selected Diffusion Noise for Spurious-Robust Action Smoothing",
-      "authors": "Duc Minh Nguyen, Bao-Ngoc Dao, et al.",
-      "published": "2026-06-12",
-      "categories": [
-        "cs.RO"
-      ],
-      "relevance": 3,
-      "tags": [
-        "VLA",
-        "diffusion",
-        "robustness"
-      ],
-      "abstract": "Diffusion-based VLA policies with self-improving robustness against spurious visual correlations.",
-      "keywords": [
-        "VLA",
-        "diffusion",
-        "self-improving"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.14084"
-    },
-    {
-      "id": "2606.14153",
-      "title": "Encoder Winners Do Not Reliably Transfer Across VLA Backbone Scale",
-      "authors": "Qingping Zeng, Fei She",
-      "published": "2026-06-12",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "relevance": 3,
-      "tags": [
-        "VLA",
-        "encoder",
-        "scaling"
-      ],
-      "abstract": "Shows that encoder choice validated on small VLA model does not necessarily transfer to larger backbone scales.",
-      "keywords": [
-        "VLA",
-        "encoder",
-        "transfer"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.14153"
-    },
-    {
-      "id": "2606.13886",
-      "title": "PhysVLA: Towards Physically-Grounded VLA for Embodied Robotic Manipulation",
-      "authors": "Namai Chandra, Shriram Damodaran, Lin Wang",
-      "published": "2026-06-11",
-      "categories": [
-        "cs.RO",
-        "cs.CV",
-        "cs.LG"
-      ],
-      "relevance": 3,
-      "tags": [
-        "VLA",
-        "physics",
-        "manipulation"
-      ],
-      "abstract": "VLA models with physical grounding for robotic manipulation, addressing behavioral cloning limitations.",
-      "keywords": [
-        "VLA",
-        "physics"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.13886"
-    },
-    {
-      "id": "2606.14574",
-      "title": "SIMMER: Benchmarking Latent Failures in LLM Executable Planning with a World Model",
-      "authors": "Xiaoxin Lu, Ranran Haoran Zhang, Rui Zhang",
-      "published": "2026-06-12",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "relevance": 3,
-      "tags": [
-        "world-model",
-        "planning",
-        "LLM"
-      ],
-      "abstract": "Benchmark for evaluating latent failures in LLM-based planning using world models.",
-      "keywords": [
-        "world-model",
-        "planning",
-        "benchmark"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.14574"
-    },
-    {
-      "id": "2606.14058",
-      "title": "ReactSim-Bench: Benchmarking Reactive Behavior World Model Simulation in Autonomous Driving",
-      "authors": "Zhiyuan Zhang, Yanlun Peng, et al.",
-      "published": "2026-06-12",
-      "categories": [
-        "cs.RO"
-      ],
-      "relevance": 5,
-      "tags": [
-        "world-model",
-        "driving",
-        "benchmark",
-        "reactive"
-      ],
-      "abstract": "Benchmark for reactive behavior world model simulators in autonomous driving systems. Evaluates how simulated world agents respond feasibly to autonomous vehicle actions.",
-      "keywords": [
-        "world-model",
-        "driving",
-        "reactive",
-        "simulation"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.14058"
-    },
-    {
-      "id": "2606.13840",
-      "title": "Multi-Agent Embodied Autonomous Driving: From V2X Information Exchange to Shared World Models",
-      "authors": "Senkang Hu, Zhengru Fang, et al.",
-      "published": "2026-06-11",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "relevance": 4,
-      "tags": [
-        "world-model",
-        "V2X",
-        "multi-agent",
-        "survey"
-      ],
-      "abstract": "Survey on multi-agent embodied autonomous driving with shared perception, intent inference, and coordination through V2X and shared world models.",
-      "keywords": [
-        "world-model",
-        "V2X",
-        "survey",
-        "multi-agent"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.13840"
-    },
-    {
-      "id": "2606.12783",
-      "title": "A Tutorial on World Models and Physical AI",
-      "authors": "Il-Seok Oh",
-      "published": "2026-06-11",
-      "categories": [
-        "cs.AI"
-      ],
-      "relevance": 3,
-      "tags": [
-        "world-model",
-        "tutorial"
-      ],
-      "abstract": "Tutorial on world models as central principle for building intelligent systems capable of prediction, reasoning, and decision making.",
-      "keywords": [
-        "world-model",
-        "tutorial",
-        "survey"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.12783"
-    },
-    {
-      "id": "2606.12365",
-      "title": "Ambient Diffusion Policy: Imitation Learning from Suboptimal Data in Robotics",
-      "authors": "Adam Wei, Nicholas Pfaff, et al.",
-      "published": "2026-06-10",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "relevance": 3,
-      "tags": [
-        "diffusion",
-        "imitation-learning",
-        "suboptimal"
-      ],
-      "abstract": "Diffusion policy for imitation learning from suboptimal robot demonstration data.",
-      "keywords": [
-        "diffusion",
-        "imitation-learning"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.12365"
-    },
-    {
-      "id": "2606.10825",
-      "title": "MODIP: Efficient Model-Based Optimization for Diffusion Policies",
-      "authors": "Zakariae El Asri, et al.",
-      "published": "2026-06-09",
-      "categories": [
-        "cs.LG"
-      ],
-      "relevance": 3,
-      "tags": [
-        "diffusion",
-        "model-based",
-        "optimization"
-      ],
-      "abstract": "Model-based optimization framework for diffusion policies in robot learning.",
-      "keywords": [
-        "diffusion",
-        "optimization",
-        "model-based"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.10825"
-    },
-    {
-      "id": "2606.08775",
-      "title": "Unifying Object-Centric World Models and Diffusion Policy: A Hierarchical Framework for Multi-Stage Robotic Tasks",
-      "authors": "Raktim Gautam Goswami, et al.",
-      "published": "2026-06-07",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "relevance": 4,
-      "tags": [
-        "diffusion",
-        "world-model",
-        "hierarchical",
-        "MPC"
-      ],
-      "abstract": "Hierarchical framework unifying object-centric world models and diffusion policy within MPC for multi-stage robotic tasks.",
-      "keywords": [
-        "diffusion",
-        "world-model",
-        "hierarchical"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.08775"
-    },
-    {
-      "id": "2606.08657",
-      "title": "Latent Diffusion Policy: Shaping Latent Spaces for Diffusion-Based Robotic Manipulation",
-      "authors": "Zhexuan Zhou, et al.",
-      "published": "2026-06-07",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "relevance": 3,
-      "tags": [
-        "diffusion",
-        "latent",
-        "manipulation"
-      ],
-      "abstract": "Latent space diffusion policy that separates scene comprehension from trajectory generation.",
-      "keywords": [
-        "diffusion",
-        "latent",
-        "VLA"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.08657"
-    },
-    {
-      "id": "2606.08414",
-      "title": "PACT: Self-Evolving Physical Safety Alignment for Diffusion Policies in Embodied Manipulation",
-      "authors": "Lingxuan Wu, et al.",
-      "published": "2026-06-07",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "relevance": 3,
-      "tags": [
-        "diffusion",
-        "safety",
-        "manipulation"
-      ],
-      "abstract": "Safety alignment for diffusion policies ensuring physical constraint satisfaction.",
-      "keywords": [
-        "diffusion",
-        "safety",
-        "alignment"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.08414"
-    },
-    {
-      "id": "2606.11573",
-      "title": "Understanding Cross-Sensor Feature Variations for Generalizable 3D Perception",
-      "authors": "Xin Qiu, Wenjie Liu, et al.",
-      "published": "2026-06-10",
+      "reasoning": "事件相机+视觉语言模型用于自动驾驶，在模糊/眩光/快速运动下增强感知，驱动物流入口",
+      "summary": "Event camera-based vision-language model for autonomous driving. Combines event data with RGB for improved perception under blur, glare, and rapid motion.",
       "categories": [
         "cs.CV"
       ],
-      "relevance": 3,
-      "tags": [
-        "BEV",
-        "radar-camera",
-        "generalization"
-      ],
-      "abstract": "Analysis of cross-sensor feature variations for radar-camera BEV perception across datasets.",
-      "keywords": [
-        "BEV",
-        "radar",
-        "sensor-fusion"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.11573"
+      "new_discovery": true,
+      "kb_status": "新发现"
     },
     {
-      "id": "2606.11507",
-      "title": "SceneMiner: Identity-Preserving Multi-Task Fine-Tuning for Unified BEV Scene Mining",
-      "authors": "Abdalmalek Aburaddaha, et al.",
-      "published": "2026-06-09",
-      "categories": [
-        "cs.CV"
-      ],
-      "relevance": 3,
-      "tags": [
-        "BEV",
-        "scene-mining",
-        "safety"
-      ],
-      "abstract": "Mining hard safety-critical scenes from driving logs using unified BEV representation.",
-      "keywords": [
-        "BEV",
-        "safety",
-        "scene-mining"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.11507"
-    },
-    {
-      "id": "2606.09273",
-      "title": "EditSSC: Toward Editable Semantic Occupancy Scenes with Unconditional Diffusion Models",
-      "authors": "Fatima Balde, Raoul de Charette, Alexandre Boulch",
-      "published": "2026-06-08",
-      "categories": [
-        "cs.CV"
-      ],
-      "relevance": 3,
-      "tags": [
-        "BEV",
-        "occupancy",
-        "diffusion",
-        "scene-generation"
-      ],
-      "abstract": "Editable 3D semantic scene generation for autonomous driving using unconditional diffusion models.",
-      "keywords": [
-        "occupancy",
-        "diffusion",
-        "scene-generation"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.09273"
-    },
-    {
-      "id": "2606.08680",
-      "title": "Distortion-Aware PETR for BEV Object Detection with Mixed Pinhole-Fisheye Cameras",
-      "authors": "Xiangzhong Liu",
-      "published": "2026-06-07",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "relevance": 3,
-      "tags": [
-        "BEV",
-        "detection",
-        "fisheye"
-      ],
-      "abstract": "Distortion-aware BEV detection method for mixed pinhole-fisheye camera setups.",
-      "keywords": [
-        "BEV",
-        "detection",
-        "fisheye",
-        "PETR"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.08680"
-    },
-    {
-      "id": "2606.08844",
-      "title": "Geometry-Aware Fisheye-LiDAR Fusion for Robust 3D Object Detection in Low-Overlap Setups",
-      "authors": "Xiangzhong Liu, Xihao Wang, Hao Shen",
-      "published": "2026-06-07",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "relevance": 3,
-      "tags": [
-        "BEV",
-        "fusion",
-        "fisheye",
-        "LiDAR"
-      ],
-      "abstract": "Geometry-aware fisheye-LiDAR fusion for 3D detection in cost-sensitive sparse-view sensor configurations.",
-      "keywords": [
-        "BEV",
-        "fusion",
-        "fisheye",
-        "LiDAR"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.08844"
-    },
-    {
-      "id": "2606.07708",
-      "title": "Cross-View Urban Traffic Dataset: Drone-Supervised Ground Truth for Monocular BEV Localization",
-      "authors": "Prakhar Bhardwaj, et al.",
-      "published": "2026-06-05",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "relevance": 3,
-      "tags": [
-        "BEV",
-        "dataset",
-        "localization"
-      ],
-      "abstract": "Cross-view urban traffic dataset with drone-supervised ground truth for monocular BEV localization.",
-      "keywords": [
-        "BEV",
-        "dataset",
-        "localization"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.07708"
-    },
-    {
-      "id": "2605.31476",
-      "title": "IDOL: Inverse-Dynamics-Guided Future Prediction for End-to-End Autonomous Driving",
-      "authors": "Chenghao Zhang, Timin Li, Dongmei Li",
-      "published": "2026-05-29",
-      "categories": [
-        "cs.RO"
-      ],
+      "arxiv_id": "2606.18247",
+      "title": "Visual Verification Enables Inference-time Steering and Autonomous Policy Improvement",
+      "authors": "Mingtong Zhang, Dhruv Shah",
+      "published": "2026-06-16",
       "relevance": 4,
-      "tags": [
-        "end-to-end",
-        "world-model",
-        "planning"
-      ],
-      "abstract": "Inverse-dynamics-guided future prediction for end-to-end autonomous driving with world-model-based planning.",
-      "keywords": [
-        "end-to-end",
-        "world-model",
-        "planning"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2605.31476"
-    },
-    {
-      "id": "2605.26113",
-      "title": "AnyScene: Towards Highly Controllable Driving Scene Generation at Anywhere and Beyond",
-      "authors": "Haiming Zhang, et al.",
-      "published": "2026-05-25",
+      "reasoning": "视觉验证器框架用于机器人策略推断时引导和自主改进，可迁移到自动驾驶策略",
+      "summary": "VERITAS: generator-verifier framework for generalist robot policies using visual verifiers for inference-time policy steering and self-improvement.",
       "categories": [
         "cs.RO",
-        "cs.CV"
+        "cs.AI"
       ],
-      "relevance": 4,
-      "tags": [
-        "scene-generation",
-        "driving",
-        "data-augmentation"
-      ],
-      "abstract": "Controllable high-fidelity synthetic driving scene generation for addressing long-tail safety-critical scenarios.",
-      "keywords": [
-        "scene-generation",
-        "data-augmentation",
-        "end-to-end"
-      ],
-      "status": "新发现",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2605.26113"
+      "new_discovery": true,
+      "kb_status": "新发现"
     },
     {
-      "id": "2606.12987",
-      "title": "Diffusion Transformer World-Action Model for AV Scene Prediction",
-      "authors": "Ruslan Sharifullin, Benjamin Jiang, Kai Xi Chew",
-      "published": "2026-06-11",
+      "arxiv_id": "2606.18239",
+      "title": "EBench: Elemental Diagnosis of Generalist Mobile Manipulation Policies",
+      "authors": "Ning Gao, Jinliang Zheng, Xing Gao, Haoxiang Ma, Hanqing Wang",
+      "published": "2026-06-16",
+      "relevance": 4,
+      "reasoning": "通用移动操作策略诊断基准，评估π0、XVLA、InternVLA等VLA模型，26任务5维度",
+      "summary": "Benchmark diagnosing generalist mobile manipulation policies including pi0, XVLA, InternVLA-A1 across 26 tasks and 5 capability dimensions.",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG",
         "cs.RO"
       ],
-      "relevance": 4,
-      "tags": [
-        "world-model",
-        "driving",
-        "diffusion",
-        "DiT"
-      ],
-      "abstract": "Action-conditioned world model using Diffusion Transformer to predict future camera scenes from planned controls for autonomous vehicles.",
-      "keywords": [
-        "world-model",
-        "DiT",
-        "diffusion",
-        "autonomous"
-      ],
-      "status": "已收录",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.12987"
+      "new_discovery": true,
+      "kb_status": "新发现"
     },
     {
-      "id": "2606.13460",
-      "title": "VISA: VLM-Guided Instance Semantic Auditing for 3D Occupancy World Models",
-      "authors": "Ruiqi Xian, Yuehan Xian, et al.",
-      "published": "2026-06-11",
+      "arxiv_id": "2606.17982",
+      "title": "LAGO Policy: Latency-Aware Asynchronous Diffusion Policies with Goal-Directed Collision-Free Planning for Smooth Manipulation",
+      "authors": "Guowei Shi, Xupeng Xie, Yiming Luo, Jian Guo, Jun Ma",
+      "published": "2026-06-16",
+      "relevance": 4,
+      "reasoning": "异步推理扩散策略，解决帧间不连续和碰撞问题，对轨迹规划有参考价值",
+      "summary": "Diffusion-based visuomotor policy with asynchronous inference, inter-chunk consistency, and obstacle-aware execution for smooth manipulation.",
+      "categories": [
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.17937",
+      "title": "ThinkingVLA: Interleaved Vision and Language Reasoning for Robotic Manipulation",
+      "authors": "Tianyi Lu, Hui Zhang, Zijie Diao, Junke Wang, Shengqi Xu",
+      "published": "2026-06-16",
+      "relevance": 4,
+      "reasoning": "VLA模型引入交错视觉语言推理，处理长时序推理密集型操作任务，VLA+CoT方向",
+      "summary": "VLA model with interleaved vision-language reasoning for manipulation, addressing reasoning-intensive long-horizon tasks.",
+      "categories": [
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.17936",
+      "title": "SPARK: Low Latency Single-Camera 3D Pose Estimation for Autonomous Racing using Keypoints",
+      "authors": "Dominic Ebner, Markus Lienkamp",
+      "published": "2026-06-16",
+      "relevance": 4,
+      "reasoning": "单目3D姿态估计用于自动驾驶赛车，利用关键点低延迟检测竞赛对手",
+      "summary": "Monocular 3D pose estimation for autonomous racing, using keypoints for fast detection of opponents.",
+      "categories": [
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.17924",
+      "title": "PearlVLA: Progressive Embodied Action-Plan Refinement in Latent Space",
+      "authors": "Bochen Yang, Lianlei Shan",
+      "published": "2026-06-16",
+      "relevance": 4,
+      "reasoning": "VLA框架在潜在空间中进行行动规划推演，平衡效率与显式推理",
+      "summary": "VLA framework that moves deliberation into latent space of VLM for efficient action generation with explicit reasoning.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.18180",
+      "title": "EgoCS-400K: An Egocentric Gameplay Dataset for World Models",
+      "authors": "Rongjin Guo, Dong Liang, Yuhao Liu, Fang Liu, Tianyu Huang",
+      "published": "2026-06-16",
+      "relevance": 4,
+      "reasoning": "大规模第一人称游戏数据集用于世界模型训练，包含视频-动作-语言轨迹",
+      "summary": "Large-scale egocentric gameplay dataset with video-action-language trajectories for interactive world model training.",
       "categories": [
         "cs.CV"
       ],
-      "relevance": 4,
-      "tags": [
-        "world-model",
-        "occupancy",
-        "VLM",
-        "auditing"
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.18249",
+      "title": "Unified Multimodal Autoregressive Modeling with Shared Context-Visual Tokenizer is Key to Unification",
+      "authors": "Wujian Peng, Lingchen Meng, Yuxuan Cai, Xianwei Zhuang, Yuhuan Yang",
+      "published": "2026-06-16",
+      "relevance": 3,
+      "reasoning": "统一多模态自回归框架，共享视觉分词器，对VLA表示学习有参考价值",
+      "summary": "UniAR: unified autoregressive framework for multimodal understanding and generation with shared visual tokenizer.",
+      "categories": [
+        "cs.CV"
       ],
-      "abstract": "Semantic 3D occupancy world model auditing using VLM guidance for detecting object and rare-class errors.",
-      "keywords": [
-        "world-model",
-        "occupancy",
-        "VLM"
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.18051",
+      "title": "Compositional Skill Routing for LLM Agents: Decompose, Retrieve, and Compose",
+      "authors": "Xueping Gao",
+      "published": "2026-06-16",
+      "relevance": 3,
+      "reasoning": "LLM代理的组合式技能路由框架，可应用于自动驾驶代理系统",
+      "summary": "SkillWeaver framework for LLM agents to decompose queries, retrieve skills, and compose executable plans.",
+      "categories": [
+        "cs.CL"
       ],
-      "status": "已收录",
-      "date_found": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.13460"
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.18235",
+      "title": "EvolveNav: Proactive Preflection and Self-Evolving Memory for Zero-Shot Object Goal Navigation",
+      "authors": "Qi Chai, Wenhao Shen, Nanjie Yao, Yue Xia, Kaiyong Zhao",
+      "published": "2026-06-16",
+      "relevance": 3,
+      "reasoning": "零样本目标导航+自演进记忆，对AD导航堆栈有参考价值",
+      "summary": "Self-evolving ZS-OGN framework with agentic rule memory for continuous test-time improvement in navigation.",
+      "categories": [
+        "cs.AI"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.18189",
+      "title": "Beyond Failure Recovery: An Engagement-Aware Human-in-the-loop Framework for Robotic Systems",
+      "authors": "Jiaying Fang, Joyce Yang, Zhanxin Wu, Bohan Yang, Tapomayukh Bhattacharjee",
+      "published": "2026-06-16",
+      "relevance": 3,
+      "reasoning": "人机交互中的参与感知框架，人机协同驾驶场景有参考价值",
+      "summary": "Human-in-the-loop framework focused on user engagement rather than just failure recovery in robotics.",
+      "categories": [
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
     }
   ]
 }

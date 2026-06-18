@@ -1,71 +1,118 @@
 {
-  "updatedAt": "2026-06-17T21:33:01+08:00",
-  "date": "2026-06-17",
-  "timeLabel": "晚间国际",
-  "summary": "美股盘前小幅波动，FOMC利率决议今晚公布，Warsh首秀备受关注。标普500约7,520，道指52,001，纳指26,502(+0.48%)。港股恒指收盘24,312(-0.74%)。BTC $64,845(-1.81%)，ETH $1,755(-2.63%)。美联储新主席Kevin Warsh将主持首次FOMC会议，市场预期按兵不动但关注点阵图信号。",
+  "updatedAt": "2026-06-18T09:15:00+08:00",
+  "date": "2026-06-18",
+  "timeLabel": "早盘预览",
+  "summary": "隔夜美股全线回调，标普500收7,420(-1.21%)，道指51,493(-0.98%)，纳指26,022(-1.34%)。FOMC鹰派信号+中东不确定性拖累。S&P期货反弹+0.51%报7,557。港股昨收24,494(-1.40%)。BTC $64,704(-1.39%)，ETH $1,760(-1.36%)。A股昨收上证4,108/深证15,881/创业板4,167，今日09:30开盘。10Y美债4.463%，VIX 18.44。",
   "usMarkets": {
     "sp500": {
-      "price": 7520.81,
-      "change": 0.0,
-      "changePercent": 0.0,
-      "note": "盘前交易中，FOMC前市场谨慎"
+      "price": 7420.10,
+      "change": -91.25,
+      "changePercent": -1.21,
+      "note": "FOMC鹰派决议后大幅回调，从52w高7,621回落"
     },
     "nasdaq": {
-      "price": 26502.12,
-      "change": 125.78,
-      "changePercent": 0.48,
-      "note": "纳指期货小幅走高，科技股反弹"
+      "price": 26021.66,
+      "change": -354.49,
+      "changePercent": -1.34,
+      "note": "科技股领跌，纳指回调压力显著"
     },
     "dowJones": {
-      "price": 52001.61,
-      "change": 1.94,
-      "changePercent": 0.0,
-      "note": "道指持平，盘中创历史新高后回落"
+      "price": 51492.55,
+      "change": -509.06,
+      "changePercent": -0.98,
+      "note": "道指尾盘加速下跌"
     },
     "spy": {
-      "price": 750.56,
-      "change": 0.23,
-      "changePercent": 0.03
+      "price": 740.42,
+      "change": -9.06,
+      "changePercent": -1.21
     },
     "qqq": {
-      "price": 733.7,
-      "change": 3.84,
-      "changePercent": 0.53
+      "price": 722.35,
+      "change": -9.83,
+      "changePercent": -1.34
+    },
+    "sp500Futures": {
+      "price": 7556.50,
+      "change": 38.00,
+      "changePercent": 0.51,
+      "note": "期货盘前反弹，收复部分失地"
+    },
+    "vix": {
+      "price": 18.44,
+      "note": "恐慌指数上升，市场情绪偏谨慎"
+    },
+    "tenYearYield": {
+      "price": 4.463,
+      "note": "10Y美债收益率走高至4.463%"
+    }
+  },
+  "cnMarkets": {
+    "shanghai": {
+      "price": 4108.08,
+      "change": 0,
+      "changePercent": 0,
+      "note": "昨收4,108，今日09:30开盘关注低开可能"
+    },
+    "shenzhen": {
+      "price": 15880.95,
+      "change": 0,
+      "changePercent": 0,
+      "note": "深成指昨收15,881"
+    },
+    "chiNext": {
+      "price": 4167.05,
+      "change": 0,
+      "changePercent": 0,
+      "note": "创业板昨收4,167"
+    },
+    "csi300": {
+      "price": 4931.39,
+      "change": 0,
+      "changePercent": 0,
+      "note": "沪深300昨收4,931"
     }
   },
   "hkMarkets": {
     "hsi": {
-      "price": 24312.16,
-      "change": -181.79,
-      "changePercent": -0.74,
-      "note": "恒指收盘下跌，科技股拖累"
+      "price": 24493.95,
+      "change": -347.31,
+      "changePercent": -1.40,
+      "note": "恒指昨日收跌1.40%至24,494"
     }
   },
   "crypto": {
     "bitcoin": {
-      "price": 64845,
-      "changePercent24h": -1.81,
-      "note": "BTC回落至$64K附近"
+      "price": 64704,
+      "changePercent24h": -1.39,
+      "note": "BTC $64,704，隔夜小幅回落"
     },
     "ethereum": {
-      "price": 1754.62,
-      "changePercent24h": -2.63,
-      "note": "ETH承压，$1,750附近整理"
+      "price": 1760.30,
+      "changePercent24h": -1.36,
+      "note": "ETH $1,760，跟随大盘走弱"
     }
   },
   "keyEvents": [
-    "📌 FOMC利率决议今夜公布 — Kevin Warsh首次担任美联储主席后的首场会议，市场预期维持利率不变，焦点在点阵图和经济预测",
-    "📌 中东局势 — Trump威胁称若伊朗协议不满意将恢复轰炸，地缘风险溢价回升",
+    "📌 FOMC鹰派结果 — Kevin Warsh首秀维持利率不变，点阵图暗示2026年仅降息一次，市场大幅回调",
+    "📌 中东局势 — Trump威胁若伊朗协议不满意将恢复轰炸，地缘风险溢价回升支持油价",
     "📌 IEA报告 — 中东和平协议可能带来明年石油供应过剩，油价面临下行压力",
-    "📌 债市展望 — 分析师预期将进入'债券之夏'，收益率波动加大",
-    "📌 新能源 — 电动车转型面临供应端挑战，行业整合加速"
+    "📌 美债收益率 — 10Y收益率升至4.463%，'债券之夏'预期下波动加大",
+    "📌 美股全线回调 — S&P 500从52周高点回落121点(-1.6%)，VIX升至18.44",
+    "📌 A股今日关注 — 隔夜外围大跌，A股是否跟跌低开考验支撑"
   ],
   "newsHeadlines": [
     {
       "source": "CNBC",
-      "title": "Fed meeting live: New Chairman Kevin Warsh squares off against a 'hawkish' committee",
-      "impact": "FOMC利率决议日，市场关注点阵图和Warsh首秀立场",
+      "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
+      "impact": "FOMC维持利率不变，点阵图偏鹰，年内仅一次降息预期",
       "url": "https://www.cnbc.com"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "US Futures Climb as Iran Deal Offsets Hawkish Fed",
+      "impact": "中东局势缓解部分抵消美联储鹰派影响，期货小幅反弹",
+      "url": "https://www.bloomberg.com"
     },
     {
       "source": "CNBC",
@@ -74,10 +121,10 @@
       "url": "https://www.cnbc.com"
     },
     {
-      "source": "Yahoo Finance",
-      "title": "Stock market today: Nasdaq futures climb as Dow, S&P 500 stall ahead of Fed rate decision",
-      "impact": "美股盘前分化，纳指期货小幅上涨等待FOMC",
-      "url": "https://finance.yahoo.com"
+      "source": "MarketWatch",
+      "title": "The Fed is 'way above where it should be' on rates, says hedge-fund star Ackman",
+      "impact": "Bill Ackman批评美联储利率过高，呼吁更大幅度降息",
+      "url": "https://www.marketwatch.com"
     },
     {
       "source": "FT Markets",
@@ -86,40 +133,22 @@
       "url": "https://www.ft.com"
     },
     {
-      "source": "MarketWatch",
-      "title": "An oil bull's 'insane' bet: Why this veteran trader is buying energy stocks as crude prices tumble",
-      "impact": "油价回调但能源股获长期投资者看好",
-      "url": "https://www.marketwatch.com"
-    },
-    {
       "source": "Bloomberg",
       "title": "We're Entering a 'Summer of the Bond Market,' Goncalves Says",
-      "impact": "债市夏季行情预期升温，收益率波动加大",
+      "impact": "债市夏季行情预期升温，收益率波动加大至4.46%",
       "url": "https://www.bloomberg.com"
     },
     {
-      "source": "FT Markets",
-      "title": "The electric vehicle transition gets heavy",
-      "impact": "电动车转型面临供应端挑战",
-      "url": "https://www.ft.com"
-    },
-    {
       "source": "Yahoo Finance",
-      "title": "Coinbase Global Launches New A.I. Advisor",
-      "impact": "Coinbase推出AI顾问产品，加密行业AI化加速",
+      "title": "S&P 500 sinks 1.2% as hawkish Fed outlook rattles Wall Street",
+      "impact": "标普500收跌1.21%，投资者消化鹰派信号",
       "url": "https://finance.yahoo.com"
-    },
-    {
-      "source": "CNBC",
-      "title": "Here are Wednesday's biggest analyst calls: Nvidia, Tesla, Netflix, Broadcom, Micron, Lyft, AMD, Figma & more",
-      "impact": "科技巨头获分析师集中覆盖",
-      "url": "https://www.cnbc.com"
     }
   ],
   "focusPoints": [
-    "20:00 ET (08:00 CST) FOMC利率决议 & 经济预测",
-    "20:30 ET (08:30 CST) 鲍威尔(主席Warsh)新闻发布会",
-    "关注点阵图是否暗示2026年降息时间表",
-    "关注中东伊朗局势对油价的短期冲击"
+    "09:30 A股开盘 — 关注外围大跌是否传导至A股，上证4,100支撑测试",
+    "20:30 美国初请失业金数据",
+    "美债收益率走势 — 10Y 4.46%若继续上行将压制成长股",
+    "中东伊朗谈判进展 — 未来48小时关键窗口"
   ]
 }

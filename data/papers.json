@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-18",
+  "date": "2026-06-19",
   "papers": [
     {
       "arxiv_id": "2606.18250",
@@ -181,6 +181,185 @@
       "summary": "Human-in-the-loop framework focused on user engagement rather than just failure recovery in robotics.",
       "categories": [
         "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.17386v1",
+      "title": "TerraTransfer: Learning End-to-End Driving Policies Without Expert Demonstrations",
+      "authors": "Zikang Xiong, Weixin Li, Zhouchonghao Wu, Akshay Rangesh, Saarth Bonde",
+      "published": "2026-06-16",
+      "relevance": 5,
+      "reasoning": "端到端自动驾驶无需专家演示训练，结合RL + 域迁移大幅降低数据成本，开源框架替代nuPlan/PlanT等",
+      "summary": "Proposes TerraTransfer: RL-based end-to-end AD training without expert demonstrations, using domain transfer from pre-trained generalist policies.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.16274v1",
+      "title": "GraphWorld: Long-Horizon Planning with World Models for End-to-End Autonomous Driving",
+      "authors": "Ziying Song, Caiyan Jia, Lin Liu, Lei Yang, Shengkai Zhang",
+      "published": "2026-06-15",
+      "relevance": 5,
+      "reasoning": "世界模型用于端到端长时域规划，解决现有E2E方法短视问题，图结构场景压缩+规划器联合训练",
+      "summary": "GraphWorld: E2E AD with world models for long-horizon planning. Uses graph-structured latent scene representation with joint world model + planner training.",
+      "categories": [
+        "cs.CV"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.15341v1",
+      "title": "CausalDrive: Real-time Causal World Models for Autonomous Driving",
+      "authors": "Tianyi Yan, Huan Zheng, Dubing Chen, Meizhi Qu, Yingying Shen",
+      "published": "2026-06-13",
+      "relevance": 5,
+      "reasoning": "实时因果世界模型，新范式：通过结构化因果图实现互动式模拟，无需oracle轨迹",
+      "summary": "Causal world model with structural causal graphs enabling reactive simulation without oracle future trajectories. Real-time interactive simulation for AD.",
+      "categories": [
+        "cs.CV"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.17536v1",
+      "title": "OmniDrive: An LLM-Choreographed Multi-Agent World Model with Unified Latent Co-Compression for Multi-View Driving Video Generation",
+      "authors": "Zijie Meng, Yufei Liu, Chengqian Ma, Zhiyu Li, Jiyuan Liu",
+      "published": "2026-06-16",
+      "relevance": 5,
+      "reasoning": "多视角驾驶视频生成的统一世界模型，LLM编排多智能体+统一潜在协同压缩，解决跨视角融合问题",
+      "summary": "LLM-choreographed multi-agent world model for multi-view driving video generation with unified latent co-compression across camera views.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.16354v1",
+      "title": "GraphBEV++: Multi-Modal Feature Alignment for Autonomous Driving",
+      "authors": "Ziying Song, Caiyan Jia, Lin Liu, Shaoqing Xu, Lei Yang",
+      "published": "2026-06-15",
+      "relevance": 4,
+      "reasoning": "改进BEV多模态融合框架，关注标定不确定性下的特征对齐问题，LiDAR+相机动态对齐",
+      "summary": "Multi-modal BEV fusion framework addressing feature misalignment under calibration uncertainty between LiDAR and cameras for autonomous driving.",
+      "categories": [
+        "cs.CV"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.13840v1",
+      "title": "Multi-Agent Embodied Autonomous Driving: From V2X Information Exchange to Shared World Models",
+      "authors": "Senkang Hu, Zhengru Fang, Yihang Tao, Zihan Fang, Sam Tak Wu Kwong",
+      "published": "2026-06-11",
+      "relevance": 4,
+      "reasoning": "综述共享世界模型在V2X多智能体自动驾驶中的应用，从感知共享到协同决策",
+      "summary": "Survey on shared world models (SWMs) for multi-agent autonomous driving from V2X perception sharing to coordinated decision-making.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.12616v1",
+      "title": "PersonaDrive: Human-Style Retrieval-Augmented VLA Agents for Closed-Loop Driving Simulation",
+      "authors": "Mahmoud Srewa, Praneetsai Iddamsetty, Mohammad Abdullah Al Faruque, Salma Elmalaki",
+      "published": "2026-06-10",
+      "relevance": 3,
+      "reasoning": "VLA交通代理用行人风格+检索增强模拟多样化驾驶行为，闭环仿真场景",
+      "summary": "VLA-based traffic agents with human-style retrieval augmentation for diverse driving behavior in closed-loop simulation.",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.18589v1",
+      "title": "DREAM-Chunk: Reactive Action Chunking with Latent World Model",
+      "authors": "Wenxi Chen, Kaidi Zhang, Chi Lin, Zhiyuan Zhang, Yu She",
+      "published": "2026-06-17",
+      "relevance": 3,
+      "reasoning": "VLA动作分块+潜在世界模型实现反应式执行，解决开环分块在随机环境下的脆弱性",
+      "summary": "Reactive action chunking for VLA models using latent world models to handle stochastic dynamics in open-loop execution.",
+      "categories": [
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.09273v1",
+      "title": "EditSSC: Toward Editable Semantic Occupancy Scenes with Unconditional Diffusion Models",
+      "authors": "Fatima Balde, Raoul de Charette, Alexandre Boulch",
+      "published": "2026-06-08",
+      "relevance": 3,
+      "reasoning": "可编辑3D语义占用场景生成，扩散模型用于AD场景编辑",
+      "summary": "Editing-ready diffusion-based 3D semantic scene occupancy generation for autonomous driving, enabling scene manipulation.",
+      "categories": [
+        "cs.CV"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.16480v1",
+      "title": "HOLO-MPPI: Multi-Scenario Motion Planning via Hierarchical Policy Optimization",
+      "authors": "Youngjae Min, Jovin D'sa, Faizan M. Tariq, David Isele, Navid Azizan",
+      "published": "2026-06-15",
+      "relevance": 3,
+      "reasoning": "分层策略优化+MPPI实现多场景运动规划，无需逐场景调参",
+      "summary": "Hierarchical RL + MPPI framework for multi-scenario motion planning without per-scenario retuning.",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "eess.SY"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.01277v1",
+      "title": "DeepIPCv3: Event-Aware Multi-Modal Sensor Fusion for Sudden Pedestrian Crossing Avoidance",
+      "authors": "Oskar Natan, Andi Dharmawan, Aufaclav Zatu Kusuma Frisky, Jazi Eko Istiyanto, Jun Miura",
+      "published": "2026-05-31",
+      "relevance": 3,
+      "reasoning": "事件相机多模态融合用于端到端自动驾驶中的突然行人避让",
+      "summary": "Multi-modal E2E driving framework with event cameras + LiDAR for sudden pedestrian crossing avoidance.",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV",
+        "eess.IV",
+        "eess.SY"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.17030v3",
+      "title": "Qwen-RobotWorld Technical Report: Unifying Embodied World Modeling through Language-Conditioned Video Generation",
+      "authors": "Jie Zhang, Xiaoyue Chen, Anzhe Chen, Dayiheng Liu, Deqing Li",
+      "published": "2026-06-15",
+      "relevance": 4,
+      "reasoning": "Qwen语言条件视频世界模型，统一体操作/自动驾驶/室内导航，多领域世界建模",
+      "summary": "Language-conditioned video world model unifying manipulation, autonomous driving, indoor navigation, and human-to-robot transfer.",
+      "categories": [
+        "cs.CV"
       ],
       "new_discovery": true,
       "kb_status": "新发现"

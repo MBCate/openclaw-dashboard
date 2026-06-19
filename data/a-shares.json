@@ -1,67 +1,54 @@
 {
-  "date": "2026-06-18",
-  "time": "15:05",
+  "date": "2026-06-19",
+  "time": "11:35",
+  "note": "端午节休市，数据为6月18日收盘",
   "indices": {
     "上证指数": {
-      "code": "sh000001",
-      "price": 4090.4813,
-      "change": -17.59,
+      "price": 4090.48,
+      "change": -17.6,
       "change_pct": -0.43,
-      "high": 4117.451,
-      "low": 4080.2938,
-      "open": 4094.2301,
-      "prev_close": 4108.0762,
-      "date": "2026-06-18"
+      "high": 4117.45,
+      "low": 4080.29,
+      "open": 4094.23,
+      "prev_close": 4108.08
     },
     "深证成指": {
-      "code": "sz399001",
-      "price": 16030.702,
+      "price": 16030.7,
       "change": 149.75,
       "change_pct": 0.94,
-      "high": 16104.768,
-      "low": 15825.316,
-      "open": 15826.794,
-      "prev_close": 15880.951,
-      "date": "2026-06-18"
+      "high": 16104.77,
+      "low": 15825.32,
+      "open": 15826.79,
+      "prev_close": 15880.95
     },
     "创业板指": {
-      "code": "sz399006",
       "price": 4252.39,
       "change": 85.34,
       "change_pct": 2.05,
-      "high": 4272.008,
-      "low": 4153.621,
-      "open": 4153.621,
-      "prev_close": 4167.048,
-      "date": "2026-06-18"
+      "high": 4272.01,
+      "low": 4153.62,
+      "open": 4153.62,
+      "prev_close": 4167.05
     },
     "沪深300": {
-      "code": "sh000300",
-      "price": 4941.5986,
+      "price": 4941.6,
       "change": 10.21,
       "change_pct": 0.21,
-      "high": 4976.8909,
-      "low": 4916.0442,
-      "open": 4916.0442,
-      "prev_close": 4931.3861,
-      "date": "2026-06-18"
+      "high": 4976.89,
+      "low": 4916.04,
+      "open": 4916.04,
+      "prev_close": 4931.39
+    },
+    "恒生指数": {
+      "price": 23924.81,
+      "change": -387.35,
+      "change_pct": -1.59,
+      "high": 24163.25,
+      "low": 23749.99,
+      "open": 24145.19,
+      "prev_close": 24312.16
     }
   },
-  "sectors": {
-    "top5": [
-      {
-        "name": "N/A",
-        "change_pct": 0
-      }
-    ],
-    "bottom5": [
-      {
-        "name": "N/A",
-        "change_pct": 0
-      }
-    ]
-  },
-  "north_flow": {
-    "error": "no data"
-  }
+  "north_flow": {},
+  "sectors": {}
 }

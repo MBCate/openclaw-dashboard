@@ -1,67 +1,83 @@
 {
-  "date": "2026-06-18",
-  "timestamp": "2026-06-18T15:47:33.400831",
+  "date": "2026-06-19",
+  "timestamp": "2026-06-19T17:15:10.869740",
+  "type": "weekly",
+  "week_ending": "2026-06-19",
   "stocks": {
     "上证指数": {
-      "price": 4090.4813,
-      "change": -0.428,
+      "price": 4090.48,
+      "change": -0.43,
       "volume": 658116068.0
     },
     "深证成指": {
-      "price": 16030.702,
-      "change": 0.943
+      "price": 16030.70,
+      "change": 0.94
     },
     "创业板指": {
       "price": 4252.39,
-      "change": 2.048
+      "change": 2.05
     },
     "沪金主力": {
-      "price": 942.94,
-      "change": 0.13,
-      "date": "2026-06-17"
+      "price": 937.96,
+      "change": -0.53
     },
     "沪银主力": {
-      "price": 16865.0,
-      "change": 0.89,
-      "date": "2026-06-17"
+      "price": 16493.00,
+      "change": -2.21
     },
     "沪铜主力": {
-      "price": 105470.0,
-      "change": 0.82,
-      "date": "2026-06-17"
+      "price": 104860.00,
+      "change": -0.58
     },
     "螺纹钢主力": {
-      "price": 3155.0,
-      "change": -0.44,
-      "date": "2026-06-17"
+      "price": 3131.00,
+      "change": -0.76
     },
     "沪深300期货": {
-      "price": 4823.0,
-      "change": 1.17,
-      "date": "2026-06-17"
+      "price": 4862.80,
+      "change": 0.83
     },
     "中证500期货": {
-      "price": 8429.0,
-      "change": 1.82,
-      "date": "2026-06-17"
+      "price": 8517.40,
+      "change": 1.05
     },
     "50ETF波动率": {
-      "value": 18.55,
-      "date": "2026-06-17"
+      "value": 18.88
     }
   },
   "crypto": {
-    "status": "error",
-    "error": "okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT"
+    "BTC/USDT": {
+      "price": 62438.10,
+      "change_24h": -3.13,
+      "rsi_1h": 36.8,
+      "rsi_4h": 26.7,
+      "trend_1h": "偏空",
+      "trend_4h": "偏空"
+    },
+    "ETH/USDT": {
+      "price": 1692.23,
+      "change_24h": -3.37,
+      "rsi_1h": 39.4,
+      "rsi_4h": 26.9,
+      "trend_1h": "偏空",
+      "trend_4h": "偏空"
+    }
   },
   "sentiment": {
-    "status": "error",
-    "error": "HTTPSConnectionPool(host='api.alternative.me', port=443): Max retries exceeded with url: /fng/?limit=1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))"
+    "crypto_fear_greed": {
+      "value": 14,
+      "classification": "Extreme Fear"
+    }
   },
-  "status": {
-    "stocks": "success",
-    "crypto": "error",
-    "sentiment": "error",
-    "news": "success"
-  }
+  "signals": {
+    "DoubleMa": {"1h": "观望", "4h": "观望"},
+    "TripleMa": {"1h": "观望", "4h": "观望"},
+    "Supertrend": {"1h": "观望", "4h": "观望"},
+    "RSI": {"1h": "观望", "4h": "观望"},
+    "MACD": {"1h": "观望", "4h": "观望"},
+    "Bollinger": {"1h": "观望", "4h": "观望"},
+    "Momentum": {"1h": "做空", "4h": "观望"},
+    "MeanReversion": {"1h": "观望", "4h": "观望"}
+  },
+  "weekly_summary": "本周A股涨跌分化，创业板领涨+2.05%，上证微跌0.43%。BTC跌至62438美元（-3.13%），恐惧贪婪指数14（极度恐惧），8个策略中7个观望，Momentum 1h发出做空信号。"
 }

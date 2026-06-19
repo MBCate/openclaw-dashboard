@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T21:30:00+08:00",
+  "updated": "2026-06-19T09:15:00+08:00",
   "markets": {
     "china": {
       "上证指数": { "price": 4090.48, "change": -0.43 },
@@ -13,32 +13,30 @@
       "恒生科技指数": { "price": 4604.35, "change": -1.39 }
     },
     "us": {
-      "道琼斯": { "price": 51808.65, "change": 0.61 },
-      "标普500": { "price": 7481.69, "change": 0.83 },
-      "纳斯达克": { "price": 26277.78, "change": 0.98 }
+      "道琼斯": { "price": 51564.70, "change": 0.14 },
+      "标普500": { "price": 7500.58, "change": 1.08 },
+      "纳斯达克": { "price": 26517.93, "change": 1.91 }
     },
     "crypto": {
-      "BTC": { "price": 63983, "change_24h": -1.93 },
-      "ETH": { "price": 1737.79, "change_24h": -1.50 }
+      "BTC": { "price": 62900, "change_24h": -2.67 },
+      "ETH": { "price": 1710.33, "change_24h": -2.65 }
     }
   },
   "news": {
-    "cnbc": [
-      "Trump hits back at critics as Iran peace deal fuels debate over U.S. concessions",
-      "Intel surges 9% after Trump says company will partner with Apple on U.S. chip design",
-      "SpaceX first week on Nasdaq: 5 wild stats",
-      "Stock futures rise as Wall Street tries to rebound from Fed-led sell-off"
-    ],
-    "bloomberg": [
-      "Stocks Rise, Oil Slides After Trump Inks Iran Deal: Markets Wrap",
-      "SpaceX Demand Is 'Off the Charts,' Says Schwab CEO",
-      "Anthropic Ban Forces Investor Rethink of Political Risk"
+    "headlines": [
+      "美股周五大涨：纳指+1.91%领涨，标普+1.08%，道指+0.14%，科技板块强势反弹",
+      "加密货币承压：BTC $62,900 (-2.67%)，ETH $1,710 (-2.65%)，市场静待方向",
+      "港A分化：A股创业板指+2.05%强势，上证微跌0.43%；恒指-1.59%延续弱势",
+      "纳指期货盘前微跌，周五早盘或面临获利回吐压力",
+      "纽约时报广场发生枪击事件，短期或影响市场情绪",
+      "消息人士：因以军持续袭击黎巴嫩，伊朗推迟赴瑞士行程，中东局势仍受关注"
     ]
   },
   "summary": {
-    "us_market": "美股周四反弹，三大指数全线走高。道指+0.61%，标普+0.83%，纳指+0.98%。市场从周二美联储利率决议引发的抛售中反弹。Trump签署伊朗和平协议推动油价下跌，Intel受Apple芯片合作消息大涨9%",
-    "china_market": "A股分化，上证微跌0.43%报4090，创业板强势上涨2.05%。深成指+0.94%，沪深300+0.21%。科技成长板块表现强劲",
-    "hk_market": "港股全线下跌，恒指-1.59%，国企指数-2.06%，恒生科技-1.39%。跟随隔夜美股弱势及美联储鹰派信号",
-    "crypto": "加密市场承压，BTC $63,983 (-1.93%)，ETH $1,737.79 (-1.50%)。市场情绪偏恐惧，Fed鹰派表态压制风险偏好"
+    "us_market": "隔夜美股三大指数全线上涨，纳斯达克+1.91%领涨，标普500+1.08%，道指+0.14%。科技股强劲反弹带动大盘上扬。加密货币方面BTC $62,900（-2.67%）和ETH $1,710（-2.65%）承压回落。",
+    "china_market": "A股今日将高开。昨收盘创业板指+2.05%领涨两市，深成指+0.94%，上证微跌0.43%。沪深300期指IF0报4862.8，中证500期指IC0报8517.4，上证50期指IH0报2899.8。北向资金流向待开盘后观察。",
+    "hk_market": "港股延续弱势，恒指-1.59%，国企指数-2.06%，恒生科技-1.39%。隔夜美股反弹可能给今日港股带来企稳信号。",
+    "crypto": "加密市场承压，BTC $62,900（24h -2.67%），ETH $1,710（24h -2.65%）。短期走势偏弱，关注下方支撑位。",
+    "futures": "股指期货夜盘平稳：IF0 4862.8（+0.33%），IC0 8517.4（+0.70%），IH0 2899.8（+0.18%）。美元指数及商品期货夜间暂无更新。"
   }
 }

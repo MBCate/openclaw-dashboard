@@ -1,54 +1,47 @@
 {
-  "date": "2026-06-19",
-  "time": "11:35",
-  "note": "端午节休市，数据为6月18日收盘",
+  "date": "2026-06-18",
+  "timestamp": "2026-06-18T15:00:00",
+  "market_status": "closed",
+  "note": "今日(6月19日)为端午节假期非交易日，数据为上一个交易日(6月18日)收盘",
   "indices": {
     "上证指数": {
       "price": 4090.48,
-      "change": -17.6,
-      "change_pct": -0.43,
+      "prev_close": 4108.08,
+      "open": 4094.23,
+      "volume": 658116068,
       "high": 4117.45,
       "low": 4080.29,
-      "open": 4094.23,
-      "prev_close": 4108.08
+      "change_pct": -0.43
     },
     "深证成指": {
       "price": 16030.7,
-      "change": 149.75,
-      "change_pct": 0.94,
+      "prev_close": 15880.95,
+      "open": 15826.79,
+      "volume": 764976920,
       "high": 16104.77,
       "low": 15825.32,
-      "open": 15826.79,
-      "prev_close": 15880.95
+      "change_pct": 0.94
     },
     "创业板指": {
       "price": 4252.39,
-      "change": 85.34,
-      "change_pct": 2.05,
+      "prev_close": 4167.05,
+      "open": 4153.62,
+      "volume": 226559938,
       "high": 4272.01,
       "low": 4153.62,
-      "open": 4153.62,
-      "prev_close": 4167.05
+      "change_pct": 2.05
     },
     "沪深300": {
       "price": 4941.6,
-      "change": 10.21,
-      "change_pct": 0.21,
+      "prev_close": 4931.39,
+      "open": 4916.04,
+      "volume": 334459902,
       "high": 4976.89,
       "low": 4916.04,
-      "open": 4916.04,
-      "prev_close": 4931.39
-    },
-    "恒生指数": {
-      "price": 23924.81,
-      "change": -387.35,
-      "change_pct": -1.59,
-      "high": 24163.25,
-      "low": 23749.99,
-      "open": 24145.19,
-      "prev_close": 24312.16
+      "change_pct": 0.21
     }
   },
-  "north_flow": {},
-  "sectors": {}
+  "sectors": {
+    "note": "板块数据通过Sina接口获取失败（AkShare EastMoney接口因代理问题不可达）"
+  }
 }

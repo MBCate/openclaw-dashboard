@@ -1,32 +1,33 @@
 {
-  "updated": "2026-06-19T21:30:00+08:00",
+  "updated": "2026-06-20T21:30:00+08:00",
   "source": "market-intel evening scan",
+  "date_note": "US markets closed Jun 19 (Juneteenth). Last active session: Jun 18. Crypto 24h data from CoinGecko.",
   "markets": {
     "us": {
       "name": "美国股市",
-      "status": "盘中 (开市约30分钟)",
+      "status": "🇺🇸 19日Juneteenth休市 · 最新数据为18日收盘",
       "indices": {
         "sp500": {
           "name": "S&P 500",
-          "price": 7497.86,
-          "change_pct": -0.10,
-          "high": 7511.07,
-          "low": 7468.32
+          "price": 7498.41,
+          "change_pct": 1.06,
+          "note": "伊朗和平协议推动科技股领涨"
         },
         "nasdaq": {
           "name": "NASDAQ",
-          "price": 26508.90,
-          "change_pct": 0.41,
-          "high": 26559.49,
-          "low": 26190.15
+          "price": 26507.05,
+          "change_pct": 1.87,
+          "note": "芯片股强劲反弹"
         },
         "dowjones": {
           "name": "道琼斯",
-          "price": 51558.92,
-          "change_pct": -0.72,
-          "high": 51949.26,
-          "low": 51554.53
+          "price": 51562.84,
+          "change_pct": 0.14,
+          "note": "工业制造韧性支撑"
         }
+      },
+      "fed": {
+        "note": "Warsh任美联储主席，维持利率不变，预计2026年加息；Warsh鹰派倾向超预期"
       }
     },
     "hongkong": {
@@ -42,37 +43,61 @@
     },
     "crypto": {
       "name": "加密货币",
-      "status": "24h变化",
+      "status": "24h涨跌 (数据来源: CoinGecko)",
       "assets": {
         "btc": {
           "name": "Bitcoin",
-          "price": 62735.00,
-          "change_24h_pct": -2.19
+          "price": 63266,
+          "change_24h_pct": 0.83
         },
         "eth": {
           "name": "Ethereum",
-          "price": 1689.85,
-          "change_24h_pct": -2.98
+          "price": 1713.14,
+          "change_24h_pct": 1.32
+        },
+        "sol": {
+          "name": "Solana",
+          "price": 70.82,
+          "change_24h_pct": 3.41
+        },
+        "xrp": {
+          "name": "XRP",
+          "price": 1.14,
+          "change_24h_pct": 0.76
+        },
+        "ada": {
+          "name": "Cardano",
+          "price": 0.1614,
+          "change_24h_pct": 0.38
         }
       }
     },
     "commodities": {
-      "oil": "油价转负 — 美国官员称以色列与真主党同意停火",
-      "gold": "Comex黄金/白银走低 (WSJ)"
+      "oil": "油价：霍尔木兹海峡油轮交通恢复（美伊协议实施），布伦特原油价格松动",
+      "gold": "黄金：Comex黄金走低，美联储鹰派预期压制贵金属"
     }
   },
   "headlines": [
-    "CNBC: 马斯克SpaceX持股估值超1万亿美元，其他亿万富翁股东名单",
-    "CNBC: 油价转负 — 美官员称以色列与真主党达成停火协议",
-    "CNBC: 美伊协议遇早期障碍，瑞士谈判未能按计划推进",
-    "Bloomberg: 俄罗斯以13亿美元出售被扣押最大金矿商股份",
-    "Bloomberg: 印度利率制定者认为中东风险缓解，前景改善",
-    "FT: 印度亿万富翁Mukesh Ambani申请Jio IPO",
-    "FT: 伊朗协议对担忧通胀的央行缓解有限",
-    "FT: 英国央行计划放宽投行交易活动资本规则"
+    "🇺🇸 美股：S&P 500 +1.06% · NASDAQ +1.87% · Dow +0.14% — 伊朗协议推动科技/芯片股大涨",
+    "🏛️ 美联储：Warsh主席维持利率不变，鹰派信号 — 多位成员暗示2026年加息",
+    "🛢️ 美伊协议：霍尔木兹海峡油轮交通恢复，油价回落",
+    "🧠 CNBC: AI基建投资让科技投资者关注债市新信号",
+    "💾 CNBC: 存储芯片危机极端化 — '连苹果也不安全'",
+    "🔐 CNBC: DOJ拒绝对'反武器化'基金做出书面承诺",
+    "🏗️ WSJ: 中国头部房企报告巨额亏损，房地产困境扩大",
+    "🌍 WSJ: 北约首次响应深海电缆疑似破坏事件",
+    "🇮🇱 WSJ: 巴勒斯坦民众徒步返回加沙北部",
+    "🇷🇼 WSJ: 卢旺达支持的叛军进入刚果安全城市",
+    "💵 CNBC: SpaceX持仓估值超1万亿美元，其他亿万富翁股东名单",
+    "📊 MarketWatch: Google重组凸显AI时代稀缺资源——人类大脑",
+    "🇮🇳 FT: 印度亿万富翁Mukesh Ambani申请Jio IPO"
   ],
   "geopolitical": {
-    "headline": "以色列-真主党停火 + 美伊协议遇阻",
-    "impact": "油价剧烈波动，中东地缘风险缓和但仍有不确定性"
+    "summary": "美伊协议实施中 · 霍尔木兹海峡恢复通行 · 北约首次响应海底电缆破坏 · 中东局势缓和但美联储鹰派压制风险偏好",
+    "key_events": [
+      "🇺🇸🇮🇷 美伊协议生效，霍尔木兹海峡油轮交通恢复",
+      "🏛️ Fed保持高利率预期，Warsh鹰派立场超市场预期",
+      "🔌 北约首次响应深海电缆疑似破坏事件"
+    ]
   }
 }

@@ -1,38 +1,91 @@
 {
-  "updated": "2026-06-20T21:30:00+08:00",
-  "source": "market-intel evening scan",
-  "date_note": "US markets closed Jun 19 (Juneteenth). Last active session: Jun 18. Crypto 24h data from CoinGecko.",
+  "updated": "2026-06-22T09:42:00+08:00",
+  "source": "market-intel morning scan",
+  "date_note": "A-share open at 09:30. US overnight: Iran tensions reignite. Pre-market futures negative.",
   "markets": {
+    "china": {
+      "name": "A股",
+      "status": "🇨🇳 盘中 · 09:42 开盘12分钟",
+      "indices": {
+        "shanghai": {
+          "name": "上证指数",
+          "price": 4088.89,
+          "change_pct": -0.04,
+          "high": 4095.14,
+          "low": 4077.44
+        },
+        "shenzhen": {
+          "name": "深证成指",
+          "price": 16139.98,
+          "change_pct": 0.68,
+          "high": 16146.96,
+          "low": 16003.63
+        },
+        "chi_next": {
+          "name": "创业板指",
+          "price": 4295.76,
+          "change_pct": 1.02,
+          "high": 4297.99,
+          "low": 4242.28
+        },
+        "hs300": {
+          "name": "沪深300",
+          "price": 4957.83,
+          "change_pct": 0.33,
+          "high": 4962.88,
+          "low": 4928.46
+        }
+      },
+      "sectors": {
+        "top_gainers": [
+          {"name": "钨", "change_pct": 8.10},
+          {"name": "铅锌", "change_pct": 5.54},
+          {"name": "磷肥及磷化工", "change_pct": 4.61},
+          {"name": "小金属", "change_pct": 4.03},
+          {"name": "通信线缆及配套", "change_pct": 3.81}
+        ],
+        "top_losers": [
+          {"name": "血液制品", "change_pct": -4.32},
+          {"name": "房地产综合服务", "change_pct": -4.28},
+          {"name": "旅游零售Ⅱ", "change_pct": -4.09},
+          {"name": "锂", "change_pct": -3.83}
+        ]
+      }
+    },
     "us": {
       "name": "美国股市",
-      "status": "🇺🇸 19日Juneteenth休市 · 最新数据为18日收盘",
+      "status": "🇺🇸 盘前期货下跌 · 伊朗局势再度紧张",
       "indices": {
         "sp500": {
           "name": "S&P 500",
           "price": 7498.41,
           "change_pct": 1.06,
-          "note": "伊朗和平协议推动科技股领涨"
+          "note": "上周五收盘 · 期货今日下跌"
         },
         "nasdaq": {
           "name": "NASDAQ",
           "price": 26507.05,
           "change_pct": 1.87,
-          "note": "芯片股强劲反弹"
+          "note": "上周五收盘 · 期货下跌"
         },
         "dowjones": {
           "name": "道琼斯",
           "price": 51562.84,
           "change_pct": 0.14,
-          "note": "工业制造韧性支撑"
+          "note": "上周五收盘 · 期货下跌"
         }
       },
+      "futures": {
+        "status": "Stock futures fall as oil prices rise; investors await key inflation reading",
+        "note": "特朗普威胁对伊朗发动新打击，Vance在瑞士牵头和谈"
+      },
       "fed": {
-        "note": "Warsh任美联储主席，维持利率不变，预计2026年加息；Warsh鹰派倾向超预期"
+        "note": "Warsh任美联储主席，'天鹅绒手套下的政权更迭' — 市场适应鹰派预期"
       }
     },
     "hongkong": {
       "name": "香港股市",
-      "status": "已收盘",
+      "status": "已收盘 (上周五)",
       "indices": {
         "hsi": {
           "name": "恒生指数",
@@ -47,56 +100,56 @@
       "assets": {
         "btc": {
           "name": "Bitcoin",
-          "price": 63266,
-          "change_24h_pct": 0.83
+          "price": 64505,
+          "change_24h_pct": 0.53
         },
         "eth": {
           "name": "Ethereum",
-          "price": 1713.14,
-          "change_24h_pct": 1.32
+          "price": 1744.20,
+          "change_24h_pct": 0.54
         },
         "sol": {
           "name": "Solana",
-          "price": 70.82,
-          "change_24h_pct": 3.41
+          "price": 74.32,
+          "change_24h_pct": 1.82
         },
         "xrp": {
           "name": "XRP",
           "price": 1.14,
-          "change_24h_pct": 0.76
+          "change_24h_pct": -0.36
         },
         "ada": {
           "name": "Cardano",
-          "price": 0.1614,
-          "change_24h_pct": 0.38
+          "price": 0.1610,
+          "change_24h_pct": -1.11
+        },
+        "link": {
+          "name": "Chainlink",
+          "price": 7.95,
+          "change_24h_pct": -0.07
         }
       }
     },
     "commodities": {
-      "oil": "油价：霍尔木兹海峡油轮交通恢复（美伊协议实施），布伦特原油价格松动",
-      "gold": "黄金：Comex黄金走低，美联储鹰派预期压制贵金属"
+      "oil": "油价上涨：特朗普威胁对伊朗发动新打击，伊朗和平谈判面临变数",
+      "gold": "Comex黄金走低，美联储鹰派预期压制贵金属"
     }
   },
   "headlines": [
-    "🇺🇸 美股：S&P 500 +1.06% · NASDAQ +1.87% · Dow +0.14% — 伊朗协议推动科技/芯片股大涨",
-    "🏛️ 美联储：Warsh主席维持利率不变，鹰派信号 — 多位成员暗示2026年加息",
-    "🛢️ 美伊协议：霍尔木兹海峡油轮交通恢复，油价回落",
-    "🧠 CNBC: AI基建投资让科技投资者关注债市新信号",
-    "💾 CNBC: 存储芯片危机极端化 — '连苹果也不安全'",
-    "🔐 CNBC: DOJ拒绝对'反武器化'基金做出书面承诺",
-    "🏗️ WSJ: 中国头部房企报告巨额亏损，房地产困境扩大",
-    "🌍 WSJ: 北约首次响应深海电缆疑似破坏事件",
-    "🇮🇱 WSJ: 巴勒斯坦民众徒步返回加沙北部",
-    "🇷🇼 WSJ: 卢旺达支持的叛军进入刚果安全城市",
-    "💵 CNBC: SpaceX持仓估值超1万亿美元，其他亿万富翁股东名单",
-    "📊 MarketWatch: Google重组凸显AI时代稀缺资源——人类大脑",
-    "🇮🇳 FT: 印度亿万富翁Mukesh Ambani申请Jio IPO"
+    "🔥 特朗普威胁对伊朗发动新打击，Vance在瑞士牵头和谈 — 油价上涨，期货下跌",
+    "🏛️ CNBC: Kevin Warsh '天鹅绒手套下的政权更迭' — 如何重塑美联储",
+    "📈 MarketWatch: 这轮牛市不会因为Warsh加息而结束",
+    "📊 投资者关注今日关键通胀数据",
+    "🔐 First Phosphate获G7关键矿产支持",
+    "🚗 Rivian再次裁员，RIVN股价承压",
+    "🏠 Robinhood支持废除多数交易者不知晓的市场规则",
+    "💾 存储芯片危机极端化 — '连苹果也不安全'"
   ],
   "geopolitical": {
-    "summary": "美伊协议实施中 · 霍尔木兹海峡恢复通行 · 北约首次响应海底电缆破坏 · 中东局势缓和但美联储鹰派压制风险偏好",
+    "summary": "美伊局势再度紧张·特朗普威胁新打击·Vance瑞士和谈中·油价上涨压制市场风险偏好",
     "key_events": [
-      "🇺🇸🇮🇷 美伊协议生效，霍尔木兹海峡油轮交通恢复",
-      "🏛️ Fed保持高利率预期，Warsh鹰派立场超市场预期",
+      "🇺🇸🇮🇷 特朗普威胁对伊朗发动新打击，伊朗和平协议执行面临变数",
+      "🏛️ Fed: 市场适应Warsh鹰派立场，关注本周通胀数据",
       "🔌 北约首次响应深海电缆疑似破坏事件"
     ]
   }

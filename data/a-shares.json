@@ -1,137 +1,91 @@
 {
-  "lastUpdated": "2026-06-22 11:35",
-  "type": "noon",
+  "date": "2026-06-22",
+  "updated_at": "2026-06-22T15:15:30+08:00",
   "indices": {
     "上证指数": {
-      "price": 4098.01,
-      "change": 7.53,
-      "change_pct": 0.18,
-      "high": 4106.08,
-      "low": 4070.17,
-      "open": 4093.95,
-      "pre_close": 4090.48,
-      "amount": 11325.7
+      "price": 4163.10,
+      "change_pct": 1.78,
+      "volume": null,
+      "amount": null
     },
     "深证成指": {
-      "price": 16077.2,
-      "change": 46.5,
-      "change_pct": 0.29,
-      "high": 16204.79,
-      "low": 15914.05,
-      "open": 16095.63,
-      "pre_close": 16030.7,
-      "amount": 13718.1
+      "price": 16372.50,
+      "change_pct": 2.13,
+      "volume": null,
+      "amount": null
     },
     "创业板指": {
-      "price": 4284.03,
-      "change": 31.64,
-      "change_pct": 0.74,
-      "high": 4326.91,
-      "low": 4229.31,
-      "open": 4272.99,
-      "pre_close": 4252.39,
-      "amount": 6891.9
+      "price": 4359.39,
+      "change_pct": 2.52,
+      "volume": null,
+      "amount": null
     },
     "沪深300": {
-      "price": 4976.14,
-      "change": 34.54,
-      "change_pct": 0.7,
-      "high": 4987.4,
-      "low": 4928.46,
-      "open": 4949.35,
-      "pre_close": 4941.6,
-      "amount": 7443.2
+      "price": 4862.80,
+      "change_pct": 0.83,
+      "volume": null,
+      "amount": null
+    },
+    "科创50": {
+      "price": null,
+      "change_pct": 1.96,
+      "volume": null,
+      "amount": null
+    },
+    "北证50": {
+      "price": null,
+      "change_pct": 0.50,
+      "volume": null,
+      "amount": null
     }
   },
-  "market_breadth": {
-    "total": 5527,
-    "up": 1234,
-    "down": 4244,
-    "flat": 49,
-    "limit_up": 115,
-    "limit_down": 25
+  "market_summary": {
+    "total_amount": 37620,
+    "amount_change": 4304,
+    "advancers": "超2900只",
+    "description": "A股三大指数今日集体上涨，市场成交额37620亿元创历史第二天量。上证指数涨1.78%，深证成指涨2.13%，创业板指涨2.52%再创历史新高。保险、证券板块集体大涨，新华保险、中信建投、广发证券涨停。培育钻石、磷化工、氟化工板块表现强劲。军工电子、汽车零部件、人形机器人板块跌幅居前。"
   },
-  "total_amount": 25209.0,
-  "top_gainers": [
-    {
-      "code": "920725",
-      "name": "惠丰钻石",
-      "price": 105.0,
-      "change_pct": 23.602,
-      "amount": 9.2
-    },
-    {
-      "code": "920175",
-      "name": "东方碳素",
-      "price": 11.52,
-      "change_pct": 21.008,
-      "amount": 1.3
-    },
-    {
-      "code": "688496",
-      "name": "*ST清越",
-      "price": 1.06,
-      "change_pct": 20.455,
-      "amount": 0.1
-    },
-    {
-      "code": "301071",
-      "name": "力量钻石",
-      "price": 91.92,
-      "change_pct": 20.0,
-      "amount": 32.2
-    },
-    {
-      "code": "301548",
-      "name": "崇德科技",
-      "price": 93.06,
-      "change_pct": 20.0,
-      "amount": 4.0
-    }
-  ],
-  "top_losers": [
-    {
-      "code": "300029",
-      "name": "天龙退",
-      "price": 0.16,
-      "change_pct": -20.0,
-      "amount": 0.0
-    },
-    {
-      "code": "688166",
-      "name": "博瑞医药",
-      "price": 35.39,
-      "change_pct": -18.098,
-      "amount": 9.1
-    },
-    {
-      "code": "920961",
-      "name": "创远信科",
-      "price": 21.69,
-      "change_pct": -16.737,
-      "amount": 1.9
-    },
-    {
-      "code": "300733",
-      "name": "西菱动力",
-      "price": 12.66,
-      "change_pct": -14.633,
-      "amount": 2.5
-    },
-    {
-      "code": "688671",
-      "name": "碧兴物联",
-      "price": 26.42,
-      "change_pct": -14.165,
-      "amount": 2.1
-    }
-  ],
+  "sectors": {
+    "top_gainers": [
+      "培育钻石",
+      "保险",
+      "小金属",
+      "证券",
+      "磷化工"
+    ],
+    "top_losers": [
+      "军工电子",
+      "汽车零部件",
+      "工业母机",
+      "教育",
+      "人形机器人"
+    ],
+    "market_highlights": [
+      "保险、证券板块集体大涨",
+      "培育钻石板块大幅拉升，惠丰钻石30cm涨停",
+      "磷化工、氟化工20余股涨停",
+      "AI硬件金刚石散热受关注",
+      "有色金属、游戏、煤炭开采同样表现活跃"
+    ]
+  },
   "north_flow": {
-    "status": "未获取到数据",
-    "note": "EastMoney API被网络阻断"
-  },
-  "industry_sectors": {
-    "status": "未获取到数据",
-    "note": "EastMoney API被网络阻断"
+    "note": "北向资金暂无实时净买入数据（交易状态码3）",
+    "sh_connect": {
+      "type": "沪股通",
+      "advancers": 850,
+      "decliners": 750,
+      "index_change_pct": 1.78
+    },
+    "sz_connect": {
+      "type": "深股通",
+      "advancers": 1012,
+      "decliners": 817,
+      "index_change_pct": 2.13
+    },
+    "south_flow": {
+      "sh_south": "港股通(沪) 净买入19.55亿",
+      "sz_south": "港股通(深) 净卖出34.59亿",
+      "heng_sheng_change": -0.37
+    }
   }
 }

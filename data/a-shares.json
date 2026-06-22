@@ -1,47 +1,137 @@
 {
-  "date": "2026-06-18",
-  "timestamp": "2026-06-18T15:00:00",
-  "market_status": "closed",
-  "note": "今日(6月19日)为端午节假期非交易日，数据为上一个交易日(6月18日)收盘",
+  "lastUpdated": "2026-06-22 11:35",
+  "type": "noon",
   "indices": {
     "上证指数": {
-      "price": 4090.48,
-      "prev_close": 4108.08,
-      "open": 4094.23,
-      "volume": 658116068,
-      "high": 4117.45,
-      "low": 4080.29,
-      "change_pct": -0.43
+      "price": 4098.01,
+      "change": 7.53,
+      "change_pct": 0.18,
+      "high": 4106.08,
+      "low": 4070.17,
+      "open": 4093.95,
+      "pre_close": 4090.48,
+      "amount": 11325.7
     },
     "深证成指": {
-      "price": 16030.7,
-      "prev_close": 15880.95,
-      "open": 15826.79,
-      "volume": 764976920,
-      "high": 16104.77,
-      "low": 15825.32,
-      "change_pct": 0.94
+      "price": 16077.2,
+      "change": 46.5,
+      "change_pct": 0.29,
+      "high": 16204.79,
+      "low": 15914.05,
+      "open": 16095.63,
+      "pre_close": 16030.7,
+      "amount": 13718.1
     },
     "创业板指": {
-      "price": 4252.39,
-      "prev_close": 4167.05,
-      "open": 4153.62,
-      "volume": 226559938,
-      "high": 4272.01,
-      "low": 4153.62,
-      "change_pct": 2.05
+      "price": 4284.03,
+      "change": 31.64,
+      "change_pct": 0.74,
+      "high": 4326.91,
+      "low": 4229.31,
+      "open": 4272.99,
+      "pre_close": 4252.39,
+      "amount": 6891.9
     },
     "沪深300": {
-      "price": 4941.6,
-      "prev_close": 4931.39,
-      "open": 4916.04,
-      "volume": 334459902,
-      "high": 4976.89,
-      "low": 4916.04,
-      "change_pct": 0.21
+      "price": 4976.14,
+      "change": 34.54,
+      "change_pct": 0.7,
+      "high": 4987.4,
+      "low": 4928.46,
+      "open": 4949.35,
+      "pre_close": 4941.6,
+      "amount": 7443.2
     }
   },
-  "sectors": {
-    "note": "板块数据通过Sina接口获取失败（AkShare EastMoney接口因代理问题不可达）"
+  "market_breadth": {
+    "total": 5527,
+    "up": 1234,
+    "down": 4244,
+    "flat": 49,
+    "limit_up": 115,
+    "limit_down": 25
+  },
+  "total_amount": 25209.0,
+  "top_gainers": [
+    {
+      "code": "920725",
+      "name": "惠丰钻石",
+      "price": 105.0,
+      "change_pct": 23.602,
+      "amount": 9.2
+    },
+    {
+      "code": "920175",
+      "name": "东方碳素",
+      "price": 11.52,
+      "change_pct": 21.008,
+      "amount": 1.3
+    },
+    {
+      "code": "688496",
+      "name": "*ST清越",
+      "price": 1.06,
+      "change_pct": 20.455,
+      "amount": 0.1
+    },
+    {
+      "code": "301071",
+      "name": "力量钻石",
+      "price": 91.92,
+      "change_pct": 20.0,
+      "amount": 32.2
+    },
+    {
+      "code": "301548",
+      "name": "崇德科技",
+      "price": 93.06,
+      "change_pct": 20.0,
+      "amount": 4.0
+    }
+  ],
+  "top_losers": [
+    {
+      "code": "300029",
+      "name": "天龙退",
+      "price": 0.16,
+      "change_pct": -20.0,
+      "amount": 0.0
+    },
+    {
+      "code": "688166",
+      "name": "博瑞医药",
+      "price": 35.39,
+      "change_pct": -18.098,
+      "amount": 9.1
+    },
+    {
+      "code": "920961",
+      "name": "创远信科",
+      "price": 21.69,
+      "change_pct": -16.737,
+      "amount": 1.9
+    },
+    {
+      "code": "300733",
+      "name": "西菱动力",
+      "price": 12.66,
+      "change_pct": -14.633,
+      "amount": 2.5
+    },
+    {
+      "code": "688671",
+      "name": "碧兴物联",
+      "price": 26.42,
+      "change_pct": -14.165,
+      "amount": 2.1
+    }
+  ],
+  "north_flow": {
+    "status": "未获取到数据",
+    "note": "EastMoney API被网络阻断"
+  },
+  "industry_sectors": {
+    "status": "未获取到数据",
+    "note": "EastMoney API被网络阻断"
   }
 }

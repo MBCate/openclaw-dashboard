@@ -1,91 +1,175 @@
 {
-  "date": "2026-06-22",
-  "updated_at": "2026-06-22T15:15:30+08:00",
-  "indices": {
-    "上证指数": {
-      "price": 4163.10,
-      "change_pct": 1.78,
-      "volume": null,
-      "amount": null
+  "timestamp": "2026-06-23 11:39:32",
+  "date": "2026-06-23",
+  "period": "noon",
+  "indexes": {
+    "shanghai": {
+      "name": "上证指数",
+      "code": "000001",
+      "price": 4147.55,
+      "change_pct": -0.37,
+      "change_amt": -15.55,
+      "turnover": 0.0,
+      "main_flow": -351.0
     },
-    "深证成指": {
-      "price": 16372.50,
-      "change_pct": 2.13,
-      "volume": null,
-      "amount": null
+    "shenzhen": {
+      "name": "深证成指",
+      "code": "399001",
+      "price": 16072.11,
+      "change_pct": -1.83,
+      "change_amt": -300.39,
+      "turnover": 0.0,
+      "main_flow": -446.9
     },
-    "创业板指": {
-      "price": 4359.39,
-      "change_pct": 2.52,
-      "volume": null,
-      "amount": null
+    "chinet": {
+      "name": "创业板指",
+      "code": "399006",
+      "price": 4260.49,
+      "change_pct": -2.27,
+      "change_amt": -98.9,
+      "turnover": 0.0,
+      "main_flow": -221.5
     },
-    "沪深300": {
-      "price": 4862.80,
-      "change_pct": 0.83,
-      "volume": null,
-      "amount": null
-    },
-    "科创50": {
-      "price": null,
-      "change_pct": 1.96,
-      "volume": null,
-      "amount": null
-    },
-    "北证50": {
-      "price": null,
-      "change_pct": 0.50,
-      "volume": null,
-      "amount": null
+    "hs300": {
+      "name": "沪深300",
+      "code": "399300",
+      "price": 4982.18,
+      "change_pct": -1.53,
+      "change_amt": -77.48,
+      "turnover": 0.0,
+      "main_flow": -398.8
     }
-  },
-  "market_summary": {
-    "total_amount": 37620,
-    "amount_change": 4304,
-    "advancers": "超2900只",
-    "description": "A股三大指数今日集体上涨，市场成交额37620亿元创历史第二天量。上证指数涨1.78%，深证成指涨2.13%，创业板指涨2.52%再创历史新高。保险、证券板块集体大涨，新华保险、中信建投、广发证券涨停。培育钻石、磷化工、氟化工板块表现强劲。军工电子、汽车零部件、人形机器人板块跌幅居前。"
   },
   "sectors": {
     "top_gainers": [
-      "培育钻石",
-      "保险",
-      "小金属",
-      "证券",
-      "磷化工"
+      {
+        "name": "化学制药",
+        "price": 33771.03,
+        "change_pct": 3.99
+      },
+      {
+        "name": "原料药",
+        "price": 3614.3,
+        "change_pct": 4.45
+      },
+      {
+        "name": "生物制品",
+        "price": 7162.79,
+        "change_pct": 4.64
+      },
+      {
+        "name": "化学原料",
+        "price": 3328.39,
+        "change_pct": 3.94
+      },
+      {
+        "name": "医疗研发外包",
+        "price": 6415.28,
+        "change_pct": 3.86
+      }
     ],
     "top_losers": [
-      "军工电子",
-      "汽车零部件",
-      "工业母机",
-      "教育",
-      "人形机器人"
+      {
+        "name": "汽车零部件",
+        "change_pct": -3.8
+      },
+      {
+        "name": "白色家电",
+        "change_pct": -2.8
+      },
+      {
+        "name": "房地产",
+        "change_pct": -5.8
+      },
+      {
+        "name": "养殖业",
+        "change_pct": -4.0
+      },
+      {
+        "name": "电机",
+        "change_pct": -3.3
+      }
+    ]
+  },
+  "market_overview": {
+    "up_stocks": 529,
+    "down_stocks": 134,
+    "limit_up": 68,
+    "limit_down": 4,
+    "total_stocks": 3889,
+    "hot_topics": [
+      "基础化工",
+      "小金属概念",
+      "通信技术"
     ],
-    "market_highlights": [
-      "保险、证券板块集体大涨",
-      "培育钻石板块大幅拉升，惠丰钻石30cm涨停",
-      "磷化工、氟化工20余股涨停",
-      "AI硬件金刚石散热受关注",
-      "有色金属、游戏、煤炭开采同样表现活跃"
+    "market_temp": "强修复"
+  },
+  "fund_flow": {
+    "strong_sectors": [
+      {
+        "name": "证券",
+        "net_flow": 156,
+        "deviation": 5.9
+      },
+      {
+        "name": "电池",
+        "net_flow": 84,
+        "deviation": 4.0
+      },
+      {
+        "name": "工业金属",
+        "net_flow": 69,
+        "deviation": 4.5
+      },
+      {
+        "name": "化学制品",
+        "net_flow": 27,
+        "deviation": 2.5
+      },
+      {
+        "name": "能源金属",
+        "net_flow": 23,
+        "deviation": 4.6
+      }
+    ],
+    "weak_sectors": [
+      {
+        "name": "汽车零部件",
+        "net_flow": -45,
+        "deviation": -3.8
+      },
+      {
+        "name": "白色家电",
+        "net_flow": -15,
+        "deviation": -2.8
+      },
+      {
+        "name": "房地产",
+        "net_flow": -10,
+        "deviation": -5.8
+      },
+      {
+        "name": "电机",
+        "net_flow": -6,
+        "deviation": -3.3
+      },
+      {
+        "name": "养殖业",
+        "net_flow": -3,
+        "deviation": -4.0
+      }
     ]
   },
   "north_flow": {
-    "note": "北向资金暂无实时净买入数据（交易状态码3）",
-    "sh_connect": {
-      "type": "沪股通",
-      "advancers": 850,
-      "decliners": 750,
-      "index_change_pct": 1.78
-    },
-    "sz_connect": {
-      "type": "深股通",
-      "advancers": 1012,
-      "decliners": 817,
-      "index_change_pct": 2.13
-    },
-    "south_flow": {
-      "sh_south": "港股通(沪) 净买入19.55亿",
-      "sz_south": "港股通(深) 净卖出34.59亿",
-      "heng_sheng_change": -0.37
-    }
+    "sh_net": "待更新（午盘数据尚未发布）",
+    "sz_net": "待更新",
+    "total_net": "待更新",
+    "note": "北向资金数据通常在午间休市后更新"
+  },
+  "global_context": {
+    "kospi_change": -4.5,
+    "silver_futures_change": -4.0,
+    "kospi_sidecar": true,
+    "note": "韩国KOSPI指数盘中下跌4.5%触发sidecar机制"
   }
 }

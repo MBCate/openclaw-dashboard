@@ -1,71 +1,61 @@
 {
-  "date": "2026-06-22",
-  "updated_at": "2026-06-22T15:15:30+08:00",
-  "crypto": {
+  "date": "2026-06-23",
+  "update_time": "2026-06-23 15:05 CST",
+  "strategies": {
     "BTC/USDT": {
-      "price": 64253.90,
-      "change_24h": -0.01,
-      "rsi_1h": null,
-      "trend_4h": "偏空",
-      "summary": "BTC震荡偏空，MACD 4H死叉，RSI=26.7偏低"
+      "price": 64253.9,
+      "change_24h": "-0.72%",
+      "signals_1h": {
+        "RSI": "观望",
+        "MACD": "做多",
+        "Bollinger": "观望",
+        "Supertrend": "观望",
+        "DoubleMa": "观望",
+        "TripleMa": "做多",
+        "Momentum": "做多",
+        "MeanReversion": "观望"
+      },
+      "signals_4h": {
+        "RSI": "观望",
+        "MACD": "观望",
+        "Bollinger": "观望",
+        "Supertrend": "观望",
+        "DoubleMa": "做多",
+        "TripleMa": "观望",
+        "Momentum": "观望",
+        "MeanReversion": "观望"
+      },
+      "indicators_1h": {
+        "rsi": 51.4,
+        "macd_status": "金叉",
+        "trend": "偏多"
+      },
+      "indicators_4h": {
+        "rsi": 60.0,
+        "macd_status": "金叉",
+        "trend": "偏多"
+      }
     },
     "ETH/USDT": {
       "price": 1746.14,
-      "change_24h": 0.62,
-      "rsi_1h": null,
-      "trend_4h": "偏空",
-      "summary": "ETH微涨，4H MACD死叉，RSI=26.9偏低"
+      "change_24h": "+0.62%",
+      "signals": {},
+      "indicators_1h": {
+        "rsi": 58.9,
+        "macd_status": "金叉",
+        "trend": "偏多"
+      },
+      "indicators_4h": {
+        "rsi": 61.9,
+        "macd_status": "金叉",
+        "trend": "偏多"
+      }
     }
   },
-  "futures": {
-    "沪金主力": {"price": 937.96, "change_pct": -0.53},
-    "沪银主力": {"price": 16493.0, "change_pct": -2.21},
-    "沪铜主力": {"price": 104860.0, "change_pct": -0.58},
-    "螺纹钢主力": {"price": 3131.0, "change_pct": -0.76},
-    "沪深300期货": {"price": 4862.8, "change_pct": 0.83},
-    "中证500期货": {"price": 8517.4, "change_pct": 1.05}
+  "fear_greed": {
+    "value": 20,
+    "classification": "极度恐慌"
   },
-  "strategies": [
-    {
-      "name": "DoubleMa",
-      "status": "no_signal",
-      "note": "采集脚本未输出当日信号，需确认策略运行状态"
-    },
-    {
-      "name": "TripleMa",
-      "status": "no_signal",
-      "note": "同上"
-    },
-    {
-      "name": "Supertrend",
-      "status": "no_signal",
-      "note": "同上"
-    },
-    {
-      "name": "RSI",
-      "status": "no_signal",
-      "note": "同上"
-    },
-    {
-      "name": "MACD",
-      "status": "no_signal",
-      "note": "同上"
-    },
-    {
-      "name": "Bollinger",
-      "status": "no_signal",
-      "note": "同上"
-    },
-    {
-      "name": "Momentum",
-      "status": "no_signal",
-      "note": "同上"
-    },
-    {
-      "name": "MeanReversion",
-      "status": "no_signal",
-      "note": "同上"
-    }
-  ],
-  "signals": null
+  "crypto_news_highlight": "Morgan Stanley提交低费率ETH/SOL ETF申请",
+  "note": "A股收盘数据来源：新浪财经实时行情; HelloQuant策略报告数据截至6/22 15:15"
 }

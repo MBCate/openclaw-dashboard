@@ -1,133 +1,157 @@
 {
-  "updated": "2026-06-22T21:30:00+08:00",
-  "source": "market-intel evening scan",
-  "date_note": "晚间国际市场数据 · 美股盘中实时 · 中东局势改善推动反弹",
+  "updated": "2026-06-23T09:15:00+08:00",
+  "source": "market-intel morning scan",
+  "date_note": "早盘预览 · A股开盘10分钟 · 美股科技股承压拖累全球",
   "markets": {
     "china": {
       "name": "A股",
-      "status": "🇨🇳 已收盘 · 6月22日",
+      "status": "🇨🇳 盘中 · 开盘10分钟",
       "indices": {
         "shanghai": {
           "name": "上证指数",
-          "price": 4088.89,
-          "change_pct": -0.04,
-          "high": 4095.14,
-          "low": 4077.44
+          "price": 4149.25,
+          "change_pct": -0.33,
+          "open": 4153.59,
+          "high": 4153.59,
+          "low": 4149.25
         },
         "shenzhen": {
           "name": "深证成指",
-          "price": 16139.98,
-          "change_pct": 0.68,
-          "high": 16146.96,
-          "low": 16003.63
+          "price": 16286.89,
+          "change_pct": -0.52,
+          "open": 16324.24,
+          "high": 16324.24,
+          "low": 16285.01
         },
         "chi_next": {
           "name": "创业板指",
-          "price": 4295.76,
-          "change_pct": 1.02,
-          "high": 4297.99,
-          "low": 4242.28
+          "price": 4331.38,
+          "change_pct": -0.64,
+          "open": 4343.88,
+          "high": 4343.88,
+          "low": 4331.38
         },
         "hs300": {
           "name": "沪深300",
-          "price": 4957.83,
-          "change_pct": 0.33,
-          "high": 4962.88,
-          "low": 4928.46
+          "price": 5041.71,
+          "change_pct": -0.35,
+          "open": 5048.03,
+          "high": 5048.03,
+          "low": 5041.71
         }
+      },
+      "key_stocks": {
+        "maotai": {"name": "贵州茅台", "price": 1245.11, "change_pct": 0.30},
+        "kweichow_moutai": {"name": "五粮液", "price": 77.00, "change_pct": 0.59},
+        "catl": {"name": "宁德时代", "price": 407.69, "change_pct": -0.32},
+        "pingan": {"name": "中国平安", "price": 51.69, "change_pct": -0.56},
+        "petrochina": {"name": "中国石油", "price": 9.68, "change_pct": 0.00}
       }
     },
     "hongkong": {
       "name": "香港股市",
-      "status": "🇭🇰 已收盘 · 6月22日",
+      "status": "🇭🇰 未开盘（9:30开盘）",
       "indices": {
         "hsi": {
           "name": "恒生指数",
-          "price": 23768.52,
-          "change_pct": -0.65
+          "price": null,
+          "change_pct": null,
+          "note": "9:30开盘，参考昨日收盘 23768.52 (-0.65%)"
         }
       }
     },
     "us": {
       "name": "美国股市",
-      "status": "🇺🇸 盘中 · 中东和平预期推动反弹",
+      "status": "🇺🇸 已收盘 · 6月22日 · 科技股承压",
       "indices": {
         "sp500": {
           "name": "S&P 500",
-          "price": 7512.55,
-          "change_pct": 0.16,
-          "note": "周一收盘 · US500触及7523高点"
+          "price": 7472.79,
+          "change_pct": -0.37,
+          "high": 7530.01,
+          "low": 7460.01,
+          "note": "AI板块拖累，Big Tech分化"
         },
         "nasdaq": {
           "name": "NASDAQ",
-          "price": 26476.70,
-          "change_pct": -0.16,
-          "note": "AI板块继续承压，AMZN/ORCL/META跌超2%"
+          "price": 26166.60,
+          "change_pct": -1.32,
+          "high": 26561.12,
+          "low": 26125.48,
+          "note": "Alphabet最差单日表现（AI高管离职），SpaceX跌16%"
         },
         "dowjones": {
           "name": "道琼斯",
-          "price": 51763.10,
-          "change_pct": 0.38,
-          "note": "涨超200点，受工业制造和芯片股支撑"
+          "price": 51712.71,
+          "change_pct": 0.29,
+          "high": 51887.85,
+          "low": 51555.19,
+          "note": "工业制造和能源板块支撑"
         }
       },
       "futures": {
-        "status": "股指期货小幅走高，伊朗称美伊和谈取得重大进展",
-        "note": "双方同意在两个月内达成和平协议"
+        "status": "美股指期货盘前小幅波动",
+        "note": "关注美伊谈判进展及美联储利率预期"
       },
       "fed": {
-        "note": "Warsh美联储主席表态维稳，市场适应偏鹰预期。通胀环境暗示利率维持高位"
+        "note": "Goldman Sachs建议配置利率冲击对冲。Warsh维稳，市场适应偏鹰"
       }
     },
     "crypto": {
       "name": "加密货币",
-      "status": "24h涨跌 (数据来源: CoinGecko)",
+      "status": "24h涨跌（CoinGecko）",
       "assets": {
         "btc": {
           "name": "Bitcoin",
-          "price": 65210,
-          "change_24h_pct": 1.93
+          "price": 64115,
+          "change_24h_pct": -0.57
         },
         "eth": {
           "name": "Ethereum",
-          "price": 1769.74,
-          "change_24h_pct": 2.85
+          "price": 1731.31,
+          "change_24h_pct": -0.76
         }
       },
-      "highlights": "MicroStrategy再买3490万美元BTC；加密货币整体反弹"
+      "highlights": "BTC小跌整理，CoinDesk报道Andrew Cuomo将带领NYSE母公司联合OKX"
     },
     "commodities": {
       "oil": {
         "name": "WTI原油",
-        "price": 74.14,
-        "change_pct": -2.25,
-        "note": "美伊和谈取得进展，能源供应担忧缓解"
+        "price": 74.22,
+        "change_pct": "日盘 +0.05%",
+        "note": "美伊谈判进展不定，Trump不保证控制伊朗重建军力，Citi认为overhang将消失"
       },
       "gold": {
-        "name": "黄金",
-        "price": 4204.40,
-        "change_pct": -0.98,
-        "note": "风险偏好回升压制金价，美债收益率偏稳"
+        "name": "纽约黄金",
+        "price": 4193.40,
+        "change_pct": "日盘 -0.41%",
+        "note": "风险偏好回升压制金价"
+      },
+      "natural_gas": {
+        "name": "美国天然气",
+        "price": 3.218,
+        "change_pct": "日盘 -0.56%",
+        "note": ""
       }
     }
   },
   "headlines": [
-    "Vance称美伊和谈取得'重大进展'，双方同意两个月内达成和平协议",
-    "Alan Greenspan逝世，享年100岁 — 前美联储主席的传奇生涯落幕",
-    "英国首相Starmer辞职，英国面临十年内第七位首相",
-    "MicroStrategy再购3490万美元BTC，Michael Saylor持续加码",
-    "美芯片股延续反弹：Micron/SanDisk涨5%；AI巨头继续承压",
-    "SpaceX宣布新一轮债券融资，股价跌5%但仍高于IPO 40%",
-    "AbbVie以109亿美元现金收购Apogee Therapeutics",
-    "超400艘船只在霍尔木兹海峡附近等待海峡完全重新开放",
-    "中国绿色出口对美激增，AI热潮和伊朗战争推高需求"
+    "Alphabet遭遇逾一年最差单日，AI高管接连离职引发担忧",
+    "SpaceX股价再跌16%，IPO后涨势完全逆转，市值蒸发超4000亿美元",
+    "Vance称美伊和谈取得'成功基础'，Trump：不保证伊朗不用石油利润重建军力",
+    "日本Katayama确认与Bessent会谈，讨论外汇协议，日元干预风险上升",
+    "英首相Starmer辞职，英国面临十年内第七位首相",
+    "Goldman Sachs推荐利率冲击最佳对冲策略",
+    "Tesla因Model 3撞入德州住宅致76岁老人死亡面临联邦调查",
+    "Chevron与Microsoft签约涉足AI数据中心电力生产",
+    "Andrew Cuomo将领导NYSE母公司联合OKX成立加密合资企业"
   ],
   "geopolitical": {
-    "summary": "美伊和谈取得重大进展，双方同意两个月内达成和平协议；能源价格回落，全球风险偏好回升",
+    "summary": "美伊谈判继续推进但Trump立场模糊。日本央行干预预期升温。英国政局再动荡",
     "key_events": [
-      "美伊在瑞士由副总统Vance牵头谈判，双方及地区代表参与",
-      "伊朗称谈判取得'重大进展'，原油应声下跌",
-      "霍尔木兹海峡缓慢恢复通航，超400艘船只等待"
+      "美伊在瑞士谈判仍在进行，Vance称有了'成功基础'但Trump不承诺约束伊朗",
+      "日本与美方讨论外汇协议，日元走强预期升温",
+      "英国Starmer辞职，政坛不确定性持续"
     ]
   }
 }

@@ -1,20 +1,45 @@
 {
   "_meta": {
-    "updated": "2026-06-23T21:30:00+08:00",
-    "source": "CNBC RSS / CoinGecko / CNBC articles"
+    "updated": "2026-06-24T09:15:00+08:00",
+    "source": "CNBC RSS / AP News / Benzinga / MarketWatch / CNBC Asia",
+    "note": "早盘预览 - A股开盘前"
   },
   "us_markets": {
-    "snapshot": "June 23, 2026 · 9:36 AM EDT (mid-session)",
-    "s&p_500": { "change_pct": -1.6, "direction": "down" },
-    "nasdaq": { "change_pct": -2.4, "direction": "down" },
-    "dow_jones": { "change_pct": -0.7, "pts": -363, "direction": "down" },
+    "snapshot": "June 23, 2026 · Close",
+    "s&p_500": {
+      "close": 7365.46,
+      "change_pct": -1.44,
+      "points": -107.33,
+      "direction": "down",
+      "ytd_pct": 7.6
+    },
+    "nasdaq": {
+      "close": 25587.04,
+      "change_pct": -2.21,
+      "points": -579.56,
+      "direction": "down",
+      "ytd_pct": 10.1
+    },
+    "dow_jones": {
+      "close": 51666.84,
+      "change_pct": -0.09,
+      "pts": -45.87,
+      "direction": "down",
+      "ytd_pct": 7.5
+    },
+    "russell_2000": {
+      "close": 2975.48,
+      "change_pct": -1.0,
+      "ytd_pct": 19.9
+    },
     "key_movers": {
-      "micron": -12.0,
-      "sandisk": -11.0,
+      "micron": -13.2,
+      "sandisk": -13.0,
       "seagate": -7.0,
-      "intel": -7.0,
-      "amd": -6.0,
-      "qualcomm": -7.0,
+      "intel": -5.0,
+      "amd": -5.0,
+      "qualcomm": -5.0,
+      "cerebras": -10.0,
       "spacex": -2.0,
       "alphabet": -2.0,
       "xlk_etf": -3.0,
@@ -23,46 +48,118 @@
       "jnj": 3.0
     },
     "key_events": [
-      "全球芯片板块暴跌：SK海力士-12%，韩国KOSPI暴跌-10%",
-      "日本日经-3.55%，终结8连涨",
-      "SpaceX跌破IPO发行价$150，连续4日下跌",
-      "美光科技将周三盘后公布财报",
-      "Alphabet因AI人才流失再跌-2%",
-      "AMC跌-23%宣布$2亿增发"
+      "全球芯片股暴跌：美光-13.2%、SanDisk-13%，费城半导体指数大跌",
+      "AI回调引发市场担忧，利率加息预期升温",
+      "韩国KOSPI暴跌-10%创年内最大单日跌幅",
+      "Cerebras财报后-10%，指引利润率收窄",
+      "SpaceX跌破IPO发行价$150后宣布$250亿债务融资",
+      "Alphabet被纳入道琼斯指数，替换Verizon",
+      "美国伊朗石油制裁60天豁免：允许伊朗以美元出口石油"
     ]
   },
   "asia_markets": {
-    "kospi": -10.0,
-    "nikkei_225": -3.55,
-    "hk_hang_seng": "待收盘更新",
-    "shanghai_composite": "待收盘更新",
-    "note": "韩国KOSPI年内涨幅+95%被大幅回吐；SK海力士领跌全球芯片"
+    "premarket_asia": {
+      "note": "亚洲6/24早盘：科技股报复性反弹",
+      "kospi": "+3.0% (反弹)",
+      "samsung": "+9.0%",
+      "sk_hynix": "+4.0%",
+      "nikkei_225": "小幅反弹中"
+    },
+    "june_23_close": {
+      "kospi": -10.0,
+      "nikkei_225": -3.55,
+      "shanghai_composite": 4144.44,
+      "shenzhen_component": "待更新",
+      "csi_300": 4919.39,
+      "csi_300_change_pct": -2.77,
+      "hk_hang_seng": "待收盘更新",
+      "note": "韩国KOSPI暴涨后大幅回吐，年内涨幅仍+95%→~85%左右"
+    }
   },
   "europe_markets": {
     "stoxx_600": -1.0,
     "stoxx_600_tech": -3.0,
-    "key_movers": ["ASMI -6%", "STMicroelectronics -6%"]
+    "key_movers": [
+      "ASMI -6%",
+      "STMicroelectronics -6%"
+    ]
   },
   "crypto": {
-    "bitcoin": { "price_usd": 62237, "change_24h_pct": -4.65, "market_cap": 1.25 },
-    "ethereum": { "price_usd": 1655, "change_24h_pct": -6.49, "market_cap": 0.20 },
-    "solana": { "price_usd": 68.94, "change_24h_pct": -7.62, "market_cap": 0.04 },
-    "ripple": { "price_usd": 1.10, "change_24h_pct": -4.91, "market_cap": 0.07 },
-    "dogecoin": { "price_usd": 0.0794, "change_24h_pct": -6.15, "market_cap": 0.012 }
+    "bitcoin": {
+      "price_usd": 62237,
+      "change_24h_pct": -4.65,
+      "market_cap_b": 1250
+    },
+    "ethereum": {
+      "price_usd": 1655,
+      "change_24h_pct": -6.49,
+      "market_cap_b": 200
+    },
+    "solana": {
+      "price_usd": 68.94,
+      "change_24h_pct": -7.62,
+      "market_cap_b": 40
+    },
+    "ripple": {
+      "price_usd": 1.10,
+      "change_24h_pct": -4.91,
+      "market_cap_b": 70
+    },
+    "dogecoin": {
+      "price_usd": 0.0794,
+      "change_24h_pct": -6.15,
+      "market_cap_b": 12
+    }
   },
   "commodities": {
-    "oil_note": "美国解除伊朗石油制裁豁免，释放约6700万桶伊朗原油浮动库存，霍尔木兹海峡保持开放",
-    "gold_note": "黄金下跌（彭博），受科技抛售波及"
+    "oil_note": "美国解除伊朗石油制裁豁免（60天），释放约6700万桶伊朗原油浮动库存，霍尔木兹海峡保持开放",
+    "gold_note": "黄金下跌，受科技抛售波及"
   },
   "geopolitics": {
     "us_iran": "美国财政部颁发60天通用许可（General License X），允许伊朗以美元进行石油、石化产品销售，为1979年以来首次",
-    "strait_of_hormuz": "Trump宣布霍尔木兹海峡保持开放，但保留封锁选项"
+    "strait_of_hormuz": "Trump宣布霍尔木兹海峡保持开放，但保留封锁选项",
+    "housing_bill": "跨党派住房法案推进，或限制华尔街机构购房"
   },
   "headlines": [
-    { "source": "CNBC", "title": "Stocks tumble on global chip rout with Nasdaq off 2%, led by Micron", "url": "https://www.cnbc.com/2026/06/22/stock-market-today-live-updates.html" },
-    { "source": "CNBC", "title": "SpaceX stock falls below $150 debut price, sending market cap under $2 trillion", "url": "https://www.cnbc.com/2026/06/23/spacex-stock-tech-sell-off.html" },
-    { "source": "CNBC", "title": "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in revenue for Tehran", "url": "https://www.cnbc.com/2026/06/23/us-iran-oil-sanction-relief-strait-of-hormuz-peace-deal-.html" },
-    { "source": "Bloomberg", "title": "Stocks Slide as Wall Street Gets AI Wake-Up Call: Markets Wrap", "url": "https://www.bloomberg.com/news/articles/2026-06-22/asian-stocks-set-for-gains-as-oil-holds-losses-markets-wrap" },
-    { "source": "MarketWatch", "title": "Investor assumptions about the AI trade are starting to stretch reality, Goldman Sachs says", "url": "https://www.marketwatch.com/story/investor-assumptions-about-the-ai-trade-are-starting-to-stretch-reality-goldman-sachs-says-0f39d408" }
+    {
+      "source": "CNBC",
+      "title": "Asian tech stocks rebound after global rout; Samsung up 9%",
+      "url": "https://www.cnbc.com/2026/06/24/asia-tech-stocks-rebound-after-global-rout.html"
+    },
+    {
+      "source": "AP News",
+      "title": "S&P 500 falls 1.4%, Nasdaq 2.2% on AI-tech rout; Dow holds nearly flat",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-8a525396331d3cf41e9a341026c005e7"
+    },
+    {
+      "source": "CNBC",
+      "title": "Stocks tumble on global chip rout with Nasdaq off 2%, led by Micron",
+      "url": "https://www.cnbc.com/2026/06/22/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "CNBC",
+      "title": "SpaceX stock falls below $150 debut price, raises $25B in debt sale",
+      "url": "https://www.cnbc.com/2026/06/23/spacex-stock-tech-sell-off.html"
+    },
+    {
+      "source": "CNBC",
+      "title": "U.S. issues sweeping Iran oil sanctions waivers",
+      "url": "https://www.cnbc.com/2026/06/23/us-iran-oil-sanction-relief-strait-of-hormuz-peace-deal-.html"
+    },
+    {
+      "source": "CNBC",
+      "title": "Alphabet added to Dow Jones Industrial Average, replacing Verizon",
+      "url": "https://www.cnbc.com/2026/06/23/alphabet-verizon-dow-djia.html"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Alphabet's stock is set to join the Dow, pivoting index's industrial roots toward tech",
+      "url": "https://www.marketwatch.com/story/alphabets-stock-is-set-to-join-the-dow-heres-which-company-is-getting-the-boot-73453ca7"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Goldman Sachs: Investor assumptions about AI trade are starting to stretch reality",
+      "url": "https://www.marketwatch.com/story/investor-assumptions-about-the-ai-trade-are-starting-to-stretch-reality-goldman-sachs-says-0f39d408"
+    }
   ]
 }

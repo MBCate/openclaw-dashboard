@@ -1,15 +1,39 @@
 {
-  "date": "2026-06-23",
-  "update_time": "2026-06-23 15:05 CST",
-  "indices": {
-    "上证指数": { "price": 4106.25, "change": -56.84, "change_pct": -1.37, "volume_hand": 7090039, "amount_yi": 1594.54 },
-    "深证成指": { "price": 15854.20, "change": -518.30, "change_pct": -3.17, "volume_hand": 8074551, "amount_yi": 1846.20 },
-    "创业板指": { "price": 4192.19, "change": -167.20, "change_pct": -3.84, "volume_hand": 523764, "amount_yi": 429.69 },
-    "沪深300": { "price": 4919.39, "change": -140.27, "change_pct": -2.77, "volume_hand": 342719, "amount_yi": 1047.05 }
+  "updateTime": "2026-06-24 11:50",
+  "date": "2026-06-24",
+  "shanghai": {
+    "name": "上证指数",
+    "price": 3142.06,
+    "change": -0.88,
+    "changeAmount": -27.74,
+    "high": 3156.78,
+    "low": 3115.63,
+    "prevClose": 3169.80,
+    "amount": 119.35
   },
-  "total_turnover_yi": 3440.74,
-  "note": "端午节后首个交易日全线回调，三大指数集体收跌。创业板指跌近4%。前期强势的有色、贵金属板块大幅回调。",
-  "board_industry_top": [],
-  "board_industry_bottom": [],
-  "north_flow": {}
+  "shenzhen": {
+    "name": "深证成指",
+    "price": 9299.83,
+    "change": -0.89,
+    "changeAmount": -83.31,
+    "high": 9303.92,
+    "low": 9227.52,
+    "prevClose": 9383.14,
+    "amount": 101.75
+  },
+  "chuangyeboard": {
+    "name": "创业板指",
+    "price": 2175.36,
+    "change": -1.31,
+    "changeAmount": -28.86,
+    "high": 2176.76,
+    "low": 2151.88,
+    "prevClose": 2204.22,
+    "amount": null
+  },
+  "northFlow": null,
+  "sectorTop": null,
+  "sectorBottom": null,
+  "stockStats": null,
+  "_note": "由于网络限制,push2.eastmoney.com 无法访问。仅三大指数数据来自新浪/腾讯。板块和北向数据需通过网关直连更新。"
 }

@@ -1,39 +1,67 @@
 {
-  "updateTime": "2026-06-24 11:50",
   "date": "2026-06-24",
-  "shanghai": {
-    "name": "上证指数",
-    "price": 3142.06,
-    "change": -0.88,
-    "changeAmount": -27.74,
-    "high": 3156.78,
-    "low": 3115.63,
-    "prevClose": 3169.80,
-    "amount": 119.35
+  "update_time": "15:30",
+  "source": "Sina Finance / 中国经济网",
+  "indices": [
+    {
+      "name": "上证指数",
+      "code": "000001",
+      "price": 4110.81,
+      "change_pct": 0.11,
+      "change_amount": 4.56,
+      "high": null,
+      "low": null,
+      "volume": null,
+      "amount": 15141.93
+    },
+    {
+      "name": "深证成指",
+      "code": "399001",
+      "price": 16051.32,
+      "change_pct": 1.24,
+      "change_amount": null,
+      "high": null,
+      "low": null,
+      "volume": null,
+      "amount": 17701.24
+    },
+    {
+      "name": "创业板指",
+      "code": "399006",
+      "price": 4251.42,
+      "change_pct": 1.41,
+      "change_amount": null,
+      "high": null,
+      "low": null,
+      "volume": null,
+      "amount": 8474.21
+    },
+    {
+      "name": "沪深300",
+      "code": "000300",
+      "price": 4943.02,
+      "change_pct": 0.48,
+      "change_amount": null,
+      "high": null,
+      "low": null,
+      "volume": null,
+      "amount": null
+    }
+  ],
+  "sectors": {
+    "top5": [
+      {"name": "能源金属", "change_pct": null},
+      {"name": "半导体", "change_pct": null},
+      {"name": "元件", "change_pct": null}
+    ],
+    "bottom5": [
+      {"name": "影视院线", "change_pct": null},
+      {"name": "旅游及酒店", "change_pct": null},
+      {"name": "种植业与林业", "change_pct": null}
+    ],
+    "source_note": "板块涨跌幅来自中国经济网收评，具体数值未公布"
   },
-  "shenzhen": {
-    "name": "深证成指",
-    "price": 9299.83,
-    "change": -0.89,
-    "changeAmount": -83.31,
-    "high": 9303.92,
-    "low": 9227.52,
-    "prevClose": 9383.14,
-    "amount": 101.75
-  },
-  "chuangyeboard": {
-    "name": "创业板指",
-    "price": 2175.36,
-    "change": -1.31,
-    "changeAmount": -28.86,
-    "high": 2176.76,
-    "low": 2151.88,
-    "prevClose": 2204.22,
-    "amount": null
-  },
-  "northFlow": null,
-  "sectorTop": null,
-  "sectorBottom": null,
-  "stockStats": null,
-  "_note": "由于网络限制,push2.eastmoney.com 无法访问。仅三大指数数据来自新浪/腾讯。板块和北向数据需通过网关直连更新。"
+  "north_net_inflow": null,
+  "north_note": "北向资金盘后数据暂未获取到（东方财富API被网络拦截）",
+  "summary": "A股三大指数今日集体上涨。上证指数涨0.11%报4110.81点，深证成指涨1.24%报16051.32点，创业板指涨1.41%报4251.42点。板块方面，能源金属、半导体、元件等涨幅居前，影视院线、旅游及酒店、种植业与林业等跌幅居前。"
 }

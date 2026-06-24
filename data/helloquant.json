@@ -1,61 +1,30 @@
 {
-  "date": "2026-06-23",
-  "update_time": "2026-06-23 15:05 CST",
-  "strategies": {
-    "BTC/USDT": {
-      "price": 64253.9,
-      "change_24h": "-0.72%",
-      "signals_1h": {
-        "RSI": "观望",
-        "MACD": "做多",
-        "Bollinger": "观望",
-        "Supertrend": "观望",
-        "DoubleMa": "观望",
-        "TripleMa": "做多",
-        "Momentum": "做多",
-        "MeanReversion": "观望"
-      },
-      "signals_4h": {
-        "RSI": "观望",
-        "MACD": "观望",
-        "Bollinger": "观望",
-        "Supertrend": "观望",
-        "DoubleMa": "做多",
-        "TripleMa": "观望",
-        "Momentum": "观望",
-        "MeanReversion": "观望"
-      },
-      "indicators_1h": {
-        "rsi": 51.4,
-        "macd_status": "金叉",
-        "trend": "偏多"
-      },
-      "indicators_4h": {
-        "rsi": 60.0,
-        "macd_status": "金叉",
-        "trend": "偏多"
-      }
+  "date": "2026-06-24",
+  "update_time": "15:15",
+  "source": "HelloQuant Daily Collection",
+  "crypto": {
+    "btc": {
+      "price": 62715.8,
+      "change_24h_pct": null,
+      "rsi_1h": null,
+      "rsi_4h": null,
+      "macd_1h": null,
+      "trend_1h": null,
+      "trend_4h": null
     },
-    "ETH/USDT": {
-      "price": 1746.14,
-      "change_24h": "+0.62%",
-      "signals": {},
-      "indicators_1h": {
-        "rsi": 58.9,
-        "macd_status": "金叉",
-        "trend": "偏多"
-      },
-      "indicators_4h": {
-        "rsi": 61.9,
-        "macd_status": "金叉",
-        "trend": "偏多"
-      }
-    }
+    "eth": {
+      "price": 1673.89,
+      "change_24h_pct": null,
+      "rsi_1h": null,
+      "rsi_4h": null,
+      "trend_1h": null,
+      "trend_4h": null
+    },
+    "fear_greed_index": 17,
+    "fear_greed_label": "Extreme Fear"
   },
-  "fear_greed": {
-    "value": 20,
-    "classification": "极度恐慌"
+  "strategies": {
+    "note": "策略信号脚本被超时中断，未生成完整信号"
   },
-  "crypto_news_highlight": "Morgan Stanley提交低费率ETH/SOL ETF申请",
-  "note": "A股收盘数据来源：新浪财经实时行情; HelloQuant策略报告数据截至6/22 15:15"
+  "summary": "BTC $62715.8, ETH $1673.89, 恐惧贪婪指数17(极度恐惧)。HelloQuant策略信号未完整生成（数据采集脚本因网络超时中断）"
 }

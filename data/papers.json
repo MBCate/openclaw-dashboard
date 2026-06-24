@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-23",
-  "total_papers": 33,
+  "last_updated": "2026-06-24 08:22:24",
+  "total_papers": 63,
   "papers": [
     {
       "arxiv_id": "2606.19836",
@@ -581,6 +581,447 @@
       ],
       "status": "[新发现]",
       "new_finding": true
+    },
+    {
+      "arxiv_id": "2606.22913",
+      "title": "Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving",
+      "authors": "Zisheng Chen, Yuping Qiu, Jianhua Han, Tao Tang, Xiuwei Chen",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.22913",
+      "categories": "cs.CV, cs.AI",
+      "relevance": 5,
+      "summary": "提出 IRR-Drive，VLA 模型在自动驾驶中的自适应多模态反思框架，先意图预测再进行反思优化轨迹，提升复杂动态环境下的可靠性",
+      "tags": [
+        "end-to-end-autonomous-driving",
+        "VLA",
+        "planning"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.15341",
+      "title": "CausalDrive: Real-time Causal World Models for Autonomous Driving",
+      "authors": "Tianyi Yan, ...",
+      "date": "2026-06-13",
+      "url": "https://arxiv.org/abs/2606.15341",
+      "categories": "cs.CV",
+      "relevance": 5,
+      "summary": "因果世界模型用于自动驾驶实时仿真，弥合视频生成模型与交互仿真器之间的差距，支持闭环策略学习",
+      "tags": [
+        "world-models-ad",
+        "end-to-end-autonomous-driving"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.17536",
+      "title": "OmniDrive: An LLM-Choreographed Multi-Agent World Model with Unified Latent Co-Compression for Multimodal Driving",
+      "authors": "Zijie Meng, ...",
+      "date": "2026-06-16",
+      "url": "https://arxiv.org/abs/2606.17536",
+      "categories": "cs.CV, cs.AI",
+      "relevance": 5,
+      "summary": "LLM编排的多智能体世界模型，统一语言、HD地图、轨迹和相机位姿的隐式编码，实现跨视角全局3D几何感知的世界模型",
+      "tags": [
+        "world-models-ad",
+        "end-to-end-autonomous-driving"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.21501",
+      "title": "UniviewVLA: A Unified Multiview VLA Model with World Modeling",
+      "authors": "Tao Xu, ...",
+      "date": "2026-06-19",
+      "url": "https://arxiv.org/abs/2606.21501",
+      "categories": "cs.RO",
+      "relevance": 5,
+      "summary": "统一多视角VLA模型，结合世界建模能力处理遮挡任务，未来场景演化预测用于机器人操作和自动驾驶",
+      "tags": [
+        "VLA",
+        "world-models-ad"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.22931",
+      "title": "BEV-Denoise: Learning Intrinsic Noise for Accurate Bird's-Eye-View Semantic Segmentation",
+      "authors": "Dooseop Choi, Kyounghwan An, Kyoung-Wook Min",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.22931",
+      "categories": "cs.CV, cs.AI",
+      "relevance": 4,
+      "summary": "基于 DDPM 的 BEV 语义分割去噪框架，通过学习估计 BEV 特征中的固有噪声提升分割精度",
+      "tags": [
+        "BEV-perception",
+        "diffusion-policy"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.23046",
+      "title": "UECP: Uncertainty-Enhanced Collaborative Perception",
+      "authors": "Kang Yang, Tianci Bu, Peng Wang, Deying Li, Wen Jie",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.23046",
+      "categories": "cs.CV",
+      "relevance": 4,
+      "summary": "不确定性增强的协同感知框架，为自动驾驶多车协同感知提供可靠证据度量",
+      "tags": [
+        "BEV-perception",
+        "end-to-end-autonomous-driving"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.16533",
+      "title": "Kairos: A Native World Model Stack for Physical AI",
+      "authors": "Kairos Team",
+      "date": "2026-06-15",
+      "url": "https://arxiv.org/abs/2606.16533",
+      "categories": "cs.AI, cs.CV",
+      "relevance": 4,
+      "summary": "Kairos 世界模型栈框架，原生预训练范式+Crob通用数据集+4D状态记忆体，定位为Physical AI的基础设施",
+      "tags": [
+        "world-models-ad",
+        "VLA"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.20867",
+      "title": "FOCA: Future-Oriented Conditioning for Data-Efficient VLA Adaptation",
+      "authors": "Duc Minh Nguyen, ...",
+      "date": "2026-06-18",
+      "url": "https://arxiv.org/abs/2606.20867",
+      "categories": "cs.CV, cs.AI",
+      "relevance": 4,
+      "summary": "未来导向条件框架用于数据高效的VLA适应，零样本或少样本下大幅提升VLA适应效率",
+      "tags": [
+        "VLA",
+        "imitation-learning"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.19531",
+      "title": "ImageWAM: Do World Action Models Really Need Video Generation, or Just Image Editing?",
+      "authors": "Yuyang Zhang, ...",
+      "date": "2026-06-17",
+      "url": "https://arxiv.org/abs/2606.19531",
+      "categories": "cs.CV, cs.RO",
+      "relevance": 4,
+      "summary": "质疑WAM是否需要视频生成：提出用图像编辑替代视频预测实现世界动作模型，大幅降低推理成本",
+      "tags": [
+        "world-models-ad",
+        "VLA"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.17030",
+      "title": "Qwen-RobotWorld: Unifying Embodied World Modeling through Language-Conditioned Video Generation",
+      "authors": "Jie Zhang, ...",
+      "date": "2026-06-15",
+      "url": "https://arxiv.org/abs/2606.17030",
+      "categories": "cs.CV",
+      "relevance": 4,
+      "summary": "通义千问团队的语言条件视频世界模型，统一机器人操作、自动驾驶、室内导航等多个体现任务",
+      "tags": [
+        "world-models-ad",
+        "VLA"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.22729",
+      "title": "Temporal Logic Guidance for Action-Only Diffusion Policies with World Models",
+      "authors": "Moritz Zoellner, Anastasios Manganaris, Rohan Paleja",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.22729",
+      "categories": "cs.RO",
+      "relevance": 4,
+      "summary": "信号时序逻辑引导扩散策略+世界模型，实现仅动作输出扩散策略的推理时行为模式选择",
+      "tags": [
+        "diffusion-policy",
+        "world-models-ad"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.22813",
+      "title": "Active Inference as the Test-Time Scaling Law for Physical AI Agents",
+      "authors": "Omar Hashash, Christo Kurisummoottil Thomas, Walid Saad, Merouane Debbah, Karl Friston",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.22813",
+      "categories": "cs.AI",
+      "relevance": 4,
+      "summary": "主动推理作为Physical AI测试时缩放定律，利用世界模型在测试时推理泛化到未见场景",
+      "tags": [
+        "world-models-ad",
+        "VLA"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.23444",
+      "title": "SkyJEPA: Learning Long-Horizon World Models for Zero-Shot Sim-to-Real Control of Quadrotors",
+      "authors": "Pratyaksh Rao, Wancong Zhang, Randall Balestriero, Yann LeCun, Giuseppe Loianno",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.23444",
+      "categories": "cs.RO, cs.LG",
+      "relevance": 3,
+      "summary": "Yann LeCun团队，JEPA世界模型用于四旋翼零样本仿真到真实控制，长时域联合嵌入预测架构",
+      "tags": [
+        "world-models-ad"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.22966",
+      "title": "Attacking the Trusted Imagination: Oracle-Level Integrity Attacks on Imagine-then-Act World Models",
+      "authors": "Linghan Chen, Kaiyan Ji, Minyu Guo",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.22966",
+      "categories": "cs.LG, cs.AI, cs.CR",
+      "relevance": 3,
+      "summary": "对VLA想象-行动范式的世界模型进行完整性攻击，暴露WAM推理管线的安全漏洞",
+      "tags": [
+        "world-models-ad",
+        "VLA"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.15768",
+      "title": "LaWAM: Latent World Action Models for Efficient Dynamics-Aware Robot Policies",
+      "authors": "Jialei Chen, ...",
+      "date": "2026-06-14",
+      "url": "https://arxiv.org/abs/2606.15768",
+      "categories": "cs.RO, cs.AI",
+      "relevance": 3,
+      "summary": "隐式世界动作模型LaWAM，无需视频生成即可暴露预测动力学给机器人策略，高效WAM",
+      "tags": [
+        "world-models-ad",
+        "VLA"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.18589",
+      "title": "DREAM-Chunk: Reactive Action Chunking with Latent World Model",
+      "authors": "Wenxi Chen, ...",
+      "date": "2026-06-17",
+      "url": "https://arxiv.org/abs/2606.18589",
+      "categories": "cs.RO",
+      "relevance": 3,
+      "summary": "测试时缩放方法：用轻量隐式世界模型增强chunking策略的闭环执行，不需要额外微调",
+      "tags": [
+        "world-models-ad",
+        "VLA"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.23085",
+      "title": "Foresight: Failure Detection for Long-Horizon Robotic Manipulation with Action-Conditioned World Model Latents",
+      "authors": "Haoran Zhang, Yifu Lu, Boyang Wang, Xuhui Kang, Yen-Ling Kuo",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.23085",
+      "categories": "cs.RO",
+      "relevance": 3,
+      "summary": "利用动作条件世界模型的隐式表示进行长时域操作失败检测",
+      "tags": [
+        "world-models-ad",
+        "VLA"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.21596",
+      "title": "φ-Scene: Physically Grounded Image-to-3D Scene Reconstruction",
+      "authors": "Haodong Li, ...",
+      "date": "2026-06-19",
+      "url": "https://arxiv.org/abs/2606.21596",
+      "categories": "cs.CV",
+      "relevance": 3,
+      "summary": "物理驱动的单图3D场景重建，解决漂浮物体、穿插等物理不合理问题",
+      "tags": [
+        "BEV-perception"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.19928",
+      "title": "SWAP: Symmetric Equivariant World-Model for Agile Robot Parkour",
+      "authors": "Kaixin Lan, ...",
+      "date": "2026-06-18",
+      "url": "https://arxiv.org/abs/2606.19928",
+      "categories": "cs.RO",
+      "relevance": 3,
+      "summary": "对称等变世界模型用于机器人跑酷，嵌入对称性到潜在世界模型空间提高效率",
+      "tags": [
+        "world-models-ad"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.16447",
+      "title": "Training and Evaluating Diffusion Policies with Long Context Lengths",
+      "authors": "Abhinav Agarwal, ...",
+      "date": "2026-06-15",
+      "url": "https://arxiv.org/abs/2606.16447",
+      "categories": "cs.RO, cs.AI",
+      "relevance": 3,
+      "summary": "长上下文扩散策略训练与评测基准，系统研究上下文长度递增对策略性能的影响",
+      "tags": [
+        "diffusion-policy",
+        "imitation-learning"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.18960",
+      "title": "Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation",
+      "authors": "Zirui Zheng, ...",
+      "date": "2026-06-17",
+      "url": "https://arxiv.org/abs/2606.18960",
+      "categories": "cs.CV, cs.RO",
+      "relevance": 3,
+      "summary": "记忆增强的动作条件世界模型，在遮挡等困难情况下维持持久世界模拟",
+      "tags": [
+        "world-models-ad",
+        "VLA"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.23296",
+      "title": "IOI: Decoupling Kinematics and Physics for Interactive World Models",
+      "authors": "Chengyu Bai, Peidong Jia, Tiecheng Guo, Yukai Wang, Rui Ma",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.23296",
+      "categories": "cs.RO",
+      "relevance": 3,
+      "summary": "解耦运动学和物理学的交互世界模型，混合数据驱动+解析运动学+物理视觉渲染",
+      "tags": [
+        "world-models-ad"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.23105",
+      "title": "Compression and Retrieval: Implicit Memory Retrieval for Video World Models",
+      "authors": "Zhan Peng, Jie Ma, Huiqiang Sun, Chong Gao, Zhijie Xue",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.23105",
+      "categories": "cs.CV",
+      "relevance": 3,
+      "summary": "隐式记忆检索机制用于视频世界模型长时域一致模拟",
+      "tags": [
+        "world-models-ad"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.23079",
+      "title": "AdaReP: Adaptive Re-Planning under Model Mismatch for Neural World-Model Predictive Control",
+      "authors": "Yutian Cheng, Xiaojian Ma, Xianhao Wang, Min Yang, Rongpeng Su",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.23079",
+      "categories": "cs.RO, cs.AI",
+      "relevance": 3,
+      "summary": "模型不匹配下自适应重规划神经世界模型预测控制",
+      "tags": [
+        "world-models-ad"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.22971",
+      "title": "Humanoid-OmniOcc: Stereo-Based Full-View Occupancy Dataset for Embodied AI",
+      "authors": "Xianda Guo, Bohao Zhang, Chenwei Huang, Shiyuan Chen, Ruilin Wang",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.22971",
+      "categories": "cs.RO, cs.CV",
+      "relevance": 3,
+      "summary": "立体视觉全视角占用数据集，用于人形机器人和展现AI的3D场景理解",
+      "tags": [
+        "BEV-perception"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.23623",
+      "title": "dVLA-RL: Reinforcement Learning over Denoising Trajectories for Discrete Diffusion Vision-Language-Action Models",
+      "authors": "Yuhao Wu, Yitian Liu, Weijie Shen, Mishuo Han, Wenjie Xu",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.23623",
+      "categories": "cs.RO",
+      "relevance": 3,
+      "summary": "离散扩散VLA+RL方法，将RL应用于离散扩散去噪轨迹",
+      "tags": [
+        "VLA",
+        "reinforcement-learning"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.22794",
+      "title": "UniFS: Unified Fast-to-Slow Hierarchical Architecture for VLA Models",
+      "authors": "Lin Sun, Zhiwei Guan, Conglin Wang, Zihong Chen, Jianhai Yu",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.22794",
+      "categories": "cs.RO",
+      "relevance": 3,
+      "summary": "快慢双系统VLA架构，高速快速响应+慢速推理规划统一框架",
+      "tags": [
+        "VLA"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.23641",
+      "title": "Flatness Preserves Instruction Following in Vision-Language-Action Models",
+      "authors": "Haochen Zhang, Yonatan Bisk",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.23641",
+      "categories": "cs.RO",
+      "relevance": 3,
+      "summary": "VLA微调时保持表示平坦性以维持指令遵循能力",
+      "tags": [
+        "VLA"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.16572",
+      "title": "Steering Generative RL into Stable Robotic Controller",
+      "authors": "Yixuan Wang, ...",
+      "date": "2026-06-15",
+      "url": "https://arxiv.org/abs/2606.16572",
+      "categories": "cs.RO",
+      "relevance": 3,
+      "summary": "生成式RL引导至稳定机器人控制器",
+      "tags": [
+        "reinforcement-learning"
+      ],
+      "status": "new"
+    },
+    {
+      "arxiv_id": "2606.16605",
+      "title": "ARB4WM: An Adversarial Robustness Benchmark for World Models in Continuous Control",
+      "authors": "Junjian Zhang, ...",
+      "date": "2026-06-15",
+      "url": "https://arxiv.org/abs/2606.16605",
+      "categories": "cs.AI",
+      "relevance": 3,
+      "summary": "连续控制世界模型的对抗鲁棒性基准",
+      "tags": [
+        "world-models-ad"
+      ],
+      "status": "new"
     }
-  ]
+  ],
+  "last_update_note": "Daily scan 2026-06-24: 30 new papers added"
 }

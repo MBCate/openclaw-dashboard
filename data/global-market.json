@@ -1,185 +1,48 @@
 {
-  "_meta": {
-    "updated": "2026-06-25T09:15:00+08:00",
-    "source": "CNBC RSS / Yahoo Finance / MarketWatch / FT / Bloomberg / BBC / CoinGecko / Sina Finance",
-    "note": "早盘预览 - A股开盘前报告"
-  },
-  "us_markets": {
-    "snapshot": "June 24, 2026 · Close",
-    "s&p_500": {
-      "close": 7358.22,
-      "change_pct": -0.10,
-      "prev_close": 7365.46,
-      "direction": "小幅下跌",
-      "ytd_pct": 7.4,
-      "jp_morgan_target": 7800,
-      "note": "微跌0.1%，芯片股反弹对冲AI板块疲软。Micron财报盘后暴涨15%引爆记忆芯片板块。"
+  "updated": "2026-06-25T21:30:00+08:00",
+  "indices": {
+    "china": {
+      "上证指数": {"price": 4120.28, "change_pct": 0.23},
+      "深证成指": {"price": 16344.08, "change_pct": 1.82},
+      "创业板指": {"price": 4371.99, "change_pct": 2.84},
+      "沪深300": {"price": null, "change_pct": null}
     },
-    "nasdaq": {
-      "close": 25476.63,
-      "change_pct": -0.43,
-      "prev_close": 25587.04,
-      "direction": "小幅下跌",
-      "ytd_pct": 9.6,
-      "note": "纳指微跌0.43%，科技股消化美光财报预期。"
+    "hong_kong": {
+      "恒生指数": {"price": 23076.85, "change_pct": -1.43}
     },
-    "dow_jones": {
-      "close": 51848.90,
-      "change_pct": +0.35,
-      "prev_close": 51666.84,
-      "direction": "小幅上涨",
-      "ytd_pct": 7.9,
-      "note": "道指逆势收涨+0.35%，防御板块和价值股支撑。"
-    },
-    "key_movers": {
-      "micron_earnings": "盘后暴涨+15%！营收翻四倍，内存涨价潮超预期",
-      "sk_hynix_listing": "SK海力士申请纳斯达克上市（$300亿），股价涨11%",
-      "semiconductor": "芯片股全面反弹，SMH +1~2%，费城半导体指数止跌企稳",
-      "ai_rout_pause": "AI板块抛售暂缓，市场等待更多催化剂"
-    },
-    "key_events": [
-      "Micron Q3 2026财报：营收翻四倍，内存价格暴涨引发盈利井喷，盘后+15%",
-      "SK Hynix申请$300亿纳斯达克上市，或成韩国企业最大美股IPO",
-      "S&P 500 周三收-0.1%至7358点，芯片板块反弹但AI相关股仍承压",
-      "白宫请求$876亿补充预算：伊朗战争经费+农业援助",
-      "MarketWatch警告：美联储PCE数据可能触发意外加息（隐形触发器：超级核心通胀+租金）",
-      "华尔街共识"逢低买入"引发担忧——市场过于拥挤的共识往往是反向指标",
-      "油价持续下跌，美国伊朗制裁豁免60天释放浮动库存",
-      "比特币跌至$60,689，20个月低位，市场情绪极端恐惧（恐惧指数24）"
-    ]
-  },
-  "asia_markets": {
-    "date": "June 25, 2026 · Pre-market / Early Trade",
-    "shanghai_composite": {
-      "prev_close": 4110.81,
-      "change_pct": "+0.11%",
-      "note": "昨日收涨0.11%，今日9:30开盘，A股能否跟涨美光带动的芯片行情？"
-    },
-    "shenzhen_component": {
-      "prev_close": 16051.32,
-      "change_pct": "+1.24%",
-      "note": "深成指昨日涨1.24%，创业板+1.41%领涨"
-    },
-    "chi_next": {
-      "prev_close": 4251.42,
-      "change_pct": "+1.41%",
-      "note": "创业板指昨日表现最强"
-    },
-    "csi_300": {
-      "prev_close": 4943.02,
-      "change_pct": "+0.48%"
-    },
-    "hang_seng": {
-      "prev_close": 23336,
-      "note": "等待今日开盘数据",
-      "direction": "关注芯片股联动"
-    },
-    "kospi": {
-      "note": "SK海力士暴涨11~12%带动韩股科技反弹，韩国股市波动率堪比Meme股",
-      "direction": "科技股反弹"
-    },
-    "nikkei_225": {
-      "note": "日本家庭资产+0.2%至¥2,386万亿（3月底），市场静待亚太开盘",
-      "direction": "窄幅震荡"
+    "us": {
+      "S&P500": {"price": 7398, "change_pct": 0.54},
+      "纳斯达克100": {"change_pct": ">2%", "note": "Micron业绩带动AI板块大涨"},
+      "道琼斯": {"note": "涨300点创历史新高"}
     }
-  },
-  "europe_markets": {
-    "date": "June 24, 2026 · Close",
-    "stoxx_600": {
-      "change_pct": "小幅反弹",
-      "note": "欧股随美股期货企稳反弹，科技股从周二暴跌中回暖"
-    },
-    "ftse_100": {},
-    "dax": {},
-    "headlines": [
-      "UK regulator drops probe into 'Essex Boys' traders after £1mn charity offer",
-      "Bain Capital buys majority stake in VW's marine engine unit in €7.4bn deal"
-    ]
   },
   "crypto": {
-    "timestamp": "2026-06-25T01:15 UTC",
-    "bitcoin": {
-      "price_usd": 60689,
-      "change_24h_pct": -3.25,
-      "change_weekly_pct": -5.8,
-      "market_cap_trillion": 1.20,
-      "peak_may25": 77623,
-      "decline_from_peak_pct": -21.8,
-      "note": "BTC跌破$60,700，创20个月新低",
-      "fear_greed_index": 24,
-      "fear_greed_label": "极端恐惧",
-      "ft_headline": "Bitcoin hits 20-month low as market sentiment sours"
-    },
-    "ethereum": {
-      "price_usd": 1615.01,
-      "change_24h_pct": -2.99,
-      "change_monthly_pct": -23.5,
-      "change_yearly_pct": -34.0,
-      "market_cap_billion": 194,
-      "note": "ETH跌破$1,620，跟随BTC下行"
-    }
+    "BTC": {"price": 60785, "change_pct": -2.94, "note": "早盘下跌后部分反弹"},
+    "ETH": {"price": 1616, "change_pct": -2.89}
   },
-  "commodities": {
-    "gold": {
-      "price_approx": 3980,
-      "note": "金价跌破$4,000心理关口，从多年高位持续回调，MarketWatch称多重因素压制贵金属",
-      "direction": "连续下行"
-    },
-    "wti_crude": {
-      "price_approx": 68,
-      "note": "油价继续下跌，伊朗制裁60天豁免释放约6,700万桶浮动库存，美国战略储备补充放缓",
-      "direction": "下跌",
-      "headline": "Oil Extends Drop to Erase Most of Wartime Gains as Supply Swells"
-    }
+  "news_highlights": [
+    {"source": "CNBC", "title": "5月核心PCE通胀率3.4%，为2023年10月以来最高"},
+    {"source": "Bloomberg", "title": "布伦特原油回落，霍尔木兹海峡重新开放增加供给"},
+    {"source": "FT", "title": "Micron利润飙升带动全球科技股反弹，盘后涨17%"},
+    {"source": "CNBC", "title": "苹果因内存短缺上调MacBook和iPad价格"},
+    {"source": "MarketWatch", "title": "消费者支出继续上升，汽油价格即将下跌"},
+    {"source": "FT", "title": "Ares私人信贷基金遭遇14%赎回请求"},
+    {"source": "Bloomberg", "title": "黄金在$4000附近企稳，交易员权衡利率前景"}
+  ],
+  "analysis": {
+    "us_market": "美股周四在Micron财报带动下全面反弹，纳指100涨超2%，标普500涨0.54%至7398点，道指创历史新高。PCE数据虽偏高但未超预期，市场情绪转向乐观。美银警告Q3回调风险上升，建议增加保护。",
+    "china_market": "A股三大指数集体收涨，创业板指涨2.84%领跑，机场航运、金融板块强势。成交额合计约3.6万亿。",
+    "hk_market": "恒生指数收跌1.43%报23077点，受全球通胀忧虑及油价回落拖累。",
+    "crypto": "加密市场普跌，BTC跌2.94%至$60,785，ETH跌2.89%至$1,616。市场情绪偏弱。"
   },
-  "geopolitics": {
-    "us_iran_budget": "白宫请求$876亿补充财政预算：伊朗战争经费+农业援助",
-    "iran_oil_waiver": "美国财政部60天豁免：允许伊朗以美元出口石油（1979年以来首次）",
-    "strait_of_hormuz": "Trump声称伊朗不会封锁霍尔木兹海峡，油轮开始回归但保留再封锁选项",
-    "bessent_gdp": "财长Bessent：美国GDP增长有望年底前重回3%",
-    "china_rare_earth": "中国以涉嫌稀土走私拘留两名日本人",
-    "fed_pce_warning": "MarketWatch分析：超级核心PCE和租金数据可能触发Fed意外加息"
+  "macro": {
+    "pce_inflation": "5月核心PCE 3.4%，为2023年10月以来最高",
+    "oil": "Brent原油回落，霍尔木兹海峡重开增加供给",
+    "gold": "黄金在$4000附近整理",
+    "fed_note": "PCE数据未超预期，市场消化通胀数据，银行股因压力测试通过后提高股息而上涨"
   },
-  "headlines": [
-    {
-      "source": "CNBC",
-      "title": "SK Hynix surges 11% after filing for blockbuster Nasdaq listing",
-      "url": "https://www.cnbc.com/2026/06/25/chip-tech-stocks-sk-hynix-nasdaq-adr-listing-29-billion-ai-investment.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "Micron stock jumps 15% as soaring prices from memory crunch lead to quadrupling of revenue",
-      "url": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Asia Stocks Jump With US Futures on Micron Outlook",
-      "url": "https://www.bloomberg.com/markets"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "These hidden PCE triggers could force a Fed rate hike — and shock the market",
-      "url": "https://www.marketwatch.com/story/inflation-is-about-more-than-oil-these-two-hidden-triggers-could-force-a-fed-rate-hike-d9fa393e"
-    },
-    {
-      "source": "FT",
-      "title": "Bitcoin hits 20-month low as market sentiment sours",
-      "url": "https://www.ft.com/"
-    },
-    {
-      "source": "CNBC",
-      "title": "White House requests $87.6 billion supplemental spending for Iran war, farm aid",
-      "url": "https://www.cnbc.com/2026/06/24/iran-war-supplemental-trump-congress.html"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Why SK Hynix's $30 billion US listing could be a double-edged sword for Micron's stock",
-      "url": "https://www.marketwatch.com/story/why-sk-hynixs-30-billion-u-s-listing-could-be-a-double-edged-sword-for-microns-stock-f4483b0d"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Oil Extends Drop to Erase Most of Wartime Gains as Supply Swells",
-      "url": "https://www.bloomberg.com/markets/commodities"
-    }
-  ]
+  "hello_quant": {
+    "status": "no_recent_data",
+    "note": "晚间无HelloQuant策略更新"
+  }
 }

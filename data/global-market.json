@@ -1,166 +1,185 @@
 {
   "_meta": {
-    "updated": "2026-06-24T21:30:00+08:00",
-    "source": "CNBC RSS / Yahoo Finance / MarketWatch / FT / Bloomberg / WSJ / CoinStats / Reuters",
-    "note": "晚间国际市场报告 - 美股盘前复盘"
+    "updated": "2026-06-25T09:15:00+08:00",
+    "source": "CNBC RSS / Yahoo Finance / MarketWatch / FT / Bloomberg / BBC / CoinGecko / Sina Finance",
+    "note": "早盘预览 - A股开盘前报告"
   },
   "us_markets": {
-    "snapshot": "June 23, 2026 · Close | June 24, 2026 · Premarket",
+    "snapshot": "June 24, 2026 · Close",
     "s&p_500": {
-      "close": 7365.46,
-      "change_pct": -1.44,
-      "futures_change_pct": "+0.37%",
-      "direction": "rebounding",
-      "ytd_pct": 7.6,
+      "close": 7358.22,
+      "change_pct": -0.10,
+      "prev_close": 7365.46,
+      "direction": "小幅下跌",
+      "ytd_pct": 7.4,
       "jp_morgan_target": 7800,
-      "note": "期货小幅反弹，科技股从AI抛售中企稳"
+      "note": "微跌0.1%，芯片股反弹对冲AI板块疲软。Micron财报盘后暴涨15%引爆记忆芯片板块。"
     },
     "nasdaq": {
-      "close": 25587.04,
-      "change_pct": -2.21,
-      "futures_change_pct": "+0.68%",
-      "direction": "rebounding",
-      "ytd_pct": 10.1
+      "close": 25476.63,
+      "change_pct": -0.43,
+      "prev_close": 25587.04,
+      "direction": "小幅下跌",
+      "ytd_pct": 9.6,
+      "note": "纳指微跌0.43%，科技股消化美光财报预期。"
     },
     "dow_jones": {
-      "close": 51666.84,
-      "change_pct": -0.09,
-      "futures_change_pct": "+0.14%",
-      "direction": "nearly_flat",
-      "ytd_pct": 7.5
+      "close": 51848.90,
+      "change_pct": +0.35,
+      "prev_close": 51666.84,
+      "direction": "小幅上涨",
+      "ytd_pct": 7.9,
+      "note": "道指逆势收涨+0.35%，防御板块和价值股支撑。"
     },
     "key_movers": {
-      "micron_earnings": "盘后发布，市场关注AI需求信号",
-      "semiconductor": "芯片股周二暴跌后反弹（SMH +0.5~1%）",
-      "defensive": "防御板块（沃尔玛、强生）周二逆势上涨"
+      "micron_earnings": "盘后暴涨+15%！营收翻四倍，内存涨价潮超预期",
+      "sk_hynix_listing": "SK海力士申请纳斯达克上市（$300亿），股价涨11%",
+      "semiconductor": "芯片股全面反弹，SMH +1~2%，费城半导体指数止跌企稳",
+      "ai_rout_pause": "AI板块抛售暂缓，市场等待更多催化剂"
     },
     "key_events": [
-      "周二全球芯片股暴跌：美光-13.2%、SanDisk-13%，费城半导体指数大跌",
-      "S&P 500 期货周三反弹+0.37%，纳斯达克+0.68%，科技股企稳",
-      "J.P. Morgan 上调标普500年终目标至7,800点",
-      "美光财报盘后出炉，市场聚焦AI芯片需求前景",
-      "Bessent财长：美国GDP增速有望年底重回3%",
-      "Alphabet纳入道琼斯指数，替换Verizon",
-      "美国伊朗石油制裁60天豁免：允许伊朗以美元出口石油",
-      "霍尔木兹海峡保持开放，油轮开始回归"
+      "Micron Q3 2026财报：营收翻四倍，内存价格暴涨引发盈利井喷，盘后+15%",
+      "SK Hynix申请$300亿纳斯达克上市，或成韩国企业最大美股IPO",
+      "S&P 500 周三收-0.1%至7358点，芯片板块反弹但AI相关股仍承压",
+      "白宫请求$876亿补充预算：伊朗战争经费+农业援助",
+      "MarketWatch警告：美联储PCE数据可能触发意外加息（隐形触发器：超级核心通胀+租金）",
+      "华尔街共识"逢低买入"引发担忧——市场过于拥挤的共识往往是反向指标",
+      "油价持续下跌，美国伊朗制裁豁免60天释放浮动库存",
+      "比特币跌至$60,689，20个月低位，市场情绪极端恐惧（恐惧指数24）"
     ]
   },
   "asia_markets": {
-    "date": "June 24, 2026 · Close / Mid-session",
-    "kospi": {
-      "close": "未收盘，隔夜暴跌-10%后反弹+3~5%",
-      "note": "周二暴跌-10%创年内最大单日跌幅，周三科技股报复性反弹"
-    },
-    "nikkei_225": {
-      "note": "周三小幅反弹，受美股期货企稳提振"
-    },
+    "date": "June 25, 2026 · Pre-market / Early Trade",
     "shanghai_composite": {
-      "close": 4144.44,
-      "change_pct": "待A股收盘更新",
-      "note": "上一交易日收4144.44"
+      "prev_close": 4110.81,
+      "change_pct": "+0.11%",
+      "note": "昨日收涨0.11%，今日9:30开盘，A股能否跟涨美光带动的芯片行情？"
+    },
+    "shenzhen_component": {
+      "prev_close": 16051.32,
+      "change_pct": "+1.24%",
+      "note": "深成指昨日涨1.24%，创业板+1.41%领涨"
+    },
+    "chi_next": {
+      "prev_close": 4251.42,
+      "change_pct": "+1.41%",
+      "note": "创业板指昨日表现最强"
+    },
+    "csi_300": {
+      "prev_close": 4943.02,
+      "change_pct": "+0.48%"
     },
     "hang_seng": {
-      "note": "等待收盘数据"
+      "prev_close": 23336,
+      "note": "等待今日开盘数据",
+      "direction": "关注芯片股联动"
+    },
+    "kospi": {
+      "note": "SK海力士暴涨11~12%带动韩股科技反弹，韩国股市波动率堪比Meme股",
+      "direction": "科技股反弹"
+    },
+    "nikkei_225": {
+      "note": "日本家庭资产+0.2%至¥2,386万亿（3月底），市场静待亚太开盘",
+      "direction": "窄幅震荡"
     }
   },
   "europe_markets": {
-    "date": "June 24, 2026 · Mid-session",
+    "date": "June 24, 2026 · Close",
     "stoxx_600": {
-      "prev_change_pct": -1.0,
-      "note": "科技股拖累，ASMI -6%，STMicroelectronics -6%",
-      "recovery": "周三随美股期货小幅反弹"
-    }
+      "change_pct": "小幅反弹",
+      "note": "欧股随美股期货企稳反弹，科技股从周二暴跌中回暖"
+    },
+    "ftse_100": {},
+    "dax": {},
+    "headlines": [
+      "UK regulator drops probe into 'Essex Boys' traders after £1mn charity offer",
+      "Bain Capital buys majority stake in VW's marine engine unit in €7.4bn deal"
+    ]
   },
   "crypto": {
-    "timestamp": "2026-06-24T13:30 UTC",
+    "timestamp": "2026-06-25T01:15 UTC",
     "bitcoin": {
-      "price_usd": 62425,
-      "change_24h_pct": -0.16,
-      "change_weekly_pct": -4.47,
-      "market_cap_trillion": 1.33,
+      "price_usd": 60689,
+      "change_24h_pct": -3.25,
+      "change_weekly_pct": -5.8,
+      "market_cap_trillion": 1.20,
       "peak_may25": 77623,
-      "decline_from_peak_pct": -19.6,
-      "note": "BTC跌破6.3万美元，距5月高点跌近2万美元",
+      "decline_from_peak_pct": -21.8,
+      "note": "BTC跌破$60,700，创20个月新低",
       "fear_greed_index": 24,
       "fear_greed_label": "极端恐惧",
-      "etf_weekly_outflow_billion": 5.94,
-      "liquidations_24h": "4,860万美元，82.7%为多头"
+      "ft_headline": "Bitcoin hits 20-month low as market sentiment sours"
     },
     "ethereum": {
-      "price_usd": 1670.84,
-      "change_24h_pct": +1.02,
-      "change_monthly_pct": -20.92,
-      "change_yearly_pct": -31.81,
-      "market_cap_billion": 233,
-      "note": "ETH小幅反弹+1%，从$1,653回升至$1,670"
-    },
-    "solana": {
-      "price_usd": 68.94,
-      "change_24h_pct": -7.62,
-      "note": "大幅下挫"
-    },
-    "ripple_xrp": {
-      "price_usd": 1.10,
-      "change_24h_pct": -4.91
-    },
-    "dogecoin": {
-      "price_usd": 0.0794,
-      "change_24h_pct": -6.15
+      "price_usd": 1615.01,
+      "change_24h_pct": -2.99,
+      "change_monthly_pct": -23.5,
+      "change_yearly_pct": -34.0,
+      "market_cap_billion": 194,
+      "note": "ETH跌破$1,620，跟随BTC下行"
     }
   },
   "commodities": {
     "gold": {
-      "price": "跌破$4,000",
-      "note": "多年牛市终结，金价大幅回调"
+      "price_approx": 3980,
+      "note": "金价跌破$4,000心理关口，从多年高位持续回调，MarketWatch称多重因素压制贵金属",
+      "direction": "连续下行"
     },
     "wti_crude": {
-      "note": "美国豁免伊朗石油制裁60天，释放约6,700万桶浮动库存，油价承压下行",
-      "iran_oil_waiver": "60天通用许可，允许伊朗以美元出口石油（1979年以来首次）",
-      "strait_of_hormuz": "Trump宣布海峡保持开放，但保留封锁选项"
+      "price_approx": 68,
+      "note": "油价继续下跌，伊朗制裁60天豁免释放约6,700万桶浮动库存，美国战略储备补充放缓",
+      "direction": "下跌",
+      "headline": "Oil Extends Drop to Erase Most of Wartime Gains as Supply Swells"
     }
   },
   "geopolitics": {
-    "us_iran": "美国财政部颁发60天通用许可，允许伊朗以美元进行石油、石化产品销售",
-    "strait_of_hormuz": "Trump声称伊朗保证不会在霍尔木兹海峡设卡收费，油轮开始返回",
-    "bessent_gdp": "财长Bessent称美国GDP增长可年底前重回3%",
-    "china_japan": "中国以涉嫌稀土走私拘留两名日本人",
-    "housing_bill": "跨党派住房法案推进，或限制华尔街机构购房"
+    "us_iran_budget": "白宫请求$876亿补充财政预算：伊朗战争经费+农业援助",
+    "iran_oil_waiver": "美国财政部60天豁免：允许伊朗以美元出口石油（1979年以来首次）",
+    "strait_of_hormuz": "Trump声称伊朗不会封锁霍尔木兹海峡，油轮开始回归但保留再封锁选项",
+    "bessent_gdp": "财长Bessent：美国GDP增长有望年底前重回3%",
+    "china_rare_earth": "中国以涉嫌稀土走私拘留两名日本人",
+    "fed_pce_warning": "MarketWatch分析：超级核心PCE和租金数据可能触发Fed意外加息"
   },
   "headlines": [
     {
       "source": "CNBC",
-      "title": "S&P 500 ticks higher as chip stocks bounce from sell-off, oil slides",
-      "url": "https://www.cnbc.com/2026/06/24/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Stocks Halt AI-Fueled Rout Before Micron's Results: Markets Wrap",
-      "url": "https://www.bloomberg.com/markets"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Gold Breaks Below $4,000 as Multi-Year Rally Grinds to a Halt",
-      "url": "https://www.bloomberg.com/markets/commodities"
-    },
-    {
-      "source": "FT",
-      "title": "China detains two Japanese nationals over alleged rare earth smuggling",
-      "url": "https://www.ft.com/"
-    },
-    {
-      "source": "WSJ",
-      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
-      "url": "https://www.wsj.com/"
-    },
-    {
-      "source": "Reuters",
-      "title": "S&P 500, Nasdaq futures tick up as tech shares stabilize",
-      "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-tick-up-tech-shares-stabilize-2026-06-24/"
+      "title": "SK Hynix surges 11% after filing for blockbuster Nasdaq listing",
+      "url": "https://www.cnbc.com/2026/06/25/chip-tech-stocks-sk-hynix-nasdaq-adr-listing-29-billion-ai-investment.html"
     },
     {
       "source": "CNBC",
-      "title": "Trump claims Iran has assured U.S. there won't be tolls on the Strait of Hormuz",
-      "url": "https://www.cnbc.com/2026/06/24/"
+      "title": "Micron stock jumps 15% as soaring prices from memory crunch lead to quadrupling of revenue",
+      "url": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Asia Stocks Jump With US Futures on Micron Outlook",
+      "url": "https://www.bloomberg.com/markets"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "These hidden PCE triggers could force a Fed rate hike — and shock the market",
+      "url": "https://www.marketwatch.com/story/inflation-is-about-more-than-oil-these-two-hidden-triggers-could-force-a-fed-rate-hike-d9fa393e"
+    },
+    {
+      "source": "FT",
+      "title": "Bitcoin hits 20-month low as market sentiment sours",
+      "url": "https://www.ft.com/"
+    },
+    {
+      "source": "CNBC",
+      "title": "White House requests $87.6 billion supplemental spending for Iran war, farm aid",
+      "url": "https://www.cnbc.com/2026/06/24/iran-war-supplemental-trump-congress.html"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Why SK Hynix's $30 billion US listing could be a double-edged sword for Micron's stock",
+      "url": "https://www.marketwatch.com/story/why-sk-hynixs-30-billion-u-s-listing-could-be-a-double-edged-sword-for-microns-stock-f4483b0d"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Oil Extends Drop to Erase Most of Wartime Gains as Supply Swells",
+      "url": "https://www.bloomberg.com/markets/commodities"
     }
   ]
 }

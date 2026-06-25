@@ -1,7 +1,73 @@
 {
-  "last_updated": "2026-06-24 08:22:24",
-  "total_papers": 63,
+  "last_updated": "2026-06-25 08:00:00",
+  "total_papers": 78,
   "papers": [
+    {
+      "arxiv_id": "2606.24759",
+      "title": "UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving",
+      "authors": "Xiaowei Gao, Pengxiang Li, Yitai Cheng, Ruihan Xu, James Haworth, Stephen Law, Yun Ye",
+      "published": "2026-06-23",
+      "relevance": 5,
+      "reasoning": "VLA+接地风险理解：统一两分支架构（时序推理+高分辨率感知）+门控交叉注意力融合，在DRAMA-Reasoning上SOTA，零样本泛化NuScenes/BDD100K，对自动驾驶VLA可解释性有重要贡献",
+      "summary": "Multi-frame temporal reasoning + high-res spatial perception branches fused via gated cross-attention. SOTA on DRAMA-Reasoning, zero-shot to NuScenes/BDD100K. Code released.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现",
+      "status": "[新发现]",
+      "relevance_score": 5
+    },
+    {
+      "arxiv_id": "2606.24051",
+      "title": "DriveStack-VLA: Render-Teacher Alignment for BEV-Based DeepStack Vision-Language-Action Model",
+      "authors": "Jingke Wang, Zhenru Zhao, Shuangming Lei, Hao Su, Yuehao Huang, Yijia Xie, Kai Tang, Guanglin Xu, AiXue Ye, Yukai Ma, Yong Liu",
+      "published": "2026-06-23",
+      "relevance": 5,
+      "reasoning": "VLA+BEV新范式：DeepStack式BEV注入大语言模型Decoder + Render-Teacher Alignment对齐感知焦点 + 头式自批评模块优化轨迹选择。NAVSIM v1/v2和Bench2Drive闭环SOTA，对VLA驾驶空间智能有显著提升",
+      "summary": "BEV-based VLA with DeepStack-style connection to LLM decoder. Render-Teacher alignment + self-critique module. 91.6 PDMS NAVSIMv1, 79.49 DS Bench2Drive closed-loop.",
+      "categories": [
+        "cs.CV"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现",
+      "status": "[新发现]",
+      "relevance_score": 5
+    },
+    {
+      "arxiv_id": "2606.22913",
+      "title": "Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving",
+      "authors": "Zisheng Chen, Yuping Qiu, Jianhua Han, Tao Tang, Xiuwei Chen",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.22913",
+      "categories": "cs.CV, cs.AI",
+      "relevance": 5,
+      "summary": "提出 IRR-Drive，VLA 模型在自动驾驶中的自适应多模态反思框架，先意图预测再进行反思优化轨迹，提升复杂动态环境下的可靠性",
+      "tags": [
+        "end-to-end-autonomous-driving",
+        "VLA",
+        "planning"
+      ],
+      "status": "new",
+      "published": "2026-06-22"
+    },
+    {
+      "arxiv_id": "2606.21501",
+      "title": "UniviewVLA: A Unified Multiview VLA Model with World Modeling",
+      "authors": "Tao Xu, ...",
+      "date": "2026-06-19",
+      "url": "https://arxiv.org/abs/2606.21501",
+      "categories": "cs.RO",
+      "relevance": 5,
+      "summary": "统一多视角VLA模型，结合世界建模能力处理遮挡任务，未来场景演化预测用于机器人操作和自动驾驶",
+      "tags": [
+        "VLA",
+        "world-models-ad"
+      ],
+      "status": "new",
+      "published": "2026-06-19"
+    },
     {
       "arxiv_id": "2606.19836",
       "title": "World Engine: Towards the Era of Post-Training for Autonomous Driving",
@@ -36,22 +102,6 @@
       "relevance_score": 5
     },
     {
-      "arxiv_id": "2606.20562",
-      "title": "MemoryWAM: Efficient World Action Modeling with Persistent Memory",
-      "authors": "Sizhe Yang, Juncheng Mu, Tianming Wei, Chenhao Lu, Xiaofan Li, Linning Xu, Zhengrong Xue, Zhecheng Yuan, Dahua Lin, Jiangmiao Pang, Huazhe Xu",
-      "published": "2026-06-18",
-      "relevance": 4,
-      "reasoning": "世界动作模型+持久记忆：用混合记忆设计（近期帧+事件锚帧+紧凑gist token）解决非马尔可夫环境中的长序列推理问题，对端到端驾驶的世界模型设计有参考价值",
-      "summary": "World action model with persistent memory (frames, anchors, gist tokens). Outperforms VLA/WAM baselines on manipulation, but focused on robotic manipulation, not driving.",
-      "categories": [
-        "cs.RO"
-      ],
-      "new_discovery": true,
-      "kb_status": "新发现",
-      "status": "[已收录]",
-      "relevance_score": 3
-    },
-    {
       "arxiv_id": "2606.20092",
       "title": "EventVLA: Event-Driven Visual Evidence Memory for Long-Horizon Vision-Language-Action Policies",
       "authors": "Ganlin Yang, Zhangzheng Tu, Yuqiang Yang, Sitong Mao, Junyi Dong, Tianxing Chen, Jiaqi Peng, Jing Xiong, Jiafei Cao, Jifeng Dai, Wengang Zhou, Yao Mu, Tai Wang",
@@ -80,93 +130,6 @@
       ],
       "new_discovery": false,
       "kb_status": "已收录"
-    },
-    {
-      "arxiv_id": "2606.20545",
-      "title": "Current World Models Lack a Persistent State Core",
-      "authors": "Jinpeng Lu, Dexu Zhu, Haoyuan Shi, Linghan Cai, Guo Tang, Yinda Chen, Jie Cao, Duyu Tang, Yi Zhang, Yong Dai, Xiaozhu Ju",
-      "published": "2026-06-18",
-      "relevance": 4,
-      "reasoning": "世界模型关键缺陷的批判性分析：现有模型缺乏持久状态核心，在非观测时段内世界状态不会演化。WRBench基准系统性评估了23个模型，结果具有建设性",
-      "summary": "提出WRBench基准，通过相机运动作为可观测性干预，系统性评估23个模型（9600视频），发现当前世界模型在观测缺失时世界状态静止不变。结论：物理状态核心的稳定性应成为世界模型设计的一类目标。",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "new_discovery": true,
-      "kb_status": "新发现"
-    },
-    {
-      "arxiv_id": "2606.20189",
-      "title": "HilDA: Hierarchical Distillation with Diffusion for Advancing Self-Supervised LiDAR Pre-training",
-      "authors": "Maciej Wozniak, Jesper Ericsson, Hariprasath Govindarajan, Truls Nyberg, Thomas Gustafsson, Patric Jensfelt, Olov Andersson",
-      "published": "2026-06-18",
-      "relevance": 4,
-      "reasoning": "LiDAR自监督预训练+层次化蒸馏+时序占用扩散，提升3D检测/场景流/语义占用预测，直接面向AD感知",
-      "summary": "HilDA提出层次化蒸馏框架：多层蒸馏实现渐进语义对齐+全局上下文蒸馏捕获场景级语义+时序占用扩散目标促进时空一致性。在3D目标检测、场景流和语义占用预测上达到SOTA。",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "new_discovery": true,
-      "kb_status": "新发现"
-    },
-    {
-      "arxiv_id": "2606.19776",
-      "title": "Occ-VLM: Occupancy Grounded Vision Language Model for Indoor Scene Understanding",
-      "authors": "Jianing Li, Zhou Fang, Yijiang Liu, Li Du",
-      "published": "2026-06-18",
-      "relevance": 4,
-      "reasoning": "占用引导的VLM室内场景理解：重建3D占用作为几何先验，空间关联2D token与3D空间，在占用预测上SOTA，与3D VLM在VQA上持平。对AD占用网络+VLM方向有借鉴价值",
-      "summary": "Occ-VLM将3D占用重建作为辅助几何先验，仅通过2D视觉编码器实现3D场景理解，在multi-view占用预测上达到SOTA，同时在3D VQA和密集描述上持平3D输入VLM。",
-      "categories": [
-        "cs.CV"
-      ],
-      "new_discovery": true,
-      "kb_status": "新发现"
-    },
-    {
-      "arxiv_id": "2606.20491",
-      "title": "Fast Human Attention Prediction for Fixation-guided Active Perception in Autonomous Navigation",
-      "authors": "Fatma Youssef Mohammed, Grzegorz Malczyk, Kostas Alexis",
-      "published": "2026-06-18",
-      "relevance": 3,
-      "reasoning": "人类注视点预测+LNN实现超轻量模型(0.61GFLOPs)，用于机器人自主导航中的主动感知，实际部署于无人机。计算效率突出但场景与AD略有差距",
-      "summary": "GazeLNN利用液体神经网络+MobileNetV3实现轻量级注视点预测模型(0.61GFLOPs)，在MIT Low Resolution上达SOTA ScanMatch 0.47，减少99.4%计算开销。集成到强化学习驱动的主动相机-机器人控制策略中，在无人机上完成实际部署验证。",
-      "categories": [
-        "cs.RO"
-      ],
-      "new_discovery": true,
-      "kb_status": "新发现"
-    },
-    {
-      "arxiv_id": "2606.20135",
-      "title": "Frequency-Aware Flow Matching for Continuous and Consistent Robotic Action Generation",
-      "authors": "Jianing Guo, Fangzheng Chen, Zihao Mao, Wong Lik Hang Kenny, Zhenhong Wu, Yu Li, Yishuai Cai, Yuanpei Chen, Yikun Ban, Kai Chen, Qi Dou, Yaodong Yang, Xianglong Liu, Huijie Zhao, Simin Li",
-      "published": "2026-06-18",
-      "relevance": 3,
-      "reasoning": "流匹配+频域操作生成连续一致机器人动作，DCT变换将离散动作序列转频域并进行流匹配。对diffusion policy的改进方向有参考价值",
-      "summary": "FAFM将离散动作序列通过DCT变换到频域，在频域系数上进行流匹配，通过Sobolev正则化抑制高频误差。在合成基准、避障、LapGym和LIBERO上提升成功率、平滑性和鲁棒性，实世界Franka机器人验证。",
-      "categories": [
-        "cs.RO"
-      ],
-      "new_discovery": true,
-      "kb_status": "新发现"
-    },
-    {
-      "arxiv_id": "2606.20458",
-      "title": "Towards Grounded Planning: Vision-Language Models for End-to-End Planning in Autonomous Driving",
-      "authors": "Fan Wu, Yinqi Wang, Junfeng Guo",
-      "published": "2026-06-18",
-      "relevance": 4,
-      "reasoning": "VLM驱动的端到端驾驶规划，将语言模型直接用于驾驶决策序列生成",
-      "summary": "探索VLM在端到端驾驶规划中的应用，将驾驶决策视为语言序列生成问题。",
-      "categories": [
-        "cs.AI",
-        "cs.CV"
-      ],
-      "new_discovery": false,
-      "kb_status": "新发现"
     },
     {
       "arxiv_id": "2606.19641",
@@ -220,6 +183,353 @@
       "relevance_score": 4
     },
     {
+      "arxiv_id": "2606.17536",
+      "title": "OmniDrive: An LLM-Choreographed Multi-Agent World Model with Unified Latent Co-Compression for Multimodal Driving",
+      "authors": "Zijie Meng, ...",
+      "date": "2026-06-16",
+      "url": "https://arxiv.org/abs/2606.17536",
+      "categories": "cs.CV, cs.AI",
+      "relevance": 5,
+      "summary": "LLM编排的多智能体世界模型，统一语言、HD地图、轨迹和相机位姿的隐式编码，实现跨视角全局3D几何感知的世界模型",
+      "tags": [
+        "world-models-ad",
+        "end-to-end-autonomous-driving"
+      ],
+      "status": "new",
+      "published": "2026-06-16"
+    },
+    {
+      "arxiv_id": "2606.15869",
+      "title": "Metis: A Generalizable and Efficient World-Action Model for Autonomous Driving and Urban Navigation",
+      "authors": [
+        "Jingyu Li",
+        "Zhe Liu",
+        "Dongnan Hu",
+        "Junjie Wu",
+        "Zipei Ma",
+        "Wenxiao Wu"
+      ],
+      "published": "2026-06-14",
+      "summary": "End-to-end WAM decoupling video generation and action prediction. Mixture-of-Transformers with asymmetric attention mask. SOTA on NAVSIM and CityWalker. Real-robot deployment.",
+      "relevance_score": 5,
+      "categories": [
+        "cs.CV"
+      ],
+      "status": "[新发现]",
+      "new_finding": true,
+      "relevance": 5
+    },
+    {
+      "arxiv_id": "2606.15341",
+      "title": "CausalDrive: Real-time Causal World Models for Autonomous Driving",
+      "authors": "Tianyi Yan, ...",
+      "date": "2026-06-13",
+      "url": "https://arxiv.org/abs/2606.15341",
+      "categories": "cs.CV",
+      "relevance": 5,
+      "summary": "因果世界模型用于自动驾驶实时仿真，弥合视频生成模型与交互仿真器之间的差距，支持闭环策略学习",
+      "tags": [
+        "world-models-ad",
+        "end-to-end-autonomous-driving"
+      ],
+      "status": "new",
+      "published": "2026-06-13"
+    },
+    {
+      "arxiv_id": "2606.14010",
+      "title": "RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation",
+      "authors": [
+        "Xiangyu Huang",
+        "Zhenlin Hua",
+        "Han Zhou",
+        "Shounak Sural",
+        "Ragunathan Rajkumar"
+      ],
+      "published": "2026-06-12",
+      "summary": "Lightweight distilled VLA from SimLingo. 44.8X speedup vision-only, 7.9X vision+language. Maintains competitive driving and language reasoning. Real-time VLA.",
+      "relevance_score": 5,
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "status": "[新发现]",
+      "new_finding": true,
+      "relevance": 5
+    },
+    {
+      "arxiv_id": "2606.24152",
+      "title": "Autonomous Video Generation with Counterfactual Controllability for Self-Evolving World Models",
+      "authors": "Xin Wang, Wenxuan Liu, Tongtong Feng, Wenwu Zhu",
+      "published": "2026-06-23",
+      "relevance": 4,
+      "reasoning": "自演化世界模型：反事实可控视频生成，从'视频生成=世界模型'主张出发提出更严格的可控性条件，对AD世界模型设计有启发",
+      "summary": "Video generation framework with counterfactual controllability for self-evolving world models. Distinguishes video gen from true world modeling via controllability criterion.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现",
+      "status": "[新发现]",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2606.24353",
+      "title": "Open-Vocabulary BEV Segmentation with 3D-Aware Geometric Constraints",
+      "authors": "Hojun Choi, Seulbin Hwang, Dae Jung Kim, Kisung Kim, Hyunjung Shim, Jinhan Lee",
+      "published": "2026-06-23",
+      "relevance": 4,
+      "reasoning": "开放词汇BEV分割：VLM驱动+3D几何约束，突破封闭集限制，对BEV感知在开放世界中的应用有推进",
+      "summary": "Open-vocabulary BEV segmentation using VLMs with 3D-aware geometric constraints for autonomous driving. Outperforms closed-set baselines.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现",
+      "status": "[新发现]",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2606.22931",
+      "title": "BEV-Denoise: Learning Intrinsic Noise for Accurate Bird's-Eye-View Semantic Segmentation",
+      "authors": "Dooseop Choi, Kyounghwan An, Kyoung-Wook Min",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.22931",
+      "categories": "cs.CV, cs.AI",
+      "relevance": 4,
+      "summary": "基于 DDPM 的 BEV 语义分割去噪框架，通过学习估计 BEV 特征中的固有噪声提升分割精度",
+      "tags": [
+        "BEV-perception",
+        "diffusion-policy"
+      ],
+      "status": "new",
+      "published": "2026-06-22"
+    },
+    {
+      "arxiv_id": "2606.23046",
+      "title": "UECP: Uncertainty-Enhanced Collaborative Perception",
+      "authors": "Kang Yang, Tianci Bu, Peng Wang, Deying Li, Wen Jie",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.23046",
+      "categories": "cs.CV",
+      "relevance": 4,
+      "summary": "不确定性增强的协同感知框架，为自动驾驶多车协同感知提供可靠证据度量",
+      "tags": [
+        "BEV-perception",
+        "end-to-end-autonomous-driving"
+      ],
+      "status": "new",
+      "published": "2026-06-22"
+    },
+    {
+      "arxiv_id": "2606.22729",
+      "title": "Temporal Logic Guidance for Action-Only Diffusion Policies with World Models",
+      "authors": "Moritz Zoellner, Anastasios Manganaris, Rohan Paleja",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.22729",
+      "categories": "cs.RO",
+      "relevance": 4,
+      "summary": "信号时序逻辑引导扩散策略+世界模型，实现仅动作输出扩散策略的推理时行为模式选择",
+      "tags": [
+        "diffusion-policy",
+        "world-models-ad"
+      ],
+      "status": "new",
+      "published": "2026-06-22"
+    },
+    {
+      "arxiv_id": "2606.22813",
+      "title": "Active Inference as the Test-Time Scaling Law for Physical AI Agents",
+      "authors": "Omar Hashash, Christo Kurisummoottil Thomas, Walid Saad, Merouane Debbah, Karl Friston",
+      "date": "2026-06-22",
+      "url": "https://arxiv.org/abs/2606.22813",
+      "categories": "cs.AI",
+      "relevance": 4,
+      "summary": "主动推理作为Physical AI测试时缩放定律，利用世界模型在测试时推理泛化到未见场景",
+      "tags": [
+        "world-models-ad",
+        "VLA"
+      ],
+      "status": "new",
+      "published": "2026-06-22"
+    },
+    {
+      "arxiv_id": "2606.22617",
+      "title": "OmniSpace: Efficient Geometry Awareness for Autonomous Vehicles MLLMs",
+      "authors": "Hao Vo, Phu Loc Nguyen, Khoa Vo, Sieu Tran, Duc Minh Nguyen, Ngo Xuan Cuong, Nghi D. Q. Bui, Anh Nguyen, Duy Minh Ho Nguyen, Ngan Le",
+      "published": "2026-06-21",
+      "relevance": 4,
+      "reasoning": "MLLM几何感知增强：无需外部3D模型的几何感知MLLM，通过多视图token投影实现高效空间推理，对自动驾驶VLA空间智能有参考",
+      "summary": "Efficient geometry-aware MLLM for AVs without auxiliary 3D models. Multi-view token projection for spatial reasoning.",
+      "categories": [
+        "cs.CV"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现",
+      "status": "[新发现]",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2606.21165",
+      "title": "OmniV2X: A Generative Foundation Planner for Efficient End-to-End Cooperative Driving",
+      "authors": "Juntong Peng, Juanwu Lu, Yupeng Zhou, Can Cui, Yaobin Chen, Ziran Wang",
+      "published": "2026-06-19",
+      "relevance": 4,
+      "reasoning": "端到端V2X协同驾驶生成式基础模型：直接建模多模态多智能体上下文序列，避免密集3D感知计算开销，处理数据稀疏和协议合规问题",
+      "summary": "Generative foundation model for V2X cooperative driving. Directly processes multi-modal multi-agent sequences. Mitigates dense 3D computation and data scarcity.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现",
+      "status": "[新发现]",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2606.21509",
+      "title": "A Stitch in Time Saves Nine: Preserving Policy Compatibility Under Perception Updates in End-to-End Autonomous Driving",
+      "authors": "Yueyuan Li, Yifei Xiao, Mingyang Jiang, Xiang Zuo, Songan Zhang, Ming Yang",
+      "published": "2026-06-19",
+      "relevance": 4,
+      "reasoning": "端到端驾驶推理一致性关键问题：感知模型更新导致策略退化，提出轻量级兼容性方案避免重训或解耦，对工程部署有参考价值",
+      "summary": "Preserving policy compatibility under perception model updates in E2E driving. Lightweight compatibility layer without costly retraining or architectural decoupling.",
+      "categories": [
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现",
+      "status": "[新发现]",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2606.20562",
+      "title": "MemoryWAM: Efficient World Action Modeling with Persistent Memory",
+      "authors": "Sizhe Yang, Juncheng Mu, Tianming Wei, Chenhao Lu, Xiaofan Li, Linning Xu, Zhengrong Xue, Zhecheng Yuan, Dahua Lin, Jiangmiao Pang, Huazhe Xu",
+      "published": "2026-06-18",
+      "relevance": 4,
+      "reasoning": "世界动作模型+持久记忆：用混合记忆设计（近期帧+事件锚帧+紧凑gist token）解决非马尔可夫环境中的长序列推理问题，对端到端驾驶的世界模型设计有参考价值",
+      "summary": "World action model with persistent memory (frames, anchors, gist tokens). Outperforms VLA/WAM baselines on manipulation, but focused on robotic manipulation, not driving.",
+      "categories": [
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现",
+      "status": "[已收录]",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2606.20545",
+      "title": "Current World Models Lack a Persistent State Core",
+      "authors": "Jinpeng Lu, Dexu Zhu, Haoyuan Shi, Linghan Cai, Guo Tang, Yinda Chen, Jie Cao, Duyu Tang, Yi Zhang, Yong Dai, Xiaozhu Ju",
+      "published": "2026-06-18",
+      "relevance": 4,
+      "reasoning": "世界模型关键缺陷的批判性分析：现有模型缺乏持久状态核心，在非观测时段内世界状态不会演化。WRBench基准系统性评估了23个模型，结果具有建设性",
+      "summary": "提出WRBench基准，通过相机运动作为可观测性干预，系统性评估23个模型（9600视频），发现当前世界模型在观测缺失时世界状态静止不变。结论：物理状态核心的稳定性应成为世界模型设计的一类目标。",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.20189",
+      "title": "HilDA: Hierarchical Distillation with Diffusion for Advancing Self-Supervised LiDAR Pre-training",
+      "authors": "Maciej Wozniak, Jesper Ericsson, Hariprasath Govindarajan, Truls Nyberg, Thomas Gustafsson, Patric Jensfelt, Olov Andersson",
+      "published": "2026-06-18",
+      "relevance": 4,
+      "reasoning": "LiDAR自监督预训练+层次化蒸馏+时序占用扩散，提升3D检测/场景流/语义占用预测，直接面向AD感知",
+      "summary": "HilDA提出层次化蒸馏框架：多层蒸馏实现渐进语义对齐+全局上下文蒸馏捕获场景级语义+时序占用扩散目标促进时空一致性。在3D目标检测、场景流和语义占用预测上达到SOTA。",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.19776",
+      "title": "Occ-VLM: Occupancy Grounded Vision Language Model for Indoor Scene Understanding",
+      "authors": "Jianing Li, Zhou Fang, Yijiang Liu, Li Du",
+      "published": "2026-06-18",
+      "relevance": 4,
+      "reasoning": "占用引导的VLM室内场景理解：重建3D占用作为几何先验，空间关联2D token与3D空间，在占用预测上SOTA，与3D VLM在VQA上持平。对AD占用网络+VLM方向有借鉴价值",
+      "summary": "Occ-VLM将3D占用重建作为辅助几何先验，仅通过2D视觉编码器实现3D场景理解，在multi-view占用预测上达到SOTA，同时在3D VQA和密集描述上持平3D输入VLM。",
+      "categories": [
+        "cs.CV"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.20458",
+      "title": "Towards Grounded Planning: Vision-Language Models for End-to-End Planning in Autonomous Driving",
+      "authors": "Fan Wu, Yinqi Wang, Junfeng Guo",
+      "published": "2026-06-18",
+      "relevance": 4,
+      "reasoning": "VLM驱动的端到端驾驶规划，将语言模型直接用于驾驶决策序列生成",
+      "summary": "探索VLM在端到端驾驶规划中的应用，将驾驶决策视为语言序列生成问题。",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "new_discovery": false,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.20867",
+      "title": "FOCA: Future-Oriented Conditioning for Data-Efficient VLA Adaptation",
+      "authors": "Duc Minh Nguyen, ...",
+      "date": "2026-06-18",
+      "url": "https://arxiv.org/abs/2606.20867",
+      "categories": "cs.CV, cs.AI",
+      "relevance": 4,
+      "summary": "未来导向条件框架用于数据高效的VLA适应，零样本或少样本下大幅提升VLA适应效率",
+      "tags": [
+        "VLA",
+        "imitation-learning"
+      ],
+      "status": "new",
+      "published": "2026-06-18"
+    },
+    {
+      "arxiv_id": "2606.20980",
+      "title": "Robusto-2: Benchmarking Humans & VLMs for Autonomous Driving in Lima & New York City",
+      "authors": "Adrian Cespedes, Marcelo Chincha, Dunant Cusipuma, Victor Flores-Benites, David Ortega, Arturo Deza",
+      "published": "2026-06-18",
+      "relevance": 4,
+      "reasoning": "VLM在OOD驾驶场景泛化能力基准测试（利马vs纽约），含人类和VLM对比分析，跨地域泛化零样本能力",
+      "summary": "Cross-geography VLM benchmark for AD (Lima vs NYC). Full factorial analysis comparing human drivers and VLMs in OOD edge-case scenarios.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现",
+      "status": "[新发现]",
+      "relevance_score": 4
+    },
+    {
+      "arxiv_id": "2606.19531",
+      "title": "ImageWAM: Do World Action Models Really Need Video Generation, or Just Image Editing?",
+      "authors": "Yuyang Zhang, ...",
+      "date": "2026-06-17",
+      "url": "https://arxiv.org/abs/2606.19531",
+      "categories": "cs.CV, cs.RO",
+      "relevance": 4,
+      "summary": "质疑WAM是否需要视频生成：提出用图像编辑替代视频预测实现世界动作模型，大幅降低推理成本",
+      "tags": [
+        "world-models-ad",
+        "VLA"
+      ],
+      "status": "new",
+      "published": "2026-06-17"
+    },
+    {
       "arxiv_id": "2606.18375",
       "title": "PAIWorld: A 3D-Consistent World Foundation Model for Robotic Manipulation",
       "authors": "Yuhang Huang, Xuan Lv, Junyan Xu, Zhiyuan Yu, Jiazhao Zhang, Ruizhen Hu, Wancheng Feng, Shilong Zou, Hewen Xiao, Ziqiao Zhou, Kaiyun Huang, Zhiyu Peng, Juzhan Xu, Hang Zhao, Chenyang Zhu, Renjiao Yi, Yifei Huang, Douhui Wu, Yan Zhang, Kexu Cheng, Chunhe Song, Yunzhi Xue, Xiuhong Zhang, Leitao Guo, Yunji Chen, Bin Wu, Haibin Yu, Kai Xu",
@@ -264,20 +574,6 @@
       "kb_status": "已收录"
     },
     {
-      "arxiv_id": "2606.18180",
-      "title": "EgoCS-400K: An Egocentric Gameplay Dataset for World Models",
-      "authors": "Rongjin Guo, Dong Liang, Yuhao Liu, Fang Liu, Tianyu Huang, Gerhard P. Hancke, Rynson W. H. Lau",
-      "published": "2026-06-16",
-      "relevance": 3,
-      "reasoning": "大规模第一人称游戏数据集(400K+视频/10K小时)，包含视频-动作-语言轨迹，为世界模型训练提供桥梁数据源，游戏场景与AD场景差距较大",
-      "summary": "EgoCS-400K从CS比赛回放中提取40万第一人称视频和1万小时游戏内容，包含玩家状态、视角、键鼠输入等信息，支持动作条件未来预测、状态感知场景展开等任务。",
-      "categories": [
-        "cs.CV"
-      ],
-      "new_discovery": true,
-      "kb_status": "新发现"
-    },
-    {
       "arxiv_id": "2606.17362",
       "title": "DriveJudge: Rethinking Autonomous Driving Evaluation with Vision-Language Models",
       "authors": [
@@ -298,7 +594,8 @@
         "cs.RO"
       ],
       "status": "[新发现]",
-      "new_finding": true
+      "new_finding": true,
+      "relevance": 4
     },
     {
       "arxiv_id": "2606.16354",
@@ -318,70 +615,40 @@
         "cs.CV"
       ],
       "status": "[新发现]",
-      "new_finding": true
+      "new_finding": true,
+      "relevance": 4
     },
     {
-      "arxiv_id": "2606.16480",
-      "title": "HOLO-MPPI: Multi-Scenario Motion Planning via Hierarchical Policy Optimization",
-      "authors": [
-        "Youngjae Min",
-        "Jovin D'sa",
-        "Faizan M. Tariq",
-        "David Isele",
-        "Navid Azizan",
-        "Sangjae Bae"
+      "arxiv_id": "2606.16533",
+      "title": "Kairos: A Native World Model Stack for Physical AI",
+      "authors": "Kairos Team",
+      "date": "2026-06-15",
+      "url": "https://arxiv.org/abs/2606.16533",
+      "categories": "cs.AI, cs.CV",
+      "relevance": 4,
+      "summary": "Kairos 世界模型栈框架，原生预训练范式+Crob通用数据集+4D状态记忆体，定位为Physical AI的基础设施",
+      "tags": [
+        "world-models-ad",
+        "VLA"
       ],
-      "published": "2026-06-15",
-      "summary": "Hierarchical policy learning + low-level MPPI for multi-scenario motion planning. High-level policy as prior generator for MPPI. Evaluated on diverse driving scenarios.",
-      "relevance_score": 3,
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "eess.SY"
-      ],
-      "status": "[新发现]",
-      "new_finding": true
+      "status": "new",
+      "published": "2026-06-15"
     },
     {
-      "arxiv_id": "2606.15869",
-      "title": "Metis: A Generalizable and Efficient World-Action Model for Autonomous Driving and Urban Navigation",
-      "authors": [
-        "Jingyu Li",
-        "Zhe Liu",
-        "Dongnan Hu",
-        "Junjie Wu",
-        "Zipei Ma",
-        "Wenxiao Wu"
+      "arxiv_id": "2606.17030",
+      "title": "Qwen-RobotWorld: Unifying Embodied World Modeling through Language-Conditioned Video Generation",
+      "authors": "Jie Zhang, ...",
+      "date": "2026-06-15",
+      "url": "https://arxiv.org/abs/2606.17030",
+      "categories": "cs.CV",
+      "relevance": 4,
+      "summary": "通义千问团队的语言条件视频世界模型，统一机器人操作、自动驾驶、室内导航等多个体现任务",
+      "tags": [
+        "world-models-ad",
+        "VLA"
       ],
-      "published": "2026-06-14",
-      "summary": "End-to-end WAM decoupling video generation and action prediction. Mixture-of-Transformers with asymmetric attention mask. SOTA on NAVSIM and CityWalker. Real-robot deployment.",
-      "relevance_score": 5,
-      "categories": [
-        "cs.CV"
-      ],
-      "status": "[新发现]",
-      "new_finding": true
-    },
-    {
-      "arxiv_id": "2606.14010",
-      "title": "RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation",
-      "authors": [
-        "Xiangyu Huang",
-        "Zhenlin Hua",
-        "Han Zhou",
-        "Shounak Sural",
-        "Ragunathan Rajkumar"
-      ],
-      "published": "2026-06-12",
-      "summary": "Lightweight distilled VLA from SimLingo. 44.8X speedup vision-only, 7.9X vision+language. Maintains competitive driving and language reasoning. Real-time VLA.",
-      "relevance_score": 5,
-      "categories": [
-        "cs.CV",
-        "cs.LG",
-        "cs.RO"
-      ],
-      "status": "[新发现]",
-      "new_finding": true
+      "status": "new",
+      "published": "2026-06-15"
     },
     {
       "arxiv_id": "2606.17082",
@@ -402,23 +669,8 @@
         "cs.AI"
       ],
       "status": "[新发现]",
-      "new_finding": true
-    },
-    {
-      "arxiv_id": "2606.14438",
-      "title": "CADET: Physics-Grounded Causal Auditing and Training-Free Deconfounding of End-to-End Driving Planners",
-      "authors": [
-        "Zikun Guo"
-      ],
-      "published": "2026-06-12",
-      "summary": "Training-free framework to detect and repair spurious correlations in pretrained E2E planners without parameter updates.",
-      "relevance_score": 3,
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "status": "[新发现]",
-      "new_finding": true
+      "new_finding": true,
+      "relevance": 4
     },
     {
       "arxiv_id": "2606.13840",
@@ -439,24 +691,8 @@
         "cs.CV"
       ],
       "status": "[新发现]",
-      "new_finding": true
-    },
-    {
-      "arxiv_id": "2606.10974",
-      "title": "Language-Driven Cost Optimization for Autonomous Driving",
-      "authors": [
-        "Diego Martinez-Baselga",
-        "Khaled Mustafa",
-        "Javier Alonso-Mora"
-      ],
-      "published": "2026-06-09",
-      "summary": "LLM-driven adaptive cost function design for MPPI motion planner. Human-in-the-loop validation. Bridges intelligent control and end users.",
-      "relevance_score": 3,
-      "categories": [
-        "cs.RO"
-      ],
-      "status": "[新发现]",
-      "new_finding": true
+      "new_finding": true,
+      "relevance": 4
     },
     {
       "arxiv_id": "2606.07464",
@@ -478,7 +714,8 @@
         "cs.CV"
       ],
       "status": "[新发现]",
-      "new_finding": true
+      "new_finding": true,
+      "relevance": 4
     },
     {
       "arxiv_id": "2606.07170",
@@ -498,7 +735,8 @@
         "cs.RO"
       ],
       "status": "[新发现]",
-      "new_finding": true
+      "new_finding": true,
+      "relevance": 4
     },
     {
       "arxiv_id": "2606.06219",
@@ -519,7 +757,8 @@
         "cs.AI"
       ],
       "status": "[新发现]",
-      "new_finding": true
+      "new_finding": true,
+      "relevance": 4
     },
     {
       "arxiv_id": "2606.06014",
@@ -540,7 +779,8 @@
         "cs.RO"
       ],
       "status": "[新发现]",
-      "new_finding": true
+      "new_finding": true,
+      "relevance": 4
     },
     {
       "arxiv_id": "2606.05645",
@@ -560,7 +800,8 @@
         "cs.RO"
       ],
       "status": "[新发现]",
-      "new_finding": true
+      "new_finding": true,
+      "relevance": 4
     },
     {
       "arxiv_id": "2606.04884",
@@ -580,188 +821,58 @@
         "cs.RO"
       ],
       "status": "[新发现]",
-      "new_finding": true
+      "new_finding": true,
+      "relevance": 4
     },
     {
-      "arxiv_id": "2606.22913",
-      "title": "Intend, Reflect, Refine: An Adaptive Multimodal Reflection Framework for Autonomous Driving",
-      "authors": "Zisheng Chen, Yuping Qiu, Jianhua Han, Tao Tang, Xiuwei Chen",
-      "date": "2026-06-22",
-      "url": "https://arxiv.org/abs/2606.22913",
-      "categories": "cs.CV, cs.AI",
-      "relevance": 5,
-      "summary": "提出 IRR-Drive，VLA 模型在自动驾驶中的自适应多模态反思框架，先意图预测再进行反思优化轨迹，提升复杂动态环境下的可靠性",
-      "tags": [
-        "end-to-end-autonomous-driving",
-        "VLA",
-        "planning"
+      "arxiv_id": "2606.24301",
+      "title": "MM-TRELLIS: Point-Cloud Guided Multi-Modal 3D Vehicle Generation in Autonomous Driving",
+      "authors": "Hongli Xiao, Youjian Zhang, Yucai Bai, Chaoyue Wang, Yaohui Jin, Xiaoguang Ren, Wenjing Yang, Long Lan",
+      "published": "2026-06-23",
+      "relevance": 3,
+      "reasoning": "多模态3D车辆生成：点云引导下利用多视图图像和LiDAR生成高保真3D车辆模型，用于训练数据合成和仿真",
+      "summary": "Multi-modal 3D vehicle generation from driving scenes using point cloud guidance. Surface reconstruction from multi-view + LiDAR for simulation.",
+      "categories": [
+        "cs.CV"
       ],
-      "status": "new"
+      "new_discovery": true,
+      "kb_status": "新发现",
+      "status": "[新发现]",
+      "relevance_score": 3
     },
     {
-      "arxiv_id": "2606.15341",
-      "title": "CausalDrive: Real-time Causal World Models for Autonomous Driving",
-      "authors": "Tianyi Yan, ...",
-      "date": "2026-06-13",
-      "url": "https://arxiv.org/abs/2606.15341",
-      "categories": "cs.CV",
-      "relevance": 5,
-      "summary": "因果世界模型用于自动驾驶实时仿真，弥合视频生成模型与交互仿真器之间的差距，支持闭环策略学习",
-      "tags": [
-        "world-models-ad",
-        "end-to-end-autonomous-driving"
+      "arxiv_id": "2606.24784",
+      "title": "AerialFusionMapNet: Online HD Map Construction with Aerial-Onboard BEV Fusion",
+      "authors": "Daniel Lengerer, Mathias Pechinger, Klaus Bogenberger, Carsten Markgraf",
+      "published": "2026-06-23",
+      "relevance": 3,
+      "reasoning": "空-地BEV融合在线HD地图构建：无人机视角+车载传感器融合，通过任务对齐和域校准改善在线高精地图",
+      "summary": "Online HD map construction fusing aerial imagery with onboard sensors via task-aligned fusion and domain calibration.",
+      "categories": [
+        "cs.CV"
       ],
-      "status": "new"
+      "new_discovery": true,
+      "kb_status": "新发现",
+      "status": "[新发现]",
+      "relevance_score": 3
     },
     {
-      "arxiv_id": "2606.17536",
-      "title": "OmniDrive: An LLM-Choreographed Multi-Agent World Model with Unified Latent Co-Compression for Multimodal Driving",
-      "authors": "Zijie Meng, ...",
-      "date": "2026-06-16",
-      "url": "https://arxiv.org/abs/2606.17536",
-      "categories": "cs.CV, cs.AI",
-      "relevance": 5,
-      "summary": "LLM编排的多智能体世界模型，统一语言、HD地图、轨迹和相机位姿的隐式编码，实现跨视角全局3D几何感知的世界模型",
-      "tags": [
-        "world-models-ad",
-        "end-to-end-autonomous-driving"
+      "arxiv_id": "2606.24884",
+      "title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
+      "authors": "Maggie Wang, Lars Osterberg, Stephen Tian, Ola Shorinwa, Jiajun Wu, Mac Schwager",
+      "published": "2026-06-23",
+      "relevance": 3,
+      "reasoning": "VLA自主技能获取：从演示中学习后通过Steerable VLA在基本动作级别实现自主技能获取（机器人操作），对VLA通用框架有参考",
+      "summary": "VLA self-guided skill acquisition via steerable primitives. Manipulation focused but framework architecture relevant to AD VLA.",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
       ],
-      "status": "new"
-    },
-    {
-      "arxiv_id": "2606.21501",
-      "title": "UniviewVLA: A Unified Multiview VLA Model with World Modeling",
-      "authors": "Tao Xu, ...",
-      "date": "2026-06-19",
-      "url": "https://arxiv.org/abs/2606.21501",
-      "categories": "cs.RO",
-      "relevance": 5,
-      "summary": "统一多视角VLA模型，结合世界建模能力处理遮挡任务，未来场景演化预测用于机器人操作和自动驾驶",
-      "tags": [
-        "VLA",
-        "world-models-ad"
-      ],
-      "status": "new"
-    },
-    {
-      "arxiv_id": "2606.22931",
-      "title": "BEV-Denoise: Learning Intrinsic Noise for Accurate Bird's-Eye-View Semantic Segmentation",
-      "authors": "Dooseop Choi, Kyounghwan An, Kyoung-Wook Min",
-      "date": "2026-06-22",
-      "url": "https://arxiv.org/abs/2606.22931",
-      "categories": "cs.CV, cs.AI",
-      "relevance": 4,
-      "summary": "基于 DDPM 的 BEV 语义分割去噪框架，通过学习估计 BEV 特征中的固有噪声提升分割精度",
-      "tags": [
-        "BEV-perception",
-        "diffusion-policy"
-      ],
-      "status": "new"
-    },
-    {
-      "arxiv_id": "2606.23046",
-      "title": "UECP: Uncertainty-Enhanced Collaborative Perception",
-      "authors": "Kang Yang, Tianci Bu, Peng Wang, Deying Li, Wen Jie",
-      "date": "2026-06-22",
-      "url": "https://arxiv.org/abs/2606.23046",
-      "categories": "cs.CV",
-      "relevance": 4,
-      "summary": "不确定性增强的协同感知框架，为自动驾驶多车协同感知提供可靠证据度量",
-      "tags": [
-        "BEV-perception",
-        "end-to-end-autonomous-driving"
-      ],
-      "status": "new"
-    },
-    {
-      "arxiv_id": "2606.16533",
-      "title": "Kairos: A Native World Model Stack for Physical AI",
-      "authors": "Kairos Team",
-      "date": "2026-06-15",
-      "url": "https://arxiv.org/abs/2606.16533",
-      "categories": "cs.AI, cs.CV",
-      "relevance": 4,
-      "summary": "Kairos 世界模型栈框架，原生预训练范式+Crob通用数据集+4D状态记忆体，定位为Physical AI的基础设施",
-      "tags": [
-        "world-models-ad",
-        "VLA"
-      ],
-      "status": "new"
-    },
-    {
-      "arxiv_id": "2606.20867",
-      "title": "FOCA: Future-Oriented Conditioning for Data-Efficient VLA Adaptation",
-      "authors": "Duc Minh Nguyen, ...",
-      "date": "2026-06-18",
-      "url": "https://arxiv.org/abs/2606.20867",
-      "categories": "cs.CV, cs.AI",
-      "relevance": 4,
-      "summary": "未来导向条件框架用于数据高效的VLA适应，零样本或少样本下大幅提升VLA适应效率",
-      "tags": [
-        "VLA",
-        "imitation-learning"
-      ],
-      "status": "new"
-    },
-    {
-      "arxiv_id": "2606.19531",
-      "title": "ImageWAM: Do World Action Models Really Need Video Generation, or Just Image Editing?",
-      "authors": "Yuyang Zhang, ...",
-      "date": "2026-06-17",
-      "url": "https://arxiv.org/abs/2606.19531",
-      "categories": "cs.CV, cs.RO",
-      "relevance": 4,
-      "summary": "质疑WAM是否需要视频生成：提出用图像编辑替代视频预测实现世界动作模型，大幅降低推理成本",
-      "tags": [
-        "world-models-ad",
-        "VLA"
-      ],
-      "status": "new"
-    },
-    {
-      "arxiv_id": "2606.17030",
-      "title": "Qwen-RobotWorld: Unifying Embodied World Modeling through Language-Conditioned Video Generation",
-      "authors": "Jie Zhang, ...",
-      "date": "2026-06-15",
-      "url": "https://arxiv.org/abs/2606.17030",
-      "categories": "cs.CV",
-      "relevance": 4,
-      "summary": "通义千问团队的语言条件视频世界模型，统一机器人操作、自动驾驶、室内导航等多个体现任务",
-      "tags": [
-        "world-models-ad",
-        "VLA"
-      ],
-      "status": "new"
-    },
-    {
-      "arxiv_id": "2606.22729",
-      "title": "Temporal Logic Guidance for Action-Only Diffusion Policies with World Models",
-      "authors": "Moritz Zoellner, Anastasios Manganaris, Rohan Paleja",
-      "date": "2026-06-22",
-      "url": "https://arxiv.org/abs/2606.22729",
-      "categories": "cs.RO",
-      "relevance": 4,
-      "summary": "信号时序逻辑引导扩散策略+世界模型，实现仅动作输出扩散策略的推理时行为模式选择",
-      "tags": [
-        "diffusion-policy",
-        "world-models-ad"
-      ],
-      "status": "new"
-    },
-    {
-      "arxiv_id": "2606.22813",
-      "title": "Active Inference as the Test-Time Scaling Law for Physical AI Agents",
-      "authors": "Omar Hashash, Christo Kurisummoottil Thomas, Walid Saad, Merouane Debbah, Karl Friston",
-      "date": "2026-06-22",
-      "url": "https://arxiv.org/abs/2606.22813",
-      "categories": "cs.AI",
-      "relevance": 4,
-      "summary": "主动推理作为Physical AI测试时缩放定律，利用世界模型在测试时推理泛化到未见场景",
-      "tags": [
-        "world-models-ad",
-        "VLA"
-      ],
-      "status": "new"
+      "new_discovery": true,
+      "kb_status": "新发现",
+      "status": "[新发现]",
+      "relevance_score": 3
     },
     {
       "arxiv_id": "2606.23444",
@@ -775,7 +886,8 @@
       "tags": [
         "world-models-ad"
       ],
-      "status": "new"
+      "status": "new",
+      "published": "2026-06-22"
     },
     {
       "arxiv_id": "2606.22966",
@@ -790,37 +902,8 @@
         "world-models-ad",
         "VLA"
       ],
-      "status": "new"
-    },
-    {
-      "arxiv_id": "2606.15768",
-      "title": "LaWAM: Latent World Action Models for Efficient Dynamics-Aware Robot Policies",
-      "authors": "Jialei Chen, ...",
-      "date": "2026-06-14",
-      "url": "https://arxiv.org/abs/2606.15768",
-      "categories": "cs.RO, cs.AI",
-      "relevance": 3,
-      "summary": "隐式世界动作模型LaWAM，无需视频生成即可暴露预测动力学给机器人策略，高效WAM",
-      "tags": [
-        "world-models-ad",
-        "VLA"
-      ],
-      "status": "new"
-    },
-    {
-      "arxiv_id": "2606.18589",
-      "title": "DREAM-Chunk: Reactive Action Chunking with Latent World Model",
-      "authors": "Wenxi Chen, ...",
-      "date": "2026-06-17",
-      "url": "https://arxiv.org/abs/2606.18589",
-      "categories": "cs.RO",
-      "relevance": 3,
-      "summary": "测试时缩放方法：用轻量隐式世界模型增强chunking策略的闭环执行，不需要额外微调",
-      "tags": [
-        "world-models-ad",
-        "VLA"
-      ],
-      "status": "new"
+      "status": "new",
+      "published": "2026-06-22"
     },
     {
       "arxiv_id": "2606.23085",
@@ -835,65 +918,8 @@
         "world-models-ad",
         "VLA"
       ],
-      "status": "new"
-    },
-    {
-      "arxiv_id": "2606.21596",
-      "title": "φ-Scene: Physically Grounded Image-to-3D Scene Reconstruction",
-      "authors": "Haodong Li, ...",
-      "date": "2026-06-19",
-      "url": "https://arxiv.org/abs/2606.21596",
-      "categories": "cs.CV",
-      "relevance": 3,
-      "summary": "物理驱动的单图3D场景重建，解决漂浮物体、穿插等物理不合理问题",
-      "tags": [
-        "BEV-perception"
-      ],
-      "status": "new"
-    },
-    {
-      "arxiv_id": "2606.19928",
-      "title": "SWAP: Symmetric Equivariant World-Model for Agile Robot Parkour",
-      "authors": "Kaixin Lan, ...",
-      "date": "2026-06-18",
-      "url": "https://arxiv.org/abs/2606.19928",
-      "categories": "cs.RO",
-      "relevance": 3,
-      "summary": "对称等变世界模型用于机器人跑酷，嵌入对称性到潜在世界模型空间提高效率",
-      "tags": [
-        "world-models-ad"
-      ],
-      "status": "new"
-    },
-    {
-      "arxiv_id": "2606.16447",
-      "title": "Training and Evaluating Diffusion Policies with Long Context Lengths",
-      "authors": "Abhinav Agarwal, ...",
-      "date": "2026-06-15",
-      "url": "https://arxiv.org/abs/2606.16447",
-      "categories": "cs.RO, cs.AI",
-      "relevance": 3,
-      "summary": "长上下文扩散策略训练与评测基准，系统研究上下文长度递增对策略性能的影响",
-      "tags": [
-        "diffusion-policy",
-        "imitation-learning"
-      ],
-      "status": "new"
-    },
-    {
-      "arxiv_id": "2606.18960",
-      "title": "Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation",
-      "authors": "Zirui Zheng, ...",
-      "date": "2026-06-17",
-      "url": "https://arxiv.org/abs/2606.18960",
-      "categories": "cs.CV, cs.RO",
-      "relevance": 3,
-      "summary": "记忆增强的动作条件世界模型，在遮挡等困难情况下维持持久世界模拟",
-      "tags": [
-        "world-models-ad",
-        "VLA"
-      ],
-      "status": "new"
+      "status": "new",
+      "published": "2026-06-22"
     },
     {
       "arxiv_id": "2606.23296",
@@ -907,7 +933,8 @@
       "tags": [
         "world-models-ad"
       ],
-      "status": "new"
+      "status": "new",
+      "published": "2026-06-22"
     },
     {
       "arxiv_id": "2606.23105",
@@ -921,7 +948,8 @@
       "tags": [
         "world-models-ad"
       ],
-      "status": "new"
+      "status": "new",
+      "published": "2026-06-22"
     },
     {
       "arxiv_id": "2606.23079",
@@ -935,7 +963,8 @@
       "tags": [
         "world-models-ad"
       ],
-      "status": "new"
+      "status": "new",
+      "published": "2026-06-22"
     },
     {
       "arxiv_id": "2606.22971",
@@ -949,7 +978,8 @@
       "tags": [
         "BEV-perception"
       ],
-      "status": "new"
+      "status": "new",
+      "published": "2026-06-22"
     },
     {
       "arxiv_id": "2606.23623",
@@ -964,7 +994,8 @@
         "VLA",
         "reinforcement-learning"
       ],
-      "status": "new"
+      "status": "new",
+      "published": "2026-06-22"
     },
     {
       "arxiv_id": "2606.22794",
@@ -978,7 +1009,8 @@
       "tags": [
         "VLA"
       ],
-      "status": "new"
+      "status": "new",
+      "published": "2026-06-22"
     },
     {
       "arxiv_id": "2606.23641",
@@ -992,7 +1024,218 @@
       "tags": [
         "VLA"
       ],
-      "status": "new"
+      "status": "new",
+      "published": "2026-06-22"
+    },
+    {
+      "arxiv_id": "2606.23031",
+      "title": "DrivingVoxels: Compositional Sparse Voxel Rasterization for Dynamic Driving Scene Reconstruction",
+      "authors": "Tania Aguirre, Luis Roldão, Moussab Bennehar, Nathan Piasco, Dzmitry Tsishkou, Simone Rossi, Pietro Michiardi",
+      "published": "2026-06-22",
+      "relevance": 3,
+      "reasoning": "稀疏体素动态场景重建：组合式稀疏体素光栅化解决驾驶场景动态重建效率问题，对仿真和世界模型有参考",
+      "summary": "Compositional sparse voxel rasterization for dynamic driving scene reconstruction. Faster than 3DGS for driving. Relevant to simulation and world models.",
+      "categories": [
+        "cs.CV"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现",
+      "status": "[新发现]",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2606.22394",
+      "title": "Curvature-Adaptive Consistency Flow Matching: Autonomous Trajectory Optimization via Reinforcement Learning",
+      "authors": "Songtao Tian, Guhan Chen, Bohan Li, Jingyi Ma, Zixiong Yu",
+      "published": "2026-06-21",
+      "relevance": 3,
+      "reasoning": "曲率自适应一致性流匹配：RL驱动的轨迹优化，加速扩散推理+RL策略优化，对轨迹生成有参考",
+      "summary": "Curvature-adaptive consistency flow matching for trajectory optimization via RL. Accelerates diffusion inference for trajectory generation.",
+      "categories": [
+        "cs.CV"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现",
+      "status": "[新发现]",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2606.21596",
+      "title": "φ-Scene: Physically Grounded Image-to-3D Scene Reconstruction",
+      "authors": "Haodong Li, ...",
+      "date": "2026-06-19",
+      "url": "https://arxiv.org/abs/2606.21596",
+      "categories": "cs.CV",
+      "relevance": 3,
+      "summary": "物理驱动的单图3D场景重建，解决漂浮物体、穿插等物理不合理问题",
+      "tags": [
+        "BEV-perception"
+      ],
+      "status": "new",
+      "published": "2026-06-19"
+    },
+    {
+      "arxiv_id": "2606.21344",
+      "title": "Mind the Noise: Sensitivity of Transformer-based Interaction-Aware Trajectory Prediction Models to Noisy Data",
+      "authors": "Shahab Salehi, Luca Lusvarghi, Miguel Sepulcre, Javier Gozalvez",
+      "published": "2026-06-19",
+      "relevance": 3,
+      "reasoning": "轨迹预测鲁棒性分析：Transformer交互感知模型在噪声数据下的敏感性研究，对实际部署有参考",
+      "summary": "Sensitivity analysis of interaction-aware trajectory prediction models to noisy data. Key insights for real-world deployment robustness.",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现",
+      "status": "[新发现]",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2606.20491",
+      "title": "Fast Human Attention Prediction for Fixation-guided Active Perception in Autonomous Navigation",
+      "authors": "Fatma Youssef Mohammed, Grzegorz Malczyk, Kostas Alexis",
+      "published": "2026-06-18",
+      "relevance": 3,
+      "reasoning": "人类注视点预测+LNN实现超轻量模型(0.61GFLOPs)，用于机器人自主导航中的主动感知，实际部署于无人机。计算效率突出但场景与AD略有差距",
+      "summary": "GazeLNN利用液体神经网络+MobileNetV3实现轻量级注视点预测模型(0.61GFLOPs)，在MIT Low Resolution上达SOTA ScanMatch 0.47，减少99.4%计算开销。集成到强化学习驱动的主动相机-机器人控制策略中，在无人机上完成实际部署验证。",
+      "categories": [
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.20135",
+      "title": "Frequency-Aware Flow Matching for Continuous and Consistent Robotic Action Generation",
+      "authors": "Jianing Guo, Fangzheng Chen, Zihao Mao, Wong Lik Hang Kenny, Zhenhong Wu, Yu Li, Yishuai Cai, Yuanpei Chen, Yikun Ban, Kai Chen, Qi Dou, Yaodong Yang, Xianglong Liu, Huijie Zhao, Simin Li",
+      "published": "2026-06-18",
+      "relevance": 3,
+      "reasoning": "流匹配+频域操作生成连续一致机器人动作，DCT变换将离散动作序列转频域并进行流匹配。对diffusion policy的改进方向有参考价值",
+      "summary": "FAFM将离散动作序列通过DCT变换到频域，在频域系数上进行流匹配，通过Sobolev正则化抑制高频误差。在合成基准、避障、LapGym和LIBERO上提升成功率、平滑性和鲁棒性，实世界Franka机器人验证。",
+      "categories": [
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.19928",
+      "title": "SWAP: Symmetric Equivariant World-Model for Agile Robot Parkour",
+      "authors": "Kaixin Lan, ...",
+      "date": "2026-06-18",
+      "url": "https://arxiv.org/abs/2606.19928",
+      "categories": "cs.RO",
+      "relevance": 3,
+      "summary": "对称等变世界模型用于机器人跑酷，嵌入对称性到潜在世界模型空间提高效率",
+      "tags": [
+        "world-models-ad"
+      ],
+      "status": "new",
+      "published": "2026-06-18"
+    },
+    {
+      "arxiv_id": "2606.20772",
+      "title": "Mind the Privileged-to-Camera Gap: Actor-Centric Sidecar Supervision for Camera-First Open-Loop Waypoint Prediction",
+      "authors": "Feeza Khan Khanzada, Jaerock Kwon",
+      "published": "2026-06-18",
+      "relevance": 3,
+      "reasoning": "摄像头航点预测中特权信息到实际输入的差距研究：用actor-centric侧支监督桥接差距，提升摄像头部署模型性能",
+      "summary": "Actor-centric sidecar supervision bridging privileged-to-camera gap for camera-first open-loop waypoint prediction.",
+      "categories": [
+        "cs.RO",
+        "eess.IV"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现",
+      "status": "[新发现]",
+      "relevance_score": 3
+    },
+    {
+      "arxiv_id": "2606.18589",
+      "title": "DREAM-Chunk: Reactive Action Chunking with Latent World Model",
+      "authors": "Wenxi Chen, ...",
+      "date": "2026-06-17",
+      "url": "https://arxiv.org/abs/2606.18589",
+      "categories": "cs.RO",
+      "relevance": 3,
+      "summary": "测试时缩放方法：用轻量隐式世界模型增强chunking策略的闭环执行，不需要额外微调",
+      "tags": [
+        "world-models-ad",
+        "VLA"
+      ],
+      "status": "new",
+      "published": "2026-06-17"
+    },
+    {
+      "arxiv_id": "2606.18960",
+      "title": "Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation",
+      "authors": "Zirui Zheng, ...",
+      "date": "2026-06-17",
+      "url": "https://arxiv.org/abs/2606.18960",
+      "categories": "cs.CV, cs.RO",
+      "relevance": 3,
+      "summary": "记忆增强的动作条件世界模型，在遮挡等困难情况下维持持久世界模拟",
+      "tags": [
+        "world-models-ad",
+        "VLA"
+      ],
+      "status": "new",
+      "published": "2026-06-17"
+    },
+    {
+      "arxiv_id": "2606.18180",
+      "title": "EgoCS-400K: An Egocentric Gameplay Dataset for World Models",
+      "authors": "Rongjin Guo, Dong Liang, Yuhao Liu, Fang Liu, Tianyu Huang, Gerhard P. Hancke, Rynson W. H. Lau",
+      "published": "2026-06-16",
+      "relevance": 3,
+      "reasoning": "大规模第一人称游戏数据集(400K+视频/10K小时)，包含视频-动作-语言轨迹，为世界模型训练提供桥梁数据源，游戏场景与AD场景差距较大",
+      "summary": "EgoCS-400K从CS比赛回放中提取40万第一人称视频和1万小时游戏内容，包含玩家状态、视角、键鼠输入等信息，支持动作条件未来预测、状态感知场景展开等任务。",
+      "categories": [
+        "cs.CV"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.16480",
+      "title": "HOLO-MPPI: Multi-Scenario Motion Planning via Hierarchical Policy Optimization",
+      "authors": [
+        "Youngjae Min",
+        "Jovin D'sa",
+        "Faizan M. Tariq",
+        "David Isele",
+        "Navid Azizan",
+        "Sangjae Bae"
+      ],
+      "published": "2026-06-15",
+      "summary": "Hierarchical policy learning + low-level MPPI for multi-scenario motion planning. High-level policy as prior generator for MPPI. Evaluated on diverse driving scenarios.",
+      "relevance_score": 3,
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "eess.SY"
+      ],
+      "status": "[新发现]",
+      "new_finding": true,
+      "relevance": 3
+    },
+    {
+      "arxiv_id": "2606.16447",
+      "title": "Training and Evaluating Diffusion Policies with Long Context Lengths",
+      "authors": "Abhinav Agarwal, ...",
+      "date": "2026-06-15",
+      "url": "https://arxiv.org/abs/2606.16447",
+      "categories": "cs.RO, cs.AI",
+      "relevance": 3,
+      "summary": "长上下文扩散策略训练与评测基准，系统研究上下文长度递增对策略性能的影响",
+      "tags": [
+        "diffusion-policy",
+        "imitation-learning"
+      ],
+      "status": "new",
+      "published": "2026-06-15"
     },
     {
       "arxiv_id": "2606.16572",
@@ -1006,7 +1249,8 @@
       "tags": [
         "reinforcement-learning"
       ],
-      "status": "new"
+      "status": "new",
+      "published": "2026-06-15"
     },
     {
       "arxiv_id": "2606.16605",
@@ -1020,8 +1264,60 @@
       "tags": [
         "world-models-ad"
       ],
-      "status": "new"
+      "status": "new",
+      "published": "2026-06-15"
+    },
+    {
+      "arxiv_id": "2606.15768",
+      "title": "LaWAM: Latent World Action Models for Efficient Dynamics-Aware Robot Policies",
+      "authors": "Jialei Chen, ...",
+      "date": "2026-06-14",
+      "url": "https://arxiv.org/abs/2606.15768",
+      "categories": "cs.RO, cs.AI",
+      "relevance": 3,
+      "summary": "隐式世界动作模型LaWAM，无需视频生成即可暴露预测动力学给机器人策略，高效WAM",
+      "tags": [
+        "world-models-ad",
+        "VLA"
+      ],
+      "status": "new",
+      "published": "2026-06-14"
+    },
+    {
+      "arxiv_id": "2606.14438",
+      "title": "CADET: Physics-Grounded Causal Auditing and Training-Free Deconfounding of End-to-End Driving Planners",
+      "authors": [
+        "Zikun Guo"
+      ],
+      "published": "2026-06-12",
+      "summary": "Training-free framework to detect and repair spurious correlations in pretrained E2E planners without parameter updates.",
+      "relevance_score": 3,
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "status": "[新发现]",
+      "new_finding": true,
+      "relevance": 3
+    },
+    {
+      "arxiv_id": "2606.10974",
+      "title": "Language-Driven Cost Optimization for Autonomous Driving",
+      "authors": [
+        "Diego Martinez-Baselga",
+        "Khaled Mustafa",
+        "Javier Alonso-Mora"
+      ],
+      "published": "2026-06-09",
+      "summary": "LLM-driven adaptive cost function design for MPPI motion planner. Human-in-the-loop validation. Bridges intelligent control and end users.",
+      "relevance_score": 3,
+      "categories": [
+        "cs.RO"
+      ],
+      "status": "[新发现]",
+      "new_finding": true,
+      "relevance": 3
     }
   ],
-  "last_update_note": "Daily scan 2026-06-24: 30 new papers added"
+  "last_update_note": "Added 15 new papers from 2026-06-24~25 arXiv scan"
 }

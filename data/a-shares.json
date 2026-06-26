@@ -1,94 +1,114 @@
 {
-  "date": "2026-06-25",
+  "date": "2026-06-26",
   "update_time": "11:35",
   "session": "午盘",
-  "source": "东方财富 / 新浪财经",
+  "source": "东方财富 / 新浪财经 / 同花顺",
   "indices": [
     {
       "name": "上证指数",
       "code": "000001",
-      "price": 4125.76,
-      "change_pct": 0.36,
-      "change_amount": 14.95,
-      "high": null,
-      "low": null,
-      "volume": 4537724,
-      "amount": 1100.00
+      "price": 4032.2985,
+      "change_pct": -2.14,
+      "change_amount": -87.98,
+      "volume": null,
+      "amount": null
     },
     {
       "name": "深证成指",
       "code": "399001",
-      "price": 16285.83,
-      "change_pct": 1.46,
-      "change_amount": 234.51,
-      "high": null,
-      "low": null,
-      "volume": 566954374,
+      "price": 15846.98,
+      "change_pct": -3.04,
+      "change_amount": -497.1,
+      "volume": null,
       "amount": null
     },
     {
       "name": "创业板指",
       "code": "399006",
-      "price": 4336.74,
-      "change_pct": 2.01,
-      "change_amount": 85.32,
-      "high": null,
-      "low": null,
-      "volume": 35072248,
+      "price": 4209.29,
+      "change_pct": -3.72,
+      "change_amount": -162.7,
+      "volume": null,
       "amount": null
     },
     {
       "name": "沪深300",
       "code": "000300",
-      "price": 5022.46,
-      "change_pct": 1.61,
-      "change_amount": 79.44,
-      "high": null,
-      "low": null,
+      "price": 4878.7433,
+      "change_pct": -2.82,
+      "change_amount": -141.36,
       "volume": null,
       "amount": null
     },
     {
       "name": "科创50",
       "code": "000688",
-      "price": 2072.50,
-      "change_pct": 4.18,
-      "change_amount": 83.08,
-      "high": null,
-      "low": null,
+      "price": 2012.5344,
+      "change_pct": -2.6,
+      "change_amount": -53.8,
       "volume": null,
       "amount": null
     },
     {
       "name": "中证2000",
       "code": "399303",
-      "price": 11344.49,
-      "change_pct": -0.44,
-      "change_amount": -49.87,
-      "high": null,
-      "low": null,
+      "price": 11100.42,
+      "change_pct": -2.46,
+      "change_amount": -279.91,
       "volume": null,
       "amount": null
     }
   ],
   "sectors": {
     "top5": [
-      {"name": "保险", "change_pct": 3.56},
-      {"name": "证券", "change_pct": 3.30},
-      {"name": "元件", "change_pct": 2.46},
-      {"name": "基金重仓", "change_pct": 1.10},
-      {"name": "玻璃玻纤", "change_pct": 0.93}
+      {
+        "name": "教育",
+        "change_pct": 1.49
+      },
+      {
+        "name": "光学光电子",
+        "change_pct": 0.44
+      },
+      {
+        "name": "养殖业",
+        "change_pct": 0.42
+      },
+      {
+        "name": "电子化学品",
+        "change_pct": -0.03
+      },
+      {
+        "name": "风电设备",
+        "change_pct": -0.13
+      }
     ],
     "bottom5": [
-      {"name": "化学制品", "change_pct": -2.41},
-      {"name": "电网设备", "change_pct": -2.37},
-      {"name": "互联网服务", "change_pct": -2.83},
-      {"name": "化工原料", "change_pct": -2.28},
-      {"name": "ST股", "change_pct": -3.07}
+      {
+        "name": "港口航运",
+        "change_pct": -2.07
+      },
+      {
+        "name": "零售",
+        "change_pct": -2.12
+      },
+      {
+        "name": "服装家纺",
+        "change_pct": -2.13
+      },
+      {
+        "name": "医疗服务",
+        "change_pct": -2.17
+      },
+      {
+        "name": "文化传媒",
+        "change_pct": -2.21
+      }
     ],
-    "source_note": "东方财富行业板块实时数据（午盘）"
+    "source_note": "同花顺行业板块实时数据（午盘）"
   },
+  "market_breadth": null,
+  "market_breadth_note": "盘中实时涨跌家数暂不可用",
   "north_net_inflow": null,
-  "north_note": "北向资金盘中实时数据暂不可用（午盘阶段API未提供）",
-  "summary": "A股三大指数午盘集体走强。上证指数涨0.36%报4125.76点，深证成指涨1.46%报16285.83点，创业板指涨2.01%报4336.74点。科创50大涨4.18%领跑。板块方面，保险、证券等金融板块走强，元件板块活跃；互联网服务、化学制品、电网设备等跌幅居前。"
+  "north_note": "北向资金盘中实时数据暂不可用",
+  "summary": "A股三大指数午盘集体下挫。上证指数-2.14%报4032.2985点，深证成指-3.04%报15846.98点，创业板指-3.72%报4209.29点。板块方面，教育、光学光电子逆势走强；港口航运、零售等跌幅居前。"
 }

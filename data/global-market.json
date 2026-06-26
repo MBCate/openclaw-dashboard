@@ -1,81 +1,131 @@
 {
-  "updated": "2026-06-26T09:15:00+08:00",
-  "indices": {
-    "china": {
-      "上证指数": {"price": 4120.28, "change_pct": 0.23},
-      "深证成指": {"price": 16344.08, "change_pct": 1.82},
-      "创业板指": {"price": 4371.99, "change_pct": 2.84},
-      "沪深300": {"price": null, "change_pct": null}
+  "updated_at": "2026-06-26T21:42:21+08:00",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "close": 7307.84,
+      "change_pct": -0.67,
+      "note": "AI板块承压，OpenAI IPO推迟传闻拖累"
     },
-    "hong_kong": {
-      "恒生指数": {"price": 23076.85, "change_pct": -1.43}
+    {
+      "name": "纳斯达克",
+      "close": 25094.43,
+      "change_pct": -1.04,
+      "note": "芯片股领跌，Magnificent 7全线下挫"
     },
-    "us": {
-      "S&P500": {"price": 7357.49, "change_pct": -0.01, "note": "PCE通胀数据施压，几乎平收"},
-      "纳斯达克综合": {"price": 25358.60, "change_pct": -0.46, "note": "Magnificent 7全线下挫"},
-      "道琼斯": {"price": 51920.62, "change_pct": 0.14, "note": "工业/医疗板块支撑，Cat创历史新高"}
+    {
+      "name": "道琼斯",
+      "close": 51644.89,
+      "change_pct": -0.53,
+      "note": "工业板块支撑减弱，跟随大盘回落"
+    },
+    {
+      "name": "恒生指数",
+      "close": 22671.86,
+      "change_pct": -1.76,
+      "note": "跟随外盘走弱，科技股承压"
+    },
+    {
+      "name": "日经225",
+      "close": 69360.88,
+      "change_pct": -4.15,
+      "note": "日本股市重挫，半导体出口股领跌"
     }
-  },
-  "us_futures": {
-    "S&P500期货": {"note": "亚洲早盘小幅震荡"},
-    "纳斯达克期货": {"note": "等待PCE数据进一步消化"},
-    "道琼斯期货": {"note": "小幅走高"}
-  },
-  "commodities": {
-    "黄金": {"price": 4043.50, "change_pct": 0.87, "note": "通胀支撑金价继续走高"},
-    "WTI原油": {"price": 69.81, "change_pct": "微跌", "note": "霍尔木兹恢复后供给增加"},
-    "布伦特原油": {"price": 75.06, "change_pct": 2.57, "note": "价格回升至$75上方"}
-  },
-  "macro": {
-    "美元指数DXY": {"price": 101.53, "change_pct": -0.08, "note": "美元小幅走软"},
-    "10Y美债收益率": {"price": 4.39, "change_pct": -0.01, "note": "小幅回落"},
-    "5月PCE": "整体4.1%创三年新高，核心3.4%符合预期",
-    "fed_note": "PCE符合预期未超预期，市场预期美联储年内将加息"
-  },
-  "crypto": {
-    "BTC": {"price": 60785, "change_pct": -2.94, "note": "隔夜继续承压"},
-    "ETH": {"price": 1616, "change_pct": -2.89}
-  },
-  "overnight_highlights": [
-    {"source": "Motley Fool", "title": "美股收盘：道指微涨0.14%至51,921，标普500平收7,357，纳指跌0.46%至25,359"},
-    {"source": "", "title": "Micron飙升16%，AI芯片需求持续火爆；苹果跌超6%，因缺芯上调Mac/iPad价格"},
-    {"source": "Bloomberg", "title": "5月PCE整体通胀4.1%创三年新高，核心PCE 3.4%符合预期"},
-    {"source": "Forbes", "title": "WTI原油开报$69.81，布伦特$73.14；日元疲软日经大跌3.26%至70,005"},
-    {"source": "FT", "title": "Caterpillar涨6%至$1,047创历史新高，签标志性电力交易"},
-    {"source": "CNBC", "title": "苹果因内存短缺上调MacBook和iPad价格，市值蒸发"},
-    {"source": "", "title": "Palantir跌超5%至52周新低，通胀施压成长股"},
-    {"source": "Sector", "title": "工业+2.19%领涨，医疗+1.49%；通信-1.01%，科技-0.09%"}
   ],
-  "asia_open": {
-    "日经225": {"price": 70005, "change_pct": -3.26, "note": "日本股市大跌，日元走弱拖累"},
-    "恒生指数期货": {"note": "早盘交易中，等待A股开盘指引"}
-  },
-  "news_highlights": [
-    {"source": "Motley Fool", "title": "5月PCE整体通胀4.1%创三年新高，核心3.4%符合预期"},
-    {"source": "Bloomberg", "title": "布伦特原油回升至$75上方，霍尔木兹恢复供给"},
-    {"source": "FT", "title": "Micron飙升16%：AI内存需求强劲，业绩指引超预期"},
-    {"source": "CNBC", "title": "苹果因内存短缺上调MacBook/iPad价格，股价跌超6%"},
-    {"source": "", "title": "Caterpillar涨6%至$1,047创历史新高，电力交易推动"},
-    {"source": "MarketWatch", "title": "工业+2.19%，医疗+1.49%领涨；通信-1.01%领跌"},
-    {"source": "Bloomberg", "title": "黄金涨0.87%至$4,043.50，通胀支撑金价"}
+  "crypto": [
+    {
+      "name": "BTC",
+      "price": 59128,
+      "change_pct": -1.77,
+      "note": "跌至$59k关口，避险情绪升温"
+    },
+    {
+      "name": "ETH",
+      "price": 1538.37,
+      "change_pct": -3.56,
+      "note": "跌破$1550，弱势延续"
+    }
   ],
-  "analysis": {
-    "us_market": "美股周四涨跌互现。道指涨0.14%至51,921，工业/医疗板块支撑（Cat创历史新高$1,047）；标普500平收7,357；纳指跌0.46%至25,359，Mag 7全线下跌。Micron飙升16%领涨AI芯片，苹果因缺芯涨价跌超6%。5月PCE整体4.1%创三年新高但核心符合预期，市场消化数据。工业(+2.19%)、医疗(+1.49%)领涨；通信(-1.01%)、科技(-0.09%)承压。",
-    "china_market": "A股昨日三大指数集体收涨，创业板指涨2.84%领跑，机场航运、金融板块强势。今日早盘关注PCE影响及外盘传导。",
-    "hk_market": "恒生指数昨日收跌1.43%报23,077。今日早盘关注恒指期货走势及A股开盘表现。",
-    "japan_market": "日经225大跌3.26%至70,005，创近期最大单日跌幅，日元持续走弱打压市场情绪。",
-    "commodities_macro": "黄金涨0.87%至$4,043.50，通胀支撑避险需求。布伦特原油回升至$75上方。美元指数101.53小幅走软，10Y美债收益率4.39%微降。",
-    "crypto": "加密市场继续承压，BTC跌2.94%至$60,785，ETH跌2.89%至$1,616。"
-  },
-  "key_levels": {
-    "上证支撑": "4080-4100",
-    "上证阻力": "4150-4180",
-    "恒指支撑": "22800-23000",
-    "S&P500支撑": "7300-7320",
-    "S&P500阻力": "7400-7420"
-  },
-  "hello_quant": {
-    "status": "no_recent_data",
-    "note": "隔夜无HelloQuant策略更新"
-  }
+  "commodities": [
+    {
+      "name": "黄金",
+      "price": 4066.5,
+      "change_pct": 0.47,
+      "note": "避险需求支撑，地缘风险升温"
+    },
+    {
+      "name": "WTI原油",
+      "price": 69.65,
+      "change_pct": -3.16,
+      "note": "伊拉克可能退出OPEC消息施压"
+    }
+  ],
+  "macro": [
+    {
+      "name": "美元指数DXY",
+      "price": 101.11,
+      "change_pct": -0.32
+    },
+    {
+      "name": "10Y美债收益率",
+      "price": 4.4,
+      "change_pct": 0.18
+    }
+  ],
+  "news": [
+    {
+      "source": "CNBC",
+      "title": "S&P 500延续跌势，OpenAI IPO推迟传闻引发芯片板块抛售",
+      "summary": "AI概念股集体走弱",
+      "url": "https://www.cnbc.com/2026/06/25/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "美股一周收官惨淡，AI板块成重灾区",
+      "summary": "市场担忧AI投资回报率，芯片股遭大幅抛售",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-25/asia-stocks-set-for-choppy-open-on-tech-volatility-markets-wrap"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "美国商品贸易逆差扩大至一年多来最高",
+      "summary": "5月出口从创纪录水平回落，进口持续攀升",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-26/us-goods-trade-deficit-widens-to-biggest-in-more-than-a-year"
+    },
+    {
+      "source": "CNBC",
+      "title": "OpenAI和Anthropic面临AI支出新现实：企业转向效率优先",
+      "summary": "企业收紧AI预算，可能抑制OpenAI和Anthropic增速",
+      "url": "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "博世CEO意外离职，全球最大汽车零部件供应商面临重组",
+      "summary": "Stefan Hartung在推动裁员数千人后卸任",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-26/bosch-ceo-unexpectedly-leaves-world-s-biggest-car-parts-maker"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "市场资深人士警告：对盈利的过度乐观正成为股市问题",
+      "summary": "Jim Paulsen指出盈利预期高涨往往是回调前兆",
+      "url": "https://www.marketwatch.com/story/why-this-earnings-exuberance-may-be-a-problem-for-the-stock-market-according-to-this-wall-street-veteran-20431488"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "伊拉克暗示可能退出OPEC，油价或跌至$50以下",
+      "summary": "全球石油市场2026年面临新动荡源",
+      "url": "https://www.marketwatch.com/story/a-world-rejecting-opec-controls-could-usher-in-oil-below-50-a-barrel-3d7eda1b"
+    },
+    {
+      "source": "SCMP",
+      "title": "欧洲热浪来袭，医院不堪重负",
+      "summary": "创纪录高温持续，预计进一步恶化",
+      "url": "https://www.scmp.com/news/world/europe/article/3358535/european-hospitals-overwhelmed-heatwave"
+    },
+    {
+      "source": "SCMP",
+      "title": "委内瑞拉地震死亡人数升至589人",
+      "summary": "17国国际救援队赶赴灾区",
+      "url": "https://www.scmp.com/news/world/americas/article/3358556/venezuela-earthquakes-death-toll-rises-589-other-nations-rush-help"
+    }
+  ]
 }

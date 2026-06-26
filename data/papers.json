@@ -1,7 +1,139 @@
 {
-  "last_updated": "2026-06-25 08:00:00",
+  "last_updated": "2026-06-26T08:00:00+08:00",
   "total_papers": 78,
   "papers": [
+    {
+      "arxiv_id": "2606.26017",
+      "title": "G2DP: Diffusion Planning with Spatio-Temporal Grid Guidance",
+      "authors": "Hang Yu, Ye Jin, Alessandro Canevaro, Julian Schmidt, Julian Jordan",
+      "published": "2026-06-24",
+      "relevance": 5,
+      "reasoning": "扩散规划器 + 自动驾驶：提出 G2DP，用可微分时空代价体（栅格引导）注入稠密梯度到去噪循环中，nuPlan 上超越最强 IL baseline +7.2 reactive score，零样本迁移 interPlan/DeepScenario 均 SOTA。对端到端自动驾驶规划方向有直接贡献",
+      "summary": "Diffusion-based planner using spatio-temporal cost grid for inference-time guidance. SOTA on nuPlan (+7.2 reactive score), zero-shot transfers to interPlan/DeepScenario. Collision avoidance +10.15 improvement.",
+      "categories": [
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.26025",
+      "title": "In-Context World Modeling for Robotic Control",
+      "authors": "Siyin Wang, Junhao Shi, Senyu Fei, Zhaoyang Fu, Li Ji",
+      "published": "2026-06-24",
+      "relevance": 5,
+      "reasoning": "世界模型 + VLA：提出 In-Context World Modeling (ICWM)，通过自生成 task-agnostic 交互序列让 VLA 策略在上下文中推断系统变量（相机视角、机器人形态），无需参数更新。对 VLA 泛化性和世界模型融合有重要启发",
+      "summary": "ICWM treats system identification as in-context adaptation. Robot autonomously infers system variables from short self-generated interaction history. Outperforms VLA baselines on novel camera viewpoints without parameter updates.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.26095",
+      "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
+      "authors": "Dong Jing, Tianqi Zhang, Jiaqi Liu, Jinman Zhao, Zelong Sun",
+      "published": "2026-06-24",
+      "relevance": 4,
+      "reasoning": "VLA 动作先验：VLA 模型的 action module 缺乏运动先验，提出预训练动作模块的运动先验 + 跨实体迁移。与自动驾驶 VLA 的 action head 设计问题相关",
+      "summary": "Pretrains action module in VLA with motion priors from large-scale trajectory data. Addresses cold-start issue in cross-embodiment VLA. Improves sample efficiency.",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.26006",
+      "title": "FORCE: Efficient VLA Reinforcement Fine-Tuning via Value-Calibrated Warm-up and Self-Distillation",
+      "authors": "Shuyi Zhang, Yunfan Lou, Hongyang Cheng, Yichen Guo, Chuyao Fu",
+      "published": "2026-06-24",
+      "relevance": 4,
+      "reasoning": "VLA + RL 微调：三阶段框架解决 VLA 模型 RL 微调中的 Q 函数不稳定和探索效率低问题。79% success rate 提升，32.5% 训练加速。对 VLA 自动驾驶策略后训练有参考价值",
+      "summary": "3-stage framework: Value-Calibrated Warm-Up + online Q-filtered updates + self-distillation. 79% improvement in success rate, 32.5% training acceleration without human intervention.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.26010",
+      "title": "FAR-LIO: Enabling High-Speed Autonomy through Fast, Accurate, and Robust LiDAR-Inertial Odometry",
+      "authors": "Maximilian Leitenstern, Marcel Weinmann, Patrick Haft, Tobias Lasser, Dominik Kulmer",
+      "published": "2026-06-24",
+      "relevance": 3,
+      "reasoning": "LiDAR 里程计：CUDA 加速 LIO 框架，面向高速自动驾驶/赛车场景，基于 CUDA voxel hashmap 并行化近邻搜索。对自动驾驶感知前端有一定参考",
+      "summary": "CUDA-accelerated LiDAR-inertial odometry for high-speed autonomy. Novel CUDA-based voxel hashmap for parallelized nearest-neighbor search. Targets autonomous racing.",
+      "categories": [
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.26093",
+      "title": "ForceBand: Learning Forceful Manipulation with sEMG",
+      "authors": "Botao He, Zhi Wang, Linna Kuang, Ishaan Ghosh, Jitendra Malik",
+      "published": "2026-06-24",
+      "relevance": 3,
+      "reasoning": "机器人操作：用 sEMG 腕带捕获人类肌肉活动生成力增强演示数据，10小时多模态数据集。对机器人物体操作的力感知数据增强有贡献",
+      "summary": "Low-cost wrist-worn sEMG system capturing human muscle activity for force-enriched robot demonstrations. 10-hour multimodal dataset across diverse activities.",
+      "categories": [
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.26047",
+      "title": "Learning Robot Visual Navigation in Crowds via Intention-Aware Scene Representations",
+      "authors": "Han Bao, Bingyi Xia, Hanjing Ye, Yu Zhan, Hao Cheng",
+      "published": "2026-06-24",
+      "relevance": 3,
+      "reasoning": "机器人导航 + 意图感知：iCrowdNav 用视觉行人意图感知场景表示进行人群导航。对自动驾驶中的行人意图预测有启发",
+      "summary": "iCrowdNav: Visual crowd navigation with intention-aware scene representations encoding behavioral and visual cues. DRL-based policy outperforms baselines.",
+      "categories": [
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.26046",
+      "title": "RoboAtlas: Contextual Active SLAM",
+      "authors": "Alexander Schperberg, Shivam K. Panda, Abraham P. Vinod, M. K. Jawed, Stefano Di Cairano",
+      "published": "2026-06-24",
+      "relevance": 3,
+      "reasoning": "主动 SLAM：结合语义地图与 VLM 推理的 contextual Active SLAM，Unitree Go2 实测超 1800m²。对自动驾驶地图构建有参考价值",
+      "summary": "Contextual Active SLAM balancing geometric exploration and semantic reasoning via contextual multi-armed bandit. VLM-based reasoning. Tested on Unitree Go2 over 1800m².",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.25953",
+      "title": "DSP-SLAM++: A Unified Framework for Multi-Class, High-Fidelity Object SLAM in the Wild",
+      "authors": "Ahmad Kourani, Ghina Daoud, Daniel Asmar, Imad Elhajj",
+      "published": "2026-06-24",
+      "relevance": 3,
+      "reasoning": "物体级 SLAM：扩展 DSP-SLAM 支持多类物体高保真重建，单目鱼眼+LiDAR 融合。对自动驾驶场景理解有参考",
+      "summary": "Multi-class object SLAM with asynchronous mapping pipeline. Monocular fisheye-LiDAR fusion. Generates fine-grained, geometrically-complete object shapes.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
     {
       "arxiv_id": "2606.24759",
       "title": "UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving",

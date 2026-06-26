@@ -1,114 +1,54 @@
 {
   "date": "2026-06-26",
-  "update_time": "11:35",
-  "session": "午盘",
-  "source": "东方财富 / 新浪财经 / 同花顺",
-  "indices": [
-    {
-      "name": "上证指数",
-      "code": "000001",
-      "price": 4032.2985,
-      "change_pct": -2.14,
-      "change_amount": -87.98,
-      "volume": null,
-      "amount": null
+  "updatedAt": "2026-06-26T15:48:08.068206+08:00",
+  "indices": {
+    "上证指数": {
+      "price": 4027.26,
+      "change_pct": -2.26,
+      "change": -93.02
     },
-    {
-      "name": "深证成指",
-      "code": "399001",
-      "price": 15846.98,
-      "change_pct": -3.04,
-      "change_amount": -497.1,
-      "volume": null,
-      "amount": null
+    "深证成指": {
+      "price": 15782.22,
+      "change_pct": -3.44,
+      "change": -561.86
     },
-    {
-      "name": "创业板指",
-      "code": "399006",
-      "price": 4209.29,
-      "change_pct": -3.72,
-      "change_amount": -162.7,
-      "volume": null,
-      "amount": null
+    "创业板指": {
+      "price": 4194.21,
+      "change_pct": -4.07,
+      "change": -177.78
     },
-    {
-      "name": "沪深300",
-      "code": "000300",
-      "price": 4878.7433,
-      "change_pct": -2.82,
-      "change_amount": -141.36,
-      "volume": null,
-      "amount": null
-    },
-    {
-      "name": "科创50",
-      "code": "000688",
-      "price": 2012.5344,
-      "change_pct": -2.6,
-      "change_amount": -53.8,
-      "volume": null,
-      "amount": null
-    },
-    {
-      "name": "中证2000",
-      "code": "399303",
-      "price": 11100.42,
-      "change_pct": -2.46,
-      "change_amount": -279.91,
-      "volume": null,
-      "amount": null
+    "沪深300": {
+      "price": 4868.22,
+      "change_pct": -3.03,
+      "change": -151.88
     }
-  ],
-  "sectors": {
-    "top5": [
-      {
-        "name": "教育",
-        "change_pct": 1.49
-      },
-      {
-        "name": "光学光电子",
-        "change_pct": 0.44
-      },
-      {
-        "name": "养殖业",
-        "change_pct": 0.42
-      },
-      {
-        "name": "电子化学品",
-        "change_pct": -0.03
-      },
-      {
-        "name": "风电设备",
-        "change_pct": -0.13
-      }
-    ],
-    "bottom5": [
-      {
-        "name": "港口航运",
-        "change_pct": -2.07
-      },
-      {
-        "name": "零售",
-        "change_pct": -2.12
-      },
-      {
-        "name": "服装家纺",
-        "change_pct": -2.13
-      },
-      {
-        "name": "医疗服务",
-        "change_pct": -2.17
-      },
-      {
-        "name": "文化传媒",
-        "change_pct": -2.21
-      }
-    ],
-    "source_note": "同花顺行业板块实时数据（午盘）"
   },
-  "market_breadth": null,
-  "market_breadth_note": "盘中实时涨跌家数暂不可用",
-  "north_net_inflow": null,
-  "north_note": "北向资金盘中实时数据暂不可用",
-  "summary": "A股三大指数午盘集体下挫。上证指数-2.14%报4032.2985点，深证成指-3.04%报15846.98点，创业板指-3.72%报4209.29点。板块方面，教育、光学光电子逆势走强；港口航运、零售等跌幅居前。"
+  "global": {
+    "恒生指数": {
+      "price": 22655,
+      "change_pct": -1.83,
+      "change": -422
+    }
+  },
+  "northbound": {
+    "沪股通": {
+      "net_buy": 0.0,
+      "status": "data_unavailable"
+    },
+    "深股通": {
+      "net_buy": 0.0,
+      "status": "data_unavailable"
+    },
+    "note": "北向资金当日无数据"
+  },
+  "boards": {
+    "top5": [],
+    "bot5": [],
+    "note": "API连接异常，板块数据暂缺"
+  },
+  "summary": {
+    "market_status": "大幅下跌",
+    "alert": "创业板指暴跌4.07%，深成指跌3.44%，科技股领跌",
+    "news": "AI概念股大幅回调，美股Micron财报利好消退，投资者担忧AI成本过高"
+  }
 }

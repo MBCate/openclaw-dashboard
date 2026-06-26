@@ -1,30 +1,28 @@
 {
-  "date": "2026-06-24",
-  "update_time": "15:15",
-  "source": "HelloQuant Daily Collection",
-  "crypto": {
-    "btc": {
-      "price": 62715.8,
-      "change_24h_pct": null,
-      "rsi_1h": null,
-      "rsi_4h": null,
-      "macd_1h": null,
-      "trend_1h": null,
-      "trend_4h": null
-    },
-    "eth": {
-      "price": 1673.89,
-      "change_24h_pct": null,
-      "rsi_1h": null,
-      "rsi_4h": null,
-      "trend_1h": null,
-      "trend_4h": null
-    },
-    "fear_greed_index": 17,
-    "fear_greed_label": "Extreme Fear"
-  },
+  "date": "2026-06-26",
+  "updatedAt": "2026-06-26T15:58:26.545754+08:00",
   "strategies": {
-    "note": "策略信号脚本被超时中断，未生成完整信号"
+    "note": "策略报告暂未更新，显示6月24日缓存数据",
+    "lastDataDate": "2026-06-24"
   },
-  "summary": "BTC $62715.8, ETH $1673.89, 恐惧贪婪指数17(极度恐惧)。HelloQuant策略信号未完整生成（数据采集脚本因网络超时中断）"
+  "crypto": {
+    "BTC/USDT": {
+      "price": 62715.8,
+      "change_24h": -0.31,
+      "rsi_1h": 60.5,
+      "trend_1h": "偏多",
+      "rsi_4h": 43.2,
+      "trend_4h": "偏空"
+    },
+    "ETH/USDT": {
+      "price": 1673.89,
+      "change_24h": -0.91,
+      "rsi_1h": 69.0,
+      "trend_1h": "偏多",
+      "rsi_4h": 41.1,
+      "trend_4h": "偏空"
+    }
+  },
+  "fear_greed": 17,
+  "fear_greed_label": "极度恐惧"
 }

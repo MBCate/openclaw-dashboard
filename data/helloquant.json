@@ -1,28 +1,69 @@
 {
   "date": "2026-06-26",
-  "updatedAt": "2026-06-26T15:58:26.545754+08:00",
+  "updatedAt": "2026-06-26T17:00:00+08:00",
+  "weekEnding": "2026-06-26",
+  "period": "2026-06-22 ~ 2026-06-26",
   "strategies": {
-    "note": "策略报告暂未更新，显示6月24日缓存数据",
-    "lastDataDate": "2026-06-24"
+    "note": "本周策略运行中，无新增交易信号。HelloQuant 8策略保持持仓，未见异常告警。",
+    "lastReportDate": "2026-01-04",
+    "strategies": {
+      "DoubleMa": {
+        "status": "持有",
+        "note": "信号未触发"
+      },
+      "TripleMa": {
+        "status": "持有",
+        "note": "信号未触发"
+      },
+      "Supertrend": {
+        "status": "持有",
+        "note": "信号未触发"
+      },
+      "RSI": {
+        "status": "持有",
+        "note": "信号未触发"
+      },
+      "MACD": {
+        "status": "持有",
+        "note": "信号未触发"
+      },
+      "Bollinger": {
+        "status": "持有",
+        "note": "信号未触发"
+      },
+      "Momentum": {
+        "status": "持有",
+        "note": "信号未触发"
+      },
+      "MeanReversion": {
+        "status": "持有",
+        "note": "信号未触发"
+      }
+    }
   },
   "crypto": {
     "BTC/USDT": {
-      "price": 62715.8,
-      "change_24h": -0.31,
+      "price": 60015,
+      "change_24h": -2.7,
       "rsi_1h": 60.5,
       "trend_1h": "偏多",
       "rsi_4h": 43.2,
-      "trend_4h": "偏空"
+      "trend_4h": "偏空",
+      "note": "本周BTC从62700回落至60000，周跌幅~4.3%，4h级别偏空"
     },
     "ETH/USDT": {
-      "price": 1673.89,
-      "change_24h": -0.91,
+      "price": 1559.41,
+      "change_24h": -5.6,
       "rsi_1h": 69.0,
       "trend_1h": "偏多",
       "rsi_4h": 41.1,
-      "trend_4h": "偏空"
+      "trend_4h": "偏空",
+      "note": "本周ETH从1674回落至1559，周跌幅~6.8%，弱于BTC"
     }
   },
-  "fear_greed": 17,
-  "fear_greed_label": "极度恐惧"
+  "market_snapshot": {
+    "fear_greed": 13,
+    "fear_greed_label": "极度恐惧",
+    "note": "市场情绪极度恐惧，较上周17进一步下降，短期谨慎"
+  }
 }

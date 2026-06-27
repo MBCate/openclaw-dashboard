@@ -1449,7 +1449,193 @@
       "status": "[新发现]",
       "new_finding": true,
       "relevance": 3
+    },
+    {
+      "arxiv_id": "2606.27348",
+      "title": "Bridging Performance and Generalization in Reinforcement Learning for Agile Flight",
+      "authors": "Jonathan Green, Jiaxu Xing, Nico Messikommer, Angel Romero, Davide Scaramuzza",
+      "summary": "Zero-shot generalization framework for RL-based autonomous drone racing. 7.4x improvement in generalization. Vision-based end-to-end control without state estimation.",
+      "published": "2026-06-25",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 3,
+      "keywords": [
+        "reinforcement learning",
+        "end-to-end",
+        "autonomous"
+      ],
+      "date_added": "2026-06-27"
+    },
+    {
+      "arxiv_id": "2606.26858",
+      "title": "PlanRL: A Trajectory Planning Architecture for Reinforcement Learning-based Driving Experts",
+      "authors": "Joonhee Lim, Yongjae Lee, Jangho Shin et al.",
+      "summary": "Bridges RL policy with trajectory planning for autonomous driving. RL outputs high-level commands refined by a trajectory planner for safety.",
+      "published": "2026-06-25",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "keywords": [
+        "reinforcement learning",
+        "autonomous driving",
+        "planning"
+      ],
+      "date_added": "2026-06-27"
+    },
+    {
+      "arxiv_id": "2606.26661",
+      "title": "LAMP: Lane-Aligned Motion Primitives for Feasible Trajectory Prediction",
+      "authors": "Sangjin Han, Hoseong Jung, Jeongtae Her et al.",
+      "summary": "Motion forecasting using lane-aligned motion primitives for AD. Improves prediction accuracy and feasibility in complex driving scenarios.",
+      "published": "2026-06-25",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "relevance": 4,
+      "keywords": [
+        "motion forecasting",
+        "trajectory prediction",
+        "autonomous driving"
+      ],
+      "date_added": "2026-06-27"
+    },
+    {
+      "arxiv_id": "2606.27123",
+      "title": "Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation",
+      "authors": "Shubham Vaijanath Phoolari, Aleyna Kara, Christoph Lauer et al.",
+      "summary": "Diffusion-based closed-loop traffic scenario generation. Interactive multi-agent behaviors that are scene-consistent and controllable throughout rollout.",
+      "published": "2026-06-25",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "relevance": 4,
+      "keywords": [
+        "diffusion",
+        "traffic simulation",
+        "closed-loop"
+      ],
+      "date_added": "2026-06-27"
+    },
+    {
+      "arxiv_id": "2606.27375",
+      "title": "Scalable Behavior Cloning with Open Data, Training, and Evaluation",
+      "authors": "Arthur Allshire, Himanshu Gaurav Singh, Ritvik Singh et al.",
+      "summary": "Open-source stack for manipulation behavior cloning. ABC-130K dataset: 3500h/130K episodes. Open data+training+evaluation pipeline.",
+      "published": "2026-06-25",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 3,
+      "keywords": [
+        "behavior cloning",
+        "imitation learning"
+      ],
+      "date_added": "2026-06-27"
+    },
+    {
+      "arxiv_id": "2606.27146",
+      "title": "PhysReflect-VLA: Physical Feasibility and Self-Reflective Regulation for Reliable VLA Policies",
+      "authors": "Jiayu Yang, Tao Yang, Weijun Li et al.",
+      "summary": "Physical feasibility checking and self-reflective regulation for VLA policies to improve reliability in long-horizon manipulation.",
+      "published": "2026-06-25",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "keywords": [
+        "VLA",
+        "vision-language-action",
+        "safety"
+      ],
+      "date_added": "2026-06-27"
+    },
+    {
+      "arxiv_id": "2606.27144",
+      "title": "PAMAE: Phase-Aware-MoE Action Experts for Reliable Flow-Matching VLA Policies",
+      "authors": "Jiayu Yang, Tao Yang, Xiang Chang et al.",
+      "summary": "MoE-based VLA policy with phase-aware action experts. Flow-matching VLA with phase routing for multi-stage manipulation.",
+      "published": "2026-06-25",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "keywords": [
+        "VLA",
+        "flow-matching",
+        "MoE"
+      ],
+      "date_added": "2026-06-27"
+    },
+    {
+      "arxiv_id": "2606.27079",
+      "title": "ForesightSafety-VLA: Unified Diagnostic Safety Benchmark for VLA Models",
+      "authors": "Mingyang Lyu, Yinqian Sun, Yiyang Jia et al.",
+      "summary": "Safety diagnostic benchmark for VLA models. Evaluates VLA safety across manipulation scenarios.",
+      "published": "2026-06-25",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 3,
+      "keywords": [
+        "VLA",
+        "safety",
+        "benchmark"
+      ],
+      "date_added": "2026-06-27"
+    },
+    {
+      "arxiv_id": "2606.26801",
+      "title": "Improving VLA Model Fine-Tuning with Structured Stage and Keyframe Supervision",
+      "authors": "Yuan Xu, Yixiang Chen, Kai Wang et al.",
+      "summary": "Stage-aware and keyframe-based action supervision for VLA fine-tuning, addressing uniform supervision issues.",
+      "published": "2026-06-25",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "relevance": 3,
+      "keywords": [
+        "VLA",
+        "fine-tuning"
+      ],
+      "date_added": "2026-06-27"
+    },
+    {
+      "arxiv_id": "2606.26588",
+      "title": "Inference-Time Robot Behavior Steering through Physically-Aware Reconfiguration of Task-Structure",
+      "authors": "Yiyuan Pan, Hanjiang Hu, Shangtao Li et al.",
+      "summary": "Inference-time behavior steering for learned policies. Reconfigures task structure at test time without retraining.",
+      "published": "2026-06-25",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 3,
+      "keywords": [
+        "robot policy",
+        "inference-time"
+      ],
+      "date_added": "2026-06-27"
+    },
+    {
+      "arxiv_id": "2606.27295",
+      "title": "LA4VLA: Learning to Act without Seeing via Language-Action Pretraining",
+      "authors": "Tao Lin, Yuxin Du, Yiran Mao et al.",
+      "summary": "Language-Action pretraining for VLA. Removes visual dependency during pretraining using only language-action pairs before fine-tuning with vision.",
+      "published": "2026-06-25",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 3,
+      "keywords": [
+        "VLA",
+        "pretraining"
+      ],
+      "date_added": "2026-06-27"
     }
   ],
-  "last_update_note": "Added 15 new papers from 2026-06-24~25 arXiv scan"
+  "last_update_note": "Added 11 new papers from 2026-06-25 arXiv scan"
 }

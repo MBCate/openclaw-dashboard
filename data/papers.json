@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-26T08:00:00+08:00",
-  "total_papers": 78,
+  "last_updated": "2026-06-28T08:00:00+08:00",
+  "total_papers": 104,
   "papers": [
     {
       "arxiv_id": "2606.26017",
@@ -1471,18 +1471,21 @@
       "arxiv_id": "2606.26858",
       "title": "PlanRL: A Trajectory Planning Architecture for Reinforcement Learning-based Driving Experts",
       "authors": "Joonhee Lim, Yongjae Lee, Jangho Shin et al.",
-      "summary": "Bridges RL policy with trajectory planning for autonomous driving. RL outputs high-level commands refined by a trajectory planner for safety.",
+      "summary": "Novel architecture combining RL policy with polynomial trajectory planner in Frenet frame. Improves driving score by +5%/+11% on CARLA, success rate by +8%/+19%. Bridges RL with structured planning.",
       "published": "2026-06-25",
       "categories": [
         "cs.RO"
       ],
-      "relevance": 4,
+      "relevance": 5,
       "keywords": [
         "reinforcement learning",
         "autonomous driving",
         "planning"
       ],
-      "date_added": "2026-06-27"
+      "date_added": "2026-06-27",
+      "reasoning": "端到端自动驾驶：RL+多项式轨迹规划器架构，Frenet坐标系简化路况几何，结合运动学可行性检查。CARLA Offline Leaderboard 驾驶分数+5%，成功率+8%；NoCrash +11%/+19%。",
+      "new_discovery": true,
+      "kb_status": "新发现"
     },
     {
       "arxiv_id": "2606.26661",
@@ -1506,7 +1509,7 @@
       "arxiv_id": "2606.27123",
       "title": "Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation",
       "authors": "Shubham Vaijanath Phoolari, Aleyna Kara, Christoph Lauer et al.",
-      "summary": "Diffusion-based closed-loop traffic scenario generation. Interactive multi-agent behaviors that are scene-consistent and controllable throughout rollout.",
+      "summary": "Diffusion-based closed-loop traffic simulation using proposal-conditioned latent diffusion. Interactive multi-agent behaviors with reduced cost for AV planning.",
       "published": "2026-06-25",
       "categories": [
         "cs.RO",
@@ -1518,13 +1521,16 @@
         "traffic simulation",
         "closed-loop"
       ],
-      "date_added": "2026-06-27"
+      "date_added": "2026-06-27",
+      "reasoning": "交通场景生成：proposal-conditioned latent diffusion用于闭环交通仿真，降低计算开销。对自动驾驶仿真数据生成和扩散规划器有参考价值。",
+      "new_discovery": true,
+      "kb_status": "新发现"
     },
     {
       "arxiv_id": "2606.27375",
       "title": "Scalable Behavior Cloning with Open Data, Training, and Evaluation",
       "authors": "Arthur Allshire, Himanshu Gaurav Singh, Ritvik Singh et al.",
-      "summary": "Open-source stack for manipulation behavior cloning. ABC-130K dataset: 3500h/130K episodes. Open data+training+evaluation pipeline.",
+      "summary": "ABC: open-source BC stack with 130K episode dataset (3500h/195 tasks). Open-source hardware setup, training infra, simulation.",
       "published": "2026-06-25",
       "categories": [
         "cs.RO"
@@ -1534,13 +1540,16 @@
         "behavior cloning",
         "imitation learning"
       ],
-      "date_added": "2026-06-27"
+      "date_added": "2026-06-27",
+      "reasoning": "行为克隆开源框架：ABC全开源BC栈+130K数据集(3500h/195任务)。对驾驶领域模仿学习有参考但重点在机器人。",
+      "new_discovery": true,
+      "kb_status": "新发现"
     },
     {
       "arxiv_id": "2606.27146",
       "title": "PhysReflect-VLA: Physical Feasibility and Self-Reflective Regulation for Reliable VLA Policies",
       "authors": "Jiayu Yang, Tao Yang, Weijun Li et al.",
-      "summary": "Physical feasibility checking and self-reflective regulation for VLA policies to improve reliability in long-horizon manipulation.",
+      "summary": "PhysReflect-VLA adds physical feasibility checking and self-reflective regulation. Detects infeasible transitions and contact disturbances during long-horizon tasks.",
       "published": "2026-06-25",
       "categories": [
         "cs.RO"
@@ -1551,13 +1560,16 @@
         "vision-language-action",
         "safety"
       ],
-      "date_added": "2026-06-27"
+      "date_added": "2026-06-27",
+      "reasoning": "VLA物理可行性：物理不可行过渡和接触干扰的自检查和自纠正模块。与自动驾驶VLA可靠性问题直接相关。",
+      "new_discovery": true,
+      "kb_status": "新发现"
     },
     {
       "arxiv_id": "2606.27144",
       "title": "PAMAE: Phase-Aware-MoE Action Experts for Reliable Flow-Matching VLA Policies",
       "authors": "Jiayu Yang, Tao Yang, Xiang Chang et al.",
-      "summary": "MoE-based VLA policy with phase-aware action experts. Flow-matching VLA with phase routing for multi-stage manipulation.",
+      "summary": "PAMAE: Phase-aware MoE for flow-matching VLA policies. Dedicated action experts per execution stage for multi-stage manipulation.",
       "published": "2026-06-25",
       "categories": [
         "cs.RO"
@@ -1568,13 +1580,37 @@
         "flow-matching",
         "MoE"
       ],
-      "date_added": "2026-06-27"
+      "date_added": "2026-06-27",
+      "reasoning": "VLA动作专家：Phase-Aware MoE用于flow-matching VLA，各阶段分配专门动作专家。对VLA action head设计有参考。",
+      "new_discovery": true,
+      "kb_status": "新发现"
     },
     {
       "arxiv_id": "2606.27079",
       "title": "ForesightSafety-VLA: Unified Diagnostic Safety Benchmark for VLA Models",
       "authors": "Mingyang Lyu, Yinqian Sun, Yiyang Jia et al.",
-      "summary": "Safety diagnostic benchmark for VLA models. Evaluates VLA safety across manipulation scenarios.",
+      "summary": "First diagnostic benchmark making safety the primary evaluation target for VLA models. Systematic safety failure mode analysis.",
+      "published": "2026-06-25",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "relevance": 4,
+      "keywords": [
+        "VLA",
+        "safety",
+        "benchmark"
+      ],
+      "date_added": "2026-06-27",
+      "reasoning": "VLA安全基准：首个将安全性作为VLA主要评估指标的诊断基准。对VLA系统安全性评估框架有重要参考意义。",
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.26801",
+      "title": "Improving VLA Model Fine-Tuning with Structured Stage and Keyframe Supervision",
+      "authors": "Yuan Xu, Yixiang Chen, Kai Wang et al.",
+      "summary": "Structured stage and keyframe supervision for VLA fine-tuning. Reduces failures at challenging gripper-event transitions.",
       "published": "2026-06-25",
       "categories": [
         "cs.RO"
@@ -1582,27 +1618,12 @@
       "relevance": 3,
       "keywords": [
         "VLA",
-        "safety",
-        "benchmark"
-      ],
-      "date_added": "2026-06-27"
-    },
-    {
-      "arxiv_id": "2606.26801",
-      "title": "Improving VLA Model Fine-Tuning with Structured Stage and Keyframe Supervision",
-      "authors": "Yuan Xu, Yixiang Chen, Kai Wang et al.",
-      "summary": "Stage-aware and keyframe-based action supervision for VLA fine-tuning, addressing uniform supervision issues.",
-      "published": "2026-06-25",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "relevance": 3,
-      "keywords": [
-        "VLA",
         "fine-tuning"
       ],
-      "date_added": "2026-06-27"
+      "date_added": "2026-06-27",
+      "reasoning": "VLA微调：结构化阶段和关键帧监督改进VLA微调，关注gripper-event过渡。对自驾VLA训练方法学有间接参考。",
+      "new_discovery": true,
+      "kb_status": "新发现"
     },
     {
       "arxiv_id": "2606.26588",
@@ -1635,6 +1656,93 @@
         "pretraining"
       ],
       "date_added": "2026-06-27"
+    },
+    {
+      "arxiv_id": "2606.27326",
+      "title": "Hallucination in World Models is Predictable and Preventable",
+      "authors": "Nicklas Hansen, Xiaolong Wang",
+      "published": "2026-06-25",
+      "relevance": 5,
+      "reasoning": "世界模型幻觉检测与预防：提出 hallucination 集中在状态-动作空间的低覆盖区域，可用 lightweight data-centric signals 检测并缓解。对自动驾驶世界模型的可靠部署有直接指导意义——预测幻觉区域可触发安全回退。来自 Nicklas Hansen/Xiaolong Wang (UCSD) 强团队。",
+      "summary": "World models frequently hallucinate—rollouts look realistic but drift from ground-truth dynamics. Finds hallucination concentrates in low-coverage state-action regions. Proposes lightweight detection + data augmentation for mitigation.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.27374",
+      "title": "World Action Models Enable Continual Imitation Learning with Recurrent Generative Replays",
+      "authors": "Manish Kumar Govind, Dominick Reilly, Smit Patel, Hieu Le, Srijan Das",
+      "published": "2026-06-25",
+      "relevance": 5,
+      "reasoning": "世界动作模型(WAM)用于持续模仿学习：提出 Recurrent Generative Replay (REGEN)，利用 WAM 合成伪回放轨迹避免灾难性遗忘，无需存储原始人类演示数据。将 WAM 从预测扩展到持续学习场景，与自动驾驶中的 world-action model 研究高度相关。",
+      "summary": "REGEN uses WAMs to generate pseudo-replay trajectories for continual IL. Synthesizes past task demonstrations from learned world model without storing original data. Enables robot policies to continuously improve without forgetting.",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.26922",
+      "title": "Risk-Aware Selective Multimodal Driver Monitoring with Driver-State World Modeling",
+      "authors": "Daosheng Qiu, Haozhuang Chi, Hao Su, Shu Long, Xinyue Miao, Yongle Dong, Wei Zhang",
+      "published": "2026-06-25",
+      "relevance": 3,
+      "reasoning": "驾驶员监控：轻量级 RGB-生理信号驾驶员监控 + driver-state 世界模型预测模块。0.7440 Macro-F1，3.08ms 推理延迟。与自动驾驶安全驾驶舱相关，但非核心端到端方向。",
+      "summary": "Cost-aware selective multimodal driver monitoring with lightweight RGB-physiological student (3.08ms latency, 0.7440 Macro-F1). Driver-state world modeling module predicts future fast-model errors. Reduces unsafe false negatives from 17.37% to ~5%.",
+      "categories": [
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.27355",
+      "title": "RouterVLA: Turning Smoke Tests into Supervision for Heterogeneous VLA Selection",
+      "authors": "Xingyu Ren, Chugang Yi, Ge Ma, Youran Sun",
+      "published": "2026-06-25",
+      "relevance": 3,
+      "reasoning": "VLA 策略选择：利用预部署 rollout 结果选择最优 VLA 策略的评估框架。对 VLA 策略评估/benchmark 有参考价值，但偏向机器人而非驾驶场景。",
+      "summary": "RouterVLA reuses pre-deployment evaluation rollouts to supervise VLA policy selection. Outcome-disjoint cross-fitting builds expert profiles from recorded probes. Reduces need for separate validation runs.",
+      "categories": [
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.26800",
+      "title": "SSI-Policy: Learning Structured Scene Interfaces for Vision-Language Robotic Manipulation",
+      "authors": "Kaijun Wang, Zikai Ouyang, Xuping Wu, Jinyi Hong, Wei Pan, Haibo Lu, Jia Pan, Wei Zhang, Linfang Zheng",
+      "published": "2026-06-25",
+      "relevance": 3,
+      "reasoning": "结构化场景接口 VLA：将场景结构引入 VLA 模型，结合空间定位和任务推理。对自动驾驶 VLA 的场景表示方法有间接参考，但聚焦机器人操控。",
+      "summary": "SSI-Policy learns structured scene interfaces combining spatial grounding and task-aware reasoning for VLA. Explicit 3D structure helps in low-data regime. Improves geometric consistency over long horizons.",
+      "categories": [
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
+    },
+    {
+      "arxiv_id": "2606.27353",
+      "title": "Continual Robot Policy Learning via Variational Neural Dynamics",
+      "authors": "Jiaxu Xing, Zhiyuan Zhu, Yunfan Ren, Ismail Geles, Yifan Zhai, Rudolf Reiter, Davide Scaramuzza",
+      "published": "2026-06-25",
+      "relevance": 3,
+      "reasoning": "连续学习：变分神经动力学实现机器人策略持续学习以应对环境变化（风力、负载变化等）。对自动驾驶领域持续学习有参考价值，但 Davide Scaramuzza 团队标志性方法学。",
+      "summary": "Continual learning framework using variational neural dynamics to adapt robot policies to changing physical dynamics (wind, payload, battery drain). Enables robots to improve from deployment experience without forgetting previous skills.",
+      "categories": [
+        "cs.RO"
+      ],
+      "new_discovery": true,
+      "kb_status": "新发现"
     }
   ],
   "last_update_note": "Added 11 new papers from 2026-06-25 arXiv scan"

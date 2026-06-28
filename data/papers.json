@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-28T08:00:00+08:00",
+  "last_updated": "2026-06-28T10:00:00+08:00",
   "total_papers": 104,
   "papers": [
     {
@@ -13,8 +13,8 @@
       "categories": [
         "cs.RO"
       ],
-      "new_discovery": true,
-      "kb_status": "新发现"
+      "new_discovery": false,
+      "kb_status": "[已收录]"
     },
     {
       "arxiv_id": "2606.26025",
@@ -28,8 +28,8 @@
         "cs.RO",
         "cs.CV"
       ],
-      "new_discovery": true,
-      "kb_status": "新发现"
+      "new_discovery": false,
+      "kb_status": "[已收录]"
     },
     {
       "arxiv_id": "2606.26095",
@@ -146,8 +146,8 @@
         "cs.CV",
         "cs.AI"
       ],
-      "new_discovery": true,
-      "kb_status": "新发现",
+      "new_discovery": false,
+      "kb_status": "[已收录]",
       "status": "[新发现]",
       "relevance_score": 5
     },
@@ -162,8 +162,8 @@
       "categories": [
         "cs.CV"
       ],
-      "new_discovery": true,
-      "kb_status": "新发现",
+      "new_discovery": false,
+      "kb_status": "[已收录]",
       "status": "[新发现]",
       "relevance_score": 5
     },
@@ -182,7 +182,9 @@
         "planning"
       ],
       "status": "new",
-      "published": "2026-06-22"
+      "published": "2026-06-22",
+      "kb_status": "[已收录]",
+      "new_discovery": false
     },
     {
       "arxiv_id": "2606.21501",
@@ -1484,8 +1486,8 @@
       ],
       "date_added": "2026-06-27",
       "reasoning": "端到端自动驾驶：RL+多项式轨迹规划器架构，Frenet坐标系简化路况几何，结合运动学可行性检查。CARLA Offline Leaderboard 驾驶分数+5%，成功率+8%；NoCrash +11%/+19%。",
-      "new_discovery": true,
-      "kb_status": "新发现"
+      "new_discovery": false,
+      "kb_status": "[已收录]"
     },
     {
       "arxiv_id": "2606.26661",
@@ -1669,8 +1671,8 @@
         "cs.RO",
         "cs.CV"
       ],
-      "new_discovery": true,
-      "kb_status": "新发现"
+      "new_discovery": false,
+      "kb_status": "[已收录]"
     },
     {
       "arxiv_id": "2606.27374",
@@ -1685,8 +1687,8 @@
         "cs.CV",
         "cs.LG"
       ],
-      "new_discovery": true,
-      "kb_status": "新发现"
+      "new_discovery": false,
+      "kb_status": "[已收录]"
     },
     {
       "arxiv_id": "2606.26922",
@@ -1745,5 +1747,12 @@
       "kb_status": "新发现"
     }
   ],
-  "last_update_note": "Added 11 new papers from 2026-06-25 arXiv scan"
+  "last_update_note": "Added 11 new papers from 2026-06-25 arXiv scan",
+  "weekly_picks": [
+    "2606.24051",
+    "2606.24759",
+    "2606.26017",
+    "2606.22913",
+    "2606.27326"
+  ]
 }

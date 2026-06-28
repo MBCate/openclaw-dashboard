@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-06-27T21:30:00+08:00",
+  "updated_at": "2026-06-28T21:30:00+08:00",
   "indices": [
     {
       "name": "S&P 500",
-      "close": 7357.49,
-      "change_pct": -0.01,
-      "note": "基本持平，盘中波动剧烈，霍尔木兹海峡局势引发午后反弹"
+      "close": 7354.02,
+      "change_pct": -0.05,
+      "note": "美股上周五小幅收跌，本周关注非农数据和地缘局势发展"
     },
     {
       "name": "纳斯达克",
-      "close": 25358.6,
-      "change_pct": -0.46,
-      "note": "AI板块继续承压，但SpaceX纳入NDX消息部分抵消跌势"
+      "close": 25297.62,
+      "change_pct": -0.24,
+      "note": "科技股延续调整，存储芯片短缺持续影响产业链"
     },
     {
       "name": "道琼斯",
-      "close": 51920.62,
-      "change_pct": 0.14,
-      "note": "微幅收涨，防御板块支撑，能源股因油价波动承压"
+      "close": 51876.11,
+      "change_pct": -0.09,
+      "note": "防御板块相对抗跌，能源股受油价拖累"
     },
     {
       "name": "恒生指数",
@@ -35,67 +35,73 @@
   "crypto": [
     {
       "name": "BTC",
-      "price": 60500,
-      "change_pct": 1.94,
-      "note": "反弹至$60.5k，地缘冲突刺激避险但资金也寻求替代资产"
+      "price": 60053,
+      "change_pct": 0.19,
+      "note": "窄幅震荡，地缘冲突推升替代资产需求"
     },
     {
       "name": "ETH",
-      "price": 1586.92,
-      "change_pct": 2.81,
-      "note": "跟随BTC反弹，重回$1580上方"
+      "price": 1578.75,
+      "change_pct": 0.46,
+      "note": "跟随BTC小幅反弹"
     }
   ],
   "commodities": [
     {
       "name": "黄金",
-      "price": 4078.7,
-      "change_pct": 1.2,
-      "note": "避险买盘涌入，美对伊朗空袭推高贵金属需求"
+      "price": 4096.30,
+      "change_pct": 1.63,
+      "note": "避险买盘强劲，美对伊朗局势升级推动金价突破$4090"
     },
     {
       "name": "WTI原油",
       "price": 69.23,
       "change_pct": -3.74,
-      "note": "霍尔木兹海峡冲突虽推高短期风险，但市场担忧需求前景"
+      "note": "需求前景担忧压过地缘溢价，霍尔木兹海峡停火预期分歧加大"
     }
   ],
   "macro": [
     {
       "name": "美元指数DXY",
-      "price": 101.43,
-      "change_pct": -0.18
+      "price": 101.37,
+      "change_pct": -0.06
     },
     {
       "name": "10Y美债收益率",
       "price": 4.372,
-      "change_pct": -0.64
+      "change_pct": -0.46
     }
   ],
   "news": [
     {
       "source": "CNBC",
-      "title": "美军空袭伊朗，特朗普指责德黑兰违反霍尔木兹海峡停火协议",
-      "summary": "伊朗向新加坡货船发射无人机，美国回击摧毁导弹和雷达设施",
-      "url": "https://www.cnbc.com/2026/06/26/us-strikes-iran-strait-of-hormuz-ceasefire.html"
+      "title": "特朗普再威胁伊朗，科威特和巴林报告遭袭击",
+      "summary": "中东局势持续紧张，避险资产受追捧",
+      "url": "https://www.cnbc.com/2026/06/28/trump-threatens-iran-with-annihilation-kuwait-bahrain-report-attacks.html"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "沙特阿美直升机在Ras Tanura坠毁，14人全部遇难",
+      "summary": "重大安全事故，可能影响能源设施运营",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-28/aramco-helicopter-crash-in-ras-tanura-kills-all-14-passengers"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "鹰派美联储施压新兴市场债券涨势",
+      "summary": "新兴市场债券面临挑战，资金或回流美元资产",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-28/hawkish-fed-throws-down-challenge-for-emerging-market-bond-rally"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "别信\"卖出美国\"交易：为什么美股继续证明做空者错了",
+      "summary": "分析认为美国市场韧性超预期，盈利增长支撑估值",
+      "url": "https://www.marketwatch.com/story/forget-the-sell-america-trade-why-u-s-markets-keep-proving-the-naysayers-wrong-03a0ab10"
     },
     {
       "source": "CNBC",
-      "title": "SpaceX快速加入纳斯达克100指数，将带来大规模ETF买入需求",
-      "summary": "7月6日收盘后生效，跟踪该指数的资金超$8000亿",
-      "url": "https://www.cnbc.com/2026/06/26/spacex-added-to-nasdaq-100-on-hold-on-hold-on-hold.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "存储芯片短缺震动Apple和Microsoft，对小厂商是'生存危机'",
-      "summary": "DRAM价格从$35涨至$300，小型硬件公司面临绝境",
+      "title": "存储芯片短缺：对Apple和Microsoft是冲击，对小厂商是生存危机",
+      "summary": "DRAM价格从$35飙升至$300，小型硬件公司面临绝境",
       "url": "https://www.cnbc.com/2026/06/27/memory-crunch-shaking-apple-and-microsoft-existential-for-small-guys.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "美伊和平协议允许IAEA进入伊朗核设施检查",
-      "summary": "IAEA署长确认技术工作已启动，将监督核部分执行",
-      "url": "https://www.cnbc.com/2026/06/26/us-iran-peace-deal-nuclear-access.html"
     },
     {
       "source": "Bloomberg",
@@ -104,22 +110,16 @@
       "url": "https://www.bloomberg.com/news/articles/2026-06-27/ais-energy-crunch-has-investors-searching-for-next-ipo-winners"
     },
     {
+      "source": "CNBC",
+      "title": "美国汽车市场\"完美风暴\"：预计2040年前大幅萎缩",
+      "summary": "Bain预测销量将远低于17.6百万辆的历史峰值",
+      "url": "https://www.cnbc.com/2026/06/28/us-auto-market.html"
+    },
+    {
       "source": "Bloomberg",
-      "title": "欧洲遭遇残酷热浪，气候通胀担忧升温",
+      "title": "欧洲遭残酷热浪袭击，气候通胀担忧升温",
       "summary": "创纪录高温可能导致食品和能源价格上涨",
       "url": "https://www.bloomberg.com/news/articles/2026-06-26/brutal-heat-wave-scorches-europe-raising-climate-inflation-concerns"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "委内瑞拉地震死亡人数逼近1000，救援工作艰难推进",
-      "summary": "国际救援队持续搜救被困人员",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-27/venezuela-struggles-with-earthquake-rescue-efforts-as-death-toll-nears-1000"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "AI加速推动股市上涨后，正开始拉动实体经济",
-      "summary": "AI投资从金融市场向实体经济传导效应显现",
-      "url": "https://www.marketwatch.com/story/ai-turbocharged-the-stock-market-now-its-firing-up-the-economy-193d2eb1"
     }
   ]
 }

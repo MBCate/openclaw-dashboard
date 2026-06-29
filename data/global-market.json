@@ -1,153 +1,154 @@
 {
-  "updated_at": "2026-06-29T09:15:00+08:00",
+  "updated_at": "2026-06-29T21:30:00+08:00",
   "indices": [
     {
       "name": "S&P 500",
       "close": 7354.02,
-      "change_pct": -0.05,
-      "futures_pct": 0.4,
-      "note": "期货上涨0.4%，地缘局势缓和预期提振。上周五科技股重挫（Nvidia -8%，Alphabet -8%，SpaceX -17%），本周关注非农数据"
+      "change_pct": 0.9,
+      "futures_pct": null,
+      "note": "SPY +0.90%开盘，美伊暂停攻击+科技反弹带动，上周五Nvidia -8%后技术性修复"
     },
     {
-      "name": "纳斯达克",
-      "close": 25297.62,
-      "change_pct": -0.24,
-      "futures_pct": 0.5,
-      "note": "纳指期货领涨0.5%，存储芯片短缺持续发酵，Micron预测利润率仅次Nvidia和Google"
+      "name": "纳斯达克100",
+      "close": 29118.24,
+      "change_pct": -1.09,
+      "futures_pct": 0.84,
+      "note": "QQQ +0.84%开盘反弹，上周五跌-1.09%收于29118，存储芯片/Micron领涨"
     },
     {
       "name": "道琼斯",
-      "close": 51876.11,
+      "close": 51905.91,
       "change_pct": -0.09,
-      "futures_pct": 0.2,
-      "note": "期货涨124点(+0.2%)，防御板块抗跌"
+      "futures_pct": 0.41,
+      "note": "DIA +0.41%开盘，Comcast涨超10%宣布分拆NBCUniversal"
     },
     {
       "name": "恒生指数",
       "close": 22671.86,
       "change_pct": -1.76,
-      "note": "上周五数据。今日低开预期，科技股承压"
+      "note": "周一收跌-1.76%，科技股承压。港股ETF(EWH)美股盘前-0.14%"
     },
     {
       "name": "日经225",
       "close": 69360.88,
       "change_pct": -4.15,
-      "futures_pct": -0.35,
-      "note": "周一早盘跌0.35%，半导体板块延续调整"
+      "note": "周一重挫-4.15%，半导体板块遭恐慌抛售"
     },
     {
       "name": "韩国KOSPI",
       "close": 0,
       "change_pct": -2.29,
-      "note": "周一开盘重挫2.29%，受存储芯片崩盘冲击最大"
+      "note": "周一暴跌-2.29%，DRAM价格暴涨冲击下游需求"
     },
     {
-      "name": "澳洲ASX 200",
+      "name": "欧洲STOXX 600",
       "close": 0,
-      "change_pct": 0.41,
-      "note": "周一早盘涨0.41%，资源股支撑"
+      "change_pct": 0.1,
+      "note": "欧洲收盘企稳，创纪录热浪推高食品/能源价格，天然气库存15年低位"
     }
   ],
   "crypto": [
     {
       "name": "BTC",
-      "price": 60053,
-      "change_pct": 0.19,
-      "note": "窄幅震荡，地缘冲突推升替代资产需求"
+      "price": 60105,
+      "change_pct_24h": -0.05,
+      "note": "$60,105，24h微跌-0.05%。Strategy宣布可能出售最多$12.5亿BTC"
     },
     {
       "name": "ETH",
-      "price": 1578.75,
-      "change_pct": 0.46,
-      "note": "跟随BTC小幅反弹"
+      "price": 1580,
+      "change_pct_24h": -0.04,
+      "note": "$1,580，7日跌-9.38%，走势弱于BTC"
     }
   ],
   "commodities": [
     {
-      "name": "黄金",
-      "price": 4096.30,
-      "change_pct": 1.63,
-      "note": "美对伊朗局势升级推动金价突破$4090。周一早盘回撤，通胀担忧压制"
+      "name": "黄金 (GLD)",
+      "price": 370.57,
+      "change_pct": -0.82,
+      "note": "GLD -0.82%开盘至$370.57。金价从$4090高位回落，美伊暂停攻击+通胀担忧"
     },
     {
-      "name": "WTI原油",
-      "price": 69.72,
-      "change_pct": 0.71,
-      "note": "周一早盘涨0.71%至$69.72，美伊周末互相空袭后供应担忧再起。但美伊同意暂停攻击消息传出后涨幅收窄"
-    },
-    {
-      "name": "布伦特原油",
-      "price": 72.25,
-      "change_pct": 0.36,
-      "note": "涨0.36%，霍尔木兹海峡和谈暂停但各方代表留在瑞士"
+      "name": "WTI原油 (USO)",
+      "price": 106.47,
+      "change_pct": 0.94,
+      "note": "USO +0.94%开盘。WTI近四个月低位反弹，美伊同意暂停攻击但霍尔木兹航运仍受威胁"
     }
   ],
   "macro": [
     {
-      "name": "美元指数DXY",
-      "price": 101.37,
-      "change_pct": -0.06
+      "name": "20Y+美债 (TLT)",
+      "price": 87.37,
+      "change_pct": 0.01,
+      "note": "TLT 近乎持平，长端利率企稳"
     },
     {
-      "name": "10Y美债收益率",
-      "price": 4.372,
-      "change_pct": -0.46
+      "name": "新兴市场 (EEM)",
+      "price": 66.97,
+      "change_pct": -0.33,
+      "note": "EEM -0.33%，新兴市场承压"
     }
   ],
   "news": [
     {
       "source": "CNBC",
-      "title": "美股期货小幅走高，亚洲市场涨跌互现，美伊新一轮空袭推高油价",
-      "summary": "DJIA期货+0.2%，S&P期货+0.4%，NASDAQ期货+0.5%。美伊周未互相空袭后，和谈暂停但各方保持代表在瑞士",
-      "url": "https://www.cnbc.com/2026/06/28/stock-futures-today-live-updates.html"
+      "title": "特朗普宣布美伊将于周二在卡塔尔举行新一轮和谈",
+      "summary": "周末冲突后双方同意暂停攻击，和谈将在卡塔尔重启",
+      "url": "https://www.cnbc.com/2026/06/29/trump-says-us-and-iran-to-hold-fresh-talks-in-qatar-on-tuesday.html"
     },
     {
       "source": "CNBC",
-      "title": "油价因美伊空袭升级上涨，霍尔木兹海峡航运仍受威胁",
-      "summary": "WTI涨0.71%至$69.72，布伦特涨0.36%至$72.25。美副总统Vance抵瑞士参加高级别和谈",
-      "url": "https://www.cnbc.com/2026/06/29/oil-prices-wti-brent-crude-us-iran-strikes-strait-hormuz-talks.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "特朗普再威胁伊朗，科威特和巴林报告遭袭击",
-      "summary": "特朗普称'美国飞机刚刚打击了伊朗导弹和无人机储存地点以及海岸雷达站'，和谈暂停",
-      "url": "https://www.cnbc.com/2026/06/28/trump-threatens-iran-with-annihilation-kuwait-bahrain-report-attacks.html"
+      "title": "Comcast飙升20%：宣布分拆NBCUniversal和Sky",
+      "summary": "Comcast周一开盘涨超10%，宣布将NBCUniversal和Sky从有线电视业务中分拆",
+      "url": "https://www.cnbc.com/2026/06/29/comcast-soars-on-plan-to-spin-off-nbcuniversal-sky.html"
     },
     {
       "source": "Bloomberg",
-      "title": "美伊同意暂停攻击后油价回撤部分涨幅",
-      "summary": "巴基斯坦消息人士称和谈暂停但代表留瑞士。美伊双方在周末交火后同意暂停攻击",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-28/us-futures-climb-on-reports-peace-talks-to-resume-markets-wrap"
+      "title": "美股期货上涨，科技股反弹+美伊紧张局势缓和",
+      "summary": "期货走高：S&P +0.4%，NASDAQ +0.5%，DJIA +0.2%，科技股逢低买入",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-29/us-futures-climb-on-reports-peace-talks-to-resume-markets-wrap"
     },
     {
       "source": "Bloomberg",
-      "title": "金价下跌，美伊紧张局势引发通胀担忧",
-      "summary": "金价从$4090高位回落，美联储鹰派立场持续压制贵金属",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-29/gold-declines-as-fresh-us-iran-tension-fans-inflation-concerns"
+      "title": "Strategy可能出售最多$12.5亿比特币",
+      "summary": "前MicroStrategy计划出售BTC头寸，消息后BTC小幅承压",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-29/strategy-says-it-may-sell-up-to-1-25-billion-of-bitcoin"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "霍尔木兹海峡油轮继续通行但船东警惕",
+      "summary": "美伊冲突暂缓但仍具不确定性，航运保险费用攀升",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-29/hormuz-oil-transits-continue-though-attacks-make-owners-wary"
     },
     {
       "source": "MarketWatch",
-      "title": "Micron利润率将仅次于Nvidia和Google",
-      "summary": "DRAM价格从$35飙升至$300，存储芯片超级周期延续",
-      "url": "https://www.marketwatch.com/story/micron-is-about-to-be-more-profitable-than-any-u-s-company-except-nvidia-and-google-3a83e343"
+      "title": "欧洲股市有望超越美国同行",
+      "summary": "分析师认为欧洲估值更具吸引力，但热浪和天然气库存问题构成风险",
+      "url": "https://www.marketwatch.com/story/european-stocks-are-poised-to-outdo-their-american-peers"
+    },
+    {
+      "source": "FT",
+      "title": "欧洲面临冬季天然气库存15年新低风险",
+      "summary": "热浪耗能叠加补库不及预期，欧洲能源危机隐忧再现",
+      "url": "https://www.ft.com/content/europe-gas-storage-winter-2026"
     },
     {
       "source": "CNBC",
-      "title": "存储芯片短缺：Apple和Microsoft遭冲击，小厂商面临生存危机",
-      "summary": "DRAM价格暴涨10倍，存储芯片短缺影响全产业链",
-      "url": "https://www.cnbc.com/2026/06/27/memory-crunch-shaking-apple-and-microsoft-existential-for-small-guys.html"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "AI能源危机推动寻找下一个IPO赢家",
+      "title": "AI能源危机：投资者寻找下一个IPO赢家",
       "summary": "数据中心电力需求激增，能源基础设施IPO前景看好",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-27/ais-energy-crunch-has-investors-searching-for-next-ipo-winners"
+      "url": "https://www.cnbc.com/2026/06/27/ais-energy-crunch-has-investors-searching-for-next-ipo-winners.html"
     },
     {
-      "source": "Bloomberg",
-      "title": "欧洲热浪肆虐，气候通胀担忧升温",
-      "summary": "创纪录高温可能推高食品和能源价格",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-26/brutal-heat-wave-scorches-europe-raising-climate-inflation-concerns"
+      "source": "Yahoo Finance",
+      "title": "BlackRock IBIT投资者浮亏40%",
+      "summary": "比特币ETF IBIT自高点回落，投资者持仓损失达40%",
+      "url": "https://finance.yahoo.com/news/blackrock-ibit-investors-nursing-loss/"
+    },
+    {
+      "source": "CNBC",
+      "title": "Nvidia、Micron、Broadcom掌控美股命运",
+      "summary": "半导体三巨头占据市场核心地位，上周五AI板块暴跌后市场聚焦芯片股",
+      "url": "https://www.cnbc.com/2026/06/29/nvidia-micron-broadcom-hold-market-fate.html"
     }
   ]
 }

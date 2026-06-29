@@ -1,54 +1,63 @@
 {
-  "date": "2026-06-26",
-  "updatedAt": "2026-06-26T15:48:08.068206+08:00",
+  "date": "2026-06-29",
+  "updatedAt": "2026-06-29T11:39:00+08:00",
   "indices": {
     "上证指数": {
-      "price": 4027.26,
-      "change_pct": -2.26,
-      "change": -93.02
+      "price": 4034.08,
+      "change_pct": 0.17,
+      "change": 6.82
     },
     "深证成指": {
-      "price": 15782.22,
-      "change_pct": -3.44,
-      "change": -561.86
+      "price": 15591.37,
+      "change_pct": -1.21,
+      "change": -190.85
     },
     "创业板指": {
-      "price": 4194.21,
-      "change_pct": -4.07,
-      "change": -177.78
+      "price": 4140.65,
+      "change_pct": -1.28,
+      "change": -53.56
     },
     "沪深300": {
-      "price": 4868.22,
-      "change_pct": -3.03,
-      "change": -151.88
+      "price": 4871.03,
+      "change_pct": 0.06,
+      "change": 2.81
+    },
+    "科创50": {
+      "price": 2063.94,
+      "change_pct": 1.56,
+      "change": 31.66
     }
   },
   "global": {
     "恒生指数": {
-      "price": 22655,
-      "change_pct": -1.83,
-      "change": -422
+      "price": 0,
+      "change_pct": 2.05,
+      "change": 0
     }
   },
   "northbound": {
-    "沪股通": {
-      "net_buy": 0.0,
-      "status": "data_unavailable"
-    },
-    "深股通": {
-      "net_buy": 0.0,
-      "status": "data_unavailable"
-    },
-    "note": "北向资金当日无数据"
+    "沪股通": 0.0,
+    "深股通": 0.0
   },
   "boards": {
-    "top5": [],
-    "bot5": [],
-    "note": "API连接异常，板块数据暂缺"
+    "top5": [
+      {"name": "医疗研发外包", "change": 7.56},
+      {"name": "其他生物制品", "change": 7.27},
+      {"name": "生物制品", "change": 6.28},
+      {"name": "化学制剂", "change": 5.74},
+      {"name": "医疗服务", "change": 5.34}
+    ],
+    "bot5": [
+      {"name": "清洁小家电", "change": 0.91},
+      {"name": "一般零售", "change": 0.91},
+      {"name": "大宗用纸", "change": 0.91},
+      {"name": "种子", "change": 0.92},
+      {"name": "物业管理", "change": 0.94}
+    ]
   },
   "summary": {
-    "market_status": "大幅下跌",
-    "alert": "创业板指暴跌4.07%，深成指跌3.44%，科技股领跌",
-    "news": "AI概念股大幅回调，美股Micron财报利好消退，投资者担忧AI成本过高"
+    "market_status": "沪指微涨，双创承压，医药板块全线爆发",
+    "alert": "🔴 上证 4034.08(+0.17%) | 🟢 深证 15591.37(-1.21%) | 🟢 创业板 4140.65(-1.28%) | 🔴 科创50 2063.94(+1.56%) | 🇭🇰 恒指+2.05% | 📈 医药全线大涨(研发外包+7.56%) | 💊 两市板块全线上涨，无下跌板块 | 💰 北向盘中暂未更新",
+    "note": "午盘数据 - 医药生物板块全面走强，沪指权重股维稳，深创延续调整"
   }
 }

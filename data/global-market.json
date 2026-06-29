@@ -1,35 +1,51 @@
 {
-  "updated_at": "2026-06-28T21:30:00+08:00",
+  "updated_at": "2026-06-29T09:15:00+08:00",
   "indices": [
     {
       "name": "S&P 500",
       "close": 7354.02,
       "change_pct": -0.05,
-      "note": "美股上周五小幅收跌，本周关注非农数据和地缘局势发展"
+      "futures_pct": 0.4,
+      "note": "期货上涨0.4%，地缘局势缓和预期提振。上周五科技股重挫（Nvidia -8%，Alphabet -8%，SpaceX -17%），本周关注非农数据"
     },
     {
       "name": "纳斯达克",
       "close": 25297.62,
       "change_pct": -0.24,
-      "note": "科技股延续调整，存储芯片短缺持续影响产业链"
+      "futures_pct": 0.5,
+      "note": "纳指期货领涨0.5%，存储芯片短缺持续发酵，Micron预测利润率仅次Nvidia和Google"
     },
     {
       "name": "道琼斯",
       "close": 51876.11,
       "change_pct": -0.09,
-      "note": "防御板块相对抗跌，能源股受油价拖累"
+      "futures_pct": 0.2,
+      "note": "期货涨124点(+0.2%)，防御板块抗跌"
     },
     {
       "name": "恒生指数",
       "close": 22671.86,
       "change_pct": -1.76,
-      "note": "上周五数据，地缘风险叠加科技股弱势"
+      "note": "上周五数据。今日低开预期，科技股承压"
     },
     {
       "name": "日经225",
       "close": 69360.88,
       "change_pct": -4.15,
-      "note": "上周五数据，半导体板块重挫"
+      "futures_pct": -0.35,
+      "note": "周一早盘跌0.35%，半导体板块延续调整"
+    },
+    {
+      "name": "韩国KOSPI",
+      "close": 0,
+      "change_pct": -2.29,
+      "note": "周一开盘重挫2.29%，受存储芯片崩盘冲击最大"
+    },
+    {
+      "name": "澳洲ASX 200",
+      "close": 0,
+      "change_pct": 0.41,
+      "note": "周一早盘涨0.41%，资源股支撑"
     }
   ],
   "crypto": [
@@ -51,13 +67,19 @@
       "name": "黄金",
       "price": 4096.30,
       "change_pct": 1.63,
-      "note": "避险买盘强劲，美对伊朗局势升级推动金价突破$4090"
+      "note": "美对伊朗局势升级推动金价突破$4090。周一早盘回撤，通胀担忧压制"
     },
     {
       "name": "WTI原油",
-      "price": 69.23,
-      "change_pct": -3.74,
-      "note": "需求前景担忧压过地缘溢价，霍尔木兹海峡停火预期分歧加大"
+      "price": 69.72,
+      "change_pct": 0.71,
+      "note": "周一早盘涨0.71%至$69.72，美伊周末互相空袭后供应担忧再起。但美伊同意暂停攻击消息传出后涨幅收窄"
+    },
+    {
+      "name": "布伦特原油",
+      "price": 72.25,
+      "change_pct": 0.36,
+      "note": "涨0.36%，霍尔木兹海峡和谈暂停但各方代表留在瑞士"
     }
   ],
   "macro": [
@@ -75,50 +97,56 @@
   "news": [
     {
       "source": "CNBC",
+      "title": "美股期货小幅走高，亚洲市场涨跌互现，美伊新一轮空袭推高油价",
+      "summary": "DJIA期货+0.2%，S&P期货+0.4%，NASDAQ期货+0.5%。美伊周未互相空袭后，和谈暂停但各方保持代表在瑞士",
+      "url": "https://www.cnbc.com/2026/06/28/stock-futures-today-live-updates.html"
+    },
+    {
+      "source": "CNBC",
+      "title": "油价因美伊空袭升级上涨，霍尔木兹海峡航运仍受威胁",
+      "summary": "WTI涨0.71%至$69.72，布伦特涨0.36%至$72.25。美副总统Vance抵瑞士参加高级别和谈",
+      "url": "https://www.cnbc.com/2026/06/29/oil-prices-wti-brent-crude-us-iran-strikes-strait-hormuz-talks.html"
+    },
+    {
+      "source": "CNBC",
       "title": "特朗普再威胁伊朗，科威特和巴林报告遭袭击",
-      "summary": "中东局势持续紧张，避险资产受追捧",
+      "summary": "特朗普称'美国飞机刚刚打击了伊朗导弹和无人机储存地点以及海岸雷达站'，和谈暂停",
       "url": "https://www.cnbc.com/2026/06/28/trump-threatens-iran-with-annihilation-kuwait-bahrain-report-attacks.html"
     },
     {
       "source": "Bloomberg",
-      "title": "沙特阿美直升机在Ras Tanura坠毁，14人全部遇难",
-      "summary": "重大安全事故，可能影响能源设施运营",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-28/aramco-helicopter-crash-in-ras-tanura-kills-all-14-passengers"
+      "title": "美伊同意暂停攻击后油价回撤部分涨幅",
+      "summary": "巴基斯坦消息人士称和谈暂停但代表留瑞士。美伊双方在周末交火后同意暂停攻击",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-28/us-futures-climb-on-reports-peace-talks-to-resume-markets-wrap"
     },
     {
       "source": "Bloomberg",
-      "title": "鹰派美联储施压新兴市场债券涨势",
-      "summary": "新兴市场债券面临挑战，资金或回流美元资产",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-28/hawkish-fed-throws-down-challenge-for-emerging-market-bond-rally"
+      "title": "金价下跌，美伊紧张局势引发通胀担忧",
+      "summary": "金价从$4090高位回落，美联储鹰派立场持续压制贵金属",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-29/gold-declines-as-fresh-us-iran-tension-fans-inflation-concerns"
     },
     {
       "source": "MarketWatch",
-      "title": "别信\"卖出美国\"交易：为什么美股继续证明做空者错了",
-      "summary": "分析认为美国市场韧性超预期，盈利增长支撑估值",
-      "url": "https://www.marketwatch.com/story/forget-the-sell-america-trade-why-u-s-markets-keep-proving-the-naysayers-wrong-03a0ab10"
+      "title": "Micron利润率将仅次于Nvidia和Google",
+      "summary": "DRAM价格从$35飙升至$300，存储芯片超级周期延续",
+      "url": "https://www.marketwatch.com/story/micron-is-about-to-be-more-profitable-than-any-u-s-company-except-nvidia-and-google-3a83e343"
     },
     {
       "source": "CNBC",
-      "title": "存储芯片短缺：对Apple和Microsoft是冲击，对小厂商是生存危机",
-      "summary": "DRAM价格从$35飙升至$300，小型硬件公司面临绝境",
+      "title": "存储芯片短缺：Apple和Microsoft遭冲击，小厂商面临生存危机",
+      "summary": "DRAM价格暴涨10倍，存储芯片短缺影响全产业链",
       "url": "https://www.cnbc.com/2026/06/27/memory-crunch-shaking-apple-and-microsoft-existential-for-small-guys.html"
     },
     {
       "source": "Bloomberg",
-      "title": "AI能源危机推动投资者寻找下一个IPO赢家",
-      "summary": "数据中心电力需求激增，能源基础设施IPO受追捧",
+      "title": "AI能源危机推动寻找下一个IPO赢家",
+      "summary": "数据中心电力需求激增，能源基础设施IPO前景看好",
       "url": "https://www.bloomberg.com/news/articles/2026-06-27/ais-energy-crunch-has-investors-searching-for-next-ipo-winners"
     },
     {
-      "source": "CNBC",
-      "title": "美国汽车市场\"完美风暴\"：预计2040年前大幅萎缩",
-      "summary": "Bain预测销量将远低于17.6百万辆的历史峰值",
-      "url": "https://www.cnbc.com/2026/06/28/us-auto-market.html"
-    },
-    {
       "source": "Bloomberg",
-      "title": "欧洲遭残酷热浪袭击，气候通胀担忧升温",
-      "summary": "创纪录高温可能导致食品和能源价格上涨",
+      "title": "欧洲热浪肆虐，气候通胀担忧升温",
+      "summary": "创纪录高温可能推高食品和能源价格",
       "url": "https://www.bloomberg.com/news/articles/2026-06-26/brutal-heat-wave-scorches-europe-raising-climate-inflation-concerns"
     }
   ]

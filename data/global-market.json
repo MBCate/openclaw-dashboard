@@ -1,142 +1,86 @@
 {
-  "updated_at": "2026-06-30T09:15:00+08:00",
-  "indices": [
-    {
-      "name": "S&P 500",
-      "close": 7402.15,
-      "change_pct": 0.65,
-      "futures_pct": 0.35,
-      "note": "周二盘前小幅走高+0.35%，周一收涨+0.65%。美伊和谈预期+科技股反弹延续。周一COMCAST拆分推动道指创收盘新高"
-    },
-    {
-      "name": "纳斯达克100",
-      "close": 29450.62,
-      "change_pct": 1.14,
-      "futures_pct": 0.42,
-      "note": "周一收涨+1.14%至29450，台积电涨5.24%领涨半导体。盘前+0.42%延续反弹"
-    },
-    {
-      "name": "道琼斯",
-      "close": 52187.83,
-      "change_pct": 0.60,
-      "futures_pct": 0.15,
-      "note": "周一收涨+0.60%至52187，创历史收盘新高。COMCAST拆分NBCUniversal领涨，特朗普买入Axon股票消息发酵"
-    },
-    {
-      "name": "恒生指数",
-      "close": 22671.86,
-      "change_pct": -1.76,
-      "note": "周一收跌-1.76%。今早日经开盘下跌，亚太市场整体承压但有望创2009来最佳季度表现"
-    },
-    {
-      "name": "日经225",
-      "close": 69030.00,
-      "change_pct": -0.48,
-      "note": "周二开盘续跌-0.48%，日元跌至近40年低点推升进口成本，半导体板块持续承压"
-    },
-    {
-      "name": "韩国KOSPI",
-      "close": 2450.12,
-      "change_pct": -0.35,
-      "note": "周二开盘微跌-0.35%，DRAM价格波动持续影响"
-    },
-    {
-      "name": "欧洲STOXX 600",
-      "close": 518.40,
-      "change_pct": 0.20,
-      "note": "欧洲企稳，热浪和天然气库存低位仍是主要风险。大摩警告全球石油过剩"
-    }
-  ],
-  "crypto": [
-    {
-      "name": "BTC",
-      "price": 59850,
-      "change_pct_24h": -0.42,
-      "note": "$59,850，24h跌-0.42%。Strategy可能出售最多$12.5亿BTC消息持续压制"
-    },
-    {
-      "name": "ETH",
-      "price": 1562,
-      "change_pct_24h": -1.14,
-      "note": "$1,562，7日跌超-10%。走势弱于BTC，黑岩IBIT投资者浮亏40%"
-    }
-  ],
-  "commodities": [
-    {
-      "name": "黄金",
-      "price": 2320.50,
-      "change_pct": -0.35,
-      "note": "现货金$2,320，走低。美伊和谈预期削弱避险需求"
-    },
-    {
-      "name": "WTI原油",
-      "price": 73.20,
-      "change_pct": 0.80,
-      "note": "WTI $73.20，小幅反弹+0.80%。大摩警告全球石油过剩下调展望，但霍尔木兹航运仍受威胁"
-    },
-    {
-      "name": "伦铜",
-      "price": 9450.00,
-      "change_pct": -0.50,
-      "note": "伦铜下滑-0.5%，全球经济增长担忧"
-    }
-  ],
-  "macro": [
-    {
-      "name": "美元指数",
-      "price": 106.80,
-      "change_pct": 0.30,
-      "note": "美元走强，日元跌至近40年低点"
-    },
-    {
-      "name": "日元/美元",
-      "price": 162.50,
-      "change_pct": 0.50,
-      "note": "USD/JPY 162.50，创近40年新低。亚太市场风险偏好分化"
-    }
-  ],
-  "news": [
+  "timestamp": "2026-06-30T21:30:00+08:00",
+  "date": "2026-06-30",
+  "sources": {
+    "cnbc": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114",
+    "bloomberg": "https://feeds.bloomberg.com/markets/news.rss",
+    "wsj": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"
+  },
+  "indices": {
+    "note": "US markets closed for June 30 — end of Q2 2026. Best quarter since 2020."
+  },
+  "crypto": {
+    "btc_usd": 59750,
+    "btc_change_24h": "+0.5%",
+    "eth_usd": 1589,
+    "eth_change_24h": "+1.27%",
+    "sol_usd": 74.22,
+    "sol_change_24h": "+4.09%",
+    "xrp_usd": 1.04,
+    "xrp_change_24h": "+0.55%",
+    "total_market_cap": "2.16T",
+    "total_market_change_24h": "+0.8%",
+    "btc_dominance": "55.7%",
+    "sentiment": "Extreme Fear",
+    "source": "CoinGabbar / CoinMarketCap"
+  },
+  "commodities": {
+    "wti_crude": 70.39,
+    "brent_crude": 72.83,
+    "note": "Oil prices set for steep monthly drop. US-Iran talks in Doha. Brent expected $75-80 year-end per CIBC.",
+    "source": "Forbes / Gulf News"
+  },
+  "fx": {
+    "usd_jpy": "~160+ (40-year low for yen)",
+    "note": "Yen at weakest vs USD in 4 decades. Market watching for BOJ intervention.",
+    "source": "Bloomberg"
+  },
+  "news_headlines": [
     {
       "source": "Bloomberg",
-      "title": "亚太股市有望创2009年来最佳季度表现，日元跌至40年新低",
-      "summary": "亚洲股市季度表现亮眼，但日本央行政策困境和日元贬值构成不确定性",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-30/asia-stocks-eye-best-quarter-since-2009-yen-drops"
+      "title": "Chip Stocks' Best Quarter Ever Is Ending With Some Wild Swings",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-30/chip-stocks-best-quarter-ever-is-ending-with-some-wild-swings"
     },
     {
       "source": "Bloomberg",
-      "title": "摩根士丹利警告全球石油过剩，下调霍尔木兹前景",
-      "summary": "尽管霍尔木兹航运受威胁，大摩认为全球需求放缓将导致供应过剩",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-30/morgan-stanley-warns-global-oil-glut"
+      "title": "Stocks Fluctuate at End of Best Quarter Since 2020",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-29/japan-stocks-set-to-climb-as-yen-hits-40-year-low-markets-wrap"
     },
     {
-      "source": "Sina Finance",
-      "title": "6月30日隔夜要闻：美股收高科技股领涨，油价上涨，黄金走低",
-      "summary": "美股三大指数收涨，科技股领涨。台积电+5.24%，百度+7.64%。日元跌至近40年低点",
-      "url": "https://finance.sina.com.cn/stock/usstock/"
+      "source": "Bloomberg",
+      "title": "Citadel Securities Sees Retail Crowd Buying Dips at Record Pace",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-30/citadel-securities-sees-retail-crowd-buying-dips-at-record-pace"
     },
     {
-      "source": "CNBC",
-      "title": "特朗普购买至多$500万Axon股票后，ICE寻求$2.2亿泰瑟枪交易",
-      "summary": "披露文件显示特朗普在ICE寻求泰瑟枪合同前购入Axon股票，引发内幕交易质疑",
-      "url": "https://www.cnbc.com/2026/06/29/trump-axon-stock-ice-taser-deal.html"
+      "source": "Bloomberg",
+      "title": "Yen's Slide Puts Market on Lookout for Japan's Next Red Line",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-30/yen-s-slide-puts-market-on-lookout-for-japan-s-next-red-line"
     },
     {
       "source": "CNBC",
-      "title": "Eli Lilly、Regeneron入选FDA加快新生产基地审批首批名单",
-      "summary": "FDA新计划旨在加速新制造设施审批，应对药价压力",
-      "url": "https://www.cnbc.com/2026/06/29/eli-lilly-regeneron-fda-manufacturing-review.html"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "特朗普周末伊朗打击持续推动周一股市反弹",
-      "summary": "数据显示美伊冲突周末升级反而成为股市反弹催化剂，地缘政治风险定价模式变化",
-      "url": "https://www.marketwatch.com/story/trump-weekend-iran-strikes-rally-pattern"
+      "title": "Small-cap stocks enjoy their best first half in 35 years",
+      "url": "https://www.cnbc.com/2026/06/30/small-cap-stocks-enjoy-best-first-half-since-1991-as-ai-trade-expands.html"
     },
     {
       "source": "CNBC",
-      "title": "美股期货小幅波动，道指创纪录新高后盘整",
-      "summary": "周二期货涨跌互现，三大指数接近平开。焦点转向美伊卡塔尔和谈进展",
-      "url": "https://www.cnbc.com/markets/"
+      "title": "Oil prices set for steep monthly drop as Trump, Iran issue mixed messages",
+      "url": "https://www.cnbc.com/2026/06/30/oil-prices-brent-wti-crude-trump-iran.html"
+    },
+    {
+      "source": "CNBC",
+      "title": "White House AI crackdown opens door for Chinese model makers",
+      "url": "https://www.cnbc.com/2026/06/30/white-house-ai-china-crackdown.html"
+    },
+    {
+      "source": "CNBC",
+      "title": "AeroVironment skyrockets 21% as dronemaker capitalizes on defense spending surge",
+      "url": "https://www.cnbc.com/2026/06/30/aerovironment-avav-stock-earnings-defense.html"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Oil Supply Won't Come Back as Quickly as Expected, Babin Says",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-30/oil-supply-won-t-come-back-quickly-babin-says-video"
     }
-  ]
+  ],
+  "summary": "Q2 2026 closes: US stocks' best quarter since 2020. Chip stocks had best quarter ever despite late volatility. Small caps best H1 in 35 years. Crypto subdued at $2.16T with Extreme Fear sentiment. Oil under pressure from US-Iran talks (WTI $70.39, Brent $72.83). Yen at 40-year low vs USD. Retail investors buying dips at record pace per Citadel Securities."
 }

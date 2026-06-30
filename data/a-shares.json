@@ -1,158 +1,84 @@
 {
-  "date": "2026-06-29",
-  "timestamp": "15:05 CST",
-  "indices": {
-    "上证指数": {
-      "price": 4073.9,
-      "change_pct": 1.16
+  "update_time": "2026-06-30 11:35",
+  "indices": [
+    {
+      "name": "上证指数",
+      "current": 4082.13,
+      "open": 4058.17,
+      "high": 4082.16,
+      "low": 4052.17,
+      "prev_close": 4073.9,
+      "change_pct": 0.2,
+      "change": 8.23
     },
-    "深证成指": {
-      "price": 15812.87,
-      "change_pct": 0.19
+    {
+      "name": "深证成指",
+      "current": 16202.9,
+      "open": 15811.67,
+      "high": 16208.98,
+      "low": 15809.65,
+      "prev_close": 15812.87,
+      "change_pct": 2.47,
+      "change": 390.03
     },
-    "创业板指": {
-      "price": 4216.7,
-      "change_pct": 0.54
+    {
+      "name": "创业板指",
+      "current": 4345.84,
+      "open": 4217.63,
+      "high": 4350.41,
+      "low": 4205.74,
+      "prev_close": 4216.7,
+      "change_pct": 3.06,
+      "change": 129.14
     },
-    "沪深300": {
-      "price": 4926.92,
-      "change_pct": 1.21
-    },
-    "科创50": {
-      "price": 2126.01,
-      "change_pct": 4.61
+    {
+      "name": "沪深300",
+      "current": 4982.06,
+      "open": 4914.49,
+      "high": 4984.64,
+      "low": 4914.49,
+      "prev_close": 4926.92,
+      "change_pct": 1.12,
+      "change": 55.14
     }
+  ],
+  "north_flow": [
+    {
+      "channel": "沪股通",
+      "net_buy": 0,
+      "net_inflow": 0,
+      "status": "交易中"
+    },
+    {
+      "channel": "深股通",
+      "net_buy": 0,
+      "net_inflow": 0,
+      "status": "交易中"
+    },
+    {
+      "channel": "港股通(沪)",
+      "direction": "南向",
+      "net_buy": 29.05,
+      "net_inflow": 420,
+      "status": "交易中"
+    },
+    {
+      "channel": "港股通(深)",
+      "direction": "南向",
+      "net_buy": 24.58,
+      "net_inflow": 420,
+      "status": "交易中"
+    }
+  ],
+  "sh_sentiment": {
+    "up": 744,
+    "flat": 26,
+    "down": 866
   },
-  "sectors": {
-    "top": [
-      {
-        "name": "其他生物制品",
-        "change_pct": 8.72
-      },
-      {
-        "name": "医疗研发外包",
-        "change_pct": 8.59
-      },
-      {
-        "name": "半导体设备",
-        "change_pct": 7.41
-      },
-      {
-        "name": "生物制品",
-        "change_pct": 7.29
-      },
-      {
-        "name": "半导体材料",
-        "change_pct": 6.94
-      },
-      {
-        "name": "化学制剂",
-        "change_pct": 6.24
-      },
-      {
-        "name": "医疗服务",
-        "change_pct": 6.1
-      },
-      {
-        "name": "化学制药",
-        "change_pct": 5.87
-      }
-    ],
-    "bottom": [
-      {
-        "name": "钨",
-        "change_pct": -4.0
-      },
-      {
-        "name": "磨具磨料",
-        "change_pct": -4.08
-      },
-      {
-        "name": "印制电路板",
-        "change_pct": -4.32
-      },
-      {
-        "name": "非金属材料",
-        "change_pct": -4.52
-      },
-      {
-        "name": "其他数字媒体",
-        "change_pct": -4.86
-      },
-      {
-        "name": "通信线缆及配套",
-        "change_pct": -5.58
-      },
-      {
-        "name": "玻纤制造",
-        "change_pct": -7.92
-      }
-    ]
+  "sz_sentiment": {
+    "up": 1079,
+    "flat": 30,
+    "down": 758
   },
-  "concepts": {
-    "top": [
-      {
-        "name": "重组蛋白",
-        "change_pct": 9.2
-      },
-      {
-        "name": "减肥药",
-        "change_pct": 7.69
-      },
-      {
-        "name": "CRO",
-        "change_pct": 7.5
-      },
-      {
-        "name": "单抗概念",
-        "change_pct": 7.16
-      },
-      {
-        "name": "创新药",
-        "change_pct": 6.74
-      },
-      {
-        "name": "CAR-T细胞疗法",
-        "change_pct": 6.09
-      }
-    ],
-    "bottom": [
-      {
-        "name": "光纤概念",
-        "change_pct": -2.96
-      },
-      {
-        "name": "苹果概念",
-        "change_pct": -3.1
-      },
-      {
-        "name": "柔性屏",
-        "change_pct": -3.22
-      },
-      {
-        "name": "AI手机",
-        "change_pct": -3.37
-      },
-      {
-        "name": "PCB",
-        "change_pct": -3.59
-      },
-      {
-        "name": "纳米银",
-        "change_pct": -5.06
-      }
-    ]
-  },
-  "north_flow": {
-    "沪股通净买额": 0,
-    "深股通净买额": 0,
-    "note": "北向资金数据尚未更新"
-  },
-  "market_fund_flow": {
-    "主力净流入": -495.34,
-    "单位": "亿元",
-    "超大单净流入": -293.55,
-    "大单净流入": -201.79,
-    "主力净占比": -1.41
-  }
+  "market_status": "午盘"
 }

@@ -1,84 +1,63 @@
 {
-  "update_time": "2026-06-30 11:35",
-  "indices": [
-    {
-      "name": "上证指数",
-      "current": 4082.13,
-      "open": 4058.17,
-      "high": 4082.16,
-      "low": 4052.17,
-      "prev_close": 4073.9,
-      "change_pct": 0.2,
-      "change": 8.23
-    },
-    {
-      "name": "深证成指",
-      "current": 16202.9,
-      "open": 15811.67,
-      "high": 16208.98,
-      "low": 15809.65,
-      "prev_close": 15812.87,
-      "change_pct": 2.47,
-      "change": 390.03
-    },
-    {
-      "name": "创业板指",
-      "current": 4345.84,
-      "open": 4217.63,
-      "high": 4350.41,
-      "low": 4205.74,
-      "prev_close": 4216.7,
-      "change_pct": 3.06,
-      "change": 129.14
-    },
-    {
-      "name": "沪深300",
-      "current": 4982.06,
-      "open": 4914.49,
-      "high": 4984.64,
-      "low": 4914.49,
-      "prev_close": 4926.92,
-      "change_pct": 1.12,
-      "change": 55.14
-    }
-  ],
-  "north_flow": [
-    {
-      "channel": "沪股通",
-      "net_buy": 0,
-      "net_inflow": 0,
-      "status": "交易中"
-    },
-    {
-      "channel": "深股通",
-      "net_buy": 0,
-      "net_inflow": 0,
-      "status": "交易中"
-    },
-    {
-      "channel": "港股通(沪)",
-      "direction": "南向",
-      "net_buy": 29.05,
-      "net_inflow": 420,
-      "status": "交易中"
-    },
-    {
-      "channel": "港股通(深)",
-      "direction": "南向",
-      "net_buy": 24.58,
-      "net_inflow": 420,
-      "status": "交易中"
-    }
-  ],
-  "sh_sentiment": {
-    "up": 744,
-    "flat": 26,
-    "down": 866
+  "update_time": "2026-06-30 15:18:38",
+  "indices": {},
+  "sectors": {
+    "top5": [
+      {
+        "name": "模拟芯片设计",
+        "change_pct": 8.97
+      },
+      {
+        "name": "光学元件",
+        "change_pct": 7.93
+      },
+      {
+        "name": "数字芯片设计",
+        "change_pct": 6.85
+      },
+      {
+        "name": "分立器件",
+        "change_pct": 6.61
+      },
+      {
+        "name": "光学光电子",
+        "change_pct": 6.42
+      }
+    ],
+    "bottom5": [
+      {
+        "name": "线下药店",
+        "change_pct": -3.1
+      },
+      {
+        "name": "粘胶",
+        "change_pct": -3.5
+      },
+      {
+        "name": "种子",
+        "change_pct": -3.9
+      },
+      {
+        "name": "钼",
+        "change_pct": -4.9
+      },
+      {
+        "name": "氨纶",
+        "change_pct": -5.57
+      }
+    ]
   },
-  "sz_sentiment": {
-    "up": 1079,
-    "flat": 30,
-    "down": 758
+  "north_flow": {
+    "date": "2026-06-30",
+    "沪股通_净买额": 0.0,
+    "深股通_净买额": 0.0,
+    "总净买额": 0.0
   },
-  "market_status": "午盘"
+  "market_breadth": {
+    "up": 3054,
+    "down": 2364,
+    "flat": 93,
+    "total": 5868
+  },
+  "total_amount": 3293819556840.1396
 }

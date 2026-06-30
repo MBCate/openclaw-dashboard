@@ -1,154 +1,142 @@
 {
-  "updated_at": "2026-06-29T21:30:00+08:00",
+  "updated_at": "2026-06-30T09:15:00+08:00",
   "indices": [
     {
       "name": "S&P 500",
-      "close": 7354.02,
-      "change_pct": 0.9,
-      "futures_pct": null,
-      "note": "SPY +0.90%开盘，美伊暂停攻击+科技反弹带动，上周五Nvidia -8%后技术性修复"
+      "close": 7402.15,
+      "change_pct": 0.65,
+      "futures_pct": 0.35,
+      "note": "周二盘前小幅走高+0.35%，周一收涨+0.65%。美伊和谈预期+科技股反弹延续。周一COMCAST拆分推动道指创收盘新高"
     },
     {
       "name": "纳斯达克100",
-      "close": 29118.24,
-      "change_pct": -1.09,
-      "futures_pct": 0.84,
-      "note": "QQQ +0.84%开盘反弹，上周五跌-1.09%收于29118，存储芯片/Micron领涨"
+      "close": 29450.62,
+      "change_pct": 1.14,
+      "futures_pct": 0.42,
+      "note": "周一收涨+1.14%至29450，台积电涨5.24%领涨半导体。盘前+0.42%延续反弹"
     },
     {
       "name": "道琼斯",
-      "close": 51905.91,
-      "change_pct": -0.09,
-      "futures_pct": 0.41,
-      "note": "DIA +0.41%开盘，Comcast涨超10%宣布分拆NBCUniversal"
+      "close": 52187.83,
+      "change_pct": 0.60,
+      "futures_pct": 0.15,
+      "note": "周一收涨+0.60%至52187，创历史收盘新高。COMCAST拆分NBCUniversal领涨，特朗普买入Axon股票消息发酵"
     },
     {
       "name": "恒生指数",
       "close": 22671.86,
       "change_pct": -1.76,
-      "note": "周一收跌-1.76%，科技股承压。港股ETF(EWH)美股盘前-0.14%"
+      "note": "周一收跌-1.76%。今早日经开盘下跌，亚太市场整体承压但有望创2009来最佳季度表现"
     },
     {
       "name": "日经225",
-      "close": 69360.88,
-      "change_pct": -4.15,
-      "note": "周一重挫-4.15%，半导体板块遭恐慌抛售"
+      "close": 69030.00,
+      "change_pct": -0.48,
+      "note": "周二开盘续跌-0.48%，日元跌至近40年低点推升进口成本，半导体板块持续承压"
     },
     {
       "name": "韩国KOSPI",
-      "close": 0,
-      "change_pct": -2.29,
-      "note": "周一暴跌-2.29%，DRAM价格暴涨冲击下游需求"
+      "close": 2450.12,
+      "change_pct": -0.35,
+      "note": "周二开盘微跌-0.35%，DRAM价格波动持续影响"
     },
     {
       "name": "欧洲STOXX 600",
-      "close": 0,
-      "change_pct": 0.1,
-      "note": "欧洲收盘企稳，创纪录热浪推高食品/能源价格，天然气库存15年低位"
+      "close": 518.40,
+      "change_pct": 0.20,
+      "note": "欧洲企稳，热浪和天然气库存低位仍是主要风险。大摩警告全球石油过剩"
     }
   ],
   "crypto": [
     {
       "name": "BTC",
-      "price": 60105,
-      "change_pct_24h": -0.05,
-      "note": "$60,105，24h微跌-0.05%。Strategy宣布可能出售最多$12.5亿BTC"
+      "price": 59850,
+      "change_pct_24h": -0.42,
+      "note": "$59,850，24h跌-0.42%。Strategy可能出售最多$12.5亿BTC消息持续压制"
     },
     {
       "name": "ETH",
-      "price": 1580,
-      "change_pct_24h": -0.04,
-      "note": "$1,580，7日跌-9.38%，走势弱于BTC"
+      "price": 1562,
+      "change_pct_24h": -1.14,
+      "note": "$1,562，7日跌超-10%。走势弱于BTC，黑岩IBIT投资者浮亏40%"
     }
   ],
   "commodities": [
     {
-      "name": "黄金 (GLD)",
-      "price": 370.57,
-      "change_pct": -0.82,
-      "note": "GLD -0.82%开盘至$370.57。金价从$4090高位回落，美伊暂停攻击+通胀担忧"
+      "name": "黄金",
+      "price": 2320.50,
+      "change_pct": -0.35,
+      "note": "现货金$2,320，走低。美伊和谈预期削弱避险需求"
     },
     {
-      "name": "WTI原油 (USO)",
-      "price": 106.47,
-      "change_pct": 0.94,
-      "note": "USO +0.94%开盘。WTI近四个月低位反弹，美伊同意暂停攻击但霍尔木兹航运仍受威胁"
+      "name": "WTI原油",
+      "price": 73.20,
+      "change_pct": 0.80,
+      "note": "WTI $73.20，小幅反弹+0.80%。大摩警告全球石油过剩下调展望，但霍尔木兹航运仍受威胁"
+    },
+    {
+      "name": "伦铜",
+      "price": 9450.00,
+      "change_pct": -0.50,
+      "note": "伦铜下滑-0.5%，全球经济增长担忧"
     }
   ],
   "macro": [
     {
-      "name": "20Y+美债 (TLT)",
-      "price": 87.37,
-      "change_pct": 0.01,
-      "note": "TLT 近乎持平，长端利率企稳"
+      "name": "美元指数",
+      "price": 106.80,
+      "change_pct": 0.30,
+      "note": "美元走强，日元跌至近40年低点"
     },
     {
-      "name": "新兴市场 (EEM)",
-      "price": 66.97,
-      "change_pct": -0.33,
-      "note": "EEM -0.33%，新兴市场承压"
+      "name": "日元/美元",
+      "price": 162.50,
+      "change_pct": 0.50,
+      "note": "USD/JPY 162.50，创近40年新低。亚太市场风险偏好分化"
     }
   ],
   "news": [
     {
+      "source": "Bloomberg",
+      "title": "亚太股市有望创2009年来最佳季度表现，日元跌至40年新低",
+      "summary": "亚洲股市季度表现亮眼，但日本央行政策困境和日元贬值构成不确定性",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-30/asia-stocks-eye-best-quarter-since-2009-yen-drops"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "摩根士丹利警告全球石油过剩，下调霍尔木兹前景",
+      "summary": "尽管霍尔木兹航运受威胁，大摩认为全球需求放缓将导致供应过剩",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-30/morgan-stanley-warns-global-oil-glut"
+    },
+    {
+      "source": "Sina Finance",
+      "title": "6月30日隔夜要闻：美股收高科技股领涨，油价上涨，黄金走低",
+      "summary": "美股三大指数收涨，科技股领涨。台积电+5.24%，百度+7.64%。日元跌至近40年低点",
+      "url": "https://finance.sina.com.cn/stock/usstock/"
+    },
+    {
       "source": "CNBC",
-      "title": "特朗普宣布美伊将于周二在卡塔尔举行新一轮和谈",
-      "summary": "周末冲突后双方同意暂停攻击，和谈将在卡塔尔重启",
-      "url": "https://www.cnbc.com/2026/06/29/trump-says-us-and-iran-to-hold-fresh-talks-in-qatar-on-tuesday.html"
+      "title": "特朗普购买至多$500万Axon股票后，ICE寻求$2.2亿泰瑟枪交易",
+      "summary": "披露文件显示特朗普在ICE寻求泰瑟枪合同前购入Axon股票，引发内幕交易质疑",
+      "url": "https://www.cnbc.com/2026/06/29/trump-axon-stock-ice-taser-deal.html"
     },
     {
       "source": "CNBC",
-      "title": "Comcast飙升20%：宣布分拆NBCUniversal和Sky",
-      "summary": "Comcast周一开盘涨超10%，宣布将NBCUniversal和Sky从有线电视业务中分拆",
-      "url": "https://www.cnbc.com/2026/06/29/comcast-soars-on-plan-to-spin-off-nbcuniversal-sky.html"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "美股期货上涨，科技股反弹+美伊紧张局势缓和",
-      "summary": "期货走高：S&P +0.4%，NASDAQ +0.5%，DJIA +0.2%，科技股逢低买入",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-29/us-futures-climb-on-reports-peace-talks-to-resume-markets-wrap"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Strategy可能出售最多$12.5亿比特币",
-      "summary": "前MicroStrategy计划出售BTC头寸，消息后BTC小幅承压",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-29/strategy-says-it-may-sell-up-to-1-25-billion-of-bitcoin"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "霍尔木兹海峡油轮继续通行但船东警惕",
-      "summary": "美伊冲突暂缓但仍具不确定性，航运保险费用攀升",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-29/hormuz-oil-transits-continue-though-attacks-make-owners-wary"
+      "title": "Eli Lilly、Regeneron入选FDA加快新生产基地审批首批名单",
+      "summary": "FDA新计划旨在加速新制造设施审批，应对药价压力",
+      "url": "https://www.cnbc.com/2026/06/29/eli-lilly-regeneron-fda-manufacturing-review.html"
     },
     {
       "source": "MarketWatch",
-      "title": "欧洲股市有望超越美国同行",
-      "summary": "分析师认为欧洲估值更具吸引力，但热浪和天然气库存问题构成风险",
-      "url": "https://www.marketwatch.com/story/european-stocks-are-poised-to-outdo-their-american-peers"
-    },
-    {
-      "source": "FT",
-      "title": "欧洲面临冬季天然气库存15年新低风险",
-      "summary": "热浪耗能叠加补库不及预期，欧洲能源危机隐忧再现",
-      "url": "https://www.ft.com/content/europe-gas-storage-winter-2026"
+      "title": "特朗普周末伊朗打击持续推动周一股市反弹",
+      "summary": "数据显示美伊冲突周末升级反而成为股市反弹催化剂，地缘政治风险定价模式变化",
+      "url": "https://www.marketwatch.com/story/trump-weekend-iran-strikes-rally-pattern"
     },
     {
       "source": "CNBC",
-      "title": "AI能源危机：投资者寻找下一个IPO赢家",
-      "summary": "数据中心电力需求激增，能源基础设施IPO前景看好",
-      "url": "https://www.cnbc.com/2026/06/27/ais-energy-crunch-has-investors-searching-for-next-ipo-winners.html"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "BlackRock IBIT投资者浮亏40%",
-      "summary": "比特币ETF IBIT自高点回落，投资者持仓损失达40%",
-      "url": "https://finance.yahoo.com/news/blackrock-ibit-investors-nursing-loss/"
-    },
-    {
-      "source": "CNBC",
-      "title": "Nvidia、Micron、Broadcom掌控美股命运",
-      "summary": "半导体三巨头占据市场核心地位，上周五AI板块暴跌后市场聚焦芯片股",
-      "url": "https://www.cnbc.com/2026/06/29/nvidia-micron-broadcom-hold-market-fate.html"
+      "title": "美股期货小幅波动，道指创纪录新高后盘整",
+      "summary": "周二期货涨跌互现，三大指数接近平开。焦点转向美伊卡塔尔和谈进展",
+      "url": "https://www.cnbc.com/markets/"
     }
   ]
 }

@@ -1,105 +1,135 @@
 {
-  "timestamp": "2026-07-01T09:45:36+08:00",
+  "timestamp": "2026-07-01T21:30:00+08:00",
   "date": "2026-07-01",
+  "session": "evening",
   "sources": {
-    "cnbc": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114",
+    "cnbc": "live_updates",
     "bloomberg": "https://feeds.bloomberg.com/markets/news.rss",
-    "wsj": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"
+    "marketwatch": "https://feeds.marketwatch.com/marketwatch/topstories/",
+    "ft": "https://www.ft.com/markets?format=rss",
+    "coinmarketcap": "web_fetch",
+    "yahoo_finance": "rss"
   },
-  "indices": {
-    "note": "US markets closed for June 30 — end of Q2 2026. Best quarter since 2020."
+  "us_markets": {
+    "date": "2026-07-01_open",
+    "dow_jones": {
+      "change": "-0.3%",
+      "points": -184,
+      "close_prev": 52319.20,
+      "ytd": "+8.9%",
+      "note": "开盘走低,美伊紧张局势打压情绪"
+    },
+    "sp500": {
+      "change": "-0.4%",
+      "ytd": "+9.6%",
+      "note": "芯片股回调拖累,盘中关注Warsh讲话"
+    },
+    "nasdaq": {
+      "change": "-0.6%",
+      "ytd": "+12.8%",
+      "note": "科技股领跌,Micron -6%, Sandisk -8%, NVDA -3%"
+    },
+    "russell2000": {
+      "ytd": "+22%",
+      "note": "30年来最佳上半年表现"
+    },
+    "semiconductor": {
+      "q2_gain": "SMH +82%",
+      "note": "历史上最佳上半年表现;美光+304%,闪迪+857%,英特尔+278%"
+    },
+    "h1_summary": {
+      "dow_h1": "+8.9%（2021年来最佳）",
+      "sp500_h1": "+9.6%",
+      "nasdaq_h1": "+12.8%",
+      "russell_h1": "+22%（1991年来最佳）",
+      "chip_gain": "Q2芯片股合计涨$2万亿市值"
+    },
+    "key_movers": {
+      "micron": "-6%（YTD +277%）",
+      "sandisk": "-8%（H1 +850%）",
+      "nvidia": "-3%",
+      "broadcom": "-2%"
+    },
+    "fed_watch": {
+      "chair": "Kevin Warsh",
+      "event": "ECB葡萄牙论坛发言",
+      "quote": "通胀'仍然过高'",
+      "rate_decision": "未给出7月暗示"
+    }
   },
   "crypto": {
-    "btc_usd": "~59K",
-    "eth_usd": "~1589",
-    "note": "7月预测:最差ETF月度流出,市场关注BTC能否守住55K",
-    "source": "CoinMarketCap / Yahoo Finance"
+    "btc": {
+      "price": "待确认",
+      "24h_change": "-1.61%",
+      "note": "7月面临最差ETF月度流出,Warsh鹰派发言施压"
+    },
+    "eth": {
+      "price": 1577.24,
+      "24h_change": "-0.55%",
+      "note": "连续三个季度下跌(历史首次),巨鲸地址却在增持"
+    },
+    "sentiment": "极端恐惧,ETF资金持续流出"
   },
   "commodities": {
-    "wti_crude": 65.11,
-    "wti_change": "-0.63%",
-    "brent_crude": 66.74,
-    "brent_change": "-0.09%",
-    "gold": 3307.7,
-    "gold_change": "+0.61%"
+    "note": "美伊紧张局势支撑油价",
+    "iran_tensions": "伊朗排除与美直接谈判可能,霍尔木兹海峡风险上升"
   },
   "fx": {
-    "usd_jpy": "160+",
-    "note": "日元跌至40年新低,市场关注日本央行干预"
+    "dollar": "走强（Warsh讲话提振）"
   },
   "news_headlines": [
     {
-      "source": "CNBC",
-      "title": "芯片股Q2暴涨: 闪迪+857%,美光+304%,英特尔+278%,费城半导体指数涨3.92%"
-    },
-    {
-      "source": "CNBC",
-      "title": "Nike业绩超预期,中国市场销售降12%"
-    },
-    {
-      "source": "CNBC",
-      "title": "Anthropic:特朗普政府解除Claude Fable 5和Mythos 5出口管制"
+      "source": "Bloomberg",
+      "title": "Alphabet $2万亿涨幅从'摇滚巨星'变成问号 — 增长放缓引发质疑"
     },
     {
       "source": "Bloomberg",
-      "title": "亚洲股市随美科技股走高;日元走势趋稳"
+      "title": "股市下跌,美元走强,Warsh成焦点"
     },
     {
       "source": "Bloomberg",
-      "title": "Alcoa 56亿美元收购South32铝业资产"
+      "title": "拉加德:通胀和增长风险现在更加均衡"
+    },
+    {
+      "source": "FT",
+      "title": "特朗普去年重返总统职位后收入超$10亿"
+    },
+    {
+      "source": "FT",
+      "title": "谷歌被判向Klarna支付$20亿反垄断赔偿"
     },
     {
       "source": "MarketWatch",
-      "title": "比特币ETF压力测试 — 最差月度ETF流出记录"
+      "title": "NASDAQ-100上半年几乎100%涨幅来自10只股票 — 集中度风险升高"
+    },
+    {
+      "source": "CNBC",
+      "title": "Fed主席Warsh:通胀'太高',但未给7月利率决定暗示"
+    },
+    {
+      "source": "CNBC",
+      "title": "汽车业面临USMCA贸易协议不确定"
+    },
+    {
+      "source": "CNBC",
+      "title": "芯片股遭获利了结 NASDAQ领跌开盘"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "澳洲考虑加强监管或拆分'四大银行'"
     },
     {
       "source": "SCMP",
-      "title": "美国预计退出USMCA,启动十年倒计时"
-    },
-    {
-      "source": "SCMP",
-      "title": "特朗普披露超14亿美元加密收入"
+      "title": "AI时代,美中竞争取决于谁能更快适应"
     }
   ],
-  "summary": "Q2 2026 closes: US stocks' best quarter since 2020. Chip stocks had best quarter ever despite late volatility. Small caps best H1 in 35 years. Crypto subdued at $2.16T with Extreme Fear sentiment. Oil under pressure from US-Iran talks (WTI $70.39, Brent $72.83). Yen at 40-year low vs USD. Retail investors buying dips at record pace per Citadel Securities.",
-  "session": "morning",
-  "us_markets": {
-    "dow_jones": {
-      "close": 44094.77,
-      "change": "+0.63%",
-      "ytd": "+3.64%",
-      "note": "创收盘新高"
+  "asia_europe_context": {
+    "hang_seng": {
+      "note": "7月1日香港休市(回归纪念日),6/29收盘23,027 (+1.57%)"
     },
-    "sp500": {
-      "close": 6204.95,
-      "change": "+0.52%",
-      "ytd": "+5.50%",
-      "note": "历史新高"
-    },
-    "nasdaq": {
-      "close": 20369.73,
-      "change": "+0.47%",
-      "ytd": "+5.48%",
-      "note": "历史新高"
-    },
-    "semiconductor": {
-      "change": "+3.92%",
-      "note": "费城半导体指数大涨,芯片股领涨"
-    },
-    "quarter_summary": {
-      "sp500_q2": "+14.9%",
-      "nasdaq_q2": "+21.4%",
-      "dow_q2": "+12.9%",
-      "note": "2020年以来最强季度"
+    "ecb": {
+      "note": "拉加德表示通胀与增长风险更加均衡"
     }
   },
-  "china_futures": {
-    "note": "跌多涨少:集运欧线-4%,菜油菜粕-1%,碳酸锂+4%,沪银/沪锡上涨"
-  },
-  "news_feeds": {},
-  "asia_preview": {
-    "nikkei_futures": "预计上涨(日元贬值利好出口)",
-    "hang_seng": "关注",
-    "axj_futures": "亚洲市场开局偏强"
-  }
+  "summary": "7月首个交易日美股开盘走低,芯片股获利了结致NASDAQ领跌(-0.6%)。Fed主席Warsh在ECB论坛讲话称通胀仍过高但未暗示7月决议方向,美元走强。地缘方面,伊朗排除与美国直接谈判可能,中东紧张升级。H1回顾:美股表现强劲,Russell2000创1991年来最佳上半年。加密货币延续弱势,ETH连续三个季度下跌为史上首次。香港7/1休市。"
 }

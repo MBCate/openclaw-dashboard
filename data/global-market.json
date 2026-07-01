@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-06-30T21:30:00+08:00",
-  "date": "2026-06-30",
+  "timestamp": "2026-07-01T09:45:36+08:00",
+  "date": "2026-07-01",
   "sources": {
     "cnbc": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114",
     "bloomberg": "https://feeds.bloomberg.com/markets/news.rss",
@@ -10,77 +10,96 @@
     "note": "US markets closed for June 30 — end of Q2 2026. Best quarter since 2020."
   },
   "crypto": {
-    "btc_usd": 59750,
-    "btc_change_24h": "+0.5%",
-    "eth_usd": 1589,
-    "eth_change_24h": "+1.27%",
-    "sol_usd": 74.22,
-    "sol_change_24h": "+4.09%",
-    "xrp_usd": 1.04,
-    "xrp_change_24h": "+0.55%",
-    "total_market_cap": "2.16T",
-    "total_market_change_24h": "+0.8%",
-    "btc_dominance": "55.7%",
-    "sentiment": "Extreme Fear",
-    "source": "CoinGabbar / CoinMarketCap"
+    "btc_usd": "~59K",
+    "eth_usd": "~1589",
+    "note": "7月预测:最差ETF月度流出,市场关注BTC能否守住55K",
+    "source": "CoinMarketCap / Yahoo Finance"
   },
   "commodities": {
-    "wti_crude": 70.39,
-    "brent_crude": 72.83,
-    "note": "Oil prices set for steep monthly drop. US-Iran talks in Doha. Brent expected $75-80 year-end per CIBC.",
-    "source": "Forbes / Gulf News"
+    "wti_crude": 65.11,
+    "wti_change": "-0.63%",
+    "brent_crude": 66.74,
+    "brent_change": "-0.09%",
+    "gold": 3307.7,
+    "gold_change": "+0.61%"
   },
   "fx": {
-    "usd_jpy": "~160+ (40-year low for yen)",
-    "note": "Yen at weakest vs USD in 4 decades. Market watching for BOJ intervention.",
-    "source": "Bloomberg"
+    "usd_jpy": "160+",
+    "note": "日元跌至40年新低,市场关注日本央行干预"
   },
   "news_headlines": [
     {
-      "source": "Bloomberg",
-      "title": "Chip Stocks' Best Quarter Ever Is Ending With Some Wild Swings",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-30/chip-stocks-best-quarter-ever-is-ending-with-some-wild-swings"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Stocks Fluctuate at End of Best Quarter Since 2020",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-29/japan-stocks-set-to-climb-as-yen-hits-40-year-low-markets-wrap"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Citadel Securities Sees Retail Crowd Buying Dips at Record Pace",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-30/citadel-securities-sees-retail-crowd-buying-dips-at-record-pace"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Yen's Slide Puts Market on Lookout for Japan's Next Red Line",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-30/yen-s-slide-puts-market-on-lookout-for-japan-s-next-red-line"
+      "source": "CNBC",
+      "title": "芯片股Q2暴涨: 闪迪+857%,美光+304%,英特尔+278%,费城半导体指数涨3.92%"
     },
     {
       "source": "CNBC",
-      "title": "Small-cap stocks enjoy their best first half in 35 years",
-      "url": "https://www.cnbc.com/2026/06/30/small-cap-stocks-enjoy-best-first-half-since-1991-as-ai-trade-expands.html"
+      "title": "Nike业绩超预期,中国市场销售降12%"
     },
     {
       "source": "CNBC",
-      "title": "Oil prices set for steep monthly drop as Trump, Iran issue mixed messages",
-      "url": "https://www.cnbc.com/2026/06/30/oil-prices-brent-wti-crude-trump-iran.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "White House AI crackdown opens door for Chinese model makers",
-      "url": "https://www.cnbc.com/2026/06/30/white-house-ai-china-crackdown.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "AeroVironment skyrockets 21% as dronemaker capitalizes on defense spending surge",
-      "url": "https://www.cnbc.com/2026/06/30/aerovironment-avav-stock-earnings-defense.html"
+      "title": "Anthropic:特朗普政府解除Claude Fable 5和Mythos 5出口管制"
     },
     {
       "source": "Bloomberg",
-      "title": "Oil Supply Won't Come Back as Quickly as Expected, Babin Says",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-30/oil-supply-won-t-come-back-quickly-babin-says-video"
+      "title": "亚洲股市随美科技股走高;日元走势趋稳"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Alcoa 56亿美元收购South32铝业资产"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "比特币ETF压力测试 — 最差月度ETF流出记录"
+    },
+    {
+      "source": "SCMP",
+      "title": "美国预计退出USMCA,启动十年倒计时"
+    },
+    {
+      "source": "SCMP",
+      "title": "特朗普披露超14亿美元加密收入"
     }
   ],
-  "summary": "Q2 2026 closes: US stocks' best quarter since 2020. Chip stocks had best quarter ever despite late volatility. Small caps best H1 in 35 years. Crypto subdued at $2.16T with Extreme Fear sentiment. Oil under pressure from US-Iran talks (WTI $70.39, Brent $72.83). Yen at 40-year low vs USD. Retail investors buying dips at record pace per Citadel Securities."
+  "summary": "Q2 2026 closes: US stocks' best quarter since 2020. Chip stocks had best quarter ever despite late volatility. Small caps best H1 in 35 years. Crypto subdued at $2.16T with Extreme Fear sentiment. Oil under pressure from US-Iran talks (WTI $70.39, Brent $72.83). Yen at 40-year low vs USD. Retail investors buying dips at record pace per Citadel Securities.",
+  "session": "morning",
+  "us_markets": {
+    "dow_jones": {
+      "close": 44094.77,
+      "change": "+0.63%",
+      "ytd": "+3.64%",
+      "note": "创收盘新高"
+    },
+    "sp500": {
+      "close": 6204.95,
+      "change": "+0.52%",
+      "ytd": "+5.50%",
+      "note": "历史新高"
+    },
+    "nasdaq": {
+      "close": 20369.73,
+      "change": "+0.47%",
+      "ytd": "+5.48%",
+      "note": "历史新高"
+    },
+    "semiconductor": {
+      "change": "+3.92%",
+      "note": "费城半导体指数大涨,芯片股领涨"
+    },
+    "quarter_summary": {
+      "sp500_q2": "+14.9%",
+      "nasdaq_q2": "+21.4%",
+      "dow_q2": "+12.9%",
+      "note": "2020年以来最强季度"
+    }
+  },
+  "china_futures": {
+    "note": "跌多涨少:集运欧线-4%,菜油菜粕-1%,碳酸锂+4%,沪银/沪锡上涨"
+  },
+  "news_feeds": {},
+  "asia_preview": {
+    "nikkei_futures": "预计上涨(日元贬值利好出口)",
+    "hang_seng": "关注",
+    "axj_futures": "亚洲市场开局偏强"
+  }
 }

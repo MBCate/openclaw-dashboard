@@ -1,76 +1,164 @@
 {
-  "updated_at": "2026-07-02 11:38",
-  "type": "noon",
+  "date": "2026-07-02",
+  "update_time": "2026-07-02 15:05 CST",
+  "source": "sina_finance",
   "indices": [
     {
       "name": "上证指数",
-      "code": "sh000001",
-      "price": 4054.09,
-      "change_pct": -1.42,
-      "change": -58.36,
+      "code": "1.000001",
+      "price": 4028.9,
+      "change_pct": -2.03,
+      "pre_close": 4112.45,
       "high": 4093.68,
-      "low": 4043.23,
-      "volume": 425880505.0,
-      "amount": 1018520143742.0,
-      "open": 4075.31
+      "low": 4019.21,
+      "volume": "656233612",
+      "amount": "1577183734747"
     },
     {
       "name": "深证成指",
-      "code": "sz399001",
-      "price": 15729.92,
-      "change_pct": -2.41,
-      "change": -389.24,
+      "code": "0.399001",
+      "price": 15498.81,
+      "change_pct": -3.85,
+      "pre_close": 16119.17,
       "high": 15886.7,
-      "low": 15575.37,
-      "volume": 56086504699.0,
-      "amount": 1223503745456.383,
-      "open": 15782.35
+      "low": 15453.52,
+      "volume": "85662638667",
+      "amount": "1873351357004"
     },
     {
       "name": "创业板指",
-      "code": "sz399006",
-      "price": 4135.34,
-      "change_pct": -2.94,
-      "change": -125.38,
+      "code": "0.399006",
+      "price": 4017.27,
+      "change_pct": -5.71,
+      "pre_close": 4260.72,
       "high": 4168.87,
-      "low": 4070.96,
-      "volume": 16199310829.0,
-      "amount": 567229830248.8,
-      "open": 4112.97
+      "low": 3999.57,
+      "volume": "24955456817",
+      "amount": "890373241548"
     },
     {
       "name": "沪深300",
-      "code": "sh000300",
-      "price": 4865.17,
-      "change_pct": -1.89,
-      "change": -93.81,
+      "code": "0.399300",
+      "price": 4812.3,
+      "change_pct": -2.96,
+      "pre_close": 4958.98,
       "high": 4896.99,
-      "low": 4837.26,
-      "volume": 218674259.0,
-      "amount": 659363521244.0,
-      "open": 4867.43
+      "low": 4800.48,
+      "volume": "343243758",
+      "amount": "1027796834233"
+    }
+  ],
+  "market_summary": {
+    "direction": "大幅下跌",
+    "highlights": [
+      "上证指数跌2.03%，收报4028.90点",
+      "深证成指跌3.85%，收报15498.81点",
+      "创业板指暴跌5.71%，收报4017.27点",
+      "科创50大跌近4%，半导体/芯片板块重挫",
+      "北证50逆势涨2.79%",
+      "早盘成交快速放量，9:50突破万亿"
+    ]
+  },
+  "board_top": [
+    {
+      "name": "贵金属",
+      "change_pct": "涨停潮",
+      "note": "招金黄金、山金国际、赤峰黄金涨停"
     },
     {
-      "name": "恒生指数",
-      "code": "hsi",
-      "price": 23071.43,
-      "change_pct": 0.96,
-      "change": 218.89,
-      "high": 23335.92,
-      "low": 22983.46,
-      "volume": 0,
-      "amount": 0,
-      "open": 22881.02
+      "name": "海南自贸区",
+      "change_pct": "活跃",
+      "note": "海南海药4连板，海马汽车等涨停"
+    },
+    {
+      "name": "稀土永磁",
+      "change_pct": "走强",
+      "note": "争光股份、东方锆业创新高"
+    },
+    {
+      "name": "创新药/生物医药",
+      "change_pct": "异动",
+      "note": "海南海药、京新药业等涨停"
+    },
+    {
+      "name": "机床工具",
+      "change_pct": "异动",
+      "note": "亚威股份、ST汇洲触及涨停"
+    }
+  ],
+  "board_bottom": [
+    {
+      "name": "存储芯片/半导体",
+      "change_pct": "重挫",
+      "note": "北方华创跌停，中科飞测等跌超10%"
+    },
+    {
+      "name": "汽车芯片",
+      "change_pct": "大跌",
+      "note": "板块整体下挫"
+    },
+    {
+      "name": "碳化硅",
+      "change_pct": "大跌",
+      "note": ""
+    },
+    {
+      "name": "光学元件",
+      "change_pct": "大跌",
+      "note": "五方光电等跌停"
+    },
+    {
+      "name": "元件",
+      "change_pct": "大跌",
+      "note": "东山精密、商络电子等跌停"
     }
   ],
   "north_flow": {
-    "value": 520.0,
-    "date": "2026-07-02"
+    "date": "2026-07-02",
+    "note": "数据获取受限，详见东方财富数据中心",
+    "south_flow_hk": "南向资金午盘净买入40亿港元"
   },
-  "sectors": {
-    "industry_top5": [],
-    "industry_bottom5": [],
-    "concept_top5": [],
-    "concept_bottom5": []
+  "market_breadth": {
+    "note": "个股普跌，科技成长板块遭重挫"
+  },
+  "helloquant": {
+    "date": "2026-06-29",
+    "note": "最近一次策略运行数据",
+    "strategies": {
+      "DoubleMa": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "TripleMa": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "Supertrend": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "RSI": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "MACD": {
+        "1h": "做多",
+        "4h": "观望"
+      },
+      "Bollinger": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "Momentum": {
+        "1h": "做多",
+        "4h": "做空"
+      },
+      "MeanReversion": {
+        "1h": "观望",
+        "4h": "观望"
+      }
+    },
+    "crypto_btc": 60087.0,
+    "crypto_signal": "观望为主，MACD 1h/Momentum 1h做多"
   }
 }

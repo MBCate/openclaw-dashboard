@@ -1,64 +1,107 @@
 {
-  "update_time": "2026-06-29T15:19:09.010054",
-  "date": "2026-06-29",
-  "crypto": {
-    "BTC/USDT": {
-      "price": 60087.0,
-      "change_24h_pct": -9.73,
-      "trend_1h": "偏多",
-      "trend_4h": "偏空"
+  "date": "2026-07-02",
+  "update_time": "2026-07-02 15:05 CST",
+  "last_strategy_run": "2026-06-29",
+  "strategies": {
+    "DoubleMa": {
+      "name": "双均线策略",
+      "BTC_1h": {
+        "signal": "观望",
+        "price": 60096.2
+      },
+      "BTC_4h": {
+        "signal": "观望",
+        "price": 60094.7
+      }
     },
-    "ETH/USDT": {
-      "price": 1580.4,
-      "change_24h_pct": 53.31,
-      "trend_1h": "偏多",
-      "trend_4h": "偏空"
+    "TripleMa": {
+      "name": "三均线策略",
+      "BTC_1h": {
+        "signal": "观望",
+        "price": 60096.2
+      },
+      "BTC_4h": {
+        "signal": "观望",
+        "price": 60094.7
+      }
+    },
+    "Supertrend": {
+      "name": "Supertrend",
+      "BTC_1h": {
+        "signal": "观望",
+        "price": 60096.2
+      },
+      "BTC_4h": {
+        "signal": "观望",
+        "price": 60094.7
+      }
+    },
+    "RSI": {
+      "name": "RSI",
+      "BTC_1h": {
+        "signal": "观望",
+        "price": 60096.2
+      },
+      "BTC_4h": {
+        "signal": "观望",
+        "price": 60094.7
+      }
+    },
+    "MACD": {
+      "name": "MACD",
+      "BTC_1h": {
+        "signal": "做多",
+        "price": 60096.2
+      },
+      "BTC_4h": {
+        "signal": "观望",
+        "price": 60094.7
+      }
+    },
+    "Bollinger": {
+      "name": "布林带",
+      "BTC_1h": {
+        "signal": "观望",
+        "price": 60096.2
+      },
+      "BTC_4h": {
+        "signal": "观望",
+        "price": 60094.7
+      }
+    },
+    "Momentum": {
+      "name": "动量策略",
+      "BTC_1h": {
+        "signal": "做多",
+        "price": 60096.2
+      },
+      "BTC_4h": {
+        "signal": "做空",
+        "price": 60094.7
+      }
+    },
+    "MeanReversion": {
+      "name": "均值回归",
+      "BTC_1h": {
+        "signal": "观望",
+        "price": 60096.2
+      },
+      "BTC_4h": {
+        "signal": "观望",
+        "price": 60094.7
+      }
     }
   },
-  "stocks": {
-    "上证指数": {
-      "price": 4073.9017,
-      "change_pct": 1.158
-    },
-    "深证成指": {
-      "price": 15812.871,
-      "change_pct": 0.194
-    },
-    "创业板指": {
-      "price": 4216.699,
-      "change_pct": 0.536
-    },
-    "沪金主力": {
-      "price": 883.3,
-      "change_pct": 1.3
-    },
-    "沪银主力": {
-      "price": 14212.0,
-      "change_pct": 2.9
-    },
-    "沪铜主力": {
-      "price": 101560.0,
-      "change_pct": 0.34
-    },
-    "螺纹钢主力": {
-      "price": 3093.0,
-      "change_pct": -0.16
-    },
-    "沪深300期货": {
-      "price": 4748.2,
-      "change_pct": -3.24
-    },
-    "中证500期货": {
-      "price": 8447.0,
-      "change_pct": -2.9
-    },
-    "50ETF波动率": {
-      "price": 21.65,
-      "change_pct": "N/A"
-    }
-  },
-  "sentiment": {
-    "fear_greed": 12,
-    "classification": "Extreme Fear"
+  "summary": {
+    "active_long": [
+      "MACD_1h",
+      "Momentum_1h"
+    ],
+    "active_short": [
+      "Momentum_4h"
+    ],
+    "BTC_price": 60087.0,
+    "sentiment": "crypto_fear_greed: 12 (Extreme Fear)",
+    "market_note": "BTC处于震荡区间，策略以观望为主"
   }
 }

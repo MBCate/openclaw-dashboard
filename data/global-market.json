@@ -1,129 +1,93 @@
 {
-  "timestamp": "2026-07-02T09:15:00+08:00",
+  "timestamp": "2026-07-02T21:30:00+08:00",
   "date": "2026-07-02",
-  "session": "morning",
+  "session": "evening",
   "sources": {
     "cnbc": "rss_scraped",
-    "bloomberg": "https://feeds.bloomberg.com/markets/news.rss",
-    "marketwatch": "https://feeds.marketwatch.com/marketwatch/topstories/",
-    "ft": "https://www.ft.com/markets?format=rss",
+    "bloomberg": "rss_scraped",
+    "marketwatch": "rss_scraped",
+    "ft": "rss_scraped",
+    "yahoo": "rss_scraped",
     "scmp": "rss_scraped"
   },
-  "overnight_summary": {
-    "headline": "韩国芯片股暴跌7%传导至亚洲盘,美伊局势保持紧张,美元走强",
-    "key_narratives": [
-      "韩国KOSPI -7%:三星/海力士领跌,AI担忧从美股蔓延至亚洲",
-      "美伊卡塔尔谈判:特朗普称有进展,但伊朗仍排除直接谈判",
-      "Warsh讲话:通胀'仍然过高',7月降息无暗示,美元走强",
-      "美国将不再续签USMCA,对加拿大墨西哥贸易谈判开启",
-      "特朗普重返总统后收入$10亿+,另获FIFA世界杯门票$1.5万"
-    ]
-  },
-  "asia_markets": {
-    "korea_kospi": "-7% (三星/海力士暴跌,AI芯片恐慌蔓延)",
-    "japan_nikkei": "待确认 (受芯片卖压拖累)",
-    "hong_kong_hsi": "待确认"
-  },
-  "china_futures": {
-    "a50_futures": "数据获取失败",
-    "note": "关注韩国传导效应,半导体板块预计承压"
-  },
-  "a_share_indices": {
-    "date": "2026-07-01_close",
-    "shanghai_composite": {
-      "value": "待开盘",
-      "prev_close": "昨日收跌0.41%"
+  "us_markets": {
+    "date": "2026-07-02",
+    "summary": "美股开盘走高，6月非农数据不及预期强化利率维持预期。Dow+0.5%, S&P500+0.4%, Nasdaq+0.3%。市场交易量因假期前降低，周五(7/3)因独立日休市。",
+    "dow_jones": "+0.5% (开盘涨幅)",
+    "sp500": "+0.4% (开盘涨幅)",
+    "nasdaq": "+0.3% (开盘涨幅), 半导体回暖但CoreWeave垃圾债下跌",
+    "jobs_report": "6月新增5.7万，远低于预期的11.5万；失业率4.2%。被BlackRock解读为Warsh维持利率不变的好信号",
+    "key_movers": {
+      "tesla": "Q2交付量同比增25%，大超预期，股价上涨",
+      "microsoft": "宣布$25亿/6000人AI实施部门",
+      "ford": "Q2销量降10.3%，F系列供应商问题+EV需求下滑",
+      "coreweave": "垃圾债下跌，投资者质疑AI繁荣可持续性"
     },
-    "shenzhen_component": "待开盘",
-    "chi_next": "待开盘",
-    "csi300": {
-      "prev_close": 4958.98,
-      "prev_change": "-0.41%",
-      "north_flow_jul1": "-32.2亿 (主力净流出)",
-      "jul2_north_flow": "待盘中"
-    }
-  },
-  "a_share_sectors": {
-    "gainers": ["黄金+2.80%", "贵金属+2.74%", "白银+2.54%", "钾肥+3.06%", "广告营销+3.03%"],
-    "losers": ["半导体设备-5.67%", "半导体材料-5.68%", "分立器件-4.38%", "集成电路制造-4.43%", "被动元件-4.86%"],
-    "note": "半导体板块领跌,韩国AI恐慌传导;避险品种黄金/贵金属走强"
-  },
-  "us_markets_overnight": {
-    "reported_date": "2026-07-01",
-    "dow_jones": "-0.3% (-184点,收52319)",
-    "sp500": "-0.4%",
-    "nasdaq": "-0.6% (芯片股领跌,美光-6%,闪迪-8%,NVDA-3%)",
-    "russell2000": "YTD +22% (30年最佳H1)",
-    "semiconductor": "SMH Q2 +82% (历史最佳H1),但回调中",
     "fed_watch": {
       "chair": "Kevin Warsh",
-      "stance": "通胀仍然过高,未暗示7月降息",
-      "impact": "美元走强,风险资产承压"
-    }
+      "july_rate": "维持不变预期增强 (就业放缓支持不降息)",
+      "narrative": "BlackRock的Rosenberg称就业数据对Warsh有利，利率将维持更久"
+    },
+    "holiday_note": "7/3(周五)独立日休市，下周一恢复交易"
   },
-  "geopolitics": {
-    "us_iran": "卡塔尔间接谈判,特朗普称有进展,伊朗排除直接谈判",
-    "usmca": "美国不续签,将开启加墨双边谈判",
-    "us_china": "Takaichi加强印度关系,中国周边局势紧张",
-    "tech_tariffs": "韩国芯片股暴跌或影响全球半导体供应链预期"
+  "hk_market": {
+    "date": "2026-07-02",
+    "summary": "恒指前一交易日收盘22881点。韩国芯片抛售情绪传导至亚洲盘。",
+    "hsi_prev_close": 22881,
+    "hsi_change": "待确认",
+    "note": "亚太科技股继续承压于韩国AI恐慌余波"
   },
-  "news_headlines": [
-    {
-      "source": "Bloomberg",
-      "title": "韩国股票暴跌7%,AI恐慌打击芯片制造商"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Takaichi将加强印度关系,中国周边紧张加剧"
-    },
-    {
-      "source": "CNBC",
-      "title": "三星电子/海力士跌超7%,芯片抛售从华尔街蔓延"
-    },
-    {
-      "source": "CNBC",
-      "title": "美联储主席Warsh拒绝暗示7月利率决定,称通胀'太高'"
-    },
-    {
-      "source": "CNBC",
-      "title": "美国不续签USMCA,开启与加墨谈判"
-    },
-    {
-      "source": "FT",
-      "title": "特朗普去年重返总统后收入超$10亿"
-    },
-    {
-      "source": "SCMP",
-      "title": "特朗普称美伊卡塔尔谈判取得进展"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Nvidia押注万亿美元机器人热潮"
-    },
-    {
-      "source": "FT",
-      "title": "KNDS推迟IPO,投资者拒绝€120亿+估值"
-    }
-  ],
-  "fx": {
-    "dollar_index": "走强 (Warsh鹰派发言)",
-    "usd_cny": "关注中间价"
-  },
-  "commodities": {
-    "oil": "回落 (需求担忧)",
-    "gold": "避险买盘支撑",
-    "note": "美伊仍有不确定性但油价短期回调"
+  "europe_markets": {
+    "date": "2026-07-02",
+    "summary": "欧股收盘——关注FT报道量化基金再次遭遇震荡(quant tremor)",
+    "key_stories": [
+      "FT: 量化交易者再次遭遇'quant tremor'冲击",
+      "Blue Owl被47亿美元赎回请求冲击,投资者持续外流"
+    ]
   },
   "crypto": {
-    "btc": "连续承压 (ETF资金流出)",
-    "eth": "1577 (连续三个季度下跌)",
-    "sentiment": "极端恐惧"
+    "date": "2026-07-02",
+    "btc": "$60,683 (+1.14%) 市值$1.20万亿, YTD -30.73%",
+    "eth": "$1,630.91 (+1.37%)",
+    "solana": "延续周度反弹",
+    "sentiment": "BTC重新站上$60,000,但整体仍处极端恐惧区间"
   },
-  "morning_focus": [
-    "🔴 韩国芯片暴跌7%传导至A股半导体板块,关注开盘跌幅",
-    "🟡 北向资金是否加速流出",
-    "🟡 避险品种(黄金/贵金属)可能走强",
-    "🟡 美Warsh鹰派+美元走强压制新兴市场",
-    "🔴 USMCA不续签对出口链的影响"
+  "commodities": {
+    "oil": "关注美伊谈判进展和OPEC+动向",
+    "gold": "避险需求支撑,关注Comex走势"
+  },
+  "geopolitics": {
+    "gaza": "战争进入第1000天,巴勒斯坦面临不确定未来",
+    "us_china_trade": "美国制造业组织称中国意图'渗透'USMCA",
+    "philippines_canada": "菲律宾总统访加揭示加拿大印太雄心",
+    "trump_finances": "FT报道特朗普新财务披露,去年重返总统后收入$10亿+"
+  },
+  "rss_news_highlights": [
+    {"source": "CNBC", "title": "6月非农仅增5.7万，远低于11.5万预期，失业率4.2%"},
+    {"source": "CNBC", "title": "微软承诺25亿美元/6000员工组建AI实施部门"},
+    {"source": "CNBC", "title": "特斯拉Q2交付增25%大超预期"},
+    {"source": "CNBC", "title": "福特Q2销量降10.3%，供应商问题和EV需求下滑"},
+    {"source": "CNBC", "title": "摩根大通：今夏两大市场风险正在积聚"},
+    {"source": "Bloomberg", "title": "就业数据对Warsh和债市有利 - BlackRock"},
+    {"source": "Bloomberg", "title": "CoreWeave垃圾债下跌，投资者质疑AI繁荣"},
+    {"source": "MarketWatch", "title": "Nvidia押注万亿美元机器人热潮"},
+    {"source": "FT", "title": "量化交易者再次遭遇'quant tremor'"},
+    {"source": "FT", "title": "Blue Owl遭受47亿美元赎回请求"},
+    {"source": "SCMP", "title": "中国意图'渗透'USMCA,美国制造业组织称"},
+    {"source": "Yahoo Finance", "title": "特斯拉交付提振,马斯克反弹最坏时刻可能已过"}
+  ],
+  "ai_and_tech": {
+    "microsoft_ai": "25亿美元+6000员工组建AI实施部门,企业级AI落地加速",
+    "nvidia_robotics": "Nvidia押注万亿美元机器人机会",
+    "coreweave_bonds": "AI基建公司CoreWeave垃圾债下跌,市场对AI投资回报存疑",
+    "quant_tremor": "FT报道又一个'量化震动'冲击系统化交易者"
+  },
+  "focus_tonight": [
+    "🔴 6月非农仅5.7万(预期11.5万)——劳动力市场降温为Warsh维持利率提供支持",
+    "🟡 美股因独立日提前收盘,注意假期流动性下降",
+    "🟡 特斯拉Q2交付+25%——电动车需求可能触底回升",
+    "🟡 BTC重上$60,000但YTD仍-30%,整体情绪仍偏恐惧",
+    "🔴 CoreWeave垃圾债下跌——AI基建繁荣开始受到质疑",
+    "🟢 微软$25亿AI投入——大厂AI军备竞赛仍在持续"
   ]
 }

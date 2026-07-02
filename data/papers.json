@@ -1,7 +1,271 @@
 {
-  "last_updated": "2026-07-01T08:00:00+08:00",
-  "total_papers": 132,
+  "last_updated": "2026-07-02T08:46:37.857889",
+  "paper_count": 145,
   "papers": [
+    {
+      "id": "2606.31830",
+      "title": "PriorEye: Geospatial Visual Priors for End-to-End Autonomous Driving",
+      "authors": "Benjamin Ramtoula, Daniele De Martini",
+      "url": "https://arxiv.org/abs/2606.31830",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "published": "2026-06-30",
+      "score": 5,
+      "topic": "end-to-end-autonomous-driving",
+      "tags": [
+        "end-to-end",
+        "memory-augmented",
+        "geospatial-priors",
+        "NAVSIM"
+      ],
+      "summary": "提出地理空间视觉先验(geospatial visual priors)，通过双记忆架构和自适应记忆门为端到端自动驾驶提供路线锚定的视觉上下文，在NAVSIM-v2上一致性提升性能，天然抗传感器损坏。",
+      "status": "新发现"
+    },
+    {
+      "id": "2606.31672",
+      "title": "WorldRoamBench: An Open-World Benchmark for Long-Horizon Stability of Interactive World Models",
+      "authors": "Jiacheng Sui, Zhe Gao, Kewei Shi, et al.",
+      "url": "https://arxiv.org/abs/2606.31672",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "published": "2026-06-30",
+      "score": 5,
+      "topic": "world-models",
+      "tags": [
+        "world-models",
+        "benchmark",
+        "interactive",
+        "long-horizon"
+      ],
+      "summary": "提出开放世界基准测试WorldRoamBench，评估交互式世界模型的长时域稳定性，弥补现有基准在记忆和交互物理方面的缺失。",
+      "status": "新发现"
+    },
+    {
+      "id": "2606.31382",
+      "title": "Revisiting Parameter Redundancy in Vision-Language-Action Models: Insights from VLM-to-VLA Adaptation",
+      "authors": "Tao Huang, Siyu Xu, Zhong Jin, Chang Xu",
+      "url": "https://arxiv.org/abs/2606.31382",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "published": "2026-06-30",
+      "score": 5,
+      "topic": "vla-autonomous-driving",
+      "tags": [
+        "VLA",
+        "VLM",
+        "parameter-redundancy",
+        "pruning",
+        "efficiency"
+      ],
+      "summary": "重新审视VLA模型中的参数冗余问题，分析VLM到VLA适配过程中的参数量效率，发现VLA对剪枝极度敏感但存在大量冗余。",
+      "status": "新发现"
+    },
+    {
+      "id": "2606.31918",
+      "title": "DriveWeaver: Point-Conditioned Video Inpainting for Controllable Vehicle Insertion in Autonomous Driving Simulation",
+      "authors": "Zipei Ma, Zijie Pan, Li Zhang",
+      "url": "https://arxiv.org/abs/2606.31918",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-06-30",
+      "score": 4,
+      "topic": "e2e-autonomous-driving",
+      "tags": [
+        "simulation",
+        "video-inpainting",
+        "data-augmentation",
+        "corner-cases"
+      ],
+      "summary": "针对自动驾驶仿真中车辆插入任务，提出基于点云条件的视频修复框架，无需预重建3D资产，实现前景与背景的光照一致融合。",
+      "status": "新发现"
+    },
+    {
+      "id": "2606.31814",
+      "title": "Generative Lane Topology Reasoning via Autoregressive Model with Geometry Prior",
+      "authors": "Zehao Huang, Han Li, Naiyan Wang, Si Liu",
+      "url": "https://arxiv.org/abs/2606.31814",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-06-30",
+      "score": 4,
+      "topic": "e2e-autonomous-driving",
+      "tags": [
+        "lane-topology",
+        "autoregressive",
+        "generative-model",
+        "geometry-prior"
+      ],
+      "summary": "提出TopoGPT，使用自回归序列建模学习车道图结构的几何先验，构建330万场景数据集，通过场景条件化下一token预测预训练，解决车道拓扑推理中的几何不一致和遮挡问题。",
+      "status": "新发现"
+    },
+    {
+      "id": "2606.31688",
+      "title": "Semantic Occupancy Prediction with Dual Range-Voxel Representation",
+      "authors": "Zhuangwei Zhuang, Hui Luo, Lizhao Liu, Qingyao Wu, Mingkui Tan",
+      "url": "https://arxiv.org/abs/2606.31688",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-06-30",
+      "score": 4,
+      "topic": "e2e-autonomous-driving",
+      "tags": [
+        "occupancy-prediction",
+        "BEV",
+        "LiDAR",
+        "range-view",
+        "voxel"
+      ],
+      "summary": "提出双范围-体素表示(DRVR)，利用单帧点云的range-view上下文和voxel-view几何进行3D语义占用预测，避免多帧叠加的计算开销和噪声问题。",
+      "status": "新发现"
+    },
+    {
+      "id": "2606.31734",
+      "title": "MemLearner: Learning to Query Context Memory for Video World Models",
+      "authors": "Jianxiong Gao, Jianhong Bai, Yiran Qin, et al.",
+      "url": "https://arxiv.org/abs/2606.31734",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-06-30",
+      "score": 4,
+      "topic": "world-models",
+      "tags": [
+        "world-models",
+        "video-generation",
+        "memory",
+        "context-query"
+      ],
+      "summary": "提出基于学习的自适应上下文查询方法，用查询token学习如何从长时记忆中检索相关帧作为视频世界模型的上下文，解决场景遮挡和动态物体问题。",
+      "status": "新发现"
+    },
+    {
+      "id": "2606.31106",
+      "title": "What Probing Reveals about Autonomous Driving: Linking Internal Prediction Errors to Ego Planning",
+      "authors": "Kyungbeom Kim, Eugene Vinitsky, Kyung-Joong Kim",
+      "url": "https://arxiv.org/abs/2606.31106",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "published": "2026-06-30",
+      "score": 4,
+      "topic": "e2e-autonomous-driving",
+      "tags": [
+        "interpretability",
+        "probing",
+        "planning",
+        "prediction-error"
+      ],
+      "summary": "通过探测方法揭示自动驾驶策略的内部表征，将周围车辆运动预测误差与自车规划联系起来，分析策略是否存在不安全启发式。",
+      "status": "新发现"
+    },
+    {
+      "id": "2606.31723",
+      "title": "UniTacVLA: Unified Tactile Understanding and Prediction in Vision Language Action Models",
+      "authors": "Yichi Zhang, Jiaxin Shi, Fucai Zhu, et al.",
+      "url": "https://arxiv.org/abs/2606.31723",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-06-30",
+      "score": 4,
+      "topic": "vla-autonomous-driving",
+      "tags": [
+        "VLA",
+        "tactile",
+        "manipulation",
+        "multimodal"
+      ],
+      "summary": "将触觉感知统一到VLA模型中，增强接触丰富灵巧操作场景下的表现，扩展VLA到触觉领域。",
+      "status": "新发现"
+    },
+    {
+      "id": "2606.31483",
+      "title": "A Large-Language-Model Supported Personalized Driving Framework for Lane Change in Highway Scenarios",
+      "authors": "Yongqi Zhao, Paul Kovacevic, Tomislav Mihalj, et al.",
+      "url": "https://arxiv.org/abs/2606.31483",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-06-30",
+      "score": 3,
+      "topic": "e2e-autonomous-driving",
+      "tags": [
+        "LLM",
+        "personalized-driving",
+        "lane-change",
+        "highway"
+      ],
+      "summary": "提出LLM支持的个性化驾驶框架，将自然语言驾驶偏好翻译为高速公路变道场景下的个性化策略。",
+      "status": "新发现"
+    },
+    {
+      "id": "2606.32028",
+      "title": "DVG-WM: Disentangled Video Generation Enables Efficient Embodied World Model for Robotic Manipulation",
+      "authors": "Zhenyu Wu, Xiaofeng Wang, Zheng Zhu, Ziwei Wang",
+      "url": "https://arxiv.org/abs/2606.32028",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "published": "2026-06-30",
+      "score": 3,
+      "topic": "world-models",
+      "tags": [
+        "world-models",
+        "video-generation",
+        "robotic-manipulation"
+      ],
+      "summary": "提出解耦视频生成的世界模型，分离低层动态建模和高层语义视觉合成，提升机器人操作效率。",
+      "status": "新发现"
+    },
+    {
+      "id": "2606.31875",
+      "title": "SENSE-VAD: Sentient and Semantic Video Anomaly Detection for Autonomous Driving",
+      "authors": "Lokman Bekit, Yasin Yilmaz",
+      "url": "https://arxiv.org/abs/2606.31875",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-06-30",
+      "score": 3,
+      "topic": "e2e-autonomous-driving",
+      "tags": [
+        "anomaly-detection",
+        "video",
+        "autonomous-driving"
+      ],
+      "summary": "面向自动驾驶的视频异常检测方法。",
+      "status": "新发现"
+    },
+    {
+      "id": "2606.32026",
+      "title": "AdaJEPA: An Adaptive Latent World Model",
+      "authors": "Oumayma Bounou, et al.",
+      "url": "https://arxiv.org/abs/2606.32026",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-06-30",
+      "score": 3,
+      "topic": "world-models",
+      "tags": [
+        "world-models",
+        "JEPA",
+        "latent-model"
+      ],
+      "summary": "自适应潜在世界模型。",
+      "status": "新发现"
+    },
     {
       "arxiv_id": "2606.30421",
       "title": "OWMDrive: Causality-Aware End-to-End Autonomous Driving via 4D Occupancy World Model",

@@ -1,37 +1,76 @@
 {
-  "updated_at": "2026-07-01 11:35",
+  "updated_at": "2026-07-02 11:38",
+  "type": "noon",
   "indices": [
-    {"name": "上证指数", "close": 4138.65, "change_pct": 1.08, "volume": "1.02万亿"},
-    {"name": "深证成指", "close": 16271.32, "change_pct": 0.41, "volume": "1.41万亿"},
-    {"name": "创业板指", "close": 4325.67, "change_pct": -0.39, "volume": "3596亿"},
-    {"name": "沪深300", "close": 5001.54, "change_pct": 0.44, "volume": ""}
-  ],
-  "sectors_top5": [
-    {"name": "养殖业", "change_pct": 5.98},
-    {"name": "保险", "change_pct": 5.32},
-    {"name": "证券", "change_pct": 4.15},
-    {"name": "氟化工", "change_pct": 3.86},
-    {"name": "互联网金融", "change_pct": 3.51}
-  ],
-  "sectors_bottom5": [
-    {"name": "PCB概念", "change_pct": -4.12},
-    {"name": "光纤概念", "change_pct": -3.78},
-    {"name": "新能源电池", "change_pct": -3.75},
-    {"name": "储能电池", "change_pct": -2.89},
-    {"name": "科创50", "change_pct": -0.85}
+    {
+      "name": "上证指数",
+      "code": "sh000001",
+      "price": 4054.09,
+      "change_pct": -1.42,
+      "change": -58.36,
+      "high": 4093.68,
+      "low": 4043.23,
+      "volume": 425880505.0,
+      "amount": 1018520143742.0,
+      "open": 4075.31
+    },
+    {
+      "name": "深证成指",
+      "code": "sz399001",
+      "price": 15729.92,
+      "change_pct": -2.41,
+      "change": -389.24,
+      "high": 15886.7,
+      "low": 15575.37,
+      "volume": 56086504699.0,
+      "amount": 1223503745456.383,
+      "open": 15782.35
+    },
+    {
+      "name": "创业板指",
+      "code": "sz399006",
+      "price": 4135.34,
+      "change_pct": -2.94,
+      "change": -125.38,
+      "high": 4168.87,
+      "low": 4070.96,
+      "volume": 16199310829.0,
+      "amount": 567229830248.8,
+      "open": 4112.97
+    },
+    {
+      "name": "沪深300",
+      "code": "sh000300",
+      "price": 4865.17,
+      "change_pct": -1.89,
+      "change": -93.81,
+      "high": 4896.99,
+      "low": 4837.26,
+      "volume": 218674259.0,
+      "amount": 659363521244.0,
+      "open": 4867.43
+    },
+    {
+      "name": "恒生指数",
+      "code": "hsi",
+      "price": 23071.43,
+      "change_pct": 0.96,
+      "change": 218.89,
+      "high": 23335.92,
+      "low": 22983.46,
+      "volume": 0,
+      "amount": 0,
+      "open": 22881.02
+    }
   ],
   "north_flow": {
-    "date": "2026-07-01",
-    "value": null,
-    "沪股通_净买额": null,
-    "深股通_净买额": null,
-    "总净买额": null
+    "value": 520.0,
+    "date": "2026-07-02"
   },
-  "market_breadth": {
-    "up": 4500,
-    "down": 300,
-    "total": 5000
-  },
-  "total_amount": 2435200000000,
-  "notes": "午盘数据（11:30）— 成交额24352亿，较上日放量3177亿，超4500家上涨"
+  "sectors": {
+    "industry_top5": [],
+    "industry_bottom5": [],
+    "concept_top5": [],
+    "concept_bottom5": []
+  }
 }

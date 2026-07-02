@@ -1,135 +1,129 @@
 {
-  "timestamp": "2026-07-01T21:30:00+08:00",
-  "date": "2026-07-01",
-  "session": "evening",
+  "timestamp": "2026-07-02T09:15:00+08:00",
+  "date": "2026-07-02",
+  "session": "morning",
   "sources": {
-    "cnbc": "live_updates",
+    "cnbc": "rss_scraped",
     "bloomberg": "https://feeds.bloomberg.com/markets/news.rss",
     "marketwatch": "https://feeds.marketwatch.com/marketwatch/topstories/",
     "ft": "https://www.ft.com/markets?format=rss",
-    "coinmarketcap": "web_fetch",
-    "yahoo_finance": "rss"
+    "scmp": "rss_scraped"
   },
-  "us_markets": {
-    "date": "2026-07-01_open",
-    "dow_jones": {
-      "change": "-0.3%",
-      "points": -184,
-      "close_prev": 52319.20,
-      "ytd": "+8.9%",
-      "note": "开盘走低,美伊紧张局势打压情绪"
+  "overnight_summary": {
+    "headline": "韩国芯片股暴跌7%传导至亚洲盘,美伊局势保持紧张,美元走强",
+    "key_narratives": [
+      "韩国KOSPI -7%:三星/海力士领跌,AI担忧从美股蔓延至亚洲",
+      "美伊卡塔尔谈判:特朗普称有进展,但伊朗仍排除直接谈判",
+      "Warsh讲话:通胀'仍然过高',7月降息无暗示,美元走强",
+      "美国将不再续签USMCA,对加拿大墨西哥贸易谈判开启",
+      "特朗普重返总统后收入$10亿+,另获FIFA世界杯门票$1.5万"
+    ]
+  },
+  "asia_markets": {
+    "korea_kospi": "-7% (三星/海力士暴跌,AI芯片恐慌蔓延)",
+    "japan_nikkei": "待确认 (受芯片卖压拖累)",
+    "hong_kong_hsi": "待确认"
+  },
+  "china_futures": {
+    "a50_futures": "数据获取失败",
+    "note": "关注韩国传导效应,半导体板块预计承压"
+  },
+  "a_share_indices": {
+    "date": "2026-07-01_close",
+    "shanghai_composite": {
+      "value": "待开盘",
+      "prev_close": "昨日收跌0.41%"
     },
-    "sp500": {
-      "change": "-0.4%",
-      "ytd": "+9.6%",
-      "note": "芯片股回调拖累,盘中关注Warsh讲话"
-    },
-    "nasdaq": {
-      "change": "-0.6%",
-      "ytd": "+12.8%",
-      "note": "科技股领跌,Micron -6%, Sandisk -8%, NVDA -3%"
-    },
-    "russell2000": {
-      "ytd": "+22%",
-      "note": "30年来最佳上半年表现"
-    },
-    "semiconductor": {
-      "q2_gain": "SMH +82%",
-      "note": "历史上最佳上半年表现;美光+304%,闪迪+857%,英特尔+278%"
-    },
-    "h1_summary": {
-      "dow_h1": "+8.9%（2021年来最佳）",
-      "sp500_h1": "+9.6%",
-      "nasdaq_h1": "+12.8%",
-      "russell_h1": "+22%（1991年来最佳）",
-      "chip_gain": "Q2芯片股合计涨$2万亿市值"
-    },
-    "key_movers": {
-      "micron": "-6%（YTD +277%）",
-      "sandisk": "-8%（H1 +850%）",
-      "nvidia": "-3%",
-      "broadcom": "-2%"
-    },
-    "fed_watch": {
-      "chair": "Kevin Warsh",
-      "event": "ECB葡萄牙论坛发言",
-      "quote": "通胀'仍然过高'",
-      "rate_decision": "未给出7月暗示"
+    "shenzhen_component": "待开盘",
+    "chi_next": "待开盘",
+    "csi300": {
+      "prev_close": 4958.98,
+      "prev_change": "-0.41%",
+      "north_flow_jul1": "-32.2亿 (主力净流出)",
+      "jul2_north_flow": "待盘中"
     }
   },
-  "crypto": {
-    "btc": {
-      "price": "待确认",
-      "24h_change": "-1.61%",
-      "note": "7月面临最差ETF月度流出,Warsh鹰派发言施压"
-    },
-    "eth": {
-      "price": 1577.24,
-      "24h_change": "-0.55%",
-      "note": "连续三个季度下跌(历史首次),巨鲸地址却在增持"
-    },
-    "sentiment": "极端恐惧,ETF资金持续流出"
+  "a_share_sectors": {
+    "gainers": ["黄金+2.80%", "贵金属+2.74%", "白银+2.54%", "钾肥+3.06%", "广告营销+3.03%"],
+    "losers": ["半导体设备-5.67%", "半导体材料-5.68%", "分立器件-4.38%", "集成电路制造-4.43%", "被动元件-4.86%"],
+    "note": "半导体板块领跌,韩国AI恐慌传导;避险品种黄金/贵金属走强"
   },
-  "commodities": {
-    "note": "美伊紧张局势支撑油价",
-    "iran_tensions": "伊朗排除与美直接谈判可能,霍尔木兹海峡风险上升"
+  "us_markets_overnight": {
+    "reported_date": "2026-07-01",
+    "dow_jones": "-0.3% (-184点,收52319)",
+    "sp500": "-0.4%",
+    "nasdaq": "-0.6% (芯片股领跌,美光-6%,闪迪-8%,NVDA-3%)",
+    "russell2000": "YTD +22% (30年最佳H1)",
+    "semiconductor": "SMH Q2 +82% (历史最佳H1),但回调中",
+    "fed_watch": {
+      "chair": "Kevin Warsh",
+      "stance": "通胀仍然过高,未暗示7月降息",
+      "impact": "美元走强,风险资产承压"
+    }
   },
-  "fx": {
-    "dollar": "走强（Warsh讲话提振）"
+  "geopolitics": {
+    "us_iran": "卡塔尔间接谈判,特朗普称有进展,伊朗排除直接谈判",
+    "usmca": "美国不续签,将开启加墨双边谈判",
+    "us_china": "Takaichi加强印度关系,中国周边局势紧张",
+    "tech_tariffs": "韩国芯片股暴跌或影响全球半导体供应链预期"
   },
   "news_headlines": [
     {
       "source": "Bloomberg",
-      "title": "Alphabet $2万亿涨幅从'摇滚巨星'变成问号 — 增长放缓引发质疑"
+      "title": "韩国股票暴跌7%,AI恐慌打击芯片制造商"
     },
     {
       "source": "Bloomberg",
-      "title": "股市下跌,美元走强,Warsh成焦点"
+      "title": "Takaichi将加强印度关系,中国周边紧张加剧"
     },
     {
-      "source": "Bloomberg",
-      "title": "拉加德:通胀和增长风险现在更加均衡"
+      "source": "CNBC",
+      "title": "三星电子/海力士跌超7%,芯片抛售从华尔街蔓延"
+    },
+    {
+      "source": "CNBC",
+      "title": "美联储主席Warsh拒绝暗示7月利率决定,称通胀'太高'"
+    },
+    {
+      "source": "CNBC",
+      "title": "美国不续签USMCA,开启与加墨谈判"
     },
     {
       "source": "FT",
-      "title": "特朗普去年重返总统职位后收入超$10亿"
-    },
-    {
-      "source": "FT",
-      "title": "谷歌被判向Klarna支付$20亿反垄断赔偿"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "NASDAQ-100上半年几乎100%涨幅来自10只股票 — 集中度风险升高"
-    },
-    {
-      "source": "CNBC",
-      "title": "Fed主席Warsh:通胀'太高',但未给7月利率决定暗示"
-    },
-    {
-      "source": "CNBC",
-      "title": "汽车业面临USMCA贸易协议不确定"
-    },
-    {
-      "source": "CNBC",
-      "title": "芯片股遭获利了结 NASDAQ领跌开盘"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "澳洲考虑加强监管或拆分'四大银行'"
+      "title": "特朗普去年重返总统后收入超$10亿"
     },
     {
       "source": "SCMP",
-      "title": "AI时代,美中竞争取决于谁能更快适应"
+      "title": "特朗普称美伊卡塔尔谈判取得进展"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Nvidia押注万亿美元机器人热潮"
+    },
+    {
+      "source": "FT",
+      "title": "KNDS推迟IPO,投资者拒绝€120亿+估值"
     }
   ],
-  "asia_europe_context": {
-    "hang_seng": {
-      "note": "7月1日香港休市(回归纪念日),6/29收盘23,027 (+1.57%)"
-    },
-    "ecb": {
-      "note": "拉加德表示通胀与增长风险更加均衡"
-    }
+  "fx": {
+    "dollar_index": "走强 (Warsh鹰派发言)",
+    "usd_cny": "关注中间价"
   },
-  "summary": "7月首个交易日美股开盘走低,芯片股获利了结致NASDAQ领跌(-0.6%)。Fed主席Warsh在ECB论坛讲话称通胀仍过高但未暗示7月决议方向,美元走强。地缘方面,伊朗排除与美国直接谈判可能,中东紧张升级。H1回顾:美股表现强劲,Russell2000创1991年来最佳上半年。加密货币延续弱势,ETH连续三个季度下跌为史上首次。香港7/1休市。"
+  "commodities": {
+    "oil": "回落 (需求担忧)",
+    "gold": "避险买盘支撑",
+    "note": "美伊仍有不确定性但油价短期回调"
+  },
+  "crypto": {
+    "btc": "连续承压 (ETF资金流出)",
+    "eth": "1577 (连续三个季度下跌)",
+    "sentiment": "极端恐惧"
+  },
+  "morning_focus": [
+    "🔴 韩国芯片暴跌7%传导至A股半导体板块,关注开盘跌幅",
+    "🟡 北向资金是否加速流出",
+    "🟡 避险品种(黄金/贵金属)可能走强",
+    "🟡 美Warsh鹰派+美元走强压制新兴市场",
+    "🔴 USMCA不续签对出口链的影响"
+  ]
 }

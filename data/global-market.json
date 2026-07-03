@@ -1,93 +1,114 @@
 {
-  "timestamp": "2026-07-02T21:30:00+08:00",
-  "date": "2026-07-02",
-  "session": "evening",
+  "timestamp": "2026-07-03T09:15:00+08:00",
+  "date": "2026-07-03",
+  "session": "morning",
   "sources": {
     "cnbc": "rss_scraped",
     "bloomberg": "rss_scraped",
     "marketwatch": "rss_scraped",
     "ft": "rss_scraped",
+    "wsj": "rss_scraped",
     "yahoo": "rss_scraped",
-    "scmp": "rss_scraped"
+    "scmp": "rss_scraped",
+    "web_search": "supplement"
   },
   "us_markets": {
     "date": "2026-07-02",
-    "summary": "美股开盘走高，6月非农数据不及预期强化利率维持预期。Dow+0.5%, S&P500+0.4%, Nasdaq+0.3%。市场交易量因假期前降低，周五(7/3)因独立日休市。",
-    "dow_jones": "+0.5% (开盘涨幅)",
-    "sp500": "+0.4% (开盘涨幅)",
-    "nasdaq": "+0.3% (开盘涨幅), 半导体回暖但CoreWeave垃圾债下跌",
-    "jobs_report": "6月新增5.7万，远低于预期的11.5万；失业率4.2%。被BlackRock解读为Warsh维持利率不变的好信号",
+    "summary": "Dow劲涨近600点创历史收盘新高52,900点，Nasdaq下跌0.8%受AI/芯片股拖累。三大指数周线均收涨。6月非农远逊预期，强化利率维持预期，资金从科技股轮动至周期/价值板块。周五独立日休市。",
+    "dow_jones": "52,900 (+1.1%, +595点) 历史收盘新高，年内第20个纪录",
+    "sp500": "近持平 (-0.0%) 周线+1.8%",
+    "nasdaq": "-0.8% 科技股遭抛售，周线+2.1%",
+    "jobs_report": "6月新增非农大幅不及预期，劳动力参与率降至50年最低(不含疫情期)，利率维持预期升温",
     "key_movers": {
-      "tesla": "Q2交付量同比增25%，大超预期，股价上涨",
-      "microsoft": "宣布$25亿/6000人AI实施部门",
-      "ford": "Q2销量降10.3%，F系列供应商问题+EV需求下滑",
-      "coreweave": "垃圾债下跌，投资者质疑AI繁荣可持续性"
+      "rotation": "Dow劲扬Nasdaq跌——大规模资金从科技/芯片股转向周期和价值板块",
+      "semiconductors": "芯片股全线回调，上半年涨超80%后获利回吐，Micron跌超10%",
+      "memory_stocks": "MU/SNDK/STX/WDC延续跌势，存储类股泡沫担忧升温",
+      "trump_interview": "特朗普接受CNBC专访，就商业和个人事务发表言论"
     },
     "fed_watch": {
       "chair": "Kevin Warsh",
-      "july_rate": "维持不变预期增强 (就业放缓支持不降息)",
-      "narrative": "BlackRock的Rosenberg称就业数据对Warsh有利，利率将维持更久"
+      "july_rate": "维持不变预期巩固——非农疲弱支撑不降息",
+      "narrative": "就业数据不及预期但尚未触发降息条件，Warsh倾向于观望"
     },
     "holiday_note": "7/3(周五)独立日休市，下周一恢复交易"
   },
   "hk_market": {
     "date": "2026-07-02",
-    "summary": "恒指前一交易日收盘22881点。韩国芯片抛售情绪传导至亚洲盘。",
-    "hsi_prev_close": 22881,
-    "hsi_change": "待确认",
-    "note": "亚太科技股继续承压于韩国AI恐慌余波"
+    "summary": "港股2026年下半年开门红！恒指全天+0.76%收报23,055点，盘中一度涨超2%触及23,336点。科网股集体走强，成交额3,696亿港元。",
+    "hsi_close": 23055.03,
+    "hsi_change": "+0.76% (+174点)",
+    "gainers": {
+      "xiaomi": "+4.44%",
+      "jd": "+3.58%",
+      "meituan": "+3.43%",
+      "kuaishou": "+2.50%",
+      "alibaba": "+1.78%",
+      "baidu": "+0.36%",
+      "tencent": "+0.09%"
+    },
+    "ipo_outlook": "PwC预计2026年港股IPO集资3,800亿港元，稳居全球前三。年内超八成新股首日上涨。核心驱动：内地龙头+科创企业双重上市+国际资本加码AI/半导体/新材料",
+    "note": "PwC称IPO势头将持续至2027年"
+  },
+  "asia_markets": {
+    "date": "2026-07-03",
+    "note": "亚洲盘开盘涨跌互现——芯片股抛售情绪蔓延。日本/韩国芯片股早盘承压。",
+    "asia_open": "Asia markets open mixed as chip slump weighs on sentiment (CNBC)"
   },
   "europe_markets": {
     "date": "2026-07-02",
-    "summary": "欧股收盘——关注FT报道量化基金再次遭遇震荡(quant tremor)",
+    "summary": "FT报道Lockheed牵头35亿美元收购Ultra Maritime（防务技术）。Ardian旗下医疗集团账户被查封。",
     "key_stories": [
-      "FT: 量化交易者再次遭遇'quant tremor'冲击",
-      "Blue Owl被47亿美元赎回请求冲击,投资者持续外流"
+      "FT: Lockheed拟$35亿收购Ultra Maritime",
+      "FT: 量化基金再次遭遇'quant tremor'震荡",
+      "FT: Ardian旗下医疗集团银行账户被查封"
     ]
   },
   "crypto": {
     "date": "2026-07-02",
-    "btc": "$60,683 (+1.14%) 市值$1.20万亿, YTD -30.73%",
-    "eth": "$1,630.91 (+1.37%)",
-    "solana": "延续周度反弹",
-    "sentiment": "BTC重新站上$60,000,但整体仍处极端恐惧区间"
+    "btc": "BTC仍在$60,000附近，6月为BTC自2022年6月以来最差月份",
+    "eth": "ETH $1,630附近，弱势盘整",
+    "sentiment": "BTC结束近一个月的下跌但整体情绪仍偏恐惧，YTD仍大幅下跌"
   },
   "commodities": {
-    "oil": "关注美伊谈判进展和OPEC+动向",
-    "gold": "避险需求支撑,关注Comex走势"
+    "date": "2026-07-02",
+    "oil": "关注美伊紧张局势——US-Iran tensions为油价提供支撑",
+    "gold": "Comex黄金/白银小幅收跌，白银仍低于$60关口",
+    "precious_metals": "黄金$4,100下方盘整，机构认为仍有上行空间"
   },
   "geopolitics": {
-    "gaza": "战争进入第1000天,巴勒斯坦面临不确定未来",
-    "us_china_trade": "美国制造业组织称中国意图'渗透'USMCA",
-    "philippines_canada": "菲律宾总统访加揭示加拿大印太雄心",
-    "trump_finances": "FT报道特朗普新财务披露,去年重返总统后收入$10亿+"
+    "trump_nato": "特朗普即将赴北约峰会——是温和还是强硬令市场关注",
+    "us_iran": "美伊紧张局势升级，影响地缘溢价和市场避险情绪",
+    "us_china": "美中贸易/科技竞争持续，拜登政府延续对华芯片限制",
+    "deepseek_china_ai": "WSJ报道DeepSeek引发中国AI概念股关注"
   },
   "rss_news_highlights": [
-    {"source": "CNBC", "title": "6月非农仅增5.7万，远低于11.5万预期，失业率4.2%"},
-    {"source": "CNBC", "title": "微软承诺25亿美元/6000员工组建AI实施部门"},
-    {"source": "CNBC", "title": "特斯拉Q2交付增25%大超预期"},
-    {"source": "CNBC", "title": "福特Q2销量降10.3%，供应商问题和EV需求下滑"},
-    {"source": "CNBC", "title": "摩根大通：今夏两大市场风险正在积聚"},
-    {"source": "Bloomberg", "title": "就业数据对Warsh和债市有利 - BlackRock"},
-    {"source": "Bloomberg", "title": "CoreWeave垃圾债下跌，投资者质疑AI繁荣"},
-    {"source": "MarketWatch", "title": "Nvidia押注万亿美元机器人热潮"},
-    {"source": "FT", "title": "量化交易者再次遭遇'quant tremor'"},
-    {"source": "FT", "title": "Blue Owl遭受47亿美元赎回请求"},
-    {"source": "SCMP", "title": "中国意图'渗透'USMCA,美国制造业组织称"},
-    {"source": "Yahoo Finance", "title": "特斯拉交付提振,马斯克反弹最坏时刻可能已过"}
+    {"source": "CNBC", "title": "特朗普接受CNBC专访，为商业和子女辩护"},
+    {"source": "CNBC", "title": "劳动力参与率降至50年最低(不含疫情期) ——求职者正在放弃"},
+    {"source": "CNBC", "title": "亚洲盘涨跌互现，芯片股低迷拖累情绪"},
+    {"source": "CNBC", "title": "Dow劲涨近600点创历史新高；Nasdaq受芯片股拖累收跌"},
+    {"source": "WSJ", "title": "AI股大跌引发广泛抛售：DeepSeek、中国AI概念冲击"},
+    {"source": "WSJ", "title": "Comex黄金/白银收低"},
+    {"source": "WSJ", "title": "DeepSeek不会击沉美国AI巨头"},
+    {"source": "FT", "title": "Lockheed牵头$35亿收购Ultra Maritime"},
+    {"source": "FT", "title": "上半年市场回顾——'中场休息'"},
+    {"source": "MarketWatch", "title": "Dow再创纪录——6月就业报告疲弱但年底前美国就业市场存变数"},
+    {"source": "SCMP", "title": "特朗普北约峰会将展现何种姿态？"},
+    {"source": "Yahoo Finance", "title": "卫星电视巨头申请Chapter 11破产"}
   ],
   "ai_and_tech": {
-    "microsoft_ai": "25亿美元+6000员工组建AI实施部门,企业级AI落地加速",
-    "nvidia_robotics": "Nvidia押注万亿美元机器人机会",
-    "coreweave_bonds": "AI基建公司CoreWeave垃圾债下跌,市场对AI投资回报存疑",
-    "quant_tremor": "FT报道又一个'量化震动'冲击系统化交易者"
+    "ai_rotation": "资金从高估值AI/芯片股轮出，上半年超80%涨幅触发获利回吐",
+    "deepseek_watch": "中国DeepSeek大模型引发关注，WSJ报道中美AI竞争新格局",
+    "semiconductor_pullback": "芯片股普遍回调，存储股MU跌幅超10%——无明确基本面触发因素",
+    "lockheed_ultra": "Lockheed Martin $35亿收购海军防务技术商Ultra Maritime"
   },
-  "focus_tonight": [
-    "🔴 6月非农仅5.7万(预期11.5万)——劳动力市场降温为Warsh维持利率提供支持",
-    "🟡 美股因独立日提前收盘,注意假期流动性下降",
-    "🟡 特斯拉Q2交付+25%——电动车需求可能触底回升",
-    "🟡 BTC重上$60,000但YTD仍-30%,整体情绪仍偏恐惧",
-    "🔴 CoreWeave垃圾债下跌——AI基建繁荣开始受到质疑",
-    "🟢 微软$25亿AI投入——大厂AI军备竞赛仍在持续"
+  "focus_today": [
+    "🔴 美股分化：Dow创历史新高52,900 vs Nasdaq跌0.8%——芯片/AI股回调",
+    "🟡 7/3(周五)美股独立日休市，下周一开盘——注意跨周末风险",
+    "🟡 港股开门红+0.76%，科网股强势——关注今日能否延续",
+    "🟡 亚洲时段芯片股承压——韩国/日本半导体板块早盘偏弱",
+    "🟢 6月就业数据疲弱——利率维持预期巩固，利好高股息/价值股",
+    "🟡 BTC在60k徘徊——加密市场整体偏恐惧",
+    "🔴 美伊紧张局势——关注油价和避险情绪演变",
+    "🟢 港股IPO市场回暖——PwC预计全年集资3800亿港元"
   ]
 }

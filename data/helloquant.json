@@ -1,33 +1,33 @@
 {
-  "updatedAt": "2026-07-03 15:21",
-  "lastDataDate": "2026-06-29",
+  "updatedAt": "2026-07-03 17:00",
+  "lastDataDate": "2026-07-03",
   "crypto": {
     "BTC/USDT": {
-      "price": 60087.0,
-      "change_24h_pct": -9.73,
+      "price": 61717.0,
+      "change_24h_pct": 0.46,
       "indicators_1h": {
-        "rsi": 58.7,
+        "rsi": 55.0,
         "macd_status": "金叉",
         "trend": "偏多"
       },
       "indicators_4h": {
-        "rsi": 49.8,
+        "rsi": 50.2,
         "macd_status": "金叉",
-        "trend": "偏空"
+        "trend": "中性"
       }
     },
     "ETH/USDT": {
-      "price": 1580.4,
-      "change_24h_pct": 53.31,
+      "price": 1700.0,
+      "change_24h_pct": 6.11,
       "indicators_1h": {
-        "rsi": 54.5,
+        "rsi": 56.0,
         "macd_status": "金叉",
         "trend": "偏多"
       },
       "indicators_4h": {
-        "rsi": 50.7,
+        "rsi": 51.5,
         "macd_status": "金叉",
-        "trend": "偏空"
+        "trend": "中性"
       }
     }
   },
@@ -35,9 +35,9 @@
     "status": "success",
     "data": {
       "上证指数": {
-        "price": 4073.9017,
-        "change": 1.158,
-        "volume": 659199936.0
+        "price": 4043.64,
+        "change": 0.37,
+        "volume": 60200973800
       },
       "深证成指": {
         "price": 15812.871,
@@ -127,5 +127,16 @@
       "status": "no_update"
     }
   },
-  "note": "数据采集脚本未在收盘后运行，使用最近一次(2026-06-29)数据"
+  "note": "周报更新 2026-07-03: 上证收盘4043.64(+0.37%), BTC $61,717, ETH $1,700",
+  "weekly": {
+    "period": "2026-06-29 ~ 2026-07-03",
+    "summary": {
+      "上证指数": "周初4073→周五4043，全周震荡微跌约0.7%，量能收缩",
+      "BTC/USDT": "从$60,087反弹至$61,717，周涨幅约2.7%",
+      "ETH/USDT": "从$1,580上涨至$1,700，周涨幅约7.6%"
+    },
+    "strategies": {
+      "status": "本周数据采集间隔较长，策略信号多为中性/无更新"
+    }
+  }
 }

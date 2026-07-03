@@ -1,57 +1,55 @@
 {
-  "updateTime": "2026-07-03 11:35",
+  "updateTime": "2026-07-03 15:22",
   "indices": {
     "SH000001": {
       "name": "上证指数",
-      "price": 4056.78,
-      "change": 27.88,
-      "change_pct": 0.69,
-      "volume": 385861588,
-      "amount": 9392.41
+      "price": 4043.64,
+      "change": 14.74,
+      "change_pct": 0.37,
+      "high": 4073.88,
+      "low": 4027.26
     },
     "SZ399001": {
       "name": "深证成指",
-      "price": 15714.23,
-      "change": 215.41,
-      "change_pct": 1.39,
-      "volume": 50969304321,
-      "amount": 11204.58
+      "price": 15597.51,
+      "change": 98.7,
+      "change_pct": 0.64,
+      "high": 15823.05,
+      "low": 15432.89
     },
     "SZ399006": {
       "name": "创业板指",
-      "price": 4080.57,
-      "change": 63.30,
-      "change_pct": 1.58,
-      "volume": 14450591648,
-      "amount": 5187.68
+      "price": 4019.93,
+      "change": 2.66,
+      "change_pct": 0.07,
+      "high": 4115.63,
+      "low": 3985.36
     },
     "SZ399300": {
       "name": "沪深300",
-      "price": 4867.59,
-      "change": 55.30,
-      "change_pct": 1.15,
-      "volume": 19049648000,
-      "amount": 6056.42
+      "price": 4842.17,
+      "change": 29.87,
+      "change_pct": 0.62,
+      "high": 4890.97,
+      "low": 4809.5
     }
   },
   "sectors": {
     "top_gainers": [
-      { "name": "轴承", "change": "5.93%" },
-      { "name": "减速器", "change": "5.71%" },
-      { "name": "丝杠", "change": "5.47%" },
-      { "name": "驱动电机", "change": "5.32%" },
-      { "name": "灵巧手", "change": "5.14%" }
+      {
+        "name": "数据获取受限",
+        "change": ""
+      }
     ],
     "top_losers": [
-      { "name": "通用设备", "change": "3.25%" },
-      { "name": "火箭回收", "change": "3.20%" },
-      { "name": "长安汽车", "change": "3.18%" },
-      { "name": "发电机", "change": "3.15%" },
-      { "name": "华为HiCar", "change": "3.11%" }
+      {
+        "name": "数据获取受限",
+        "change": ""
+      }
     ]
   },
   "northBound": {
     "status": "unavailable",
-    "note": "数据库API暂时不可达"
+    "note": "接口暂不可达"
   }
 }

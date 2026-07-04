@@ -1,113 +1,71 @@
 {
-  "timestamp": "2026-07-03T21:30:00+08:00",
-  "date": "2026-07-03",
-  "session": "evening",
-  "sources": {
-    "cnbc": "rss_scraped",
-    "bloomberg": "rss_scraped",
-    "marketwatch": "rss_scraped",
-    "ft": "rss_scraped",
-    "wsj": "rss_scraped",
-    "yahoo": "rss_scraped",
-    "scmp": "rss_scraped",
-    "web_search": "supplement"
-  },
-  "us_markets": {
-    "date": "2026-07-03",
-    "status": "美股独立日休市（7/3周五）",
-    "previous_close": "周四(7/2)收盘: Dow +1.1%(+595点)创历史新高52,900点, S&P 500近持平, Nasdaq -0.8%受AI/芯片拖累",
-    "holiday_note": "7/3独立日休市，下周一(7/6)恢复交易",
-    "weekly_summary": "三大指数周线均收涨。6月非农仅增5.7万(预期11万)，强化利率维持预期，触发大规模板块轮动",
-    "key_stories": [
-      "6月非农+5.7万，远低于预期11万——四个月最小增幅，9月加息概率降至50%(此前66%)",
-      "Dow劲扬创历史收盘新高——资金从科技/芯片股轮入周期和价值板块",
-      "芯片股继续回调，存储类股(尤其MU)跌超10%",
-      "AI/DeepSeek概念冲击持续——WSJ: DeepSeek Won't Sink U.S. AI Titans",
-      "WSJ: Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
-      "CNBC: 特朗普接受CNBC独家专访，为其商业和个人事务辩护"
-    ],
-    "fed_watch": {
-      "chair": "Kevin Warsh",
-      "july_rate": "加息概率50%(此前66%)，非农疲弱大幅降低加息预期",
-      "narrative": "非农数据疲软但Warsh倾向于观望，未触发降息条件"
+  "updatedAt": "2026-07-04T21:30:00+08:00",
+  "date": "2026-07-04",
+  "note": "US markets closed July 3 (Independence Day holiday). Data reflects last close (July 2) and crypto current prices.",
+  "indices": {
+    "us": {
+      "dowJones": "Record close, +600pts (+1.1%) on July 2 — 20th record close of 2026",
+      "sp500": "Flat on July 2",
+      "nasdaq": "-0.8% on July 2 (tech weakness)",
+      "weekly": "All three indexes booked weekly gains",
+      "context": "June jobs report weaker than expected, boosting Fed rate cut expectations"
+    },
+    "hk": {
+      "hangSeng": "Data not available — market closed (Saturday)"
+    },
+    "china": {
+      "shanghai": "Data not available — market closed (Saturday)",
+      "shenzhen": "Data not available — market closed (Saturday)"
     }
   },
-  "hk_market": {
-    "date": "2026-07-03",
-    "hsi": "23,222 (+0.72%)",
-    "summary": "港股延续涨势，恒指收报23,222点涨0.72%，延续下半年开门红。科网股继续走强。",
-    "note": "亚洲市场芯片相关承压——SK Hynix宣布$640亿存储芯片投资计划为关注焦点"
-  },
-  "europe_markets": {
-    "date": "2026-07-03",
-    "summary": "欧洲STOXX 600指数接近历史高位，有望创5月以来最佳单周表现，周期性板块领涨",
-    "bloomberg": "European Stocks Head for Best Week Since May: Markets Wrap",
-    "ft_highlights": [
-      "FT: Anthropic收紧中国访问Claude的渠道漏洞",
-      "FT: Jamie Dimon接班人竞赛再添牺牲者",
-      "FT: 华尔街盈利预测飙升引发'盈利泡沫'担忧"
-    ]
-  },
   "crypto": {
-    "date": "2026-07-03",
-    "market": "加密市场整体上涨1.8%",
-    "btc": "$61,740 (+3%, 盘中触及$62,117后回落)",
-    "eth": "ETH跟随BTC上涨，整体仍弱势盘整",
-    "btc_detail": "非农疲弱触发$4.5亿空头清算，BTC突破$62K后受阻于20日EMA和SAR抛物线。如果守不住$60K则下看$53K",
-    "sentiment": "恐惧与贪婪指数21，仍处于极度恐惧。比特币ETF持续流出和鲸鱼活动限制上行空间",
-    "altcoin": "XDAO飙涨449%，Upbit上市效应。总体山寨币跟随大盘反弹"
+    "bitcoin": {
+      "price": 62632,
+      "change24h": 1.3,
+      "change7d": 3.47,
+      "marketCap": 1255899513427,
+      "ath": 126173,
+      "fromAth": -50.38,
+      "note": "BTC above $62,600; weak US jobs report supporting rate cut narrative"
+    },
+    "ethereum": {
+      "price": 1769,
+      "change24h": 2.16,
+      "change7d": 11.09,
+      "marketCap": 213032850219,
+      "note": "ETH surging, +11% weekly"
+    }
   },
   "commodities": {
-    "date": "2026-07-03",
-    "gold": "$4,166 (+1.04%)，触及6月23日以来最高，周线涨2%(连续4周下跌后反弹)",
-    "gold_driver": "非农疲弱降低加息预期→美元创4月来最大周跌幅→支撑金价。央行5月净增41吨黄金储备",
-    "oil": "WTI $68.61 (-0.12%)，月跌26%，波斯湾供应回升至战前水平压制油价",
-    "coffee": "阿拉伯咖啡豆创历史新高——美/哥伦比亚关税争端影响"
+    "oil": "Prices tumbling — US-Iran peace deal unleashing supply, fears of global glut (per Bloomberg)"
   },
-  "geopolitics": {
-    "trump_nato": "Carlson与共和党分裂加深美右翼分歧——中国智库分析",
-    "us_china": "WSJ: DeepSeek引发中美AI竞争新格局。FT: Anthropic限制中国访问Claude",
-    "strait_of_hormuz": "Oman在霍尔木兹海峡收费问题上走钢丝，为市场创造'盲点'",
-    "military_ai": "中美被呼吁制定军事AI规则——'机器战争即将到来'"
+  "news": {
+    "top": [
+      {
+        "source": "MarketWatch",
+        "title": "Dow jumps ~600pts to record close; S&P 500 flat, Nasdaq down ahead of holiday weekend"
+      },
+      {
+        "source": "Bloomberg",
+        "title": "Oil's stunning reversal rekindles fears of a global glut — US-Iran deal triggers supply wave"
+      },
+      {
+        "source": "CNBC",
+        "title": "Trump marks US 250th anniversary with campaign-style rally on National Mall"
+      },
+      {
+        "source": "CNBC",
+        "title": "World Cup sends prediction market volumes soaring to record highs — Kalshi, Polymarket records"
+      },
+      {
+        "source": "CNBC",
+        "title": "First known congressional SpaceX stock buys surface after record IPO"
+      },
+      {
+        "source": "Bloomberg",
+        "title": "Insider trading cases end as DOJ dud with few prison sentences"
+      }
+    ]
   },
-  "tech_and_ai": {
-    "sk_hynix": "SK Hynix宣布$640亿存储芯片工厂投资计划——AI基础设施大扩张",
-    "microsoft_cable": "Microsoft与新加坡Lightstorm合作建设印度-东南亚海底光缆",
-    "ai_rotation": "资金从高估值AI/芯片股轮出，上半年超80%涨幅触发获利回吐",
-    "anthropic_claude": "Anthropic修复中国用户绕过限制访问Claude的漏洞",
-    "bnpl": "BNPL/金融科技股反弹——Guggenheim称'SaaSpocalypse'担忧过度",
-    "warren_buffett": "巴菲特打破20年传统——盖茨基金会捐款暂停(涉Epstein)"
-  },
-  "rss_news_highlights": [
-    {"source": "CNBC", "title": "特朗普接受CNBC独家专访，为其商业和子女辩护"},
-    {"source": "CNBC", "title": "极端热浪威胁美国电网和7月4日出行"},
-    {"source": "CNBC", "title": "福特达成质量里程碑，CEO瞄准零缺陷新车发布"},
-    {"source": "CNBC", "title": "全球股市走高，欧洲基准指数创52周新高"},
-    {"source": "WSJ", "title": "AI广泛抛售中股票下跌——DeepSeek冲击"},
-    {"source": "WSJ", "title": "Comex黄金/白银收低"},
-    {"source": "WSJ", "title": "DeepSeek不会击沉美国AI巨头"},
-    {"source": "WSJ", "title": "阿拉伯咖啡豆创历史新高——美/哥伦比亚关税争端"},
-    {"source": "Bloomberg", "title": "European Stocks Head for Best Week Since May"},
-    {"source": "Bloomberg", "title": "AI交易正在失去一个关键信号"},
-    {"source": "Bloomberg", "title": "油价波动，波斯湾供应回升至战前水平"},
-    {"source": "Bloomberg", "title": "黄金周线收涨——美联储加息预期降温"},
-    {"source": "FT", "title": "Anthropic修复中国用户访问Claude的漏洞"},
-    {"source": "FT", "title": "Jamie Dimon接班竞赛再添牺牲者"},
-    {"source": "FT", "title": "华尔街盈利预测飙升引发'盈利泡沫'担忧"},
-    {"source": "Yahoo", "title": "SK Hynix斥$640亿建存储芯片工厂"},
-    {"source": "Yahoo", "title": "巴菲特的盖茨基金会捐款因Epstein事件暂停"},
-    {"source": "Yahoo", "title": "Guggenheim称SaaSpocalypse担忧过度"},
-    {"source": "MarketWatch", "title": "Anthropic-Samsung交易令韩国股市剧烈波动"},
-    {"source": "SCMP", "title": "中美应加快制定军事AI规则"}
-  ],
-  "focus_today": [
-    "🔴 7/3独立日美股休市——跨周末风险注意下周一开盘",
-    "🟡 欧洲STOXX 600接近历史高位——周期性板块领涨，周线5月来最佳",
-    "🟢 港股+0.72%延续开门红——恒指23,222",
-    "🟢 BTC测试$62K，空头清算$4.5亿——加密市场整体+1.8%",
-    "🟢 黄金$4,166创6月23日以来新高，周线+2%——非农疲弱驱动",
-    "🔴 芯片/AI股回调持续——SK Hynix $640亿投资计划仍难提振板块",
-    "🟡 油价$68.61低位徘徊——波斯湾供应回升压制",
-    "🟢 非农数据+5.7万远逊预期——9月加息概率降至50%"
-  ]
+  "summary": "US equities closed mixed on July 2 ahead of Independence Day holiday: Dow hit another record (+600pts) while Nasdaq slipped on tech weakness. Weak June jobs data strengthened Fed rate cut expectations. BTC at $62,632 (+1.3% 24h, +3.5% weekly), ETH at $1,769 (+2.2% 24h, +11% weekly). Oil prices declining sharply amid US-Iran peace deal driving supply fears. Markets closed Friday July 3 for holiday; resume Monday July 6."
 }

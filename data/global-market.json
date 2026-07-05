@@ -1,71 +1,133 @@
 {
-  "updatedAt": "2026-07-04T21:30:00+08:00",
-  "date": "2026-07-04",
-  "note": "US markets closed July 3 (Independence Day holiday). Data reflects last close (July 2) and crypto current prices.",
-  "indices": {
-    "us": {
-      "dowJones": "Record close, +600pts (+1.1%) on July 2 — 20th record close of 2026",
-      "sp500": "Flat on July 2",
-      "nasdaq": "-0.8% on July 2 (tech weakness)",
-      "weekly": "All three indexes booked weekly gains",
-      "context": "June jobs report weaker than expected, boosting Fed rate cut expectations"
+  "meta": {
+    "updated": "2026-07-05 21:42",
+    "updated_utc": "2026-07-05T21:42:54Z",
+    "source": "RSS (CNBC, Yahoo, MarketWatch, FT, Bloomberg, WSJ, SCMP) + TradingEconomics + CoinGecko",
+    "note": "US markets closed for Independence Day holiday. Data from Jul 3 close."
+  },
+  "us_markets": {
+    "snp500": {
+      "price": 7483,
+      "change_pct": 0.0,
+      "note": "Jul 3 close (Thu); flat. Week +1.8%"
     },
-    "hk": {
-      "hangSeng": "Data not available — market closed (Saturday)"
+    "nasdaq100": {
+      "price": null,
+      "change_pct": -0.8,
+      "note": "Jul 3; tech weakness. Chipmakers fell"
     },
-    "china": {
-      "shanghai": "Data not available — market closed (Saturday)",
-      "shenzhen": "Data not available — market closed (Saturday)"
+    "dow": {
+      "price": null,
+      "change_pct": null,
+      "note": "Jul 3; +595pts to new record high +2% weekly"
+    },
+    "summary": "US stocks mixed Thu Jul 3. S&P 500 flat, Nasdaq fell 0.8% on AI valuation concerns. Dow +595pts record. July 4 holiday - markets closed Fri."
+  },
+  "china_markets": {
+    "shanghai": {
+      "price": 4044,
+      "change_pct": 0.37,
+      "note": "Jul 3 close; tech rebounded. Weekly +0.41%"
+    },
+    "shenzhen": {
+      "price": 15598,
+      "change_pct": 0.64,
+      "note": "Jul 3 close; weekly -1.17%, 2nd weekly loss"
+    },
+    "services_pmi": {
+      "value": 54.1,
+      "change": "54.4 prev",
+      "note": "June Caixin Services PMI, eased but above 53 expect"
     }
+  },
+  "hong_kong_market": {
+    "hsi": {
+      "price": 23350,
+      "change_pct": 1.28,
+      "note": "Jul 3 close; +295pts. Tech/financials led. Monthly -7.54%, YoY -2.37%"
+    },
+    "highlights": "UBTECH Robotics +17.6%, Akeso +8%, Xiaomi +1.6%, Horizon Robotics +9.1%"
   },
   "crypto": {
     "bitcoin": {
-      "price": 62632,
-      "change24h": 1.3,
-      "change7d": 3.47,
-      "marketCap": 1255899513427,
-      "ath": 126173,
-      "fromAth": -50.38,
-      "note": "BTC above $62,600; weak US jobs report supporting rate cut narrative"
+      "price_usd": 62672,
+      "change_24h_pct": 0.22
     },
     "ethereum": {
-      "price": 1769,
-      "change24h": 2.16,
-      "change7d": 11.09,
-      "marketCap": 213032850219,
-      "note": "ETH surging, +11% weekly"
+      "price_usd": 1762.54,
+      "change_24h_pct": -0.02
+    },
+    "solana": {
+      "price_usd": 80.89,
+      "change_24h_pct": -0.65
+    },
+    "ripple_xrp": {
+      "price_usd": 1.13,
+      "change_24h_pct": -1.68
+    },
+    "cardano": {
+      "price_usd": 0.188,
+      "change_24h_pct": 5.42
+    },
+    "dogecoin": {
+      "price_usd": 0.076,
+      "change_24h_pct": -0.73
     }
   },
   "commodities": {
-    "oil": "Prices tumbling — US-Iran peace deal unleashing supply, fears of global glut (per Bloomberg)"
+    "gold": {
+      "note": "Jul 3 settle -1.4% lower (from WSJ data)"
+    },
+    "silver": {
+      "note": "Jul 3 settle -2.5% lower"
+    },
+    "crude_oil": {
+      "note": "Iran war triggers retail rush. CME launching 10-barrel contract (FT)"
+    }
   },
-  "news": {
-    "top": [
-      {
-        "source": "MarketWatch",
-        "title": "Dow jumps ~600pts to record close; S&P 500 flat, Nasdaq down ahead of holiday weekend"
-      },
-      {
-        "source": "Bloomberg",
-        "title": "Oil's stunning reversal rekindles fears of a global glut — US-Iran deal triggers supply wave"
-      },
-      {
-        "source": "CNBC",
-        "title": "Trump marks US 250th anniversary with campaign-style rally on National Mall"
-      },
-      {
-        "source": "CNBC",
-        "title": "World Cup sends prediction market volumes soaring to record highs — Kalshi, Polymarket records"
-      },
-      {
-        "source": "CNBC",
-        "title": "First known congressional SpaceX stock buys surface after record IPO"
-      },
-      {
-        "source": "Bloomberg",
-        "title": "Insider trading cases end as DOJ dud with few prison sentences"
-      }
-    ]
-  },
-  "summary": "US equities closed mixed on July 2 ahead of Independence Day holiday: Dow hit another record (+600pts) while Nasdaq slipped on tech weakness. Weak June jobs data strengthened Fed rate cut expectations. BTC at $62,632 (+1.3% 24h, +3.5% weekly), ETH at $1,769 (+2.2% 24h, +11% weekly). Oil prices declining sharply amid US-Iran peace deal driving supply fears. Markets closed Friday July 3 for holiday; resume Monday July 6."
+  "news_headlines": [
+    {
+      "source": "FT",
+      "title": "Oil market opens up as retail traders pour in — CME launches 10-barrel contract after Iran war triggers rush"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "SK Hynix seeks access to AI investors in $29 billion US listing"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Oil & gas tankers cross Hormuz via Oman-side route after U-turns"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Why the stock market's red-hot momentum trade might be headed for a violent unwind this month"
+    },
+    {
+      "source": "FT",
+      "title": "Good vibes are masking a reset in markets — new AI trade taking hold"
+    },
+    {
+      "source": "CNBC",
+      "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform"
+    },
+    {
+      "source": "FT",
+      "title": "As the tech bubble deflates, turn to old-fashioned valuation rules"
+    },
+    {
+      "source": "SCMP",
+      "title": "'China shock 3.0' is coming — and it'll be AI-powered robots"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Hybrids are the breakout star of the US car market as EV demand fades"
+    }
+  ],
+  "geopolitical": {
+    "strait_of_hormuz": "Oil tankers using Oman-side route after U-turns. US-protected corridor showing recovery signs.",
+    "iran_oil": "Iran war triggers retail oil trading rush. CME Group to launch 10-barrel contract.",
+    "europe_fires": "Wildfires ravage France, Spain, Portugal forests as Europe's temperatures rise again.",
+    "ebola_congo": "Ebola treatment trial begins in DRC as citizens mourn hundreds.",
+    "world_cup": "World Cup attendance sets record. USMNT in Round of 16 vs Belgium. France led by Mbappé tournament favorite."
+  }
 }

@@ -1,142 +1,167 @@
 {
-  "updatedAt": "2026-07-03 17:00",
-  "lastDataDate": "2026-07-03",
+  "timestamp": "2026-07-06T15:16:37.273097",
+  "date": "2026-07-06",
   "crypto": {
     "BTC/USDT": {
-      "price": 61717.0,
-      "change_24h_pct": 0.46,
-      "indicators_1h": {
-        "rsi": 55.0,
-        "macd_status": "金叉",
-        "trend": "偏多"
-      },
-      "indicators_4h": {
-        "rsi": 50.2,
-        "macd_status": "金叉",
-        "trend": "中性"
-      }
+      "price": 62984.8,
+      "change_24h": 35.53,
+      "high_24h": 63999.8,
+      "low_24h": 62444.4,
+      "trend_1h": "偏多",
+      "trend_4h": "偏多",
+      "rsi_1h": 57.9,
+      "rsi_4h": 55.2,
+      "macd_status_1h": "死叉",
+      "macd_status_4h": "死叉"
     },
     "ETH/USDT": {
-      "price": 1700.0,
-      "change_24h_pct": 6.11,
-      "indicators_1h": {
-        "rsi": 56.0,
-        "macd_status": "金叉",
-        "trend": "偏多"
-      },
-      "indicators_4h": {
-        "rsi": 51.5,
-        "macd_status": "金叉",
-        "trend": "中性"
-      }
+      "price": 1770.97,
+      "change_24h": 45.21,
+      "high_24h": 1808.18,
+      "low_24h": 1748.11,
+      "trend_1h": "偏空",
+      "trend_4h": "偏多",
+      "rsi_1h": 42.5,
+      "rsi_4h": 54.8,
+      "macd_status_1h": "死叉",
+      "macd_status_4h": "死叉"
     }
   },
-  "stocks": {
-    "status": "success",
-    "data": {
-      "上证指数": {
-        "price": 4043.64,
-        "change": 0.37,
-        "volume": 60200973800
+  "signals": {
+    "DoubleMa": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 62982.4
       },
-      "深证成指": {
-        "price": 15812.871,
-        "change": 0.194
+      "4h": {
+        "signal": "观望",
+        "current_price": 62982.4
+      }
+    },
+    "RSI": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 62982.4
       },
-      "创业板指": {
-        "price": 4216.699,
-        "change": 0.536
+      "4h": {
+        "signal": "做空",
+        "current_price": 62982.4
+      }
+    },
+    "MACD": {
+      "1h": {
+        "signal": "做空",
+        "current_price": 62982.4
       },
-      "沪金主力": {
-        "price": 883.3,
-        "change": 1.3,
-        "date": "2026-06-26"
+      "4h": {
+        "signal": "做空",
+        "current_price": 62982.4
+      }
+    },
+    "Bollinger": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 62982.4
       },
-      "沪银主力": {
-        "price": 14212.0,
-        "change": 2.9,
-        "date": "2026-06-26"
+      "4h": {
+        "signal": "观望",
+        "current_price": 62982.4
+      }
+    },
+    "Supertrend": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 62982.4
       },
-      "沪铜主力": {
-        "price": 101560.0,
-        "change": 0.34,
-        "date": "2026-06-26"
+      "4h": {
+        "signal": "观望",
+        "current_price": 62982.4
+      }
+    },
+    "TripleMa": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 62982.4
       },
-      "螺纹钢主力": {
-        "price": 3093.0,
-        "change": -0.16,
-        "date": "2026-06-26"
+      "4h": {
+        "signal": "观望",
+        "current_price": 62982.4
+      }
+    },
+    "Momentum": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 62982.4
       },
-      "沪深300期货": {
-        "price": 4748.2,
-        "change": -3.24,
-        "date": "2026-06-26"
+      "4h": {
+        "signal": "观望",
+        "current_price": 62982.4
+      }
+    },
+    "MeanReversion": {
+      "1h": {
+        "signal": "观望",
+        "current_price": 62982.4
       },
-      "中证500期货": {
-        "price": 8447.0,
-        "change": -2.9,
-        "date": "2026-06-26"
-      },
-      "50ETF波动率": {
-        "value": 21.65,
-        "date": "2026-06-26"
+      "4h": {
+        "signal": "观望",
+        "current_price": 62982.4
       }
     }
   },
   "sentiment": {
-    "status": "success",
-    "data": {
-      "crypto_fear_greed": {
-        "value": 12,
-        "classification": "Extreme Fear",
-        "timestamp": "1782691200"
-      }
+    "crypto_fear_greed": {
+      "value": 24,
+      "classification": "Extreme Fear"
     }
   },
-  "strategies": {
-    "DoubleMa": {
-      "signal": "neutral",
-      "status": "no_update"
+  "stocks": {
+    "上证指数": {
+      "price": 4041.2382,
+      "change": -0.059,
+      "volume": 590364903.0
     },
-    "TripleMa": {
-      "signal": "neutral",
-      "status": "no_update"
+    "深证成指": {
+      "price": 15416.804,
+      "change": -1.159
     },
-    "Supertrend": {
-      "signal": "neutral",
-      "status": "no_update"
+    "创业板指": {
+      "price": 3948.86,
+      "change": -1.768
     },
-    "RSI": {
-      "signal": "neutral",
-      "status": "no_update"
+    "沪金主力": {
+      "price": 911.4,
+      "change": 2.33,
+      "date": "2026-07-03"
     },
-    "MACD": {
-      "signal": "neutral",
-      "status": "no_update"
+    "沪银主力": {
+      "price": 15256.0,
+      "change": 4.14,
+      "date": "2026-07-03"
     },
-    "Bollinger": {
-      "signal": "neutral",
-      "status": "no_update"
+    "沪铜主力": {
+      "price": 102980.0,
+      "change": 1.01,
+      "date": "2026-07-03"
     },
-    "Momentum": {
-      "signal": "neutral",
-      "status": "no_update"
+    "螺纹钢主力": {
+      "price": 3062.0,
+      "change": -0.16,
+      "date": "2026-07-03"
     },
-    "MeanReversion": {
-      "signal": "neutral",
-      "status": "no_update"
-    }
-  },
-  "note": "周报更新 2026-07-03: 上证收盘4043.64(+0.37%), BTC $61,717, ETH $1,700",
-  "weekly": {
-    "period": "2026-06-29 ~ 2026-07-03",
-    "summary": {
-      "上证指数": "周初4073→周五4043，全周震荡微跌约0.7%，量能收缩",
-      "BTC/USDT": "从$60,087反弹至$61,717，周涨幅约2.7%",
-      "ETH/USDT": "从$1,580上涨至$1,700，周涨幅约7.6%"
+    "沪深300期货": {
+      "price": 4752.2,
+      "change": 0.7,
+      "date": "2026-07-03"
     },
-    "strategies": {
-      "status": "本周数据采集间隔较长，策略信号多为中性/无更新"
+    "中证500期货": {
+      "price": 8538.0,
+      "change": 0.59,
+      "date": "2026-07-03"
+    },
+    "50ETF波动率": {
+      "value": 21.65,
+      "date": "2026-06-26"
     }
   }
 }

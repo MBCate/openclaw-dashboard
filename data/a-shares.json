@@ -1,105 +1,58 @@
 {
-  "updateTime": "2026-07-06 11:48",
-  "indices": {
-    "SH000001": {
-      "name": "上证指数",
-      "price": 4046.71,
-      "change": 3.07,
-      "change_pct": 0.08,
-      "high": 4060.07,
-      "low": 4005.41,
-      "open": 4059.19,
-      "prev_close": 4043.64
-    },
-    "SZ399001": {
-      "name": "深证成指",
-      "price": 15541.62,
-      "change": -55.89,
-      "change_pct": -0.36,
-      "high": 15749.36,
-      "low": 15288.49,
-      "open": 15677.93,
-      "prev_close": 15597.51
-    },
-    "SZ399006": {
-      "name": "创业板指",
-      "price": 3999.28,
-      "change": -20.65,
-      "change_pct": -0.51,
-      "high": 4063.63,
-      "low": 3903.48,
-      "open": 4050.88,
-      "prev_close": 4019.93
-    },
-    "SZ399300": {
-      "name": "沪深300",
-      "price": 4856.07,
-      "change": 13.9,
-      "change_pct": 0.29,
-      "high": 4878.32,
-      "low": 4789.8,
-      "open": 4868.54,
-      "prev_close": 4842.17
-    },
-    "SH000688": {
-      "name": "科创50",
-      "price": 2014.38,
-      "change": 38.78,
-      "change_pct": 1.96,
-      "high": 2017.13,
-      "low": 1913.82,
-      "open": 2015.18,
-      "prev_close": 1975.6
-    }
+  "timestamp": "2026-07-06 15:05",
+  "date": "2026-07-06",
+  "indices": [],
+  "north_flow": {
+    "date": "2026-07-06",
+    "沪股通净买额": 0.0,
+    "深股通净买额": 0.0,
+    "合计净买入": 0.0
   },
-  "sectors": {
-    "top_gainers": [
+  "boards": {
+    "top5": [
       {
-        "name": "生物制品",
-        "change": 1.65
+        "name": "氨纶",
+        "change_pct": 6.41
       },
       {
-        "name": "化学制药",
-        "change": 1.45
+        "name": "燃料电池",
+        "change_pct": 6.34
       },
       {
-        "name": "能源金属",
-        "change": 1.37
+        "name": "生猪养殖",
+        "change_pct": 4.64
       },
       {
-        "name": "医疗服务",
-        "change": 1.2
+        "name": "动力煤",
+        "change_pct": 3.88
       },
       {
-        "name": "银行Ⅱ",
-        "change": 1.1
+        "name": "煤炭开采",
+        "change_pct": 3.52
       }
     ],
-    "top_losers": [
+    "bottom5": [
+      {
+        "name": "氟化工",
+        "change_pct": -5.8
+      },
+      {
+        "name": "图片媒体",
+        "change_pct": -5.91
+      },
       {
         "name": "玻璃玻纤",
-        "change": -4.69
+        "change_pct": -6.18
       },
       {
-        "name": "小金属",
-        "change": -3.16
+        "name": "玻纤制造",
+        "change_pct": -8.13
       },
       {
-        "name": "电机Ⅱ",
-        "change": -2.81
-      },
-      {
-        "name": "元件",
-        "change": -2.57
-      },
-      {
-        "name": "光学光电子",
-        "change": -2.32
+        "name": "钨",
+        "change_pct": -8.27
       }
     ]
   },
-  "northBound": {
-    "status": "午间休市暂无数据",
-    "note": "北向资金午盘期间不更新"
-  }
+  "hsi": null
 }

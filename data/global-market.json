@@ -1,134 +1,130 @@
 {
   "meta": {
-    "updated": "2026-07-06 09:15",
-    "updated_utc": "2026-07-06T01:15:00Z",
-    "source": "RSS (MarketWatch, CNBC, BBC) + AkShare + CoinGecko + TradingEconomics",
-    "note": "Pre-open Monday. A-shares open at 09:30 CST."
+    "updated": "2026-07-06 21:30",
+    "updated_utc": "2026-07-06T13:30:00Z",
+    "source": "RSS (CNBC, MarketWatch, BBC) + CoinGecko + Investing.com",
+    "note": "Monday evening. US pre-open futures. A-shares closed +0.37%. EU session active."
   },
   "us_markets": {
-    "snp500_futures": {
-      "price": null,
-      "change_pct": -0.25,
-      "note": "ESU26 Sep futures -0.25%. Wall St looking to extend rally after holiday weekend"
+    "snP500_futures": {
+      "price": 7548,
+      "change_pct": 0.30,
+      "note": "ES=F +0.3%. Tech-led rebound after holiday weekend. Fed minutes and ISM Services PMI awaited this week"
     },
     "nasdaq_futures": {
-      "price": null,
-      "change_pct": -1.82,
-      "note": "NQU26 Sep futures -1.82% overnight. Tech weakness persists on AI valuation concerns"
+      "price": 29790,
+      "change_pct": 0.80,
+      "note": "NQ=F +237pts (+0.8%). Tech stocks surging as investors return from July 4 holiday. Chip stocks leading recovery"
     },
-    "dow": {
-      "price": null,
-      "change_pct": null,
-      "note": "Jul 3: +595pts to new all-time high. +2% weekly"
+    "dow_futures": {
+      "price": 53198,
+      "change_pct": 0.00,
+      "note": "YM=F ~flat at 53,198. DJIA last record close 52,900. Rotation into value/financials continuing"
     },
-    "summary": "US equity futures mixed heading into Monday. NQ sharply lower (-1.82%) extending tech selloff. ES modestly lower (-0.25%). Dow at record high on rotation into value. NHTSA data shows hybrids surging as EV demand fades."
+    "summary": "US futures broadly higher Monday pre-open. Nasdaq 100 leading +0.8%, S&P 500 +0.3%, Dow flat after record high. Last week: Dow +2%, S&P 500 +2.33%, Nasdaq +2.1%. Healthcare/financials/industrials led. Markets eyeing June Fed minutes and ISM Services PMI. DXY near 101. Chip stocks rebounding from recent pullback."
   },
   "china_markets": {
     "shanghai": {
-      "price": 4044,
+      "price": 4041,
       "change_pct": 0.37,
-      "note": "Jul 3 close. Pre-open awaiting 09:30 open. A50 futures trading subdued"
+      "note": "Jul 6 close. SSEC +0.37%. Market steady, awaiting further policy signals"
     },
     "shenzhen": {
-      "price": 15598,
-      "change_pct": 0.64,
-      "note": "Jul 3 close"
+      "price": null,
+      "change_pct": null,
+      "note": "Shenzhen component closed higher tracking Shanghai"
     },
-    "highlights": "H1 2026 saw 20.16M new A-share accounts opened (+60% YoY). June strongest month. Semiconductor companies accelerating IPOs to fuel chip self-reliance push. Foreign holdings of A-shares at record high."
+    "highlights": "A-shares modestly higher. Semiconductor IPO pipeline remains active. Foreign holdings near record highs."
   },
   "hong_kong_market": {
     "hsi": {
-      "price": 23350,
-      "change_pct": 1.28,
-      "note": "Jul 3 close. +295pts led by tech/financials"
+      "price": null,
+      "change_pct": null,
+      "note": "HSI data pending evening close update"
     },
-    "highlights": "UBTECH +17.6%, Horizon Robotics +9.1%, Akeso +8%, Xiaomi +1.6%"
+    "highlights": ""
   },
   "crypto": {
-    "bitcoin": {"price_usd": 63611, "change_24h_pct": 1.14},
-    "ethereum": {"price_usd": 1786.53, "change_24h_pct": 1.10},
-    "solana": {"price_usd": 81.81, "change_24h_pct": 1.23},
-    "ripple_xrp": {"price_usd": 1.16, "change_24h_pct": 0.92},
-    "cardano": {"price_usd": 0.190, "change_24h_pct": -1.11},
-    "dogecoin": {"price_usd": 0.078, "change_24h_pct": 1.33},
-    "summary": "Crypto broadly higher overnight +1-1.3%. BTC back above $63.6K. ETH $1,786. World Cup driving prediction market volumes to record highs."
+    "bitcoin": {"price_usd": 61487, "change_24h_pct": -1.85},
+    "ethereum": {"price_usd": 1737.08, "change_24h_pct": -1.42},
+    "solana": {"price_usd": 79.43, "change_24h_pct": -1.61},
+    "ripple_xrp": {"price_usd": 1.11, "change_24h_pct": -1.80},
+    "cardano": {"price_usd": 0.179, "change_24h_pct": -4.72},
+    "dogecoin": {"price_usd": 0.075, "change_24h_pct": -2.44},
+    "summary": "Crypto broadly lower -1.5% to -4.7% on the day. BTC $61,487 (-1.85%), ETH $1,737 (-1.42%). ADA weakest -4.7%. BTC down 43% YoY."
   },
   "commodities": {
     "crude_oil_wti": {
-      "price": 68.65,
-      "change_pct": -0.16,
-      "note": "Jul 6. Oil down 24.8% over past month as Hormuz geopolitical premium unwinds. OPEC+ raising output again despite tumbling prices. Brent ~$70.82 (Jul 2). Tanker traffic through Hormuz shows tentative recovery"
+      "price": 68.72,
+      "change_pct": 0.04,
+      "note": "WTI $68.72, near flat. Hormuz shipping normalizing, OPEC+ raising output. Oil still down ~25% from pre-Iran levels"
     },
     "gold": {
-      "price": 4193.5,
-      "change_pct": 0.16,
-      "note": "Futures $4,193.5. Slight uptick. Silver $63.05"
+      "price": 4159.54,
+      "change_pct": 0.81,
+      "note": "Gold $4,159.54 (+0.81%). Safe-haven demand steady amid Fed uncertainty and geopolitical crosscurrents"
     },
-    "silver": {
-      "price": 63.05,
-      "change_pct": 0.38,
-      "note": "Futures $63.05. Modest recovery"
-    },
-    "summary": "Oil continues slide as Hormuz shipping normalizes. WTI $68.65, 4th straight weekly decline. CME launching 10-barrel retail oil contract after Iran war triggered retail rush. Gold steady ~$4,193. Commodity deflation theme."
+    "summary": "Oil stabilizing around $68.7 after sharp multi-week decline from Hormuz premium unwind. Gold edging higher +0.81% to $4,159 on dollar weakness (DXY ~101) and safe-haven flows."
   },
   "news_headlines": [
     {
-      "source": "MarketWatch",
-      "title": "US stock futures rise as Wall Street looks to extend rally coming off holiday weekend"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "OPEC+ raises output levels again despite tumbling crude prices"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Why the stock market's red-hot momentum trade might be headed for a violent unwind this month"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Hybrids are breakout star of US car market as EV demand fades"
+      "source": "CNBC",
+      "title": "S&P 500 and Nasdaq futures rise after a strong week on Wall Street, led by chip stocks: Live updates"
     },
     {
       "source": "CNBC",
-      "title": "Trump Accounts for kids launched July 4 — what parents need to know"
+      "title": "Trump rings opening bell at White House with raft of CEOs in first-of-its-kind market open"
     },
     {
       "source": "CNBC",
-      "title": "Cargo vessel in Red Sea reports coming under attack, UK maritime body says"
+      "title": "Lockheed Martin to buy naval defense firm Ultra Maritime for $3.45 billion"
+    },
+    {
+      "source": "CNBC",
+      "title": "Versant agrees to buy golf simulator company Full Swing for $530 million"
+    },
+    {
+      "source": "CNBC",
+      "title": "Belgium set to appeal as FIFA reverses Balogun's World Cup suspension after Trump reportedly intervenes"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Global stocks may be headed for a summer swoon. Why AI won't be the only story that matters, JPMorgan says"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "AI hyperscalers are poised for a big comeback rally as chip gains cool, says Morgan Stanley"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "As oil exits the 'danger zone,' here's what history suggests happens next for stocks"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Your investing expectations are more than double the reality. Here is the tough truth."
     },
     {
       "source": "BBC",
-      "title": "EasyJet reaches agreement in principle over potential takeover"
+      "title": "EasyJet agrees 'in principle' to £5.2bn takeover deal"
     },
     {
       "source": "BBC",
-      "title": "What Sky buying ITV could mean for your favourite shows"
+      "title": "ITV hits such as I'm a Celebrity to stay free to watch after Sky takeover"
     },
     {
-      "source": "Indrastra",
-      "title": "Oil prices retreat as Hormuz reopens but supply risks persist"
+      "source": "BBC",
+      "title": "Wegovy weight loss pill now available in UK - here's what you need to know"
     },
     {
-      "source": "TradingPedia",
-      "title": "Crude oil extends slide as Hormuz flows normalize — 4th straight weekly decline"
-    },
-    {
-      "source": "FT (previous)",
-      "title": "Good vibes are masking a reset in markets — new AI trade taking hold"
-    },
-    {
-      "source": "SCMP",
-      "title": "China shock 3.0 coming — AI-powered robots"
-    },
-    {
-      "source": "FreshFromChina",
-      "title": "20+ million new investors flood China's A-share market in H1 2026 — 60% YoY surge"
+      "source": "BBC",
+      "title": "Backlash after China bubble tea firm ordered to pay Louis Vuitton $1.5m"
     }
   ],
   "geopolitical": {
-    "strait_of_hormuz": "Tanker traffic showing tentative recovery. US-protected corridor operational. Oil prices down 24.8% in past month as geopolitical premium unwinds.",
-    "opec_plus": "OPEC+ raising output levels again despite tumbling crude prices — adding downward pressure.",
-    "red_sea": "Cargo vessel in Red Sea reports coming under attack, UK maritime body says. Shipping risks persist.",
-    "world_cup": "Attendance records set. USMNT in Round of 16 vs Belgium. France led by Mbappé tournament favorite. Prediction market volumes at record highs."
+    "strait_of_hormuz": "Shipping normalization continues. Oil exit 'danger zone' as geopolitical premium unwinds. US-Iran Doha dialogue ongoing.",
+    "opec_plus": "OPEC+ raising output levels despite tumbling prices — full impact of supply increase still feeding through.",
+    "red_sea": "Cargo vessel reports coming under attack again, UK maritime body says. Residual risk remains despite Hormuz improvement.",
+    "world_cup_2026": "USMNT in Round of 16 vs Belgium. France led by Mbappé tournament favorite. Balogun suspension reversed after Trump intervention — Belgium to appeal.",
+    "m_and_a": "EasyJet £5.2bn takeover agreed in principle. Lockheed Martin buys Ultra Maritime for $3.45B. Sky/ITV deal progressing."
   }
 }

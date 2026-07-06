@@ -1,55 +1,105 @@
 {
-  "updateTime": "2026-07-03 15:22",
+  "updateTime": "2026-07-06 11:48",
   "indices": {
     "SH000001": {
       "name": "上证指数",
-      "price": 4043.64,
-      "change": 14.74,
-      "change_pct": 0.37,
-      "high": 4073.88,
-      "low": 4027.26
+      "price": 4046.71,
+      "change": 3.07,
+      "change_pct": 0.08,
+      "high": 4060.07,
+      "low": 4005.41,
+      "open": 4059.19,
+      "prev_close": 4043.64
     },
     "SZ399001": {
       "name": "深证成指",
-      "price": 15597.51,
-      "change": 98.7,
-      "change_pct": 0.64,
-      "high": 15823.05,
-      "low": 15432.89
+      "price": 15541.62,
+      "change": -55.89,
+      "change_pct": -0.36,
+      "high": 15749.36,
+      "low": 15288.49,
+      "open": 15677.93,
+      "prev_close": 15597.51
     },
     "SZ399006": {
       "name": "创业板指",
-      "price": 4019.93,
-      "change": 2.66,
-      "change_pct": 0.07,
-      "high": 4115.63,
-      "low": 3985.36
+      "price": 3999.28,
+      "change": -20.65,
+      "change_pct": -0.51,
+      "high": 4063.63,
+      "low": 3903.48,
+      "open": 4050.88,
+      "prev_close": 4019.93
     },
     "SZ399300": {
       "name": "沪深300",
-      "price": 4842.17,
-      "change": 29.87,
-      "change_pct": 0.62,
-      "high": 4890.97,
-      "low": 4809.5
+      "price": 4856.07,
+      "change": 13.9,
+      "change_pct": 0.29,
+      "high": 4878.32,
+      "low": 4789.8,
+      "open": 4868.54,
+      "prev_close": 4842.17
+    },
+    "SH000688": {
+      "name": "科创50",
+      "price": 2014.38,
+      "change": 38.78,
+      "change_pct": 1.96,
+      "high": 2017.13,
+      "low": 1913.82,
+      "open": 2015.18,
+      "prev_close": 1975.6
     }
   },
   "sectors": {
     "top_gainers": [
       {
-        "name": "数据获取受限",
-        "change": ""
+        "name": "生物制品",
+        "change": 1.65
+      },
+      {
+        "name": "化学制药",
+        "change": 1.45
+      },
+      {
+        "name": "能源金属",
+        "change": 1.37
+      },
+      {
+        "name": "医疗服务",
+        "change": 1.2
+      },
+      {
+        "name": "银行Ⅱ",
+        "change": 1.1
       }
     ],
     "top_losers": [
       {
-        "name": "数据获取受限",
-        "change": ""
+        "name": "玻璃玻纤",
+        "change": -4.69
+      },
+      {
+        "name": "小金属",
+        "change": -3.16
+      },
+      {
+        "name": "电机Ⅱ",
+        "change": -2.81
+      },
+      {
+        "name": "元件",
+        "change": -2.57
+      },
+      {
+        "name": "光学光电子",
+        "change": -2.32
       }
     ]
   },
   "northBound": {
-    "status": "unavailable",
-    "note": "接口暂不可达"
+    "status": "午间休市暂无数据",
+    "note": "北向资金午盘期间不更新"
   }
 }

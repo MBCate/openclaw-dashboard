@@ -1,133 +1,134 @@
 {
   "meta": {
-    "updated": "2026-07-05 21:42",
-    "updated_utc": "2026-07-05T21:42:54Z",
-    "source": "RSS (CNBC, Yahoo, MarketWatch, FT, Bloomberg, WSJ, SCMP) + TradingEconomics + CoinGecko",
-    "note": "US markets closed for Independence Day holiday. Data from Jul 3 close."
+    "updated": "2026-07-06 09:15",
+    "updated_utc": "2026-07-06T01:15:00Z",
+    "source": "RSS (MarketWatch, CNBC, BBC) + AkShare + CoinGecko + TradingEconomics",
+    "note": "Pre-open Monday. A-shares open at 09:30 CST."
   },
   "us_markets": {
-    "snp500": {
-      "price": 7483,
-      "change_pct": 0.0,
-      "note": "Jul 3 close (Thu); flat. Week +1.8%"
-    },
-    "nasdaq100": {
+    "snp500_futures": {
       "price": null,
-      "change_pct": -0.8,
-      "note": "Jul 3; tech weakness. Chipmakers fell"
+      "change_pct": -0.25,
+      "note": "ESU26 Sep futures -0.25%. Wall St looking to extend rally after holiday weekend"
+    },
+    "nasdaq_futures": {
+      "price": null,
+      "change_pct": -1.82,
+      "note": "NQU26 Sep futures -1.82% overnight. Tech weakness persists on AI valuation concerns"
     },
     "dow": {
       "price": null,
       "change_pct": null,
-      "note": "Jul 3; +595pts to new record high +2% weekly"
+      "note": "Jul 3: +595pts to new all-time high. +2% weekly"
     },
-    "summary": "US stocks mixed Thu Jul 3. S&P 500 flat, Nasdaq fell 0.8% on AI valuation concerns. Dow +595pts record. July 4 holiday - markets closed Fri."
+    "summary": "US equity futures mixed heading into Monday. NQ sharply lower (-1.82%) extending tech selloff. ES modestly lower (-0.25%). Dow at record high on rotation into value. NHTSA data shows hybrids surging as EV demand fades."
   },
   "china_markets": {
     "shanghai": {
       "price": 4044,
       "change_pct": 0.37,
-      "note": "Jul 3 close; tech rebounded. Weekly +0.41%"
+      "note": "Jul 3 close. Pre-open awaiting 09:30 open. A50 futures trading subdued"
     },
     "shenzhen": {
       "price": 15598,
       "change_pct": 0.64,
-      "note": "Jul 3 close; weekly -1.17%, 2nd weekly loss"
+      "note": "Jul 3 close"
     },
-    "services_pmi": {
-      "value": 54.1,
-      "change": "54.4 prev",
-      "note": "June Caixin Services PMI, eased but above 53 expect"
-    }
+    "highlights": "H1 2026 saw 20.16M new A-share accounts opened (+60% YoY). June strongest month. Semiconductor companies accelerating IPOs to fuel chip self-reliance push. Foreign holdings of A-shares at record high."
   },
   "hong_kong_market": {
     "hsi": {
       "price": 23350,
       "change_pct": 1.28,
-      "note": "Jul 3 close; +295pts. Tech/financials led. Monthly -7.54%, YoY -2.37%"
+      "note": "Jul 3 close. +295pts led by tech/financials"
     },
-    "highlights": "UBTECH Robotics +17.6%, Akeso +8%, Xiaomi +1.6%, Horizon Robotics +9.1%"
+    "highlights": "UBTECH +17.6%, Horizon Robotics +9.1%, Akeso +8%, Xiaomi +1.6%"
   },
   "crypto": {
-    "bitcoin": {
-      "price_usd": 62672,
-      "change_24h_pct": 0.22
-    },
-    "ethereum": {
-      "price_usd": 1762.54,
-      "change_24h_pct": -0.02
-    },
-    "solana": {
-      "price_usd": 80.89,
-      "change_24h_pct": -0.65
-    },
-    "ripple_xrp": {
-      "price_usd": 1.13,
-      "change_24h_pct": -1.68
-    },
-    "cardano": {
-      "price_usd": 0.188,
-      "change_24h_pct": 5.42
-    },
-    "dogecoin": {
-      "price_usd": 0.076,
-      "change_24h_pct": -0.73
-    }
+    "bitcoin": {"price_usd": 63611, "change_24h_pct": 1.14},
+    "ethereum": {"price_usd": 1786.53, "change_24h_pct": 1.10},
+    "solana": {"price_usd": 81.81, "change_24h_pct": 1.23},
+    "ripple_xrp": {"price_usd": 1.16, "change_24h_pct": 0.92},
+    "cardano": {"price_usd": 0.190, "change_24h_pct": -1.11},
+    "dogecoin": {"price_usd": 0.078, "change_24h_pct": 1.33},
+    "summary": "Crypto broadly higher overnight +1-1.3%. BTC back above $63.6K. ETH $1,786. World Cup driving prediction market volumes to record highs."
   },
   "commodities": {
+    "crude_oil_wti": {
+      "price": 68.65,
+      "change_pct": -0.16,
+      "note": "Jul 6. Oil down 24.8% over past month as Hormuz geopolitical premium unwinds. OPEC+ raising output again despite tumbling prices. Brent ~$70.82 (Jul 2). Tanker traffic through Hormuz shows tentative recovery"
+    },
     "gold": {
-      "note": "Jul 3 settle -1.4% lower (from WSJ data)"
+      "price": 4193.5,
+      "change_pct": 0.16,
+      "note": "Futures $4,193.5. Slight uptick. Silver $63.05"
     },
     "silver": {
-      "note": "Jul 3 settle -2.5% lower"
+      "price": 63.05,
+      "change_pct": 0.38,
+      "note": "Futures $63.05. Modest recovery"
     },
-    "crude_oil": {
-      "note": "Iran war triggers retail rush. CME launching 10-barrel contract (FT)"
-    }
+    "summary": "Oil continues slide as Hormuz shipping normalizes. WTI $68.65, 4th straight weekly decline. CME launching 10-barrel retail oil contract after Iran war triggered retail rush. Gold steady ~$4,193. Commodity deflation theme."
   },
   "news_headlines": [
     {
-      "source": "FT",
-      "title": "Oil market opens up as retail traders pour in — CME launches 10-barrel contract after Iran war triggers rush"
+      "source": "MarketWatch",
+      "title": "US stock futures rise as Wall Street looks to extend rally coming off holiday weekend"
     },
     {
-      "source": "Bloomberg",
-      "title": "SK Hynix seeks access to AI investors in $29 billion US listing"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Oil & gas tankers cross Hormuz via Oman-side route after U-turns"
+      "source": "MarketWatch",
+      "title": "OPEC+ raises output levels again despite tumbling crude prices"
     },
     {
       "source": "MarketWatch",
       "title": "Why the stock market's red-hot momentum trade might be headed for a violent unwind this month"
     },
     {
-      "source": "FT",
-      "title": "Good vibes are masking a reset in markets — new AI trade taking hold"
+      "source": "MarketWatch",
+      "title": "Hybrids are breakout star of US car market as EV demand fades"
     },
     {
       "source": "CNBC",
-      "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform"
+      "title": "Trump Accounts for kids launched July 4 — what parents need to know"
     },
     {
-      "source": "FT",
-      "title": "As the tech bubble deflates, turn to old-fashioned valuation rules"
+      "source": "CNBC",
+      "title": "Cargo vessel in Red Sea reports coming under attack, UK maritime body says"
+    },
+    {
+      "source": "BBC",
+      "title": "EasyJet reaches agreement in principle over potential takeover"
+    },
+    {
+      "source": "BBC",
+      "title": "What Sky buying ITV could mean for your favourite shows"
+    },
+    {
+      "source": "Indrastra",
+      "title": "Oil prices retreat as Hormuz reopens but supply risks persist"
+    },
+    {
+      "source": "TradingPedia",
+      "title": "Crude oil extends slide as Hormuz flows normalize — 4th straight weekly decline"
+    },
+    {
+      "source": "FT (previous)",
+      "title": "Good vibes are masking a reset in markets — new AI trade taking hold"
     },
     {
       "source": "SCMP",
-      "title": "'China shock 3.0' is coming — and it'll be AI-powered robots"
+      "title": "China shock 3.0 coming — AI-powered robots"
     },
     {
-      "source": "MarketWatch",
-      "title": "Hybrids are the breakout star of the US car market as EV demand fades"
+      "source": "FreshFromChina",
+      "title": "20+ million new investors flood China's A-share market in H1 2026 — 60% YoY surge"
     }
   ],
   "geopolitical": {
-    "strait_of_hormuz": "Oil tankers using Oman-side route after U-turns. US-protected corridor showing recovery signs.",
-    "iran_oil": "Iran war triggers retail oil trading rush. CME Group to launch 10-barrel contract.",
-    "europe_fires": "Wildfires ravage France, Spain, Portugal forests as Europe's temperatures rise again.",
-    "ebola_congo": "Ebola treatment trial begins in DRC as citizens mourn hundreds.",
-    "world_cup": "World Cup attendance sets record. USMNT in Round of 16 vs Belgium. France led by Mbappé tournament favorite."
+    "strait_of_hormuz": "Tanker traffic showing tentative recovery. US-protected corridor operational. Oil prices down 24.8% in past month as geopolitical premium unwinds.",
+    "opec_plus": "OPEC+ raising output levels again despite tumbling crude prices — adding downward pressure.",
+    "red_sea": "Cargo vessel in Red Sea reports coming under attack, UK maritime body says. Shipping risks persist.",
+    "world_cup": "Attendance records set. USMNT in Round of 16 vs Belgium. France led by Mbappé tournament favorite. Prediction market volumes at record highs."
   }
 }

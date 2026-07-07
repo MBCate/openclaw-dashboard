@@ -1,118 +1,94 @@
 {
-  "meta": {
-    "updated": "2026-07-07 09:15",
-    "updated_utc": "2026-07-07T01:15:00Z",
-    "source": "Yahoo Finance (futures) + CoinGecko + RSS (Bloomberg, CNBC, BBC, MarketWatch)",
-    "note": "Tuesday morning pre-open. US futures mixed: Dow +0.1%, S&P -0.09%, Nasdaq -0.46%. Asian session: HSI +1.14%, Nikkei -0.86%. Gold -0.32%, Oil +0.25%."
-  },
+  "updated": "2026-07-07T21:30:00+08:00",
   "us_markets": {
-    "snP500_futures": {
-      "price": 7585,
-      "change_pct": -0.09,
-      "note": "ES=F 7,585 (-0.09%). Slightly lower after Dow closed above 53,000 for first time. A-shares opening in 15 min. Micro cuts 4,800 jobs, Xbox restructuring. SpaceX joins Nasdaq-100 today."
+    "dow_jones": {
+      "price": 53258.09,
+      "prev_close": 53055.91,
+      "change": "+202.18 (+0.38%)"
     },
-    "nasdaq_futures": {
-      "price": 29803,
-      "change_pct": -0.46,
-      "note": "NQ=F 29,803 (-0.46%). Tech futures leading the pullback after strong prior week. Samsung profit fails to impress despite AI chip rally. Nasdaq-100 adding SpaceX — heightened volatility expected."
+    "sp500": {
+      "price": 7525.95,
+      "prev_close": 7537.43,
+      "change": "-11.48 (-0.15%)"
     },
-    "dow_futures": {
-      "price": 53426,
-      "change_pct": 0.10,
-      "note": "YM=F 53,426 (+0.10%). Dow above 53,000 for first time Monday. Rotation into value/financials continuing. Trump calls Walmart 'patriotic' for cutting beef prices."
-    },
-    "summary": "US futures mixed Tuesday pre-market. Dow modestly higher +0.1%, S&P 500 -0.09%, Nasdaq -0.46% giving back some of last week's gains. As of US close Monday: S&P 500 7,591, Dow 53,000+, Nasdaq 29,800+. Watchlist: Fed minutes (Wed), ISM Services PMI. SpaceX joining Nasdaq-100 effective today could amplify index volatility."
+    "nasdaq": {
+      "price": 25957.65,
+      "prev_close": 26121.16,
+      "change": "-163.51 (-0.63%)"
+    }
+  },
+  "hk_markets": {
+    "hang_seng": {
+      "price": 23496.89,
+      "prev_close": 23616.32,
+      "change": "-119.43 (-0.51%)"
+    }
   },
   "china_markets": {
-    "shanghai": {
-      "price": null,
-      "change_pct": null,
-      "note": "Pre-open at 09:15 — awaiting open. Previous close: SSEC 4,041 (+0.37%). A50 futures flat overnight. Bubble tea firm ordered to pay LV $1.5M in trademark case — notable IP ruling."
-    },
-    "shenzhen": {
-      "price": null,
-      "change_pct": null,
-      "note": "Pre-open. Shenzhen closed higher Monday tracking Shanghai."
-    },
-    "highlights": "Pre-market briefing. A-shares steady after Monday's +0.37%. Key watch: semiconductor sector, foreign flows. Tech sector may face mild pressure tracking Nasdaq futures lower."
-  },
-  "hong_kong_market": {
-    "hsi": {
-      "price": 23616,
-      "change_pct": 1.14,
-      "note": "HSI 23,616 (+1.14%). Hong Kong markets opened higher Tuesday, extending Monday's gains. Asian tech weakness weighed but value sectors supported."
-    },
-    "highlights": "HSI strong at open +1.14%. Caution around tech as Samsung disappoints. Hanwha Ocean -20% after losing Canada submarine deal."
+    "shanghai_composite": {
+      "price": 3990.24,
+      "prev_close": 4043.64,
+      "change": "-53.40 (-1.32%)",
+      "note": "Market closed for the day"
+    }
   },
   "crypto": {
-    "bitcoin": {"price_usd": 63954, "change_24h_pct": 0.34},
-    "ethereum": {"price_usd": 1793.80, "change_24h_pct": 0.19},
-    "solana": {"price_usd": 82.08, "change_24h_pct": 0.14},
-    "ripple_xrp": {"price_usd": 1.14, "change_24h_pct": -1.24},
-    "cardano": {"price_usd": 0.184, "change_24h_pct": -2.84},
-    "dogecoin": {"price_usd": 0.076, "change_24h_pct": -2.16},
-    "summary": "Crypto mixed. BTC $63,954 (+0.34%), ETH $1,794 (+0.19%) — both recovering some of Monday's losses. ADA weakest -2.8%. SOL $82 (+0.14%). XRP $1.14 (-1.24%). BTC back above $64K overnight."
+    "bitcoin": {
+      "price": 63111,
+      "change_24h": "+2.58%"
+    },
+    "ethereum": {
+      "price": 1772.09,
+      "change_24h": "+1.96%"
+    },
+    "total_market_cap": "2.28万亿美元",
+    "btc_dominance": "56.2%"
   },
-  "commodities": {
-    "crude_oil_wti": {
-      "price": 68.72,
-      "change_pct": 0.25,
-      "note": "WTI $68.72 (+0.25%). Minor bounce after strike against tanker in Hormuz highlights residual risks. Bloomberg reports oil advances on supply concerns."
-    },
-    "gold": {
-      "price": 4154.20,
-      "change_pct": -0.32,
-      "note": "Gold $4,154 (-0.32%). Modest pullback after Monday's +0.81% gain. DXY ~100.9 near flat. Safe-haven demand fading slightly."
-    },
-    "summary": "Oil edging higher +0.25% after shipping attack in Hormuz. Gold -0.32% consolidating after recent gains. Dollar index ~100.9 flat."
-  },
-  "news_headlines": [
-    {
-      "source": "CNBC",
-      "title": "Stock futures are little changed after Dow tops 53,000 for first time: Live updates"
-    },
-    {
-      "source": "CNBC",
-      "title": "Microsoft cuts 4,800 jobs, as Xbox unit downsizes and plans to spin off four gaming studios"
-    },
-    {
-      "source": "CNBC",
-      "title": "SpaceX joins the Nasdaq-100 on Tuesday. Here's what it means for the stock"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Trump calls Walmart 'patriotic' for cutting beef prices — in a stark change of tune"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix."
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Samsung's Soaring Profit Fails to Impress After AI Chip Rally"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Oil Advances as Strike Against Tanker in Hormuz Highlights Risks"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Hanwha Ocean Plunges Over 20% After Losing Canada Submarine Deal"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Asian Stocks Fall on Tech Weakness, Samsung Slides: Markets Wrap"
-    },
-    {
-      "source": "BBC",
-      "title": "Why European backlash over Trump intervention won't worry Infantino"
-    }
+  "key_news": [
+    "道指突破53000点再创纪录新高，芯片股因三星业绩不及预期下跌",
+    "美国5月贸易逆差扩大至一年多来最大",
+    "苹果供应商立讯精密港股IPO募资31亿美元，定价上限",
+    "Rivian宣布发行7500万股募资，盘后跌10%",
+    "乌克兰无人机袭击俄罗斯最大炼油厂，北约峰会前夕",
+    "霍尔木兹海峡航运遇袭，原油价格走高",
+    "巴菲特旗下Berkshire哈撒韦：HALO交易进入新阶段——高盛",
+    "DeepSeek AI冲击减弱，市场消化科技板块轮动"
   ],
-  "geopolitical": {
-    "strait_of_hormuz": "Shipping attack — strike against tanker in Hormuz highlighted by Bloomberg. Oil +0.25% on supply risk. Residual tensions persist despite overall normalization. Doha dialogue ongoing.",
-    "opec_plus": "OPEC+ output increases still feeding through. Oil stabilizing around $68.7 but downside risk from supply additions.",
-    "red_sea": "Residual maritime security concerns in Red Sea corridor remain.",
-    "world_cup_2026": "USMNT Round of 16 vs Belgium today. Balogun suspension reversal by FIFA after Trump intervention — Belgium to appeal. Record TV audience expected.",
-    "corporate_news": "Microsoft cutting 4,800 jobs (Xbox division). SpaceX joining Nasdaq-100. Samsung profit disappoints. Hanwha Ocean -20%. EasyJet £5.2bn takeover. Lockheed Martin buys Ultra Maritime $3.45B."
-  }
+  "top_headlines": [
+    {
+      "source": "CNBC",
+      "title": "Dow builds on 53,000 record, chip stocks fall as investors rotate bets",
+      "url": "https://www.cnbc.com/2026/07/06/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "US Trade Deficit Widens to Biggest in More Than a Year",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-07/us-trade-deficit-widens-to-biggest-in-more-than-a-year"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Apple Supplier Luxshare Prices $3.1 Billion HK Listing at Top",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-07/apple-supplier-luxshare-prices-3-1-billion-hk-listing-at-top"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Goldman Sachs: HALO trade entering new phase focused on earnings",
+      "url": "https://www.marketwatch.com/story/why-these-global-stocks-with-a-high-barrier-to-entry-are-winning-the-war-on-ai-disruption-43e88c2c"
+    },
+    {
+      "source": "CNBC",
+      "title": "Rivian stock falls 10% as company sells 75 million shares to raise capital",
+      "url": "https://www.cnbc.com/2026/07/07/rivian-stock-rivn-capital-raise.html"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Tech Futures Sell Off As Samsung Falls On Earnings; Micron, Sandisk Dive",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-micron-sandisk-samsung/"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Oil Creeps Higher as Fresh Ship Attacks Underscore Hormuz Risks",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-06/latest-oil-market-news-and-analysis-for-july-7"
+    }
+  ]
 }

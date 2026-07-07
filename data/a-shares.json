@@ -1,58 +1,100 @@
 {
-  "timestamp": "2026-07-06 15:05",
-  "date": "2026-07-06",
-  "indices": [],
+  "timestamp": "2026-07-07 11:39",
+  "date": "2026-07-07",
+  "indices": [
+    {
+      "name": "上证指数",
+      "code": "000001",
+      "price": 3999.03,
+      "change_pct": -1.04,
+      "pre_close": 4041.24,
+      "high": 4028.51,
+      "low": 3990.96,
+      "volume": 3.24,
+      "amount": 7533.6
+    },
+    {
+      "name": "深证成指",
+      "code": "399001",
+      "price": 15259.2,
+      "change_pct": -1.02,
+      "pre_close": 15416.8,
+      "high": 15461.37,
+      "low": 15221.45,
+      "volume": 4.44,
+      "amount": 8771.5
+    },
+    {
+      "name": "创业板指",
+      "code": "399006",
+      "price": 3918.22,
+      "change_pct": -0.78,
+      "pre_close": 3948.86,
+      "high": 3976.11,
+      "low": 3906.67,
+      "volume": 1.19,
+      "amount": 3856.8
+    },
+    {
+      "name": "沪深300",
+      "code": "399300",
+      "price": 4802.0,
+      "change_pct": -0.83,
+      "pre_close": 4842.0,
+      "high": 4839.51,
+      "low": 4793.1,
+      "volume": 1.52,
+      "amount": 4588.5
+    }
+  ],
   "north_flow": {
-    "date": "2026-07-06",
-    "沪股通净买额": 0.0,
-    "深股通净买额": 0.0,
-    "合计净买入": 0.0
+    "value": null,
+    "date": "2026-07-07"
   },
-  "boards": {
+  "sectors": {
     "top5": [
       {
-        "name": "氨纶",
-        "change_pct": 6.41
+        "name": "农业综合",
+        "change_pct": 4.01
+      },
+      {
+        "name": "辅料",
+        "change_pct": 3.48
+      },
+      {
+        "name": "集成电路封测",
+        "change_pct": 3.42
       },
       {
         "name": "燃料电池",
-        "change_pct": 6.34
+        "change_pct": 3.08
       },
       {
-        "name": "生猪养殖",
-        "change_pct": 4.64
-      },
-      {
-        "name": "动力煤",
-        "change_pct": 3.88
-      },
-      {
-        "name": "煤炭开采",
-        "change_pct": 3.52
+        "name": "半导体材料",
+        "change_pct": 2.36
       }
     ],
     "bottom5": [
       {
-        "name": "氟化工",
-        "change_pct": -5.8
+        "name": "粘胶",
+        "change_pct": -6.81
       },
       {
-        "name": "图片媒体",
-        "change_pct": -5.91
+        "name": "白银",
+        "change_pct": -5.96
       },
       {
-        "name": "玻璃玻纤",
-        "change_pct": -6.18
+        "name": "医美服务",
+        "change_pct": -5.11
       },
       {
-        "name": "玻纤制造",
-        "change_pct": -8.13
+        "name": "炼油化工",
+        "change_pct": -4.67
       },
       {
-        "name": "钨",
-        "change_pct": -8.27
+        "name": "贵金属",
+        "change_pct": -4.51
       }
     ]
-  },
-  "hsi": null
+  }
 }

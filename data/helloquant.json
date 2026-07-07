@@ -1,167 +1,365 @@
 {
-  "timestamp": "2026-07-06T15:16:37.273097",
-  "date": "2026-07-06",
-  "crypto": {
-    "BTC/USDT": {
-      "price": 62984.8,
-      "change_24h": 35.53,
-      "high_24h": 63999.8,
-      "low_24h": 62444.4,
-      "trend_1h": "偏多",
-      "trend_4h": "偏多",
-      "rsi_1h": 57.9,
-      "rsi_4h": 55.2,
-      "macd_status_1h": "死叉",
-      "macd_status_4h": "死叉"
-    },
-    "ETH/USDT": {
-      "price": 1770.97,
-      "change_24h": 45.21,
-      "high_24h": 1808.18,
-      "low_24h": 1748.11,
-      "trend_1h": "偏空",
-      "trend_4h": "偏多",
-      "rsi_1h": 42.5,
-      "rsi_4h": 54.8,
-      "macd_status_1h": "死叉",
-      "macd_status_4h": "死叉"
+  "timestamp": "2026-07-07T15:05:00+08:00",
+  "strategies": [
+    {
+      "timestamp": "2026-07-06T15:16:37.273097",
+      "date": "2026-07-06",
+      "crypto": {
+        "status": "success",
+        "data": {
+          "BTC/USDT": {
+            "price": 62984.8,
+            "change_24h": 0.3553116704747155,
+            "high_24h": 63999.8,
+            "low_24h": 62444.4,
+            "volume_24h": 270218805.14295226,
+            "indicators_1h": {
+              "rsi": 57.9,
+              "macd": 96.11,
+              "macd_signal": 133.24,
+              "macd_status": "死叉",
+              "ma5": 63135.0,
+              "ma20": 63082.78,
+              "bb_upper": 63842.34,
+              "bb_lower": 62323.23,
+              "trend": "偏多"
+            },
+            "indicators_4h": {
+              "rsi": 55.2,
+              "macd": 615.35,
+              "macd_signal": 660.71,
+              "macd_status": "死叉",
+              "ma5": 63090.5,
+              "ma20": 62644.97,
+              "bb_upper": 63756.85,
+              "bb_lower": 61533.09,
+              "trend": "偏多"
+            }
+          },
+          "ETH/USDT": {
+            "price": 1770.97,
+            "change_24h": 0.4520703346568349,
+            "high_24h": 1808.18,
+            "low_24h": 1748.11,
+            "volume_24h": 147882460.5458983,
+            "indicators_1h": {
+              "rsi": 42.5,
+              "macd": 1.35,
+              "macd_signal": 3.31,
+              "macd_status": "死叉",
+              "ma5": 1774.51,
+              "ma20": 1778.52,
+              "bb_upper": 1794.12,
+              "bb_lower": 1762.91,
+              "trend": "偏空"
+            },
+            "indicators_4h": {
+              "rsi": 54.8,
+              "macd": 32.33,
+              "macd_signal": 37.14,
+              "macd_status": "死叉",
+              "ma5": 1778.63,
+              "ma20": 1761.06,
+              "bb_upper": 1807.93,
+              "bb_lower": 1714.19,
+              "trend": "偏多"
+            }
+          }
+        }
+      },
+      "stocks": {
+        "status": "success",
+        "data": {
+          "上证指数": {
+            "price": 4041.2382,
+            "change": -0.059,
+            "volume": 590364903.0
+          },
+          "深证成指": {
+            "price": 15416.804,
+            "change": -1.159
+          },
+          "创业板指": {
+            "price": 3948.86,
+            "change": -1.768
+          },
+          "沪金主力": {
+            "price": 911.4,
+            "change": 2.33,
+            "date": "2026-07-03"
+          },
+          "沪银主力": {
+            "price": 15256.0,
+            "change": 4.14,
+            "date": "2026-07-03"
+          },
+          "沪铜主力": {
+            "price": 102980.0,
+            "change": 1.01,
+            "date": "2026-07-03"
+          },
+          "螺纹钢主力": {
+            "price": 3062.0,
+            "change": -0.16,
+            "date": "2026-07-03"
+          },
+          "沪深300期货": {
+            "price": 4752.2,
+            "change": 0.7,
+            "date": "2026-07-03"
+          },
+          "中证500期货": {
+            "price": 8538.0,
+            "change": 0.59,
+            "date": "2026-07-03"
+          },
+          "50ETF波动率": {
+            "value": 21.65,
+            "date": "2026-06-26"
+          }
+        }
+      },
+      "sentiment": {
+        "status": "success",
+        "data": {
+          "crypto_fear_greed": {
+            "value": 24,
+            "classification": "Extreme Fear",
+            "timestamp": "1783296000"
+          }
+        }
+      },
+      "news": {
+        "status": "success",
+        "data": [
+          {
+            "source": "Cointelegraph",
+            "title": "Nigel Farage accepted gifts from crypto-linked fraudster: Report",
+            "link": "https://cointelegraph.com/news/nigel-farage-accepted-gifts-from-crypto-linked-fraudster-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "published": "Mon, 06 Jul 2026 06:02:55 +0000",
+            "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Nigel Farage accepted gifts from crypto-linked fraudster: Report\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/me"
+          },
+          {
+            "source": "Cointelegraph",
+            "title": "Here’s what happened in crypto today",
+            "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "published": "Mon, 06 Jul 2026 05:59:40 +0000",
+            "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here’s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/article-c"
+          },
+          {
+            "source": "Cointelegraph",
+            "title": "Stablecoin transaction volume hits record $1.79T in June",
+            "link": "https://cointelegraph.com/news/stablecoin-transaction-volume-hits-record-179-trillion-in-june-visa?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "published": "Mon, 06 Jul 2026 05:44:54 +0000",
+            "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Stablecoin transaction volume hits record $1.79T in June\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/arti"
+          },
+          {
+            "source": "Cointelegraph",
+            "title": "Thousands of crypto wallets at risk from ‘Ill Bloom’ vulnerability: Coinspect",
+            "link": "https://cointelegraph.com/news/thousands-of-crypto-wallets-at-risk-from-ill-bloom-vulnerability-coinspect?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "published": "Mon, 06 Jul 2026 05:35:58 +0000",
+            "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Thousands of crypto wallets at risk from ‘Ill Bloom’ vulnerability: Coinspect\" class=\"type:primaryImage\" src=\"https://s3-images."
+          },
+          {
+            "source": "Cointelegraph",
+            "title": "Central bankers sound alarms over agentic AI finance risks",
+            "link": "https://cointelegraph.com/news/central-bankers-sound-alarms-over-agentic-ai-finance-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "published": "Mon, 06 Jul 2026 03:30:19 +0000",
+            "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Central bankers sound alarms over agentic AI finance risks\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/ar"
+          }
+        ]
+      },
+      "papers": {
+        "status": "success",
+        "data": [
+          {
+            "title": "A Cap-Axis Integral Diagnostic of Factor Models",
+            "authors": [
+              "Useong Shin"
+            ],
+            "summary": "I propose a cap-axis integral diagnostic for factor-model evaluation. Low-dimensional factor models can improve the maximum-Sharpe frontier while leaving zero-alpha violations on economically fixed subspaces. The diagnostic studies one such subspace by lifting pricing errors into a bridge-alpha curv",
+            "link": "http://arxiv.org/abs/2607.01765v1",
+            "published": "2026-07-02"
+          },
+          {
+            "title": "Portfolio Optimization under Fast and Slow Latent Mean-Reverting and Momentum Drift",
+            "authors": [
+              "Dannin J. Eccles",
+              "Roger Lee"
+            ],
+            "summary": "We consider a class of partial-information portfolio optimization problems in which the drift of a risky asset is driven by two latent stochastic factors evolving at distinct time scales. We show that the filtered estimate of the latent mean-reversion level is driven by the difference between fast a",
+            "link": "http://arxiv.org/abs/2607.01705v1",
+            "published": "2026-07-02"
+          },
+          {
+            "title": "Is Trend Still Your Friend?: A Microstructural Account of the Demise of Short-Term Trend-Following",
+            "authors": [
+              "Jutta G. Kurth",
+              "Zoltan Eisler",
+              "Adam Rej"
+            ],
+            "summary": "Systematic trend following has, on average, been profitable for at least two centuries; yet since approximately 2009, short-term trends have ceased to deliver reliable returns. Using a cross-section of roughly 100 liquid futures contracts spanning 1995-2025, together with an industry-representative ",
+            "link": "http://arxiv.org/abs/2607.01550v1",
+            "published": "2026-07-02"
+          },
+          {
+            "title": "Liquidity Premium and Investment Horizons",
+            "authors": [
+              "Irene Aldridge"
+            ],
+            "summary": "We estimate Kyle's (1985) price-impact coefficient $λ$ directly from daily equity order flow and test its ability to forecast the cross-section of subsequent stock returns. Using CRSP data from 2020 to 2025, we construct firm-month measures of signed order flow and two estimators of $\\hatλ_{it}$: a ",
+            "link": "http://arxiv.org/abs/2607.01377v1",
+            "published": "2026-07-01"
+          },
+          {
+            "title": "When large trades are not news: Liquidity tail risk and price discovery",
+            "authors": [
+              "Umut Çetin",
+              "Mingwei Lin",
+              "Giulia Livieri"
+            ],
+            "summary": "When is a large trade news, and when is it a liquidity shock? We study this question in a sequential competitive limit order book with asymmetric information. In our model, liquidity suppliers observe aggregate order flow but not its decomposition into informed demand and uninformed liquidity demand",
+            "link": "http://arxiv.org/abs/2607.01198v1",
+            "published": "2026-07-01"
+          },
+          {
+            "title": "Tail Risk Management with Puts and Trend Following: A CVaR Framework for Crashes and Drawdowns",
+            "authors": [
+              "Miquel Noguer I Alonso",
+              "Ali Al Fallouji"
+            ],
+            "summary": "Tail-risk management is not only an instrument-selection problem. It is an allocation problem across loss mechanisms: abrupt crash states, volatility repricing, and persistent drawdowns require different forms of protection. This paper develops a continuous-time CVaR framework that places two common",
+            "link": "http://arxiv.org/abs/2607.00883v1",
+            "published": "2026-07-01"
+          },
+          {
+            "title": "Shapley in Context: Explaining Financial Language with Domain Expertise",
+            "authors": [
+              "Dangxing Chen",
+              "Pengzhan Guo"
+            ],
+            "summary": "In recent years, large language models have achieved remarkable success and have seen growing adoption in financial applications. At the same time, explainability remains critical in finance, a domain characterized by high stakes and strict regulatory requirements. Although numerous methods have bee",
+            "link": "http://arxiv.org/abs/2607.00856v1",
+            "published": "2026-07-01"
+          },
+          {
+            "title": "End-to-End Parametric Portfolio Policies for Cross-Asset Futures Timing: When Do AI Models Beat Simple Rules?",
+            "authors": [
+              "Austin Pollok",
+              "Kevin Robik"
+            ],
+            "summary": "Timing-based tilts across asset classes can drive much of the risk and return of a diversified cross-asset portfolio. The standard approach forecasts returns and then optimizes weights. We instead study an end-to-end AI-based policy that maps market states directly to portfolio weights, and we then ",
+            "link": "http://arxiv.org/abs/2607.00475v1",
+            "published": "2026-07-01"
+          },
+          {
+            "title": "Agent-to-Agent Finance: Blockchain Payments and Trust Infrastructure for Autonomous AI Agents",
+            "authors": [
+              "Hui Gong"
+            ],
+            "summary": "Autonomous AI agents are beginning to occupy a position between analytical tools and transacting counterparties. They can interpret goals, call external tools, negotiate with other agents, access data and computation, and in some settings initiate payments or blockchain transactions. This developmen",
+            "link": "http://arxiv.org/abs/2607.00245v1",
+            "published": "2026-06-30"
+          },
+          {
+            "title": "Settlement Manipulation in Prediction Markets",
+            "authors": [
+              "David Dai",
+              "Ruizhe Jia",
+              "Shihao Yu"
+            ],
+            "summary": "Prediction markets increasingly list contracts settling on an asset price that holders can move by trading the underlying. We build a model showing that such contracts transfer wealth from prediction-market liquidity traders to manipulators and harm price discovery in the underlying, even as it beco",
+            "link": "http://arxiv.org/abs/2606.31675v1",
+            "published": "2026-06-30"
+          }
+        ]
+      },
+      "signals": {
+        "status": "success",
+        "data": {
+          "DoubleMa": {
+            "1h": {
+              "signal": "观望",
+              "current_price": 62982.4
+            },
+            "4h": {
+              "signal": "观望",
+              "current_price": 62982.4
+            }
+          },
+          "RSI": {
+            "1h": {
+              "signal": "观望",
+              "current_price": 62982.4
+            },
+            "4h": {
+              "signal": "做空",
+              "current_price": 62982.4
+            }
+          },
+          "MACD": {
+            "1h": {
+              "signal": "做空",
+              "current_price": 62982.4
+            },
+            "4h": {
+              "signal": "做空",
+              "current_price": 62982.4
+            }
+          },
+          "Bollinger": {
+            "1h": {
+              "signal": "观望",
+              "current_price": 62982.4
+            },
+            "4h": {
+              "signal": "观望",
+              "current_price": 62982.4
+            }
+          },
+          "Supertrend": {
+            "1h": {
+              "signal": "观望",
+              "current_price": 62982.4
+            },
+            "4h": {
+              "signal": "观望",
+              "current_price": 62982.4
+            }
+          },
+          "TripleMa": {
+            "1h": {
+              "signal": "观望",
+              "current_price": 62982.4
+            },
+            "4h": {
+              "signal": "观望",
+              "current_price": 62982.4
+            }
+          },
+          "Momentum": {
+            "1h": {
+              "signal": "观望",
+              "current_price": 62982.4
+            },
+            "4h": {
+              "signal": "观望",
+              "current_price": 62982.4
+            }
+          },
+          "MeanReversion": {
+            "1h": {
+              "signal": "观望",
+              "current_price": 62982.4
+            },
+            "4h": {
+              "signal": "观望",
+              "current_price": 62982.4
+            }
+          }
+        }
+      }
     }
-  },
-  "signals": {
-    "DoubleMa": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 62982.4
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 62982.4
-      }
-    },
-    "RSI": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 62982.4
-      },
-      "4h": {
-        "signal": "做空",
-        "current_price": 62982.4
-      }
-    },
-    "MACD": {
-      "1h": {
-        "signal": "做空",
-        "current_price": 62982.4
-      },
-      "4h": {
-        "signal": "做空",
-        "current_price": 62982.4
-      }
-    },
-    "Bollinger": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 62982.4
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 62982.4
-      }
-    },
-    "Supertrend": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 62982.4
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 62982.4
-      }
-    },
-    "TripleMa": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 62982.4
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 62982.4
-      }
-    },
-    "Momentum": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 62982.4
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 62982.4
-      }
-    },
-    "MeanReversion": {
-      "1h": {
-        "signal": "观望",
-        "current_price": 62982.4
-      },
-      "4h": {
-        "signal": "观望",
-        "current_price": 62982.4
-      }
-    }
-  },
-  "sentiment": {
-    "crypto_fear_greed": {
-      "value": 24,
-      "classification": "Extreme Fear"
-    }
-  },
-  "stocks": {
-    "上证指数": {
-      "price": 4041.2382,
-      "change": -0.059,
-      "volume": 590364903.0
-    },
-    "深证成指": {
-      "price": 15416.804,
-      "change": -1.159
-    },
-    "创业板指": {
-      "price": 3948.86,
-      "change": -1.768
-    },
-    "沪金主力": {
-      "price": 911.4,
-      "change": 2.33,
-      "date": "2026-07-03"
-    },
-    "沪银主力": {
-      "price": 15256.0,
-      "change": 4.14,
-      "date": "2026-07-03"
-    },
-    "沪铜主力": {
-      "price": 102980.0,
-      "change": 1.01,
-      "date": "2026-07-03"
-    },
-    "螺纹钢主力": {
-      "price": 3062.0,
-      "change": -0.16,
-      "date": "2026-07-03"
-    },
-    "沪深300期货": {
-      "price": 4752.2,
-      "change": 0.7,
-      "date": "2026-07-03"
-    },
-    "中证500期货": {
-      "price": 8538.0,
-      "change": 0.59,
-      "date": "2026-07-03"
-    },
-    "50ETF波动率": {
-      "value": 21.65,
-      "date": "2026-06-26"
-    }
-  }
+  ],
+  "reports": []
 }

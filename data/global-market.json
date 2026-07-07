@@ -1,130 +1,118 @@
 {
   "meta": {
-    "updated": "2026-07-06 21:30",
-    "updated_utc": "2026-07-06T13:30:00Z",
-    "source": "RSS (CNBC, MarketWatch, BBC) + CoinGecko + Investing.com",
-    "note": "Monday evening. US pre-open futures. A-shares closed +0.37%. EU session active."
+    "updated": "2026-07-07 09:15",
+    "updated_utc": "2026-07-07T01:15:00Z",
+    "source": "Yahoo Finance (futures) + CoinGecko + RSS (Bloomberg, CNBC, BBC, MarketWatch)",
+    "note": "Tuesday morning pre-open. US futures mixed: Dow +0.1%, S&P -0.09%, Nasdaq -0.46%. Asian session: HSI +1.14%, Nikkei -0.86%. Gold -0.32%, Oil +0.25%."
   },
   "us_markets": {
     "snP500_futures": {
-      "price": 7548,
-      "change_pct": 0.30,
-      "note": "ES=F +0.3%. Tech-led rebound after holiday weekend. Fed minutes and ISM Services PMI awaited this week"
+      "price": 7585,
+      "change_pct": -0.09,
+      "note": "ES=F 7,585 (-0.09%). Slightly lower after Dow closed above 53,000 for first time. A-shares opening in 15 min. Micro cuts 4,800 jobs, Xbox restructuring. SpaceX joins Nasdaq-100 today."
     },
     "nasdaq_futures": {
-      "price": 29790,
-      "change_pct": 0.80,
-      "note": "NQ=F +237pts (+0.8%). Tech stocks surging as investors return from July 4 holiday. Chip stocks leading recovery"
+      "price": 29803,
+      "change_pct": -0.46,
+      "note": "NQ=F 29,803 (-0.46%). Tech futures leading the pullback after strong prior week. Samsung profit fails to impress despite AI chip rally. Nasdaq-100 adding SpaceX — heightened volatility expected."
     },
     "dow_futures": {
-      "price": 53198,
-      "change_pct": 0.00,
-      "note": "YM=F ~flat at 53,198. DJIA last record close 52,900. Rotation into value/financials continuing"
+      "price": 53426,
+      "change_pct": 0.10,
+      "note": "YM=F 53,426 (+0.10%). Dow above 53,000 for first time Monday. Rotation into value/financials continuing. Trump calls Walmart 'patriotic' for cutting beef prices."
     },
-    "summary": "US futures broadly higher Monday pre-open. Nasdaq 100 leading +0.8%, S&P 500 +0.3%, Dow flat after record high. Last week: Dow +2%, S&P 500 +2.33%, Nasdaq +2.1%. Healthcare/financials/industrials led. Markets eyeing June Fed minutes and ISM Services PMI. DXY near 101. Chip stocks rebounding from recent pullback."
+    "summary": "US futures mixed Tuesday pre-market. Dow modestly higher +0.1%, S&P 500 -0.09%, Nasdaq -0.46% giving back some of last week's gains. As of US close Monday: S&P 500 7,591, Dow 53,000+, Nasdaq 29,800+. Watchlist: Fed minutes (Wed), ISM Services PMI. SpaceX joining Nasdaq-100 effective today could amplify index volatility."
   },
   "china_markets": {
     "shanghai": {
-      "price": 4041,
-      "change_pct": 0.37,
-      "note": "Jul 6 close. SSEC +0.37%. Market steady, awaiting further policy signals"
+      "price": null,
+      "change_pct": null,
+      "note": "Pre-open at 09:15 — awaiting open. Previous close: SSEC 4,041 (+0.37%). A50 futures flat overnight. Bubble tea firm ordered to pay LV $1.5M in trademark case — notable IP ruling."
     },
     "shenzhen": {
       "price": null,
       "change_pct": null,
-      "note": "Shenzhen component closed higher tracking Shanghai"
+      "note": "Pre-open. Shenzhen closed higher Monday tracking Shanghai."
     },
-    "highlights": "A-shares modestly higher. Semiconductor IPO pipeline remains active. Foreign holdings near record highs."
+    "highlights": "Pre-market briefing. A-shares steady after Monday's +0.37%. Key watch: semiconductor sector, foreign flows. Tech sector may face mild pressure tracking Nasdaq futures lower."
   },
   "hong_kong_market": {
     "hsi": {
-      "price": null,
-      "change_pct": null,
-      "note": "HSI data pending evening close update"
+      "price": 23616,
+      "change_pct": 1.14,
+      "note": "HSI 23,616 (+1.14%). Hong Kong markets opened higher Tuesday, extending Monday's gains. Asian tech weakness weighed but value sectors supported."
     },
-    "highlights": ""
+    "highlights": "HSI strong at open +1.14%. Caution around tech as Samsung disappoints. Hanwha Ocean -20% after losing Canada submarine deal."
   },
   "crypto": {
-    "bitcoin": {"price_usd": 61487, "change_24h_pct": -1.85},
-    "ethereum": {"price_usd": 1737.08, "change_24h_pct": -1.42},
-    "solana": {"price_usd": 79.43, "change_24h_pct": -1.61},
-    "ripple_xrp": {"price_usd": 1.11, "change_24h_pct": -1.80},
-    "cardano": {"price_usd": 0.179, "change_24h_pct": -4.72},
-    "dogecoin": {"price_usd": 0.075, "change_24h_pct": -2.44},
-    "summary": "Crypto broadly lower -1.5% to -4.7% on the day. BTC $61,487 (-1.85%), ETH $1,737 (-1.42%). ADA weakest -4.7%. BTC down 43% YoY."
+    "bitcoin": {"price_usd": 63954, "change_24h_pct": 0.34},
+    "ethereum": {"price_usd": 1793.80, "change_24h_pct": 0.19},
+    "solana": {"price_usd": 82.08, "change_24h_pct": 0.14},
+    "ripple_xrp": {"price_usd": 1.14, "change_24h_pct": -1.24},
+    "cardano": {"price_usd": 0.184, "change_24h_pct": -2.84},
+    "dogecoin": {"price_usd": 0.076, "change_24h_pct": -2.16},
+    "summary": "Crypto mixed. BTC $63,954 (+0.34%), ETH $1,794 (+0.19%) — both recovering some of Monday's losses. ADA weakest -2.8%. SOL $82 (+0.14%). XRP $1.14 (-1.24%). BTC back above $64K overnight."
   },
   "commodities": {
     "crude_oil_wti": {
       "price": 68.72,
-      "change_pct": 0.04,
-      "note": "WTI $68.72, near flat. Hormuz shipping normalizing, OPEC+ raising output. Oil still down ~25% from pre-Iran levels"
+      "change_pct": 0.25,
+      "note": "WTI $68.72 (+0.25%). Minor bounce after strike against tanker in Hormuz highlights residual risks. Bloomberg reports oil advances on supply concerns."
     },
     "gold": {
-      "price": 4159.54,
-      "change_pct": 0.81,
-      "note": "Gold $4,159.54 (+0.81%). Safe-haven demand steady amid Fed uncertainty and geopolitical crosscurrents"
+      "price": 4154.20,
+      "change_pct": -0.32,
+      "note": "Gold $4,154 (-0.32%). Modest pullback after Monday's +0.81% gain. DXY ~100.9 near flat. Safe-haven demand fading slightly."
     },
-    "summary": "Oil stabilizing around $68.7 after sharp multi-week decline from Hormuz premium unwind. Gold edging higher +0.81% to $4,159 on dollar weakness (DXY ~101) and safe-haven flows."
+    "summary": "Oil edging higher +0.25% after shipping attack in Hormuz. Gold -0.32% consolidating after recent gains. Dollar index ~100.9 flat."
   },
   "news_headlines": [
     {
       "source": "CNBC",
-      "title": "S&P 500 and Nasdaq futures rise after a strong week on Wall Street, led by chip stocks: Live updates"
+      "title": "Stock futures are little changed after Dow tops 53,000 for first time: Live updates"
     },
     {
       "source": "CNBC",
-      "title": "Trump rings opening bell at White House with raft of CEOs in first-of-its-kind market open"
+      "title": "Microsoft cuts 4,800 jobs, as Xbox unit downsizes and plans to spin off four gaming studios"
     },
     {
       "source": "CNBC",
-      "title": "Lockheed Martin to buy naval defense firm Ultra Maritime for $3.45 billion"
-    },
-    {
-      "source": "CNBC",
-      "title": "Versant agrees to buy golf simulator company Full Swing for $530 million"
-    },
-    {
-      "source": "CNBC",
-      "title": "Belgium set to appeal as FIFA reverses Balogun's World Cup suspension after Trump reportedly intervenes"
+      "title": "SpaceX joins the Nasdaq-100 on Tuesday. Here's what it means for the stock"
     },
     {
       "source": "MarketWatch",
-      "title": "Global stocks may be headed for a summer swoon. Why AI won't be the only story that matters, JPMorgan says"
+      "title": "Trump calls Walmart 'patriotic' for cutting beef prices — in a stark change of tune"
     },
     {
       "source": "MarketWatch",
-      "title": "AI hyperscalers are poised for a big comeback rally as chip gains cool, says Morgan Stanley"
+      "title": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix."
     },
     {
-      "source": "MarketWatch",
-      "title": "As oil exits the 'danger zone,' here's what history suggests happens next for stocks"
+      "source": "Bloomberg",
+      "title": "Samsung's Soaring Profit Fails to Impress After AI Chip Rally"
     },
     {
-      "source": "MarketWatch",
-      "title": "Your investing expectations are more than double the reality. Here is the tough truth."
+      "source": "Bloomberg",
+      "title": "Oil Advances as Strike Against Tanker in Hormuz Highlights Risks"
     },
     {
-      "source": "BBC",
-      "title": "EasyJet agrees 'in principle' to £5.2bn takeover deal"
+      "source": "Bloomberg",
+      "title": "Hanwha Ocean Plunges Over 20% After Losing Canada Submarine Deal"
     },
     {
-      "source": "BBC",
-      "title": "ITV hits such as I'm a Celebrity to stay free to watch after Sky takeover"
-    },
-    {
-      "source": "BBC",
-      "title": "Wegovy weight loss pill now available in UK - here's what you need to know"
+      "source": "Bloomberg",
+      "title": "Asian Stocks Fall on Tech Weakness, Samsung Slides: Markets Wrap"
     },
     {
       "source": "BBC",
-      "title": "Backlash after China bubble tea firm ordered to pay Louis Vuitton $1.5m"
+      "title": "Why European backlash over Trump intervention won't worry Infantino"
     }
   ],
   "geopolitical": {
-    "strait_of_hormuz": "Shipping normalization continues. Oil exit 'danger zone' as geopolitical premium unwinds. US-Iran Doha dialogue ongoing.",
-    "opec_plus": "OPEC+ raising output levels despite tumbling prices — full impact of supply increase still feeding through.",
-    "red_sea": "Cargo vessel reports coming under attack again, UK maritime body says. Residual risk remains despite Hormuz improvement.",
-    "world_cup_2026": "USMNT in Round of 16 vs Belgium. France led by Mbappé tournament favorite. Balogun suspension reversed after Trump intervention — Belgium to appeal.",
-    "m_and_a": "EasyJet £5.2bn takeover agreed in principle. Lockheed Martin buys Ultra Maritime for $3.45B. Sky/ITV deal progressing."
+    "strait_of_hormuz": "Shipping attack — strike against tanker in Hormuz highlighted by Bloomberg. Oil +0.25% on supply risk. Residual tensions persist despite overall normalization. Doha dialogue ongoing.",
+    "opec_plus": "OPEC+ output increases still feeding through. Oil stabilizing around $68.7 but downside risk from supply additions.",
+    "red_sea": "Residual maritime security concerns in Red Sea corridor remain.",
+    "world_cup_2026": "USMNT Round of 16 vs Belgium today. Balogun suspension reversal by FIFA after Trump intervention — Belgium to appeal. Record TV audience expected.",
+    "corporate_news": "Microsoft cutting 4,800 jobs (Xbox division). SpaceX joining Nasdaq-100. Samsung profit disappoints. Hanwha Ocean -20%. EasyJet £5.2bn takeover. Lockheed Martin buys Ultra Maritime $3.45B."
   }
 }

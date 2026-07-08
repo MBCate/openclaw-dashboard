@@ -1,72 +1,34 @@
 {
-  "date": "2026-07-07",
+  "date": "2026-07-08",
   "week": "2026-W28",
-  "total": 53,
-  "new": 36,
+  "total": 67,
+  "new": 50,
   "known": 17,
   "top5": [
     {
-      "id": "2507.00603",
-      "title": "World4Drive: End-to-End Autonomous Driving via Intention-aware Physical Latent World Model",
-      "score": 5,
-      "category": "World Model/E2E",
-      "topic": "End-to-End AD",
-      "date": "2026-07-07",
+      "id": "2606.29879",
+      "title": "LWDrive: Layer-Wise World-Model-Guided Vision-Language Model Planning for Autonomous Driving",
+      "authors": "Chen Yang, Yuhao Wei, Ze Xu, Ziheng Zou, Shuang Liang, Delin Ouyang",
+      "date": "2026-06-29",
+      "category": "VLM / world model planning",
+      "stars": 5,
       "status": "新发现",
-      "authors": "Yupeng Zheng, Pengxuan Yang, Zebin Xing et al.",
-      "abstract_short": "Perception annotation-free e2e planning via self-supervised latent world model with vision foundation priors. SOTA on nuScenes closed-loop.",
-      "url": "https://arxiv.org/abs/2507.00603"
+      "kb_path": "",
+      "score": 3,
+      "weekly": true
     },
     {
-      "id": "2607.01378",
-      "title": "Neuro-Symbolic Safety Guidance for Vision-Language-Action Models via Constrained Flow Matching",
-      "score": 4,
-      "category": "VLA",
-      "topic": "VLA Safety",
-      "date": "2026-07-07",
+      "id": "2607.04637",
+      "title": "PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving",
+      "authors": "Pin Tang, Guoqing Wang, Xiangxuan Ren, Zhongdao Wang, Guodongfang Zhao, Bailan",
+      "date": "2026-07-06",
+      "category": "VLA / end-to-end driving",
+      "stars": 5,
       "status": "新发现",
-      "authors": "William English et al.",
-      "abstract_short": "Neuro-symbolic safety for flow matching based VLAs. 82.8% collision avoidance, 6.3% improvement on SafeLIBERO.",
-      "url": "https://arxiv.org/abs/2607.01378"
+      "kb_path": "",
+      "score": 3,
+      "weekly": true
     },
-    {
-      "id": "2601.04453",
-      "title": "UniDrive-WM: Unified Understanding and World Model for End-to-End Autonomous Driving",
-      "score": 4,
-      "category": "World Model/E2E",
-      "topic": "End-to-End AD",
-      "date": "2026-07-07",
-      "status": "新发现",
-      "authors": "et al.",
-      "abstract_short": "Unified framework integrating scene understanding with world model prediction for e2e driving.",
-      "url": "https://arxiv.org/abs/2601.04453"
-    },
-    {
-      "id": "2512.16760",
-      "title": "Meta-World: Learning World Models from Multimodal Data for Autonomous Driving",
-      "score": 4,
-      "category": "World Model",
-      "topic": "World Models",
-      "date": "2026-07-07",
-      "status": "新发现",
-      "authors": "et al.",
-      "abstract_short": "Multimodal world model learning for autonomous driving.",
-      "url": "https://arxiv.org/abs/2512.16760"
-    },
-    {
-      "id": "2604.02714",
-      "title": "ExploreVLA: Vision-Language-Action Model for End-to-End Autonomous Driving",
-      "score": 4,
-      "category": "VLA/E2E",
-      "topic": "VLA Driving",
-      "date": "2026-07-07",
-      "status": "已知",
-      "authors": "et al.",
-      "abstract_short": "VLA model for e2e driving. Has analysis in knowledge base (vla-autonomous-driving).",
-      "url": "https://arxiv.org/abs/2604.02714"
-    }
-  ],
-  "papers": [
     {
       "id": "2605.04647",
       "title": "ReflectDrive-2: RL-Aligned Self-Editing for Discrete Diffusion Driving",
@@ -77,7 +39,8 @@
       "stars": 5,
       "status": "新发现",
       "kb_path": "",
-      "score": 3
+      "score": 3,
+      "weekly": true
     },
     {
       "id": "2606.28757",
@@ -100,7 +63,203 @@
       "stars": 5,
       "status": "新发现",
       "kb_path": "",
+      "score": 3,
+      "weekly": true
+    }
+  ],
+  "papers": [
+    {
+      "id": "2607.05390",
+      "title": "Deform360: A Massive Multi-view Visuotactile Dataset for Deformable World Models",
+      "authors": "Hongyu Li, Wanjia Fu, Xiaoyan Cong, Zekun Li, Binghao Huang, Hanxiao Jiang",
+      "date": "2026-07-06",
+      "category": "world model / deformable objects",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
       "score": 3
+    },
+    {
+      "id": "2607.01111",
+      "title": "FAR: Failure-Aware Retry for Test-Time Recovery and Continual Policy Improvement",
+      "authors": "Haoran Hao, Shahram Najam Syed, Jeffrey Ichnowski, Jeff Schneider",
+      "date": "2026-07-01",
+      "category": "RL / policy improvement",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2604.03581",
+      "title": "HAD: Combining Hierarchical Diffusion with Metric-Decoupled RL for End-to-End Driving",
+      "authors": "Wenhao Yao, Xinglong Sun, Zhenxin Li, Shiyi Lan, Zi Wang, Jose M. Alvarez",
+      "date": "2026-04-04",
+      "category": "diffusion policy / RL driving",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2606.31177",
+      "title": "GaussianMap: Learning Gaussian Representation for Multi-Sensor Online HD Map Construction",
+      "authors": "Hongyu Lyu, Julie Stephany Berrio Perez, Mao Shan, Stewart Worrall",
+      "date": "2026-06-30",
+      "category": "HD map construction",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2606.31096",
+      "title": "Horizon3D: Sparse Radar-Camera Fusion for Long-Range 3D Perception in Autonomous Driving",
+      "authors": "Geonho Bang, Geunju Baek, Dongyoung Lee, Wonjun Jeong, Jun Won Choi",
+      "date": "2026-06-30",
+      "category": "radar-camera fusion / 3D detection",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2606.29879",
+      "title": "LWDrive: Layer-Wise World-Model-Guided Vision-Language Model Planning for Autonomous Driving",
+      "authors": "Chen Yang, Yuhao Wei, Ze Xu, Ziheng Zou, Shuang Liang, Delin Ouyang",
+      "date": "2026-06-29",
+      "category": "VLM / world model planning",
+      "stars": 5,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3,
+      "weekly": true
+    },
+    {
+      "id": "2607.04953",
+      "title": "Real-World Perturbation Testing of Autonomous Driving Systems",
+      "authors": "Stefano Carlo Lambertenghi, Matthias Weil, Andrea Stocco",
+      "date": "2026-07-06",
+      "category": "robustness / perturbation testing",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2607.04689",
+      "title": "A Reliable Context-Aware and Temporal Planning Framework for Autonomous Driving",
+      "authors": "Argho Dey, Yunfei Yin, Swachha Ray, Md Minhazul Islam, Zheng Yuan, Sijing Xiong",
+      "date": "2026-07-06",
+      "category": "planning / context-aware",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2607.04770",
+      "title": "Cam2Sim: Neural Scenario Reconstruction for Closed-Loop Autonomous Driving Simulation",
+      "authors": "Davide Jannussi, Stefano Carlo Lambertenghi, Constantin Carste, Andrea Stocco",
+      "date": "2026-07-06",
+      "category": "simulation / neural reconstruction",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2607.04541",
+      "title": "CRISP: A Spatiotemporal Camera-Radar Backbone for Driving via Forecasting-Based World-Model Pretraining",
+      "authors": "Jingyu Song, Yi Liu, Katherine A. Skinner",
+      "date": "2026-07-05",
+      "category": "world model / camera-radar fusion",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2607.04732",
+      "title": "SparseOcc++: Geometry-Aware Sparse Latent Representation for Semantic Occupancy Prediction",
+      "authors": "Pin Tang, Zhongdao Wang, Guoqing Wang, Xiangxuan Ren, Chao Ma",
+      "date": "2026-07-06",
+      "category": "3D semantic occupancy / BEV",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2607.04812",
+      "title": "TGRIP: A Text-Guided Approach to Vehicle Instance Prediction in Autonomous Driving",
+      "authors": "Miguel Antunes-García, Santiago Montiel-Marín, Fabio Sánchez-García, Rodrigo Gutiérrez-Moreno, Rafael Barea, Luis M. Bergasa",
+      "date": "2026-07-06",
+      "category": "BEV / vehicle instance prediction",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2607.05396",
+      "title": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model",
+      "authors": "Wenhao Li, Xueying Jiang, Quanhao Qian, Deli Zhao, Shijian Lu, Gongjie Zhang",
+      "date": "2026-07-06",
+      "category": "VLA / autonomous driving",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2607.04637",
+      "title": "PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving",
+      "authors": "Pin Tang, Guoqing Wang, Xiangxuan Ren, Zhongdao Wang, Guodongfang Zhao, Bailan",
+      "date": "2026-07-06",
+      "category": "VLA / end-to-end driving",
+      "stars": 5,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3,
+      "weekly": true
+    },
+    {
+      "id": "2605.04647",
+      "title": "ReflectDrive-2: RL-Aligned Self-Editing for Discrete Diffusion Driving",
+      "authors": "Zheng Wu, et al.",
+      "date": "2026-07-07",
+      "updated": "2026-06-27",
+      "category": "diffusion planning / RL / driving",
+      "stars": 5,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3,
+      "weekly": true
+    },
+    {
+      "id": "2606.28757",
+      "title": "CrashTwin: A Physics-Grounded Benchmark for Multi-Agent Dynamics in World Models",
+      "authors": "Nuo Chen, Lulin Liu, Zihao Li, Ziyao Zeng, Zihao Zhu, Wenyan Cong, Junyuan Hong, Yunhao Yang, Zhengzhong Tu, Yan Wang, Boris Ivanovic, Marco Pavone, Zhangyang Wang, Yang Zhou, Zhiwen Fan",
+      "date": "2026-07-07",
+      "category": "world model / benchmark",
+      "stars": 5,
+      "status": "已知",
+      "kb_path": "world-models-ad/analysis/2606.28757_CrashTwin.md",
+      "weekly": true,
+      "score": 3
+    },
+    {
+      "id": "2606.28804",
+      "title": "ViPSim: Collaborating Visual and Parameter Spaces for Consistent Long-Horizon Embodied World Models",
+      "authors": "Longyu Chen, Heng Li, Wei Yang, Manqi Zhao, Dongsheng Jiang",
+      "date": "2026-07-07",
+      "category": "world model / embodied simulation",
+      "stars": 5,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3,
+      "weekly": true
     },
     {
       "id": "2606.29384",

@@ -1,167 +1,68 @@
 {
-  "updated": "2026-07-08T09:15:00+08:00",
+  "updated": "2026-07-08T21:30:00+08:00",
   "us_markets": {
     "dow_jones": {
-      "price": 52925.15,
-      "prev_close": 53055.91,
-      "change": "-130.76 (-0.25%)",
-      "intraday_high": "53160",
-      "note": "All-time intraday high hit, then reversed"
+      "price": 52437,
+      "prev_close": 52925.15,
+      "change": "-488 (-0.92%)",
+      "note": "Trump宣布伊朗停火协议破裂，地缘风险拖累"
     },
     "sp500": {
-      "price": 7503.85,
-      "prev_close": 7537.43,
-      "change": "-33.58 (-0.45%)"
+      "price": 7456,
+      "prev_close": 7503.85,
+      "change": "-48 (-0.64%)",
+      "note": "能源股上涨但芯片股承压"
     },
     "nasdaq": {
-      "price": 25818.69,
-      "prev_close": 26121.16,
-      "change": "-302.47 (-1.16%)",
-      "note": "AI/半导体领跌"
+      "price": 25715,
+      "prev_close": 25818.69,
+      "change": "-104 (-0.40%)",
+      "note": "半导体ETF SMH跌超1%，芯片板块持续承压"
     },
-    "russell2000": {
-      "price": 2982.49,
-      "prev_close": 3009.54,
-      "change": "-27.05 (-0.90%)"
+    "futures": {
+      "note": "盘前期货跌幅较大，S&P 500期货-0.8%，Dow期货-1%，Nasdaq期货-1%"
     }
   },
-  "us_futures": {
-    "crude_oil_wti": {
-      "price": "71.78",
+  "commodities": {
+    "wti_crude": {
+      "price": 73.96,
       "prev_close": 70.44,
-      "change": "+1.34 (+1.90%)",
-      "note": "夜盘期货，霍尔木兹危机持续"
+      "change": "+5.0%",
+      "note": "美伊冲突升级，WTI暴涨5%至$73.96"
     },
-    "gold": {
-      "price": "4117.89",
-      "prev_close": 4157.40,
-      "change": "-39.51 (-0.95%)",
-      "note": "美元走强压制"
-    },
-    "silver": {
-      "price": "60.52",
-      "prev_close": 61.33,
-      "change": "-0.81 (-1.32%)"
-    },
-    "natural_gas": {
-      "price": "3.179",
-      "prev_close": 3.164,
-      "change": "+0.015 (+0.47%)"
-    }
-  },
-  "hk_markets": {
-    "hang_seng": {
-      "price": 23496.89,
-      "prev_close": 23616.32,
-      "change": "-119.43 (-0.51%)",
-      "note": "成交量3197亿港元，恒生科技-0.75%"
-    },
-    "hang_seng_tech": {
-      "price": null,
-      "prev_close": null,
-      "change": "-0.75%"
-    },
-    "southbound_flow": {
-      "net_inflow": "4.97亿港元"
-    }
-  },
-  "china_markets": {
-    "shanghai_composite": {
-      "price": 3990.24,
-      "prev_close": 4043.64,
-      "change": "-53.40 (-1.32%)",
-      "note": "昨日A股回调，今日09:30开盘"
-    },
-    "shenzhen_component": {
-      "price": null,
-      "prev_close": null,
-      "change": null,
-      "note": "待开盘"
-    },
-    "chi_next": {
-      "price": null,
-      "prev_close": null,
-      "change": null,
-      "note": "待开盘"
-    },
-    "csi300": {
-      "price": null,
-      "prev_close": null,
-      "change": null,
-      "note": "昨日跌破关键支撑"
+    "brent_crude": {
+      "price": 78.01,
+      "prev_close": 74.20,
+      "change": "+5.2%",
+      "note": "Brent飙升至$78，中东供应担忧加剧"
     }
   },
   "crypto": {
     "bitcoin": {
-      "price": 63549,
-      "change_24h": "-0.60%",
-      "change_7d": "+7.99%",
-      "note": "从58k低点反弹至63k+，ETF净流入2.66亿美元"
+      "price": 61754,
+      "change_24h": "-2.47%",
+      "note": "BTC回撤至$61,754，受风险情绪影响"
     },
     "ethereum": {
-      "price": 1776.26,
-      "change_24h": "-0.84%"
-    },
-    "total_market_cap": "2.33万亿美元",
-    "btc_dominance": "56.0%"
-  },
-  "key_news": [
-    "【美股】道指冲新高后回落收跌0.25%，标普-0.45%，纳指-1.16%因AI/芯片抛售",
-    "【地缘风险】霍尔木兹海峡油轮遭导弹袭击，美撤销伊朗石油豁免，Brent涨3%至$74.16",
-    "【三星】Q2预告利润创新高但股价暴跌7%，因资本开支和需求前景疑虑",
-    "【Rivian】发行7500万股募资约15亿美元，股价大跌逾10%",
-    "【腾讯减持快手】套现超百亿港元，快手暴跌超12%",
-    "【港股】恒生指数收跌0.51%报23496.89，恒生科技-0.75%，软件/银行逆势走强",
-    "【A股】上证收报3990.24（-1.32%），今日关注3990支撑能否守住",
-    "【油价】伊朗袭击卡塔尔LNG油轮，Brent原油收报$74.16（+3%），WTI $70.44（+2.8%）",
-    "【Samsung/Micron】韩国和美股存储芯片股全线承压，市场担忧预期过高",
-    "【BTC】比特币反弹至$63,549，周涨约8%，ETF资金持续流入"
-  ],
-  "top_headlines": [
-    {
-      "source": "AP News",
-      "title": "S&P 500 falls 0.4%, Nasdaq drops 1.2% as AI stocks reverse; Samsung drags chip sector",
-      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-a87d6f3e20da94a31652b054d5571e20"
-    },
-    {
-      "source": "CNBC",
-      "title": "Oil prices rise after attacks on tankers in Strait of Hormuz, U.S. revokes Iran sale authorization",
-      "url": "https://www.cnbc.com/2026/07/07/oil-prices-iran-strait-hormuz.html"
-    },
-    {
-      "source": "CNBC",
-      "title": "Samsung Electronics shares fall 7% as capex concerns outweigh record Q2 profit",
-      "url": "https://www.cnbc.com/2026/07/07/samsung-electronics-preliminary-second-quarter-profit-hits-fresh-high.html"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Electric Vehicle Maker Rivian Offers to Sell 75 Million Shares",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-06/electric-vehicle-maker-rivian-offers-to-sell-75-million-shares"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Samsung Q2 2026 earnings: Record profit, stock falls 7% on demand outlook",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-q2-2026-earnings-record-112138779.html"
-    },
-    {
-      "source": "Telegraph",
-      "title": "Oil and gas prices rise after tanker hit by missile in Strait of Hormuz",
-      "url": "https://www.telegraph.co.uk/business/2026/07/07/oil-and-gas-prices-rise-tanker-hit-missile-strait-hormuz/"
-    },
-    {
-      "source": "CNBC",
-      "title": "Dow builds on 53,000 record then reverses; chip stocks fall as investors rotate",
-      "url": "https://www.cnbc.com/2026/07/06/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "USA Today",
-      "title": "US revokes Iran oil waiver after tanker attacks in Strait of Hormuz",
-      "url": "https://www.usatoday.com/story/news/world/2026/07/07/us-revokes-iran-oil-waiver-tanker-attacks-strait-hormuz/90839743007/"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Goldman Sachs: HALO trade entering new phase focused on earnings",
-      "url": "https://www.marketwatch.com/story/why-these-global-stocks-with-a-high-barrier-to-entry-are-winning-the-war-on-ai-disruption-43e88c2c"
+      "price": 1735,
+      "change_24h": "+5.0%",
+      "note": "ETH逆势上涨至$1,735，市场预期美联储降息"
     }
-  ]
+  },
+  "key_events": [
+    "Trump在NATO峰会宣布美伊停火协议破裂，美军对伊朗发动新一轮打击",
+    "WTI原油飙升5.2%至$73.96，Brent涨至$78.01",
+    "能源股上涨（CVX/XOM +1%+），芯片股下跌（MU -3%）",
+    "美联储会议纪要即将公布，市场关注利率分歧与通胀前景",
+    "Yardeni警告伊朗危机可能迫使美联储加息",
+    "BTC $61,754（-2.47%）, ETH $1,735（+5.0%）",
+    "阿根廷将偿还40亿美元债券"
+  ],
+  "sources": {
+    "news": [
+      "CNBC: Dow drops 400 points; oil surges after Trump declares Iran ceasefire over",
+      "Bloomberg: Oil surges after Trump says US ceasefire with Iran is over",
+      "Bloomberg: Yardeni warns inflation, Fed back in play as Iran crisis returns"
+    ]
+  }
 }

@@ -1,99 +1,179 @@
 {
-  "timestamp": "2026-07-07 11:39",
-  "date": "2026-07-07",
+  "timestamp": "2026-07-08 11:40",
+  "date": "2026-07-08",
   "indices": [
     {
       "name": "上证指数",
       "code": "000001",
-      "price": 3999.03,
-      "change_pct": -1.04,
-      "pre_close": 4041.24,
-      "high": 4028.51,
-      "low": 3990.96,
-      "volume": 3.24,
-      "amount": 7533.6
+      "price": 4011.05,
+      "change_pct": 0.52,
+      "change": 20.81,
+      "pre_close": 3990.24,
+      "high": 4016.03,
+      "low": 3967.91,
+      "volume": 7891.61,
+      "amount": 51034.22
     },
     {
       "name": "深证成指",
       "code": "399001",
-      "price": 15259.2,
-      "change_pct": -1.02,
-      "pre_close": 15416.8,
-      "high": 15461.37,
-      "low": 15221.45,
-      "volume": 4.44,
-      "amount": 8771.5
+      "price": 15237.45,
+      "change_pct": 0.08,
+      "change": 12.34,
+      "pre_close": 15225.11,
+      "high": 15292.12,
+      "low": 14907.62,
+      "volume": 9133.19,
+      "amount": 27693.71
     },
     {
       "name": "创业板指",
       "code": "399006",
-      "price": 3918.22,
-      "change_pct": -0.78,
-      "pre_close": 3948.86,
-      "high": 3976.11,
-      "low": 3906.67,
-      "volume": 1.19,
-      "amount": 3856.8
+      "price": 3949.04,
+      "change_pct": 0.95,
+      "change": 37.13,
+      "pre_close": 3911.91,
+      "high": 3965.39,
+      "low": 3824.33,
+      "volume": 4355.83,
+      "amount": 6760.05
     },
     {
       "name": "沪深300",
-      "code": "399300",
-      "price": 4802.0,
-      "change_pct": -0.83,
-      "pre_close": 4842.0,
-      "high": 4839.51,
-      "low": 4793.1,
-      "volume": 1.52,
-      "amount": 4588.5
+      "code": "000300",
+      "price": 4821.65,
+      "change_pct": 0.61,
+      "change": 29.39,
+      "pre_close": 4792.26,
+      "high": 4830.05,
+      "low": 4751.4,
+      "volume": 5172.22,
+      "amount": 35689.67
+    },
+    {
+      "name": "上证50",
+      "code": "000016",
+      "price": 2950.5,
+      "change_pct": 0.98,
+      "change": 28.61,
+      "pre_close": 2921.89,
+      "high": 2955.52,
+      "low": 2915.8,
+      "volume": 1368.63,
+      "amount": 17337.04
+    },
+    {
+      "name": "中小100",
+      "code": "399005",
+      "price": 9306.14,
+      "change_pct": -0.33,
+      "change": -31.08,
+      "pre_close": 9337.22,
+      "high": 9356.15,
+      "low": 9115.66,
+      "volume": 1486.31,
+      "amount": 3323.17
+    },
+    {
+      "name": "国证2000",
+      "code": "399303",
+      "price": 10680.79,
+      "change_pct": -0.36,
+      "change": -38.99,
+      "pre_close": 10719.78,
+      "high": 10750.33,
+      "low": 10477.39,
+      "volume": 4641.49,
+      "amount": 14494.6
+    },
+    {
+      "name": "科创50",
+      "code": "000688",
+      "price": 2064.2,
+      "change_pct": 3.13,
+      "change": 62.61,
+      "pre_close": 2001.59,
+      "high": 2078.64,
+      "low": 1961.64,
+      "volume": 1127.79,
+      "amount": 832.57
+    },
+    {
+      "name": "中证500",
+      "code": "000905",
+      "price": 8546.14,
+      "change_pct": 0.44,
+      "change": 37.35,
+      "pre_close": 8508.79,
+      "high": 8571.52,
+      "low": 8343.92,
+      "volume": 3679.98,
+      "amount": 11747.24
+    },
+    {
+      "name": "中证1000",
+      "code": "000852",
+      "price": 8277.09,
+      "change_pct": -0.3,
+      "change": -24.71,
+      "pre_close": 8301.8,
+      "high": 8328.96,
+      "low": 8132.87,
+      "volume": 3508.01,
+      "amount": 10671.61
     }
   ],
-  "north_flow": {
-    "value": null,
-    "date": "2026-07-07"
+  "breadth": {
+    "up": 584,
+    "down": 1032,
+    "flat": 78,
+    "total": 1694,
+    "ratio": 0.57
   },
+  "north_flow": null,
   "sectors": {
     "top5": [
       {
-        "name": "农业综合",
-        "change_pct": 4.01
+        "name": "集成电路制造",
+        "change_pct": 4.92
+      },
+      {
+        "name": "半导体设备",
+        "change_pct": 4.33
       },
       {
         "name": "辅料",
-        "change_pct": 3.48
+        "change_pct": 4.07
       },
       {
-        "name": "集成电路封测",
-        "change_pct": 3.42
+        "name": "油田服务",
+        "change_pct": 3.68
       },
       {
-        "name": "燃料电池",
-        "change_pct": 3.08
-      },
-      {
-        "name": "半导体材料",
-        "change_pct": 2.36
+        "name": "通信应用增值服务",
+        "change_pct": 3.47
       }
     ],
     "bottom5": [
       {
-        "name": "粘胶",
-        "change_pct": -6.81
+        "name": "冶钢原料",
+        "change_pct": 0.34
       },
       {
-        "name": "白银",
-        "change_pct": -5.96
+        "name": "铁路运输",
+        "change_pct": 0.34
       },
       {
-        "name": "医美服务",
-        "change_pct": -5.11
+        "name": "产业地产",
+        "change_pct": 0.33
       },
       {
-        "name": "炼油化工",
-        "change_pct": -4.67
+        "name": "营销代理",
+        "change_pct": 0.33
       },
       {
-        "name": "贵金属",
-        "change_pct": -4.51
+        "name": "广告营销",
+        "change_pct": 0.32
       }
     ]
   }

@@ -1,68 +1,70 @@
 {
-  "updated": "2026-07-08T21:30:00+08:00",
+  "updated": "2026-07-09T09:15:00+08:00",
   "us_markets": {
     "dow_jones": {
-      "price": 52437,
+      "price": 52350,
       "prev_close": 52925.15,
-      "change": "-488 (-0.92%)",
-      "note": "Trump宣布伊朗停火协议破裂，地缘风险拖累"
+      "change": "-575 (-1.1%)",
+      "note": "伊朗局势升级，道指跌575点创近2月最大单日跌幅"
     },
     "sp500": {
-      "price": 7456,
+      "price": 7436,
       "prev_close": 7503.85,
-      "change": "-48 (-0.64%)",
-      "note": "能源股上涨但芯片股承压"
+      "change": "-0.3%",
+      "note": "能源股大涨难掩整体颓势，标普小幅下跌"
     },
     "nasdaq": {
       "price": 25715,
-      "prev_close": 25818.69,
-      "change": "-104 (-0.40%)",
-      "note": "半导体ETF SMH跌超1%，芯片板块持续承压"
+      "prev_close": 25585,
+      "change": "+0.2%",
+      "note": "芯片股分化，英伟达反弹支撑纳指微涨"
     },
     "futures": {
-      "note": "盘前期货跌幅较大，S&P 500期货-0.8%，Dow期货-1%，Nasdaq期货-1%"
+      "note": "期指盘前小幅波动：S&P期货+0.1%，纳指期货+0.2%，道指期货平盘，市场关注今日CPI数据"
     }
   },
   "commodities": {
     "wti_crude": {
-      "price": 73.96,
-      "prev_close": 70.44,
-      "change": "+5.0%",
-      "note": "美伊冲突升级，WTI暴涨5%至$73.96"
+      "price": 75.98,
+      "prev_close": 69.60,
+      "change": "+5.54%",
+      "note": "美对伊朗新一轮打击，WTI突破$75，单日涨幅5.5%"
     },
     "brent_crude": {
-      "price": 78.01,
+      "price": 78.50,
       "prev_close": 74.20,
-      "change": "+5.2%",
-      "note": "Brent飙升至$78，中东供应担忧加剧"
+      "change": "+5.8%",
+      "note": "Brent逼近$80关口，俄罗斯禁止柴油出口加剧供应紧张"
     }
   },
   "crypto": {
     "bitcoin": {
-      "price": 61754,
-      "change_24h": "-2.47%",
-      "note": "BTC回撤至$61,754，受风险情绪影响"
+      "price": 62435,
+      "change_24h": "+0.3%",
+      "note": "BTC企稳$62K上方，风险情绪边际改善"
     },
     "ethereum": {
-      "price": 1735,
-      "change_24h": "+5.0%",
-      "note": "ETH逆势上涨至$1,735，市场预期美联储降息"
+      "price": 1747,
+      "change_24h": "-1.5%",
+      "note": "ETH小幅回落至$1,747"
     }
   },
   "key_events": [
-    "Trump在NATO峰会宣布美伊停火协议破裂，美军对伊朗发动新一轮打击",
-    "WTI原油飙升5.2%至$73.96，Brent涨至$78.01",
-    "能源股上涨（CVX/XOM +1%+），芯片股下跌（MU -3%）",
-    "美联储会议纪要即将公布，市场关注利率分歧与通胀前景",
-    "Yardeni警告伊朗危机可能迫使美联储加息",
-    "BTC $61,754（-2.47%）, ETH $1,735（+5.0%）",
-    "阿根廷将偿还40亿美元债券"
+    "美国对伊朗发起第二轮空袭，特朗普称将'猛烈打击'，停火协议彻底破裂",
+    "WTI原油暴涨5.5%至$75.98，Brent涨至$78.50，能源板块飙升",
+    "美联储6月FOMC会议纪要公布，讨论年内降息路径，但官员对通胀前景存分歧",
+    "俄罗斯宣布禁止柴油出口，全球燃料供应担忧加剧",
+    "亚洲芯片股集体反弹带动日韩股市上涨，Bloomberg: Asian Shares Rise as Chips Rally",
+    "BTC $62,435（+0.3%）, ETH $1,747（-1.5%）",
+    "上证指数昨收3,970.88（-0.49%），今日低开关注地缘风险传导"
   ],
   "sources": {
     "news": [
-      "CNBC: Dow drops 400 points; oil surges after Trump declares Iran ceasefire over",
-      "Bloomberg: Oil surges after Trump says US ceasefire with Iran is over",
-      "Bloomberg: Yardeni warns inflation, Fed back in play as Iran crisis returns"
+      "CNBC: S&P 500 futures little changed as traders assess rising US-Iran tensions",
+      "FT: US launches second day of strikes against Iran",
+      "Bloomberg: Asian Shares Rise as Chips Rally, Brent Advances",
+      "MarketWatch: Higher gas prices aren't the only way rising tensions with Iran will hit home",
+      "Bloomberg: Oil Extends Gain as Fresh US Strikes Against Iran Rattle Market"
     ]
   }
 }

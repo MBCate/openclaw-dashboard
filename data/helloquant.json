@@ -1,88 +1,326 @@
 {
-  "timestamp": "2026-07-08T15:21:46.597656",
-  "date": "2026-07-08",
-  "crypto": {
-    "BTC/USDT": {
-      "price": 62713.0,
-      "change_24h_pct": -0.98,
-      "high_24h": 64247.9,
-      "low_24h": 62467.6,
-      "volume_24h": 414770995.6102647,
-      "rsi_4h": 41.9,
-      "macd_status_4h": "死叉",
-      "trend_4h": "偏多",
-      "rsi_1h": 22.3,
-      "macd_status_1h": "死叉",
-      "trend_1h": "偏空"
-    },
-    "ETH/USDT": {
-      "price": 1749.6,
-      "change_24h_pct": -1.69,
-      "high_24h": 1813.2,
-      "low_24h": 1741.74,
-      "volume_24h": 224769882.87116963,
-      "rsi_4h": 39.2,
-      "macd_status_4h": "死叉",
-      "trend_4h": "偏空",
-      "rsi_1h": 20.7,
-      "macd_status_1h": "死叉",
-      "trend_1h": "偏空"
+  "timestamp": "2026-07-09 15:21:06",
+  "date": "2026-07-09",
+  "stocks": {
+    "status": "success",
+    "data": {
+      "上证指数": {
+        "price": 4036.59,
+        "change": 1.655,
+        "volume": 553063980.0
+      },
+      "深证成指": {
+        "price": 15398.73,
+        "change": 3.072,
+        "volume": 71619379945.0
+      },
+      "创业板指": {
+        "price": 4018.17,
+        "change": 4.494,
+        "volume": 20837813552.0
+      }
     }
   },
-  "stocks": {
-    "上证指数": {
-      "price": 3970.8797,
-      "change": -0.485,
-      "volume": 496229374.0
-    },
-    "深证成指": {
-      "price": 14939.727,
-      "change": -1.874
-    },
-    "创业板指": {
-      "price": 3845.351,
-      "change": -1.701
-    },
-    "沪金主力": {
-      "price": 903.76,
-      "change": -0.45,
-      "date": "2026-07-07"
-    },
-    "沪银主力": {
-      "price": 14880.0,
-      "change": -1.35,
-      "date": "2026-07-07"
-    },
-    "沪铜主力": {
-      "price": 102970.0,
-      "change": 0.01,
-      "date": "2026-07-07"
-    },
-    "螺纹钢主力": {
-      "price": 3068.0,
-      "change": -0.13,
-      "date": "2026-07-07"
-    },
-    "沪深300期货": {
-      "price": 4703.4,
-      "change": -1.05,
-      "date": "2026-07-07"
-    },
-    "中证500期货": {
-      "price": 8322.6,
-      "change": -1.71,
-      "date": "2026-07-07"
-    },
-    "50ETF波动率": {
-      "value": 21.09,
-      "date": "2026-07-07"
+  "signals": {
+    "status": "success",
+    "data": {
+      "DoubleMa": {
+        "1h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        },
+        "4h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        }
+      },
+      "RSI": {
+        "1h": {
+          "signal": "做多",
+          "current_price": 62699.3
+        },
+        "4h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        }
+      },
+      "MACD": {
+        "1h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        },
+        "4h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        }
+      },
+      "Bollinger": {
+        "1h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        },
+        "4h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        }
+      },
+      "Supertrend": {
+        "1h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        },
+        "4h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        }
+      },
+      "TripleMa": {
+        "1h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        },
+        "4h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        }
+      },
+      "Momentum": {
+        "1h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        },
+        "4h": {
+          "signal": "做空",
+          "current_price": 62699.3
+        }
+      },
+      "MeanReversion": {
+        "1h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        },
+        "4h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        }
+      }
+    }
+  },
+  "crypto": {
+    "status": "success",
+    "data": {
+      "BTC/USDT": {
+        "price": 62713.0,
+        "change_24h": -0.9775453521989638,
+        "high_24h": 64247.9,
+        "low_24h": 62467.6,
+        "volume_24h": 414770995.6102647,
+        "indicators_1h": {
+          "rsi": 22.3,
+          "macd": -195.99,
+          "macd_signal": -88.12,
+          "macd_status": "死叉",
+          "ma5": 62720.08,
+          "ma20": 63351.29,
+          "bb_upper": 64317.1,
+          "bb_lower": 62385.48,
+          "trend": "偏空"
+        },
+        "indicators_4h": {
+          "rsi": 41.9,
+          "macd": 324.08,
+          "macd_signal": 483.34,
+          "macd_status": "死叉",
+          "ma5": 63324.36,
+          "ma20": 63206.94,
+          "bb_upper": 64146.98,
+          "bb_lower": 62266.89,
+          "trend": "偏多"
+        }
+      },
+      "ETH/USDT": {
+        "price": 1749.6,
+        "change_24h": -1.6896390903931626,
+        "high_24h": 1813.2,
+        "low_24h": 1741.74,
+        "volume_24h": 224769882.87116963,
+        "indicators_1h": {
+          "rsi": 20.7,
+          "macd": -8.29,
+          "macd_signal": -5.01,
+          "macd_status": "死叉",
+          "ma5": 1752.74,
+          "ma20": 1774.52,
+          "bb_upper": 1811.38,
+          "bb_lower": 1737.65,
+          "trend": "偏空"
+        },
+        "indicators_4h": {
+          "rsi": 39.2,
+          "macd": 12.0,
+          "macd_signal": 20.32,
+          "macd_status": "死叉",
+          "ma5": 1772.19,
+          "ma20": 1775.57,
+          "bb_upper": 1804.38,
+          "bb_lower": 1746.76,
+          "trend": "偏空"
+        }
+      }
     }
   },
   "sentiment": {
-    "crypto_fear_greed": {
-      "value": 20,
-      "classification": "Extreme Fear",
-      "timestamp": "1783468800"
+    "status": "success",
+    "data": {
+      "crypto_fear_greed": {
+        "value": 20,
+        "classification": "Extreme Fear",
+        "timestamp": "1783468800"
+      }
     }
-  }
+  },
+  "news": {
+    "status": "success",
+    "data": [
+      {
+        "source": "Cointelegraph",
+        "title": "EU to again vote to extend ‘chat control’ rules",
+        "link": "https://cointelegraph.com/news/eu-to-again-vote-to-extend-chat-control-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Wed, 08 Jul 2026 06:33:46 +0000",
+        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"EU to again vote to extend ‘chat control’ rules\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-cover"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Here’s what happened in crypto today",
+        "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Wed, 08 Jul 2026 06:05:32 +0000",
+        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here’s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/article-c"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "StarkWare CEO suggests 4% annual Bitcoin inflation to replace 21M cap",
+        "link": "https://cointelegraph.com/news/starkware-ceo-suggests-4-annual-bitcoin-inflation-to-replace-21m-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Wed, 08 Jul 2026 05:48:42 +0000",
+        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"StarkWare CEO suggests 4% annual Bitcoin inflation to replace 21M cap\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia."
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Swyftx eyes crypto payments after securing Australian license",
+        "link": "https://cointelegraph.com/news/swyftx-eyes-crypto-payments-space-after-securing-australian-license?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Wed, 08 Jul 2026 05:30:03 +0000",
+        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Swyftx eyes crypto payments after securing Australian license\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Secret Network cites AI exploit risks in proposed Arbitrum move",
+        "link": "https://cointelegraph.com/news/secret-network-cites-ai-exploit-risks-in-proposed-arbitrum-move?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Wed, 08 Jul 2026 03:54:27 +0000",
+        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Secret Network cites AI exploit risks in proposed Arbitrum move\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/med"
+      }
+    ]
+  },
+  "papers": {
+    "status": "success",
+    "data": [
+      {
+        "title": "What Useful Alphas?",
+        "authors": [
+          "Andrew Y. Chen",
+          "Ivo Welch"
+        ],
+        "summary": "This paper examines about 200 published long-short anomaly equity portfolios (Chen and Zimmermann, 2022). Over the period through 2005 (December 2005 and earlier) and across all stocks, their median zero-investment return was an impressive 48 bp per month. Using only post-2005 years (January 2006 on",
+        "link": "http://arxiv.org/abs/2607.06502v1",
+        "published": "2026-07-07"
+      },
+      {
+        "title": "Error Propagation in Spectral Functionals of Shrinkage Covariance Estimators: Perturbation Bounds and Calibrated Inference",
+        "authors": [
+          "Ahmad Koman"
+        ],
+        "summary": "Rolling covariance estimates feed two objects that are routinely treated as market structure. The first is the dominant eigenspace, monitored through the projector movement $\\widehat D_{K,t}=\\|\\widehat P_{K,t}-\\widehat P_{K,t-1}\\|_F$; the second comprises scalar spectral functionals such as the abso",
+        "link": "http://arxiv.org/abs/2607.06373v1",
+        "published": "2026-07-07"
+      },
+      {
+        "title": "Entropic Dynamics of Jump-Diffusion Option Pricing",
+        "authors": [
+          "Mohammad Abedi"
+        ],
+        "summary": "Standard models of stock price dynamics and option valuation usually begin by postulating stochastic processes. This paper develops an entropic inference framework that derives these processes from information constraints. The key symmetry is that markets reward returns rather than price levels, whi",
+        "link": "http://arxiv.org/abs/2607.06355v1",
+        "published": "2026-07-07"
+      },
+      {
+        "title": "Signature-based identification of volatility models from path geometry",
+        "authors": [
+          "Òscar Burés",
+          "Rafael De Santiago"
+        ],
+        "summary": "We propose a signature-based framework for the identification of stochastic volatility model classes from observed path data. By mapping volatility trajectories into a feature space via truncated path signatures and applying a gradient boosting classifier, we show that it is possible to distinguish ",
+        "link": "http://arxiv.org/abs/2607.06340v1",
+        "published": "2026-07-07"
+      },
+      {
+        "title": "Stable Sentiment and Persistent Dynamics in U.S. Economic News over 45 Years",
+        "authors": [
+          "Luis Enrique Correa Rocha"
+        ],
+        "summary": "Collective emotion is often inferred from the tone of mass media, but such emotion is not directly observed. One approximation is to extract sentiment from text and use sentiment indexes as proxies to study the temporal organization of news sentiment. Using a daily index of U.S. economic news sentim",
+        "link": "http://arxiv.org/abs/2607.06220v1",
+        "published": "2026-07-07"
+      },
+      {
+        "title": "Arbitrage-Free Multi-Maturity Risk-Neutral Marginals",
+        "authors": [
+          "Hao Qin",
+          "Ruozhong Yang",
+          "Charlie Che"
+        ],
+        "summary": "Many quantitative finance methods and applications are formulated in terms of option-implied risk-neutral marginals rather than directly in terms of option prices. Representative examples include martingale optimal transport, Bass local-volatility calibration, scenario analysis, and option-implied t",
+        "link": "http://arxiv.org/abs/2607.06204v1",
+        "published": "2026-07-07"
+      },
+      {
+        "title": "From Gravity to Confinement: Wealth Redistribution as Optimal Drift Design in the Fokker-Planck Framework",
+        "authors": [
+          "Anders G Frøseth"
+        ],
+        "summary": "A proportional wealth tax acts as a uniform gravitational field on the wealth distribution: it shifts the drift of the Fokker-Planck equation without altering the diffusion, preserving the Gini coefficient at all finite times. The same drift-shift symmetry that makes the tax non-distortionary also m",
+        "link": "http://arxiv.org/abs/2607.06153v1",
+        "published": "2026-07-07"
+      },
+      {
+        "title": "Can Reinforcement Learning Efficiently Discover Price Manipulation?",
+        "authors": [
+          "Ioanna-Yvonni Tsaknaki",
+          "Andrea Macrì",
+          "Fabrizio Lillo"
+        ],
+        "summary": "In this paper, we investigate whether a model-free RL agent can identify and exploit price manipulation opportunities more effectively than a traditional model-based approach that assumes correct specification of the data-generating process but relies on noisy parameter estimates. We consider a sing",
+        "link": "http://arxiv.org/abs/2607.06121v1",
+        "published": "2026-07-07"
+      },
+      {
+        "title": "Relief-Gated Relative Rotation for QQQ-DIA Allocation: Globally Screened Relative States, Fixed Position Mapping, Incremental Interaction Admission, and Walk-Forward Validation",
+        "authors": [
+          "Zheli Xiong"
+        ],
+        "summary": "This paper studies Relief-Gated Relative Rotation (RGRR), a two-ETF rule that allocates between QQQ and DIA by mapping screened relative and macro states into a continuous QQQ weight. RGRR is economic rather than mechanical: it rotates between a growth-heavy sleeve and a Dow/value-heavy sleeve only ",
+        "link": "http://arxiv.org/abs/2607.06117v1",
+        "published": "2026-07-07"
+      },
+      {
+        "title": "Stability and Dual Valuation of Contingent Claims under Rockafellian Perturbations",
+        "authors": [
+          "Wolfgang Breytmann",
+          "Julio Deride",
+          "Nicolás Hernández"
+        ],
+        "summary": "We study the stability of solutions to the discrete-time contingent-claim problem over a finite investment horizon when uncertainty is modeled by random variables with finite discrete support. Our main contribution is to use Rockafellian perturbations as a framework for this stability analysis: we c",
+        "link": "http://arxiv.org/abs/2607.05697v1",
+        "published": "2026-07-06"
+      }
+    ]
+  },
+  "note": "策略信号为昨日数据，今日收盘后尚未运行策略更新"
 }

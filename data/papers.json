@@ -1,32 +1,20 @@
 {
-  "date": "2026-07-08",
+  "date": "2026-07-09",
   "week": "2026-W28",
-  "total": 67,
-  "new": 50,
+  "total": 77,
+  "new": 10,
   "known": 17,
   "top5": [
     {
-      "id": "2606.29879",
-      "title": "LWDrive: Layer-Wise World-Model-Guided Vision-Language Model Planning for Autonomous Driving",
-      "authors": "Chen Yang, Yuhao Wei, Ze Xu, Ziheng Zou, Shuang Liang, Delin Ouyang",
-      "date": "2026-06-29",
-      "category": "VLM / world model planning",
+      "id": "2607.06216",
+      "title": "MoWorld: A Flash World Model",
+      "authors": "Team Moxin, Deyi Ji, Tianrun Chen, Xin Zhang, Jiale Yang",
+      "date": "2026-07-09",
+      "category": "world model / real-time inference",
       "stars": 5,
       "status": "新发现",
       "kb_path": "",
-      "score": 3,
-      "weekly": true
-    },
-    {
-      "id": "2607.04637",
-      "title": "PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving",
-      "authors": "Pin Tang, Guoqing Wang, Xiangxuan Ren, Zhongdao Wang, Guodongfang Zhao, Bailan",
-      "date": "2026-07-06",
-      "category": "VLA / end-to-end driving",
-      "stars": 5,
-      "status": "新发现",
-      "kb_path": "",
-      "score": 3,
+      "score": 5,
       "weekly": true
     },
     {
@@ -65,9 +53,131 @@
       "kb_path": "",
       "score": 3,
       "weekly": true
+    },
+    {
+      "id": "2606.29384",
+      "title": "Event-VLA: Action-Conditioned Event Fusion for Robust Vision-Language-Action Model",
+      "authors": "Jiaxin Liu, Xun Xu, Zhenhao Zhang, Hanqing Wang, Ruiqi Chen, Shi Chang, Weiyu Guo, Laurent Kneip",
+      "date": "2026-07-07",
+      "category": "VLA / event camera",
+      "stars": 5,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3,
+      "weekly": true
     }
   ],
   "papers": [
+    {
+      "id": "2607.06216",
+      "title": "MoWorld: A Flash World Model",
+      "authors": "Team Moxin, Deyi Ji, Tianrun Chen, Xin Zhang, Jiale Yang",
+      "date": "2026-07-09",
+      "category": "world model / real-time inference",
+      "stars": 5,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 5
+    },
+    {
+      "id": "2607.06328",
+      "title": "Driving the Wrong Way: Leveraging Interpretability in End2End Autonomous Driving Models",
+      "authors": "Franz Motzkus, Sebastian Bernhard",
+      "date": "2026-07-09",
+      "category": "E2E autonomous driving / interpretability",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 4
+    },
+    {
+      "id": "2607.06564",
+      "title": "Lift3D-VLA: Lifting VLA Models to 3D Geometry and Dynamics-Aware Manipulation",
+      "authors": "Jiaming Liu, Qingpo Wuwu, Nuowei Han, Hao Chen, Zhuoyang Liu, Fan Fei, Yueru Jia, Chenyang Gu",
+      "date": "2026-07-09",
+      "category": "VLA / 3D reasoning",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 4
+    },
+    {
+      "id": "2607.06319",
+      "title": "Synthetic-to-Real Translation for Class-Agnostic Motion Prediction",
+      "authors": "Yizheng Wu, Hongwei Fan, Kewei Wang, Ruibo Li, Xingyi Li, Xiao Song, Zhe Wang, Chenjing Ding",
+      "date": "2026-07-09",
+      "category": "motion prediction / synthetic data",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2607.06442",
+      "title": "SIEVE: Structure-Aware Data Selection for Imitation Learning with VLA Models",
+      "authors": "Changti Wu, Bin Yu, Zhaolong Shen, Shijie Lian, Xiaopeng Lin, Cong Huang, Zhirui Zhang, Lei Zhang",
+      "date": "2026-07-09",
+      "category": "VLA / imitation learning",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2607.06370",
+      "title": "Training-Free Acceleration for VLA Models with Action Caching and Refinement",
+      "authors": "Ryuji Oi, Hikari Otsuka, Kosuke Matsushima, Yuki Ichikawa, Masato Motomura, Tatsuya Kaneko, Daichi Fujiki",
+      "date": "2026-07-09",
+      "category": "VLA / inference acceleration",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2607.06559",
+      "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
+      "authors": "Haoyu Zhao, Xingyue Zhao, Siteng Huang, Xin Li, Deli Zhao, Zhongyu Li",
+      "date": "2026-07-09",
+      "category": "world model / 4D dynamics",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2607.06558",
+      "title": "RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation",
+      "authors": "Haoyu Zhao, Xingyue Zhao, Hangyu Li, Biao Gong, Kehan Li, Siteng Huang, Xin Li, Deli Zhao",
+      "date": "2026-07-09",
+      "category": "world model / data collection",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2607.06522",
+      "title": "Bridging Physical Reasoning and Task Generalization via Visual Action Outcome Reasoning Alignment",
+      "authors": "Han-Jun Ko, Jr-Jen Chen, Haobo Yuan, Hsin-Ying Lee, Tiancheng Shen, Ming-Hsuan Yang, Yu-Chiang Frank Wang",
+      "date": "2026-07-09",
+      "category": "VLM / physical reasoning",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2607.06501",
+      "title": "Hypothesis-driven Model Expansion under Uncertainty for Open-World Robot Planning",
+      "authors": "Anxing Xiao, Hanbo Zhang, Tianrun Hu, David Hsu",
+      "date": "2026-07-09",
+      "category": "robot planning / world models",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
     {
       "id": "2607.05390",
       "title": "Deform360: A Massive Multi-view Visuotactile Dataset for Deformable World Models",
@@ -616,7 +726,8 @@
       "status": "新发现",
       "authors": "William English et al.",
       "abstract_short": "Neuro-symbolic safety for flow matching based VLAs. 82.8% collision avoidance, 6.3% improvement on SafeLIBERO.",
-      "url": "https://arxiv.org/abs/2607.01378"
+      "url": "https://arxiv.org/abs/2607.01378",
+      "stars": 4
     },
     {
       "id": "2607.01281",
@@ -628,7 +739,8 @@
       "status": "新发现",
       "authors": "et al.",
       "abstract_short": "Hierarchical RL for UAV landing.",
-      "url": "https://arxiv.org/abs/2607.01281"
+      "url": "https://arxiv.org/abs/2607.01281",
+      "stars": 3
     },
     {
       "id": "2607.01794",
@@ -640,7 +752,8 @@
       "status": "新发现",
       "authors": "et al.",
       "abstract_short": "Lightweight safe RL for UAV navigation.",
-      "url": "https://arxiv.org/abs/2607.01794"
+      "url": "https://arxiv.org/abs/2607.01794",
+      "stars": 3
     },
     {
       "id": "2607.01287",
@@ -652,7 +765,8 @@
       "status": "新发现",
       "authors": "et al.",
       "abstract_short": "VLM-based adaptive group accompaniment with MPPI controller. 15% success improvement, 25% collision reduction.",
-      "url": "https://arxiv.org/abs/2607.01287"
+      "url": "https://arxiv.org/abs/2607.01287",
+      "stars": 3
     },
     {
       "id": "2607.01410",
@@ -664,7 +778,8 @@
       "status": "新发现",
       "authors": "et al.",
       "abstract_short": "Bisimulation-based shared latent for zero-shot sim2real transfer.",
-      "url": "https://arxiv.org/abs/2607.01410"
+      "url": "https://arxiv.org/abs/2607.01410",
+      "stars": 3
     },
     {
       "id": "2607.01454",
@@ -676,7 +791,8 @@
       "status": "新发现",
       "authors": "et al.",
       "abstract_short": "Yaw-dependent traversability encoding with ASA pathfinding strategy for ground robots.",
-      "url": "https://arxiv.org/abs/2607.01454"
+      "url": "https://arxiv.org/abs/2607.01454",
+      "stars": 3
     },
     {
       "id": "2607.01304",
@@ -688,7 +804,8 @@
       "status": "新发现",
       "authors": "et al.",
       "abstract_short": "Systematic survey of ROS 2 middleware through Space, Time, State dimensions.",
-      "url": "https://arxiv.org/abs/2607.01304"
+      "url": "https://arxiv.org/abs/2607.01304",
+      "stars": 3
     },
     {
       "id": "2507.00603",
@@ -700,7 +817,8 @@
       "status": "新发现",
       "authors": "Yupeng Zheng, Pengxuan Yang, Zebin Xing et al.",
       "abstract_short": "Perception annotation-free e2e planning via self-supervised latent world model with vision foundation priors. SOTA on nuScenes closed-loop.",
-      "url": "https://arxiv.org/abs/2507.00603"
+      "url": "https://arxiv.org/abs/2507.00603",
+      "stars": 5
     },
     {
       "id": "2601.04453",
@@ -712,7 +830,8 @@
       "status": "新发现",
       "authors": "et al.",
       "abstract_short": "Unified framework integrating scene understanding with world model prediction for e2e driving.",
-      "url": "https://arxiv.org/abs/2601.04453"
+      "url": "https://arxiv.org/abs/2601.04453",
+      "stars": 4
     },
     {
       "id": "2512.16760",
@@ -724,7 +843,8 @@
       "status": "新发现",
       "authors": "et al.",
       "abstract_short": "Multimodal world model learning for autonomous driving.",
-      "url": "https://arxiv.org/abs/2512.16760"
+      "url": "https://arxiv.org/abs/2512.16760",
+      "stars": 4
     },
     {
       "id": "2604.02714",
@@ -736,7 +856,8 @@
       "status": "已知",
       "authors": "et al.",
       "abstract_short": "VLA model for e2e driving. Has analysis in knowledge base (vla-autonomous-driving).",
-      "url": "https://arxiv.org/abs/2604.02714"
+      "url": "https://arxiv.org/abs/2604.02714",
+      "stars": 4
     },
     {
       "id": "2604.12656",
@@ -748,7 +869,8 @@
       "status": "已知",
       "authors": "et al.",
       "abstract_short": "Feature-level e2e driving architecture. Has analysis in knowledge base.",
-      "url": "https://arxiv.org/abs/2604.12656"
+      "url": "https://arxiv.org/abs/2604.12656",
+      "stars": 4
     },
     {
       "id": "2602.22801",
@@ -760,7 +882,8 @@
       "status": "已知",
       "authors": "et al.",
       "abstract_short": "Diffusion policy for e2e autonomous driving. Has analysis in knowledge base.",
-      "url": "https://arxiv.org/abs/2602.22801"
+      "url": "https://arxiv.org/abs/2602.22801",
+      "stars": 4
     },
     {
       "id": "2605.15120",
@@ -772,7 +895,8 @@
       "status": "已知",
       "authors": "et al.",
       "abstract_short": "Closed-loop verifiable e2e driving. Has analysis in knowledge base.",
-      "url": "https://arxiv.org/abs/2605.15120"
+      "url": "https://arxiv.org/abs/2605.15120",
+      "stars": 4
     },
     {
       "id": "2606.02105",
@@ -784,7 +908,8 @@
       "status": "已知",
       "authors": "et al.",
       "abstract_short": "Agent diffusion transformer for e2e driving. Has analysis in knowledge base.",
-      "url": "https://arxiv.org/abs/2606.02105"
+      "url": "https://arxiv.org/abs/2606.02105",
+      "stars": 4
     },
     {
       "id": "2605.16737",
@@ -796,7 +921,8 @@
       "status": "已知",
       "authors": "et al.",
       "abstract_short": "Safety-aware e2e autonomous driving framework. Has analysis in knowledge base.",
-      "url": "https://arxiv.org/abs/2605.16737"
+      "url": "https://arxiv.org/abs/2605.16737",
+      "stars": 4
     },
     {
       "id": "2604.09059",
@@ -808,7 +934,8 @@
       "status": "新发现",
       "authors": "et al.",
       "abstract_short": "Contrastive vision-language pre-training for world model in driving.",
-      "url": "https://arxiv.org/abs/2604.09059"
+      "url": "https://arxiv.org/abs/2604.09059",
+      "stars": 4
     },
     {
       "id": "2503.23463",
@@ -820,7 +947,8 @@
       "status": "新发现",
       "authors": "et al.",
       "abstract_short": "Mamba-based efficient 3D occupancy prediction for autonomous driving.",
-      "url": "https://arxiv.org/abs/2503.23463"
+      "url": "https://arxiv.org/abs/2503.23463",
+      "stars": 3
     },
     {
       "id": "2512.00723",
@@ -832,7 +960,8 @@
       "status": "新发现",
       "authors": "et al.",
       "abstract_short": "Parallel driving framework with end-to-end model.",
-      "url": "https://arxiv.org/abs/2512.00723"
+      "url": "https://arxiv.org/abs/2512.00723",
+      "stars": 3
     }
   ]
 }

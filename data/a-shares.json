@@ -1,90 +1,66 @@
 {
-  "timestamp": "2026-07-08 15:00",
-  "date": "2026-07-08",
+  "update_time": "2026-07-09 11:38:01",
+  "session": "noon",
+  "date": "2026-07-09",
   "indices": {
     "上证指数": {
-      "price": 3970.8797,
-      "change_pct": -0.49,
-      "volume": 496229374.0,
-      "amount": 1192355798216.0,
-      "high": 4016.0262,
-      "low": 3967.9128,
-      "open": 3996.8069,
-      "pre_close": 3990.2353,
-      "amount_yi": 11923.56
+      "code": "000001",
+      "price": 3952.49,
+      "change": -18.39,
+      "change_pct": -0.46,
+      "volume": "33.08亿",
+      "amount": "790.77亿"
     },
     "深证成指": {
-      "price": 14939.727,
-      "change_pct": -1.87,
-      "volume": 65443382528.0,
-      "amount": 1371160206475.791,
-      "high": 15292.122,
-      "low": 14907.624,
-      "open": 15269.821,
-      "pre_close": 15225.11,
-      "amount_yi": 13711.6
+      "code": "399001",
+      "price": 14887.99,
+      "change": -51.73,
+      "change_pct": -0.35,
+      "volume": "44.50亿",
+      "amount": "906.28亿"
     },
     "创业板指": {
-      "price": 3845.351,
-      "change_pct": -1.7,
-      "volume": 19257204922.0,
-      "amount": 651773535748.42,
-      "high": 3965.388,
-      "low": 3824.33,
-      "open": 3932.42,
-      "pre_close": 3911.91,
-      "amount_yi": 6517.74
+      "code": "399006",
+      "price": 3850.21,
+      "change": 4.86,
+      "change_pct": 0.13,
+      "volume": "2.79亿",
+      "amount": "195.77亿"
     },
     "沪深300": {
-      "price": 4755.5338,
-      "change_pct": -0.77,
-      "volume": 243928749.0,
-      "amount": 783248978281.0,
-      "high": 4830.0464,
-      "low": 4751.4045,
-      "open": 4804.4837,
-      "pre_close": 4792.26,
-      "amount_yi": 7832.49
+      "code": "000300",
+      "price": 4758.39,
+      "change": 2.86,
+      "change_pct": 0.06,
+      "volume": "16.45亿",
+      "amount": "534.48亿"
     },
-    "上证50": {
-      "price": 2920.84,
-      "change_pct": -0.04,
-      "volume": 51438184.0,
-      "amount": 21000950.0,
-      "high": 2955.52,
-      "low": 2915.8,
-      "open": 2929.9,
-      "pre_close": 2921.89,
-      "amount_yi": 0.21
-    },
-    "科创50": {
-      "price": 2016.23,
-      "change_pct": 0.73,
-      "volume": 15720588.0,
-      "amount": 16935031.0,
-      "high": 2078.64,
-      "low": 1961.64,
-      "open": 2022.45,
-      "pre_close": 2001.59,
-      "amount_yi": 0.17
+    "恒生指数": {
+      "code": "HSI",
+      "price": 24018.44,
+      "change": -181.02,
+      "change_pct": -0.75,
+      "volume": "",
+      "amount": ""
     }
   },
+  "sectors": {
+    "top_gainers": [
+      {
+        "name": "数据暂缺",
+        "change_pct": 0
+      }
+    ],
+    "top_losers": [
+      {
+        "name": "数据暂缺",
+        "change_pct": 0
+      }
+    ],
+    "note": "行业板块数据因东方财富API不可用暂缺"
+  },
   "north_flow": {
-    "sh_net_yuan": 5200000.0,
-    "sz_net_yuan": 5200000.0,
-    "total_net_yuan": 10400000.0,
-    "sh_net_yi": 0.05,
-    "sz_net_yi": 0.05,
-    "total_net_yi": 0.1,
-    "sh_south_yi": 0.04
-  },
-  "boards": {
-    "top_5": [],
-    "bottom_5": []
-  },
-  "concepts": {
-    "top_5": [],
-    "bottom_5": []
-  },
-  "breadth": {}
+    "value": "数据暂缺",
+    "note": "北向资金数据因东方财富API不可用暂缺"
+  }
 }

@@ -1,70 +1,70 @@
 {
-  "updated": "2026-07-09T09:15:00+08:00",
+  "updated_at": "2026-07-09T21:30:00+08:00",
+  "date": "2026-07-09",
   "us_markets": {
-    "dow_jones": {
-      "price": 52350,
-      "prev_close": 52925.15,
-      "change": "-575 (-1.1%)",
-      "note": "伊朗局势升级，道指跌575点创近2月最大单日跌幅"
-    },
-    "sp500": {
-      "price": 7436,
-      "prev_close": 7503.85,
-      "change": "-0.3%",
-      "note": "能源股大涨难掩整体颓势，标普小幅下跌"
-    },
-    "nasdaq": {
-      "price": 25715,
-      "prev_close": 25585,
-      "change": "+0.2%",
-      "note": "芯片股分化，英伟达反弹支撑纳指微涨"
-    },
-    "futures": {
-      "note": "期指盘前小幅波动：S&P期货+0.1%，纳指期货+0.2%，道指期货平盘，市场关注今日CPI数据"
-    }
-  },
-  "commodities": {
-    "wti_crude": {
-      "price": 75.98,
-      "prev_close": 69.60,
-      "change": "+5.54%",
-      "note": "美对伊朗新一轮打击，WTI突破$75，单日涨幅5.5%"
-    },
-    "brent_crude": {
-      "price": 78.50,
-      "prev_close": 74.20,
-      "change": "+5.8%",
-      "note": "Brent逼近$80关口，俄罗斯禁止柴油出口加剧供应紧张"
-    }
+    "summary": "美股期货涨跌互现，Nasdaq 期货上涨 0.7%，S&P 500 期货基本持平，道指期货微跌 0.1%。中东地缘局势（美伊互袭）压制风险偏好，但科技股受 AI 主题支撑。PepsiCo Q2 财报不及预期，消费者支出走弱",
+    "indices": [
+      { "name": "S&P 500", "current": null, "change_pct": null, "note": "期货：ES=F +0.1%" },
+      { "name": "Nasdaq", "current": null, "change_pct": null, "note": "期货：NQ=F +0.7%，科技股反弹" },
+      { "name": "Dow Jones", "current": null, "change_pct": null, "note": "期货：YM=F -0.1%" }
+    ],
+    "key_events": [
+      "美伊冲突升级：美国对伊朗发动第二波空袭，霍尔木兹海峡局势紧张",
+      "PepsiCo (PEP) Q2 财报不及预期，北美消费者收紧预算",
+      "SK Hynix 以万亿估值登陆美国市场",
+      "俄亥俄州被评为 2026 年美国最佳商业州"
+    ]
   },
   "crypto": {
-    "bitcoin": {
-      "price": 62435,
-      "change_24h": "+0.3%",
-      "note": "BTC企稳$62K上方，风险情绪边际改善"
+    "summary": "加密市场承压，BTC 下跌 1.2% 至 $62,257，受美伊冲突风险偏好回落拖累。MicroStrategy (Strategy) 售出 3,588 BTC（约 $2.16 亿），为 2020 年以来最大规模卖出",
+    "assets": [
+      {
+        "name": "Bitcoin (BTC)",
+        "price_usd": 62257,
+        "change_24h_pct": -1.22,
+        "note": "Strategy 减持 3,588 BTC 至 843,775 BTC；Q2 持仓未实现亏损 $83.1 亿"
+      },
+      {
+        "name": "Ethereum (ETH)",
+        "price_usd": null,
+        "change_24h_pct": null,
+        "note": "跟随 BTC 走弱，市场关注周五 CME ETH 期权到期"
+      }
+    ]
+  },
+  "commodities": {
+    "oil": {
+      "wti": 73.58,
+      "brent": 78.16,
+      "change_pct": "+1.17 (WTI 日涨)",
+      "note": "美伊冲突支撑油价，WTI 反弹至 $73.58，Brent $78.16。Kalshi 预测周五 Brent 有 55% 概率高于 $77.50"
     },
-    "ethereum": {
-      "price": 1747,
-      "change_24h": "-1.5%",
-      "note": "ETH小幅回落至$1,747"
+    "gold": {
+      "price_usd": null,
+      "note": "金价反弹，交易员评估美伊空袭及利率路径。BofA 下调 2026 年均金价预测 14% 至 $4,360/oz，理由为美联储鹰派预期"
     }
   },
-  "key_events": [
-    "美国对伊朗发起第二轮空袭，特朗普称将'猛烈打击'，停火协议彻底破裂",
-    "WTI原油暴涨5.5%至$75.98，Brent涨至$78.50，能源板块飙升",
-    "美联储6月FOMC会议纪要公布，讨论年内降息路径，但官员对通胀前景存分歧",
-    "俄罗斯宣布禁止柴油出口，全球燃料供应担忧加剧",
-    "亚洲芯片股集体反弹带动日韩股市上涨，Bloomberg: Asian Shares Rise as Chips Rally",
-    "BTC $62,435（+0.3%）, ETH $1,747（-1.5%）",
-    "上证指数昨收3,970.88（-0.49%），今日低开关注地缘风险传导"
+  "asia_markets": {
+    "summary": "亚太市场明日关注：日经受弱日元支撑有望反弹；恒生指数关注科技板块表现",
+    "nikkei_note": "弱日元利好出口板块，今日市场关注美伊局势演变"
+  },
+  "news_highlights": [
+    { "source": "CNBC", "title": "Trump says Iran called to make a deal after U.S. strikes; adds it's unclear if war is back on" },
+    { "source": "CNBC", "title": "Meet SK Hynix, the trillion-dollar South Korean chipmaker debuting on U.S. markets" },
+    { "source": "CNBC", "title": "PepsiCo earnings miss estimates as North American consumers tighten their budgets" },
+    { "source": "Bloomberg", "title": "US, Iran Trade Airstrikes as Fears Grow of a Return to War" },
+    { "source": "Bloomberg", "title": "Gold Rebounds as Traders Assess Iran Strikes, Interest-Rate Path" },
+    { "source": "WSJ", "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek" },
+    { "source": "WSJ", "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat" }
   ],
-  "sources": {
-    "news": [
-      "CNBC: S&P 500 futures little changed as traders assess rising US-Iran tensions",
-      "FT: US launches second day of strikes against Iran",
-      "Bloomberg: Asian Shares Rise as Chips Rally, Brent Advances",
-      "MarketWatch: Higher gas prices aren't the only way rising tensions with Iran will hit home",
-      "Bloomberg: Oil Extends Gain as Fresh US Strikes Against Iran Rattle Market"
-    ]
+  "geopolitical_risk": {
+    "level": "HIGH",
+    "key": "美伊冲突 - 美国连续两天空袭伊朗，霍尔木兹海峡紧张局势升级。Trump 表示伊朗已联系协商，但战争是否恢复仍不确定",
+    "impact": "推高油价、压制风险资产、黄金避险需求上升"
+  },
+  "macro_indicators": {
+    "fed_note": "BofA 预测美联储鹰派立场将延续，下调 2026 年金价预期",
+    "dollar_note": "美元走强对新兴市场和大宗商品构成压力",
+    "earnings_season": "PepsiCo 不及预期，市场关注下周大银行财报"
   }
 }

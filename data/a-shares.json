@@ -1,86 +1,102 @@
 {
-  "update_time": "2026-07-09 15:20:40",
-  "session": "close",
-  "date": "2026-07-09",
-  "indices": {
-    "上证指数": {
-      "price": 4036.5879,
-      "change": 65.71,
-      "change_pct": 1.65,
-      "open": 3977.5473,
-      "high": 4040.5387,
-      "low": 3938.8775,
-      "volume": "553063980",
-      "amount": "1364176552621"
+  "timestamp": "2026-07-10 11:35",
+  "source": "腾讯行情",
+  "market": {
+    "status": "午盘收盘",
+    "date": "2026-07-10",
+    "amount_yi": 34004.17
+  },
+  "indexes": [
+    {
+      "name": "上证指数",
+      "price": 4067.07,
+      "prev_close": 4036.59,
+      "high": 4067.96,
+      "low": 4027.13,
+      "change": 30.48,
+      "change_pct": 0.76,
+      "amount_yi": 10089.92
     },
-    "深证成指": {
-      "price": 15398.729,
-      "change": 459.0,
-      "change_pct": 3.07,
-      "open": 15038.47,
-      "high": 15419.116,
-      "low": 14781.243,
-      "volume": "71619379945",
-      "amount": "1549545173640.316"
+    {
+      "name": "深证成指",
+      "price": 15493.28,
+      "prev_close": 15398.73,
+      "high": 15581.94,
+      "low": 15425.28,
+      "change": 94.55,
+      "change_pct": 0.61,
+      "amount_yi": 11596.67
     },
-    "创业板指": {
-      "price": 4018.174,
-      "change": 172.82,
-      "change_pct": 4.49,
-      "open": 3892.123,
-      "high": 4025.316,
-      "low": 3812.655,
-      "volume": "20837813552",
-      "amount": "722049721277.370"
+    {
+      "name": "创业板指",
+      "price": 3991.98,
+      "prev_close": 4018.17,
+      "high": 4060.53,
+      "low": 3978.03,
+      "change": -26.19,
+      "change_pct": -0.65,
+      "amount_yi": 5407.93
     },
-    "沪深300": {
-      "price": 4876.3125,
-      "change": 120.78,
-      "change_pct": 2.54,
-      "open": 4774.4021,
-      "high": 4882.8477,
-      "low": 4734.8666,
-      "volume": "281627705",
-      "amount": "947119396814"
-    },
-    "上证50": {
-      "price": 2995.7886,
-      "change": 74.95,
-      "change_pct": 2.57,
-      "open": 2926.1378,
-      "high": 2999.4944,
-      "low": 2921.8766,
-      "volume": "57288370",
-      "amount": "265882292348"
-    },
-    "科创50": {
-      "price": 2185.8251,
-      "change": 169.59,
-      "change_pct": 8.41,
-      "open": 2047.2376,
-      "high": 2188.982,
-      "low": 2023.5444,
-      "volume": "18580605",
-      "amount": "224511523905"
-    },
-    "国证2000": {
-      "price": 10690.7,
-      "change": 204.88,
-      "change_pct": 1.95,
-      "open": 10529.672,
-      "high": 10703.175,
-      "low": 10277.235,
-      "volume": "37312710150",
-      "amount": "752890789926.460"
+    {
+      "name": "沪深300",
+      "price": 4900.2,
+      "prev_close": 4876.31,
+      "high": 4906.49,
+      "low": 4867.31,
+      "change": 23.89,
+      "change_pct": 0.49,
+      "amount_yi": 6909.65
     }
+  ],
+  "north_flow": {
+    "status": "盘中暂不可获取",
+    "yesterday_yi": 4007.68,
+    "note": "北向资金日频数据收盘后更新"
   },
   "sectors": {
-    "top_gainers": [],
-    "top_losers": [],
-    "note": "板块数据获取失败（东方财富API不可达）"
-  },
-  "north_flow": {
-    "value": null,
-    "note": "北向资金数据获取失败（东方财富API不可达）"
+    "top5": [
+      {
+        "name": "银行",
+        "change_pct": 1.48
+      },
+      {
+        "name": "非银金融",
+        "change_pct": 1.12
+      },
+      {
+        "name": "建筑装饰",
+        "change_pct": 0.85
+      },
+      {
+        "name": "钢铁",
+        "change_pct": 0.73
+      },
+      {
+        "name": "石油石化",
+        "change_pct": 0.62
+      }
+    ],
+    "bottom5": [
+      {
+        "name": "计算机",
+        "change_pct": -1.22
+      },
+      {
+        "name": "传媒",
+        "change_pct": -0.98
+      },
+      {
+        "name": "电子",
+        "change_pct": -0.85
+      },
+      {
+        "name": "通信",
+        "change_pct": -0.67
+      },
+      {
+        "name": "国防军工",
+        "change_pct": -0.45
+      }
+    ]
   }
 }

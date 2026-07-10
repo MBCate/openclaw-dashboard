@@ -1,8 +1,8 @@
 {
   "date": "2026-07-09",
   "week": "2026-W28",
-  "total": 77,
-  "new": 10,
+  "total": 92,
+  "new": 25,
   "known": 17,
   "top5": [
     {
@@ -962,6 +962,450 @@
       "abstract_short": "Parallel driving framework with end-to-end model.",
       "url": "https://arxiv.org/abs/2512.00723",
       "stars": 3
+    },
+    {
+      "id": "2607.07608",
+      "title": "Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation",
+      "authors": [
+        "Hongyu Qu",
+        "Jianzhe Gao",
+        "Xiaobin Hu",
+        "Shaohuan Yang",
+        "Xinlei Yu"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-07-08",
+      "abstract": "Mainstream VLA models predict actions primarily from current observation under Markovian assumption, struggling with long-horizon tasks. Proposes Dual Latent Memory (DLM) - memory recollection and memory thinking.",
+      "stars": 3,
+      "topics": [
+        "VLA"
+      ],
+      "status": "新发现",
+      "url": "https://arxiv.org/abs/2607.07608",
+      "score_reason": "VLA memory augmentation for manipulation, not directly driving-related",
+      "keywords": [
+        "VLA",
+        "memory",
+        "robotic manipulation",
+        "latent memory"
+      ]
+    },
+    {
+      "id": "2607.07601",
+      "title": "CARLA-GS: Decoupling Representation, Reasoning, and Physics Simulation for Autonomous Driving Corner-Case Synthesis",
+      "authors": [
+        "Kaicong Huang",
+        "Meng Ma",
+        "Ruimin Ke"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "published": "2026-07-08",
+      "abstract": "Safety evaluation for autonomous driving dominated by rare corner cases. Proposes CARLA-GS that decouples visual representation (3DGS), scene reasoning (LLM), and physics simulation for corner-case synthesis.",
+      "stars": 4,
+      "topics": [
+        "end-to-end autonomous driving",
+        "world models"
+      ],
+      "status": "新发现",
+      "url": "https://arxiv.org/abs/2607.07601",
+      "score_reason": "AD corner-case synthesis with 3DGS + LLM reasoning, directly driving-relevant",
+      "keywords": [
+        "corner case",
+        "3DGS",
+        "LLM",
+        "autonomous driving",
+        "safety evaluation"
+      ]
+    },
+    {
+      "id": "2607.07534",
+      "title": "Infinite Worlds with Versatile Interactions (LingBot-World 2.0)",
+      "authors": [
+        "Zelin Gao",
+        "Qiuyu Wang",
+        "Jiapeng Zhu",
+        "Jingye Chen",
+        "Zichen Liu"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-07-08",
+      "abstract": "LingBot-World 2.0: unbounded interaction horizon world model with causal pretraining. Generates infinite-length videos with consistent quality.",
+      "stars": 3,
+      "topics": [
+        "world models"
+      ],
+      "status": "新发现",
+      "url": "https://arxiv.org/abs/2607.07534",
+      "score_reason": "World model for video generation, general - not AD-specific",
+      "keywords": [
+        "world model",
+        "video generation",
+        "causal pretraining"
+      ]
+    },
+    {
+      "id": "2607.07491",
+      "title": "Smooth Operator: A Real-Time Sampling-Based Algorithm for Kinematic Hand Retargeting",
+      "authors": [
+        "Robert Jomar Malate",
+        "Erik Bauer",
+        "Norica Bacuieti",
+        "Stefanos Charalambous",
+        "Elvis Nava"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-07-08",
+      "abstract": "Real-time sampling-based algorithm for kinematic hand retargeting for teleoperation data collection for VLA/VAM models.",
+      "stars": 2,
+      "topics": [
+        "VLA"
+      ],
+      "status": "新发现",
+      "url": "https://arxiv.org/abs/2607.07491",
+      "score_reason": "Teleoperation data tool for VLA, not directly AD-related",
+      "keywords": [
+        "teleoperation",
+        "hand retargeting",
+        "VLA data"
+      ]
+    },
+    {
+      "id": "2607.07403",
+      "title": "Multi-Agent Robotic Control with Onboard Vision-Language Models",
+      "authors": [
+        "Kajetan Rachwał",
+        "Maciej Majek",
+        "Bartłomiej Boczek",
+        "Jakub Matejczyk",
+        "Dominik Matejkowski"
+      ],
+      "categories": [
+        "cs.MA",
+        "cs.RO"
+      ],
+      "published": "2026-07-08",
+      "abstract": "MAS architecture using onboard VLMs/VLAs for multi-agent robotic control with focus on explainability and compute efficiency.",
+      "stars": 3,
+      "topics": [
+        "VLA",
+        "LLM agents"
+      ],
+      "status": "新发现",
+      "url": "https://arxiv.org/abs/2607.07403",
+      "score_reason": "Multi-agent VLA control, interesting approach but not driving-specific",
+      "keywords": [
+        "multi-agent",
+        "VLA",
+        "VLM",
+        "robotic control"
+      ]
+    },
+    {
+      "id": "2607.07287",
+      "title": "TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation",
+      "authors": [
+        "Jianyi Zhou",
+        "Feiyang Hong",
+        "Yunhao Li",
+        "Yicheng Zhao",
+        "Yongjue Cen"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-07-08",
+      "abstract": "Tactile world model for dexterous manipulation combining vision, language, and tactile sensing with predictive and reactive capabilities.",
+      "stars": 3,
+      "topics": [
+        "world models"
+      ],
+      "status": "新发现",
+      "url": "https://arxiv.org/abs/2607.07287",
+      "score_reason": "Tactile world model for manipulation, interesting technique but not AD",
+      "keywords": [
+        "world model",
+        "tactile",
+        "manipulation",
+        "foundation model"
+      ]
+    },
+    {
+      "id": "2607.07196",
+      "title": "Validate the Dream Before You Trust Its Verdict: Admissibility for World-Model Simulators",
+      "authors": [
+        "Christian Oefinger",
+        "Finn Rasmus Schäfer",
+        "Korbinian Moller",
+        "Mattia Piccinini",
+        "Johannes Betz"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "published": "2026-07-08",
+      "abstract": "Framework for certifying world models used as simulators for evaluating action policies in robotics. Introduces WM admissibility criteria.",
+      "stars": 4,
+      "topics": [
+        "world models"
+      ],
+      "status": "新发现",
+      "url": "https://arxiv.org/abs/2607.07196",
+      "score_reason": "Important methodology for certifying world models in robotics evaluation",
+      "keywords": [
+        "world model",
+        "certification",
+        "simulator",
+        "robotics evaluation"
+      ]
+    },
+    {
+      "id": "2607.07103",
+      "title": "A knowledge-augmented dataset of high-risk driving scenarios with LLM annotations for autonomous driving",
+      "authors": [
+        "Heye Huang",
+        "Jingguang Li",
+        "Zhiyuan Zhou",
+        "Paul Liang",
+        "Mingyu Wu"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.DB"
+      ],
+      "published": "2026-07-08",
+      "abstract": "Knowledge-augmented dataset of high-risk driving scenarios with LLM annotations for AD safety evaluation.",
+      "stars": 4,
+      "topics": [
+        "end-to-end autonomous driving"
+      ],
+      "status": "新发现",
+      "url": "https://arxiv.org/abs/2607.07103",
+      "score_reason": "AD safety dataset with LLM annotations, directly relevant",
+      "keywords": [
+        "driving dataset",
+        "high-risk scenarios",
+        "LLM annotations",
+        "safety"
+      ]
+    },
+    {
+      "id": "2607.07101",
+      "title": "GeoProp: Grounding Robot State in Vision for Generalist Manipulation",
+      "authors": [
+        "Guoyang Zhao",
+        "Quanhao Qian",
+        "Gongjie Zhang",
+        "Wenhao Li",
+        "Jiuniu Wang"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "published": "2026-07-08",
+      "abstract": "Grounding robot proprioception in visual space for generalist manipulation policies. Alignment between 3D kinematics and 2D feature maps.",
+      "stars": 2,
+      "topics": [
+        "VLA"
+      ],
+      "status": "新发现",
+      "url": "https://arxiv.org/abs/2607.07101",
+      "score_reason": "Manipulation-focused, not AD relevant",
+      "keywords": [
+        "proprioception",
+        "robot state",
+        "manipulation",
+        "vision grounding"
+      ]
+    },
+    {
+      "id": "2607.07076",
+      "title": "PriGo: Test-Time Primitive Guidance to Diffusion and Flow Policies for Adaptive Robotic Manipulation",
+      "authors": [
+        "Zezeng Li",
+        "Enda Xiang",
+        "Thuy Tran",
+        "Di Huang",
+        "Momath Thiam"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-07-08",
+      "abstract": "Test-time primitive guidance for diffusion and flow-based policies enabling adaptive robotic manipulation across tasks.",
+      "stars": 3,
+      "topics": [
+        "diffusion policy"
+      ],
+      "status": "新发现",
+      "url": "https://arxiv.org/abs/2607.07076",
+      "score_reason": "Diffusion policy adaptation at test time, relevant technique but manipulation-focused",
+      "keywords": [
+        "diffusion policy",
+        "flow policy",
+        "primitive guidance",
+        "manipulation"
+      ]
+    },
+    {
+      "id": "2607.06957",
+      "title": "Flow-ERD: Agent-type Aware Flow Matching with Entropy-Regularized Distillation for Diverse Traffic Simulation",
+      "authors": [
+        "Seulbin Hwang",
+        "Kiyoung Om",
+        "Daejung Kim",
+        "Jinhan Lee"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "published": "2026-07-08",
+      "abstract": "Multi-agent traffic simulator using flow matching with entropy-regularized distillation for diverse traffic simulation. Directly for AD development.",
+      "stars": 4,
+      "topics": [
+        "end-to-end autonomous driving",
+        "world models"
+      ],
+      "status": "新发现",
+      "url": "https://arxiv.org/abs/2607.06957",
+      "score_reason": "Traffic simulation with flow matching directly for AD, highly relevant",
+      "keywords": [
+        "traffic simulation",
+        "flow matching",
+        "distillation",
+        "autonomous driving"
+      ]
+    },
+    {
+      "id": "2607.07675",
+      "title": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
+      "authors": [
+        "Shuailei Ma",
+        "Jiaqi Liao",
+        "Xinyang Wang",
+        "Jingjing Wang",
+        "Chaoran Feng"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-07-08",
+      "abstract": "MoE video pretraining for embodied intelligence, addressing domain mismatch between generative video models and robot control.",
+      "stars": 3,
+      "topics": [
+        "VLA"
+      ],
+      "status": "新发现",
+      "url": "https://arxiv.org/abs/2607.07675",
+      "score_reason": "Video pretraining for embodied/VLA, relevant technique",
+      "keywords": [
+        "MoE",
+        "video pretraining",
+        "embodied intelligence",
+        "VLA"
+      ]
+    },
+    {
+      "id": "2607.06706",
+      "title": "Vision Language Action (VLA) Models for Unmanned Aerial Robotics and Bimanual Manipulation: A Review",
+      "authors": [
+        "Inkyu Sa",
+        "Chanoh Park",
+        "Hea-Min Lee",
+        "Donghee Noh",
+        "Ho Seok Ahn"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "published": "2026-07-07",
+      "abstract": "Comprehensive review of VLA models for UAV and bimanual manipulation applications.",
+      "stars": 3,
+      "topics": [
+        "VLA"
+      ],
+      "status": "新发现",
+      "url": "https://arxiv.org/abs/2607.06706",
+      "score_reason": "VLA survey paper, useful reference but not novel contribution",
+      "keywords": [
+        "VLA",
+        "survey",
+        "UAV",
+        "bimanual manipulation"
+      ]
+    },
+    {
+      "id": "2607.05783",
+      "title": "Benchmarking the Robustness of Autonomous Driving to Environmental Illusions: A Lane Perception Perspective",
+      "authors": [
+        "Tianyuan Zhang",
+        "Xianglong Liu",
+        "Aishan Liu",
+        "Lu Wang"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-07-07",
+      "abstract": "Benchmarks robustness of AD lane perception to environmental illusions like shadows, reflections, tire marks. Reveals significant robustness gaps.",
+      "stars": 3,
+      "topics": [
+        "BEV perception"
+      ],
+      "status": "新发现",
+      "url": "https://arxiv.org/abs/2607.05783",
+      "score_reason": "AD perception robustness benchmark, relevant but narrow focus on illusions",
+      "keywords": [
+        "lane perception",
+        "robustness",
+        "environmental illusions",
+        "autonomous driving"
+      ]
+    },
+    {
+      "id": "2607.06516",
+      "title": "Point as Skeleton: Accumulated Point Cloud Enhanced Autoregressive Generation for Closed-Loop Autonomous Driving Simulation",
+      "authors": [
+        "Songbur Wong",
+        "Xiaosong Jia",
+        "Junqi You",
+        "Bo Zhang"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-07-07",
+      "abstract": "Generative sensor simulation for closed-loop AD evaluation using accumulated point cloud enhanced autoregressive generation.",
+      "stars": 4,
+      "topics": [
+        "end-to-end autonomous driving",
+        "world models"
+      ],
+      "status": "新发现",
+      "url": "https://arxiv.org/abs/2607.06516",
+      "score_reason": "Closed-loop AD simulation with generative sensor simulation, highly relevant",
+      "keywords": [
+        "autonomous driving simulation",
+        "point cloud",
+        "autoregressive generation",
+        "closed-loop"
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-07-10 08:23:32"
 }

@@ -1,70 +1,87 @@
 {
-  "updated_at": "2026-07-09T21:30:00+08:00",
-  "date": "2026-07-09",
+  "updated_at": "2026-07-10T09:28:00+08:00",
+  "date": "2026-07-10",
   "us_markets": {
-    "summary": "美股期货涨跌互现，Nasdaq 期货上涨 0.7%，S&P 500 期货基本持平，道指期货微跌 0.1%。中东地缘局势（美伊互袭）压制风险偏好，但科技股受 AI 主题支撑。PepsiCo Q2 财报不及预期，消费者支出走弱",
+    "summary": "隔夜美股收涨，AI/芯片板块领涨，半导体股受SK Hynix赴美上市及AI需求乐观情绪推动。亚洲时段芯片股接力上涨。地缘方面美伊冲突仍为焦点，但Trump称伊朗已联系协商。油价回落",
     "indices": [
-      { "name": "S&P 500", "current": null, "change_pct": null, "note": "期货：ES=F +0.1%" },
-      { "name": "Nasdaq", "current": null, "change_pct": null, "note": "期货：NQ=F +0.7%，科技股反弹" },
-      { "name": "Dow Jones", "current": null, "change_pct": null, "note": "期货：YM=F -0.1%" }
+      { "name": "S&P 500", "current": 5672.0, "change_pct": 0.40, "note": "收涨，科技股领涨" },
+      { "name": "Nasdaq 100", "current": 21250.0, "change_pct": 0.82, "note": "半导体板块强劲反弹，NQ期货+0.7%" },
+      { "name": "Dow Jones", "current": 43220.0, "change_pct": -0.05, "note": "基本持平，消费股承压" }
     ],
     "key_events": [
-      "美伊冲突升级：美国对伊朗发动第二波空袭，霍尔木兹海峡局势紧张",
-      "PepsiCo (PEP) Q2 财报不及预期，北美消费者收紧预算",
-      "SK Hynix 以万亿估值登陆美国市场",
-      "俄亥俄州被评为 2026 年美国最佳商业州"
+      "美伊冲突：美国连续空袭伊朗后，Trump称伊朗已联系协商，但战争是否恢复仍不确定",
+      "SK Hynix 以万亿估值在美国市场上市，推动全球芯片股走强",
+      "PepsiCo Q2财报不及预期，北美消费者收紧预算，引发消费板块担忧",
+      "亚洲市场芯片股大涨，韩国Kospi受AI乐观情绪推动显著反弹"
     ]
   },
   "crypto": {
-    "summary": "加密市场承压，BTC 下跌 1.2% 至 $62,257，受美伊冲突风险偏好回落拖累。MicroStrategy (Strategy) 售出 3,588 BTC（约 $2.16 亿），为 2020 年以来最大规模卖出",
+    "summary": "BTC在$60K附近窄幅整理，7月至今累计反弹约2.7%。ETH约$1,760，SOL约$82。市场观望美伊局势进展及周末流动性变化",
     "assets": [
       {
         "name": "Bitcoin (BTC)",
-        "price_usd": 62257,
-        "change_24h_pct": -1.22,
-        "note": "Strategy 减持 3,588 BTC 至 843,775 BTC；Q2 持仓未实现亏损 $83.1 亿"
+        "price_usd": 60300,
+        "change_24h_pct": -0.5,
+        "note": "7月以来已从6月底低点反弹约2.7%；Strategy此前减持3,588 BTC至843,775 BTC"
       },
       {
         "name": "Ethereum (ETH)",
-        "price_usd": null,
-        "change_24h_pct": null,
-        "note": "跟随 BTC 走弱，市场关注周五 CME ETH 期权到期"
+        "price_usd": 1760,
+        "change_24h_pct": -0.8,
+        "note": "跟随BTC走弱，关注CME ETH期权到期"
       }
     ]
   },
   "commodities": {
     "oil": {
-      "wti": 73.58,
-      "brent": 78.16,
-      "change_pct": "+1.17 (WTI 日涨)",
-      "note": "美伊冲突支撑油价，WTI 反弹至 $73.58，Brent $78.16。Kalshi 预测周五 Brent 有 55% 概率高于 $77.50"
+      "wti": 72.80,
+      "brent": 77.50,
+      "change_pct": "-1.0 (WTI 回落)",
+      "note": "美伊冲突可能缓和推动油价回落，市场关注周五收盘。Kalshi预测周五Brent高于$75.99概率57%"
     },
     "gold": {
-      "price_usd": null,
-      "note": "金价反弹，交易员评估美伊空袭及利率路径。BofA 下调 2026 年均金价预测 14% 至 $4,360/oz，理由为美联储鹰派预期"
+      "price_usd": 4103,
+      "note": "金价继续高位运行，$4,103/oz。地缘风险+鹰派美联储预期博弈，BofA下调2026年均金价预测至$4,360/oz"
     }
   },
   "asia_markets": {
-    "summary": "亚太市场明日关注：日经受弱日元支撑有望反弹；恒生指数关注科技板块表现",
-    "nikkei_note": "弱日元利好出口板块，今日市场关注美伊局势演变"
+    "summary": "亚太市场今日开盘上涨，芯片板块领涨。A股半导体板块强势：集成电路封测+3.72%、半导体材料+3.38%。韩国Kospi受AI情绪提振大幅反弹。港股关注科技权重表现。中国6月通胀数据本周公布",
+    "indices_now": [
+      { "name": "上证指数", "current": 4053.07, "change_pct": 0.41, "status": "开盘上涨" },
+      { "name": "深证成指", "current": 15524.69, "change_pct": 0.82, "status": "成长股活跃" },
+      { "name": "创业板指", "current": 4047.53, "change_pct": 0.73, "status": "震荡上行" },
+      { "name": "沪深300", "current": 4892.10, "change_pct": 0.32, "status": "权重股温和" }
+    ],
+    "sectors_top": [
+      { "name": "集成电路封测", "change_pct": 3.72, "direction": "up" },
+      { "name": "半导体材料", "change_pct": 3.38, "direction": "up" },
+      { "name": "其他数字媒体", "change_pct": 3.24, "direction": "up" }
+    ],
+    "sectors_bottom": [
+      { "name": "油气及炼化工程", "change_pct": -3.61, "direction": "down" },
+      { "name": "粘胶", "change_pct": -3.25, "direction": "down" },
+      { "name": "油气开采Ⅲ", "change_pct": -3.06, "direction": "down" }
+    ],
+    "nikkei_note": "日本市场受芯片板块提振，隔夜亚洲时段走高"
   },
   "news_highlights": [
+    { "source": "Bloomberg", "title": "Asian Stocks Rise Following Chip Rally, Oil Slips: Markets Wrap" },
     { "source": "CNBC", "title": "Trump says Iran called to make a deal after U.S. strikes; adds it's unclear if war is back on" },
     { "source": "CNBC", "title": "Meet SK Hynix, the trillion-dollar South Korean chipmaker debuting on U.S. markets" },
     { "source": "CNBC", "title": "PepsiCo earnings miss estimates as North American consumers tighten their budgets" },
-    { "source": "Bloomberg", "title": "US, Iran Trade Airstrikes as Fears Grow of a Return to War" },
     { "source": "Bloomberg", "title": "Gold Rebounds as Traders Assess Iran Strikes, Interest-Rate Path" },
-    { "source": "WSJ", "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek" },
-    { "source": "WSJ", "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat" }
+    { "source": "RTTNews", "title": "Asian Shares Mixed As US Launches New Airstrikes On Iran (07/09)" },
+    { "source": "ET Markets", "title": "Asian stocks climb as investors favor semiconductor shares on AI demand" }
   ],
   "geopolitical_risk": {
     "level": "HIGH",
-    "key": "美伊冲突 - 美国连续两天空袭伊朗，霍尔木兹海峡紧张局势升级。Trump 表示伊朗已联系协商，但战争是否恢复仍不确定",
-    "impact": "推高油价、压制风险资产、黄金避险需求上升"
+    "key": "美伊冲突 - 美国连续空袭伊朗后Trump声称伊朗已联系协商，但不确定性仍高。中东局势缓和预期推动油价回落",
+    "impact": "油价回落、风险偏好回升、芯片股领涨"
   },
   "macro_indicators": {
-    "fed_note": "BofA 预测美联储鹰派立场将延续，下调 2026 年金价预期",
-    "dollar_note": "美元走强对新兴市场和大宗商品构成压力",
-    "earnings_season": "PepsiCo 不及预期，市场关注下周大银行财报"
+    "fed_note": "市场关注下周美国CPI数据及美联储官员讲话",
+    "dollar_note": "美元指数持稳，人民币汇率稳定",
+    "earnings_season": "PepsiCo不及预期；关注下周银行股财报季开启",
+    "china_note": "中国6月通胀数据公布，市场关注经济复苏力度"
   }
 }

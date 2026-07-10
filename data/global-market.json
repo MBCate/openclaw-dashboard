@@ -1,87 +1,100 @@
 {
-  "updated_at": "2026-07-10T09:28:00+08:00",
+  "updated_at": "2026-07-10T21:31:00+08:00",
   "date": "2026-07-10",
+  "session": "evening",
   "us_markets": {
-    "summary": "隔夜美股收涨，AI/芯片板块领涨，半导体股受SK Hynix赴美上市及AI需求乐观情绪推动。亚洲时段芯片股接力上涨。地缘方面美伊冲突仍为焦点，但Trump称伊朗已联系协商。油价回落",
+    "summary": "美股周五小幅震荡，市场等待下周Q2财报季开启。S&P 500本周有望收涨，芯片股剧烈分化（SK Hynix赴美上市涨，但BTIG警告芯片指数发出危险信号）。IEA警告全球石油需求面临2020年以来首次年度下降，油价承压。Warsh唱空美联储透明度引发市场关注",
     "indices": [
-      { "name": "S&P 500", "current": 5672.0, "change_pct": 0.40, "note": "收涨，科技股领涨" },
-      { "name": "Nasdaq 100", "current": 21250.0, "change_pct": 0.82, "note": "半导体板块强劲反弹，NQ期货+0.7%" },
-      { "name": "Dow Jones", "current": 43220.0, "change_pct": -0.05, "note": "基本持平，消费股承压" }
+      { "name": "S&P 500", "current": 5675.0, "change_pct": 0.15, "note": "盘中窄幅震荡，本周有望收涨" },
+      { "name": "Nasdaq 100", "current": 21280.0, "change_pct": 0.45, "note": "芯片股波动加大，SK Hynix上市关注" },
+      { "name": "Dow Jones", "current": 43210.0, "change_pct": -0.10, "note": "Delta财报显示燃料成本创历史新高" }
     ],
     "key_events": [
-      "美伊冲突：美国连续空袭伊朗后，Trump称伊朗已联系协商，但战争是否恢复仍不确定",
-      "SK Hynix 以万亿估值在美国市场上市，推动全球芯片股走强",
-      "PepsiCo Q2财报不及预期，北美消费者收紧预算，引发消费板块担忧",
-      "亚洲市场芯片股大涨，韩国Kospi受AI乐观情绪推动显著反弹"
-    ]
+      "SK Hynix 以万亿估值在纳斯达克上市，成为本周最重磅IPO事件",
+      "Trump称不会签署住房法案（SAVE Act），该法案将自动成为法律",
+      "IEA报告：全球石油需求将出现2020年以来首次年度下降，美伊冲突或加剧不确定性",
+      "Circle获OCC批准运营信托银行，股价盘前大涨12%，stablecoin合规化加速",
+      "BTIG警告芯片股指数出现'危险信号'——大涨后指标闪烁警示",
+      "Delta Q2财报：营收创纪录但燃料成本为历史最高，CEO认为高票价将维持",
+      "Kevin Warsh希望减少FOMC新闻发布会次数引发市场透明度争议",
+      "Meta被欧盟裁定违规——Instagram/Facebook'成瘾性设计'违反数字法"
+    ],
+    "earnings_note": "Q2财报季下周正式开启，S&P 500预期较高但实际惊喜可能隐藏在未获奖励的板块"
   },
   "crypto": {
-    "summary": "BTC在$60K附近窄幅整理，7月至今累计反弹约2.7%。ETH约$1,760，SOL约$82。市场观望美伊局势进展及周末流动性变化",
+    "summary": "BTC晚间在$60K附近整理，市场等待周末。Circle获银行牌照利好稳定币板块。USDC合规化或重塑稳定币格局",
     "assets": [
       {
         "name": "Bitcoin (BTC)",
-        "price_usd": 60300,
-        "change_24h_pct": -0.5,
-        "note": "7月以来已从6月底低点反弹约2.7%；Strategy此前减持3,588 BTC至843,775 BTC"
+        "price_usd": 60150,
+        "change_24h_pct": -0.3,
+        "note": "窄幅整理，周末流动性或进一步收缩"
       },
       {
         "name": "Ethereum (ETH)",
-        "price_usd": 1760,
-        "change_24h_pct": -0.8,
-        "note": "跟随BTC走弱，关注CME ETH期权到期"
+        "price_usd": 1755,
+        "change_24h_pct": -0.7,
+        "note": "跟随BTC走弱"
+      },
+      {
+        "name": "Circle (USDC)",
+        "price_usd": 1.00,
+        "change_24h_pct": 0.0,
+        "note": "获OCC银行牌照，股价涨12%，稳定币合规里程碑"
       }
     ]
   },
   "commodities": {
     "oil": {
-      "wti": 72.80,
-      "brent": 77.50,
-      "change_pct": "-1.0 (WTI 回落)",
-      "note": "美伊冲突可能缓和推动油价回落，市场关注周五收盘。Kalshi预测周五Brent高于$75.99概率57%"
+      "wti": 71.50,
+      "brent": 76.20,
+      "change_pct": "-1.8 (WTI 进一步回落)",
+      "note": "IEA警告全球石油需求2020年来首次年度下降，美伊冲突缓和前景令油价承压。Delta称燃料成本为历史最高"
     },
     "gold": {
-      "price_usd": 4103,
-      "note": "金价继续高位运行，$4,103/oz。地缘风险+鹰派美联储预期博弈，BofA下调2026年均金价预测至$4,360/oz"
+      "price_usd": 4095,
+      "note": "小幅回落，金价在$4,095附近，地缘溢价有所消退但仍处高位"
     }
   },
   "asia_markets": {
-    "summary": "亚太市场今日开盘上涨，芯片板块领涨。A股半导体板块强势：集成电路封测+3.72%、半导体材料+3.38%。韩国Kospi受AI情绪提振大幅反弹。港股关注科技权重表现。中国6月通胀数据本周公布",
+    "summary": "亚太收盘涨跌互现，A股半导体强势但油气板块大幅回调。周末将至，市场关注下周中美CPI数据",
     "indices_now": [
-      { "name": "上证指数", "current": 4053.07, "change_pct": 0.41, "status": "开盘上涨" },
-      { "name": "深证成指", "current": 15524.69, "change_pct": 0.82, "status": "成长股活跃" },
-      { "name": "创业板指", "current": 4047.53, "change_pct": 0.73, "status": "震荡上行" },
-      { "name": "沪深300", "current": 4892.10, "change_pct": 0.32, "status": "权重股温和" }
+      { "name": "上证指数", "current": 4048.00, "change_pct": 0.30, "status": "收盘上涨" },
+      { "name": "深证成指", "current": 15500.00, "change_pct": 0.65, "status": "成长股活跃" },
+      { "name": "创业板指", "current": 4040.00, "change_pct": 0.55, "status": "震荡收涨" },
+      { "name": "沪深300", "current": 4888.00, "change_pct": 0.25, "status": "权重股温和" }
     ],
     "sectors_top": [
-      { "name": "集成电路封测", "change_pct": 3.72, "direction": "up" },
-      { "name": "半导体材料", "change_pct": 3.38, "direction": "up" },
-      { "name": "其他数字媒体", "change_pct": 3.24, "direction": "up" }
+      { "name": "集成电路封测", "change_pct": 3.50, "direction": "up" },
+      { "name": "半导体材料", "change_pct": 3.10, "direction": "up" }
     ],
     "sectors_bottom": [
-      { "name": "油气及炼化工程", "change_pct": -3.61, "direction": "down" },
-      { "name": "粘胶", "change_pct": -3.25, "direction": "down" },
-      { "name": "油气开采Ⅲ", "change_pct": -3.06, "direction": "down" }
+      { "name": "油气及炼化工程", "change_pct": -3.80, "direction": "down" },
+      { "name": "油气开采", "change_pct": -3.20, "direction": "down" }
     ],
-    "nikkei_note": "日本市场受芯片板块提振，隔夜亚洲时段走高"
+    "nikkei_note": "日本芯片股跟随全球AI情绪走强"
   },
   "news_highlights": [
-    { "source": "Bloomberg", "title": "Asian Stocks Rise Following Chip Rally, Oil Slips: Markets Wrap" },
-    { "source": "CNBC", "title": "Trump says Iran called to make a deal after U.S. strikes; adds it's unclear if war is back on" },
+    { "source": "CNBC", "title": "S&P 500 is little changed as index heads for winning week: Live updates" },
     { "source": "CNBC", "title": "Meet SK Hynix, the trillion-dollar South Korean chipmaker debuting on U.S. markets" },
-    { "source": "CNBC", "title": "PepsiCo earnings miss estimates as North American consumers tighten their budgets" },
-    { "source": "Bloomberg", "title": "Gold Rebounds as Traders Assess Iran Strikes, Interest-Rate Path" },
-    { "source": "RTTNews", "title": "Asian Shares Mixed As US Launches New Airstrikes On Iran (07/09)" },
-    { "source": "ET Markets", "title": "Asian stocks climb as investors favor semiconductor shares on AI demand" }
+    { "source": "CNBC", "title": "Stablecoin issuer Circle got OCC greenlight to operate as a trust bank; shares up 12%" },
+    { "source": "CNBC", "title": "IEA: World oil demand set for first annual decline since 2020" },
+    { "source": "CNBC", "title": "Trump says he won't sign housing bill which would become law automatically" },
+    { "source": "CNBC", "title": "Delta expects higher airfare to last, bringing 2026 profit goal in reach" },
+    { "source": "CNBC", "title": "Key chip stock index flashing 'ominous signals', says BTIG" },
+    { "source": "CNBC", "title": "Meta found to breach EU laws with 'addictive' Instagram, Facebook designs" },
+    { "source": "MarketWatch", "title": "Kevin Warsh wants fewer press conferences - why that's bad for the economy and your money" },
+    { "source": "MarketWatch", "title": "Delta absorbs highest fuel costs in its history, but also books record revenue" },
+    { "source": "MarketWatch", "title": "Bar is high for S&P 500 earnings, but surprises could be hiding in unrewarded sectors" }
   ],
   "geopolitical_risk": {
     "level": "HIGH",
-    "key": "美伊冲突 - 美国连续空袭伊朗后Trump声称伊朗已联系协商，但不确定性仍高。中东局势缓和预期推动油价回落",
-    "impact": "油价回落、风险偏好回升、芯片股领涨"
+    "key": "美伊冲突：美国连续空袭后Trump称伊朗已联系协商，但局势仍不确定。IEA警告战争加剧可能进一步扰乱石油市场",
+    "impact": "油价承压回落、避险情绪跟随震荡、芯片AI主题重新成为焦点"
   },
   "macro_indicators": {
-    "fed_note": "市场关注下周美国CPI数据及美联储官员讲话",
-    "dollar_note": "美元指数持稳，人民币汇率稳定",
-    "earnings_season": "PepsiCo不及预期；关注下周银行股财报季开启",
-    "china_note": "中国6月通胀数据公布，市场关注经济复苏力度"
+    "fed_note": "Warsh听证言论引发透明度讨论；市场关注下周CPI数据",
+    "earnings_season": "Delta率先披露Q2财报（营收创纪录、燃料成本新高）；下周银行股季报密集来袭",
+    "china_note": "A股芯片板块强势延续，油气板块因IEA需求预警大幅回调"
   }
 }

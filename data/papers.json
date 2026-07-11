@@ -1,10 +1,22 @@
 {
-  "date": "2026-07-09",
+  "date": "2026-07-11",
   "week": "2026-W28",
-  "total": 92,
-  "new": 25,
+  "total": 99,
+  "new": 82,
   "known": 17,
   "top5": [
+    {
+      "id": "2607.08375",
+      "title": "WCog-VLA: A Dual-Level World-Cognitive Vision-Language-Action Model for End-to-End Autonomous Driving",
+      "authors": "Xuerun Yan, Zhexi Lian, Nuoheng Zhang, Shiyu Fang, Haoran Wang, Chen Lv, Jia Hu, Binyang Song",
+      "date": "2026-07-09",
+      "category": "VLA / world model / E2E driving",
+      "stars": 5,
+      "status": "新发现",
+      "kb_path": "vla-autonomous-driving/analysis/2607.08375_WCog-VLA.md",
+      "score": 5,
+      "weekly": true
+    },
     {
       "id": "2607.06216",
       "title": "MoWorld: A Flash World Model",
@@ -14,7 +26,30 @@
       "stars": 5,
       "status": "新发现",
       "kb_path": "",
-      "score": 5,
+      "score": 5
+    },
+    {
+      "id": "2606.29879",
+      "title": "LWDrive: Layer-Wise World-Model-Guided Vision-Language Model Planning for Autonomous Driving",
+      "authors": "Chen Yang, Yuhao Wei, Ze Xu, Ziheng Zou, Shuang Liang, Delin Ouyang",
+      "date": "2026-06-29",
+      "category": "VLM / world model planning",
+      "stars": 5,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3,
+      "weekly": true
+    },
+    {
+      "id": "2607.04637",
+      "title": "PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving",
+      "authors": "Pin Tang, Guoqing Wang, Xiangxuan Ren, Zhongdao Wang, Guodongfang Zhao, Bailan",
+      "date": "2026-07-06",
+      "category": "VLA / end-to-end driving",
+      "stars": 5,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3,
       "weekly": true
     },
     {
@@ -29,45 +64,90 @@
       "kb_path": "",
       "score": 3,
       "weekly": true
-    },
-    {
-      "id": "2606.28757",
-      "title": "CrashTwin: A Physics-Grounded Benchmark for Multi-Agent Dynamics in World Models",
-      "authors": "Nuo Chen, Lulin Liu, Zihao Li, Ziyao Zeng, Zihao Zhu, Wenyan Cong, Junyuan Hong, Yunhao Yang, Zhengzhong Tu, Yan Wang, Boris Ivanovic, Marco Pavone, Zhangyang Wang, Yang Zhou, Zhiwen Fan",
-      "date": "2026-07-07",
-      "category": "world model / benchmark",
-      "stars": 5,
-      "status": "已知",
-      "kb_path": "world-models-ad/analysis/2606.28757_CrashTwin.md",
-      "weekly": true,
-      "score": 3
-    },
-    {
-      "id": "2606.28804",
-      "title": "ViPSim: Collaborating Visual and Parameter Spaces for Consistent Long-Horizon Embodied World Models",
-      "authors": "Longyu Chen, Heng Li, Wei Yang, Manqi Zhao, Dongsheng Jiang",
-      "date": "2026-07-07",
-      "category": "world model / embodied simulation",
-      "stars": 5,
-      "status": "新发现",
-      "kb_path": "",
-      "score": 3,
-      "weekly": true
-    },
-    {
-      "id": "2606.29384",
-      "title": "Event-VLA: Action-Conditioned Event Fusion for Robust Vision-Language-Action Model",
-      "authors": "Jiaxin Liu, Xun Xu, Zhenhao Zhang, Hanqing Wang, Ruiqi Chen, Shi Chang, Weiyu Guo, Laurent Kneip",
-      "date": "2026-07-07",
-      "category": "VLA / event camera",
-      "stars": 5,
-      "status": "新发现",
-      "kb_path": "",
-      "score": 3,
-      "weekly": true
     }
   ],
   "papers": [
+    {
+      "id": "2607.08375",
+      "title": "WCog-VLA: A Dual-Level World-Cognitive Vision-Language-Action Model for End-to-End Autonomous Driving",
+      "authors": "Xuerun Yan, Zhexi Lian, Nuoheng Zhang, Shiyu Fang, Haoran Wang, Chen Lv, Jia Hu, Binyang Song",
+      "date": "2026-07-09",
+      "category": "VLA / world model / E2E driving",
+      "stars": 5,
+      "status": "新发现",
+      "kb_path": "vla-autonomous-driving/analysis/2607.08375_WCog-VLA.md",
+      "score": 5,
+      "weekly": true
+    },
+    {
+      "id": "2607.08072",
+      "title": "Post-Training in End-to-End Autonomous Driving",
+      "authors": "Ruining Yang, Muxing Wang, Yixiao Chen, Tongfei Guo, Yi Xu, Can Cui, Zichong Yang, Yitian Zhang, Ziran Wang, Yun Fu, Lili Su",
+      "date": "2026-07-09",
+      "category": "E2E autonomous driving / post-training / survey",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "e2e-autonomous-driving/analysis/2607.08072_PostTraining_AD.md",
+      "score": 4,
+      "weekly": true
+    },
+    {
+      "id": "2607.07844",
+      "title": "Shift & Drift: A Zero-Shot Benchmark for Generalizable and Robust Autonomous Driving Motion Planning",
+      "authors": "Alessandro Canevaro, Hang Yu, Julian Schmidt, Peizheng Li, Silvan Lindner, Wilhelm Stork, Georg Martius, Julian Jordan",
+      "date": "2026-07-08",
+      "category": "motion planning / benchmark / robustness",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "e2e-autonomous-driving/analysis/2607.07844_ShiftDrift.md",
+      "score": 4,
+      "weekly": true
+    },
+    {
+      "id": "2607.08182",
+      "title": "LEEVLA: Seeing What Matters in Latent Environment Evolution for Vision-Language-Action",
+      "authors": "Qi Lyu, Baicheng Liu, Xudong Wang, Jiahua Dong, Lianqing Liu, Zhi Han",
+      "date": "2026-07-09",
+      "category": "VLA / latent evolution / attention",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "vla-autonomous-driving/analysis/2607.08182_LEEVLA.md",
+      "score": 4,
+      "weekly": true
+    },
+    {
+      "id": "2607.08745",
+      "title": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
+      "authors": "Siddharth Damodharan, Radhika Gupta, Ali Alshami, Ryan Rabinowitz, Jugal Kalita",
+      "date": "2026-07-09",
+      "category": "VLM / dashcam / VQA / benchmark",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2607.08575",
+      "title": "FabriVLA: A Lightweight Vision-Language-Action Model for Precise Multi-Task Manipulation",
+      "authors": "Shiyuan Yang, Borong Zhang, Jizheng Zhang, Zhijia Tao, Junfei Guo",
+      "date": "2026-07-09",
+      "category": "VLA / lightweight / manipulation",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
+    {
+      "id": "2607.08316",
+      "title": "INTENT: An LSTM Framework for Vehicle Intention Prediction in Intersection Scenarios",
+      "authors": "Logine M. Zaki, Catherine M. Elias",
+      "date": "2026-07-09",
+      "category": "intention prediction / intersection",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3
+    },
     {
       "id": "2607.06216",
       "title": "MoWorld: A Flash World Model",
@@ -1407,5 +1487,5 @@
       ]
     }
   ],
-  "updated_at": "2026-07-10 08:23:32"
+  "updated_at": "2026-07-11 08:19:56"
 }

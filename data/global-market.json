@@ -1,100 +1,254 @@
 {
-  "updated_at": "2026-07-10T21:31:00+08:00",
-  "date": "2026-07-10",
-  "session": "evening",
-  "us_markets": {
-    "summary": "美股周五小幅震荡，市场等待下周Q2财报季开启。S&P 500本周有望收涨，芯片股剧烈分化（SK Hynix赴美上市涨，但BTIG警告芯片指数发出危险信号）。IEA警告全球石油需求面临2020年以来首次年度下降，油价承压。Warsh唱空美联储透明度引发市场关注",
-    "indices": [
-      { "name": "S&P 500", "current": 5675.0, "change_pct": 0.15, "note": "盘中窄幅震荡，本周有望收涨" },
-      { "name": "Nasdaq 100", "current": 21280.0, "change_pct": 0.45, "note": "芯片股波动加大，SK Hynix上市关注" },
-      { "name": "Dow Jones", "current": 43210.0, "change_pct": -0.10, "note": "Delta财报显示燃料成本创历史新高" }
-    ],
-    "key_events": [
-      "SK Hynix 以万亿估值在纳斯达克上市，成为本周最重磅IPO事件",
-      "Trump称不会签署住房法案（SAVE Act），该法案将自动成为法律",
-      "IEA报告：全球石油需求将出现2020年以来首次年度下降，美伊冲突或加剧不确定性",
-      "Circle获OCC批准运营信托银行，股价盘前大涨12%，stablecoin合规化加速",
-      "BTIG警告芯片股指数出现'危险信号'——大涨后指标闪烁警示",
-      "Delta Q2财报：营收创纪录但燃料成本为历史最高，CEO认为高票价将维持",
-      "Kevin Warsh希望减少FOMC新闻发布会次数引发市场透明度争议",
-      "Meta被欧盟裁定违规——Instagram/Facebook'成瘾性设计'违反数字法"
-    ],
-    "earnings_note": "Q2财报季下周正式开启，S&P 500预期较高但实际惊喜可能隐藏在未获奖励的板块"
-  },
-  "crypto": {
-    "summary": "BTC晚间在$60K附近整理，市场等待周末。Circle获银行牌照利好稳定币板块。USDC合规化或重塑稳定币格局",
-    "assets": [
-      {
-        "name": "Bitcoin (BTC)",
-        "price_usd": 60150,
-        "change_24h_pct": -0.3,
-        "note": "窄幅整理，周末流动性或进一步收缩"
+  "updatedAt": "2026-07-12 21:32",
+  "updatedAtUTC": "2026-07-12T13:32:58Z",
+  "marketData": {
+    "us": {
+      "sp500": {
+        "price": 7575.39,
+        "change": 92.15,
+        "changePercent": 1.23,
+        "dayHigh": 7579.93,
+        "dayLow": 7508.16,
+        "prevClose": 7483.24,
+        "52wHigh": 7620.9,
+        "name": "S&P 500"
       },
-      {
-        "name": "Ethereum (ETH)",
-        "price_usd": 1755,
-        "change_24h_pct": -0.7,
-        "note": "跟随BTC走弱"
+      "dow": {
+        "price": 52637.01,
+        "change": -263.06,
+        "changePercent": -0.5,
+        "dayHigh": 52709.75,
+        "dayLow": 52266.81,
+        "prevClose": 52900.07,
+        "52wHigh": 53289.3,
+        "name": "Dow Jones Industrial Average"
       },
-      {
-        "name": "Circle (USDC)",
-        "price_usd": 1.00,
-        "change_24h_pct": 0.0,
-        "note": "获OCC银行牌照，股价涨12%，稳定币合规里程碑"
+      "nasdaq": {
+        "price": 26281.61,
+        "change": 448.94,
+        "changePercent": 1.74,
+        "dayHigh": 26301.54,
+        "dayLow": 26009.49,
+        "prevClose": 25832.67,
+        "52wHigh": 27190.21,
+        "name": "NASDAQ Composite"
       }
-    ]
-  },
-  "commodities": {
-    "oil": {
-      "wti": 71.50,
-      "brent": 76.20,
-      "change_pct": "-1.8 (WTI 进一步回落)",
-      "note": "IEA警告全球石油需求2020年来首次年度下降，美伊冲突缓和前景令油价承压。Delta称燃料成本为历史最高"
     },
-    "gold": {
-      "price_usd": 4095,
-      "note": "小幅回落，金价在$4,095附近，地缘溢价有所消退但仍处高位"
+    "hongkong": {
+      "hsi": {
+        "price": 24175.12,
+        "change": 825.09,
+        "changePercent": 3.53,
+        "dayHigh": 24499.63,
+        "dayLow": 24064.62,
+        "prevClose": 23350.03,
+        "52wHigh": 28056.1,
+        "name": "恒生指数 HSI"
+      }
+    },
+    "japan": {
+      "nikkei": {
+        "price": 68557.73,
+        "change": -1179.96,
+        "changePercent": -1.69,
+        "dayHigh": 69374.86,
+        "dayLow": 68271.91,
+        "prevClose": 69737.69,
+        "52wHigh": 72831.73,
+        "name": "日经225 Nikkei"
+      }
+    },
+    "europe": {
+      "ftse": {
+        "price": 10497.29,
+        "change": -181.71,
+        "changePercent": -1.7,
+        "dayHigh": 10513.9,
+        "dayLow": 10462.75,
+        "prevClose": 10679.0,
+        "52wHigh": 10934.9,
+        "name": "FTSE 100 (英国)"
+      }
+    },
+    "china": {
+      "shanghai": {
+        "price": 3996.16,
+        "change": -45.08,
+        "changePercent": -1.12,
+        "dayHigh": 4074.83,
+        "dayLow": 3995.81,
+        "prevClose": 4041.24,
+        "name": "上证指数 SSE"
+      },
+      "shenzhen": {
+        "price": 15046.67,
+        "change": -370.13,
+        "changePercent": -2.4,
+        "dayHigh": 15581.94,
+        "dayLow": 15046.67,
+        "prevClose": 15416.8,
+        "name": "深证成指 SZSE"
+      }
+    },
+    "commodities": {
+      "gold": {
+        "price": 4113.7,
+        "change": -31.6,
+        "changePercent": -0.76,
+        "dayHigh": 4144.6,
+        "dayLow": 4081.7,
+        "prevClose": 4145.3,
+        "unit": "USD/oz",
+        "name": "黄金 Gold"
+      },
+      "crude_oil": {
+        "price": 71.41,
+        "change": 0.97,
+        "changePercent": 1.38,
+        "dayHigh": 73.16,
+        "dayLow": 70.77,
+        "prevClose": 70.44,
+        "unit": "USD/bbl",
+        "name": "原油 WTI Crude"
+      }
+    },
+    "crypto": {
+      "btc": {
+        "price": 63995.21,
+        "change": 1737.64,
+        "changePercent": 2.79,
+        "dayHigh": 64171.85,
+        "dayLow": 63630.3,
+        "prevClose": 62257.57,
+        "name": "Bitcoin BTC",
+        "marketCap": "1.28T"
+      },
+      "eth": {
+        "price": 1805.77,
+        "change": 63.09,
+        "changePercent": 3.62,
+        "dayHigh": 1811.39,
+        "dayLow": 1782.5,
+        "prevClose": 1742.68,
+        "name": "Ethereum ETH",
+        "marketCap": "221.10B"
+      }
     }
   },
-  "asia_markets": {
-    "summary": "亚太收盘涨跌互现，A股半导体强势但油气板块大幅回调。周末将至，市场关注下周中美CPI数据",
-    "indices_now": [
-      { "name": "上证指数", "current": 4048.00, "change_pct": 0.30, "status": "收盘上涨" },
-      { "name": "深证成指", "current": 15500.00, "change_pct": 0.65, "status": "成长股活跃" },
-      { "name": "创业板指", "current": 4040.00, "change_pct": 0.55, "status": "震荡收涨" },
-      { "name": "沪深300", "current": 4888.00, "change_pct": 0.25, "status": "权重股温和" }
-    ],
-    "sectors_top": [
-      { "name": "集成电路封测", "change_pct": 3.50, "direction": "up" },
-      { "name": "半导体材料", "change_pct": 3.10, "direction": "up" }
-    ],
-    "sectors_bottom": [
-      { "name": "油气及炼化工程", "change_pct": -3.80, "direction": "down" },
-      { "name": "油气开采", "change_pct": -3.20, "direction": "down" }
-    ],
-    "nikkei_note": "日本芯片股跟随全球AI情绪走强"
+  "newsData": {
+    "cnbc": {
+      "count": 5,
+      "entries": [
+        {
+          "title": "Sen. Lindsey Graham, influential lawmaker and Trump ally,  dies at 71 after a brief illness",
+          "summary": "Graham, a prominent Republican senator from South Carolina, was 71. His office announced his death and said he had just returned from a trip to Ukrain",
+          "link": "https://www.cnbc.com/2026/07/12/senator-lindsey-graham-has-died-after-a-brief-illness-his-office-says.html",
+          "published": "Sun, 12 Jul 2026 12:41:41 GMT"
+        },
+        {
+          "title": "U.S. launches airstrikes against Iran after Tehran attacks container ship in Hormuz, Pentagon says",
+          "summary": "Iran has attacked ships using a route along Oman's coast protected by the U.S. military. Tehran demands vessels use a northern route through its water",
+          "link": "https://www.cnbc.com/2026/07/11/us-airstrikes-iran-strait-hormuz.html",
+          "published": "Sun, 12 Jul 2026 13:11:21 GMT"
+        },
+        {
+          "title": "Majority of U.S. workers support an AI wealth fund as tech layoffs surge, survey finds",
+          "summary": "A majority of U.S. employees now want an AI sovereign wealth fund to hold corporations more accountable, according to a recent survey, as tech layoffs",
+          "link": "https://www.cnbc.com/2026/07/12/majority-of-us-workers-support-ai-fund-amid-tech-layoffs-survey.html",
+          "published": "Sun, 12 Jul 2026 12:27:55 GMT"
+        },
+        {
+          "title": "‘Almost unlimited’: Execs says AI demand remains strong even as enterprises move to ‘valuemaxxing’",
+          "summary": "AI-related chip stocks have been volatile amid a debate over AI demand and spending.",
+          "link": "https://www.cnbc.com/2026/07/12/ai-demand-chips-data-centers-stock-volatility.html",
+          "published": "Sun, 12 Jul 2026 05:00:01 GMT"
+        },
+        {
+          "title": "Earnings playbook: Reporting season gets underway with JPMorgan Chase, Netflix on deck",
+          "summary": "Nearly 28 S&amp;P 500 companies are set to report earnings this week.",
+          "link": "https://www.cnbc.com/2026/07/12/earnings-playbook-reporting-season-starts-with-jpmorgan-chase-netflix.html",
+          "published": "Sun, 12 Jul 2026 12:02:15 GMT"
+        }
+      ]
+    },
+    "bloomberg": {
+      "count": 5,
+      "entries": [
+        {
+          "title": "Funds Fret Over $4.4 Trillion AI Trio’s Grip on Emerging Markets",
+          "summary": "Investors are rotating beyond AI winners in emerging markets, where just three technology stocks worth $4.4 trillion drive an outsized share of return",
+          "link": "https://www.bloomberg.com/news/articles/2026-07-12/funds-fret-over-4-4-trillion-ai-trio-s-grip-on-emerging-markets",
+          "published": "Sun, 12 Jul 2026 12:30:00 GMT"
+        },
+        {
+          "title": "How Founder Control Is Reshaping Public Markets",
+          "summary": "SpaceX’s record-setting IPO gave public investors access to one of the world’s most valuable companies, but not equal voting rights. CEO Elon Musk hol",
+          "link": "https://www.bloomberg.com/news/videos/2026-07-12/how-founder-control-is-reshaping-public-markets-video",
+          "published": "Sun, 12 Jul 2026 12:03:18 GMT"
+        },
+        {
+          "title": "World Cup Bets on Prediction Markets May Get Tax Edge Over Gambling",
+          "summary": "Americans using prediction markets to bet on the World Cup may face a lighter tax burden than peers wagering through sportsbooks thanks to tax breaks ",
+          "link": "https://www.bloomberg.com/news/articles/2026-07-12/world-cup-betting-tax-rules-differ-for-prediction-markets-sportsbooks",
+          "published": "Sun, 12 Jul 2026 12:00:00 GMT"
+        },
+        {
+          "title": "Hormuz Reopening Faces Costly Hurdles",
+          "summary": "Senior Fellow at the Council on Foreign Relations Clara Gillispie says Gulf energy flows face an uncertain recovery as producers work to clear ships, ",
+          "link": "https://www.bloomberg.com/news/videos/2026-07-11/hormuz-reopening-faces-costly-hurdles-video",
+          "published": "Sat, 11 Jul 2026 13:57:43 GMT"
+        },
+        {
+          "title": "Hormuz Reopening Faces Costly Hurdles",
+          "summary": "Senior Fellow at the Council on Foreign Relations Clara Gillispie says Gulf energy flows face an uncertain recovery as producers work to clear ships, ",
+          "link": "https://www.bloomberg.com/news/videos/2026-07-12/hormuz-reopening-faces-costly-hurdles-video",
+          "published": "Sun, 12 Jul 2026 11:55:18 GMT"
+        }
+      ]
+    },
+    "wsj": {
+      "count": 5,
+      "entries": [
+        {
+          "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+          "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia",
+          "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+          "published": "Mon, 27 Jan 2025 14:26:00 -0500"
+        },
+        {
+          "title": "Comex Gold, Silver Settle Lower",
+          "summary": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions.",
+          "link": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+          "published": "Mon, 27 Jan 2025 14:01:00 -0500"
+        },
+        {
+          "title": "DeepSeek Won't Sink U.S. AI Titans",
+          "summary": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown.",
+          "link": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
+          "published": "Mon, 27 Jan 2025 13:12:00 -0500"
+        },
+        {
+          "title": "Financial Services Roundup: Market Talk",
+          "summary": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services.",
+          "link": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main",
+          "published": "Mon, 27 Jan 2025 12:27:00 -0500"
+        },
+        {
+          "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
+          "summary": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump’s threats to impose tariffs and economic sanctions on ",
+          "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
+          "published": "Mon, 27 Jan 2025 12:20:00 -0500"
+        }
+      ]
+    }
   },
-  "news_highlights": [
-    { "source": "CNBC", "title": "S&P 500 is little changed as index heads for winning week: Live updates" },
-    { "source": "CNBC", "title": "Meet SK Hynix, the trillion-dollar South Korean chipmaker debuting on U.S. markets" },
-    { "source": "CNBC", "title": "Stablecoin issuer Circle got OCC greenlight to operate as a trust bank; shares up 12%" },
-    { "source": "CNBC", "title": "IEA: World oil demand set for first annual decline since 2020" },
-    { "source": "CNBC", "title": "Trump says he won't sign housing bill which would become law automatically" },
-    { "source": "CNBC", "title": "Delta expects higher airfare to last, bringing 2026 profit goal in reach" },
-    { "source": "CNBC", "title": "Key chip stock index flashing 'ominous signals', says BTIG" },
-    { "source": "CNBC", "title": "Meta found to breach EU laws with 'addictive' Instagram, Facebook designs" },
-    { "source": "MarketWatch", "title": "Kevin Warsh wants fewer press conferences - why that's bad for the economy and your money" },
-    { "source": "MarketWatch", "title": "Delta absorbs highest fuel costs in its history, but also books record revenue" },
-    { "source": "MarketWatch", "title": "Bar is high for S&P 500 earnings, but surprises could be hiding in unrewarded sectors" }
-  ],
-  "geopolitical_risk": {
-    "level": "HIGH",
-    "key": "美伊冲突：美国连续空袭后Trump称伊朗已联系协商，但局势仍不确定。IEA警告战争加剧可能进一步扰乱石油市场",
-    "impact": "油价承压回落、避险情绪跟随震荡、芯片AI主题重新成为焦点"
-  },
-  "macro_indicators": {
-    "fed_note": "Warsh听证言论引发透明度讨论；市场关注下周CPI数据",
-    "earnings_season": "Delta率先披露Q2财报（营收创纪录、燃料成本新高）；下周银行股季报密集来袭",
-    "china_note": "A股芯片板块强势延续，油气板块因IEA需求预警大幅回调"
+  "summary": {
+    "us": "美股周五分化：标普500涨1.23%至7575点，纳指大涨1.74%至26282点，道指微跌0.50%至52637点。科技股领涨。",
+    "hk": "恒指暴涨3.53%至24175点，单日飙升825点，领涨全球。",
+    "cn": "A股周五承压：上证跌1.12%至3996点，深成指跌2.40%至15047点。",
+    "jp": "日经225跌1.69%至68558点。",
+    "eu": "英FTSE 100跌1.70%至10497点。",
+    "commodities": "黄金$4113.7/oz跌0.76%，原油WTI $71.41/bbl涨1.38%。",
+    "crypto": "加密市场反弹：BTC $63,995 (+2.79%)，ETH $1,806 (+3.62%)。"
   }
 }

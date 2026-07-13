@@ -1,71 +1,85 @@
 {
-  "timestamp": "2026-07-10 15:05",
-  "source": "新浪行情",
+  "timestamp": "2026-07-13 11:37",
+  "source": "新浪/东方财富",
   "market": {
-    "status": "收盘",
-    "date": "2026-07-10",
-    "amount_yi": 33887.27
-  },
-  "indexes": [
-    {
-      "name": "上证指数",
-      "price": 3996.16,
-      "prev_close": 4036.59,
-      "high": 4074.83,
-      "low": 3995.81,
-      "change": -40.43,
-      "change_pct": -1.00,
-      "amount_yi": 15631.09
+    "status": "午盘",
+    "indices": {
+      "上证指数": {
+        "price": 3934.74,
+        "change_pct": -1.54
+      },
+      "深证成指": {
+        "price": 14654.49,
+        "change_pct": -2.61
+      },
+      "创业板指": {
+        "price": 3751.33,
+        "change_pct": -2.38
+      },
+      "沪深300": {
+        "price": 4716.67,
+        "change_pct": -1.34
+      },
+      "hk_恒生指数": {
+        "price": 24118.22,
+        "change_pct": -56.9
+      },
+      "hk_恒生中国企业指数": {
+        "price": 8038.28,
+        "change_pct": -0.91
+      },
+      "hk_恒生香港中资企业指数": {
+        "price": 3846.31,
+        "change_pct": -4.73
+      }
     },
-    {
-      "name": "深证成指",
-      "price": 15046.67,
-      "prev_close": 15398.73,
-      "high": 15581.94,
-      "low": 15046.67,
-      "change": -352.06,
-      "change_pct": -2.29,
-      "amount_yi": 18254.36
+    "sectors": {
+      "leaders": [
+        {
+          "name": "银行",
+          "change_pct": 1.78
+        },
+        {
+          "name": "粮食种植",
+          "change_pct": 1.21
+        },
+        {
+          "name": "纺织鞋类制造",
+          "change_pct": 1.13
+        },
+        {
+          "name": "医药流通",
+          "change_pct": 0.97
+        },
+        {
+          "name": "诊断服务",
+          "change_pct": 0.94
+        }
+      ],
+      "laggards": [
+        {
+          "name": "卫浴电器",
+          "change_pct": -1.06
+        },
+        {
+          "name": "白色家电",
+          "change_pct": -1.08
+        },
+        {
+          "name": "医疗服务",
+          "change_pct": -1.13
+        },
+        {
+          "name": "物流",
+          "change_pct": -1.13
+        },
+        {
+          "name": "普钢",
+          "change_pct": -1.14
+        }
+      ]
     },
-    {
-      "name": "创业板指",
-      "price": 3842.73,
-      "prev_close": 4018.17,
-      "high": 4060.53,
-      "low": 3842.35,
-      "change": -175.44,
-      "change_pct": -4.37,
-      "amount_yi": 8539.43
-    },
-    {
-      "name": "沪深300",
-      "price": 4780.79,
-      "prev_close": 4876.31,
-      "high": 4906.49,
-      "low": 4780.75,
-      "change": -95.53,
-      "change_pct": -1.96,
-      "amount_yi": 10839.13
-    }
-  ],
-  "north_flow": {
-    "status": "收盘后更新",
-    "note": "北向资金日频数据收盘后更新，盘中数据暂不可获取"
-  },
-  "sectors": {
-    "top5": [
-      { "name": "银行", "change_pct": 1.48 },
-      { "name": "非银金融", "change_pct": 1.12 },
-      { "name": "建筑装饰", "change_pct": 0.85 },
-      { "name": "钢铁", "change_pct": 0.73 },
-      { "name": "石油石化", "change_pct": 0.62 }
-    ],
-    "bottom5": [
-      { "name": "计算机", "change_pct": -1.22 },
-      { "name": "传媒", "change_pct": -0.98 },
-      { "name": "电子", "change_pct": -0.85 },
-      { "name": "通信", "change_pct": -0.67 },
-      { "name": "国防军工", "change_pct": -0.45 }
-    ]
+    "trading_day": "2026-07-13",
+    "time": "11:35"
   }
 }

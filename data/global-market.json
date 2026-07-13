@@ -1,276 +1,76 @@
 {
-  "updatedAt": "2026-07-13 09:15",
-  "updatedAtUTC": "2026-07-13T01:15:00Z",
-  "marketData": {
-    "us": {
-      "sp500": {
-        "price": 7575.39,
-        "change": -26.0,
-        "changePercent": -0.35,
-        "dayHigh": 7579.93,
-        "dayLow": 7508.16,
-        "prevClose": 7575.39,
-        "52wHigh": 7620.9,
-        "name": "S&P 500"
-      },
-      "dow": {
-        "price": 52637.01,
-        "change": -80.0,
-        "changePercent": -0.15,
-        "dayHigh": 52709.75,
-        "dayLow": 52266.81,
-        "prevClose": 52637.01,
-        "52wHigh": 53289.3,
-        "name": "Dow Jones Industrial Average"
-      },
-      "nasdaq": {
-        "price": 26281.61,
-        "change": -105.0,
-        "changePercent": -0.40,
-        "dayHigh": 26301.54,
-        "dayLow": 26009.49,
-        "prevClose": 26281.61,
-        "52wHigh": 27190.21,
-        "name": "NASDAQ Composite"
-      }
+  "timestamp": "2026-07-13T13:30:00Z",
+  "date": "2026-07-13",
+  "us_markets": {
+    "sp500": {
+      "value": 7561.63,
+      "change_pct": -0.18,
+      "label": "S&P 500"
     },
-    "hongkong": {
-      "hsi": {
-        "price": 24175.12,
-        "change": 0,
-        "changePercent": 0,
-        "dayHigh": 24499.63,
-        "dayLow": 24064.62,
-        "prevClose": 24175.12,
-        "52wHigh": 28056.1,
-        "name": "恒生指数 HSI"
-      }
+    "nasdaq": {
+      "value": 26121.73,
+      "change_pct": -0.61,
+      "label": "NASDAQ"
     },
-    "japan": {
-      "nikkei": {
-        "price": 68557.73,
-        "change": 0,
-        "changePercent": 0,
-        "dayHigh": 69374.86,
-        "dayLow": 68271.91,
-        "prevClose": 68557.73,
-        "52wHigh": 72831.73,
-        "name": "日经225 Nikkei"
-      }
-    },
-    "europe": {
-      "ftse": {
-        "price": 10497.29,
-        "change": 0,
-        "changePercent": 0,
-        "dayHigh": 10513.9,
-        "dayLow": 10462.75,
-        "prevClose": 10497.29,
-        "52wHigh": 10934.9,
-        "name": "FTSE 100 (英国)"
-      }
-    },
-    "china": {
-      "shanghai": {
-        "price": 3996.16,
-        "change": 0,
-        "changePercent": 0,
-        "dayHigh": 4074.83,
-        "dayLow": 3995.81,
-        "prevClose": 3996.16,
-        "name": "上证指数 SSE"
-      },
-      "shenzhen": {
-        "price": 15046.67,
-        "change": 0,
-        "changePercent": 0,
-        "dayHigh": 15581.94,
-        "dayLow": 15046.67,
-        "prevClose": 15046.67,
-        "name": "深证成指 SZSE"
-      }
-    },
-    "commodities": {
-      "gold": {
-        "price": 4080.19,
-        "change": -33.51,
-        "changePercent": -0.99,
-        "dayHigh": 4144.6,
-        "dayLow": 4081.7,
-        "prevClose": 4113.7,
-        "unit": "USD/oz",
-        "name": "黄金 Gold"
-      },
-      "crude_oil": {
-        "price": 74.26,
-        "change": 2.85,
-        "changePercent": 3.99,
-        "dayHigh": 74.5,
-        "dayLow": 70.77,
-        "prevClose": 71.41,
-        "unit": "USD/bbl",
-        "name": "原油 WTI Crude"
-      }
-    },
-    "crypto": {
-      "btc": {
-        "price": 63995.21,
-        "change": 1737.64,
-        "changePercent": 2.79,
-        "dayHigh": 64171.85,
-        "dayLow": 63630.3,
-        "prevClose": 62257.57,
-        "name": "Bitcoin BTC",
-        "marketCap": "1.28T"
-      },
-      "eth": {
-        "price": 1805.77,
-        "change": 63.09,
-        "changePercent": 3.62,
-        "dayHigh": 1811.39,
-        "dayLow": 1782.5,
-        "prevClose": 1742.68,
-        "name": "Ethereum ETH",
-        "marketCap": "221.10B"
-      }
+    "dow": {
+      "value": 52772.61,
+      "change_pct": 0.26,
+      "label": "道琼斯"
     }
   },
-  "newsData": {
-    "cnbc": {
-      "count": 6,
-      "entries": [
-        {
-          "title": "US stock futures edge lower ahead of packed earnings week as Middle East tensions escalate",
-          "summary": "S&P 500 futures slipped as investors brace for JPMorgan, Netflix earnings and key inflation data amid US-Iran missile strikes over the Strait of Hormuz.",
-          "link": "https://www.cnbc.com/2026/07/13/stock-market-today-live-updates.html",
-          "published": "Mon, 13 Jul 2026 01:00:00 GMT"
-        },
-        {
-          "title": "U.S. launches airstrikes against Iran after Tehran attacks container ship in Hormuz, Pentagon says",
-          "summary": "Iran has attacked ships using a route along Oman's coast protected by the U.S. military. Tehran demands vessels use a northern route through its waters.",
-          "link": "https://www.cnbc.com/2026/07/11/us-airstrikes-iran-strait-hormuz.html",
-          "published": "Sun, 12 Jul 2026 13:11:21 GMT"
-        },
-        {
-          "title": "Sen. Lindsey Graham dies at 71 after a brief illness",
-          "summary": "Graham, a prominent Republican senator from South Carolina, was 71. His office announced his death.",
-          "link": "https://www.cnbc.com/2026/07/12/senator-lindsey-graham-has-died-after-a-brief-illness-his-office-says.html",
-          "published": "Sun, 12 Jul 2026 12:41:41 GMT"
-        },
-        {
-          "title": "Oil surges 4% as US-Iran missile strikes escalate, Strait of Hormuz threatened",
-          "summary": "Crude oil climbed above $74 as Tehran declares Hormuz 'closed until further notice'; US Central Command disputes claim.",
-          "link": "https://www.cnbc.com/2026/07/13/crude-oil-hormuz-iran-us-strikes.html",
-          "published": "Mon, 13 Jul 2026 00:45:00 GMT"
-        },
-        {
-          "title": "Earnings playbook: Reporting season gets underway with JPMorgan Chase, Netflix on deck",
-          "summary": "Nearly 28 S&P 500 companies set to report, with Q2 profit growth expected at +24% YoY.",
-          "link": "https://www.cnbc.com/2026/07/12/earnings-playbook-reporting-season-starts-with-jpmorgan-chase-netflix.html",
-          "published": "Sun, 12 Jul 2026 12:02:15 GMT"
-        },
-        {
-          "title": "Almost unlimited: Execs say AI demand remains strong even as enterprises move to 'valuemaxxing'",
-          "summary": "AI-related chip stocks have been volatile amid a debate over AI demand and spending.",
-          "link": "https://www.cnbc.com/2026/07/12/ai-demand-chips-data-centers-stock-volatility.html",
-          "published": "Sun, 12 Jul 2026 05:00:01 GMT"
-        }
-      ]
-    },
-    "bloomberg": {
-      "count": 5,
-      "entries": [
-        {
-          "title": "Oil Jumps as US and Iran Trade Fresh Strikes Over Hormuz",
-          "summary": "Crude rises most in a month after weekend attacks. Tehran says strait closed; Pentagon disputes.",
-          "link": "https://www.bloomberg.com/news/articles/2026-07-13/oil-jumps-us-iran-strikes-hormuz",
-          "published": "Mon, 13 Jul 2026 00:30:00 GMT"
-        },
-        {
-          "title": "Funds Fret Over $4.4 Trillion AI Trio's Grip on Emerging Markets",
-          "summary": "Investors rotate beyond AI winners in emerging markets where just three tech stocks worth $4.4T drive outsized returns.",
-          "link": "https://www.bloomberg.com/news/articles/2026-07-12/funds-fret-over-4-4-trillion-ai-trio-s-grip-on-emerging-markets",
-          "published": "Sun, 12 Jul 2026 12:30:00 GMT"
-        },
-        {
-          "title": "Q2 Earnings Preview: S&P 500 Profits Seen Up 24%, Banks Lead",
-          "summary": "JPMorgan, Goldman, Morgan Stanley report this week. Expectations high for net interest income amid hawkish Fed.",
-          "link": "https://www.bloomberg.com/news/articles/2026-07-12/q2-earnings-preview-sp-500",
-          "published": "Sun, 12 Jul 2026 11:00:00 GMT"
-        },
-        {
-          "title": "How Founder Control Is Reshaping Public Markets",
-          "summary": "SpaceX's record IPO gave public access but not equal voting rights. CEO Musk holds majority control.",
-          "link": "https://www.bloomberg.com/news/videos/2026-07-12/how-founder-control-is-reshaping-public-markets-video",
-          "published": "Sun, 12 Jul 2026 12:03:18 GMT"
-        },
-        {
-          "title": "Hormuz Reopening Faces Costly Hurdles",
-          "summary": "Gulf energy flows face uncertain recovery as producers work to clear ships and assess damage.",
-          "link": "https://www.bloomberg.com/news/videos/2026-07-12/hormuz-reopening-faces-costly-hurdles-video",
-          "published": "Sun, 12 Jul 2026 11:55:18 GMT"
-        }
-      ]
-    },
-    "wsj": {
-      "count": 5,
-      "entries": [
-        {
-          "title": "Oil Prices Surge as US-Iran Conflict Intensifies",
-          "summary": "Crude oil jumped over 4% after weekend missile strikes. Strait of Hormuz tensions threaten global supply.",
-          "link": "https://www.wsj.com/articles/oil-prices-surge-us-iran-strait-hormuz-20260713",
-          "published": "Mon, 13 Jul 2026 00:15:00 GMT"
-        },
-        {
-          "title": "Wall Street Braces for Q2 Earnings Season",
-          "summary": "JPMorgan, Goldman Sachs, Netflix among heavy hitters reporting this week. S&P 500 earnings expected up 24%.",
-          "link": "https://www.wsj.com/articles/q2-earnings-season-preview-20260713",
-          "published": "Sun, 12 Jul 2026 22:00:00 GMT"
-        },
-        {
-          "title": "Gold Slips Below $4,100 as Rate Hike Expectations Build",
-          "summary": "Hawkish Fed pivot and surging oil inflation fears pressure precious metals. Fed Chair Warsh testifies Tuesday.",
-          "link": "https://www.wsj.com/articles/gold-slips-below-4100-fed-rate-hike-20260713",
-          "published": "Sun, 12 Jul 2026 21:45:00 GMT"
-        },
-        {
-          "title": "Fed's Warsh Set for First Congressional Testimony",
-          "summary": "New Fed Chair Kevin Warsh to appear before Congress Tuesday. Markets watching for rate signal.",
-          "link": "https://www.wsj.com/articles/fed-chair-warsh-congress-testimony-20260713",
-          "published": "Sun, 12 Jul 2026 21:30:00 GMT"
-        },
-        {
-          "title": "SK Hynix Soars in Record US Debut",
-          "summary": "South Korean chipmaker's NYSE listing surges on AI chip demand, raising $4.6B in largest Korean IPO on US exchange.",
-          "link": "https://www.wsj.com/articles/sk-hynix-ipo-wall-street-debut-20260710",
-          "published": "Fri, 10 Jul 2026 20:30:00 GMT"
-        }
-      ]
+  "hk_markets": {
+    "hsi": {
+      "value": 24213.72,
+      "change_pct": 0.16,
+      "label": "恒生指数"
     }
   },
-  "overnight": {
-    "sp500_futures": -0.35,
-    "nasdaq_futures": -0.40,
-    "dow_futures": -0.15,
-    "crude_surge": 3.99,
-    "gold_decline": -0.99,
-    "key_events": [
-      "US-Iran missile strikes escalate; Iran claims Hormuz closure",
-      "Fed Chair Warsh to testify before Congress Tuesday",
-      "Q2 earnings season kicks off with JPMorgan, Netflix this week",
-      "SK Hynix soars in record $4.6B US IPO debut",
-      "IMF downgrades global growth forecast for second consecutive time",
-      "US May CPI data due this week; inflation at 4.2%",
-      "Sen. Lindsey Graham passes away at 71"
-    ],
-    "overnight_date": "2026-07-12/13"
+  "crypto": {
+    "btc": {
+      "price_usd": 62571.79,
+      "change_24h_pct": -2.23,
+      "label": "BTC"
+    },
+    "eth": {
+      "price_usd": 1771.05,
+      "change_24h_pct": -1.94,
+      "label": "ETH"
+    }
   },
+  "news_headlines": [
+    {
+      "source": "CNBC",
+      "title": "S&P 500 slides as chipmakers fall, oil prices rise: Live updates"
+    },
+    {
+      "source": "CNBC",
+      "title": "Big banks poised to report booming revenue propelled by SpaceX IPO, Iran war volatility"
+    },
+    {
+      "source": "CNBC",
+      "title": "Trump: U.S. should be reimbursed for guarding Strait of Hormuz"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Delta Will Do Just Fine With High Fuel Prices, CEO Says"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "SK Hynix Shares Plunge Most on Record in Deepening Korea Selloff"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "These biggest and 'least loved' stocks are the ones to pick ahead of earnings"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "'Dirty Jobs' host Mike Rowe: We have become untethered from the definition of work"
+    }
+  ],
   "summary": {
-    "us": "美股上周五收高：标普+0.4%至7575，纳指+0.3%至26282，道指+0.3%至52637。标普周涨1.2%，纳指周涨1.7%。隔夜期货小幅走低。",
-    "overnight": "中东局势急剧升温：美伊互射导弹，伊朗宣布封锁霍尔木兹海峡，原油暴涨近4%突破$74。黄金承压跌至$4080。Q2财报季本周启动，26家标普公司披露。Fed主席Warsh周二首秀国会听证。IMF二度下调全球增长预期。",
-    "hk": "恒指上周五暴涨3.53%至24175点，本周关注A股联动。",
-    "cn": "A股上周五回调：上证跌1.12%至3996，深成指跌2.40%至15047。今日关注中东风险传导。",
-    "commodities": "⚡原油涨3.99%至$74.26（霍尔木兹危机），黄金跌0.99%至$4080.19。",
-    "crypto": "BTC $63,995 (+2.79%)，ETH $1,806 (+3.62%)。"
+    "us": "美股涨跌互现。道指微涨0.26%，标普500跌0.18%，纳斯达克跌0.61%。芯片股承压，油价因伊朗局势上涨。",
+    "hk": "恒生指数小幅收涨0.16%报24213.72点。",
+    "crypto": "加密货币承压，BTC 24小时跌2.23%报$62,572，ETH跌1.94%报$1,771。",
+    "macro": "伊朗霍尔木兹海峡局势持续紧张，油价上涨。韩国半导体板块暴跌（SK海力士创纪录跌幅）。AI板块普遍承压。大银行受益于SpaceX IPO和地缘波动，业绩预期强劲。"
   }
 }

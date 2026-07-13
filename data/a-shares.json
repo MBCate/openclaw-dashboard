@@ -1,85 +1,49 @@
 {
-  "timestamp": "2026-07-13 11:37",
-  "source": "新浪/东方财富",
-  "market": {
-    "status": "午盘",
-    "indices": {
-      "上证指数": {
-        "price": 3934.74,
-        "change_pct": -1.54
-      },
-      "深证成指": {
-        "price": 14654.49,
-        "change_pct": -2.61
-      },
-      "创业板指": {
-        "price": 3751.33,
-        "change_pct": -2.38
-      },
-      "沪深300": {
-        "price": 4716.67,
-        "change_pct": -1.34
-      },
-      "hk_恒生指数": {
-        "price": 24118.22,
-        "change_pct": -56.9
-      },
-      "hk_恒生中国企业指数": {
-        "price": 8038.28,
-        "change_pct": -0.91
-      },
-      "hk_恒生香港中资企业指数": {
-        "price": 3846.31,
-        "change_pct": -4.73
-      }
+  "update_time": "2026-07-13 15:19:49",
+  "indices": {
+    "上证指数": {
+      "price": 3913.794,
+      "change": -82.3676,
+      "change_pct": -2.06,
+      "volume": "5909073",
+      "amount": "133487193"
     },
-    "sectors": {
-      "leaders": [
-        {
-          "name": "银行",
-          "change_pct": 1.78
-        },
-        {
-          "name": "粮食种植",
-          "change_pct": 1.21
-        },
-        {
-          "name": "纺织鞋类制造",
-          "change_pct": 1.13
-        },
-        {
-          "name": "医药流通",
-          "change_pct": 0.97
-        },
-        {
-          "name": "诊断服务",
-          "change_pct": 0.94
-        }
-      ],
-      "laggards": [
-        {
-          "name": "卫浴电器",
-          "change_pct": -1.06
-        },
-        {
-          "name": "白色家电",
-          "change_pct": -1.08
-        },
-        {
-          "name": "医疗服务",
-          "change_pct": -1.13
-        },
-        {
-          "name": "物流",
-          "change_pct": -1.13
-        },
-        {
-          "name": "普钢",
-          "change_pct": -1.14
-        }
-      ]
+    "深证成指": {
+      "price": 14522.85,
+      "change": -523.815,
+      "change_pct": -3.48,
+      "volume": "733556925",
+      "amount": "148288003"
     },
-    "trading_day": "2026-07-13",
-    "time": "11:35"
-  }
+    "创业板指": {
+      "price": 3723.52,
+      "change": -119.215,
+      "change_pct": -3.1,
+      "volume": "43381990",
+      "amount": "33558722"
+    },
+    "沪深300": {
+      "price": 4695.383,
+      "change": -85.4037,
+      "change_pct": -1.79,
+      "volume": "2786348",
+      "amount": "90794468"
+    },
+    "上证50": {
+      "price": 2913.1878,
+      "change": -42.3323,
+      "change_pct": -1.43,
+      "volume": "637242",
+      "amount": "25546821"
+    },
+    "科创50": {
+      "price": 1994.3192,
+      "change": -70.6564,
+      "change_pct": -3.42,
+      "volume": "183379",
+      "amount": "21485146"
+    }
+  },
+  "source": "sina_finance_api",
+  "note": "由于代理网络限制，板块和北向数据暂不可用"
 }

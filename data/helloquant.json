@@ -1,112 +1,213 @@
 {
-  "timestamp": "2026-07-10 15:05",
-  "date": "2026-07-10",
-  "stocks": {
-    "status": "success",
-    "data": {
-      "上证指数": {
-        "price": 3996.16,
-        "change": -1.00,
-        "volume": 627450065
-      },
-      "深证成指": {
-        "price": 15046.67,
-        "change": -2.29,
-        "volume": 82860516995
-      },
-      "创业板指": {
-        "price": 3842.73,
-        "change": -4.37,
-        "volume": 24825417598
-      }
+  "update_time": "2026-07-13 15:19:55",
+  "data_date": "2026-07-08",
+  "total_pairs": 12,
+  "strategies": [
+    {
+      "market": "crypto",
+      "pair": "BTC/USDT",
+      "price": 62713.0,
+      "change_24h": -0.9775453521989638,
+      "rsi_1h": 22.3,
+      "macd_status": "死叉",
+      "trend_1h": "偏空",
+      "trend_4h": "偏多"
+    },
+    {
+      "market": "crypto",
+      "pair": "ETH/USDT",
+      "price": 1749.6,
+      "change_24h": -1.6896390903931626,
+      "rsi_1h": 20.7,
+      "macd_status": "死叉",
+      "trend_1h": "偏空",
+      "trend_4h": "偏空"
+    },
+    {
+      "market": "stocks",
+      "symbol": "上证指数",
+      "price": 3970.8797,
+      "change_pct": null,
+      "rsi": null,
+      "macd_status": null,
+      "trend": null
+    },
+    {
+      "market": "stocks",
+      "symbol": "深证成指",
+      "price": 14939.727,
+      "change_pct": null,
+      "rsi": null,
+      "macd_status": null,
+      "trend": null
+    },
+    {
+      "market": "stocks",
+      "symbol": "创业板指",
+      "price": 3845.351,
+      "change_pct": null,
+      "rsi": null,
+      "macd_status": null,
+      "trend": null
+    },
+    {
+      "market": "stocks",
+      "symbol": "沪金主力",
+      "price": 903.76,
+      "change_pct": null,
+      "rsi": null,
+      "macd_status": null,
+      "trend": null
+    },
+    {
+      "market": "stocks",
+      "symbol": "沪银主力",
+      "price": 14880.0,
+      "change_pct": null,
+      "rsi": null,
+      "macd_status": null,
+      "trend": null
+    },
+    {
+      "market": "stocks",
+      "symbol": "沪铜主力",
+      "price": 102970.0,
+      "change_pct": null,
+      "rsi": null,
+      "macd_status": null,
+      "trend": null
+    },
+    {
+      "market": "stocks",
+      "symbol": "螺纹钢主力",
+      "price": 3068.0,
+      "change_pct": null,
+      "rsi": null,
+      "macd_status": null,
+      "trend": null
+    },
+    {
+      "market": "stocks",
+      "symbol": "沪深300期货",
+      "price": 4703.4,
+      "change_pct": null,
+      "rsi": null,
+      "macd_status": null,
+      "trend": null
+    },
+    {
+      "market": "stocks",
+      "symbol": "中证500期货",
+      "price": 8322.6,
+      "change_pct": null,
+      "rsi": null,
+      "macd_status": null,
+      "trend": null
+    },
+    {
+      "market": "stocks",
+      "symbol": "50ETF波动率",
+      "price": null,
+      "change_pct": null,
+      "rsi": null,
+      "macd_status": null,
+      "trend": null
     }
-  },
+  ],
   "signals": {
     "status": "success",
     "data": {
       "DoubleMa": {
-        "1h": { "signal": "观望", "current_price": 62450.0 },
-        "4h": { "signal": "观望", "current_price": 62450.0 }
+        "1h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        },
+        "4h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        }
       },
       "RSI": {
-        "1h": { "signal": "做多", "current_price": 62450.0 },
-        "4h": { "signal": "观望", "current_price": 62450.0 }
+        "1h": {
+          "signal": "做多",
+          "current_price": 62699.3
+        },
+        "4h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        }
       },
       "MACD": {
-        "1h": { "signal": "观望", "current_price": 62450.0 },
-        "4h": { "signal": "观望", "current_price": 62450.0 }
+        "1h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        },
+        "4h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        }
       },
       "Bollinger": {
-        "1h": { "signal": "观望", "current_price": 62450.0 },
-        "4h": { "signal": "观望", "current_price": 62450.0 }
+        "1h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        },
+        "4h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        }
       },
       "Supertrend": {
-        "1h": { "signal": "观望", "current_price": 62450.0 },
-        "4h": { "signal": "观望", "current_price": 62450.0 }
+        "1h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        },
+        "4h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        }
       },
       "TripleMa": {
-        "1h": { "signal": "观望", "current_price": 62450.0 },
-        "4h": { "signal": "观望", "current_price": 62450.0 }
+        "1h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        },
+        "4h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        }
       },
       "Momentum": {
-        "1h": { "signal": "观望", "current_price": 62450.0 },
-        "4h": { "signal": "做空", "current_price": 62450.0 }
+        "1h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        },
+        "4h": {
+          "signal": "做空",
+          "current_price": 62699.3
+        }
       },
       "MeanReversion": {
-        "1h": { "signal": "观望", "current_price": 62450.0 },
-        "4h": { "signal": "观望", "current_price": 62450.0 }
+        "1h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        },
+        "4h": {
+          "signal": "观望",
+          "current_price": 62699.3
+        }
       }
     }
   },
-  "crypto": {
+  "sentiment": {
     "status": "success",
     "data": {
-      "BTC/USDT": {
-        "price": 62450.0,
-        "change_24h": -1.05,
-        "indicators_1h": {
-          "rsi": 22.0,
-          "macd_status": "死叉",
-          "trend": "偏空"
-        },
-        "indicators_4h": {
-          "rsi": 41.0,
-          "macd_status": "死叉",
-          "trend": "偏空"
-        }
-      },
-      "ETH/USDT": {
-        "price": 1740.0,
-        "change_24h": -1.5,
-        "indicators_1h": {
-          "rsi": 20.0,
-          "macd_status": "死叉",
-          "trend": "偏空"
-        },
-        "indicators_4h": {
-          "rsi": 38.0,
-          "macd_status": "死叉",
-          "trend": "偏空"
-        }
+      "crypto_fear_greed": {
+        "value": 20,
+        "classification": "Extreme Fear",
+        "timestamp": "1783468800"
       }
     }
   },
-  "weekly_summary": {
-    "week": "2026-07-06 ~ 2026-07-10",
-    "market": {
-      "上证指数": "3996.16 (-1.00%)",
-      "深证成指": "15046.67 (-2.29%)",
-      "创业板指": "3842.73 (-4.37%)"
-    },
-    "crypto": {
-      "BTC": "$62,450 (-1.05%)",
-      "ETH": "$1,740 (-1.5%)"
-    },
-    "crypto_sentiment": "Extreme Fear (20/100)",
-    "signal_summary": {
-      "1h": { "做多": 1, "做空": 0, "观望": 7 },
-      "4h": { "做多": 0, "做空": 1, "观望": 7 }
-    },
-    "note": "本周A股全线回调，创业板领跌-4.37%；加密市场持续偏空，BTC跌破63K，8策略中7个信号观望，仅RSI(1h)看多、Momentum(4h)看空"
-  }
+  "timestamp": "2026-07-08T15:21:46.597656"
 }

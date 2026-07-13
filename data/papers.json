@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-11",
+  "date": "2026-07-13",
   "week": "2026-W28",
-  "total": 99,
+  "total": 100,
   "new": 82,
   "known": 17,
   "top5": [
@@ -1485,7 +1485,19 @@
         "autoregressive generation",
         "closed-loop"
       ]
+    },
+    {
+      "id": "2607.02841",
+      "title": "CLEAR: Closed-Loop Reinforcement Learning at Scale for End-to-End Autonomous Driving",
+      "authors": "Yunxiao Shi, et al.",
+      "date": "2026-07-03",
+      "category": "E2E AD / VLA / RL",
+      "stars": 5,
+      "status": "新发现",
+      "kb_path": "e2e-autonomous-driving/analysis/2607.02841_CLEAR.md",
+      "score": 5,
+      "weekly": false
     }
   ],
-  "updated_at": "2026-07-11 08:19:56"
+  "updated_at": "2026-07-13T08:00+08:00"
 }

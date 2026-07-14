@@ -1,49 +1,100 @@
 {
-  "update_time": "2026-07-13 15:19:49",
+  "update_time": "2026-07-14 11:37:43",
   "indices": {
     "上证指数": {
-      "price": 3913.794,
-      "change": -82.3676,
-      "change_pct": -2.06,
-      "volume": "5909073",
-      "amount": "133487193"
+      "price": 3887.92,
+      "change": -25.87,
+      "change_pct": -0.66,
+      "volume": 3479271,
+      "amount": 76238498
     },
     "深证成指": {
-      "price": 14522.85,
-      "change": -523.815,
-      "change_pct": -3.48,
-      "volume": "733556925",
-      "amount": "148288003"
+      "price": 14461.2,
+      "change": -61.65,
+      "change_pct": -0.42,
+      "volume": 415759943,
+      "amount": 86324762
     },
     "创业板指": {
-      "price": 3723.52,
-      "change": -119.215,
-      "change_pct": -3.1,
-      "volume": "43381990",
-      "amount": "33558722"
+      "price": 3712.74,
+      "change": -10.77,
+      "change_pct": -0.29,
+      "volume": 25182064,
+      "amount": 19479581
     },
     "沪深300": {
-      "price": 4695.383,
-      "change": -85.4037,
-      "change_pct": -1.79,
-      "volume": "2786348",
-      "amount": "90794468"
+      "price": 4677.31,
+      "change": -18.08,
+      "change_pct": -0.39,
+      "volume": 1618549,
+      "amount": 54230936
     },
     "上证50": {
-      "price": 2913.1878,
-      "change": -42.3323,
-      "change_pct": -1.43,
-      "volume": "637242",
-      "amount": "25546821"
+      "price": 2888.71,
+      "change": -24.48,
+      "change_pct": -0.84,
+      "volume": 365227,
+      "amount": 15353398
     },
     "科创50": {
-      "price": 1994.3192,
-      "change": -70.6564,
-      "change_pct": -3.42,
-      "volume": "183379",
-      "amount": "21485146"
+      "price": 1925.43,
+      "change": -68.88,
+      "change_pct": -3.45,
+      "volume": 100031,
+      "amount": 12152298
     }
   },
-  "source": "sina_finance_api",
-  "note": "由于代理网络限制，板块和北向数据暂不可用"
+  "sectors": {
+    "top5": [
+      {
+        "name": "油气开采Ⅲ",
+        "change_pct": 6.04
+      },
+      {
+        "name": "油气开采Ⅱ",
+        "change_pct": 6.04
+      },
+      {
+        "name": "油气及炼化工程",
+        "change_pct": 5.28
+      },
+      {
+        "name": "线下药店",
+        "change_pct": 4.99
+      },
+      {
+        "name": "油服工程",
+        "change_pct": 4.71
+      }
+    ],
+    "bottom5": [
+      {
+        "name": "冶钢辅料",
+        "change_pct": 0.99
+      },
+      {
+        "name": "个护用品",
+        "change_pct": 0.99
+      },
+      {
+        "name": "美容护理",
+        "change_pct": 1.0
+      },
+      {
+        "name": "房地产综合服务",
+        "change_pct": 1.01
+      },
+      {
+        "name": "商业地产",
+        "change_pct": 1.02
+      }
+    ]
+  },
+  "north_flow": {
+    "沪股通": 0.0,
+    "深股通": 0.0,
+    "total": 0.0,
+    "note": "北向资金午盘数据暂未更新"
+  },
+  "market_status": "午盘"
 }

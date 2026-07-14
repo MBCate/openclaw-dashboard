@@ -1,100 +1,91 @@
 {
-  "update_time": "2026-07-14 11:37:43",
+  "update_time": "2026-07-14 15:05",
   "indices": {
     "上证指数": {
       "price": 3887.92,
       "change": -25.87,
       "change_pct": -0.66,
-      "volume": 3479271,
-      "amount": 76238498
+      "note": "跌破3900点，全天低开低走"
     },
     "深证成指": {
       "price": 14461.2,
       "change": -61.65,
-      "change_pct": -0.42,
-      "volume": 415759943,
-      "amount": 86324762
+      "change_pct": -0.42
     },
     "创业板指": {
       "price": 3712.74,
       "change": -10.77,
-      "change_pct": -0.29,
-      "volume": 25182064,
-      "amount": 19479581
+      "change_pct": -0.29
     },
     "沪深300": {
       "price": 4677.31,
       "change": -18.08,
-      "change_pct": -0.39,
-      "volume": 1618549,
-      "amount": 54230936
+      "change_pct": -0.39
     },
     "上证50": {
       "price": 2888.71,
       "change": -24.48,
-      "change_pct": -0.84,
-      "volume": 365227,
-      "amount": 15353398
+      "change_pct": -0.84
     },
     "科创50": {
       "price": 1925.43,
       "change": -68.88,
-      "change_pct": -3.45,
-      "volume": 100031,
-      "amount": 12152298
+      "change_pct": -3.45
     }
   },
   "sectors": {
     "top5": [
-      {
-        "name": "油气开采Ⅲ",
-        "change_pct": 6.04
-      },
-      {
-        "name": "油气开采Ⅱ",
-        "change_pct": 6.04
-      },
-      {
-        "name": "油气及炼化工程",
-        "change_pct": 5.28
-      },
-      {
-        "name": "线下药店",
-        "change_pct": 4.99
-      },
-      {
-        "name": "油服工程",
-        "change_pct": 4.71
-      }
+      {"name": "中药", "change_pct": 4.3, "net_flow": 6},
+      {"name": "银行", "change_pct": 1.9, "net_flow": 40},
+      {"name": "养殖业", "change_pct": 1.9, "net_flow": 2},
+      {"name": "医药商业", "change_pct": 1.4, "net_flow": 1},
+      {"name": "油气开采", "change_pct": 1.2, "net_flow": 0}
     ],
     "bottom5": [
-      {
-        "name": "冶钢辅料",
-        "change_pct": 0.99
-      },
-      {
-        "name": "个护用品",
-        "change_pct": 0.99
-      },
-      {
-        "name": "美容护理",
-        "change_pct": 1.0
-      },
-      {
-        "name": "房地产综合服务",
-        "change_pct": 1.01
-      },
-      {
-        "name": "商业地产",
-        "change_pct": 1.02
-      }
+      {"name": "通信设备", "change_pct": -10.8, "net_flow": -95},
+      {"name": "光学光电子", "change_pct": -11.9, "net_flow": -88},
+      {"name": "半导体", "change_pct": -3.8, "net_flow": -77},
+      {"name": "消费电子", "change_pct": -10.7, "net_flow": -59},
+      {"name": "通用设备", "change_pct": -8.6, "net_flow": -50}
+    ]
+  },
+  "concept_sectors": {
+    "top5": [
+      {"name": "猪肉", "change_pct": 4.0, "net_flow": 2},
+      {"name": "禽流感", "change_pct": 3.2, "net_flow": 2},
+      {"name": "NMN概念", "change_pct": 1.4, "net_flow": 0},
+      {"name": "养鸡", "change_pct": 2.6, "net_flow": 0},
+      {"name": "芬太尼", "change_pct": 1.8, "net_flow": 0}
+    ],
+    "bottom5": [
+      {"name": "芯片概念", "change_pct": -8.7, "net_flow": -521},
+      {"name": "华为概念", "change_pct": -8.3, "net_flow": -470},
+      {"name": "机器人概念", "change_pct": -8.0, "net_flow": -445},
+      {"name": "国企改革", "change_pct": -4.9, "net_flow": -407},
+      {"name": "新能源汽车", "change_pct": -10.1, "net_flow": -375}
     ]
   },
   "north_flow": {
-    "沪股通": 0.0,
-    "深股通": 0.0,
-    "total": 0.0,
-    "note": "北向资金午盘数据暂未更新"
+    "status": "北向资金今日净流出为主",
+    "note": "银行板块获北向资金净流入40亿元"
   },
-  "market_status": "午盘"
+  "market_overview": {
+    "涨停": 29,
+    "跌停": 172,
+    "炸板": 20,
+    "炸板率": "69.0%",
+    "最高板": "3板",
+    "情绪": "情绪冰点，普杀千股，医药防御抱团",
+    "微博热搜": "A股失守3900、海力士暴跌致韩国散户爆仓"
+  },
+  "market_status": "收盘",
+  "news_highlights": [
+    "迪哲医药与阿斯利康签署6亿美元首付款许可协议",
+    "造船业高景气兑现，中国船舶上半年预增212%-273%",
+    "SK海力士两日暴跌逾20%，AI交易有退潮之兆",
+    "双杰电气遭国家电网暂停中标资格，跌停20%",
+    "工业金属板块震荡反弹，中孚实业涨停",
+    "小金属概念板块走高，海南矿业涨停"
+  ],
+  "source_note": "数据来源：恢恢量化(hhxg.top)及盘中实时行情"
 }

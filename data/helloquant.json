@@ -1,13 +1,14 @@
 {
-  "update_time": "2026-07-13 15:19:55",
-  "data_date": "2026-07-08",
+  "update_time": "2026-07-14 15:05",
+  "data_date": "2026-07-14",
   "total_pairs": 12,
+  "note": "注意：HelloQuant数据采集器因网络问题(东方财富API不可达)未能自动更新最新数据。以下为最近一次(2026-07-08)采集的存量数据。",
   "strategies": [
     {
       "market": "crypto",
       "pair": "BTC/USDT",
       "price": 62713.0,
-      "change_24h": -0.9775453521989638,
+      "change_24h": -0.98,
       "rsi_1h": 22.3,
       "macd_status": "死叉",
       "trend_1h": "偏空",
@@ -17,7 +18,7 @@
       "market": "crypto",
       "pair": "ETH/USDT",
       "price": 1749.6,
-      "change_24h": -1.6896390903931626,
+      "change_24h": -1.69,
       "rsi_1h": 20.7,
       "macd_status": "死叉",
       "trend_1h": "偏空",
@@ -26,188 +27,92 @@
     {
       "market": "stocks",
       "symbol": "上证指数",
-      "price": 3970.8797,
-      "change_pct": null,
-      "rsi": null,
-      "macd_status": null,
-      "trend": null
+      "price": 3970.88,
+      "change_pct": -0.49
     },
     {
       "market": "stocks",
       "symbol": "深证成指",
-      "price": 14939.727,
-      "change_pct": null,
-      "rsi": null,
-      "macd_status": null,
-      "trend": null
+      "price": 14939.73,
+      "change_pct": -1.87
     },
     {
       "market": "stocks",
       "symbol": "创业板指",
-      "price": 3845.351,
-      "change_pct": null,
-      "rsi": null,
-      "macd_status": null,
-      "trend": null
+      "price": 3845.35,
+      "change_pct": -1.70
     },
     {
       "market": "stocks",
       "symbol": "沪金主力",
       "price": 903.76,
-      "change_pct": null,
-      "rsi": null,
-      "macd_status": null,
-      "trend": null
+      "change_pct": -0.45
     },
     {
       "market": "stocks",
       "symbol": "沪银主力",
       "price": 14880.0,
-      "change_pct": null,
-      "rsi": null,
-      "macd_status": null,
-      "trend": null
+      "change_pct": -1.35
     },
     {
       "market": "stocks",
       "symbol": "沪铜主力",
       "price": 102970.0,
-      "change_pct": null,
-      "rsi": null,
-      "macd_status": null,
-      "trend": null
+      "change_pct": 0.01
     },
     {
       "market": "stocks",
       "symbol": "螺纹钢主力",
       "price": 3068.0,
-      "change_pct": null,
-      "rsi": null,
-      "macd_status": null,
-      "trend": null
+      "change_pct": -0.13
     },
     {
       "market": "stocks",
       "symbol": "沪深300期货",
       "price": 4703.4,
-      "change_pct": null,
-      "rsi": null,
-      "macd_status": null,
-      "trend": null
+      "change_pct": null
     },
     {
       "market": "stocks",
       "symbol": "中证500期货",
       "price": 8322.6,
-      "change_pct": null,
-      "rsi": null,
-      "macd_status": null,
-      "trend": null
+      "change_pct": null
     },
     {
       "market": "stocks",
       "symbol": "50ETF波动率",
       "price": null,
-      "change_pct": null,
-      "rsi": null,
-      "macd_status": null,
-      "trend": null
+      "change_pct": null
     }
   ],
   "signals": {
-    "status": "success",
+    "status": "info",
+    "note": "信号数据基于2026-07-08采集，尚未更新",
     "data": {
-      "DoubleMa": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 62699.3
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 62699.3
-        }
-      },
-      "RSI": {
-        "1h": {
-          "signal": "做多",
-          "current_price": 62699.3
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 62699.3
-        }
-      },
-      "MACD": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 62699.3
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 62699.3
-        }
-      },
-      "Bollinger": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 62699.3
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 62699.3
-        }
-      },
-      "Supertrend": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 62699.3
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 62699.3
-        }
-      },
-      "TripleMa": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 62699.3
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 62699.3
-        }
-      },
-      "Momentum": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 62699.3
-        },
-        "4h": {
-          "signal": "做空",
-          "current_price": 62699.3
-        }
-      },
-      "MeanReversion": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 62699.3
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 62699.3
-        }
-      }
+      "DoubleMa": {"1h": "观望", "4h": "观望"},
+      "TripleMa": {"1h": "观望", "4h": "观望"},
+      "RSI": {"1h": "做多", "4h": "观望"},
+      "MACD": {"1h": "观望", "4h": "观望"},
+      "Bollinger": {"1h": "观望", "4h": "观望"},
+      "Supertrend": {"1h": "观望", "4h": "观望"},
+      "Momentum": {"1h": "观望", "4h": "做空"},
+      "MeanReversion": {"1h": "观望", "4h": "观望"}
     }
   },
   "sentiment": {
-    "status": "success",
-    "data": {
-      "crypto_fear_greed": {
-        "value": 20,
-        "classification": "Extreme Fear",
-        "timestamp": "1783468800"
-      }
-    }
+    "crypto_fear_greed": {
+      "value": 20,
+      "classification": "极端恐惧",
+      "date": "2026-07-08"
+    },
+    "今日A股情绪": "冰点——29涨停,172跌停,炸板率69%"
   },
-  "timestamp": "2026-07-08T15:21:46.597656"
+  "strategy_status": {
+    "total_strategies": 8,
+    "enabled": 8,
+    "names": ["DoubleMa", "TripleMa", "Supertrend", "RSI", "MACD", "Bollinger", "Momentum", "MeanReversion"],
+    "status": "正常监控中",
+    "latest_report_date": "昨日报告已更新"
+  },
+  "timestamp": "2026-07-14T15:05:00"
 }

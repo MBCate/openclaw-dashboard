@@ -1,6 +1,48 @@
 {
-  "timestamp": "2026-07-13T13:30:00Z",
-  "date": "2026-07-13",
+  "timestamp": "2026-07-14T01:15:00Z",
+  "date": "2026-07-14",
+  "overnight_futures": {
+    "sp500_fut": {
+      "value": 7553.0,
+      "change_pct": -0.13,
+      "prev_close": 7563.0,
+      "high": 7563.25,
+      "low": 7539.75,
+      "label": "标普500期货"
+    },
+    "nasdaq_fut": {
+      "value": 29484.25,
+      "change_pct": 0.03,
+      "prev_close": 29475.75,
+      "high": 29541.25,
+      "low": 29325.75,
+      "label": "纳斯达克期货"
+    },
+    "dow_fut": {
+      "value": 52641.0,
+      "change_pct": -0.23,
+      "prev_close": 52764.0,
+      "high": 52756.0,
+      "low": 52570.0,
+      "label": "道琼斯期货"
+    },
+    "wti_crude": {
+      "value": 79.41,
+      "change_pct": 1.63,
+      "prev_close": 78.14,
+      "high": 80.42,
+      "low": 77.86,
+      "label": "WTI原油"
+    },
+    "comex_gold": {
+      "value": 4006.2,
+      "change_pct": 0.01,
+      "prev_close": 4005.7,
+      "high": 4015.5,
+      "low": 3990.4,
+      "label": "COMEX黄金"
+    }
+  },
   "us_markets": {
     "sp500": {
       "value": 7561.63,
@@ -25,6 +67,23 @@
       "label": "恒生指数"
     }
   },
+  "cn_markets": {
+    "shanghai": {
+      "value": 3913.42,
+      "change_pct": -0.01,
+      "label": "上证指数"
+    },
+    "shanghai50": {
+      "value": 2913.05,
+      "change_pct": 0.00,
+      "label": "上证50"
+    },
+    "star50": {
+      "value": 1994.32,
+      "change_pct": 0.00,
+      "label": "科创50"
+    }
+  },
   "crypto": {
     "btc": {
       "price_usd": 62571.79,
@@ -40,37 +99,47 @@
   "news_headlines": [
     {
       "source": "CNBC",
-      "title": "S&P 500 slides as chipmakers fall, oil prices rise: Live updates"
+      "title": "Stock futures are little changed as Middle East tensions escalate; traders await earnings and inflation data"
+    },
+    {
+      "source": "CNBC",
+      "title": "Oil gains over 2% as Mideast tensions and Hormuz toll prospects raise supply worries"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Trump proposes 20% toll on cargo through Strait of Hormuz; restarts Iran blockade"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "US Hits Iran With Strikes, Blockade as Trump Plans Hormuz Charge"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Brent Climbs Past $85, Treasuries Extend Losses: Markets Wrap"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "SK Hynix Shares Waver in Seoul After Wall Street AI Memory Rout"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "What to Know About Shein's Plans for Mega HK IPO"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Phillippine Peso Approaches Record Low as Oil Prices Advance"
     },
     {
       "source": "CNBC",
       "title": "Big banks poised to report booming revenue propelled by SpaceX IPO, Iran war volatility"
-    },
-    {
-      "source": "CNBC",
-      "title": "Trump: U.S. should be reimbursed for guarding Strait of Hormuz"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Delta Will Do Just Fine With High Fuel Prices, CEO Says"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "SK Hynix Shares Plunge Most on Record in Deepening Korea Selloff"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "These biggest and 'least loved' stocks are the ones to pick ahead of earnings"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "'Dirty Jobs' host Mike Rowe: We have become untethered from the definition of work"
     }
   ],
   "summary": {
-    "us": "美股涨跌互现。道指微涨0.26%，标普500跌0.18%，纳斯达克跌0.61%。芯片股承压，油价因伊朗局势上涨。",
-    "hk": "恒生指数小幅收涨0.16%报24213.72点。",
-    "crypto": "加密货币承压，BTC 24小时跌2.23%报$62,572，ETH跌1.94%报$1,771。",
-    "macro": "伊朗霍尔木兹海峡局势持续紧张，油价上涨。韩国半导体板块暴跌（SK海力士创纪录跌幅）。AI板块普遍承压。大银行受益于SpaceX IPO和地缘波动，业绩预期强劲。"
+    "overnight_futures": "隔夜期货：标普期货-0.13%，纳斯达克期货+0.03%，道指期货-0.23%。WTI原油涨1.63%报$79.41（地缘溢价），金价持平$4006。",
+    "us": "美股上一日涨跌互现。道指+0.26%，标普-0.18%，纳指-0.61%。芯片承压，能源股受油价提振。",
+    "hk": "恒指前一交易日+0.16%报24213点。Shein计划港股超级IPO。",
+    "cn": "A股昨日收盘：上证3913(-0.01%)，上证50 2913(平)，科创50 1994(平)。",
+    "crypto": "BTC $62,572 (-2.23% 24h)，ETH $1,771 (-1.94%)，整体承压。",
+    "macro": "⚠️ 伊朗局势持续升级：美对伊发动打击+封锁，特朗普提议对霍尔木兹海峡通行征收20%通行费。布伦特原油突破$85。韩国半导体板块剧震（SK海力士）。市场等待通胀数据和财报季。"
   }
 }

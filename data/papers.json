@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-13",
-  "week": "2026-W28",
-  "total": 100,
-  "new": 82,
+  "date": "2026-07-14",
+  "week": "2026-W29",
+  "total": 110,
+  "new": 93,
   "known": 17,
   "top5": [
     {
@@ -18,6 +18,30 @@
       "weekly": true
     },
     {
+      "id": "2507.00603",
+      "title": "World4Drive: End-to-End Autonomous Driving via Intention-aware Physical Latent World Model",
+      "authors": "Yupeng Zheng, Pengxuan Yang, Zebin Xing et al.",
+      "date": "2026-07-07",
+      "category": "World Model/E2E",
+      "stars": 5,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 5,
+      "weekly": ""
+    },
+    {
+      "id": "2607.02841",
+      "title": "CLEAR: Closed-Loop Reinforcement Learning at Scale for End-to-End Autonomous Driving",
+      "authors": "Yunxiao Shi, et al.",
+      "date": "2026-07-03",
+      "category": "E2E AD / VLA / RL",
+      "stars": 5,
+      "status": "新发现",
+      "kb_path": "e2e-autonomous-driving/analysis/2607.02841_CLEAR.md",
+      "score": 5,
+      "weekly": false
+    },
+    {
       "id": "2607.06216",
       "title": "MoWorld: A Flash World Model",
       "authors": "Team Moxin, Deyi Ji, Tianrun Chen, Xin Zhang, Jiale Yang",
@@ -26,47 +50,143 @@
       "stars": 5,
       "status": "新发现",
       "kb_path": "",
-      "score": 5
+      "score": 5,
+      "weekly": ""
     },
     {
-      "id": "2606.29879",
-      "title": "LWDrive: Layer-Wise World-Model-Guided Vision-Language Model Planning for Autonomous Driving",
-      "authors": "Chen Yang, Yuhao Wei, Ze Xu, Ziheng Zou, Shuang Liang, Delin Ouyang",
-      "date": "2026-06-29",
-      "category": "VLM / world model planning",
+      "id": "2607.09655",
+      "title": "OpenLongTail: Generative Scaling of Long-Tail Driving Data",
+      "authors": "Lulin Liu, Nuo Chen, Yan Wang, Bangya Liu, Wenyan Cong, Hezhen Hu, Boris Ivanovic, Hao Wang, Ziyao Zeng, Xinyu Gong, Yang Zhou, Zixiang Xiong, Dilin Wang, Zhangyang Wang, Weisong Shi, Ruohan Zhang, Marco Pavone, Zhiwen Fan",
+      "date": "2026-07-10",
+      "category": "E2E autonomous driving / data engine",
       "stars": 5,
       "status": "新发现",
-      "kb_path": "",
-      "score": 3,
-      "weekly": true
-    },
-    {
-      "id": "2607.04637",
-      "title": "PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving",
-      "authors": "Pin Tang, Guoqing Wang, Xiangxuan Ren, Zhongdao Wang, Guodongfang Zhao, Bailan",
-      "date": "2026-07-06",
-      "category": "VLA / end-to-end driving",
-      "stars": 5,
-      "status": "新发现",
-      "kb_path": "",
-      "score": 3,
-      "weekly": true
-    },
-    {
-      "id": "2605.04647",
-      "title": "ReflectDrive-2: RL-Aligned Self-Editing for Discrete Diffusion Driving",
-      "authors": "Zheng Wu, et al.",
-      "date": "2026-07-07",
-      "updated": "2026-06-27",
-      "category": "diffusion planning / RL / driving",
-      "stars": 5,
-      "status": "新发现",
-      "kb_path": "",
-      "score": 3,
-      "weekly": true
+      "kb_path": "e2e-autonomous-driving/analysis/2607.09655_OpenLongTail.md",
+      "score": 5,
+      "weekly": false
     }
   ],
   "papers": [
+    {
+      "id": "2607.09648",
+      "title": "B-spline Policy: Accelerating Manipulation Policies via B-spline Action Representations",
+      "authors": "Xiaoshen Han, Haoyu Xiong, Haonan Chen",
+      "date": "2026-07-10",
+      "category": "robotics / action representation",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3,
+      "weekly": false
+    },
+    {
+      "id": "2607.08572",
+      "title": "Switch-Reasoner: Learn When to Think in Multitask Mixtures via Reinforcement Learning",
+      "authors": "Yiyang Fang, Pei Fu, Jinjie Li",
+      "date": "2026-07-09",
+      "category": "VLM / reasoning / efficiency",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3,
+      "weekly": false
+    },
+    {
+      "id": "2607.08402",
+      "title": "Swapping Faces, Saving Features: A Dual-Purpose Pipeline for Pedestrian Privacy in ITS",
+      "authors": "Roba H. Farouk, Catherine M. Elias",
+      "date": "2026-07-09",
+      "category": "privacy / pedestrian / ITS",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3,
+      "weekly": false
+    },
+    {
+      "id": "2607.05801",
+      "title": "TRIG: Trajectory-Rig Decoupled Metric Geometry Learning",
+      "authors": "Lizhou Liao, Wentao Xu, Handong Wang",
+      "date": "2026-07-06",
+      "category": "metric geometry / multi-camera / AD",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3,
+      "weekly": false
+    },
+    {
+      "id": "2607.06779",
+      "title": "URS-Stereo: Uncertainty-Guided Residual Search for Real-Time Stereo Matching",
+      "authors": "Pouya Sohrabipour, Chaitanya kumar reddy Pallerla, Dongyi Wang",
+      "date": "2026-07-07",
+      "category": "CV / stereo matching",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3,
+      "weekly": false
+    },
+    {
+      "id": "2607.06838",
+      "title": "WildCity: A Real-World City-Scale Testbed for Rendering, Simulation, and Spatial Intelligence",
+      "authors": "Xiangyu Han, Mengyu Yang, Jiaqi Li, Bowen Chang",
+      "date": "2026-07-07",
+      "category": "simulation / city-scale / AD testbed",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "e2e-autonomous-driving/analysis/2607.06838_WildCity.md",
+      "score": 4,
+      "weekly": false
+    },
+    {
+      "id": "2607.09428",
+      "title": "Multimodal Scenario Similarity Search for Autonomous Driving",
+      "authors": "Tamás Matuszka, András Tamásy, Balázs Szolár",
+      "date": "2026-07-10",
+      "category": "AD data / scenario retrieval",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3,
+      "weekly": false
+    },
+    {
+      "id": "2607.09661",
+      "title": "PanoWorld: Real-World Panoramic Generation",
+      "authors": "Haoyuan Li, Dizhe Zhang, Yuemei Zhou, Xiangkai Zhang",
+      "date": "2026-07-10",
+      "category": "world model / panoramic generation",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "world-models-ad/analysis/2607.09661_PanoWorld.md",
+      "score": 4,
+      "weekly": false
+    },
+    {
+      "id": "2607.09629",
+      "title": "4DR360: State Reasoning for Joint 3D Detection and Occupancy Prediction in 4D Radar-Camera Full-Scene Perception",
+      "authors": "TBD",
+      "date": "2026-07-10",
+      "category": "BEV perception / 4D radar / occupancy",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "e2e-autonomous-driving/analysis/2607.09629_4DR360.md",
+      "score": 4,
+      "weekly": false
+    },
+    {
+      "id": "2607.09655",
+      "title": "OpenLongTail: Generative Scaling of Long-Tail Driving Data",
+      "authors": "Lulin Liu, Nuo Chen, Yan Wang, Bangya Liu, Wenyan Cong, Hezhen Hu, Boris Ivanovic, Hao Wang, Ziyao Zeng, Xinyu Gong, Yang Zhou, Zixiang Xiong, Dilin Wang, Zhangyang Wang, Weisong Shi, Ruohan Zhang, Marco Pavone, Zhiwen Fan",
+      "date": "2026-07-10",
+      "category": "E2E autonomous driving / data engine",
+      "stars": 5,
+      "status": "新发现",
+      "kb_path": "e2e-autonomous-driving/analysis/2607.09655_OpenLongTail.md",
+      "score": 5,
+      "weekly": false
+    },
     {
       "id": "2607.08375",
       "title": "WCog-VLA: A Dual-Level World-Cognitive Vision-Language-Action Model for End-to-End Autonomous Driving",
@@ -1499,5 +1619,5 @@
       "weekly": false
     }
   ],
-  "updated_at": "2026-07-13T08:00+08:00"
+  "updated_at": "2026-07-14T08:00+08:00"
 }

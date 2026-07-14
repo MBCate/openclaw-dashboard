@@ -1,145 +1,164 @@
 {
-  "timestamp": "2026-07-14T01:15:00Z",
+  "timestamp": "2026-07-14T13:30:00Z",
   "date": "2026-07-14",
-  "overnight_futures": {
-    "sp500_fut": {
-      "value": 7553.0,
-      "change_pct": -0.13,
-      "prev_close": 7563.0,
-      "high": 7563.25,
-      "low": 7539.75,
-      "label": "标普500期货"
-    },
-    "nasdaq_fut": {
-      "value": 29484.25,
-      "change_pct": 0.03,
-      "prev_close": 29475.75,
-      "high": 29541.25,
-      "low": 29325.75,
-      "label": "纳斯达克期货"
-    },
-    "dow_fut": {
-      "value": 52641.0,
-      "change_pct": -0.23,
-      "prev_close": 52764.0,
-      "high": 52756.0,
-      "low": 52570.0,
-      "label": "道琼斯期货"
-    },
-    "wti_crude": {
-      "value": 79.41,
-      "change_pct": 1.63,
-      "prev_close": 78.14,
-      "high": 80.42,
-      "low": 77.86,
-      "label": "WTI原油"
-    },
-    "comex_gold": {
-      "value": 4006.2,
-      "change_pct": 0.01,
-      "prev_close": 4005.7,
-      "high": 4015.5,
-      "low": 3990.4,
-      "label": "COMEX黄金"
-    }
-  },
+  "report_type": "evening_international",
   "us_markets": {
     "sp500": {
-      "value": 7561.63,
-      "change_pct": -0.18,
+      "value": 7524.32,
+      "change_pct": -0.49,
+      "prev_close": 7561.63,
+      "high": 7538.83,
+      "low": 7523.66,
       "label": "S&P 500"
     },
     "nasdaq": {
-      "value": 26121.73,
-      "change_pct": -0.61,
+      "value": 25987.4,
+      "change_pct": 0.44,
+      "prev_close": 25873.176,
+      "high": 26037.56,
+      "low": 25979.81,
       "label": "NASDAQ"
     },
     "dow": {
-      "value": 52772.61,
-      "change_pct": 0.26,
+      "value": 52329.34,
+      "change_pct": -0.32,
+      "prev_close": 52498.64,
+      "high": 52475.52,
+      "low": 52046.36,
       "label": "道琼斯"
     }
   },
   "hk_markets": {
     "hsi": {
-      "value": 24213.72,
-      "change_pct": 0.16,
+      "value": 24340.73,
+      "change_pct": 0.52,
+      "prev_close": 24213.72,
+      "high": 24436.58,
+      "low": 23902.05,
       "label": "恒生指数"
     }
   },
   "cn_markets": {
     "shanghai": {
       "value": 3913.42,
-      "change_pct": -0.01,
+      "change_pct": null,
       "label": "上证指数"
     },
     "shanghai50": {
       "value": 2913.05,
-      "change_pct": 0.00,
+      "change_pct": null,
       "label": "上证50"
     },
     "star50": {
       "value": 1994.32,
-      "change_pct": 0.00,
+      "change_pct": null,
       "label": "科创50"
+    }
+  },
+  "commodities": {
+    "gold": {
+      "value": 4092.9,
+      "change_pct": 2.18,
+      "prev_close": 4005.7,
+      "label": "COMEX黄金"
+    },
+    "wti_crude": {
+      "value": 80.11,
+      "change_pct": 2.52,
+      "prev_close": 78.14,
+      "label": "WTI原油"
+    },
+    "us10y_yield": {
+      "value": 4.577,
+      "change_pct": -0.69,
+      "prev_close": 4.609,
+      "label": "美债10年收益率"
+    },
+    "dxy": {
+      "value": 100.71,
+      "change_pct": -0.52,
+      "prev_close": 101.235,
+      "label": "美元指数"
     }
   },
   "crypto": {
     "btc": {
-      "price_usd": 62571.79,
-      "change_24h_pct": -2.23,
+      "price_usd": 63873.3,
+      "change_24h_pct": 1.82,
       "label": "BTC"
     },
     "eth": {
-      "price_usd": 1771.05,
-      "change_24h_pct": -1.94,
+      "price_usd": 1874.45,
+      "change_24h_pct": 5.63,
       "label": "ETH"
     }
   },
   "news_headlines": [
     {
       "source": "CNBC",
-      "title": "Stock futures are little changed as Middle East tensions escalate; traders await earnings and inflation data"
+      "title": "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "US CPI Falls for the First Time Since 2020, Core Gauge Flat"
     },
     {
       "source": "CNBC",
-      "title": "Oil gains over 2% as Mideast tensions and Hormuz toll prospects raise supply worries"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Trump proposes 20% toll on cargo through Strait of Hormuz; restarts Iran blockade"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "US Hits Iran With Strikes, Blockade as Trump Plans Hormuz Charge"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Brent Climbs Past $85, Treasuries Extend Losses: Markets Wrap"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "SK Hynix Shares Waver in Seoul After Wall Street AI Memory Rout"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "What to Know About Shein's Plans for Mega HK IPO"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Phillippine Peso Approaches Record Low as Oil Prices Advance"
+      "title": "Treasury yields tumble after June CPI slows much more than expected"
     },
     {
       "source": "CNBC",
-      "title": "Big banks poised to report booming revenue propelled by SpaceX IPO, Iran war volatility"
+      "title": "S&P 500 opens higher after light inflation data, but gain held in check by IBM drop, oil jump"
+    },
+    {
+      "source": "CNBC",
+      "title": "Warsh promises inflation will be a 'thing of the past,' cites benefits of AI investment boom"
+    },
+    {
+      "source": "CNBC",
+      "title": "IBM shares skid more than 20% after company warns Q2 earnings fell short of expectations"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Consumer prices fall for first time since early days of COVID pandemic, but war against high inflation isn't won"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Russia Struggles to Sell All the Oil It's Being Forced to Export"
+    },
+    {
+      "source": "CNBC",
+      "title": "Bank earnings live: JPMorgan and Bank of America calls are underway"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "SLB, Liberty Energy to Sell Infrastructure to Data Centers"
+    },
+    {
+      "source": "SCMP",
+      "title": "Norwegian chemical tanker hit by projectile off Oman amid US-Iran tensions"
+    },
+    {
+      "source": "CNBC",
+      "title": "Global shipping industry sounds the alarm over Trump's Hormuz toll plan"
+    },
+    {
+      "source": "CNBC",
+      "title": "Warren Buffett excludes Gates Foundation from his annual donations of Berkshire stock"
+    },
+    {
+      "source": "SCMP",
+      "title": "German deaths rise 32% during record June heatwave, data shows"
     }
   ],
   "summary": {
-    "overnight_futures": "隔夜期货：标普期货-0.13%，纳斯达克期货+0.03%，道指期货-0.23%。WTI原油涨1.63%报$79.41（地缘溢价），金价持平$4006。",
-    "us": "美股上一日涨跌互现。道指+0.26%，标普-0.18%，纳指-0.61%。芯片承压，能源股受油价提振。",
-    "hk": "恒指前一交易日+0.16%报24213点。Shein计划港股超级IPO。",
-    "cn": "A股昨日收盘：上证3913(-0.01%)，上证50 2913(平)，科创50 1994(平)。",
-    "crypto": "BTC $62,572 (-2.23% 24h)，ETH $1,771 (-1.94%)，整体承压。",
-    "macro": "⚠️ 伊朗局势持续升级：美对伊发动打击+封锁，特朗普提议对霍尔木兹海峡通行征收20%通行费。布伦特原油突破$85。韩国半导体板块剧震（SK海力士）。市场等待通胀数据和财报季。"
+    "macro": "📉 美国6月CPI同比+3.5%（低于预期），核心CPI环比持平，为2020年以来首次下降。CPI数据公布后美债收益率跳水至4.577%，美元指数跌0.52%至100.71。市场对通胀缓和感到鼓舞，但IBM暴跌20%+拖累大盘。",
+    "us": "📊 美股涨跌互现。标普500跌0.49%报7524，纳指微涨0.44%报25987（芯片股反弹），道指跌0.32%报52329。CPI利好被IBM财报暴雷对冲。",
+    "hk": "🇭🇰 恒指今日+0.52%报24341点，盘中振幅较大（低见23902，高见24437）。",
+    "cn": "🇨🇳 A股前收盘：上证3913(-0.01%)，上证50 2913(平)，科创50 1994(平)。",
+    "commodities": "🛢️ 伊朗局势持续推高油价：WTI原油+2.52%报$80.11。避险情绪推动黄金+2.18%报$4092.9，逼近历史高位。",
+    "crypto": "₿ 加密货币反弹：BTC $63,873 (+1.82%)，ETH $1,874 (+5.63%)。",
+    "geopolitics": "⚠️ 地缘：挪威化学品油轮在阿曼附近被弹丸击中（美伊局势）。特朗普拟对霍尔木兹海峡征收20%通行费计划引发航运业强烈反对。",
+    "key_events": "CPI数据后收益率大幅下行，降息预期升温；IBM盘初重挫20%拖累道指；银行股财报（JPMorgan/BofA）正在进行中。"
   }
 }

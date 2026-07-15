@@ -1,118 +1,86 @@
 {
-  "update_time": "2026-07-14 15:05",
-  "data_date": "2026-07-14",
-  "total_pairs": 12,
-  "note": "注意：HelloQuant数据采集器因网络问题(东方财富API不可达)未能自动更新最新数据。以下为最近一次(2026-07-08)采集的存量数据。",
-  "strategies": [
-    {
-      "market": "crypto",
-      "pair": "BTC/USDT",
-      "price": 62713.0,
-      "change_24h": -0.98,
-      "rsi_1h": 22.3,
-      "macd_status": "死叉",
-      "trend_1h": "偏空",
-      "trend_4h": "偏多"
-    },
-    {
-      "market": "crypto",
-      "pair": "ETH/USDT",
-      "price": 1749.6,
-      "change_24h": -1.69,
-      "rsi_1h": 20.7,
-      "macd_status": "死叉",
-      "trend_1h": "偏空",
-      "trend_4h": "偏空"
-    },
-    {
-      "market": "stocks",
-      "symbol": "上证指数",
-      "price": 3970.88,
-      "change_pct": -0.49
-    },
-    {
-      "market": "stocks",
-      "symbol": "深证成指",
-      "price": 14939.73,
-      "change_pct": -1.87
-    },
-    {
-      "market": "stocks",
-      "symbol": "创业板指",
-      "price": 3845.35,
-      "change_pct": -1.70
-    },
-    {
-      "market": "stocks",
-      "symbol": "沪金主力",
-      "price": 903.76,
-      "change_pct": -0.45
-    },
-    {
-      "market": "stocks",
-      "symbol": "沪银主力",
-      "price": 14880.0,
-      "change_pct": -1.35
-    },
-    {
-      "market": "stocks",
-      "symbol": "沪铜主力",
-      "price": 102970.0,
-      "change_pct": 0.01
-    },
-    {
-      "market": "stocks",
-      "symbol": "螺纹钢主力",
-      "price": 3068.0,
-      "change_pct": -0.13
-    },
-    {
-      "market": "stocks",
-      "symbol": "沪深300期货",
-      "price": 4703.4,
-      "change_pct": null
-    },
-    {
-      "market": "stocks",
-      "symbol": "中证500期货",
-      "price": 8322.6,
-      "change_pct": null
-    },
-    {
-      "market": "stocks",
-      "symbol": "50ETF波动率",
-      "price": null,
-      "change_pct": null
-    }
-  ],
-  "signals": {
-    "status": "info",
-    "note": "信号数据基于2026-07-08采集，尚未更新",
-    "data": {
-      "DoubleMa": {"1h": "观望", "4h": "观望"},
-      "TripleMa": {"1h": "观望", "4h": "观望"},
-      "RSI": {"1h": "做多", "4h": "观望"},
-      "MACD": {"1h": "观望", "4h": "观望"},
-      "Bollinger": {"1h": "观望", "4h": "观望"},
-      "Supertrend": {"1h": "观望", "4h": "观望"},
-      "Momentum": {"1h": "观望", "4h": "做空"},
-      "MeanReversion": {"1h": "观望", "4h": "观望"}
+  "date": "2026-07-15",
+  "timestamp": "2026-07-15 15:05:00",
+  "status": "operational",
+  "last_collection": {
+    "date": "2026-07-14",
+    "timestamp": "2026-07-14T15:14:10.102608",
+    "note": "今日收盘后数据采集尚未运行，展示昨日数据"
+  },
+  "crypto_strategies": {
+    "status": "needs_collection",
+    "data_source": "daily_raw.json (2026-07-14)",
+    "strategies": [
+      {
+        "name": "DoubleMa",
+        "status": "needs_update",
+        "note": "需运行采集脚本更新信号"
+      },
+      {
+        "name": "TripleMa",
+        "status": "needs_update",
+        "note": "需运行采集脚本更新信号"
+      },
+      {
+        "name": "Supertrend",
+        "status": "needs_update",
+        "note": "需运行采集脚本更新信号"
+      },
+      {
+        "name": "RSI",
+        "status": "needs_update",
+        "note": "需运行采集脚本更新信号"
+      },
+      {
+        "name": "MACD",
+        "status": "needs_update",
+        "note": "需运行采集脚本更新信号"
+      },
+      {
+        "name": "Bollinger",
+        "status": "needs_update",
+        "note": "需运行采集脚本更新信号"
+      },
+      {
+        "name": "Momentum",
+        "status": "needs_update",
+        "note": "需运行采集脚本更新信号"
+      },
+      {
+        "name": "MeanReversion",
+        "status": "needs_update",
+        "note": "需运行采集脚本更新信号"
+      }
+    ]
+  },
+  "a_share_market": {
+    "status": "data_available",
+    "data_source": "实时Sina API",
+    "indices": {
+      "上证指数": {
+        "price": 3963.73,
+        "change_pct": 0.21
+      },
+      "深证成指": {
+        "price": 14970.77,
+        "change_pct": 1.29
+      },
+      "创业板指": {
+        "price": 3879.77,
+        "change_pct": 1.97
+      },
+      "沪深300": {
+        "price": 4797.94,
+        "change_pct": 0.23
+      }
     }
   },
   "sentiment": {
     "crypto_fear_greed": {
-      "value": 20,
-      "classification": "极端恐惧",
-      "date": "2026-07-08"
-    },
-    "今日A股情绪": "冰点——29涨停,172跌停,炸板率69%"
+      "value": 22,
+      "classification": "Extreme Fear",
+      "date": "2026-07-14"
+    }
   },
-  "strategy_status": {
-    "total_strategies": 8,
-    "enabled": 8,
-    "names": ["DoubleMa", "TripleMa", "Supertrend", "RSI", "MACD", "Bollinger", "Momentum", "MeanReversion"],
-    "status": "正常监控中",
-    "latest_report_date": "昨日报告已更新"
-  },
-  "timestamp": "2026-07-14T15:05:00"
+  "summary": "HelloQuant 数据采集系统运行正常。A股收盘数据已采集更新。加密货币策略信号和OKX行情因代理问题需手动运行采集脚本更新。恐惧贪婪指数22，市场处于极度恐惧状态。"
 }

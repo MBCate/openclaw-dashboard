@@ -1,92 +1,83 @@
 {
-  "update_time": "2026-07-15 11:35",
-  "indices": {
-    "上证指数": {
-      "price": 3963.90,
-      "change": -3.22,
-      "change_pct": -0.08,
-      "note": "午盘震荡微跌，盘中一度翻红"
+  "date": "2026-07-15",
+  "timestamp": "2026-07-15 15:05:00",
+  "indices": [
+    {
+      "name": "上证指数",
+      "code": "000001",
+      "price": 3963.73,
+      "change": 8.15,
+      "change_pct": 0.21,
+      "open": 3967.13,
+      "high": 3981.67,
+      "low": 3943.7,
+      "pre_close": 3955.58,
+      "volume": 576209492,
+      "amount": 12263.0,
+      "amount_unit": "亿"
     },
-    "深证成指": {
-      "price": 14868.23,
-      "change": -56.63,
-      "change_pct": -0.38
+    {
+      "name": "深证成指",
+      "code": "399001",
+      "price": 14970.77,
+      "change": 191.38,
+      "change_pct": 1.29,
+      "open": 14924.87,
+      "high": 15041.33,
+      "low": 14741.8,
+      "pre_close": 14779.4,
+      "volume": 68891973235,
+      "amount": 13449.0,
+      "amount_unit": "亿"
     },
-    "创业板指": {
-      "price": 3837.23,
-      "change": -13.90,
-      "change_pct": -0.36
+    {
+      "name": "创业板指",
+      "code": "399006",
+      "price": 3879.77,
+      "change": 75.06,
+      "change_pct": 1.97,
+      "open": 3851.14,
+      "high": 3905.31,
+      "low": 3794.34,
+      "pre_close": 3804.7,
+      "volume": 19725276324,
+      "amount": 5928.0,
+      "amount_unit": "亿"
     },
-    "沪深300": {
-      "price": 4798.61,
-      "change": 2.11,
-      "change_pct": 0.04
-    },
-    "上证50": {
-      "price": 2922.15,
-      "change": 33.44,
-      "change_pct": 1.16,
-      "note": "权重股护盘，央企板块走强"
-    },
-    "科创50": {
-      "price": 1892.30,
-      "change": -33.13,
-      "change_pct": -1.72,
-      "note": "科技板块延续调整"
+    {
+      "name": "沪深300",
+      "code": "000300",
+      "price": 4797.94,
+      "change": 11.16,
+      "change_pct": 0.23,
+      "open": 4796.5,
+      "high": 4826.86,
+      "low": 4772.04,
+      "pre_close": 4786.78,
+      "volume": 278692669,
+      "amount": 8583.0,
+      "amount_unit": "亿"
+    }
+  ],
+  "north_money": {
+    "status": "available",
+    "date": "2026-07-15",
+    "note": "北向资金数据需收盘清算后更新（~15:30）",
+    "yesterday": {
+      "date": "2026-07-14",
+      "total_trade": 4159.04,
+      "total_trade_unit": "亿"
     }
   },
   "sectors": {
-    "top5": [
-      {"name": "中证医疗", "change_pct": 5.02, "net_flow": 15},
-      {"name": "中证白酒", "change_pct": 4.66, "net_flow": 12},
-      {"name": "国证农牧", "change_pct": 2.69, "net_flow": 5},
-      {"name": "上证央企", "change_pct": 1.75, "net_flow": 28},
-      {"name": "国证交运", "change_pct": 0.70, "net_flow": 3}
-    ],
-    "bottom5": [
-      {"name": "1000信息", "change_pct": -2.94, "net_flow": -35},
-      {"name": "科创50", "change_pct": -1.72, "net_flow": -42},
-      {"name": "创业大盘", "change_pct": -0.45, "net_flow": -18},
-      {"name": "中证1000", "change_pct": -0.34, "net_flow": -22},
-      {"name": "深证100", "change_pct": -0.28, "net_flow": -15}
-    ]
+    "status": "pending_update",
+    "note": "行业板块数据将在后续更新中补充"
   },
-  "concept_sectors": {
-    "top5": [
-      {"name": "创新药", "change_pct": 5.8, "net_flow": 22},
-      {"name": "白酒概念", "change_pct": 4.2, "net_flow": 18},
-      {"name": "猪肉概念", "change_pct": 3.1, "net_flow": 4},
-      {"name": "央企改革", "change_pct": 2.5, "net_flow": 35},
-      {"name": "中药概念", "change_pct": 2.3, "net_flow": 8}
-    ],
-    "bottom5": [
-      {"name": "半导体", "change_pct": -2.8, "net_flow": -68},
-      {"name": "人工智能", "change_pct": -2.1, "net_flow": -55},
-      {"name": "机器人", "change_pct": -1.9, "net_flow": -42},
-      {"name": "消费电子", "change_pct": -1.5, "net_flow": -38},
-      {"name": "新能源车", "change_pct": -1.2, "net_flow": -30}
-    ]
+  "market_summary": {
+    "total_shanghai": 12263,
+    "total_shenzhen": 13449,
+    "total": 25712,
+    "total_unit": "亿"
   },
-  "north_flow": {
-    "status": "北向资金交易中，盘中数据暂未更新",
-    "note": "主力资金净流出126.6亿元，超大单净流入84.5亿元显示分歧"
-  },
-  "market_overview": {
-    "涨停": 35,
-    "跌停": 28,
-    "炸板": 12,
-    "炸板率": "25.5%",
-    "最高板": "4板",
-    "情绪": "午盘震荡分化，医疗白酒领涨，科技板块回调",
-    "沪深成交": "约1.7万亿"
-  },
-  "market_status": "午盘",
-  "news_highlights": [
-    "中证医疗板块大涨超5%，创新药政策利好持续发酵",
-    "中证白酒涨超4%，消费复苏预期升温",
-    "央企板块走强，上证50涨逾1%",
-    "科技板块延续调整，半导体AI概念领跌",
-    "主力资金半日净流出126亿，超大单逆势净流入84亿"
-  ],
-  "source_note": "数据来源：新浪财经实时行情"
+  "market_trend": "中小创强于主板，创业板涨近2%领涨三大指数，深市成交额13449亿超沪市12263亿，市场风格偏向成长"
 }

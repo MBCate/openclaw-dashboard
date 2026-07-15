@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-14T13:30:00Z",
-  "date": "2026-07-14",
-  "report_type": "evening_international",
+  "timestamp": "2026-07-15T01:20:00Z",
+  "date": "2026-07-15",
+  "report_type": "morning_international",
   "us_markets": {
     "sp500": {
       "value": 7524.32,
@@ -9,6 +9,8 @@
       "prev_close": 7561.63,
       "high": 7538.83,
       "low": 7523.66,
+      "futures": "7558",
+      "futures_change": -0.06,
       "label": "S&P 500"
     },
     "nasdaq": {
@@ -17,6 +19,8 @@
       "prev_close": 25873.176,
       "high": 26037.56,
       "low": 25979.81,
+      "futures_value": 29867.83,
+      "futures_change": 0.25,
       "label": "NASDAQ"
     },
     "dow": {
@@ -25,6 +29,7 @@
       "prev_close": 52498.64,
       "high": 52475.52,
       "low": 52046.36,
+      "futures_change": -0.27,
       "label": "道琼斯"
     }
   },
@@ -57,15 +62,17 @@
   },
   "commodities": {
     "gold": {
-      "value": 4092.9,
-      "change_pct": 2.18,
+      "value": 4056.38,
+      "change_pct": 1.26,
       "prev_close": 4005.7,
       "label": "COMEX黄金"
     },
     "wti_crude": {
-      "value": 80.11,
-      "change_pct": 2.52,
-      "prev_close": 78.14,
+      "value": 79.89,
+      "change_pct": -0.27,
+      "prev_close": 79.81,
+      "overnight_high": 81.27,
+      "overnight_low": 77.84,
       "label": "WTI原油"
     },
     "us10y_yield": {
@@ -83,82 +90,69 @@
   },
   "crypto": {
     "btc": {
-      "price_usd": 63873.3,
+      "price_usd": 63873,
       "change_24h_pct": 1.82,
       "label": "BTC"
     },
     "eth": {
-      "price_usd": 1874.45,
+      "price_usd": 1874,
       "change_24h_pct": 5.63,
       "label": "ETH"
     }
   },
-  "news_headlines": [
+  "asia_premarket": {
+    "sk_hynix": {
+      "change_pct": 11,
+      "label": "SK Hynix (韩国)"
+    },
+    "japan_nikkei_note": "亚洲科技股受SK Hynix带动反弹"
+  },
+  "overnight_news": [
     {
       "source": "CNBC",
-      "title": "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "US CPI Falls for the First Time Since 2020, Core Gauge Flat"
-    },
-    {
-      "source": "CNBC",
-      "title": "Treasury yields tumble after June CPI slows much more than expected"
-    },
-    {
-      "source": "CNBC",
-      "title": "S&P 500 opens higher after light inflation data, but gain held in check by IBM drop, oil jump"
+      "title": "U.S. strikes Iran before Hormuz Strait blockade restarts"
     },
     {
       "source": "CNBC",
-      "title": "Warsh promises inflation will be a 'thing of the past,' cites benefits of AI investment boom"
+      "title": "Stock futures are flat after soft inflation reading lifts market: Live updates"
     },
     {
       "source": "CNBC",
-      "title": "IBM shares skid more than 20% after company warns Q2 earnings fell short of expectations"
+      "title": "SK Hynix South Korean shares jump 11% as Asia tech stocks rally"
+    },
+    {
+      "source": "CNBC",
+      "title": "IBM stock craters 25%, the worst day on record, after company issues Q2 earnings warning"
+    },
+    {
+      "source": "CNBC",
+      "title": "The AI boom just found two new winners: Goldman Sachs and JPMorgan Chase"
     },
     {
       "source": "MarketWatch",
-      "title": "Consumer prices fall for first time since early days of COVID pandemic, but war against high inflation isn't won"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Russia Struggles to Sell All the Oil It's Being Forced to Export"
+      "title": "Brace for $4 gas again: How U.S.-Iran tensions are threatening to end the price break at the pump"
     },
     {
       "source": "CNBC",
-      "title": "Bank earnings live: JPMorgan and Bank of America calls are underway"
+      "title": "Oil volatility is creating a 'win-win' trade strategy"
     },
     {
-      "source": "Bloomberg",
-      "title": "SLB, Liberty Energy to Sell Infrastructure to Data Centers"
+      "source": "CNBC OIl",
+      "title": "Is Hormuz open? Trump's toll threat intensifies rush to bypass the Strait altogether"
     },
     {
       "source": "SCMP",
-      "title": "Norwegian chemical tanker hit by projectile off Oman amid US-Iran tensions"
-    },
-    {
-      "source": "CNBC",
-      "title": "Global shipping industry sounds the alarm over Trump's Hormuz toll plan"
-    },
-    {
-      "source": "CNBC",
-      "title": "Warren Buffett excludes Gates Foundation from his annual donations of Berkshire stock"
-    },
-    {
-      "source": "SCMP",
-      "title": "German deaths rise 32% during record June heatwave, data shows"
+      "title": "Warren Buffett cuts off donations to Bill Gates' charity after Epstein revelations"
     }
   ],
   "summary": {
-    "macro": "📉 美国6月CPI同比+3.5%（低于预期），核心CPI环比持平，为2020年以来首次下降。CPI数据公布后美债收益率跳水至4.577%，美元指数跌0.52%至100.71。市场对通胀缓和感到鼓舞，但IBM暴跌20%+拖累大盘。",
-    "us": "📊 美股涨跌互现。标普500跌0.49%报7524，纳指微涨0.44%报25987（芯片股反弹），道指跌0.32%报52329。CPI利好被IBM财报暴雷对冲。",
-    "hk": "🇭🇰 恒指今日+0.52%报24341点，盘中振幅较大（低见23902，高见24437）。",
-    "cn": "🇨🇳 A股前收盘：上证3913(-0.01%)，上证50 2913(平)，科创50 1994(平)。",
-    "commodities": "🛢️ 伊朗局势持续推高油价：WTI原油+2.52%报$80.11。避险情绪推动黄金+2.18%报$4092.9，逼近历史高位。",
-    "crypto": "₿ 加密货币反弹：BTC $63,873 (+1.82%)，ETH $1,874 (+5.63%)。",
-    "geopolitics": "⚠️ 地缘：挪威化学品油轮在阿曼附近被弹丸击中（美伊局势）。特朗普拟对霍尔木兹海峡征收20%通行费计划引发航运业强烈反对。",
-    "key_events": "CPI数据后收益率大幅下行，降息预期升温；IBM盘初重挫20%拖累道指；银行股财报（JPMorgan/BofA）正在进行中。"
+    "macro": "📉 隔夜核心事件：6月CPI数据利好（同比+3.5%低于预期），美债收益率降至4.577%，美元指数跌至100.71。市场降息预期升温。",
+    "us": "📊 美股收盘涨跌互现。纳指+0.44%领涨（芯片/科技反弹），标普-0.49%，道指-0.32%。IBM暴跌25%创纪录最大单日跌幅拖累大盘。期货盘前小幅波动：纳指期货+0.25%、标普期货基本持平。",
+    "geopolitics": "⚡ BREAKING: 美军已对伊朗发动打击（防止霍尔木兹海峡封锁重启）。WTI原油昨夜剧烈波动，盘中冲高至$81.27后回落至$79.89。黄金高位震荡$4056（+1.26%）。MarketWatch警告汽油价可能重返$4/加仑。",
+    "asia": "🇭🇰🇰🇷🇯🇵 亚洲盘：SK Hynix韩国暴涨11%带动科技股全线反弹，亚洲科技板块跟涨。恒指前收24341（+0.52%）。",
+    "cn": "🇨🇳 A股前收盘：上证3913，关注今日军工/石油/黄金板块表现。霍尔木兹局势升级可能影响能源股。",
+    "crypto": "₿ BTC $63,873 (+1.82%)，ETH $1,874 (+5.63%)。加密货币延续反弹。",
+    "key_events": "① 美国对伊朗发动军事打击 ② CPI利好被地缘风险对冲 ③ IBM暴跌25%创纪录 ④ 亚洲科技股强劲反弹（SK Hynix+11%） ⑤ 油价剧烈波动高位",
+    "watch_today": "① A股开盘反应（军工/能源板块）② 伊朗局势后续升级 ③ 美国银行股财报 ④ WTI能否突破$80关口"
   }
 }

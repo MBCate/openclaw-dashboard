@@ -1,158 +1,105 @@
 {
-  "timestamp": "2026-07-15T01:20:00Z",
+  "timestamp": "2026-07-15T13:30:00Z",
   "date": "2026-07-15",
-  "report_type": "morning_international",
+  "report_type": "evening_international",
   "us_markets": {
     "sp500": {
-      "value": 7524.32,
-      "change_pct": -0.49,
-      "prev_close": 7561.63,
-      "high": 7538.83,
-      "low": 7523.66,
-      "futures": "7558",
-      "futures_change": -0.06,
+      "value": 7572.05,
+      "change_pct": 0.75,
+      "prev_close": 7515.34,
       "label": "S&P 500"
     },
     "nasdaq": {
-      "value": 25987.4,
-      "change_pct": 0.44,
-      "prev_close": 25873.176,
-      "high": 26037.56,
-      "low": 25979.81,
-      "futures_value": 29867.83,
-      "futures_change": 0.25,
+      "value": 26272.99,
+      "change_pct": 1.55,
+      "prev_close": 25873.18,
       "label": "NASDAQ"
     },
     "dow": {
-      "value": 52329.34,
-      "change_pct": -0.32,
+      "value": 52579.65,
+      "change_pct": 0.15,
       "prev_close": 52498.64,
-      "high": 52475.52,
-      "low": 52046.36,
-      "futures_change": -0.27,
       "label": "道琼斯"
-    }
-  },
-  "hk_markets": {
-    "hsi": {
-      "value": 24340.73,
-      "change_pct": 0.52,
-      "prev_close": 24213.72,
-      "high": 24436.58,
-      "low": 23902.05,
-      "label": "恒生指数"
-    }
-  },
-  "cn_markets": {
-    "shanghai": {
-      "value": 3913.42,
-      "change_pct": null,
-      "label": "上证指数"
-    },
-    "shanghai50": {
-      "value": 2913.05,
-      "change_pct": null,
-      "label": "上证50"
-    },
-    "star50": {
-      "value": 1994.32,
-      "change_pct": null,
-      "label": "科创50"
     }
   },
   "commodities": {
     "gold": {
-      "value": 4056.38,
-      "change_pct": 1.26,
-      "prev_close": 4005.7,
+      "value": 4069.6,
+      "change_pct": 0.21,
+      "prev_close": 4061.1,
       "label": "COMEX黄金"
     },
     "wti_crude": {
-      "value": 79.89,
-      "change_pct": -0.27,
-      "prev_close": 79.81,
-      "overnight_high": 81.27,
-      "overnight_low": 77.84,
+      "value": 80.12,
+      "change_pct": 0.98,
+      "prev_close": 79.34,
       "label": "WTI原油"
     },
     "us10y_yield": {
-      "value": 4.577,
-      "change_pct": -0.69,
-      "prev_close": 4.609,
+      "value": 4.569,
+      "change_pct": -0.87,
+      "prev_close": 4.61,
       "label": "美债10年收益率"
     },
     "dxy": {
-      "value": 100.71,
-      "change_pct": -0.52,
-      "prev_close": 101.235,
+      "value": 100.835,
+      "change_pct": -0.44,
+      "prev_close": 101.28,
       "label": "美元指数"
     }
   },
   "crypto": {
     "btc": {
-      "price_usd": 63873,
-      "change_24h_pct": 1.82,
+      "price_usd": 65304,
+      "change_24h_pct": 0.54,
       "label": "BTC"
     },
     "eth": {
-      "price_usd": 1874,
-      "change_24h_pct": 5.63,
+      "price_usd": 1937,
+      "change_24h_pct": 2.53,
       "label": "ETH"
     }
   },
-  "asia_premarket": {
-    "sk_hynix": {
-      "change_pct": 11,
-      "label": "SK Hynix (韩国)"
-    },
-    "japan_nikkei_note": "亚洲科技股受SK Hynix带动反弹"
-  },
   "overnight_news": [
     {
-      "source": "CNBC",
-      "title": "U.S. strikes Iran before Hormuz Strait blockade restarts"
+      "source": "Yahoo/CNBC",
+      "title": "美国6月PPI意外下降0.3%（汽油暴跌带动），通胀降温信号强化降息预期"
     },
     {
       "source": "CNBC",
-      "title": "Stock futures are flat after soft inflation reading lifts market: Live updates"
+      "title": "美軍对伊朗发动新一轮打击，分析师警告冲突或演变为\"永恆战争\"，霍尔木兹海峡再亮红灯"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "ASML财报超预期带动半导体板块反弹，纳指领涨三大指数"
+    },
+    {
+      "source": "FT",
+      "title": "石油交易商警告霍尔木兹再次关闭，市场面临供应枯竭风险"
     },
     {
       "source": "CNBC",
-      "title": "SK Hynix South Korean shares jump 11% as Asia tech stocks rally"
-    },
-    {
-      "source": "CNBC",
-      "title": "IBM stock craters 25%, the worst day on record, after company issues Q2 earnings warning"
-    },
-    {
-      "source": "CNBC",
-      "title": "The AI boom just found two new winners: Goldman Sachs and JPMorgan Chase"
+      "title": "摩根士丹利创纪录季度营收，股票交易业务激增69%"
     },
     {
       "source": "MarketWatch",
-      "title": "Brace for $4 gas again: How U.S.-Iran tensions are threatening to end the price break at the pump"
+      "title": "AI牛市回归信号：华尔街主题指标显示科技股重新走强"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "美伊紧张局势升级，油价若重返/加仑恐冲击消费者"
     },
     {
       "source": "CNBC",
-      "title": "Oil volatility is creating a 'win-win' trade strategy"
-    },
-    {
-      "source": "CNBC OIl",
-      "title": "Is Hormuz open? Trump's toll threat intensifies rush to bypass the Strait altogether"
-    },
-    {
-      "source": "SCMP",
-      "title": "Warren Buffett cuts off donations to Bill Gates' charity after Epstein revelations"
+      "title": "巴菲特：\"当前市场很难找到价值，因为人人都更爱赌博\""
     }
   ],
   "summary": {
-    "macro": "📉 隔夜核心事件：6月CPI数据利好（同比+3.5%低于预期），美债收益率降至4.577%，美元指数跌至100.71。市场降息预期升温。",
-    "us": "📊 美股收盘涨跌互现。纳指+0.44%领涨（芯片/科技反弹），标普-0.49%，道指-0.32%。IBM暴跌25%创纪录最大单日跌幅拖累大盘。期货盘前小幅波动：纳指期货+0.25%、标普期货基本持平。",
-    "geopolitics": "⚡ BREAKING: 美军已对伊朗发动打击（防止霍尔木兹海峡封锁重启）。WTI原油昨夜剧烈波动，盘中冲高至$81.27后回落至$79.89。黄金高位震荡$4056（+1.26%）。MarketWatch警告汽油价可能重返$4/加仑。",
-    "asia": "🇭🇰🇰🇷🇯🇵 亚洲盘：SK Hynix韩国暴涨11%带动科技股全线反弹，亚洲科技板块跟涨。恒指前收24341（+0.52%）。",
-    "cn": "🇨🇳 A股前收盘：上证3913，关注今日军工/石油/黄金板块表现。霍尔木兹局势升级可能影响能源股。",
-    "crypto": "₿ BTC $63,873 (+1.82%)，ETH $1,874 (+5.63%)。加密货币延续反弹。",
-    "key_events": "① 美国对伊朗发动军事打击 ② CPI利好被地缘风险对冲 ③ IBM暴跌25%创纪录 ④ 亚洲科技股强劲反弹（SK Hynix+11%） ⑤ 油价剧烈波动高位",
-    "watch_today": "① A股开盘反应（军工/能源板块）② 伊朗局势后续升级 ③ 美国银行股财报 ④ WTI能否突破$80关口"
+    "macro": "📉 通胀利好延续：继CPI后，6月PPI意外-0.3%，进一步巩固降息预期。美债收益率降至4.569%，美元指数跌至100.84。",
+    "us": "📊 美股全线收涨：纳指+1.55%领涨（ASML/芯片股反弹），标普+0.75%报7572，道指+0.15%报52580。摩根士丹利创纪录财报提振金融板块。",
+    "geopolitics": "⚡ BREAKING: 美军对伊朗发动新一轮打击。霍尔木兹海峡再度面临封锁风险。FT称石油交易商警告市场\"接近断供\"。WTI原油收0.12（+0.98%），黄金069（+0.21%）。",
+    "crypto": "₿ BTC 5,304 (+0.54%)，ETH ,937 (+2.53%)，加密货币延续温和上涨。",
+    "key_events": "① PPI意外下跌强化降息预期 ② 美军再袭伊朗，霍尔木兹危机升级 ③ ASML带飞半导体板块 ④ 摩根士丹利创纪录业绩 ⑤ AI科技股反弹信号浮现",
+    "watch_tomorrow": "① 伊朗局势后续发展 ② A股/港股开盘反应（芯片/石油/军工） ③ 美债收益率是否继续下行 ④ 科技股财报季延续"
   }
 }

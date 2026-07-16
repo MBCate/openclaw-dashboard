@@ -1,83 +1,24 @@
 {
-  "date": "2026-07-15",
-  "timestamp": "2026-07-15 15:05:00",
-  "indices": [
-    {
-      "name": "上证指数",
-      "code": "000001",
-      "price": 3963.73,
-      "change": 8.15,
-      "change_pct": 0.21,
-      "open": 3967.13,
-      "high": 3981.67,
-      "low": 3943.7,
-      "pre_close": 3955.58,
-      "volume": 576209492,
-      "amount": 12263.0,
-      "amount_unit": "亿"
-    },
-    {
-      "name": "深证成指",
-      "code": "399001",
-      "price": 14970.77,
-      "change": 191.38,
-      "change_pct": 1.29,
-      "open": 14924.87,
-      "high": 15041.33,
-      "low": 14741.8,
-      "pre_close": 14779.4,
-      "volume": 68891973235,
-      "amount": 13449.0,
-      "amount_unit": "亿"
-    },
-    {
-      "name": "创业板指",
-      "code": "399006",
-      "price": 3879.77,
-      "change": 75.06,
-      "change_pct": 1.97,
-      "open": 3851.14,
-      "high": 3905.31,
-      "low": 3794.34,
-      "pre_close": 3804.7,
-      "volume": 19725276324,
-      "amount": 5928.0,
-      "amount_unit": "亿"
-    },
-    {
-      "name": "沪深300",
-      "code": "000300",
-      "price": 4797.94,
-      "change": 11.16,
-      "change_pct": 0.23,
-      "open": 4796.5,
-      "high": 4826.86,
-      "low": 4772.04,
-      "pre_close": 4786.78,
-      "volume": 278692669,
-      "amount": 8583.0,
-      "amount_unit": "亿"
-    }
+  "timestamp": "2026-07-16 11:30",
+  "indices": {
+    "上证指数": {"price": 3923.20, "change_pct": -0.82},
+    "深证成指": {"price": 14657.07, "change_pct": -0.83},
+    "创业板指": {"price": 3738.96, "change_pct": -1.73},
+    "沪深300": {"price": 4743.28, "change_pct": -0.91}
+  },
+  "north_flow": {"date": "2026-07-16", "value": 0, "note": "实时数据获取中"},
+  "sectors_top": [
+    {"name": "其他医疗服务", "change_pct": 5.05},
+    {"name": "院线", "change_pct": 4.91},
+    {"name": "专业连锁Ⅱ", "change_pct": 4.51},
+    {"name": "影视院线", "change_pct": 4.40},
+    {"name": "影视动漫制作", "change_pct": 4.25}
   ],
-  "north_money": {
-    "status": "available",
-    "date": "2026-07-15",
-    "note": "北向资金数据需收盘清算后更新（~15:30）",
-    "yesterday": {
-      "date": "2026-07-14",
-      "total_trade": 4159.04,
-      "total_trade_unit": "亿"
-    }
-  },
-  "sectors": {
-    "status": "pending_update",
-    "note": "行业板块数据将在后续更新中补充"
-  },
-  "market_summary": {
-    "total_shanghai": 12263,
-    "total_shenzhen": 13449,
-    "total": 25712,
-    "total_unit": "亿"
-  },
-  "market_trend": "中小创强于主板，创业板涨近2%领涨三大指数，深市成交额13449亿超沪市12263亿，市场风格偏向成长"
+  "sectors_bottom": [
+    {"name": "产业地产", "change_pct": 1.57},
+    {"name": "出版", "change_pct": 1.54},
+    {"name": "多业态零售", "change_pct": 1.53},
+    {"name": "计算机", "change_pct": 1.53},
+    {"name": "游戏Ⅱ", "change_pct": 1.53}
+  ]
 }

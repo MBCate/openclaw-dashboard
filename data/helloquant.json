@@ -1,86 +1,86 @@
 {
-  "date": "2026-07-15",
-  "timestamp": "2026-07-15 15:05:00",
-  "status": "operational",
-  "last_collection": {
-    "date": "2026-07-14",
-    "timestamp": "2026-07-14T15:14:10.102608",
-    "note": "今日收盘后数据采集尚未运行，展示昨日数据"
-  },
-  "crypto_strategies": {
-    "status": "needs_collection",
-    "data_source": "daily_raw.json (2026-07-14)",
-    "strategies": [
-      {
-        "name": "DoubleMa",
-        "status": "needs_update",
-        "note": "需运行采集脚本更新信号"
-      },
-      {
-        "name": "TripleMa",
-        "status": "needs_update",
-        "note": "需运行采集脚本更新信号"
-      },
-      {
-        "name": "Supertrend",
-        "status": "needs_update",
-        "note": "需运行采集脚本更新信号"
-      },
-      {
-        "name": "RSI",
-        "status": "needs_update",
-        "note": "需运行采集脚本更新信号"
-      },
-      {
-        "name": "MACD",
-        "status": "needs_update",
-        "note": "需运行采集脚本更新信号"
-      },
-      {
-        "name": "Bollinger",
-        "status": "needs_update",
-        "note": "需运行采集脚本更新信号"
-      },
-      {
-        "name": "Momentum",
-        "status": "needs_update",
-        "note": "需运行采集脚本更新信号"
-      },
-      {
-        "name": "MeanReversion",
-        "status": "needs_update",
-        "note": "需运行采集脚本更新信号"
+  "date": "2026-07-16",
+  "update_time": "2026-07-16 15:00",
+  "system_status": "idle",
+  "last_update": "2026-07-14",
+  "last_data_timestamp": "2026-07-14T15:14:10.102608",
+  "strategies": [
+    {
+      "name": "DoubleMa",
+      "status": "配置完成",
+      "description": "双均线策略",
+      "last_optimization": {
+        "best_params": {
+          "fast": 20,
+          "slow": 50
+        },
+        "sharpe": "N/A"
       }
-    ]
-  },
-  "a_share_market": {
-    "status": "data_available",
-    "data_source": "实时Sina API",
-    "indices": {
+    },
+    {
+      "name": "Supertrend",
+      "status": "配置完成",
+      "description": "Supertrend趋势跟踪",
+      "last_optimization": {
+        "sharpe": "N/A"
+      }
+    }
+  ],
+  "stock_market": {
+    "status": "success",
+    "data": {
       "上证指数": {
-        "price": 3963.73,
-        "change_pct": 0.21
+        "price": 3967.1262,
+        "change": 1.363,
+        "volume": 579982052.0
       },
       "深证成指": {
-        "price": 14970.77,
-        "change_pct": 1.29
+        "price": 14924.868,
+        "change": 2.768
       },
       "创业板指": {
-        "price": 3879.77,
-        "change_pct": 1.97
+        "price": 3851.137,
+        "change": 3.427
       },
-      "沪深300": {
-        "price": 4797.94,
-        "change_pct": 0.23
+      "沪金主力": {
+        "price": 885.94,
+        "change": -1.34,
+        "date": "2026-07-13"
+      },
+      "沪银主力": {
+        "price": 14135.0,
+        "change": -3.55,
+        "date": "2026-07-13"
+      },
+      "沪铜主力": {
+        "price": 103060.0,
+        "change": -0.63,
+        "date": "2026-07-13"
+      },
+      "螺纹钢主力": {
+        "price": 3054.0,
+        "change": -1.07,
+        "date": "2026-07-13"
+      },
+      "沪深300期货": {
+        "price": 4634.6,
+        "change": -1.49,
+        "date": "2026-07-13"
+      },
+      "中证500期货": {
+        "price": 8021.6,
+        "change": -3.74,
+        "date": "2026-07-13"
+      },
+      "50ETF波动率": {
+        "value": 21.64,
+        "date": "2026-07-13"
       }
     }
   },
-  "sentiment": {
-    "crypto_fear_greed": {
-      "value": 22,
-      "classification": "Extreme Fear",
-      "date": "2026-07-14"
-    }
+  "crypto_market": {
+    "status": "error",
+    "error": "okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT"
   },
-  "summary": "HelloQuant 数据采集系统运行正常。A股收盘数据已采集更新。加密货币策略信号和OKX行情因代理问题需手动运行采集脚本更新。恐惧贪婪指数22，市场处于极度恐惧状态。"
+  "notes": "策略运行环境已搭建，暂未启动实盘运行。数据采集自 daily_raw.json (上次更新: 2026-07-14)"
 }

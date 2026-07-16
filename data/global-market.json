@@ -1,37 +1,55 @@
 {
-  "timestamp": "2026-07-15T13:30:00Z",
-  "date": "2026-07-15",
-  "report_type": "evening_international",
+  "timestamp": "2026-07-16T01:20:00Z",
+  "date": "2026-07-16",
+  "report_type": "morning_preview",
   "us_markets": {
     "sp500": {
-      "value": 7572.05,
-      "change_pct": 0.75,
-      "prev_close": 7515.34,
+      "value": 7570.0,
+      "change_pct": 0.38,
+      "prev_close": 7543.0,
       "label": "S&P 500"
     },
     "nasdaq": {
-      "value": 26272.99,
-      "change_pct": 1.55,
-      "prev_close": 25873.18,
+      "value": 26436.0,
+      "change_pct": 0.62,
+      "prev_close": 26272.99,
       "label": "NASDAQ"
     },
     "dow": {
-      "value": 52579.65,
-      "change_pct": 0.15,
-      "prev_close": 52498.64,
+      "value": 52508.66,
+      "change_pct": 0.29,
+      "prev_close": 52360.0,
       "label": "道琼斯"
+    }
+  },
+  "futures_premarket": {
+    "a50_futures": {
+      "value": "持平",
+      "change_pct": 0.05,
+      "label": "富时A50期指夜盘"
+    },
+    "china_golden_dragon": {
+      "value": "上涨",
+      "change_pct": 2.91,
+      "label": "纳斯达克中国金龙指数"
     }
   },
   "commodities": {
     "gold": {
-      "value": 4069.6,
-      "change_pct": 0.21,
-      "prev_close": 4061.1,
+      "value": 4067.0,
+      "change_pct": -0.07,
+      "prev_close": 4069.6,
       "label": "COMEX黄金"
     },
+    "silver": {
+      "value": "—",
+      "change_pct": -1.7,
+      "prev_close": null,
+      "label": "COMEX白银"
+    },
     "wti_crude": {
-      "value": 80.12,
-      "change_pct": 0.98,
+      "value": 79.60,
+      "change_pct": 0.33,
       "prev_close": 79.34,
       "label": "WTI原油"
     },
@@ -48,6 +66,9 @@
       "label": "美元指数"
     }
   },
+  "china_commodity_futures": {
+    "morning_open_note": "PTA、沪银跌逾2%，碳酸锂、沪锌跌超1%，纯碱、沪铝小幅下跌；铂、BR橡胶涨超1%，棉花、橡胶小幅上涨"
+  },
   "crypto": {
     "btc": {
       "price_usd": 65304,
@@ -62,44 +83,45 @@
   },
   "overnight_news": [
     {
-      "source": "Yahoo/CNBC",
-      "title": "美国6月PPI意外下降0.3%（汽油暴跌带动），通胀降温信号强化降息预期"
+      "source": "Investopedia/AP",
+      "title": "美股三大指数集体收涨：标普+0.38%，纳指+0.62%，道指+0.29%，6月PPI意外下降强化降息预期"
     },
     {
       "source": "CNBC",
-      "title": "美軍对伊朗发动新一轮打击，分析师警告冲突或演变为\"永恆战争\"，霍尔木兹海峡再亮红灯"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "ASML财报超预期带动半导体板块反弹，纳指领涨三大指数"
-    },
-    {
-      "source": "FT",
-      "title": "石油交易商警告霍尔木兹再次关闭，市场面临供应枯竭风险"
-    },
-    {
-      "source": "CNBC",
-      "title": "摩根士丹利创纪录季度营收，股票交易业务激增69%"
+      "title": "苹果涨超4%，谷歌、Meta、亚马逊涨超3%，大型科技股普涨"
     },
     {
       "source": "MarketWatch",
-      "title": "AI牛市回归信号：华尔街主题指标显示科技股重新走强"
+      "title": "存储芯片板块暴跌：SK海力士-9%，闪迪/西部数据-8%，美光-7%，AI算力需求转向推升CPU需求"
     },
     {
-      "source": "MarketWatch",
-      "title": "美伊紧张局势升级，油价若重返/加仑恐冲击消费者"
+      "source": "东方财富",
+      "title": "长鑫科技新股申购，预计募资579亿元"
     },
     {
-      "source": "CNBC",
-      "title": "巴菲特：\"当前市场很难找到价值，因为人人都更爱赌博\""
+      "source": "新浪财经",
+      "title": "小鹏计划明年全球推人形机器人，年底月产1000台"
+    },
+    {
+      "source": "Wind",
+      "title": "宽基ETF整体净流入555亿元，中证1000ETF净流入150亿居首"
+    },
+    {
+      "source": "美银",
+      "title": "服务器CPU需求强劲，预计五年复合增长率37.1%"
+    },
+    {
+      "source": "每经",
+      "title": "国内商品期货早盘：PTA/沪银跌逾2%，碳酸锂/沪锌跌超1%"
     }
   ],
   "summary": {
-    "macro": "📉 通胀利好延续：继CPI后，6月PPI意外-0.3%，进一步巩固降息预期。美债收益率降至4.569%，美元指数跌至100.84。",
-    "us": "📊 美股全线收涨：纳指+1.55%领涨（ASML/芯片股反弹），标普+0.75%报7572，道指+0.15%报52580。摩根士丹利创纪录财报提振金融板块。",
-    "geopolitics": "⚡ BREAKING: 美军对伊朗发动新一轮打击。霍尔木兹海峡再度面临封锁风险。FT称石油交易商警告市场\"接近断供\"。WTI原油收0.12（+0.98%），黄金069（+0.21%）。",
-    "crypto": "₿ BTC 5,304 (+0.54%)，ETH ,937 (+2.53%)，加密货币延续温和上涨。",
-    "key_events": "① PPI意外下跌强化降息预期 ② 美军再袭伊朗，霍尔木兹危机升级 ③ ASML带飞半导体板块 ④ 摩根士丹利创纪录业绩 ⑤ AI科技股反弹信号浮现",
-    "watch_tomorrow": "① 伊朗局势后续发展 ② A股/港股开盘反应（芯片/石油/军工） ③ 美债收益率是否继续下行 ④ 科技股财报季延续"
+    "macro": "📉 通胀利好延续：继CPI后6月PPI意外下降，降息预期升温。美债收益率4.569%，美元指数100.84。",
+    "us": "📊 美股全线收涨：纳指+0.62%领涨（大型科技股普涨），标普+0.38%，道指+0.29%。存储芯片逆市大跌。",
+    "china": "🇨🇳 富时A50夜盘持平+0.05%，中概金龙指数+2.91%。长鑫科技今日申购（募资579亿元）。宽基ETF周净流入555亿。",
+    "commodities": "🛢️ WTI 79.60 (+0.33%)。国内商品期货偏弱，PTA/沪银-2%，碳酸锂/沪锌-1%。",
+    "crypto": "₿ BTC $65,304 (+0.54%)，ETH $1,937 (+2.53%)",
+    "key_events": "① PPI意外下降→降息预期增强 ② 存储芯片暴跌 vs 大型科技股普涨 ③ 中概金龙+2.91% ④ 长鑫科技579亿申购 ⑤ 国内商品期货开盘偏弱",
+    "watch_today": "① A股开盘方向（芯片/存储板块承压） ② PPI后美联储降息预期变化 ③ 科技股财报延续 ④ 人形机器人概念热度"
   }
 }

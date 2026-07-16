@@ -1,12 +1,13 @@
 {
-  "timestamp": "2026-07-16T01:20:00Z",
+  "timestamp": "2026-07-16T13:30:00Z",
   "date": "2026-07-16",
-  "report_type": "morning_preview",
+  "report_type": "evening_overnight",
   "us_markets": {
     "sp500": {
-      "value": 7570.0,
+      "value": 7572.40,
       "change_pct": 0.38,
-      "prev_close": 7543.0,
+      "prev_close": 7543.59,
+      "ytd_pct": 10.1,
       "label": "S&P 500"
     },
     "nasdaq": {
@@ -16,33 +17,52 @@
       "label": "NASDAQ"
     },
     "dow": {
-      "value": 52508.66,
+      "value": 52659.18,
       "change_pct": 0.29,
-      "prev_close": 52360.0,
+      "prev_close": 52508.28,
       "label": "道琼斯"
-    }
+    },
+    "note": "美股三大指数收涨。标普+0.38%至7,572，纳指+0.62%，道指+0.29%至52,659。PPI意外下降强化降息预期，但AI交易忧虑压制午后涨幅。"
   },
-  "futures_premarket": {
-    "a50_futures": {
-      "value": "持平",
+  "us_futures": {
+    "note": "盘后期货小幅回调，AI芯片板块承压"
+  },
+  "asia_markets": {
+    "hang_seng": {
+      "value": 25008.60,
+      "change_pct": 1.3,
+      "label": "恒生指数",
+      "note": "连涨5日，+1.3%"
+    },
+    "nikkei": {
+      "value": null,
+      "change_pct": null,
+      "label": "日经225",
+      "note": "日股下跌，与港股分化"
+    },
+    "china_a50": {
+      "value": null,
       "change_pct": 0.05,
-      "label": "富时A50期指夜盘"
+      "label": "富时A50期指",
+      "note": "夜盘基本持平"
     },
     "china_golden_dragon": {
-      "value": "上涨",
+      "value": null,
       "change_pct": 2.91,
-      "label": "纳斯达克中国金龙指数"
+      "label": "纳斯达克中国金龙指数",
+      "note": "中概股延续涨势"
     }
   },
   "commodities": {
     "gold": {
-      "value": 4067.0,
-      "change_pct": -0.07,
-      "prev_close": 4069.6,
-      "label": "COMEX黄金"
+      "value": 4040.66,
+      "change_pct": -0.43,
+      "prev_close": 4058.27,
+      "label": "现货黄金",
+      "note": "日内回调，围绕$4,040震荡"
     },
     "silver": {
-      "value": "—",
+      "value": null,
       "change_pct": -1.7,
       "prev_close": null,
       "label": "COMEX白银"
@@ -53,6 +73,13 @@
       "prev_close": 79.34,
       "label": "WTI原油"
     },
+    "brent_crude": {
+      "value": 85.00,
+      "change_pct": null,
+      "prev_close": null,
+      "label": "布伦特原油",
+      "note": "Brent突破$85，霍尔木兹海峡局势引发供应担忧"
+    },
     "us10y_yield": {
       "value": 4.569,
       "change_pct": -0.87,
@@ -60,68 +87,85 @@
       "label": "美债10年收益率"
     },
     "dxy": {
-      "value": 100.835,
-      "change_pct": -0.44,
+      "value": 100.84,
+      "change_pct": -0.43,
       "prev_close": 101.28,
       "label": "美元指数"
     }
   },
-  "china_commodity_futures": {
-    "morning_open_note": "PTA、沪银跌逾2%，碳酸锂、沪锌跌超1%，纯碱、沪铝小幅下跌；铂、BR橡胶涨超1%，棉花、橡胶小幅上涨"
-  },
   "crypto": {
     "btc": {
-      "price_usd": 65304,
-      "change_24h_pct": 0.54,
-      "label": "BTC"
+      "price_usd": 64227,
+      "change_24h_pct": -0.77,
+      "label": "BTC",
+      "note": "小幅回调至$64,227"
     },
     "eth": {
-      "price_usd": 1937,
-      "change_24h_pct": 2.53,
-      "label": "ETH"
+      "price_usd": 1884.78,
+      "change_24h_pct": -1.67,
+      "label": "ETH",
+      "note": "ETH $1,885，日内-1.67%"
+    },
+    "sol": {
+      "price_usd": 76.39,
+      "change_24h_pct": -1.09,
+      "label": "SOL"
+    },
+    "xrp": {
+      "price_usd": 1.109,
+      "change_24h_pct": -0.29,
+      "label": "XRP"
     }
   },
-  "overnight_news": [
-    {
-      "source": "Investopedia/AP",
-      "title": "美股三大指数集体收涨：标普+0.38%，纳指+0.62%，道指+0.29%，6月PPI意外下降强化降息预期"
+  "economic_data": {
+    "jobless_claims": {
+      "value": "208,000",
+      "prior": null,
+      "estimate": null,
+      "label": "美国初请失业金",
+      "note": "低于预期，劳动力市场仍韧性"
     },
-    {
-      "source": "CNBC",
-      "title": "苹果涨超4%，谷歌、Meta、亚马逊涨超3%，大型科技股普涨"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "存储芯片板块暴跌：SK海力士-9%，闪迪/西部数据-8%，美光-7%，AI算力需求转向推升CPU需求"
-    },
-    {
-      "source": "东方财富",
-      "title": "长鑫科技新股申购，预计募资579亿元"
-    },
-    {
-      "source": "新浪财经",
-      "title": "小鹏计划明年全球推人形机器人，年底月产1000台"
-    },
-    {
-      "source": "Wind",
-      "title": "宽基ETF整体净流入555亿元，中证1000ETF净流入150亿居首"
-    },
-    {
-      "source": "美银",
-      "title": "服务器CPU需求强劲，预计五年复合增长率37.1%"
-    },
-    {
-      "source": "每经",
-      "title": "国内商品期货早盘：PTA/沪银跌逾2%，碳酸锂/沪锌跌超1%"
-    }
+    "ppi_note": "继CPI后6月PPI意外下降，进一步强化美联储降息预期"
+  },
+  "key_events": [
+    "📊 美股三大指数收涨：标普+0.38%，纳指+0.62%，道指+0.29%",
+    "📉 美国初请失业金20.8万，低于预期，劳动力市场韧性",
+    "💰 PPI意外下降，降息预期持续升温",
+    "🇨🇳 恒指连涨5日至25,009(+1.3%)，中概金龙+2.91%",
+    "🇯🇵 日股下跌，与港股走势分化",
+    "🛢️ 布伦特原油突破$85，霍尔木兹海峡局势推升油价",
+    "🥇 黄金$4,040小幅回调(-0.43%)",
+    "₿ BTC $64,227(-0.77%)，ETH $1,885(-1.67%)，加密市场整体偏弱",
+    "🏢 Abbott上调2026年利润指引",
+    "🇨🇳 中国外交部副部长拟访美为元首会晤铺路",
+    "⚠️ Bloomberg：Stocks Fall on AI Trade Jitters as Brent Tops $85"
   ],
+  "rss_news": {
+    "bloomberg": [
+      "US Jobless Claims Decline to 208,000, Below Forecasts",
+      "Jump Trading Doubles Team to Ride Record Prediction Market Boom",
+      "Abbott Boosts 2026 Profit Guidance as Sales Across Firm Rise",
+      "Stocks Fall on AI Trade Jitters as Brent Tops $85: Markets Wrap",
+      "Why IPOs of Tiny Foreign Companies Have Vanished in US"
+    ],
+    "ft": [
+      "Hormuz closure threatens renewed oil supply crunch",
+      "The digital euro gets ready for beta testing",
+      "Perps are distracting Wall Street, not disrupting it"
+    ],
+    "scmp": [
+      "Chinese foreign vice-minister set for US visit in 'temperature test'",
+      "US coastguard cutters have a South China Sea mission"
+    ]
+  },
   "summary": {
-    "macro": "📉 通胀利好延续：继CPI后6月PPI意外下降，降息预期升温。美债收益率4.569%，美元指数100.84。",
-    "us": "📊 美股全线收涨：纳指+0.62%领涨（大型科技股普涨），标普+0.38%，道指+0.29%。存储芯片逆市大跌。",
-    "china": "🇨🇳 富时A50夜盘持平+0.05%，中概金龙指数+2.91%。长鑫科技今日申购（募资579亿元）。宽基ETF周净流入555亿。",
-    "commodities": "🛢️ WTI 79.60 (+0.33%)。国内商品期货偏弱，PTA/沪银-2%，碳酸锂/沪锌-1%。",
-    "crypto": "₿ BTC $65,304 (+0.54%)，ETH $1,937 (+2.53%)",
-    "key_events": "① PPI意外下降→降息预期增强 ② 存储芯片暴跌 vs 大型科技股普涨 ③ 中概金龙+2.91% ④ 长鑫科技579亿申购 ⑤ 国内商品期货开盘偏弱",
-    "watch_today": "① A股开盘方向（芯片/存储板块承压） ② PPI后美联储降息预期变化 ③ 科技股财报延续 ④ 人形机器人概念热度"
+    "macro": "📉 PPI意外下降 + 初请失业金20.8万低于预期 → 降息预期走强。美债收益率4.569%，美元指数100.84。",
+    "us": "📊 美股收涨但AI板块承压：标普+0.38%至7,572，纳指+0.62%，道指+0.29%至52,659。Bloomberg报导AI交易忧虑。",
+    "asia": "🇭🇰 恒指连涨5日至25,009(+1.3%)，日股下跌。A50夜盘持平，中概金龙+2.91%。",
+    "commodities": "🛢️ WTI $79.60，Brent突破$85（霍尔木兹局势），黄金$4,040(-0.43%)。",
+    "crypto": "₿ BTC $64,227(-0.77%)，ETH $1,885(-1.67%)，加密整体偏弱",
+    "geopolitics": "🌏 中国副外长拟访美；霍尔木兹海峡局势推升油价；南海议题持续关注",
+    "key_events": "① PPI+初请双重信号支撑降息预期 ② AI交易忧虑压制科技股 ③ 恒指5连涨 ④ 布油突破$85 ⑤ 中概金龙+2.91% ⑥ 加密市场小幅回调",
+    "watch_overnight": "① AI板块抛压是否延续 ② 原油供应端风险（霍尔木兹） ③ 美股财报季进展 ④ 中美外交高层接触"
   }
 }

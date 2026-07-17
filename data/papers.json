@@ -1758,11 +1758,120 @@
       "score": 3,
       "weekly": false,
       "abstract": "Theoretical analysis of drift Lipschitz budget in diffusion policies. Expressivity vs statistical complexity trade-offs."
+    },
+    {
+      "id": "2607.14005",
+      "title": "M⁴World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming",
+      "authors": "Ke Cheng, Hanqiao Ye, Lei Shi, Yahui Liu, Yunhan Shen, Jingtao Dong, Zhenke Wang, Wenxuan Ao, Weixiang Xu, Kaining Huang, Shuhan Shen",
+      "date": "2026-07-15",
+      "category": "world models / driving simulation",
+      "stars": 5,
+      "status": "新发现",
+      "kb_path": "world-models-ad/analysis/2026-07-16_M4World.md",
+      "score": 5,
+      "weekly": false
+    },
+    {
+      "id": "2607.13926",
+      "title": "S-squared-VLA: Decoupling Semantic and Spatial Streams in Vision-Language-Action Models for Autonomous Driving",
+      "authors": "Jianguo Yu, Rukang Wang, Duanfeng Chu, Chen Wang, Renju Feng, Liping Lu",
+      "date": "2026-07-15",
+      "category": "VLA / end-to-end autonomous driving",
+      "stars": 5,
+      "status": "新发现",
+      "kb_path": "vla-autonomous-driving/analysis/2026-07-16_S-squared-VLA.md",
+      "score": 5,
+      "weekly": false
+    },
+    {
+      "id": "2607.13410",
+      "title": "Ego-Dynamics-Augmented World Model for Autonomous Driving with Zero-Shot Cross-Chassis Adaptation",
+      "authors": "Zhidong Wang, Jingsong Liang, Zirui Li, Zhan Chen, Han Yu, Chen Lv",
+      "date": "2026-07-15",
+      "category": "world models / end-to-end autonomous driving",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "world-models-ad/analysis/2026-07-16_DynaDreamer.md",
+      "score": 4,
+      "weekly": false
+    },
+    {
+      "id": "2607.13017",
+      "title": "FlowWAM: Optical Flow as a Unified Action Representation for World Action Models",
+      "authors": "Yixiang Chen, Peiyan Li, Yuan Xu, Qisen Ma, Jiabing Yang, Kai Wang, Jianhua Yang, Dong An, He Guan, Gaoteng Liu, Jianlou Si, Jun Huang, Jing Liu, Nianfeng Liu, Yan Huang, Liang Wang",
+      "date": "2026-07-14",
+      "category": "world action models / robotics",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "world-models-ad/analysis/2026-07-16_FlowWAM.md",
+      "score": 4,
+      "weekly": false
+    },
+    {
+      "id": "2607.13960",
+      "title": "GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch",
+      "authors": "GigaWorld Team",
+      "date": "2026-07-15",
+      "category": "world action models / policy learning",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "world-models-ad/analysis/2026-07-16_GigaWorld-Policy-0.5.md",
+      "score": 4,
+      "weekly": false
+    },
+    {
+      "id": "2607.00399",
+      "title": "DriveVer: Lightweight Trajectory Evaluator as Test-Time Verifier for Autonomous Driving",
+      "authors": "Chong He, Yuechen Luo, Fang Li, Shaoqing Xu, Fuxi Wen",
+      "date": "2026-07-01",
+      "category": "end-to-end autonomous driving / verification",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "e2e-autonomous-driving/analysis/2026-07-16_DriveVer.md",
+      "score": 4,
+      "weekly": false
+    },
+    {
+      "id": "2607.10071",
+      "title": "FlashBEV: Fast and Memory-Efficient Exact BEV Transformation with IO-Awareness",
+      "authors": "Shunsuke Yokokawa, Hironori Kasahara",
+      "date": "2026-07-11",
+      "category": "BEV perception",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3,
+      "weekly": false
+    },
+    {
+      "id": "2607.12931",
+      "title": "ExToken: Structured Exploration for Efficient Vision-Language-Action Reinforcement Fine-tuning",
+      "authors": "Yilun Kong, Yunpeng Qing, Guozheng Ma, Haoyu Wang, Li Shen, Zhi Hou, Dacheng Tao",
+      "date": "2026-07-14",
+      "category": "VLA / reinforcement learning",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3,
+      "weekly": false
+    },
+    {
+      "id": "2607.12571",
+      "title": "TrustVLA: Mechanism-Guided Inference-Time Defense Against Vision-Language-Action Backdoors",
+      "authors": "Pinhan Fu, Xianda Guo, Xuetao Li, Wenke Huang, Ruilin Wang, Weiheng Zhao, Wei Sui, Mang Ye",
+      "date": "2026-07-14",
+      "category": "VLA / safety & security",
+      "stars": 3,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 3,
+      "weekly": false
     }
   ],
   "metadata": {
     "last_updated": "2026-07-16",
     "total": 126,
     "new_found": 22
-  }
+  },
+  "total": 135
 }

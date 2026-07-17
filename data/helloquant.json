@@ -1,86 +1,34 @@
 {
-  "date": "2026-07-16",
-  "update_time": "2026-07-16 15:00",
-  "system_status": "idle",
-  "last_update": "2026-07-14",
-  "last_data_timestamp": "2026-07-14T15:14:10.102608",
-  "strategies": [
-    {
-      "name": "DoubleMa",
-      "status": "配置完成",
-      "description": "双均线策略",
-      "last_optimization": {
-        "best_params": {
-          "fast": 20,
-          "slow": 50
-        },
-        "sharpe": "N/A"
-      }
+  "date": "2026-07-17",
+  "timestamp": "2026-07-17T15:05:00+08:00",
+  "status": "idle",
+  "last_run": "2026-07-14",
+  "strategies": {
+    "stock": {
+      "status": "configured",
+      "files": [
+        "double_ma_strategy.py",
+        "supertrend_strategy.py"
+      ],
+      "last_data": "2026-07-14"
     },
-    {
-      "name": "Supertrend",
-      "status": "配置完成",
-      "description": "Supertrend趋势跟踪",
-      "last_optimization": {
-        "sharpe": "N/A"
-      }
-    }
-  ],
-  "stock_market": {
-    "status": "success",
-    "data": {
-      "上证指数": {
-        "price": 3967.1262,
-        "change": 1.363,
-        "volume": 579982052.0
-      },
-      "深证成指": {
-        "price": 14924.868,
-        "change": 2.768
-      },
-      "创业板指": {
-        "price": 3851.137,
-        "change": 3.427
-      },
-      "沪金主力": {
-        "price": 885.94,
-        "change": -1.34,
-        "date": "2026-07-13"
-      },
-      "沪银主力": {
-        "price": 14135.0,
-        "change": -3.55,
-        "date": "2026-07-13"
-      },
-      "沪铜主力": {
-        "price": 103060.0,
-        "change": -0.63,
-        "date": "2026-07-13"
-      },
-      "螺纹钢主力": {
-        "price": 3054.0,
-        "change": -1.07,
-        "date": "2026-07-13"
-      },
-      "沪深300期货": {
-        "price": 4634.6,
-        "change": -1.49,
-        "date": "2026-07-13"
-      },
-      "中证500期货": {
-        "price": 8021.6,
-        "change": -3.74,
-        "date": "2026-07-13"
-      },
-      "50ETF波动率": {
-        "value": 21.64,
-        "date": "2026-07-13"
-      }
+    "crypto": {
+      "status": "configured",
+      "files": [
+        "double_ma_strategy.py",
+        "supertrend_strategy.py",
+        "double_ma_backtest.py",
+        "double_ma_optimize.py"
+      ],
+      "okx_api_error": true,
+      "last_data": null
     }
   },
-  "crypto_market": {
-    "status": "error",
-    "error": "okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT"
-  },
-  "notes": "策略运行环境已搭建，暂未启动实盘运行。数据采集自 daily_raw.json (上次更新: 2026-07-14)"
+  "market_context": {
+    "上证指数_上一交易日": 3967.13,
+    "收盘": 3764.15,
+    "日内跌幅": -3.05,
+    "crypto_fear_greed": 22,
+    "fear_greed_label": "Extreme Fear"
+  }
 }

@@ -1,60 +1,55 @@
 {
-  "updateTime": "2026-07-17 11:35",
-  "market": "午盘",
-  "indices": [
-    {
+  "date": "2026-07-17",
+  "timestamp": "2026-07-17T15:00:00+08:00",
+  "indices": {
+    "shanghai": {
       "name": "上证指数",
       "code": "000001",
-      "price": 3818.59,
-      "prevClose": 3882.41,
-      "change": -63.81999999999971,
-      "changePct": -1.64,
-      "high": 3869.21,
-      "low": 3806.39,
-      "amount": 7442.4,
-      "volume": 381381835
+      "price": 3764.15,
+      "change": -118.26,
+      "change_pct": -3.05,
+      "volume": 6504509,
+      "amount": 124644545
     },
-    {
+    "shenzhen": {
       "name": "深证成指",
       "code": "399001",
-      "price": 13953.26,
-      "prevClose": 14488.65,
-      "change": -535.3899999999994,
-      "changePct": -3.7,
-      "high": 14350.47,
-      "low": 13871.71,
-      "amount": 8580.74,
-      "volume": 46106994200
+      "price": 13706.88,
+      "change": -781.77,
+      "change_pct": -5.40,
+      "volume": 763770394,
+      "amount": 140851330
     },
-    {
+    "chi_next": {
       "name": "创业板指",
       "code": "399006",
-      "price": 3518.65,
-      "prevClose": 3692.46,
-      "change": -173.80999999999995,
-      "changePct": -4.71,
-      "high": 3642.06,
-      "low": 3487.99,
-      "amount": 4028.91,
-      "volume": 13805034996
+      "price": 3428.63,
+      "change": -263.83,
+      "change_pct": -7.15,
+      "volume": 48153424,
+      "amount": 35850413
     },
-    {
+    "hs300": {
       "name": "沪深300",
-      "code": "399300",
-      "price": 4583.23,
-      "prevClose": 4698.44,
-      "change": -115.21000000000004,
-      "changePct": -2.45,
-      "high": 4663.53,
-      "low": 4559.62,
-      "amount": 5399.54,
-      "volume": 16736107200
+      "code": "000300",
+      "price": 4529.10,
+      "change": -169.34,
+      "change_pct": -3.60,
+      "volume": 3026298,
+      "amount": 92082241
     }
-  ],
-  "totalAmount": 16023.14,
-  "sectors": {
-    "topGainers": [],
-    "topLosers": []
   },
-  "northBound": {}
+  "northbound": {
+    "沪股通净买额": "数据获取失败",
+    "深股通净买额": 0,
+    "note": "北向资金DeepV 2026-07-17: 沪股通数据延迟"
+  },
+  "sectors": {
+    "note": "行业板块数据获取失败（东方数据源SSL异常）",
+    "market_breadth": "三大指数全线暴跌，创业板指跌幅最大达7.15%"
+  },
+  "summary": {
+    "market_status": "大跌",
+    "description": "2026年7月17日A股三大指数大幅下跌。上证指数跌3.05%报3764.15点，深证成指跌5.40%报13706.88点，创业板指暴跌7.15%报3428.63点。两市成交额显著放大，全市场普跌。"
+  }
 }

@@ -1,197 +1,43 @@
 {
-  "timestamp": "2026-07-17T01:31:38Z",
+  "updated": "2026-07-17T21:30:00+08:00",
   "date": "2026-07-17",
-  "report_type": "morning_preview",
-  "us_markets": {
-    "sp500": {
-      "value": 7572.4,
-      "change_pct": 0.38,
-      "prev_close": 7543.59,
-      "ytd_pct": 10.1,
-      "label": "S&P 500"
+  "market": {
+    "us_stocks": {
+      "s&p_500": {
+        "price": 7446.17,
+        "change_pct": -1.16,
+        "prev_close": 7533.77
+      },
+      "dow_jones": {
+        "price": 52001.94,
+        "change_pct": -1.05,
+        "prev_close": 52552.97
+      },
+      "nasdaq": {
+        "price": 25432.68,
+        "change_pct": -1.74,
+        "prev_close": 25881.95
+      }
     },
-    "nasdaq": {
-      "value": 26436.0,
-      "change_pct": 0.62,
-      "prev_close": 26272.99,
-      "label": "NASDAQ"
+    "hong_kong": {
+      "hsi": {
+        "price": 24562.24,
+        "change_pct": -1.78,
+        "prev_close": 25008.6
+      }
     },
-    "dow": {
-      "value": 52659.18,
-      "change_pct": 0.29,
-      "prev_close": 52508.28,
-      "label": "道琼斯"
-    },
-    "note": "美股收涨但AI交易忧虑压制午后涨幅。盘后Netflix财报不及预期，盘后下跌。"
-  },
-  "us_futures": {
-    "sp500_futures": {
-      "value": null,
-      "change_pct": null,
-      "label": "标普500期指"
-    },
-    "nasdaq_futures": {
-      "value": null,
-      "change_pct": null,
-      "label": "纳指期货"
-    },
-    "note": "盘后期货小幅回调，NFLX财报拖累科技股情绪"
-  },
-  "overnight_highlights": [
-    "📊 美股三大指数收涨：S&P +0.38%, 纳指+0.62%, 道指+0.29%",
-    "📉 Netflix财报不及预期，盘后下跌约5%，将减少观看数据披露",
-    "🔴 SpaceX Starship试飞取消，股价首次收破IPO价格",
-    "🛢️ 布伦特原油突破$85，霍尔木兹海峡局势推升供应担忧",
-    "🇨🇳 中国副外长拟访美，为元首会晤铺路"
-  ],
-  "asia_markets": {
-    "hang_seng": {
-      "value": 25008.6,
-      "change_pct": 1.3,
-      "label": "恒生指数",
-      "note": "连涨5日，关注今日能否延续"
-    },
-    "nikkei": {
-      "value": null,
-      "change_pct": null,
-      "label": "日经225",
-      "note": "日股昨日下跌"
-    },
-    "china_a50": {
-      "value": null,
-      "change_pct": 0.05,
-      "label": "富时A50期指",
-      "note": "夜盘基本持平，信号中性"
-    },
-    "china_golden_dragon": {
-      "value": null,
-      "change_pct": 2.91,
-      "label": "纳斯达克中国金龙指数",
-      "note": "中概股延续涨势"
+    "crypto": {
+      "btc": {
+        "price": 62806.56,
+        "change_pct": -1.54,
+        "prev_close": 63789.28
+      },
+      "eth": {
+        "price": 1814.53,
+        "change_pct": -2.61,
+        "prev_close": 1863.19
+      }
     }
   },
-  "commodities": {
-    "gold": {
-      "value": 4040.66,
-      "change_pct": -0.43,
-      "prev_close": 4058.27,
-      "label": "现货黄金",
-      "note": "围绕$4,040震荡，地缘风险支撑"
-    },
-    "silver": {
-      "value": null,
-      "change_pct": -1.7,
-      "prev_close": null,
-      "label": "COMEX白银"
-    },
-    "wti_crude": {
-      "value": 79.6,
-      "change_pct": 0.33,
-      "prev_close": 79.34,
-      "label": "WTI原油"
-    },
-    "brent_crude": {
-      "value": 85.0,
-      "change_pct": null,
-      "prev_close": null,
-      "label": "布伦特原油",
-      "note": "Brent突破$85高位，关注伊朗局势"
-    },
-    "us10y_yield": {
-      "value": 4.569,
-      "change_pct": -0.87,
-      "prev_close": 4.61,
-      "label": "美债10年收益率"
-    },
-    "dxy": {
-      "value": 100.84,
-      "change_pct": -0.43,
-      "prev_close": 101.28,
-      "label": "美元指数"
-    }
-  },
-  "crypto": {
-    "btc": {
-      "price_usd": 64227,
-      "change_24h_pct": -0.77,
-      "label": "BTC",
-      "note": "$64,227 小幅回调"
-    },
-    "eth": {
-      "price_usd": 1884.78,
-      "change_24h_pct": -1.67,
-      "label": "ETH",
-      "note": "$1,885 偏弱"
-    },
-    "sol": {
-      "price_usd": 76.39,
-      "change_24h_pct": -1.09,
-      "label": "SOL"
-    },
-    "xrp": {
-      "price_usd": 1.109,
-      "change_24h_pct": -0.29,
-      "label": "XRP"
-    }
-  },
-  "economic_data": {
-    "jobless_claims": {
-      "value": "208,000",
-      "prior": null,
-      "estimate": null,
-      "label": "初请失业金",
-      "note": "低于预期，劳动力韧性"
-    },
-    "ppi_note": "继CPI后6月PPI意外下降，强化降息预期",
-    "today_calendar": [
-      "🇨🇳 中国Q2 GDP数据待公布",
-      "🇪🇺 欧元区CPI终值",
-      "🇺🇸 密歇根消费者信心指数初值"
-    ]
-  },
-  "key_events": [
-    "📊 美股隔夜收涨，但AI板块和Netflix拖累盘后情绪",
-    "🇨🇳 中国副外长拟访美，中美高层接触信号积极",
-    "🛢️ 布伦特原油$85+，霍尔木兹局势持续紧张",
-    "📉 Netflix盘后下跌约5%，Q3指引不及预期",
-    "💰 PPI意外下降+CPI趋缓，市场押注9月降息",
-    "🇭🇰 恒指5连涨+1.3%，关注今日能否突破",
-    "📡 特朗普今晚发表聚焦大选的全国讲话",
-    "🚀 SpaceX Starship试飞取消，股价首破IPO价"
-  ],
-  "today_focus": [
-    "① 中国Q2 GDP数据（09:30）—— 市场预期偏弱",
-    "② A股开盘走势—— A50夜盘持平，看今日量能",
-    "③ 恒指能否延续5连涨",
-    "④ 美国密歇根消费信心（22:00）",
-    "⑤ 地缘：伊朗-美国局势、中美外交接触"
-  ],
-  "rss_news": {
-    "cnbc": [
-      "Trump set to deliver election-focused national address tonight",
-      "Netflix stock falls as earnings forecast disappoints",
-      "SpaceX aborts Starship test flight, sending stock lower",
-      "Elon Musk's Memphis AI empire is epicenter of data center backlash"
-    ],
-    "scmp": [
-      "Trump's intense attacks have failed to sway Iran",
-      "Trump accuses China of 'largest compromise of election data' in national address",
-      "US and Iran exchange blows in rekindled Middle East war",
-      "Chinese foreign vice-minister set for US visit"
-    ],
-    "marketwatch": [
-      "Netflix getting stingier about viewing data, Wall Street unhappy",
-      "Palo Alto Networks stock on a tear, could go higher"
-    ]
-  },
-  "summary": {
-    "macro": "📉 PPI意外下降+初请20.8万低于预期，降息预期走强。美债4.569%，美元100.84。今日聚焦中国Q2 GDP。",
-    "us": "📊 美股收涨但盘后Netflix拖累科技情绪。标普+0.38%至7,572，纳指+0.62%。今晚特朗普发表全国讲话。",
-    "asia": "🇭🇰 恒指5连涨至25,009。A50夜盘持平。中国Q2 GDP今日公布，关注市场反应。",
-    "commodities": "🛢️ WTI $79.60，Brent $85+，油价高位运行。黄金$4,040区间震荡。",
-    "crypto": "₿ BTC $64,227(-0.77%)，ETH $1,885(-1.67%)，市场整体平淡",
-    "geopolitics": "🌏 中美副外长级接触信号积极；伊美关系持续紧张；霍尔木兹海峡供应风险",
-    "key_events": "① 中国Q2 GDP公布焦点 ② Netflix盘后下跌 ③ 恒指5连涨 ④ 布油$85 ⑤ 特朗普今晚讲话",
-    "watch_today": "① Q2 GDP数据 ② A股开盘方向 ③ 恒指动能延续性 ④ Netflix带动的科技情绪 ⑤ 原油/地缘风险"
-  }
+  "note": "Evening data - 2026-07-17. All US indices down. Crypto also lower."
 }

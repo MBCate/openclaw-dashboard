@@ -1866,12 +1866,36 @@
       "kb_path": "",
       "score": 3,
       "weekly": false
+    },
+    {
+      "id": "2607.14507",
+      "title": "DRIFT: Drift and Aggregation for Motion Planning",
+      "authors": "et al.",
+      "date": "2026-07-16",
+      "category": "end-to-end motion planning",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 4,
+      "weekly": false
+    },
+    {
+      "id": "2607.14203",
+      "title": "Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation",
+      "authors": "Jiahui Huang, Jiawei Ren, Michal Tyszkiewicz et al. (NVIDIA)",
+      "date": "2026-07-16",
+      "category": "driving simulation / 3D reconstruction",
+      "stars": 4,
+      "status": "新发现",
+      "kb_path": "",
+      "score": 4,
+      "weekly": false
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-16",
-    "total": 126,
-    "new_found": 22
+    "last_updated": "2026-07-18",
+    "source": "arXiv daily scan (end-to-end AD, VLA, world models, BEV, diffusion policy)",
+    "total_papers": 137
   },
-  "total": 135
+  "total": 137
 }

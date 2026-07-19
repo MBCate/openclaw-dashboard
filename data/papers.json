@@ -1,118 +1,113 @@
 {
   "date": "2026-07-19",
-  "source": "arXiv Daily Scan",
+  "source": "Weekly Roundup (Jul 13-19)",
   "total_papers": 10,
-  "new_discoveries": 10,
+  "new_discoveries": 5,
   "papers": [
     {
-      "id": "2607.14727",
-      "title": "WorkDrive: Roadwork Chain of Causation for Autonomous Driving",
-      "authors": "Tianyi Jiang, Wen Zhang, Sihan Yang, Ming Lu, Wentao Zhang",
-      "date": "2026-07-16",
-      "categories": ["cs.CV"],
+      "id": "2607.08375",
+      "title": "WCog-VLA: A Dual-Level World-Cognitive Vision-Language-Action Model for End-to-End Autonomous Driving",
+      "authors": "Xuerun Yan et al.",
+      "date": "2026-07-09",
+      "categories": ["cs.CV", "cs.AI"],
       "score": 5,
-      "query_source": "VLA driving",
-      "summary": "Autonomous driving VLM for roadwork zone reasoning — constructs explicit chain-of-causation to connect work-zone observations to correct planning decisions.",
-      "status": "新发现"
+      "summary": "双层次世界认知VLA框架，桥接语义级世界预测与生成式世界演化。Game-CoT推理+ADDT生成世界模型，NAVSIM PDMS 92.9 SOTA",
+      "analysis": "e2e-autonomous-driving/analysis/2026-07-19-weekly-roundup.md",
+      "status": "本周精选"
     },
     {
-      "id": "2607.15065",
-      "title": "DriftWorld: Fast World Modeling through Drifting",
-      "authors": "Susie Lu, Haonan Chen, Weirui Ye, Yilun Du",
-      "date": "2026-07-16",
-      "categories": ["cs.RO", "cs.CV", "cs.LG"],
+      "id": "2607.08072",
+      "title": "Post-Training in End-to-End Autonomous Driving: A Survey",
+      "authors": "Ruining Yang, Muxing Wang, Yixiao Chen et al.",
+      "date": "2026-07-09 (v2: 2026-07-13)",
+      "categories": ["cs.CV", "cs.RO", "cs.AI"],
       "score": 5,
-      "query_source": "diffusion policy driving",
-      "summary": "Action-conditioned world model using drifting generative models — learns to generate future frames in one step rather than iterative denoising for fast robot planning.",
-      "status": "新发现"
-    },
-    {
-      "id": "2607.15275",
-      "title": "RoboTTT: Context Scaling for Robot Policies",
-      "authors": "Yunfan Jiang, Yevgen Chebotar, Ruijie Zheng, Fengyuan Hu, Yunhao Ge, Jimmy Wu, Tianyuan Dai, Scott Reed, Li Fei-Fei, Yuke Zhu, Linxi Fan",
-      "date": "2026-07-16",
-      "categories": ["cs.RO", "cs.AI", "cs.LG"],
-      "score": 5,
-      "query_source": "imitation learning driving",
-      "summary": "Robot foundation model scaling visuomotor context to 8K timesteps via test-time training. Enables one-shot in-context imitation from human video.",
-      "status": "新发现"
-    },
-    {
-      "id": "2607.15004",
-      "title": "CosFly-VLA: A Spatially Aware Vision-Language-Action Model for UAV Tracking",
-      "authors": "Ruilong Ren, Songsheng Cheng, Yunpeng Zhou, Hanxuan Chen, Xiangyue Wang, Tianle Zeng, Shuai Yuan, Binbo Li, Hanzhong Guo, Ji Pei, Da Zhang, Kangli Wang",
-      "date": "2026-07-16",
-      "categories": ["cs.RO"],
-      "score": 5,
-      "query_source": "imitation learning driving",
-      "summary": "Spatially-aware VLA policy for UAV tracking under occlusion — maintains target state through buildings and vegetation.",
-      "status": "新发现"
+      "summary": "首个E2E AD后训练范式综述，将方法分为RL、adversarial、self-supervised、human-feedback四类，分析各范式能力与局限",
+      "analysis": "e2e-autonomous-driving/analysis/2026-07-19-weekly-roundup.md",
+      "status": "本周精选"
     },
     {
       "id": "2607.14507",
       "title": "DRIFT: Drift and Aggregation for Motion Planning",
-      "authors": "Yining Xing, Zhiyuan Liu, Zehong Ke, Wenhao Yu, Jianqiang Wang",
+      "authors": "Yining Xing et al.",
       "date": "2026-07-16",
       "categories": ["cs.RO"],
-      "score": 5,
-      "query_source": "imitation learning driving",
-      "summary": "End-to-end trajectory planner combining one-step drifting in trajectory latent space with scene-aware proposal aggregation for autonomous driving.",
-      "status": "新发现"
+      "score": 4,
+      "summary": "固定深度trajectory planner，一步漂移生成48 proposals +场景感知聚合头。NAVSIM PDMS 89.6，推理仅10.82ms",
+      "analysis": "e2e-autonomous-driving/analysis/2026-07-19-weekly-roundup.md",
+      "status": "本周精选"
+    },
+    {
+      "id": "2607.14727",
+      "title": "WorkDrive: Roadwork Chain of Causation for Autonomous Driving",
+      "authors": "Tianyi Jiang et al.",
+      "date": "2026-07-16",
+      "categories": ["cs.CV"],
+      "score": 4,
+      "summary": "施工路段因果推理框架，Chain-of-Causation + GRPO推理增强。ROADWork ADE降9%，一致性RL再降3%",
+      "analysis": "e2e-autonomous-driving/analysis/2026-07-19-weekly-roundup.md",
+      "status": "本周精选"
+    },
+    {
+      "id": "2607.15275",
+      "title": "RoboTTT: Test-Time Training Across Task and Motion",
+      "authors": "Yunfan Jiang et al.",
+      "date": "2026-07-16",
+      "categories": ["cs.RO", "cs.AI", "cs.LG"],
+      "score": 4,
+      "summary": "机器人测试时训练方法，在任务和运动层面同步适应，8K timesteps上下文扩展。对AD跨场景泛化有借鉴意义",
+      "analysis": "e2e-autonomous-driving/analysis/2026-07-19-weekly-roundup.md",
+      "status": "本周精选"
+    },
+    {
+      "id": "2607.15065",
+      "title": "DriftWorld: Fast World Modeling through Drifting",
+      "authors": "Susie Lu et al.",
+      "date": "2026-07-16",
+      "categories": ["cs.RO", "cs.CV", "cs.LG"],
+      "score": 4,
+      "summary": "Action-conditioned world model，一步生成未来帧而非迭代去噪，快速机器人规划世界模型",
+      "status": "相关发现"
+    },
+    {
+      "id": "2607.15004",
+      "title": "CosFly-VLA: A Spatially Aware VLA Model for UAV Tracking",
+      "authors": "Ruilong Ren et al.",
+      "date": "2026-07-16",
+      "categories": ["cs.RO"],
+      "score": 3,
+      "summary": "空间感知VLA策略用于遮挡下UAV跟踪，保持目标状态跨建筑和植被区域",
+      "status": "相关发现"
     },
     {
       "id": "2607.14710",
-      "title": "Variational Inference for Bird's Eye View Segmentation in Autonomous Driving",
-      "authors": "Jingyue Shi, Huaicheng Li, Junhui Zhao, Yanxiang Jiang",
+      "title": "Variational Inference for Bird's Eye View Segmentation",
+      "authors": "Jingyue Shi et al.",
       "date": "2026-07-16",
       "categories": ["cs.CV", "eess.SY"],
-      "score": 4,
-      "query_source": "BEV perception driving",
-      "summary": "Recasts BEV segmentation as variational inference problem for better multi-camera fusion in autonomous driving.",
-      "status": "新发现"
+      "score": 3,
+      "summary": "将BEV分割重新表述为变分推理问题，优化多相机融合",
+      "status": "相关发现"
     },
     {
       "id": "2607.14688",
-      "title": "MIND-CAVs: Multi-Intelligence Negotiation and Decision System for CAVs based on Intent-Driven Autonomy",
-      "authors": "Mainak Mondal, Yihang Feng, Yangchao Luo, Han Song",
+      "title": "MIND-CAVs: Multi-Intelligence Negotiation and Decision for CAVs",
+      "authors": "Mainak Mondal et al.",
       "date": "2026-07-16",
       "categories": ["cs.RO"],
-      "score": 4,
-      "query_source": "imitation learning driving",
-      "summary": "Intent-driven negotiation framework for connected autonomous vehicles sharing high-level maneuver intentions via edge computing.",
-      "status": "新发现"
+      "score": 3,
+      "summary": "意图驱动的网联自动驾驶车辆协商框架，通过边缘计算共享高层次驾驶意图",
+      "status": "相关发现"
     },
     {
       "id": "2607.15207",
       "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
-      "authors": "Qi Li, Xingyi Yang, Xinchao Wang",
+      "authors": "Qi Li et al.",
       "date": "2026-07-16",
       "categories": ["cs.LG", "cs.RO"],
       "score": 3,
-      "query_source": "world model autonomous driving",
-      "summary": "Adversarial vulnerability analysis for world-action models — shows the coupling of action prediction and world prediction is fragile.",
-      "status": "新发现"
-    },
-    {
-      "id": "2607.15163",
-      "title": "Scaling Behavior Foundation Model for Humanoid Robots",
-      "authors": "Weishuai Zeng, Kangning Yin, Xiaojie Niu et al.",
-      "date": "2026-07-16",
-      "categories": ["cs.RO", "cs.AI"],
-      "score": 3,
-      "query_source": "world model autonomous driving",
-      "summary": "Scaling behavior foundation models for humanoid whole-body coordination and control.",
-      "status": "新发现"
-    },
-    {
-      "id": "2607.15117",
-      "title": "A Model Predictive Control Framework for Assisted Vehicle Drifting",
-      "authors": "Marco Cortese, Antonio Gallina, Matteo Grandin et al.",
-      "date": "2026-07-16",
-      "categories": ["eess.SY"],
-      "score": 3,
-      "query_source": "world model autonomous driving",
-      "summary": "NMPC framework for assisted drifting with driver in the loop — human-autonomy shared control for vehicle drifting.",
-      "status": "新发现"
+      "summary": "World-action模型的对抗性脆弱性分析，揭示动作预测与世界预测耦合的脆弱性",
+      "status": "相关发现"
     }
   ]
 }

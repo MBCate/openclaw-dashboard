@@ -1,116 +1,83 @@
 {
-  "updated": "2026-07-18T21:30:00+08:00",
-  "date": "2026-07-18",
+  "updated": "2026-07-19T21:30:00+08:00",
+  "date": "2026-07-19",
   "market": {
     "us_stocks": {
       "s&p_500": {
-        "price": 7475.69,
-        "change_pct": -1.0,
+        "price": 7457.69,
+        "change_pct": -1.01,
         "change_points": -76.08,
-        "prev_close": 7551.77,
-        "ytd_pct": 8.9,
-        "note": "AI selloff deepened; first losing week in 3"
+        "prev_close": 7533.77,
+        "ytd_pct": 8.94,
+        "note": "Second consecutive weekly decline; AI/tech selloff persists"
       },
       "dow_jones": {
         "price": 52146.42,
-        "change_pct": -0.8,
+        "change_pct": -0.77,
         "change_points": -406.55,
         "prev_close": 52552.97,
-        "ytd_pct": 8.5
+        "ytd_pct": 8.50,
+        "note": "Relatively resilient vs Nasdaq"
       },
       "nasdaq": {
         "price": 25520.24,
-        "change_pct": -1.4,
-        "change_points": -361.70,
-        "prev_close": 25881.94,
-        "ytd_pct": 9.8,
-        "note": "Tech-led rout; Nvidia heaviest weight"
-      },
-      "russell_2000": {
-        "price": 2962.22,
-        "change_pct": -0.4,
-        "change_points": -12.35,
-        "prev_close": 2974.57,
-        "ytd_pct": 19.4
-      },
-      "weekly_change": {
-        "s&p_500": -1.6,
-        "dow": -0.9,
-        "nasdaq": -2.9,
-        "russell_2000": -0.5
+        "change_pct": -1.40,
+        "change_points": -361.71,
+        "prev_close": 25881.95,
+        "ytd_pct": 9.80,
+        "note": "Heavy AI/tech selloff; semiconductor stocks lead declines"
       }
     },
-    "hong_kong": {
-      "hsi": {
-        "price": 24562,
-        "change_pct": -1.78,
-        "prev_close": 25009,
-        "note": "HSI futures overnight: 24602 (+132pts, +0.54%)"
-      }
+    "weekly_change": {
+      "s&p_500": "-1.55%",
+      "dow": "-0.93%",
+      "nasdaq": "-2.90%"
     },
     "crypto": {
-      "btc": {
-        "price": 64093,
-        "change_pct": 0.30,
-        "prev_close": 63900,
-        "monthly_pct": 0.87,
-        "yearly_pct": -45.66
+      "bitcoin": {
+        "price": 64441.15,
+        "change_24h_pct": "+1.4",
+        "note": "BTC recovered from weekly low; up 10.6% MTD"
       },
-      "eth": {
-        "price": 1840.00,
-        "change_pct": -0.05,
-        "yearly_pct": -48.83
-      },
-      "sol": {
-        "price": 74.67,
-        "change_pct": -0.45,
-        "yearly_pct": -57.84
-      }
-    },
-    "commodities": {
-      "brent_crude": {
-        "price": 79,
-        "change_pct": 4.6,
-        "note": "US-Iran strikes pushed Brent above $79"
-      },
-      "gold": {
-        "price": 2387,
-        "note": "Previous close reference"
+      "ethereum": {
+        "price": 1868.12,
+        "change_24h_pct": "flat",
+        "note": "ETH consolidating around $1,870"
       }
     }
   },
-  "news": [
+  "news_highlights": [
     {
-      "source": "AP News",
-      "title": "S&P 500 falls 1% Friday, closing out first losing week in three; tech selloff deepens, Nvidia heaviest weight",
-      "time": "2026-07-17"
-    },
-    {
-      "source": "SCMP Business",
-      "title": "Germany to scale back renewable subsidies amid power grid strain",
-      "time": "2026-07-18"
+      "source": "Bloomberg",
+      "title": "Clear Skies Now Expected for World Cup Final in New Jersey",
+      "published": "Sun, 19 Jul 2026"
     },
     {
       "source": "Bloomberg",
-      "title": "Not Done Yet: Refunding Tariffs or Realizing AI's Promise",
-      "time": "2026-07-18"
+      "title": "Caspian Pipeline Consortium Halts Loadings After Drone Strike",
+      "published": "Sun, 19 Jul 2026"
     },
     {
-      "source": "SCMP Business",
-      "title": "UK's Burnham faces test as Trump seeks British bases for Iran attack",
-      "time": "2026-07-18"
+      "source": "Bloomberg",
+      "title": "South Korea Details Plan for Foreigners to Trade Won Easier",
+      "published": "Sun, 19 Jul 2026"
     },
     {
-      "source": "Trading Economics",
-      "title": "Bitcoin slid toward $62K amid US-Iran tensions; BTC ETF saw $197.4M inflows ending 9-week outflow streak",
-      "time": "2026-07-18"
+      "source": "CNBC",
+      "title": "Stocks Close Lower Friday; Major Indexes Post Weekly Losses on Tech Selloff",
+      "published": "Fri, 17 Jul 2026"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Oil prices surge as US-Iran conflict escalates in Gulf region",
+      "published": "Fri, 17 Jul 2026"
     }
   ],
-  "key_drivers": [
-    "AI/tech selloff deepened globally — chip stocks hit hardest",
-    "US-Iran military strikes escalated, pushing Brent crude above $79/bbl (+4.6%)",
-    "Treasury yields eased on safe-haven flows",
-    "BTC at $64K — institutional buying via ETFs offset geopolitical risk",
-    "Asia markets hit harder by AI rout; HSI fell 1.78%"
+  "geo_risk": "US-Iran tensions escalate; Caspian pipeline hit by drone strike — oil supply risk",
+  "focus": [
+    "US-Iran escalation and Hormuz Strait risks driving oil higher",
+    "AI/tech rotation selling continues; semiconductors under pressure",
+    "BTC resilient above $64K despite equity volatility",
+    "Treasury yields stable as market prices in rate hold"
   ]
 }

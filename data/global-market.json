@@ -1,87 +1,91 @@
 {
-  "updated": "2026-07-20T09:15:00+08:00",
+  "updated": "2026-07-20T21:30:00+08:00",
   "date": "2026-07-20",
+  "source": "market-intel (RSS + Yahoo Finance API)",
   "market": {
-    "overnight_headlines": "美伊冲突升级，布伦特突破$90，亚太早盘恐慌；科技股抛压缓和、股指期货小幅走高",
-    "us_futures": {
-      "s&p_500_futures": "小幅走高 (+0.2%)",
-      "nasdaq_futures": "小幅走高 (+0.15%)",
-      "note": "期货从上周跌势中小幅反弹，但美伊冲突压制风险偏好"
+    "overnight_headlines": "隔夜美股三大指数小幅收涨，科技股延续反弹；中东局势出现缓和信号，伊朗称可基于国家利益谈判；黄金维持高位$4015，比特币横盘$64,486",
+    "us_markets": {
+      "s&p_500": "7505.00 (+0.63%)",
+      "nasdaq": "25751.61 (+0.91%)",
+      "dow_jones": "52367.55 (+0.42%)",
+      "note": "美股普遍反弹，芯片股修复性上涨，科技板块领涨；高盛报告对冲基金以创纪录速度卖出美国科技股"
+    },
+    "europe_markets": {
+      "ftse_100": "10533.35 (-0.63%)",
+      "dax": "24807.37 (-0.10%)",
+      "cac_40": "8329.21 (-0.12%)",
+      "note": "欧股普遍小幅收跌，中东局势和原油波动压制风险偏好；德国DAX在24800附近震荡"
+    },
+    "asia_markets": {
+      "hsi": "25143.05 (+2.36%)",
+      "nikkei": "64141.12 (-4.03%)",
+      "note": "港股大幅反弹超2%，能源和中资股领涨；日经暴跌超4%，受中东地缘风险打击"
     },
     "commodities": {
-      "wti_crude": "NYMEX WTI: $89.65 (+2.8%) | 布伦特突破$90",
-      "copper": "COMEX铜: 627.5 (+0.16%)",
-      "natural_gas": "NYMEX天然气: 2.86 (-0.59%)",
-      "corn": "CBOT玉米: 491.7 (+0.35%)",
-      "wheat": "CBOT小麦: 731.1 (-0.19%)",
-      "note": "美伊冲突/核设施传闻推动原油飙涨，铜小幅反弹"
+      "wti_crude": "81.65 (-1.02%)",
+      "brent_crude": "88.08 (-0.02%)",
+      "gold": "4014.60 (+0.05%)",
+      "note": "原油先涨后跌，伊朗释放谈判信号打压油价；黄金在$4015附近高位盘整"
     },
     "crypto": {
       "bitcoin": {
-        "price": 64918,
-        "change_24h_pct": "+1.0",
-        "note": "CME比特币期货报64,918美元，从低点反弹"
+        "price": 64486,
+        "change_24h_pct": "-0.32",
+        "note": "横盘震荡，市场等待方向突破"
+      },
+      "ethereum": {
+        "price": 1871.73,
+        "change_24h_pct": "+0.01",
+        "note": "小幅持平，流动性偏弱"
       }
     },
-    "geo_risk": "⚠️ 美伊冲突升级：美国对伊朗发动新一轮空袭，前线美军阵亡。里海管道遭无人机袭击停运。布伦特原油突破$90",
+    "geo_risk": "⚠️ 中东局势：伊朗Houthi盟友宣布对沙特实施海上禁令；伊朗称\"可基于国家利益与美国谈判\"，油价回落。英国新任首相Andy Burnham上任，誓言结束多年政治动荡",
     "key_events": [
-      "美伊冲突激化，美国宣布'重创伊朗'，双方接近全面战争边缘",
-      "布伦特原油突破$90，油轮通行霍尔木兹海峡风险加剧",
-      "台积电加速亚利桑那工厂建设，CFO称AI'大趋势'驱动",
-      "上周美股三大指数周线收跌，AI/科技板块领跌",
-      "World Cup决赛西班牙夺冠，获5000万美元奖金"
+      "伊朗Houthi盟友宣布对沙特实施海上禁令，中东地缘风险持续",
+      "伊朗释放缓和信号，称可基于国家利益与美国谈判，原油价格回落",
+      "WTI从$90上方回落至$81.65，波动剧烈",
+      "高盛：对冲基金以创纪录速度卖出美国科技股",
+      "日经225暴跌超4%，亚太市场分化严重",
+      "世界杯西班牙夺冠落幕，FIFA获$90亿收入",
+      "EU因非法商品对AliExpress罚款$6.3亿",
+      "英国Andy Burnham当选新首相"
     ],
-    "asia_premarket": {
-      "a50_futures_signal": "偏强（A股开盘主要板块普涨，科创/通信板块领涨+2-4%）",
-      "hsi_signal": "消息面偏负面（中东+能源风险）但港股可能受油股提振",
-      "nikkei_signal": "关注美伊冲突对日本能源进口影响"
-    },
-    "china_market_open": {
-      "shanghai_composite": "3797.52 (+0.89%)",
-      "shenzhen_component": "待确认具体数值",
-      "csi300": "4588.53 (+1.31%)",
-      "sector_leaders": "会展服务+6.96%, 文字媒体+4.63%, 钼+3.83%, 集成电路制造+3.20%",
-      "sector_laggards": "院线-2.96%, 医疗研发外包-2.40%, 医美耗材-1.99%",
-      "note": "开盘集合竞价阶段，科创/半导体板块领涨，医药消费承压"
-    }
-  },
-  "news_highlights": [
-    {
-      "source": "CNBC/MarketWatch",
-      "title": "Brent breaks past $90 as U.S.-Iran conflict rages on; Oil prices surge, stock futures inch higher",
-      "published": "2026-07-20"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "US Launches New Wave of Strikes on Iran After Troops Killed; Oil Jumps, Bonds Fall",
-      "published": "2026-07-20"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Korea President's Stock Dream Bumps Into Leveraged ETF Backlash",
-      "published": "2026-07-19"
-    },
-    {
-      "source": "CNBC",
-      "title": "TSMC Accelerating Arizona Factory Buildout to Capitalize on AI 'Megatrend,' CFO Says",
-      "published": "2026-07-20"
-    },
-    {
-      "source": "SCMP",
-      "title": "US 'Hit Iran Very Hard', Trump Says, as Both Inch Closer to All-Out War",
-      "published": "2026-07-20"
-    },
-    {
-      "source": "Reuters/SCMP",
-      "title": "Caspian Pipeline Consortium Halts Loadings After Drone Strike; Ukraine Blames Russia for Deadly Strike on Turkish Cargo Ship",
-      "published": "2026-07-19"
-    }
-  ],
-  "focus": [
-    "🔴 美伊全面战争风险 — 霍尔木兹海峡通行安全、原油供应中断威胁",
-    "🛢️ 油价飙升 — 布伦特破$90，利好能源板块但压制整体风险偏好",
-    "📉 AI/科技回调 — 上周美股科技股领跌，本周关注财报能否扭转预期",
-    "🇨🇳 今日A股 — 开盘科创/半导体领涨，关注北向资金流动方向",
-    "💡 台积电AI大趋势言论 — 关注能否提振全球半导体板块情绪"
-  ]
+    "news_highlights": [
+      {
+        "source": "Bloomberg",
+        "title": "Goldman Says Hedge Funds Sell US Tech Stocks at Record Pace",
+        "summary": "高盛数据显示对冲基金正以创纪录速度抛售美国科技股"
+      },
+      {
+        "source": "MarketWatch",
+        "title": "Oil prices reverse lower after report of new Iran cease-fire proposal",
+        "summary": "伊朗停火提议报道后油价逆转走低"
+      },
+      {
+        "source": "Bloomberg",
+        "title": "Canada Financials Stocks Close In on Top Spot as Energy Momentum Fades",
+        "summary": "加拿大金融股追赶能源板块"
+      },
+      {
+        "source": "Bloomberg",
+        "title": "Paris Corn Hits Seven-Week High After Ukraine Cargo Attack",
+        "summary": "乌克兰货运遇袭推动巴黎玉米期货创七周新高"
+      },
+      {
+        "source": "SCMP",
+        "title": "As EU's China trade deficit widens, Germany changes tack to join France's Beijing pushback",
+        "summary": "德国转向与法国共同推动对华强硬路线"
+      },
+      {
+        "source": "CNBC",
+        "title": "S&P 500 and Nasdaq close lower as chip stock rebound fails",
+        "summary": "芯片股反弹失败，美股承压（时效性稍早）"
+      },
+      {
+        "source": "CNBC",
+        "title": "Iran's Houthi allies in Yemen declare maritime embargo against Saudi Arabia",
+        "summary": "也门Houthi宣布对沙特实施海上禁运"
+      }
+    ]
+  }
 }

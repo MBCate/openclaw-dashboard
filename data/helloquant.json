@@ -1,75 +1,26 @@
 {
-  "date": "2026-07-17",
-  "timestamp": "2026-07-17T17:00:00+08:00",
-  "status": "idle",
-  "last_run": "2026-07-14",
-  "week_report": "2026-07-17",
+  "date": "2026-07-20",
+  "time": "15:05",
   "strategies": {
-    "stock": {
-      "status": "configured",
-      "files": [
-        "double_ma_strategy.py",
-        "supertrend_strategy.py"
-      ],
-      "last_data": "2026-07-14"
-    },
-    "crypto": {
-      "status": "configured",
-      "files": [
-        "double_ma_strategy.py",
-        "supertrend_strategy.py",
-        "double_ma_backtest.py",
-        "double_ma_optimize.py"
-      ],
-      "okx_api_error": true,
-      "last_data": null
-    }
+    "double_ma": {"status": "idle", "note": "回测框架，未启动实盘"},
+    "triple_ma": {"status": "idle", "note": "回测框架，未启动实盘"},
+    "supertrend": {"status": "idle", "note": "回测框架，未启动实盘"},
+    "rsi": {"status": "idle", "note": "回测框架，未启动实盘"},
+    "macd": {"status": "idle", "note": "回测框架，未启动实盘"},
+    "bollinger": {"status": "idle", "note": "回测框架，未启动实盘"},
+    "momentum": {"status": "idle", "note": "回测框架，未启动实盘"},
+    "mean_reversion": {"status": "idle", "note": "回测框架，未启动实盘"}
   },
-  "market_context": {
-    "上证指数_上一交易日": 3967.13,
-    "收盘": 3764.15,
-    "日内跌幅": -3.05,
-    "crypto_fear_greed": 22,
-    "fear_greed_label": "Extreme Fear"
+  "last_daily_report": {
+    "date": "2026-07-14",
+    "status": "partial",
+    "crypto": "error (OKX API)",
+    "stocks": "success",
+    "sentiment": "Fear & Greed Index: 22 (Extreme Fear)"
   },
-  "weekly_summary": {
-    "period": "2026-07-13 ~ 2026-07-17",
-    "stock_market": {
-      "上证指数": {
-        "last_close": 3967.13,
-        "current_close": 3764.15,
-        "week_change_pct": -5.12,
-        "note": "本周A股大幅回调，上证周跌超5%"
-      },
-      "深证成指": {
-        "last_close": 14924.87,
-        "note": "深成指上周五收盘14924，本周跟随下挫"
-      },
-      "创业板指": {
-        "last_close": 3851.14,
-        "note": "创业板上周五收盘3851，表现相对强势"
-      }
-    },
-    "crypto_sentiment": {
-      "fear_greed_index": 22,
-      "label": "极度恐惧",
-      "note": "市场情绪极度恐惧，OKX API 仍不可用"
-    },
-    "strategy_status": {
-      "double_ma_stock": "策略文件已就绪，最后数据更新07-14",
-      "supertrend_stock": "策略文件已就绪，最后数据更新07-14",
-      "double_ma_crypto": "OKX API异常，策略未运行",
-      "supertrend_crypto": "OKX API异常，策略未运行"
-    },
-    "optimization": {
-      "best_double_ma": {"fast": 6, "slow": 55, "sharpe": 0.233, "return_pct": 0.09},
-      "note": "双均线回测优化显示(6,55)组合夏普比率最优，但整体回测收益仍为负"
-    },
-    "alerts": [
-      "⚠️ 上证指数本周跌幅超5%，需关注市场风险",
-      "⚠️ Crypto Fear & Greed 指数22（极度恐惧）",
-      "⚠️ OKX API异常持续，加密货币策略无法运行",
-      "ℹ️ A股策略文件已配置，等待启用量化交易"
-    ]
+  "backtest_available": {
+    "symbols": ["BTC/USDT"],
+    "timeframes": ["1h"],
+    "latest_report": "2026-01-04"
   }
 }

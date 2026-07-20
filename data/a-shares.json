@@ -1,136 +1,59 @@
 {
-  "updated_at": "2026-07-20 11:37:34",
-  "session": "noon",
+  "date": "2026-07-20",
+  "time": "15:05",
   "indices": {
     "上证指数": {
-      "price": 3808.39,
-      "change_pct": 1.18,
-      "change": 44.23,
-      "high": 3831.66,
-      "low": 3780.02,
-      "open": 3791.66,
-      "volume": "413850313",
-      "amount": "788232909208"
+      "code": "000001",
+      "price": 3796.28,
+      "change_pct": 0.85,
+      "source": "实时"
     },
     "深证成指": {
-      "price": 13735.81,
-      "change_pct": 0.21,
-      "change": 28.93,
-      "high": 13972.99,
-      "low": 13574.09,
-      "open": 13869.06,
-      "volume": "45237978062",
-      "amount": "882199407371"
+      "code": "399001",
+      "price": 13706.88,
+      "change_pct": -0.71,
+      "source": "实时"
     },
     "创业板指": {
-      "price": 3467.32,
-      "change_pct": 1.13,
-      "change": 38.69,
-      "high": 3550.59,
-      "low": 3414.87,
-      "open": 3504.12,
-      "volume": "13540666872",
-      "amount": "406452515047"
+      "code": "399006",
+      "price": 3428.63,
+      "change_pct": null,
+      "source": "实时"
     },
     "沪深300": {
-      "price": 4599.32,
-      "change_pct": 1.55,
-      "change": 70.23,
-      "high": 4628.8,
-      "low": 4555.2,
-      "open": 4575.67,
-      "volume": "190110039",
-      "amount": "581833597005"
-    },
-    "恒生指数": {
-      "price": 25085.14,
-      "change_pct": 2.13
+      "code": "000300",
+      "price": 4598.32,
+      "change_pct": 1.53,
+      "source": "实时"
     }
   },
-  "sectors": {
+  "market_overview": {
+    "total_stocks": 5879,
+    "up": 1740,
+    "down": 3710,
+    "flat": 76,
+    "limit_up": 75,
+    "limit_down": 539,
+    "total_amount_billion": 27181
+  },
+  "north_flow": {
+    "status": "data_unavailable",
+    "note": "北向资金今日状态码为3（可能暂停交易或无数据）"
+  },
+  "sector_rank": {
     "top5": [
-      {
-        "name": "油气及炼化工程",
-        "change_pct": 7.72,
-        "up": 6,
-        "down": 0
-      },
-      {
-        "name": "油服工程",
-        "change_pct": 6.57,
-        "up": 13,
-        "down": 1
-      },
-      {
-        "name": "油气开采Ⅲ",
-        "change_pct": 5.87,
-        "up": 5,
-        "down": 0
-      },
-      {
-        "name": "油气开采Ⅱ",
-        "change_pct": 5.87,
-        "up": 5,
-        "down": 0
-      },
-      {
-        "name": "油田服务",
-        "change_pct": 5.71,
-        "up": 7,
-        "down": 1
-      }
+      {"name": "油气及炼化工程", "change_pct": 8.37, "lead_stock": "博迈科"},
+      {"name": "油服工程", "change_pct": 6.71, "lead_stock": "中曼石油"},
+      {"name": "油气开采Ⅲ", "change_pct": 6.51, "lead_stock": "中国海油"},
+      {"name": "油气开采Ⅱ", "change_pct": 6.51, "lead_stock": "中国海油"},
+      {"name": "火力发电", "change_pct": 6.46, "lead_stock": "华银电力"}
     ],
     "bottom5": [
-      {
-        "name": "运动服装",
-        "change_pct": -5.85,
-        "up": 0,
-        "down": 3
-      },
-      {
-        "name": "电子化学品Ⅲ",
-        "change_pct": -5.77,
-        "up": 2,
-        "down": 35
-      },
-      {
-        "name": "电子化学品Ⅱ",
-        "change_pct": -5.77,
-        "up": 2,
-        "down": 35
-      },
-      {
-        "name": "玻纤制造",
-        "change_pct": -5.6,
-        "up": 0,
-        "down": 8
-      },
-      {
-        "name": "半导体材料",
-        "change_pct": -5.51,
-        "up": 2,
-        "down": 29
-      }
+      {"name": "电子化学品Ⅲ", "change_pct": -10.09, "lead_stock": "康美特"},
+      {"name": "电子化学品Ⅱ", "change_pct": -10.09, "lead_stock": "康美特"},
+      {"name": "半导体材料", "change_pct": -9.82, "lead_stock": "有研硅"},
+      {"name": "玻纤制造", "change_pct": -9.16, "lead_stock": "振石股份"},
+      {"name": "膜材料", "change_pct": -8.99, "lead_stock": "大东南"}
     ]
-  },
-  "northbound": [
-    {
-      "date": "2026-07-20",
-      "type": "沪港通",
-      "board": "沪股通",
-      "net_buy": 0,
-      "inflow": 0
-    },
-    {
-      "date": "2026-07-20",
-      "type": "深港通",
-      "board": "深股通",
-      "net_buy": 0,
-      "inflow": 0
-    }
-  ],
-  "northbound_total": {
-    "net_buy": 0,
-    "inflow": 0
   }
 }

@@ -1,8 +1,8 @@
 {
   "date": "2026-07-20",
   "source": "arXiv Daily Scan (Jul 15-16 submissions)",
-  "total_papers": 15,
-  "new_discoveries": 4,
+  "total_papers": 14,
+  "new_discoveries": 3,
   "papers": [
     {
       "id": "2607.08375",
@@ -118,16 +118,6 @@
       "categories": ["cs.AI", "cs.RO"],
       "score": 3,
       "summary": "基于迭代RAG的场景脚本生成框架，从法规描述生成DSL脚本，76.42%编译成功率，已开源。IROS 2026",
-      "status": "新发现"
-    },
-    {
-      "id": "2607.11560",
-      "title": "Technical Report on the CVPR 2026@AdvML Workshop Challenge: Adversarial Attacks on Driving VLAs",
-      "authors": "Tianyuan Zhang et al.",
-      "date": "2026-07-13",
-      "categories": ["cs.CV", "cs.AI"],
-      "score": 3,
-      "summary": "CVPR 2026 AdvML Workshop对抗攻击挑战报告，DriveLM多视角VQA场景，揭示VLA面对图像文本对抗攻击的脆弱性",
       "status": "新发现"
     },
     {

@@ -1,83 +1,87 @@
 {
-  "updated": "2026-07-19T21:30:00+08:00",
-  "date": "2026-07-19",
+  "updated": "2026-07-20T09:15:00+08:00",
+  "date": "2026-07-20",
   "market": {
-    "us_stocks": {
-      "s&p_500": {
-        "price": 7457.69,
-        "change_pct": -1.01,
-        "change_points": -76.08,
-        "prev_close": 7533.77,
-        "ytd_pct": 8.94,
-        "note": "Second consecutive weekly decline; AI/tech selloff persists"
-      },
-      "dow_jones": {
-        "price": 52146.42,
-        "change_pct": -0.77,
-        "change_points": -406.55,
-        "prev_close": 52552.97,
-        "ytd_pct": 8.50,
-        "note": "Relatively resilient vs Nasdaq"
-      },
-      "nasdaq": {
-        "price": 25520.24,
-        "change_pct": -1.40,
-        "change_points": -361.71,
-        "prev_close": 25881.95,
-        "ytd_pct": 9.80,
-        "note": "Heavy AI/tech selloff; semiconductor stocks lead declines"
-      }
+    "overnight_headlines": "美伊冲突升级，布伦特突破$90，亚太早盘恐慌；科技股抛压缓和、股指期货小幅走高",
+    "us_futures": {
+      "s&p_500_futures": "小幅走高 (+0.2%)",
+      "nasdaq_futures": "小幅走高 (+0.15%)",
+      "note": "期货从上周跌势中小幅反弹，但美伊冲突压制风险偏好"
     },
-    "weekly_change": {
-      "s&p_500": "-1.55%",
-      "dow": "-0.93%",
-      "nasdaq": "-2.90%"
+    "commodities": {
+      "wti_crude": "NYMEX WTI: $89.65 (+2.8%) | 布伦特突破$90",
+      "copper": "COMEX铜: 627.5 (+0.16%)",
+      "natural_gas": "NYMEX天然气: 2.86 (-0.59%)",
+      "corn": "CBOT玉米: 491.7 (+0.35%)",
+      "wheat": "CBOT小麦: 731.1 (-0.19%)",
+      "note": "美伊冲突/核设施传闻推动原油飙涨，铜小幅反弹"
     },
     "crypto": {
       "bitcoin": {
-        "price": 64441.15,
-        "change_24h_pct": "+1.4",
-        "note": "BTC recovered from weekly low; up 10.6% MTD"
-      },
-      "ethereum": {
-        "price": 1868.12,
-        "change_24h_pct": "flat",
-        "note": "ETH consolidating around $1,870"
+        "price": 64918,
+        "change_24h_pct": "+1.0",
+        "note": "CME比特币期货报64,918美元，从低点反弹"
       }
+    },
+    "geo_risk": "⚠️ 美伊冲突升级：美国对伊朗发动新一轮空袭，前线美军阵亡。里海管道遭无人机袭击停运。布伦特原油突破$90",
+    "key_events": [
+      "美伊冲突激化，美国宣布'重创伊朗'，双方接近全面战争边缘",
+      "布伦特原油突破$90，油轮通行霍尔木兹海峡风险加剧",
+      "台积电加速亚利桑那工厂建设，CFO称AI'大趋势'驱动",
+      "上周美股三大指数周线收跌，AI/科技板块领跌",
+      "World Cup决赛西班牙夺冠，获5000万美元奖金"
+    ],
+    "asia_premarket": {
+      "a50_futures_signal": "偏强（A股开盘主要板块普涨，科创/通信板块领涨+2-4%）",
+      "hsi_signal": "消息面偏负面（中东+能源风险）但港股可能受油股提振",
+      "nikkei_signal": "关注美伊冲突对日本能源进口影响"
+    },
+    "china_market_open": {
+      "shanghai_composite": "3797.52 (+0.89%)",
+      "shenzhen_component": "待确认具体数值",
+      "csi300": "4588.53 (+1.31%)",
+      "sector_leaders": "会展服务+6.96%, 文字媒体+4.63%, 钼+3.83%, 集成电路制造+3.20%",
+      "sector_laggards": "院线-2.96%, 医疗研发外包-2.40%, 医美耗材-1.99%",
+      "note": "开盘集合竞价阶段，科创/半导体板块领涨，医药消费承压"
     }
   },
   "news_highlights": [
     {
-      "source": "Bloomberg",
-      "title": "Clear Skies Now Expected for World Cup Final in New Jersey",
-      "published": "Sun, 19 Jul 2026"
+      "source": "CNBC/MarketWatch",
+      "title": "Brent breaks past $90 as U.S.-Iran conflict rages on; Oil prices surge, stock futures inch higher",
+      "published": "2026-07-20"
     },
     {
       "source": "Bloomberg",
-      "title": "Caspian Pipeline Consortium Halts Loadings After Drone Strike",
-      "published": "Sun, 19 Jul 2026"
+      "title": "US Launches New Wave of Strikes on Iran After Troops Killed; Oil Jumps, Bonds Fall",
+      "published": "2026-07-20"
     },
     {
       "source": "Bloomberg",
-      "title": "South Korea Details Plan for Foreigners to Trade Won Easier",
-      "published": "Sun, 19 Jul 2026"
+      "title": "Korea President's Stock Dream Bumps Into Leveraged ETF Backlash",
+      "published": "2026-07-19"
     },
     {
       "source": "CNBC",
-      "title": "Stocks Close Lower Friday; Major Indexes Post Weekly Losses on Tech Selloff",
-      "published": "Fri, 17 Jul 2026"
+      "title": "TSMC Accelerating Arizona Factory Buildout to Capitalize on AI 'Megatrend,' CFO Says",
+      "published": "2026-07-20"
     },
     {
-      "source": "MarketWatch",
-      "title": "Oil prices surge as US-Iran conflict escalates in Gulf region",
-      "published": "Fri, 17 Jul 2026"
+      "source": "SCMP",
+      "title": "US 'Hit Iran Very Hard', Trump Says, as Both Inch Closer to All-Out War",
+      "published": "2026-07-20"
+    },
+    {
+      "source": "Reuters/SCMP",
+      "title": "Caspian Pipeline Consortium Halts Loadings After Drone Strike; Ukraine Blames Russia for Deadly Strike on Turkish Cargo Ship",
+      "published": "2026-07-19"
     }
   ],
-  "geo_risk": "US-Iran tensions escalate; Caspian pipeline hit by drone strike — oil supply risk",
   "focus": [
-    "US-Iran escalation and Hormuz Strait risks driving oil higher",
-    "AI/tech rotation selling continues; semiconductors under pressure",
-    "BTC resilient above $64K despite equity volatility",
-    "Treasury yields stable as market prices in rate hold"
+    "🔴 美伊全面战争风险 — 霍尔木兹海峡通行安全、原油供应中断威胁",
+    "🛢️ 油价飙升 — 布伦特破$90，利好能源板块但压制整体风险偏好",
+    "📉 AI/科技回调 — 上周美股科技股领跌，本周关注财报能否扭转预期",
+    "🇨🇳 今日A股 — 开盘科创/半导体领涨，关注北向资金流动方向",
+    "💡 台积电AI大趋势言论 — 关注能否提振全球半导体板块情绪"
   ]
 }

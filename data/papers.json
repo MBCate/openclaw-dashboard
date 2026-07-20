@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-19",
-  "source": "Weekly Roundup (Jul 13-19)",
-  "total_papers": 10,
-  "new_discoveries": 5,
+  "date": "2026-07-20",
+  "source": "arXiv Daily Scan (Jul 15-16 submissions)",
+  "total_papers": 15,
+  "new_discoveries": 4,
   "papers": [
     {
       "id": "2607.08375",
@@ -25,6 +25,27 @@
       "summary": "首个E2E AD后训练范式综述，将方法分为RL、adversarial、self-supervised、human-feedback四类，分析各范式能力与局限",
       "analysis": "e2e-autonomous-driving/analysis/2026-07-19-weekly-roundup.md",
       "status": "本周精选"
+    },
+    {
+      "id": "2607.14203",
+      "title": "Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation",
+      "authors": "Jiahui Huang, Jiawei Ren, Michal Tyszkiewicz et al. (NVIDIA)",
+      "date": "2026-07-15",
+      "categories": ["cs.GR", "cs.CV", "cs.AI"],
+      "score": 4,
+      "summary": "前馈3DGS重建，单次正向将短时序多视角行车记录转为可仿真3D世界。Waymo PSNR +2.01dB，重建10-20秒场景仅1.5秒，与AlpaSim兼容",
+      "analysis": "company-research/analysis/2607.14203_InstantNuRec.md",
+      "status": "新发现"
+    },
+    {
+      "id": "2607.11560",
+      "title": "Technical Report on the CVPR 2026@AdvML Workshop Challenge: Adversarial Attacks on Driving VLAs",
+      "authors": "Tianyuan Zhang et al.",
+      "date": "2026-07-13",
+      "categories": ["cs.CV", "cs.AI"],
+      "score": 3,
+      "summary": "CVPR 2026 AdvML Workshop对抗攻击挑战报告，DriveLM多视角VQA场景，揭示VLA面对图像文本对抗攻击的脆弱性",
+      "status": "相关发现"
     },
     {
       "id": "2607.14507",
@@ -70,6 +91,46 @@
       "status": "相关发现"
     },
     {
+      "id": "2607.13927",
+      "title": "Cyclone: Diffusion Model for Cycle-Consistent Weather Editing from Unpaired Driving Data",
+      "authors": "Thang-Anh-Quan Nguyen et al.",
+      "date": "2026-07-15",
+      "categories": ["cs.CV"],
+      "score": 3,
+      "summary": "基于扩散模型的天气编辑框架，循环一致性约束+图文知识，无需配对数据生成多种天气条件下的驾驶场景",
+      "status": "新发现"
+    },
+    {
+      "id": "2607.10071",
+      "title": "FlashBEV: Fast and Memory-Efficient Exact BEV Transformation with IO-Awareness",
+      "authors": "Authors TBD",
+      "date": "2026-07-11",
+      "categories": ["cs.CV"],
+      "score": 3,
+      "summary": "IO感知的BEV变换加速方法，消除height-dependent中间张量，峰值GPU内存降低一个数量级以上",
+      "status": "新发现"
+    },
+    {
+      "id": "2607.14387",
+      "title": "Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving",
+      "authors": "Yuan Gao et al. (TUM)",
+      "date": "2026-07-15",
+      "categories": ["cs.AI", "cs.RO"],
+      "score": 3,
+      "summary": "基于迭代RAG的场景脚本生成框架，从法规描述生成DSL脚本，76.42%编译成功率，已开源。IROS 2026",
+      "status": "新发现"
+    },
+    {
+      "id": "2607.11560",
+      "title": "Technical Report on the CVPR 2026@AdvML Workshop Challenge: Adversarial Attacks on Driving VLAs",
+      "authors": "Tianyuan Zhang et al.",
+      "date": "2026-07-13",
+      "categories": ["cs.CV", "cs.AI"],
+      "score": 3,
+      "summary": "CVPR 2026 AdvML Workshop对抗攻击挑战报告，DriveLM多视角VQA场景，揭示VLA面对图像文本对抗攻击的脆弱性",
+      "status": "新发现"
+    },
+    {
       "id": "2607.15004",
       "title": "CosFly-VLA: A Spatially Aware VLA Model for UAV Tracking",
       "authors": "Ruilong Ren et al.",
@@ -86,17 +147,7 @@
       "date": "2026-07-16",
       "categories": ["cs.CV", "eess.SY"],
       "score": 3,
-      "summary": "将BEV分割重新表述为变分推理问题，优化多相机融合",
-      "status": "相关发现"
-    },
-    {
-      "id": "2607.14688",
-      "title": "MIND-CAVs: Multi-Intelligence Negotiation and Decision for CAVs",
-      "authors": "Mainak Mondal et al.",
-      "date": "2026-07-16",
-      "categories": ["cs.RO"],
-      "score": 3,
-      "summary": "意图驱动的网联自动驾驶车辆协商框架，通过边缘计算共享高层次驾驶意图",
+      "summary": "将BEV分割重新表述为变分推理问题，CVAE+normalizing flows生成多候选BEV图，注意力融合模块自适应集成",
       "status": "相关发现"
     },
     {

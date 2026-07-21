@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-20",
-  "source": "arXiv Daily Scan (Jul 15-16 submissions)",
-  "total_papers": 14,
-  "new_discoveries": 3,
+  "date": "2026-07-21",
+  "source": "arXiv Daily Scan (Jul 15-17 submissions)",
+  "total_papers": 19,
+  "new_discoveries": 5,
   "papers": [
     {
       "id": "2607.08375",
@@ -27,6 +27,50 @@
       "status": "本周精选"
     },
     {
+      "id": "2607.15898",
+      "title": "Orbis 2: A Hierarchical World Model for Driving",
+      "authors": "Sudhanshu Mittal, Arian Mousakhan, Silvio Galesso, Karim Farid, Thomas Brox et al.",
+      "date": "2026-07-17",
+      "categories": ["cs.CV", "cs.AI", "cs.LG"],
+      "score": 5,
+      "summary": "分层驾驶世界模型：高层预测粗略场景结构，低层生成细节。两阶段训练（diffusion forcing预训练→teacher forcing微调）兼顾表示质量与rollout稳定性",
+      "analysis": "world-models-ad/analysis/2607.15898_Orbis2.md",
+      "status": "新发现"
+    },
+    {
+      "id": "2607.15621",
+      "title": "Think at 5 Hz, Act at 20 Hz: Asynchronous Fast-Slow VLA Inference for Closed-Loop Driving",
+      "authors": "Yun Li, Jiachen Gong, Simon Thompson, Ehsan Javanmardi, Manabu Tsukada et al.",
+      "date": "2026-07-17",
+      "categories": ["cs.RO", "cs.AI"],
+      "score": 5,
+      "summary": "快慢异步VLA架构：7B VLM低频感知（5Hz）+ 轻量级专家高频控制（20Hz）。随机陈化训练对齐部署分布，CARLA路线完成率37→94，零样本迁移84-94%，每tick仅32ms",
+      "analysis": "vla-autonomous-driving/analysis/2607.15621_Think5HzAct20Hz.md",
+      "status": "新发现"
+    },
+    {
+      "id": "2607.15330",
+      "title": "Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories",
+      "authors": "Xiaomi Robotics Team (Jun Guo, Piaopiao Jin, Jason Li et al.)",
+      "date": "2026-07-16",
+      "categories": ["cs.RO"],
+      "score": 4,
+      "summary": "小米基础VLA模型，两阶段训练（预训练+后训练），10万小时真实机器人轨迹数据。零样本移动操作+少样本高效适配下游任务",
+      "analysis": "",
+      "status": "新发现"
+    },
+    {
+      "id": "2607.15714",
+      "title": "AC-VLA: Robust Out-of-Distribution Action Execution via Compositional Learning",
+      "authors": "Xiaojiang Peng, Kai Peng, Jie Lu, Zheng Lian, Zitong Yu, Xiaobo Wang",
+      "date": "2026-07-17",
+      "categories": ["cs.RO"],
+      "score": 4,
+      "summary": "VLA模型OOD泛化分析，识别两类失效模式（轨迹过拟合、感知捷径），提出组合学习应对子任务重组的OOD泛化问题",
+      "analysis": "",
+      "status": "新发现"
+    },
+    {
       "id": "2607.14203",
       "title": "Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation",
       "authors": "Jiahui Huang, Jiawei Ren, Michal Tyszkiewicz et al. (NVIDIA)",
@@ -35,17 +79,7 @@
       "score": 4,
       "summary": "前馈3DGS重建，单次正向将短时序多视角行车记录转为可仿真3D世界。Waymo PSNR +2.01dB，重建10-20秒场景仅1.5秒，与AlpaSim兼容",
       "analysis": "company-research/analysis/2607.14203_InstantNuRec.md",
-      "status": "新发现"
-    },
-    {
-      "id": "2607.11560",
-      "title": "Technical Report on the CVPR 2026@AdvML Workshop Challenge: Adversarial Attacks on Driving VLAs",
-      "authors": "Tianyuan Zhang et al.",
-      "date": "2026-07-13",
-      "categories": ["cs.CV", "cs.AI"],
-      "score": 3,
-      "summary": "CVPR 2026 AdvML Workshop对抗攻击挑战报告，DriveLM多视角VQA场景，揭示VLA面对图像文本对抗攻击的脆弱性",
-      "status": "相关发现"
+      "status": "本周精选"
     },
     {
       "id": "2607.14507",
@@ -88,6 +122,27 @@
       "categories": ["cs.RO", "cs.CV", "cs.LG"],
       "score": 4,
       "summary": "Action-conditioned world model，一步生成未来帧而非迭代去噪，快速机器人规划世界模型",
+      "status": "相关发现"
+    },
+    {
+      "id": "2607.13481",
+      "title": "GPOcc++: Unified Sparse Gaussian Occupancy Prediction with Visual Geometry Priors",
+      "authors": "Changqing Zhou, Yueru Luo, Yulan Guo, Bing Wang, Jie Qin, Changhao Chen",
+      "date": "2026-07-15",
+      "categories": ["cs.CV"],
+      "score": 3,
+      "summary": "基于视觉几何先验的稀疏高斯占用预测，融合几何先验解决遮挡区域占用恢复问题",
+      "analysis": "",
+      "status": "新发现"
+    },
+    {
+      "id": "2607.11560",
+      "title": "Technical Report on the CVPR 2026@AdvML Workshop Challenge: Adversarial Attacks on Driving VLAs",
+      "authors": "Tianyuan Zhang et al.",
+      "date": "2026-07-13",
+      "categories": ["cs.CV", "cs.AI"],
+      "score": 3,
+      "summary": "CVPR 2026 AdvML Workshop对抗攻击挑战报告，DriveLM多视角VQA场景，揭示VLA面对图像文本对抗攻击的脆弱性",
       "status": "相关发现"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-20",
+  "date": "2026-07-21",
   "time": "15:05",
   "strategies": {
     "double_ma": {"status": "idle", "note": "回测框架，未启动实盘"},
@@ -22,5 +22,6 @@
     "symbols": ["BTC/USDT"],
     "timeframes": ["1h"],
     "latest_report": "2026-01-04"
-  }
+  },
+  "update_note": "所有策略仍为回测框架状态，无实盘信号"
 }

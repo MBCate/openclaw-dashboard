@@ -1,106 +1,30 @@
 {
-  "timestamp": "2026-07-21 11:35",
   "date": "2026-07-21",
-  "indices": [
-    {
-      "name": "上证指数",
-      "code": "000001",
-      "price": 3819.66,
-      "change_pct": 0.62
-    },
-    {
-      "name": "深证成指",
-      "code": "399001",
-      "price": 14074.22,
-      "change_pct": 3.41
-    },
-    {
-      "name": "创业板指",
-      "code": "399006",
-      "price": 3622.27,
-      "change_pct": 5.2
-    },
-    {
-      "name": "沪深300",
-      "code": "000300",
-      "price": 4679.41,
-      "change_pct": 1.76
-    }
-  ],
-  "northbound": {
-    "total_billion": 5.25,
-    "sh_billion": 2.74,
-    "sz_billion": 2.51
+  "time": "15:05",
+  "indices": {
+    "上证指数": {"price": 3864.37, "change_pct": 1.79, "open": 3812.16, "high": 3864.60, "low": 3743.36, "prev_close": 3796.28},
+    "深证成指": {"price": 14264.29, "change_pct": 4.81, "open": 13656.08, "high": 14264.80, "low": 13364.41, "prev_close": 13610.23},
+    "创业板指": {"price": 3685.97, "change_pct": 7.05, "open": 3469.22, "high": 3687.15, "low": 3373.04, "prev_close": 3443.10},
+    "沪深300": {"price": 4739.23, "change_pct": 3.06, "open": 4630.85, "high": 4739.23, "low": 4566.28, "prev_close": 4598.32}
   },
-  "sectors_top5": [
-    {
-      "name": "半导体设备",
-      "change_pct": 10.42
-    },
-    {
-      "name": "半导体材料",
-      "change_pct": 7.83
-    },
-    {
-      "name": "镍",
-      "change_pct": 7.79
-    },
-    {
-      "name": "集成电路制造",
-      "change_pct": 7.59
-    },
-    {
-      "name": "集成电路封测",
-      "change_pct": 7.16
-    }
-  ],
-  "sectors_bottom5": [
-    {
-      "name": "计算机设备",
-      "change_pct": 1.26
-    },
-    {
-      "name": "其他通用设备",
-      "change_pct": 1.26
-    },
-    {
-      "name": "膜材料",
-      "change_pct": 1.24
-    },
-    {
-      "name": "电力设备",
-      "change_pct": 1.17
-    },
-    {
-      "name": "机械设备",
-      "change_pct": 1.17
-    }
-  ],
-  "concept_top5": [
-    {
-      "name": "高带宽内存",
-      "change_pct": 8.04
-    },
-    {
-      "name": "基金重仓",
-      "change_pct": 6.92
-    },
-    {
-      "name": "第四代半导体",
-      "change_pct": 6.74
-    },
-    {
-      "name": "MLCC",
-      "change_pct": 6.49
-    },
-    {
-      "name": "中芯概念",
-      "change_pct": 6.49
-    }
-  ],
-  "summary": {
-    "type": "noon",
-    "market_breadth": "普涨",
-    "note": "创业板强势领涨，半导体产业链全面爆发"
-  }
+  "market_breadth": {
+    "advance": 1740,
+    "decline": 3710,
+    "涨停": 55,
+    "跌停": 267
+  },
+  "north_flow": {
+    "date": "2026-07-20",
+    "累计": "4299.61亿",
+    "沪股通": "2044.75亿",
+    "深股通": "2254.86亿",
+    "今日成交": "2086.95亿",
+    "占总成交": "12.28%"
+  },
+  "sector_highlights": {
+    "领先": ["采掘", "食品饮料", "公用事业", "银行", "非银金融"],
+    "落后": ["化工", "电子", "纺织服装", "综合", "机械设备"]
+  },
+  "volume_shi": "上证成交量 73.50亿手，成交额 13965亿",
+  "note": "AkShare连接失败(代理问题)，数据来自新浪财经/东方财富/通联数据综合"
 }

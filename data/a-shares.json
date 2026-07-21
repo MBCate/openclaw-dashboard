@@ -1,59 +1,106 @@
 {
-  "date": "2026-07-20",
-  "time": "15:05",
-  "indices": {
-    "上证指数": {
+  "timestamp": "2026-07-21 11:35",
+  "date": "2026-07-21",
+  "indices": [
+    {
+      "name": "上证指数",
       "code": "000001",
-      "price": 3796.28,
-      "change_pct": 0.85,
-      "source": "实时"
+      "price": 3819.66,
+      "change_pct": 0.62
     },
-    "深证成指": {
+    {
+      "name": "深证成指",
       "code": "399001",
-      "price": 13706.88,
-      "change_pct": -0.71,
-      "source": "实时"
+      "price": 14074.22,
+      "change_pct": 3.41
     },
-    "创业板指": {
+    {
+      "name": "创业板指",
       "code": "399006",
-      "price": 3428.63,
-      "change_pct": null,
-      "source": "实时"
+      "price": 3622.27,
+      "change_pct": 5.2
     },
-    "沪深300": {
+    {
+      "name": "沪深300",
       "code": "000300",
-      "price": 4598.32,
-      "change_pct": 1.53,
-      "source": "实时"
+      "price": 4679.41,
+      "change_pct": 1.76
     }
+  ],
+  "northbound": {
+    "total_billion": 5.25,
+    "sh_billion": 2.74,
+    "sz_billion": 2.51
   },
-  "market_overview": {
-    "total_stocks": 5879,
-    "up": 1740,
-    "down": 3710,
-    "flat": 76,
-    "limit_up": 75,
-    "limit_down": 539,
-    "total_amount_billion": 27181
-  },
-  "north_flow": {
-    "status": "data_unavailable",
-    "note": "北向资金今日状态码为3（可能暂停交易或无数据）"
-  },
-  "sector_rank": {
-    "top5": [
-      {"name": "油气及炼化工程", "change_pct": 8.37, "lead_stock": "博迈科"},
-      {"name": "油服工程", "change_pct": 6.71, "lead_stock": "中曼石油"},
-      {"name": "油气开采Ⅲ", "change_pct": 6.51, "lead_stock": "中国海油"},
-      {"name": "油气开采Ⅱ", "change_pct": 6.51, "lead_stock": "中国海油"},
-      {"name": "火力发电", "change_pct": 6.46, "lead_stock": "华银电力"}
-    ],
-    "bottom5": [
-      {"name": "电子化学品Ⅲ", "change_pct": -10.09, "lead_stock": "康美特"},
-      {"name": "电子化学品Ⅱ", "change_pct": -10.09, "lead_stock": "康美特"},
-      {"name": "半导体材料", "change_pct": -9.82, "lead_stock": "有研硅"},
-      {"name": "玻纤制造", "change_pct": -9.16, "lead_stock": "振石股份"},
-      {"name": "膜材料", "change_pct": -8.99, "lead_stock": "大东南"}
-    ]
+  "sectors_top5": [
+    {
+      "name": "半导体设备",
+      "change_pct": 10.42
+    },
+    {
+      "name": "半导体材料",
+      "change_pct": 7.83
+    },
+    {
+      "name": "镍",
+      "change_pct": 7.79
+    },
+    {
+      "name": "集成电路制造",
+      "change_pct": 7.59
+    },
+    {
+      "name": "集成电路封测",
+      "change_pct": 7.16
+    }
+  ],
+  "sectors_bottom5": [
+    {
+      "name": "计算机设备",
+      "change_pct": 1.26
+    },
+    {
+      "name": "其他通用设备",
+      "change_pct": 1.26
+    },
+    {
+      "name": "膜材料",
+      "change_pct": 1.24
+    },
+    {
+      "name": "电力设备",
+      "change_pct": 1.17
+    },
+    {
+      "name": "机械设备",
+      "change_pct": 1.17
+    }
+  ],
+  "concept_top5": [
+    {
+      "name": "高带宽内存",
+      "change_pct": 8.04
+    },
+    {
+      "name": "基金重仓",
+      "change_pct": 6.92
+    },
+    {
+      "name": "第四代半导体",
+      "change_pct": 6.74
+    },
+    {
+      "name": "MLCC",
+      "change_pct": 6.49
+    },
+    {
+      "name": "中芯概念",
+      "change_pct": 6.49
+    }
+  ],
+  "summary": {
+    "type": "noon",
+    "market_breadth": "普涨",
+    "note": "创业板强势领涨，半导体产业链全面爆发"
   }
 }

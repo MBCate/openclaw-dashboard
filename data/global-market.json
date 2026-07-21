@@ -1,91 +1,78 @@
 {
-  "updated": "2026-07-20T21:30:00+08:00",
-  "date": "2026-07-20",
-  "source": "market-intel (RSS + Yahoo Finance API)",
+  "updated": "2026-07-21T09:15:00+08:00",
+  "date": "2026-07-21",
+  "source": "market-intel (Yahoo Finance API + Sina + AkShare futures)",
+  "pre_market_futures": {
+    "time": "2026-07-21 09:15 CST",
+    "s&p500_es": "7497.50 (+0.18%)",
+    "nasdaq_nq": "28900.50 (+0.42%)",
+    "dow_ym": "52131.00 (+0.11%)",
+    "wti_crude": "82.06 (-0.51%)",
+    "gold_gc": "4033.40 (+0.44%)",
+    "bitcoin_futures": "65660.00 (+0.73%)"
+  },
   "market": {
-    "overnight_headlines": "隔夜美股三大指数小幅收涨，科技股延续反弹；中东局势出现缓和信号，伊朗称可基于国家利益谈判；黄金维持高位$4015，比特币横盘$64,486",
+    "overnight_headlines": "美股期货反弹延续，纳指期货+0.42%领涨；黄金创$4033新高，美元指数100.98小幅走强；日经开盘大幅反弹至65048（+1.4%），修复昨日暴跌；恒指期货-0.35%偏弱；A股开盘在即",
     "us_markets": {
-      "s&p_500": "7505.00 (+0.63%)",
-      "nasdaq": "25751.61 (+0.91%)",
-      "dow_jones": "52367.55 (+0.42%)",
-      "note": "美股普遍反弹，芯片股修复性上涨，科技板块领涨；高盛报告对冲基金以创纪录速度卖出美国科技股"
+      "s&p_500_prev_close": "7505.00 (+0.63%)",
+      "nasdaq_prev_close": "25751.61 (+0.91%)",
+      "dow_jones_prev_close": "52367.55 (+0.42%)",
+      "vix": "18.65 (-0.64%)",
+      "note": "隔夜美股三大指数收涨，科技股延续反弹；VIX回落至18.65显示恐慌情绪缓解；今日盘前期货继续小幅上行，市场情绪改善"
     },
     "europe_markets": {
-      "ftse_100": "10533.35 (-0.63%)",
-      "dax": "24807.37 (-0.10%)",
-      "cac_40": "8329.21 (-0.12%)",
-      "note": "欧股普遍小幅收跌，中东局势和原油波动压制风险偏好；德国DAX在24800附近震荡"
+      "ftse_100_prev_close": "10524.76 (-0.71%)",
+      "dax_prev_close": "24846.69 (+0.16%)",
+      "cac_40_prev_close": "8329.21 (-0.12%)",
+      "note": "欧股隔夜走势分化：FTSE续跌，DAX小幅反弹收于24846.69；关注今日英国新首相Burnham政策公布"
     },
     "asia_markets": {
-      "hsi": "25143.05 (+2.36%)",
-      "nikkei": "64141.12 (-4.03%)",
-      "note": "港股大幅反弹超2%，能源和中资股领涨；日经暴跌超4%，受中东地缘风险打击"
+      "hsi": "25143.05 (平收)",
+      "hsi_futures": "25059.00 (-0.35%)",
+      "nikkei": "65048.49 (+1.41%)",
+      "note": "日经大幅反弹超1.4%至65048，修复昨日暴跌4%的部分失地；恒指高开平收，盘前期货-0.35%略偏弱"
+    },
+    "china_indices_pre_open": {
+      "shanghai_composite": "3796.18 (开市前)",
+      "shenzhen_component": "13610.23 (开市前)",
+      "chi_next": "3443.10 (开市前)",
+      "sse_star_50": "1718.69 (开市前)",
+      "csi_300": "4598.29 (开市前)",
+      "note": "A股即将开盘，上证参考价3796.18，沪深300报4598.29，创业板指3443.10"
     },
     "commodities": {
-      "wti_crude": "81.65 (-1.02%)",
-      "brent_crude": "88.08 (-0.02%)",
-      "gold": "4014.60 (+0.05%)",
-      "note": "原油先涨后跌，伊朗释放谈判信号打压油价；黄金在$4015附近高位盘整"
+      "wti_crude": "82.06 (-0.51%)",
+      "brent_crude_prev": "88.08 (-0.02%)",
+      "gold": "4033.40 (+0.44%)",
+      "note": "黄金创新高$4033，避险需求持续；WTI原油82.06继续承压，伊朗释放和谈信号"
+    },
+    "fx": {
+      "dxy": "100.976 (+0.03%)",
+      "usd_cny": "6.7574",
+      "note": "美元指数100.98偏强，人民币汇率6.7574"
     },
     "crypto": {
       "bitcoin": {
-        "price": 64486,
-        "change_24h_pct": "-0.32",
-        "note": "横盘震荡，市场等待方向突破"
+        "price": 65418.44,
+        "change_24h_pct": "+0.31",
+        "note": "小幅反弹至$65,418，期货升水至$65,660"
       },
       "ethereum": {
-        "price": 1871.73,
-        "change_24h_pct": "+0.01",
-        "note": "小幅持平，流动性偏弱"
+        "price": 1909.32,
+        "change_24h_pct": "+0.31",
+        "note": "同步小幅回升至$1,909"
       }
     },
-    "geo_risk": "⚠️ 中东局势：伊朗Houthi盟友宣布对沙特实施海上禁令；伊朗称\"可基于国家利益与美国谈判\"，油价回落。英国新任首相Andy Burnham上任，誓言结束多年政治动荡",
+    "geo_risk": "⚠️ 中东：伊朗Houthi盟友对沙特海上禁令仍在；伊朗称可谈判打压油价。英国：Andy Burnham就任首相，承诺修复英国经济。加拿大：Trump 50%关税威胁，Carney誓言加强贸易谈判。高盛：对冲基金创纪录卖出美国科技股",
     "key_events": [
-      "伊朗Houthi盟友宣布对沙特实施海上禁令，中东地缘风险持续",
-      "伊朗释放缓和信号，称可基于国家利益与美国谈判，原油价格回落",
-      "WTI从$90上方回落至$81.65，波动剧烈",
+      "英国新首相Andy Burnham上任，承诺修复经济并公布财政计划",
+      "Trump对加拿大加征50%关税，Carney誓言加强贸易谈判",
+      "伊朗释放和谈信号，WTI原油承压回落至$82",
+      "黄金创新高$4,033，避险买盘持续",
       "高盛：对冲基金以创纪录速度卖出美国科技股",
-      "日经225暴跌超4%，亚太市场分化严重",
-      "世界杯西班牙夺冠落幕，FIFA获$90亿收入",
-      "EU因非法商品对AliExpress罚款$6.3亿",
-      "英国Andy Burnham当选新首相"
-    ],
-    "news_highlights": [
-      {
-        "source": "Bloomberg",
-        "title": "Goldman Says Hedge Funds Sell US Tech Stocks at Record Pace",
-        "summary": "高盛数据显示对冲基金正以创纪录速度抛售美国科技股"
-      },
-      {
-        "source": "MarketWatch",
-        "title": "Oil prices reverse lower after report of new Iran cease-fire proposal",
-        "summary": "伊朗停火提议报道后油价逆转走低"
-      },
-      {
-        "source": "Bloomberg",
-        "title": "Canada Financials Stocks Close In on Top Spot as Energy Momentum Fades",
-        "summary": "加拿大金融股追赶能源板块"
-      },
-      {
-        "source": "Bloomberg",
-        "title": "Paris Corn Hits Seven-Week High After Ukraine Cargo Attack",
-        "summary": "乌克兰货运遇袭推动巴黎玉米期货创七周新高"
-      },
-      {
-        "source": "SCMP",
-        "title": "As EU's China trade deficit widens, Germany changes tack to join France's Beijing pushback",
-        "summary": "德国转向与法国共同推动对华强硬路线"
-      },
-      {
-        "source": "CNBC",
-        "title": "S&P 500 and Nasdaq close lower as chip stock rebound fails",
-        "summary": "芯片股反弹失败，美股承压（时效性稍早）"
-      },
-      {
-        "source": "CNBC",
-        "title": "Iran's Houthi allies in Yemen declare maritime embargo against Saudi Arabia",
-        "summary": "也门Houthi宣布对沙特实施海上禁运"
-      }
+      "日经大幅反弹+1.4%至65048，修复昨日暴跌",
+      "A股开盘参考价：上证3796.18 / 沪深300 4598.29 / 创业板3443.10",
+      "美元指数100.98走强，人民币6.7574"
     ]
   }
 }

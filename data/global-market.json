@@ -1,22 +1,17 @@
 {
-  "updated": "2026-07-21T21:30:00+08:00",
-  "date": "2026-07-21",
+  "updated": "2026-07-22T09:15:00+08:00",
+  "date": "2026-07-22",
   "source": "market-intel (RSS + web_search)",
-  "summary": "美股周二期货反弹，芯片股领涨；中东局势持续升温，布油突破$90，黄金冲高至$4,058；BTC反弹至$66,405，ETH回升至$1,941；欧股涨跌互现，FTSE矿企银行股走强",
+  "summary": "美股周二全线收涨，纳指+1.29%领跑；A股昨放量1.9万亿站上3864；SMCI获SpaceX订单大涨15%，Nike缩减中国分销；美伊停火谈判推进，VIX回落至17",
   "us_markets": {
-    "prev_close_jul20": {
-      "s&p_500": "~7490 (-0.2%)",
-      "nasdaq": "~25200 (平收)",
-      "dow_jones": "~52060 (-0.6%)",
-      "vix": "~19.5",
-      "note": "周一美股收跌，美伊冲突第10天压制风险偏好；周二盘前期货反弹：SP+0.4%, NQ+0.6%, YM+0.2%，芯片股领涨"
+    "close_jul21": {
+      "s&p_500": "7,509.20 (+0.89%)",
+      "nasdaq": "25,837.21 (+1.29%)",
+      "dow_jones": "52,224.64 (+0.74%)",
+      "vix": "17.05 (-8.58%)",
+      "note": "三大股指齐涨，纳指涨幅居首。SMCI获SpaceX订单大涨15%，Meta/NVDA推动指数"
     },
-    "tuesday_premarket": {
-      "sp_futures": "+0.4%",
-      "nasdaq_futures": "+0.6%",
-      "dow_futures": "+0.2%",
-      "note": "芯片股抄底资金入场，Marvell, Micron, Sandisk盘前走强；GM财报超预期"
-    }
+    "note": "VIX从18.65回落至17.05，风险偏好回升；美伊停火谈判缓解地缘压力"
   },
   "europe_markets": {
     "close_jul21": {
@@ -27,15 +22,17 @@
     }
   },
   "asia_markets": {
-    "hsi": "数据待更新",
-    "nikkei_225": "反弹中 — 修复昨日跌幅",
-    "note": "亚太市场周二随美股期货走高，芯片板块拉动日韩指数"
+    "shanghai_composite": "3,864.37 (+1.79%)",
+    "shenzhen_component": "数据待更新",
+    "chi_next": "数据待更新",
+    "hsi": "待今日开盘",
+    "note": "A股7/21三大指数齐创年内新高，两市成交额1.89万亿；7/22早盘震荡蓄势中"
   },
   "commodities": {
-    "gold": "$4,058.30 (+1.58%)",
-    "wti_crude": "$84.12 (+2.62%)",
-    "brent_crude": ">$90 (美伊冲突持续)",
-    "note": "黄金创历史新高$4,058+，避险买盘强劲；布伦特突破$90，美国与伊朗连续10天交火，霍尔木兹航运威胁加剧"
+    "gold": ",050+ (高位震荡)",
+    "wti_crude": "~4",
+    "brent_crude": "~0 (美伊停火谈判压价)",
+    "note": "黄金维持高位,050+；布油在0附近，美伊10天冲突后停火谈判推进"
   },
   "fx": {
     "dxy": "~101.0",
@@ -45,24 +42,24 @@
     "bitcoin": {
       "price": 66405,
       "change_24h_pct": "+1.85",
-      "note": "BTC反弹至$66,405，从月初低点$57,950显著回升"
+      "note": "BTC稳定在6,400附近，从月初低点7,950显著回升"
     },
     "ethereum": {
       "price": 1941,
       "change_24h_pct": "+4.14",
-      "note": "ETH回升至$1,941，24h涨4.14%，周涨9%"
+      "note": "ETH回升至,941，24h涨4.14%"
     }
   },
   "rss_headlines": [
-    "🇺🇸 Greer暗示Trump将对数十国加征新关税 — CNBC",
-    "⚔️ 美国打击伊朗/Houthis威胁沙特航运，调停方推动10天停火 — CNBC",
-    "📈 芯片股引领反弹：Marvell, Micron, Sandisk走高 — WSJ/Investors",
-    "🏠 华尔街加速出售租赁住房，限购令生效 — CNBC",
-    "🏭 3M上调业绩展望，股价大涨 — Yahoo Finance",
-    "💊 Novo Nordisk起诉Eli Lilly涉嫌GLP-1广告误导 — MarketWatch",
-    "📊 对冲基金创纪录卖出科技股后，动量和芯片板块是否该抄底？— MarketWatch",
-    "🇬🇧 FTSE 100小幅反弹，矿企和银行板块走强 — RTTNews",
-    "🇪🇺 CAC 40微涨，STMicroElectronics领涨科技板块 — RTTNews"
+    "📈 SMCI获SpaceX新订单+利润率翻倍，盘后再涨15% — CNBC/MarketWatch",
+    "🏃 Nike将裁撤中国数千线上分销商，重组数字渠道 — CNBC",
+    "🤖 美联储警示Anthropic Mythos AI模型风险，但数月无法全面监控 — CNBC",
+    "🏦 Goldman Sachs创建私募市场平台，迎合富人追逐SpaceX/Stripe — CNBC",
+    "🤝 OpenAI任命两名新董事会成员 — CNBC/Reuters",
+    "🛢️ SpaceX股价结束连跌行情，Starship关键发射在即 — MarketWatch",
+    "🔋 SK海力士CEO：存储短缺或持续至2030年后 — CLS",
+    "💊 诺和诺德起诉礼来GLP-1广告误导 — MarketWatch",
+    "🏭 3M上调业绩展望，股价大涨 — Yahoo Finance"
   ],
-  "geo_risk": "🔴 中东：美伊冲突第10天，布油突破$90；调停方推动10天停火协议。🇺🇸 贸易：Greer暗示对数十国加征301关税。🇬🇧 英国：Burnham政府公布经济修复计划。🇨🇦 加拿大：Trump 50%关税威胁，Carney加强谈判。⚠️ 霍尔木兹海峡航运持续受威胁"
+  "geo_risk": "🟡 中东：美伊冲突第11天，停火谈判推进中（10天停火方案）；🇺🇸 贸易：Greer暗示对数十国加征301关税；🇬🇧 英国：Burnham经济修复计划推进中"
 }

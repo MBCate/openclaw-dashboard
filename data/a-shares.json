@@ -1,30 +1,27 @@
 {
-  "date": "2026-07-21",
-  "time": "15:05",
+  "date": "2026-07-22",
+  "time": "11:35",
   "indices": {
-    "上证指数": {"price": 3864.37, "change_pct": 1.79, "open": 3812.16, "high": 3864.60, "low": 3743.36, "prev_close": 3796.28},
-    "深证成指": {"price": 14264.29, "change_pct": 4.81, "open": 13656.08, "high": 14264.80, "low": 13364.41, "prev_close": 13610.23},
-    "创业板指": {"price": 3685.97, "change_pct": 7.05, "open": 3469.22, "high": 3687.15, "low": 3373.04, "prev_close": 3443.10},
-    "沪深300": {"price": 4739.23, "change_pct": 3.06, "open": 4630.85, "high": 4739.23, "low": 4566.28, "prev_close": 4598.32}
+    "上证指数": {"price": 3883.58, "change_pct": 0.50, "change": 19.22},
+    "深证成指": {"price": 14351.91, "change_pct": 0.61, "change": 87.62},
+    "创业板指": {"price": 3681.20, "change_pct": -0.13, "change": -4.77},
+    "沪深300": {"price": 4771.10, "change_pct": 0.67, "change": 31.87}
   },
-  "market_breadth": {
-    "advance": 1740,
-    "decline": 3710,
-    "涨停": 55,
-    "跌停": 267
+  "sectors": {
+    "gainers": [
+      {"name": "白银", "change_pct": 8.48},
+      {"name": "贵金属", "change_pct": 8.08},
+      {"name": "黄金", "change_pct": 7.97},
+      {"name": "钾肥", "change_pct": 6.39},
+      {"name": "铜", "change_pct": 4.89}
+    ],
+    "losers": [
+      {"name": "小家电", "change_pct": null},
+      {"name": "影视院线", "change_pct": null},
+      {"name": "游戏", "change_pct": null},
+      {"name": "电池", "change_pct": null}
+    ]
   },
-  "north_flow": {
-    "date": "2026-07-20",
-    "累计": "4299.61亿",
-    "沪股通": "2044.75亿",
-    "深股通": "2254.86亿",
-    "今日成交": "2086.95亿",
-    "占总成交": "12.28%"
-  },
-  "sector_highlights": {
-    "领先": ["采掘", "食品饮料", "公用事业", "银行", "非银金融"],
-    "落后": ["化工", "电子", "纺织服装", "综合", "机械设备"]
-  },
-  "volume_shi": "上证成交量 73.50亿手，成交额 13965亿",
-  "note": "AkShare连接失败(代理问题)，数据来自新浪财经/东方财富/通联数据综合"
+  "north_flow": null,
+  "market_summary": "早盘三大指数低开后震荡分化，沪指、深成指翻红小幅上涨，创业板指微跌。贵金属板块受避险情绪推动大涨，黄金、白银板块领涨。科技股走弱，小家电、影视院线、游戏、电池等板块跌幅居前。"
 }

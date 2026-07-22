@@ -1,65 +1,38 @@
 {
-  "updated": "2026-07-22T09:15:00+08:00",
+  "updated": "2026-07-22T21:30:00+08:00",
   "date": "2026-07-22",
-  "source": "market-intel (RSS + web_search)",
-  "summary": "美股周二全线收涨，纳指+1.29%领跑；A股昨放量1.9万亿站上3864；SMCI获SpaceX订单大涨15%，Nike缩减中国分销；美伊停火谈判推进，VIX回落至17",
-  "us_markets": {
-    "close_jul21": {
-      "s&p_500": "7,509.20 (+0.89%)",
-      "nasdaq": "25,837.21 (+1.29%)",
-      "dow_jones": "52,224.64 (+0.74%)",
-      "vix": "17.05 (-8.58%)",
-      "note": "三大股指齐涨，纳指涨幅居首。SMCI获SpaceX订单大涨15%，Meta/NVDA推动指数"
+  "indices": {
+    "us": {
+      "sp500": { "name": "S&P 500", "value": 7493.82, "change": -15.38, "changePercent": -0.20, "high": 7499.27, "low": 7485.85, "prevClose": 7509.20 },
+      "nasdaq": { "name": "NASDAQ", "value": 25703.94, "change": -133.27, "changePercent": -0.52, "high": 25712.51, "low": 25681.32, "prevClose": 25837.21 },
+      "dow": { "name": "Dow Jones", "value": 52231.43, "change": 6.79, "changePercent": 0.01, "high": 52287.14, "low": 52148.87, "prevClose": 52224.64 }
     },
-    "note": "VIX从18.65回落至17.05，风险偏好回升；美伊停火谈判缓解地缘压力"
-  },
-  "europe_markets": {
-    "close_jul21": {
-      "ftse_100": "小幅上涨 — 矿企和银行股领涨",
-      "dax": "小幅上涨 — 科技和金融股支撑",
-      "cac_40": "小幅上涨 — STMicroElectronics大涨",
-      "note": "欧股周二普遍反弹，中东外交斡旋希望提振情绪；市场关注周四欧央行会议"
+    "china": {
+      "shanghai": { "name": "上证指数", "value": 3867.03, "change": 70.75, "changePercent": 1.86, "high": 3884.43, "low": 3839.66, "prevClose": 3796.28 },
+      "shenzhen": { "name": "深证成指", "value": 14061.44, "change": 451.24, "changePercent": 3.32, "high": 14360.37, "low": 13988.51, "prevClose": 13610.20 },
+      "chiNext": { "name": "创业板指", "value": 3566.73, "change": -119.24, "changePercent": -3.23, "high": 3694.90, "low": 3553.37, "prevClose": 3685.97 }
+    },
+    "hk": {
+      "hsi": { "name": "恒生指数", "value": 24892.66, "change": -239.63, "changePercent": -0.95, "high": 25040.27, "low": 24802.06, "prevClose": 25132.29 }
     }
-  },
-  "asia_markets": {
-    "shanghai_composite": "3,864.37 (+1.79%)",
-    "shenzhen_component": "数据待更新",
-    "chi_next": "数据待更新",
-    "hsi": "待今日开盘",
-    "note": "A股7/21三大指数齐创年内新高，两市成交额1.89万亿；7/22早盘震荡蓄势中"
-  },
-  "commodities": {
-    "gold": ",050+ (高位震荡)",
-    "wti_crude": "~4",
-    "brent_crude": "~0 (美伊停火谈判压价)",
-    "note": "黄金维持高位,050+；布油在0附近，美伊10天冲突后停火谈判推进"
-  },
-  "fx": {
-    "dxy": "~101.0",
-    "note": "美元指数在101附近震荡，避险资金流入"
   },
   "crypto": {
-    "bitcoin": {
-      "price": 66405,
-      "change_24h_pct": "+1.85",
-      "note": "BTC稳定在6,400附近，从月初低点7,950显著回升"
-    },
-    "ethereum": {
-      "price": 1941,
-      "change_24h_pct": "+4.14",
-      "note": "ETH回升至,941，24h涨4.14%"
-    }
+    "btc": { "name": "Bitcoin", "value": 65639, "changePercent": -1.32, "high24h": 66693, "low24h": 65526, "marketCap": 1310000000000 },
+    "eth": { "name": "Ethereum", "value": 1922.29, "changePercent": -0.94, "prevClose": 1940.67, "marketCap": 233000000000 }
   },
-  "rss_headlines": [
-    "📈 SMCI获SpaceX新订单+利润率翻倍，盘后再涨15% — CNBC/MarketWatch",
-    "🏃 Nike将裁撤中国数千线上分销商，重组数字渠道 — CNBC",
-    "🤖 美联储警示Anthropic Mythos AI模型风险，但数月无法全面监控 — CNBC",
-    "🏦 Goldman Sachs创建私募市场平台，迎合富人追逐SpaceX/Stripe — CNBC",
-    "🤝 OpenAI任命两名新董事会成员 — CNBC/Reuters",
-    "🛢️ SpaceX股价结束连跌行情，Starship关键发射在即 — MarketWatch",
-    "🔋 SK海力士CEO：存储短缺或持续至2030年后 — CLS",
-    "💊 诺和诺德起诉礼来GLP-1广告误导 — MarketWatch",
-    "🏭 3M上调业绩展望，股价大涨 — Yahoo Finance"
-  ],
-  "geo_risk": "🟡 中东：美伊冲突第11天，停火谈判推进中（10天停火方案）；🇺🇸 贸易：Greer暗示对数十国加征301关税；🇬🇧 英国：Burnham经济修复计划推进中"
+  "commodities": {
+    "brent": { "name": "Brent Crude", "value": 95, "note": "近$95，胡塞武装威胁霍尔木兹海峡" }
+  },
+  "news": [
+    "布伦特原油逼近$95，鲁比奥称美国将继续保护霍尔木兹航道",
+    "受DeepSeek影响，AI板块遭抛售，标普纳指下跌",
+    "恒指失守25000点，科技股普跌，腾讯网易跌超7%",
+    "A股分化：上证涨1.86%站上3867，深成指涨3.32%",
+    "黄金股成避风港，灵宝黄金涨超15%，中国黄金国际涨超9%",
+    "三星发布新款折叠手机，抢在苹果之前",
+    "耐克终止滔搏线上销售，滔搏暴跌24%",
+    "南向资金今日净买入港股超75亿港元",
+    "美债收益率上升，按揭利率走高",
+    "Moody's上调阿根廷主权评级"
+  ]
 }

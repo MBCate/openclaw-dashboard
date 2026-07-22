@@ -1,209 +1,63 @@
 {
-  "date": "2026-07-21",
-  "source": "arXiv Daily Scan (Jul 15-17 submissions)",
-  "total_papers": 19,
-  "new_discoveries": 5,
+  "date": "2026-07-22",
+  "source": "arXiv Daily Scan (Jul 18-20 submissions)",
+  "total_papers": 4,
+  "new_discoveries": 4,
   "papers": [
     {
-      "id": "2607.08375",
-      "title": "WCog-VLA: A Dual-Level World-Cognitive Vision-Language-Action Model for End-to-End Autonomous Driving",
-      "authors": "Xuerun Yan et al.",
-      "date": "2026-07-09",
-      "categories": ["cs.CV", "cs.AI"],
+      "id": "2607.17521",
+      "title": "GeoWorldAD: Geometry World Action Model for Autonomous Driving",
+      "authors": "Songyan Zhang, Jinyuan Tian, Hanbing Li et al.",
+      "date": "2026-07-20",
+      "categories": [
+        "cs.RO"
+      ],
       "score": 5,
-      "summary": "双层次世界认知VLA框架，桥接语义级世界预测与生成式世界演化。Game-CoT推理+ADDT生成世界模型，NAVSIM PDMS 92.9 SOTA",
-      "analysis": "e2e-autonomous-driving/analysis/2026-07-19-weekly-roundup.md",
-      "status": "本周精选"
-    },
-    {
-      "id": "2607.08072",
-      "title": "Post-Training in End-to-End Autonomous Driving: A Survey",
-      "authors": "Ruining Yang, Muxing Wang, Yixiao Chen et al.",
-      "date": "2026-07-09 (v2: 2026-07-13)",
-      "categories": ["cs.CV", "cs.RO", "cs.AI"],
-      "score": 5,
-      "summary": "首个E2E AD后训练范式综述，将方法分为RL、adversarial、self-supervised、human-feedback四类，分析各范式能力与局限",
-      "analysis": "e2e-autonomous-driving/analysis/2026-07-19-weekly-roundup.md",
-      "status": "本周精选"
-    },
-    {
-      "id": "2607.15898",
-      "title": "Orbis 2: A Hierarchical World Model for Driving",
-      "authors": "Sudhanshu Mittal, Arian Mousakhan, Silvio Galesso, Karim Farid, Thomas Brox et al.",
-      "date": "2026-07-17",
-      "categories": ["cs.CV", "cs.AI", "cs.LG"],
-      "score": 5,
-      "summary": "分层驾驶世界模型：高层预测粗略场景结构，低层生成细节。两阶段训练（diffusion forcing预训练→teacher forcing微调）兼顾表示质量与rollout稳定性",
-      "analysis": "world-models-ad/analysis/2607.15898_Orbis2.md",
+      "summary": "几何世界动作模型，将轨迹规划锚定在自车对齐的3D空间中，通过潜在未来几何token预测短时场景演化。渐进式多尺度几何聚合+轨迹迭代优化，NAVSIM v1/v2 SOTA",
+      "analysis": "world-models-ad/analysis/2607.17521-geoworldad.md",
       "status": "新发现"
     },
     {
-      "id": "2607.15621",
-      "title": "Think at 5 Hz, Act at 20 Hz: Asynchronous Fast-Slow VLA Inference for Closed-Loop Driving",
-      "authors": "Yun Li, Jiachen Gong, Simon Thompson, Ehsan Javanmardi, Manabu Tsukada et al.",
-      "date": "2026-07-17",
-      "categories": ["cs.RO", "cs.AI"],
-      "score": 5,
-      "summary": "快慢异步VLA架构：7B VLM低频感知（5Hz）+ 轻量级专家高频控制（20Hz）。随机陈化训练对齐部署分布，CARLA路线完成率37→94，零样本迁移84-94%，每tick仅32ms",
-      "analysis": "vla-autonomous-driving/analysis/2607.15621_Think5HzAct20Hz.md",
-      "status": "新发现"
-    },
-    {
-      "id": "2607.15330",
-      "title": "Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories",
-      "authors": "Xiaomi Robotics Team (Jun Guo, Piaopiao Jin, Jason Li et al.)",
-      "date": "2026-07-16",
-      "categories": ["cs.RO"],
+      "id": "2607.16938",
+      "title": "What Do They See? Interpreting Complex Road Scenarios Through the Eyes of Vision-Language-Action Models for Safe and Trustworthy Autonomous Vehicle Learning",
+      "authors": "Kalpana Panda, Wesley Maia, Vinti Agarwal, Ross Greer",
+      "date": "2026-07-18",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
       "score": 4,
-      "summary": "小米基础VLA模型，两阶段训练（预训练+后训练），10万小时真实机器人轨迹数据。零样本移动操作+少样本高效适配下游任务",
+      "summary": "提出CVAA框架，通过生成式修复去除图像中单个物体，评估对VLA模型规划行为的因果影响。在Alpamayo 1轨迹预测器+210个nuScenes场景上验证，构建Counter-nuScenes数据集",
       "analysis": "",
       "status": "新发现"
     },
     {
-      "id": "2607.15714",
-      "title": "AC-VLA: Robust Out-of-Distribution Action Execution via Compositional Learning",
-      "authors": "Xiaojiang Peng, Kai Peng, Jie Lu, Zheng Lian, Zitong Yu, Xiaobo Wang",
-      "date": "2026-07-17",
-      "categories": ["cs.RO"],
+      "id": "2607.17767",
+      "title": "VLN-AVP: Zero-Shot Vision-Language Navigation with Hybrid Long-Short-Term Memory for Autonomous Valet Parking",
+      "authors": "Yijian Li, Xiangru Mu, Changze Li et al.",
+      "date": "2026-07-20",
+      "categories": [
+        "cs.RO"
+      ],
       "score": 4,
-      "summary": "VLA模型OOD泛化分析，识别两类失效模式（轨迹过拟合、感知捷径），提出组合学习应对子任务重组的OOD泛化问题",
+      "summary": "零样本VLN自动代客泊车框架，融合BEV空间感知+VLM通用智能，无需预建地图。短时记忆跟踪语义线索+长时拓扑记忆稳定策略学习。构建首个地下车库VLN-AVP数据集(10场景1000+episode)",
       "analysis": "",
       "status": "新发现"
     },
     {
-      "id": "2607.14203",
-      "title": "Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation",
-      "authors": "Jiahui Huang, Jiawei Ren, Michal Tyszkiewicz et al. (NVIDIA)",
-      "date": "2026-07-15",
-      "categories": ["cs.GR", "cs.CV", "cs.AI"],
-      "score": 4,
-      "summary": "前馈3DGS重建，单次正向将短时序多视角行车记录转为可仿真3D世界。Waymo PSNR +2.01dB，重建10-20秒场景仅1.5秒，与AlpaSim兼容",
-      "analysis": "company-research/analysis/2607.14203_InstantNuRec.md",
-      "status": "本周精选"
-    },
-    {
-      "id": "2607.14507",
-      "title": "DRIFT: Drift and Aggregation for Motion Planning",
-      "authors": "Yining Xing et al.",
-      "date": "2026-07-16",
-      "categories": ["cs.RO"],
-      "score": 4,
-      "summary": "固定深度trajectory planner，一步漂移生成48 proposals +场景感知聚合头。NAVSIM PDMS 89.6，推理仅10.82ms",
-      "analysis": "e2e-autonomous-driving/analysis/2026-07-19-weekly-roundup.md",
-      "status": "本周精选"
-    },
-    {
-      "id": "2607.14727",
-      "title": "WorkDrive: Roadwork Chain of Causation for Autonomous Driving",
-      "authors": "Tianyi Jiang et al.",
-      "date": "2026-07-16",
-      "categories": ["cs.CV"],
-      "score": 4,
-      "summary": "施工路段因果推理框架，Chain-of-Causation + GRPO推理增强。ROADWork ADE降9%，一致性RL再降3%",
-      "analysis": "e2e-autonomous-driving/analysis/2026-07-19-weekly-roundup.md",
-      "status": "本周精选"
-    },
-    {
-      "id": "2607.15275",
-      "title": "RoboTTT: Test-Time Training Across Task and Motion",
-      "authors": "Yunfan Jiang et al.",
-      "date": "2026-07-16",
-      "categories": ["cs.RO", "cs.AI", "cs.LG"],
-      "score": 4,
-      "summary": "机器人测试时训练方法，在任务和运动层面同步适应，8K timesteps上下文扩展。对AD跨场景泛化有借鉴意义",
-      "analysis": "e2e-autonomous-driving/analysis/2026-07-19-weekly-roundup.md",
-      "status": "本周精选"
-    },
-    {
-      "id": "2607.15065",
-      "title": "DriftWorld: Fast World Modeling through Drifting",
-      "authors": "Susie Lu et al.",
-      "date": "2026-07-16",
-      "categories": ["cs.RO", "cs.CV", "cs.LG"],
-      "score": 4,
-      "summary": "Action-conditioned world model，一步生成未来帧而非迭代去噪，快速机器人规划世界模型",
-      "status": "相关发现"
-    },
-    {
-      "id": "2607.13481",
-      "title": "GPOcc++: Unified Sparse Gaussian Occupancy Prediction with Visual Geometry Priors",
-      "authors": "Changqing Zhou, Yueru Luo, Yulan Guo, Bing Wang, Jie Qin, Changhao Chen",
-      "date": "2026-07-15",
-      "categories": ["cs.CV"],
+      "id": "2607.16636",
+      "title": "PhyAgentOS: A Self-Evolving Operating System for Embodied Agents with Decoupled Cognitive Planning and Physical Execution",
+      "authors": "Yang Liu, Weixing Chen, Xinshuai Song et al.",
+      "date": "2026-07-18",
+      "categories": [
+        "cs.RO"
+      ],
       "score": 3,
-      "summary": "基于视觉几何先验的稀疏高斯占用预测，融合几何先验解决遮挡区域占用恢复问题",
+      "summary": "具身智能体OS运行时基座，解耦认知规划与物理执行。Session-Centered Runtime + State-as-a-File协议，支持VLA/世界模型/agentic planner统一调度与验证。19+模拟和实体embodiment验证",
       "analysis": "",
       "status": "新发现"
-    },
-    {
-      "id": "2607.11560",
-      "title": "Technical Report on the CVPR 2026@AdvML Workshop Challenge: Adversarial Attacks on Driving VLAs",
-      "authors": "Tianyuan Zhang et al.",
-      "date": "2026-07-13",
-      "categories": ["cs.CV", "cs.AI"],
-      "score": 3,
-      "summary": "CVPR 2026 AdvML Workshop对抗攻击挑战报告，DriveLM多视角VQA场景，揭示VLA面对图像文本对抗攻击的脆弱性",
-      "status": "相关发现"
-    },
-    {
-      "id": "2607.13927",
-      "title": "Cyclone: Diffusion Model for Cycle-Consistent Weather Editing from Unpaired Driving Data",
-      "authors": "Thang-Anh-Quan Nguyen et al.",
-      "date": "2026-07-15",
-      "categories": ["cs.CV"],
-      "score": 3,
-      "summary": "基于扩散模型的天气编辑框架，循环一致性约束+图文知识，无需配对数据生成多种天气条件下的驾驶场景",
-      "status": "新发现"
-    },
-    {
-      "id": "2607.10071",
-      "title": "FlashBEV: Fast and Memory-Efficient Exact BEV Transformation with IO-Awareness",
-      "authors": "Authors TBD",
-      "date": "2026-07-11",
-      "categories": ["cs.CV"],
-      "score": 3,
-      "summary": "IO感知的BEV变换加速方法，消除height-dependent中间张量，峰值GPU内存降低一个数量级以上",
-      "status": "新发现"
-    },
-    {
-      "id": "2607.14387",
-      "title": "Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving",
-      "authors": "Yuan Gao et al. (TUM)",
-      "date": "2026-07-15",
-      "categories": ["cs.AI", "cs.RO"],
-      "score": 3,
-      "summary": "基于迭代RAG的场景脚本生成框架，从法规描述生成DSL脚本，76.42%编译成功率，已开源。IROS 2026",
-      "status": "新发现"
-    },
-    {
-      "id": "2607.15004",
-      "title": "CosFly-VLA: A Spatially Aware VLA Model for UAV Tracking",
-      "authors": "Ruilong Ren et al.",
-      "date": "2026-07-16",
-      "categories": ["cs.RO"],
-      "score": 3,
-      "summary": "空间感知VLA策略用于遮挡下UAV跟踪，保持目标状态跨建筑和植被区域",
-      "status": "相关发现"
-    },
-    {
-      "id": "2607.14710",
-      "title": "Variational Inference for Bird's Eye View Segmentation",
-      "authors": "Jingyue Shi et al.",
-      "date": "2026-07-16",
-      "categories": ["cs.CV", "eess.SY"],
-      "score": 3,
-      "summary": "将BEV分割重新表述为变分推理问题，CVAE+normalizing flows生成多候选BEV图，注意力融合模块自适应集成",
-      "status": "相关发现"
-    },
-    {
-      "id": "2607.15207",
-      "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
-      "authors": "Qi Li et al.",
-      "date": "2026-07-16",
-      "categories": ["cs.LG", "cs.RO"],
-      "score": 3,
-      "summary": "World-action模型的对抗性脆弱性分析，揭示动作预测与世界预测耦合的脆弱性",
-      "status": "相关发现"
     }
   ]
 }

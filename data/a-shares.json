@@ -1,27 +1,53 @@
 {
   "date": "2026-07-22",
-  "time": "11:35",
+  "time": "15:05",
+  "source": "web_fetch+tradingeconomics+akshare",
   "indices": {
-    "上证指数": {"price": 3883.58, "change_pct": 0.50, "change": 19.22},
-    "深证成指": {"price": 14351.91, "change_pct": 0.61, "change": 87.62},
-    "创业板指": {"price": 3681.20, "change_pct": -0.13, "change": -4.77},
-    "沪深300": {"price": 4771.10, "change_pct": 0.67, "change": 31.87}
+    "上证指数": {
+      "price": 3861.82,
+      "change_pct": -0.07,
+      "change": -2.55
+    },
+    "深证成指": {
+      "price": 14323.00,
+      "change_pct": 0.40,
+      "change": 57.50
+    },
+    "创业板指": {
+      "price": 3676.50,
+      "change_pct": -0.35,
+      "change": -12.90
+    },
+    "沪深300": {
+      "price": 4713.00,
+      "change_pct": -0.56,
+      "change": -26.50
+    }
   },
+  "north_flow": {
+    "total_turnover_billion": 2414.97,
+    "market_share_pct": 12.76,
+    "sh_top_stocks": ["贵州茅台 25.64亿", "三一重工 14.96亿", "招商银行 14.51亿"],
+    "sz_top_stocks": ["宁德时代 47.58亿", "中际旭创 22.68亿", "比亚迪 16.32亿"]
+  },
+  "total_amount_billion": 18926.0,
+  "market_sentiment": "震荡分化，上证承压，深市偏强",
   "sectors": {
-    "gainers": [
-      {"name": "白银", "change_pct": 8.48},
-      {"name": "贵金属", "change_pct": 8.08},
-      {"name": "黄金", "change_pct": 7.97},
-      {"name": "钾肥", "change_pct": 6.39},
-      {"name": "铜", "change_pct": 4.89}
+    "top_gainers": [
+      {"name": "保险", "change_pct": 5.6},
+      {"name": "油气开采及服务", "change_pct": 4.1},
+      {"name": "煤炭开采加工", "change_pct": 2.8},
+      {"name": "证券", "change_pct": 0.3},
+      {"name": "电力", "change_pct": 1.5}
     ],
-    "losers": [
-      {"name": "小家电", "change_pct": null},
-      {"name": "影视院线", "change_pct": null},
-      {"name": "游戏", "change_pct": null},
-      {"name": "电池", "change_pct": null}
+    "top_losers": [
+      {"name": "医疗器械", "change_pct": -3.6},
+      {"name": "石油加工贸易", "change_pct": -4.4},
+      {"name": "养殖业", "change_pct": -1.5},
+      {"name": "化学制药", "change_pct": -1.2},
+      {"name": "食品加工制造", "change_pct": -3.8}
     ]
   },
-  "north_flow": null,
-  "market_summary": "早盘三大指数低开后震荡分化，沪指、深成指翻红小幅上涨，创业板指微跌。贵金属板块受避险情绪推动大涨，黄金、白银板块领涨。科技股走弱，小家电、影视院线、游戏、电池等板块跌幅居前。"
+  "theme_hotspots": ["先进封装(30涨停)", "MiniLED(29涨停)", "F5G概念(28涨停)", "通信技术(26涨停)", "CPO(23涨停)"],
+  "notes": "先进封装领涨科技链，半导体216亿回流；涨停宽度大但接力偏弱(1→2仅6.5%)；美伊冲突升级抑制风险偏好，能源股逆势走强"
 }

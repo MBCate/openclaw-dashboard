@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "time": "15:05",
   "strategies": {
     "double_ma": {"status": "idle", "note": "回测框架，未启动实盘"},

@@ -1,20 +1,18 @@
 {
-  "date": "2026-07-22",
-  "source": "arXiv Daily Scan (Jul 18-20 submissions)",
-  "total_papers": 4,
-  "new_discoveries": 4,
+  "date": "2026-07-23",
+  "source": "arXiv Daily Scan (Jul 15-21 submissions)",
+  "total_papers": 12,
+  "new_discoveries": 10,
   "papers": [
     {
-      "id": "2607.17521",
-      "title": "GeoWorldAD: Geometry World Action Model for Autonomous Driving",
-      "authors": "Songyan Zhang, Jinyuan Tian, Hanbing Li et al.",
-      "date": "2026-07-20",
-      "categories": [
-        "cs.RO"
-      ],
+      "id": "2607.19194",
+      "title": "Cognitive Dual-Process Planning for Autonomous Driving with Structured Scene Knowledge and Verifiable Reasoning-Action Consistency",
+      "authors": "Zhongyao Yang, Haoyu Li, Yu Yan et al.",
+      "date": "2026-07-21",
+      "categories": ["cs.CV", "cs.AI", "cs.RO"],
       "score": 5,
-      "summary": "几何世界动作模型，将轨迹规划锚定在自车对齐的3D空间中，通过潜在未来几何token预测短时场景演化。渐进式多尺度几何聚合+轨迹迭代优化，NAVSIM v1/v2 SOTA",
-      "analysis": "world-models-ad/analysis/2607.17521-geoworldad.md",
+      "summary": "认知双过程规划框架（模拟人类快慢思考）：快速直觉路径（routine场景端到端轨迹预测）+ 慢速推理路径（VLM结构化场景知识+可验证推理-动作一致性检查）。提出Reason-Action Consistency (RAC)机制校验推理与动作逻辑一致性。在nuScenes+Bench2Drive上验证，复杂场景成功率+22%，推理开销降低60%",
+      "analysis": "",
       "status": "新发现"
     },
     {
@@ -22,40 +20,119 @@
       "title": "What Do They See? Interpreting Complex Road Scenarios Through the Eyes of Vision-Language-Action Models for Safe and Trustworthy Autonomous Vehicle Learning",
       "authors": "Kalpana Panda, Wesley Maia, Vinti Agarwal, Ross Greer",
       "date": "2026-07-18",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG",
-        "cs.RO"
-      ],
+      "categories": ["cs.CV", "cs.AI", "cs.LG", "cs.RO"],
       "score": 4,
-      "summary": "提出CVAA框架，通过生成式修复去除图像中单个物体，评估对VLA模型规划行为的因果影响。在Alpamayo 1轨迹预测器+210个nuScenes场景上验证，构建Counter-nuScenes数据集",
+      "summary": "提出CVAA反事实消融框架，通过生成式修复选择性移除场景中的个别物体，量化评估其对VLA模型规划行为的因果影响。在Alpamayo 1轨迹预测器+210个nuScenes场景上验证，构建Counter-nuScenes可解释性数据集",
       "analysis": "",
       "status": "新发现"
     },
     {
-      "id": "2607.17767",
-      "title": "VLN-AVP: Zero-Shot Vision-Language Navigation with Hybrid Long-Short-Term Memory for Autonomous Valet Parking",
-      "authors": "Yijian Li, Xiangru Mu, Changze Li et al.",
-      "date": "2026-07-20",
-      "categories": [
-        "cs.RO"
-      ],
+      "id": "2607.14727",
+      "title": "WorkDrive: Roadwork Chain of Causation for Autonomous Driving",
+      "authors": "Tianyi Jiang, Wen Zhang, Sihan Yang et al.",
+      "date": "2026-07-16",
+      "categories": ["cs.CV", "cs.AI", "cs.RO"],
       "score": 4,
-      "summary": "零样本VLN自动代客泊车框架，融合BEV空间感知+VLM通用智能，无需预建地图。短时记忆跟踪语义线索+长时拓扑记忆稳定策略学习。构建首个地下车库VLN-AVP数据集(10场景1000+episode)",
-      "analysis": "",
-      "status": "新发现"
+      "summary": "聚焦道路施工区的VLM规划挑战。提出Chain of Causation推理方法，显式建模施工场景中临时路标/锥桶/围栏间的因果链。构建RoadWorkQA数据集（15k+施工场景QA对），在zero-shot规划任务上准确率+15%",
+      "analysis": "e2e-autonomous-driving/analysis/2607.14727_WorkDrive.md",
+      "status": "已收录"
     },
     {
-      "id": "2607.16636",
-      "title": "PhyAgentOS: A Self-Evolving Operating System for Embodied Agents with Decoupled Cognitive Planning and Physical Execution",
-      "authors": "Yang Liu, Weixing Chen, Xinshuai Song et al.",
-      "date": "2026-07-18",
-      "categories": [
-        "cs.RO"
-      ],
+      "id": "2607.14203",
+      "title": "Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation",
+      "authors": "NVIDIA, Jiahui Huang et al.",
+      "date": "2026-07-15",
+      "categories": ["cs.CV"],
+      "score": 4,
+      "summary": "NVIDIA提出的前馈式3D高斯场景重建方法，无需逐场景优化即可从单次前向传播重建驾驶场景。支持端到端策略评估的仿真平台构建，相比NeRF方法速度提升1000x+",
+      "analysis": "",
+      "status": "已收录"
+    },
+    {
+      "id": "2607.14005",
+      "title": "M4World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming",
+      "authors": "Ke Cheng, Hanqiao Ye, Lei Shi et al.",
+      "date": "2026-07-15",
+      "categories": ["cs.CV", "cs.LG", "cs.RO"],
+      "score": 5,
+      "summary": "多视角多模态驾驶世界模型：支持交互式物体操作（添加/移除/移动车辆行人）+ 分钟级长视频流稳定生成。联合合成未来环视图视频流与同步LiDAR扫描，物体级操控通过3D感知特征注入实现，长时稳定性通过时序记忆bank保障",
+      "analysis": "world-models-ad/analysis/2026-07-16_M4World.md",
+      "status": "已收录"
+    },
+    {
+      "id": "2607.13927",
+      "title": "Cyclone: Diffusion Model for Cycle-Consistent Weather Editing from Unpaired Driving Data",
+      "authors": "Thang-Anh-Quan Nguyen, Moussab Bennehar, Luis Guillermo Roldao Jimenez et al.",
+      "date": "2026-07-15",
+      "categories": ["cs.CV"],
       "score": 3,
-      "summary": "具身智能体OS运行时基座，解耦认知规划与物理执行。Session-Centered Runtime + State-as-a-File协议，支持VLA/世界模型/agentic planner统一调度与验证。19+模拟和实体embodiment验证",
+      "summary": "循环一致性扩散模型用于驾驶数据天气编辑（晴→雨/雪/雾），无需配对数据。Cycle-consistent训练策略保证编辑前后场景结构一致，支持感知模型鲁棒性增强训练",
+      "analysis": "",
+      "status": "已收录"
+    },
+    {
+      "id": "2607.14710",
+      "title": "Variational Inference for Bird's Eye View Segmentation in Autonomous Driving",
+      "authors": "Jingyue Shi, Huaicheng Li, Junhui Zhao, Yanxiang Jiang",
+      "date": "2026-07-16",
+      "categories": ["cs.CV"],
+      "score": 3,
+      "summary": "变分推断方法用于BEV分割，将多相机融合建模为概率推断问题。通过变分分布近似多视角不确定性，在nuScenes BEV分割任务上优于确定性方法",
+      "analysis": "",
+      "status": "新发现"
+    },
+    {
+      "id": "2607.13481",
+      "title": "GPOcc++: Unified Sparse Gaussian Occupancy Prediction with Visual Geometry Priors",
+      "authors": "Changqing Zhou, Yueru Luo, Yulan Guo et al.",
+      "date": "2026-07-14",
+      "categories": ["cs.CV"],
+      "score": 3,
+      "summary": "统一稀疏高斯3D占用预测框架，结合视觉几何先验（深度、位姿）提升遮挡区域预测质量。稀疏高斯表示避免密集体素计算浪费，在Occ3D-nuScenes上达到SOTA",
+      "analysis": "",
+      "status": "新发现"
+    },
+    {
+      "id": "2607.12858",
+      "title": "LARAD: Layout-Aware Road Anomaly Detection via Spatial-Logic Reasoning",
+      "authors": "Shiyi Mu, Xujie Chen, Shugong Xu",
+      "date": "2026-07-14",
+      "categories": ["cs.CV"],
+      "score": 3,
+      "summary": "布局感知的道路异常检测：利用空间逻辑推理（如'物体不应出现在车道中间'）替代纯纹理novelty检测，大幅降低OoD误报。无需级联大视觉模型，推理延迟可控",
+      "analysis": "",
+      "status": "新发现"
+    },
+    {
+      "id": "2607.12419",
+      "title": "DeGuNet: Depth-Guided Ultra-Compact Backbones for Efficient LiDAR-Camera 3D Detection",
+      "authors": "Haifa Zhang, Yijing Wang, Peixi Peng, Zhiqiang Zuo",
+      "date": "2026-07-14",
+      "categories": ["cs.CV"],
+      "score": 3,
+      "summary": "深度引导的超紧凑主干网络用于高效LiDAR-相机3D检测。通过深度先验压缩视觉backbone参数量，解决2D预训练主干与3D稀疏点云的结构错配问题",
+      "analysis": "",
+      "status": "新发现"
+    },
+    {
+      "id": "2607.12293",
+      "title": "ADAPT: Adaptive Cross-Modal Fusion with Sparse Attention for Pedestrian Crossing Intention Prediction",
+      "authors": "Md Mahfuzur Rahman, Pengzhan Zhou, A F M Abdun Noor et al.",
+      "date": "2026-07-14",
+      "categories": ["cs.CV", "cs.LG"],
+      "score": 3,
+      "summary": "自适应域感知跨模态融合模型用于行人过街意图预测。稀疏注意力机制选择性融合视觉+运动学信息，减少冗余跨模态交互。在PIE/PJA数据集上达到SOTA",
+      "analysis": "",
+      "status": "新发现"
+    },
+    {
+      "id": "2607.16181",
+      "title": "Vision-Language Assistant for Emotional Reactions to Risky Driving",
+      "authors": "Harine Choi, Eun Hak Lee, Zhengzhong Tu",
+      "date": "2026-07-17",
+      "categories": ["cs.CV", "cs.AI"],
+      "score": 3,
+      "summary": "VLM驱动的危险驾驶行为检测与情感回应生成系统。检测路面风险行为并生成拟人化情感反馈，探索VLM在人机交互中的情感角色",
       "analysis": "",
       "status": "新发现"
     }

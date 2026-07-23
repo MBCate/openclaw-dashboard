@@ -1,53 +1,89 @@
 {
-  "date": "2026-07-22",
-  "time": "15:05",
-  "source": "web_fetch+tradingeconomics+akshare",
+  "date": "2026-07-23",
+  "time": "11:35",
+  "source": "akshare",
   "indices": {
     "上证指数": {
-      "price": 3861.82,
-      "change_pct": -0.07,
-      "change": -2.55
+      "price": 3859.69,
+      "change_pct": -0.19,
+      "change": -7.35,
+      "volume": 354701992,
+      "amount": 6811.83
     },
     "深证成指": {
-      "price": 14323.00,
-      "change_pct": 0.40,
-      "change": 57.50
+      "price": 14035.01,
+      "change_pct": -0.19,
+      "change": -26.43,
+      "volume": 39205826927,
+      "amount": 7748.11
     },
     "创业板指": {
-      "price": 3676.50,
-      "change_pct": -0.35,
-      "change": -12.90
+      "price": 3555.09,
+      "change_pct": -0.33,
+      "change": -11.64,
+      "volume": 11197412632,
+      "amount": 3399.89
     },
     "沪深300": {
-      "price": 4713.00,
-      "change_pct": -0.56,
-      "change": -26.50
+      "price": 4707.96,
+      "change_pct": -0.2,
+      "change": -9.29,
+      "volume": 158893366,
+      "amount": 4979.64
     }
   },
   "north_flow": {
-    "total_turnover_billion": 2414.97,
-    "market_share_pct": 12.76,
-    "sh_top_stocks": ["贵州茅台 25.64亿", "三一重工 14.96亿", "招商银行 14.51亿"],
-    "sz_top_stocks": ["宁德时代 47.58亿", "中际旭创 22.68亿", "比亚迪 16.32亿"]
+    "date": "2026-07-23",
+    "沪股通": 0.0,
+    "深股通": 0.0,
+    "total": 0.0
   },
-  "total_amount_billion": 18926.0,
-  "market_sentiment": "震荡分化，上证承压，深市偏强",
   "sectors": {
-    "top_gainers": [
-      {"name": "保险", "change_pct": 5.6},
-      {"name": "油气开采及服务", "change_pct": 4.1},
-      {"name": "煤炭开采加工", "change_pct": 2.8},
-      {"name": "证券", "change_pct": 0.3},
-      {"name": "电力", "change_pct": 1.5}
+    "top5": [
+      {
+        "name": "锂",
+        "change_pct": 6.86
+      },
+      {
+        "name": "白银",
+        "change_pct": 6.82
+      },
+      {
+        "name": "输变电设备",
+        "change_pct": 6.69
+      },
+      {
+        "name": "油气及炼化工程",
+        "change_pct": 6.33
+      },
+      {
+        "name": "能源金属",
+        "change_pct": 5.96
+      }
     ],
-    "top_losers": [
-      {"name": "医疗器械", "change_pct": -3.6},
-      {"name": "石油加工贸易", "change_pct": -4.4},
-      {"name": "养殖业", "change_pct": -1.5},
-      {"name": "化学制药", "change_pct": -1.2},
-      {"name": "食品加工制造", "change_pct": -3.8}
+    "bottom5": [
+      {
+        "name": "半导体",
+        "change_pct": -3.72
+      },
+      {
+        "name": "集成电路封测",
+        "change_pct": -4.74
+      },
+      {
+        "name": "半导体设备",
+        "change_pct": -4.78
+      },
+      {
+        "name": "会展服务",
+        "change_pct": -5.01
+      },
+      {
+        "name": "集成电路制造",
+        "change_pct": -5.52
+      }
     ]
   },
-  "theme_hotspots": ["先进封装(30涨停)", "MiniLED(29涨停)", "F5G概念(28涨停)", "通信技术(26涨停)", "CPO(23涨停)"],
-  "notes": "先进封装领涨科技链，半导体216亿回流；涨停宽度大但接力偏弱(1→2仅6.5%)；美伊冲突升级抑制风险偏好，能源股逆势走强"
+  "total_amount_billion": 22939.47,
+  "market_sentiment": "震荡偏弱"
 }

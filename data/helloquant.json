@@ -1,27 +1,94 @@
 {
-  "date": "2026-07-22",
-  "time": "15:05",
+  "date": "2026-07-23",
+  "timestamp": "2026-07-23 15:00 CST",
+  "source": "helloquant/daily_raw.json (2026-07-14 data)",
+  "note": "HelloQuant latest data is from 2026-07-14. No new data for today.",
   "strategies": {
-    "double_ma": {"status": "idle", "note": "回测框架，未启动实盘"},
-    "triple_ma": {"status": "idle", "note": "回测框架，未启动实盘"},
-    "supertrend": {"status": "idle", "note": "回测框架，未启动实盘"},
-    "rsi": {"status": "idle", "note": "回测框架，未启动实盘"},
-    "macd": {"status": "idle", "note": "回测框架，未启动实盘"},
-    "bollinger": {"status": "idle", "note": "回测框架，未启动实盘"},
-    "momentum": {"status": "idle", "note": "回测框架，未启动实盘"},
-    "mean_reversion": {"status": "idle", "note": "回测框架，未启动实盘"}
+    "DoubleMa": {
+      "status": "optimized",
+      "params": {
+        "fast": 6,
+        "slow": 55
+      },
+      "sharpe": 0.23,
+      "max_dd": -3.68
+    },
+    "TripleMa": {
+      "status": "awaiting_data"
+    },
+    "Supertrend": {
+      "status": "awaiting_data"
+    },
+    "RSI": {
+      "status": "awaiting_data"
+    },
+    "MACD": {
+      "status": "awaiting_data"
+    },
+    "Bollinger": {
+      "status": "awaiting_data"
+    },
+    "Momentum": {
+      "status": "awaiting_data"
+    },
+    "MeanReversion": {
+      "status": "awaiting_data"
+    }
   },
-  "last_daily_report": {
-    "date": "2026-07-14",
-    "status": "partial",
-    "crypto": "error (OKX API)",
-    "stocks": "success",
-    "sentiment": "Fear & Greed Index: 22 (Extreme Fear)"
+  "stock_market": {
+    "上证指数": {
+      "price": 3967.1262,
+      "change": 1.363,
+      "volume": 579982052.0
+    },
+    "深证成指": {
+      "price": 14924.868,
+      "change": 2.768
+    },
+    "创业板指": {
+      "price": 3851.137,
+      "change": 3.427
+    },
+    "沪金主力": {
+      "price": 885.94,
+      "change": -1.34,
+      "date": "2026-07-13"
+    },
+    "沪银主力": {
+      "price": 14135.0,
+      "change": -3.55,
+      "date": "2026-07-13"
+    },
+    "沪铜主力": {
+      "price": 103060.0,
+      "change": -0.63,
+      "date": "2026-07-13"
+    },
+    "螺纹钢主力": {
+      "price": 3054.0,
+      "change": -1.07,
+      "date": "2026-07-13"
+    },
+    "沪深300期货": {
+      "price": 4634.6,
+      "change": -1.49,
+      "date": "2026-07-13"
+    },
+    "中证500期货": {
+      "price": 8021.6,
+      "change": -3.74,
+      "date": "2026-07-13"
+    },
+    "50ETF波动率": {
+      "value": 21.64,
+      "date": "2026-07-13"
+    }
   },
-  "backtest_available": {
-    "symbols": ["BTC/USDT"],
-    "timeframes": ["1h"],
-    "latest_report": "2026-01-04"
-  },
-  "update_note": "所有策略仍为回测框架状态，无实盘信号"
+  "fear_greed": {
+    "crypto_fear_greed": {
+      "value": 22,
+      "classification": "Extreme Fear",
+      "timestamp": "1783987200"
+    }
+  }
 }

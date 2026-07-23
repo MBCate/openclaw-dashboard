@@ -1,89 +1,153 @@
 {
   "date": "2026-07-23",
-  "time": "11:35",
-  "source": "akshare",
+  "timestamp": "2026-07-23 15:00 CST",
   "indices": {
     "上证指数": {
-      "price": 3859.69,
-      "change_pct": -0.19,
-      "change": -7.35,
-      "volume": 354701992,
-      "amount": 6811.83
+      "price": 3876.7774,
+      "change": 9.74,
+      "change_pct": 0.25,
+      "high": 3878.8318,
+      "low": 3851.7058,
+      "amount_yi": 10258.8
     },
     "深证成指": {
-      "price": 14035.01,
-      "change_pct": -0.19,
-      "change": -26.43,
-      "volume": 39205826927,
-      "amount": 7748.11
+      "price": 14123.307,
+      "change": 61.87,
+      "change_pct": 0.44,
+      "high": 14203.635,
+      "low": 13991.83,
+      "amount_yi": 11694.3
     },
     "创业板指": {
-      "price": 3555.09,
-      "change_pct": -0.33,
-      "change": -11.64,
-      "volume": 11197412632,
-      "amount": 3399.89
+      "price": 3575.52,
+      "change": 8.79,
+      "change_pct": 0.25,
+      "high": 3621.728,
+      "low": 3538.106,
+      "amount_yi": 5163.3
     },
     "沪深300": {
-      "price": 4707.96,
-      "change_pct": -0.2,
-      "change": -9.29,
-      "volume": 158893366,
-      "amount": 4979.64
+      "price": 4728.0018,
+      "change": 10.76,
+      "change_pct": 0.23,
+      "high": 4737.5092,
+      "low": 4698.8717,
+      "amount_yi": 7418.2
+    },
+    "科创50": {
+      "price": 1789.6941,
+      "change": -70.39,
+      "change_pct": -3.78,
+      "high": 1876.9857,
+      "low": 1770.5321,
+      "amount_yi": 1391.9
     }
   },
-  "north_flow": {
-    "date": "2026-07-23",
-    "沪股通": 0.0,
-    "深股通": 0.0,
-    "total": 0.0
-  },
   "sectors": {
-    "top5": [
+    "top_gainers": [
       {
-        "name": "锂",
-        "change_pct": 6.86
+        "name": "纺织鞋类制造",
+        "change_pct": 0.3,
+        "amount_yi": 0.0
       },
       {
-        "name": "白银",
-        "change_pct": 6.82
+        "name": "垂直应用软件",
+        "change_pct": 0.29,
+        "amount_yi": 0.0
       },
       {
-        "name": "输变电设备",
-        "change_pct": 6.69
+        "name": "彩电",
+        "change_pct": 0.27,
+        "amount_yi": 0.0
       },
       {
-        "name": "油气及炼化工程",
-        "change_pct": 6.33
+        "name": "其他医疗服务",
+        "change_pct": 0.09,
+        "amount_yi": 0.0
       },
       {
-        "name": "能源金属",
-        "change_pct": 5.96
+        "name": "生猪养殖",
+        "change_pct": 0.09,
+        "amount_yi": 0.0
+      },
+      {
+        "name": "专业连锁Ⅱ",
+        "change_pct": 0.09,
+        "amount_yi": 0.0
+      },
+      {
+        "name": "专业连锁Ⅲ",
+        "change_pct": 0.09,
+        "amount_yi": 0.0
+      },
+      {
+        "name": "游戏Ⅱ",
+        "change_pct": 0.09,
+        "amount_yi": 0.0
+      },
+      {
+        "name": "游戏Ⅲ",
+        "change_pct": 0.09,
+        "amount_yi": 0.0
+      },
+      {
+        "name": "门户网站",
+        "change_pct": 0.07,
+        "amount_yi": 0.0
       }
     ],
-    "bottom5": [
+    "top_losers": [
+      {
+        "name": "电子化学品Ⅲ",
+        "change_pct": -1.73,
+        "amount_yi": -0.0
+      },
+      {
+        "name": "分立器件",
+        "change_pct": -1.86,
+        "amount_yi": -0.0
+      },
+      {
+        "name": "半导体材料",
+        "change_pct": -2.53,
+        "amount_yi": -0.0
+      },
+      {
+        "name": "模拟芯片设计",
+        "change_pct": -3.01,
+        "amount_yi": -0.0
+      },
+      {
+        "name": "数字芯片设计",
+        "change_pct": -3.17,
+        "amount_yi": -0.0
+      },
       {
         "name": "半导体",
-        "change_pct": -3.72
-      },
-      {
-        "name": "集成电路封测",
-        "change_pct": -4.74
-      },
-      {
-        "name": "半导体设备",
-        "change_pct": -4.78
+        "change_pct": -3.26,
+        "amount_yi": -0.0
       },
       {
         "name": "会展服务",
-        "change_pct": -5.01
+        "change_pct": -3.63,
+        "amount_yi": -0.0
+      },
+      {
+        "name": "集成电路封测",
+        "change_pct": -4.31,
+        "amount_yi": -0.0
+      },
+      {
+        "name": "半导体设备",
+        "change_pct": -4.58,
+        "amount_yi": -0.0
       },
       {
         "name": "集成电路制造",
-        "change_pct": -5.52
+        "change_pct": -5.32,
+        "amount_yi": -0.0
       }
     ]
   },
-  "total_amount_billion": 22939.47,
-  "market_sentiment": "震荡偏弱"
+  "north_flow": "Proxy unavailable, see eastmoney.com"
 }

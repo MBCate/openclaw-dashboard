@@ -1,57 +1,99 @@
 {
-  "updated": "2026-07-23T21:30:00+08:00",
-  "date": "2026-07-23",
+  "updated": "2026-07-24T09:15:00+08:00",
+  "date": "2026-07-24",
   "us_markets": {
-    "title": "美股市场 — 7月22日收盘",
-    "dow_jones": { "value": 52219, "change": "-0.1%", "note": "周二小幅回落，财报前夕" },
-    "sp500": { "value": 5580, "change": "-0.1%", "note": "标普500微跌" },
-    "nasdaq": { "value": 18530, "change": "-0.6%", "note": "科技股承压，芯片股回吐" },
-    "futures_indicative": "S&P 500期货 -0.2%，Nasdaq 100期货 -0.4% (7月23日盘前)",
-    "treasury_yield_10y": "4.12%（参考近期水平）",
-    "source": "WSJ, CNBC"
+    "title": "美股市场 — 7月23日收盘",
+    "dow_jones": {
+      "value": 51712,
+      "change": "-0.97%",
+      "note": "科技股拖累，关税忧虑升温"
+    },
+    "sp500": {
+      "value": 7408,
+      "change": "-1.21%",
+      "note": "AI板块抛售 + 油价飙升压制"
+    },
+    "nasdaq": {
+      "value": 25138,
+      "change": "-2.15%",
+      "note": "科技股重挫，Q2财报分化"
+    },
+    "futures_indicative": "S&P 500期货盘后小幅反弹 +0.3%（亚洲早盘）",
+    "treasury_yield_10y": "4.14%（隔夜上行）",
+    "source": "Yahoo Finance, CNBC"
   },
   "hk_markets": {
     "title": "港股市场 — 7月23日收盘",
-    "hang_seng": { "value": 25210.81, "change": "+1.28%", "detail": "建材、国防军工、有色领涨" },
-    "hang_seng_tech": { "value": null, "change": "+0.65%", "detail": "科技指数弱于大盘" },
+    "hang_seng": {
+      "value": 25210.81,
+      "change": "+1.28%",
+      "detail": "建材、国防军工、有色领涨"
+    },
+    "hang_seng_tech": {
+      "value": null,
+      "change": "+0.65%",
+      "detail": "科技指数弱于大盘"
+    },
     "turnover": "2335亿港元（缩量反弹）",
     "southbound_flow": "净流出42.26亿港元",
     "source": "同花顺, 每经网"
   },
   "china_markets": {
-    "title": "A股市场 — 7月23日收盘",
-    "shanghai_composite": { "value": 3876.78, "change": "+0.25%", "high": 3878.83, "low": 3851.71 },
+    "title": "A股市场 — 7月23日收盘（7月24日早盘预判）",
+    "shanghai_composite": {
+      "value": 3876.78,
+      "change": "+0.25%",
+      "high": 3878.83,
+      "low": 3851.71
+    },
     "turnover": "10258.76亿元",
-    "note": "窄幅震荡，小幅收涨",
-    "source": "新浪财经"
+    "note": "隔夜外围承压，今日A股或低开震荡。重点关注：原油产业链、军工、黄金板块",
+    "source": "Wind, 新浪财经"
   },
   "commodities": {
-    "title": "大宗商品 — 7月23日",
-    "brent_crude": { "value": 94.29, "change": "+大", "note": "布伦特原油突破$94，Houthi袭击沙特油轮推动；盘中一度触及$100" },
-    "wti_crude": { "value": 89.01, "change": "+", "note": "WTI逼近$90" },
-    "source": "Bloomberg, Forbes, Vantage Markets"
+    "title": "大宗商品 — 7月24日早盘",
+    "brent_crude": {
+      "value": 100.04,
+      "change": "-0.65%",
+      "note": "布伦特原油仍运行在00附近，地缘溢价持续"
+    },
+    "wti_crude": {
+      "value": 91.55,
+      "change": "-0.69%",
+      "note": "WTI 1.55，小幅回调但维持高位"
+    },
+    "gold": {
+      "value": 4045.4,
+      "change": "-0.12%",
+      "note": "黄金045，避险需求支撑"
+    },
+    "source": "Yahoo Finance, Bloomberg"
   },
   "crypto": {
-    "title": "加密市场 — 7月23日",
-    "bitcoin": { "value": 65673.59, "change_24h": "-0.29%", "change_7d": "+2.45%" },
-    "ethereum": { "value": 1925.09, "change_24h": "+0.12%", "change_7d": "+2.11%" },
-    "solana": { "value": 77.51, "change_24h": "+0.10%", "change_7d": "+1.84%" },
-    "xrp": { "value": 1.13, "change_24h": "-0.03%", "change_7d": "+2.48%" },
-    "bnb": { "value": 569.24, "change_24h": "-0.23%", "change_7d": "-1.40%" },
-    "hyperliquid": { "value": 59.23, "change_7d": "-10.27%", "note": "本周跌幅最大的前12资产" },
-    "note": "CLARITY Act通过概率降至48%，市场窄幅整理",
-    "source": "BlockchainReporter"
+    "title": "加密市场 — 7月24日早盘",
+    "bitcoin": {
+      "value": 65036,
+      "change_24h": "-0.02%",
+      "change_7d": "-0.97%"
+    },
+    "ethereum": {
+      "value": 1874,
+      "change_24h": "-0.18%",
+      "change_7d": "-2.65%"
+    },
+    "note": "BTC 5,036，ETH ,874。市场风险偏好下降，加密跟随美股承压。CLARITY Act博弈持续",
+    "source": "Yahoo Finance"
   },
   "news": {
-    "title": "要闻速览",
+    "title": "隔夜要闻（7月23-24日）",
     "items": [
-      "📉 道指期货暴跌600点，布伦特原油突破$100，Alphabet/Tesla财报后下跌（CNBC）",
-      "🛢️ 布伦特原油两月来首破$100 — Houthi袭击沙特油轮，伊朗供应风险升级（Bloomberg）",
-      "📋 美国初请失业金人数降至1969年以来最低（Bloomberg）",
-      "🏛️ 特朗普签署沙特民用核协议，将提交国会审议（CNBC）",
-      "📊 通胀波动性回归，可能触发盈利失望与信用利差扩大（Bloomberg/MacroScope）",
-      "🇺🇸 美国将对Houthi袭击事件追究伊朗责任（CNBC）"
+      "📉 美股重挫：S&P 500 -1.21%，NASDAQ -2.15%。英特尔财报营收大超预期+10%，但AI板块整体遭抛售（CNBC）",
+      "🛢️ 布伦特原油盘中突破00后小幅回落至00.04，Houthi袭击沙特油轮持续影响供应（Bloomberg）",
+      "🇺🇸 特朗普宣布将对60个贸易伙伴征收全面新关税，全球贸易担忧加剧（CNBC）",
+      "🏛️ 美国与沙特签署民用核协议，将提交国会审议；PBoC五个月内最大规模流动性投放支持经济（CNBC / Bloomberg）",
+      "🇯🇵 日本6月核心CPI从4年低位回升至2.2%，油价上涨传导，日元逼近165（CNBC / Bloomberg）",
+      "📋 S&P 500闪现卖出信号，期权市场押注苹果、Meta、微软将出现大幅波动（MarketWatch）"
     ]
   },
-  "summary": "风险情绪降温，原油飙升主导全场。美股盘前期货下跌（S&P -0.2%, Nasdaq -0.4%），受AI支出担忧及油价暴涨压制。A股窄幅收涨0.25%，港股反弹1.28%但缩量。加密市场横盘，BTC $65,673，ETH $1,925。布伦特原油突破$100后回落至$94，地缘风险是最大变量。"
+  "summary": "🌅 早盘预览：隔夜美股受关税冲击+AI板块抛售双重打压大跌，S&P 500失守7400（-1.21%），NASDAQ跌幅达2.15%。布伦特原油仍守00上方，地缘溢价持续。亚洲盘日经/恒指期货承压，A股今日预计低开。利好方面：PBoC大规模投放流动性，日本通胀温和上行暗示内需改善。关注A股低开幅度及原油链/军工/黄金板块表现。"
 }

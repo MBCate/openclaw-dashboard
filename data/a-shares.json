@@ -1,153 +1,102 @@
 {
-  "date": "2026-07-23",
-  "timestamp": "2026-07-23 15:00 CST",
-  "indices": {
-    "上证指数": {
-      "price": 3876.7774,
-      "change": 9.74,
-      "change_pct": 0.25,
-      "high": 3878.8318,
-      "low": 3851.7058,
-      "amount_yi": 10258.8
+  "timestamp": "2026-07-24 11:35",
+  "date": "2026-07-24",
+  "period": "noon",
+  "indices": [
+    {
+      "name": "上证指数",
+      "code": "000001",
+      "price": 3830.19,
+      "change": -46.59,
+      "pct": -1.2
     },
-    "深证成指": {
-      "price": 14123.307,
-      "change": 61.87,
-      "change_pct": 0.44,
-      "high": 14203.635,
-      "low": 13991.83,
-      "amount_yi": 11694.3
+    {
+      "name": "深证成指",
+      "code": "399001",
+      "price": 13873.5,
+      "change": -249.81,
+      "pct": -1.77
     },
-    "创业板指": {
-      "price": 3575.52,
-      "change": 8.79,
-      "change_pct": 0.25,
-      "high": 3621.728,
-      "low": 3538.106,
-      "amount_yi": 5163.3
+    {
+      "name": "创业板指",
+      "code": "399006",
+      "price": 3511.75,
+      "change": -63.77,
+      "pct": -1.78
     },
-    "沪深300": {
-      "price": 4728.0018,
-      "change": 10.76,
-      "change_pct": 0.23,
-      "high": 4737.5092,
-      "low": 4698.8717,
-      "amount_yi": 7418.2
+    {
+      "name": "沪深300",
+      "code": "399300",
+      "price": 4672.64,
+      "change": -55.36,
+      "pct": -1.17
     },
-    "科创50": {
-      "price": 1789.6941,
-      "change": -70.39,
-      "change_pct": -3.78,
-      "high": 1876.9857,
-      "low": 1770.5321,
-      "amount_yi": 1391.9
+    {
+      "name": "恒生指数",
+      "code": "HSI",
+      "price": 25031.34,
+      "change": -179.47,
+      "pct": -0.71
     }
-  },
-  "sectors": {
-    "top_gainers": [
+  ],
+  "industry_boards": {
+    "top": [
       {
-        "name": "纺织鞋类制造",
-        "change_pct": 0.3,
-        "amount_yi": 0.0
-      },
-      {
-        "name": "垂直应用软件",
-        "change_pct": 0.29,
-        "amount_yi": 0.0
-      },
-      {
-        "name": "彩电",
-        "change_pct": 0.27,
-        "amount_yi": 0.0
-      },
-      {
-        "name": "其他医疗服务",
-        "change_pct": 0.09,
-        "amount_yi": 0.0
-      },
-      {
-        "name": "生猪养殖",
-        "change_pct": 0.09,
-        "amount_yi": 0.0
-      },
-      {
-        "name": "专业连锁Ⅱ",
-        "change_pct": 0.09,
-        "amount_yi": 0.0
-      },
-      {
-        "name": "专业连锁Ⅲ",
-        "change_pct": 0.09,
-        "amount_yi": 0.0
-      },
-      {
-        "name": "游戏Ⅱ",
-        "change_pct": 0.09,
-        "amount_yi": 0.0
-      },
-      {
-        "name": "游戏Ⅲ",
-        "change_pct": 0.09,
-        "amount_yi": 0.0
-      },
-      {
-        "name": "门户网站",
-        "change_pct": 0.07,
-        "amount_yi": 0.0
-      }
-    ],
-    "top_losers": [
-      {
-        "name": "电子化学品Ⅲ",
-        "change_pct": -1.73,
-        "amount_yi": -0.0
-      },
-      {
-        "name": "分立器件",
-        "change_pct": -1.86,
-        "amount_yi": -0.0
-      },
-      {
-        "name": "半导体材料",
-        "change_pct": -2.53,
-        "amount_yi": -0.0
-      },
-      {
-        "name": "模拟芯片设计",
-        "change_pct": -3.01,
-        "amount_yi": -0.0
-      },
-      {
-        "name": "数字芯片设计",
-        "change_pct": -3.17,
-        "amount_yi": -0.0
-      },
-      {
-        "name": "半导体",
-        "change_pct": -3.26,
-        "amount_yi": -0.0
-      },
-      {
-        "name": "会展服务",
-        "change_pct": -3.63,
-        "amount_yi": -0.0
-      },
-      {
-        "name": "集成电路封测",
-        "change_pct": -4.31,
-        "amount_yi": -0.0
+        "name": "地面兵装",
+        "pct": 4.14
       },
       {
         "name": "半导体设备",
-        "change_pct": -4.58,
-        "amount_yi": -0.0
+        "pct": 2.57
       },
       {
-        "name": "集成电路制造",
-        "change_pct": -5.32,
-        "amount_yi": -0.0
+        "name": "航海装备",
+        "pct": 1.56
+      },
+      {
+        "name": "电信运营商",
+        "pct": 0.81
+      },
+      {
+        "name": "摩托车",
+        "pct": 0.52
+      }
+    ],
+    "bottom": [
+      {
+        "name": "其他数字媒体",
+        "pct": -6.37
+      },
+      {
+        "name": "文字媒体",
+        "pct": -5.68
+      },
+      {
+        "name": "会展服务",
+        "pct": -5.53
+      },
+      {
+        "name": "钼",
+        "pct": -5.43
+      },
+      {
+        "name": "黄金",
+        "pct": -5.05
       }
     ]
   },
-  "north_flow": "Proxy unavailable, see eastmoney.com"
+  "north_flow": {
+    "total_net": 0.0,
+    "sh_net": 0.0,
+    "sz_net": 0.0,
+    "unit": "亿元",
+    "note": "北向资金午盘净流入约0亿"
+  },
+  "market_flow": {
+    "main_net": -24.6,
+    "super_large": 19.97,
+    "large": 4.63,
+    "medium": -11.43,
+    "unit": "亿元"
+  }
 }

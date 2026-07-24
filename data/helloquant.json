@@ -1,19 +1,92 @@
 {
-  "timestamp": "2026-07-24 15:28:54",
+  "timestamp": "2026-07-24 17:00:00",
   "date": "2026-07-24",
+  "report_type": "weekly",
   "crypto": {
     "BTC": {
-      "price": 65628.2,
-      "change_24h": 0.2629243111031668
+      "price": 65130.4,
+      "change_24h": -0.77
     },
     "ETH": {
-      "price": 1897.96,
-      "change_24h": -0.9518839369585638
+      "price": 1884.63,
+      "change_24h": -2.05
     }
   },
   "fear_greed": {
     "value": 28,
     "label": "Fear"
+  },
+  "weekly_btc_backtest": {
+    "period": "2026-07-11 to 2026-07-24",
+    "avg_strategy_return": 2.85,
+    "active_strategies": 7,
+    "buy_hold_return": 1.45,
+    "strategies": {
+      "DoubleMa": {
+        "return": 4.57,
+        "sharpe": 7.65,
+        "max_dd": -1.49,
+        "win_rate": 100.0,
+        "trades": 7,
+        "excess_return": 3.13
+      },
+      "RSI": {
+        "return": 2.47,
+        "sharpe": 3.19,
+        "max_dd": -3.37,
+        "win_rate": 80.0,
+        "trades": 10,
+        "excess_return": 1.03
+      },
+      "MACD": {
+        "return": 5.43,
+        "sharpe": 7.50,
+        "max_dd": -2.25,
+        "win_rate": 37.5,
+        "trades": 17,
+        "excess_return": 3.98
+      },
+      "Bollinger": {
+        "return": 1.88,
+        "sharpe": 2.34,
+        "max_dd": -2.90,
+        "win_rate": 100.0,
+        "trades": 7,
+        "excess_return": 0.43
+      },
+      "Supertrend": {
+        "return": 0.00,
+        "sharpe": 0.00,
+        "max_dd": 0.00,
+        "win_rate": 0.0,
+        "trades": 0,
+        "excess_return": -1.45
+      },
+      "TripleMa": {
+        "return": 2.07,
+        "sharpe": 2.85,
+        "max_dd": -2.23,
+        "win_rate": 50.0,
+        "trades": 4,
+        "excess_return": 0.62
+      },
+      "Momentum": {
+        "return": 1.68,
+        "sharpe": 2.61,
+        "max_dd": -2.12,
+        "win_rate": 42.9,
+        "trades": 29,
+        "excess_return": 0.23
+      },
+      "MeanReversion": {
+        "return": 1.88,
+        "sharpe": 2.34,
+        "max_dd": -2.90,
+        "win_rate": 100.0,
+        "trades": 7,
+        "excess_return": 0.43
+      }
+    }
   },
   "strategies": {
     "双均线交叉": {
@@ -75,17 +148,17 @@
   },
   "stocks": {
     "上证指数": {
-      "price": 3814.1978,
-      "change": -1.614,
+      "price": 3814.20,
+      "change": -1.61,
       "volume": 508203905.0
     },
     "深证成指": {
-      "price": 13774.676,
-      "change": -2.468
+      "price": 13774.68,
+      "change": -2.47
     },
     "创业板指": {
       "price": 3480.87,
-      "change": -2.647
+      "change": -2.65
     },
     "沪金主力": {
       "price": 901.76,

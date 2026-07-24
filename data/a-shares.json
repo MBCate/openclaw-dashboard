@@ -1,102 +1,103 @@
 {
-  "timestamp": "2026-07-24 11:35",
+  "timestamp": "2026-07-24 15:28:54",
   "date": "2026-07-24",
-  "period": "noon",
-  "indices": [
-    {
-      "name": "上证指数",
-      "code": "000001",
-      "price": 3830.19,
-      "change": -46.59,
-      "pct": -1.2
+  "indices": {
+    "上证指数": {
+      "code": "000001.SS",
+      "price": 3814.198,
+      "change_pct": -1.37,
+      "change_amount": -52.83,
+      "high": 3861.04,
+      "low": 3808.636,
+      "volume": 3575750244
     },
-    {
-      "name": "深证成指",
-      "code": "399001",
-      "price": 13873.5,
-      "change": -249.81,
-      "pct": -1.77
+    "深证成指": {
+      "code": "399001.SZ",
+      "price": 13774.676,
+      "change_pct": -2.04,
+      "change_amount": -286.72,
+      "high": 14061.027,
+      "low": 13774.676,
+      "volume": 4159773064
     },
-    {
-      "name": "创业板指",
-      "code": "399006",
-      "price": 3511.75,
-      "change": -63.77,
-      "pct": -1.78
+    "创业板指": {
+      "code": "399006.SZ",
+      "price": 3480.87,
+      "change_pct": -2.65,
+      "change_amount": -94.65,
+      "high": 3561.3499,
+      "low": 3480.87,
+      "volume": 3301398572
     },
-    {
-      "name": "沪深300",
-      "code": "399300",
-      "price": 4672.64,
-      "change": -55.36,
-      "pct": -1.17
+    "沪深300": {
+      "code": "000300.SS",
+      "price": 4649.192,
+      "change_pct": -1.67,
+      "change_amount": -78.81,
+      "high": 4704.084,
+      "low": 4642.938,
+      "volume": 651284720
     },
-    {
-      "name": "恒生指数",
-      "code": "HSI",
-      "price": 25031.34,
-      "change": -179.47,
-      "pct": -0.71
+    "恒生指数": {
+      "code": "^HSI",
+      "price": 24889.71,
+      "change_pct": -1.27,
+      "change_amount": -321.1,
+      "high": 25031.34,
+      "low": 24812.5,
+      "volume": 0
     }
-  ],
-  "industry_boards": {
-    "top": [
-      {
-        "name": "地面兵装",
-        "pct": 4.14
-      },
+  },
+  "sectors": {
+    "top5": [
       {
         "name": "半导体设备",
-        "pct": 2.57
+        "change_pct": 3.18
       },
       {
-        "name": "航海装备",
-        "pct": 1.56
+        "name": "地面兵装Ⅲ",
+        "change_pct": 2.1
       },
       {
-        "name": "电信运营商",
-        "pct": 0.81
+        "name": "地面兵装Ⅱ",
+        "change_pct": 2.1
+      },
+      {
+        "name": "集成电路封测",
+        "change_pct": 1.87
       },
       {
         "name": "摩托车",
-        "pct": 0.52
+        "change_pct": 1.11
       }
     ],
-    "bottom": [
+    "bottom5": [
       {
-        "name": "其他数字媒体",
-        "pct": -6.37
+        "name": "房屋建设Ⅲ",
+        "change_pct": -1.93
       },
       {
-        "name": "文字媒体",
-        "pct": -5.68
+        "name": "房屋建设Ⅱ",
+        "change_pct": -1.93
       },
       {
-        "name": "会展服务",
-        "pct": -5.53
+        "name": "造纸",
+        "change_pct": -1.93
       },
       {
-        "name": "钼",
-        "pct": -5.43
+        "name": "物业管理",
+        "change_pct": -1.93
       },
       {
-        "name": "黄金",
-        "pct": -5.05
+        "name": "家用电器",
+        "change_pct": -1.94
       }
     ]
   },
   "north_flow": {
-    "total_net": 0.0,
-    "sh_net": 0.0,
-    "sz_net": 0.0,
-    "unit": "亿元",
-    "note": "北向资金午盘净流入约0亿"
-  },
-  "market_flow": {
-    "main_net": -24.6,
-    "super_large": 19.97,
-    "large": 4.63,
-    "medium": -11.43,
-    "unit": "亿元"
+    "status": "数据未更新，收盘后约15分钟可取",
+    "sh_net": 0,
+    "sz_net": 0,
+    "total_net": 0
   }
 }

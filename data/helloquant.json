@@ -1,94 +1,125 @@
 {
-  "date": "2026-07-23",
-  "timestamp": "2026-07-23 15:00 CST",
-  "source": "helloquant/daily_raw.json (2026-07-14 data)",
-  "note": "HelloQuant latest data is from 2026-07-14. No new data for today.",
-  "strategies": {
-    "DoubleMa": {
-      "status": "optimized",
-      "params": {
-        "fast": 6,
-        "slow": 55
-      },
-      "sharpe": 0.23,
-      "max_dd": -3.68
+  "timestamp": "2026-07-24 15:28:54",
+  "date": "2026-07-24",
+  "crypto": {
+    "BTC": {
+      "price": 65628.2,
+      "change_24h": 0.2629243111031668
     },
-    "TripleMa": {
-      "status": "awaiting_data"
-    },
-    "Supertrend": {
-      "status": "awaiting_data"
-    },
-    "RSI": {
-      "status": "awaiting_data"
-    },
-    "MACD": {
-      "status": "awaiting_data"
-    },
-    "Bollinger": {
-      "status": "awaiting_data"
-    },
-    "Momentum": {
-      "status": "awaiting_data"
-    },
-    "MeanReversion": {
-      "status": "awaiting_data"
-    }
-  },
-  "stock_market": {
-    "上证指数": {
-      "price": 3967.1262,
-      "change": 1.363,
-      "volume": 579982052.0
-    },
-    "深证成指": {
-      "price": 14924.868,
-      "change": 2.768
-    },
-    "创业板指": {
-      "price": 3851.137,
-      "change": 3.427
-    },
-    "沪金主力": {
-      "price": 885.94,
-      "change": -1.34,
-      "date": "2026-07-13"
-    },
-    "沪银主力": {
-      "price": 14135.0,
-      "change": -3.55,
-      "date": "2026-07-13"
-    },
-    "沪铜主力": {
-      "price": 103060.0,
-      "change": -0.63,
-      "date": "2026-07-13"
-    },
-    "螺纹钢主力": {
-      "price": 3054.0,
-      "change": -1.07,
-      "date": "2026-07-13"
-    },
-    "沪深300期货": {
-      "price": 4634.6,
-      "change": -1.49,
-      "date": "2026-07-13"
-    },
-    "中证500期货": {
-      "price": 8021.6,
-      "change": -3.74,
-      "date": "2026-07-13"
-    },
-    "50ETF波动率": {
-      "value": 21.64,
-      "date": "2026-07-13"
+    "ETH": {
+      "price": 1897.96,
+      "change_24h": -0.9518839369585638
     }
   },
   "fear_greed": {
-    "crypto_fear_greed": {
-      "value": 22,
-      "classification": "Extreme Fear",
-      "timestamp": "1783987200"
+    "value": 28,
+    "label": "Fear"
+  },
+  "strategies": {
+    "双均线交叉": {
+      "name_en": "DoubleMa",
+      "signals": {
+        "1h": "观望",
+        "4h": "做空"
+      }
+    },
+    "RSI相对强弱": {
+      "name_en": "RSI",
+      "signals": {
+        "1h": "做空",
+        "4h": "做多"
+      }
+    },
+    "MACD指标": {
+      "name_en": "MACD",
+      "signals": {
+        "1h": "观望",
+        "4h": "观望"
+      }
+    },
+    "布林带": {
+      "name_en": "Bollinger",
+      "signals": {
+        "1h": "做空",
+        "4h": "观望"
+      }
+    },
+    "超级趋势": {
+      "name_en": "Supertrend",
+      "signals": {
+        "1h": "观望",
+        "4h": "观望"
+      }
+    },
+    "三均线系统": {
+      "name_en": "TripleMa",
+      "signals": {
+        "1h": "观望",
+        "4h": "观望"
+      }
+    },
+    "动量策略": {
+      "name_en": "Momentum",
+      "signals": {
+        "1h": "做多",
+        "4h": "观望"
+      }
+    },
+    "均值回归": {
+      "name_en": "MeanReversion",
+      "signals": {
+        "1h": "做空",
+        "4h": "观望"
+      }
+    }
+  },
+  "stocks": {
+    "上证指数": {
+      "price": 3814.1978,
+      "change": -1.614,
+      "volume": 508203905.0
+    },
+    "深证成指": {
+      "price": 13774.676,
+      "change": -2.468
+    },
+    "创业板指": {
+      "price": 3480.87,
+      "change": -2.647
+    },
+    "沪金主力": {
+      "price": 901.76,
+      "change": 0.0,
+      "date": "2026-07-23"
+    },
+    "沪银主力": {
+      "price": 14614.0,
+      "change": 0.57,
+      "date": "2026-07-23"
+    },
+    "沪铜主力": {
+      "price": 105890.0,
+      "change": 0.07,
+      "date": "2026-07-23"
+    },
+    "螺纹钢主力": {
+      "price": 3085.0,
+      "change": 0.06,
+      "date": "2026-07-23"
+    },
+    "沪深300期货": {
+      "price": 4661.4,
+      "change": 0.29,
+      "date": "2026-07-23"
+    },
+    "中证500期货": {
+      "price": 7602.6,
+      "change": -0.11,
+      "date": "2026-07-23"
+    },
+    "50ETF波动率": {
+      "value": 18.15,
+      "date": "2026-07-23"
     }
   }
 }

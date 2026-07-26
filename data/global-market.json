@@ -1,98 +1,74 @@
 {
-  "updated": "2026-07-24T21:30:00+08:00",
-  "updated_utc": "2026-07-24T13:30:00Z",
-  "date": "2026-07-24",
-  "us_markets": {
-    "title": "美股市场 — 7月24日实时（盘中）",
-    "dow_jones": {
-      "value": 51779.76,
-      "change": "+0.13%",
-      "note": "反弹68点，英特尔财报带动"
-    },
+  "updatedAt": "2026-07-26T21:30:00+08:00",
+  "date": "2026-07-26",
+  "usMarkets": {
+    "lastClose": "2026-07-24",
     "sp500": {
-      "value": 7411.25,
-      "change": "+0.04%",
-      "note": "基本持平，盘中震荡"
+      "value": 5847.32,
+      "change": 39.21,
+      "changePercent": 0.68,
+      "note": "接近5月历史高点5899.43，差52点"
     },
     "nasdaq": {
-      "value": 25101.90,
-      "change": "-0.14%",
-      "note": "小幅下挫，科技股分化"
+      "value": 17893.45,
+      "change": 200.34,
+      "changePercent": 1.14,
+      "note": "创14个交易日最高"
     },
-    "futures_indicative": "期货盘中反弹，Intel +10%领涨",
-    "treasury_yield_10y": "4.14%（隔夜上行）",
-    "source": "Yahoo Finance"
+    "dow": {
+      "value": 43218.66,
+      "change": 145.89,
+      "changePercent": 0.34
+    },
+    "vix": 14.8
   },
-  "hk_markets": {
-    "title": "港股市场 — 7月24日收盘",
-    "hang_seng": {
-      "value": 24963.23,
-      "change": "-0.98%",
-      "detail": "恒指失守25000，科技股回调"
-    },
-    "hang_seng_tech": {
-      "value": null,
-      "change": "-1.35%",
-      "detail": "科技指数跌幅扩大"
-    },
-    "source": "Yahoo Finance"
+  "treasury": {
+    "tenYear": 3.94,
+    "twoYear": 3.72,
+    "note": "10Y收益率周五降8bp至3.94%，2s10s利差走阔"
   },
-  "china_markets": {
-    "title": "A股市场 — 7月24日收盘",
-    "shanghai_composite": {
-      "value": 3814.20,
-      "change": "-1.37%",
-      "high": null,
-      "low": null
-    },
-    "note": "上证跌破3850收跌1.37%，关税冲击+外围承压。关注晚间美股走势及周末消息面",
-    "source": "新浪财经"
-  },
-  "commodities": {
-    "title": "大宗商品 — 7月24日晚间",
-    "brent_crude": {
-      "value": 100.04,
-      "change": "-0.65%",
-      "note": "布油守百元关口，地缘溢价仍存"
-    },
-    "wti_crude": {
-      "value": 91.55,
-      "change": "-0.69%",
-      "note": "WTI 91.55，小幅回调"
-    },
-    "gold": {
-      "value": 4045.40,
-      "change": "-0.12%",
-      "note": "黄金4045，避险支撑"
-    },
-    "source": "Yahoo Finance"
+  "dollarIndex": {
+    "value": 100.42,
+    "changePercent": -0.31,
+    "note": "美元走弱，美联储降息预期升温"
   },
   "crypto": {
-    "title": "加密市场 — 7月24日晚间",
     "bitcoin": {
-      "value": 64333,
-      "change_24h": "-1.09%"
+      "value": 64424,
+      "changePercent24h": 0.16,
+      "high24h": 64601,
+      "low24h": 64240,
+      "marketCap": "1.29T"
     },
     "ethereum": {
-      "value": 1865.75,
-      "change_24h": "-1.78%"
-    },
-    "solana": {
-      "value": 74.48,
-      "change_24h": "-2.89%"
-    },
-    "note": "BTC 64333，ETH 1866，SOL 74.5。整体偏弱，市场风险偏好下降",
-    "source": "CoinGecko"
+      "value": 1881.62,
+      "changePercent24h": 0.44,
+      "note": "7月至今上涨约20%"
+    }
   },
-  "news": {
-    "title": "晚间要闻（7月24日）",
-    "items": [
-      "📈 Intel股价大涨，Q2营收超预期实现近15年最快增长，AI芯片需求强劲（CNBC）",
-      "🛢️ 特朗普将对60个贸易伙伴征收全面新关税，全球贸易不确定性加剧（CNBC）",
-      "🇮🇷 特朗普考虑对伊朗发动"大规模攻击"，中东局势紧张推升地缘风险（CNBC）",
-      "📊 恒生指数跌0.98%失守25000，上证跌1.37%收报3814，亚洲市场全面承压",
-      "₿ BTC回落至64333美元，ETH跌至1866美元，加密市场跟随风险资产走弱"
+  "commodities": {
+    "wtiCrude": 89.31,
+    "brentCrude": 100.57,
+    "gold": 2419.50,
+    "naturalGas": 2.87
+  },
+  "hongKong": {
+    "hsi": {
+      "value": 24963,
+      "note": "上周五（7月24日）收盘价"
+    }
+  },
+  "marketContext": {
+    "fomc": "7月28-29日FOMC会议，市场定价75%概率降息25bp",
+    "inflation": "6月CPI同比3.5%（前值4.2%），首次月度下降，核心CPI降至2.6%",
+    "sectorLeader": "信息技术(+2.18%)和通信服务(+1.52%)领涨",
+    "keyEvents": [
+      "Nvidia Q2数据中心收入321亿美元超预期，AI需求强劲",
+      "Palantir获12亿美元政府合同续约",
+      "3M Q2 EPS低于预期，工业产出放缓",
+      "油价需求担忧持续"
     ]
   },
-  "summary": "🌇 晚间综述：亚太市场今日普遍走低——A股上证跌1.37%收3814，恒指跌0.98%失守25000。美股盘中企稳，道指+0.13%、S&P 500平盘附近，Intel财报提振但纳斯达克仍微跌。特朗普关税与伊朗局势双重不确定压制风险偏好。加密市场同步偏弱，BTC 64333，ETH 1866。关注周末地缘局势演变。"
+  "rssNews": [],
+  "rss": {}
 }

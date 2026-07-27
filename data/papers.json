@@ -1,71 +1,50 @@
 {
-  "date": "2026-07-24",
-  "source": "arXiv Daily Scan (Jul 20-23 submissions)",
-  "total_papers": 11,
-  "new_discoveries": 11,
+  "date": "2026-07-27",
+  "source": "arXiv Daily Scan (Jul 22-26 submissions)",
+  "total_papers": 12,
+  "new_discoveries": 12,
   "papers": [
     {
-      "id": "2607.20175",
-      "title": "PerceptDrive: Perception Prior World-Action Modeling with Adaptive Expert Routing for End-to-End Autonomous Driving",
-      "authors": "Yushan Liu, Tianxiong Lv, Bohua Wang et al.",
-      "date": "2026-07-22",
+      "id": "2607.20988",
+      "title": "HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving",
+      "authors": "Zeqi Hao, Yuwen Xiong, Songyang Zhang et al.",
+      "date": "2026-07-23",
       "categories": ["cs.CV"],
       "score": 5,
-      "summary": "提出 PerceptDrive，感知先验世界-动作建模框架，利用冻结的感知基础模型(几何/语义/动态知识)。
-        自适应专家路由(Adaptive Expert Routing)根据场景动态调整各个感知专家贡献权重。
-        解决 prior-to-plan transfer 问题——感知前馈如何高效传导至规划模块。",
+      "summary": "提出混合世界-VLA框架 HyWorldVLA，统一像素级监督(pixel-level supervision)与潜在表示学习(latent representation learning)。
+        预训练阶段：预测视频VAE编码的潜在特征同时重建视频帧，提供精确像素级grounding。
+        协同微调阶段：仅预测潜在特征，输入动作专家生成轨迹。
+        在NAVSIM v1/v2上显著超越纯像素/纯潜在世界模型基线。
+        首次对自动驾驶世界模型噪声鲁棒性进行全面定性与定量分析。",
       "analysis": "",
       "status": "新发现"
     },
     {
-      "id": "2607.13926",
-      "title": "S-squared-VLA: Decoupling Semantic and Spatial Streams in Vision-Language-Action Models for Autonomous Driving",
-      "authors": "Jianguo Yu, Rukang Wang, Duanfeng Chu et al.",
-      "date": "2026-07-15",
-      "categories": ["cs.RO"],
-      "score": 5,
-      "summary": "提出语义-空间解耦VLA架构，解决语言token离散性与连续轨迹规划间的语义-物理gap。
-        语义流处理交通规则/意图推理，空间流直接生成连续轨迹，避免VLA中感知-控制混淆。
-        在nuScenes/Bench2Drive上验证，相比统一VLA规划精度+18%。",
-      "analysis": "",
-      "status": "新发现"
-    },
-    {
-      "id": "2607.19774",
-      "title": "Defer to Plan: Adaptive Multi-Agent Fusion for End-to-End V2X Driving",
-      "authors": "Nuoran Li, Zhang Zhang, Yueran Zhao et al.",
-      "date": "2026-07-22",
-      "categories": ["cs.RO"],
+      "id": "2607.21594",
+      "title": "WorldWeaver: Streaming Multi-Agent Video Diffusion with Cross-Agent World State Registers",
+      "authors": "Bohan Zhuang, Jingyun Wang, Ruihan Zhu et al.",
+      "date": "2026-07-23",
+      "categories": ["cs.CV", "cs.AI"],
       "score": 4,
-      "summary": "端到端V2X协同驾驶系统，直接优化规划任务性能而非仅优化感知模块。
-        MotionNetwork融合历史时序信息，注意力机制选择性聚合多车感知特征。
-        提出'defer to plan'理念——联合优化通信/融合/规划全链路。",
+      "summary": "提出 WorldWeaver (W^2)，流式多智能体视频扩散模型，引入交叉智能体世界状态寄存器。
+        可学习token存储共享世界信息、追踪个体智能体状态、动态更新。
+        Mixture-of-Transformers设计分离世界状态建模与视觉帧建模权重。
+        在两智能体Minecraft视频生成任务上验证，提升逻辑一致性与生成质量。
+        对多车交互场景的世界模型生成有借鉴意义。",
       "analysis": "",
       "status": "新发现"
     },
     {
-      "id": "2607.19701",
-      "title": "SafeGen: Goal-Conditioned Video Diffusion of Safety-Critical Scenarios for VLM-Based Autonomous Driving",
-      "authors": "Jiangfan Liu, Zexuan Cui, Tianyuan Zhang et al.",
-      "date": "2026-07-22",
+      "id": "2607.21526",
+      "title": "Boosting Robustness for All-Weather Self-Supervised Depth Estimation in Autonomous Driving",
+      "authors": "Yan Zhou, Zhaoxuan Liu, Xun Liu et al.",
+      "date": "2026-07-23",
       "categories": ["cs.CV"],
       "score": 4,
-      "summary": "目标条件视频扩散模型生成安全关键场景(弱势道路使用者交互)，用于VLM-AD安全评估。
-        相比仿真器pipeline，弥合sim-to-real差距，生成真实多样的人-车交互动态。
-        联合物体级编辑+场景级语义控制的条件框架。",
-      "analysis": "",
-      "status": "新发现"
-    },
-    {
-      "id": "2607.19528",
-      "title": "D3VL: Understanding Driving Scenes from 3D Time Series Data and Video with Language Models",
-      "authors": "Heesang Han, A. Lynn Abbott, Abhijit Sarkar",
-      "date": "2026-07-21",
-      "categories": ["cs.CV"],
-      "score": 4,
-      "summary": "将3D传感器(LiDAR/立体相机)数据与视频融合后输入MLLM进行驾驶场景理解。
-        应对LiDAR数据稀疏性和非网格结构带来融入MLLM的挑战。
-        探索3D时序数据与2D视频的多模态联合表示方法。",
+      "summary": "面向全天气自动驾驶的自监督深度估计鲁棒性提升方法。
+        Uncertainty-Aware Multi-Teacher Distillation：用多样天气条件输入生成不同教师模型，不确定性加权蒸馏。
+        POV-BEV Radar Fusion：利用相机像素射线约束建立POV与BEV间联系，利用更密集雷达点。
+        在全天气数据集上实现SOTA性能，代码开源。",
       "analysis": "",
       "status": "新发现"
     },
@@ -76,9 +55,79 @@
       "date": "2026-07-22",
       "categories": ["cs.CV"],
       "score": 4,
-      "summary": "渐进式多尺度高斯占用预测框架，将3D基元组织成粗到细层次。
-        避免高分辨率体素的显存瓶颈，支持大场景高分辨率3D占用推理。
-        在Occ3D-nuScenes等基准上实现精度-效率帕累托最优。",
+      "summary": "渐进式多尺度高斯占用预测框架，组织基元为粗到细层次(coarse-to-fine hierarchy)。
+        规避稠密表示的内存瓶颈，在0.1m空间分辨率下保持实时推理。
+        构建TJScenes全景六相机占用数据集，0.1m高分辨率标注。
+        在Occ3D-nuScenes和TJScenes上实现最低延迟、高竞争力精度。",
+      "analysis": "",
+      "status": "新发现"
+    },
+    {
+      "id": "2607.18637",
+      "title": "End-to-end Conditional Diffusion for Realistic and Controllable Visual Traffic Scenario Generation",
+      "authors": "Zhiyuan Lin, Hongyang Li, Chonghao Sima et al.",
+      "date": "2026-07-21",
+      "categories": ["cs.CV"],
+      "score": 4,
+      "summary": "端到端条件扩散框架 E2E-CDiff 用于可控交通场景生成。
+        联合去噪未来运动状态+可执行低级控制，统一状态-动作生成消除规划-控制不匹配。
+        可微引导控制速度/可行驶区域/碰撞规避或碰撞寻求行为。
+        支持自然场景和安全关键场景生成，兼顾可控性与真实性。",
+      "analysis": "",
+      "status": "新发现"
+    },
+    {
+      "id": "2607.19774",
+      "title": "Defer to Plan: Adaptive Multi-Agent Fusion for End-to-End V2X Driving",
+      "authors": "Nuoran Li, Zhang Zhang, Yueran Zhao et al.",
+      "date": "2026-07-22",
+      "categories": ["cs.RO"],
+      "score": 4,
+      "summary": "端到端V2X协同驾驶系统，直接优化规划任务性能而非仅感知模块。
+        MotionNetwork融合历史时序信息，注意力机制压缩空间特征为紧凑token。
+        Mixture-of-Experts增强异质特征表示能力。
+        闭环评估驾驶得分79.72，超越CoDriving基线3.33%。",
+      "analysis": "",
+      "status": "新发现"
+    },
+    {
+      "id": "2607.16938",
+      "title": "What Do They See? Interpreting Complex Road Scenes Through the Eyes of Vision-Language-Action Models",
+      "authors": "Ramtin Ghahremanlou, William Hadfield, Richard Bowden",
+      "date": "2026-07-18",
+      "categories": ["cs.CV", "cs.RO"],
+      "score": 4,
+      "summary": "提出反事实消融框架 CVAA (Counterfactual Vision Action Analysis)，系统移除前视图像中检测到的物体。
+        使用照片级生成修复创建反事实场景，评估物体对模型规划的因果效应。
+        在Alpamayo 1轨迹预测器上分析210个nuScenes场景，发现车辆/行人预期主导因果效应。
+        但发现模型可能对无关物体做出强烈响应，揭示模型内部编码可能与人类可理解特征不同。",
+      "analysis": "",
+      "status": "新发现"
+    },
+    {
+      "id": "2607.19528",
+      "title": "D3VL: Understanding Driving Scenes from 3D Time Series Data and Video with Language Models",
+      "authors": "Heesang Han, A. Lynn Abbott, Abhijit Sarkar",
+      "date": "2026-07-21",
+      "categories": ["cs.CV"],
+      "score": 4,
+      "summary": "将3D传感器数据(LiDAR/立体相机)与视频融合输入MLLM进行驾驶场景理解。
+        探索LiDAR点云稀疏性和非网格结构融入MLLM的挑战与解决方案。
+        推动端到端AD模型从2D视频理解迈向3D时序+视频多模态联合理解。",
+      "analysis": "",
+      "status": "新发现"
+    },
+    {
+      "id": "2607.21281",
+      "title": "HGeo-TopoMap: Hierarchically Boosted Topological Mapping via Geometric Prior and Spatial Consistency",
+      "authors": "Ying Yu, Chun Liu, Qi Chen et al.",
+      "date": "2026-07-23",
+      "categories": ["cs.CV"],
+      "score": 3,
+      "summary": "利用显式先验地图+隐式空间关系层次提升拓扑映射。
+        几何自适应学习模块：对IPM获得的路面结构图离散编码语义/空间特征，prior-mask注意力聚焦有效区域。
+        几何一致性学习模块：利用中心线几何属性与空间关系，对齐相同几何方向的中心线特征。
+        在OpenLane-V2车道拓扑基准上提升准确性。",
       "analysis": "",
       "status": "新发现"
     },
@@ -89,22 +138,10 @@
       "date": "2026-07-22",
       "categories": ["cs.RO"],
       "score": 3,
-      "summary": "提出 Diffusion ReRoll 框架，支持机器人时序预测中的可修正去噪。
-        选择性对已局部稳定的区域重新加噪，利用全局上下文继续精炼。
-        打破单调去噪限制，在长期轨迹预测任务上提升预测质量。",
-      "analysis": "",
-      "status": "新发现"
-    },
-    {
-      "id": "2607.20061",
-      "title": "ReferTrack: Referring Then Tracking for Embodied Visual Tracking",
-      "authors": "Hanjing Ye, Tianle Zeng, Jiazhao Zhang et al.",
-      "date": "2026-07-22",
-      "categories": ["cs.RO"],
-      "score": 3,
-      "summary": "提出 ReferTrack 孪生范式：先通过语言描述定位目标(referring)，再持续跟踪目标(tracking)。
-        将VLA策略的CoT推理解耦为显式的图像空间检测+追踪，提升可监督性和空间对齐。
-        在EVT基准上提升跟踪成功率，降低VLA策略的抽象空间推理失误。",
+      "summary": "提出Diffusion ReRoll，支持机器人时序预测的可修正去噪框架。
+        选择性对已局部稳定区域重新加噪，利用全局上下文继续精炼。
+        突破单调去噪限制，在OGBench/LIBERO上提升成功率56.5%。
+        方向：提升扩散policy的长时域一致性和纠错能力。",
       "analysis": "",
       "status": "新发现"
     },
@@ -115,9 +152,9 @@
       "date": "2026-07-22",
       "categories": ["cs.CV"],
       "score": 3,
-      "summary": "全图分配稳定器，通过帧间跟踪稳定BEV车道拓扑感知结果(LCLC输出)。
-        解决神经网络感知的不稳定性(漏检/假阳/拓扑断裂)，保持车道图时序一致性。
-        无需重新训练即可即插即用于现有车道拓扑预测器。",
+      "summary": "全图分配稳定器，通过帧间跟踪稳定BEV车道拓扑感知结果。
+        解决神经网络感知的不稳定性(漏检/假阳/拓扑断裂)。
+        无需重新训练即可即插即用，提升车道图时序一致性。",
       "analysis": "",
       "status": "新发现"
     },
@@ -129,21 +166,8 @@
       "categories": ["cs.RO", "cs.CV"],
       "score": 3,
       "summary": "零样本VLM导航框架用于自主代客泊车，无需预建地图。
-        融合VLM的零样本泛化能力+混合长短期记忆导航策略。
-        在未知停车场环境中实现开放式词汇目标导航。",
-      "analysis": "",
-      "status": "新发现"
-    },
-    {
-      "id": "2607.19850",
-      "title": "SOPD-SocialNav: Selective On-Policy Distillation for Vision-Language Social Navigation",
-      "authors": "Xinyu Zhang, Zishuo Wang, Ling Xiao",
-      "date": "2026-07-22",
-      "categories": ["cs.RO", "cs.AI"],
-      "score": 3,
-      "summary": "选择性在策略蒸馏框架，将大VLM的社会导航知识迁移到轻量级VLM。
-        在社交导航场景中，轻量VLM获得接近大VLM的复杂社会场景理解能力。
-        减少部署时的推理开销，同时保持社会行为的丰富性。",
+        融合VLM零样本泛化+混合长短期记忆导航策略。
+        在未知停车场实现开放式词汇目标导航。",
       "analysis": "",
       "status": "新发现"
     }

@@ -1,74 +1,128 @@
 {
-  "updatedAt": "2026-07-26T21:30:00+08:00",
-  "date": "2026-07-26",
-  "usMarkets": {
-    "lastClose": "2026-07-24",
+  "updated": "2026-07-28T13:32:15.152747+00:00",
+  "updated_local": "2026-07-28 06:30 PDT",
+  "date": "2026-07-28",
+  "us_markets": {
     "sp500": {
-      "value": 5847.32,
-      "change": 39.21,
-      "changePercent": 0.68,
-      "note": "接近5月历史高点5899.43，差52点"
-    },
-    "nasdaq": {
-      "value": 17893.45,
-      "change": 200.34,
-      "changePercent": 1.14,
-      "note": "创14个交易日最高"
+      "name": "S&P 500",
+      "value": 7402.67,
+      "change": -10.51,
+      "change_pct": -0.14
     },
     "dow": {
-      "value": 43218.66,
-      "change": 145.89,
-      "changePercent": 0.34
+      "name": "Dow Jones",
+      "value": 52500.0,
+      "change": 289.92,
+      "change_pct": 0.56
     },
-    "vix": 14.8
-  },
-  "treasury": {
-    "tenYear": 3.94,
-    "twoYear": 3.72,
-    "note": "10Y收益率周五降8bp至3.94%，2s10s利差走阔"
-  },
-  "dollarIndex": {
-    "value": 100.42,
-    "changePercent": -0.31,
-    "note": "美元走弱，美联储降息预期升温"
-  },
-  "crypto": {
-    "bitcoin": {
-      "value": 64424,
-      "changePercent24h": 0.16,
-      "high24h": 64601,
-      "low24h": 64240,
-      "marketCap": "1.29T"
+    "nasdaq": {
+      "name": "NASDAQ",
+      "value": 24770.83,
+      "change": -161.25,
+      "change_pct": -0.65
     },
-    "ethereum": {
-      "value": 1881.62,
-      "changePercent24h": 0.44,
-      "note": "7月至今上涨约20%"
+    "vix": {
+      "name": "VIX",
+      "value": 18.64,
+      "change": -0.03,
+      "change_pct": -0.16
+    },
+    "dollar_index": {
+      "name": "美元指数",
+      "value": 101.51,
+      "change": -0.03,
+      "change_pct": -0.03
     }
   },
   "commodities": {
-    "wtiCrude": 89.31,
-    "brentCrude": 100.57,
-    "gold": 2419.50,
-    "naturalGas": 2.87
-  },
-  "hongKong": {
-    "hsi": {
-      "value": 24963,
-      "note": "上周五（7月24日）收盘价"
+    "gold": {
+      "name": "黄金",
+      "value": 4033.9,
+      "change": -43.1,
+      "change_pct": -1.06
+    },
+    "oil": {
+      "name": "WTI原油",
+      "value": 81.02,
+      "change": -1.59,
+      "change_pct": -1.92
     }
   },
-  "marketContext": {
-    "fomc": "7月28-29日FOMC会议，市场定价75%概率降息25bp",
-    "inflation": "6月CPI同比3.5%（前值4.2%），首次月度下降，核心CPI降至2.6%",
-    "sectorLeader": "信息技术(+2.18%)和通信服务(+1.52%)领涨",
-    "keyEvents": [
-      "Nvidia Q2数据中心收入321亿美元超预期，AI需求强劲",
-      "Palantir获12亿美元政府合同续约",
-      "3M Q2 EPS低于预期，工业产出放缓",
-      "油价需求担忧持续"
-    ]
+  "bonds": {
+    "tnx": {
+      "name": "美国10年期国债收益率",
+      "value": "4.63%",
+      "change": -0.012,
+      "change_pct": -0.26
+    }
   },
-  "rssNews": [],
-  "rss": {}
+  "crypto": {
+    "btc": {
+      "name": "Bitcoin",
+      "value": 63205.69,
+      "change": -500.97,
+      "change_pct": -0.79
+    },
+    "eth": {
+      "name": "Ethereum",
+      "value": 1879.18,
+      "change": -11.49,
+      "change_pct": -0.61
+    }
+  },
+  "news_headlines": [
+    {
+      "source": "CNBC",
+      "title": "Boeing posts wider loss than expected as Air Force One costs weigh on results"
+    },
+    {
+      "source": "CNBC",
+      "title": "Apple plans to lease iPhones for $17.99/month through Klarna deal"
+    },
+    {
+      "source": "CNBC",
+      "title": "Coca-Cola tops earnings estimates, hikes full-year outlook"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "US Stocks Waver as Chip Slump Fuels Rotation Trade"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "OPEC+ Plans Quota-Hikes Pause After September, Delegates Say"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Invesco Cuts Gilts as UK Enters Uncertain Territory"
+    },
+    {
+      "source": "Yahoo",
+      "title": "Chip stock charts send bearish signal; Micron/SK Hynix fall"
+    },
+    {
+      "source": "Yahoo",
+      "title": "Boeing Q2 revenue beats as jet deliveries climb, cash turns positive"
+    },
+    {
+      "source": "Yahoo",
+      "title": "Coca-Cola raises guidance; Diet Coke 'having a moment'"
+    },
+    {
+      "source": "Yahoo",
+      "title": "Ford guidance in focus after GM results"
+    }
+  ],
+  "market_summary": {
+    "tone": "mixed",
+    "key_trends": [
+      "纳指下跌0.65%，芯片板块抛压加重，道指逆势上涨0.56%",
+      "VIX微降至18.64，市场恐慌情绪尚可",
+      "10年期美债收益率降至4.63%，债市风险区成新常态",
+      "美元指数101.51，小幅走弱",
+      "黄金跌1.06%至4033美元/盎司",
+      "原油跌1.92%至81美元，OPEC+拟9月后暂停增产",
+      "比特币跌0.79%至$63,206，以太坊跌0.61%至$1,879",
+      "财报季：可口可乐超预期上调指引，波音亏损超预期但营收改善"
+    ]
+  }
 }

@@ -1,198 +1,110 @@
 {
-  "timestamp": "2026-07-24 17:00:00",
-  "date": "2026-07-24",
-  "report_type": "weekly",
+  "timestamp": "2026-07-30T00:23:47.880806",
+  "date": "2026-07-30",
+  "report_type": "daily",
   "crypto": {
     "BTC": {
-      "price": 65130.4,
-      "change_24h": -0.77
+      "price": 64081.5,
+      "change_24h": -0.6,
+      "high_24h": 64751.6,
+      "low_24h": 63261.6,
+      "trend_1h": "偏多",
+      "trend_4h": "偏空"
     },
     "ETH": {
-      "price": 1884.63,
-      "change_24h": -2.05
+      "price": 1905.01,
+      "change_24h": -0.65,
+      "high_24h": 1935.96,
+      "low_24h": 1874.0,
+      "trend_1h": "偏多",
+      "trend_4h": "偏空"
     }
   },
   "fear_greed": {
     "value": 28,
     "label": "Fear"
   },
-  "weekly_btc_backtest": {
-    "period": "2026-07-11 to 2026-07-24",
-    "avg_strategy_return": 2.85,
-    "active_strategies": 7,
-    "buy_hold_return": 1.45,
-    "strategies": {
-      "DoubleMa": {
-        "return": 4.57,
-        "sharpe": 7.65,
-        "max_dd": -1.49,
-        "win_rate": 100.0,
-        "trades": 7,
-        "excess_return": 3.13
-      },
-      "RSI": {
-        "return": 2.47,
-        "sharpe": 3.19,
-        "max_dd": -3.37,
-        "win_rate": 80.0,
-        "trades": 10,
-        "excess_return": 1.03
-      },
-      "MACD": {
-        "return": 5.43,
-        "sharpe": 7.50,
-        "max_dd": -2.25,
-        "win_rate": 37.5,
-        "trades": 17,
-        "excess_return": 3.98
-      },
-      "Bollinger": {
-        "return": 1.88,
-        "sharpe": 2.34,
-        "max_dd": -2.90,
-        "win_rate": 100.0,
-        "trades": 7,
-        "excess_return": 0.43
-      },
-      "Supertrend": {
-        "return": 0.00,
-        "sharpe": 0.00,
-        "max_dd": 0.00,
-        "win_rate": 0.0,
-        "trades": 0,
-        "excess_return": -1.45
-      },
-      "TripleMa": {
-        "return": 2.07,
-        "sharpe": 2.85,
-        "max_dd": -2.23,
-        "win_rate": 50.0,
-        "trades": 4,
-        "excess_return": 0.62
-      },
-      "Momentum": {
-        "return": 1.68,
-        "sharpe": 2.61,
-        "max_dd": -2.12,
-        "win_rate": 42.9,
-        "trades": 29,
-        "excess_return": 0.23
-      },
-      "MeanReversion": {
-        "return": 1.88,
-        "sharpe": 2.34,
-        "max_dd": -2.90,
-        "win_rate": 100.0,
-        "trades": 7,
-        "excess_return": 0.43
-      }
-    }
-  },
-  "strategies": {
-    "双均线交叉": {
-      "name_en": "DoubleMa",
-      "signals": {
-        "1h": "观望",
-        "4h": "做空"
-      }
+  "signals": {
+    "DoubleMa": {
+      "1h": "观望",
+      "4h": "观望"
     },
-    "RSI相对强弱": {
-      "name_en": "RSI",
-      "signals": {
-        "1h": "做空",
-        "4h": "做多"
-      }
+    "RSI": {
+      "1h": "观望",
+      "4h": "观望"
     },
-    "MACD指标": {
-      "name_en": "MACD",
-      "signals": {
-        "1h": "观望",
-        "4h": "观望"
-      }
+    "MACD": {
+      "1h": "做多",
+      "4h": "观望"
     },
-    "布林带": {
-      "name_en": "Bollinger",
-      "signals": {
-        "1h": "做空",
-        "4h": "观望"
-      }
+    "Bollinger": {
+      "1h": "观望",
+      "4h": "观望"
     },
-    "超级趋势": {
-      "name_en": "Supertrend",
-      "signals": {
-        "1h": "观望",
-        "4h": "观望"
-      }
+    "Supertrend": {
+      "1h": "观望",
+      "4h": "观望"
     },
-    "三均线系统": {
-      "name_en": "TripleMa",
-      "signals": {
-        "1h": "观望",
-        "4h": "观望"
-      }
+    "TripleMa": {
+      "1h": "做多",
+      "4h": "观望"
     },
-    "动量策略": {
-      "name_en": "Momentum",
-      "signals": {
-        "1h": "做多",
-        "4h": "观望"
-      }
+    "Momentum": {
+      "1h": "做空",
+      "4h": "做多"
     },
-    "均值回归": {
-      "name_en": "MeanReversion",
-      "signals": {
-        "1h": "做空",
-        "4h": "观望"
-      }
+    "MeanReversion": {
+      "1h": "观望",
+      "4h": "观望"
     }
   },
   "stocks": {
     "上证指数": {
-      "price": 3814.20,
-      "change": -1.61,
-      "volume": 508203905.0
+      "price": 3804.6926,
+      "change": -0.621,
+      "volume": 592298923.0
     },
     "深证成指": {
-      "price": 13774.68,
-      "change": -2.47
+      "price": 13285.801,
+      "change": -2.728
     },
     "创业板指": {
-      "price": 3480.87,
-      "change": -2.65
+      "price": 3244.618,
+      "change": -3.968
     },
     "沪金主力": {
-      "price": 901.76,
-      "change": 0.0,
-      "date": "2026-07-23"
+      "price": 884.2,
+      "change": -0.1,
+      "date": "2026-07-29"
     },
     "沪银主力": {
-      "price": 14614.0,
-      "change": 0.57,
-      "date": "2026-07-23"
+      "price": 14268.0,
+      "change": 1.28,
+      "date": "2026-07-29"
     },
     "沪铜主力": {
-      "price": 105890.0,
-      "change": 0.07,
-      "date": "2026-07-23"
+      "price": 104890.0,
+      "change": 0.08,
+      "date": "2026-07-29"
     },
     "螺纹钢主力": {
-      "price": 3085.0,
-      "change": 0.06,
-      "date": "2026-07-23"
+      "price": 3062.0,
+      "change": 0.07,
+      "date": "2026-07-29"
     },
     "沪深300期货": {
-      "price": 4661.4,
-      "change": 0.29,
-      "date": "2026-07-23"
+      "price": 4544.8,
+      "change": 0.53,
+      "date": "2026-07-29"
     },
     "中证500期货": {
-      "price": 7602.6,
-      "change": -0.11,
-      "date": "2026-07-23"
+      "price": 7454.2,
+      "change": 1.38,
+      "date": "2026-07-29"
     },
     "50ETF波动率": {
-      "value": 18.15,
-      "date": "2026-07-23"
+      "value": 20.36,
+      "date": "2026-07-29"
     }
   }
 }

@@ -1,103 +1,61 @@
 {
-  "timestamp": "2026-07-24 15:28:54",
-  "date": "2026-07-24",
+  "timestamp": "2026-07-30 15:30:00",
+  "date": "2026-07-30",
   "indices": {
     "上证指数": {
       "code": "000001.SS",
-      "price": 3814.198,
-      "change_pct": -1.37,
-      "change_amount": -52.83,
-      "high": 3861.04,
-      "low": 3808.636,
-      "volume": 3575750244
+      "price": 3812.111,
+      "change_pct": 0.19,
+      "change_amount": 7.42,
+      "open": 3828.469,
+      "high": 3839.3407,
+      "low": 3767.5033,
+      "pre_close": 3804.6926,
+      "volume": 592298923,
+      "amount": 1106477266462
     },
     "深证成指": {
       "code": "399001.SZ",
-      "price": 13774.676,
-      "change_pct": -2.04,
-      "change_amount": -286.72,
-      "high": 14061.027,
-      "low": 13774.676,
-      "volume": 4159773064
+      "price": 13531.069,
+      "change_pct": 1.85,
+      "change_amount": 245.27,
+      "open": 13658.443,
+      "high": 13619.032,
+      "low": 13068.558,
+      "pre_close": 13285.801,
+      "volume": 68698474992,
+      "amount": 1236331989082
     },
     "创业板指": {
       "code": "399006.SZ",
-      "price": 3480.87,
-      "change_pct": -2.65,
-      "change_amount": -94.65,
-      "high": 3561.3499,
-      "low": 3480.87,
-      "volume": 3301398572
+      "price": 3331.321,
+      "change_pct": 2.67,
+      "change_amount": 86.7,
+      "open": 3378.696,
+      "high": 3353.81,
+      "low": 3158.139,
+      "pre_close": 3244.618,
+      "volume": 20383641844,
+      "amount": 598474829660
     },
     "沪深300": {
       "code": "000300.SS",
-      "price": 4649.192,
-      "change_pct": -1.67,
-      "change_amount": -78.81,
-      "high": 4704.084,
-      "low": 4642.938,
-      "volume": 651284720
-    },
-    "恒生指数": {
-      "code": "^HSI",
-      "price": 24889.71,
-      "change_pct": -1.27,
-      "change_amount": -321.1,
-      "high": 25031.34,
-      "low": 24812.5,
-      "volume": 0
+      "price": 4566.0467,
+      "change_pct": 0.36,
+      "change_amount": 16.33,
+      "open": 4600.2624,
+      "high": 4596.2056,
+      "low": 4478.2093,
+      "pre_close": 4549.7201,
+      "volume": 274651130,
+      "amount": 803696969760
     }
   },
   "sectors": {
-    "top5": [
-      {
-        "name": "半导体设备",
-        "change_pct": 3.18
-      },
-      {
-        "name": "地面兵装Ⅲ",
-        "change_pct": 2.1
-      },
-      {
-        "name": "地面兵装Ⅱ",
-        "change_pct": 2.1
-      },
-      {
-        "name": "集成电路封测",
-        "change_pct": 1.87
-      },
-      {
-        "name": "摩托车",
-        "change_pct": 1.11
-      }
-    ],
-    "bottom5": [
-      {
-        "name": "房屋建设Ⅲ",
-        "change_pct": -1.93
-      },
-      {
-        "name": "房屋建设Ⅱ",
-        "change_pct": -1.93
-      },
-      {
-        "name": "造纸",
-        "change_pct": -1.93
-      },
-      {
-        "name": "物业管理",
-        "change_pct": -1.93
-      },
-      {
-        "name": "家用电器",
-        "change_pct": -1.94
-      }
-    ]
+    "status": "Sina API sector data unavailable (direct API blocked from this network)",
+    "note": "仅获取到指数数据，板块数据通过proxy受限"
   },
   "north_flow": {
-    "status": "数据未更新，收盘后约15分钟可取",
-    "sh_net": 0,
-    "sz_net": 0,
-    "total_net": 0
+    "status": "数据获取受限 (proxy blocked for EastMoney API)"
   }
 }

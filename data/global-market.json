@@ -1,128 +1,362 @@
 {
-  "updated": "2026-07-28T13:32:15.152747+00:00",
-  "updated_local": "2026-07-28 06:30 PDT",
-  "date": "2026-07-28",
-  "us_markets": {
-    "sp500": {
-      "name": "S&P 500",
-      "value": 7402.67,
-      "change": -10.51,
-      "change_pct": -0.14
-    },
-    "dow": {
-      "name": "Dow Jones",
-      "value": 52500.0,
-      "change": 289.92,
-      "change_pct": 0.56
-    },
-    "nasdaq": {
-      "name": "NASDAQ",
-      "value": 24770.83,
-      "change": -161.25,
-      "change_pct": -0.65
-    },
-    "vix": {
-      "name": "VIX",
-      "value": 18.64,
-      "change": -0.03,
-      "change_pct": -0.16
-    },
-    "dollar_index": {
-      "name": "美元指数",
-      "value": 101.51,
-      "change": -0.03,
-      "change_pct": -0.03
-    }
+  "timestamp": "2026-07-30T13:30:00Z",
+  "date": "2026-07-30",
+  "market_state": "open",
+  "indices": {
+    "US": [
+      {
+        "name": "S&P 500",
+        "symbol": ".INX",
+        "value": 7380.85,
+        "change": 64.7,
+        "change_pct": 0.88
+      },
+      {
+        "name": "Dow Jones",
+        "symbol": ".DJI",
+        "value": 51903.31,
+        "change": 309.17,
+        "change_pct": 0.6
+      },
+      {
+        "name": "Nasdaq Composite",
+        "symbol": ".IXIC",
+        "value": 24839.6,
+        "change": 396.66,
+        "change_pct": 1.62
+      },
+      {
+        "name": "Russell 2000",
+        "symbol": "RUT",
+        "value": 2906.31,
+        "change": -47.49,
+        "change_pct": -1.61
+      }
+    ],
+    "Europe": [
+      {
+        "name": "DAX",
+        "market": "Germany",
+        "value": 25551.92,
+        "change": 91.44,
+        "change_pct": 0.36
+      },
+      {
+        "name": "FTSE 100",
+        "market": "UK",
+        "value": 10966.52,
+        "change": 58.11,
+        "change_pct": 0.53
+      },
+      {
+        "name": "CAC 40",
+        "market": "France",
+        "value": 8501.3,
+        "change": 93.03,
+        "change_pct": 1.11
+      },
+      {
+        "name": "IBEX 35",
+        "market": "Spain",
+        "value": 19734.6,
+        "change": 321.9,
+        "change_pct": 1.66
+      },
+      {
+        "name": "EURO STOXX 50",
+        "market": "Eurozone",
+        "value": 6323.78,
+        "change": 74.94,
+        "change_pct": 1.2
+      }
+    ],
+    "Asia": [
+      {
+        "name": "Nikkei 225",
+        "market": "Japan",
+        "value": 61867.43,
+        "change": 433.24,
+        "change_pct": 0.71
+      },
+      {
+        "name": "SSE Composite",
+        "market": "China",
+        "value": 3804.69,
+        "change": -23.78,
+        "change_pct": -0.62
+      },
+      {
+        "name": "Hang Seng",
+        "market": "Hong Kong",
+        "value": 25858.88,
+        "change": 50.96,
+        "change_pct": 0.2
+      },
+      {
+        "name": "SENSEX",
+        "market": "India",
+        "value": 77928.15,
+        "change": 273.55,
+        "change_pct": 0.35
+      },
+      {
+        "name": "NIFTY 50",
+        "market": "India",
+        "value": 24317.15,
+        "change": 66.95,
+        "change_pct": 0.28
+      }
+    ]
   },
-  "commodities": {
-    "gold": {
-      "name": "黄金",
-      "value": 4033.9,
-      "change": -43.1,
-      "change_pct": -1.06
-    },
-    "oil": {
-      "name": "WTI原油",
-      "value": 81.02,
-      "change": -1.59,
-      "change_pct": -1.92
-    }
-  },
-  "bonds": {
-    "tnx": {
-      "name": "美国10年期国债收益率",
-      "value": "4.63%",
-      "change": -0.012,
-      "change_pct": -0.26
-    }
-  },
-  "crypto": {
-    "btc": {
-      "name": "Bitcoin",
-      "value": 63205.69,
-      "change": -500.97,
-      "change_pct": -0.79
-    },
-    "eth": {
-      "name": "Ethereum",
-      "value": 1879.18,
-      "change": -11.49,
-      "change_pct": -0.61
-    }
-  },
-  "news_headlines": [
+  "futures": [
     {
-      "source": "CNBC",
-      "title": "Boeing posts wider loss than expected as Air Force One costs weigh on results"
+      "name": "S&P 500 E-mini",
+      "value": 7404.75,
+      "change": 53.5,
+      "change_pct": 0.73
     },
     {
-      "source": "CNBC",
-      "title": "Apple plans to lease iPhones for $17.99/month through Klarna deal"
+      "name": "Dow E-mini",
+      "value": 52042,
+      "change": 277,
+      "change_pct": 0.54
     },
     {
-      "source": "CNBC",
-      "title": "Coca-Cola tops earnings estimates, hikes full-year outlook"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "US Stocks Waver as Chip Slump Fuels Rotation Trade"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "OPEC+ Plans Quota-Hikes Pause After September, Delegates Say"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Invesco Cuts Gilts as UK Enters Uncertain Territory"
-    },
-    {
-      "source": "Yahoo",
-      "title": "Chip stock charts send bearish signal; Micron/SK Hynix fall"
-    },
-    {
-      "source": "Yahoo",
-      "title": "Boeing Q2 revenue beats as jet deliveries climb, cash turns positive"
-    },
-    {
-      "source": "Yahoo",
-      "title": "Coca-Cola raises guidance; Diet Coke 'having a moment'"
-    },
-    {
-      "source": "Yahoo",
-      "title": "Ford guidance in focus after GM results"
+      "name": "Nasdaq 100 E-mini",
+      "value": 27836,
+      "change": 494,
+      "change_pct": 1.81
     }
   ],
-  "market_summary": {
-    "tone": "mixed",
-    "key_trends": [
-      "纳指下跌0.65%，芯片板块抛压加重，道指逆势上涨0.56%",
-      "VIX微降至18.64，市场恐慌情绪尚可",
-      "10年期美债收益率降至4.63%，债市风险区成新常态",
-      "美元指数101.51，小幅走弱",
-      "黄金跌1.06%至4033美元/盎司",
-      "原油跌1.92%至81美元，OPEC+拟9月后暂停增产",
-      "比特币跌0.79%至$63,206，以太坊跌0.61%至$1,879",
-      "财报季：可口可乐超预期上调指引，波音亏损超预期但营收改善"
+  "commodities": [
+    {
+      "name": "Gold",
+      "symbol": "GC",
+      "value": 4138.6,
+      "change": 41.6,
+      "change_pct": 1.02
+    },
+    {
+      "name": "Crude Oil (WTI)",
+      "symbol": "CL",
+      "value": 83.52,
+      "change": -0.94,
+      "change_pct": -1.11
+    }
+  ],
+  "forex": [
+    {
+      "pair": "EUR/USD",
+      "value": 1.148,
+      "change": 0.0013,
+      "change_pct": 0.11
+    },
+    {
+      "pair": "USD/JPY",
+      "value": 162.76,
+      "change": -0.57,
+      "change_pct": -0.35
+    },
+    {
+      "pair": "GBP/USD",
+      "value": 1.3373,
+      "change": 0.0005,
+      "change_pct": 0.04
+    },
+    {
+      "pair": "USD/CAD",
+      "value": 1.4046,
+      "change": 0.001,
+      "change_pct": 0.07
+    },
+    {
+      "pair": "AUD/USD",
+      "value": 0.6983,
+      "change": 0.0023,
+      "change_pct": 0.33
+    }
+  ],
+  "crypto": [
+    {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "value": 64745.11,
+      "change": 836.49,
+      "change_pct": 1.31
+    },
+    {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "value": 1923.51,
+      "change": 14.92,
+      "change_pct": 0.78
+    },
+    {
+      "name": "Solana",
+      "symbol": "SOL",
+      "value": 74.23,
+      "change": 0.63,
+      "change_pct": 0.86
+    },
+    {
+      "name": "XRP",
+      "symbol": "XRP",
+      "value": 1.0803,
+      "change": 0.0074,
+      "change_pct": 0.69
+    },
+    {
+      "name": "Dogecoin",
+      "symbol": "DOGE",
+      "value": 0.07,
+      "change": -0.0001,
+      "change_pct": -0.14
+    }
+  ],
+  "volatility": {
+    "name": "VIX",
+    "value": 18.89,
+    "change": -1.77,
+    "change_pct": -8.57
+  },
+  "top_movers": {
+    "gainers": [
+      {
+        "name": "Baxter International (BAX)",
+        "change_pct": 21.14,
+        "price": 30.0
+      },
+      {
+        "name": "Quanta Services (PWR)",
+        "change_pct": 20.85,
+        "price": 677.97
+      },
+      {
+        "name": "Cipher Digital (CIFR)",
+        "change_pct": 18.71,
+        "price": 21.0
+      },
+      {
+        "name": "Nebius Group (NBIS)",
+        "change_pct": 16.92,
+        "price": 173.3
+      },
+      {
+        "name": "Direxion Semi Bull 3X (SOXL)",
+        "change_pct": 16.77,
+        "price": 107.42
+      }
+    ],
+    "losers": [
+      {
+        "name": "LKQ Corp (LKQ)",
+        "change_pct": -16.58,
+        "price": 22.02
+      },
+      {
+        "name": "Meta Platforms (META)",
+        "change_pct": -9.8,
+        "price": 528.21
+      },
+      {
+        "name": "Norwegian Cruise (NCLH)",
+        "change_pct": -8.62,
+        "price": 18.98
+      },
+      {
+        "name": "Altria (MO)",
+        "change_pct": -7.15,
+        "price": 69.58
+      },
+      {
+        "name": "Workday (WDAY)",
+        "change_pct": -6.97,
+        "price": 156.31
+      }
     ]
-  }
+  },
+  "featured_stocks": [
+    {
+      "name": "Apple (AAPL)",
+      "price": 334.26,
+      "change_pct": -1.16
+    },
+    {
+      "name": "Microsoft (MSFT)",
+      "price": 435.51,
+      "change_pct": 11.51
+    },
+    {
+      "name": "Amazon (AMZN)",
+      "price": 231.22,
+      "change_pct": 2.02
+    },
+    {
+      "name": "Alphabet (GOOGL)",
+      "price": 332.98,
+      "change_pct": -1.11
+    },
+    {
+      "name": "Tesla (TSLA)",
+      "price": 302.99,
+      "change_pct": 1.57
+    },
+    {
+      "name": "Micron (MU)",
+      "price": 795.77,
+      "change_pct": 7.68
+    },
+    {
+      "name": "Intel (INTC)",
+      "price": 87.49,
+      "change_pct": 6.85
+    },
+    {
+      "name": "Arm Holdings (ARM)",
+      "price": 260.49,
+      "change_pct": 15.83
+    },
+    {
+      "name": "Nokia (NOK)",
+      "price": 9.09,
+      "change_pct": 8.21
+    }
+  ],
+  "news": [
+    {
+      "source": "CNBC",
+      "title": "Stock futures rise as Microsoft leads Big Tech gains after earnings",
+      "published": ""
+    },
+    {
+      "source": "CNBC",
+      "title": "Dow rises 300 points, S&P 500 at new high as Microsoft, Amazon rally",
+      "published": ""
+    },
+    {
+      "source": "CNBC",
+      "title": "US weekly jobless claims fall more than expected",
+      "published": ""
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Microsoft revenue surges on cloud and AI growth; shares jump 11%",
+      "published": ""
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Gold hits new record above $4,100 as Fed rate-cut bets rise",
+      "published": ""
+    }
+  ],
+  "key_events": [
+    "Apple Q3 2026 earnings release today after market close",
+    "Amazon Q2 2026 earnings release today after market close",
+    "MicroStrategy Q2 2026 earnings release today",
+    "Microsoft surged 11.5% after strong earnings — cloud/AI driving growth",
+    "Gold hits new all-time high above $4,138",
+    "VIX dropped 8.6% to 18.89 — risk appetite returning",
+    "Meta dropped 9.8% — post-earnings selloff",
+    "Weekly jobless claims fell more than expected"
+  ]
 }

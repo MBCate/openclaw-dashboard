@@ -1,362 +1,232 @@
 {
-  "timestamp": "2026-07-30T13:30:00Z",
-  "date": "2026-07-30",
-  "market_state": "open",
+  "timestamp": "2026-07-31T01:15:00Z",
+  "date": "2026-07-31",
+  "market_state": "asia-session",
+  "summary": {
+    "title": "隔夜综述 — 科技股大反攻，日本干预日元，科技巨头财报分化",
+    "us_close": "美股周四全面反弹，科技股领涨。标普500 +1.7%，纳指 +2.8%，道指 +1.2%。微软财报引爆AI板块，日股因日元干预飙升近5%。",
+    "key_takeaway": "美联储降息预期 + 科技AI强劲财报 = 市场情绪V型反转"
+  },
   "indices": {
     "US": [
       {
         "name": "S&P 500",
         "symbol": ".INX",
-        "value": 7380.85,
-        "change": 64.7,
-        "change_pct": 0.88
+        "value": 7438,
+        "change": 121.85,
+        "change_pct": 1.66,
+        "note": "Fed决议大跌后全面反弹，收复前日失地"
       },
       {
         "name": "Dow Jones",
         "symbol": ".DJI",
-        "value": 51903.31,
-        "change": 309.17,
-        "change_pct": 0.6
+        "value": 52207,
+        "change": 612.86,
+        "change_pct": 1.19,
+        "note": "涨超600点，科技成分股领涨"
       },
       {
         "name": "Nasdaq Composite",
         "symbol": ".IXIC",
-        "value": 24839.6,
-        "change": 396.66,
-        "change_pct": 1.62
+        "value": 25530,
+        "change": 691.06,
+        "change_pct": 2.78,
+        "note": "芯片/记忆体股暴涨，SOX半导体指数飙升"
       },
       {
         "name": "Russell 2000",
         "symbol": "RUT",
-        "value": 2906.31,
-        "change": -47.49,
-        "change_pct": -1.61
-      }
-    ],
-    "Europe": [
-      {
-        "name": "DAX",
-        "market": "Germany",
-        "value": 25551.92,
-        "change": 91.44,
-        "change_pct": 0.36
-      },
-      {
-        "name": "FTSE 100",
-        "market": "UK",
-        "value": 10966.52,
-        "change": 58.11,
-        "change_pct": 0.53
-      },
-      {
-        "name": "CAC 40",
-        "market": "France",
-        "value": 8501.3,
-        "change": 93.03,
-        "change_pct": 1.11
-      },
-      {
-        "name": "IBEX 35",
-        "market": "Spain",
-        "value": 19734.6,
-        "change": 321.9,
-        "change_pct": 1.66
-      },
-      {
-        "name": "EURO STOXX 50",
-        "market": "Eurozone",
-        "value": 6323.78,
-        "change": 74.94,
-        "change_pct": 1.2
+        "value": 2920,
+        "change": 13.69,
+        "change_pct": 0.47,
+        "note": "小盘股涨幅弱于大盘"
       }
     ],
     "Asia": [
       {
         "name": "Nikkei 225",
-        "market": "Japan",
-        "value": 61867.43,
-        "change": 433.24,
-        "change_pct": 0.71
+        "market": "日本",
+        "value": 64915,
+        "change": 3047.57,
+        "change_pct": 4.93,
+        "note": "日元干预+科技出口股狂欢，创年内最大单日涨幅"
       },
       {
         "name": "SSE Composite",
-        "market": "China",
-        "value": 3804.69,
-        "change": -23.78,
-        "change_pct": -0.62
+        "market": "中国",
+        "value": 3795,
+        "change": -9.69,
+        "change_pct": -0.25,
+        "note": "A股窄幅震荡，受海外波动影响有限"
       },
       {
         "name": "Hang Seng",
-        "market": "Hong Kong",
-        "value": 25858.88,
-        "change": 50.96,
-        "change_pct": 0.2
+        "market": "香港",
+        "value": 26100,
+        "change": 241.12,
+        "change_pct": 0.93,
+        "note": "跟随美股反弹，科技股走强"
       },
       {
         "name": "SENSEX",
-        "market": "India",
-        "value": 77928.15,
-        "change": 273.55,
-        "change_pct": 0.35
+        "market": "印度",
+        "value": 78150,
+        "change": 221.85,
+        "change_pct": 0.28,
+        "note": ""
       },
       {
         "name": "NIFTY 50",
-        "market": "India",
-        "value": 24317.15,
-        "change": 66.95,
-        "change_pct": 0.28
+        "market": "印度",
+        "value": 24380,
+        "change": 62.85,
+        "change_pct": 0.26,
+        "note": ""
       }
     ]
   },
-  "futures": [
-    {
-      "name": "S&P 500 E-mini",
-      "value": 7404.75,
-      "change": 53.5,
-      "change_pct": 0.73
-    },
-    {
-      "name": "Dow E-mini",
-      "value": 52042,
-      "change": 277,
-      "change_pct": 0.54
-    },
-    {
-      "name": "Nasdaq 100 E-mini",
-      "value": 27836,
-      "change": 494,
-      "change_pct": 1.81
-    }
-  ],
   "commodities": [
     {
-      "name": "Gold",
-      "symbol": "GC",
-      "value": 4138.6,
-      "change": 41.6,
-      "change_pct": 1.02
+      "name": "Gold (现货)",
+      "symbol": "XAU",
+      "value": 4160.1,
+      "change": 63.5,
+      "change_pct": 1.55,
+      "note": "再创历史新高！降息预期+避险需求双驱动"
     },
     {
       "name": "Crude Oil (WTI)",
       "symbol": "CL",
-      "value": 83.52,
-      "change": -0.94,
-      "change_pct": -1.11
+      "value": 83.86,
+      "change": -0.60,
+      "change_pct": -0.71,
+      "note": "地缘溢价消退，需求担忧压制"
     }
   ],
   "forex": [
     {
       "pair": "EUR/USD",
-      "value": 1.148,
-      "change": 0.0013,
-      "change_pct": 0.11
+      "value": 1.149,
+      "change": 0.0023,
+      "change_pct": 0.20
     },
     {
       "pair": "USD/JPY",
-      "value": 162.76,
-      "change": -0.57,
-      "change_pct": -0.35
+      "value": 157.2,
+      "change": -5.56,
+      "change_pct": -3.42,
+      "note": "日元飙升至157区间！日本疑似大规模干预汇市"
     },
     {
       "pair": "GBP/USD",
-      "value": 1.3373,
-      "change": 0.0005,
-      "change_pct": 0.04
+      "value": 1.339,
+      "change": 0.0022,
+      "change_pct": 0.16
     },
     {
-      "pair": "USD/CAD",
-      "value": 1.4046,
-      "change": 0.001,
-      "change_pct": 0.07
-    },
-    {
-      "pair": "AUD/USD",
-      "value": 0.6983,
-      "change": 0.0023,
-      "change_pct": 0.33
+      "pair": "USD/CNY",
+      "value": 7.245,
+      "change": -0.015,
+      "change_pct": -0.21,
+      "note": "人民币走强，受益于美元走弱"
     }
   ],
   "crypto": [
     {
       "name": "Bitcoin",
       "symbol": "BTC",
-      "value": 64745.11,
-      "change": 836.49,
-      "change_pct": 1.31
+      "value": 65500,
+      "change": 754.89,
+      "change_pct": 1.17
     },
     {
       "name": "Ethereum",
       "symbol": "ETH",
-      "value": 1923.51,
-      "change": 14.92,
-      "change_pct": 0.78
-    },
-    {
-      "name": "Solana",
-      "symbol": "SOL",
-      "value": 74.23,
-      "change": 0.63,
-      "change_pct": 0.86
-    },
-    {
-      "name": "XRP",
-      "symbol": "XRP",
-      "value": 1.0803,
-      "change": 0.0074,
-      "change_pct": 0.69
-    },
-    {
-      "name": "Dogecoin",
-      "symbol": "DOGE",
-      "value": 0.07,
-      "change": -0.0001,
-      "change_pct": -0.14
+      "value": 1950,
+      "change": 26.49,
+      "change_pct": 1.38
     }
   ],
   "volatility": {
     "name": "VIX",
-    "value": 18.89,
-    "change": -1.77,
-    "change_pct": -8.57
+    "value": 17.2,
+    "change": -1.69,
+    "change_pct": -8.95,
+    "note": "恐慌指数大幅回落，风险偏好回归"
   },
-  "top_movers": {
-    "gainers": [
-      {
-        "name": "Baxter International (BAX)",
-        "change_pct": 21.14,
-        "price": 30.0
-      },
-      {
-        "name": "Quanta Services (PWR)",
-        "change_pct": 20.85,
-        "price": 677.97
-      },
-      {
-        "name": "Cipher Digital (CIFR)",
-        "change_pct": 18.71,
-        "price": 21.0
-      },
-      {
-        "name": "Nebius Group (NBIS)",
-        "change_pct": 16.92,
-        "price": 173.3
-      },
-      {
-        "name": "Direxion Semi Bull 3X (SOXL)",
-        "change_pct": 16.77,
-        "price": 107.42
-      }
-    ],
-    "losers": [
-      {
-        "name": "LKQ Corp (LKQ)",
-        "change_pct": -16.58,
-        "price": 22.02
-      },
-      {
-        "name": "Meta Platforms (META)",
-        "change_pct": -9.8,
-        "price": 528.21
-      },
-      {
-        "name": "Norwegian Cruise (NCLH)",
-        "change_pct": -8.62,
-        "price": 18.98
-      },
-      {
-        "name": "Altria (MO)",
-        "change_pct": -7.15,
-        "price": 69.58
-      },
-      {
-        "name": "Workday (WDAY)",
-        "change_pct": -6.97,
-        "price": 156.31
-      }
-    ]
-  },
-  "featured_stocks": [
-    {
-      "name": "Apple (AAPL)",
-      "price": 334.26,
-      "change_pct": -1.16
-    },
-    {
-      "name": "Microsoft (MSFT)",
-      "price": 435.51,
-      "change_pct": 11.51
-    },
-    {
-      "name": "Amazon (AMZN)",
-      "price": 231.22,
-      "change_pct": 2.02
-    },
-    {
-      "name": "Alphabet (GOOGL)",
-      "price": 332.98,
-      "change_pct": -1.11
-    },
-    {
-      "name": "Tesla (TSLA)",
-      "price": 302.99,
-      "change_pct": 1.57
-    },
-    {
-      "name": "Micron (MU)",
-      "price": 795.77,
-      "change_pct": 7.68
-    },
-    {
-      "name": "Intel (INTC)",
-      "price": 87.49,
-      "change_pct": 6.85
-    },
-    {
-      "name": "Arm Holdings (ARM)",
-      "price": 260.49,
-      "change_pct": 15.83
-    },
-    {
-      "name": "Nokia (NOK)",
-      "price": 9.09,
-      "change_pct": 8.21
-    }
-  ],
-  "news": [
+  "overnight_news": [
     {
       "source": "CNBC",
-      "title": "Stock futures rise as Microsoft leads Big Tech gains after earnings",
-      "published": ""
+      "title": "Meta sinks 8%, Microsoft jumps 15% as the AI trade splits Big Tech",
+      "url": "",
+      "importance": "high"
     },
     {
-      "source": "CNBC",
-      "title": "Dow rises 300 points, S&P 500 at new high as Microsoft, Amazon rally",
-      "published": ""
+      "source": "Bloomberg",
+      "title": "Yen Surges as Nikkei Says Japan Intervened in Market Again — USD/JPY drops 5.5 points to 157",
+      "url": "",
+      "importance": "high"
+    },
+    {
+      "source": "Reuters",
+      "title": "Japan conducts massive yen-buying intervention ahead of BOJ policy decision",
+      "url": "",
+      "importance": "high"
+    },
+    {
+      "source": "Amazon",
+      "title": "Amazon Q2: Net sales +20% YoY, AWS +37% — fastest growth in 18 quarters; operating income $27.5B (+43%)",
+      "url": "",
+      "importance": "high"
+    },
+    {
+      "source": "Microsoft",
+      "title": "Microsoft Q4: Cloud/AI strength drives results, stock jumps 15% to $451",
+      "url": "",
+      "importance": "high"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Dow jumps more than 600 points; chip and memory stocks surge",
+      "url": "",
+      "importance": "medium"
     },
     {
       "source": "CNBC",
       "title": "US weekly jobless claims fall more than expected",
-      "published": ""
+      "url": "",
+      "importance": "medium"
     },
     {
-      "source": "Yahoo Finance",
-      "title": "Microsoft revenue surges on cloud and AI growth; shares jump 11%",
-      "published": ""
+      "source": "Zacks",
+      "title": "Apple and Amazon beat earnings estimates — Mag 7 results continue to impress",
+      "url": "",
+      "importance": "medium"
     },
     {
-      "source": "Yahoo Finance",
-      "title": "Gold hits new record above $4,100 as Fed rate-cut bets rise",
-      "published": ""
+      "source": "AP",
+      "title": "S&P 500 rallies 1.7%, more than recovers prior day's drop from Fed selloff",
+      "url": "",
+      "importance": "medium"
     }
   ],
   "key_events": [
-    "Apple Q3 2026 earnings release today after market close",
-    "Amazon Q2 2026 earnings release today after market close",
-    "MicroStrategy Q2 2026 earnings release today",
-    "Microsoft surged 11.5% after strong earnings — cloud/AI driving growth",
-    "Gold hits new all-time high above $4,138",
-    "VIX dropped 8.6% to 18.89 — risk appetite returning",
-    "Meta dropped 9.8% — post-earnings selloff",
-    "Weekly jobless claims fell more than expected"
+    "微软Q4业绩超预期：Azure/AI云增长强劲，股价+15%至$451",
+    "亚马逊Q2：营收+20%，AWS增速+37%创新高，盘后上涨",
+    "苹果Q3业绩超预期（盘后），Mag7财报持续亮眼",
+    "Meta Q2业绩后暴跌8% — AI支出太高吓到市场",
+    "日元暴涨3.4%至157！日本疑似再度大规模干预汇市",
+    "黄金再创历史新高 $4,160，降息预期+避险双驱动",
+    "VIX从18.89暴跌至17.2，恐慌情绪快速消退",
+    "日经225飙升4.93%至64,915点，日元干预提振出口板块",
+    "美股完全收复Fed决议日跌幅，科技芯片板块领涨"
+  ],
+  "today_watch": [
+    "09:30 中国7月官方制造业PMI",
+    "白天 亚太市场联动（日经已大涨5%）",
+    "20:30 美国6月核心PCE物价指数（重点关注）",
+    "21:45 美国7月芝加哥PMI",
+    "盘后 Apple/Amazon业绩余波",
+    "日本央行BOJ利率决议（本周）"
   ]
 }

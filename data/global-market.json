@@ -1,45 +1,37 @@
 {
-  "timestamp": "2026-07-31T01:15:00Z",
+  "timestamp": "2026-07-31T13:30:00Z",
   "date": "2026-07-31",
-  "market_state": "asia-session",
+  "market_state": "evening-intl",
   "summary": {
-    "title": "隔夜综述 — 科技股大反攻，日本干预日元，科技巨头财报分化",
-    "us_close": "美股周四全面反弹，科技股领涨。标普500 +1.7%，纳指 +2.8%，道指 +1.2%。微软财报引爆AI板块，日股因日元干预飙升近5%。",
-    "key_takeaway": "美联储降息预期 + 科技AI强劲财报 = 市场情绪V型反转"
+    "title": "晚间国际综述 — 美联储鹰派分歧升温，供油通胀与AI支出成焦点",
+    "us_close": "美股周四(7/30)大反攻：纳指+2.8%至25,122，标普500 +1.7%至7,438，道指+1.2%至52,208。芯片/记忆体股领涨，微软财报点燃AI板块。",
+    "key_takeaway": "美联储官员对加息存分歧+伊朗战争推升油价=通胀与增长双重博弈；今日BOJ决议成关注焦点"
   },
   "indices": {
     "US": [
       {
         "name": "S&P 500",
         "symbol": ".INX",
-        "value": 7438,
-        "change": 121.85,
+        "value": 7437.64,
+        "change": 121.49,
         "change_pct": 1.66,
-        "note": "Fed决议大跌后全面反弹，收复前日失地"
+        "note": "Fed大跌后收复失地，站回7,400上方"
       },
       {
         "name": "Dow Jones",
         "symbol": ".DJI",
-        "value": 52207,
-        "change": 612.86,
+        "value": 52208.06,
+        "change": 613.92,
         "change_pct": 1.19,
         "note": "涨超600点，科技成分股领涨"
       },
       {
         "name": "Nasdaq Composite",
         "symbol": ".IXIC",
-        "value": 25530,
+        "value": 25122.18,
         "change": 691.06,
-        "change_pct": 2.78,
-        "note": "芯片/记忆体股暴涨，SOX半导体指数飙升"
-      },
-      {
-        "name": "Russell 2000",
-        "symbol": "RUT",
-        "value": 2920,
-        "change": 13.69,
-        "change_pct": 0.47,
-        "note": "小盘股涨幅弱于大盘"
+        "change_pct": 2.83,
+        "note": "SOX半导体指数飙升8%，Micron/AMD/Intel领涨"
       }
     ],
     "Asia": [
@@ -49,15 +41,15 @@
         "value": 64915,
         "change": 3047.57,
         "change_pct": 4.93,
-        "note": "日元干预+科技出口股狂欢，创年内最大单日涨幅"
+        "note": "日元干预+科技出口股狂欢；今日BOJ决议受关注"
       },
       {
-        "name": "SSE Composite",
-        "market": "中国",
-        "value": 3795,
-        "change": -9.69,
-        "change_pct": -0.25,
-        "note": "A股窄幅震荡，受海外波动影响有限"
+        "name": "KOSPI",
+        "market": "韩国",
+        "value": 0,
+        "change": 0,
+        "change_pct": 0,
+        "note": "韩股本月飙升约18%，资金重回AI板块"
       },
       {
         "name": "Hang Seng",
@@ -68,20 +60,12 @@
         "note": "跟随美股反弹，科技股走强"
       },
       {
-        "name": "SENSEX",
-        "market": "印度",
-        "value": 78150,
-        "change": 221.85,
-        "change_pct": 0.28,
-        "note": ""
-      },
-      {
-        "name": "NIFTY 50",
-        "market": "印度",
-        "value": 24380,
-        "change": 62.85,
-        "change_pct": 0.26,
-        "note": ""
+        "name": "SSE Composite",
+        "market": "中国",
+        "value": 3795,
+        "change": -9.69,
+        "change_pct": -0.25,
+        "note": "A股窄幅震荡，中国官方PMI即将公布"
       }
     ]
   },
@@ -92,15 +76,23 @@
       "value": 4160.1,
       "change": 63.5,
       "change_pct": 1.55,
-      "note": "再创历史新高！降息预期+避险需求双驱动"
+      "note": "再创历史新高，降息预期+避险双驱动"
     },
     {
       "name": "Crude Oil (WTI)",
       "symbol": "CL",
       "value": 83.86,
-      "change": -0.60,
-      "change_pct": -0.71,
-      "note": "地缘溢价消退，需求担忧压制"
+      "change": 2.5,
+      "change_pct": 3.07,
+      "note": "伊朗战争推升油价，Exxon/Chevron利润飙升"
+    },
+    {
+      "name": "Copper",
+      "symbol": "HG",
+      "value": 0,
+      "change": 0,
+      "change_pct": 0,
+      "note": "本月或将收涨，供应趋紧信号增强"
     }
   ],
   "forex": [
@@ -115,7 +107,7 @@
       "value": 157.2,
       "change": -5.56,
       "change_pct": -3.42,
-      "note": "日元飙升至157区间！日本疑似大规模干预汇市"
+      "note": "日元飙升至157区间，日本疑似大规模干预"
     },
     {
       "pair": "GBP/USD",
@@ -128,23 +120,25 @@
       "value": 7.245,
       "change": -0.015,
       "change_pct": -0.21,
-      "note": "人民币走强，受益于美元走弱"
+      "note": "人民币走强"
     }
   ],
   "crypto": [
     {
       "name": "Bitcoin",
       "symbol": "BTC",
-      "value": 65500,
-      "change": 754.89,
-      "change_pct": 1.17
+      "value": 63874.59,
+      "change": -618.32,
+      "change_pct": -0.96,
+      "note": "较昨日回落618美元，跟随美债收益率走高承压"
     },
     {
       "name": "Ethereum",
       "symbol": "ETH",
-      "value": 1950,
-      "change": 26.49,
-      "change_pct": 1.38
+      "value": 1886.41,
+      "change": -30.62,
+      "change_pct": -1.60,
+      "note": "回落至1,886，市场消化Fed政策分歧"
     }
   ],
   "volatility": {
@@ -157,76 +151,76 @@
   "overnight_news": [
     {
       "source": "CNBC",
-      "title": "Meta sinks 8%, Microsoft jumps 15% as the AI trade splits Big Tech",
+      "title": "Fed officials who voted to hike rates say action is needed now against inflation",
       "url": "",
       "importance": "high"
     },
     {
-      "source": "Bloomberg",
-      "title": "Yen Surges as Nikkei Says Japan Intervened in Market Again — USD/JPY drops 5.5 points to 157",
-      "url": "",
-      "importance": "high"
-    },
-    {
-      "source": "Reuters",
-      "title": "Japan conducts massive yen-buying intervention ahead of BOJ policy decision",
-      "url": "",
-      "importance": "high"
-    },
-    {
-      "source": "Amazon",
-      "title": "Amazon Q2: Net sales +20% YoY, AWS +37% — fastest growth in 18 quarters; operating income $27.5B (+43%)",
-      "url": "",
-      "importance": "high"
-    },
-    {
-      "source": "Microsoft",
-      "title": "Microsoft Q4: Cloud/AI strength drives results, stock jumps 15% to $451",
+      "source": "CNBC",
+      "title": "Dwindling cash and soaring memory costs: Tech's AI buildout has ballooning price tag",
       "url": "",
       "importance": "high"
     },
     {
       "source": "MarketWatch",
-      "title": "Dow jumps more than 600 points; chip and memory stocks surge",
+      "title": "Exxon and Chevron profits surge on rising oil prices due to Iran war",
+      "url": "",
+      "importance": "high"
+    },
+    {
+      "source": "FT",
+      "title": "BoJ governor vows not to 'fall behind the curve' — BOJ policy decision today",
+      "url": "",
+      "importance": "high"
+    },
+    {
+      "source": "FT",
+      "title": "South Korean stock market soars 18% as investors pile back into AI",
+      "url": "",
+      "importance": "high"
+    },
+    {
+      "source": "FT",
+      "title": "Chevron and Exxon earnings soar as Trump threatens price interventions",
       "url": "",
       "importance": "medium"
     },
     {
-      "source": "CNBC",
-      "title": "US weekly jobless claims fall more than expected",
+      "source": "Bloomberg",
+      "title": "Copper Set for Monthly Gain on Growing Signs of Tight Supply",
       "url": "",
       "importance": "medium"
     },
     {
-      "source": "Zacks",
-      "title": "Apple and Amazon beat earnings estimates — Mag 7 results continue to impress",
+      "source": "Bloomberg",
+      "title": "As NYSE, Nasdaq, LSE Head For Nonstop Trading, Can Traders Handle It?",
       "url": "",
-      "importance": "medium"
+      "importance": "low"
     },
     {
-      "source": "AP",
-      "title": "S&P 500 rallies 1.7%, more than recovers prior day's drop from Fed selloff",
+      "source": "MarketWatch",
+      "title": "Get ready to buy the dip in tech stocks. Why the recent selling won't break the bull market",
       "url": "",
       "importance": "medium"
     }
   ],
   "key_events": [
-    "微软Q4业绩超预期：Azure/AI云增长强劲，股价+15%至$451",
-    "亚马逊Q2：营收+20%，AWS增速+37%创新高，盘后上涨",
-    "苹果Q3业绩超预期（盘后），Mag7财报持续亮眼",
-    "Meta Q2业绩后暴跌8% — AI支出太高吓到市场",
-    "日元暴涨3.4%至157！日本疑似再度大规模干预汇市",
-    "黄金再创历史新高 $4,160，降息预期+避险双驱动",
-    "VIX从18.89暴跌至17.2，恐慌情绪快速消退",
-    "日经225飙升4.93%至64,915点，日元干预提振出口板块",
-    "美股完全收复Fed决议日跌幅，科技芯片板块领涨"
+    "美联储鹰派官员称须立即加息抗通胀 — 市场对Fed政策分歧加剧",
+    "微软财报引爆AI板块：纳指+2.8%，SOX半导体指数飙升8%",
+    "伊朗战争推升油价：Exxon/Chevron利润单季翻四倍，特朗普威胁油价干预",
+    "今日日本央行BOJ利率决议，行长表态不想落后于曲线",
+    "韩国股市本月飙升约18%，资金重回AI题材",
+    "科技AI建造成本飙升：现金减少+存储芯片成本暴涨",
+    "铜本月有望收涨，供应趋紧信号增强",
+    "黄金保持历史高位$4,160，油价飙升至$84",
+    "BTC回落至$63,875 (-1%)，ETH跌至$1,886 (-1.6%)"
   ],
   "today_watch": [
+    "今日 日本央行BOJ利率决议（重点）",
     "09:30 中国7月官方制造业PMI",
-    "白天 亚太市场联动（日经已大涨5%）",
-    "20:30 美国6月核心PCE物价指数（重点关注）",
+    "20:30 美国6月核心PCE物价指数",
     "21:45 美国7月芝加哥PMI",
-    "盘后 Apple/Amazon业绩余波",
-    "日本央行BOJ利率决议（本周）"
+    "伊朗战争局势发展 — 油价与避险资产动向",
+    "Fed内部加息分歧后续发酵"
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-01T13:30:00Z",
-  "date": "2026-08-01",
+  "timestamp": "2026-08-02T13:30:00Z",
+  "date": "2026-08-02",
   "market_state": "evening-intl",
   "summary": {
-    "title": "晚间国际综述 — 美股全线收涨，原油供应风险与Fed不确定性并存",
-    "us_close": "美股周五(7/31)全线收涨：标普500 +1.05%至7,490，纳指 +1.59%至25,374，道指 +1.04%至52,485。AI板块延续反弹，市场消化Fed官员分歧。",
-    "key_takeaway": "Fed副主席Warsh'沉默'引发长期债券波动，S&P交易员警惕剧烈震荡；中东油轮遭袭推升油价至$84.67"
+    "title": "晚间国际综述 — 周末特朗普取消对伊打击，OPEC宣布9月增产；美股上周五收涨",
+    "us_close": "美股上周五(7/31)全线收涨：标普500 +1.05%至7,490，纳指 +1.59%至25,374，道指 +1.04%至52,485。周末无新交易，焦点转向地缘与OPEC。",
+    "key_takeaway": "特朗普宣布取消对伊朗打击并称达成'协议框架'，地缘风险降温；OPEC确认9月增产，完成减产回退；市场聚焦下周美国就业数据"
   },
   "indices": {
     "US": [
@@ -15,7 +15,7 @@
         "value": 7489.72,
         "change": 77.74,
         "change_pct": 1.05,
-        "note": "站稳7,400上方，连续第二日收涨"
+        "note": "上周五收涨，周末休市；站稳7,400上方"
       },
       {
         "name": "Dow Jones",
@@ -31,7 +31,7 @@
         "value": 25373.85,
         "change": 398.03,
         "change_pct": 1.59,
-        "note": "领涨三大指数，AI/半导体延续反弹"
+        "note": "领涨三大指数，但芯片板块周末消息引发波动担忧"
       }
     ],
     "Asia": [
@@ -39,9 +39,9 @@
         "name": "Hang Seng",
         "market": "香港",
         "value": 25884.43,
-        "change": 921.20,
+        "change": 921.2,
         "change_pct": 3.69,
-        "note": "港股大涨，跟随美股反弹+科技股走强"
+        "note": "上周五港股大涨，周末休市"
       }
     ]
   },
@@ -52,7 +52,7 @@
       "value": 4107.0,
       "change": 6.9,
       "change_pct": 0.17,
-      "note": "维持在$4,100高位，避险需求支撑"
+      "note": "维持$4,100高位；伊朗局势缓和或削弱避险需求"
     },
     {
       "name": "Crude Oil (WTI)",
@@ -60,115 +60,127 @@
       "value": 84.67,
       "change": 1.08,
       "change_pct": 1.29,
-      "note": "中东油轮遭袭+伊朗威胁封锁航道，油价上行"
+      "note": "OPEC确认9月增产(完成减产回退)，但特朗普取消对伊打击可能压制油价上行"
     }
   ],
   "forex": [
     {
       "pair": "EUR/USD",
       "value": 1.1527,
-      "change": 0.006,
-      "change_pct": 0.52
+      "change": 0.0003,
+      "change_pct": 0.03
     },
     {
       "pair": "USD/JPY",
       "value": 157.4,
-      "change": -5.9,
-      "change_pct": -3.61,
-      "note": "日元进一步走强，日本干预效应延续"
+      "change": -2.78,
+      "change_pct": -1.74,
+      "note": "日元走强，日本干预效应延续"
     },
     {
       "pair": "GBP/USD",
       "value": 1.3482,
-      "change": 0.0115,
-      "change_pct": 0.86
+      "change": 0.0021,
+      "change_pct": 0.16
     },
     {
       "pair": "USD/CNY",
       "value": 6.7505,
-      "change": -0.0156,
-      "change_pct": -0.23,
-      "note": "人民币继续走强"
+      "change": -0.0045,
+      "change_pct": -0.07,
+      "note": "人民币维持强势"
     }
   ],
   "crypto": [
     {
       "name": "Bitcoin",
       "symbol": "BTC",
-      "value": 63021.8,
-      "change": -849.56,
-      "change_pct": -1.33,
-      "note": "回落至$63,000附近，加密货币承压"
+      "value": 63045.0,
+      "change": 23.2,
+      "change_pct": 0.02,
+      "note": "周末窄幅震荡于$63,000附近，成交清淡"
     },
     {
       "name": "Ethereum",
       "symbol": "ETH",
-      "value": 1866.56,
-      "change": -53.39,
-      "change_pct": -2.78,
-      "note": "跌破$1,900，跌幅大于BTC"
+      "value": 1854.87,
+      "change": -11.69,
+      "change_pct": -0.64,
+      "note": "回落至$1,855附近，弱于BTC"
     }
   ],
   "volatility": {
     "name": "VIX",
     "value": 15.99,
-    "change": -1.10,
+    "change": -1.1,
     "change_pct": -6.44,
-    "note": "恐慌指数续降，风险偏好进一步回归"
+    "note": "恐慌指数处于低位，地缘缓和或进一步压降风险溢价"
   },
   "overnight_news": [
     {
+      "source": "CNBC",
+      "title": "Trump cancels planned attack on Iran, saying he reached an agreement over the 'perimeters of a deal'",
+      "url": "",
+      "importance": "high"
+    },
+    {
+      "source": "CNBC",
+      "title": "OPEC agrees September oil hike, completing rollback of voluntary cuts",
+      "url": "",
+      "importance": "high"
+    },
+    {
       "source": "Bloomberg",
-      "title": "Warsh's Silent Treatment Has S&P Traders Bracing for Wild Swings",
+      "title": "Wall Street's Favorite Bet Comes Undone as Chips Whipsaw Market",
       "url": "",
       "importance": "high"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "SpaceX IPO Faces First Reality Check",
+      "url": "",
+      "importance": "medium"
+    },
+    {
+      "source": "FT",
+      "title": "Will July's US employment data prompt a rethink on rates?",
+      "url": "",
+      "importance": "high"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "J.P. Morgan drops Fed rate bombshell over Warsh, inflation",
+      "url": "",
+      "importance": "high"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Investors are rotating into financial stocks. The Fed's next move could determine how far the rally runs.",
+      "url": "",
+      "importance": "medium"
     },
     {
       "source": "CNBC",
-      "title": "Tankers near Oman come under fire as Iran threatens to choke off shipping routes",
+      "title": "Why flights are so expensive and will likely stay that way",
       "url": "",
-      "importance": "high"
-    },
-    {
-      "source": "CNBC",
-      "title": "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open'",
-      "url": "",
-      "importance": "medium"
-    },
-    {
-      "source": "FT",
-      "title": "Warsh spooks long bonds",
-      "url": "",
-      "importance": "high"
-    },
-    {
-      "source": "FT",
-      "title": "Surging UK stocks prompt flurry of trades on investment platforms",
-      "url": "",
-      "importance": "medium"
-    },
-    {
-      "source": "FT",
-      "title": "Massive US tungsten discovery could run into Nasa roadblock",
-      "url": "",
-      "importance": "medium"
+      "importance": "low"
     }
   ],
   "key_events": [
-    "美股周五全线收涨：标普+1.05%至7,490，纳指+1.59%，道指+1.04%",
-    "Fed副主席Warsh的'沉默'让长期债券承压，S&P交易员警惕剧烈震荡",
-    "阿曼附近油轮遭袭，伊朗威胁封锁航道推升油价至$84.67",
-    "美股AI板块延续反弹，市场消化Fed官员加息分歧",
-    "港股大涨+3.69%至25,884，跟随美股走强",
-    "日元进一步走强至157.4，日本干预效应延续",
-    "黄金维持$4,100高位；VIX降至16以下",
-    "BTC跌至$63,022 (-1.3%)，ETH跌至$1,867 (-2.8%)"
+    "特朗普宣布取消对伊打击计划，称已就'协议框架'达成一致，地缘风险显著降温",
+    "OPEC确认9月增产，完成自愿减产回退，原油供应端压力上升",
+    "华尔街芯片板块波动(Whipsaw)引发美股AI交易不确定性",
+    "SpaceX IPO面临首次现实考验",
+    "市场聚焦下周美国7月就业数据，或引发利率路径重估",
+    "摩根大通就Warsh与通胀问题发布美联储利率重磅预测",
+    "投资者向金融股轮动，美联储下一步或决定涨势空间",
+    "BTC周末稳于$63,000，ETH回落至$1,855"
   ],
   "today_watch": [
-    "Warsh vs Fed其他官员政策分歧后续 — 长期债券波动",
-    "伊朗/阿曼油轮冲突升级 — 航运与油价影响",
-    "美股AI板块能否延续反弹势头",
-    "下周一全球市场开盘反应",
-    "原油供应风险对通胀预期的传导"
+    "特朗普-伊朗协议细节落地 — 油价与地缘溢价是否回吐",
+    "OPEC 9月增产兑现 — 原油价格后续走势",
+    "美国7月就业数据(下周五) — 市场关键催化",
+    "芯片板块Whipsaw行情 — AI交易是否见顶",
+    "美联储Warsh政策立场与加息分歧 — 长债波动"
   ]
 }

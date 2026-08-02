@@ -2,6 +2,42 @@
   "updated": "2026-08-01",
   "papers": [
     {
+      "title": "Failure Detection for Surgical Robot Imitation Policies via Flow-Matching World Modeling",
+      "id": "2607.27511",
+      "date": "2026-07-29",
+      "authors": "Zhefeng Huang, Yilin Cai, Ankit Patel, Mohammad Hajiha, Brendan Browne, Yue Chen",
+      "categories": "cs.RO, cs.LG, cs.AI",
+      "abstract": "Introduces FoMo-FD (Flow-Matching World Model for Failure Detection): uses flow-matching world model to detect failures in imitation-learning surgical robot policies, addressing scarce failure data, variable manipulation dynamics, and balancing missed detections vs. disruptive false alarms for safe deployment in safety-critical surgical tasks.",
+      "relevance": 3,
+      "topic": "World Models / Imitation Learning",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "Cross-Embodiment Transfer via Behavior-Aligned Representations",
+      "id": "2607.27549",
+      "date": "2026-07-30",
+      "authors": "Ajay Sridhar, Jensen Gao, Jonathan Yang, Jean Mercat, Suneel Belkhale, Dorsa Sadigh",
+      "categories": "cs.RO, cs.LG, cs.AI",
+      "abstract": "Studies role of behavior-aligned representations (object bounding boxes, language motions, end-effector traces of robot motion) in vision-language-action (VLA) models to promote cross-embodiment transfer. Hypothesizes representations invariant across embodiments while predictive of robot actions improve transfer. Examines how these representations enable VLA models to bridge embodiment gaps in large-scale imitation learning.",
+      "relevance": 3,
+      "topic": "VLA / Imitation Learning",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "X-NavDP: Generalizing Navigation Diffusion Policy to Novel Behavior and Embodiments with Group Q-score Reweighted Matching",
+      "id": "2607.28560",
+      "date": "2026-07-30",
+      "authors": "Tianyu Yang, Yiming Zeng, Wenzhe Cai, Yuqiang Yang, Jiaqi Peng, Hui Cheng, Jiangmiao Pang, Tai Wang",
+      "categories": "cs.RO, cs.AI, cs.LG",
+      "abstract": "Pretraining navigation diffusion policies relies on large-scale expert demonstrations from a fully-informed oracle planner suited to a single nominal robot, limiting generalization to diverse embodiments and challenging scenarios (dead ends, long detours) needing diverse local reactive behaviors with onboard local observations. Proposes RL post-training with Group Q-score Reweighted Matching to improve navigation diffusion policy generalization to novel behaviors and embodiments.",
+      "relevance": 4,
+      "topic": "Diffusion Policy / Navigation",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
       "title": "ShadowDancer: Teaching Video World Models Any Action by Learning Unified Dynamics",
       "id": "2607.28362",
       "date": "2026-07-30",

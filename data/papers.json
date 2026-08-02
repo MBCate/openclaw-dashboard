@@ -35,7 +35,8 @@
       "relevance": 4,
       "topic": "Diffusion Policy / Navigation",
       "status": "new",
-      "status_en": "新发现"
+      "status_en": "新发现",
+      "weekly": true
     },
     {
       "title": "ShadowDancer: Teaching Video World Models Any Action by Learning Unified Dynamics",
@@ -47,7 +48,8 @@
       "relevance": 5,
       "topic": "World Models",
       "status": "new",
-      "status_en": "新发现"
+      "status_en": "新发现",
+      "weekly": true
     },
     {
       "title": "PhiZero: A World Model Built Around Physical Language",
@@ -59,7 +61,8 @@
       "relevance": 5,
       "topic": "World Models",
       "status": "new",
-      "status_en": "新发现"
+      "status_en": "新发现",
+      "weekly": true
     },
     {
       "title": "RedFlow: Redirect Failure into Action-Level Corrections for Flow-matching VLA Policies",
@@ -71,7 +74,8 @@
       "relevance": 5,
       "topic": "VLA",
       "status": "new",
-      "status_en": "新发现"
+      "status_en": "新发现",
+      "weekly": true
     },
     {
       "title": "QQWorld: Quantile-Quantile Matching for World Model Regularization",
@@ -179,7 +183,8 @@
       "relevance": 5,
       "topic": "VLA",
       "status": "new",
-      "status_en": "新发现"
+      "status_en": "新发现",
+      "weekly": true
     },
     {
       "title": "Mitigating Compounding Error via Video Representation Regularization",
@@ -313,5 +318,6 @@
       "status": "new",
       "status_en": "新发现"
     }
-  ]
+  ],
+  "weekly_report": "2026-08-01"
 }

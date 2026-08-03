@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-03T01:30:00Z",
+  "timestamp": "2026-08-03T13:30:00Z",
   "date": "2026-08-03",
-  "market_state": "early-morning",
+  "market_state": "morning-intl",
   "summary": {
-    "title": "早盘预览 — 油价暴跌4.9%于伊朗谈判乐观预期，美日联合干预日元走强；美股期货观望",
-    "us_close": "美股上周五(7/31)全线收涨：标普500 +1.05%至7,490，纳指 +1.59%至25,374，道指 +1.04%至52,485。周一(8/3)期货一度走低后回暖，道指走高、标普转涨，Micron与Sandisk领涨，Nvidia/Dell/SpaceX受关注。",
-    "key_takeaway": "特朗普宣布取消对伊打击、新谈判周一开始，有望重开霍尔木兹海峡，油价单日暴跌近5%；美财政部/纽约联储与日本央行十年来首次联手买入日元支撑日元，Bessent表态准备再次出手"
+    "title": "晚间国际追踪 — 日元干预成焦点，SpaceX大股东解禁延后压力；BTC窄幅震荡$62,700",
+    "us_close": "美股上周五(7/31)全线收涨：标普500 +1.05%至7,490，纳指 +1.59%至25,374，道指 +1.04%至52,485。周一(8/3)期货一度低开回暖，道指走高、标普转涨，Micron与Sandisk领涨，Nvidia/Dell/SpaceX受关注。",
+    "key_takeaway": "美财政部/纽约联储与日本央行十年来首次联手买入日元支撑日元，Bessent表态准备再次出手、呼吁更大美联储后盾；SpaceX大股东分批解禁延后抛压；特朗普取消对伊打击、新谈判周一开始，油价承压"
   },
   "indices": {
     "US": [
@@ -95,10 +95,10 @@
     {
       "name": "Bitcoin",
       "symbol": "BTC",
-      "value": 63045.0,
-      "change": 23.2,
-      "change_pct": 0.02,
-      "note": "周末窄幅震荡于$63,000附近，成交清淡"
+      "value": 62706.56,
+      "change": -338.44,
+      "change_pct": -0.54,
+      "note": "较昨日早间回落约$394；年初至今仍远低于一年前($114k附近)，窄幅震荡"
     },
     {
       "name": "Ethereum",
@@ -118,8 +118,20 @@
   },
   "overnight_news": [
     {
-      "source": "CNBC",
-      "title": "Oil drops over 4% after Trump calls off planned strike on Iran",
+      "source": "FT",
+      "title": "SpaceX's staggered lock-up release prolongs the pain",
+      "url": "",
+      "importance": "medium"
+    },
+    {
+      "source": "FT",
+      "title": "Japan vows further yen intervention with US if needed",
+      "url": "",
+      "importance": "high"
+    },
+    {
+      "source": "FT",
+      "title": "Team America: Yen police",
       "url": "",
       "importance": "high"
     },
@@ -158,29 +170,22 @@
       "title": "Trump cancels planned attack on Iran, says fresh US-Iran talks begin Monday",
       "url": "",
       "importance": "high"
-    },
-    {
-      "source": "MarketWatch/Investors",
-      "title": "Dow turns higher, S&P gains as Micron and Sandisk rally; Nvidia, Dell, SpaceX in focus",
-      "url": "",
-      "importance": "medium"
     }
   ],
   "key_events": [
-    "特朗普取消对伊打击计划，称新谈判周一开始，有望重开霍尔木兹海峡，油价单日暴跌近5%",
-    "美财政部/纽约联储十年来首次与日本央行联手买入日元，USD/JPY跌至约156(5月以来最强)，Bessent称准备再次出手",
-    "OPEC 9月增产完成减产回退，叠加伊朗缓和，原油供应端压力骤增",
+    "美财政部/纽约联储十年来首次与日本央行联手买入日元，USD/JPY跌至约156(5月以来最强)，Bessent称准备再次出手、呼吁更大Fed后盾",
+    "SpaceX大股东分批解禁(staggered lock-up)延后抛压，市场关注其上市后走势",
+    "特朗普取消对伊打击计划，新谈判周一开始，有望重开霍尔木兹海峡，油价单日暴跌近5%",
     "AstraZeneca与Bristol Myers洽谈$4,000亿并购大单",
     "摩根大通就Warsh与通胀发布美联储重估，9月加息概率升至约82%",
-    "投资者向金融股轮动，美联储下一步或决定涨势空间",
-    "BTC稳于$63,000，ETH回落至$1,855"
+    "BTC回落至$62,700附近，ETH持稳$1,855，加密情绪中性偏弱"
   ],
   "today_watch": [
     "美伊谈判(周一启动) — 霍尔木兹海峡与油价走向成焦点",
     "美日联合干预后续 — 美元/日元是否续跌，交易员高度警惕",
     "美国7月就业数据(下周五) — 市场关键催化，或引发利率路径重估",
     "芯片板块与AI交易 — Micron、Nvidia、Dell走势",
-    "AstraZeneca-BMS $4,000亿并购折衷 — 医药板块影响",
-    "OPEC 9月增产落地 — 油价是否企稳"
+    "SpaceX分批解禁 — 科技股/新股抛压观察",
+    "AstraZeneca-BMS $4,000亿并购折衷 — 医药板块影响"
   ]
 }

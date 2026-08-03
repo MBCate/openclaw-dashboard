@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01",
+  "updated": "2026-08-02",
   "papers": [
     {
       "title": "Failure Detection for Surgical Robot Imitation Policies via Flow-Matching World Modeling",
@@ -315,6 +315,42 @@
       "abstract": "Bridges SLAM and SfM for metric reconstruction of arbitrary uncalibrated videos. Uses sequential constraints + global optimization. More robust than SOTA SLAM and SfM on challenging datasets with extreme motion.",
       "relevance": 3,
       "topic": "Perception",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "QuantWAMs: Calibrating at the Right Granularity for World Action Models",
+      "id": "2607.28405",
+      "date": "2026-07-30",
+      "authors": "Jiacheng Zhou, Jinfan Lv, Ruixuan Li, Longtai Zhang, Yan Wang, Wenqiang Zhang, Lizhe Qi",
+      "categories": "cs.LG, cs.AI, cs.CV",
+      "abstract": "World Action Models (WAMs) jointly predict future observations and actions, but iterative denoising and closed-loop execution make deployment costly. QuantWAMs is a post-training quantization (PTQ) framework that aligns quantization decisions with the deployment calibration context, addressing open-loop objectives and homogeneous model assumptions that make standard PTQ poorly suited to WAMs.",
+      "relevance": 3,
+      "topic": "World Models",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "One Future, Every Robot: Label-Efficient Collective-State Prediction with Decentralized JEPA",
+      "id": "2607.28443",
+      "date": "2026-07-30",
+      "authors": "Alan-Barsag Gazzaev, Alexey Garvilov, Sergey Muravyov",
+      "categories": "cs.LG, cs.RO, cs.AI",
+      "abstract": "Formulates decentralized shared-state prediction for robot swarms and introduces Collective-State JEPA (CS-JEPA), a recurrent joint-embedding predictive architecture whose output at every robot represents one common future token field. Uses 16-frame local history and one 64-float recurrent message per directed edge, with no global pooling or target network, enabling label-efficient collective future prediction.",
+      "relevance": 3,
+      "topic": "World Models / JEPA / Multi-Agent Prediction",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "TEA-AgriVLN: Traversability Estimation Alarm for Agricultural Vision-and-Language Navigation",
+      "id": "2607.28474",
+      "date": "2026-07-30",
+      "authors": "Xiaobei Zhao, Xingqi Lyu, Xin Chen, Xiang Li",
+      "categories": "cs.RO, cs.CV, cs.AI",
+      "abstract": "Extends Vision-and-Language Navigation in Continuous Environments (VLN-CE) to agricultural scenes, where zone traversability is more ambiguous than indoor scenes. Introduces TEA-AgriVLN, a traversability estimation alarm to improve low-level action prediction on the A2A benchmark / AgriVLN method, addressing ambiguous terrain classification for navigation.",
+      "relevance": 3,
+      "topic": "Vision-Language Navigation / Traversability",
       "status": "new",
       "status_en": "新发现"
     }

@@ -1,23 +1,31 @@
 {
-  "timestamp": "2026-07-31T09:00:00",
-  "date": "2026-07-31",
-  "report_type": "weekly",
+  "timestamp": "2026-08-03T00:15:06",
+  "date": "2026-08-03",
+  "report_type": "daily",
   "crypto": {
     "BTC": {
-      "price": 64081.5,
-      "change_24h": -0.6,
-      "high_24h": 64751.6,
-      "low_24h": 63261.6,
-      "trend_1h": "偏多",
-      "trend_4h": "偏空"
+      "price": 62576.9,
+      "change_24h": -1.44,
+      "high_24h": 63799.3,
+      "low_24h": 62576.9,
+      "trend_1h": "偏空",
+      "trend_4h": "偏空",
+      "rsi_1h": 28.0,
+      "rsi_4h": 45.8,
+      "macd_1h": "死叉",
+      "macd_4h": "金叉"
     },
     "ETH": {
-      "price": 1905.01,
-      "change_24h": -0.65,
-      "high_24h": 1935.96,
-      "low_24h": 1874.0,
-      "trend_1h": "偏多",
-      "trend_4h": "偏空"
+      "price": 1842.47,
+      "change_24h": -1.90,
+      "high_24h": 1898.84,
+      "low_24h": 1842.0,
+      "trend_1h": "偏空",
+      "trend_4h": "偏空",
+      "rsi_1h": 34.7,
+      "rsi_4h": 44.6,
+      "macd_1h": "死叉",
+      "macd_4h": "死叉"
     }
   },
   "fear_greed": {
@@ -25,148 +33,26 @@
     "label": "Fear"
   },
   "signals": {
-    "DoubleMa": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "RSI": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "MACD": {
-      "1h": "做多",
-      "4h": "观望"
-    },
-    "Bollinger": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "Supertrend": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "TripleMa": {
-      "1h": "做多",
-      "4h": "观望"
-    },
-    "Momentum": {
-      "1h": "做空",
-      "4h": "做多"
-    },
-    "MeanReversion": {
-      "1h": "观望",
-      "4h": "观望"
-    }
+    "DoubleMa": { "1h": "做空", "4h": "观望" },
+    "TripleMa": { "1h": "观望", "4h": "观望" },
+    "Supertrend": { "1h": "观望", "4h": "观望" },
+    "RSI": { "1h": "做多", "4h": "观望" },
+    "MACD": { "1h": "观望", "4h": "观望" },
+    "Bollinger": { "1h": "做多", "4h": "观望" },
+    "Momentum": { "1h": "做空", "4h": "做空" },
+    "MeanReversion": { "1h": "做多", "4h": "观望" }
   },
   "stocks": {
-    "上证指数": {
-      "price": 3804.6926,
-      "change": -0.621,
-      "volume": 592298923.0
-    },
-    "深证成指": {
-      "price": 13285.801,
-      "change": -2.728
-    },
-    "创业板指": {
-      "price": 3244.618,
-      "change": -3.968
-    },
-    "沪金主力": {
-      "price": 884.2,
-      "change": -0.1,
-      "date": "2026-07-29"
-    },
-    "沪银主力": {
-      "price": 14268.0,
-      "change": 1.28,
-      "date": "2026-07-29"
-    },
-    "沪铜主力": {
-      "price": 104890.0,
-      "change": 0.08,
-      "date": "2026-07-29"
-    },
-    "螺纹钢主力": {
-      "price": 3062.0,
-      "change": 0.07,
-      "date": "2026-07-29"
-    },
-    "沪深300期货": {
-      "price": 4544.8,
-      "change": 0.53,
-      "date": "2026-07-29"
-    },
-    "中证500期货": {
-      "price": 7454.2,
-      "change": 1.38,
-      "date": "2026-07-29"
-    },
-    "50ETF波动率": {
-      "value": 20.36,
-      "date": "2026-07-29"
-    }
+    "上证指数": { "price": 3809.66, "change": -0.59 },
+    "深证成指": { "price": 13448.29, "change": -0.96 },
+    "创业板指": { "price": 3302.55, "change": -1.24 },
+    "沪金主力": { "price": 888.3, "change": 0.78, "date": "2026-07-31" },
+    "沪银主力": { "price": 14264.0, "change": 1.65, "date": "2026-07-31" },
+    "沪铜主力": { "price": 105460.0, "change": 0.74, "date": "2026-07-31" },
+    "螺纹钢主力": { "price": 3004.0, "change": -0.33, "date": "2026-07-31" },
+    "沪深300期货": { "price": 4538.0, "change": 0.66, "date": "2026-07-31" },
+    "中证500期货": { "price": 7395.0, "change": 2.06, "date": "2026-07-31" },
+    "50ETF波动率": { "value": 19.66, "date": "2026-07-31" }
   },
-  "week": "2026-W31",
-  "weekly_summary": {
-    "period": "2026-07-27 ~ 2026-07-31",
-    "crypto": {
-      "BTC": {
-        "price": 64081.5,
-        "week_change_pct": -3.2,
-        "week_high": 66210.0,
-        "week_low": 63261.6,
-        "trend": "震荡偏空"
-      },
-      "ETH": {
-        "price": 1905.01,
-        "week_change_pct": -4.1,
-        "week_high": 1995.0,
-        "week_low": 1874.0,
-        "trend": "震荡偏空"
-      }
-    },
-    "fear_greed_avg": 30,
-    "fear_greed_label": "Fear",
-    "signals_distribution": {
-      "做多": 2,
-      "做空": 1,
-      "观望": 5
-    },
-    "strategy_signals": {
-      "DoubleMa": {
-        "1h": "观望",
-        "4h": "观望"
-      },
-      "TripleMa": {
-        "1h": "做多",
-        "4h": "观望"
-      },
-      "Supertrend": {
-        "1h": "观望",
-        "4h": "观望"
-      },
-      "RSI": {
-        "1h": "观望",
-        "4h": "观望"
-      },
-      "MACD": {
-        "1h": "做多",
-        "4h": "观望"
-      },
-      "Bollinger": {
-        "1h": "观望",
-        "4h": "观望"
-      },
-      "Momentum": {
-        "1h": "做空",
-        "4h": "做多"
-      },
-      "MeanReversion": {
-        "1h": "观望",
-        "4h": "观望"
-      }
-    },
-    "note": "本周加密货币整体震荡偏空，恐惧贪婪指数处于Fear区间(28-30)，市场情绪谨慎。策略信号以观望为主，MACD与TripleMa 1h出现做多信号，Momentum 1h做空与4h做多形成背离。"
-  }
+  "note": "BTC/ETH震荡偏空，恐惧贪婪指数28(Fear)。策略信号分歧：RSI/Bollinger/MeanReversion 1h做多 vs DoubleMa/Momentum 1h做空，Momentum 4h亦做空。"
 }

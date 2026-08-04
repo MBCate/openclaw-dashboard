@@ -1,64 +1,64 @@
 {
-  "updated": "2026-08-03 15:05:00",
-  "period": "收盘",
+  "updated": "2026-08-04 11:35:00",
+  "period": "午盘",
   "indices": [
     {
       "name": "上证指数",
       "code": "1.000001",
-      "price": 3809.66,
-      "change_pct": -0.59,
-      "change": -22.60,
-      "volume": 524516960,
-      "amount": 9522.57
+      "price": 3815.59,
+      "change_pct": 0.16,
+      "change": 5.93,
+      "volume": 330034605,
+      "amount": 6109.89
     },
     {
       "name": "深证成指",
       "code": "0.399001",
-      "price": 13448.29,
-      "change_pct": -0.96,
-      "change": -130.52,
+      "price": 13817.39,
+      "change_pct": 2.75,
+      "change": 369.10,
       "volume": null,
-      "amount": 10451.0
+      "amount": 7496.83
     },
     {
       "name": "创业板指",
       "code": "0.399006",
-      "price": 3302.55,
-      "change_pct": -1.24,
-      "change": -41.59,
+      "price": 3462.05,
+      "change_pct": 4.83,
+      "change": 159.50,
       "volume": null,
-      "amount": 4865.0
+      "amount": 3735.30
     },
     {
       "name": "沪深300",
       "code": "1.000300",
-      "price": 4543.18,
-      "change_pct": -0.98,
-      "change": -44.96
+      "price": 4585.65,
+      "change_pct": 0.94,
+      "change": 42.48
     }
   ],
   "north_flow": {
     "note": "北向资金实时净流入明细已停止披露（2024年8月起）"
   },
   "top_gainers": [
-    { "name": "造纸行业", "pct": 3.94 },
-    { "name": "飞机制造", "pct": 3.08 },
-    { "name": "发电设备", "pct": 2.84 },
-    { "name": "供水供气", "pct": 2.43 },
-    { "name": "摩托车", "pct": 2.41 },
-    { "name": "综合行业", "pct": 2.37 },
-    { "name": "电力行业", "pct": 2.23 },
-    { "name": "塑料制品", "pct": 2.18 }
+    { "name": "元件", "pct": 6.03 },
+    { "name": "电子化学品", "pct": 5.32 },
+    { "name": "通信设备", "pct": 4.79 },
+    { "name": "半导体", "pct": 4.57 },
+    { "name": "互联网电商", "pct": 4.29 },
+    { "name": "医疗服务", "pct": 4.24 },
+    { "name": "游戏", "pct": 4.14 },
+    { "name": "其他电子", "pct": 3.96 }
   ],
   "top_losers": [
-    { "name": "医疗器械", "pct": -0.57 },
-    { "name": "家电行业", "pct": -0.59 },
-    { "name": "化工行业", "pct": -0.92 },
-    { "name": "次新股", "pct": -1.09 },
-    { "name": "玻璃行业", "pct": -1.33 },
-    { "name": "陶瓷行业", "pct": -1.35 },
-    { "name": "煤炭行业", "pct": -1.50 },
-    { "name": "电子器件", "pct": -2.30 }
+    { "name": "钢铁", "pct": -0.82 },
+    { "name": "港口航运", "pct": -0.94 },
+    { "name": "白酒", "pct": -1.03 },
+    { "name": "公路铁路运输", "pct": -1.26 },
+    { "name": "汽车整车", "pct": -1.33 },
+    { "name": "机场航运", "pct": -1.43 },
+    { "name": "保险", "pct": -1.76 },
+    { "name": "银行", "pct": -2.34 }
   ],
-  "source": "akshare(sina)"
+  "source": "akshare(sina/ths)"
 }

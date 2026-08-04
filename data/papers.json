@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02",
+  "updated": "2026-08-03 17:33:32",
   "papers": [
     {
       "title": "Failure Detection for Surgical Robot Imitation Policies via Flow-Matching World Modeling",
@@ -351,6 +351,102 @@
       "abstract": "Extends Vision-and-Language Navigation in Continuous Environments (VLN-CE) to agricultural scenes, where zone traversability is more ambiguous than indoor scenes. Introduces TEA-AgriVLN, a traversability estimation alarm to improve low-level action prediction on the A2A benchmark / AgriVLN method, addressing ambiguous terrain classification for navigation.",
       "relevance": 3,
       "topic": "Vision-Language Navigation / Traversability",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "STAGE: STyle-controllable Action GEneration for personalized autonomous driving",
+      "id": "2607.29517",
+      "date": "2026-07-31",
+      "authors": "Zihao Liu, Xing Liu, Yizhai Zhang, Panfeng Huang",
+      "categories": "cs.RO, cs.HC",
+      "abstract": "端到端自动驾驶个性化驾驶风格控制方法：基于模仿学习训练,融合风格值与隐价值动作模态编码,并用偏好学习把用户驾驶风格映射为连续的单调风格值。推理时用户输入风格值即可动态控制生成的动作模式,逼近个人驾驶习惯,无需额外人工偏好标注。在典型道路场景验证了风格可控的动作生成效果。",
+      "relevance": 5,
+      "topic": "End-to-End Autonomous Driving",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning",
+      "id": "2607.29613",
+      "date": "2026-07-31",
+      "authors": "Senyu Fei, Xiaopeng Yu, Siyin Wang, Xianzhong Zhao, Jingjing Gong, Xipeng Qiu",
+      "categories": "cs.RO, cs.CL, cs.CV",
+      "abstract": "指出VLA模型RL后训练的critic多基于单帧观测,与部分可观测的机器人控制不匹配(状态近似问题)。提出基于轻量LeJEPA架构的世界批评家模型WCM,联合预测未来潜在状态并估计价值,显式训练critic表征捕获时序动态而非仅回归标量回报,解决高维视觉历史复杂度与监督不足的问题。兼容on-policy与off-policy设置。",
+      "relevance": 4,
+      "topic": "VLA / World Model",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "FibVLA: An Efficient Temporal Vision-Language-Action Model with Fibonacci Sampling",
+      "id": "2607.29596",
+      "date": "2026-07-31",
+      "authors": "Li Lin, Wujun Xu, Weiwei Meng, Kaiwen Xia, Kang Hao Cheong, Shuai Wang",
+      "categories": "cs.RO, cs.CV",
+      "abstract": "针对VLA捕获时序信息与推理效率冲突的问题,提出高效时序VLA框架FibVLA:用对数回溯采样(对数hindsight)对本体状态与视觉帧采长程时序依赖以最小化冗余;动作专家用flow matching生成动作分布,并用斐波那契递推推理策略基于实时闭环反馈生成远规划。无需重训大规模视觉编码器即提升动作平滑度与成功率。",
+      "relevance": 4,
+      "topic": "Vision-Language-Action (VLA)",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "Safe Vision Language Action Models via Barrier Enhanced Flow Matching",
+      "id": "2607.29569",
+      "date": "2026-07-31",
+      "authors": "Kasra Sinaei, Hung-Chieh Wu, Donald Ebeigbe",
+      "categories": "cs.RO, eess.SY",
+      "abstract": "提出模块化安全推理框架:将Flow Matching生成模型与形式化控制屏障函数(CBF)安全保证结合。不同于外部安全过滤器作用于最终输出,该方法在模型内部的Flow Matching去噪过程中直接生成安全轨迹,用平滑Log-Sum-Exp聚合屏障对整个动作块施加安全约束,保证2-Wasserstein距离有界。无需安全数据集或模型重训,在两个机器人操作平台与2D导航基准上不降低成功率地实现可靠安全。",
+      "relevance": 4,
+      "topic": "Vision-Language-Action (VLA) / Safety",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "BWM: A Low-Cost High-Fidelity World Simulator for Robot Learning",
+      "id": "2607.29302",
+      "date": "2026-07-31",
+      "authors": "BWM Team",
+      "categories": "cs.RO, cs.CV",
+      "abstract": "开源低成本高保真机器人操作世界模拟器Boundless World Model(BWM):动作条件世界模型,结合初始环境引导、动态视觉历史与时间对齐的动作条件,做有状态自回归未来观测预测。通过轨迹回放、重叠片段采样、初始观测增强构建动作对齐训练片。可作为数据引擎为模仿学习补充动作对齐rollout,也可作为闭环策略评估器(风险评估、策略排序)。在WorldArena基准与物理机器人上验证。",
+      "relevance": 4,
+      "topic": "World Model / Robot Learning",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "RayViT: Ray-Conditioned Visual Representations for Viewpoint-Robust Imitation Learning",
+      "id": "2607.29622",
+      "date": "2026-07-31",
+      "authors": "Qian Wang, Longrui Chen, Peiran Sun, Aleksandar Taranovic, Niklas Freymuth, Ge Li, Weiran Liao, C. F. Maximilian Nagy, Yucheng Tan, Tao Chen, Gerhard Neumann",
+      "categories": "cs.RO, cs.CV",
+      "abstract": "针对RGB观测缺乏显式几何线索导致策略对相机扰动脆弱的问题,提出光线条件视觉Transformer编码器RayViT:将相机几何表示为Plücker光线图,分块成光线特征,用门控交叉注意力生成光线条件class token,叠加为稠密位置嵌入。配辅助余弦相似度损失提高几何感知token的鲁棒性。在RoboCasa多任务基准上相机扰动下鲁棒性提升约13个百分点,真实多任务成功率平均提升1.78个完成阶段。",
+      "relevance": 3,
+      "topic": "Imitation Learning / Perception",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "Temporal Policy: History-Initialized Action Generation for Robotic Learning from Demonstration",
+      "id": "2607.29482",
+      "date": "2026-07-31",
+      "authors": "Dylan Miller, Martin Jagersand",
+      "categories": "cs.RO",
+      "abstract": "提出基于随机插值(stochastic interpolants)的生成式框架Temporal Policy,把动作生成建模为时间耦合输运问题:以机器人近期历史初始化生成流,显式耦合过去状态与未来动作序列,降低输运代价并产生直线向量场。相比噪声初始化基线将输运成本降低近一个数量级,单张RTX 4080上推理延迟19.1ms,同时保持与SOTA基线相当的成功率。",
+      "relevance": 3,
+      "topic": "Diffusion Policy / Imitation Learning",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "Homotopy-Aware Corridor Generation without Predefined Reference Paths",
+      "id": "2607.29513",
+      "date": "2026-07-31",
+      "authors": "Haoze Dong, Minghan Li, Meng Guo, Zhongkui Li",
+      "categories": "cs.RO",
+      "abstract": "提出免参考路径的安全走廊生成框架:基于凸集图(GCS)直接构造凸集序列走廊,让走廊结构从自由空间表征中涌现而非受制于引导路径;将基于可见性的形变从路径推广到凸集序列以融合拓扑冗余走廊;开发自适应多尺度GCS,细尺度采样图支持局部更新、粗尺度可见性图支持紧凑全局探索,环境变化时无需整体重建。用于无碰撞机器人运动规划。",
+      "relevance": 3,
+      "topic": "Planning / Motion Planning",
       "status": "new",
       "status_en": "新发现"
     }

@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-05T01:15:00Z",
+  "timestamp": "2026-08-05T13:30:00Z",
   "date": "2026-08-05",
-  "market_state": "morning-intl",
+  "market_state": "evening-intl",
   "summary": {
-    "title": "早盘预览 — 美股冲历史新高，油价跌破$80，亚洲AI行情延续",
-    "us_close": "周二(8/4)美股收盘：标普500与道指双双创历史新高，此前'动能崩跌'后的巨量反弹被证明正确；S&P 500期货盘初几无变动。SpaceX自IPO后首份财报：AI成本飙升盖过营收超预期，股价下跌；AMD营收+50%、数据中心收入翻倍，股价仍走低。",
-    "key_takeaway": "美伊霍尔木兹协议预期乐观推动油价两日累跌超5%、布伦特跌破$80；亚洲股市大涨，SoftBank +10%领涨，KOSPI盘中涨近4%，科技AI行情外溢。今日A股料受风险偏好回暖提振，关注油运/炼化承压与AI算力、半导体方向。"
+    "title": "晚间国际 — 美股现AI深度抛售，道指创新高后回落，关注美亚联动",
+    "us_close": "美股周三延续AI抛售压力：WSJ报道'Stocks Sink in Broad AI Rout Sparked by China's DeepSeek'，投资者担忧AI资本开支与盈利可持续性；SpaceX财报显示AI成本飙升+英伟达合作推进。Kashkari称'现在是时候开始缓慢加息'，美联储转鹰信号压制估值。SandP/道指均从高位回落，道指此前刚创54,000上方新高后回吐。",
+    "key_takeaway": "全球市场分化：美股受AI估值担忧下挫（触及'1987式'回调担忧）、COMEX金价走低、布伦特周二曾跌破$80；加密货币企稳反弹（BTC约$64,110）。关注DeepSeek引发的AI成本竞争格局、美联储利率路径与明日亚洲/港股开盘联动。"
   },
   "indices": {
     "US": [
@@ -15,7 +15,7 @@
         "value": 0.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "8/4收盘创历史新高，'动能崩跌'后巨量反弹；期货盘初几无变动，等待方向"
+        "note": "高位回落：AI抛售潮拖累，此前刚触及历史新高；Burry警告或现1987式下跌"
       },
       {
         "name": "Nasdaq",
@@ -23,15 +23,15 @@
         "value": 0.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "8/4大幅反弹，AI权重股领涨；SoftBank与亚洲科技股跟随华尔街AI行情"
+        "note": "DeepSeek引发AI撤离——中国大模型成本冲击美国AI资本开支叙事，科技股承压"
       },
       {
         "name": "Dow Jones",
         "symbol": "DJI",
-        "value": 0.0,
+        "value": 54000.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "8/4收盘创历史新高，连续走强"
+        "note": "周二(8/4)首破54,000创历史新高，周三回吐部分涨幅"
       }
     ],
     "Asia": [
@@ -41,15 +41,15 @@
         "value": 0.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "亚太早盘大涨，科技股受华尔街AI行情提振"
+        "note": "早盘一度大涨；关注AI行情外溢持续性"
       },
       {
         "name": "KOSPI",
         "market": "韩国",
         "value": 0.0,
         "change": 0.0,
-        "change_pct": 3.85,
-        "note": "今日开盘大涨，KOSPI盘中涨约3.85%；日韩股市跟随美股AI强力反弹"
+        "change_pct": 0.0,
+        "note": "昨日开盘大涨跟随华尔街AI行情，今日或受美股AI抛售拖累"
       },
       {
         "name": "Nikkei",
@@ -57,7 +57,7 @@
         "value": 0.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "SoftBank +10%，亚洲科技股全面追涨华尔街AI行情"
+        "note": "SoftBank此前+10%领涨；关注AI板块回吐风险"
       }
     ]
   },
@@ -68,7 +68,7 @@
       "value": 79.0,
       "change": -4.0,
       "change_pct": -5.0,
-      "note": "布伦特连续第二日大跌超5%，跌破$80/桶；卡塔尔与美国释放积极信号，美伊聚焦霍尔木兹的临时协议渐现曙光"
+      "note": "连续两日累跌超5%后跌破$80；美伊霍尔木兹协议预期乐观，卡塔尔释放积极信号"
     },
     {
       "name": "Crude Oil (WTI)",
@@ -76,15 +76,15 @@
       "value": 76.0,
       "change": -4.0,
       "change_pct": -5.0,
-      "note": "跟随布伦特下挫；霍尔木兹海峡重开预期压制供应风险溢价"
+      "note": "跟随布伦特下挫；霍尔木兹重开预期压制供应风险溢价"
     },
     {
       "name": "Gold (COMEX)",
       "symbol": "GC",
-      "value": 4080.0,
+      "value": 4058.0,
       "change": -22.0,
       "change_pct": -0.54,
-      "note": "避险需求因地缘缓和回落，金价自$4,100上方走低"
+      "note": "COMEX金价、银价双双收低；避险需求在地缘缓和后回落"
     }
   ],
   "forex": [
@@ -93,7 +93,7 @@
       "value": 155.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "note": "155成日元下一关键考验；关注美日联合干预后续动作"
+      "note": "155成日元关键考验；美日联合干预后续为焦点"
     },
     {
       "pair": "EUR/USD",
@@ -112,17 +112,17 @@
       "value": 6.7505,
       "change": 0.0,
       "change_pct": 0.0,
-      "note": "人民币维持强势；印度为支撑卢比向海外侨民募资$400亿"
+      "note": "人民币维持强势"
     }
   ],
   "crypto": [
     {
       "name": "Bitcoin",
       "symbol": "BTC",
-      "value": 63508.82,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "note": "企稳$63,500附近；聚焦CLARITY Act(8/8休会前)进展与ETF资金流向"
+      "value": 64109.63,
+      "change": 600.81,
+      "change_pct": 0.95,
+      "note": "反弹至约$64,110附近，较前一日$63,509回升约+1%；聚焦CLARITY Act(8/8休会前)进展"
     },
     {
       "name": "Ethereum",
@@ -130,7 +130,7 @@
       "value": 1865.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "note": "回升$1,865附近，买盘动能仍偏弱"
+      "note": "企稳$1,865附近，买盘动能仍偏弱"
     }
   ],
   "volatility": {
@@ -138,79 +138,80 @@
     "value": 15.99,
     "change": -1.1,
     "change_pct": -6.44,
-    "note": "恐慌指数低位；地缘缓和+风险偏好回升进一步压降风险溢价"
+    "note": "恐慌指数低位；但AI抛售+加息预期或推升波动，留意风险溢价回升"
   },
   "overnight_news": [
     {
       "source": "CNBC",
-      "title": "SpaceX earnings takeaways: Soaring AI costs outweigh revenue beat in first report since IPO",
+      "title": "Fed's Kashkari says 'now is the time to start slowly moving' rates up",
       "url": "",
       "importance": "high"
     },
     {
       "source": "CNBC",
-      "title": "AMD's revenue climbs 50% and data center sales doubled, but the stock is down",
+      "title": "SpaceX dives 12% after AI spending surge rattles investors",
       "url": "",
       "importance": "high"
     },
     {
       "source": "CNBC",
-      "title": "SoftBank jumps 10% as Asia tech stocks track Wall Street AI rally",
+      "title": "Saudi wealth fund and Jared Kushner's Affinity finalize $55 billion EA Sports deal",
+      "url": "",
+      "importance": "medium"
+    },
+    {
+      "source": "WSJ",
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
       "url": "",
       "importance": "high"
     },
     {
-      "source": "FT",
-      "title": "US stocks jump after Bessent says deal to reopen Hormuz is imminent",
+      "source": "WSJ",
+      "title": "Comex Gold, Silver Settle Lower",
       "url": "",
-      "importance": "high"
+      "importance": "medium"
     },
     {
-      "source": "Sina",
-      "title": "美伊谈判预期乐观引发油价大跌：布伦特两日累跌超5%跌破$80；OPEC上月产量增加",
+      "source": "MarketWatch",
+      "title": "S&P 500 just hit a new high. 'Big Short' investor Michael Burry thinks it could bring a 1987-style fall.",
       "url": "",
       "importance": "high"
     },
     {
       "source": "MarketWatch",
-      "title": "Stocks return to record highs. Investors who sat tight during the recent momentum crash are being rewarded.",
-      "url": "",
-      "importance": "high"
-    },
-    {
-      "source": "FT",
-      "title": "India raises $40bn from diaspora to support sagging rupee",
+      "title": "3 reasons AMD's stock is falling in the face of its latest earnings report",
       "url": "",
       "importance": "medium"
     },
     {
-      "source": "Bloomberg",
-      "title": "Asian Stocks Advance, Oil Extends Drop on Iran: Markets Wrap",
-      "url": "",
-      "importance": "high"
-    },
-    {
-      "source": "Sohu",
-      "title": "8/5国际晨讯：SpaceX与英伟达合作开发卫星计算载荷；日韩股市开盘大涨，KOSPI涨3.85%",
+      "source": "Yahoo Finance",
+      "title": "This SpaceX number is spooking already skittish investors",
       "url": "",
       "importance": "medium"
+    },
+    {
+      "source": "CNN",
+      "title": "S&P 500 back at record high, Dow hits 54,000; consolidation amid AI rout",
+      "url": "",
+      "importance": "high"
     }
   ],
   "key_events": [
-    "美股8/4收盘创历史新高：标普500与道指双双冲新高，'动能崩跌'后巨量反弹获验证，投资者坚守获回报",
-    "SpaceX IPO后首份财报：AI成本飙升盖过营收超预期，股价下跌；与英伟达合作开发卫星计算载荷",
-    "AMD营收+50%、数据中心收入翻倍，营收超预期但股价走低",
-    "布伦特原油连续两日大跌超5%、跌破$80/桶；美伊聚焦霍尔木兹的临时协议渐现曙光，卡塔尔与美国释放积极信号",
-    "亚洲股市大涨：SoftBank +10%领涨，KOSPI开盘涨约3.85%，日韩科技股追踪华尔街AI行情",
-    "印度为支撑卢比向海外侨民募资$400亿",
-    "BTC企稳$63,500、ETH回升$1,865；聚焦CLARITY Act(8/8休会前)"
+    "美股AI深度抛售：WSJ——中国DeepSeek引发的Broad AI Rout，投资者撤离高估值AI权重股，标普/纳指承压",
+    "道指周二(8/4)首破54,000创历史新高后回吐部分涨幅；CNN报道标普500重新回到历史高位，但涨幅收敛",
+    "美联储Kashkari转向鹰派：'现在是时候开始缓慢加息'，压制市场估值与风险偏好",
+    "SpaceX财报后股价大跌12%：AI成本飙升盖过营收，投资者担忧AI资本开支可持续性",
+    "'大空头'投资者Michael Burry警告市场或现1987式下跌，加剧乖离担忧",
+    "COMEX金价、银价双双收低：地缘缓和令避险需求回落",
+    "Saudi财富基金与Kushner旗下Affinity完成$550亿EA Sports交易",
+    "BTC反弹至约$64,110(+1%)，ETH企稳$1,865；聚焦CLARITY Act(8/8休会前)立法"
   ],
   "today_watch": [
-    "霍尔木兹海峡谈判进展 — 若达成协议，油价或续跌，全球通胀预期改善；今日A股油运/炼化或承压",
-    "美股历史新高后的持续性 — 标普/道指若能守住高位，风险偏好有望外溢至A股",
-    "AI算力/半导体主线 — 美股AMD、SpaceX财报与亚洲科技大涨，A股AI链条或受催化",
+    "AI赛道风险重估 — DeepSeek引发的AI估值担忧是否延续至明亚盘/港股，A股AI算力链条或受扰动",
+    "美联储加息路径 — Kashkari鹰派表态后，关注其他官员及利率期货定价是否跟随转鹰",
+    "霍尔木兹海峡谈判 — 若达成协议油价或续跌，通胀预期改善；OPEC上月产量增加亦压制油市",
     "日元155关键位 — 美日联合干预后续，汇率波动或加剧",
     "CLARITY Act(8/8休会前) — 加密监管立法进展牵动BTC/ETH",
-    "今日A股预开盘 — 关注风险偏好回暖下高开与量能表现(注: AkShare实时数据暂获取异常)"
+    "美股历史新高后的回吐风险 — Burry'1987式'警告叠加AI抛售，留意波动率回升"
   ]
 }

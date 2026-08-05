@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-04T13:30:00Z",
-  "date": "2026-08-04",
-  "market_state": "evening-intl",
+  "timestamp": "2026-08-05T01:15:00Z",
+  "date": "2026-08-05",
+  "market_state": "morning-intl",
   "summary": {
-    "title": "晚间国际 — 道指创历史新高，霍尔木兹谈判推动油价回落；BTC企稳$63,500",
-    "us_close": "周一(8/3)美股全线大涨：道指 +1.3%收53,178.41创历史新高，标普500 +1.5%，纳指 +2.1%，连续第三个交易日上涨。特朗普转向外交、美伊缓和推动风险偏好，油价与美债收益率双双回落。",
-    "key_takeaway": "美伊缓和+Pivot外交成主旋律，标普8/4有望冲历史新高；Bessent称周二或周三或达成重开霍尔木兹海峡协议；日元干预后155成下一个考验；Bezos抛售40亿美元Amazon拖累股价"
+    "title": "早盘预览 — 美股冲历史新高，油价跌破$80，亚洲AI行情延续",
+    "us_close": "周二(8/4)美股收盘：标普500与道指双双创历史新高，此前'动能崩跌'后的巨量反弹被证明正确；S&P 500期货盘初几无变动。SpaceX自IPO后首份财报：AI成本飙升盖过营收超预期，股价下跌；AMD营收+50%、数据中心收入翻倍，股价仍走低。",
+    "key_takeaway": "美伊霍尔木兹协议预期乐观推动油价两日累跌超5%、布伦特跌破$80；亚洲股市大涨，SoftBank +10%领涨，KOSPI盘中涨近4%，科技AI行情外溢。今日A股料受风险偏好回暖提振，关注油运/炼化承压与AI算力、半导体方向。"
   },
   "indices": {
     "US": [
@@ -14,81 +14,105 @@
         "symbol": "SPX",
         "value": 0.0,
         "change": 0.0,
-        "change_pct": 1.5,
-        "note": "周一(8/3)收涨1.5%，接近历史新高；8/4盘前Bloomberg称标普有望冲历史新高"
+        "change_pct": 0.0,
+        "note": "8/4收盘创历史新高，'动能崩跌'后巨量反弹；期货盘初几无变动，等待方向"
       },
       {
         "name": "Nasdaq",
         "symbol": "IXIC",
         "value": 0.0,
         "change": 0.0,
-        "change_pct": 2.1,
-        "note": "周一(8/3)领涨2.1%，科技股领跑；继续第三个交易日上涨"
+        "change_pct": 0.0,
+        "note": "8/4大幅反弹，AI权重股领涨；SoftBank与亚洲科技股跟随华尔街AI行情"
       },
       {
         "name": "Dow Jones",
         "symbol": "DJI",
-        "value": 53178.41,
-        "change": 693.0,
-        "change_pct": 1.3,
-        "note": "周一(8/3)收53,178.41创历史新高，单日上涨约693点"
+        "value": 0.0,
+        "change": 0.0,
+        "change_pct": 0.0,
+        "note": "8/4收盘创历史新高，连续走强"
       }
     ],
     "Asia": [
       {
         "name": "Hang Seng",
         "market": "香港",
-        "value": 25884.43,
-        "change": 921.2,
-        "change_pct": 3.69,
-        "note": "上周五港股大涨3.69%，全周强势；海外风险偏好回暖或提振"
+        "value": 0.0,
+        "change": 0.0,
+        "change_pct": 0.0,
+        "note": "亚太早盘大涨，科技股受华尔街AI行情提振"
+      },
+      {
+        "name": "KOSPI",
+        "market": "韩国",
+        "value": 0.0,
+        "change": 0.0,
+        "change_pct": 3.85,
+        "note": "今日开盘大涨，KOSPI盘中涨约3.85%；日韩股市跟随美股AI强力反弹"
+      },
+      {
+        "name": "Nikkei",
+        "market": "日本",
+        "value": 0.0,
+        "change": 0.0,
+        "change_pct": 0.0,
+        "note": "SoftBank +10%，亚洲科技股全面追涨华尔街AI行情"
       }
     ]
   },
   "commodities": [
     {
+      "name": "Crude Oil (Brent)",
+      "symbol": "BRN",
+      "value": 79.0,
+      "change": -4.0,
+      "change_pct": -5.0,
+      "note": "布伦特连续第二日大跌超5%，跌破$80/桶；卡塔尔与美国释放积极信号，美伊聚焦霍尔木兹的临时协议渐现曙光"
+    },
+    {
       "name": "Crude Oil (WTI)",
       "symbol": "CL",
-      "value": 80.0,
-      "change": -0.53,
-      "change_pct": -0.66,
-      "note": "8/4开盘$80.00/桶，Brent $83.45；Qatar与Bessent谈重开霍尔木兹海峡，供应风险缓解"
+      "value": 76.0,
+      "change": -4.0,
+      "change_pct": -5.0,
+      "note": "跟随布伦特下挫；霍尔木兹海峡重开预期压制供应风险溢价"
     },
     {
       "name": "Gold (COMEX)",
       "symbol": "GC",
-      "value": 4108.0,
-      "change": -1.22,
-      "change_pct": -0.03,
-      "note": "持稳$4,100上方；美伊缓和压制避险买盘，Comex金银结算走低"
+      "value": 4080.0,
+      "change": -22.0,
+      "change_pct": -0.54,
+      "note": "避险需求因地缘缓和回落，金价自$4,100上方走低"
     }
   ],
   "forex": [
     {
       "pair": "USD/JPY",
       "value": 155.0,
-      "change": -1.16,
-      "change_pct": -0.74,
-      "note": "日元干预后155成下一关键考验；Bessent'currency activism'进入新时代，交易员警惕后续动作"
+      "change": 0.0,
+      "change_pct": 0.0,
+      "note": "155成日元下一关键考验；关注美日联合干预后续动作"
     },
     {
       "pair": "EUR/USD",
       "value": 1.1527,
-      "change": 0.0003,
-      "change_pct": 0.03
+      "change": 0.0,
+      "change_pct": 0.0
     },
     {
       "pair": "GBP/USD",
       "value": 1.3482,
-      "change": 0.0021,
-      "change_pct": 0.16
+      "change": 0.0,
+      "change_pct": 0.0
     },
     {
       "pair": "USD/CNY",
       "value": 6.7505,
-      "change": -0.0045,
-      "change_pct": -0.07,
-      "note": "人民币维持强势"
+      "change": 0.0,
+      "change_pct": 0.0,
+      "note": "人民币维持强势；印度为支撑卢比向海外侨民募资$400亿"
     }
   ],
   "crypto": [
@@ -96,17 +120,17 @@
       "name": "Bitcoin",
       "symbol": "BTC",
       "value": 63508.82,
-      "change": 802.26,
-      "change_pct": 1.28,
-      "note": "企稳回升至$63,500附近，较昨日回升约$800；聚焦CLARITY Act进展与ETF资金流向"
+      "change": 0.0,
+      "change_pct": 0.0,
+      "note": "企稳$63,500附近；聚焦CLARITY Act(8/8休会前)进展与ETF资金流向"
     },
     {
       "name": "Ethereum",
       "symbol": "ETH",
       "value": 1865.0,
-      "change": 10.13,
-      "change_pct": 0.55,
-      "note": "回升至$1,865附近，未能站稳趋势线上方，买盘动能偏弱"
+      "change": 0.0,
+      "change_pct": 0.0,
+      "note": "回升$1,865附近，买盘动能仍偏弱"
     }
   ],
   "volatility": {
@@ -114,86 +138,79 @@
     "value": 15.99,
     "change": -1.1,
     "change_pct": -6.44,
-    "note": "恐慌指数低位；地缘缓和+风险偏好回升或进一步压降风险溢价，但日本干预与谈判进程存变数"
+    "note": "恐慌指数低位；地缘缓和+风险偏好回升进一步压降风险溢价"
   },
   "overnight_news": [
     {
       "source": "CNBC",
-      "title": "Bessent says there may be deal Tuesday or Wednesday to open Strait of Hormuz with 'freedom of movement'",
-      "url": "",
-      "importance": "high"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "S&P 500 Set for All-Time Highs on Hormuz Deal Push",
-      "url": "",
-      "importance": "high"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "After Historic Intervention, 155 Emerges as Yen's Next Big Test",
+      "title": "SpaceX earnings takeaways: Soaring AI costs outweigh revenue beat in first report since IPO",
       "url": "",
       "importance": "high"
     },
     {
       "source": "CNBC",
-      "title": "Jeff Bezos just filed to sell $4 billion in Amazon. The shares are falling",
+      "title": "AMD's revenue climbs 50% and data center sales doubled, but the stock is down",
       "url": "",
       "importance": "high"
     },
     {
       "source": "CNBC",
-      "title": "SpaceX earnings live updates: First report since IPO, Starlink and AI in focus",
+      "title": "SoftBank jumps 10% as Asia tech stocks track Wall Street AI rally",
+      "url": "",
+      "importance": "high"
+    },
+    {
+      "source": "FT",
+      "title": "US stocks jump after Bessent says deal to reopen Hormuz is imminent",
+      "url": "",
+      "importance": "high"
+    },
+    {
+      "source": "Sina",
+      "title": "美伊谈判预期乐观引发油价大跌：布伦特两日累跌超5%跌破$80；OPEC上月产量增加",
       "url": "",
       "importance": "high"
     },
     {
       "source": "MarketWatch",
-      "title": "Oil prices take a dive as Qatar and Bessent note talks to reopen Strait of Hormuz",
+      "title": "Stocks return to record highs. Investors who sat tight during the recent momentum crash are being rewarded.",
       "url": "",
       "importance": "high"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Earnings live updates: Caterpillar stock surges 9% as AI build-out boosts power unit",
-      "url": "",
-      "importance": "medium"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Bitcoin and ethereum prices today, Tuesday, August 4, 2026: Investors closely monitoring Clarity Act progress",
-      "url": "",
-      "importance": "medium"
     },
     {
       "source": "FT",
-      "title": "Bessent's yen intervention signals new era of US 'currency activism'",
+      "title": "India raises $40bn from diaspora to support sagging rupee",
+      "url": "",
+      "importance": "medium"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Asian Stocks Advance, Oil Extends Drop on Iran: Markets Wrap",
       "url": "",
       "importance": "high"
     },
     {
-      "source": "Bloomberg",
-      "title": "Japan vows further yen intervention with US if needed; Toyota plans $6.3bn buyback as weak yen boosts outlook",
+      "source": "Sohu",
+      "title": "8/5国际晨讯：SpaceX与英伟达合作开发卫星计算载荷；日韩股市开盘大涨，KOSPI涨3.85%",
       "url": "",
       "importance": "medium"
     }
   ],
   "key_events": [
-    "道指8/3收53,178.41创历史新高，标普500 +1.5%、纳指 +2.1%，连续第三日上涨；标普8/4有望再冲历史新高",
-    "美伊缓和+霍尔木兹海峡谈判成主旋律，Bessent称周二或周三或达成重开协议，推动油价下跌、美债收益率下降",
-    "日元干预后续：USD/JPY逼近155关键位，Bessent'currency activism'进入新时代，Toyota受益弱势日元宣布$63亿回购",
-    "Jeff Bezos递交出售$40亿Amazon股份，Amazon股价下跌",
-    "SpaceX自IPO以来首次发布财报(8/4)，Starlink与AI成焦点，此前股价深度回调，或借财报扭转跌势",
-    "Caterpillar财报后大涨9%，AI基础设施建设利好电力/工程部门",
-    "BTC企稳$63,500附近(+1.3%)，ETH回升$1,865；市场聚焦CLARITY Act立法进展(8/8休会前)与ETF资金流向",
-    "Polymarket洽谈$200亿估值新一轮融资"
+    "美股8/4收盘创历史新高：标普500与道指双双冲新高，'动能崩跌'后巨量反弹获验证，投资者坚守获回报",
+    "SpaceX IPO后首份财报：AI成本飙升盖过营收超预期，股价下跌；与英伟达合作开发卫星计算载荷",
+    "AMD营收+50%、数据中心收入翻倍，营收超预期但股价走低",
+    "布伦特原油连续两日大跌超5%、跌破$80/桶；美伊聚焦霍尔木兹的临时协议渐现曙光，卡塔尔与美国释放积极信号",
+    "亚洲股市大涨：SoftBank +10%领涨，KOSPI开盘涨约3.85%，日韩科技股追踪华尔街AI行情",
+    "印度为支撑卢比向海外侨民募资$400亿",
+    "BTC企稳$63,500、ETH回升$1,865；聚焦CLARITY Act(8/8休会前)"
   ],
   "today_watch": [
-    "霍尔木兹海峡谈判(周二/周三) — 若达成协议，油价或进一步下跌，全球通胀预期改善",
-    "SpaceX首次财报(8/4) — 能否扭转股价暴跌走势，Starlink与AI叙事受关注",
+    "霍尔木兹海峡谈判进展 — 若达成协议，油价或续跌，全球通胀预期改善；今日A股油运/炼化或承压",
+    "美股历史新高后的持续性 — 标普/道指若能守住高位，风险偏好有望外溢至A股",
+    "AI算力/半导体主线 — 美股AMD、SpaceX财报与亚洲科技大涨，A股AI链条或受催化",
     "日元155关键位 — 美日联合干预后续，汇率波动或加剧",
     "CLARITY Act(8/8休会前) — 加密监管立法进展牵动BTC/ETH",
-    "标普冲击历史新高 — 若突破将确认新一轮上行",
-    "Bezos抛售Amazon — 科技权重股承压观察"
+    "今日A股预开盘 — 关注风险偏好回暖下高开与量能表现(注: AkShare实时数据暂获取异常)"
   ]
 }

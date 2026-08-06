@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04 17:10:00",
+  "updated": "2026-08-05 17:00:00",
   "papers": [
     {
       "title": "Failure Detection for Surgical Robot Imitation Policies via Flow-Matching World Modeling",
@@ -603,6 +603,129 @@
       "abstract": "针对移动操作中VLA策略的两大挑战:数据层面需协调移动基座与机械臂的全身示范高效采集,以及全景感知。提出Pantora全景感知VLA学习框架并配合全身遥操作数据采集,支持开放世界多阶段移动操作任务。",
       "relevance": 3,
       "topic": "VLA / Mobile Manipulation",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "SUV: Future Scene Understanding as Video Generation for End-to-End Driving",
+      "id": "2608.03084",
+      "date": "2026-08-04",
+      "authors": "Yibo Yuan, Jiacheng Fu, Jiangtong Zhu, Yi Li, Jianhua Han, Meng Tian, Zhuohan Liu, Zhiwei Xiong",
+      "categories": "cs.CV",
+      "abstract": "Unified E2E driving framework that casts future Scene Understanding as Video generation using a pretrained video foundation model. Models future appearance, semantics, relative depth, and instance-level dynamics as video streams with a shared video expert, removing stream-specific visual prediction heads.",
+      "relevance": 5,
+      "topic": "End-to-End Autonomous Driving / World Models",
+      "status": "new",
+      "status_en": "新发现",
+      "weekly": true
+    },
+    {
+      "title": "PRISM: Privileged Probabilistic Latent Supervision for End-to-End Autonomous Driving Motion Planning",
+      "id": "2608.01201",
+      "date": "2026-08-02",
+      "authors": "Volodymyr Havrylov, Faris Janjoš, Andreas Look, Jürgen Mathes, Andreas Geiger",
+      "categories": "cs.RO, cs.CV",
+      "abstract": "End-to-end AD motion planning using privileged probabilistic latent supervision. Investigates VLM latent-feature supervision that yields empirical gains but lacks theoretical understanding; PRISM formalizes the methodology and improves hidden-layer learning in differentiable E2E driving architectures.",
+      "relevance": 5,
+      "topic": "End-to-End Autonomous Driving",
+      "status": "new",
+      "status_en": "新发现",
+      "weekly": true
+    },
+    {
+      "title": "WAM-Diff2: Hierarchical AR-to-Diffusion Distillation for Highly Efficient Autonomous Driving VLA",
+      "id": "2608.01035",
+      "date": "2026-08-02",
+      "authors": "Zhihao Zhu, Hanlin Shang, Mingwang Xu, Feipeng Cai, Zhuolin He, Yaoyi Li, Jianhua Han, Hang Xu",
+      "categories": "cs.RO, cs.AI, cs.CV",
+      "abstract": "Transforms pre-trained autoregressive VLA generalists into parallel diffusion policies for autonomous driving, combining multi-task visual-linguistic reasoning with low-latency parallel execution. Addresses high computational latency and exposure bias of AR decoding.",
+      "relevance": 5,
+      "topic": "VLA / Diffusion Policy",
+      "status": "new",
+      "status_en": "新发现",
+      "weekly": true
+    },
+    {
+      "title": "DecoupleGS: Interactive 3D Gaussian Splatting for End-to-End Autonomous Driving Testing",
+      "id": "2608.01761",
+      "date": "2026-08-03",
+      "authors": "Siying Li, Ying Ni, Jie Sun, Jian Sun, Haotian Shi",
+      "categories": "cs.CV",
+      "abstract": "Decoupled 3D Gaussian Splatting framework for large-scale E2E AD closed-loop testing. Decomposes scenes into high-fidelity static background and manipulable dynamic objects for interactive, real-time simulation with high visual fidelity.",
+      "relevance": 4,
+      "topic": "End-to-End Autonomous Driving / Simulation",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "Deferred Exposure of Future Trajectories for Verifiable Reasoning in Autonomous Driving VLMs",
+      "id": "2608.01755",
+      "date": "2026-08-03",
+      "authors": "Zixuan Huang, Yang Zhou, Kaixuan Wang, Guli Zhang, Hongyan Xie, Yakun Zhu, Hao Geng, Xiaozhi Chen",
+      "categories": "cs.AI",
+      "abstract": "Identifies trajectory anchoring bias in AD VLA models where annotation pipelines expose teachers to ground-truth future trajectories, causing less causally faithful CoTs and severe hallucinations. Proposes deferring exposure of future trajectories to improve verifiable reasoning.",
+      "relevance": 4,
+      "topic": "VLA / Reasoning",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "STAR-VLM: Spatiotemporal Grounding Vision-Language Models for Motion and Velocity Estimation via Automotive Radar Supervision",
+      "id": "2608.01535",
+      "date": "2026-08-02",
+      "authors": "Pou-Chun Kung, Aryaman Rao, Utkrisht Sahai, Hemanth Murali, Yi Liu, Rui-Yu Lin, Katherine A. Skinner",
+      "categories": "cs.CV, cs.RO",
+      "abstract": "Improves spatiotemporal and metric reasoning of VLMs for auto-labeling and E2E AD using automotive radar supervision. Avoids complex preprocessing, human annotations, and synthetic data, enabling scalable metric motion/velocity estimation without sim-to-real gaps.",
+      "relevance": 4,
+      "topic": "VLA / BEV Perception",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "Driver2Map: Imitating Human Driving for Online High-Definition Map Construction",
+      "id": "2608.01338",
+      "date": "2026-08-02",
+      "authors": "Pan Yin, Runtian Xia, Weisong Kuang, Kaiyu Li, Cong Zhao, Xiangyong Cao",
+      "categories": "cs.CV",
+      "abstract": "Online HD map construction model inspired by human drivers, fusing onboard multi-view cameras, standard-definition maps, and satellite images. Addresses modality and perspective differences in fusing heterogeneous map sources.",
+      "relevance": 4,
+      "topic": "BEV Perception / HD Map",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "SIPTraj: Map-Free End-to-End Trajectory Prediction via Physics-Guided Scene Interaction",
+      "id": "2608.00779",
+      "date": "2026-08-01",
+      "authors": "Feifei Liu, Zejun Wei, Haozhe Wang, Yazhi Ye, Yuying Zhang, Jintao Cheng, Chi Man Vong, Xieyuanli Chen",
+      "categories": "cs.RO",
+      "abstract": "Map-free trajectory prediction of surrounding agents using sensor-derived BEV features without HD map lane topology priors. Uses physics-guided scene interaction to encode kinematic constraints and physical feasibility in data-driven predictors.",
+      "relevance": 4,
+      "topic": "BEV Perception / Trajectory Prediction",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "ETA: A New Agentic Paradigm for Embodied Tasks",
+      "id": "2608.03924",
+      "date": "2026-08-04",
+      "authors": "Yitong Chen, Zezheng Huai, Sixian Li, Yubang Wang, Haozhe Zhang, Yifei Zhang, Hechang Chen, Jingjing Gong",
+      "categories": "cs.RO",
+      "abstract": "Introduces Embodied Task Agent (ETA), a new paradigm for extendable embodied intelligence that moves beyond end-to-end observation-to-action, aiming for controllability, inspectability, and long-horizon task execution in unfamiliar environments.",
+      "relevance": 3,
+      "topic": "VLA / Embodied AI",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "Outcome-Guided Distillation: A Teacher-Student Framework to Advance VLM Reasoning in Autonomous Driving",
+      "id": "2607.29052",
+      "date": "2026-07-31",
+      "authors": "Zeyu Dong, Yimin Zhu, Yu Wu, Yu Sun",
+      "categories": "cs.RO",
+      "abstract": "Teacher-student framework integrating structured reasoning and geometric precision to advance VLM reasoning in E2E AD without relying on potentially flawed pre-generated annotations or costly human labeling.",
+      "relevance": 3,
+      "topic": "VLA / Reasoning",
       "status": "new",
       "status_en": "新发现"
     }

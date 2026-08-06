@@ -1,77 +1,47 @@
 {
-  "date": "2026-08-04",
-  "time": "close",
-  "fetched_at": "2026-08-05T00:14:28.401867",
+  "date": "2026-08-06",
+  "time": "noon",
+  "fetched_at": "2026-08-06T03:35:54Z",
   "indices": {
     "上证指数": {
-      "price": 3878.43,
-      "change": 1.47
+      "price": 3878.92,
+      "change": 0.01
     },
     "深证成指": {
-      "price": 14144.2,
-      "change": 1.86
+      "price": 14070.78,
+      "change": -0.52
     },
     "创业板指": {
-      "price": 3535.14,
-      "change": 1.32
+      "price": 3511.47,
+      "change": -0.67
     },
     "科创50": {
-      "price": 1693.67,
-      "change": 4.78
+      "price": 1690.91,
+      "change": -0.16
     },
     "沪深300": {
-      "price": 4658.15,
-      "change": 1.24
+      "price": 4637.89,
+      "change": -0.43
     }
   },
   "sectors": {
     "top": [
-      {
-        "name": "钨",
-        "change": 9.08
-      },
-      {
-        "name": "白银",
-        "change": 8.63
-      },
-      {
-        "name": "半导体设备",
-        "change": 8.34
-      },
-      {
-        "name": "半导体材料",
-        "change": 8.33
-      },
-      {
-        "name": "贵金属",
-        "change": 7.87
-      }
+      { "name": "钨", "change": 5.26 },
+      { "name": "金融信息服务", "change": 4.52 },
+      { "name": "白银", "change": 4.27 },
+      { "name": "动力煤", "change": 3.44 },
+      { "name": "贵金属", "change": 3.41 }
     ],
     "bottom": [
-      {
-        "name": "视频媒体",
-        "change": -1.2
-      },
-      {
-        "name": "农商行Ⅲ",
-        "change": -1.22
-      },
-      {
-        "name": "核力发电",
-        "change": -1.37
-      },
-      {
-        "name": "股份制银行Ⅲ",
-        "change": -1.54
-      },
-      {
-        "name": "国有大型银行Ⅲ",
-        "change": -1.58
-      }
+      { "name": "学历教育", "change": -3.96 },
+      { "name": "体育", "change": -3.34 },
+      { "name": "电动乘用车", "change": -3.32 },
+      { "name": "光伏主材", "change": -3.31 }
     ]
   },
-  "northbound": {
-    "note": "北向资金实时净流入数据自2024年8月起停止披露",
-    "status": "unavailable"
-  }
+  "north_flow": {
+    "note": "陆股通实时净买入自2024年8月起不再公开披露",
+    "value": null
+  },
+  "source": "sina hq.sinajs.cn via curl (AkShare proxy failure)"
 }

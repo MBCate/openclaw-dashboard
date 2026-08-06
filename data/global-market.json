@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-08-06T01:15:00Z",
+  "timestamp": "2026-08-06T13:30:00Z",
   "date": "2026-08-06",
-  "market_state": "morning-preview",
+  "market_state": "evening-international",
   "summary": {
-    "title": "早盘预览 — 道指三连阳创纪录，标普/纳指回落；AI巨头人事剧变+美联储转鹰成焦点",
-    "us_close": "美股周三(8/5)分化：道指+0.5%(+263点)连续第三日创历史新高，但仅3只成分股贡献79%涨幅；标普500收跌0.2%、纳指-0.8%(早盘冲高后回落)。AI赛道消息密集：Google人事剧变(Jeff Dean卸任首席科学家、Hassabis卸任DeepMind CEO)、SpaceX因AI支出激增财报后大跌、英伟达与SpaceX达成独家AI合作。美联储官员密集转鹰：Cook称'准备好'加息应对通胀、Paulson对利率前景保持开放态度、Kashkari早前称'是时候开始缓慢加息'。霍尔木兹谈判进入'最后阶段'，油价承压。",
-    "key_takeaway": "隔夜美股'指数新高但结构脆弱'：道指靠少数权重股撑起纪录，AI估值担忧与美联储加息预期构成双重压制。霍尔木兹协议预期压低油价(利好通胀)，但加息风险压制风险偏好。关注今日A股AI算力/科技板块联动、港股承接、以及美联储利率路径与油价走势。"
+    "title": "美股分化收关：道指创纪录新高，标普/纳指回落；AI人事剧变+美联储转鹰主导隔夜情绪",
+    "us_close": "美股周三(8/5)分化：道指+0.5%(+263点)连续第三日创历史新高，收于54,349.12；标普500收跌0.2%(前一日刚破7,700)、纳指-0.8%(早盘冲高回落)。AI赛道消息密集：Google人事剧变(Jeff Dean卸任首席科学家、Hassabis卸任DeepMind CEO)、SpaceX因AI支出激增财报后大跌、英伟达与SpaceX达成独家AI合作。美联储官员密集转鹰：Cook称'准备好'加息应对通胀、Paulson对利率前景保持开放、Kashkari早前称'是时候开始缓慢加息'。霍尔木兹谈判进入'最后阶段'，油价承压。",
+    "key_takeaway": "隔夜美股'指数新高但结构脆弱'：道指靠少数权重股撑起纪录，AI估值担忧与美联储加息预期构成双重压制。霍尔木兹协议预期压低油价(利好通胀)，但加息风险压制风险偏好。加密货币小幅反弹，BTC约$64,110(+1%)，关注CLARITY Act在8/8休会前进展。"
   },
   "indices": {
     "US": [
       {
         "name": "S&P 500",
         "symbol": "SPX",
-        "value": 0.0,
+        "value": 7700.0,
         "change": -0.2,
         "change_pct": -0.2,
-        "note": "周三收跌0.2%，自历史高点附近回落；AI估值担忧+加息预期压制；前一日(8/3)曾收于7,736.52历史新高"
+        "note": "收跌0.2%，自7,700上方历史高位回落；AI估值担忧+加息预期压制；前一日(8/3)曾收于7,736.52历史新高"
       },
       {
         "name": "Nasdaq",
@@ -28,10 +28,10 @@
       {
         "name": "Dow Jones",
         "symbol": "DJI",
-        "value": 54300.0,
-        "change": 263.0,
-        "change_pct": 0.5,
-        "note": "连续第三日创历史新高(+263点)；但仅3只成分股贡献79%涨幅，结构脆弱"
+        "value": 54349.12,
+        "change": 263.24,
+        "change_pct": 0.49,
+        "note": "连续第三日创历史新高(+263.24点)，收于54,349.12；但仅3只成分股贡献79%涨幅，结构脆弱"
       }
     ],
     "Asia": [
@@ -41,7 +41,7 @@
         "value": 0.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "今日开盘关注美股AI震荡外溢；港股科技/AI链条或受隔夜美股波动影响"
+        "note": "明日开盘关注美股AI震荡外溢；港股科技/AI链条或受隔夜美股波动影响"
       },
       {
         "name": "KOSPI",
@@ -49,15 +49,7 @@
         "value": 0.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "关注三星/SK海力士等半导体板块对美股AI回调的联动反应"
-      },
-      {
-        "name": "Nikkei",
-        "market": "日本",
-        "value": 0.0,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "note": "SoftBank等AI权重此前大涨后，留意回吐风险；日经随隔夜美股走弱或低开"
+        "note": "SK海力士/三星等AI存储链或受美股AI情绪波及"
       }
     ]
   },
@@ -76,15 +68,23 @@
       "value": 76.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "note": "跟随布伦特承压；OPEC上月产量增加亦压制油市"
+      "note": "跟随布油承压；油价走低利好CPI回落，但能源股拖累道指权重"
     },
     {
-      "name": "Gold (COMEX)",
-      "symbol": "GC",
-      "value": 4058.0,
-      "change": -22.0,
-      "change_pct": -0.54,
-      "note": "金价在加息预期+地缘缓和下承压；关注美元与真实利率走向"
+      "name": "Gold",
+      "symbol": "XAU",
+      "value": 0.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "note": "Comex金/银周三收低；美元与美债收益率走高抑制贵金属避险买盘"
+    },
+    {
+      "name": "Arabica Coffee",
+      "symbol": "KC",
+      "value": 0.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "note": "创历史新高，受美/哥伦比亚关税争端推动"
     }
   ],
   "forex": [
@@ -108,11 +108,11 @@
       "change_pct": 0.0
     },
     {
-      "pair": "USD/CNY",
-      "value": 6.7505,
+      "pair": "CHF/USD",
+      "value": 0.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "note": "人民币维持强势"
+      "note": "瑞郎、日元周三上涨，AI行情引发的避险买盘推升"
     }
   ],
   "crypto": [
@@ -149,79 +149,58 @@
     },
     {
       "source": "CNBC",
-      "title": "Iran, Oman say Strait of Hormuz talks in final stages, as Trump again teases a deal being close",
+      "title": "SpaceX stock faces pressure as first batch of shares unlock since IPO",
       "url": "",
       "importance": "high"
     },
     {
       "source": "CNBC",
-      "title": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
+      "title": "JPMorgan's Jamie Dimon warns of high leverage: 'Somebody will disrupt the market'",
+      "url": "",
+      "importance": "medium"
+    },
+    {
+      "source": "CNBC",
+      "title": "World's biggest spirits maker pops 7% on $1 billion cost-cutting plan",
+      "url": "",
+      "importance": "low"
+    },
+    {
+      "source": "WSJ",
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
       "url": "",
       "importance": "high"
     },
     {
-      "source": "CNBC",
-      "title": "Dow futures inch higher after blue-chip index posts new record close",
+      "source": "WSJ",
+      "title": "DeepSeek Won't Sink U.S. AI Titans",
       "url": "",
       "importance": "medium"
     },
     {
       "source": "WSJ",
-      "title": "Stocks lose steam midday: Nasdaq Composite retreats 0.8%, Dow advances 0.5% to record for third straight day",
+      "title": "Comex Gold, Silver Settle Lower",
       "url": "",
-      "importance": "high"
+      "importance": "low"
     },
     {
-      "source": "CNBC",
-      "title": "Markets ended divided Wednesday: record Dow close contrasted with losses in Nasdaq and S&P 500",
-      "url": "",
-      "importance": "high"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "SpaceX's stock falls as Wall Street gets spooked by the extent of AI spending",
-      "url": "",
-      "importance": "high"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Block slashed 40% of its workforce for AI — earnings suggest that's paying off",
-      "url": "",
-      "importance": "medium"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Fed's Paulson keeps 'open mind' on rate policy outlook amid high inflation",
-      "url": "",
-      "importance": "medium"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "S&P 500 experiencing violent surge often seen at major market tops. One chart analyst is worried",
-      "url": "",
-      "importance": "medium"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Why AT&T, Verizon and T-Mobile shares are down after SpaceX's earnings",
+      "source": "WSJ",
+      "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
       "url": "",
       "importance": "low"
     }
   ],
   "key_events": [
-    "美股分化收盘：道指+0.5%(+263点)连续第三日创历史新高，但仅3只权重股贡献79%涨幅；标普500收跌0.2%、纳指-0.8%(早盘冲高后回落)",
-    "Google AI人事剧变：首席科学家Jeff Dean卸任、Demis Hassabis卸任DeepMind CEO——AI龙头管理层洗牌震动市场",
-    "SpaceX财报后股价大跌：AI成本飙升惊扰投资者，拖累AT&T/Verizon/T-Mobile等电信股；与此同时英伟达与SpaceX达成独家AI合作",
-    "美联储官员密集转鹰：Cook称'准备好'加息应对通胀、Paulson对利率前景保持开放、Kashkari早前称'是时候开始缓慢加息'",
-    "霍尔木兹谈判进入'最后阶段'：伊朗、阿曼积极表态，特朗普暗示协议接近；油价承压、通胀预期改善",
-    "道指创新高后结构脆弱警告：图表分析师指S&P 500出现'常出现在主要顶部'的剧烈冲高，恐慌情绪仍低(VIX~16)"
+    "美股分化：道指+0.5%(+263点)连续第三日创历史新高，但仅3只权重股贡献79%涨幅；标普500-0.2%、纳指-0.8%(早盘冲高回落)",
+    "AI赛道剧变：Google人事大洗牌(Jeff Dean卸任首席科学家、Hassabis卸任DeepMind CEO)；SpaceX财报后大跌",
+    "英伟达与SpaceX达成独家AI算力合作",
+    "美联储密集转鹰：Cook称'准备好加息'、Paulson保持开放、Kashkari主张'开始缓慢加息'",
+    "霍尔木兹谈判进入'最后阶段'，特朗普暗示协议接近；原油、黄金同步承压"
   ],
   "today_watch": [
-    "A股科技/AI联动 — 隔夜美股AI板块震荡(Google/SpaceX人事与支出)，A股算力、AI应用链条或受情绪扰动",
-    "美联储加息路径 — Cook/Paulson/Kashkari相继转鹰，关注利率期货定价是否进一步向加息倾斜",
-    "霍尔木兹谈判 — 若达成协议油价或续跌，利好通胀预期；OPEC增产亦压制油市",
-    "道指结构风险 — 仅3只成分股撑起纪录涨幅，指数新高背后集中度高企，留意回吐风险",
-    "日元155关键位 — 美日联合干预后续，汇率波动或加剧",
-    "CLARITY Act(8/8休会前) — 加密监管立法进展牵动BTC/ETH"
+    "A股科技/AI联动 — 隔夜美股AI板块震荡(Google/SpaceX人事与支出)，A股算力、AI应用链或受情绪扰动",
+    "美联储加息路径 — Cook/Paulson/Kashkari集体转鹰，关注利率期货定价与美债走势",
+    "霍尔木兹谈判 — 协议若成油价或续跌，利好通胀与风险偏好",
+    "加密货币CLARITY Act — 8/8休会前立法进展，决定加密监管明朗度"
   ]
 }

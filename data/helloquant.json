@@ -1,52 +1,52 @@
 {
-  "timestamp": "2026-08-05 00:14:40",
-  "date": "2026-08-04",
+  "timestamp": "2026-08-06 15:16:00",
+  "date": "2026-08-06",
   "report_type": "daily",
   "crypto": {
     "BTC": {
-      "price": 62576.9,
-      "change_24h": -1.4361610806332465,
-      "high_24h": 63799.3,
-      "low_24h": 62576.9,
-      "trend_1h": "偏空",
-      "trend_4h": "偏空",
-      "rsi_1h": 28.0,
-      "rsi_4h": 45.8,
-      "macd_1h": "死叉",
+      "price": 64895.6,
+      "change_24h": 1.18,
+      "high_24h": 65026.6,
+      "low_24h": 63880.7,
+      "trend_1h": "偏多",
+      "trend_4h": "偏多",
+      "rsi_1h": 57.3,
+      "rsi_4h": 75.3,
+      "macd_1h": "金叉",
       "macd_4h": "金叉"
     },
     "ETH": {
-      "price": 1842.47,
-      "change_24h": -1.8955629981843063,
-      "high_24h": 1898.84,
-      "low_24h": 1842.0,
-      "trend_1h": "偏空",
-      "trend_4h": "偏空",
-      "rsi_1h": 34.7,
-      "rsi_4h": 44.6,
+      "price": 1913.1,
+      "change_24h": 2.5,
+      "high_24h": 1928.1,
+      "low_24h": 1855.4,
+      "trend_1h": "偏多",
+      "trend_4h": "偏多",
+      "rsi_1h": 45.5,
+      "rsi_4h": 73.6,
       "macd_1h": "死叉",
-      "macd_4h": "死叉"
+      "macd_4h": "金叉"
     }
   },
   "fear_greed": {
-    "value": 28,
-    "label": "Fear"
+    "value": 25,
+    "label": "Extreme Fear"
   },
   "signals": {
     "DoubleMa": {
-      "1h": "做空",
-      "4h": "观望"
-    },
-    "RSI": {
-      "1h": "做多",
-      "4h": "观望"
-    },
-    "MACD": {
       "1h": "观望",
       "4h": "观望"
     },
-    "Bollinger": {
+    "RSI": {
+      "1h": "做空",
+      "4h": "做空"
+    },
+    "MACD": {
       "1h": "做多",
+      "4h": "观望"
+    },
+    "Bollinger": {
+      "1h": "观望",
       "4h": "观望"
     },
     "Supertrend": {
@@ -55,65 +55,64 @@
     },
     "TripleMa": {
       "1h": "观望",
-      "4h": "观望"
+      "4h": "做多"
     },
     "Momentum": {
-      "1h": "做空",
-      "4h": "做空"
+      "1h": "观望",
+      "4h": "观望"
     },
     "MeanReversion": {
-      "1h": "做多",
+      "1h": "观望",
       "4h": "观望"
     }
   },
   "stocks": {
     "上证指数": {
-      "price": 3809.6629,
-      "change": -0.59,
-      "volume": 524516960.0
+      "price": 3900.3523,
+      "change": 0.565,
+      "volume": 588555280.0
     },
     "深证成指": {
-      "price": 13448.289,
-      "change": -0.962
+      "price": 14110.121,
+      "change": -0.241
     },
     "创业板指": {
-      "price": 3302.553,
-      "change": -1.238
+      "price": 3515.56,
+      "change": -0.554
     },
     "沪金主力": {
-      "price": 888.3,
-      "change": 0.78,
-      "date": "2026-07-31"
+      "price": 910.4,
+      "change": 2.7,
+      "date": "2026-08-05"
     },
     "沪银主力": {
-      "price": 14264.0,
-      "change": 1.65,
-      "date": "2026-07-31"
+      "price": 15105.0,
+      "change": 5.09,
+      "date": "2026-08-05"
     },
     "沪铜主力": {
-      "price": 105460.0,
-      "change": 0.74,
-      "date": "2026-07-31"
+      "price": 107340.0,
+      "change": 0.65,
+      "date": "2026-08-05"
     },
     "螺纹钢主力": {
-      "price": 3004.0,
-      "change": -0.33,
-      "date": "2026-07-31"
+      "price": 2990.0,
+      "change": 0.23,
+      "date": "2026-08-05"
     },
     "沪深300期货": {
-      "price": 4538.0,
-      "change": 0.66,
-      "date": "2026-07-31"
+      "price": 4621.0,
+      "change": 1.5,
+      "date": "2026-08-05"
     },
     "中证500期货": {
-      "price": 7395.0,
-      "change": 2.06,
-      "date": "2026-07-31"
+      "price": 7744.4,
+      "change": 2.86,
+      "date": "2026-08-05"
     },
     "50ETF波动率": {
-      "value": 19.66,
-      "date": "2026-07-31"
+      "value": 17.91,
+      "date": "2026-08-05"
     }
-  },
-  "note": "BTC/ETH震荡偏空，恐惧贪婪指数28(Fear)。策略信号分歧：RSI/Bollinger/MeanReversion 1h做多 vs DoubleMa/Momentum 1h做空，Momentum 4h亦做空。"
+  }
 }

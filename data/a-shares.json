@@ -1,47 +1,48 @@
 {
   "date": "2026-08-06",
-  "time": "noon",
-  "fetched_at": "2026-08-06T03:35:54Z",
+  "time": "close",
+  "fetched_at": "2026-08-06T07:16:00Z",
   "indices": {
     "上证指数": {
-      "price": 3878.92,
-      "change": 0.01
+      "price": 3900.35,
+      "change": 0.57
     },
     "深证成指": {
-      "price": 14070.78,
-      "change": -0.52
+      "price": 14110.12,
+      "change": -0.24
     },
     "创业板指": {
-      "price": 3511.47,
-      "change": -0.67
+      "price": 3515.56,
+      "change": -0.55
     },
     "科创50": {
-      "price": 1690.91,
-      "change": -0.16
+      "price": 1701.29,
+      "change": 0.45
     },
     "沪深300": {
-      "price": 4637.89,
-      "change": -0.43
+      "price": 4651.31,
+      "change": -0.15
     }
   },
   "sectors": {
     "top": [
-      { "name": "钨", "change": 5.26 },
-      { "name": "金融信息服务", "change": 4.52 },
-      { "name": "白银", "change": 4.27 },
-      { "name": "动力煤", "change": 3.44 },
-      { "name": "贵金属", "change": 3.41 }
+      { "name": "煤炭行业", "change": 4.44 },
+      { "name": "陶瓷行业", "change": 3.12 },
+      { "name": "石油行业", "change": 2.44 },
+      { "name": "化纤行业", "change": 2.18 },
+      { "name": "有色金属", "change": 1.80 }
     ],
     "bottom": [
-      { "name": "学历教育", "change": -3.96 },
-      { "name": "体育", "change": -3.34 },
-      { "name": "电动乘用车", "change": -3.32 },
-      { "name": "光伏主材", "change": -3.31 }
+      { "name": "汽车制造", "change": -0.85 },
+      { "name": "印刷包装", "change": -0.94 },
+      { "name": "船舶制造", "change": -0.99 },
+      { "name": "传媒娱乐", "change": -1.36 },
+      { "name": "摩托车", "change": -1.55 }
     ]
   },
   "north_flow": {
     "note": "陆股通实时净买入自2024年8月起不再公开披露",
     "value": null
   },
-  "source": "sina hq.sinajs.cn via curl (AkShare proxy failure)"
+  "source": "sina hq.sinajs.cn via curl, sector data from Sina Finance"
 }

@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-07T01:15:00Z",
+  "timestamp": "2026-08-07T13:30:00Z",
   "date": "2026-08-07",
-  "market_state": "overnight-asia",
+  "market_state": "evening-data",
   "summary": {
-    "title": "美股周四收关：S&P500贴近纪录回落0.2%，道指-0.9%终结连涨；聚焦周五重磅非农",
-    "us_close": "美股周四(8/6)休整：标普500收跌0.2%报7,709.96(距周二历史高位一步之遥)，纳指-0.1%报26,348.35，道指-464.02点(-0.85%)终结连续上涨。投资者在周五重磅非农前获利了结，科技股相对抗跌(纳指仅微跌)显示AI链韧性。油价因霍尔木兹航运协议'已达成、待哈梅内伊签署'的消息而波动，布油跌0.76%至$78.76、WTI跌1.57%至$74.58；美日联合干预'武器化日元'话题发酵，Fujifilm财报暴雷暴跌。7月非农今日(8/7)公布，是美联储加息预期与AI行情方向的关键验证。",
-    "key_takeaway": "美股'高位休整、等待非农'：标普500距纪录一步之遥但上攻乏力，道指终结连胜。今日(周五)7月非农数据是绝对焦点——若强劲将强化美联储'准备加息'的鹰派立场并压制风险偏好，若疲软则缓解压力、利好成长股。霍尔木兹潜在协议利好油价与通胀，但美日干预与日元升值可能冲击套利交易与日股。加密货币(CLARITY Act 8/8休会前)与AI板块依旧是情绪主线。"
+    "title": "7月非农爆冷(-23K vs +83K预期)美股期货拉升，S&P/道指周涨创4月以来最佳",
+    "us_close": "7月非农今日(8/7)公布：非农就业-23,000(远逊预期+83,000)，6月下修至-20,000，失业率4.2%(持平)。数据公布后美股期货拉升——弱就业缓解美联储加息压力。S&P 500期货+0.14%，道指期货+0.27%(+146点)，纳指期货领涨+0.39%。本周S&P 500与道指有望录得4月以来最佳周涨幅，纳指或创5月以来最大周涨。隔夜(8/6)美股休整：标普500 -0.18%报7,709.96、纳指-0.06%报26,348.35、道指-464点(-0.85%)终结连胜。美债收益率因弱就业数据回落，美元走软，日元继续受干预影响走强。Oil受霍尔木兹谈判进展波动，太阳能股因特朗普延长中国多晶硅关税大涨。BlackRock警告就业下修指向劳动力市场疲软。",
+    "key_takeaway": "非农大爆冷重塑加息预期：市场从'美联储准备加息'迅速转向'暂停甚至考虑降息'，风险偏好回暖。弱就业+AI行情韧性+霍尔木兹谈判进展三重利好，本周美股或收出4月以来最佳周涨幅。但需警惕：非农单月波动大、失业率仍4.2%、6月下修显示趋势走弱——若后续数据持续疲软，衰退担忧将取代加息担忧。加密货币关注CLARITY Act(明日8/8休会前)立法窗口，BTC $64,745、ETH $1,909。"
   },
   "indices": {
     "US": [
@@ -15,7 +15,7 @@
         "value": 7709.96,
         "change": -13.88,
         "change_pct": -0.18,
-        "note": "周四收跌0.18%报7,709.96，距周二历史高位仅一步之遥；科技股相对抗跌，非农前高位休整"
+        "note": "周四收跌0.18%报7,709.96，距周二历史高位一步之遥；今日弱非农后期货+0.14%，周涨有望创4月来最佳"
       },
       {
         "name": "Nasdaq",
@@ -23,7 +23,7 @@
         "value": 26348.35,
         "change": -15.81,
         "change_pct": -0.06,
-        "note": "微跌0.06%报26,348.35；AI链韧性，减仓压力有限，体现成长股抗跌"
+        "note": "周四微跌0.06%报26,348.35；今日非农后纳指期货+0.39%领涨，周涨或创5月来最大"
       },
       {
         "name": "Dow Jones",
@@ -31,7 +31,7 @@
         "value": 53885.1,
         "change": -464.02,
         "change_pct": -0.85,
-        "note": "暴跌464点(-0.85%)终结连续上涨；能源与周期权重股拖累，此前涨幅集中于少数成分股的结构风险兑现"
+        "note": "周四-464点(-0.85%)终结连胜；今日弱非农后道指期货+146点(+0.27%)，周涨有望创4月来最佳"
       }
     ],
     "Asia": [
@@ -41,7 +41,7 @@
         "value": 0.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "今日开盘关注非农前情绪与美股高位休整；港股科技/AI链条或随隔夜美股企稳"
+        "note": "全球股市迎4月以来最佳周涨，港股科技/AI链或受弱非农提振"
       },
       {
         "name": "KOSPI",
@@ -49,97 +49,126 @@
         "value": 0.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "SK海力士/三星等AI存储链或受美股AI韧性支撑"
-      },
+        "note": "非农弱化加息预期，亚洲科技股或联动走强"
+      }
+    ],
+    "Europe": [
       {
-        "name": "Nikkei 225",
-        "market": "日本",
+        "name": "FTSE 100",
+        "market": "英国",
         "value": 0.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "美日联合干预'武器化日元'话题发酵，日元走强或冲击出口股与日股套利交易；Fujifilm财报暴雷暴跌"
+        "note": "全球股市走强，弱非农利好风险偏好"
+      },
+      {
+        "name": "DAX",
+        "market": "德国",
+        "value": 0.0,
+        "change": 0.0,
+        "change_pct": 0.0,
+        "note": "泛欧指数或收创4月来最佳周涨"
+      },
+      {
+        "name": "CAC 40",
+        "market": "法国",
+        "value": 0.0,
+        "change": 0.0,
+        "change_pct": 0.0
       }
     ]
   },
-  "commodities": [
+  "futures": [
     {
-      "name": "Crude Oil (Brent)",
-      "symbol": "BRN",
-      "value": 78.76,
-      "change": -0.6,
-      "change_pct": -0.76,
-      "note": "周四跌0.76%至$78.76；霍尔木兹航运协议'已达成、待哈梅内伊签署'压低风险溢价，但供应疑虑仍存"
+      "name": "S&P 500 Futures",
+      "symbol": "ES",
+      "direction": "up",
+      "change_pct": 0.14,
+      "note": "弱非农缓解加息压力，期货转涨"
     },
     {
-      "name": "Crude Oil (WTI)",
-      "symbol": "CL",
-      "value": 74.58,
-      "change": -1.19,
-      "change_pct": -1.57,
-      "note": "跌1.57%至$74.58；跟随布油走低，协议预期利好通胀回落；关注哈梅内伊是否签署"
+      "name": "Nasdaq 100 Futures",
+      "symbol": "NQ",
+      "direction": "up",
+      "change_pct": 0.39,
+      "note": "领涨三大期指，科技股受益于降息预期"
     },
     {
-      "name": "Gold",
-      "symbol": "XAU",
-      "value": 0.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "note": "金价持稳，市场权衡霍尔木兹紧张局势与非农对利率的影响"
-    },
-    {
-      "name": "Arabica Coffee",
-      "symbol": "KC",
-      "value": 0.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "note": "创历史新高，受美/哥伦比亚关税争端推动"
+      "name": "Dow Futures",
+      "symbol": "YM",
+      "direction": "up",
+      "change_pct": 0.27,
+      "note": "+146点，终结昨日下跌势头"
     }
   ],
-  "forex": [
+  "commodities": [
     {
-      "pair": "USD/JPY",
-      "value": 155.0,
+      "name": "WTI Crude",
+      "value": 74.58,
+      "change": 0.0,
+      "change_pct": -1.57,
+      "note": "霍尔木兹谈判'已达成待签署'施压油价；实际走势看哈梅内伊决定"
+    },
+    {
+      "name": "Brent Crude",
+      "value": 78.76,
+      "change": 0.0,
+      "change_pct": -0.76,
+      "note": "地缘溢价继续消化中"
+    }
+  ],
+  "bonds": {
+    "us_10y": {
+      "value": 0.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "note": "'武器化日元'话题发酵：美日联合干预后日元走强或重塑全球货币市场；关注干预持续性"
+      "note": "弱非农后美债收益率回落，债市走强"
+    },
+    "us_2y": {
+      "value": 0.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "note": "短端利率对加息预期敏感，弱非农压制加息押注"
+    }
+  },
+  "fx": [
+    {
+      "pair": "USD/JPY",
+      "value": 0.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "note": "日元受美日联合干预继续走强；市场关注干预持续性"
     },
     {
       "pair": "EUR/USD",
-      "value": 1.1527,
+      "value": 0.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "note": "美国抛售欧元力撑日元令欧洲央行措手不及(FT)"
+      "note": "美国抛售欧元力撑日元令欧央行措手不及；弱非农压美元"
     },
     {
       "pair": "GBP/USD",
       "value": 1.3482,
       "change": 0.0,
       "change_pct": 0.0
-    },
-    {
-      "pair": "CHF/USD",
-      "value": 0.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "note": "避险货币受AI行情反复影响，波动放大"
     }
   ],
   "crypto": [
     {
       "name": "Bitcoin",
       "symbol": "BTC",
-      "value": 64109.63,
-      "change": 600.81,
-      "change_pct": 0.95,
-      "note": "约$64,110附近企稳(+1%)；聚焦CLARITY Act(8/8休会前)立法进展"
+      "value": 64744.92,
+      "change": 235.07,
+      "change_pct": 0.36,
+      "note": "$64,745(+0.4%)；聚焦CLARITY Act(明日8/8休会前)立法窗口"
     },
     {
       "name": "Ethereum",
       "symbol": "ETH",
-      "value": 1865.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "note": "企稳$1,865附近，买盘动能仍偏弱"
+      "value": 1908.76,
+      "change": 8.39,
+      "change_pct": 0.44,
+      "note": "$1,909小幅回暖，动能仍偏弱"
     }
   ],
   "volatility": {
@@ -147,82 +176,91 @@
     "value": 15.99,
     "change": -1.1,
     "change_pct": -6.44,
-    "note": "恐慌指数低位；非农公布前后或有脉冲式波动，留意风险溢价回升"
+    "note": "恐慌指数低位；弱非农后预计继续回落，短期波动风险有限"
+  },
+  "macro_data": {
+    "us_july_nonfarm_payrolls": {
+      "actual": -23000,
+      "expected": 83000,
+      "prior_revision": -20000,
+      "note": "大爆冷！7月非农-23K(预期+83K)，6月下修至-20K，劳动力市场明显降温"
+    },
+    "us_unemployment_rate": {
+      "actual": 4.2,
+      "expected": 4.2,
+      "note": "失业率4.2%持平预期"
+    }
   },
   "overnight_news": [
     {
       "source": "CNBC",
-      "title": "S&P 500 futures little changed ahead of big jobs report",
-      "url": "",
-      "importance": "high"
-    },
-    {
-      "source": "CNBC",
-      "title": "Oil rises amid supply disruption fears following Iran's restrictive draft plan for the Strait of Hormuz",
-      "url": "",
-      "importance": "high"
-    },
-    {
-      "source": "CNBC",
-      "title": "A 'weaponized' yen: How the U.S.-Japan intervention may reshape global currency markets",
-      "url": "",
-      "importance": "medium"
-    },
-    {
-      "source": "CNBC",
-      "title": "Meta ordered to pay $567 million into abatement fund as remedy to child harms case in New Mexico",
-      "url": "",
-      "importance": "medium"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Fujifilm Shares Tumble by a Record After Earnings Disappoint",
-      "url": "",
-      "importance": "medium"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Oil Gains on Iran, Bonds Drop Before US Jobs Data: Markets Wrap",
+      "title": "U.S. economy unexpectedly lost 23,000 jobs in July",
       "url": "",
       "importance": "high"
     },
     {
       "source": "Bloomberg",
-      "title": "China Central Bank Adds Gold in Hong Kong to Support Trading Hub",
+      "title": "US Loses 23,000 Jobs in July, Unemployment Rate Falls",
       "url": "",
-      "importance": "low"
+      "importance": "high"
     },
     {
-      "source": "FT",
-      "title": "US euro sale to prop up yen blindsided European Central Bank",
+      "source": "Bloomberg",
+      "title": "Jobs Revisions Are Pointing to Labor Weakness, Says BlackRock's Rosenberg",
+      "url": "",
+      "importance": "high"
+    },
+    {
+      "source": "Reuters",
+      "title": "Stocks, dollar steady ahead of US jobs report; oil wobbles — Global stocks headed for strongest weekly gain since May",
+      "url": "",
+      "importance": "high"
+    },
+    {
+      "source": "CNBC",
+      "title": "Solar stocks shine after Trump extends China tariffs to polysilicon products",
       "url": "",
       "importance": "medium"
     },
     {
-      "source": "MarketWatch",
-      "title": "As Alphabet burns through cash on AI, it's turning back to the bond market",
+      "source": "Bloomberg",
+      "title": "Yen Jumps After US Data as Traders Watch for Intervention Clues",
+      "url": "",
+      "importance": "medium"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "US Treasuries Rally as Soft Jobs Data Trims Fed Rate-Hike Bets",
+      "url": "",
+      "importance": "high"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Latest Oil Market News and Analysis for Aug. 7 — Hormuz talks, supply disruption",
       "url": "",
       "importance": "medium"
     },
     {
       "source": "CNBC",
-      "title": "JPMorgan's Jamie Dimon warns of high leverage: 'Somebody will disrupt the market'",
+      "title": "Iran's chief negotiator accuses Trump of 'theater diplomacy' with Hormuz traffic near standstill",
       "url": "",
-      "importance": "low"
+      "importance": "medium"
     }
   ],
   "key_events": [
-    "美股高位休整：标普500 -0.2%报7,709.96(距纪录一步之遥)、纳指-0.1%、道指-464点(-0.85%)终结连胜；今日重磅非农主导方向",
-    "7月非农今日(8/7)公布 — 美联储Cook'准备好加息'、Paulson开放、Kashkari主张'开始缓慢加息'的鹰派背景下，数据是验证关键",
-    "霍尔木兹：航运协议'已达成、待哈梅内伊签署'，油价波动(布油$78.76/-0.76%、WTI$74.58/-1.57%)",
-    "美日联合干预'武器化日元'发酵，美国抛售欧元力撑日元令欧央行措手不及；Fujifilm财报暴雷暴跌",
-    "AI链韧性：纳指仅微跌显示科技股抗跌；Alphabet转向债市为AI支出融资；关注今日非农对AI行情影响"
+    "7月非农大爆冷：-23K(预期+83K)，6月下修至-20K → 市场从'准备加息'转向'暂停观望'，期货拉升",
+    "美股本周有望录得4月以来最佳涨幅：S&P/道指周涨创4月来最佳，纳指或创5月来最大周涨",
+    "美债收益率回落、美元走软：弱非农压制加息押注，BlackRock警告就业下修指向劳动力疲软",
+    "太阳能股大涨：特朗普将中国多晶硅关税范围扩大至中游产品",
+    "霍尔木兹协议僵局：伊朗首席谈判官称特朗普'戏剧外交'，航运接近停滞；油价波动",
+    "日元继续走强：美日联合干预'武器化日元'，交易员紧盯干预线索",
+    "加密货币CLARITY Act：明日(8/8)国会休会前立法窗口，BTC $64,745、ETH $1,909"
   ],
   "today_watch": [
-    "7月非农数据(今日) — 绝对焦点：强劲→强化美联储加息预期、压制风险偏好；疲软→缓解压力、利好成长股与AI行情",
-    "A股科技/AI联动 — 隔夜美股AI链韧性(纳指仅微跌)，A股算力、AI应用链或获支撑",
-    "霍尔木兹协议签署进展 — 哈梅内伊是否签署决定油价方向，进而影响通胀与风险偏好",
-    "日元与套利交易 — '武器化日元'+美日干预，关注日股与全球套利交易去杠杆风险",
-    "加密货币CLARITY Act — 8/8休会前立法进展，决定加密监管明朗度"
+    "弱非农后美股开盘表现 — 期货已拉升，关注能否确认突破前高(标普7,700关口)",
+    "A股/港股科技链联动 — 弱非农或重燃降息预期，AI/算力板块情绪修复",
+    "美债收益率走势 — 若收益率继续下行，成长股与黄金/加密或受益",
+    "日元干预持续性 — 美日联合干预后汇率稳定度，套利交易风险",
+    "CLARITY Act立法(8/8前) — 加密监管明朗度决定BTC/ETH短期方向"
   ]
 }

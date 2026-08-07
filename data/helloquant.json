@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-07 00:14:18",
+  "timestamp": "2026-08-07T09:00:00",
   "date": "2026-08-07",
-  "report_type": "daily",
+  "report_type": "weekly",
   "crypto": {
     "BTC": {
       "price": 64895.6,
@@ -121,5 +121,67 @@
       "price": 1744.02,
       "change": 2.51
     }
+  },
+  "week": "2026-W32",
+  "weekly_summary": {
+    "period": "2026-08-03 ~ 2026-08-07",
+    "crypto": {
+      "BTC": {
+        "price": 64895.6,
+        "week_change_pct": 3.7,
+        "week_high": 65026.6,
+        "week_low": 62576.9,
+        "trend": "震荡偏多"
+      },
+      "ETH": {
+        "price": 1913.1,
+        "week_change_pct": 3.8,
+        "week_high": 1928.1,
+        "week_low": 1842.0,
+        "trend": "震荡反弹"
+      }
+    },
+    "fear_greed_avg": 26,
+    "fear_greed_label": "Fear",
+    "signals_distribution": {
+      "做多": 2,
+      "做空": 1,
+      "观望": 5
+    },
+    "strategy_signals": {
+      "DoubleMa": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "TripleMa": {
+        "1h": "观望",
+        "4h": "做多"
+      },
+      "Supertrend": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "RSI": {
+        "1h": "做空",
+        "4h": "做空"
+      },
+      "MACD": {
+        "1h": "做多",
+        "4h": "观望"
+      },
+      "Bollinger": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "Momentum": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "MeanReversion": {
+        "1h": "观望",
+        "4h": "观望"
+      }
+    },
+    "note": "本周加密市场先跌后反弹：BTC从62.5k回升至64.9k(+3.7%)，ETH从1842反弹至1913(+3.8%)。恐惧贪婪指数从28(Fear)降至25(Extreme Fear)，市场情绪仍偏谨慎。策略信号收敛：RSI持续做空，MACD 1h与TripleMa 4h出现做多信号，其余策略观望。A股本周强势，上证+3.4%至3940，科创50大涨。"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05 17:00:00",
+  "updated": "2026-08-06 17:00:00",
   "papers": [
     {
       "title": "Failure Detection for Surgical Robot Imitation Policies via Flow-Matching World Modeling",
@@ -728,7 +728,58 @@
       "topic": "VLA / Reasoning",
       "status": "new",
       "status_en": "新发现"
+    },
+    {
+      "title": "muSync-GS: Physics-Synchronized Driving Video Synthesis for Weather and Geometric Road Hazards",
+      "id": "2608.04412",
+      "date": "2026-08-05",
+      "authors": "Yang Chen, Yicheng Zhu, Tao Li, Zilin Bian",
+      "categories": "cs.CV",
+      "abstract": "High-quality driving data are essential for autonomous-driving systems and generative world models. However, rare and safety-critical scenarios involving adverse weather, braking under low tire--road friction, and uneven road geometry are costly and risky to collect at scale. Existing video-generation and 3D Gaussian editing methods can modify weather appearance or road geometry, but typically do not couple these edits with tire--road interaction and vehicle dynamics. As a result, an edited video may retain its original trajectory even when the modified road condition should alter braking, whe",
+      "relevance": 4,
+      "topic": "End-to-End Autonomous Driving / Simulation",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "NCGR: Noise-Conditional Gated Rectification for Camera Extrinsic Perturbations in BEV 3D Object Detection",
+      "id": "2608.03895",
+      "date": "2026-08-04",
+      "authors": "Wenbin Pan, Wanhao Liu, Liwei Luo, Panshuo Li, Yong Xu, Renquan Lu",
+      "categories": "cs.CV",
+      "abstract": "Camera-based bird's-eye-view (BEV) 3D detection typically assumes accurate and fixed camera extrinsics. In detectors using spatial cross-attention (SCA), extrinsic perturbations displace the image-plane projections of BEV reference points, causing queries to sample features from incorrect regions and degrading detection performance. To address this failure mode, Noise-Conditional Gated Rectification (NCGR) is proposed to compensate for projection errors without explicitly estimating a full six-degree-of-freedom extrinsic correction. For each query-camera pair, a 2D rectification offset is pred",
+      "relevance": 4,
+      "topic": "BEV Perception",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "DreamWAM: Beyond RGB Future Prediction for World Action Models",
+      "id": "2608.04996",
+      "date": "2026-08-05",
+      "authors": "Shanglin Yuan, Weiheng Zhao, Xin Shi, Haoyi Jiang, Xianda Guo, Liu Liu",
+      "categories": "cs.RO",
+      "abstract": "World Action Models (WAMs) learn action-relevant representations by predicting how the observed world will evolve. Most existing WAMs define this future in RGB space, where task-relevant state transitions are entangled with nuisance variations in texture, illumination, background, and viewpoint. We argue that WAMs should explicitly predict action-relevant future state rather than relying on RGB prediction alone. We introduce DreamWAM, which reformulates future prediction as structured world modeling beyond RGB, representing future states through complementary views of appearance, motion, geome",
+      "relevance": 3,
+      "topic": "World Models",
+      "status": "new",
+      "status_en": "新发现"
+    },
+    {
+      "title": "Overcoming Statistical Bias in Action-Controllable World Models",
+      "id": "2608.04653",
+      "date": "2026-08-05",
+      "authors": "Yuhong Shi, Zhenhao Chu, Jie Wei, Jun Hao, Jianyi Liu, Jingwen Fu",
+      "categories": "cs.CV, cs.RO",
+      "abstract": "Action-conditioned world models aim to predict how visual environments evolve under an agent's actions. Yet future frames are often highly predictable from visual inertia and recurring motion patterns alone. This creates a shortcut: models can fit the data by exploiting statistical biases without making their visible dynamics meaningfully depend on the action. As a result, different actions may produce similar futures, while motion may persist even under zero action. The key question is how to reduce reliance on statistical shortcuts from dominating action-conditioned prediction. We argue that",
+      "relevance": 3,
+      "topic": "World Models",
+      "status": "new",
+      "status_en": "新发现"
     }
   ],
-  "weekly_report": "2026-08-01"
+  "weekly_report": [
+    "2026-08-01",
+    "2026-08-06"
+  ]
 }

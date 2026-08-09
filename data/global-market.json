@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-08T13:30:00Z",
-  "date": "2026-08-08",
-  "market_state": "evening-data",
+  "timestamp": "2026-08-09T13:30:00Z",
+  "date": "2026-08-09",
+  "market_state": "weekend-data",
   "summary": {
-    "title": "美股周五收高：标普500再创收盘新高，周涨幅创4月来最佳——弱非农点燃降息预期",
+    "title": "美股周五收高收官（标普500创收盘新高），周末消息面偏暖——伯克希尔部署现金、沙特炼厂遭袭",
     "us_close": "周五(8/7)美股在弱非农数据推动下全线收高：标普500 +0.6%报7,756.44创收盘新高(本周第二次)、纳指 +1.3%报26,690.62、道指 +152点(+0.28%)报54,036.43。周线维度三大指数录得数月来最大周涨幅——道指周涨3%、标普500周涨3.6%、纳指周涨5.2%。7月非农大爆冷(就业-23K vs 预期+83K)主导全周：市场从'美联储准备加息'急转为'暂停甚至考虑降息'，风险偏好显著回暖。Berkshire财报亮眼，CEO Greg Abel开始部署巴菲特巨额现金储备。Al催化的AI建仓行情持续，Amanda Quinlan等华尔街人士仍看多美股。",
     "key_takeaway": "弱非农重塑利率预期是全周主线：标普500周涨创4月最佳，纳指周涨5.2%系5月来最大。但需警惕两点——①非农单月波动大、失业率仍4.2%、6月下修显示趋势走弱，若后续数据持续疲软，衰退担忧将反噬降息利好；②加密货币与债市信号偏谨慎：BTC $64,745续受50日EMA($64,587)压制，CLARITY Act(8/8国会休会前)立法窗口仍存变数，'Landmark crypto bill stalls in US Senate despite $225mn spending push'——加密立法推进受阻。油市受霍尔木兹紧张影响，UAE船只遭导弹袭击，美伊局势仍高度不确定。"
   },
@@ -88,26 +88,98 @@
     ]
   },
   "futures": [
-    {"name": "S&P 500 Futures", "symbol": "ES", "direction": "up", "change_pct": 0.14, "note": "周五非农公布后期货拉升，收盘已确认；降息预期支撑股指期货"},
-    {"name": "Nasdaq 100 Futures", "symbol": "NQ", "direction": "up", "change_pct": 0.39, "note": "领涨三大期指，科技股受益于降息预期与AI行情"},
-    {"name": "Dow Futures", "symbol": "YM", "direction": "up", "change_pct": 0.27, "note": "+146点，弱非农后终结此前下跌势头"}
+    {
+      "name": "S&P 500 Futures",
+      "symbol": "ES",
+      "direction": "up",
+      "change_pct": 0.14,
+      "note": "周五非农公布后期货拉升，收盘已确认；降息预期支撑股指期货"
+    },
+    {
+      "name": "Nasdaq 100 Futures",
+      "symbol": "NQ",
+      "direction": "up",
+      "change_pct": 0.39,
+      "note": "领涨三大期指，科技股受益于降息预期与AI行情"
+    },
+    {
+      "name": "Dow Futures",
+      "symbol": "YM",
+      "direction": "up",
+      "change_pct": 0.27,
+      "note": "+146点，弱非农后终结此前下跌势头"
+    }
   ],
   "commodities": [
-    {"name": "WTI Crude", "value": 74.58, "change": 0.0, "change_pct": -1.57, "note": "油价震荡走低；UAE船只遭导弹袭击令霍尔木兹紧张升级，但谈判推进仍压制油价"},
-    {"name": "Brent Crude", "value": 78.76, "change": 0.0, "change_pct": -0.76, "note": "地缘溢价继续消化；美伊谈判进展与袭击事件相互拉扯"}
+    {
+      "name": "WTI Crude",
+      "value": 74.58,
+      "change": 0.0,
+      "change_pct": -1.57,
+      "note": "油价震荡走低；UAE船只遭导弹袭击令霍尔木兹紧张升级，但谈判推进仍压制油价"
+    },
+    {
+      "name": "Brent Crude",
+      "value": 78.76,
+      "change": 0.0,
+      "change_pct": -0.76,
+      "note": "地缘溢价继续消化；美伊谈判进展与袭击事件相互拉扯"
+    }
   ],
   "bonds": {
-    "us_10y": {"value": 0.0, "change": 0.0, "change_pct": 0.0, "note": "弱非农后美债收益率周内显著回落，债市走强，10年期利率逼近关键支撑"},
-    "us_2y": {"value": 0.0, "change": 0.0, "change_pct": 0.0, "note": "短端利率对加息预期高度敏感，弱非农压制加息押注，2年期收益率下行"}
+    "us_10y": {
+      "value": 0.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "note": "弱非农后美债收益率周内显著回落，债市走强，10年期利率逼近关键支撑"
+    },
+    "us_2y": {
+      "value": 0.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "note": "短端利率对加息预期高度敏感，弱非农压制加息押注，2年期收益率下行"
+    }
   },
   "fx": [
-    {"pair": "USD/JPY", "value": 0.0, "change": 0.0, "change_pct": 0.0, "note": "日元受美日联合干预继续走强；弱非农压制美元，日元或进一步升值，关注干预持续性"},
-    {"pair": "EUR/USD", "value": 0.0, "change": 0.0, "change_pct": 0.0, "note": "弱非农后美元走软，欧元企稳；此前美国抛售欧元力撑日元的操作令欧央行措手不及"},
-    {"pair": "GBP/USD", "value": 1.3482, "change": 0.0, "change_pct": 0.0, "note": "美元走软下英镑偏强，关注英国央行政策路径"}
+    {
+      "pair": "USD/JPY",
+      "value": 0.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "note": "日元受美日联合干预继续走强；弱非农压制美元，日元或进一步升值，关注干预持续性"
+    },
+    {
+      "pair": "EUR/USD",
+      "value": 0.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "note": "弱非农后美元走软，欧元企稳；此前美国抛售欧元力撑日元的操作令欧央行措手不及"
+    },
+    {
+      "pair": "GBP/USD",
+      "value": 1.3482,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "note": "美元走软下英镑偏强，关注英国央行政策路径"
+    }
   ],
   "crypto": [
-    {"name": "Bitcoin", "symbol": "BTC", "value": 64940.0, "change": 195.0, "change_pct": 0.3, "note": "$64,940(+0.8%/24h，周涨2.8%)；续受50日EMA($64,587)压制，100日EMA $67,025上方阻力明显，中期趋势仍偏修正"},
-    {"name": "Ethereum", "symbol": "ETH", "value": 1916.57, "change": 7.81, "change_pct": 0.41, "note": "$1,917小幅回暖；'Landmark crypto bill stalls in US Senate'——CLARITY Act推进受阻，加密市场情绪承压"}
+    {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "value": 64940.0,
+      "change": 195.0,
+      "change_pct": 0.3,
+      "note": "$64,940（周末休市，沿用周五收盘）；续受50日EMA($64,587)压制，100日EMA $67,025上方阻力明显，中期趋势仍偏修正"
+    },
+    {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "value": 1916.57,
+      "change": 7.81,
+      "change_pct": 0.41,
+      "note": "$1,917（周末休市，沿用周五收盘）；'Landmark crypto bill stalls in US Senate'——CLARITY Act推进受阻，加密市场情绪承压"
+    }
   ],
   "volatility": {
     "name": "VIX",
@@ -117,34 +189,151 @@
     "note": "恐慌指数低位；弱非农+AI行情韧性下风险偏好回暖，短期波动风险有限"
   },
   "macro_data": {
-    "us_july_nonfarm_payrolls": {"actual": -23000, "expected": 83000, "prior_revision": -20000, "note": "大爆冷！7月非农-23K(预期+83K)，6月下修至-20K，劳动力市场明显降温，主导全周降息预期"},
-    "us_unemployment_rate": {"actual": 4.2, "expected": 4.2, "note": "失业率4.2%持平预期，但结合非农下修，整体就业趋势走弱"}
+    "us_july_nonfarm_payrolls": {
+      "actual": -23000,
+      "expected": 83000,
+      "prior_revision": -20000,
+      "note": "大爆冷！7月非农-23K(预期+83K)，6月下修至-20K，劳动力市场明显降温，主导全周降息预期"
+    },
+    "us_unemployment_rate": {
+      "actual": 4.2,
+      "expected": 4.2,
+      "note": "失业率4.2%持平预期，但结合非农下修，整体就业趋势走弱"
+    }
   },
   "overnight_news": [
-    {"source": "CNBC", "title": "Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard", "impact": "Berkshire财报亮眼，阿贝尔开始部署巴菲特巨量现金储备，价值股龙头动向受关注"},
-    {"source": "CNBC", "title": "UAE says one of its ships was targeted by missile as U.S.-Iran tensions over Strait of Hormuz remain high", "impact": "霍尔木兹海峡局势升温，UAE船只遭导弹袭击，油价地缘风险回升"},
-    {"source": "FT", "title": "Landmark crypto bill stalls in US Senate despite $225mn spending push", "impact": "CLARITY Act等加密立法在参议院受阻，加密市场政策利好预期降温"},
-    {"source": "Bloomberg", "title": "CEO Greg Abel Starts Making His Mark at Berkshire", "impact": "伯克希尔权力交接推进，阿贝尔风格初显，市场关注其投资部署方向"},
-    {"source": "Bloomberg", "title": "A Tough Week for Crypto Has Fans Downing Drinks at a Bitcoin Bar", "impact": "加密市场本周承压，BTC承压于长期均线的技术面压力得到反复验证"},
-    {"source": "Bloomberg", "title": "AI Buildout Keeps Quinlan Bullish on US Stocks", "impact": "AI建仓行情持续，华尔街仍看多美股，支撑纳指周涨5.2%"},
-    {"source": "CNBC", "title": "Senate Republicans narrowly confirm Todd Blanche as attorney general", "impact": "特朗普政府人事推进，政策连续性预期增强"},
-    {"source": "CNBC", "title": "Hugging Face hack marks start of dangerous AI cyber era and many firms 'don't even know it'", "impact": "AI网络安全风险升温，Hugging Face遭黑客攻击引发行业警惕"},
-    {"source": "Yahoo Finance", "title": "Dow Jones Futures: What To Do As Stock Market Revs Up; Warren Buffett's Berkshire Beats Views", "impact": "美股动能强劲+Buffett伯克希尔超预期，短期市场情绪偏乐观"}
+    {
+      "source": "CNBC",
+      "title": "Saudi Aramco extinguishes fire at refinery as Houthis claim responsibility",
+      "impact": "沙特炼厂起火，胡塞武装宣称负责，中东地缘风险再升温，关注油价周一开盘反应"
+    },
+    {
+      "source": "CNBC",
+      "title": "Is a small Israeli startup linked to rogue AI hacks at OpenAI, Anthropic and Meta?",
+      "impact": "AI安全再起风波，以色列初创被指与OpenAI/Anthropic/Meta的AI黑客攻击有关，科技板块风险关注"
+    },
+    {
+      "source": "CNBC",
+      "title": "Top Wall Street analysts like these 3 stocks for their solid growth potential",
+      "impact": "周末券商研报看多3只成长股，反映市场短期风险偏好维持"
+    },
+    {
+      "source": "CNBC",
+      "title": "Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard",
+      "impact": "Berkshire财报亮眼，阿贝尔开始部署巴菲特巨量现金储备，价值股龙头动向受关注"
+    },
+    {
+      "source": "CNBC",
+      "title": "UAE says one of its ships was targeted by missile as U.S.-Iran tensions over Strait of Hormuz remain high",
+      "impact": "霍尔木兹海峡局势升温，UAE船只遭导弹袭击，油价地缘风险回升"
+    },
+    {
+      "source": "FT",
+      "title": "Landmark crypto bill stalls in US Senate despite $225mn spending push",
+      "impact": "CLARITY Act等加密立法在参议院受阻，加密市场政策利好预期降温"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "CEO Greg Abel Starts Making His Mark at Berkshire",
+      "impact": "伯克希尔权力交接推进，阿贝尔风格初显，市场关注其投资部署方向"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "A Tough Week for Crypto Has Fans Downing Drinks at a Bitcoin Bar",
+      "impact": "加密市场本周承压，BTC承压于长期均线的技术面压力得到反复验证"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "AI Buildout Keeps Quinlan Bullish on US Stocks",
+      "impact": "AI建仓行情持续，华尔街仍看多美股，支撑纳指周涨5.2%"
+    },
+    {
+      "source": "CNBC",
+      "title": "Senate Republicans narrowly confirm Todd Blanche as attorney general",
+      "impact": "特朗普政府人事推进，政策连续性预期增强"
+    },
+    {
+      "source": "CNBC",
+      "title": "Hugging Face hack marks start of dangerous AI cyber era and many firms 'don't even know it'",
+      "impact": "AI网络安全风险升温，Hugging Face遭黑客攻击引发行业警惕"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Dow Jones Futures: What To Do As Stock Market Revs Up; Warren Buffett's Berkshire Beats Views",
+      "impact": "美股动能强劲+Buffett伯克希尔超预期，短期市场情绪偏乐观"
+    }
   ],
   "key_events": [
-    {"time": "08-07", "event": "7月非农大爆冷：-23K vs 预期+83K，6月下修至-20K", "importance": "高", "status": "已公布", "impact": "点燃全周降息预期，标普500周涨3.6%创4月最佳"},
-    {"time": "08-07", "event": "标普500周五收于7,756.44创收盘新高(本周第二次)", "importance": "高", "status": "已发生", "impact": "纳指+1.3%领涨，周涨5.2%；道指+0.28%"},
-    {"time": "08-07", "event": "Berkshire财报：CEO Greg Abel开始部署巴菲特现金储备", "importance": "中", "status": "已公布", "impact": "释放价值配置信号，市场关注资本部署方向"},
-    {"time": "08-07", "event": "UAE船只遭导弹袭击，霍尔木兹紧张升级", "importance": "高", "status": "进行中", "impact": "油价地缘风险回升，但谈判推进仍压制涨幅"},
-    {"time": "08-08", "event": "CLARITY Act立法窗口(国会8/8休会前)", "importance": "中", "status": "待观察", "impact": "FT报道已受阻，加密市场政策预期降温"},
-    {"time": "08-08", "event": "美股周线收官：道指+3%、标普+3.6%、纳指+5.2%", "importance": "中", "status": "已确认", "impact": "数月来最大周涨幅，风险偏好显著回暖"},
-    {"time": "08-08", "event": "美日联合干预日元持续性；美国抛售欧元操作引欧央行关注", "importance": "中", "status": "进行中", "impact": "FX市场波动加大，关注干预后续"}
+    {
+      "time": "08-07",
+      "event": "7月非农大爆冷：-23K vs 预期+83K，6月下修至-20K",
+      "importance": "高",
+      "status": "已公布",
+      "impact": "点燃全周降息预期，标普500周涨3.6%创4月最佳"
+    },
+    {
+      "time": "08-07",
+      "event": "标普500周五收于7,756.44创收盘新高(本周第二次)",
+      "importance": "高",
+      "status": "已发生",
+      "impact": "纳指+1.3%领涨，周涨5.2%；道指+0.28%"
+    },
+    {
+      "time": "08-07",
+      "event": "Berkshire财报：CEO Greg Abel开始部署巴菲特现金储备",
+      "importance": "中",
+      "status": "已公布",
+      "impact": "释放价值配置信号，市场关注资本部署方向"
+    },
+    {
+      "time": "08-07",
+      "event": "UAE船只遭导弹袭击，霍尔木兹紧张升级",
+      "importance": "高",
+      "status": "进行中",
+      "impact": "油价地缘风险回升，但谈判推进仍压制涨幅"
+    },
+    {
+      "time": "08-08",
+      "event": "CLARITY Act立法窗口(国会8/8休会前)",
+      "importance": "中",
+      "status": "待观察",
+      "impact": "FT报道已受阻，加密市场政策预期降温"
+    },
+    {
+      "time": "08-08",
+      "event": "美股周线收官：道指+3%、标普+3.6%、纳指+5.2%",
+      "importance": "中",
+      "status": "已确认",
+      "impact": "数月来最大周涨幅，风险偏好显著回暖"
+    },
+    {
+      "time": "08-08",
+      "event": "美日联合干预日元持续性；美国抛售欧元操作引欧央行关注",
+      "importance": "中",
+      "status": "进行中",
+      "impact": "FX市场波动加大，关注干预后续"
+    }
   ],
   "today_watch": [
-    {"item": "美股周末休市，关注下周CPI数据及美联储官员讲话", "priority": "高"},
-    {"item": "CLARITY Act国会休会前立法结果，加密监管风向", "priority": "中"},
-    {"item": "霍尔木兹谈判/袭击事件进展对油价影响", "priority": "中"},
-    {"item": "美日干预持续性：日元汇率走向", "priority": "中"},
-    {"item": "非农后续数据验证：若持续疲软，衰退担忧或反噬降息利好", "priority": "高"}
+    {
+      "item": "美股周末休市（周一开盘），关注下周三CPI及美联储官员讲话",
+      "priority": "高"
+    },
+    {
+      "item": "沙特炼厂起火/胡塞负责，霍尔木兹局势叠加，关注周一油价开盘",
+      "priority": "高"
+    },
+    {
+      "item": "下周CPI数据：弱非农后若通胀继续降温，降息预期将进一步升温",
+      "priority": "高"
+    },
+    {
+      "item": "CLARITY Act加密立法后续，监管风向",
+      "priority": "中"
+    },
+    {
+      "item": "非农后续验证：若持续疲软，衰退担忧或反噬降息利好",
+      "priority": "中"
+    }
   ]
 }

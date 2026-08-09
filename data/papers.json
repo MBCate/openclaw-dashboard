@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08 17:00:00",
+  "updated": "2026-08-08",
   "papers": [
     {
       "title": "BridgeVLA++: A Data-Efficient, Generalizable, and Memory-Augmented Vision-Language-Action Framework for 3D Manipulation",
@@ -1048,6 +1048,7 @@
   ],
   "weekly_report": [
     "2026-08-01",
-    "2026-08-06"
+    "2026-08-06",
+    "2026-08-08"
   ]
 }

@@ -1,72 +1,68 @@
 {
-  "date": "2026-08-07",
-  "time": "close",
-  "fetched_at": "2026-08-07T07:13:07Z",
+  "date": "2026-08-10",
+  "time": "midday",
+  "fetched_at": "2026-08-10T03:35:00Z",
   "indices": {
     "上证指数": {
-      "price": 3940.04,
-      "change": 1.02
+      "price": 3947.91,
+      "change": 0.2
     },
     "深证成指": {
-      "price": 14311.01,
-      "change": 1.42
+      "price": 14148.86,
+      "change": -1.13
     },
     "创业板指": {
-      "price": 3563.12,
-      "change": 1.35
-    },
-    "科创50": {
-      "price": 1744.02,
-      "change": 2.51
+      "price": 3485.44,
+      "change": -2.18
     },
     "沪深300": {
-      "price": 4694.44,
-      "change": 0.93
+      "price": 4670.05,
+      "change": -0.52
     }
   },
   "sectors": {
     "top": [
       {
-        "name": "玻璃行业",
-        "change": 4.36
+        "name": "酿酒行业",
+        "change": 2.89
       },
       {
-        "name": "有色金属",
-        "change": 4.17
+        "name": "农林牧渔",
+        "change": 2.38
       },
       {
-        "name": "生物制药",
-        "change": 3.16
+        "name": "食品行业",
+        "change": 2.24
       },
       {
-        "name": "次新股",
-        "change": 2.98
+        "name": "服装鞋类",
+        "change": 2.04
       },
       {
-        "name": "医疗器械",
-        "change": 2.96
+        "name": "房地产",
+        "change": 1.96
       }
     ],
     "bottom": [
       {
-        "name": "交通运输",
-        "change": -0.65
+        "name": "电子器件",
+        "change": -1.42
       },
       {
-        "name": "造纸行业",
-        "change": -0.77
+        "name": "电子信息",
+        "change": -1.84
       },
       {
-        "name": "开发区",
-        "change": -0.79
+        "name": "机械行业",
+        "change": -1.86
       },
       {
-        "name": "综合行业",
-        "change": -0.82
+        "name": "玻璃行业",
+        "change": -2.19
       },
       {
-        "name": "纺织行业",
-        "change": -1.07
+        "name": "次新股",
+        "change": -2.71
       }
     ]
   },
@@ -74,5 +70,5 @@
     "note": "陆股通实时净买入自2024年8月起不再公开披露",
     "value": null
   },
-  "source": "AkShare via Sina Finance (eastmoney blocked by proxy)"
+  "source": "eastmoney (indices) + Sina Finance (sectors); AkShare app proxy blocked"
 }

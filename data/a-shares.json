@@ -1,68 +1,68 @@
 {
   "date": "2026-08-10",
-  "time": "midday",
-  "fetched_at": "2026-08-10T03:35:00Z",
+  "time": "close",
+  "fetched_at": "2026-08-10T07:05:00Z",
   "indices": {
     "上证指数": {
-      "price": 3947.91,
-      "change": 0.2
+      "price": 3966.59,
+      "change": 0.67
     },
     "深证成指": {
-      "price": 14148.86,
-      "change": -1.13
+      "price": 14316.96,
+      "change": 0.04
     },
     "创业板指": {
-      "price": 3485.44,
-      "change": -2.18
+      "price": 3537.21,
+      "change": -0.73
     },
     "沪深300": {
-      "price": 4670.05,
-      "change": -0.52
+      "price": 4702.02,
+      "change": 0.16
     }
   },
   "sectors": {
     "top": [
       {
-        "name": "酿酒行业",
-        "change": 2.89
+        "name": "医疗服务",
+        "change": 4.59
       },
       {
-        "name": "农林牧渔",
-        "change": 2.38
+        "name": "贵金属",
+        "change": 4.54
       },
       {
-        "name": "食品行业",
-        "change": 2.24
+        "name": "能源金属",
+        "change": 4.52
       },
       {
-        "name": "服装鞋类",
-        "change": 2.04
+        "name": "养殖业",
+        "change": 3.81
       },
       {
-        "name": "房地产",
-        "change": 1.96
+        "name": "饮料制造",
+        "change": 3.46
       }
     ],
     "bottom": [
       {
-        "name": "电子器件",
-        "change": -1.42
+        "name": "电子化学品",
+        "change": -0.39
       },
       {
-        "name": "电子信息",
-        "change": -1.84
+        "name": "自动化设备",
+        "change": -0.39
       },
       {
-        "name": "机械行业",
-        "change": -1.86
+        "name": "通信设备",
+        "change": -0.84
       },
       {
-        "name": "玻璃行业",
-        "change": -2.19
+        "name": "元件",
+        "change": -1.06
       },
       {
-        "name": "次新股",
-        "change": -2.71
+        "name": "保险",
+        "change": -1.06
       }
     ]
   },
@@ -70,5 +70,5 @@
     "note": "陆股通实时净买入自2024年8月起不再公开披露",
     "value": null
   },
-  "source": "eastmoney (indices) + Sina Finance (sectors); AkShare app proxy blocked"
+  "source": "AkShare (Sina indices + 同花顺 sectors)"
 }

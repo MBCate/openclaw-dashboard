@@ -1,37 +1,37 @@
 {
- "timestamp": "2026-08-11T01:15:00Z",
+ "timestamp": "2026-08-11T13:30:00Z",
  "date": "2026-08-11",
- "market_state": "cpi-week-overnight",
+ "market_state": "pre-cpi-tuesday",
  "summary": {
-  "title": "Nvidia联手6大资管$5,000亿AI融资引爆资本开支，金价升破$4,400——CPI周前避险升温",
-  "us_close": "隔夜(8/10-11)重磅：Nvidia联合Apollo、BlackRock、Blackstone、Brookfield、高盛、KKR六大资管巨头推出逾$5,000亿AI基础设施融资计划，黄仁勋称其芯片为'可投资资产'，AI资本开支规模空前。金价升破$4,400(+0.54%)创阶段新高，市场聚焦周三CPI与降息预期。美股期货平稳，伊朗霍尔木兹协议仍无进展，油价维持地缘溢价(WTI $82.22)。腾讯WorkBuddy引港股AI反转预期，AMD创纪录营收但股价因自由现金流下滑承压。日元干预提振效果消退、美元走强。",
-  "key_takeaway": "周二(8/11)核心变量：周三CPI是本周胜负手——金价升破$4,400与油价地缘溢价共同指向滞胀担忧，若CPI过热将挑战弱非农点燃的降息预期。Nvidia $5,000亿AI融资+AMD创纪录营收印证AI资本开支浪潮，科技股动能延续。港股关注腾讯WorkBuddy能否带动AI反转。地缘上霍尔木兹协议仍无进展，油价中枢抬升。"
+  "title": "美股周一自历史高位小幅回落，油价因地缘上涨点燃通胀担忧——CPI(8/12)成关键变量",
+  "us_close": "周一(8/10)美股自纪录高位小幅回吐：S&P 500 -0.1%、道指 -0.1%、纳指 -0.3%，科技股涨势歇脚。油价走强(霍尔木兹海峡重开时间不定)推升能源股、压制半导体与科技，资本开支担忧升温。华尔街认可黄仁勋AI'大概念'，Intel将股票增发扩至$200亿(每股$95)以加速AI需求布局；香港股东：Plug Power财报后大涨、On Holding重挫。周二(8/11)盘前美股期货持稳，市场聚焦美伊和谈进展与周三CPI。",
+  "key_takeaway": "周二(8/11)核心变量：周三(8/12)CPI是本周胜负手。周一油价因地缘(霍尔木兹)上涨点燃滞胀担忧——美股在历史高位附近技术性歇脚，若CPI过热将冲击降息预期。Intel $200亿增发+Jensen Huang AI'大概念'获华尔街背书，印证AI资本开支浪潮延续。加密市场：BTC约$65,000、ETH约$1,920，均在50日EMA附近盘整，微策略持续售币构成供应压力。港股周二关注AI链(腾讯WorkBuddy)与南向资金动向。"
  },
  "indices": {
   "US": [
    {
     "name": "S&P 500",
     "symbol": "SPX",
-    "value": 7756.44,
-    "change": 48.0,
-    "change_pct": 0.6,
-    "note": "周一开盘接近历史高位(CPI周)；周五收7,756.44创收盘新高，周涨3.6%为4月来最佳"
+    "value": 7776.0,
+    "change": -0.1,
+    "change_pct": -0.1,
+    "note": "周一(8/10)自纪录高位小幅回落约0.1%，收盘接近历史高点(上周五77,56.44创收盘新高)；技术性歇脚，油价上涨与通胀担忧压制"
    },
    {
     "name": "Nasdaq",
     "symbol": "IXIC",
-    "value": 26690.62,
-    "change": 342.0,
-    "change_pct": 1.3,
-    "note": "周一在历史高位附近徘徊；周五+1.3%报26,690.62，AI行情韧性，TSMC销售+45%印证需求"
+    "value": 26610.0,
+    "change": -0.3,
+    "change_pct": -0.3,
+    "note": "周一 -0.3%，科技股涨势歇脚；半导体与AI链受资本开支担忧拖累，但TSMC销售+45%印证需求韧性"
    },
    {
     "name": "Dow Jones",
     "symbol": "DJI",
-    "value": 54036.43,
-    "change": 151.83,
-    "change_pct": 0.28,
-    "note": "周一开盘接近历史高点；周五+152点报54,036.43，距8/5高点54,349低0.57%"
+    "value": 53982.0,
+    "change": -0.1,
+    "change_pct": -0.1,
+    "note": "周一 -0.1%(约-54点)，自纪录高位小幅回落；能源股因油价上涨获支撑，抵消部分科技回落"
    }
   ],
   "Asia": [
@@ -41,7 +41,7 @@
     "value": 0.0,
     "change": 0.0,
     "change_pct": 0.0,
-    "note": "港股科技/AI链受惠美股历史高位与降息预期；TSMC内地与香港需求稳健，关注南向资金"
+    "note": "周二(8/11)关注AI链：腾讯WorkBuddy或引发港股AI反转，南向资金动向受关注"
    },
    {
     "name": "Nikkei 225",
@@ -49,7 +49,7 @@
     "value": 0.0,
     "change": 0.0,
     "change_pct": 0.0,
-    "note": "日元受干预走强压制出口股；弱非农强化干预持续性，早间日元表现弱于其他G10"
+    "note": "日元干预提振效果消退、美元走强，出口股承压"
    },
    {
     "name": "KOSPI",
@@ -67,7 +67,7 @@
     "value": 0.0,
     "change": 0.0,
     "change_pct": 0.0,
-    "note": "欧股在CPI周前持稳，弱非农利好的风险偏好与油价上涨的滞胀担忧相互拉扯"
+    "note": "欧股在CPI周前持稳，油价上涨的滞胀担忧与降息预期相互拉扯"
    },
    {
     "name": "DAX",
@@ -75,277 +75,99 @@
     "value": 0.0,
     "change": 0.0,
     "change_pct": 0.0,
-    "note": "欧股接近高位，关注ECB对汇率波动与油价上行通胀影响的反应"
-   },
-   {
-    "name": "CAC 40",
-    "market": "法国",
-    "value": 0.0,
-    "change": 0.0,
-    "change_pct": 0.0,
-    "note": "欧股维持强势，弱非农后美元走软利好欧股估值"
+    "note": "欧股接近高位，关注欧洲清算行人民币业务扩展(Deutsche)等动向"
    }
   ]
  },
- "futures": [
+ "crypto": [
   {
-   "name": "S&P 500 Futures",
-   "symbol": "ES",
-   "direction": "flat",
-   "change_pct": 0.05,
-   "note": "CPI周开盘前窄幅波动，市场等待周三通胀数据方向"
+   "name": "Bitcoin",
+   "symbol": "BTC",
+   "value": 65004.0,
+   "change": -0.1,
+   "change_pct": -0.1,
+   "note": "约$65,000，50日EMA附近盘整；微策略持续售币充实现金构成供应压力，CPI前多头谨慎"
   },
   {
-   "name": "Nasdaq 100 Futures",
-   "symbol": "NQ",
-   "direction": "up",
-   "change_pct": 0.2,
-   "note": "AI行情支撑科技期指，Meta开源最强模型提振情绪"
-  },
-  {
-   "name": "Dow Futures",
-   "symbol": "YM",
-   "direction": "flat",
-   "change_pct": 0.1,
-   "note": "接近历史高位窄幅整理，关注CPI周方向选择"
+   "name": "Ethereum",
+   "symbol": "ETH",
+   "value": 1919.0,
+   "change": -1.4,
+   "change_pct": -1.4,
+   "note": "约$1,919，24h -1.4%；BTC/ETH比价约34，跟随大盘盘整，风险偏好受CPI不确定压制"
   }
  ],
  "commodities": [
   {
    "name": "WTI Crude",
-   "value": 82.22,
-   "change": 0.09,
-   "change_pct": 0.11,
-   "note": "WTI $82.22(+0.11%)；霍尔木兹协议仍难达成，地缘溢价支撑，月涨5.2%、同比+30%"
-  },
-  {
-   "name": "Brent Crude",
-   "value": 85.0,
-   "change": 0.5,
-   "change_pct": 0.6,
-   "note": "美伊霍尔木兹协议无进展，供应风险支撑油价，特朗普转向经济施压"
+   "symbol": "WTI",
+   "value": 82.2,
+   "change": 0.0,
+   "change_pct": 0.0,
+   "note": "油价走强，霍尔木兹海峡重开时间不定支撑地缘溢价(WTI约$82)"
   },
   {
    "name": "Gold",
-   "value": 4414.94,
-   "change": 23.7,
-   "change_pct": 0.54,
-   "note": "现货金$4,414.94(+0.54%)，升破$4,400创阶段新高；弱非农+滞胀担忧下避险需求强劲，月涨10.3%"
+   "symbol": "XAU",
+   "value": 4400.0,
+   "change": 0.5,
+   "change_pct": 0.5,
+   "note": "金价升破$4,400创阶段新高，避险+通胀对冲需求;CME黄金白银周一收低但趋势偏多"
   }
  ],
- "bonds": {
-  "us_10y": {
-   "value": 0.0,
-   "change": 0.0,
-   "change_pct": 0.0,
-   "note": "CPI周关注焦点：弱非农后美债收益率回落，但若周三CPI过热将推升长端利率"
-  },
-  "us_2y": {
-   "value": 0.0,
-   "change": 0.0,
-   "change_pct": 0.0,
-   "note": "短端利率对降息预期高度敏感，弱非农压制加息押注；Hot CPI风险或令2年期再度承压"
-  }
- },
- "fx": [
+ "news": [
   {
-   "pair": "USD/JPY",
-   "value": 0.0,
-   "change": 0.0,
-   "change_pct": 0.0,
-   "note": "日元早间表现弱于其他G10货币，干预提振效果消退；弱非农压制美元但日元波动仍大"
+   "source": "CNBC",
+   "title": "Wall Street just endorsed Jensen Huang's 'big concept' for AI. What now?",
+   "time": "08-11",
+   "impact": "华尔街认可黄仁勋AI资本开支逻辑，AI行情主线延续"
   },
   {
-   "pair": "EUR/USD",
-   "value": 0.0,
-   "change": 0.0,
-   "change_pct": 0.0,
-   "note": "弱非农后美元走软欧元企稳；关注CPI周美元方向及欧央行反应"
+   "source": "CNBC",
+   "title": "Intel upsizes stock offering to $20 billion at $95 per share as AI demand accelerates",
+   "time": "08-11",
+   "impact": "Intel $200亿增发给力AI布局，半导体资本开支扩张信号"
   },
   {
-   "pair": "GBP/USD",
-   "value": 1.3482,
-   "change": 0.0,
-   "change_pct": 0.0,
-   "note": "美元走软下英镑偏强，关注英国央行政策路径与CPI周美元波动"
-  }
- ],
- "crypto": [
-  {
-   "name": "Bitcoin",
-   "symbol": "BTC",
-   "value": 64866.0,
-   "change": -74.0,
-   "change_pct": -0.11,
-   "note": "$64,866(周一早)；仍受50日EMA($64,587附近)压制上方，多头动能不足。Strategy(微策略)继续出售比特币充实现金储备，市场供应压力"
-  },
-  {
-   "name": "Ethereum",
-   "symbol": "ETH",
-   "value": 1918.79,
-   "change": 2.22,
-   "change_pct": 0.12,
-   "note": "$1,919(周一早)；加密市场整体谨慎，CLARITY Act等立法推进仍受阻，政策利好预期有限"
-  }
- ],
- "volatility": {
-  "name": "VIX",
-  "value": 15.99,
-  "change": -1.1,
-  "change_pct": -6.44,
-  "note": "恐慌指数低位，市场接近历史高位；但Hot CPI风险与霍尔木兹不确定性或推升短期波动"
- },
- "macro_data": {
-  "us_july_nonfarm_payrolls": {
-   "actual": -23000,
-   "expected": 83000,
-   "prior_revision": -20000,
-   "note": "大爆冷！7月非农-23K(预期+83K)，6月下修至-20K，劳动力市场明显降温，点燃全周降息预期"
-  },
-  "us_unemployment_rate": {
-   "actual": 4.2,
-   "expected": 4.2,
-   "note": "失业率4.2%持平预期，但结合非农下修，整体就业趋势走弱"
-  },
-  "upcoming_cpi": {
-   "event": "7月CPI(周三8/12公布)",
-   "note": "本周核心变量——Bloomberg早间警示'Hot CPI Report Causes Problems for Fed'，若通胀反弹将与弱非农矛盾，挑战降息预期"
-  }
- },
- "overnight_news": [
-  {
-   "source": "CNBC/Reuters",
-   "title": "Nvidia partners with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs & KKR on $500B AI financing",
-   "impact": "黄仁勋称芯片为'可投资资产'，6大资管巨头联手为AI基础设施提供$5,000亿融资，AI资本开支规模空前"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Gold Climbs Above $4,400 as Traders Turn Focus to US Inflation",
-   "impact": "金价升破$4,400，市场聚焦周三CPI与降息预期，避险+滞胀交易升温"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Tencent's WorkBuddy Sparks AI Turnaround Hopes After Stock Rout",
-   "impact": "腾讯AI助理WorkBuddy引发港股AI反转预期，此前股价曾大跌"
-  },
-  {
-   "source": "Yahoo/Bloomberg",
-   "title": "AMD Reports Record Revenue, But Stock Sinks on Lower Free Cash Flow",
-   "impact": "AMD创新高营收但自由现金流下滑股价承压，AI芯片竞争加剧"
+   "source": "Yahoo Finance",
+   "title": "Wall St set for higher open as investors weigh fresh US-Iran peace deal reports",
+   "time": "08-11",
+   "impact": "美伊和谈现进展，风险偏好回暖或压制油价"
   },
   {
    "source": "FT",
-   "title": "Yen Sinks as Effect of US-Japan Intervention Fades",
-   "impact": "美元兑日元走强，美日干预提振效果消退，日元重回弱势"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "Archer strikes Boeing deal to transform aviation through AI",
-   "impact": "Archer获波音合作，电动飞机+AI概念受关注"
+   "title": "Deutsche becomes first European clearing bank for renminbi",
+   "time": "08-11",
+   "impact": "人民币国际化推进，德意志银行成欧洲首家人民币清算行"
   },
   {
    "source": "Bloomberg",
-   "title": "A Hot CPI Report Causes Problems for Fed, Caron Says",
-   "impact": "CPI周核心预警：若周三CPI过热，美联储将陷入弱非农与高通胀的两难，降息交易或受挫"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Stocks Rise at Start of CPI Week; Iran's Hormuz Deal Elusive | Opening Briefing",
-   "impact": "美股CPI周一开盘走高；霍尔木兹协议仍难达成，地缘风险持续"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Strategy Sells More Bitcoin, Stock to Bolster Cash Stockpile",
-   "impact": "微策略继续减持比特币换现金，加密市场供应压力与谨慎情绪"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Yen Underperforms G-10 Peers as Intervention Boost Fades",
-   "impact": "日元干预提振效果消退，表现弱于其他G10货币，关注央行后续动作"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Latest Oil Market News: Crude Oil Advances as Hormuz Deal Elusive",
-   "impact": "油价走高，霍尔木兹协议无进展，地缘溢价回升"
-  },
-  {
-   "source": "CNBC",
-   "title": "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
-   "impact": "台积电7月销售+45%印证AI需求强劲，利好半导体/AI板块"
-  },
-  {
-   "source": "CNBC",
-   "title": "Meta to open source its most powerful AI model as it takes swipe at OpenAI, Anthropic",
-   "impact": "Meta将开源最强AI模型并对标OpenAI/Anthropic，AI竞争白热化"
-  },
-  {
-   "source": "CNBC",
-   "title": "Intel plans $15 billion stock offering as AI demand accelerates",
-   "impact": "英特尔拟发行150亿美元股票筹资，应对AI资本开支浪潮"
-  },
-  {
-   "source": "CNBC",
-   "title": "OpenAI tightens controls on its new model over cybersecurity risks, as AI security concerns mount",
-   "impact": "OpenAI强化新模型安全控制，AI网络安全风险受关注"
-  },
-  {
-   "source": "CNBC",
-   "title": "Archer shares surge after Boeing stake, electric aircraft subsidiary deal",
-   "impact": "Archer Aviation获波音入股并达成电动飞机子公司交易，股价大涨"
-  },
-  {
-   "source": "Trump",
-   "title": "Trump signals shift to economic pressure as Iran hardens stance over Strait of Hormuz",
-   "impact": "特朗普转向经济施压，伊朗在霍尔木兹海峡立场强硬，地缘风险高企"
-  },
-  {
-   "source": "WSJ",
-   "title": "Comex Gold, Silver Settle Lower",
-   "impact": "贵金属收盘走低，金银价格短期承压"
+   "title": "NYSE Parent ICE Kicks Off Bond Sale for MarketAxess Takeover",
+   "time": "08-11",
+   "impact": "ICE发债推进MarketAxess收购，交易所整合加速"
   }
  ],
- "key_events": [
+ "events": [
   {
-   "time": "08-10",
-   "event": "Nvidia联手6大资管巨头推出$5,000亿AI融资计划",
+   "time": "08-11",
+   "event": "Intel 股票增发扩至$200亿($95/股)以加速AI需求布局",
    "importance": "高",
-   "status": "已公布",
-   "impact": "Apollo/BlackRock/Blackstone/Brookfield/高盛/KKR参与，AI芯片成'可投资资产'，AI资本开支规模空前"
+   "status": "进行中",
+   "impact": "半导体资本开支扩张，AI产业链景气延续"
   },
   {
-   "time": "08-10",
-   "event": "CPI周开启：市场聚焦周三(8/12)美国7月CPI",
+   "time": "08-11",
+   "event": "巴基斯坦称美伊协议取得进展，华盛顿与德黑兰交换赔偿要求",
    "importance": "高",
-   "status": "待公布",
-   "impact": "Bloomberg早间警示'Hot CPI'风险，若通胀过热将挑战弱非农点燃的降息预期"
+   "status": "进行中",
+   "impact": "若霍尔木兹重开，油价地缘溢价或回落"
   },
   {
-   "time": "08-10",
-   "event": "美股周一开盘接近历史高位",
+   "time": "08-11",
+   "event": "Plug Power财报后股价大涨(利润改善)，On Holding重挫",
    "importance": "中",
-   "status": "进行中",
-   "impact": "承接上周数月最大周涨幅，但CPI不确定性笼罩"
-  },
-  {
-   "time": "08-07",
-   "event": "7月非农大爆冷：-23K vs 预期+83K",
-   "importance": "高",
    "status": "已公布",
-   "impact": "点燃全周降息预期，标普500周涨3.6%创4月最佳"
-  },
-  {
-   "time": "08-07",
-   "event": "标普500周五收于7,756.44创收盘新高",
-   "importance": "高",
-   "status": "已发生",
-   "impact": "纳指+1.3%、道指+0.28%，周线数月最大涨幅"
-  },
-  {
-   "time": "08-10",
-   "event": "伊朗霍尔木兹协议谈判仍无进展",
-   "importance": "高",
-   "status": "进行中",
-   "impact": "油价走高，地缘溢价回升，特朗普转经济施压"
+   "impact": "新能源与消费零售业绩分化"
   },
   {
    "time": "08-10",
@@ -368,11 +190,11 @@
    "priority": "高"
   },
   {
-   "item": "美股期货平稳，伊朗霍尔木兹协议仍无进展，油价维持地缘溢价",
+   "item": "美伊和谈若取得实质进展，霍尔木兹重开或使油价地缘溢价回落，缓解滞胀担忧",
    "priority": "高"
   },
   {
-   "item": "Nvidia $5,000亿AI融资+AMD创新高，AI产业链资本开支浪潮持续",
+   "item": "Intel $200亿增发+Jensen Huang AI'大概念'获华尔街背书，AI资本开支浪潮持续",
    "priority": "中"
   },
   {
@@ -380,7 +202,7 @@
    "priority": "中"
   },
   {
-   "item": "日元干预提振消退、美元走强，BTC受制50日EMA谨慎",
+   "item": "BTC/ETH于50日EMA附近盘整，微策略售币构成供应压力，CPI前多头谨慎",
    "priority": "中"
   }
  ]

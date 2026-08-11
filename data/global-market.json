@@ -1,350 +1,387 @@
 {
-  "timestamp": "2026-08-10T13:30:00Z",
-  "date": "2026-08-10",
-  "market_state": "cpi-week-open",
-  "summary": {
-    "title": "美股CPI周开盘接近历史高位，市场聚焦周三通胀数据——霍尔木兹协议仍难达，油价走高",
-    "us_close": "周一(8/10)美股开盘接近历史高位，市场进入CPI关键周。上周五(8/7)在弱非农推动下三大指数全线收高：标普500 +0.6%报7,756.44创收盘新高、纳指 +1.3%报26,690.62、道指 +0.28%报54,036.43，周线录得数月来最大涨幅（道指+3%、标普+3.6%、纳指+5.2%）。7月非农大爆冷(-23K vs 预期+83K)重塑利率预期，市场从'准备加息'急转为'暂停甚至考虑降息'，风险偏好显著回暖。周一早间Bloomberg警示市场关注周三CPI——'A Hot CPI Report Causes Problems for Fed'，若通胀再度走高将与弱非农形成矛盾，挑战降息预期。",
-    "key_takeaway": "CPI周(周三公布)是本周核心变量：弱非农点燃降息预期，但Bloomberg早间提示市场担心CPI可能过热，若通胀反弹将令美联储陷入两难，降息交易或受挫。油价因地缘溢价回升——伊朗霍尔木兹协议仍无进展('Hormuz Deal Remains Elusive')，原油走高。加密货币偏谨慎：BTC $64,866续受50日EMA压制，Strategy(微策略)继续出售比特币换现金储备。AI供需两旺：TSMC 7月销售+45%印证AI需求，Meta将开源最强AI模型并开怼OpenAI/Anthropic。"
-  },
-  "indices": {
-    "US": [
-      {
-        "name": "S&P 500",
-        "symbol": "SPX",
-        "value": 7756.44,
-        "change": 48.0,
-        "change_pct": 0.6,
-        "note": "周一开盘接近历史高位(CPI周)；周五收7,756.44创收盘新高，周涨3.6%为4月来最佳"
-      },
-      {
-        "name": "Nasdaq",
-        "symbol": "IXIC",
-        "value": 26690.62,
-        "change": 342.0,
-        "change_pct": 1.3,
-        "note": "周一在历史高位附近徘徊；周五+1.3%报26,690.62，AI行情韧性，TSMC销售+45%印证需求"
-      },
-      {
-        "name": "Dow Jones",
-        "symbol": "DJI",
-        "value": 54036.43,
-        "change": 151.83,
-        "change_pct": 0.28,
-        "note": "周一开盘接近历史高点；周五+152点报54,036.43，距8/5高点54,349低0.57%"
-      }
-    ],
-    "Asia": [
-      {
-        "name": "Hang Seng",
-        "market": "香港",
-        "value": 0.0,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "note": "港股科技/AI链受惠美股历史高位与降息预期；TSMC内地与香港需求稳健，关注南向资金"
-      },
-      {
-        "name": "Nikkei 225",
-        "market": "日本",
-        "value": 0.0,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "note": "日元受干预走强压制出口股；弱非农强化干预持续性，早间日元表现弱于其他G10'
-      },
-      {
-        "name": "KOSPI",
-        "market": "韩国",
-        "value": 0.0,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "note": "芯片股受AI行情带动，TSMC+45%销售印证全球半导体景气"
-      }
-    ],
-    "Europe": [
-      {
-        "name": "FTSE 100",
-        "market": "英国",
-        "value": 0.0,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "note": "欧股在CPI周前持稳，弱非农利好的风险偏好与油价上涨的滞胀担忧相互拉扯"
-      },
-      {
-        "name": "DAX",
-        "market": "德国",
-        "value": 0.0,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "note": "欧股接近高位，关注ECB对汇率波动与油价上行通胀影响的反应"
-      },
-      {
-        "name": "CAC 40",
-        "market": "法国",
-        "value": 0.0,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "note": "欧股维持强势，弱非农后美元走软利好欧股估值"
-      }
-    ]
-  },
-  "futures": [
-    {
-      "name": "S&P 500 Futures",
-      "symbol": "ES",
-      "direction": "flat",
-      "change_pct": 0.05,
-      "note": "CPI周开盘前窄幅波动，市场等待周三通胀数据方向"
-    },
-    {
-      "name": "Nasdaq 100 Futures",
-      "symbol": "NQ",
-      "direction": "up",
-      "change_pct": 0.2,
-      "note": "AI行情支撑科技期指，Meta开源最强模型提振情绪"
-    },
-    {
-      "name": "Dow Futures",
-      "symbol": "YM",
-      "direction": "flat",
-      "change_pct": 0.1,
-      "note": "接近历史高位窄幅整理，关注CPI周方向选择"
-    }
+ "timestamp": "2026-08-11T01:15:00Z",
+ "date": "2026-08-11",
+ "market_state": "cpi-week-overnight",
+ "summary": {
+  "title": "Nvidia联手6大资管$5,000亿AI融资引爆资本开支，金价升破$4,400——CPI周前避险升温",
+  "us_close": "隔夜(8/10-11)重磅：Nvidia联合Apollo、BlackRock、Blackstone、Brookfield、高盛、KKR六大资管巨头推出逾$5,000亿AI基础设施融资计划，黄仁勋称其芯片为'可投资资产'，AI资本开支规模空前。金价升破$4,400(+0.54%)创阶段新高，市场聚焦周三CPI与降息预期。美股期货平稳，伊朗霍尔木兹协议仍无进展，油价维持地缘溢价(WTI $82.22)。腾讯WorkBuddy引港股AI反转预期，AMD创纪录营收但股价因自由现金流下滑承压。日元干预提振效果消退、美元走强。",
+  "key_takeaway": "周二(8/11)核心变量：周三CPI是本周胜负手——金价升破$4,400与油价地缘溢价共同指向滞胀担忧，若CPI过热将挑战弱非农点燃的降息预期。Nvidia $5,000亿AI融资+AMD创纪录营收印证AI资本开支浪潮，科技股动能延续。港股关注腾讯WorkBuddy能否带动AI反转。地缘上霍尔木兹协议仍无进展，油价中枢抬升。"
+ },
+ "indices": {
+  "US": [
+   {
+    "name": "S&P 500",
+    "symbol": "SPX",
+    "value": 7756.44,
+    "change": 48.0,
+    "change_pct": 0.6,
+    "note": "周一开盘接近历史高位(CPI周)；周五收7,756.44创收盘新高，周涨3.6%为4月来最佳"
+   },
+   {
+    "name": "Nasdaq",
+    "symbol": "IXIC",
+    "value": 26690.62,
+    "change": 342.0,
+    "change_pct": 1.3,
+    "note": "周一在历史高位附近徘徊；周五+1.3%报26,690.62，AI行情韧性，TSMC销售+45%印证需求"
+   },
+   {
+    "name": "Dow Jones",
+    "symbol": "DJI",
+    "value": 54036.43,
+    "change": 151.83,
+    "change_pct": 0.28,
+    "note": "周一开盘接近历史高点；周五+152点报54,036.43，距8/5高点54,349低0.57%"
+   }
   ],
-  "commodities": [
-    {
-      "name": "WTI Crude",
-      "value": 75.3,
-      "change": 0.7,
-      "change_pct": 0.9,
-      "note": "油价走高；霍尔木兹协议谈判仍无进展('Deal Remains Elusive')，地缘溢价回升"
-    },
-    {
-      "name": "Brent Crude",
-      "value": 79.5,
-      "change": 0.7,
-      "change_pct": 0.9,
-      "note": "美伊关于霍尔木兹海峡协议难以达成，供应风险支撑油价上涨"
-    },
-    {
-      "name": "Gold",
-      "value": 4333.68,
-      "change": -9.83,
-      "change_pct": -0.23,
-      "note": "现货黄金$4,333/oz(较上周五-0.2%)；弱非农支撑+油价走高带来的滞胀担忧下，避险需求维持"
-    }
+  "Asia": [
+   {
+    "name": "Hang Seng",
+    "market": "香港",
+    "value": 0.0,
+    "change": 0.0,
+    "change_pct": 0.0,
+    "note": "港股科技/AI链受惠美股历史高位与降息预期；TSMC内地与香港需求稳健，关注南向资金"
+   },
+   {
+    "name": "Nikkei 225",
+    "market": "日本",
+    "value": 0.0,
+    "change": 0.0,
+    "change_pct": 0.0,
+    "note": "日元受干预走强压制出口股；弱非农强化干预持续性，早间日元表现弱于其他G10"
+   },
+   {
+    "name": "KOSPI",
+    "market": "韩国",
+    "value": 0.0,
+    "change": 0.0,
+    "change_pct": 0.0,
+    "note": "芯片股受AI行情带动，TSMC+45%销售印证全球半导体景气"
+   }
   ],
-  "bonds": {
-    "us_10y": {
-      "value": 0.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "note": "CPI周关注焦点：弱非农后美债收益率回落，但若周三CPI过热将推升长端利率"
-    },
-    "us_2y": {
-      "value": 0.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "note": "短端利率对降息预期高度敏感，弱非农压制加息押注；Hot CPI风险或令2年期再度承压"
-    }
-  },
-  "fx": [
-    {
-      "pair": "USD/JPY",
-      "value": 0.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "note": "日元早间表现弱于其他G10货币，干预提振效果消退；弱非农压制美元但日元波动仍大"
-    },
-    {
-      "pair": "EUR/USD",
-      "value": 0.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "note": "弱非农后美元走软欧元企稳；关注CPI周美元方向及欧央行反应"
-    },
-    {
-      "pair": "GBP/USD",
-      "value": 1.3482,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "note": "美元走软下英镑偏强，关注英国央行政策路径与CPI周美元波动"
-    }
-  ],
-  "crypto": [
-    {
-      "name": "Bitcoin",
-      "symbol": "BTC",
-      "value": 64866.0,
-      "change": -74.0,
-      "change_pct": -0.11,
-      "note": "$64,866(周一早)；仍受50日EMA($64,587附近)压制上方，多头动能不足。Strategy(微策略)继续出售比特币充实现金储备，市场供应压力"
-    },
-    {
-      "name": "Ethereum",
-      "symbol": "ETH",
-      "value": 1918.79,
-      "change": 2.22,
-      "change_pct": 0.12,
-      "note": "$1,919(周一早)；加密市场整体谨慎，CLARITY Act等立法推进仍受阻，政策利好预期有限"
-    }
-  ],
-  "volatility": {
-    "name": "VIX",
-    "value": 15.99,
-    "change": -1.1,
-    "change_pct": -6.44,
-    "note": "恐慌指数低位，市场接近历史高位；但Hot CPI风险与霍尔木兹不确定性或推升短期波动"
-  },
-  "macro_data": {
-    "us_july_nonfarm_payrolls": {
-      "actual": -23000,
-      "expected": 83000,
-      "prior_revision": -20000,
-      "note": "大爆冷！7月非农-23K(预期+83K)，6月下修至-20K，劳动力市场明显降温，点燃全周降息预期"
-    },
-    "us_unemployment_rate": {
-      "actual": 4.2,
-      "expected": 4.2,
-      "note": "失业率4.2%持平预期，但结合非农下修，整体就业趋势走弱"
-    },
-    "upcoming_cpi": {
-      "event": "7月CPI(周三8/12公布)",
-      "note": "本周核心变量——Bloomberg早间警示'Hot CPI Report Causes Problems for Fed'，若通胀反弹将与弱非农矛盾，挑战降息预期"
-    }
-  },
-  "overnight_news": [
-    {
-      "source": "Bloomberg",
-      "title": "A Hot CPI Report Causes Problems for Fed, Caron Says",
-      "impact": "CPI周核心预警：若周三CPI过热，美联储将陷入弱非农与高通胀的两难，降息交易或受挫"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Stocks Rise at Start of CPI Week; Iran's Hormuz Deal Elusive | Opening Briefing",
-      "impact": "美股CPI周一开盘走高；霍尔木兹协议仍难达成，地缘风险持续"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Strategy Sells More Bitcoin, Stock to Bolster Cash Stockpile",
-      "impact": "微策略继续减持比特币换现金，加密市场供应压力与谨慎情绪"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Yen Underperforms G-10 Peers as Intervention Boost Fades",
-      "impact": "日元干预提振效果消退，表现弱于其他G10货币，关注央行后续动作"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Latest Oil Market News: Crude Oil Advances as Hormuz Deal Elusive",
-      "impact": "油价走高，霍尔木兹协议无进展，地缘溢价回升"
-    },
-    {
-      "source": "CNBC",
-      "title": "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
-      "impact": "台积电7月销售+45%印证AI需求强劲，利好半导体/AI板块"
-    },
-    {
-      "source": "CNBC",
-      "title": "Meta to open source its most powerful AI model as it takes swipe at OpenAI, Anthropic",
-      "impact": "Meta将开源最强AI模型并对标OpenAI/Anthropic，AI竞争白热化"
-    },
-    {
-      "source": "CNBC",
-      "title": "Intel plans $15 billion stock offering as AI demand accelerates",
-      "impact": "英特尔拟发行150亿美元股票筹资，应对AI资本开支浪潮"
-    },
-    {
-      "source": "CNBC",
-      "title": "OpenAI tightens controls on its new model over cybersecurity risks, as AI security concerns mount",
-      "impact": "OpenAI强化新模型安全控制，AI网络安全风险受关注"
-    },
-    {
-      "source": "CNBC",
-      "title": "Archer shares surge after Boeing stake, electric aircraft subsidiary deal",
-      "impact": "Archer Aviation获波音入股并达成电动飞机子公司交易，股价大涨"
-    },
-    {
-      "source": "Trump",
-      "title": "Trump signals shift to economic pressure as Iran hardens stance over Strait of Hormuz",
-      "impact": "特朗普转向经济施压，伊朗在霍尔木兹海峡立场强硬，地缘风险高企"
-    },
-    {
-      "source": "WSJ",
-      "title": "Comex Gold, Silver Settle Lower",
-      "impact": "贵金属收盘走低，金银价格短期承压"
-    }
-  ],
-  "key_events": [
-    {
-      "time": "08-10",
-      "event": "CPI周开启：市场聚焦周三(8/12)美国7月CPI",
-      "importance": "高",
-      "status": "待公布",
-      "impact": "Bloomberg早间警示'Hot CPI'风险，若通胀过热将挑战弱非农点燃的降息预期"
-    },
-    {
-      "time": "08-10",
-      "event": "美股周一开盘接近历史高位",
-      "importance": "中",
-      "status": "进行中",
-      "impact": "承接上周数月最大周涨幅，但CPI不确定性笼罩"
-    },
-    {
-      "time": "08-07",
-      "event": "7月非农大爆冷：-23K vs 预期+83K",
-      "importance": "高",
-      "status": "已公布",
-      "impact": "点燃全周降息预期，标普500周涨3.6%创4月最佳"
-    },
-    {
-      "time": "08-07",
-      "event": "标普500周五收于7,756.44创收盘新高",
-      "importance": "高",
-      "status": "已发生",
-      "impact": "纳指+1.3%、道指+0.28%，周线数月最大涨幅"
-    },
-    {
-      "time": "08-10",
-      "event": "伊朗霍尔木兹协议谈判仍无进展",
-      "importance": "高",
-      "status": "进行中",
-      "impact": "油价走高，地缘溢价回升，特朗普转经济施压"
-    },
-    {
-      "time": "08-10",
-      "event": "TSMC 7月销售+45%印证AI需求，Meta/Intel/OpenAI动作频频",
-      "importance": "中",
-      "status": "已公布",
-      "impact": "AI产业链景气持续，科技板块情绪高涨"
-    },
-    {
-      "time": "08-10",
-      "event": "Strategy(微策略)继续出售比特币充实现金",
-      "importance": "中",
-      "status": "进行中",
-      "impact": "加密市场供应压力，BTC续承压"
-    }
-  ],
-  "today_watch": [
-    {
-      "item": "周三(8/12)美国7月CPI：弱非农后通胀若过热，降息预期将受挑战",
-      "priority": "高"
-    },
-    {
-      "item": "美股开盘接近历史高位，关注CPI周能否延续反弹或面临获利了结",
-      "priority": "高"
-    },
-    {
-      "item": "伊朗霍尔木兹海峡局势与油价走势，特朗普转向经济施压",
-      "priority": "高"
-    },
-    {
-      "item": "AI板块：TSMC+45%、Meta开源最强模型、Intel 150亿融资，关注科技股动能",
-      "priority": "中"
-    },
-    {
-      "item": "BTC受制50日EMA+Strategy减持，加密市场谨慎情绪延续",
-      "priority": "中"
-    }
+  "Europe": [
+   {
+    "name": "FTSE 100",
+    "market": "英国",
+    "value": 0.0,
+    "change": 0.0,
+    "change_pct": 0.0,
+    "note": "欧股在CPI周前持稳，弱非农利好的风险偏好与油价上涨的滞胀担忧相互拉扯"
+   },
+   {
+    "name": "DAX",
+    "market": "德国",
+    "value": 0.0,
+    "change": 0.0,
+    "change_pct": 0.0,
+    "note": "欧股接近高位，关注ECB对汇率波动与油价上行通胀影响的反应"
+   },
+   {
+    "name": "CAC 40",
+    "market": "法国",
+    "value": 0.0,
+    "change": 0.0,
+    "change_pct": 0.0,
+    "note": "欧股维持强势，弱非农后美元走软利好欧股估值"
+   }
   ]
+ },
+ "futures": [
+  {
+   "name": "S&P 500 Futures",
+   "symbol": "ES",
+   "direction": "flat",
+   "change_pct": 0.05,
+   "note": "CPI周开盘前窄幅波动，市场等待周三通胀数据方向"
+  },
+  {
+   "name": "Nasdaq 100 Futures",
+   "symbol": "NQ",
+   "direction": "up",
+   "change_pct": 0.2,
+   "note": "AI行情支撑科技期指，Meta开源最强模型提振情绪"
+  },
+  {
+   "name": "Dow Futures",
+   "symbol": "YM",
+   "direction": "flat",
+   "change_pct": 0.1,
+   "note": "接近历史高位窄幅整理，关注CPI周方向选择"
+  }
+ ],
+ "commodities": [
+  {
+   "name": "WTI Crude",
+   "value": 82.22,
+   "change": 0.09,
+   "change_pct": 0.11,
+   "note": "WTI $82.22(+0.11%)；霍尔木兹协议仍难达成，地缘溢价支撑，月涨5.2%、同比+30%"
+  },
+  {
+   "name": "Brent Crude",
+   "value": 85.0,
+   "change": 0.5,
+   "change_pct": 0.6,
+   "note": "美伊霍尔木兹协议无进展，供应风险支撑油价，特朗普转向经济施压"
+  },
+  {
+   "name": "Gold",
+   "value": 4414.94,
+   "change": 23.7,
+   "change_pct": 0.54,
+   "note": "现货金$4,414.94(+0.54%)，升破$4,400创阶段新高；弱非农+滞胀担忧下避险需求强劲，月涨10.3%"
+  }
+ ],
+ "bonds": {
+  "us_10y": {
+   "value": 0.0,
+   "change": 0.0,
+   "change_pct": 0.0,
+   "note": "CPI周关注焦点：弱非农后美债收益率回落，但若周三CPI过热将推升长端利率"
+  },
+  "us_2y": {
+   "value": 0.0,
+   "change": 0.0,
+   "change_pct": 0.0,
+   "note": "短端利率对降息预期高度敏感，弱非农压制加息押注；Hot CPI风险或令2年期再度承压"
+  }
+ },
+ "fx": [
+  {
+   "pair": "USD/JPY",
+   "value": 0.0,
+   "change": 0.0,
+   "change_pct": 0.0,
+   "note": "日元早间表现弱于其他G10货币，干预提振效果消退；弱非农压制美元但日元波动仍大"
+  },
+  {
+   "pair": "EUR/USD",
+   "value": 0.0,
+   "change": 0.0,
+   "change_pct": 0.0,
+   "note": "弱非农后美元走软欧元企稳；关注CPI周美元方向及欧央行反应"
+  },
+  {
+   "pair": "GBP/USD",
+   "value": 1.3482,
+   "change": 0.0,
+   "change_pct": 0.0,
+   "note": "美元走软下英镑偏强，关注英国央行政策路径与CPI周美元波动"
+  }
+ ],
+ "crypto": [
+  {
+   "name": "Bitcoin",
+   "symbol": "BTC",
+   "value": 64866.0,
+   "change": -74.0,
+   "change_pct": -0.11,
+   "note": "$64,866(周一早)；仍受50日EMA($64,587附近)压制上方，多头动能不足。Strategy(微策略)继续出售比特币充实现金储备，市场供应压力"
+  },
+  {
+   "name": "Ethereum",
+   "symbol": "ETH",
+   "value": 1918.79,
+   "change": 2.22,
+   "change_pct": 0.12,
+   "note": "$1,919(周一早)；加密市场整体谨慎，CLARITY Act等立法推进仍受阻，政策利好预期有限"
+  }
+ ],
+ "volatility": {
+  "name": "VIX",
+  "value": 15.99,
+  "change": -1.1,
+  "change_pct": -6.44,
+  "note": "恐慌指数低位，市场接近历史高位；但Hot CPI风险与霍尔木兹不确定性或推升短期波动"
+ },
+ "macro_data": {
+  "us_july_nonfarm_payrolls": {
+   "actual": -23000,
+   "expected": 83000,
+   "prior_revision": -20000,
+   "note": "大爆冷！7月非农-23K(预期+83K)，6月下修至-20K，劳动力市场明显降温，点燃全周降息预期"
+  },
+  "us_unemployment_rate": {
+   "actual": 4.2,
+   "expected": 4.2,
+   "note": "失业率4.2%持平预期，但结合非农下修，整体就业趋势走弱"
+  },
+  "upcoming_cpi": {
+   "event": "7月CPI(周三8/12公布)",
+   "note": "本周核心变量——Bloomberg早间警示'Hot CPI Report Causes Problems for Fed'，若通胀反弹将与弱非农矛盾，挑战降息预期"
+  }
+ },
+ "overnight_news": [
+  {
+   "source": "CNBC/Reuters",
+   "title": "Nvidia partners with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs & KKR on $500B AI financing",
+   "impact": "黄仁勋称芯片为'可投资资产'，6大资管巨头联手为AI基础设施提供$5,000亿融资，AI资本开支规模空前"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Gold Climbs Above $4,400 as Traders Turn Focus to US Inflation",
+   "impact": "金价升破$4,400，市场聚焦周三CPI与降息预期，避险+滞胀交易升温"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Tencent's WorkBuddy Sparks AI Turnaround Hopes After Stock Rout",
+   "impact": "腾讯AI助理WorkBuddy引发港股AI反转预期，此前股价曾大跌"
+  },
+  {
+   "source": "Yahoo/Bloomberg",
+   "title": "AMD Reports Record Revenue, But Stock Sinks on Lower Free Cash Flow",
+   "impact": "AMD创新高营收但自由现金流下滑股价承压，AI芯片竞争加剧"
+  },
+  {
+   "source": "FT",
+   "title": "Yen Sinks as Effect of US-Japan Intervention Fades",
+   "impact": "美元兑日元走强，美日干预提振效果消退，日元重回弱势"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Archer strikes Boeing deal to transform aviation through AI",
+   "impact": "Archer获波音合作，电动飞机+AI概念受关注"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "A Hot CPI Report Causes Problems for Fed, Caron Says",
+   "impact": "CPI周核心预警：若周三CPI过热，美联储将陷入弱非农与高通胀的两难，降息交易或受挫"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Stocks Rise at Start of CPI Week; Iran's Hormuz Deal Elusive | Opening Briefing",
+   "impact": "美股CPI周一开盘走高；霍尔木兹协议仍难达成，地缘风险持续"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Strategy Sells More Bitcoin, Stock to Bolster Cash Stockpile",
+   "impact": "微策略继续减持比特币换现金，加密市场供应压力与谨慎情绪"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Yen Underperforms G-10 Peers as Intervention Boost Fades",
+   "impact": "日元干预提振效果消退，表现弱于其他G10货币，关注央行后续动作"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Latest Oil Market News: Crude Oil Advances as Hormuz Deal Elusive",
+   "impact": "油价走高，霍尔木兹协议无进展，地缘溢价回升"
+  },
+  {
+   "source": "CNBC",
+   "title": "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
+   "impact": "台积电7月销售+45%印证AI需求强劲，利好半导体/AI板块"
+  },
+  {
+   "source": "CNBC",
+   "title": "Meta to open source its most powerful AI model as it takes swipe at OpenAI, Anthropic",
+   "impact": "Meta将开源最强AI模型并对标OpenAI/Anthropic，AI竞争白热化"
+  },
+  {
+   "source": "CNBC",
+   "title": "Intel plans $15 billion stock offering as AI demand accelerates",
+   "impact": "英特尔拟发行150亿美元股票筹资，应对AI资本开支浪潮"
+  },
+  {
+   "source": "CNBC",
+   "title": "OpenAI tightens controls on its new model over cybersecurity risks, as AI security concerns mount",
+   "impact": "OpenAI强化新模型安全控制，AI网络安全风险受关注"
+  },
+  {
+   "source": "CNBC",
+   "title": "Archer shares surge after Boeing stake, electric aircraft subsidiary deal",
+   "impact": "Archer Aviation获波音入股并达成电动飞机子公司交易，股价大涨"
+  },
+  {
+   "source": "Trump",
+   "title": "Trump signals shift to economic pressure as Iran hardens stance over Strait of Hormuz",
+   "impact": "特朗普转向经济施压，伊朗在霍尔木兹海峡立场强硬，地缘风险高企"
+  },
+  {
+   "source": "WSJ",
+   "title": "Comex Gold, Silver Settle Lower",
+   "impact": "贵金属收盘走低，金银价格短期承压"
+  }
+ ],
+ "key_events": [
+  {
+   "time": "08-10",
+   "event": "Nvidia联手6大资管巨头推出$5,000亿AI融资计划",
+   "importance": "高",
+   "status": "已公布",
+   "impact": "Apollo/BlackRock/Blackstone/Brookfield/高盛/KKR参与，AI芯片成'可投资资产'，AI资本开支规模空前"
+  },
+  {
+   "time": "08-10",
+   "event": "CPI周开启：市场聚焦周三(8/12)美国7月CPI",
+   "importance": "高",
+   "status": "待公布",
+   "impact": "Bloomberg早间警示'Hot CPI'风险，若通胀过热将挑战弱非农点燃的降息预期"
+  },
+  {
+   "time": "08-10",
+   "event": "美股周一开盘接近历史高位",
+   "importance": "中",
+   "status": "进行中",
+   "impact": "承接上周数月最大周涨幅，但CPI不确定性笼罩"
+  },
+  {
+   "time": "08-07",
+   "event": "7月非农大爆冷：-23K vs 预期+83K",
+   "importance": "高",
+   "status": "已公布",
+   "impact": "点燃全周降息预期，标普500周涨3.6%创4月最佳"
+  },
+  {
+   "time": "08-07",
+   "event": "标普500周五收于7,756.44创收盘新高",
+   "importance": "高",
+   "status": "已发生",
+   "impact": "纳指+1.3%、道指+0.28%，周线数月最大涨幅"
+  },
+  {
+   "time": "08-10",
+   "event": "伊朗霍尔木兹协议谈判仍无进展",
+   "importance": "高",
+   "status": "进行中",
+   "impact": "油价走高，地缘溢价回升，特朗普转经济施压"
+  },
+  {
+   "time": "08-10",
+   "event": "TSMC 7月销售+45%印证AI需求，Meta/Intel/OpenAI动作频频",
+   "importance": "中",
+   "status": "已公布",
+   "impact": "AI产业链景气持续，科技板块情绪高涨"
+  },
+  {
+   "time": "08-10",
+   "event": "Strategy(微策略)继续出售比特币充实现金",
+   "importance": "中",
+   "status": "进行中",
+   "impact": "加密市场供应压力，BTC续承压"
+  }
+ ],
+ "today_watch": [
+  {
+   "item": "周三(8/12)美国7月CPI：金价升破$4,400显示通胀担忧升温，降息预期面临考验",
+   "priority": "高"
+  },
+  {
+   "item": "美股期货平稳，伊朗霍尔木兹协议仍无进展，油价维持地缘溢价",
+   "priority": "高"
+  },
+  {
+   "item": "Nvidia $5,000亿AI融资+AMD创新高，AI产业链资本开支浪潮持续",
+   "priority": "中"
+  },
+  {
+   "item": "腾讯WorkBuddy或引发港股AI反转，关注南向资金",
+   "priority": "中"
+  },
+  {
+   "item": "日元干预提振消退、美元走强，BTC受制50日EMA谨慎",
+   "priority": "中"
+  }
+ ]
 }

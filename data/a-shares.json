@@ -1,74 +1,73 @@
 {
-  "date": "2026-08-10",
-  "time": "close",
-  "fetched_at": "2026-08-10T07:05:00Z",
+  "date": "2026-08-11",
+  "time": "noon",
+  "fetched_at": "2026-08-11T03:35:00Z",
   "indices": {
     "上证指数": {
-      "price": 3966.59,
-      "change": 0.67
+      "price": 3964.79,
+      "change": -0.05
     },
     "深证成指": {
-      "price": 14316.96,
-      "change": 0.04
+      "price": 14410.34,
+      "change": 0.65
     },
     "创业板指": {
-      "price": 3537.21,
-      "change": -0.73
+      "price": 3587.24,
+      "change": 1.41
     },
     "沪深300": {
-      "price": 4702.02,
-      "change": 0.16
+      "price": 4709.10,
+      "change": 0.15
     }
+  },
+  "northbound": {
+    "net_flow": 0.0,
+    "note": "2024年起北向资金盘中实时数据不再披露"
   },
   "sectors": {
     "top": [
       {
-        "name": "医疗服务",
-        "change": 4.59
+        "name": "生物制药",
+        "change": 1.42
       },
       {
-        "name": "贵金属",
-        "change": 4.54
+        "name": "电器行业",
+        "change": 1.39
       },
       {
-        "name": "能源金属",
-        "change": 4.52
+        "name": "石油行业",
+        "change": 1.24
       },
       {
-        "name": "养殖业",
-        "change": 3.81
+        "name": "电子器件",
+        "change": 1.06
       },
       {
-        "name": "饮料制造",
-        "change": 3.46
+        "name": "机械行业",
+        "change": 0.84
       }
     ],
     "bottom": [
       {
-        "name": "电子化学品",
-        "change": -0.39
+        "name": "发电设备",
+        "change": -0.77
       },
       {
-        "name": "自动化设备",
-        "change": -0.39
+        "name": "船舶制造",
+        "change": -0.77
       },
       {
-        "name": "通信设备",
-        "change": -0.84
+        "name": "有色金属",
+        "change": -1.09
       },
       {
-        "name": "元件",
-        "change": -1.06
+        "name": "陶瓷行业",
+        "change": -2.06
       },
       {
-        "name": "保险",
-        "change": -1.06
+        "name": "飞机制造",
+        "change": -2.75
       }
     ]
-  },
-  "north_flow": {
-    "note": "陆股通实时净买入自2024年8月起不再公开披露",
-    "value": null
-  },
-  "source": "AkShare (Sina indices + 同花顺 sectors)"
+  }
 }

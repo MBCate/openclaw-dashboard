@@ -1,113 +1,113 @@
 {
   "date": "2026-08-12",
-  "time": "noon",
-  "fetched_at": "2026-08-12T03:42:19Z",
+  "time": "close",
+  "fetched_at": "2026-08-12T07:45:00Z",
   "indices": {
     "上证指数": {
-      "code": "000001",
-      "price": 3946.51,
-      "change": 12.42,
+      "code": "sh000001",
+      "price": 3946.68,
+      "change": 12.58,
       "change_pct": 0.32
     },
     "深证成指": {
-      "code": "399001",
-      "price": 14438.07,
-      "change": 178.63,
-      "change_pct": 1.25
+      "code": "sz399001",
+      "price": 14414.43,
+      "change": 154.99,
+      "change_pct": 1.09
     },
     "创业板指": {
-      "code": "399006",
-      "price": 3610.65,
-      "change": 61.49,
-      "change_pct": 1.73
+      "code": "sz399006",
+      "price": 3602.08,
+      "change": 52.92,
+      "change_pct": 1.49
     },
     "沪深300": {
-      "code": "000300",
-      "price": 4693.88,
-      "change": 30.09,
-      "change_pct": 0.65
+      "code": "sh000300",
+      "price": 4690.92,
+      "change": 27.13,
+      "change_pct": 0.58
     }
   },
   "sectors": {
     "top": [
       {
-        "name": "通信设备",
-        "change": 4.77
+        "name": "家具行业",
+        "change": 3.364232892407
       },
       {
-        "name": "装修装饰Ⅱ",
-        "change": 3.48
+        "name": "玻璃行业",
+        "change": 3.0014664129044
       },
       {
-        "name": "半导体",
-        "change": 2.83
+        "name": "印刷包装",
+        "change": 2.795141989641
       },
       {
-        "name": "其他电源设备Ⅱ",
-        "change": 2.53
+        "name": "次新股",
+        "change": 2.686385770712
       },
       {
-        "name": "非金属材料Ⅱ",
-        "change": 2.48
+        "name": "房地产",
+        "change": 2.5437834175369
       }
     ],
     "bottom": [
       {
-        "name": "炼化及贸易",
-        "change": -1.17
+        "name": "船舶制造",
+        "change": 0.020818153429791
       },
       {
-        "name": "煤炭开采",
-        "change": -1.23
+        "name": "电力行业",
+        "change": -0.050199833954395
       },
       {
-        "name": "白色家电",
-        "change": -1.47
+        "name": "生物制药",
+        "change": -0.35170594624416
       },
       {
-        "name": "油服工程",
-        "change": -1.69
+        "name": "陶瓷行业",
+        "change": -0.99281893103282
       },
       {
-        "name": "摩托车及其他",
-        "change": -1.75
+        "name": "石油行业",
+        "change": -1.4986542696354
       }
-    ]
+    ],
+    "count": 49,
+    "source": "sina"
   },
   "northbound": {
-    "hk2sh": {
-      "status": 1,
-      "dayNetAmtIn": 0.0,
-      "dayAmtRemain": 0.0,
-      "dayAmtThreshold": 5200000.0,
-      "date": "08-12",
-      "date2": "2026-08-12"
+    "沪股通": {
+      "交易状态": 3,
+      "成交净买额": 0.0,
+      "资金净流入": 0.0,
+      "上涨数": 1101,
+      "下跌数": 491
     },
-    "sh2hk": {
-      "status": 1,
-      "dayNetAmtIn": 4200000.0,
-      "dayAmtRemain": 0.0,
-      "dayAmtThreshold": 4200000.0,
-      "date": "08-12",
-      "date2": "2026-08-12"
+    "港股通(沪)": {
+      "交易状态": 1,
+      "成交净买额": -18.93,
+      "资金净流入": 420.0,
+      "上涨数": 249,
+      "下跌数": 345
     },
-    "hk2sz": {
-      "status": 1,
-      "dayNetAmtIn": 0.0,
-      "dayAmtRemain": 0.0,
-      "dayAmtThreshold": 5200000.0,
-      "date": "08-12",
-      "date2": "2026-08-12"
+    "深股通": {
+      "交易状态": 3,
+      "成交净买额": 0.0,
+      "资金净流入": 0.0,
+      "上涨数": 1381,
+      "下跌数": 457
     },
-    "sz2hk": {
-      "status": 1,
-      "dayNetAmtIn": 4200000.0,
-      "dayAmtRemain": 0.0,
-      "dayAmtThreshold": 4200000.0,
-      "date": "08-12",
-      "date2": "2026-08-12"
-    }
+    "港股通(深)": {
+      "交易状态": 1,
+      "成交净买额": -7.09,
+      "资金净流入": 420.0,
+      "上涨数": 249,
+      "下跌数": 345
+    },
+    "_trade_date": "2026-08-12",
+    "_source": "em_fund_flow_summary"
   },
   "breadth": {},
-  "sector_count": 124
+  "sector_count": 49
 }

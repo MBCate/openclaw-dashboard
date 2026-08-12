@@ -1,81 +1,113 @@
 {
-  "date": "2026-08-11",
-  "time": "close",
-  "fetched_at": "2026-08-11T07:20:49Z",
+  "date": "2026-08-12",
+  "time": "noon",
+  "fetched_at": "2026-08-12T03:42:19Z",
   "indices": {
     "上证指数": {
-      "price": 3934.09,
-      "change": -0.82
+      "code": "000001",
+      "price": 3946.51,
+      "change": 12.42,
+      "change_pct": 0.32
     },
     "深证成指": {
-      "price": 14259.44,
-      "change": -0.4
+      "code": "399001",
+      "price": 14438.07,
+      "change": 178.63,
+      "change_pct": 1.25
     },
     "创业板指": {
-      "price": 3549.16,
-      "change": 0.34
+      "code": "399006",
+      "price": 3610.65,
+      "change": 61.49,
+      "change_pct": 1.73
     },
     "沪深300": {
-      "price": 4663.79,
-      "change": -0.81
+      "code": "000300",
+      "price": 4693.88,
+      "change": 30.09,
+      "change_pct": 0.65
     }
-  },
-  "northbound": {
-    "net_flow": 0.0,
-    "note": "2024年起北向资金盘中实时数据不再披露"
   },
   "sectors": {
     "top": [
       {
-        "name": "油气开采及服务",
-        "change": 2.32
+        "name": "通信设备",
+        "change": 4.77
       },
       {
-        "name": "影视院线",
-        "change": 2.22
+        "name": "装修装饰Ⅱ",
+        "change": 3.48
       },
       {
-        "name": "医药商业",
-        "change": 1.68
+        "name": "半导体",
+        "change": 2.83
       },
       {
-        "name": "环保设备",
-        "change": 1.36
+        "name": "其他电源设备Ⅱ",
+        "change": 2.53
       },
       {
-        "name": "生物制品",
-        "change": 1.19
+        "name": "非金属材料Ⅱ",
+        "change": 2.48
       }
     ],
     "bottom": [
       {
-        "name": "军工装备",
-        "change": -2.45
+        "name": "炼化及贸易",
+        "change": -1.17
       },
       {
-        "name": "工业金属",
-        "change": -2.69
+        "name": "煤炭开采",
+        "change": -1.23
       },
       {
-        "name": "能源金属",
-        "change": -3.65
+        "name": "白色家电",
+        "change": -1.47
       },
       {
-        "name": "小金属",
-        "change": -3.8
+        "name": "油服工程",
+        "change": -1.69
       },
       {
-        "name": "贵金属",
-        "change": -5.03
+        "name": "摩托车及其他",
+        "change": -1.75
       }
     ]
   },
-  "market_breadth": {
-    "上涨": 1614,
-    "下跌": 3777,
-    "平盘": 150,
-    "总数": 5541
+  "northbound": {
+    "hk2sh": {
+      "status": 1,
+      "dayNetAmtIn": 0.0,
+      "dayAmtRemain": 0.0,
+      "dayAmtThreshold": 5200000.0,
+      "date": "08-12",
+      "date2": "2026-08-12"
+    },
+    "sh2hk": {
+      "status": 1,
+      "dayNetAmtIn": 4200000.0,
+      "dayAmtRemain": 0.0,
+      "dayAmtThreshold": 4200000.0,
+      "date": "08-12",
+      "date2": "2026-08-12"
+    },
+    "hk2sz": {
+      "status": 1,
+      "dayNetAmtIn": 0.0,
+      "dayAmtRemain": 0.0,
+      "dayAmtThreshold": 5200000.0,
+      "date": "08-12",
+      "date2": "2026-08-12"
+    },
+    "sz2hk": {
+      "status": 1,
+      "dayNetAmtIn": 4200000.0,
+      "dayAmtRemain": 0.0,
+      "dayAmtThreshold": 4200000.0,
+      "date": "08-12",
+      "date2": "2026-08-12"
+    }
   },
-  "limit_up": 58,
-  "limit_down": 1
+  "breadth": {},
+  "sector_count": 124
 }

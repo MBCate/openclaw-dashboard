@@ -1,83 +1,83 @@
 {
-  "updated": "2026-08-12 20:37:46",
+  "updated": "2026-08-13 00:20:38",
   "indices": [
     {
       "name": "上证指数",
       "code": "sh000001",
-      "price": 3963.1521,
-      "change_pct": 0.417,
-      "change": 16.477,
-      "amount": 724396255460.0
+      "price": 3926.96,
+      "change_pct": -0.5,
+      "change": -19.72,
+      "amount": 1164203070000.0
     },
     {
       "name": "深证成指",
       "code": "sz399001",
-      "price": 14519.968,
-      "change_pct": 0.732,
-      "change": 105.541,
-      "amount": 865073395400.0
+      "price": 14289.44,
+      "change_pct": -0.87,
+      "change": -124.99,
+      "amount": 1386713670000.0
     },
     {
       "name": "创业板指",
       "code": "sz399006",
-      "price": 3660.252,
-      "change_pct": 1.615,
-      "change": 58.169,
-      "amount": 422271799812.0
+      "price": 3586.04,
+      "change_pct": -0.45,
+      "change": -16.04,
+      "amount": 661486620000.0
     },
     {
       "name": "沪深300",
       "code": "sh000300",
-      "price": 4714.0589,
-      "change_pct": 0.493,
-      "change": 23.142,
-      "amount": 416095322487.0
+      "price": 4663.95,
+      "change_pct": -0.57,
+      "change": -26.97,
+      "amount": 690715960000.0
     }
   ],
   "top_gain_sectors": [
     {
-      "name": "医疗服务",
-      "change_pct": 5.49
+      "name": "陶瓷行业",
+      "change_pct": 0.58
     },
     {
-      "name": "生物制品",
-      "change_pct": 3.98
-    },
-    {
-      "name": "化学制药",
-      "change_pct": 3.1
-    },
-    {
-      "name": "中药",
-      "change_pct": 2.77
+      "name": "酿酒行业",
+      "change_pct": 0.5528125
     },
     {
       "name": "医疗器械",
-      "change_pct": 2.04
+      "change_pct": 0.18
+    },
+    {
+      "name": "供水供气",
+      "change_pct": 0.1436
+    },
+    {
+      "name": "生物制药",
+      "change_pct": 0.12696551724138
     }
   ],
   "top_loss_sectors": [
     {
-      "name": "农化制品",
-      "change_pct": -1.35
+      "name": "次新股",
+      "change_pct": -1.1140816326531
     },
     {
-      "name": "教育",
-      "change_pct": -1.52
+      "name": "有色金属",
+      "change_pct": -0.74292307692308
     },
     {
-      "name": "工业金属",
-      "change_pct": -1.87
+      "name": "电子器件",
+      "change_pct": -0.51746478873239
     },
     {
-      "name": "油气开采及服务",
-      "change_pct": -2.47
+      "name": "化工行业",
+      "change_pct": -0.27292857142857
     },
     {
-      "name": "贵金属",
-      "change_pct": -2.95
+      "name": "家具行业",
+      "change_pct": -0.27285714285714
     }
   ],
   "north_flow": null,
-  "note": "北向资金实时净买额交易所已停止披露"
+  "note": "北向资金实时净买入额交易所已停止披露；板块数据来源新浪行业分类"
 }

@@ -1,63 +1,63 @@
 {
- "timestamp": "2026-08-13T13:30:00Z",
- "date": "2026-08-13",
- "market_state": "us-preopen-europe-session-asia-closed",
+ "timestamp": "2026-08-14T01:15:00Z",
+ "date": "2026-08-14",
+ "market_state": "us-closed-asia-preopen",
  "summary": {
-  "title": "7月PPI意外持平、Fed加息存疑，美股期指走高瞄准纪录高位；欧股盘中偏强，港股小幅收跌",
-  "us_close": "周四(8/13)盘前：7月PPI意外持平(MoM 0.0%，预期+0.2%)，核心PPI+0.2%(预期+0.3%)，同比+4.7%——通胀全面降温信号强化，Fed加息预期大幅回落。道指/标普/纳指期货盘前齐涨，Bloomberg称'Stocks Set for Record Highs on Inflation Surprise'。继周三CPI符合预期后，PPI又超预期下行，市场risk-on情绪延续。Cerebras财报后暴跌、Steve Eisman警示AI'阿喀琉斯之踵'，但AI链整体仍看多。",
-  "key_takeaway": "CPI+PPI双降温落地：周三CPI+2.7%符合预期，周四年7月PPI意外持平0.0%、核心+0.2%双双低于预期，美联储加息路径预期被市场大幅下修，美股期指瞄准纪录高位。亚洲已收盘：港股恒指25,371(-0.11%)小幅走弱，但整体亚洲周内维持强势(KOSPI约一个月进牛市)。欧洲盘中欧元区股指偏强走高，油价回落+通胀降温助推风险偏好。今晚关注：美股高开能否延续、PPI确认降息交易(Cisco/财报季AI业绩分化)、Iran战事对油价扰动。加密：BTC约$63.5K回落，ETH约$1,883，risk-on与通胀交易之间拉锯。"
+  "title": "美股标普创收盘新高7,798.99：7月PPI意外持平强化降息交易；A股预开盘上证3926.96(-0.5%)，科技AI主线待发力",
+  "us_close": "周四(8/13)美股收盘：7月PPI意外持平(MoM 0.0%，预期+0.2%)、核心+0.2%(预期+0.3%)，叠加周三CPI+2.7%符合预期，通胀全面降温确认，Fed加息预期大幅回落。标普500收7,798.99创收盘纪录(+0.7%)，纳指+0.81%收26,803.03(Meta、美光、Netflix领涨)，道指+70点(+0.1%)。油价回落+PPI双降温助推risk-on。Cerebras财报后暴跌、《大空头》Eisman警示AI'阿喀琉斯之踵'，但AI/科技链整体仍看多。",
+  "key_takeaway": "隔夜美股在PPI超预期降温助推下，标普创收盘新高7,798.99、纳指涨0.81%，全球risk-on延续。A股预开盘(8/14 09:07)上证报3926.96(-0.5%)、深证成指报14289.44、创业板指报3586.04，昨日常态分化后今日关注美股新高+PPI利好能否提振科技/成长风格；沪指冲击4000点预期仍在，光通信、半导体设备主线清晰。MSCI中国指数8月调整纳入智谱等33只、剔除万科A等32只(8/31生效)。今晨关注：A股高开承接、AI/存储/半导体映射、恒指跟随外围走势、油价地缘扰动。加密：BTC约$63.5K、ETH约$1,883。"
  },
  "indices": {
   "US": [
    {
     "name": "S&P 500",
     "symbol": "SPX",
-    "value": 7776.0,
-    "change": 0.2,
-    "change_pct": 0.2,
-    "note": "周三(8/12)收约7,770(+0.28%)：CPI降温+AI链走强，标普收盘逾历史高位；今日期指走高瞄准纪录"
+    "value": 7798.99,
+    "change": 54.0,
+    "change_pct": 0.7,
+    "note": "周四(8/13)收7,798.99创收盘纪录(+0.7%)：7月PPI意外持平+CPI符合预期，通胀降温确认，Fed加息预期大幅回落，risk-on"
    },
    {
     "name": "Nasdaq",
     "symbol": "IXIC",
-    "value": 26550.0,
-    "change": 0.4,
-    "change_pct": 0.4,
-    "note": "周三小幅收涨：AI/云服务/存储链领涨；Cerebras盘后暴跌、Eisman警示AI泡沫，但整体科技风险偏好仍强"
+    "value": 26803.03,
+    "change": 215.0,
+    "change_pct": 0.81,
+    "note": "周四收26,803.03(+0.81%)：Meta、美光、Netflix领涨，AI/云/存储链走强；Cerebras暴跌但科技整体延续"
    },
    {
     "name": "Dow Jones",
     "symbol": "DJI",
-    "value": 53770.27,
-    "change": -21.58,
-    "change_pct": -0.04,
-    "note": "周三收53,770.27(-0.04%)，传统/能源拖累；今日盘前期货走高，PPI降温利好加息预期回落"
+    "value": 53840.0,
+    "change": 70.0,
+    "change_pct": 0.1,
+    "note": "周四收约53,840(+0.1%)：盘初曾跌破平盘后收复，传统/能源拖累但整体走高，PPI利好风险偏好"
    }
   ],
   "A-share": [
    {
     "name": "上证指数",
     "market": "A股",
-    "value": 0.0,
-    "change": 0.0,
-    "change_pct": 0.0,
-    "note": "已收盘。早盘高开+隔夜CPI利好消化后全天走势待确认；PPI降温利好明日高开预期"
+    "value": 3926.96,
+    "change": -19.73,
+    "change_pct": -0.5,
+    "note": "昨收3,926.96(-0.5%)：跳空高开后高位横盘，尾盘跳水；沪指4000点预期仍在，关注今日美股新高+PPI利好能否带动高开"
    },
    {
     "name": "深证成指",
     "market": "A股",
-    "value": 14558.26,
-    "change": 143.83,
-    "change_pct": 1.0,
-    "note": "早盘曾高开+1.00%(报14,558.26)，隔夜CPI+AI链利好推动；全天表现待晚间数据确认"
+    "value": 14289.44,
+    "change": -57.32,
+    "change_pct": -0.4,
+    "note": "昨收14,289.44(-0.4%)：题材分化，科技/机器人/消费电子仍活跃；隔夜美股新高利好成长风格"
    },
    {
     "name": "创业板指",
     "market": "A股",
-    "value": 0.0,
-    "change": 0.0,
-    "change_pct": 0.0,
-    "note": "已收盘。AI/成长风格受益于隔夜美股科技走强，PPI超预期降温有望进一步提振成长风格"
+    "value": 3586.04,
+    "change": -18.12,
+    "change_pct": -0.5,
+    "note": "昨收3,586.04(-0.5%)：AI/成长风格受益于隔夜美股科技走强，PPI超预期降温有望提振成长板块"
    }
   ],
   "Asia": [
@@ -67,7 +67,7 @@
     "value": 25371.0,
     "change": -28.64,
     "change_pct": -0.11,
-    "note": "周四收25,371.00(-0.11%)，昨收25,399.64；小幅收跌但周内仍偏强，腾讯WorkBuddy/南向资金关注"
+    "note": "周五(8/14)预开盘：周三收25,371(-0.11%)；美股PPI利好+标普新高或提振恒指高开，腾讯WorkBuddy/南向资金关注"
    },
    {
     "name": "Nikkei 225",
@@ -75,7 +75,7 @@
     "value": 0.0,
     "change": 0.0,
     "change_pct": 0.0,
-    "note": "已收盘。日元干预疑云持续：Goldman称日本$1万亿外储'余量充足'，出口股走势受汇率牵制"
+    "note": "亚盘预开盘。日元干预疑云持续：Goldman称日本$1万亿外储'余量充足'，美PPI降温+美股新高利好出口股"
    },
    {
     "name": "KOSPI",
@@ -83,7 +83,7 @@
     "value": 0.0,
     "change": 0.0,
     "change_pct": 0.0,
-    "note": "SK海力士$7200亿AI存储扩张计划引关注，AI芯片行情延续；约一个月已进入牛市"
+    "note": "亚盘预开盘。SK海力士$7200亿AI存储扩张计划，AI芯片行情延续，约一个月已进入牛市"
    }
   ],
   "Europe": [
@@ -93,7 +93,7 @@
     "value": 0.0,
     "change": 0.0,
     "change_pct": 0.0,
-    "note": "盘中偏稳，油价回落缓解滞胀担忧，PPI降温后降息预期利好风险资产"
+    "note": "已收盘(8/13)。油价回落缓解滞胀担忧，PPI降温后降息预期利好风险资产，周五或随美股新高偏强"
    },
    {
     "name": "DAX",
@@ -101,7 +101,7 @@
     "value": 0.0,
     "change": 0.22,
     "change_pct": 0.22,
-    "note": "盘中走高(+0.22%)，通胀降温+油价回落助推；金融监管趋严关注银行板块"
+    "note": "周四(8/13)收涨(+0.22%)：通胀降温+油价回落助推，周五关注美股新高溢出"
    },
    {
     "name": "CAC 40",
@@ -109,7 +109,7 @@
     "value": 0.0,
     "change": 0.22,
     "change_pct": 0.22,
-    "note": "开盘+0.22%，银行/奢侈品领涨；Frasers收购Harvey Nichols、JLR财报不达预期拖累部分个股"
+    "note": "周四(8/13)收涨(+0.22%)：银行/奢侈品领涨；Frasers收购Harvey Nichols、JLR下调利润预期拖累部分个股"
    }
   ]
  },
@@ -120,7 +120,7 @@
    "value": 63543.0,
    "change": -626.0,
    "change_pct": -0.98,
-   "note": "约$63,543，较昨晨回落约$527；PPI降温利好risk-on但获利了结压力仍存，微策略售币压力持续"
+   "note": "约$63,543：PPI降温利好risk-on但获利了结+微策略售币压力仍存，与通胀交易之间拉锯"
   },
   {
    "name": "Ethereum",
@@ -128,7 +128,7 @@
    "value": 1883.28,
    "change": -26.61,
    "change_pct": -1.39,
-   "note": "约$1,883，较昨日下跌$26.61；跟跌BTC，BTC/ETH比价约33.7"
+   "note": "约$1,883：跟跌BTC，BTC/ETH比价约33.7；risk-on与通胀交易拉锯背景下承压"
   }
  ],
  "commodities": [
@@ -138,7 +138,7 @@
    "value": 80.9,
    "change": -0.7,
    "change_pct": -0.86,
-   "note": "油价偏弱：PPI中能源分项下降，伊朗战争扰动与美伊谈判进展拉锯，地缘溢价继续降温"
+   "note": "油价偏弱：PPI中能源分项下降，伊朗战争扰动与美伊谈判进展拉锯，地缘溢价继续降温，利好通胀回落"
   },
   {
    "name": "Gold",
@@ -146,51 +146,51 @@
    "value": 4415.0,
    "change": 0.1,
    "change_pct": 0.1,
-   "note": "金价高位持稳，通胀降温削弱避险需求但降息预期(或延迟加息)提供支撑"
+   "note": "金价高位持稳，通胀降温削弱避险需求但降息预期提供支撑；美PPI数据后Goldman维持$4,400上方"
   }
  ],
  "news": [
   {
    "source": "CNBC",
-   "title": "Wholesale prices flat in July, below expectations for 0.2% increase — PPI降温",
-   "time": "08-13",
-   "impact": "7月PPI MoM持平、核心+0.2%均低于预期，Fed加息预期大幅回落，美股期指走高瞄准纪录"
+   "title": "S&P 500 closes at record 7,798.99; Nasdaq +0.81% to 26,803.03 (Meta, Micron, Netflix lead)",
+   "time": "08-14",
+   "impact": "标普创收盘新高，PPI降温确认+AI链领涨，risk-on情绪延续，利好A股科技/成长映射"
+  },
+  {
+   "source": "WSJ",
+   "title": "New signs of cooling inflation sent S&P 500 to record; Treasury yields retreat after softer PPI",
+   "time": "08-14",
+   "impact": "7月PPI意外持平，美债收益率回落，Fed加息预期大幅下修，风险资产全面走高"
   },
   {
    "source": "Bloomberg",
-   "title": "Stocks Set for Record Highs on Inflation Surprise: Markets Wrap",
+   "title": "Asian Stocks Rise as US Inflation, Tech Spur Gains: Markets Wrap",
    "time": "08-13",
-   "impact": "CPI+PPI连续降温，市场对Fed紧缩路径定价大幅下修，美股/欧股risk-on"
+   "impact": "美通胀降温+科技走强助推亚股，KOSPI约一个月进牛市，今日A股/港股料受溢出提振"
   },
   {
-   "source": "Yahoo Finance",
-   "title": "Stock market today: Dow, S&P 500, Nasdaq trending higher on rate hike bets, earnings",
-   "time": "08-13",
-   "impact": "三大指数期货盘前走高，财报季+通胀数据双驱动"
-  },
-  {
-   "source": "CNBC",
-   "title": "An inside look at SK Hynix $720 billion AI-fueled buildout taking over South Korea",
-   "time": "08-13",
-   "impact": "SK海力士$7200亿AI存储扩张——AI硬件资本开支强劲，利好A股存储/半导体映射"
+   "source": "Reuters/同花顺",
+   "title": "MSCI公布2026年8月指数审议：中国指数纳入智谱等33只、剔除万科A等32只(8/31生效)",
+   "time": "08-14",
+   "impact": "MSCI中国指数调整，新纳入智谱、鼎泰高科、凯莱英、华峰测控等，关注被动资金调仓"
   },
   {
    "source": "MarketWatch",
-   "title": "Wholesale prices flatten out in July and inflation eases. A Fed rate hike is in doubt.",
-   "time": "08-13",
-   "impact": "WWPI同比+4.7%但MoM持平，Fed加息(而非降息)预期被质疑，债市/权益risk-on"
-  },
-  {
-   "source": "CNBC",
-   "title": "'Big Short' investor Steve Eisman sees an Achilles heel in the AI boom",
-   "time": "08-13",
-   "impact": "《大空头》投资者Eisman警示AI泡沫，与Cerebras暴跌共振，AI链高位分歧加大"
+   "title": "Reddit joins S&P 500 after months of speculation; Dell's stock beats Micron and AMD this year",
+   "time": "08-14",
+   "impact": "Reddit纳入标普500；Dell今年跑赢美光/AMD，AI硬件/存储链资本开支景气延续"
   },
   {
    "source": "Yahoo Finance",
-   "title": "Nvidia rival Cerebras stock plunges as company swings to quarterly loss",
-   "time": "08-13",
-   "impact": "Cerebras财报恶化后暴跌，AI算力个股业绩分化，注意高位波动风险"
+   "title": "Gold holding over $4,400; 'Big Short' investor Eisman sees Achilles heel in AI boom",
+   "time": "08-14",
+   "impact": "金价高位持稳；Eisman警示AI泡沫，与Cerebras暴跌共振，AI链高位分歧加大"
+  },
+  {
+   "source": "CNBC",
+   "title": "Trade court upholds Trump's closure of 'de minimis' loophole; Uber-Pony.ai 2,000 robotaxis in Europe",
+   "time": "08-14",
+   "impact": "美国对华小包裹'de minimis'豁免关闭获法院支持；Uber携手小马智行部署欧洲2000辆robotaxi，利好智能驾驶链"
   }
  ],
  "events": [
@@ -199,67 +199,71 @@
    "event": "美国7月PPI公布：MoM持平0.0%(预期+0.2%)、核心+0.2%(预期+0.3%)、YoY+4.7%",
    "importance": "高",
    "status": "已公布",
-   "impact": "通胀超预期降温，Fed加息路径被市场质疑，美股期指走高，risk-on"
+   "impact": "通胀超预期降温，Fed加息路径被质疑，美股标普创收盘新高7,798.99，risk-on"
   },
   {
    "time": "08-13",
-   "event": "美股开盘：期指走高瞄准纪录高位，关注CPI+PPI双降温后市场承接",
+   "event": "美股收盘：标普创收盘纪录7,798.99(+0.7%)，纳指+0.81%至26,803.03",
+   "importance": "高",
+   "status": "已收盘",
+   "impact": "PPI双降温+AI链领涨，全球风险偏好高涨，为A股今日高开提供外围支撑"
+  },
+  {
+   "time": "08-14",
+   "event": "A股预开盘：上证3,926.96(-0.5%)、深证14,289.44、创业板3,586.04，关注高开承接与4000点",
    "importance": "高",
    "status": "待开盘",
-   "impact": "关注AI/科技能否延续涨势，Cerebras暴跌/Eisman警示或引发高位分歧"
+   "impact": "昨日常态分化+情绪退潮(涨停59·最高5板)，今日美股新高利好能否带动科技/成长反攻是关键"
   },
   {
-   "time": "08-13",
-   "event": "港股恒指收25,371(-0.11%)，小幅收跌但周内偏强",
+   "time": "08-14",
+   "event": "MSCI中国指数8月调整：纳入智谱等33只、剔除万科A等32只，8/31收盘后生效",
    "importance": "中",
-   "status": "已收盘",
-   "impact": "港股独立微跌，但外围PPI利好或提振明日表现"
-  },
-  {
-   "time": "08-13",
-   "event": "SK海力士$7200亿AI存储扩张计划曝光",
-   "importance": "中",
-   "status": "进行中",
-   "impact": "AI硬件资本开支强劲，存储/半导体赛道景气延续"
-  },
-  {
-   "time": "08-13",
-   "event": "Frasers Group收购Harvey Nichols；JLR因供应商火灾+伊朗战争下调利润预期",
-   "importance": "低",
    "status": "已公布",
-   "impact": "奢侈品零售整合、供应链风险关注"
+   "impact": "关注被动资金8月底调仓带来的买卖压力，智谱/凯莱英等新纳入标的受关注"
   },
   {
-   "time": "08-13",
-   "event": "美联储Kaplan/Jackson Hole(Warsh)相关谈话",
+   "time": "08-14",
+   "event": "Uber携手Pony.ai在欧洲部署2,000辆robotaxi；贸易法院支持关闭'de minimis'豁免",
    "importance": "中",
    "status": "进行中",
-   "impact": "Fed官员表态将影响加息/降息路径定价"
+   "impact": "智能驾驶/robotaxi产业链催化；美国对华小包裹关税收紧关注跨境电商影响"
+  },
+  {
+   "time": "08-14",
+   "event": "美联储Kaplan/Jackson Hole(Warsh)相关谈话，关注加息路径重新定价",
+   "importance": "中",
+   "status": "进行中",
+   "impact": "Fed官员表态将影响加息/降息路径，进而影响全球风险资产定价"
   }
  ],
  "today_watch": [
   {
-   "item": "PPI意外持平+CPI符合预期双降温，Fed加息预期回落——美股能否高开高走创纪录",
+   "item": "美股标普创收盘新高7,798.99、纳指+0.81%，PPI+CPI双降温确认——A股今日高开概率，沪指能否冲击4000点",
    "priority": "高"
   },
   {
-   "item": "Cerebras暴跌+Eisman警示AI泡沫，AI算力/存储链高位分歧，观察纳指承接力度",
+   "item": "科技/AI主线：光通信、半导体设备业绩催化+增量资金回流，美股存储链(美光/Dell/SK海力士)景气映射",
    "priority": "高"
   },
   {
-   "item": "SK海力士$7200亿AI存储扩张，A股存储/半导体板块映射机会",
+   "item": "A股情绪退潮(涨停59·最高5板)，题材高位分歧，观察高位股承接与量能变化",
+   "priority": "高"
+  },
+  {
+   "item": "MSCI中国指数8月调整(纳入智谱等33只/剔除万科A等32只)，关注被动资金调仓(8/31生效)",
    "priority": "中"
   },
   {
-   "item": "伊朗战事对油价扰动，PPI能源分项已回落但地缘风险未消",
+   "item": "Uber-Pony.ai欧洲2,000辆robotaxi，智能驾驶/机器人产业链催化",
    "priority": "中"
   },
   {
-   "item": "BTC约$63.5K、ETH约$1,883，PPI利好risk-on但获利了结+微策略售币压力拉锯",
+   "item": "BTC约$63.5K、ETH约$1,883，PPI利好risk-on但获利了结压力拉锯",
    "priority": "中"
   },
   {
-   "item": "Fed官员(Kaplan/Warsh Jackson Hole)表态，关注加息路径重新定价",
+   "item": "油价回落+地缘扰动(Iran)拉锯，关注能源板块与通胀预期",
    "priority": "中"
   }
  ]

@@ -1,83 +1,71 @@
 {
-  "updated": "2026-08-13 00:20:38",
-  "indices": [
-    {
-      "name": "上证指数",
-      "code": "sh000001",
-      "price": 3926.96,
-      "change_pct": -0.5,
-      "change": -19.72,
-      "amount": 1164203070000.0
+  "updated": "2026-08-13T20:38:58.071544-07:00",
+  "indices": {
+    "上证指数": {
+      "最新": 3918.6543,
+      "涨跌幅": -0.21,
+      "涨跌额": -8.31
     },
-    {
-      "name": "深证成指",
-      "code": "sz399001",
-      "price": 14289.44,
-      "change_pct": -0.87,
-      "change": -124.99,
-      "amount": 1386713670000.0
+    "深证成指": {
+      "最新": 14300.464,
+      "涨跌幅": 0.08,
+      "涨跌额": 11.02
     },
-    {
-      "name": "创业板指",
-      "code": "sz399006",
-      "price": 3586.04,
-      "change_pct": -0.45,
-      "change": -16.04,
-      "amount": 661486620000.0
-    },
-    {
-      "name": "沪深300",
-      "code": "sh000300",
-      "price": 4663.95,
-      "change_pct": -0.57,
-      "change": -26.97,
-      "amount": 690715960000.0
+    "创业板指": {
+      "最新": 3609.505,
+      "涨跌幅": 0.65,
+      "涨跌额": 23.46
     }
-  ],
-  "top_gain_sectors": [
+  },
+  "leading_sectors": [
     {
       "name": "陶瓷行业",
-      "change_pct": 0.58
+      "change_pct": 2.93
     },
     {
-      "name": "酿酒行业",
-      "change_pct": 0.5528125
+      "name": "化纤行业",
+      "change_pct": 1.83
     },
     {
       "name": "医疗器械",
-      "change_pct": 0.18
-    },
-    {
-      "name": "供水供气",
-      "change_pct": 0.1436
-    },
-    {
-      "name": "生物制药",
-      "change_pct": 0.12696551724138
-    }
-  ],
-  "top_loss_sectors": [
-    {
-      "name": "次新股",
-      "change_pct": -1.1140816326531
+      "change_pct": 1.34
     },
     {
       "name": "有色金属",
-      "change_pct": -0.74292307692308
+      "change_pct": 0.92
     },
     {
-      "name": "电子器件",
-      "change_pct": -0.51746478873239
-    },
-    {
-      "name": "化工行业",
-      "change_pct": -0.27292857142857
-    },
-    {
-      "name": "家具行业",
-      "change_pct": -0.27285714285714
+      "name": "船舶制造",
+      "change_pct": 0.74
     }
   ],
-  "north_flow": null,
-  "note": "北向资金实时净买入额交易所已停止披露；板块数据来源新浪行业分类"
+  "lagging_sectors": [
+    {
+      "name": "农林牧渔",
+      "change_pct": -1.55
+    },
+    {
+      "name": "供水供气",
+      "change_pct": -1.65
+    },
+    {
+      "name": "传媒娱乐",
+      "change_pct": -1.7
+    },
+    {
+      "name": "电力行业",
+      "change_pct": -2.19
+    },
+    {
+      "name": "印刷包装",
+      "change_pct": -2.47
+    }
+  ],
+  "northbound": {
+    "note": "北向资金实时净流入已不再披露; 以下为沪深港通交易状态",
+    "shanghai_up": 561,
+    "shanghai_down": 1037,
+    "shenzhen_up": 657,
+    "shenzhen_down": 1173
+  }
 }

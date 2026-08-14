@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-08-14T00:21:08.034653",
   "date": "2026-08-14",
-  "report_type": "daily_close",
+  "report_type": "weekly",
   "crypto": {
     "BTC": {
       "price": 63088.0,
@@ -81,5 +81,67 @@
     }
   },
   "strategy_status": "策略信号基于实时OKX行情(2026-08-14)生成",
-  "market_note": "A股收盘: 上证指数3927.1764(+0.01%) 深证成指14354.306(+0.45%) 创业板指3626.296(+1.12%)"
+  "market_note": "A股收盘: 上证指数3927.1764(+0.01%) 深证成指14354.306(+0.45%) 创业板指3626.296(+1.12%)",
+  "week": "2026-W33",
+  "weekly_summary": {
+    "period": "2026-08-10 ~ 2026-08-14",
+    "crypto": {
+      "BTC": {
+        "price": 63088.0,
+        "week_change_pct": -2.79,
+        "week_high": 65026.6,
+        "week_low": 62846.3,
+        "trend": "冲高回落"
+      },
+      "ETH": {
+        "price": 1876.97,
+        "week_change_pct": -1.89,
+        "week_high": 1928.1,
+        "week_low": 1853.8,
+        "trend": "震荡走弱"
+      }
+    },
+    "fear_greed_avg": 28,
+    "fear_greed_label": "Fear",
+    "signals_distribution": {
+      "做多": 2,
+      "做空": 1,
+      "观望": 13
+    },
+    "strategy_signals": {
+      "DoubleMa": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "TripleMa": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "Supertrend": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "RSI": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "MACD": {
+        "1h": "做空",
+        "4h": "观望"
+      },
+      "Bollinger": {
+        "1h": "做多",
+        "4h": "观望"
+      },
+      "Momentum": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "MeanReversion": {
+        "1h": "做多",
+        "4h": "观望"
+      }
+    },
+    "note": "本周加密市场冲高回落：BTC周一高开至65026后连续回落至63088(-2.8%)，ETH从1928回落至1877(-1.9%)。恐惧贪婪指数从25(Extreme Fear)回升至29(Fear)，情绪仍偏谨慎。策略信号收敛明显：大部分策略转为观望，仅Bollinger 1h与MeanReversion 1h做多、MACD 1h做空。A股分化：上证小幅回调-0.3%，创业板指领涨+1.8%，科创成长风格占优。"
+  }
 }

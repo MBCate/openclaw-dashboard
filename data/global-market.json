@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-25T13:30:00Z",
-  "date": "2026-08-25",
-  "market_state": "us-preopen-europe-midsession-asia-closed",
+  "timestamp": "2026-08-26T01:15:00Z",
+  "date": "2026-08-26",
+  "market_state": "us-postclose-asia-preopen",
   "summary": {
-    "title": "美股周一冲高回落：标普-0.3%距纪录走远、纳指-0.8%A股恐慌拖累；'贬值交易'回归，加密与黄金重新受捧",
-    "us_open": "周一(8/24)美股收盘走势分化：标普500跌0.3%进一步脱离本月纪录，纳指跌0.8%（半导体股领跌，受中国DeepSeek/AI链恐慌情绪拖累），道指逆势涨0.3%成唯一收涨的主要指数。市场倒计时本周多项可能撼动行情的事件——Nvidia Q2财报(测试复苏中AI交易)、Jackson Hole央行会议、Meta反垄断庭审复庭。10年期美债收益率高位持稳、油价回落。'贬值交易'(debasement trade)重新回归：财政部长Bessent债券操作后，加密与黄金再度受捧，BTC约$77.4K(+0.5%)、ETH约$2,506。",
-    "key_takeaway": "周一(8/24)美股三大指数分化收跌居多：AI/半导体链遭抛售(DeepSeek恐慌+财报周观望)，标普-0.3%、纳指-0.8%，唯道指+0.3%受价值/传统板块支撑。本周超级事件周：Nvidia Q2财报将再度检验AI交易成色、Jackson Hole或正式敲定Fed-财政部'共识'、Meta反垄断庭审复庭。地缘层面：加拿大扬言'不等电话'报复Trump关税、美对伊威胁与中国立场冲突。'贬值交易'重归——Bessent债券操作后加密/黄金受益，BTC约$77.4K(+0.5%)、ETH约$2,506(+3.1%周内)。今日焦点：Nvidia财报预期、Jackson Hole讲话、美加贸易谈判进展。"
+    "title": "隔夜美股反弹：芯片股领涨纳指+0.7%重回纪录附近，Nvidia财报迫近、PCE通胀报告待公布；油价因对伊朗转向施压暴跌3%+",
+    "us_open": "周二(8/25)美股收高，科技/半导体股反弹领涨：标普500涨0.3%重新逼近本月纪录高位，道指涨0.3%(连续三日收涨)，纳指涨0.7%收复周一AI/半导体抛售失地。市场倒计时今日两大重磅事件——Nvidia Q2财报(检验AI交易成色)与Fed首选通胀指标PCE(将塑造利率预期)。油价大跌逾3%，因美国转向对伊朗经济施压、缓解中东重新开战担忧；欧洲LNG价格飙至2023年以来最高。IMF称AI将推动全球增长且投资扩散至美国以外。'贬值交易'逻辑延续，加密与黄金持续受捧。",
+    "key_takeaway": "隔夜(周二8/25)美股三大指数全线收高，科技股领涨：纳指+0.7%(芯片股从周一DeepSeek恐慌抛售中反弹)、标普+0.3%逼近历史高位、道指+0.3%连三日上涨。今日为超级事件日：Nvidia Q2财报(检验AI交易)+PCE通胀数据(塑造Fed利率预期)+Fed主席Warsh首场Jackson Hole讲话。油价因美国对伊转向经济施压暴跌逾3%，中东战争风险缓和；欧洲LNG飙至2023年来最高。IMF看好AI推动全球增长。A股早盘关注：AI/半导体链映射反弹、油价大跌利好航空/石化下游、地缘与LNG能源链条。"
   },
   "indices": {
     "US": [
@@ -13,17 +13,17 @@
         "name": "S&P 500",
         "symbol": "SPX",
         "value": 0.0,
-        "change": -0.3,
-        "change_pct": -0.3,
-        "note": "周一(8/24)收盘跌0.3%，进一步脱离本月创下的纪录高位。本周多项重磅事件前(周三Nvidia财报、本周Jackson Hole央行会议)，市场观望情绪浓厚"
+        "change": 0.3,
+        "change_pct": 0.3,
+        "note": "周二(8/25)涨0.3%，进一步逼近本月创下的历史高位。科技股领涨，投资者在今日Nvidia财报与PCE数据前回补仓位"
       },
       {
         "name": "Nasdaq",
         "symbol": "IXIC",
         "value": 0.0,
-        "change": -0.8,
-        "change_pct": -0.8,
-        "note": "周一(8/24)跌0.8%领跌。半导体股领跌，受中国DeepSeek/AI链恐慌情绪拖累，投资者在Nvidia Q2财报(Q2 earnings test AI trade)前减仓"
+        "change": 0.7,
+        "change_pct": 0.7,
+        "note": "周二(8/25)涨0.7%领涨，芯片股从周一DeepSeek/半导体恐慌抛售中强势反弹。今日Nvidia Q2财报为最大看点"
       },
       {
         "name": "Dow Jones",
@@ -31,7 +31,7 @@
         "value": 0.0,
         "change": 0.3,
         "change_pct": 0.3,
-        "note": "周一(8/24)逆势涨0.3%，为三大指数中唯一收涨。价值/传统板块受支撑，资金从高估值科技股轮动至防御板块"
+        "note": "周二(8/25)涨0.3%，连续第三个交易日收涨。价值/传统板块持续获得支撑，防御轮动逻辑延续"
       }
     ],
     "A-share": [
@@ -41,7 +41,7 @@
         "value": 0.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "A股已收盘。隔夜美股AI/半导体链遭遇DeepSeek恐慌抛售，关注今日A股AI/算力链映射压力"
+        "note": "A股未开盘。隔夜美股AI/半导体链反弹领涨，关注今日A股AI/算力/存储链映射修复机会"
       },
       {
         "name": "深证成指",
@@ -49,7 +49,7 @@
         "value": 0.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "已收盘。半导体/存储链或受隔夜美股芯片抛售情绪拖累"
+        "note": "未开盘。纳指+0.7%芯片股领涨，深市科技/成长板块或受正面情绪提振"
       },
       {
         "name": "创业板指",
@@ -57,7 +57,7 @@
         "value": 0.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "已收盘。AI/机器人链关注Nvidia财报预期与Jackson Hole信号"
+        "note": "未开盘。AI/机器人/半导体链关注今日Nvidia财报预期与隔夜芯片反弹联动"
       }
     ],
     "Asia": [
@@ -67,7 +67,7 @@
         "value": 0.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "已收盘。受美股AI/半导体链抛售+美中地缘紧张影响，关注科技/腾讯系走势"
+        "note": "未开盘。隔夜美股科技反弹+油价大跌，关注腾讯/阿里科技股与能源链走势"
       },
       {
         "name": "Nikkei 225",
@@ -75,7 +75,7 @@
         "value": 0.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "已收盘。半导体权重股(东京电子/Advantest)受隔夜美股芯片恐慌抛售拖累概率大"
+        "note": "未开盘。芯片权重股(东京电子/Advantest)受益于隔夜美股半导体反弹，或高开"
       },
       {
         "name": "KOSPI",
@@ -83,7 +83,7 @@
         "value": 0.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "已收盘。SK海力士/三星等存储链受美股半导体股隔夜大跌拖累压力大"
+        "note": "未开盘。SK海力士/三星等存储链受隔夜美股芯片股反弹提振概率大"
       }
     ],
     "Europe": [
@@ -93,7 +93,7 @@
         "value": 0.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "盘中。油价回落压制能源股，银行/公用事业受关注"
+        "note": "已收盘。油价大跌压制能源股，但欧洲LNG价格飙至2023年来最高，关注能源板块分化"
       },
       {
         "name": "DAX",
@@ -101,7 +101,7 @@
         "value": 0.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "盘中。半导体/汽车链受美股隔夜芯片抛售情绪影响"
+        "note": "已收盘。IMF看好AI推动全球增长且投资扩散至美国以外，欧洲科技/工业链获正面信号"
       },
       {
         "name": "CAC 40",
@@ -109,7 +109,7 @@
         "value": 0.0,
         "change": 0.0,
         "change_pct": 0.0,
-        "note": "盘中。奢侈品/银行受美元走弱与贬值交易回归影响"
+        "note": "已收盘。LNG价格飙升+美元偏弱环境下，能源与奢侈品板块关注分化走势"
       }
     ]
   },
@@ -120,7 +120,7 @@
       "value": 77453.0,
       "change": 385.0,
       "change_pct": 0.5,
-      "note": "约$77,453(+0.50%)，较周五高4.0%。'贬值交易'回归——Bessent债券操作后加密与黄金重新受捧。BTC站上200日均线($71,692)上方8.0%，20日均线($68,430)上穿50/100日均线，技术面全面转多"
+      "note": "约$77.4K(+0.5%)。'贬值交易'逻辑延续——Bessent债券操作后加密/黄金持续受捧，BTC站上200日均线($71,692)上方8%+，技术面维持偏多。今日Nvidia财报与PCE数据或主导风险偏好"
     },
     {
       "name": "Ethereum",
@@ -128,7 +128,7 @@
       "value": 2506.44,
       "change": 74.91,
       "change_pct": 3.08,
-      "note": "约$2,506(+3.1%)较昨日早盘上涨$74.91，但仍较一年前低约$2,272。BTC/ETH比价约30.9：1，ETH短期反弹但长期仍跑输BTC"
+      "note": "约$2,506(+3.1%)。短期反弹但长期仍跑输BTC，BTC/ETH比价约30.9:1。关注加密与风险资产联动"
     }
   ],
   "commodities": [
@@ -136,9 +136,9 @@
       "name": "WTI Crude",
       "symbol": "WTI",
       "value": 0.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "note": "油价回落。美加贸易谈判破裂担忧+需求前景疲弱压制油价，Investopedia报道原油走低"
+      "change": -3.0,
+      "change_pct": -3.0,
+      "note": "油价暴跌逾3%：美国转向对伊朗经济施压，缓解中东重新开战担忧，地缘溢价大幅消退。利好航空/石化下游，压制能源股"
     },
     {
       "name": "Gold",
@@ -146,7 +146,7 @@
       "value": 0.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "note": "'贬值交易'回归后黄金再度受捧。Bessent债券操作+美元走弱+Fed暂停加息预期共同支撑金价"
+      "note": "'贬值交易'回归+美元偏弱+Fed政策协调预期下黄金维持受捧。关注今晚PCE数据对金价的引导"
     },
     {
       "name": "Copper",
@@ -154,7 +154,7 @@
       "value": 0.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "note": "铜价受美加贸易谈判破裂+关税不确定性影响，关注供应链与Trump关税博弈"
+      "note": "IMF称AI将推动全球增长且投资扩散至美国以外，工业金属需求预期获支撑，关注美加关税博弈"
     }
   ],
   "rates": [
@@ -164,7 +164,7 @@
       "value": 0.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "note": "高位持稳。Jackson Hole或正式敲定Fed-财政部'共识'，FT报道'Fed-Treasury accord'可能进一步正式化"
+      "note": "收益率高位持稳(周一债市抛售后暂稳)。今日PCE通胀数据+Fed主席Warsh首场Jackson Hole讲话将主导长端利率方向"
     },
     {
       "name": "US Dollar Index",
@@ -172,126 +172,133 @@
       "value": 0.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "note": "美元偏弱。Bessent债券操作+Fed暂停加息预期压抑美元，'贬值交易'逻辑利好非美资产/黄金/加密"
+      "note": "美元偏弱。'贬值交易'逻辑+Warsh鸽派预期压抑美元，利好非美资产/黄金/加密。关注PCE与Jackson Hole信号"
     }
   ],
   "news": [
     {
       "source": "CNBC",
-      "title": "The 'debasement trade' returns after Bessent bond maneuver. Crypto and gold are back in style",
+      "title": "Oil drops more than 3% as U.S. shifts to economic pressure on Iran, easing fears of renewed war",
       "time": "08-25",
-      "impact": "财政部长Bessent债券操作后'贬值交易'重新回归，加密与黄金受捧——BTC约$77.4K、黄金走高，关注美元/美债长端走势"
+      "impact": "油价暴跌逾3%：美国对伊朗转向经济施压、缓解中东重新开战担忧，地缘溢价消退，利好航空/石化下游、压制能源股"
     },
     {
       "source": "CNBC",
-      "title": "Canada poised to retaliate against Trump tariffs: 'We're not waiting by the phone'",
-      "time": "08-25",
-      "impact": "加拿大扬言不等电话即报复Trump关税，美加贸易谈判前景恶化，投资者此前涌入加拿大ETF后情绪逆转，油价/加元受压"
+      "title": "Stock futures little changed as traders await key inflation report, Nvidia earnings",
+      "time": "08-26",
+      "impact": "美股期货基本持平，市场等待今日PCE通胀数据与Nvidia Q2财报两大关键事件"
     },
     {
       "source": "CNBC",
-      "title": "China needs U.S. dollars but is building a hedge against Washington's sanctions",
+      "title": "Nvidia's 'expectations premium' dogs the stock after earnings. Here's what analysts are watching",
       "time": "08-25",
-      "impact": "中国一边需要美元一边构建对冲华盛顿制裁的避险机制，中美金融脱钩风险持续，关注人民币/离岸市场"
+      "impact": "Nvidia'预期溢价'成焦点：今日财报将检验AI交易能否延续，分析师紧盯指引与数据中心需求"
+    },
+    {
+      "source": "Reuters",
+      "title": "US stock futures rise on tech rebound before Nvidia results, inflation data",
+      "time": "08-25",
+      "impact": "科技股反弹带动期货走高，市场在Nvidia财报与PCE数据前回补仓位，缓和近期债市抛售引发的担忧"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Tech stocks today: All eyes on Nvidia as Meta trial resumes",
-      "time": "08-24",
-      "impact": "本周焦点：Nvidia Q2财报将检验复苏中的AI交易，Meta反垄断庭审复庭。半导体股周一承压领跌纳指"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Nvidia's Q2 earnings to test resurgent AI trade",
-      "time": "08-23",
-      "impact": "Nvidia Q2财报(周三)为本周最大看点，市场关注其能否延续AI增长叙事并支撑高估值"
+      "title": "Stock market today: S&P 500, Nasdaq futures recover in countdown to Nvidia earnings",
+      "time": "08-25",
+      "impact": "投资者权衡对加拿大与伊朗的新贸易措施、Nvidia财报临近，以及Fed主席Warsh首场Jackson Hole讲话预期"
     },
     {
       "source": "FT Markets",
-      "title": "Jackson Hole could further formalise emerging Fed-Treasury accord",
+      "title": "European LNG prices surge to highest level since 2023",
       "time": "08-25",
-      "impact": "Jackson Hole央行会议可能进一步正式化Fed-财政部'共识'，政策协调预期升温，影响长端利率与美元"
+      "impact": "欧洲LNG价格飙至2023年以来最高，能源供应紧张或推高欧洲通胀，关注能源板块与欧央行政策"
     },
     {
-      "source": "Bloomberg",
-      "title": "US's Iran Threat Risks Clash With China; Druckenmiller Criticizes Bond Plan",
+      "source": "FT Markets",
+      "title": "AI to fuel global growth as investment spreads beyond US, IMF says",
       "time": "08-25",
-      "impact": "美对伊朗威胁或与中国立场冲突，地缘风险叠加；传奇投资人Druckenmiller批评债券计划，市场分歧加大"
+      "impact": "IMF称AI将推动全球增长、投资扩散至美国以外，利好欧洲/亚洲科技与工业链，缓解'美国独享AI'担忧"
     },
     {
-      "source": "Investopedia",
-      "title": "Nasdaq, S&P 500 close lower to begin week as semiconductor stocks drop; Dow advances",
-      "time": "08-24",
-      "impact": "周一收盘：标普-0.3%、纳指-0.8%(半导体股领跌)、道指+0.3%逆势上涨。原油走低，市场消化DeepSeek恐慌"
+      "source": "AP News",
+      "title": "How major US stock indexes fared Tuesday 8/25/2026",
+      "time": "08-25",
+      "impact": "周二收盘：标普+0.3%逼近历史高位、道指+0.3%连三日上涨、纳指+0.7%领涨，芯片股从周一抛售中反弹"
     }
   ],
   "events": [
     {
-      "time": "08-24",
-      "event": "美股周一收盘：标普-0.3%、纳指-0.8%(半导体领跌)、道指+0.3%逆势上涨",
+      "time": "08-25",
+      "event": "美股周二收盘全线收高：纳指+0.7%(芯片反弹)、标普+0.3%逼近纪录、道指+0.3%连三日上涨",
       "importance": "高",
       "status": "已收盘",
-      "impact": "AI/半导体链遭DeepSeek恐慌+财报周观望情绪抛售；价值/防御板块获资金轮动支撑"
-    },
-    {
-      "time": "08-24",
-      "event": "美加贸易谈判破裂：加拿大扬言'不等电话'即报复Trump关税",
-      "importance": "高",
-      "status": "进行中",
-      "impact": "贸易紧张升级，投资者此前涌入加拿大ETF后情绪逆转，油价/加元承压"
+      "impact": "科技/半导体股从周一DeepSeek恐慌抛售中反弹，市场在Nvidia财报前回补仓位"
     },
     {
       "time": "08-25",
-      "event": "Jackson Hole央行会议(本周)——或正式敲定Fed-财政部'共识'",
+      "event": "油价暴跌逾3%：美国对伊朗转向经济施压，中东重新开战担忧缓解",
       "importance": "高",
-      "status": "待举行",
-      "impact": "Fed与财政部政策协调预期升温，影响长端利率、美元与黄金/加密"
+      "status": "已发生",
+      "impact": "地缘溢价大幅消退，利好航空/石化下游、压制能源股，通胀压力或缓解"
     },
     {
       "time": "08-26",
-      "event": "Nvidia Q2财报(周三)——检验复苏中的AI交易",
+      "event": "Nvidia Q2财报(今日)——检验复苏中的AI交易成色",
       "importance": "高",
       "status": "待公布",
-      "impact": "Nvidia财报将决定AI/半导体板块短期方向，市场预期高企"
+      "impact": "Nvidia财报为今日最大看点，将决定AI/半导体板块短期方向，'预期溢价'高企"
     },
     {
-      "time": "08-24",
-      "event": "Meta反垄断庭审复庭",
-      "importance": "中",
-      "status": "进行中",
-      "impact": "Meta庭审结果或影响大型科技股监管预期"
+      "time": "08-26",
+      "event": "PCE通胀数据(今日)——Fed首选通胀指标，塑造利率预期",
+      "importance": "高",
+      "status": "待公布",
+      "impact": "PCE数据将主导Fed利率路径预期，影响长端利率/美元/黄金"
+    },
+    {
+      "time": "08-26",
+      "event": "Fed主席Warsh首场Jackson Hole讲话",
+      "importance": "高",
+      "status": "待举行",
+      "impact": "Warsh首次以Fed主席身份亮相Jackson Hole，市场关注其对Fed-财政部'共识'与政策路径的表态"
     },
     {
       "time": "08-25",
-      "event": "Bessent债券操作后'贬值交易'回归：加密与黄金重新受捧",
+      "event": "欧洲LNG价格飙至2023年以来最高",
       "importance": "中",
       "status": "进行中",
-      "impact": "BTC约$77.4K(+0.5%)、ETH约$2,506(+3.1%)，黄金获资金回流，美元偏弱"
+      "impact": "能源供应紧张或推高欧洲通胀，关注能源板块与欧央行政策预期"
+    },
+    {
+      "time": "08-25",
+      "event": "IMF：AI将推动全球增长、投资扩散至美国以外",
+      "importance": "中",
+      "status": "已发布",
+      "impact": "缓解'美国独享AI'担忧，利好欧洲/亚洲科技与工业链"
     }
   ],
   "today_watch": [
     {
-      "item": "Nvidia Q2财报(周三)：决定AI/半导体板块短期方向，半导体股周一已提前承压(纳指-0.8%)",
+      "item": "Nvidia Q2财报(今日)：决定AI/半导体板块短期方向，隔夜芯片股已率先反弹(纳指+0.7%)，A股AI/算力/存储链或获映射",
       "priority": "高"
     },
     {
-      "item": "Jackson Hole央行会议：Fed-财政部'共识'或正式化，关注长端利率/美元/黄金信号",
+      "item": "PCE通胀数据(今日)：Fed首选通胀指标，决定利率路径预期，影响长端利率/美元/黄金",
       "priority": "高"
     },
     {
-      "item": "美加贸易谈判：加拿大扬言立刻报复，贸易战风险压制油价/加元，ETF资金情绪逆转",
+      "item": "Fed主席Warsh首场Jackson Hole讲话：市场关注Fed-财政部'共识'与政策路径表态",
       "priority": "高"
     },
     {
-      "item": "'贬值交易'回归：BTC约$77.4K(+0.5%)、ETH约$2,506(+3.1%)，加密/黄金受捧，美元偏弱",
+      "item": "油价暴跌逾3%：美国对伊转向经济施压缓解战争担忧，利好A股航空/石化下游，压制能源股",
       "priority": "中"
     },
     {
-      "item": "中国构建对冲美制裁的避险机制，中美金融脱钩风险持续，关注离岸人民币",
+      "item": "欧洲LNG价格飙至2023年来最高：能源供应紧张，关注全球能源链条与通胀预期",
       "priority": "中"
     },
     {
-      "item": "DeepSeek恐慌再度扰动AI链：隔夜半导体股领跌，关注今日A股AI/算力/存储链映射",
+      "item": "'贬值交易'延续：BTC约$77.4K(+0.5%)、ETH约$2,506(+3.1%)，加密/黄金受捧，美元偏弱",
       "priority": "中"
     }
   ]

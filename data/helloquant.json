@@ -1,87 +1,32 @@
 {
-  "timestamp": "2026-08-25T00:14:06.580035-07:00",
-  "date": "2026-08-25",
-  "report_type": "daily",
+  "source": "~/trading/helloquant",
+  "updated": "2026-08-26 07:05 UTC",
+  "status": "degraded",
+  "last_run": {
+    "date": "2026-08-25",
+    "timestamp": "2026-08-25T00:12:44",
+    "success": false
+  },
   "crypto": {
-    "BTC": {
-      "price": 63088.0,
-      "change_24h": -1.214153959858072,
-      "high_24h": 63999.9,
-      "low_24h": 62846.3,
-      "trend_1h": "偏空",
-      "trend_4h": "偏空",
-      "rsi_1h": 47.9,
-      "rsi_4h": 41.0,
-      "macd_1h": "死叉",
-      "macd_4h": "死叉"
-    },
-    "ETH": {
-      "price": 1876.97,
-      "change_24h": -1.0574424231561967,
-      "high_24h": 1898.0,
-      "low_24h": 1863.69,
-      "trend_1h": "偏空",
-      "trend_4h": "偏空",
-      "rsi_1h": 50.0,
-      "rsi_4h": 47.5,
-      "macd_1h": "死叉",
-      "macd_4h": "金叉"
-    }
-  },
-  "fear_greed": {
-    "value": 74,
-    "label": "Greed"
-  },
-  "signals": {
-    "DoubleMa": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "RSI": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "MACD": {
-      "1h": "做空",
-      "4h": "观望"
-    },
-    "Bollinger": {
-      "1h": "做多",
-      "4h": "观望"
-    },
-    "Supertrend": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "TripleMa": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "Momentum": {
-      "1h": "观望",
-      "4h": "观望"
-    },
-    "MeanReversion": {
-      "1h": "做多",
-      "4h": "观望"
-    }
+    "status": "error",
+    "error": "'<' not supported between instances of 'NoneType' and 'str'",
+    "note": "OKX 数据拉取失败"
   },
   "stocks": {
-    "上证指数": {
-      "price": 3889.4449,
-      "change": 0.192
-    },
-    "深证成指": {
-      "price": 13745.869,
-      "change": -0.351
-    },
-    "创业板指": {
-      "price": 3397.515,
-      "change": -1.001
+    "status": "success",
+    "note": "2026-08-25 快照（略早于收盘）",
+    "data": {
+      "上证指数": {"price": 3889.4449, "change_pct": 0.192},
+      "深证成指": {"price": 13745.869, "change_pct": -0.351},
+      "创业板指": {"price": 3397.515, "change_pct": -1.001}
     }
   },
-  "strategy_status": "加密行情(OKX)采集失败，策略信号沿用最近一次有效数据(2026-08-14)；A股与情绪数据已更新",
-  "market_note": "A股收盘: 上证指数3889.4449(+0.192%) 深证成指13745.869(-0.351%) 创业板指3397.515(-1.001%) | 恐惧贪婪指数 74 (Greed)",
-  "crypto_refresh_error": "'<' not supported between instances of 'NoneType' and 'str'",
-  "signals_refresh_error": "'<' not supported between instances of 'NoneType' and 'str'"
+  "sentiment": {
+    "status": "success",
+    "crypto_fear_greed": {"value": 74, "classification": "Greed"}
+  },
+  "strategies": {
+    "note": "8策略(DoubleMa/TripleMa/Supertrend/RSI/MACD/Bollinger/Momentum/MeanReversion)本期无新增回测输出",
+    "latest_backtest": "2026-01-04 (reports)"
+  }
 }

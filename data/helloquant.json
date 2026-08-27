@@ -1,11 +1,11 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-08-26 07:05 UTC",
+  "updated": "2026-08-27 07:05 UTC",
   "status": "degraded",
   "last_run": {
-    "date": "2026-08-25",
-    "timestamp": "2026-08-25T00:12:44",
-    "success": false
+    "date": "2026-08-27",
+    "timestamp": "2026-08-27T00:05:00",
+    "success": true
   },
   "crypto": {
     "status": "error",
@@ -14,19 +14,28 @@
   },
   "stocks": {
     "status": "success",
-    "note": "2026-08-25 快照（略早于收盘）",
+    "note": "2026-08-27 A股收盘数据 (部分指数代理不可用)",
     "data": {
-      "上证指数": {"price": 3889.4449, "change_pct": 0.192},
-      "深证成指": {"price": 13745.869, "change_pct": -0.351},
-      "创业板指": {"price": 3397.515, "change_pct": -1.001}
+      "上证指数": {
+        "price": 3956.57,
+        "change_pct": 1.13
+      },
+      "深证成指": {
+        "price": 13956.96,
+        "change_pct": 0.84
+      }
     }
   },
   "sentiment": {
     "status": "success",
-    "crypto_fear_greed": {"value": 74, "classification": "Greed"}
+    "crypto_fear_greed": {
+      "value": 74,
+      "classification": "Greed"
+    }
   },
   "strategies": {
     "note": "8策略(DoubleMa/TripleMa/Supertrend/RSI/MACD/Bollinger/Momentum/MeanReversion)本期无新增回测输出",
     "latest_backtest": "2026-01-04 (reports)"
-  }
+  },
+  "last_check": "2026-08-27 00:05 PT"
 }

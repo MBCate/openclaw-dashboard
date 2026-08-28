@@ -1,40 +1,98 @@
 {
   "indices": {
     "上证指数": {
-      "code": "000001",
-      "price": 3956.57,
-      "change_pct": 1.13,
-      "change": 44.05,
-      "volume": 516777549.0,
-      "amount": 1010226573954.6
-    },
-    "沪深300": {
-      "code": "000300",
-      "price": 4630.28,
-      "change_pct": 0.86,
-      "change": 39.49,
-      "volume": 202017250.0,
-      "amount": 587120379412.9
+      "code": "1.000001",
+      "price": 3959.639,
+      "change_pct": 0.078,
+      "change": 3.068,
+      "volume": 328394797.0,
+      "amount": 653404594602.0
     },
     "深证成指": {
-      "code": "399001",
-      "price": 13956.96,
-      "change_pct": 0.84,
-      "change": 115.63,
-      "amount": 886240000000.0
+      "code": "0.399001",
+      "price": 14029.834,
+      "change_pct": -0.136,
+      "change": -19.042,
+      "volume": 41168103235.0,
+      "amount": 769924579415.0
     },
     "创业板指": {
-      "code": "399006",
-      "price": null,
-      "change_pct": null,
-      "change": null,
-      "amount": null,
-      "note": "eastmoney proxy unavailable, data not fetched"
+      "code": "0.399006",
+      "price": 3462.075,
+      "change_pct": -0.325,
+      "change": -11.28,
+      "volume": 12521653157.0,
+      "amount": 376647429738.0
+    },
+    "沪深300": {
+      "code": "0.399300",
+      "price": 4625.7336,
+      "change_pct": -0.098,
+      "change": -4.543,
+      "volume": 112876332.0,
+      "amount": 367993303760.0
     }
   },
-  "north_flow": {
-    "date": "2026-08-26",
-    "net_inflow": null
+  "sectors": {
+    "top_gain": [
+      {
+        "name": "种植业与林业",
+        "change_pct": 3.22,
+        "leader": "秋乐种业"
+      },
+      {
+        "name": "房地产",
+        "change_pct": 1.94,
+        "leader": "我爱我家"
+      },
+      {
+        "name": "零售",
+        "change_pct": 1.89,
+        "leader": "香江控股"
+      },
+      {
+        "name": "石油加工贸易",
+        "change_pct": 1.88,
+        "leader": "华锦股份"
+      },
+      {
+        "name": "贵金属",
+        "change_pct": 1.71,
+        "leader": "湖南黄金"
+      }
+    ],
+    "top_loss": [
+      {
+        "name": "半导体",
+        "change_pct": -0.64,
+        "leader": "灿瑞科技"
+      },
+      {
+        "name": "化学制药",
+        "change_pct": -0.77,
+        "leader": "冀衡医药"
+      },
+      {
+        "name": "电子化学品",
+        "change_pct": -0.83,
+        "leader": "宏昌电子"
+      },
+      {
+        "name": "生物制品",
+        "change_pct": -1.72,
+        "leader": "康弘药业"
+      },
+      {
+        "name": "医疗服务",
+        "change_pct": -2.02,
+        "leader": "大湖股份"
+      }
+    ]
   },
-  "timestamp": "2026-08-27 00:05"
+  "north_flow": 0.0,
+  "north_detail": {
+    "sh": 0.0,
+    "sz": 0.0
+  },
+  "updated": "2026-08-28 03:35 UTC"
 }

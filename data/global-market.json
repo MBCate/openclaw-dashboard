@@ -1,26 +1,27 @@
 {
-  "updated": "2026-08-28T01:15:00Z",
+  "updated": "2026-08-28T13:30:00Z",
   "us_markets": {
-    "dow_jones": {"value": 53485.00, "change_pct": 0.20, "note": "Added ~105 pts; Nvidia-led tech strength offset broad declines"},
-    "sp500": {"value": 7730.00, "change_pct": 0.70, "note": "Pulled closer to record; Nvidia +8.7% strongest force"},
-    "nasdaq": {"value": null, "change_pct": 1.60, "note": "Climbed 1.6% on AI chip rally, Nasdaq-100 +1.28% at open"}
+    "dow_jones": {"value": 53569.44, "change_pct": 0.20, "note": "Closed +0.20% Thursday; Nvidia-led tech offset broad declines"},
+    "sp500": {"value": 7730.00, "change_pct": 0.70, "note": "Rose 0.7%, pulled closer to record set earlier this month"},
+    "nasdaq": {"value": null, "change_pct": 1.60, "note": "Climbed 1.6% on AI chip rally; Nvidia +8.7% strongest force"}
   },
   "crypto": {
-    "btc": {"value": 79000, "change_pct": 0.60, "note": "Holds above $79k, consolidating near highs"},
-    "eth": {"value": 2485.00, "change_pct": 0.56, "note": "Steady; risk appetite lifted by AI rally"}
+    "btc": {"value": 79133, "change_pct": -0.52, "note": "~$79.1k, down 0.52% in 24h; holding above $79k support"},
+    "eth": {"value": 2485, "change_pct": -0.90, "note": "~$2,485, down ~$23 from yesterday; BTC dominance 59.2%"}
   },
   "macro": {
-    "nvidia": "Q2 revenue $96.22B, EPS $2.22 beat; forecast +70% rev growth next FY; shares +8.7%, +$440B mkt value",
+    "nvidia": "Q2 revenue $96.22B, EPS $2.22 beat; +$440B mkt value, shares +8.7%; forecast +70% rev growth next FY",
     "jackson_hole": "Fed Chair Warsh delivers key Jackson Hole speech Friday — rate path in focus",
-    "jobless_claims": "Weekly jobless claims fell; goods-trade deficit widened",
-    "oil": "Crude pressured by rising Hormuz flows and Gulf supply ramp-up"
+    "iran_oil": "Gulf tanker rates near $650,000/day as Iran war disrupts crude flows; oil pressured",
+    "yields": "Long-dated yields edge higher ahead of Warsh speech",
+    "marvell": "Shares tumble 8% as outlook underwhelms despite 37% revenue growth"
   },
   "headlines": [
-    {"source": "Reuters", "title": "Nvidia ignites chip-stock rally as forecast shows AI boom is intact", "impact": "+70% rev outlook eases AI-spending fears, lifts whole sector"},
-    {"source": "CNBC", "title": "Nvidia adds $440B in value after blowout earnings boost AI trade", "impact": "Triple-play beat; largest Nvidia gain since Apr 2025"},
     {"source": "AP", "title": "S&P 500 rose 0.7% Thursday, pulled closer to record on Nvidia strength", "impact": "Nasdaq +1.6%, Dow +0.2%; Nvidia offset broad declines"},
     {"source": "CNBC", "title": "Fed Chairman Kevin Warsh delivers key Jackson Hole speech Friday", "impact": "Rate direction in focus as markets await guidance"},
-    {"source": "TradingEconomics", "title": "Shanghai composite rose 1.13% to 3957 on Aug 27", "impact": "A-shares strong; +3.76% over past month"},
-    {"source": "WSJ", "title": "Nvidia's bullish forecast lifts stocks tied to AI buildout", "impact": "Memory/chip names rally; Salesforce, CrowdStrike also strong"}
+    {"source": "Bloomberg", "title": "Gulf Oil Tankers Near $650,000 a Day as Iran War Disrupts Flows", "impact": "Shipping costs surge; crude supply risk elevated"},
+    {"source": "CNBC", "title": "Marvell shares tumble 8% as outlook underwhelms despite 37% revenue growth", "impact": "AI infrastructure names diverge from Nvidia's bullish read"},
+    {"source": "Bloomberg", "title": "Long-Dated Yields Edge Higher Ahead of Warsh Speech", "impact": "Bond market cautious; curve steepening pressure"},
+    {"source": "WSJ", "title": "Comex Gold, Silver Settle Lower", "impact": "Precious metals pull back; yields rising"}
   ]
 }

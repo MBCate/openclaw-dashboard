@@ -1,98 +1,114 @@
 {
   "indices": {
     "上证指数": {
-      "code": "1.000001",
-      "price": 3959.639,
-      "change_pct": 0.078,
-      "change": 3.068,
-      "volume": 328394797.0,
-      "amount": 653404594602.0
+      "code": "sh000001",
+      "price": 3952.179,
+      "change_pct": -0.111,
+      "change": -4.392,
+      "open": 3950.2368,
+      "high": 3970.3095,
+      "low": 3947.7981,
+      "pre_close": 3956.571,
+      "volume": 510581645.0,
+      "amount": 970365152113.0
     },
     "深证成指": {
-      "code": "0.399001",
-      "price": 14029.834,
-      "change_pct": -0.136,
-      "change": -19.042,
-      "volume": 41168103235.0,
-      "amount": 769924579415.0
+      "code": "sz399001",
+      "price": 13953.065,
+      "change_pct": -0.682,
+      "change": -95.811,
+      "open": 14019.277,
+      "high": 14148.684,
+      "low": 13949.618,
+      "pre_close": 14048.876,
+      "volume": 63034607975.0,
+      "amount": 1131349872246.0
     },
     "创业板指": {
-      "code": "0.399006",
-      "price": 3462.075,
-      "change_pct": -0.325,
-      "change": -11.28,
-      "volume": 12521653157.0,
-      "amount": 376647429738.0
+      "code": "sz399006",
+      "price": 3424.401,
+      "change_pct": -1.409,
+      "change": -48.954,
+      "open": 3453.729,
+      "high": 3521.469,
+      "low": 3423.074,
+      "pre_close": 3473.355,
+      "volume": 18615422178.0,
+      "amount": 544255103825.0
     },
     "沪深300": {
-      "code": "0.399300",
-      "price": 4625.7336,
-      "change_pct": -0.098,
-      "change": -4.543,
-      "volume": 112876332.0,
-      "amount": 367993303760.0
+      "code": "sh000300",
+      "price": 4609.1764,
+      "change_pct": -0.456,
+      "change": -21.101,
+      "open": 4615.8393,
+      "high": 4643.3351,
+      "low": 4608.4617,
+      "pre_close": 4630.277,
+      "volume": 180989495.0,
+      "amount": 549813480130.0
     }
   },
   "sectors": {
     "top_gain": [
       {
-        "name": "种植业与林业",
-        "change_pct": 3.22,
-        "leader": "秋乐种业"
+        "name": "农药化肥",
+        "change_pct": 2.4158872290438,
+        "leader": ""
       },
       {
-        "name": "房地产",
-        "change_pct": 1.94,
-        "leader": "我爱我家"
+        "name": "石油行业",
+        "change_pct": 2.0767930451582,
+        "leader": ""
       },
       {
-        "name": "零售",
-        "change_pct": 1.89,
-        "leader": "香江控股"
+        "name": "农林牧渔",
+        "change_pct": 2.0488149193848,
+        "leader": ""
       },
       {
-        "name": "石油加工贸易",
-        "change_pct": 1.88,
-        "leader": "华锦股份"
+        "name": "纺织行业",
+        "change_pct": 1.6679052101395,
+        "leader": ""
       },
       {
-        "name": "贵金属",
-        "change_pct": 1.71,
-        "leader": "湖南黄金"
+        "name": "印刷包装",
+        "change_pct": 1.6585275960564,
+        "leader": ""
       }
     ],
     "top_loss": [
       {
-        "name": "半导体",
-        "change_pct": -0.64,
-        "leader": "灿瑞科技"
+        "name": "仪器仪表",
+        "change_pct": -0.75531849672001,
+        "leader": ""
       },
       {
-        "name": "化学制药",
-        "change_pct": -0.77,
-        "leader": "冀衡医药"
+        "name": "电子器件",
+        "change_pct": -1.025804042667,
+        "leader": ""
       },
       {
-        "name": "电子化学品",
-        "change_pct": -0.83,
-        "leader": "宏昌电子"
+        "name": "医疗器械",
+        "change_pct": -1.0614566224597,
+        "leader": ""
       },
       {
-        "name": "生物制品",
-        "change_pct": -1.72,
-        "leader": "康弘药业"
+        "name": "发电设备",
+        "change_pct": -1.618682672635,
+        "leader": ""
       },
       {
-        "name": "医疗服务",
-        "change_pct": -2.02,
-        "leader": "大湖股份"
+        "name": "次新股",
+        "change_pct": -3.1592842334036,
+        "leader": ""
       }
     ]
   },
   "north_flow": 0.0,
   "north_detail": {
-    "sh": 0.0,
-    "sz": 0.0
+    "沪股通": 0.0,
+    "深股通": 0.0
   },
-  "updated": "2026-08-28 03:35 UTC"
+  "updated": "2026-08-28 07:08 UTC"
 }

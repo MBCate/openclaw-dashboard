@@ -1,28 +1,37 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-08-27 07:05 UTC",
+  "updated": "2026-08-28 07:09 UTC",
   "status": "degraded",
   "last_run": {
-    "date": "2026-08-27",
-    "timestamp": "2026-08-27T00:05:00",
-    "success": true
+    "date": "2026-08-28",
+    "timestamp": "2026-08-28T07:05:00",
+    "success": false,
+    "note": "OKX crypto API 拉取失败, A股数据通过新浪源可用"
   },
   "crypto": {
     "status": "error",
     "error": "'<' not supported between instances of 'NoneType' and 'str'",
-    "note": "OKX 数据拉取失败"
+    "note": "OKX 数据拉取失败, 加密策略信号不可用"
   },
   "stocks": {
     "status": "success",
-    "note": "2026-08-27 A股收盘数据 (部分指数代理不可用)",
+    "note": "2026-08-28 A股收盘数据 (通过新浪源采集)",
     "data": {
       "上证指数": {
-        "price": 3956.57,
-        "change_pct": 1.13
+        "price": 3952.18,
+        "change_pct": -0.11
       },
       "深证成指": {
-        "price": 13956.96,
-        "change_pct": 0.84
+        "price": 13953.07,
+        "change_pct": -0.68
+      },
+      "创业板指": {
+        "price": 3424.4,
+        "change_pct": -1.41
+      },
+      "沪深300": {
+        "price": 4609.18,
+        "change_pct": -0.46
       }
     }
   },
@@ -30,12 +39,13 @@
     "status": "success",
     "crypto_fear_greed": {
       "value": 74,
-      "classification": "Greed"
+      "classification": "Greed",
+      "note": "来自上一次成功拉取"
     }
   },
   "strategies": {
     "note": "8策略(DoubleMa/TripleMa/Supertrend/RSI/MACD/Bollinger/Momentum/MeanReversion)本期无新增回测输出",
     "latest_backtest": "2026-01-04 (reports)"
   },
-  "last_check": "2026-08-27 00:05 PT"
+  "last_check": "2026-08-28 00:09 "
 }

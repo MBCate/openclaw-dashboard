@@ -1,6 +1,6 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-08-28 07:09 UTC",
+  "updated": "2026-08-28 09:00 UTC",
   "status": "degraded",
   "last_run": {
     "date": "2026-08-28",
@@ -47,5 +47,6 @@
     "note": "8策略(DoubleMa/TripleMa/Supertrend/RSI/MACD/Bollinger/Momentum/MeanReversion)本期无新增回测输出",
     "latest_backtest": "2026-01-04 (reports)"
   },
-  "last_check": "2026-08-28 00:09 "
+  "last_check": "2026-08-28 00:09 ",
+  "weekly_report": "2026-08-28"
 }

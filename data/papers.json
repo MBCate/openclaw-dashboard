@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27",
+  "updated": "2026-08-28",
   "papers": [
     {
       "title": "CARE: Camera-Residual Reserves for First Sightings in Adaptive LiDAR Sensing",
@@ -3048,6 +3048,62 @@
       "abstract": "Emergency vehicles (EMVs) can reorganize surrounding traffic as civilian vehicles brake, change lanes, or form rescue corridors in response to their passage. Evaluating these safety-critical interactions requires behavior-level control over both EMV privileges and civilian responses, together with consistent sensing and ground truth. Existing datasets and simulation benchmarks do not directly provide this combination. We present \\textbf{SIREN}, a behavior-driven SUMO--CARLA co-simulation platform for generating EMV--civilian interactions. SIREN couples SUMO's network-level traffic evolution and behavior logic with CARLA's continuous vehicle control and synchronized onboard sensing; depending on the active behavior, the interaction is controlled by SUMO, CARLA, or jointly. We instantiate the platform as \\textbf{SIREN-Bench-v1}, comprising seven parameterized interaction templates across emergency levels L1--L3 and three behavior families, with synchronized sensor observations and simulator-native annotations. We demonstrate the benchmark through three representative tasks: 3D object detection, trajectory prediction, and vision-language risk understanding. Evaluations of nine trajectory predictors, four LiDAR-based detectors, and five vision-language models reveal behavior-dependent failure modes. Traffic-clearance interactions are hardest for detection, privileged intersection traversal is hardest for prediction, and no learned predictor outperforms the constant-velocity reference on average. Vision-language models perform substantially better on normal traffic than on near-miss and collision events. These results demonstrate the value of behavior-centered benchmarking and establish SIREN as an extensible data-generation and evaluation platform for autonomous-driving and transportation safety research.",
       "relevance": 3,
       "topic": "Simulation & Validation / Autonomous Driving",
+      "status": "new",
+      "status_en": "新发现",
+      "weekly": false
+    },
+    {
+      "title": "SpatialCrafter: Single Image World Modeling with Generative 3D Proxies",
+      "id": "2608.27073v1",
+      "published": "2026-08-27T12:58:37Z",
+      "authors": "Chuan Fang, Lingteng Qiu, Yixun Liang, Rui Chen, Kunming Luo, Zhaohua Zheng, Tongyuan Bai, Feipeng Tian, Zilong Dong, Zihan Zhou, Ping Tan",
+      "summary": "Explorable image-to-scene generation is essential for applications in gaming, robotics, and virtual reality. Existing methods based on video diffusion model (VDM) commonly rely on incomplete conditioning signals such as sparse point clouds or 2D panoramas, leading to stochastic hallucinations, long-term drifts and suboptimal 3D consistency. We present SpatialCrafter, a novel two-stage framework that addresses these issues by introducing a global 3D proxy for high-fidelity image-to-scene generation. Specifically, we decompose the generation process into global proxy generation and appearance refinement. For proxy generation, we propose a Point-anchored Sparse Structure~(PaSS) Flow module that predicts a spatially aligned and geometrically consistent 3D proxy. For appearance refinement, we re-frame the VDM as a Generative Deferred Refiner which synthesizes high-frequency photorealistic details upon proxy-defined scene geometry. To better integrate the proxy with the pre-trained VDM, we introduce Parallel Geometry Injection and Proxy-Aware Corruption training strategies, which improve robustness to proxy artifacts without disrupting the pretrained generative manifold. Furthermore, as no suitable dataset exists for this explorable scene generation task, we construct a new large-scale dataset of 115K scenes. To the best of our knowledge, it is the first hybrid dataset for image-to-scene generation. Extensive experiments on both synthetic and real-world datasets show that SpatialCrafter outperforms state-of-the-art methods, mitigates long-term drift, and remains robust and consistent under rapid camera motion and extreme viewpoint changes. Code, models, and the newly constructed dataset will be publicly released. See more at https://fangchuan.github.io/SpatialCrafter/.",
+      "categories": "cs.CV",
+      "relevance": 3,
+      "topic": "World Models",
+      "date": "2026-08-27",
+      "status": "new",
+      "status_en": "新发现",
+      "weekly": false
+    },
+    {
+      "title": "DPA-I2P: Depth-Guided Projective Alignment for Image-to-Point-Cloud Registration in Autonomous Driving",
+      "id": "2608.26589v1",
+      "published": "2026-08-27T04:01:15Z",
+      "authors": "Wenxin Zhang, Hang Li, Zhiwei Xu, Qiankun Dong, Gang Wang, Tao Li",
+      "summary": "Image-to-Point Cloud Registration aims to estimate the camera pose of a given image within a 3D scene point cloud, which is a fundamental task in autonomous driving and large-scale outdoor localization. Recent implicit correspondence learning methods have improved registration performance by learning cross-modal alignment in an end-to-end framework, leading to more accurate camera pose estimation. However, due to the inherent modality discrepancy between images and sparse LiDAR point clouds, reliable cross-modal correspondence learning remains challenging. To address this issue, we propose Depth-Guided Projective Alignment for Image-to-Point-Cloud Registration (DPA-I2P). Unlike naive depth or feature concatenation, Ray-Conditioned Metric Depth Encoding (RMDE) and Projection-Consistent Vision Lifting (PVL) exploit depth and visual cues in a structured, geometry-aware manner. In addition, Cross-Modal Query Pruning (CQP) suppresses unreliable queries during early refinement to improve matching stability. Experiments on KITTI and nuScenes demonstrate the effectiveness of the proposed method. On KITTI, DPA-I2P reduces RTE and RRE by 45.0% and 55.6% over the strongest implicit baseline, respectively. On nuScenes, DPA-I2P also improves registration accuracy over the evaluated baselines, suggesting better transferability to different driving scenes.",
+      "categories": "cs.CV",
+      "relevance": 3,
+      "topic": "Perception",
+      "date": "2026-08-27",
+      "status": "new",
+      "status_en": "新发现",
+      "weekly": false
+    },
+    {
+      "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
+      "id": "2608.27406v1",
+      "published": "2026-08-27T17:35:10Z",
+      "authors": "Kechen Liu, Ola Shorinwa",
+      "summary": "State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning generalizable physics. To bridge this gap, we introduce CLAP, a framework for cross-embodiment action-conditioned video generation capable of being trained on diverse, internet-scale videos across human and robotic agents. CLAP is grounded in the insight that universal physical laws govern spatiotemporal dynamics regardless of the actor. However, cross-embodiment learning is non-trivial because action representations vary sharply across robot platforms and are typically absent in human videos. CLAP addresses this fundamental challenge through the following core contributions. First, CLAP reconciles disparate action spaces using end-effector poses, language instructions, and latent actions. Second, to resolve their individual limitations, CLAP introduces a curriculum-based cross-embodiment learning recipe that first learns foundational physical priors across unlabeled video data using latent actions and subsequently grounds them in end-effector action spaces for zero-shot deployment to real-world tasks. Crucially, CLAP approaches or surpasses state-of-the-art single-embodiment video models in challenging environments like DROID. These performance advantages compound via few-shot adaptation to establish a novel paradigm for training single-embodiment video world models. Ultimately, CLAP delivers the most comprehensive suite of action-conditioned video world models to date - spanning diverse action-conditioning spaces (end-effector, language, and latent) and robot morphologies (including cross-embodiment, DROID, Bridge, bimanual YAM robots, and G1 humanoids). We open-source all code and models. Project Website at https://omni-clap.github.io .",
+      "categories": "cs.RO",
+      "relevance": 4,
+      "topic": "World Models",
+      "date": "2026-08-27",
+      "status": "new",
+      "status_en": "新发现",
+      "weekly": false
+    },
+    {
+      "title": "Diffusion Policies for Short-Horizon Planning in Robot Crowd Navigation",
+      "id": "2608.27158v1",
+      "published": "2026-08-27T14:10:39Z",
+      "authors": "Wendong Li, Jochen Garcke",
+      "summary": "Robot crowd navigation requires safe and efficient decision-making under dense, dynamic, and multimodal human--robot interactions. Existing reinforcement-learning methods typically output a single reactive action at each timestep, which limits their ability to represent diverse short-term avoidance strategies. We propose Planning Diffusion Policy Optimization (PDPO), an offline-to-online reinforcement-learning framework that uses a diffusion policy to generate short-horizon action chunks for crowd navigation. PDPO is first pretrained on collision-avoidance demonstrations and then fine-tuned online with PPO by treating the denoising process as an internal decision process. During execution, the policy generates a five-step action chunk and applies it in a receding-horizon manner. Furthermore, we observe an evaluation artifact in common crowd-navigation benchmarks: without explicit boundary constraints, learned agents may leave the valid domain and bypass dense crowds. To address this, we introduce a setting in which boundary violations are treated as collisions. Experiments show that PDPO obtains an improved success rate over strong baselines, and ablations demonstrate that action chunks are especially important for the modified bounded benchmark.",
+      "categories": "cs.LG",
+      "relevance": 3,
+      "topic": "Diffusion Policy",
+      "date": "2026-08-27",
       "status": "new",
       "status_en": "新发现",
       "weekly": false

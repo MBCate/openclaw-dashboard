@@ -27,7 +27,7 @@
       "date": "2026-08-24",
       "status": "new",
       "status_en": "新发现",
-      "weekly": false
+      "weekly": true
     },
     {
       "title": "Roadside-Cooperative Autonomous Driving: From Data Platform to Vision-Language End-to-End Reasoning",
@@ -363,7 +363,7 @@
       "date": "2026-08-25",
       "status": "new",
       "status_en": "新发现",
-      "weekly": false
+      "weekly": true
     },
     {
       "title": "GeoWAM: Visual Geometry World Action Models for Autonomous Driving",
@@ -377,7 +377,7 @@
       "date": "2026-08-24",
       "status": "new",
       "status_en": "新发现",
-      "weekly": false
+      "weekly": true
     },
     {
       "title": "World-Model-Grounded LLM Planning for AUV and ASV Navigation Near Offshore Wind Farms",
@@ -922,7 +922,7 @@
       "topic": "World Models",
       "status": "new",
       "status_en": "新发现",
-      "weekly": false
+      "weekly": true
     },
     {
       "title": "RAPAC-DP: Response-Aligned Pending-Action Compensation for Diffusion Policies under Delayed Execution",
@@ -2907,7 +2907,7 @@
       "topic": "World Models / Evaluation",
       "status": "new",
       "status_en": "新发现",
-      "weekly": false
+      "weekly": true
     },
     {
       "title": "LeFlow: Generative Latent Flow Planning for World Models",

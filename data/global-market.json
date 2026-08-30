@@ -1,27 +1,34 @@
 {
-  "updated": "2026-08-29T13:30:00Z",
+  "updated": "2026-08-30T13:30:00Z",
   "us_markets": {
     "dow_jones": {"value": 53559.99, "change_pct": -0.02, "note": "Closed roughly flat Friday; -9.45 pts; tech declines capped gains"},
     "sp500": {"value": 7711.76, "change_pct": -0.20, "note": "Fell 19.23 pts (-0.2%) as Warsh's hawkish speech weighed; +0.5% on week"},
-    "nasdaq": {"value": null, "change_pct": -0.50, "note": "Declined 0.5% after rising as much as +0.5% intraday; AI-led tech pulled back; +0.9% on week"}
+    "nasdaq": {"value": 26413.81, "change_pct": -0.46, "note": "Closed at 26,413.81 (-0.46%) Friday; AI-led tech pulled back; +0.9% on week"}
+  },
+  "hong_kong": {
+    "hang_seng": {"value": 25584.79, "change_pct": 0.07, "note": "Gained 0.07% Friday to close at 25,584.79; HSCEI flat at 8,490.39"},
+    "note": "Tan Seng rallied from Thursday's open near 25,410 after tech names weighed early in the week"
   },
   "crypto": {
-    "btc": {"value": 77680, "change_pct": -2.30, "note": "~$77.7k, down ~2.3% in 24h; fell below $78k support on risk-off"},
-    "eth": {"value": 2434, "change_pct": -2.50, "note": "~$2,434, down ~2.5%; market cap ~$293B; tracking BTC lower"}
+    "btc": {"value": 78661, "change_pct": 0.51, "note": "~$78,661, up ~0.5% in 24h per OKX; market cap ~$1.58T; held above $78k support"},
+    "eth": {"value": 2459, "change_pct": 1.02, "note": "~$2,459, up ~1.0%; tracking BTC higher; ~$293B market cap"}
   },
   "macro": {
     "warsh_jackson_hole": "Fed Chair Kevin Warsh reiterates focus on fighting inflation; says Fed must act if inflation stays high — even if it pains the economy short-term",
-    "iran_war": "Iran war exposes limits of US military endurance; Gulf tanker rates remain near $650,000/day",
-    "long_bond": "'Focus on the Long Bond in This Summer of Rising Yields' — long-dated yields keep edging higher",
+    "iran_war": "Iran war continues; helium shortage emerging; Gulf tanker rates remain elevated near $650,000/day",
+    "us_canada_trade": "U.S.-Canada trade war escalates with new tariff walls on steel/aluminum and critical metals; retailers handling tariff refunds differently",
+    "gold": "Gold bulls turning to exotic options and spreads in 'orderly' rally; dollar debasement backs bull case for emerging bonds",
     "week_summary": "S&P 500 +0.5% on the week, Nasdaq +0.9%, Dow roughly flat; Friday dip on hawkish Fed tone",
     "fed_outlook": "Hawkish Warsh speech strengthened faith Fed will bring inflation down; rate path in focus"
   },
   "headlines": [
     {"source": "AP", "title": "S&P 500 fell 19.23 pts (-0.2%) to 7,711.76 Friday; Dow roughly flat at 53,559.99", "impact": "Hawkish Warsh speech triggered cautious pullback after intraday gains"},
-    {"source": "Reuters", "title": "S&P 500, Nasdaq end lower Friday; investors cautious after Warsh reiterates inflation fight", "impact": "Indexes gave up early gains; tech-led rally cooled"},
-    {"source": "Bloomberg", "title": "Warsh Says Fed Must Act if Inflation Stays High", "impact": "Rate-hike path firm; markets price more tightening"},
-    {"source": "Bloomberg", "title": "Iran War Exposes Limits of US Military Endurance", "impact": "Geopolitical risk stays elevated; oil/shipping pressure"},
-    {"source": "Bloomberg", "title": "Focus on the Long Bond in This Summer of Rising Yields", "impact": "Long-dated yields climb; curve steepening"},
-    {"source": "CNBC", "title": "Dow -0.02% to 53,559.99; S&P +0.5%, Nasdaq +0.9% for the week", "impact": "Weekly gains intact despite Friday pullback"}
+    {"source": "Xinhua", "title": "Hang Seng Index gained 0.07% Friday to close at 25,584.79", "impact": "HK equities steadied after early-week tech drag"},
+    {"source": "CNBC", "title": "The 'choose your own adventure' earnings: Why retailers are handling tariff refunds so differently", "impact": "Tariff uncertainty creating divergent earnings impacts at Walmart, Home Depot, Target"},
+    {"source": "CNBC", "title": "Treasury's Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil", "impact": "Global economic diplomacy under pressure from multiple fronts"},
+    {"source": "CNBC", "title": "What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals", "impact": "Steel/aluminum supply chains at risk from escalating trade tensions"},
+    {"source": "Bloomberg", "title": "Gold Bulls Turn to Exotic Options, Spreads in 'Orderly' Rally", "impact": "Precious metals rally continues with sophisticated hedging strategies"},
+    {"source": "Bloomberg", "title": "Dollar Debasement Backs Bull Case for Emerging Bonds", "impact": "Currency weakness supporting EM debt inflows"},
+    {"source": "MarketWatch", "title": "AI isn't eating software after all — sector's 'epic' rally could run through October", "impact": "Software sector momentum may persist despite AI disruption fears"}
   ]
 }

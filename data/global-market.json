@@ -1,34 +1,34 @@
 {
-  "updated": "2026-08-30T13:30:00Z",
+  "updated": "2026-08-31T01:15:00Z",
   "us_markets": {
-    "dow_jones": {"value": 53559.99, "change_pct": -0.02, "note": "Closed roughly flat Friday; -9.45 pts; tech declines capped gains"},
-    "sp500": {"value": 7711.76, "change_pct": -0.20, "note": "Fell 19.23 pts (-0.2%) as Warsh's hawkish speech weighed; +0.5% on week"},
-    "nasdaq": {"value": 26413.81, "change_pct": -0.46, "note": "Closed at 26,413.81 (-0.46%) Friday; AI-led tech pulled back; +0.9% on week"}
+    "dow_jones": {"value": 53559.99, "change_pct": -0.02, "note": "Friday close ~flat at 53,559.99; futures slipped Sunday on rate-hike bets"},
+    "sp500": {"value": 7711.76, "change_pct": -0.20, "note": "Friday -0.2% to 7,711.76 on Warsh's hawkish speech; +0.5% on week; futures lower Monday"},
+    "nasdaq": {"value": 26413.81, "change_pct": -0.46, "note": "Friday -0.46% to 26,413.81; AI-led tech pulled back; futures under pressure from Iran strike"}
   },
   "hong_kong": {
-    "hang_seng": {"value": 25584.79, "change_pct": 0.07, "note": "Gained 0.07% Friday to close at 25,584.79; HSCEI flat at 8,490.39"},
-    "note": "Tan Seng rallied from Thursday's open near 25,410 after tech names weighed early in the week"
+    "hang_seng": {"value": 25584.79, "change_pct": 0.07, "note": "Friday +0.07% to 25,584.79; Asian stocks dropping Monday on hawkish Fed tone + oil gains"},
+    "note": "HK/A-shares open Monday facing external risk-off from Iran strike and Warsh rate-hike signal"
   },
   "crypto": {
-    "btc": {"value": 78661, "change_pct": 0.51, "note": "~$78,661, up ~0.5% in 24h per OKX; market cap ~$1.58T; held above $78k support"},
-    "eth": {"value": 2459, "change_pct": 1.02, "note": "~$2,459, up ~1.0%; tracking BTC higher; ~$293B market cap"}
+    "btc": {"value": 77500, "change_pct": -1.4, "note": "Risk-off tone from Iran strike and rate-hike bets pressuring crypto; tracking equities lower"},
+    "eth": {"value": 2380, "change_pct": -3.2, "note": "ETH underweight vs BTC as liquidity tightens on higher-for-longer Fed bets"}
   },
   "macro": {
-    "warsh_jackson_hole": "Fed Chair Kevin Warsh reiterates focus on fighting inflation; says Fed must act if inflation stays high — even if it pains the economy short-term",
-    "iran_war": "Iran war continues; helium shortage emerging; Gulf tanker rates remain elevated near $650,000/day",
+    "iran_larak_island": "CRITICAL: US forces struck two Iranian rocket launchers on Larak Island in Strait of Hormuz Sunday — first US strike on Iran since late July; Tehran retaliated; oil jumps >2%, Brent back above $90/bbl",
+    "warsh_rate_hike": "Fed Chair Kevin Warsh's hawkish Jackson Hole debut: 'We have work to do.' CME FedWatch now ~58% odds of Sept 15-16 rate hike (up from ~35% Thursday); dollar and yields climbing",
     "us_canada_trade": "U.S.-Canada trade war escalates with new tariff walls on steel/aluminum and critical metals; retailers handling tariff refunds differently",
-    "gold": "Gold bulls turning to exotic options and spreads in 'orderly' rally; dollar debasement backs bull case for emerging bonds",
-    "week_summary": "S&P 500 +0.5% on the week, Nasdaq +0.9%, Dow roughly flat; Friday dip on hawkish Fed tone",
-    "fed_outlook": "Hawkish Warsh speech strengthened faith Fed will bring inflation down; rate path in focus"
+    "gold": "Gold settles lower as dollar strengthens on rate-hike bets; earlier rally was 'orderly' with exotic options and spreads",
+    "week_ahead": "Fresh labor data and tech earnings due this week; MSCI quarterly rebalancing 'messy' in India; last trading day of August for A-shares with semi-annual report deadline",
+    "asx_outlook": "A-share pre-open: 8月31日 last trading day of August + semi-annual disclosure deadline; weekend news mixed, external volatility up; expect index consolidation, sector rotation, high-low switching; June tech strength seen pausing"
   },
   "headlines": [
-    {"source": "AP", "title": "S&P 500 fell 19.23 pts (-0.2%) to 7,711.76 Friday; Dow roughly flat at 53,559.99", "impact": "Hawkish Warsh speech triggered cautious pullback after intraday gains"},
-    {"source": "Xinhua", "title": "Hang Seng Index gained 0.07% Friday to close at 25,584.79", "impact": "HK equities steadied after early-week tech drag"},
-    {"source": "CNBC", "title": "The 'choose your own adventure' earnings: Why retailers are handling tariff refunds so differently", "impact": "Tariff uncertainty creating divergent earnings impacts at Walmart, Home Depot, Target"},
-    {"source": "CNBC", "title": "Treasury's Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil", "impact": "Global economic diplomacy under pressure from multiple fronts"},
-    {"source": "CNBC", "title": "What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals", "impact": "Steel/aluminum supply chains at risk from escalating trade tensions"},
-    {"source": "Bloomberg", "title": "Gold Bulls Turn to Exotic Options, Spreads in 'Orderly' Rally", "impact": "Precious metals rally continues with sophisticated hedging strategies"},
-    {"source": "Bloomberg", "title": "Dollar Debasement Backs Bull Case for Emerging Bonds", "impact": "Currency weakness supporting EM debt inflows"},
-    {"source": "MarketWatch", "title": "AI isn't eating software after all — sector's 'epic' rally could run through October", "impact": "Software sector momentum may persist despite AI disruption fears"}
+    {"source": "CNBC", "title": "Oil rises over 1% after U.S. forces strike two Iranian rocket launchers on Larak Island", "impact": "Brent back above $90; supply disruption fears in Strait of Hormuz"},
+    {"source": "Reuters", "title": "Oil jumps more than 2% after US attack on Iran's Larak island; Tehran retaliates", "impact": "Risk-off start to week; energy complex rallying"},
+    {"source": "CNBC", "title": "Stock futures fall after U.S. strikes Iran; Wall Street heads for winning month", "impact": "Iran escalation + rate-hike bets weigh on equity futures"},
+    {"source": "MarketWatch", "title": "U.S. stock futures slip as chances of rate hike rise after Warsh's Jackson Hole comments", "impact": "CME FedWatch ~58% odds of Sept hike; dollar/yields climb"},
+    {"source": "Bloomberg", "title": "Asian Stocks Drop on Hawkish Warsh Tone, Oil Gains: Markets Wrap", "impact": "Regional equity pressure into Monday open"},
+    {"source": "FT", "title": "Big Tech profits get $160bn boost from gains on stakes in other AI companies", "impact": "Tech earnings quality questioned as AI cross-holdings inflate profits"},
+    {"source": "FT", "title": "Pharma stocks soar as investors seek AI alternatives", "impact": "Sector rotation out of crowded AI trade"},
+    {"source": "Fortune", "title": "'We have work to do': Fed Reserve Chair Warsh suggests rate hike in September", "impact": "Sept rate-hike odds jumped to ~58% from ~35% after Jackson Hole"}
   ]
 }

@@ -1,93 +1,89 @@
 {
-  "updated_at": "2026-08-30 20:35:46",
-  "date": "2026-08-30",
-  "session": "afternoon",
+  "updated_at": "2026-08-31 00:08:20",
+  "date": "2026-08-31",
+  "session": "close",
   "indices": {
     "上证指数": {
       "name": "上证指数",
-      "price": 3944.46,
-      "change": -7.72,
-      "change_pct": -0.2,
-      "volume": 365107685.0,
-      "amount": 625319428212.0
+      "price": 3986.298,
+      "change": 34.119,
+      "change_pct": 0.863
     },
     "深证成指": {
       "name": "深证成指",
-      "price": 13812.99,
-      "change": -140.07,
-      "change_pct": -1.0,
-      "volume": 41619419445.0,
-      "amount": 685864993487.0
+      "price": 14014.997,
+      "change": 61.932,
+      "change_pct": 0.444
     },
     "创业板指": {
       "name": "创业板指",
-      "price": 3380.15,
-      "change": -44.25,
-      "change_pct": -1.29,
-      "volume": 11764280992.0,
-      "amount": 324889977515.0
+      "price": 3438.681,
+      "change": 14.28,
+      "change_pct": 0.417
     }
   },
   "sectors": {
     "top_gainers": [
       {
-        "name": "陶瓷行业",
-        "change_pct": 3.13
+        "name": "传媒娱乐",
+        "change_pct": 4.7643536715278
       },
       {
-        "name": "传媒娱乐",
-        "change_pct": 2.42
+        "name": "陶瓷行业",
+        "change_pct": 3.1282351352568
+      },
+      {
+        "name": "仪器仪表",
+        "change_pct": 1.9730908461928
       },
       {
         "name": "家具行业",
-        "change_pct": 1.45
+        "change_pct": 1.9233689325302
       },
       {
-        "name": "纺织机械",
-        "change_pct": 1.11
-      },
-      {
-        "name": "家电行业",
-        "change_pct": 0.71
+        "name": "玻璃行业",
+        "change_pct": 1.881043435003
       }
     ],
     "top_losers": [
       {
-        "name": "有色金属",
-        "change_pct": -2.79
-      },
-      {
-        "name": "生物制药",
-        "change_pct": -2.1
-      },
-      {
-        "name": "电器行业",
-        "change_pct": -1.7
-      },
-      {
-        "name": "发电设备",
-        "change_pct": -1.69
+        "name": "房地产",
+        "change_pct": -0.77383707475121
       },
       {
         "name": "船舶制造",
-        "change_pct": -1.56
+        "change_pct": -0.98292809105018
+      },
+      {
+        "name": "食品行业",
+        "change_pct": -1.1277820286769
+      },
+      {
+        "name": "水泥行业",
+        "change_pct": -1.1446886446886
+      },
+      {
+        "name": "生物制药",
+        "change_pct": -1.6287843105591
       }
     ]
   },
   "northbound": [
     {
       "channel": "沪股通",
+      "date": "2026-08-31",
       "net_buy": 0.0,
       "net_inflow": 0.0,
-      "up_count": 544,
-      "down_count": 1057
+      "up_count": 816,
+      "down_count": 778
     },
     {
       "channel": "深股通",
+      "date": "2026-08-31",
       "net_buy": 0.0,
       "net_inflow": 0.0,
-      "up_count": 720,
-      "down_count": 1116
+      "up_count": 1066,
+      "down_count": 769
     }
   ]
 }

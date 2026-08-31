@@ -1,114 +1,93 @@
 {
+  "updated_at": "2026-08-30 20:35:46",
+  "date": "2026-08-30",
+  "session": "afternoon",
   "indices": {
     "上证指数": {
-      "code": "sh000001",
-      "price": 3952.179,
-      "change_pct": -0.111,
-      "change": -4.392,
-      "open": 3950.2368,
-      "high": 3970.3095,
-      "low": 3947.7981,
-      "pre_close": 3956.571,
-      "volume": 510581645.0,
-      "amount": 970365152113.0
+      "name": "上证指数",
+      "price": 3944.46,
+      "change": -7.72,
+      "change_pct": -0.2,
+      "volume": 365107685.0,
+      "amount": 625319428212.0
     },
     "深证成指": {
-      "code": "sz399001",
-      "price": 13953.065,
-      "change_pct": -0.682,
-      "change": -95.811,
-      "open": 14019.277,
-      "high": 14148.684,
-      "low": 13949.618,
-      "pre_close": 14048.876,
-      "volume": 63034607975.0,
-      "amount": 1131349872246.0
+      "name": "深证成指",
+      "price": 13812.99,
+      "change": -140.07,
+      "change_pct": -1.0,
+      "volume": 41619419445.0,
+      "amount": 685864993487.0
     },
     "创业板指": {
-      "code": "sz399006",
-      "price": 3424.401,
-      "change_pct": -1.409,
-      "change": -48.954,
-      "open": 3453.729,
-      "high": 3521.469,
-      "low": 3423.074,
-      "pre_close": 3473.355,
-      "volume": 18615422178.0,
-      "amount": 544255103825.0
-    },
-    "沪深300": {
-      "code": "sh000300",
-      "price": 4609.1764,
-      "change_pct": -0.456,
-      "change": -21.101,
-      "open": 4615.8393,
-      "high": 4643.3351,
-      "low": 4608.4617,
-      "pre_close": 4630.277,
-      "volume": 180989495.0,
-      "amount": 549813480130.0
+      "name": "创业板指",
+      "price": 3380.15,
+      "change": -44.25,
+      "change_pct": -1.29,
+      "volume": 11764280992.0,
+      "amount": 324889977515.0
     }
   },
   "sectors": {
-    "top_gain": [
+    "top_gainers": [
       {
-        "name": "农药化肥",
-        "change_pct": 2.4158872290438,
-        "leader": ""
+        "name": "陶瓷行业",
+        "change_pct": 3.13
       },
       {
-        "name": "石油行业",
-        "change_pct": 2.0767930451582,
-        "leader": ""
+        "name": "传媒娱乐",
+        "change_pct": 2.42
       },
       {
-        "name": "农林牧渔",
-        "change_pct": 2.0488149193848,
-        "leader": ""
+        "name": "家具行业",
+        "change_pct": 1.45
       },
       {
-        "name": "纺织行业",
-        "change_pct": 1.6679052101395,
-        "leader": ""
+        "name": "纺织机械",
+        "change_pct": 1.11
       },
       {
-        "name": "印刷包装",
-        "change_pct": 1.6585275960564,
-        "leader": ""
+        "name": "家电行业",
+        "change_pct": 0.71
       }
     ],
-    "top_loss": [
+    "top_losers": [
       {
-        "name": "仪器仪表",
-        "change_pct": -0.75531849672001,
-        "leader": ""
+        "name": "有色金属",
+        "change_pct": -2.79
       },
       {
-        "name": "电子器件",
-        "change_pct": -1.025804042667,
-        "leader": ""
+        "name": "生物制药",
+        "change_pct": -2.1
       },
       {
-        "name": "医疗器械",
-        "change_pct": -1.0614566224597,
-        "leader": ""
+        "name": "电器行业",
+        "change_pct": -1.7
       },
       {
         "name": "发电设备",
-        "change_pct": -1.618682672635,
-        "leader": ""
+        "change_pct": -1.69
       },
       {
-        "name": "次新股",
-        "change_pct": -3.1592842334036,
-        "leader": ""
+        "name": "船舶制造",
+        "change_pct": -1.56
       }
     ]
   },
-  "north_flow": 0.0,
-  "north_detail": {
-    "沪股通": 0.0,
-    "深股通": 0.0
-  },
-  "updated": "2026-08-28 07:08 UTC"
+  "northbound": [
+    {
+      "channel": "沪股通",
+      "net_buy": 0.0,
+      "net_inflow": 0.0,
+      "up_count": 544,
+      "down_count": 1057
+    },
+    {
+      "channel": "深股通",
+      "net_buy": 0.0,
+      "net_inflow": 0.0,
+      "up_count": 720,
+      "down_count": 1116
+    }
+  ]
 }

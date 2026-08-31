@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29",
+  "updated": "2026-08-30",
   "papers": [
     {
       "title": "CARE: Camera-Residual Reserves for First Sightings in Adaptive LiDAR Sensing",
@@ -3202,6 +3202,62 @@
       "relevance": 3,
       "topic": "LLM Agents",
       "date": "2026-08-27",
+      "status": "new",
+      "status_en": "新发现",
+      "weekly": false
+    },
+    {
+      "title": "CAViAR: A Causal Video Dataset for Fine-Grained Accident Reasoning in Real-World Scenarios",
+      "id": "2608.19380v1",
+      "published": "2026-08-19T18:51:21Z",
+      "authors": "Sparsh Garg, Yi-Wen Chen, Vijay Kumar B G, Abhishek Aich",
+      "summary": "While modern autonomous driving systems excel at perception tasks such as object detection and trajectory prediction, they lack the high-level causal reasoning required to interpret traffic accidents. In particular, determining responsibility, such as identifying who is at fault and which traffic rule was violated, remains largely unexplored in current benchmarks. To this end, we introduce CAViAR (Causal Accident Video and Incident Analysis Repository), a human-annotated dashcam benchmark comprising 2,249 real-world accident videos collected from CarCrashDataset (CCD) and Nexar. Each video is annotated with structured labels spanning environmental conditions, accident type, causal explanation, apparent At-Fault Agent, affected agent, and apparent rule-violation category. We benchmark state-of-the-art vision-language models (VLMs), including Cosmos-Reason2, Qwen3-VL, and InternVL3. Once class imbalance is accounted for with majority/random baselines and balanced metrics, perceptual competence is uneven--lighting is nearly solved, whereas weather and road-condition accuracy fall at or below the majority-class baseline---and all models degrade sharply on accident type and responsibili",
+      "categories": "cs.CV",
+      "relevance": 4,
+      "topic": "Perception",
+      "date": "2026-08-19",
+      "status": "new",
+      "status_en": "新发现",
+      "weekly": false
+    },
+    {
+      "title": "Risk-Adaptive Edge--Cloud Visual Reasoning for Communication-Efficient Autonomous Driving",
+      "id": "2608.14991v1",
+      "published": "2026-08-15T02:36:01Z",
+      "authors": "Meng Ma, Shuyang Li, Naigang Wang, Ruimin Ke",
+      "summary": "Cloud-hosted vision-language models (VLMs) offer greater contextual reasoning capabilities than smaller onboard models, but frequent visual uploads increase communication overhead and add network and inference latency to tactical decisions. We present a risk-adaptive edge-cloud architecture in which onboard traffic assessment determines when cloud reasoning is requested. An onboard VLM and a lightweight detector capture temporal traffic conditions and path-relative hazards for conservative local response and selective cloud access. The cloud model provides tactical advice, while validation, vehicle control, and automatic emergency braking remain local. In CARLA experiments, our method matched the task success rate of periodic cloud access while reducing cloud requests by 54.1% and recording fewer automatic emergency braking (AEB) activations. In a delayed-roadwork ablation, semantic events triggered requests before the next scheduled audit. Across three emulated network profiles, the method continued to reduce cloud traffic, although lane changes took longer than with periodic access. Onboard traffic assessment therefore served as a practical trigger for selective VLM inference in ",
+      "categories": "cs.CV",
+      "relevance": 4,
+      "topic": "Planning",
+      "date": "2026-08-15",
+      "status": "new",
+      "status_en": "新发现",
+      "weekly": false
+    },
+    {
+      "title": "MM-BEV: Enhancing Timeliness by Computing Where and When it Matters",
+      "id": "2608.15437v1",
+      "published": "2026-08-15T22:42:47Z",
+      "authors": "Liangkai Liu, Kang G. Shin",
+      "summary": "Multimodal bird's-eye-view (BEV) perception combines LiDAR depth accuracy with dense camera semantics, but its high computational cost and imperfect sensing conditions make real-time deployment challenging. Existing methods largely compress individual detectors and overlook three opportunities: structured sparsity within camera and LiDAR inputs, timing misalignment between modalities, and the fact that many detected objects do not affect the planner's immediate action. We present MM-BEV, a real-time multimodal BEV system guided by a simple principle: compute where and when it matters. MM-BEV divides perception into mandatory work for safety-critical objects within braking distance of the ego vehicle and with short time-to-collision (TTC), and optional work for less urgent regions. It prioritizes mandatory work and reduces or sheds optional work under tight compute budgets. MM-BEV integrates four mechanisms: (1) a criticality-ranked temporal ROI selector based on motion-extrapolated detections from prior frames; (2) sparse, ROI-aware feature extraction using shared-shape camera crops at context-adaptive resolution and ROI-aware LiDAR voxelization; (3) a latency-aware coordinator tha",
+      "categories": "cs.RO,cs.CV,cs.DC,eess.SY",
+      "relevance": 4,
+      "topic": "BEV Perception",
+      "date": "2026-08-15",
+      "status": "new",
+      "status_en": "新发现",
+      "weekly": false
+    },
+    {
+      "title": "CrossView: Can Vision-Language Models Reason Across Cameras?",
+      "id": "2608.15539v1",
+      "published": "2026-08-16T05:25:04Z",
+      "authors": "Sahil Shah, S P Sharan, Harsh Goel, Manvik Pasula, Adithya Hebbalae, Minkyu Choi, Sandeep P. Chinchali",
+      "summary": "Video understanding benchmarks have long centered on single-camera settings, where modern multi-modal language models achieve strong performance across image and video tasks. Yet, the real world runs on multi-camera networks: autonomous vehicles, security systems, and robots all gather data across many simultaneous views. We argue that this is not simply \"more\" of the single-camera problem; it is fundamentally different. Multi-camera reasoning requires handling context that scales with the number of views, resolving occlusions visible from only a subset of cameras, judging which views matter, and integrating evidence across perspectives that may overlap or diverge. Current models struggle with exactly these challenges, yet no benchmark systematically targets them. We introduce CrossView, a multi-camera video question-answering benchmark spanning autonomous driving, security surveillance, egocentric/exocentric video, and robotics. Evaluation of proprietary models, such as GPT-5.2, and open-source models, like Qwen3-VL, reveals consistently low accuracy, with open-source models trailing by a wide margin. Performance scales strongly with a model's ability to jointly process multiple v",
+      "categories": "cs.CV",
+      "relevance": 3,
+      "topic": "VLA Reasoning",
+      "date": "2026-08-16",
       "status": "new",
       "status_en": "新发现",
       "weekly": false

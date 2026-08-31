@@ -1,34 +1,35 @@
 {
-  "updated": "2026-08-31T01:15:00Z",
+  "updated": "2026-08-31T13:30:00Z",
   "us_markets": {
-    "dow_jones": {"value": 53559.99, "change_pct": -0.02, "note": "Friday close ~flat at 53,559.99; futures slipped Sunday on rate-hike bets"},
-    "sp500": {"value": 7711.76, "change_pct": -0.20, "note": "Friday -0.2% to 7,711.76 on Warsh's hawkish speech; +0.5% on week; futures lower Monday"},
-    "nasdaq": {"value": 26413.81, "change_pct": -0.46, "note": "Friday -0.46% to 26,413.81; AI-led tech pulled back; futures under pressure from Iran strike"}
+    "dow_jones": {"value": 53559.99, "change_pct": -0.02, "note": "Friday close ~flat at 53,559.99; Monday futures -0.3% on US-Iran strikes + rate-hike bets"},
+    "sp500": {"value": 7711.76, "change_pct": -0.20, "note": "Friday -0.2% to 7,711.76; +0.5% on week; Monday futures -0.3% as oil surge + hawkish Fed weigh"},
+    "nasdaq": {"value": 26413.81, "change_pct": -0.46, "note": "Friday -0.46% to 26,413.81; Nasdaq 100 futures -0.2% Monday; AI rout risk on rate-hike fears"}
   },
   "hong_kong": {
-    "hang_seng": {"value": 25584.79, "change_pct": 0.07, "note": "Friday +0.07% to 25,584.79; Asian stocks dropping Monday on hawkish Fed tone + oil gains"},
-    "note": "HK/A-shares open Monday facing external risk-off from Iran strike and Warsh rate-hike signal"
+    "hang_seng": {"value": 25519.98, "change_pct": -0.25, "note": "Monday closed -0.25% to 25,519.98; risk-off from US-Iran escalation + higher oil"},
+    "note": "Asia closed lower Monday on Iran strikes and oil surge; Strait of Hormuz disruption risk"
   },
   "crypto": {
-    "btc": {"value": 77500, "change_pct": -1.4, "note": "Risk-off tone from Iran strike and rate-hike bets pressuring crypto; tracking equities lower"},
-    "eth": {"value": 2380, "change_pct": -3.2, "note": "ETH underweight vs BTC as liquidity tightens on higher-for-longer Fed bets"}
+    "btc": {"value": 78414, "change_pct": -0.46, "note": "~$78.4K, down ~$363 from yesterday; risk-off tone from Iran + rate-hike bets; BTC up 24% in August"},
+    "eth": {"value": 2453, "change_pct": -0.65, "note": "~$2,453; underperforming as liquidity tightens; down ~$1,940 YoY"}
   },
   "macro": {
-    "iran_larak_island": "CRITICAL: US forces struck two Iranian rocket launchers on Larak Island in Strait of Hormuz Sunday — first US strike on Iran since late July; Tehran retaliated; oil jumps >2%, Brent back above $90/bbl",
-    "warsh_rate_hike": "Fed Chair Kevin Warsh's hawkish Jackson Hole debut: 'We have work to do.' CME FedWatch now ~58% odds of Sept 15-16 rate hike (up from ~35% Thursday); dollar and yields climbing",
-    "us_canada_trade": "U.S.-Canada trade war escalates with new tariff walls on steel/aluminum and critical metals; retailers handling tariff refunds differently",
-    "gold": "Gold settles lower as dollar strengthens on rate-hike bets; earlier rally was 'orderly' with exotic options and spreads",
-    "week_ahead": "Fresh labor data and tech earnings due this week; MSCI quarterly rebalancing 'messy' in India; last trading day of August for A-shares with semi-annual report deadline",
-    "asx_outlook": "A-share pre-open: 8月31日 last trading day of August + semi-annual disclosure deadline; weekend news mixed, external volatility up; expect index consolidation, sector rotation, high-low switching; June tech strength seen pausing"
+    "iran_larak_island": "CRITICAL: US and Iran exchanged strikes for first time since July — US hit rocket launchers on Larak Island in Strait of Hormuz; Iran retaliated; Trump threatens strategic oil hub; oil jumps >2%, Brent above $90/bbl",
+    "fed_policy": "Fed Chair Warsh hawkish at Jackson Hole: 'We have work to do.' CME FedWatch ~58% odds of September rate hike. Bloomberg's Goncalves: 'No urgency for Fed to hike' — dissenting view",
+    "oil_prices": "Oil prices jumping as US-Iran military escalation risks Strait of Hormuz supply disruption; Goldman Sachs sends blunt message on oil price, economy",
+    "gold_silver": "Gold sinks following US strikes on Iran as dollar strengthens; Silver opens lower as rate-hike expectations rise",
+    "ai_corporate": "OpenAI ad business hits $1B annualized revenue run rate; PG&E/Edison plunge on California wildfire bill; Anthropic mega-IPO plans loom over US listing calendar",
+    "september_watch": "Santoli: investors should be on high alert heading into September; last day of August; fresh labor data + tech earnings due this week",
+    "asx_outlook": "A-share final trading day of August + semi-annual report deadline; external volatility from Iran escalation; expect sector rotation and high-low switching"
   },
   "headlines": [
-    {"source": "CNBC", "title": "Oil rises over 1% after U.S. forces strike two Iranian rocket launchers on Larak Island", "impact": "Brent back above $90; supply disruption fears in Strait of Hormuz"},
-    {"source": "Reuters", "title": "Oil jumps more than 2% after US attack on Iran's Larak island; Tehran retaliates", "impact": "Risk-off start to week; energy complex rallying"},
-    {"source": "CNBC", "title": "Stock futures fall after U.S. strikes Iran; Wall Street heads for winning month", "impact": "Iran escalation + rate-hike bets weigh on equity futures"},
-    {"source": "MarketWatch", "title": "U.S. stock futures slip as chances of rate hike rise after Warsh's Jackson Hole comments", "impact": "CME FedWatch ~58% odds of Sept hike; dollar/yields climb"},
-    {"source": "Bloomberg", "title": "Asian Stocks Drop on Hawkish Warsh Tone, Oil Gains: Markets Wrap", "impact": "Regional equity pressure into Monday open"},
-    {"source": "FT", "title": "Big Tech profits get $160bn boost from gains on stakes in other AI companies", "impact": "Tech earnings quality questioned as AI cross-holdings inflate profits"},
-    {"source": "FT", "title": "Pharma stocks soar as investors seek AI alternatives", "impact": "Sector rotation out of crowded AI trade"},
-    {"source": "Fortune", "title": "'We have work to do': Fed Reserve Chair Warsh suggests rate hike in September", "impact": "Sept rate-hike odds jumped to ~58% from ~35% after Jackson Hole"}
+    {"source": "CNBC", "title": "U.S., Iran exchange strikes for first time since July as Trump threatens strategic oil hub", "impact": "Oil jumps >2%; supply disruption fears in Strait of Hormuz; risk-off across markets"},
+    {"source": "Yahoo Finance", "title": "Dow Falls, Oil Prices Jump As U.S., Iran Exchange New Strikes", "impact": "US stocks open lower Monday on geopolitical escalation"},
+    {"source": "CNBC", "title": "OpenAI's ad business hits $1 billion annualized revenue run rate", "impact": "AI monetization broadening beyond subscriptions; positive for AI ecosystem"},
+    {"source": "Bloomberg", "title": "PG&E, Edison International Stocks Plunge on California Wildfire Bill", "impact": "Utility sector underweight on wildfire liability risk"},
+    {"source": "MarketWatch", "title": "Fed up with bitcoin? That's exactly why you should buy", "impact": "Contrarian crypto sentiment amid rate-hike cycle"},
+    {"source": "Bloomberg", "title": "Anthropic's Mega-IPO Plan Looms Over Packed US Listing Calendar", "impact": "Tech IPO pipeline building; AI sector valuations rising"},
+    {"source": "CNBC", "title": "Santoli: Why investors should be on high alert heading into September", "impact": "September historically weak season; geopolitical + rate risk elevated"},
+    {"source": "Bloomberg", "title": "No Urgency for Fed to Hike: Goncalves", "impact": "Dissent from Warsh; market pricing ~58% hike odds but not unanimous"}
   ]
 }

@@ -1,25 +1,35 @@
 {
-  "updated_at": "2026-09-01T03:35:00Z",
-  "session": "noon",
+  "updated_at": "2026-09-01T07:07:51Z",
+  "session": "close",
+  "source": "akshare-sina",
   "indices": {
     "上证指数": {
       "name": "上证指数",
-      "price": 3987.559,
-      "change": 1.261,
-      "change_pct": 0.032
+      "price": 3979.8877,
+      "change": -6.41,
+      "change_pct": -0.161
     },
     "深证成指": {
       "name": "深证成指",
-      "price": 13933.107,
-      "change": -81.89,
-      "change_pct": -0.584
+      "price": 13872.377,
+      "change": -142.62,
+      "change_pct": -1.018
     },
     "创业板指": {
       "name": "创业板指",
-      "price": 3407.037,
-      "change": -31.644,
-      "change_pct": -0.92
+      "price": 3393.43,
+      "change": -45.251,
+      "change_pct": -1.316
+    },
+    "沪深300": {
+      "name": "沪深300",
+      "price": 4611.4394,
+      "change": -13.647,
+      "change_pct": -0.295
     }
+  },
+  "sectors": {
+    "note": "东财板块接口代理错误, 板块数据暂不可用"
   },
   "northbound": [
     {
@@ -27,60 +37,8 @@
       "date": "2026-09-01",
       "net_inflow": 0.0,
       "up_count": 1033,
-      "down_count": 589
-    },
-    {
-      "channel": "深股通",
-      "date": "2026-09-01",
-      "net_inflow": 0.0,
-      "up_count": 1157,
-      "down_count": 694
+      "down_count": 589,
+      "note": "东财接口暂不可用, 沿用最近可用数据"
     }
-  ],
-  "sectors": {
-    "top_gainers": [
-      {
-        "name": "视频媒体",
-        "change_pct": 20.02
-      },
-      {
-        "name": "种子",
-        "change_pct": 11.67
-      },
-      {
-        "name": "种植业",
-        "change_pct": 8.3
-      },
-      {
-        "name": "文字媒体",
-        "change_pct": 7.04
-      },
-      {
-        "name": "农业综合Ⅲ",
-        "change_pct": 6.5
-      }
-    ],
-    "top_losers": [
-      {
-        "name": "印制电路板",
-        "change_pct": -3.15
-      },
-      {
-        "name": "半导体材料",
-        "change_pct": -3.55
-      },
-      {
-        "name": "电子化学品Ⅲ",
-        "change_pct": -3.67
-      },
-      {
-        "name": "电子化学品Ⅱ",
-        "change_pct": -3.67
-      },
-      {
-        "name": "钨",
-        "change_pct": -3.73
-      }
-    ]
-  }
+  ]
 }

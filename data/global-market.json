@@ -1,88 +1,88 @@
 {
-  "updated": "2026-09-01T01:15:00Z",
+  "updated": "2026-09-01T13:30:00Z",
   "us_markets": {
     "dow_jones": {
       "value": 53184.47,
       "change_pct": -0.7,
-      "note": "Aug 31 close -0.7%; month +1.34%; sold off on Middle East escalation + oil-driven inflation fears"
+      "note": "Aug 31 close -0.7% to 53,184.47; month +1.34%; futures lower Sep 1 as bond selloff + oil-driven inflation fears weigh"
     },
     "sp500": {
       "value": 7665.0,
       "change_pct": -0.61,
-      "note": "Aug 31 close lower; energy +2.04% led gains; oil surge + hawkish Fed weigh; Sept historically weak season"
+      "note": "Aug 31 close lower at 7,665; futures dropping Sep 1; global bond selloff sends yields to highest since 2008; energy led Aug gains"
     },
     "nasdaq": {
       "value": 26382.0,
       "change_pct": -0.12,
-      "note": "Aug 31 -0.12%; month +3.93%; Tesla +5.51%; US 10-yr yield broke 4.75% (first since Jan 2025)"
+      "note": "Aug 31 -0.12% to 26,382; month +3.93%; futures under pressure as 10-yr yield at highest since Jan 2025, AI rotation jitters"
     }
   },
   "hong_kong": {
     "hang_seng": {
       "value": 25519.98,
       "change_pct": -0.25,
-      "note": "Aug 31 -0.25% to 25,519.98; risk-off from US-Iran escalation + higher oil"
+      "note": "Aug 31 -0.25% to 25,519.98; risk-off amid US-Iran escalation; Strait of Hormuz tanker strikes escalate supply concerns"
     },
-    "note": "Asia closed lower Monday on Iran strikes and oil surge; Strait of Hormuz disruption risk; Korean investors net-bought Chinese assets (Zijin, Yuntianhua, Juhua) Aug 24-28"
+    "note": "Asia under pressure from global bond selloff; FT reports Saudi and South Korean oil tankers hit in Strait of Hormuz; Korean investors net-bought Chinese assets (Zijin, Yuntianhua, Juhua)"
   },
   "crypto": {
     "btc": {
-      "value": 79000,
-      "change_pct": 1.77,
-      "note": "Broke above $79,000 (+1.77%) on the day; bucking risk-off tone, up 24%+ in August"
+      "value": 77795,
+      "change_pct": 0.51,
+      "note": "~$77,795 (+0.51% 24h per TradingView); softened from $79k Aug 31 close as risk-off dominates; still strong Aug (+24%)"
     },
     "eth": {
-      "value": 2485,
-      "change_pct": -0.4,
-      "note": "~$2,485; underperforming BTC as liquidity tightens on rate-hike bets"
+      "value": 2457,
+      "change_pct": -0.6,
+      "note": "~$2,457; underperforming BTC; liquidity tightening on rate-hike bets, bond selloff pressures risk assets"
     }
   },
   "macro": {
-    "iran_larak_island": "CRITICAL: US and Iran exchanged strikes — first time since July. US hit rocket launchers on Larak Island in Strait of Hormuz; Iran retaliated; Trump threatens strategic oil hub. Oil jumps, Brent above $90/bbl; US 10-yr yield broke 4.75% (first since Jan 2025) on supply-disruption inflation fears",
-    "fed_policy": "Fed Chair Warsh hawkish at Jackson Hole: 'We have work to do.' CME FedWatch ~58% odds of September rate hike. 10-yr Treasury yield surges as oil lifts inflation expectations",
+    "global_bond_selloff": "CRITICAL: Bloomberg reports global bond selloff sends yields to highest level since 2008. 10-year US Treasury yield at highest since January 2025 as higher oil stokes inflation worries. Rate-hike bets firm across global markets.",
+    "fed_policy": "Fed Governor Barr says he'll support rate hike if inflation doesn't ease — adds to hawkish tone after Warsh's Jackson Hole comments. 10-yr yield surge reflects firming hike expectations.",
+    "iran_hormuz": "ESCALATING: FT reports Saudi and South Korean oil tankers hit in Strait of Hormuz. US-Iran military exchange continues; Brent above $90/bbl; supply disruption fears intensify.",
+    "oil_prices": "Rising oil prices stoke inflation fears, driving the global bond selloff. Higher energy costs feeding through to yields from Japan to UK and beyond per MarketWatch.",
     "china_pmi": "Aug manufacturing PMI 49.8% (+0.6pt MoM), large enterprises 50.6% (+1.1pt); high-tech/new momentum stays in expansion — economy showing marginal improvement",
     "china_policy": "7 departments issued consumption goods upgrade plan (target ~60T social retail by 2030); PICC added ~30B yuan A-shares in H1; supports market sentiment",
-    "oil_prices": "Oil jumping on US-Iran military escalation; Brent above $90/bbl, Strait of Hormuz disruption risk; Goldman Sachs blunt on oil price & economy; Asia bonds/oil complex under pressure",
-    "gold_silver": "Gold/silver lower as dollar strengthens and rate-hike expectations rise; Comex gold, silver settled lower",
-    "ai_corporate": "OpenAI ad business hits $1B annualized revenue; PG&E/Edison plunge on California wildfire bill; Anthropic mega-IPO plans loom over US listing calendar; DeepSeek AI-rout chatter in market",
-    "domestic_futures": "Sep 1 pre-open: domestic futures主力合约 mixed — crude SC, MEG, asphalt, PVC, methanol higher; oil-linked complex leads on Iran supply fears",
-    "september_watch": "Sept historically weak season; fresh US labor data + tech earnings due this week; investors on high alert into September"
+    "gold_silver": "Gold/silver under pressure as dollar strengthens and global yields surge; safe-haven bid offset by rate-hike expectations",
+    "ai_corporate": "Apple enters John Ternus era as AI challenges and memory crunch intensify; OpenAI ad business at $1B annualized; DeepSeek AI-rout chatter in market",
+    "september_watch": "Sept historically weak season; US labor data + tech earnings due this week; investors on high alert amid bond rout + Middle East escalation"
   },
   "headlines": [
     {
-      "source": "同花顺",
-      "title": "中东局势重新升温，美股三大指数集体收跌",
-      "impact": "Dow -0.7%, Nasdaq -0.12%; oil-driven inflation fears hit equities, bonds, dollar; energy +2.04% led"
+      "source": "Bloomberg",
+      "title": "Global Bond Selloff Sends Yields to the Highest Level Since 2008",
+      "impact": "Risk-off across equities; rate-hike expectations firming globally"
     },
     {
-      "source": "搜狐/新浪",
-      "title": "美伊军事交火再起，油价与美债收益率齐升",
-      "impact": "US 10-yr yield broke 4.75% (first since Jan 2025); Brent >$90; rate-hike bets firm"
+      "source": "CNBC",
+      "title": "10-year yield hits highest since January 2025 as higher oil prices stoke inflation worries",
+      "impact": "Energy-driven inflation fears push yields up, pressuring equities"
     },
     {
-      "source": "国家统计局",
-      "title": "8月制造业PMI回升至49.8%（+0.6pt）",
-      "impact": "景气水平回升，新动能保持扩张；大型企业50.6%重回扩张区间"
+      "source": "CNBC",
+      "title": "Fed Governor Barr says he'll support rate hike if inflation doesn't ease",
+      "impact": "Reinforces hawkish Fed stance; hike odds firm; risk assets pressured"
     },
     {
-      "source": "连板网",
-      "title": "A股盘前：隔夜美股映射+题材轮动",
-      "impact": "SC原油、乙二醇、沥青、PVC、甲醇期货走强；能源链受益伊朗风险"
+      "source": "Bloomberg",
+      "title": "US Stock Futures Drop as Rising Oil Prices Stoke Inflation Fears",
+      "impact": "Dow/S&P/Nasdaq futures lower into Sep 1 session"
     },
     {
-      "source": "同花顺",
-      "title": "美联储鹰派+油价推升美债收益率，亚洲债市承压",
-      "impact": "60%+加息概率；亚洲债券与原油相关资产承压，中国资产获韩资增持"
-    },
-    {
-      "source": "新浪财经",
-      "title": "比特币升破79000美元，日内涨1.77%",
-      "impact": "加密逆势走强，8月累计涨逾24%；ETH相对弱势"
+      "source": "FT",
+      "title": "Saudi and South Korean oil tankers hit in Strait of Hormuz",
+      "impact": "Supply disruption risk escalates; Brent stays above $90; global inflation concerns deepen"
     },
     {
       "source": "MarketWatch",
-      "title": "The S&P 500 usually falls in September. Why this year should be different.",
-      "impact": "9月历史弱势季 vs 当前基本面分歧；投资者保持警惕"
+      "title": "As U.S. bond prices tumble, yields are jumping from Japan to the U.K. and beyond",
+      "impact": "Global synchronized yield surge; EM/Asia assets under pressure"
+    },
+    {
+      "source": "CNBC",
+      "title": "Apple enters John Ternus era as AI challenges and memory crunch intensify",
+      "impact": "Tech sector leadership transition amid AI rotation and chip supply constraints"
     }
   ]
 }

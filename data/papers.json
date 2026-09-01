@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "papers": [
     {
       "title": "CARE: Camera-Residual Reserves for First Sightings in Adaptive LiDAR Sensing",
@@ -3258,6 +3258,76 @@
       "relevance": 3,
       "topic": "VLA Reasoning",
       "date": "2026-08-16",
+      "status": "new",
+      "status_en": "新发现",
+      "weekly": false
+    },
+    {
+      "title": "How Far Can 5,500 Hours of Driving Take You? A Scaling Law Analysis of Video Diffusion Models",
+      "id": "2608.28404v1",
+      "published": "2026-08-28T14:56:01Z",
+      "authors": "Victor Besnier, Anh-Quan Cao, Elias Ramzi, Spyros Gidaris, Tuan-Hung Vu, Andrei Bursuc",
+      "summary": "Video generation for autonomous driving cannot follow the web-scale route: driving data is expensive to collect, bound by privacy requirements, and cannot be scraped at will, so models must make the most of a fixed corpus. This paper presents a systematic scaling-law study of video diffusion models trained from scratch on driving data: a family of models from 1M to 9B parameters, trained at different exposures on up to 5,500 hours of driving. Validation loss follows consistent power laws in both model size and training exposure, answering the questions that shape a training budget (whether compute is better spent on model size or data). The findings have direct implications for how to allocate compute when training world models / video generators for autonomous driving, where data is a hard constraint.",
+      "categories": "cs.CV,cs.LG",
+      "relevance": 4,
+      "topic": "World Models",
+      "date": "2026-08-28",
+      "status": "new",
+      "status_en": "新发现",
+      "weekly": false
+    },
+    {
+      "title": "DeicticVLA: Unifying Instruction Modes Based on Language and Deictic Gestures in a Single VLA",
+      "id": "2608.28108v1",
+      "published": "2026-08-28T09:14:09Z",
+      "authors": "Kango Yanagida, Tatsuya Aoki, Yuichiro Yoshikawa, Takato Horii",
+      "summary": "Vision-Language-Action models (VLAs) allow users to specify manipulation tasks in natural language, but distinguishing a target or placement goal among objects of the same category or similar appearance requires detailed expressions that VLAs may not use reliably. DeicticVLA canonicalizes Language Instruction (LI), Vision-Language Instruction (VLI), and Visual Instruction (VI) into a text prompt and deictic masks through text-prompt completion and deictic gesture grounding, enabling a single pretrained VLA to handle all three instruction modes. With a shared backbone, demonstrations and masks are used to train the model to accept unified instruction inputs. Relevant to VLA research direction though focused on robotic manipulation rather than driving.",
+      "categories": "cs.RO,cs.CV",
+      "relevance": 3,
+      "topic": "VLA",
+      "date": "2026-08-28",
+      "status": "new",
+      "status_en": "新发现",
+      "weekly": false
+    },
+    {
+      "title": "PHR-VLA: Planning Horizon Reasoning for Vision-Language-Action Models",
+      "id": "2608.27609v1",
+      "published": "2026-08-27T18:42:35Z",
+      "authors": "Davood Soleymanzadeh, Kaidi Zhang, Zhiyuan Zhang, Bihao Zhang, Xiao Liang, Yu She",
+      "summary": "Vision-language-action models (VLAs) have shown strong promise for general-purpose robotic manipulation, but most primarily condition action prediction on current observations and lack explicit reasoning over future task dynamics, which is important for fine-grained, contact-rich manipulation. PHR-VLA introduces a lightweight auxiliary future head that aligns the VLA's internal representations with latent dynamics extracted from future observations during training. Local, contact-centric, patch-level latent dynamics supervision from the wrist camera improves success rate on LIBERO from 84.1% to 88.4% and on real-world disassembly from 63.3% to 82.5%. Patch-level supervision from a third-person camera improves Meta-World from 56.70% to 57.8%. Relevant to VLA representation learning, though focused on manipulation rather than driving.",
+      "categories": "cs.RO,cs.LG",
+      "relevance": 3,
+      "topic": "VLA",
+      "date": "2026-08-27",
+      "status": "new",
+      "status_en": "新发现",
+      "weekly": false
+    },
+    {
+      "title": "Decoupling Planning and Control for Instructable Agents",
+      "id": "2608.26788v1",
+      "published": "2026-08-27T17:09:12Z",
+      "authors": "Abhishek Kadian, Sébastien M. R. Arnold, Ross E. Allen, Sjoerd van Steenkiste, Ishita Dasgupta, Alane Suhr",
+      "summary": "Recent work shows that pre-trained, instruction-tuned vision-language models (VLMs) perform well at mapping instructions and observations to high-level plans, but struggle to realize such plans as reliable low-latency action sequences in unfamiliar environments. World-model controllers excel at fast observation-to-action control but lack open-ended task guidance. This work combines these strengths into Instruct-to-Act, training a world-model controller to act autonomously at high frequency when conditioned on sparse, higher-latency, high-level text instructions generated by a VLM planner. Training controllers to be language-instructable involves relabeling segments of controller policy rollouts with synthetic instructions. Relevant to VLA/world-model integration for embodied AI.",
+      "categories": "cs.RO,cs.AI",
+      "relevance": 3,
+      "topic": "World Models",
+      "date": "2026-08-27",
+      "status": "new",
+      "status_en": "新发现",
+      "weekly": false
+    },
+    {
+      "title": "WALDO: One-Shot Exemplar-Conditioned Object Detection in Cluttered Scenes",
+      "id": "2608.28216v1",
+      "published": "2026-08-28T11:33:46Z",
+      "authors": "Kishor Datta Gupta, Ahmed Rafi Hasan, Md. Mahfuzur Rahman, Md. Sadman Haque, Mohd Ariful Haque",
+      "summary": "Locating a specific object instance in a cluttered scene using a single reference image and short description (and reporting absence) is usually addressed by large vision-language models. WALDO asks whether this capability is available far more cheaply from representations already learned by a world-model pretraining objective: a one-shot exemplar- and language-conditioned detection head with 3.4M trainable parameters that reads frozen V-JEPA 2.1 features to jointly predict object localization and target presence, with no gradient on the backbone. Because exemplar-conditioned supervision is scarce, training episodes are synthesized from instance annotations, mining exemplars from ground-truth boxes and constructing absence cases. Demonstrates world-model features enable cheap open-vocabulary one-shot detection.",
+      "categories": "cs.CV",
+      "relevance": 3,
+      "topic": "World Models",
+      "date": "2026-08-28",
       "status": "new",
       "status_en": "新发现",
       "weekly": false

@@ -1,89 +1,86 @@
 {
-  "updated_at": "2026-08-31 00:08:20",
-  "date": "2026-08-31",
-  "session": "close",
+  "updated_at": "2026-09-01T03:35:00Z",
+  "session": "noon",
   "indices": {
     "上证指数": {
       "name": "上证指数",
-      "price": 3986.298,
-      "change": 34.119,
-      "change_pct": 0.863
+      "price": 3987.559,
+      "change": 1.261,
+      "change_pct": 0.032
     },
     "深证成指": {
       "name": "深证成指",
-      "price": 14014.997,
-      "change": 61.932,
-      "change_pct": 0.444
+      "price": 13933.107,
+      "change": -81.89,
+      "change_pct": -0.584
     },
     "创业板指": {
       "name": "创业板指",
-      "price": 3438.681,
-      "change": 14.28,
-      "change_pct": 0.417
+      "price": 3407.037,
+      "change": -31.644,
+      "change_pct": -0.92
     }
-  },
-  "sectors": {
-    "top_gainers": [
-      {
-        "name": "传媒娱乐",
-        "change_pct": 4.7643536715278
-      },
-      {
-        "name": "陶瓷行业",
-        "change_pct": 3.1282351352568
-      },
-      {
-        "name": "仪器仪表",
-        "change_pct": 1.9730908461928
-      },
-      {
-        "name": "家具行业",
-        "change_pct": 1.9233689325302
-      },
-      {
-        "name": "玻璃行业",
-        "change_pct": 1.881043435003
-      }
-    ],
-    "top_losers": [
-      {
-        "name": "房地产",
-        "change_pct": -0.77383707475121
-      },
-      {
-        "name": "船舶制造",
-        "change_pct": -0.98292809105018
-      },
-      {
-        "name": "食品行业",
-        "change_pct": -1.1277820286769
-      },
-      {
-        "name": "水泥行业",
-        "change_pct": -1.1446886446886
-      },
-      {
-        "name": "生物制药",
-        "change_pct": -1.6287843105591
-      }
-    ]
   },
   "northbound": [
     {
       "channel": "沪股通",
-      "date": "2026-08-31",
-      "net_buy": 0.0,
+      "date": "2026-09-01",
       "net_inflow": 0.0,
-      "up_count": 816,
-      "down_count": 778
+      "up_count": 1033,
+      "down_count": 589
     },
     {
       "channel": "深股通",
-      "date": "2026-08-31",
-      "net_buy": 0.0,
+      "date": "2026-09-01",
       "net_inflow": 0.0,
-      "up_count": 1066,
-      "down_count": 769
+      "up_count": 1157,
+      "down_count": 694
     }
-  ]
+  ],
+  "sectors": {
+    "top_gainers": [
+      {
+        "name": "视频媒体",
+        "change_pct": 20.02
+      },
+      {
+        "name": "种子",
+        "change_pct": 11.67
+      },
+      {
+        "name": "种植业",
+        "change_pct": 8.3
+      },
+      {
+        "name": "文字媒体",
+        "change_pct": 7.04
+      },
+      {
+        "name": "农业综合Ⅲ",
+        "change_pct": 6.5
+      }
+    ],
+    "top_losers": [
+      {
+        "name": "印制电路板",
+        "change_pct": -3.15
+      },
+      {
+        "name": "半导体材料",
+        "change_pct": -3.55
+      },
+      {
+        "name": "电子化学品Ⅲ",
+        "change_pct": -3.67
+      },
+      {
+        "name": "电子化学品Ⅱ",
+        "change_pct": -3.67
+      },
+      {
+        "name": "钨",
+        "change_pct": -3.73
+      }
+    ]
+  }
 }

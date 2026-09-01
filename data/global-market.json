@@ -1,35 +1,88 @@
 {
-  "updated": "2026-08-31T13:30:00Z",
+  "updated": "2026-09-01T01:15:00Z",
   "us_markets": {
-    "dow_jones": {"value": 53559.99, "change_pct": -0.02, "note": "Friday close ~flat at 53,559.99; Monday futures -0.3% on US-Iran strikes + rate-hike bets"},
-    "sp500": {"value": 7711.76, "change_pct": -0.20, "note": "Friday -0.2% to 7,711.76; +0.5% on week; Monday futures -0.3% as oil surge + hawkish Fed weigh"},
-    "nasdaq": {"value": 26413.81, "change_pct": -0.46, "note": "Friday -0.46% to 26,413.81; Nasdaq 100 futures -0.2% Monday; AI rout risk on rate-hike fears"}
+    "dow_jones": {
+      "value": 53184.47,
+      "change_pct": -0.7,
+      "note": "Aug 31 close -0.7%; month +1.34%; sold off on Middle East escalation + oil-driven inflation fears"
+    },
+    "sp500": {
+      "value": 7665.0,
+      "change_pct": -0.61,
+      "note": "Aug 31 close lower; energy +2.04% led gains; oil surge + hawkish Fed weigh; Sept historically weak season"
+    },
+    "nasdaq": {
+      "value": 26382.0,
+      "change_pct": -0.12,
+      "note": "Aug 31 -0.12%; month +3.93%; Tesla +5.51%; US 10-yr yield broke 4.75% (first since Jan 2025)"
+    }
   },
   "hong_kong": {
-    "hang_seng": {"value": 25519.98, "change_pct": -0.25, "note": "Monday closed -0.25% to 25,519.98; risk-off from US-Iran escalation + higher oil"},
-    "note": "Asia closed lower Monday on Iran strikes and oil surge; Strait of Hormuz disruption risk"
+    "hang_seng": {
+      "value": 25519.98,
+      "change_pct": -0.25,
+      "note": "Aug 31 -0.25% to 25,519.98; risk-off from US-Iran escalation + higher oil"
+    },
+    "note": "Asia closed lower Monday on Iran strikes and oil surge; Strait of Hormuz disruption risk; Korean investors net-bought Chinese assets (Zijin, Yuntianhua, Juhua) Aug 24-28"
   },
   "crypto": {
-    "btc": {"value": 78414, "change_pct": -0.46, "note": "~$78.4K, down ~$363 from yesterday; risk-off tone from Iran + rate-hike bets; BTC up 24% in August"},
-    "eth": {"value": 2453, "change_pct": -0.65, "note": "~$2,453; underperforming as liquidity tightens; down ~$1,940 YoY"}
+    "btc": {
+      "value": 79000,
+      "change_pct": 1.77,
+      "note": "Broke above $79,000 (+1.77%) on the day; bucking risk-off tone, up 24%+ in August"
+    },
+    "eth": {
+      "value": 2485,
+      "change_pct": -0.4,
+      "note": "~$2,485; underperforming BTC as liquidity tightens on rate-hike bets"
+    }
   },
   "macro": {
-    "iran_larak_island": "CRITICAL: US and Iran exchanged strikes for first time since July — US hit rocket launchers on Larak Island in Strait of Hormuz; Iran retaliated; Trump threatens strategic oil hub; oil jumps >2%, Brent above $90/bbl",
-    "fed_policy": "Fed Chair Warsh hawkish at Jackson Hole: 'We have work to do.' CME FedWatch ~58% odds of September rate hike. Bloomberg's Goncalves: 'No urgency for Fed to hike' — dissenting view",
-    "oil_prices": "Oil prices jumping as US-Iran military escalation risks Strait of Hormuz supply disruption; Goldman Sachs sends blunt message on oil price, economy",
-    "gold_silver": "Gold sinks following US strikes on Iran as dollar strengthens; Silver opens lower as rate-hike expectations rise",
-    "ai_corporate": "OpenAI ad business hits $1B annualized revenue run rate; PG&E/Edison plunge on California wildfire bill; Anthropic mega-IPO plans loom over US listing calendar",
-    "september_watch": "Santoli: investors should be on high alert heading into September; last day of August; fresh labor data + tech earnings due this week",
-    "asx_outlook": "A-share final trading day of August + semi-annual report deadline; external volatility from Iran escalation; expect sector rotation and high-low switching"
+    "iran_larak_island": "CRITICAL: US and Iran exchanged strikes — first time since July. US hit rocket launchers on Larak Island in Strait of Hormuz; Iran retaliated; Trump threatens strategic oil hub. Oil jumps, Brent above $90/bbl; US 10-yr yield broke 4.75% (first since Jan 2025) on supply-disruption inflation fears",
+    "fed_policy": "Fed Chair Warsh hawkish at Jackson Hole: 'We have work to do.' CME FedWatch ~58% odds of September rate hike. 10-yr Treasury yield surges as oil lifts inflation expectations",
+    "china_pmi": "Aug manufacturing PMI 49.8% (+0.6pt MoM), large enterprises 50.6% (+1.1pt); high-tech/new momentum stays in expansion — economy showing marginal improvement",
+    "china_policy": "7 departments issued consumption goods upgrade plan (target ~60T social retail by 2030); PICC added ~30B yuan A-shares in H1; supports market sentiment",
+    "oil_prices": "Oil jumping on US-Iran military escalation; Brent above $90/bbl, Strait of Hormuz disruption risk; Goldman Sachs blunt on oil price & economy; Asia bonds/oil complex under pressure",
+    "gold_silver": "Gold/silver lower as dollar strengthens and rate-hike expectations rise; Comex gold, silver settled lower",
+    "ai_corporate": "OpenAI ad business hits $1B annualized revenue; PG&E/Edison plunge on California wildfire bill; Anthropic mega-IPO plans loom over US listing calendar; DeepSeek AI-rout chatter in market",
+    "domestic_futures": "Sep 1 pre-open: domestic futures主力合约 mixed — crude SC, MEG, asphalt, PVC, methanol higher; oil-linked complex leads on Iran supply fears",
+    "september_watch": "Sept historically weak season; fresh US labor data + tech earnings due this week; investors on high alert into September"
   },
   "headlines": [
-    {"source": "CNBC", "title": "U.S., Iran exchange strikes for first time since July as Trump threatens strategic oil hub", "impact": "Oil jumps >2%; supply disruption fears in Strait of Hormuz; risk-off across markets"},
-    {"source": "Yahoo Finance", "title": "Dow Falls, Oil Prices Jump As U.S., Iran Exchange New Strikes", "impact": "US stocks open lower Monday on geopolitical escalation"},
-    {"source": "CNBC", "title": "OpenAI's ad business hits $1 billion annualized revenue run rate", "impact": "AI monetization broadening beyond subscriptions; positive for AI ecosystem"},
-    {"source": "Bloomberg", "title": "PG&E, Edison International Stocks Plunge on California Wildfire Bill", "impact": "Utility sector underweight on wildfire liability risk"},
-    {"source": "MarketWatch", "title": "Fed up with bitcoin? That's exactly why you should buy", "impact": "Contrarian crypto sentiment amid rate-hike cycle"},
-    {"source": "Bloomberg", "title": "Anthropic's Mega-IPO Plan Looms Over Packed US Listing Calendar", "impact": "Tech IPO pipeline building; AI sector valuations rising"},
-    {"source": "CNBC", "title": "Santoli: Why investors should be on high alert heading into September", "impact": "September historically weak season; geopolitical + rate risk elevated"},
-    {"source": "Bloomberg", "title": "No Urgency for Fed to Hike: Goncalves", "impact": "Dissent from Warsh; market pricing ~58% hike odds but not unanimous"}
+    {
+      "source": "同花顺",
+      "title": "中东局势重新升温，美股三大指数集体收跌",
+      "impact": "Dow -0.7%, Nasdaq -0.12%; oil-driven inflation fears hit equities, bonds, dollar; energy +2.04% led"
+    },
+    {
+      "source": "搜狐/新浪",
+      "title": "美伊军事交火再起，油价与美债收益率齐升",
+      "impact": "US 10-yr yield broke 4.75% (first since Jan 2025); Brent >$90; rate-hike bets firm"
+    },
+    {
+      "source": "国家统计局",
+      "title": "8月制造业PMI回升至49.8%（+0.6pt）",
+      "impact": "景气水平回升，新动能保持扩张；大型企业50.6%重回扩张区间"
+    },
+    {
+      "source": "连板网",
+      "title": "A股盘前：隔夜美股映射+题材轮动",
+      "impact": "SC原油、乙二醇、沥青、PVC、甲醇期货走强；能源链受益伊朗风险"
+    },
+    {
+      "source": "同花顺",
+      "title": "美联储鹰派+油价推升美债收益率，亚洲债市承压",
+      "impact": "60%+加息概率；亚洲债券与原油相关资产承压，中国资产获韩资增持"
+    },
+    {
+      "source": "新浪财经",
+      "title": "比特币升破79000美元，日内涨1.77%",
+      "impact": "加密逆势走强，8月累计涨逾24%；ETH相对弱势"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "The S&P 500 usually falls in September. Why this year should be different.",
+      "impact": "9月历史弱势季 vs 当前基本面分歧；投资者保持警惕"
+    }
   ]
 }

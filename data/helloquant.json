@@ -1,34 +1,25 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-09-01 07:07 UTC",
+  "updated": "2026-09-07 07:05 UTC",
   "status": "degraded",
   "last_run": {
-    "date": "2026-09-01",
-    "timestamp": "2026-09-01 07:07 UTC",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07 07:05 UTC",
     "success": true,
-    "note": "收盘检查: A股三大指数通过新浪源采集成功; 东财板块/北向接口代理错误; OKX加密接口代理错误"
+    "note": "收盘检查: A股三大指数通过新浪源采集成功(收盘快照); 东财板块/北向接口代理错误; 加密(OKX)接口代理错误; 无新增策略回测输出"
   },
   "crypto": {
     "status": "error",
     "error": "OKX 数据拉取失败, 加密策略信号不可用",
-    "note": "OKX API 代理连接失败"
+    "note": "OKX API 代理连接失败 (当日)" 
   },
   "stocks": {
     "status": "success",
-    "note": "2026-09-01 A股收盘数据 (通过新浪源采集)",
+    "note": "2026-09-07 A股收盘数据 (通过新浪源采集)",
     "data": {
-      "上证指数": {
-        "price": 3979.8877,
-        "change_pct": -0.161
-      },
-      "深证成指": {
-        "price": 13872.377,
-        "change_pct": -1.018
-      },
-      "创业板指": {
-        "price": 3393.43,
-        "change_pct": -1.316
-      }
+      "上证指数": { "price": 3932.699, "change_pct": 0.066 },
+      "深证成指": { "price": 13774.915, "change_pct": 1.908 },
+      "创业板指": { "price": 3398.681, "change_pct": 3.412 }
     }
   },
   "sentiment": {
@@ -36,13 +27,14 @@
     "crypto_fear_greed": {
       "value": 74,
       "classification": "Greed",
-      "note": "来自上一次成功拉取 (过期数据)"
+      "note": "来自上一次成功拉取 (2026-08-25, 过期数据)"
     }
   },
   "strategies": {
-    "note": "8策略(DoubleMa/TripleMa/Supertrend/RSI/MACD/Bollinger/Momentum/MeanReversion)本期无新增回测输出",
-    "latest_backtest": "2026-01-04 (reports)"
+    "note": "8策略(DoubleMa/TripleMa/Supertrend/RSI/MACD/Bollinger/Momentum/MeanReversion)自2026-08-25当日数据后无新增输出, 采集管线疑似停滞",
+    "latest_backtest": "2026-01-04 (reports)",
+    "latest_daily_raw": "2026-08-25 (data/daily_raw.json)"
   },
-  "last_check": "2026-09-01 07:07 UTC",
+  "last_check": "2026-09-07 07:05 UTC",
   "weekly_report": "2026-08-28"
 }

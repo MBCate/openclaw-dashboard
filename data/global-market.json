@@ -1,87 +1,84 @@
 {
-  "updated": "2026-09-02T13:30:00Z",
+  "updated": "2026-09-07T01:30:00Z",
+  "as_of": "Asia-Pacific open Mon Sep 7 (US closed for Labor Day)",
   "us_markets": {
     "dow_jones": {
-      "value": 52766.88,
-      "change_pct": -0.8,
-      "note": "Sep 1 close -0.8% (-419.02 pts) to 52,766.88; broad AI rout sparked by China's DeepSeek; 21 of 30 components fell; oil above $95 + Iran/Gulf hostilities weigh"
+      "value": 53414.25,
+      "change_pct": -0.51,
+      "note": "Sep 4 (Fri) close 53,414.25, -0.51%; hot Aug jobs report lifted rate-hike odds and pressured stocks intraday, but pared losses late. US markets CLOSED Mon Sep 7 for Labor Day."
     },
     "sp500": {
-      "value": 7629.0,
-      "change_pct": -0.7,
-      "note": "Sep 1 close down ~0.7% to ~7,629; DeepSeek-triggered AI liquidation hit tech-heavy names; energy-led inflation fears persist"
+      "value": 7718.6,
+      "change_pct": -0.37,
+      "note": "Sep 4 close ~7,718.60, -0.37%; trimmed earlier losses as mega-cap tech firmed late in session; AI/tech names supported. Next trade Tue Sep 8."
     },
     "nasdaq": {
-      "value": null,
-      "change_pct": -1.2,
-      "note": "Sep 1 closed down >1% as AI/tech rout deepened on China's DeepSeek disruption fears; month-close gains erased into September"
-    }
+      "value": 26506.99,
+      "change_pct": -0.29,
+      "note": "Sep 4 close 26,506.99, -0.29%; tech shares actually advanced/firmed into the close, underpinning Asian gains Monday. Nvidia-led AI names steadier after prior week's DeepSeek/AI rout."
+    },
+    "note": "US stocks net down Friday after blowout 162k August jobs report raised Fed hike bets, but tech closed firm. Market shut Mon for Labor Day; futures-led tone heading into Asia/Europe."
   },
   "hong_kong": {
     "hang_seng": {
       "value": null,
       "change_pct": null,
-      "note": "Asia pressured by overnight US AI rout and oil-driven inflation fears; renewed US-Iran hostilities in Gulf"
+      "note": "Asia-Pacific opened higher Monday as investors assessed renewed Middle East hostilities; US tech gains Friday lent support. HK in positive-open camp."
     },
-    "note": "Risk-off tone spreading to Asia after DeepSeek AI rout; new Gulf fighting between US and Iran adds supply disruption jitters"
+    "note": "Asia risk tone constructive at open: +US tech Friday, oil spiking on US-Iran tanker strikes in Strait of Hormuz watched closely for inflation/margin pressure."
   },
   "crypto": {
     "btc": {
-      "value": 76715,
-      "change_pct": -1.9,
-      "note": "~$76,672-76,715 at 8am ET Sep 1, down ~$1,483 day-over-day; risk-off dominates; ~$1.33T market cap; ~$34.6k below year-ago level"
+      "value": null,
+      "change_pct": null,
+      "note": "Risk appetite firm as Asia opens higher; crypto tracking broader tech-led rebound, mean-reversion from prior risk-off."
     },
     "eth": {
       "value": null,
       "change_pct": null,
-      "note": "~$233B market cap (second-largest); ETHBTC under pressure as BTC leads; risk-off liquidity tightening"
+      "note": "ETHBTC rangebound; follow-through dependent on tech sentiment and oil-driven macro risk."
     }
   },
   "macro": {
-    "treasury_10y": "10-year US Treasury yield hits highest level since November 2023 as oil-driven inflation worries persist; bonds under pressure through global session",
-    "oil_hormuz": "CRITICAL: Energy Secretary Chris Wright says >17M barrels of oil transited Strait of Hormuz on Monday; renewed US-Iran hostilities; Brent topped $95/bbl; supply disruption fears intensify",
-    "oil_prices": "Oil advancing for multiple days above $95; dayslong advance paused early Sep 2 offering slight stock relief; high energy prices stoke inflation worries",
-    "adp_payrolls": "Private payrolls rose 38,000 in August, fewer than expected (ADP); labor market cooling signals ahead of Friday jobs report",
-    "fed_policy": "Hawkish tone ongoing: rate-hike bets firm as energy-driven inflation fears persist amid global bond selloff",
-    "commodities": "Comex gold and silver settled lower as dollar strengthens; arabica coffee prices hit record on US-Colombia tariff spat",
-    "ai_disruption": "CRITICAL: China's DeepSeek AI models spark broad rout across US tech/AI names; questions over AI capex moats; Won't sink US AI giants per some analysts, but flush hit hardest names",
-    "september_watch": "New Gulf fighting between US and Iran; ADP miss; Friday labor data in focus; historically weak seasonal period adds caution. Corporate: Uber cutting 10% of workforce"
+    "treasury_10y": "Treasury sell-off piles pressure on weakest US borrowers; yields elevated as hot jobs data reinforces hawkish Fed, lifting funding costs for the most leveraged credits.",
+    "oil_hormuz": "CRITICAL: US and Iran traded tanker attacks in Strait of Hormuz over the weekend; US struck three Iranian oil tankers in response to attacks on warships. Brent climbing toward $96.",
+    "oil_prices": "CRITICAL: Oil near $96, rising on renewed US-Iran tanker hostilities + Hormuz supply risk; energy-driven inflation worries persist and keep rate-hike speculation alive.",
+    "august_jobs": "Nonfarm payrolls surged +162,000 in August, unemployment steady at 4.1%; blowout print lifts Fed rate-hike odds — Wall Street debating whether the Fed will need to hike again.",
+    "fed_policy": "Hawkish bias reasserting: strong jobs + oil-driven inflation push 'will they hike?' debate; bonds under pressure, curve munis/weak credits squeezed.",
+    "commodities": "Gold/silver pressured by firm dollar and high yields; energy complex bid on Gulf hostilities; risk of stagflationary squeeze on consumer/margins.",
+    "ai_disruption": "WATCH: DeepSeek AI rout from prior week faded — tech firmed Friday, supporting global reopen. US AI giants seen resilient long-run; volatility on capex-spending questions persists.",
+    "september_watch": "US CLOSED Labor Day Mon. Asia higher at open. Focus: US-Iran Hormuz escalation, oil ~$96, hawkish Fed after hot jobs. Corporate/proxy scrutiny and treasury pressure on weak borrowers in view."
   },
   "headlines": [
     {
-      "source": "WSJ",
-      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
-      "impact": "Dow -0.8%, S&P -0.7%, Nasdaq down >1%; DeepSeek disruption fears hit AI/tech complex"
+      "source": "Bloomberg/Reuters",
+      "title": "Asian stocks to gain; oil rises on US-Iran tanker strikes in Strait of Hormuz",
+      "impact": "Asia-Pacific opens higher on US tech gains; Brent toward $96 on renewed Gulf hostilities"
     },
     {
-      "source": "CNBC",
-      "title": "Energy Secretary Chris Wright: more than 17 million barrels of oil transited Hormuz on Monday",
-      "impact": "Oil above $95; Gulf supply disruption risk persists"
+      "source": "Schwab/Government",
+      "title": "US jobs growth surged to 162,000 in August; unemployment steady at 4.1%",
+      "impact": "Blowout report lifts Fed rate-hike odds; stocks trimmed, tech closed firm"
     },
     {
-      "source": "CNBC",
-      "title": "10-year U.S. Treasury yield hits highest level since November 2023",
-      "impact": "Energy-driven inflation fears push yields up, pressuring equities"
+      "source": "FT",
+      "title": "US strikes three Iranian oil tankers in response to attacks on warships",
+      "impact": "CRITICAL: crude climbing; Hormuz supply-disruption risk back at center"
     },
     {
-      "source": "CNBC",
-      "title": "Private payrolls rose by 38,000 in August, fewer than expected, ADP reports",
-      "impact": "Labor market cooling; sets up Friday jobs report; Fed policy expectations"
+      "source": "FT",
+      "title": "Treasury sell-off piles pressure on weakest US borrowers",
+      "impact": "Rising yields and hawkish Fed squeeze leveraged/high-yield credits"
     },
     {
-      "source": "CNBC",
-      "title": "Uber to cut 10% of workforce in bid to move 'simpler and faster'",
-      "impact": "Corporate layoffs continue; tech efficiency drive"
+      "source": "NYSE/Nasdaq",
+      "title": "US equity and bond markets closed Monday, Sept 7, for Labor Day",
+      "impact": "Thin, futures-led session; next US cash trade Tue Sep 8"
     },
     {
-      "source": "WSJ",
-      "title": "Comex Gold, Silver Settle Lower",
-      "impact": "Precious metals pressured by stronger dollar and high yields"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "EU moves to support Ukraine grain exports and shield farmers",
-      "impact": "Agricultural policy; corn drops most in 3 weeks on profit-taking, arabica coffee at record on tariff spat"
+      "source": "Schwab",
+      "title": "'They're going to need to hike rates': Wall Street weighs Fed after blowout jobs report",
+      "impact": "Rate-path uncertainty dominant macro driver; energy adds inflation fuel"
     }
   ]
 }

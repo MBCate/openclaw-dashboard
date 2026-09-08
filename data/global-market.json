@@ -1,106 +1,109 @@
 {
-  "updated": "2026-09-08T01:15:00Z",
-  "as_of": "Early-Asia preview Tue Sep 8 — US cash still on Labor Day holiday, oil races toward $100, Dow futures ~-300, yen tops 154, Asia chips firm",
+  "updated": "2026-09-08T13:35:00Z",
+  "as_of": "Sep 8, 2026 early US trading — Wall St mixed as oil nears $100 (US-Iran/Houthi strikes + Canada tariffs), Dow ~-446, Qualcomm +10% buoying chips, HSI slips lower, BTC slides under $78.5k",
   "us_markets": {
     "dow_jones": {
-      "value": null,
-      "change_pct": null,
-      "note": "US CASH CLOSED (Labor Day). Dow futures ~-300 pts (pre-market) into the shortened Tue Sep 8 re-open, dragged by surging crude near $100. Fri close 53,414.25."
+      "value": 52968.19,
+      "change_pct": -0.84,
+      "note": "Dow ~52,968 (-0.84%), underperforming on oil-led, trade-war pressure in the first trading session after the Labor Day break. Crude's march toward $100 and Canada's $27.6B retaliatory tariffs (effective Tue) hit industrials/materials."
     },
     "sp500": {
-      "value": 7718.6,
-      "change_pct": -0.37,
-      "note": "Reference Fri close ~7,718.60. Futures-led tone pointing modestly lower pre-open as energy-led inflation risk + hawkish Fed repricing dominate. Cash re-opens Tue."
+      "value": 7706.29,
+      "change_pct": -0.16,
+      "note": "S&P 500 ~7,706 (-0.16%). Resilient vs Dow thanks to the tech/AI bid led by Qualcomm's data-center deal with Amazon; energy-led inflation and hawkish-Fed repricing cap upside. Fri close was 7,718.60."
     },
     "nasdaq": {
-      "value": 26506.99,
-      "change_pct": -0.29,
-      "note": "Reference Fri close 26,506.99. Tech/AI steadied Friday; into Tuesday's open the AI complex watches 'model fatigue' reports and oil-driven macro for direction."
+      "value": 26499.71,
+      "change_pct": -0.03,
+      "note": "Nasdaq ~26,500 (-0.03%), roughly flat. AI/chip strength (QCOM +9-10% on Amazon custom-chip warrant deal) offsets broader risk-off; 'model fatigue' worries persist in the AI complex."
     },
-    "note": "US cash markets closed Mon Sep 7 for Labor Day; first full week trade is the shortened Tue Sep 8 session. Pre-market Dow futures down ~300 as Brent nears $100 and a deepening US-Iran/Hormuz supply crunch rattles the inflation outlook."
+    "note": "US cash markets re-opened Tuesday Sep 8 after the Mon Sep 7 Labor Day holiday. Early trade is MIXED: Dow led lower ~-0.8% on oil/near-$100 crude and Canada-US tariff escalation, while Nasdaq hugged flat on a Qualcomm-led chip rally. Investors watch the Fed and the US-Iran/Hormuz situation."
   },
   "hong_kong": {
     "hang_seng": {
-      "value": 25413.12,
-      "change_pct": -0.93,
-      "note": "Prior close: HSI 25,413.12, -0.93%. Overnight Asia tone sees oil-led risk-off vs firmer regional chips; watch Tue Asia session follow-through."
+      "value": 25317.18,
+      "change_pct": -0.38,
+      "note": "Hang Seng closed 25,317.18 (-0.38%) Tuesday, slipping ~95 pts as tech and insurers weighed while mining and oil names rallied on the crude spike. Rebound from Monday's deeper -0.93% loss."
     },
     "hscei": {
-      "value": 8429.73,
-      "change_pct": -1.47,
-      "note": "Hang Seng China Enterprises 8,429.73, -1.47%. Mainland/H-share names underperformed Monday; oil and hawkish-Fed pressure are the key swing factors into Tue Asia."
+      "value": null,
+      "change_pct": null,
+      "note": "Hang Seng China Enterprises tracking lower with tech; mainland insurers under pressure while energy/resources outperform on the oil bid."
     },
     "hstech": {
-      "value": 4527.71,
-      "change_pct": -0.92,
-      "note": "Hang Seng TECH 4,527.71. Regional chip/tech tone is firming (Tokyo +2% on AI/chips; Samsung buyback) — a potential tailwind for HK tech, offset by oil/macro drag."
+      "value": null,
+      "change_pct": null,
+      "note": "Hang Seng TECH softened as tech/insurer names dragged; regional semis (Tokyo, Samsung) firmed on AI optimism but HK tech lagged the oil-led rotation."
     },
-    "note": "HK closed lower Monday. Heading into Tue Asia: regional semis bid on AI optimism, but crude near $100, yen strength and hawkish-Fed pricing are the overriding risk overlay for HK/H-share stocks."
+    "note": "HK closed lower Tuesday (HSI -0.38%) as tech and insurers lost ground, offset by a rally in oil and mining stocks tracking crude near $100. Overnight US futures weakness and renewed Middle-East supply risk set a cautious tone into the rest of the week."
   },
   "crypto": {
     "btc": {
-      "value": 79314,
-      "change_pct": -0.79,
-      "note": "BTC ~$79,314 (-0.79% 24h) per CoinGecko. Drifted back below $79.5-80k; tracking oil-driven risk-off and firmer yen/dollar, with thin US-holiday liquidity."
+      "value": 78176,
+      "change_pct": -1.19,
+      "note": "BTC ~$78,176 (-1.19% on the day) per Yahoo Finance — slid under $78,500 as oil-driven risk-off and a firm yen/dollar pressured crypto; BNB and some DeFi tokens bucked the selloff."
     },
     "eth": {
-      "value": 2495.82,
-      "change_pct": -0.43,
-      "note": "ETH ~$2,495.82 (-0.43% 24h). Slightly firmer than BTC on relative basis; direction tied to tech/AI sentiment versus the energy/macro headwind."
+      "value": 2461.21,
+      "change_pct": -1.19,
+      "note": "ETH ~$2,461 (-1.19%). Stalling below $2,500; exchange reserves at fresh multi-year lows keep a medium-term bullish underpin, but momentum is thin with ADX low and macro risk high."
     },
-    "note": "Crypto edging lower overnight as crude's surge to ~$100 sours risk appetite; volumes thin with US cash desks on holiday and Asia the marginal driver."
+    "note": "Crypto sliding Tuesday as U.S.-Iran fighting and crude near $100 sour risk appetite; BTC fell below ~$78.5k while ETH defends ~$2,450-2,500. Direction remains hostage to oil, the Fed, and Mideast headlines."
   },
   "macro": {
-    "oil_100_renewed_supply_crunch": "CRITICAL: Brent racing toward $100 on a renewed supply crunch — US and Iran traded blows on each other's ships over the weekend and Saudi Aramco facilities were reportedly struck again. FT: 'Oil prices near $100.' Energy-led inflation is the dominant macro driver forcing hawkish-Fed repricing.",
-    "iran_oman_deal_watch": "Oil pulled back slightly on a Reuters/Bloomberg report that Iran says a deal with Oman is close — a potential de-escalation valve for the Hormuz premium. Watch for confirmation; any easing would relieve crude and yields simultaneously.",
-    "us_futures_dow_300": "Dow futures fell ~300 pts into the shortened week as oil climbed — markets set for a risk-off re-open Tuesday unless Iran-Oman progress cools crude.",
-    "yen_154_intervention": "Yen surged PAST 154 to a fresh 6-month / cycle high with traders on alert for BOJ intervention; Bloomberg notes the currency's 2026 high is in reach. Sharp FX stress is a global-liquidity watch item.",
-    "asia_chips_rebound": "Regional semis are the bright spot: Tokyo stocks rose over 2% Monday on AI/chip growth hopes and Samsung's buyback flagging Korea's preferred-share discount — early signs the post-DeepSeek AI rout is stabilizing in Asia even as 'model fatigue' worries circulate.",
-    "canada_trump_tariffs": "Canada set to hit back at Trump tariffs, risking a wider trade war — a fresh cross-border friction that adds to uncertainty alongside the oil shock.",
-    "us_labor_day": "US equity and bond markets CLOSED Monday Sep 7 for Labor Day. CME/global futures & crypto trade. US cash re-opens Tuesday Sep 8 in a shortened week.",
-    "august_jobs": "Nonfarm payrolls surged +162,000 in August (well above ~110k consensus). Blowout print keeps the 'will the Fed hike again?' debate alive, reinforcing hawkish pricing into the oil shock.",
-    "september_watch": "Focus: oil at ~$100 and whether the US-Iran/Oman situation eases Hormuz risk; yen intervention; US cash re-open Tuesday after Dow futures -300; Canada-US tariff retaliation; and whether Asia's chip rebound holds."
+    "oil_near_100": "CRITICAL: Crude remains the dominant driver — oil hit multi-week highs after Houthi attacks on Saudi energy facilities, with Brent near $98-100 and WTI above $93. US-Iran strikes over the weekend + renewed Gulf supply risk keep the energy-led inflation and hawkish-Fed trade front and center.",
+    "canada_tariffs_in_effect": "Canada's retaliatory tariffs worth C$27.6B took effect Tuesday, doubling duties on US steel/aluminum to 50% — a deepening Washington-Ottawa trade rift layered on top of the oil shock.",
+    "yen_154": "Yen holds firm near 153.8-154, a fresh cycle high, keeping traders alert for BOJ intervention. Sharp FX strength is a global-liquidity/FX-stress watch item.",
+    "qualcomm_ai": "Risk-on undercurrent: Qualcomm popped ~10% after signing a custom AI-chip/data-center deal with Amazon (incl. a 25M-share warrant). A bright spot for the AI trade amid 'model fatigue' chatter.",
+    "fed_hike_watch": "Blowout August payrolls (+162k vs ~110k est.) keep 'will the Fed hike again?' alive; hawkish pricing into the oil shock is a key cross-market headwind.",
+    "europe_oil_drag": "European shares slipped Tuesday as higher crude revived inflation worries, with Novartis (-9% on drug-trial setbacks) a notable drag; ECB rate path back in focus.",
+    "september_watch": "Focus: oil at ~$100 and whether US-Iran/Hormuz risk caps or eases; yen intervention risk; the Fed's path; Canada-US tariff escalation; and whether the AI/chip bid (Qualcomm-Amazon) holds against macro drag."
   },
   "headlines": [
     {
-      "source": "FT",
-      "title": "Oil prices near $100 as renewed supply crunch looms",
-      "impact": "Brent ~$100; energy-inflation pressures the hawkish-Fed trade and pressures equity multiples. Top macro risk of the session."
+      "source": "Reuters",
+      "title": "Oil hits multi-week highs after Houthi attacks on Saudi energy facilities",
+      "impact": "Brent ~$98-100, WTI >$93; energy-inflation pressures equity multiples and keeps the hawkish-Fed trade alive. Top macro risk."
     },
     {
       "source": "CNBC",
-      "title": "Dow futures fall 300 points to start shortened week as oil prices climb",
-      "impact": "US pre-open risk-off; cash re-opens Tuesday Sep 8 after Labor Day with oil the swing factor."
+      "title": "Brent crude nears $100 after strikes on Saudi energy sites amid renewed Mideast hostilities",
+      "impact": "Gulf supply risk reinforced the crude bid; watch airline/consumer margins and inflation pass-through."
     },
     {
-      "source": "MarketWatch",
-      "title": "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels",
-      "impact": "Gulf supply risk reinforces the crude bid; watch airline/consumer margins and inflation pass-through."
+      "source": "The Street / Benzinga",
+      "title": "Dow futures edge lower as oil prices climb, Mideast tensions rise; S&P/Dow/Nasdaq 100 futures fall as oil tops $99",
+      "impact": "US pre-open risk-off; Dow led lower in early cash trade though Nasdaq hugged flat on the chip bid."
     },
     {
-      "source": "Bloomberg",
-      "title": "Yen advances to six-month high; chip stocks rise; Iran says deal with Oman is close",
-      "impact": "Yen past 154 (BOJ watch); Asia chips firm; potential Oil/Hormuz de-escalation from an Iran-Oman deal."
+      "source": "BNN Bloomberg",
+      "title": "Wall Street mixed in early trading while oil prices push higher yet again",
+      "impact": "Dow -~0.8% vs Nasdaq ~flat: sector rotation as energy-led inflation hits value/cyclicals but tech resists."
     },
     {
-      "source": "Reuters/Bloomberg",
-      "title": "Oil extends gain, Iran says deal with Oman is close",
-      "impact": "Possible near-term cap on the Hormuz premium — key swing that would ease both crude and bond pressure."
+      "source": "CNBC / Bloomberg",
+      "title": "Qualcomm stock pops 10% on data center infrastructure deal with Amazon (custom AI chips + 25M-share warrant)",
+      "impact": "Bright spot for the AI trade; lifts semiconductor sentiment even as 'model fatigue' questions persist."
     },
     {
-      "source": "Kyodo/SCMP",
-      "title": "Tokyo stocks rise over 2% on AI and chip growth hopes as yen gains",
-      "impact": "Regional semis stabilize after the DeepSeek rout; a firmer yen trims export upside but signals FX stress."
+      "source": "The Standard (HK)",
+      "title": "Hang Seng slips 95 points as tech, insurers weigh, mining and oil stocks rally",
+      "impact": "HSI closed -0.38% at 25,317; oil/materials outperform as tech lags in HK."
     },
     {
-      "source": "SCMP",
-      "title": "Canada set to hit back at Trump tariffs, risking wider trade war",
-      "impact": "Fresh North-America trade friction adds to global uncertainty alongside the oil shock."
+      "source": "Investing.com / Yahoo",
+      "title": "European shares dip as higher crude revives inflation worries; Novartis drags",
+      "impact": "Euro-area stocks slipped Tuesday; ECB rate path and surging crude sharpen the inflation debate."
     },
     {
-      "source": "WSJ/CNBC",
-      "title": "AI 'model fatigue' sets in as labs race to roll out new versions; stocks sank in broad AI rout",
-      "impact": "Structural AI-capex questions persist even as Asia's chip complex shows tentative stabilization."
+      "source": "CNBC",
+      "title": "Canada's retaliatory tariffs worth $27.6B take effect as trade rift with US deepens",
+      "impact": "Steel/aluminum duties doubled to 50%; fresh North-America trade friction alongside the oil shock."
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin slides to ~$78,800 as BNB and DeFi tokens buck the selloff",
+      "impact": "Crypto risk-off on US-Iran fighting and crude; some altcoins diverge higher."
     }
   ]
 }

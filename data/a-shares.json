@@ -1,62 +1,62 @@
 {
-  "updated_at": "2026-09-08T03:36:18Z",
-  "session": "midday",
-  "source": "akshare-sina",
+  "updated_at": "2026-09-08T07:06:19Z",
+  "session": "close",
+  "source": "akshare-sina/tencent",
   "indices": [
     {
       "name": "上证指数",
-      "price": 3946.989,
-      "change": 14.29,
-      "change_pct": 0.36
+      "price": 3940.55,
+      "change": 7.85,
+      "change_pct": 0.2
     },
     {
       "name": "深证成指",
-      "price": 13782.05,
-      "change": 7.131,
-      "change_pct": 0.05
+      "price": 13703.21,
+      "change": -71.71,
+      "change_pct": -0.52
     },
     {
       "name": "创业板指",
-      "price": 3393.5,
-      "change": -5.18,
-      "change_pct": -0.15
+      "price": 3359.72,
+      "change": -38.97,
+      "change_pct": -1.15
     },
     {
       "name": "沪深300",
-      "price": 4577.902,
-      "change": 2.878,
-      "change_pct": 0.06
+      "price": 4558.74,
+      "change": -16.29,
+      "change_pct": -0.36
     }
   ],
   "sectors": {
     "top_gain": [
       {
         "name": "农药化肥",
-        "pct": 3.86
+        "pct": 4.1
+      },
+      {
+        "name": "石油行业",
+        "pct": 3.62
       },
       {
         "name": "飞机制造",
-        "pct": 2.94
+        "pct": 2.99
       },
       {
         "name": "造纸行业",
-        "pct": 2.43
+        "pct": 2.44
       },
       {
         "name": "综合行业",
-        "pct": 2.25
+        "pct": 2.31
+      },
+      {
+        "name": "纺织机械",
+        "pct": 2.16
       },
       {
         "name": "船舶制造",
         "pct": 1.77
-      },
-      {
-        "name": "传媒娱乐",
-        "pct": 1.74
-      },
-      {
-        "name": "环保行业",
-        "pct": 1.7
       },
       {
         "name": "食品行业",
@@ -65,38 +65,43 @@
     ],
     "top_loss": [
       {
-        "name": "发电设备",
-        "pct": -0.19
-      },
-      {
-        "name": "酿酒行业",
-        "pct": -0.22
-      },
-      {
-        "name": "医疗器械",
-        "pct": -0.29
-      },
-      {
-        "name": "次新股",
-        "pct": -0.37
-      },
-      {
-        "name": "家电行业",
-        "pct": -0.43
-      },
-      {
-        "name": "电器行业",
-        "pct": -0.48
-      },
-      {
-        "name": "仪器仪表",
-        "pct": -0.53
+        "name": "家具行业",
+        "pct": -1.08
       },
       {
         "name": "公路桥梁",
-        "pct": -1.12
+        "pct": -0.94
+      },
+      {
+        "name": "电器行业",
+        "pct": -0.87
+      },
+      {
+        "name": "次新股",
+        "pct": -0.82
+      },
+      {
+        "name": "电子器件",
+        "pct": -0.73
+      },
+      {
+        "name": "发电设备",
+        "pct": -0.65
+      },
+      {
+        "name": "仪器仪表",
+        "pct": -0.57
+      },
+      {
+        "name": "陶瓷行业",
+        "pct": -0.48
       }
-    ]
+    ],
+    "breadth": {
+      "up": 36,
+      "down": 13,
+      "total": 49
+    }
   },
   "northbound": [
     {
@@ -106,5 +111,5 @@
       "note": "交易所自2024年8月起停止实时披露北向资金, 仅盘后/次日公布"
     }
   ],
-  "note": "午盘快照(新浪实时期货源)"
+  "note": "收盘快照: 指数与板块经新浪源(akshare)采集; 东财(eastmoney)推送接口当日代理连接失败未采用; 板块为新浪行业板块分类"
 }

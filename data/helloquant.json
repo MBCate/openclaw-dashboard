@@ -1,12 +1,12 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-09-08 07:06 UTC",
+  "updated": "2026-09-09 07:06 UTC",
   "status": "degraded",
   "last_run": {
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08 07:06 UTC",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09 07:06 UTC",
     "success": false,
-    "note": "收盘检查: A股指数经新浪源采集成功(收盘快照); 东财板块接口代理错误; HelloQuant策略采集管线自2026-08-25后无新输出, 持续停滞"
+    "note": "收盘检查: A股指数收盘快照更新完成(新浪源); HelloQuant策略采集管线自2026-08-25后持续无新输出(内容停滞), OKX加密数据依赖代理不可用"
   },
   "crypto": {
     "status": "error",
@@ -15,19 +15,23 @@
   },
   "stocks": {
     "status": "success",
-    "note": "2026-09-07 A股收盘数据 (通过新浪源采集)",
+    "note": "2026-09-09 A股收盘数据 (新浪源)",
     "data": {
       "上证指数": {
-        "price": 3932.699,
-        "change_pct": 0.066
+        "price": 3951.507,
+        "change_pct": 0.278
       },
       "深证成指": {
-        "price": 13774.915,
-        "change_pct": 1.908
+        "price": 13723.322,
+        "change_pct": 0.147
       },
       "创业板指": {
-        "price": 3398.681,
-        "change_pct": 3.412
+        "price": 3354.969,
+        "change_pct": -0.141
+      },
+      "沪深300": {
+        "price": 4572.6,
+        "change_pct": 0.304
       }
     }
   },
@@ -40,10 +44,10 @@
     }
   },
   "strategies": {
-    "note": "8策略(DoubleMa/TripleMa/Supertrend/RSI/MACD/Bollinger/Momentum/MeanReversion)自2026-08-25当日数据后无新增输出, 采集管线停滞",
+    "note": "8策略(DoubleMa/TripleMa/Supertrend/RSI/MACD/Bollinger/Momentum/MeanReversion)自2026-08-25当日数据后无新增输出, 采集管线持续停滞",
     "latest_backtest": "2026-01-04 (reports)",
     "latest_daily_raw": "2026-08-25 (data/daily_raw.json)"
   },
-  "last_check": "2026-09-08 07:06 UTC",
+  "last_check": "2026-09-09 07:06 UTC",
   "weekly_report": "2026-08-28"
 }

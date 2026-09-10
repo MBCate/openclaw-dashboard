@@ -1,171 +1,63 @@
 {
-  "updated": "2026-09-10T01:20:00Z",
-  "as_of": "Sep 10, 2026 Asia-morning preview — US closed lower Wed Sep 9 (Dow -0.77%, S&P -0.48%, Nasdaq -0.64%) as Brent surged above $101 on escalating US-Iran tanker strikes; Nikkei -0.90%, KOSPI -2%, Europe sharply lower (DAX -1.66%, CAC -1.94%); US 10Y at 4.834% after weak auction; gold $4,457",
-  "us_markets": {
-    "dow_jones": {
-      "value": 52380.66,
-      "change_pct": -0.77,
-      "note": "Dow closed 52,380.66 Wed Sep 9, -0.77% (~-405 pts) — second straight down day as Brent broke above $101 on fresh US-Iran tanker escalation. Oil-led inflation/hawkish-Fed pressure persists; index remains ~1.2% below its pre-Labor-Day level."
-    },
-    "sp500": {
-      "value": 7636.36,
-      "change_pct": -0.48,
-      "note": "S&P 500 closed 7,636.36, -0.48% (-37.16). Energy names bid on crude >$100 but the broader tape weighed by rates (10Y 4.834% after a soft $39B auction) and Mideast risk. Losses broad but orderly."
-    },
-    "nasdaq": {
-      "value": 26253.34,
-      "change_pct": -0.64,
-      "note": "Nasdaq closed 26,253.34, -0.64% (-168.07). Tech gave back more than the S&P as yields near multi-decade highs pressured long-duration growth; AI/chip names led the downside after Tuesday's Qualcomm-Amazon pop faded."
-    },
-    "note": "US CASH CLOSE Wed Sep 9: Dow -0.77%, S&P -0.48%, Nasdaq -0.64% — a second consecutive risk-off session as Brent pushed past $101 and the 10Y auction tailed (4.834%). Yields at/near two-decade highs keep equities capped into the Asia open."
-  },
-  "hong_kong": {
-    "hang_seng": {
-      "value": 25274.96,
-      "change_pct": -0.17,
-      "note": "HSI reference 25,274.96 (-0.17%) into the Sep 10 HK open. The index is tracking the overnight US/Europe risk-off, with oil/energy names likely to outperform on the crude spike while tech/semis stay soft. Watch the $101 Brent and the 4.83% US 10Y as the dual cross-market drivers."
-    },
-    "hscei": {
-      "value": 8369.05,
-      "change_pct": null,
-      "note": "HSCEI reference 8,369.05 into the open; mainland-H names likely the relative laggard, tracking A-share futures down ~0.4%."
-    },
-    "hstech": {
-      "value": 4420.79,
-      "change_pct": null,
-      "note": "Hang Seng TECH reference 4,420.79; regional semis/AI soft as US Nasdaq fell -0.64% and yields rose — HK tech faces headwinds into the open."
-    },
-    "note": "HK opens Sep 10 against an overnight backdrop of falling US/Europe equities (DAX -1.66%, CAC -1.94%), Brent above $101 on US-Iran tanker strikes, and Nikkei -0.90% / KOSPI -2% in Asia."
-  },
-  "asia_pacific": {
-    "nikkei225": {
-      "value": 44946.64,
-      "change_pct": -0.90,
-      "note": "Nikkei 225 44,946.64 (-0.90%) — pressured by the global oil/rates risk-off and yen firmness; JGB 20Y yield +3bp to 3.73%, 30Y +3bp to 3.985% as long-end pressure builds."
-    },
-    "kospi": {
-      "value": null,
-      "change_pct": -2.0,
-      "note": "KOSPI down as much as 2% intraday Sep 10 — Asia's worst major index, hit hardest by the tech/semis selloff and oil-led risk-off; a key regional risk gauge into the session."
-    },
-    "ftse_china_a50_futures": {
-      "value": null,
-      "change_pct": -0.42,
-      "note": "FTSE China A50 futures opened -0.42% Sep 10, pointing to a soft A-share open as investors weigh the global risk-off and Brent >$100."
-    },
-    "note": "Asia-Pacific Sep 10: broad risk-off. Nikkei -0.90%, KOSPI -2%, TSEC weighted opened -0.1%, A50 futures -0.42%. Oil >$100 and rising long-end yields (JGB 20Y 3.73%) are the dominant regional drivers."
-  },
-  "europe": {
-    "ftse100": { "value": 10670.06, "change_pct": -1.31, "note": "UK FTSE 100 -1.31% — energy strength on crude outweighed by broad risk-off and inflation/rates worries." },
-    "dax": { "value": 25576.45, "change_pct": -1.66, "note": "German DAX -1.66% — among the worst-hit, with autos (US-EU tariff/trade friction, Chinese competition) and rate-sensitive names leading losses." },
-    "cac40": { "value": 8156.67, "change_pct": -1.94, "note": "French CAC 40 -1.94% — weakest major European index, dragged by luxury/autos and the broad risk-off; German 10Y set for highest-yield issuance since 2010." },
-    "note": "Europe closed sharply lower Wed Sep 9: FTSE -1.31%, DAX -1.66%, CAC -1.94% — oil-led inflation fears, soft long-end bond markets (German 10Y issuance at 2010-high yields) and US-Canada/US-EU trade friction drove the selloff."
-  },
-  "crypto": {
-    "btc": {
-      "value": null,
-      "change_pct": null,
-      "note": "BTC data not refreshed this cycle (crypto API via proxy unavailable at capture time); macro backdrop remains risk-off with Brent >$100 — crypto likely tracking the broader risk-asset softness."
-    },
-    "eth": {
-      "value": null,
-      "change_pct": null,
-      "note": "ETH not refreshed this cycle; direction contingent on Mideast headlines, crude, and the Fed path."
-    },
-    "note": "Crypto quote feed unavailable overnight (international API reachable only via proxy, which was offline during this capture). Data gap flagged rather than estimated."
-  },
+  "updated_at": "2026-09-10T13:35:00Z",
+  "as_of": "Sep 10 2026 06:35 PT / 13:35 UTC — Intraday. US session lower on oil-led inflation shock: Brent tops $105 (last seen ~July), WTI above $100, US 10Y yield tops 4.9% (highest since 2023) after hot PPI (+0.4% m/m). Europe lower (DAX -0.6%), Asia mixed (KOSPI -0.25%, Nikkei +0.2%, HSI -1.27%). Crypto risk-off: BTC ~$76.9k (-3.4%), ETH ~$2,418 (-3.8%).",
+  "indices": [
+    { "name": "S&P 500", "symbol": "^GSPC", "close": 7592.52, "change_pct": -0.57, "note": "US intraday Thu Sep 10: S&P ~7,592, -0.57% from Wed close 7,636.36. Third straight down session as Brent tops $105 and the 10Y tops 4.9% (highest since 2023) following PPI +0.4%. Energy bid, broad multiples pressured by rates." },
+    { "name": "道琼斯", "symbol": "^DJI", "close": 52077.39, "change_pct": -0.58, "note": "Dow ~52,077 intraday, -0.58% from Wed close 52,380.66. Rate-sensitive and industrial names weighed by the oil-shock inflation narrative and rising yields." },
+    { "name": "纳斯达克", "symbol": "^IXIC", "close": 26026.41, "change_pct": -0.86, "note": "Nasdaq ~26,026 intraday, -0.86% — the weakest of the big three as yields near two-decade highs pressure long-duration tech/AI. BofA argues rising yields aren't yet a threat to the AI trade." },
+    { "name": "恒生指数", "symbol": "^HSI", "close": 24954.47, "change_pct": -1.27, "note": "HSI closed 24,954.47, -1.27% Thu Sep 10 — tracking the global risk-off and oil spike; H-share tech the relative laggard." },
+    { "name": "日经225", "symbol": "^N225", "close": 65270.95, "change_pct": 0.2, "note": "Nikkei 225 65,270.95, +0.20% — resilient despite the global risk-off; yen and JGB long-end (20Y ~3.7%+) remain the cross-market watch items." },
+    { "name": "KOSPI", "symbol": "^KS11", "close": 7033.92, "change_pct": -0.25, "note": "KOSPI 7,033.92, -0.25% Thu Sep 10 — holding above 7,000 after a strong multi-week rally; still Asia's key risk gauge into the tech/oil backdrop." },
+    { "name": "台湾加权", "symbol": "^TWII", "close": 46940.49, "change_pct": -0.51, "note": "TSEC weighted 46,940.49, -0.51% — semis soft as US tech leads the downside." },
+    { "name": "英国富时100", "symbol": "^FTSE", "close": 10629.46, "change_pct": -0.38, "note": "FTSE 100 10,629.46, -0.38% — energy strength on crude partly offsets the broad risk-off." },
+    { "name": "德国DAX", "symbol": "^GDAXI", "close": 25423.82, "change_pct": -0.6, "note": "DAX 25,423.82, -0.60% — autos and rate-sensitive names lead losses amid EU tariff/trade friction." },
+    { "name": "法国CAC40", "symbol": "^FCHI", "close": 8126.94, "change_pct": -0.36, "note": "CAC 40 8,126.94, -0.36% — luxury/autos soft; German 10Y issuance at 2010-high yields adds duration pressure." }
+  ],
+  "crypto": [
+    { "name": "Bitcoin (BTC)", "symbol": "BTC-USDT", "price": 76900, "change_pct": -3.4, "note": "BTC ~$76,900 (-3.4% 24h, OKX/CoinGecko). Risk-off drag from rising real yields and the oil/inflation shock; 24h low ~$76.7k." },
+    { "name": "Ethereum (ETH)", "symbol": "ETH-USDT", "price": 2418, "change_pct": -3.84, "note": "ETH ~$2,418 (-3.84% 24h), held near $2.5k support; CPI on Friday is the next catalyst for a range break ($2,431–$2,600)." }
+  ],
   "commodities": {
-    "brent_crude": {
-      "value": 101.59,
-      "change_pct": null,
-      "note": "Brent crude ABOVE $101 (last ~$101.59-101.62 at 01:16 UTC Sep 10), extending the move from ~$99-100 as US-Iran tanker escalation deepened — the single largest cross-market driver into the Asia session."
-    },
-    "wti_crude": {
-      "value": 96.72,
-      "change_pct": 0.53,
-      "note": "WTI ~$96.72 (+0.53%), fresh multi-week high; the prompt contract holds just under the psychological $97-100 zone as tanker strikes sustain the supply-risk premium."
-    },
-    "gold": {
-      "value": 4456.95,
-      "change_pct": -0.18,
-      "note": "COMEX gold ~$4,457 (-0.18%), Singapore 沪金 955.0 (+0.51%). Report of 'gold fleeing the US' on weakening US-EU trust; safe-haven bid with momentum still constructive despite the small pullback."
-    },
-    "silver_cn": { "value": 16417.0, "change_pct": 1.71, "note": "Shanghai silver 沪银 +1.71% — industrial+monetary demand and the gold bid spillover." },
-    "copper_cn": { "value": 111810.0, "change_pct": 0.62, "note": "Shanghai copper 沪铜 +0.62%; CITIC sees annual copper potentially reaching $16,000/t — supply-tightness narrative intact." },
-    "rebar_cn": { "value": 3146.0, "change_pct": -0.57, "note": "Shanghai rebar 螺纹 -0.57% — construction demand soft; property/现房销售 reform in focus." },
-    "note": "Energy is the standout: Brent >$101, WTI ~$96.7 on the US-Iran tanker strikes. Precious metals firm (gold ~$4,457, 沪银 +1.71%), base metals mixed-to-firm (沪铜 +0.62%), ferrous soft (螺纹 -0.57%)."
+    "brent_crude": { "value": 105.23, "change_pct": 3.97, "note": "CRITICAL — Brent ~$105.23 (+3.97%), back above $100 (last seen ~July) and the single largest cross-market driver, on US-Iran escalation and Saudi output cuts amid Houthi threats." },
+    "wti_crude": { "value": 100.02, "change_pct": 4.13, "note": "WTI ~$100.02 (+4.13%), topping the psychological $100 mark — supply-risk premium from US-Iran tanker strikes persists." },
+    "gold": { "value": 4395.5, "change_pct": -0.46, "note": "COMEX gold ~$4,395 (-0.46%), softer as rising real yields and a firm dollar offset the safe-haven bid. Still elevated on US-EU trust erosion." },
+    "us_10y_yield": { "value": 4.92, "change_pct": 1.67, "note": "US 10Y ~4.92%, ABOVE 4.9% — highest since 2023 — as the oil surge stokes inflation/hike fears and Bessent's $6bn buyback plan disappointed investors." }
   },
   "macro": {
-    "oil_iran_escalation": "CRITICAL: US-Iran escalation persists — follow-through to the five Iranian oil tankers destroyed after an attempted attack on a US warship. White House officials said the US-Iran conflict may last through the remainder of Trump's term. Brent pushed above $101, WTI ~$96.7 — the dominant global market driver.",
-    "us_treasury_10y_auction": "$39B 10-year auction tailed: high yield 4.834%, bid-to-cover 2.71. US 10Y yields ~4.83%, at/near two-decade highs; 2Y +2bp to 4.42%. Weak long-end demand + 'new bond king' warning that a non-hike Fed invites fresh Treasury selling.",
-    "treasury_buyback_disappointment": "US Treasury announced a long-bond buyback cap of $6B with operations showing at least $4B — 'disappointment engulfed the market'; long-end yields rose further on the news.",
-    "japan_jgb_pressure": "JGB long end under pressure: 20Y yield +3bp to 3.73%, 30Y +3bp to 3.985%; Fitch noted rising JGB yields may keep more Japanese capital at home (a global duration/FX headwind).",
-    "asia_market_open": "Sep 10 Asia open: KOSPI -2% (worst), Nikkei -0.90%, TSEC opened -0.1%, FTSE China A50 futures -0.42%. Broad risk-off on oil >$100 + rising global long-end yields.",
-    "us_cash_close_recap": "US cash markets closed lower Wed Sep 9: Dow -0.77%, S&P -0.48%, Nasdaq -0.64% — second straight down session; Europe fell harder (DAX -1.66%, CAC -1.94%).",
-    "china_a_pre_market": "A-share pre-open Sep 10: 上证参考 3,950.02 / 深证 13,723.32 / 创业板 3,354.97; 沪深300 4,570.32. Margin financing balance fell ¥3.19B; A50 futures -0.42% point to a soft open. Aug China CPI/PPI both returned to positive — 'economy showing signs of repair'. 央行 7-day reverse repo was zero on Sep 9.",
-    "fed_hike_watch": "Hawkish repricing intact: blowout Aug payrolls + oil >$100 keep 'will the Fed hike again?' alive. September Fed path and the near-two-decade-high 10Y remain the key equity headwind.",
-    "september_watch": "For the Sep 10 Asia session: 1) Brent >$101 & US-Iran escalation (White House: could last through Trump's term); 2) rising long-end yields globally (US 10Y 4.834%, JGB 20Y 3.73%, German 10Y at 2010-high issuance); 3) KOSPI -2% tech lead-loss; 4) A50 futures -0.42% / China CPI-PPI back positive; 5) gold >$4,450 on US-EU trust erosion; 6) US-Canada tariff fray."
+    "oil_iran_escalation": "CRITICAL: US-Iran conflict persists — US crude back above $100 for the first time since May as the market braces for a prolonged Iran war. Saudi Arabia cut output to its lowest this year on Houthi threats. Oil is the dominant global driver.",
+    "ppi_hot": "US PPI rose 0.4% m/m in August, as expected — but combined with oil >$100 it hardens the inflation narrative and stokes Fed-hike bets. CPI Friday is the key macro print.",
+    "us_10y_4p9": "US 10Y yield tops 4.9%, the highest since 2023, as the oil surge raises inflation fears. Bloomberg: 'US bond yields extend climb as oil advance stokes rate-hike bets.' FT: 'Treasury yields jump as Bessent's $6bn buyback plan disappoints investors.'",
+    "fed_hike_bets": "Traders boosted Fed-hike bets (Bloomberg Markets Wrap: 'Stocks, Bonds Fall as Traders Boost Fed-Hike Bets'). Hawkish repricing driven by oil-led inflation + a hot-ish PPI.",
+    "us_futures": "US equity futures extended their drop after the PPI data as oil prices and yields spiked (Bloomberg). Risk-off tone dominates the session.",
+    "asia_close": "Asia Thu Sep 10: Nikkei +0.20% (65,271), KOSPI -0.25% (7,034, holding >7,000), TSEC -0.51%, HSI -1.27% (24,954). Broadly defensive on oil/rates.",
+    "crypto_riskoff": "Crypto tracking the broader risk-asset softness: BTC -3.4% (~$76.9k), ETH -3.84% (~$2,418). Nasdaq investing $100M in Kraken parent Payward for tokenized stocks — a structural adoption note.",
+    "commodities_metals": "Copper and FCX plunged on a tariff report and surging yields; silver and gold also fell (Yahoo). Precious/base metals pressured by rising real yields despite the risk-off.",
+    "watch": "Key watch items: 1) Brent >$105 & US-Iran escalation ('prolonged war' framing); 2) US 10Y >4.9% (highest since 2023) & Fed-hike repricing; 3) Friday CPI; 4) KOSPI holding >7,000; 5) crypto -3–4% risk-off; 6) Apple iPhone cadence/AI-trade commentary."
   },
   "headlines": [
-    {
-      "source": "东方财富 / 美媒",
-      "title": "白宫高官称美伊战事或持续至特朗普任期结束",
-      "impact": "Overnight escalation deepens — Brent breaks above $101; top macro risk, reinforcing the energy-inflation and hawkish-Fed pressure into the Asia open."
-    },
-    {
-      "source": "东方财富",
-      "title": "富时中国A50指数期货开盘跌0.42%",
-      "impact": "A-share futures signal a soft mainland open Sep 10 as investors digest the global risk-off and crude >$100."
-    },
-    {
-      "source": "东方财富",
-      "title": "韩国KOSPI指数日内跌幅达2%",
-      "impact": "Asia's worst major index — tech/semis-led selloff and oil-driven risk-off; key regional risk gauge into the session."
-    },
-    {
-      "source": "东方财富",
-      "title": "日经225指数跌幅扩大至1%",
-      "impact": "Japan equities pressured by global risk-off and yen firmness; JGB 20Y +3bp to 3.73% adds to the long-end pressure."
-    },
-    {
-      "source": "东方财富",
-      "title": "美国财政部拍卖390亿美元10年期国债 得标利率4.834% 投标倍数2.71",
-      "impact": "Weak long-end demand: 10Y yields near two-decade highs — the key headwind capping equity valuations."
-    },
-    {
-      "source": "东方财富",
-      "title": "美国财政部宣布长债回购上限60亿美元 失望情绪笼罩市场",
-      "impact": "Buyback disappointment pushed long-end yields higher — added to the oil-led risk-off."
-    },
-    {
-      "source": "东方财富",
-      "title": "美欧信任弱化加速黄金撤离美国 / 黄金COMEX ~$4,457",
-      "impact": "Gold's safe-haven bid underscores weakening US-EU trust; 沪金 +0.51%, 沪银 +1.71%."
-    },
-    {
-      "source": "东方财富",
-      "title": "华泰证券：能源及食品价格推升8月表观通胀 / 中信证券：年内PPI双顶格局形成",
-      "impact": "Oil-and-food-led inflation narrative reinforced — raises the stakes for the Fed path."
-    },
-    {
-      "source": "东方财富",
-      "title": "瑞银：美债危机下美股尤其脆弱 AI相关股票面临最大风险",
-      "impact": "Wall Street flags duration/AI-vulnerability — aligns with Nasdaq -0.64% overnight."
-    },
-    {
-      "source": "东方财富",
-      "title": "苹果发布首款折叠屏手机 股价走出过山车行情 / 苹果多款机型同步涨价 iPhone 17涨价800元",
-      "impact": "Consumer-tech pricing power and foldable launch in focus; AAPL volatility a micro watch item."
-    },
-    {
-      "source": "东方财富",
-      "title": "英伟达称将支持澳大利亚到2027年建设高达2吉瓦的AI基础设施",
-      "impact": "AI-infrastructure demand narrative intact despite the risk-off — a potential stabilizer for chip names."
-    },
-    {
-      "source": "东方财富",
-      "title": "DeepSeek据报备战科创板IPO 相关参股公司有望受益",
-      "impact": "Potential domestic AI-IPO catalyst; watch A-share AI/算力 chain sentiment into the open."
-    }
+    { "source": "CNBC", "title": "U.S. crude oil tops $100 again – last seen in May – as market braces for prolonged Iran war", "summary": "Oil is the dominant cross-market driver; Brent >$105 and WTI >$100 revive the inflation shock and pressure equities and bonds." },
+    { "source": "CNBC", "title": "10-year Treasury yield tops 4.9%, highest since 2023, as oil surge raises inflation fears", "summary": "The 10Y breaking 4.9% is the key valuation headwind; rising yields cap equity multiples and lift Fed-hike expectations." },
+    { "source": "Bloomberg", "title": "Stocks, Bonds Fall as Traders Boost Fed-Hike Bets: Markets Wrap", "summary": "Stocks and bonds sold off together as oil-driven inflation fears pushed traders to price a higher Fed path." },
+    { "source": "FT", "title": "Treasury yields jump as Bessent's $6bn buyback plan disappoints investors", "summary": "US Treasury buyback disappointment added to the long-end selloff — yields pushed higher across the curve." },
+    { "source": "CNBC", "title": "Wholesale prices rose 0.4% in August, as expected", "summary": "PPI +0.4% m/m as expected, but with oil >$100 it reinforces the inflation narrative ahead of Friday's CPI." },
+    { "source": "FT", "title": "Saudi Arabia cuts oil output to lowest this year on Houthi threats", "summary": "Fresh supply-side tightening in the Middle East underpins the crude spike above $100." },
+    { "source": "Reuters / Yahoo", "title": "Copper, FCX stock plunge on tariff report, surging yields; silver, gold also fall", "summary": "Metals hit by rising real yields and tariff headlines — copper/FCX sharply lower despite the risk-off backdrop." },
+    { "source": "Yahoo Finance", "title": "Bank of America says rising bond yields aren't a threat to AI trade yet", "summary": "BofA pushes back on the yields-vs-AI-trade bear case, though Nasdaq is the weakest major US index intraday (-0.86%)." },
+    { "source": "Yahoo Finance", "title": "Nasdaq invests $100 million in Kraken parent Payward for tokenized stocks", "summary": "Structural crypto-adoption headline even as BTC/ETH trade lower in the broader risk-off." },
+    { "source": "CNBC", "title": "Apple makes biggest change to iPhone release cadence in 7 years in Ternus' first showcase as CEO", "summary": "Apple reshapes its iPhone launch cadence under new CEO Ternus — a marquee consumer-tech watch item." },
+    { "source": "CNBC", "title": "Trump's $1 trillion-plus 'dividend' plan meets immediate bipartisan pushback", "summary": "Fiscal-policy headline risk that could add to the long-end/rates narrative." },
+    { "source": "FT", "title": "Is now really the time to worry about a new China shock?", "summary": "China-demand debate in focus as the global growth/inflation mix tightens on the oil shock." }
+  ],
+  "news": [
+    { "source": "CNBC", "title": "U.S. crude oil tops $100 again – last seen in May – as market braces for prolonged Iran war", "url": "https://www.cnbc.com/", "summary": "Oil is the dominant cross-market driver; Brent >$105 and WTI >$100 revive the inflation shock and pressure equities and bonds." },
+    { "source": "CNBC", "title": "10-year Treasury yield tops 4.9%, highest since 2023, as oil surge raises inflation fears", "url": "https://www.cnbc.com/", "summary": "The 10Y breaking 4.9% is the key valuation headwind; rising yields cap equity multiples and lift Fed-hike expectations." },
+    { "source": "Bloomberg", "title": "Stocks, Bonds Fall as Traders Boost Fed-Hike Bets: Markets Wrap", "url": "https://www.bloomberg.com/markets", "summary": "Stocks and bonds sold off together as oil-driven inflation fears pushed traders to price a higher Fed path." },
+    { "source": "FT Markets", "title": "Treasury yields jump as Bessent's $6bn buyback plan disappoints investors", "url": "https://www.ft.com/markets", "summary": "US Treasury buyback disappointment added to the long-end selloff — yields pushed higher across the curve." },
+    { "source": "CNBC", "title": "Wholesale prices rose 0.4% in August, as expected", "url": "https://www.cnbc.com/", "summary": "PPI +0.4% m/m as expected, but with oil >$100 it reinforces the inflation narrative ahead of Friday's CPI." },
+    { "source": "FT Markets", "title": "Saudi Arabia cuts oil output to lowest this year on Houthi threats", "url": "https://www.ft.com/markets", "summary": "Fresh supply-side tightening in the Middle East underpins the crude spike above $100." },
+    { "source": "Yahoo Finance", "title": "Copper, FCX stock plunge on tariff report, surging yields; silver, gold also fall", "url": "https://finance.yahoo.com/news/", "summary": "Metals hit by rising real yields and tariff headlines — copper/FCX sharply lower despite the risk-off backdrop." },
+    { "source": "Yahoo Finance", "title": "Bank of America says rising bond yields aren't a threat to AI trade yet", "url": "https://finance.yahoo.com/news/", "summary": "BofA pushes back on the yields-vs-AI-trade bear case, though Nasdaq is the weakest major US index intraday (-0.86%)." },
+    { "source": "Yahoo Finance", "title": "Nasdaq invests $100 million in Kraken parent Payward for tokenized stocks", "url": "https://finance.yahoo.com/news/", "summary": "Structural crypto-adoption headline even as BTC/ETH trade lower in the broader risk-off." },
+    { "source": "CNBC", "title": "Apple makes biggest change to iPhone release cadence in 7 years in Ternus' first showcase as CEO", "url": "https://www.cnbc.com/", "summary": "Apple reshapes its iPhone launch cadence under new CEO Ternus — a marquee consumer-tech watch item." }
   ]
 }

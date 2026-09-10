@@ -1,298 +1,105 @@
 {
-  "timestamp": "2026-08-26T13:30:00Z",
-  "date": "2026-08-26",
-  "market_state": "us-preopen-asia-preopen",
-  "summary": {
-    "title": "隔夜美股芯片反弹、纳指+0.7%逼近纪录；核心PCE同比3.3%高于预期显通胀粘性，Nvidia财报+Warsh Jackson Hole讲话成今日焦点；油价跌破$88因美国对伊施压",
-    "us_open": "周二(8/25)美股收高：标普500涨0.3%收7677.28逼近历史高位、道指涨0.3%连三日上涨、纳指涨0.7%领涨(芯片股从周一DeepSeek抛售中反弹)。今日两大重磅：Nvidia Q2财报(检验AI交易)+Fed主席Warsh首场Jackson Hole讲话。今晨核心PCE同比+3.3%高于预期，显示通胀粘性，叠加Bessent债券市场干预，美元与债市'如坐针毡'。油价跌破$88，因美国转向对伊朗经济施压、缓解中东重开战担忧；欧洲LNG飙至2023年以来最高。IMF称AI推动全球增长。'贬值交易'逻辑延续，BTC约$78.3K(+1.1%)、黄金受捧。",
-    "key_takeaway": "隔夜(周二8/25)美股三大指数全线收高，科技股领涨：纳指+0.7%(芯片股从周一DeepSeek恐慌抛售中反弹)、标普+0.3%收7677.28逼近历史高位、道指+0.3%连三日上涨。今晨核心PCE同比3.3%高于预期，通胀粘性压制Fed宽松空间；今日焦点转向Nvidia Q2财报(检验AI交易)+Fed主席Warsh首场Jackson Hole讲话(Bessent市场干预施压下政策表态)。油价因美国对伊转向经济施压跌破$88，中东战争风险缓和；欧洲LNG飙至2023年来最高。A股早盘关注：AI/半导体链映射反弹、油价大跌利好航空/石化下游、通胀粘性与债市波动的地缘与能源链条。"
+  "updated": "2026-09-09T01:15:00Z",
+  "as_of": "Sep 9, 2026 Asia-morning preview — US closed sharply lower Tue Sep 8 (Dow -1.18%, worst day in 3 wks) as oil neared $100 on US-Iran tanker strikes + Canada tariffs; Brent tops $99 into Wed; US futures little changed overnight; BTC ~$78.7k",
+  "us_markets": {
+    "dow_jones": {
+      "value": 52786.07,
+      "change_pct": -1.18,
+      "note": "Sep 8 FINAL close 52,786.07, -1.18% (~-628 pts) — worst day in nearly 3 weeks. Reopening after Labor Day, the Dow was hit hardest by oil-led/near-$100 crude, Canada's C$27.6B tariffs taking effect, and inflation→hawkish-Fed repricing. 10Y near two-decade highs. Sep 9: Dow futures ~52,800, roughly flat (-0.06%)."
+    },
+    "sp500": {
+      "value": 7673.52,
+      "change_pct": -0.58,
+      "note": "Sep 8 FINAL close 7,673.52, -0.58% (-45.08). Early-session tech/AI resilience (Qualcomm-Amazon) faded into the close as the energy-led inflation and rate-hike debate reasserted; Amgen dragged health care. Sep 9: E-mini S&P ~7,683 (+0.04%), little changed."
+    },
+    "nasdaq": {
+      "value": 26421.41,
+      "change_pct": -0.32,
+      "note": "Sep 8 FINAL close 26,421.41, -0.32%. Held up best of the three as the Qualcomm (~+10% early on an Amazon custom-chip/data-center warrant deal) and semiconductor bid cushioned the broader oil-driven risk-off, but trimmed gains into the close."
+    },
+    "note": "US CASH CLOSE Tue Sep 8: Dow -1.18%, S&P -0.58%, Nasdaq -0.32% — a broad risk-off return from the long weekend as crude neared $100 and Canada-US tariff war deepened. Into the Asia session Sep 9 US futures were LITTLE CHANGED after Tuesday's losses: S&P E-mini ~7,683 (+0.04%), Dow futures ~52,803 (-0.06%)."
   },
-  "indices": {
-    "US": [
-      {
-        "name": "S&P 500",
-        "symbol": "SPX",
-        "value": 7677.28,
-        "change": 0.3,
-        "change_pct": 0.3,
-        "note": "周二(8/25)涨0.32%收7677.28，逼近本月创下的历史高位。科技股领涨，投资者在今日Nvidia财报与PCE数据前回补仓位。核心PCE同比3.3%(高于预期)令数据偏粘性"
-      },
-      {
-        "name": "Nasdaq",
-        "symbol": "IXIC",
-        "value": 0.0,
-        "change": 0.7,
-        "change_pct": 0.7,
-        "note": "周二(8/25)涨0.7%领涨，芯片股从周一DeepSeek/半导体恐慌抛售中强势反弹。今日Nvidia Q2财报为最大看点"
-      },
-      {
-        "name": "Dow Jones",
-        "symbol": "DJI",
-        "value": 0.0,
-        "change": 0.3,
-        "change_pct": 0.3,
-        "note": "周二(8/25)涨0.3%(+160点)，连续第三个交易日收涨。价值/传统板块持续获得支撑，防御轮动逻辑延续"
-      }
-    ],
-    "A-share": [
-      {
-        "name": "上证指数",
-        "market": "A股",
-        "value": 0.0,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "note": "A股未开盘。隔夜美股AI/半导体链反弹领涨，关注今日A股AI/算力/存储链映射修复机会"
-      },
-      {
-        "name": "深证成指",
-        "market": "A股",
-        "value": 0.0,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "note": "未开盘。纳指+0.7%芯片股领涨，深市科技/成长板块或受正面情绪提振"
-      },
-      {
-        "name": "创业板指",
-        "market": "A股",
-        "value": 0.0,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "note": "未开盘。AI/机器人/半导体链关注今日Nvidia财报预期与隔夜芯片反弹联动"
-      }
-    ],
-    "Asia": [
-      {
-        "name": "Hang Seng",
-        "market": "香港",
-        "value": 0.0,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "note": "未开盘。隔夜美股科技反弹+油价大跌，关注腾讯/阿里科技股与能源链走势"
-      },
-      {
-        "name": "Nikkei 225",
-        "market": "日本",
-        "value": 0.0,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "note": "未开盘。芯片权重股(东京电子/Advantest)受益于隔夜美股半导体反弹，或高开"
-      },
-      {
-        "name": "KOSPI",
-        "market": "韩国",
-        "value": 0.0,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "note": "未开盘。SK海力士/三星等存储链受隔夜美股芯片股反弹提振概率大"
-      }
-    ],
-    "Europe": [
-      {
-        "name": "FTSE 100",
-        "market": "英国",
-        "value": 0.0,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "note": "已收盘。油价大跌压制能源股，但欧洲LNG价格飙至2023年来最高，关注能源板块分化"
-      },
-      {
-        "name": "DAX",
-        "market": "德国",
-        "value": 0.0,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "note": "已收盘。IMF看好AI推动全球增长且投资扩散至美国以外，欧洲科技/工业链获正面信号"
-      },
-      {
-        "name": "CAC 40",
-        "market": "法国",
-        "value": 0.0,
-        "change": 0.0,
-        "change_pct": 0.0,
-        "note": "已收盘。LNG价格飙升+美元偏弱环境下，能源与奢侈品板块关注分化走势"
-      }
-    ]
+  "hong_kong": {
+    "hang_seng": {
+      "value": 25317.18,
+      "change_pct": -0.38,
+      "note": "HSI closed 25,317.18 Tuesday Sep 8 (-0.38%, ~-95 pts) as tech and insurers weighed while mining/oil names rallied on the crude spike. Into Wed the HSI cash reference holds near that level; direction tied to US futures flattish overnight + crude at ~$99-100."
+    },
+    "hscei": {
+      "value": null,
+      "change_pct": null,
+      "note": "Hang Seng China Enterprises tracking tech/insurer weakness while energy/resources outperform on the oil bid; mainland-H names the relative laggard."
+    },
+    "hstech": {
+      "value": null,
+      "change_pct": null,
+      "note": "Hang Seng TECH softened Tuesday as tech lagged the oil-led rotation; regional semis firmed on AI optimism but HK tech did not keep pace."
+    },
+    "note": "HK cash opens later Wed Sep 9 against an overnight backdrop of US futures roughly flat after Tuesday's losses and Brent topping $99. Watch: crude's hold near $100, offshore-yuan flows (yuan stepping into carry-trade spotlight per BBG), and any BOJ/BOK FX commentary for Asia sentiment."
   },
-  "crypto": [
-    {
-      "name": "Bitcoin",
-      "symbol": "BTC",
-      "value": 78332.6,
-      "change": 879.6,
-      "change_pct": 1.13,
-      "note": "约$78.3K(+1.1%)。'贬值交易'逻辑延续——Bessent债券操作后加密/黄金持续受捧。今日Nvidia财报与PCE数据主导风险偏好，PCE核心3.3%偏粘性或施压"
+  "crypto": {
+    "btc": {
+      "value": 78718,
+      "change_pct": -0.70,
+      "note": "BTC ~$78,718 (-0.70% 24h, CoinGecko/Coinbase live 01:15 UTC Sep 9) — slipping back under $79k as oil-driven risk-off persists; holding above the ~$78k post-close low. Momentum thin; macro (crude/Fed/GEOPOLIT) still the dominant driver."
     },
-    {
-      "name": "Ethereum",
-      "symbol": "ETH",
-      "value": 2506.44,
-      "change": 74.91,
-      "change_pct": 3.08,
-      "note": "约$2,506附近。短期反弹但长期仍跑输BTC。关注加密与风险资产联动"
-    }
-  ],
-  "commodities": [
-    {
-      "name": "WTI Crude",
-      "symbol": "WTI",
-      "value": 0.0,
-      "change": -3.0,
-      "change_pct": -3.0,
-      "note": "油价周一/周二连续大跌，全球油价跌至$88下方：美国对伊朗转向经济施压，缓解中东重新开战担忧，地缘溢价大幅消退。利好航空/石化下游，压制能源股"
+    "eth": {
+      "value": 2493.61,
+      "change_pct": -0.10,
+      "note": "ETH ~$2,493.6 (-0.10% 24h) — defending the $2,450-2,500 zone; more resilient than BTC overnight. Exchange-reserve lows keep a medium-term underpin but range-bound with low conviction."
     },
-    {
-      "name": "Gold",
-      "symbol": "XAU",
-      "value": 0.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "note": "'贬值交易'回归+美元偏弱+Fed政策协调预期下黄金维持受捧。关注今晚PCE数据对金价的引导"
-    },
-    {
-      "name": "Copper",
-      "symbol": "HG",
-      "value": 0.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "note": "IMF称AI将推动全球增长且投资扩散至美国以外，工业金属需求预期获支撑，关注美加关税博弈"
-    }
-  ],
-  "rates": [
-    {
-      "name": "US 10Y Treasury",
-      "symbol": "TNX",
-      "value": 0.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "note": "收益率连跌两日(美债回暖)。但核心PCE同比3.3%高于预期，显示通胀粘性，叠加Bessent债券干预与Fed政策协调博弈，长端利率方向仍不明朗"
-    },
-    {
-      "name": "US Dollar Index",
-      "symbol": "DXY",
-      "value": 0.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "note": "美元与债券市场'tightrope'：Bessent市场干预给Fed主席Warsh加压，Jackson Hole讲话前美元偏弱。'贬值交易'逻辑利好非美/黄金/加密"
-    }
-  ],
-  "news": [
+    "note": "Crypto ~flat-to-down overnight into Sep 9 as risk appetite stays hostage to oil near $100 and renewed US-Iran strikes. BTC ~$78.7k, ETH ~$2,493-2,500. Direction contingent on Mideast headlines, crude, and the Fed path."
+  },
+  "macro": {
+    "oil_overnight_escalation": "CRITICAL: Escalation persists — US military destroyed FIVE more Iranian oil tankers after an attempted attack on an American warship (Centcom), per CNBC Wed Sep 9. Brent topped $99 intraday and holds ~$99-100; WTI ~$94-94.6, a fresh 21-session high. Oil near $100 is the single largest cross-market driver into the Asia session.",
+    "us_canada_tariffs": "Canada's retaliatory tariffs worth C$27.6B took effect Tue, doubling duties on US steel/aluminum to 50%; Washington-Ottawa rift deepening (Bombardier, autos flagged next targets) layered on the oil shock.",
+    "us_futures_little_changed": "Sep 9 overnight: US stock futures LITTLE CHANGED after Tuesday's losing session — S&P E-mini ~7,683 (+0.04%), Dow futures ~52,803 (-0.06%). Stabilizing but no strong bid; crude and the Fed dominate.",
+    "us_cash_close_recap": "US cash markets closed lower Tue Sep 8: Dow -1.18% (worst in ~3 wks), S&P -0.58%, Nasdaq -0.32%. Qualcomm-Amazon AI deal was the session's risk-on bright spot but could not offset oil-led inflation fears; 10Y near two-decade highs.",
+    "asia_fx_carry": "Bloomberg strategists flag the YUAN stepping into the carry-trade spotlight over the yen, while BOK's Rhee said FX intervention can calm volatility — Asia FX stability a live watch item alongside crude.",
+    "yen_boj": "Yen holds firm near cycle highs; traders remain alert for BOJ intervention. Sharp yen strength remains a global FX-stress watch item into the Asian open.",
+    "fed_hike_watch": "Blowout August payrolls (+162k vs ~110k est.) keep 'will the Fed hike again?' alive; hawkish pricing into the oil shock and near-two-decade-high yields are the key headwind to equities.",
+    "september_watch": "For the Sep 9 Asia/North-Asia session: 1) crude at ~$99-100 & US-Iran tanker escalation; 2) US futures flat vs Tue's losses; 3) yuan/BOJ/BOK FX; 4) Canada-US tariff fray; 5) does the AI/chip bid (QCOM-Amazon) stabilize tech after the oil selloff."
+  },
+  "headlines": [
     {
       "source": "CNBC",
-      "title": "Oil drops more than 3% as U.S. shifts to economic pressure on Iran, easing fears of renewed war",
-      "time": "08-25",
-      "impact": "油价暴跌逾3%：美国对伊朗转向经济施压、缓解中东重新开战担忧，地缘溢价消退，利好航空/石化下游、压制能源股"
+      "title": "US military destroys five Iranian oil tankers after attempted attack on American warship, Centcom says",
+      "impact": "Overnight escalation keeps Brent topping $99 — top macro risk, reinforces energy-inflation and hawkish-Fed pressure into Asia's open."
     },
     {
       "source": "CNBC",
-      "title": "Stock futures little changed as traders await key inflation report, Nvidia earnings",
-      "time": "08-26",
-      "impact": "美股期货基本持平，市场等待今日PCE通胀数据与Nvidia Q2财报两大关键事件"
+      "title": "Stock futures little changed after losing session; Brent crude tops $99 per barrel: Live updates (Wed Sep 9)",
+      "impact": "US futures ~flat overnight after Tuesday's selloff — stabilizing but no recovery bid; crude and Fed dominate."
+    },
+    {
+      "source": "WSJ",
+      "title": "Stock Market News, Sept 8: Dow ends down 620 points, oil marches toward $100; Amgen fall hurts health care",
+      "impact": "Dow -1.18% worst day in ~3 wks; broad risk-off off Labor Day with crude/canada tariffs driving the move."
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Dow ends down 620 points and posts worst day in nearly 3 weeks; S&P 500 and Nasdaq slide as oil revives inflation worries",
+      "impact": "S&P -0.58%, Nasdaq -0.32% final; Brent near $100 revived inflation/liftoff concerns across equities."
+    },
+    {
+      "source": "AP",
+      "title": "Stock market recap Sept 8: S&P 500 -0.6%, Dow -1.2%, Nasdaq -0.3% after oil pressure",
+      "impact": "Energy-led risk-off; cost of Brent briefly neared $99.50 during the session."
+    },
+    {
+      "source": "CNBC / Bloomberg",
+      "title": "Yuan steps into carry-trade spotlight over yen; BOK's Rhee says FX intervention can calm volatility",
+      "impact": "Asia FX stress a live theme into Sep 9 open alongside crude at $100; watch CNH and USD/KRW."
+    },
+    {
+      "source": "MarketWatch / FT",
+      "title": "Canada's C$27.6B retaliatory tariffs take effect as trade rift with US deepens; Bombardier drops",
+      "impact": "Steel/aluminum duties doubled to 50%; US-Canada trade friction adds to the oil-led risk-off in industrials."
     },
     {
       "source": "CNBC",
-      "title": "Nvidia's 'expectations premium' dogs the stock after earnings. Here's what analysts are watching",
-      "time": "08-25",
-      "impact": "Nvidia'预期溢价'成焦点：今日财报将检验AI交易能否延续，分析师紧盯指引与数据中心需求"
-    },
-    {
-      "source": "Reuters",
-      "title": "US stock futures rise on tech rebound before Nvidia results, inflation data",
-      "time": "08-25",
-      "impact": "科技股反弹带动期货走高，市场在Nvidia财报与PCE数据前回补仓位，缓和近期债市抛售引发的担忧"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Stock market today: S&P 500, Nasdaq futures recover in countdown to Nvidia earnings",
-      "time": "08-25",
-      "impact": "投资者权衡对加拿大与伊朗的新贸易措施、Nvidia财报临近，以及Fed主席Warsh首场Jackson Hole讲话预期"
-    },
-    {
-      "source": "FT Markets",
-      "title": "European LNG prices surge to highest level since 2023",
-      "time": "08-25",
-      "impact": "欧洲LNG价格飙至2023年以来最高，能源供应紧张或推高欧洲通胀，关注能源板块与欧央行政策"
-    },
-    {
-      "source": "FT Markets",
-      "title": "AI to fuel global growth as investment spreads beyond US, IMF says",
-      "time": "08-25",
-      "impact": "IMF称AI将推动全球增长、投资扩散至美国以外，利好欧洲/亚洲科技与工业链，缓解'美国独享AI'担忧"
-    },
-    {
-      "source": "AP News",
-      "title": "How major US stock indexes fared Tuesday 8/25/2026",
-      "time": "08-25",
-      "impact": "周二收盘：标普+0.3%逼近历史高位、道指+0.3%连三日上涨、纳指+0.7%领涨，芯片股从周一抛售中反弹"
-    }
-  ],
-  "events": [
-    {
-      "time": "08-26",
-      "event": "核心PCE通胀数据公布：7月核心PCE同比+3.3%(高于预期)，显示通胀粘性",
-      "importance": "高",
-      "status": "已公布",
-      "impact": "通胀粘性令Fed政策宽松空间受限，叠加Bessent债券干预与Warsh Jackson Hole讲话，债市/美元波动加剧"
-    },
-    {
-      "time": "08-26",
-      "event": "Nvidia Q2财报(今日)——检验复苏中的AI交易成色",
-      "importance": "高",
-      "status": "待公布",
-      "impact": "Nvidia财报为今日最大看点，将决定AI/半导体板块短期方向，'预期溢价'高企"
-    },
-    {
-      "time": "08-26",
-      "event": "Fed主席Warsh首场Jackson Hole讲话——Bessent市场干预施压下政策路径表态",
-      "importance": "高",
-      "status": "待公布",
-      "impact": "市场聚焦Fed-财政部'共识'与降息路径信号，美元/债券'如坐针毡'"
-    },
-    {
-      "time": "08-25",
-      "event": "美股周二收盘全线收高：纳指+0.7%、标普+0.3%收7677逼近纪录、道指+0.3%连三日上涨",
-      "importance": "高",
-      "status": "已收盘",
-      "impact": "科技/半导体股从周一DeepSeek恐慌抛售中反弹"
-    },
-    {
-      "time": "08-25",
-      "event": "油价暴跌：全球油价跌破$88，美国对伊朗转向经济施压",
-      "importance": "高",
-      "status": "已发生",
-      "impact": "地缘溢价消退，利好航空/石化下游、压制能源股"
-    },
-    {
-      "time": "08-26",
-      "event": "Meta与加州等多州就社交媒体成瘾诉讼达成和解",
-      "importance": "低",
-      "status": "已发生",
-      "impact": "科技监管风险缓和信号"
-    }
-  ],
-  "today_watch": [
-    {
-      "item": "Nvidia Q2财报(今日)：决定AI/半导体板块短期方向，隔夜芯片股已率先反弹(纳指+0.7%)，A股AI/算力/存储链或获映射",
-      "priority": "高"
-    },
-    {
-      "item": "核心PCE同比3.3%高于预期(已公布)：通胀粘性令Fed降息空间受限，关注对长端利率/美元/黄金的后续影响",
-      "priority": "高"
-    },
-    {
-      "item": "Fed主席Warsh首场Jackson Hole讲话：Bessent市场干预施压下，市场关注Fed-财政部'共识'与政策路径表态",
-      "priority": "高"
-    },
-    {
-      "item": "油价跌破$88：美国对伊转向经济施压缓解战争担忧，利好A股航空/石化下游，压制能源股",
-      "priority": "中"
-    },
-    {
-      "item": "欧洲LNG价格飙至2023年来最高：能源供应紧张，关注全球能源链条与通胀预期",
-      "priority": "中"
-    },
-    {
-      "item": "'贬值交易'延续：BTC约$78.3K(+1.1%)、ETH约$2.5K，加密/黄金受捧，美元偏弱",
-      "priority": "中"
+      "title": "Qualcomm pops on data-center infrastructure deal with Amazon (custom AI chips + 25M-share warrant)",
+      "impact": "Session's risk-on bright spot; lifted chips early but faded into a wider oil-led market decline — AI bid's durability in question."
     }
   ]
 }

@@ -1,105 +1,171 @@
 {
-  "updated": "2026-09-09T01:15:00Z",
-  "as_of": "Sep 9, 2026 Asia-morning preview — US closed sharply lower Tue Sep 8 (Dow -1.18%, worst day in 3 wks) as oil neared $100 on US-Iran tanker strikes + Canada tariffs; Brent tops $99 into Wed; US futures little changed overnight; BTC ~$78.7k",
+  "updated": "2026-09-10T01:20:00Z",
+  "as_of": "Sep 10, 2026 Asia-morning preview — US closed lower Wed Sep 9 (Dow -0.77%, S&P -0.48%, Nasdaq -0.64%) as Brent surged above $101 on escalating US-Iran tanker strikes; Nikkei -0.90%, KOSPI -2%, Europe sharply lower (DAX -1.66%, CAC -1.94%); US 10Y at 4.834% after weak auction; gold $4,457",
   "us_markets": {
     "dow_jones": {
-      "value": 52786.07,
-      "change_pct": -1.18,
-      "note": "Sep 8 FINAL close 52,786.07, -1.18% (~-628 pts) — worst day in nearly 3 weeks. Reopening after Labor Day, the Dow was hit hardest by oil-led/near-$100 crude, Canada's C$27.6B tariffs taking effect, and inflation→hawkish-Fed repricing. 10Y near two-decade highs. Sep 9: Dow futures ~52,800, roughly flat (-0.06%)."
+      "value": 52380.66,
+      "change_pct": -0.77,
+      "note": "Dow closed 52,380.66 Wed Sep 9, -0.77% (~-405 pts) — second straight down day as Brent broke above $101 on fresh US-Iran tanker escalation. Oil-led inflation/hawkish-Fed pressure persists; index remains ~1.2% below its pre-Labor-Day level."
     },
     "sp500": {
-      "value": 7673.52,
-      "change_pct": -0.58,
-      "note": "Sep 8 FINAL close 7,673.52, -0.58% (-45.08). Early-session tech/AI resilience (Qualcomm-Amazon) faded into the close as the energy-led inflation and rate-hike debate reasserted; Amgen dragged health care. Sep 9: E-mini S&P ~7,683 (+0.04%), little changed."
+      "value": 7636.36,
+      "change_pct": -0.48,
+      "note": "S&P 500 closed 7,636.36, -0.48% (-37.16). Energy names bid on crude >$100 but the broader tape weighed by rates (10Y 4.834% after a soft $39B auction) and Mideast risk. Losses broad but orderly."
     },
     "nasdaq": {
-      "value": 26421.41,
-      "change_pct": -0.32,
-      "note": "Sep 8 FINAL close 26,421.41, -0.32%. Held up best of the three as the Qualcomm (~+10% early on an Amazon custom-chip/data-center warrant deal) and semiconductor bid cushioned the broader oil-driven risk-off, but trimmed gains into the close."
+      "value": 26253.34,
+      "change_pct": -0.64,
+      "note": "Nasdaq closed 26,253.34, -0.64% (-168.07). Tech gave back more than the S&P as yields near multi-decade highs pressured long-duration growth; AI/chip names led the downside after Tuesday's Qualcomm-Amazon pop faded."
     },
-    "note": "US CASH CLOSE Tue Sep 8: Dow -1.18%, S&P -0.58%, Nasdaq -0.32% — a broad risk-off return from the long weekend as crude neared $100 and Canada-US tariff war deepened. Into the Asia session Sep 9 US futures were LITTLE CHANGED after Tuesday's losses: S&P E-mini ~7,683 (+0.04%), Dow futures ~52,803 (-0.06%)."
+    "note": "US CASH CLOSE Wed Sep 9: Dow -0.77%, S&P -0.48%, Nasdaq -0.64% — a second consecutive risk-off session as Brent pushed past $101 and the 10Y auction tailed (4.834%). Yields at/near two-decade highs keep equities capped into the Asia open."
   },
   "hong_kong": {
     "hang_seng": {
-      "value": 25317.18,
-      "change_pct": -0.38,
-      "note": "HSI closed 25,317.18 Tuesday Sep 8 (-0.38%, ~-95 pts) as tech and insurers weighed while mining/oil names rallied on the crude spike. Into Wed the HSI cash reference holds near that level; direction tied to US futures flattish overnight + crude at ~$99-100."
+      "value": 25274.96,
+      "change_pct": -0.17,
+      "note": "HSI reference 25,274.96 (-0.17%) into the Sep 10 HK open. The index is tracking the overnight US/Europe risk-off, with oil/energy names likely to outperform on the crude spike while tech/semis stay soft. Watch the $101 Brent and the 4.83% US 10Y as the dual cross-market drivers."
     },
     "hscei": {
-      "value": null,
+      "value": 8369.05,
       "change_pct": null,
-      "note": "Hang Seng China Enterprises tracking tech/insurer weakness while energy/resources outperform on the oil bid; mainland-H names the relative laggard."
+      "note": "HSCEI reference 8,369.05 into the open; mainland-H names likely the relative laggard, tracking A-share futures down ~0.4%."
     },
     "hstech": {
-      "value": null,
+      "value": 4420.79,
       "change_pct": null,
-      "note": "Hang Seng TECH softened Tuesday as tech lagged the oil-led rotation; regional semis firmed on AI optimism but HK tech did not keep pace."
+      "note": "Hang Seng TECH reference 4,420.79; regional semis/AI soft as US Nasdaq fell -0.64% and yields rose — HK tech faces headwinds into the open."
     },
-    "note": "HK cash opens later Wed Sep 9 against an overnight backdrop of US futures roughly flat after Tuesday's losses and Brent topping $99. Watch: crude's hold near $100, offshore-yuan flows (yuan stepping into carry-trade spotlight per BBG), and any BOJ/BOK FX commentary for Asia sentiment."
+    "note": "HK opens Sep 10 against an overnight backdrop of falling US/Europe equities (DAX -1.66%, CAC -1.94%), Brent above $101 on US-Iran tanker strikes, and Nikkei -0.90% / KOSPI -2% in Asia."
+  },
+  "asia_pacific": {
+    "nikkei225": {
+      "value": 44946.64,
+      "change_pct": -0.90,
+      "note": "Nikkei 225 44,946.64 (-0.90%) — pressured by the global oil/rates risk-off and yen firmness; JGB 20Y yield +3bp to 3.73%, 30Y +3bp to 3.985% as long-end pressure builds."
+    },
+    "kospi": {
+      "value": null,
+      "change_pct": -2.0,
+      "note": "KOSPI down as much as 2% intraday Sep 10 — Asia's worst major index, hit hardest by the tech/semis selloff and oil-led risk-off; a key regional risk gauge into the session."
+    },
+    "ftse_china_a50_futures": {
+      "value": null,
+      "change_pct": -0.42,
+      "note": "FTSE China A50 futures opened -0.42% Sep 10, pointing to a soft A-share open as investors weigh the global risk-off and Brent >$100."
+    },
+    "note": "Asia-Pacific Sep 10: broad risk-off. Nikkei -0.90%, KOSPI -2%, TSEC weighted opened -0.1%, A50 futures -0.42%. Oil >$100 and rising long-end yields (JGB 20Y 3.73%) are the dominant regional drivers."
+  },
+  "europe": {
+    "ftse100": { "value": 10670.06, "change_pct": -1.31, "note": "UK FTSE 100 -1.31% — energy strength on crude outweighed by broad risk-off and inflation/rates worries." },
+    "dax": { "value": 25576.45, "change_pct": -1.66, "note": "German DAX -1.66% — among the worst-hit, with autos (US-EU tariff/trade friction, Chinese competition) and rate-sensitive names leading losses." },
+    "cac40": { "value": 8156.67, "change_pct": -1.94, "note": "French CAC 40 -1.94% — weakest major European index, dragged by luxury/autos and the broad risk-off; German 10Y set for highest-yield issuance since 2010." },
+    "note": "Europe closed sharply lower Wed Sep 9: FTSE -1.31%, DAX -1.66%, CAC -1.94% — oil-led inflation fears, soft long-end bond markets (German 10Y issuance at 2010-high yields) and US-Canada/US-EU trade friction drove the selloff."
   },
   "crypto": {
     "btc": {
-      "value": 78718,
-      "change_pct": -0.70,
-      "note": "BTC ~$78,718 (-0.70% 24h, CoinGecko/Coinbase live 01:15 UTC Sep 9) — slipping back under $79k as oil-driven risk-off persists; holding above the ~$78k post-close low. Momentum thin; macro (crude/Fed/GEOPOLIT) still the dominant driver."
+      "value": null,
+      "change_pct": null,
+      "note": "BTC data not refreshed this cycle (crypto API via proxy unavailable at capture time); macro backdrop remains risk-off with Brent >$100 — crypto likely tracking the broader risk-asset softness."
     },
     "eth": {
-      "value": 2493.61,
-      "change_pct": -0.10,
-      "note": "ETH ~$2,493.6 (-0.10% 24h) — defending the $2,450-2,500 zone; more resilient than BTC overnight. Exchange-reserve lows keep a medium-term underpin but range-bound with low conviction."
+      "value": null,
+      "change_pct": null,
+      "note": "ETH not refreshed this cycle; direction contingent on Mideast headlines, crude, and the Fed path."
     },
-    "note": "Crypto ~flat-to-down overnight into Sep 9 as risk appetite stays hostage to oil near $100 and renewed US-Iran strikes. BTC ~$78.7k, ETH ~$2,493-2,500. Direction contingent on Mideast headlines, crude, and the Fed path."
+    "note": "Crypto quote feed unavailable overnight (international API reachable only via proxy, which was offline during this capture). Data gap flagged rather than estimated."
+  },
+  "commodities": {
+    "brent_crude": {
+      "value": 101.59,
+      "change_pct": null,
+      "note": "Brent crude ABOVE $101 (last ~$101.59-101.62 at 01:16 UTC Sep 10), extending the move from ~$99-100 as US-Iran tanker escalation deepened — the single largest cross-market driver into the Asia session."
+    },
+    "wti_crude": {
+      "value": 96.72,
+      "change_pct": 0.53,
+      "note": "WTI ~$96.72 (+0.53%), fresh multi-week high; the prompt contract holds just under the psychological $97-100 zone as tanker strikes sustain the supply-risk premium."
+    },
+    "gold": {
+      "value": 4456.95,
+      "change_pct": -0.18,
+      "note": "COMEX gold ~$4,457 (-0.18%), Singapore 沪金 955.0 (+0.51%). Report of 'gold fleeing the US' on weakening US-EU trust; safe-haven bid with momentum still constructive despite the small pullback."
+    },
+    "silver_cn": { "value": 16417.0, "change_pct": 1.71, "note": "Shanghai silver 沪银 +1.71% — industrial+monetary demand and the gold bid spillover." },
+    "copper_cn": { "value": 111810.0, "change_pct": 0.62, "note": "Shanghai copper 沪铜 +0.62%; CITIC sees annual copper potentially reaching $16,000/t — supply-tightness narrative intact." },
+    "rebar_cn": { "value": 3146.0, "change_pct": -0.57, "note": "Shanghai rebar 螺纹 -0.57% — construction demand soft; property/现房销售 reform in focus." },
+    "note": "Energy is the standout: Brent >$101, WTI ~$96.7 on the US-Iran tanker strikes. Precious metals firm (gold ~$4,457, 沪银 +1.71%), base metals mixed-to-firm (沪铜 +0.62%), ferrous soft (螺纹 -0.57%)."
   },
   "macro": {
-    "oil_overnight_escalation": "CRITICAL: Escalation persists — US military destroyed FIVE more Iranian oil tankers after an attempted attack on an American warship (Centcom), per CNBC Wed Sep 9. Brent topped $99 intraday and holds ~$99-100; WTI ~$94-94.6, a fresh 21-session high. Oil near $100 is the single largest cross-market driver into the Asia session.",
-    "us_canada_tariffs": "Canada's retaliatory tariffs worth C$27.6B took effect Tue, doubling duties on US steel/aluminum to 50%; Washington-Ottawa rift deepening (Bombardier, autos flagged next targets) layered on the oil shock.",
-    "us_futures_little_changed": "Sep 9 overnight: US stock futures LITTLE CHANGED after Tuesday's losing session — S&P E-mini ~7,683 (+0.04%), Dow futures ~52,803 (-0.06%). Stabilizing but no strong bid; crude and the Fed dominate.",
-    "us_cash_close_recap": "US cash markets closed lower Tue Sep 8: Dow -1.18% (worst in ~3 wks), S&P -0.58%, Nasdaq -0.32%. Qualcomm-Amazon AI deal was the session's risk-on bright spot but could not offset oil-led inflation fears; 10Y near two-decade highs.",
-    "asia_fx_carry": "Bloomberg strategists flag the YUAN stepping into the carry-trade spotlight over the yen, while BOK's Rhee said FX intervention can calm volatility — Asia FX stability a live watch item alongside crude.",
-    "yen_boj": "Yen holds firm near cycle highs; traders remain alert for BOJ intervention. Sharp yen strength remains a global FX-stress watch item into the Asian open.",
-    "fed_hike_watch": "Blowout August payrolls (+162k vs ~110k est.) keep 'will the Fed hike again?' alive; hawkish pricing into the oil shock and near-two-decade-high yields are the key headwind to equities.",
-    "september_watch": "For the Sep 9 Asia/North-Asia session: 1) crude at ~$99-100 & US-Iran tanker escalation; 2) US futures flat vs Tue's losses; 3) yuan/BOJ/BOK FX; 4) Canada-US tariff fray; 5) does the AI/chip bid (QCOM-Amazon) stabilize tech after the oil selloff."
+    "oil_iran_escalation": "CRITICAL: US-Iran escalation persists — follow-through to the five Iranian oil tankers destroyed after an attempted attack on a US warship. White House officials said the US-Iran conflict may last through the remainder of Trump's term. Brent pushed above $101, WTI ~$96.7 — the dominant global market driver.",
+    "us_treasury_10y_auction": "$39B 10-year auction tailed: high yield 4.834%, bid-to-cover 2.71. US 10Y yields ~4.83%, at/near two-decade highs; 2Y +2bp to 4.42%. Weak long-end demand + 'new bond king' warning that a non-hike Fed invites fresh Treasury selling.",
+    "treasury_buyback_disappointment": "US Treasury announced a long-bond buyback cap of $6B with operations showing at least $4B — 'disappointment engulfed the market'; long-end yields rose further on the news.",
+    "japan_jgb_pressure": "JGB long end under pressure: 20Y yield +3bp to 3.73%, 30Y +3bp to 3.985%; Fitch noted rising JGB yields may keep more Japanese capital at home (a global duration/FX headwind).",
+    "asia_market_open": "Sep 10 Asia open: KOSPI -2% (worst), Nikkei -0.90%, TSEC opened -0.1%, FTSE China A50 futures -0.42%. Broad risk-off on oil >$100 + rising global long-end yields.",
+    "us_cash_close_recap": "US cash markets closed lower Wed Sep 9: Dow -0.77%, S&P -0.48%, Nasdaq -0.64% — second straight down session; Europe fell harder (DAX -1.66%, CAC -1.94%).",
+    "china_a_pre_market": "A-share pre-open Sep 10: 上证参考 3,950.02 / 深证 13,723.32 / 创业板 3,354.97; 沪深300 4,570.32. Margin financing balance fell ¥3.19B; A50 futures -0.42% point to a soft open. Aug China CPI/PPI both returned to positive — 'economy showing signs of repair'. 央行 7-day reverse repo was zero on Sep 9.",
+    "fed_hike_watch": "Hawkish repricing intact: blowout Aug payrolls + oil >$100 keep 'will the Fed hike again?' alive. September Fed path and the near-two-decade-high 10Y remain the key equity headwind.",
+    "september_watch": "For the Sep 10 Asia session: 1) Brent >$101 & US-Iran escalation (White House: could last through Trump's term); 2) rising long-end yields globally (US 10Y 4.834%, JGB 20Y 3.73%, German 10Y at 2010-high issuance); 3) KOSPI -2% tech lead-loss; 4) A50 futures -0.42% / China CPI-PPI back positive; 5) gold >$4,450 on US-EU trust erosion; 6) US-Canada tariff fray."
   },
   "headlines": [
     {
-      "source": "CNBC",
-      "title": "US military destroys five Iranian oil tankers after attempted attack on American warship, Centcom says",
-      "impact": "Overnight escalation keeps Brent topping $99 — top macro risk, reinforces energy-inflation and hawkish-Fed pressure into Asia's open."
+      "source": "东方财富 / 美媒",
+      "title": "白宫高官称美伊战事或持续至特朗普任期结束",
+      "impact": "Overnight escalation deepens — Brent breaks above $101; top macro risk, reinforcing the energy-inflation and hawkish-Fed pressure into the Asia open."
     },
     {
-      "source": "CNBC",
-      "title": "Stock futures little changed after losing session; Brent crude tops $99 per barrel: Live updates (Wed Sep 9)",
-      "impact": "US futures ~flat overnight after Tuesday's selloff — stabilizing but no recovery bid; crude and Fed dominate."
+      "source": "东方财富",
+      "title": "富时中国A50指数期货开盘跌0.42%",
+      "impact": "A-share futures signal a soft mainland open Sep 10 as investors digest the global risk-off and crude >$100."
     },
     {
-      "source": "WSJ",
-      "title": "Stock Market News, Sept 8: Dow ends down 620 points, oil marches toward $100; Amgen fall hurts health care",
-      "impact": "Dow -1.18% worst day in ~3 wks; broad risk-off off Labor Day with crude/canada tariffs driving the move."
+      "source": "东方财富",
+      "title": "韩国KOSPI指数日内跌幅达2%",
+      "impact": "Asia's worst major index — tech/semis-led selloff and oil-driven risk-off; key regional risk gauge into the session."
     },
     {
-      "source": "MarketWatch",
-      "title": "Dow ends down 620 points and posts worst day in nearly 3 weeks; S&P 500 and Nasdaq slide as oil revives inflation worries",
-      "impact": "S&P -0.58%, Nasdaq -0.32% final; Brent near $100 revived inflation/liftoff concerns across equities."
+      "source": "东方财富",
+      "title": "日经225指数跌幅扩大至1%",
+      "impact": "Japan equities pressured by global risk-off and yen firmness; JGB 20Y +3bp to 3.73% adds to the long-end pressure."
     },
     {
-      "source": "AP",
-      "title": "Stock market recap Sept 8: S&P 500 -0.6%, Dow -1.2%, Nasdaq -0.3% after oil pressure",
-      "impact": "Energy-led risk-off; cost of Brent briefly neared $99.50 during the session."
+      "source": "东方财富",
+      "title": "美国财政部拍卖390亿美元10年期国债 得标利率4.834% 投标倍数2.71",
+      "impact": "Weak long-end demand: 10Y yields near two-decade highs — the key headwind capping equity valuations."
     },
     {
-      "source": "CNBC / Bloomberg",
-      "title": "Yuan steps into carry-trade spotlight over yen; BOK's Rhee says FX intervention can calm volatility",
-      "impact": "Asia FX stress a live theme into Sep 9 open alongside crude at $100; watch CNH and USD/KRW."
+      "source": "东方财富",
+      "title": "美国财政部宣布长债回购上限60亿美元 失望情绪笼罩市场",
+      "impact": "Buyback disappointment pushed long-end yields higher — added to the oil-led risk-off."
     },
     {
-      "source": "MarketWatch / FT",
-      "title": "Canada's C$27.6B retaliatory tariffs take effect as trade rift with US deepens; Bombardier drops",
-      "impact": "Steel/aluminum duties doubled to 50%; US-Canada trade friction adds to the oil-led risk-off in industrials."
+      "source": "东方财富",
+      "title": "美欧信任弱化加速黄金撤离美国 / 黄金COMEX ~$4,457",
+      "impact": "Gold's safe-haven bid underscores weakening US-EU trust; 沪金 +0.51%, 沪银 +1.71%."
     },
     {
-      "source": "CNBC",
-      "title": "Qualcomm pops on data-center infrastructure deal with Amazon (custom AI chips + 25M-share warrant)",
-      "impact": "Session's risk-on bright spot; lifted chips early but faded into a wider oil-led market decline — AI bid's durability in question."
+      "source": "东方财富",
+      "title": "华泰证券：能源及食品价格推升8月表观通胀 / 中信证券：年内PPI双顶格局形成",
+      "impact": "Oil-and-food-led inflation narrative reinforced — raises the stakes for the Fed path."
+    },
+    {
+      "source": "东方财富",
+      "title": "瑞银：美债危机下美股尤其脆弱 AI相关股票面临最大风险",
+      "impact": "Wall Street flags duration/AI-vulnerability — aligns with Nasdaq -0.64% overnight."
+    },
+    {
+      "source": "东方财富",
+      "title": "苹果发布首款折叠屏手机 股价走出过山车行情 / 苹果多款机型同步涨价 iPhone 17涨价800元",
+      "impact": "Consumer-tech pricing power and foldable launch in focus; AAPL volatility a micro watch item."
+    },
+    {
+      "source": "东方财富",
+      "title": "英伟达称将支持澳大利亚到2027年建设高达2吉瓦的AI基础设施",
+      "impact": "AI-infrastructure demand narrative intact despite the risk-off — a potential stabilizer for chip names."
+    },
+    {
+      "source": "东方财富",
+      "title": "DeepSeek据报备战科创板IPO 相关参股公司有望受益",
+      "impact": "Potential domestic AI-IPO catalyst; watch A-share AI/算力 chain sentiment into the open."
     }
   ]
 }

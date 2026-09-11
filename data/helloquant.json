@@ -1,17 +1,17 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-09-11 07:05 UTC",
+  "updated": "2026-09-11 09:00 UTC",
   "status": "degraded",
   "last_run": {
     "date": "2026-09-11",
-    "timestamp": "2026-09-11 07:05 UTC",
+    "timestamp": "2026-09-11T07:05:00",
     "success": false,
-    "note": "收盘检查: A股指数收盘快照更新完成(新浪源); HelloQuant策略采集管线自2026-08-25后持续无新输出(内容停滞), OKX加密数据不可用(API key失效)"
+    "note": "收盘检查: A股指数收盘快照更新完成(新浪源); HelloQuant 策略采集管线自 2026-08-25 后持续无新输出(内容停滞 17 天), OKX 加密数据不可用(API key 失效)"
   },
   "crypto": {
     "status": "error",
-    "error": "OKX API key 失效 (50119: API key doesn't exist), 加密策略信号不可用",
-    "note": "OKX 数据拉取失败 (当日)"
+    "error": "OKX API key 失效 (50119: API key doesn't exist)",
+    "note": "OKX 数据拉取失败, 加密策略信号不可用"
   },
   "stocks": {
     "status": "success",
@@ -33,21 +33,29 @@
         "price": 4510.16,
         "change_pct": -0.84
       }
-    }
+    },
+    "week_change_pct": {
+      "上证指数": -1.42,
+      "深证成指": -1.14,
+      "创业板指": -3.03,
+      "沪深300": -0.86
+    },
+    "note_week": "本周A股整体回调, 上证周内累计 -1.42% (自 9/4 收盘 3943.9 起算), 创业板领跌"
   },
   "sentiment": {
     "status": "degraded",
     "crypto_fear_greed": {
       "value": 74,
       "classification": "Greed",
-      "note": "来自上一次成功拉取 (2026-08-25, 过期数据)"
+      "note": "来自上一次成功拉取 (2026-08-25), 已过期 17 天"
     }
   },
   "strategies": {
-    "note": "8策略(DoubleMa/TripleMa/Supertrend/RSI/MACD/Bollinger/Momentum/MeanReversion)自2026-08-25当日数据后无新增输出, 采集管线持续停滞",
+    "note": "8策略(DoubleMa/TripleMa/Supertrend/RSI/MACD/Bollinger/Momentum/MeanReversion)自 2026-08-25 当日数据后无新增输出, 采集管线持续停滞, 本期无回测/信号数据",
     "latest_backtest": "2026-01-04 (reports)",
-    "latest_daily_raw": "2026-08-25 (data/daily_raw.json)"
+    "latest_daily_raw": "2026-08-25 (data/daily_raw.json)",
+    "stalled_days": 17
   },
   "last_check": "2026-09-11 07:05 UTC",
-  "weekly_report": "2026-08-28"
+  "weekly_report": "2026-09-11"
 }

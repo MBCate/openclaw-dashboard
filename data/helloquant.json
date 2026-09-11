@@ -1,10 +1,10 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-09-10 07:05 UTC",
+  "updated": "2026-09-11 07:05 UTC",
   "status": "degraded",
   "last_run": {
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10 07:05 UTC",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11 07:05 UTC",
     "success": false,
     "note": "收盘检查: A股指数收盘快照更新完成(新浪源); HelloQuant策略采集管线自2026-08-25后持续无新输出(内容停滞), OKX加密数据不可用(API key失效)"
   },
@@ -15,23 +15,23 @@
   },
   "stocks": {
     "status": "success",
-    "note": "2026-09-10 A股收盘数据 (新浪源)",
+    "note": "2026-09-11 A股收盘数据 (新浪源)",
     "data": {
       "上证指数": {
-        "price": 3934.4,
-        "change_pct": -0.43
+        "price": 3888.11,
+        "change_pct": -1.18
       },
       "深证成指": {
-        "price": 13617.67,
-        "change_pct": -0.77
+        "price": 13471.26,
+        "change_pct": -1.08
       },
       "创业板指": {
-        "price": 3338.42,
+        "price": 3322.04,
         "change_pct": -0.49
       },
       "沪深300": {
-        "price": 4548.39,
-        "change_pct": -0.53
+        "price": 4510.16,
+        "change_pct": -0.84
       }
     }
   },
@@ -48,6 +48,6 @@
     "latest_backtest": "2026-01-04 (reports)",
     "latest_daily_raw": "2026-08-25 (data/daily_raw.json)"
   },
-  "last_check": "2026-09-10 07:05 UTC",
+  "last_check": "2026-09-11 07:05 UTC",
   "weekly_report": "2026-08-28"
 }

@@ -1,61 +1,119 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-09-14 12:21 UTC",
-  "status": "degraded",
+  "updated": "2026-09-15 07:06 UTC",
+  "status": "operational",
   "last_run": {
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T12:21:00",
-    "success": false,
-    "note": "收盘检查: A股指数收盘快照更新完成(新浪源); HelloQuant 策略采集管线自 2026-08-25 后持续无新输出(内容停滞 20 天), OKX 加密数据不可用(API key 失效)"
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T00:05:40",
+    "success": true,
+    "note": "采集管线已恢复: OKX 加密数据恢复正常, A股收盘(新浪源)+期货+情绪+策略信号全部生成 (自2026-08-25停滞21天后首次成功)"
   },
   "crypto": {
-    "status": "error",
-    "error": "OKX API key 失效 (50119: API key doesn't exist)",
-    "note": "OKX 数据拉取失败, 加密策略信号不可用"
+    "status": "success",
+    "btc": {
+      "price": 77277.6,
+      "change_24h": -0.54
+    },
+    "eth": {
+      "price": 2485.51,
+      "change_24h": -1.31
+    },
+    "note": "OKX 数据恢复正常"
   },
   "stocks": {
     "status": "success",
-    "note": "2026-09-14 A股收盘数据 (新浪源)",
+    "note": "2026-09-15 A股收盘数据 (新浪源)",
     "data": {
       "上证指数": {
-        "price": 3885.33,
-        "change_pct": -0.07
+        "price": 3864.2794,
+        "change_pct": -0.542
       },
       "深证成指": {
-        "price": 13384.57,
-        "change_pct": -0.64
+        "price": 13287.974,
+        "change_pct": -0.722
       },
       "创业板指": {
-        "price": 3285.58,
-        "change_pct": -1.10
-      },
-      "沪深300": {
-        "price": 4480.08,
-        "change_pct": -0.67
+        "price": 3247.918,
+        "change_pct": -1.146
       }
     },
-    "week_change_pct": {
-      "上证指数": -1.19,
-      "深证成指": -1.49,
-      "创业板指": -2.88,
-      "沪深300": -1.37
-    },
-    "note_week": "本周A股整体回调, 上证周内累计 -1.19% (自 9/4 收盘 3932.7 起算), 创业板领跌 -2.88%"
+    "futures": {
+      "沪金主力": {
+        "price": 937.6,
+        "change_pct": -0.78
+      },
+      "沪银主力": {
+        "price": 15528.0,
+        "change_pct": -0.37
+      },
+      "沪铜主力": {
+        "price": 107840.0,
+        "change_pct": -1.06
+      },
+      "螺纹钢主力": {
+        "price": 3095.0,
+        "change_pct": -0.42
+      },
+      "沪深300期货": {
+        "price": 4389.0,
+        "change_pct": -0.48
+      },
+      "中证500期货": {
+        "price": 7573.6,
+        "change_pct": 0.06
+      }
+    }
+  },
+  "volatility": {
+    "value": 15.41,
+    "date": "2026-09-15"
   },
   "sentiment": {
-    "status": "degraded",
+    "status": "success",
     "crypto_fear_greed": {
-      "value": 74,
+      "value": 69,
       "classification": "Greed",
-      "note": "来自上一次成功拉取 (2026-08-25), 已过期 20 天"
+      "note": "实时拉取 (2026-09-15)"
     }
   },
   "strategies": {
-    "note": "8策略(DoubleMa/TripleMa/Supertrend/RSI/MACD/Bollinger/Momentum/MeanReversion)自 2026-08-25 当日数据后无新增输出, 采集管线持续停滞, 本期无回测/信号数据",
-    "latest_backtest": "2026-01-04 (reports)",
-    "latest_daily_raw": "2026-08-25 (data/daily_raw.json)",
-    "stalled_days": 20
+    "note": "8策略信号已生成 (1h/4h 双周期)",
+    "signals": {
+      "DoubleMa": {
+        "1h": "做空",
+        "4h": "做多"
+      },
+      "RSI": {
+        "1h": "做多",
+        "4h": "观望"
+      },
+      "MACD": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "Bollinger": {
+        "1h": "观望",
+        "4h": "做空"
+      },
+      "Supertrend": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "TripleMa": {
+        "1h": "观望",
+        "4h": "观望"
+      },
+      "Momentum": {
+        "1h": "做空",
+        "4h": "做空"
+      },
+      "MeanReversion": {
+        "1h": "观望",
+        "4h": "做空"
+      }
+    },
+    "latest_daily_raw": "2026-09-15 (data/daily_raw.json)",
+    "stalled_days": 0
   },
-  "last_check": "2026-09-14 12:21 UTC",
-  "weekly_report": "2026-09-11"
+  "last_check": "2026-09-15 07:06 UTC"
 }

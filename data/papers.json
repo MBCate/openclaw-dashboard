@@ -1,6 +1,266 @@
 {
-  "updated": "2026-09-12",
+  "updated": "2026-09-14",
   "papers": [
+    {
+      "title": "READ: Learning Risk-Informed Fields for End-to-End Autonomous Driving",
+      "id": "2609.12371",
+      "published": "2609.12371",
+      "authors": "Zhiyuan Liu , Yuanxin Tian , Zehong Ke , Jinhao Li , Hao Cheng , Zhenhua Xu , Wenhao Yu , Jianqiang Wang",
+      "summary": "arXiv:2609.12371v1 Announce Type: new Abstract: Autonomous driving requires more than recognizing what is present in a scene: a planner must determine how road structure, surrounding agents, and their motion states should influence a future maneuver. Existing learning-based planners can capture these influences through latent scene features and trajectory decoders, but the relationship between environmental factors and candidate actions often remains implicit. This limits the ability to inspect, diagnose, or refine how scene context affects the safety of a predicted trajectory. Classical safety fields provide an explicit spatial representation of this relationship, but their risk shapes and relative weights are prescribed in advance and do not adapt to each scene. We introduce READ, a framework that learns an explicit, planning-aligned risk representation from complementary geometric and behavioral constraints. READ instantiates this representation as a continuous spatiotemporal field, enabling differentiable queries along candidate trajectories. The learned field connects scene understanding with action selection by encouraging predicted trajectories to align with low-risk regions, while retaining a differentiable interface for trajectory evaluation and refinement. READ integrates with both end-to-end planners and Vision-Language-Action models. Experiments on NAVSIM show consistent gains across matched end-to-end backbones and strong performance in a VLA setting; READ also achieves competitive results on NAVSIM v2. These results establish learned spatial risk as an explicit, adaptable representation for safe planning.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 5,
+      "topic": "e2e-autonomous-driving",
+      "date": "2026-09-14",
+      "status": "new",
+      "status_en": "新发现",
+      "score": 5,
+      "arxiv_id": "2609.12371",
+      "url": "https://arxiv.org/abs/2609.12371"
+    },
+    {
+      "title": "Efficient Vision-Language-Action Management and Serving for Robot Factories",
+      "id": "2609.12075",
+      "published": "2609.12075",
+      "authors": "Dionysios Adamopoulos , Nattapol Chanpaisit , Basel Fakhri , Christina Giannoula",
+      "summary": "arXiv:2609.12075v1 Announce Type: cross Abstract: Vision-Language-Action (VLA) models show high robotic manipulation capabilities via a two-stage design: a Vision-Language Model (VLM) stage followed by an Action Diffusion Transformer (ADiT) stage. Since robots must meet strict Service-Level Objectives (SLOs) for safety, VLA inference is inherently latency-critical. Meeting these SLOs requires high-end GPUs, yet weight, cost, and power constraints preclude integrating such GPUs on-robot. Prior works offload VLA inference to edge servers that serve many robots on VLA models. However, current VLA systems lack support for multi-request, multi-model execution on a multi-GPU server under SLOs, while existing serving systems for multi-stage models are optimized for throughput and stage disaggregation across separate GPUs, which are ill-suited for the millisecond-scale stages of VLA models. We design Robion, the first VLA serving and management system for multi-robot, multi-model requests on multi-GPU edge servers that meets SLOs. Our serving engine disaggregates the VLM and ADiT stages within a GPU via two streams, dynamically restricting the SMs on VLM stream so ADiT always finds SMs to run alongside it, and co-locates multiple models by sharing these streams across them, prioritizing requests by least remaining SLO time. Our management engine enables flexible model placements on multi-GPU servers, and integrates an intelligent traffic controller that maximizes per-model batching under the chosen placement while bounding each GPU's load to meet SLOs. For individual models, Robion serves on average 6.7$\\times$ and 1.5$\\times$ higher robot load within 98% SLO attainment over vLLM-Omni, the most widely used multi-stage serving system, and Monolithic, which runs VLM and ADiT as a single pipeline, respectively. In a large-scale experiment of serving 8 different models on a 4-GPU server, Robion can serve up to 64 robots within 98% SLO attainment.",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "relevance": 5,
+      "topic": "vla-autonomous-driving",
+      "date": "2026-09-14",
+      "status": "new",
+      "status_en": "新发现",
+      "score": 5,
+      "arxiv_id": "2609.12075",
+      "url": "https://arxiv.org/abs/2609.12075"
+    },
+    {
+      "title": "Ego-Dynamics-Augmented World Model for Autonomous Driving with Zero-Shot Cross-Embodiment Adaptation",
+      "id": "2607.13410",
+      "published": "2607.13410",
+      "authors": "Zhidong Wang , Jingsong Liang , Zirui Li , Zhan Chen , Han Yu , Chen Lv",
+      "summary": "arXiv:2607.13410v2 Announce Type: replace Abstract: End-to-end autonomous driving requires generalization ability across platforms with dissimilar physical characteristics. The chassis defines the physical embodiment of each platform, and real-world fleets span sub-tonne microcars to bus-class vehicles. Consequently, the driving stack must either be retrained per platform or adapt to the underlying chassis dynamics online. World model (WM)-based reinforcement learning offers a sample-efficient path toward end-to-end autonomous driving on egocentric bird's-eye-view (BEV) representations, but its effectiveness hinges on how faithfully the WM captures the ego vehicle's dynamics. This work identifies a structural bottleneck in BEV-based WMs: observation transitions entangle ego-motion with scene dynamics, consuming modeling capacity at the cost of imagination accuracy. This burden is embodiment-dependent: dissimilar chassis produce different observation warps under the same control input. The proposed DynaDreamer addresses this bottleneck by conditioning the WM's latent distributions on a physics-informed ego-dynamics context derived from a lateral dynamics model with a neural tire force formulation. This context is extracted online via a neural-ODE encoder-decoder that simultaneously identifies the underlying chassis parameters. Information-theoretic analysis confirms that this conditioning removes the ego-motion terms from both the WM's transition entropy and its prior-posterior KL divergence. The identified physical parameterization enables zero-shot cross-embodiment adaptation across a dynamically diverse fleet without per-platform retraining. Simulation results show 28% and 43% improvements in driving task success rates over the strongest baseline in urban and highway scenarios, and the advantage over the base Transformer WM reaches up to 73% when extrapolating to unseen chassis.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 5,
+      "topic": "world-models-ad",
+      "date": "2026-09-14",
+      "status": "known",
+      "status_en": "已收录",
+      "score": 5,
+      "arxiv_id": "2607.13410",
+      "url": "https://arxiv.org/abs/2607.13410"
+    },
+    {
+      "title": "DropVLA: An Action-Level Backdoor Attack on Vision-Language-Action Models",
+      "id": "2510.10932",
+      "published": "2510.10932",
+      "authors": "Zonghuan Xu , Jiayu Li , Yunhan Zhao , Xiang Zheng , Xingjun Ma , Yu-Gang Jiang",
+      "summary": "arXiv:2510.10932v5 Announce Type: replace-cross Abstract: Vision-Language-Action (VLA) models map multimodal perception and language instructions to executable robot actions, making them particularly vulnerable to behavioral backdoor manipulation: a hidden trigger introduced during training can induce unintended physical actions while nominal task performance remains intact. Prior work on VLA backdoors primarily studies untargeted attacks or task-level hijacking, leaving fine-grained control over individual actions largely unexplored. In this work, we present DropVLA, an action-level backdoor attack that forces a reusable action primitive (e.g., open_gripper) to execute at attacker-chosen decision points under a realistic pipeline-black-box setting with limited data-poisoning access, using a window-consistent relabeling scheme for chunked fine-tuning. On OpenVLA-7B evaluated with LIBERO, vision-only poisoning achieves 98.67%-99.83% attack success rate (ASR) with only 0.31% poisoned episodes while preserving 98.50%-99.17% clean-task retention, and successfully triggers the targeted action within 25 control steps at 500 Hz (0.05 s). Text-only triggers are unstable at low poisoning budgets, and combining text with vision provides no consistent ASR improvement over vision-only attacks. The backdoor remains robust to moderate trigger variations and transfers across evaluation suites (96.27%, 99.09%), whereas text-only largely fails (0.72%). We further validate physical-world feasibility on a 7-DoF Franka arm with pi0-fast, demonstrating non-trivial attack efficacy under camera-relative motion that induces image-plane trigger drift. These results reveal that VLA models can be covertly steered at the granularity of safety-critical actions with minimal poisoning and without observable degradation of nominal performance.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "relevance": 5,
+      "topic": "vla-autonomous-driving",
+      "date": "2026-09-14",
+      "status": "new",
+      "status_en": "新发现",
+      "score": 5,
+      "arxiv_id": "2510.10932",
+      "url": "https://arxiv.org/abs/2510.10932"
+    },
+    {
+      "title": "PAVXploreRL: Physical-Action-Visual World Model Reinforcement Learning with Action Exploration",
+      "id": "2607.16602",
+      "published": "2607.16602",
+      "authors": "Han Wang , Zijun Wang , Shuoshuo Xue , Rui Cao , Fengjiao Chen , Xiaodan Liang , Roy Ka-Wei Lee",
+      "summary": "arXiv:2607.16602v3 Announce Type: replace Abstract: Action-conditioned world models are a key component of embodied AI, serving as scalable policy evaluators that reduce reliance on expensive real-world rollouts. To accurately capture diverse action-induced dynamics, such models should satisfy three key objectives-Physical Plausibility (P), Action Adherence (A), and Visual Fidelity (V), collectively referred to as PAV-while remaining robust to both in-distribution (ID) expert demonstrations and out-of-distribution (OOD) actions. However, existing methods primarily rely on ID action-video pairs and pixel-level reconstruction losses, which do not explicitly optimize PAV objectives and generalize poorly beyond expert data. To address this, we propose PAVXploreRL, a reinforcement learning framework built on a pretrained latent world model that explicitly optimizes PAV objectives through reward-driven training. To improve action generalization, our method jointly leverages ID trajectories and noise-driven OOD action exploration, without paired video supervision. Experiments show that PAVXploreRL consistently outperforms pretrained baselines, achieving a 5.6% average gain across benchmarks and producing higher-quality PAV properties. As a policy evaluator, it also yields more reliable performance estimates and reduces the overestimation bias of prior expert-only world models such as Ctrl-World. Code: https://github.com/Social-AI-Studio/PAVXploreRL",
+      "categories": [
+        "cs.CV"
+      ],
+      "relevance": 4,
+      "topic": "world-models-ad",
+      "date": "2026-09-14",
+      "status": "new",
+      "status_en": "新发现",
+      "score": 4,
+      "arxiv_id": "2607.16602",
+      "url": "https://arxiv.org/abs/2607.16602"
+    },
+    {
+      "title": "Pelican-Sim 1.0: A General World Model Simulator for Embodied Intelligence",
+      "id": "2609.12036",
+      "published": "2609.12036",
+      "authors": "Shilong Zou , Shilin Zhang , Yingji Zhang , Yuhang Huang , Yi Zhang , Zeyuan Ding , Han Dong , Junwei Liao , Yong Dai , Jian Tang , Xiaozhu Ju",
+      "summary": "arXiv:2609.12036v1 Announce Type: new Abstract: In this technical report, we propose Pelican-Sim 1.0, a general world model simulator for embodied intelligence that predicts future observations from visual context and robot actions to support downstream learning and decision making. The model incorporates four key design features: (1) Unified action representation: a 28-dimensional action value space covering most mainstream embodiments, keeping one model valid across heterogeneous devices. (2) Action-visual injection: URDF- and camera-rendered action videos bridge actions and pixels, giving markedly better controllability across embodiments, scenes, and tasks (PSNR +0.904 over alternative fusion baselines). (3) Sparse mixture-of-experts (MoE): sparse MoE layers add capacity for heterogeneous dynamics and absorb the action modality while reducing inter-modality conflict (FVD -6.530 vs. the dense backbone). (4) Efficient rollout generation: causal adaptation and few-step distillation yield a four-step autoregressive simulator, achieving a 5.67-fold speedup over the 35-step model. Benefiting from these designs, we train on approximately one million real-world and simulated trajectories and obtain large gains in action controllability and video quality: PSNR improves over the strongest evaluated baselines by 4.636 on AgiBotWorld Beta, 2.080 on RoboMIND, and 10.343 on RoboTwin, with the adapted EWMBench DYN score up 0.426 on RoboTwin. Relying on this, four downstream applications on RoboTwin succeed: 500 generated trajectories added to 50 demonstrations per task raise policy success from 70% to 93%; policy evaluation reaches a Pearson correlation of 0.994 across five checkpoints; and relative success gains reach 47.7% for action selection and 20.3% for policy improvement. Qualitative generalization across trajectory, scene, object, embodiment, and viewpoint shifts highlights its potential as a general-purpose world model simulator.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "relevance": 4,
+      "topic": "world-models-ad",
+      "date": "2026-09-14",
+      "status": "new",
+      "status_en": "新发现",
+      "score": 4,
+      "arxiv_id": "2609.12036",
+      "url": "https://arxiv.org/abs/2609.12036"
+    },
+    {
+      "title": "RodForesight: A World Model Enhanced Diffusion Policy for Slender and Material Agnostic Rod Insertion",
+      "id": "2609.12103",
+      "published": "2609.12103",
+      "authors": "Chuanbo Yu , Mingyu Yue , Yan Lyu , Chuhan Song , Peng Wang",
+      "summary": "arXiv:2609.12103v1 Announce Type: new Abstract: Slender rod insertion arises in precision manufacturing, where millimetre scale diameter and tight clearances demand accurate perception and control. Conventional peg-in-hole methods assume a rigid object whose tip pose is fixed relative to the gripper. This assumption breaks down for a high aspect ratio rod, which can bend during manipulation, making its tip motion dependent on the rod configuration, grasp, material properties, and contact. We present RodForesight, a learning framework that factorises the task into two stages: 1) coarse approaching, which uses visual servoing to map diverse initial configurations into a compact near hole hand-off region; and 2) predictive insertion, which performs fine alignment and completes the insertion. It is worth noting that the two stages can be wrapped into an end-to-end design. During insertion, a diffusion policy generates candidate action chunks, while an action conditioned world model predicts their effects on rod-hole alignment. This pre-execution evaluation enables RodForesight to select the best action chunk based on predicted tilt and radial errors before execution. Experiments investigate the performance of different stages and the end-to-end setting, where RodForesight improves the success rate from 88.9% to 96.7%, compared to baseline methods such as diffusion policy.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "topic": "e2e-autonomous-driving",
+      "date": "2026-09-14",
+      "status": "new",
+      "status_en": "新发现",
+      "score": 4,
+      "arxiv_id": "2609.12103",
+      "url": "https://arxiv.org/abs/2609.12103"
+    },
+    {
+      "title": "DATAFARM: Distribution-Aligned Task and Motion Planning for Fine-Tuning Vision-Language-Action Models",
+      "id": "2609.12316",
+      "published": "2609.12316",
+      "authors": "Samrat Sahoo , Yixuan Huang , Tom Silver",
+      "summary": "arXiv:2609.12316v1 Announce Type: new Abstract: Collecting high-quality robot data remains a fundamental challenge for training robot foundation models. Task and motion planning (TAMP) offers a scalable way to generate demonstrations, but our experiments show that raw TAMP trajectories provide surprisingly little benefit when used to fine-tune pretrained vision-language-action (VLA) models, despite successfully solving the target tasks. We hypothesize that this failure arises from a behavioral distribution mismatch between planner-generated trajectories and the data used to pretrain the VLA. To address this mismatch, we introduce DATAFARM: Distribution-Aligned Task And motion planning for Fine-tuning A Robot foundation Model, an approach that incorporates the pretraining distribution directly into TAMP trajectory generation. DATAFARM aligns generated trajectories with the pretraining data in robot joint configurations, motion style, and temporal execution profiles. We evaluate DATAFARM on three tabletop manipulation tasks that TAMP can perform and a cloth-folding task beyond the capability of TAMP. DATAFARM achieves an average success rate of 56.7%, substantially outperforming raw TAMP (8.3%) while approaching human teleoperation (61.7%). On Deformable Object Manipulation, which is outside the fine-tuning distribution, the fine-tuned model retains 85% success, compared with 90% for the pretrained model. These results show that aligning planner-generated demonstrations with the pretraining distribution can make TAMP an effective source of data for VLA fine-tuning. Website and code: https://prpl-group.com/datafarm/",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "topic": "vla-autonomous-driving",
+      "date": "2026-09-14",
+      "status": "new",
+      "status_en": "新发现",
+      "score": 4,
+      "arxiv_id": "2609.12316",
+      "url": "https://arxiv.org/abs/2609.12316"
+    },
+    {
+      "title": "DWMP: Leveraging Dual World Models for Humanoid Obstacle Traversal",
+      "id": "2609.12347",
+      "published": "2609.12347",
+      "authors": "Rongjun Jin , Jianming Ma , Yue Gao",
+      "summary": "arXiv:2609.12347v1 Announce Type: new Abstract: Humanoid robots must traverse cluttered obstacle fields using onboard proprioceptive and visual observations, yet existing methods usually process multimodal observations without explicitly considering their different characteristics: proprioceptive observations are low-dimensional but governed by highly nonlinear robot dynamics, while egocentric visual observations are high-dimensional, noisy, and redundant. We propose DWMP (Dual World Model Policy), a framework that provides the actor with separate but complementary world-model representations for humanoid obstacle traversal. A Koopman-based dynamics world model lifts proprioceptive observations into a latent space where their temporal evolution is approximately linear, making the dynamics features easier for the actor to learn from. An RSSM-based visual world model compresses egocentric depth observations into compact stochastic states while preserving obstacle-related geometry. The student policy receives the fused latent representation for action generation, combining linearized proprioceptive dynamics with compressed visual perception. Experiments in simulation and on a Unitree G1 humanoid robot show that DWMP improves obstacle traversal performance over baselines and supports real-world deployment under randomized obstacle layouts.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "topic": "world-models-ad",
+      "date": "2026-09-14",
+      "status": "new",
+      "status_en": "新发现",
+      "score": 4,
+      "arxiv_id": "2609.12347",
+      "url": "https://arxiv.org/abs/2609.12347"
+    },
+    {
+      "title": "Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model",
+      "id": "2609.13053",
+      "published": "2609.13053",
+      "authors": "Hoeun Lee , Jaeik Kim , Jusang Oh , Jinhyeok Kim , Geon Choi , Hyeonggeun Kim , Jaeyoung Do",
+      "summary": "arXiv:2609.13053v1 Announce Type: new Abstract: Visual goal and dynamics prediction can provide language-conditioned robot policies with both a target outcome and a representation of action-dependent scene changes. We bring these predictions into action generation and selection through a shared trajectory model. Dynin-Robotics implements this formulation on Dynin-Omni, an omnimodal masked-diffusion backbone, representing language, visual observations, goals, and actions as discrete tokens. By varying conditioning and target spans, the same model learns action prediction, action-conditioned next-observation prediction, terminal goal-state prediction, and trajectory-to-instruction reconstruction. These interfaces support test-time scaling through goal prediction, action-candidate evaluation, and joint refinement of action and future-state predictions. We continually pretrain the model on approximately 1.33 million trajectories from 48 Open X-Embodiment datasets and adapt it separately to downstream domains. On two VLABench tasks, robot pretraining improves adaptation within a fixed Stage-2 step budget, and the full objective mixture improves shifted-instruction success over Policy-only post-training under the same coupled decoder. Combining goal guidance with joint action-next-state denoising further improves shifted-instruction success over action-only decoding; the benefit depends on how the predictions are composed. Dynin-Robotics achieves competitive performance on LIBERO and zero-shot LIBERO-Plus, together with a 78.4% average success rate across four manipulation conditions on a Franka Research 3 robot. An optimized block-parallel implementation accelerates model-side action decoding by up to 29.2x relative to the base implementation under the reported profiling setup. These results support shared trajectory modeling as a common interface for learning complementary robot objectives and composing their predictions during control.",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "relevance": 4,
+      "topic": "vla-autonomous-driving",
+      "date": "2026-09-14",
+      "status": "new",
+      "status_en": "新发现",
+      "score": 4,
+      "arxiv_id": "2609.13053",
+      "url": "https://arxiv.org/abs/2609.13053"
+    },
+    {
+      "title": "NS-VLA: Towards Neuro-Symbolic Vision-Language-Action Models",
+      "id": "2603.09542",
+      "published": "2603.09542",
+      "authors": "Ziyue Zhu , Shangyang Wu , Shuai Zhao , Zhiqiu Zhao , Jian Zhang , Shengjie Li , Yi Wang , Anh Tuan Luu , Xinliang Zhou , Fang Li , Haoran Luo",
+      "summary": "arXiv:2603.09542v3 Announce Type: replace Abstract: Vision-Language-Action (VLA) models are formulated to ground instructions in visual context and generate action sequences for robotic manipulation. Despite recent progress, VLA models still face structure-blind backbones, backbone-bound generalization, and flat single-objective optimization. To address these challenges, we propose a novel Neuro-Symbolic Vision-Language-Action (NS-VLA) framework. It introduces a Neuro-Symbolic Encoder for plan-constrained primitive inference, a Neuro-Symbolic Solver that conditions a backbone-agnostic policy on the active primitive, and Hierarchical Joint Policy Optimization with reward-granularity matching. Experiments on robotic manipulation benchmarks demonstrate that NS-VLA outperforms previous methods in both one-shot training and data-perturbed settings, while simultaneously exhibiting superior zero-shot generalizability and expanded exploration space. Our code is publicly available.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "topic": "vla-autonomous-driving",
+      "date": "2026-09-14",
+      "status": "new",
+      "status_en": "新发现",
+      "score": 4,
+      "arxiv_id": "2603.09542",
+      "url": "https://arxiv.org/abs/2603.09542"
+    },
+    {
+      "title": "Modular Sensory Stream for Integrating Physical Feedback in Vision-Language-Action Models",
+      "id": "2604.23272",
+      "published": "2604.23272",
+      "authors": "Jimin Lee , Huiwon Jang , Myungkyu Koo , Jungwoo Park , Jinwoo Shin",
+      "summary": "arXiv:2604.23272v2 Announce Type: replace Abstract: Humans understand and interact with the real world by relying on diverse physical feedback beyond visual perception. Motivated by this, recent approaches attempt to incorporate physical sensory signals into Vision-Language-Action models (VLAs). However, they typically focus on a single type of physical signal, failing to capture the heterogeneous and complementary nature of real-world interactions. In this paper, we propose MoSS, a modular sensory stream framework that adapts VLAs to leverage multiple sensory signals for action prediction. Specifically, we introduce decoupled modality streams that integrate heterogeneous physical signals into the action stream via joint cross-modal self-attention. To enable stable incorporation of new modalities, we adopt a two-stage training scheme that freezes pretrained VLA parameters in the early stage. Furthermore, to better capture contact interaction dynamics, we incorporate an auxiliary task that predicts future physical signals. Through extensive real-world experiments, we demonstrate that MoSS successfully augments VLAs to leverage diverse physical signals (i.e., tactile, force, and torque), integrating multiple signals to achieve synergistic performance gains.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "topic": "vla-autonomous-driving",
+      "date": "2026-09-14",
+      "status": "new",
+      "status_en": "新发现",
+      "score": 4,
+      "arxiv_id": "2604.23272",
+      "url": "https://arxiv.org/abs/2604.23272"
+    },
+    {
+      "title": "GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction",
+      "id": "2608.18234",
+      "published": "2608.18234",
+      "authors": "Ziyang Cheng , Tianshu Tang , Jinxin Lan , Xinze Chen , Yuhan Gong , Zhichao Liu , Changzhong Wu , Yahao Mao , Zongyan Deng , Mingxuan Ma , Huasen Xi , Yilong Liu , Yutong Wu , Xiaofeng Wang , Yang Wang , Yun Ye , Guan Huang , Xiaojie Jin , Zheng Zhu , Jiwen Lu",
+      "summary": "arXiv:2608.18234v3 Announce Type: replace Abstract: Whole-body motion tracking policies turn a humanoid into a robust control interface: the teleoperator---or an upstream model---only supplies a coarse movement intent, while the low-level policy keeps the robot balanced and physically feasible. Existing trackers deliver this interface only on flat ground: trained in empty scenes, they never learn how contact with terrain and objects reshapes their dynamics, and they attempt to teach the policy to balance under any command by continually enlarging the reference-motion corpus, which stops working once feasible behaviors become environment-dependent. We present GigaBrain-WBC-0.5, the first Behavior World Model (BWM) for humanoid whole-body control. Rather than a purely reactive tracker, we train a causal Transformer to jointly predict its next action, next state, and the distribution over its next latent behavior command, so the network that acts also models how the environment shapes what it can do next. An automatic terrain-annotation pipeline recovers full 3D contact geometry from retargeted motion, enabling terrain annotation at the scale of existing motion datasets. The predicted distribution is reused at deployment to detect implausible commands online and retract them onto learned behaviors, so the robot attempts tasks in a \"best-effort\" manner. The result is a unified policy that takes real-time command, interacts with environment, and stays robust to implausible commands, falls, and disturbances. GigaBrain-WBC-0.5 achieves the highest success rate across all four regimes among three large-scale tracker baselines: 81.3% on terrain interaction (4.3x the strongest baseline), 83.1% under implausible commands, and 99.3% fall recovery (16.8x the strongest baseline). Hardware trials show robust interaction under missing supports and disturbances; the Unitree G1 checkpoint transfers to the Maker L01 robot with simple fine-tuning.",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "relevance": 4,
+      "topic": "world-models-ad",
+      "date": "2026-09-14",
+      "status": "new",
+      "status_en": "新发现",
+      "score": 4,
+      "arxiv_id": "2608.18234",
+      "url": "https://arxiv.org/abs/2608.18234"
+    },
+    {
+      "title": "AdaVLA: Adaptive Step Flow Matching for Training-free Acceleration of Vision-Language-Action Models",
+      "id": "2608.29208",
+      "published": "2608.29208",
+      "authors": "Sunghwan Han , Youngtae Han , Youngmin Yi",
+      "summary": "arXiv:2608.29208v2 Announce Type: replace Abstract: Vision-Language-Action (VLA) models, built upon Vision-Language Models (VLMs), have significantly enhanced robotic capabilities by leveraging internet-scale knowledge and multimodal reasoning. However, the intensive computational overhead of VLAs constrains on-device deployment, hindering real-time responses to environmental changes. While various acceleration techniques have been proposed, they often rely on fine-tuning or access to training datasets, which are frequently unavailable due to privacy and proprietary concerns. Moreover, although flow-matching-based VLAs have emerged as efficient alternatives to standard diffusion models, current acceleration efforts largely target VLM inference costs, failing to address the iterative ODE solving process inherent in flow matching inference. To address these limitations, we propose AdaVLA, an online, training-free adaptive framework for fast yet accurate flow-matching-based Vision-Language-Action models. We introduce a novel metric derived from the flow matching trajectory curvature to quantify action generation confidence during inference. This metric enables the dynamic reduction of inference steps and the adaptive adjustment of MLP pruning ratios through an efficiently computed importance evaluation, requiring no access to training data. Experimental results on the LIBERO benchmark using a Jetson AGX Orin device demonstrate that our method achieves $1.87\\times$ and $2.24\\times$ speedups for $\\pi_{0.5}$ and X-VLA, respectively, with negligible degradation in success rates. Furthermore, we validate the robustness of our approach on real-world robotic tasks using SmolVLA.",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "relevance": 4,
+      "topic": "vla-autonomous-driving",
+      "date": "2026-09-14",
+      "status": "new",
+      "status_en": "新发现",
+      "score": 4,
+      "arxiv_id": "2608.29208",
+      "url": "https://arxiv.org/abs/2608.29208"
+    },
     {
       "title": "Generation of Vectorized Maps Beyond Vehicle View",
       "id": "2609.07511v1",
@@ -7842,21 +8102,36 @@
       "url": "https://arxiv.org/abs/2509.25822"
     }
   ],
-  "updated_at": "2026-09-13T02:01:49Z",
-  "last_updated": "2026-09-12",
+  "updated_at": "2026-09-15T00:10:00Z",
+  "last_updated": "2026-09-14",
   "category_counts": {
-    "cs.RO": 232,
-    "cs.CV": 210,
-    "cs.AI": 76,
-    "cs.LG": 38,
+    "cs.RO": 242,
+    "cs.CV": 199,
+    "cs.AI": 86,
+    "cs.LG": 52,
+    "eess.SY": 10,
+    "cs.RO ; cs.CV": 6,
+    "cs.CV ; cs.AI": 5,
+    "cs.HC": 4,
     "cs.CL": 4,
-    "cs.HC": 3,
-    "cs.CR": 2,
-    "cs.MA": 2,
+    "cs.CV ; cs.AI ; cs.LG ; cs.RO": 4,
+    "cs.CV ; cs.RO": 4,
+    "cs.MA": 3,
+    "cs.RO ; cs.AI": 3,
     "cs.SE": 2,
-    "cs.DC": 2,
+    "cs.FL": 1,
+    "cs.CR": 1,
+    "cs.CV ; cs.AI ; cs.LG": 1,
     "cs.ET": 1,
-    "cs.LO": 1
+    "cs.LO": 1,
+    "cs.DC": 1,
+    "cs.CV ; cs.GR": 1,
+    "cs.CR ; cs.RO": 1,
+    "cs.CV ; cs.LG": 1,
+    "cs.DC ; cs.AI": 1,
+    "cs.CV ; cs.AI ; cs.GR ; cs.LG": 1,
+    "cs.AI ; cs.CV": 1,
+    "cs.CV ; cs.AI ; cs.RO": 1
   },
-  "total_papers": 424
+  "total_papers": 438
 }

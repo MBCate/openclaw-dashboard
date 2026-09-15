@@ -1,50 +1,50 @@
 {
-  "updated_at": "2026-09-14T13:30:00Z",
-  "as_of": "Sep 14 2026 06:30 PT / Sep 14 13:30 UTC — 周一美股盘前/欧股盘初. 新主线: AI 巨头(Anthropic Amodei / OpenAI Altman)公开呼吁放缓前沿模型开发 → 芯片股与 Nvidia 盘前下挫、纳斯达克期货领跌; 同时沙特东西向管道关闭持续发酵, 布伦特原油升至 $109 上方, 能源危机加深。本周 FOMC(9/16)加息预期与油价二次通胀传导为两大压制。",
+  "updated_at": "2026-09-15T01:15:00Z",
+  "as_of": "Sep 14 2026 18:15 PT / Sep 15 01:15 UTC — 周二 A股盘前预览. 隔夜美股周一收低: 10年期美债收益率盘中首次突破5%(2023年以来首次), AI 巨头放缓呼吁引发芯片股抛售, 油价跳涨(布伦特~$107)推升通胀担忧。临近 9/16 FOMC——市场普遍预期本周加息。",
   "indices": [
-    { "name": "S&P 500", "symbol": "^GSPC", "close": 7656.98, "change_pct": 0.86, "note": "S&P 500 周五(9/11)收 7,656.98, +0.86% — 终结四连跌。但周一盘前期货 -0.67% (Reuters), 受 AI 放缓担忧与油价上冲拖累。Yahoo 盘前现值 ~7,599。" },
-    { "name": "道琼斯", "symbol": "^DJI", "close": 52573.29, "change_pct": 0.98, "note": "Dow 周五收 52,573.29, +0.98% (+约500点)。周一盘前期货 -0.42%, 油价跳涨与 Fed 周情绪压制。" },
-    { "name": "纳斯达克", "symbol": "^IXIC", "close": 26333.04, "change_pct": 0.96, "note": "Nasdaq 周五收 26,333.04, +0.96%。周一盘前领跌 -1.62% (Reuters) — Anthropic/OpenAI 呼吁放缓 AI 开发, 芯片股与 Nvidia 盘前下挫, 软件股逆势上涨。" },
-    { "name": "恒生指数", "symbol": "^HSI", "close": 24917.6, "change_pct": 0.45, "note": "HSI ~24,917.6 (Yahoo 最新), 较周五 24,805.63 小幅回升约+0.45%。港股随亚太风险偏好波动。" },
-    { "name": "日经225", "symbol": "^N225", "close": 63492.99, "change_pct": -0.81, "note": "Nikkei 225 ~63,493 (Yahoo 最新), 较周五 64,011.34 回落约-0.81%。日本休市临近, 日圆/日债长端仍是跨市场观察点。" },
-    { "name": "上证指数", "symbol": "000001", "close": 3885.33, "change_pct": -0.07, "note": "上证指数 周一(9/14)收 3,885.33, -0.07% (新浪源)。深证成指 13,384.57 (-0.64%), 创业板指 3,285.58 (-1.10%), 沪深300 4,480.08 (-0.67%)。本周累计上证 -1.19%。" },
-    { "name": "英国富时100", "symbol": "^FTSE", "close": 10716.62, "change_pct": 0.48, "note": "FTSE 100 ~10,716.62 (Yahoo 最新), 较周五 10,665 升约+0.48%。欧股周一温和反弹, 能源股受油价提振。" },
-    { "name": "德国DAX", "symbol": "^GDAXI", "close": 25409.09, "change_pct": -0.49, "note": "DAX ~25,409.09 (Yahoo 最新), 较周五 25,533 回落约-0.49%。科技/AI 情绪与油价通胀双向扰动。" }
+    { "name": "S&P 500", "symbol": "^GSPC", "close": 7619.98, "change_pct": -0.48, "note": "S&P 500 周一(9/14)收 7,619.98, -0.48%。AI 放缓警告与油价/收益率上冲拖累, 但非AI板块上涨限制跌幅 (AP/Investopedia)。" },
+    { "name": "道琼斯", "symbol": "^DJI", "close": 52421.2, "change_pct": -0.29, "note": "Dow 周一收 52,421.20, -0.29%。防御性板块部分对冲科技股下滑。" },
+    { "name": "纳斯达克", "symbol": "^IXIC", "close": 26186.41, "change_pct": -0.56, "note": "Nasdaq 周一收 26,186.41, -0.56%, 领跌。芯片股(Nvidia -3.39%)受 AI 放缓呼吁重挫, 软件/非AI科技股(Alphabet +5.05%, Meta +3.29%, Microsoft +2.63%)逆势上涨。" },
+    { "name": "VIX 恐慌指数", "symbol": "^VIX", "close": 17.1, "change_pct": 7.95, "note": "VIX 跳升约 +7.95% 至 17.10, 反映 AI 叙事不确定性与 Fed 周焦虑升温。" },
+    { "name": "恒生指数", "symbol": "^HSI", "close": 24917.6, "change_pct": 0.45, "note": "HSI ~24,917.6 (Yahoo 最新), 较前值回升约+0.45%。港股随亚太风险偏好波动, 隔夜美股走弱或压制周二开盘。" },
+    { "name": "日经225", "symbol": "^N225", "close": 63667.18, "change_pct": -2.26, "note": "Nikkei 225 ~63,667 (Yahoo 最新), 大幅回落约-2.26%。受隔夜美股 AI 抛售与油价冲击传导, 亚洲科技股承压。" },
+    { "name": "英国富时100", "symbol": "^FTSE", "close": 10697.57, "change_pct": -1.15, "note": "FTSE 100 ~10,697.57 (Yahoo 最新), 较前值回落约-1.15%。欧股受全球风险规避拖累, 能源股受油价支撑部分对冲。" },
+    { "name": "德国DAX", "symbol": "^GDAXI", "close": 25440.81, "change_pct": -2.18, "note": "DAX ~25,440.81 (Yahoo 最新), 回落约-2.18%。AI 情绪与油价通胀双向扰动, 科技权重承压。" },
+    { "name": "上证指数", "symbol": "000001", "close": 3885.33, "change_pct": -0.07, "note": "上证指数 周一(9/14)收 3,885.33, -0.07%; 深证成指 13,384.57 (-0.64%), 创业板指 3,285.58 (-1.10%), 沪深300 4,480.08 (-0.67%)。周二(9/15)盘前, 隔夜美股走弱+AI抛售或压制开盘。" }
   ],
   "crypto": [
-    { "name": "Bitcoin (BTC)", "symbol": "BTC-USDT", "price": 77782, "change_pct": 1.58, "note": "BTC ~$77,782 (+1.58% 24h, CoinGecko) — 脱离周末~$77.2k并小幅上行, 消化油价与 Fed 周风险。7.7-7.75万美元区间震荡。" },
-    { "name": "Ethereum (ETH)", "symbol": "ETH-USDT", "price": 2500.59, "change_pct": 1.38, "note": "ETH ~$2,500.59 (+1.38% 24h) — 站回 $2,500 上方, 与 BTC 同步小幅反弹。" }
+    { "name": "Bitcoin (BTC)", "symbol": "BTC-USDT", "price": 77836, "change_pct": 1.43, "note": "BTC ~$77,836 (+1.43% 24h, CoinGecko) — 在美元走强与 Fed 周风险下仍小幅上行, 7.7-7.8万美元区间震荡。" },
+    { "name": "Ethereum (ETH)", "symbol": "ETH-USDT", "price": 2512.6, "change_pct": 1.25, "note": "ETH ~$2,512.6 (+1.25% 24h) — 站回 $2,500 上方, 与 BTC 同步小幅反弹。" }
   ],
   "commodities": {
-    "brent_crude": { "value": 108.97, "change_pct": 4.17, "note": "Brent ~$108.97, 较周五 $104.61 跳涨约+4.2% (Yahoo) — FT 头条'Oil hits $109 after Saudi Arabia closes vital export pipeline'; 沙特或因管道损毁需数周才能重开(Bloomberg), 能源危机加深。" },
-    "wti_crude": { "value": 103.5, "change_pct": 4.4, "note": "WTI ~$103.5 — 突破 $100 关口续涨; JPMorgan 警告投资者勿错过突然反转。" },
-    "gold": { "value": 4312.8, "change_pct": -2.18, "note": "Gold ~$4,312.8 (Yahoo), 较周五 $4,408.9 回落约-2.18% — 在超预期 CPI/加息预期及美债收益率逼近5%下承压, 未受地缘避险支撑。" },
-    "us_10y_yield": { "value": 4.985, "change_pct": 1.32, "note": "US 10Y ~4.985% (Yahoo), 升破前值~4.92% — MarketWatch: '收益率正坐在5%门口, 对股市是警示信号'; 油价跳涨推动收益率上行。" },
-    "dxy": { "value": 99.631, "change_pct": 0.56, "note": "美元指数 DXY ~99.631 (Yahoo), 较周五 99.08 升约+0.56% — Fed 加息预期升温 + 油价冲击推升美元。" }
+    "brent_crude": { "value": 106.72, "change_pct": 5.44, "note": "Brent ~$106.72, 较前值 $101.21 跳涨约+5.4% (Yahoo)。FT: 'Oil hits $109 after Saudi Arabia closes vital export pipeline'; 沙特东西向管道关闭持续发酵, 布伦特盘中一度触及 $109。" },
+    "wti_crude": { "value": 101.94, "change_pct": 6.9, "note": "WTI ~$101.94 (Convex/9-14) — 突破 $100 关口续涨约+6.9%; JPMorgan 警告投资者勿错过突然反转。" },
+    "gold": { "value": 4337.1, "change_pct": -1.79, "note": "Gold ~$4,337.1 (Yahoo), 较前值 $4,416.0 回落约-1.79% — 在加息预期及美债收益率破5%下承压, 未受地缘避险支撑。" },
+    "us_10y_yield": { "value": 4.961, "change_pct": 3.23, "note": "US 10Y ~4.961% (Yahoo) — 周一盘中首次触及5%, 为2023年以来首次 (FT/WSJ); 油价跳涨推动收益率上行, 对股市构成警示。" },
+    "dxy": { "value": 99.542, "change_pct": 0.78, "note": "美元指数 DXY ~99.542 (Yahoo), 较前值 98.77 升约+0.78% — Fed 加息预期升温 + 油价冲击推升美元, 新兴市场货币承压。" }
   },
   "macro": {
-    "ai_slowdown_call": "CRITICAL 新变量: Anthropic CEO Dario Amodei 与 OpenAI CEO Sam Altman 公开呼吁放缓前沿 AI 模型开发 (Altman: 'We could lose control'); Microsoft 随即为未来模型设定限制。市场解读为对 AI 资本开支/盈利叙事的威胁, 芯片股与 Nvidia 盘前下挫, Nasdaq 期货领跌 -1.62%。中国批评该呼吁, 称中国优势或威胁美国国家安全。(CNBC/FT/Bloomberg)",
-    "oil_crisis": "沙特东西向(East-West)输油管道遭伊拉克方向无人机袭击后关闭持续发酵: 布伦特升至 $109 上方, 沙特或因损毁需数周才能重开(Bloomberg); 沙特退出缓和中东紧张的地区谈判。美能源部长 Wright 称预期管道'很快'恢复。FT: 'The Saudi relief valve is being closed'。",
-    "fed_week": "本周 9/16 FOMC 为关键: Bloomberg 称预期加息——'自2023年以来首次'。CME 定价加息概率~90%, MarketWatch 提及市场计入或达三次加息。10Y 收益率逼近5%。",
-    "iran_hormuz": "中东冲突升级: 伊朗称在霍尔木兹海峡上空击落一架美国先进无人机; 美伊互放狠话并交火, 无缓和迹象 (CNBC)。美国阻止伊朗核负责人出席维也纳会议 (SCMP)。",
-    "geopolitics": "美伊冲突从军事扩展至外交/金融; 芬兰宣布加入法国的前沿核威慑; 特朗普邮件投票限制被第二位法官叫停 (SCMP)。",
+    "fed_week": "CRITICAL: 9/16 FOMC 为本周核心。WSJ/Fed 观察称预期本周加息(2026年首次), MarketWatch 称或因通胀上行加息、甚至计价三次; 10年期收益率盘中破5%(2023年来首次)。",
+    "ai_slowdown_call": "AI 巨头(Anthropic Amodei / OpenAI Altman)公开呼吁放缓前沿模型开发, 引发全球芯片股抛售; Nvidia -3.39%, Al Alphabet/Meta/Microsoft 逆势上涨。MarketWatch: 'AI doomsday fears arriving at worst time'。Trump 则对 AI 警告'火力全开', 抨击数据中心反对派与监管 (CNBC)。",
+    "oil_crisis": "沙特东西向(East-West)输油管道关闭持续发酵, 布伦特盘中触及 $109, 收于 ~$107; 该管道是绕过霍尔木兹的关键通道, 沙特或需数周才能重开。JPMorgan 警告油价反转风险。(FT/Bloomberg)",
+    "iran_hormuz": "中东冲突升级: 伊朗 IRGC 称一艘油轮在霍尔木兹海峡爆炸 (SCMP); 伊朗此前称击落一架美国先进无人机, 美伊互放狠话, 无缓和迹象。美 Space Force 证实轨道上部署有'攻防两用'武器 (SCMP)。",
+    "geopolitics": "Trump 撤销拜登时代电厂温室气体排放限制 (FT/CNBC); 最高法院驳回 Trump 关于邮寄选票限制的请求; Zelensky称若俄方对等, 乌克兰准备'降级步骤' (SCMP)。",
     "crypto_bill": "Clarity Act 加密法案周二迎参议院关键投票(多数党领袖 Thune 安排), 加密业力推通过 (CNBC)。",
-    "tech_earnings": "Novo Nordisk 更名'Novo'迎战 Lilly 减肥药市场; Michael Dell 家族办公室牵头 $77亿将保险经纪 Baldwin Group 私有化; 另一家咖啡连锁申请 Chapter 11。",
-    "a_share": "A股周一收低: 上证 3,885.33 (-0.07%), 深证 -0.64%, 创业板 -1.10%, 沪深300 -0.67%。本周累计上证 -1.19%, 创业板领跌 -2.88%。受隔夜全球风险规避与 AI 情绪拖累。",
-    "watch": "本周观察: 1) AI 巨头'放缓'呼吁对 AI 叙事/芯片股(Nvidia)的持续冲击及 Anthropic IPO 前景; 2) 沙特管道关闭与红海局势对油价($109+)的冲击——供给溢价 vs 需求破坏; 3) 9/16 FOMC — 加息概率~90%、或达三次加息, 10Y 逼近5%; 4) 美元 DXY~99.6 走强与新兴市场货币承压; 5) 金价在加息预期下回落(未受避险支撑)的反常; 6) Clarity Act 周二参议院投票; 7) A股/港股对隔夜美股利空的传导。"
+    "tech_earnings": "Anthropic 选择纳斯达克作为其即将进行的 IPO 上市地; 又一家咖啡连锁申请 Chapter 11; Revolut 将近700名客户数据泄漏给诈骗者 (FT)。",
+    "a_share": "A股周一收低: 上证 3,885.33 (-0.07%), 深证 -0.64%, 创业板 -1.10%, 沪深300 -0.67%。周二(9/15)盘前: 隔夜美股走弱、AI 抛售与油价破位或压制开盘情绪。",
+    "asian_open": "亚太开盘承压: 日经 -2.26% 至 ~63,667, 受隔夜美股 AI 抛售与油价冲击传导。港股/日股情绪或压制A股早盘风险偏好。",
+    "watch": "本周观察: 1) 9/16 FOMC — 预期加息(2026首次), 10Y 破5%; 2) AI 放缓呼吁对芯片股(Nvidia)与 AI 叙事的持续冲击; 3) 沙特管道关闭/霍尔木兹油轮爆炸对油价($107-109)的冲击; 4) DXY~99.5 走强与新兴市场货币承压; 5) 金价在加息预期下回落(未受避险支撑)的反常; 6) Clarity Act 周二参议院投票; 7) A股/港股对隔夜美股利空的传导。"
   },
   "headlines": [
-    { "source": "FT", "title": "Oil hits $109 after Saudi Arabia closes vital export pipeline", "summary": "沙特因无人机袭击关闭关键出口管道, 并退出地区缓和谈判; 布伦特升至$109上方, 能源危机加深。" },
-    { "source": "Reuters", "title": "AI warnings knock Nasdaq futures, pressure tech stocks", "summary": "Anthropic/OpenAI 呼吁放缓 AI 开发, 纳指期货 -1.62%, 芯片股下挫、软件股逆势上涨; 道指期货 -0.42%, 标普期货 -0.67%。" },
-    { "source": "Bloomberg", "title": "Shutdown of Saudi Pipeline Deepens Energy Crisis", "summary": "沙特或需数周才能重开东西向管道, 该管道是绕过霍尔木兹的关键通道; EM 货币在 Fed 周起始走低。" },
-    { "source": "Bloomberg", "title": "Stocks Fall as AI Slowdown Fears, Oil Jitters Hit Sentiment", "summary": "AI 放缓担忧与油价扰动打压美股期货; 中国批评该呼吁称中国优势威胁美国国家安全。" },
-    { "source": "CNBC", "title": "Iran says it destroyed U.S. advanced drone over Hormuz as Middle East conflict intensifies", "summary": "伊朗称在霍尔木兹击落美先进无人机, 美伊互放狠话, 无缓和迹象。" },
-    { "source": "CNBC", "title": "OpenAI boss Sam Altman spells out how and why the AI industry wants to slow down: 'We could lose control'", "summary": "Altman 详述 AI 安全框架与放缓方案, 业界就前沿开发风险趋于一致。" },
-    { "source": "CNBC", "title": "Microsoft sets limits for future AI models as industry throttles frontier development", "summary": "微软为未来模型设定限制, 与 Anthropic/OpenAI 搭档一道塑造'负责任 AI'形象。" },
-    { "source": "MarketWatch", "title": "AI has been carrying the stock market. An industry pause could pull the rug out, warns this Wall Street giant.", "summary": "花旗警告: 若 AI 模型开发放缓, 盈利预期修正或随之而来, 而后者是今年股市上涨的关键。" },
-    { "source": "MarketWatch", "title": "Fed rate hikes won't bring down gas prices. Why the bond market is pushing for them anyway.", "summary": "10年期收益率坐在5%门口, 对股市是警示信号。" },
-    { "source": "MarketWatch", "title": "Oil over $100 has JPMorgan strategists warning stock-market investors against missing out on a sudden turnaround", "summary": "油价破$100, JPMorgan 警告股市投资者勿错过突然反转。" },
-    { "source": "CNBC", "title": "Clarity Act faces make-or-break Senate vote on Tuesday as crypto industry pushes for bill", "summary": "加密法案 Clarity Act 周二迎关键参议院投票, 是'成败在此一举'的时刻。" },
-    { "source": "Yahoo Finance", "title": "10-year treasury yield rises as oil prices jump", "summary": "油价跳涨推动10年期美债收益率上行, 逼近5%。" }
+    { "source": "FT", "title": "Ten-year Treasury yield hits 5% for first time since 2023", "summary": "油价跳涨推动10年期美债收益率盘中首次触5%, 为2023年以来首次, 对股市构成警示。" },
+    { "source": "AP", "title": "How major US stock indexes fared Monday 9/14/2026", "summary": "AI 股全球下滑, 油价上涨令10Y收益率一度破5%; 非AI板块上涨限制华尔街跌幅。" },
+    { "source": "FT", "title": "Oil hits $109 after Saudi Arabia closes vital export pipeline", "summary": "沙特因无人机袭击关闭关键出口管道并退出地区缓和谈判, 布伦特升至$109上方。" },
+    { "source": "Reuters/Yahoo", "title": "Chip stocks fall on AI slowdown warnings; Nasdaq leads declines", "summary": "AI 巨头呼吁放缓开发, Nvidia -3.39%, 纳指领跌 -0.56%; 软件/非AI科技股逆势上涨。" },
+    { "source": "SCMP", "title": "Oil tanker has exploded in Strait of Hormuz, says Iran's IRGC", "summary": "伊朗 IRGC 称一艘油轮在霍尔木兹海峡爆炸, 中东冲突再度升级。" },
+    { "source": "WSJ", "title": "10-Year Treasury Yield Touches 5%; Fed expected to raise rates Wednesday", "summary": "通胀上行背景下, Fed 预计周三加息, 为今年首次。" },
+    { "source": "CNBC", "title": "Trump goes scorched earth on AI warnings, raging about data center opposition and regulation", "summary": "Trump 对 AI 放缓警告'火力全开', 抨击数据中心反对派与监管。" },
+    { "source": "CNBC", "title": "Clarity Act faces make-or-break Senate vote on Tuesday as crypto industry pushes for bill", "summary": "加密法案 Clarity Act 周二迎关键参议院投票。" },
+    { "source": "MarketWatch", "title": "AI doomsday fears are arriving at the worst possible time for the stock market", "summary": "AI 末日担忧正值股市最糟时点, 芯片/盈利叙事承压。" },
+    { "source": "FT", "title": "Trump to scrap Biden-era climate protections on power plant pollution", "summary": "Trump 撤销拜登时代电厂排放限制, 能源/环保政策转向。" }
   ]
 }

@@ -1,51 +1,50 @@
 {
-  "updated_at": "2026-09-18T13:30:00Z",
-  "as_of": "Sep 18 2026 06:30 PT / Sep 18 13:30 UTC — 周五国际盘. 周四美联储(Fed)三年来首次加息, 油价(柴油/汽油)跳涨推升通胀; 周五亚太市场分化: 日经因日元疲弱/BOJ加息创高, A股强势反弹。周五美股期货盘前平淡, 10年期美债收益率高位(近5%), DXY 升破100。BOJ 周五将政策利率上调至1.25%, 为1995年以来最高。",
+  "updated_at": "2026-09-19T13:30:00Z",
+  "as_of": "Sep 19 2026 06:30 PT / Sep 19 13:30 UTC — 周六国际盘(美股休市). 周五(9/18)美股以'宽幅AI回调'收跌并录得本周第二个下跌周; 10年期美债收益率升至5.01%(52周新高), 油价因沙特东-西管道即将重启而连续第三日回落至~$100下方。BOJ加息至1995年以来最高后日元震荡, 日经收高; 港股小幅上涨。加密逆势走强, BTC站上$81,000。周六关注: AI kill switch 辩论(深度求索DeepSeek冲击)、特朗普封禁三家媒体、Buffett卸任Berkshire董事长。",
   "indices": [
-    { "name": "S&P 500", "symbol": "^GSPC", "close": 7648.12, "change_pct": -0.12, "note": "S&P 500 最新 7,648.12 (-0.12%)。周四 Fed 加息后市场震荡, 周五盘前大体持稳; 非AI板块与能源支撑限制跌幅。" },
-    { "name": "道琼斯", "symbol": "^DJI", "close": 51720.53, "change_pct": -1.62, "note": "Dow 最新 51,720.53 (-1.62%), 因 Berkshire 与部分权重股承压领跌。" },
-    { "name": "纳斯达克", "symbol": "^IXIC", "close": 26418.30, "change_pct": 0.32, "note": "Nasdaq 最新 26,418.30 (+0.32%), 在 AI 与软件股带动下逆势小涨。" },
-    { "name": "VIX 恐慌指数", "symbol": "^VIX", "close": 15.40, "change_pct": -9.94, "note": "VIX 回落约 -9.94% 至 15.40, 市场恐慌情绪较 Fed 会议前显著缓和。" },
-    { "name": "恒生指数", "symbol": "^HSI", "close": 24750.78, "change_pct": -0.22, "note": "HSI 最新 24,750.78 (-0.22%), 港股小幅走低。香港公布首个五年规划。" },
-    { "name": "日经225", "symbol": "^N225", "close": 65018.95, "change_pct": 2.40, "note": "Nikkei 225 最新 65,018.95 (+2.40%)。BOJ 加息但日元走弱, 出口股大涨推动日经创高。" },
-    { "name": "英国富时100", "symbol": "^FTSE", "close": 10703.63, "change_pct": 0.50, "note": "FTSE 100 最新 10,703.63 (+0.50%), 受能源股与英镑走弱支撑小幅上涨。" },
-    { "name": "德国DAX", "symbol": "^GDAXI", "close": 25430.19, "change_pct": -0.54, "note": "DAX 最新 25,430.19 (-0.54%), 科技权重承压小幅回落。" },
-    { "name": "上证指数", "symbol": "000001", "close": 3911.87, "change_pct": 0.68, "note": "上证指数 最新 3,911.87 (+0.68%); 深证成指 13,640.87 (+1.91%), 创业板指 3,372.68 (+2.25%), 沪深300 4,507.39 (+1.06%)。A股周五强势反弹, 成长/创业板领涨。" }
+    { "name": "S&P 500", "symbol": "^GSPC", "close": 7604.90, "change_pct": -0.56, "note": "S&P 500 周五(9/18)收跌约 -0.56% 至 ~7,604.90, 录得本周第二个下跌周 — WSJ: 'Stocks Sink in Broad AI Rout Sparked by China's DeepSeek'。AI 板块回调拖累大盘。" },
+    { "name": "道琼斯", "symbol": "^DJI", "close": 51435.00, "change_pct": -0.55, "note": "Dow 周五收跌约 -0.55% 至 ~51,435, 权重股与AI相关标承压。" },
+    { "name": "纳斯达克", "symbol": "^IXIC", "close": 26180.00, "change_pct": -0.90, "note": "Nasdaq 周五领跌约 -0.90% 至 ~26,180 — AI/芯片股受 DeepSeek 冲击与技术估值压力拖累。" },
+    { "name": "VIX 恐慌指数", "symbol": "^VIX", "close": 17.20, "change_pct": 11.7, "note": "VIX 回升约 +11.7% 至 ~17.2 — AI 回调令恐慌情绪较Fed会议后低点(15.4)升温。" },
+    { "name": "恒生指数", "symbol": "^HSI", "close": 24900.30, "change_pct": 0.60, "note": "HSI 周五 +0.60% 至 ~24,900 (LinkedIn Market Close 9/18) — 港股小幅上涨, 受益于内地情绪回暖。" },
+    { "name": "日经225", "symbol": "^N225", "close": 65018.95, "change_pct": 1.38, "note": "Nikkei 225 周五 +1.38% 至 65,018.95 (LinkedIn) — BOJ 加息至31年高位后日元震荡, 出口股支撑日经创高。" },
+    { "name": "英国富时100", "symbol": "^FTSE", "close": 10650.00, "change_pct": -0.50, "note": "FTSE 100 周五小幅走低约 -0.50% — 能源股随油价回落拖累。" },
+    { "name": "德国DAX", "symbol": "^GDAXI", "close": 25290.00, "change_pct": -0.55, "note": "DAX 周五回落约 -0.55% — 科技权重与AI叙事承压。" },
+    { "name": "上证指数", "symbol": "000001", "close": 3911.87, "change_pct": 0.68, "note": "上证指数 9/18 收 3,911.87 (+0.68%); 深证成指 13,640.87 (+1.91%), 创业板指 3,372.68 (+2.25%), 沪深300 4,507.39 (+1.06%)。A股周五强势反弹, 成长/创业板领涨。" }
   ],
   "crypto": [
-    { "name": "Bitcoin (BTC)", "symbol": "BTC-USDT", "price": 78067, "change_pct": 2.13, "note": "BTC ~$78,067 (+2.13% 24h, CoinGecko) — 在美元走强与 Fed 加息后仍小幅上行, 7.7-7.8万美元区间震荡。" },
-    { "name": "Ethereum (ETH)", "symbol": "ETH-USDT", "price": 2502.54, "change_pct": 2.14, "note": "ETH ~$2,502.54 (+2.14% 24h) — 站回 $2,500 上方, 与 BTC 同步反弹。" }
+    { "name": "Bitcoin (BTC)", "symbol": "BTC-USDT", "price": 81274, "change_pct": 4.48, "note": "BTC ~$81,274 (+4.48% 24h, OKX/WorldCoinIndex/ConvexTrade) — 逆势走强站上 $81,000, 突破近期 7.7-7.8万的震荡区间。" },
+    { "name": "Ethereum (ETH)", "symbol": "ETH-USDT", "price": 2648.99, "change_pct": 3.5, "note": "ETH ~$2,648.99 (CoinMarketCap) — 站上 $2,600, 与 BTC 同步反弹。" }
   ],
   "commodities": {
-    "brent_crude": { "value": 99.34, "change_pct": -6.00, "note": "Brent ~$99.34, 较前值 $106.72 回落约 -6.0% — 沙特管道关闭/霍尔木兹风险溢价部分消退, 油价回落至 $100 下方。" },
-    "wti_crude": { "value": 97.36, "change_pct": -3.97, "note": "WTI ~$97.36, 回落约 -4.0%, 跌破 $100 关口。" },
-    "gold": { "value": 4411.20, "change_pct": 1.36, "note": "Gold ~$4,411.20, 回升约 +1.36% — 美元与收益率高位下, 避险与通胀对冲需求支撑金价。" },
-    "us_10y_yield": { "value": 4.984, "change_pct": 0.46, "note": "US 10Y ~4.984%, 维持高位 (近5%)。MarketWatch: 10年期正经历逾百年来最差走势, 但投资者仍在买债。" },
-    "dxy": { "value": 100.476, "change_pct": 1.02, "note": "美元指数 DXY ~100.476, 升约 +1.02%, 升破100关口 — Fed 加息 + 日元疲弱推升美元。" }
+    "brent_crude": { "value": 102.41, "change_pct": -2.30, "note": "Brent ~$102.41 (-2.30%, financefeeds 9/18) — 沙特东-西管道数日内恢复半数运力, 油价连续第三日回落。BrentWatch 报 ~$99.29 (-4.61%)。" },
+    "wti_crude": { "value": 100.30, "change_pct": -1.61, "note": "WTI ~$100.30 (9/18 收盘, down $1.61) — 围绕 $100 关口震荡, 供应担忧缓解。" },
+    "gold": { "value": 4405.00, "change_pct": -0.30, "note": "Gold 周五小幅回落 (WSJ: 'Comex Gold, Silver Settle Lower') — 收益率升至5%上方压制无息资产, 但避险与通胀对冲需求提供支撑, 金价仍在 $4,400 附近高位。" },
+    "us_10y_yield": { "value": 5.01, "change_pct": 1.42, "note": "US 10Y ~5.01% (9/18, +7bp, 52周新高; yieldcurve.pro) — 收益率升破5%关口, 为逾百年来最差债市走势, 对股市估值构成压力。" },
+    "dxy": { "value": 100.60, "change_pct": 0.12, "note": "美元指数 DXY ~100.6 — 维持100上方高位, Fed 加息+日元震荡支撑美元。" }
   },
   "macro": {
-    "fed_rates": "CRITICAL: 美联储(BOJ之外)已三年来首次加息 (Yahoo Finance: 'Fed Raises Interest Rates for First Time in Three Years as Diesel, Gas Prices Surge'), 通胀因油价上行压力升温。10年期美债收益率维持近5%高位。",
-    "boj_hike": "日本央行(BOJ)周五将政策利率上调25bp至1.25%, 为1995年以来最高 (31年高位), 为三十余年来最快加息步伐 (Bloomberg/CNBC/AP)。但日元不升反跌(FT: 'Yen sinks after BoJ raises rates to highest level since 1995'), 利差与政策预期压制日元。",
-    "equities": "美股周四 Fed 加息后震荡: S&P 500 7,648.12 (-0.12%), Dow 51,720.53 (-1.62%), Nasdaq 26,418.30 (+0.32%)。VIX 回落至 15.40 (-9.94%), 恐慌缓和。周五分析师聚焦 Nvidia/Apple/Netflix/Alphabet/Meta/Amazon 等。",
-    "berkshire": "Warren Buffett(96岁)卸任 Berkshire Hathaway 董事长, 即刻生效, 其子 Howard Buffett 接任, Buffett 任名誉董事长。'Father Time always wins'(CNBC/NYT/MarketWatch)。",
-    "ai_debate": "Dreamforce 上 AI 安全辩论升温: 专家公开信呼吁 Anthropic/OpenAI 需真正独立的安全评估方; 企业领袖称'去年的模型已够用' (CNBC)。AI 放缓/安全叙事持续扰动芯片股。",
-    "boj_yen_asia": "亚太周五分化: 日经 +2.40%(日元疲弱+BOJ加息), A股强势反弹(上证+0.68%, 创业板+2.25%), 恒指 -0.22%(香港公布首个五年规划)。",
-    "oil_iran": "油价回落: 沙特因美国拒绝红海干预陷入'屈辱困境'(SCMP), 布伦特跌约6%至~$99。中东不确定性犹存, MarketWatch 关注'Wall Street is betting Trump backs down on Iran — TACO trade'。",
-    "a_share": "A股周五强势反弹: 上证 3,911.87 (+0.68%), 深证成指 13,640.87 (+1.91%), 创业板指 3,372.68 (+2.25%), 沪深300 4,507.39 (+1.06%)。成长/创业板领涨, 情绪回暖。",
-    "geopolitics": "地缘: Putin 收紧对俄境内西方资产控制, 瞄准 Nestle 俄罗斯业务 (CNBC); 俄罗斯议会选举在战争阴影下开始投票 (SCMP); 土耳其清算'庞氏式'基金中金 Goldman 相关基金 (FT/Bloomberg); 中美 AI/贸易摩擦延续。",
-    "crypto_news": "Bloomberg: 'Trump's $1.4 Billion Haul Comes Back to Haunt Crypto Industry' — 加密行业面临政治资金争议; 加密相关监管仍是市场焦点。",
-    "watch": "今日/本周关注: 1) Fed 加息后通胀与油价($99)路径; 2) BOJ 加息至1.25%后日元贬值与套息交易风险; 3) 10Y 美债近5%高位对股市估值压力; 4) DXY 破100 与新兴市场货币承压; 5) A股/港股动能能否延续(创业板领涨); 6) AI 安全叙事对芯片股(Nvidia)的持续扰动; 7) Buffett 卸任后 Berkshire 走势; 8) 中东/伊朗地缘风险与油价回落可持续性。"
+    "fed_rates": "美联储三年来首次加息(油价推动通胀升温)。MarketWatch: 'Warsh's Fed shows it's serious about taming inflation' — 决策层认为仅需小幅加息即可在2029年前将通胀压低至2%。10年期美债收益率升至5.01%(52周新高)。",
+    "ai_rout": "AI 板块周五宽幅回调: WSJ 'Stocks Sink in Broad AI Rout Sparked by China's DeepSeek'。但 WSJ 另文 'DeepSeek Won't Sink U.S. AI Titans' 认为冲击有限。CNBC: 'The AI kill switch, explained' — AI 失控担忧升温, 政策与科技领袖讨论'AI 停止按钮'可行性。FT: 'How should investors position for the robot apocalypse?'。",
+    "boj_yen_asia": "BOJ 周五加息至1995年以来最高(1.25%), 日元震荡, 日经 +1.38% 收 65,018.95; 亚太分化, 港股 +0.60%, A股强势反弹(创业板 +2.25%)。",
+    "oil_iran": "油价连续第三日回落: 沙特东-西管道数日内恢复半数运力(Brent ~$102.41, -2.30%), WTI ~$100.30。MarketWatch: 'A sudden end to the Iran war would strike a blow against oil prices' — 能源股内部人却在买入。FT: 'The Iran energy shock is wrongfooting the world'。JPMorgan 称油市'无明确终局'。",
+    "consumer": "CNBC: Goldman 将消费者信心低迷归咎于'幸福感下降'(lower happiness), 尽管经济稳健。Yahoo: 手机账单上涨助推 Fed 加息。",
+    "berkshire": "Buffett 正式卸任 Berkshire Hathaway 董事长, 其子 Howard 接任(Bloomberg: 'Buffett Son Takes Chair as Berkshire Transition Ends'; CNBC)。",
+    "media_trump": "特朗普封禁三家媒体进入白宫, MS NOW 记者周六被拒入内(CNBC/Bloomberg)。",
+    "geopolitics": "地缘: 联合国伊朗战争谈判出现新转机(Bloomberg); 美国国务院被要求披露委内瑞拉石油收入(FT); 乌克兰战争美批准对乌27亿美元防空装备军售(SCMP); 普京收紧对俄西方资产控制。",
+    "crypto_news": "FT: 'How should investors position for the robot apocalypse?'; 加密逆势走强, BTC 站上 $81,000 (+4.48%)。",
+    "watch": "本周关注: 1) AI 回调(DeepSeek冲击)与 kill switch 政策辩论对芯片股(Nvidia)的持续扰动; 2) 10Y 美债升破5%对股市估值的压力; 3) 油价($100)与沙特管道重启、伊朗战争路径; 4) Fed(Warsh)抗通胀可信度与消费者信心背离; 5) BOJ 加息后日元与套息交易风险; 6) A股/港股动能(创业板领涨)可持续性; 7) 加密逆势走强能否延续; 8) 特朗普媒体封禁与地缘(委内瑞拉/乌克兰/伊朗)。"
   },
   "headlines": [
-    { "source": "Yahoo Finance", "title": "Fed Raises Interest Rates for First Time in Three Years as Diesel, Gas Prices Surge", "summary": "美联储三年来首次加息, 油价推动通胀压力升温。" },
-    { "source": "Bloomberg", "title": "BOJ Hikes Rate at Fastest Pace in More Than Three Decades", "summary": "日本央行加息至1.25%, 为1995年以来最高, 三十余年来最快步伐。" },
-    { "source": "FT", "title": "Yen sinks after BoJ raises rates to highest level since 1995", "summary": "BOJ加息后日元不升反跌, 利差与政策预期压制日元。" },
-    { "source": "CNBC/NYT", "title": "Warren Buffett steps down as chairman of Berkshire Hathaway: 'Father Time always wins'", "summary": "96岁的Buffett卸任董事长, 其子Howard接任, Buffett任名誉董事长。" },
-    { "source": "CNBC", "title": "Anthropic and OpenAI need truly independent safety evaluators, experts say in public letter", "summary": "专家公开信呼吁AI公司需独立安全评估方, AI安全辩论升温。" },
-    { "source": "MarketWatch", "title": "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.", "summary": "10年期美债逾百年来最差走势, 但投资者仍在买债。" },
-    { "source": "Bloomberg", "title": "Trump's $1.4 Billion Haul Comes Back to Haunt Crypto Industry", "summary": "特朗普14亿美元募资或反噬加密行业, 政治资金争议升温。" },
-    { "source": "MarketWatch", "title": "Wall Street is betting Trump backs down on Iran — but what if the 'TACO' trade fails this time?", "summary": "华尔街押注特朗普在伊朗问题上退让, 'TACO交易'风险受关注。" },
-    { "source": "CNBC", "title": "Putin targets Nestle's Russian business as Kremlin tightens grip on Western assets", "summary": "普京收紧对俄境内西方资产控制, 瞄准Nestle俄罗斯业务。" },
-    { "source": "CNBC", "title": "AI safety debate meets reality at Dreamforce as business leaders say last year's models are enough", "summary": "Dreamforce上企业领袖称去年模型已够用, AI投资叙事承压。" }
+    { "source": "WSJ", "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek", "summary": "AI 板块宽幅回调拖累美股, 标普录得本周第二个下跌周。" },
+    { "source": "CNBC", "title": "The AI kill switch, explained: 'It's not too little, but it's probably too late'", "summary": "AI 失控担忧升温, 政策与科技领袖讨论'AI 停止按钮'可行性。" },
+    { "source": "MarketWatch", "title": "Warsh's Fed shows it's serious about taming inflation. Why Wall Street now believes it.", "summary": "市场开始相信 Fed 能在2029年前将通胀压回2%。" },
+    { "source": "Bloomberg", "title": "Buffett Son Takes Chair as Berkshire Transition Ends", "summary": "Buffett 卸任董事长, 其子 Howard 接任, Berkshire 交接完成。" },
+    { "source": "FT", "title": "The Iran energy shock is wrongfooting the world", "summary": "伊朗能源冲击扰乱全球, 油价连续第三日回落但风险犹存。" },
+    { "source": "Yahoo Finance", "title": "Why your cell phone bill is getting so expensive — and how that helped convince the Fed to raise rates", "summary": "手机账单等涨价助推通胀, 成为 Fed 加息理由之一。" },
+    { "source": "CNBC", "title": "MS NOW journalists blocked from White House after Trump bans three media outlets", "summary": "特朗普封禁三家媒体, MS NOW 记者周六被拒入白宫。" },
+    { "source": "MarketWatch", "title": "Stocks face a growing list of threats — so why are investors staying so calm?", "summary": "风险清单渐长但投资者仍保持淡定, 未撤离市场。" },
+    { "source": "MarketWatch", "title": "The old new thing: Cisco and retro tech are back and forming the AI buildout's backbone", "summary": "Cisco 等'复古科技'回归, 成为AI基建骨干。" },
+    { "source": "CNBC", "title": "Consumer sentiment is in the dumps despite a solid economy. Goldman Sachs blames 'lower happiness'", "summary": "经济稳健但消费者信心低迷, 高盛归因于'幸福感下降'。" }
   ]
 }

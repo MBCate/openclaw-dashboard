@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20",
+  "updated": "2026-09-19",
   "papers": [
     {
       "title": "Planning in the Backbone: DiffAdapterVLA for Native Continuous Trajectory Generation with Driving VLMs",
@@ -1254,7 +1254,9 @@
       "status_en": "新发现",
       "score": 5,
       "arxiv_id": "2609.20034",
-      "url": "https://arxiv.org/abs/2609.20034"
+      "url": "https://arxiv.org/abs/2609.20034",
+      "weekly_pick": true,
+      "weekly_analysis": "world-models-ad/analysis/2609.20034_Astronex-World-1.0.md"
     },
     {
       "title": "OPTED: On-Policy Fine-Tuning for End-to-End Driving using a Render-Free Teacher",
@@ -1274,7 +1276,9 @@
       "status_en": "新发现",
       "score": 5,
       "arxiv_id": "2609.20756",
-      "url": "https://arxiv.org/abs/2609.20756"
+      "url": "https://arxiv.org/abs/2609.20756",
+      "weekly_pick": true,
+      "weekly_analysis": "e2e-autonomous-driving/analysis/2609.20756_OPTED-On-Policy-Fine-Tuning.md"
     },
     {
       "title": "Risk-Aware World Modeling with Flow-Guided Occupancy Evolution for Selective Trajectory Planning in Automated Driving",
@@ -1296,7 +1300,9 @@
       "status_en": "新发现",
       "score": 5,
       "arxiv_id": "2609.18442",
-      "url": "https://arxiv.org/abs/2609.18442"
+      "url": "https://arxiv.org/abs/2609.18442",
+      "weekly_pick": true,
+      "weekly_analysis": "world-models-ad/analysis/2609.18442_RiskWorld.md"
     },
     {
       "title": "FIVE-VLA: Fast and EffectIVE Autonomous Driving with Recurrent Action Memory",
@@ -1315,7 +1321,9 @@
       "status_en": "新发现",
       "score": 5,
       "arxiv_id": "2609.18623",
-      "url": "https://arxiv.org/abs/2609.18623"
+      "url": "https://arxiv.org/abs/2609.18623",
+      "weekly_pick": true,
+      "weekly_analysis": "vla-autonomous-driving/analysis/2609.18623_FIVE-VLA.md"
     },
     {
       "title": "RAF-VLA: Representation Alignment with the Future for End-to-End Autonomous Driving",
@@ -1409,7 +1417,9 @@
       "status_en": "新发现",
       "score": 5,
       "arxiv_id": "2609.16074",
-      "url": "https://arxiv.org/abs/2609.16074"
+      "url": "https://arxiv.org/abs/2609.16074",
+      "weekly_pick": true,
+      "weekly_analysis": "vla-autonomous-driving/analysis/2609.16074_World-Action-Models-Survey.md"
     },
     {
       "title": "Proof-Carrying Cognition: Closing the Verification Gap with Reality-Settled Reward",
@@ -9569,8 +9579,8 @@
       "url": "https://arxiv.org/abs/2509.25822"
     }
   ],
-  "updated_at": "2026-09-19T17:11:52.163260",
-  "last_updated": "2026-09-20",
+  "updated_at": "2026-09-19T19:00:49.538538",
+  "last_updated": "2026-09-19",
   "category_counts": {
     "cs.RO": 263,
     "cs.CV": 214,
@@ -9618,5 +9628,17 @@
     "cs.AI ; cs.CV": 1,
     "cs.CV ; cs.AI ; cs.RO": 1
   },
-  "total_papers": 516
+  "total_papers": 516,
+  "weekly": {
+    "week": "2026-09-13 ~ 2026-09-19",
+    "report": "weekly/2026-09-19-weekly-summary.md",
+    "picks": [
+      "2609.20034",
+      "2609.20756",
+      "2609.18623",
+      "2609.16074",
+      "2609.18442"
+    ],
+    "generated_at": "2026-09-19T19:00:00-07:00"
+  }
 }

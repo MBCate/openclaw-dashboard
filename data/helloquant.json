@@ -1,79 +1,117 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-09-21 07:12 UTC",
+  "updated": "2026-09-22 07:06 UTC",
   "status": "operational",
   "last_run": {
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T00:05:10",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T00:05:31.947321",
     "success": true,
     "note": "采集管线正常运行: 6/6 数据源成功 (OKX加密 + A股收盘 + 期货 + 情绪 + 新闻 + 策略信号)"
   },
   "crypto": {
     "status": "success",
     "btc": {
-      "price": 81648.3,
-      "change_24h": 1.67
+      "price": 85341.3,
+      "change_24h": 4.55
     },
     "eth": {
-      "price": 2664.61,
-      "change_24h": 3.54
+      "price": 2730.09,
+      "change_24h": 2.44
     },
-    "note": "OKX 数据正常; BTC 反弹至 8.16万美元区间"
+    "note": "OKX 数据正常; BTC 85341.3 / ETH 2730.09"
   },
   "stocks": {
     "status": "success",
-    "note": "2026-09-21 A股收盘数据 (新浪源)",
+    "note": "2026-09-22 A股收盘数据",
     "data": {
       "上证指数": {
-        "price": 3949.9068,
-        "change_pct": 0.972
+        "price": 3952.128,
+        "change": 0.056
       },
       "深证成指": {
-        "price": 13730.021,
-        "change_pct": 0.654
+        "price": 13723.735,
+        "change": -0.046
       },
       "创业板指": {
-        "price": 3399.59,
-        "change_pct": 0.798
+        "price": 3399.93,
+        "change": 0.01
+      },
+      "沪金主力": {
+        "price": 942.9,
+        "change": -0.89,
+        "date": "2026-09-21"
+      },
+      "沪银主力": {
+        "price": 16140.0,
+        "change": -1.01,
+        "date": "2026-09-21"
+      },
+      "沪铜主力": {
+        "price": 110180.0,
+        "change": 0.51,
+        "date": "2026-09-21"
+      },
+      "螺纹钢主力": {
+        "price": 3117.0,
+        "change": 0.68,
+        "date": "2026-09-21"
+      },
+      "沪深300期货": {
+        "price": 4464.8,
+        "change": 0.76,
+        "date": "2026-09-21"
+      },
+      "中证500期货": {
+        "price": 7672.6,
+        "change": 0.41,
+        "date": "2026-09-21"
+      },
+      "50ETF波动率": {
+        "date": "2026-09-21"
       }
     },
     "futures": {
       "沪金主力": {
-        "price": 951.38,
-        "change_pct": 1.75
+        "price": 942.9,
+        "change": -0.89,
+        "date": "2026-09-21"
       },
       "沪银主力": {
-        "price": 16304.0,
-        "change_pct": 4.56
+        "price": 16140.0,
+        "change": -1.01,
+        "date": "2026-09-21"
       },
       "沪铜主力": {
-        "price": 109620.0,
-        "change_pct": 1.03
+        "price": 110180.0,
+        "change": 0.51,
+        "date": "2026-09-21"
       },
       "螺纹钢主力": {
-        "price": 3096.0,
-        "change_pct": -0.83
+        "price": 3117.0,
+        "change": 0.68,
+        "date": "2026-09-21"
       },
       "沪深300期货": {
-        "price": 4431.2,
-        "change_pct": 1.3
+        "price": 4464.8,
+        "change": 0.76,
+        "date": "2026-09-21"
       },
       "中证500期货": {
-        "price": 7641.0,
-        "change_pct": 2.32
+        "price": 7672.6,
+        "change": 0.41,
+        "date": "2026-09-21"
       }
     }
   },
-  "volatility": {
-    "value": 14.25,
-    "date": "2026-09-21"
-  },
+  "volatility": {},
   "sentiment": {
     "status": "success",
-    "crypto_fear_greed": {
-      "value": 70,
-      "classification": "Greed",
-      "note": "实时拉取 (2026-09-21)"
+    "data": {
+      "crypto_fear_greed": {
+        "value": 78,
+        "classification": "Extreme Greed",
+        "timestamp": "1790035200"
+      }
     }
   },
   "strategies": {
@@ -89,7 +127,7 @@
       },
       "MACD": {
         "1h": "观望",
-        "4h": "做空"
+        "4h": "观望"
       },
       "Bollinger": {
         "1h": "观望",
@@ -100,11 +138,11 @@
         "4h": "观望"
       },
       "TripleMa": {
-        "1h": "做多",
+        "1h": "观望",
         "4h": "观望"
       },
       "Momentum": {
-        "1h": "观望",
+        "1h": "做空",
         "4h": "观望"
       },
       "MeanReversion": {
@@ -112,8 +150,8 @@
         "4h": "观望"
       }
     },
-    "latest_daily_raw": "2026-09-21 (data/daily_raw.json)",
+    "latest_daily_raw": "2026-09-22 (data/daily_raw.json)",
     "stalled_days": 0
   },
-  "last_check": "2026-09-21 07:12 UTC"
+  "last_check": "2026-09-22T07:06:05Z"
 }

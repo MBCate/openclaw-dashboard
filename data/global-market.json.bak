@@ -1,50 +1,251 @@
 {
-  "updated_at": "2026-09-14T13:30:00Z",
-  "as_of": "Sep 14 2026 06:30 PT / Sep 14 13:30 UTC — 周一美股盘前/欧股盘初. 新主线: AI 巨头(Anthropic Amodei / OpenAI Altman)公开呼吁放缓前沿模型开发 → 芯片股与 Nvidia 盘前下挫、纳斯达克期货领跌; 同时沙特东西向管道关闭持续发酵, 布伦特原油升至 $109 上方, 能源危机加深。本周 FOMC(9/16)加息预期与油价二次通胀传导为两大压制。",
+  "updated_at": "2026-09-21T13:30:00Z",
+  "as_of": "Sep 21 2026 06:30 PT / Sep 21 13:30 UTC — 周一美股盘前/欧洲盘中。市场情绪明显转暖: 美股期货大涨(Dow期货+约400点/+0.78%, S&P、纳指100期货同步走高), 驱动因素为①AI股反弹 ②油价回落(沙特出口恢复) ③美债收益率下行 ④特朗普-习近平峰会预期升温。BTC 突破 $85,000 创1月下旬以来新高('加密寒冬'见顶论升温)。油价周一一度大跌逾2%(盘中11日低点), 因胡塞袭沙特后原油出口仍畅通、供应担忧缓解, 布伦特回落至 ~$101-102。黄金小幅走软至 ~$4,370(收益率高企抑制)。10Y美债收益率自逼近5%回落(债券反弹)。",
   "indices": [
-    { "name": "S&P 500", "symbol": "^GSPC", "close": 7656.98, "change_pct": 0.86, "note": "S&P 500 周五(9/11)收 7,656.98, +0.86% — 终结四连跌。但周一盘前期货 -0.67% (Reuters), 受 AI 放缓担忧与油价上冲拖累。Yahoo 盘前现值 ~7,599。" },
-    { "name": "道琼斯", "symbol": "^DJI", "close": 52573.29, "change_pct": 0.98, "note": "Dow 周五收 52,573.29, +0.98% (+约500点)。周一盘前期货 -0.42%, 油价跳涨与 Fed 周情绪压制。" },
-    { "name": "纳斯达克", "symbol": "^IXIC", "close": 26333.04, "change_pct": 0.96, "note": "Nasdaq 周五收 26,333.04, +0.96%。周一盘前领跌 -1.62% (Reuters) — Anthropic/OpenAI 呼吁放缓 AI 开发, 芯片股与 Nvidia 盘前下挫, 软件股逆势上涨。" },
-    { "name": "恒生指数", "symbol": "^HSI", "close": 24917.6, "change_pct": 0.45, "note": "HSI ~24,917.6 (Yahoo 最新), 较周五 24,805.63 小幅回升约+0.45%。港股随亚太风险偏好波动。" },
-    { "name": "日经225", "symbol": "^N225", "close": 63492.99, "change_pct": -0.81, "note": "Nikkei 225 ~63,493 (Yahoo 最新), 较周五 64,011.34 回落约-0.81%。日本休市临近, 日圆/日债长端仍是跨市场观察点。" },
-    { "name": "上证指数", "symbol": "000001", "close": 3885.33, "change_pct": -0.07, "note": "上证指数 周一(9/14)收 3,885.33, -0.07% (新浪源)。深证成指 13,384.57 (-0.64%), 创业板指 3,285.58 (-1.10%), 沪深300 4,480.08 (-0.67%)。本周累计上证 -1.19%。" },
-    { "name": "英国富时100", "symbol": "^FTSE", "close": 10716.62, "change_pct": 0.48, "note": "FTSE 100 ~10,716.62 (Yahoo 最新), 较周五 10,665 升约+0.48%。欧股周一温和反弹, 能源股受油价提振。" },
-    { "name": "德国DAX", "symbol": "^GDAXI", "close": 25409.09, "change_pct": -0.49, "note": "DAX ~25,409.09 (Yahoo 最新), 较周五 25,533 回落约-0.49%。科技/AI 情绪与油价通胀双向扰动。" }
+    {
+      "name": "S&P 500",
+      "symbol": "^GSPC",
+      "close": 7650.5,
+      "change_pct": 0.17,
+      "note": "S&P 500 上周五(9/18)收 7,650.50 (+0.17%); 周一 S&P 期货随AI股反弹走高, 油价与收益率回落提供支撑。"
+    },
+    {
+      "name": "道琼斯",
+      "symbol": "^DJI",
+      "close": 51682.64,
+      "change_pct": -0.18,
+      "note": "Dow 上周五收 51,682.64 (-0.18%), 周线 -1.7% 录得三周连跌; 周一 Dow 期货跳涨约400点(+0.78%), 有望止跌反弹。"
+    },
+    {
+      "name": "纳斯达克",
+      "symbol": "^IXIC",
+      "close": 26522.55,
+      "change_pct": 0.4,
+      "note": "Nasdaq 上周五收 26,522.55 (+0.40%), 周线 +0.7%; 周一纳指100期货领涨, AI股反弹情绪修复。"
+    },
+    {
+      "name": "罗素2000",
+      "symbol": "^RUT",
+      "close": 2860.4,
+      "change_pct": -0.49,
+      "note": "Russell 2000 上周五收 2,860.40 (-0.49%), 小盘股连续承压。"
+    },
+    {
+      "name": "VIX 恐慌指数",
+      "symbol": "^VIX",
+      "close": 14.81,
+      "change_pct": -4.08,
+      "note": "VIX 上周五收 14.81 (-4.08%) — 虽AI担忧与利率上行, 波动率仍低位, 周一料进一步回落。"
+    },
+    {
+      "name": "恒生指数",
+      "symbol": "^HSI",
+      "close": 24750.78,
+      "change_pct": 0.15,
+      "note": "HSI 9/18 收 24,750.78 (+0.15%) — 港股微涨, 情绪偏稳; 峰会预期与贸易稳定利好亚太风险偏好。"
+    },
+    {
+      "name": "日经225",
+      "symbol": "^N225",
+      "close": 65018.95,
+      "change_pct": 1.38,
+      "note": "Nikkei 225 上周五 +1.38% 至 65,018.95 — BOJ加息后日元反走弱, 出口股带动。"
+    },
+    {
+      "name": "英国富时100",
+      "symbol": "^FTSE",
+      "close": 10659.13,
+      "change_pct": -0.28,
+      "note": "FTSE 100 上周五 -0.28% 至 10,659.13 — BOE维持利率3.75%不变。"
+    },
+    {
+      "name": "德国DAX",
+      "symbol": "^GDAXI",
+      "close": 25304.06,
+      "change_pct": -0.92,
+      "note": "DAX 上周五 -0.92% 至 25,304.06 — 欧股走弱; 周一随油价回落与债券反弹情绪或有修复。"
+    },
+    {
+      "name": "韩国KOSPI",
+      "symbol": "^KS11",
+      "close": 6894.23,
+      "change_pct": 2.66,
+      "note": "KOSPI 上周五 +2.66% 至 6,894.23 — 亚太领涨, 半导体与出口股走强。"
+    },
+    {
+      "name": "澳洲ASX 200",
+      "symbol": "^AXJO",
+      "close": 8731.2,
+      "change_pct": 0.4,
+      "note": "ASX 200 上周五 +0.40% 至 8,731.20 — 亚太普涨。"
+    },
+    {
+      "name": "上证指数",
+      "symbol": "000001",
+      "close": 3949.91,
+      "change_pct": 0.97,
+      "note": "上证指数 9/21 收盘 3,949.91 (+0.97%); 深证成指 13,730.02 (+0.65%), 创业板指 3,399.59 (+0.80%), 沪深300 4,539.57 (+0.71%)。A股周一延续强势, 陶瓷(+5.78%)/化纤(+3.96%)/医疗器械(+3.51%)领涨, 次新股走弱(-1.12%)。"
+    }
   ],
   "crypto": [
-    { "name": "Bitcoin (BTC)", "symbol": "BTC-USDT", "price": 77782, "change_pct": 1.58, "note": "BTC ~$77,782 (+1.58% 24h, CoinGecko) — 脱离周末~$77.2k并小幅上行, 消化油价与 Fed 周风险。7.7-7.75万美元区间震荡。" },
-    { "name": "Ethereum (ETH)", "symbol": "ETH-USDT", "price": 2500.59, "change_pct": 1.38, "note": "ETH ~$2,500.59 (+1.38% 24h) — 站回 $2,500 上方, 与 BTC 同步小幅反弹。" }
+    {
+      "name": "Bitcoin (BTC)",
+      "symbol": "BTC-USDT",
+      "price": 85041,
+      "change_pct": 5.64,
+      "note": "BTC 突破 $85,000 (+5.64% 24h, CoinGecko/CoinMetrics, 盘中高触 $85,229) — 创1月下旬以来新高, 五日累涨逾7%, 近三月涨约35%(仍低于2025年10月历史高点$126,000)。24h内逾$7.5亿加密清算, 多为空头。Bitwise CIO Matt Hougan: '加密寒冬'已结束。"
+    },
+    {
+      "name": "Ethereum (ETH)",
+      "symbol": "ETH-USDT",
+      "price": 2732.51,
+      "change_pct": 5.89,
+      "note": "ETH ~$2,732.51 (+5.89% 24h) — 随大盘强势反弹, 收复 $2,700, 关注 $2,800 关口。"
+    },
+    {
+      "name": "Solana (SOL)",
+      "symbol": "SOL-USDT",
+      "price": 117.59,
+      "change_pct": 8.68,
+      "note": "SOL ~$117.59 (+8.68% 24h) — 领涨主流币, 强势反弹。"
+    }
   ],
   "commodities": {
-    "brent_crude": { "value": 108.97, "change_pct": 4.17, "note": "Brent ~$108.97, 较周五 $104.61 跳涨约+4.2% (Yahoo) — FT 头条'Oil hits $109 after Saudi Arabia closes vital export pipeline'; 沙特或因管道损毁需数周才能重开(Bloomberg), 能源危机加深。" },
-    "wti_crude": { "value": 103.5, "change_pct": 4.4, "note": "WTI ~$103.5 — 突破 $100 关口续涨; JPMorgan 警告投资者勿错过突然反转。" },
-    "gold": { "value": 4312.8, "change_pct": -2.18, "note": "Gold ~$4,312.8 (Yahoo), 较周五 $4,408.9 回落约-2.18% — 在超预期 CPI/加息预期及美债收益率逼近5%下承压, 未受地缘避险支撑。" },
-    "us_10y_yield": { "value": 4.985, "change_pct": 1.32, "note": "US 10Y ~4.985% (Yahoo), 升破前值~4.92% — MarketWatch: '收益率正坐在5%门口, 对股市是警示信号'; 油价跳涨推动收益率上行。" },
-    "dxy": { "value": 99.631, "change_pct": 0.56, "note": "美元指数 DXY ~99.631 (Yahoo), 较周五 99.08 升约+0.56% — Fed 加息预期升温 + 油价冲击推升美元。" }
+    "brent_crude": {
+      "value": 101.71,
+      "change_pct": -2.08,
+      "note": "Brent 周一盘中 ~$101.71/bbl (-2.08%, 盘中低至 ~$101.5, 11日低点) — 胡塞袭沙特利雅得/Yanbu后沙特原油经霍尔木兹海峡出口恢复, 供应担忧缓解, 油价回吐周日涨幅。"
+    },
+    "wti_crude": {
+      "value": 98.15,
+      "change_pct": -2.14,
+      "note": "WTI 周一盘中 ~$98.15/bbl (-2.14%) — 跌破 $100 关口, 供应恢复与美伊外交预期压低油价。"
+    },
+    "gold": {
+      "value": 4368.97,
+      "change_pct": -0.1,
+      "note": "现货黄金 ~$4,368.97/盎司 (-0.1%) — 美债收益率高企(接近5%)提升持金机会成本, 避险需求与央行买盘提供支撑。"
+    },
+    "us_10y_yield": {
+      "value": 4.95,
+      "change_pct": -0.9,
+      "note": "10Y美债收益率自逼近5%回落(债券反弹), 油价下滑与避险买盘支撑国债; FT: 'Slide in oil prices drives rebound in battered government bonds'。"
+    },
+    "us_2y_yield": {
+      "value": 4.74,
+      "change_pct": 0.0,
+      "note": "US 2Y 约 4.74% (此前创52周新高) — 周一短端随长端小幅回落。"
+    },
+    "us_30y_yield": {
+      "value": 5.32,
+      "change_pct": -0.13,
+      "note": "US 30Y 约 5.32% — 长端小幅下行。"
+    },
+    "diesel": {
+      "value": 6.5,
+      "change_pct": 73.8,
+      "note": "美柴油均价创纪录 $6.50/加仑 (Bloomberg: 'US Diesel Tops Record $6.50 as Global Crunch Feeds Inflation') — 全球柴油短缺推动通胀压力, 较去年同期约 $3.74 上涨约74%。"
+    },
+    "eurusd": {
+      "value": 1.1483,
+      "change_pct": 0.08,
+      "note": "EUR/USD ~1.1483 — 美元维持强势, 关注收益率回落对美元的边际压制。"
+    },
+    "jpyusd": {
+      "value": 156.68,
+      "change_pct": 0.46,
+      "note": "USD/JPY ~156.68 — BOJ加息后日元仍偏弱, 套息交易风险持续。"
+    }
   },
   "macro": {
-    "ai_slowdown_call": "CRITICAL 新变量: Anthropic CEO Dario Amodei 与 OpenAI CEO Sam Altman 公开呼吁放缓前沿 AI 模型开发 (Altman: 'We could lose control'); Microsoft 随即为未来模型设定限制。市场解读为对 AI 资本开支/盈利叙事的威胁, 芯片股与 Nvidia 盘前下挫, Nasdaq 期货领跌 -1.62%。中国批评该呼吁, 称中国优势或威胁美国国家安全。(CNBC/FT/Bloomberg)",
-    "oil_crisis": "沙特东西向(East-West)输油管道遭伊拉克方向无人机袭击后关闭持续发酵: 布伦特升至 $109 上方, 沙特或因损毁需数周才能重开(Bloomberg); 沙特退出缓和中东紧张的地区谈判。美能源部长 Wright 称预期管道'很快'恢复。FT: 'The Saudi relief valve is being closed'。",
-    "fed_week": "本周 9/16 FOMC 为关键: Bloomberg 称预期加息——'自2023年以来首次'。CME 定价加息概率~90%, MarketWatch 提及市场计入或达三次加息。10Y 收益率逼近5%。",
-    "iran_hormuz": "中东冲突升级: 伊朗称在霍尔木兹海峡上空击落一架美国先进无人机; 美伊互放狠话并交火, 无缓和迹象 (CNBC)。美国阻止伊朗核负责人出席维也纳会议 (SCMP)。",
-    "geopolitics": "美伊冲突从军事扩展至外交/金融; 芬兰宣布加入法国的前沿核威慑; 特朗普邮件投票限制被第二位法官叫停 (SCMP)。",
-    "crypto_bill": "Clarity Act 加密法案周二迎参议院关键投票(多数党领袖 Thune 安排), 加密业力推通过 (CNBC)。",
-    "tech_earnings": "Novo Nordisk 更名'Novo'迎战 Lilly 减肥药市场; Michael Dell 家族办公室牵头 $77亿将保险经纪 Baldwin Group 私有化; 另一家咖啡连锁申请 Chapter 11。",
-    "a_share": "A股周一收低: 上证 3,885.33 (-0.07%), 深证 -0.64%, 创业板 -1.10%, 沪深300 -0.67%。本周累计上证 -1.19%, 创业板领跌 -2.88%。受隔夜全球风险规避与 AI 情绪拖累。",
-    "watch": "本周观察: 1) AI 巨头'放缓'呼吁对 AI 叙事/芯片股(Nvidia)的持续冲击及 Anthropic IPO 前景; 2) 沙特管道关闭与红海局势对油价($109+)的冲击——供给溢价 vs 需求破坏; 3) 9/16 FOMC — 加息概率~90%、或达三次加息, 10Y 逼近5%; 4) 美元 DXY~99.6 走强与新兴市场货币承压; 5) 金价在加息预期下回落(未受避险支撑)的反常; 6) Clarity Act 周二参议院投票; 7) A股/港股对隔夜美股利空的传导。"
+    "fed_rates": "美联储上周三(9/16)加息25bp, 主席 Kevin Warsh 暗示未来数月可能继续加息; 市场定价后续路径偏鹰。周一美债收益率回落(10Y自逼近5%下行), 债券在油价下跌带动下反弹, 缓解估值压力。",
+    "ai_rout": "AI情绪周一显著修复: AI股反弹带动美股期货上行。政策面: 财长 Bessent 对CNBC表示特朗普政府不会给AI领导者'责任豁免(liability shield)', 称AI需自负风险 — 监管态度受关注。Wedbush/市场关注AI资本开支与估值脆弱性(Bloomberg此前 'AI's Wobbly House of Cards')。",
+    "boj_yen_asia": "BOJ 周五加息25bp至1.25%(30年最快), 但日元反走弱(疑似干预后回落至157下方)。日经 +1.38%, KOSPI +2.66% 领涨亚太。",
+    "boe": "英央行(BOE)上周四维持利率3.75%不变(符合预期), '无惧Fed加息领先'。",
+    "oil_energy": "油价周一大幅回落: 布伦特 ~$101.71 (-2.08%)、WTI ~$98.15 (-2.14%), 沙特经霍尔木兹海峡原油出口恢复, 供应担忧缓解。但美柴油均价创纪录 $6.50/加仑(全球柴油短缺推升通胀)。同时关注: 美伊外交进展、特朗普施压泽连斯基停止打击俄炼油厂(FT)、中国增购加拿大原油/LNG(SCMP)。",
+    "flows": "LSEG Lipper: 美股基金此前连续第四周资金流出(净赎回 $314.4亿)。周一风险偏好回升, 资金流向待观察。",
+    "sectors": "周一AI/科技股领涨反弹; 油价下跌拖累能源股(关注能源板块回调, MarketWatch: 'A sudden end to the Iran war would strike a blow against oil prices and energy stocks. Yet company insiders are buying.')。Novo Nordisk 因2030目标受质疑股价大跌(MarketWatch)。",
+    "geopolitics": "地缘: 胡塞周六袭沙特利雅得与Yanbu石油设施, 但供应未中断、油价反跌。美中: 市场预期升温, 9/24 特朗普-习近平华盛顿峰会临近(SCMP: 'Success of Trump-Xi summit lies in what happens afterwards'; 关注美中贸易/技术管制代价)。乌克兰: 特朗普施压泽连斯基停止打击俄炼油厂。美伊: 外交进展希望升温压低油价。",
+    "consumer": "CNBC: 经济稳健但消费者信心低迷, 高盛归因于'幸福感下降'。运输公司就燃油价格发出警报('Science fiction')。",
+    "media_trump": "Trump to be sued by MS NOW, CNN, Politico to reverse White House ban (CNBC)。Bessent 就AI责任豁免表态。",
+    "watch": "本周关注: 1) 周一美股期货大涨(Dow期货+约400点)能否延续, AI股反弹与道指三周连跌后能否止跌; 2) 9/24 特朗普-习近平华盛顿峰会及会前贸易/技术管制情绪(SCMP); 3) 油价回落后能源股与通胀路径(柴油创纪录$6.50); 4) 10Y美债自5%回落, 收益率与债券反弹的持续性; 5) 加密强势——BTC突破$85K、'加密寒冬'见顶论与空头清算; 6) AI监管(Bessent: 不给责任豁免)与AI资本开支/估值脆弱性; 7) BOJ加息后日元与套息交易; 8) 美伊外交进展对油价与地缘风险溢价的影响。"
   },
   "headlines": [
-    { "source": "FT", "title": "Oil hits $109 after Saudi Arabia closes vital export pipeline", "summary": "沙特因无人机袭击关闭关键出口管道, 并退出地区缓和谈判; 布伦特升至$109上方, 能源危机加深。" },
-    { "source": "Reuters", "title": "AI warnings knock Nasdaq futures, pressure tech stocks", "summary": "Anthropic/OpenAI 呼吁放缓 AI 开发, 纳指期货 -1.62%, 芯片股下挫、软件股逆势上涨; 道指期货 -0.42%, 标普期货 -0.67%。" },
-    { "source": "Bloomberg", "title": "Shutdown of Saudi Pipeline Deepens Energy Crisis", "summary": "沙特或需数周才能重开东西向管道, 该管道是绕过霍尔木兹的关键通道; EM 货币在 Fed 周起始走低。" },
-    { "source": "Bloomberg", "title": "Stocks Fall as AI Slowdown Fears, Oil Jitters Hit Sentiment", "summary": "AI 放缓担忧与油价扰动打压美股期货; 中国批评该呼吁称中国优势威胁美国国家安全。" },
-    { "source": "CNBC", "title": "Iran says it destroyed U.S. advanced drone over Hormuz as Middle East conflict intensifies", "summary": "伊朗称在霍尔木兹击落美先进无人机, 美伊互放狠话, 无缓和迹象。" },
-    { "source": "CNBC", "title": "OpenAI boss Sam Altman spells out how and why the AI industry wants to slow down: 'We could lose control'", "summary": "Altman 详述 AI 安全框架与放缓方案, 业界就前沿开发风险趋于一致。" },
-    { "source": "CNBC", "title": "Microsoft sets limits for future AI models as industry throttles frontier development", "summary": "微软为未来模型设定限制, 与 Anthropic/OpenAI 搭档一道塑造'负责任 AI'形象。" },
-    { "source": "MarketWatch", "title": "AI has been carrying the stock market. An industry pause could pull the rug out, warns this Wall Street giant.", "summary": "花旗警告: 若 AI 模型开发放缓, 盈利预期修正或随之而来, 而后者是今年股市上涨的关键。" },
-    { "source": "MarketWatch", "title": "Fed rate hikes won't bring down gas prices. Why the bond market is pushing for them anyway.", "summary": "10年期收益率坐在5%门口, 对股市是警示信号。" },
-    { "source": "MarketWatch", "title": "Oil over $100 has JPMorgan strategists warning stock-market investors against missing out on a sudden turnaround", "summary": "油价破$100, JPMorgan 警告股市投资者勿错过突然反转。" },
-    { "source": "CNBC", "title": "Clarity Act faces make-or-break Senate vote on Tuesday as crypto industry pushes for bill", "summary": "加密法案 Clarity Act 周二迎关键参议院投票, 是'成败在此一举'的时刻。" },
-    { "source": "Yahoo Finance", "title": "10-year treasury yield rises as oil prices jump", "summary": "油价跳涨推动10年期美债收益率上行, 逼近5%。" }
-  ]
+    {
+      "source": "CNBC",
+      "title": "Bitcoin hits highest level since January at $85,000, as the market debates whether the 'crypto winter' is over",
+      "summary": "BTC突破$85,000创1月下旬以来新高, 24h涨逾5.6%, 逾$7.5亿空头清算; Bitwise CIO称加密寒冬已结束。"
+    },
+    {
+      "source": "CNBC",
+      "title": "Dow futures jump 400 points as oil and yields ease to start week",
+      "summary": "周一美股期货大涨(Dow期货+400点), AI股反弹、油价回落、收益率下行共同提振风险偏好。"
+    },
+    {
+      "source": "CNBC",
+      "title": "Trump admin won't give AI leaders a 'liability shield,' Bessent tells CNBC",
+      "summary": "财长Bessent称特朗普政府不会给AI领导者责任豁免, AI需自负风险 — 监管态度信号。"
+    },
+    {
+      "source": "FT",
+      "title": "Slide in oil prices drives rebound in battered government bonds",
+      "summary": "油价下滑带动受挫的政府债券反弹, 美债收益率自逼近5%回落。"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "US Diesel Tops Record $6.50 as Global Crunch Feeds Inflation",
+      "summary": "美柴油均价创纪录$6.50/加仑(+约74% YoY), 全球柴油短缺推升通胀压力。"
+    },
+    {
+      "source": "FinanceFeeds/Vantage",
+      "title": "Brent, WTI Crude Slip as Saudi Exports Recover, Riyadh Risk Fades",
+      "summary": "布伦特盘中~$101.71 (-2.08%)、WTI~$98.15 (-2.14%), 沙特经霍尔木兹海峡原油出口恢复令油价回吐袭击涨幅。"
+    },
+    {
+      "source": "SCMP",
+      "title": "Success of Trump-Xi summit lies in what happens afterwards",
+      "summary": "分析称特朗普-习近平峰会成败关键在会后落实; 美中贸易/技术管制代价受关注。"
+    },
+    {
+      "source": "FT",
+      "title": "Trump presses Zelenskyy to stop hitting Russian refineries",
+      "summary": "特朗普施压泽连斯基停止打击俄炼油厂 — 或影响能源供应与地缘风险。"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as oil falls, anticipation builds for Trump-Xi summit",
+      "summary": "美股期货随油价下跌与峰会预期走高。"
+    },
+    {
+      "source": "SCMP",
+      "title": "China boosts crude oil, LNG imports from Canada as Ottawa-Washington relations sour",
+      "summary": "中国增加从加拿大进口原油与LNG, 美加关系趋冷背景下的能源多元化。"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Novo Nordisk's stock tumbles as doubts persist about Ozempic maker's goals for 2030",
+      "summary": "诺和诺德因2030目标受质疑股价大跌。"
+    },
+    {
+      "source": "FT",
+      "title": "SoftBank launches one of biggest junk bond deals to fund OpenAI bet",
+      "summary": "软银启动大规模垃圾债发行以支撑对OpenAI的投资 — AI融资热潮延续。"
+    },
+    {
+      "source": "CNBC/The Block",
+      "title": "Bitcoin taps $85,000 for first time since January as crypto short liquidations surge",
+      "summary": "CoinGlass记录24h内至少$7.5亿加密清算, 多数为空头。"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Record diesel prices are exposing pain points in the stock market and economy",
+      "summary": "柴油价创纪录冲击运输与零售成本, 成为市场与经济的痛点。"
+    }
+  ],
+  "week_performance": {
+    "sp500": -0.1,
+    "dow": -1.7,
+    "nasdaq": 0.7,
+    "note": "上周(截至9/18): 标普500 -0.1%, 道指 -1.7%, 纳指 +0.7%。周一风险偏好明显回升, 关注本周能否扭转道指三周连跌。"
+  }
 }

@@ -1,128 +1,131 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-09-22 07:06 UTC",
+  "updated": "2026-09-23 07:08 UTC",
   "status": "operational",
   "last_run": {
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T00:05:31.947321",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T00:05:54.485503",
     "success": true,
     "note": "采集管线正常运行: 6/6 数据源成功 (OKX加密 + A股收盘 + 期货 + 情绪 + 新闻 + 策略信号)"
   },
   "crypto": {
     "status": "success",
     "btc": {
-      "price": 85341.3,
-      "change_24h": 4.55
+      "price": 86373.8,
+      "change_24h": 1.21
     },
     "eth": {
-      "price": 2730.09,
-      "change_24h": 2.44
+      "price": 2749.81,
+      "change_24h": 0.73
     },
-    "note": "OKX 数据正常; BTC 85341.3 / ETH 2730.09"
+    "note": "OKX 数据正常; BTC 86373.8 (+1.21%) / ETH 2749.81 (+0.73%)"
   },
   "stocks": {
     "status": "success",
-    "note": "2026-09-22 A股收盘数据",
+    "note": "2026-09-23 A股收盘数据",
     "data": {
       "上证指数": {
-        "price": 3952.128,
-        "change": 0.056
+        "price": 3936.5199,
+        "change": -0.395
       },
       "深证成指": {
-        "price": 13723.735,
-        "change": -0.046
+        "price": 13636.074,
+        "change": -0.639
       },
       "创业板指": {
-        "price": 3399.93,
-        "change": 0.01
+        "price": 3379.61,
+        "change": -0.598
       },
       "沪金主力": {
-        "price": 942.9,
-        "change": -0.89,
-        "date": "2026-09-21"
+        "price": 935.78,
+        "change": -0.76,
+        "date": "2026-09-22"
       },
       "沪银主力": {
-        "price": 16140.0,
-        "change": -1.01,
-        "date": "2026-09-21"
+        "price": 15949.0,
+        "change": -1.18,
+        "date": "2026-09-22"
       },
       "沪铜主力": {
-        "price": 110180.0,
-        "change": 0.51,
-        "date": "2026-09-21"
+        "price": 111320.0,
+        "change": 1.03,
+        "date": "2026-09-22"
       },
       "螺纹钢主力": {
-        "price": 3117.0,
-        "change": 0.68,
-        "date": "2026-09-21"
+        "price": 3114.0,
+        "change": -0.1,
+        "date": "2026-09-22"
       },
       "沪深300期货": {
-        "price": 4464.8,
-        "change": 0.76,
-        "date": "2026-09-21"
+        "price": 4480.6,
+        "change": 0.35,
+        "date": "2026-09-22"
       },
       "中证500期货": {
-        "price": 7672.6,
-        "change": 0.41,
-        "date": "2026-09-21"
+        "price": 7671.0,
+        "change": -0.02,
+        "date": "2026-09-22"
       },
       "50ETF波动率": {
+        "value": 13.99,
         "date": "2026-09-21"
       }
     },
     "futures": {
       "沪金主力": {
-        "price": 942.9,
-        "change": -0.89,
-        "date": "2026-09-21"
+        "price": 935.78,
+        "change": -0.76,
+        "date": "2026-09-22"
       },
       "沪银主力": {
-        "price": 16140.0,
-        "change": -1.01,
-        "date": "2026-09-21"
+        "price": 15949.0,
+        "change": -1.18,
+        "date": "2026-09-22"
       },
       "沪铜主力": {
-        "price": 110180.0,
-        "change": 0.51,
-        "date": "2026-09-21"
+        "price": 111320.0,
+        "change": 1.03,
+        "date": "2026-09-22"
       },
       "螺纹钢主力": {
-        "price": 3117.0,
-        "change": 0.68,
-        "date": "2026-09-21"
+        "price": 3114.0,
+        "change": -0.1,
+        "date": "2026-09-22"
       },
       "沪深300期货": {
-        "price": 4464.8,
-        "change": 0.76,
-        "date": "2026-09-21"
+        "price": 4480.6,
+        "change": 0.35,
+        "date": "2026-09-22"
       },
       "中证500期货": {
-        "price": 7672.6,
-        "change": 0.41,
-        "date": "2026-09-21"
+        "price": 7671.0,
+        "change": -0.02,
+        "date": "2026-09-22"
       }
     }
   },
-  "volatility": {},
+  "volatility": {
+    "qvix": 13.99
+  },
   "sentiment": {
     "status": "success",
     "data": {
       "crypto_fear_greed": {
-        "value": 78,
-        "classification": "Extreme Greed",
-        "timestamp": "1790035200"
+        "value": 71,
+        "classification": "Greed",
+        "timestamp": "1790121600"
       }
     }
   },
   "strategies": {
-    "note": "8策略信号已生成 (1h/4h 双周期), 当前多数观望",
+    "note": "8策略信号已生成 (1h/4h 双周期); RSI/Bollinger/Momentum/MeanReversion 1h转空, 其余观望",
     "signals": {
       "DoubleMa": {
         "1h": "观望",
         "4h": "观望"
       },
       "RSI": {
-        "1h": "观望",
+        "1h": "做空",
         "4h": "观望"
       },
       "MACD": {
@@ -130,7 +133,7 @@
         "4h": "观望"
       },
       "Bollinger": {
-        "1h": "观望",
+        "1h": "做空",
         "4h": "观望"
       },
       "Supertrend": {
@@ -146,12 +149,12 @@
         "4h": "观望"
       },
       "MeanReversion": {
-        "1h": "观望",
+        "1h": "做空",
         "4h": "观望"
       }
     },
-    "latest_daily_raw": "2026-09-22 (data/daily_raw.json)",
+    "latest_daily_raw": "2026-09-23 (data/daily_raw.json)",
     "stalled_days": 0
   },
-  "last_check": "2026-09-22T07:06:05Z"
+  "last_check": "2026-09-23T07:08:00Z"
 }

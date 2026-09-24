@@ -1,6 +1,317 @@
 {
- "updated": "2026-09-22",
+ "updated": "2026-09-23",
  "papers": [
+  {
+   "title": "ForeDrive: Foresight-Guided End-to-End Autonomous Driving with a Planning-Relevant Latent World Model",
+   "id": "2609.26299v1",
+   "published": "2026-09-22",
+   "authors": "Sinuo Wang, Zichong Gu, Yuhan Huang, Wenxin Wen",
+   "summary": "Existing latent world models are typically optimized for future predictability, yet the resulting representations are not necessarily useful for planning in autonomous driving. Predictions are commonly used for pretraining or auxiliary supervision rather than as direct conditioning signals for trajectory generation. We propose ForeDrive, which learns a planning-relevant latent representation and couples it asymmetrically to a Diffusion Transformer (DiT) planner. The planner consumes multi-horizon latent future representations learned with a JEPA-style world model; planning gradients update the shared online encoder, while stop-gradient routing trains the latent predictor with forecasting losses only. Because predicted futures have varying reliability across horizons and BEV trajectories are misaligned with image tokens, we use gated visual fusion, future-status injection, and Trajectory-",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 5,
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-09-22",
+   "status": "新发现",
+   "status_en": "new",
+   "score": 5,
+   "arxiv_id": "2609.26299",
+   "url": "https://arxiv.org/abs/2609.26299",
+   "summary_zh": "前视引导：用与规划相关的潜在世界模型做前瞻，将预测的未来状态直接对齐到规划目标，提升端到端驾驶的长期决策质量。"
+  },
+  {
+   "title": "DreamStream: Towards Policy-Oriented Generative Simulation for End-to-End Driving",
+   "id": "2609.26792v1",
+   "published": "2026-09-22",
+   "authors": "Ziyang Leng, Sicheng Mo, Seth Z. Zhao, Haoyuan Cai",
+   "summary": "Faithfully evaluating end-to-end driving policies in simulation requires observations that are not merely photo-realistic, but preserve the scene features a policy relies on to make decisions. Existing platforms, however, exhibit a sim-to-real visual gap that corrupts policy perception, undermining their ability to assess a policy's closed-loop decision-making. To this end, we propose DreamStream, a generative, closed-loop simulator that achieves policy-oriented fidelity using a simulator-grounded autoregressive video model. Our video model is distilled from a large pretrained video model via traffic layout guidance, varying visual appearance while preserving policy-relevant features such as scenario layout and the temporal consistency of dynamic objects. We further observe that perceptual metrics like FID misrank how well these features are preserved. To tackle this, we introduce FD$π$,",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 5,
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-09-22",
+   "status": "新发现",
+   "status_en": "new",
+   "score": 5,
+   "arxiv_id": "2609.26792",
+   "url": "https://arxiv.org/abs/2609.26792",
+   "summary_zh": "面向策略的生成式仿真：为端到端驾驶构建可控生成式数据引擎，缓解长尾场景稀缺问题。"
+  },
+  {
+   "title": "Imperfection for Precision: Upcycling Imperfect Data for High-Precision Robotic Manipulation",
+   "id": "2609.26672v1",
+   "published": "2026-09-22",
+   "authors": "Hao Wei, Yang Liu, Chao Tang, Shengbao Li",
+   "summary": "Training vision-language-action (VLA) models for high-precision manipulation typically requires task-specific, high-quality data (e.g., teleoperation), which is slow and expensive to collect. To reduce this burden without compromising manipulation precision, we propose $\\varepsilon$4P (Imperfection for Precision), a simple yet effective method that \"upcycles\" two otherwise discarded data sources: (1) low-precision data from the target task and (2) high-precision data from mismatched tasks. Rather than naively mixing these imperfect data sources throughout co-training, $\\varepsilon$4P controls where each source contributes along the flow-matching trajectory. Specifically, low-precision, target-task data is used at high noise to preserve high-level task context and high-precision, task-mismatched data is used at low noise to transfer low-level action precision. Through real-robot experimen",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 5,
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-09-22",
+   "status": "新发现",
+   "status_en": "new",
+   "score": 5,
+   "arxiv_id": "2609.26672",
+   "url": "https://arxiv.org/abs/2609.26672",
+   "summary_zh": "数据质量提升：通过\"化瑕为瑜\"式数据筛选与增广，把不完美数据转化为高精度机器人/驾驶策略训练集。"
+  },
+  {
+   "title": "MATE: Multi-Agent Virtual Teleoperation Platform for Humanoid Collaboration Data Collection",
+   "id": "2609.26520v1",
+   "published": "2026-09-22",
+   "authors": "Yichuan Yu, Youzhuo Wang, Yiming Ren, Di Feng",
+   "summary": "Humanoid robots require diverse embodied experiences to acquire complex loco-manipulation and collaborative skills. However, existing humanoid data pipelines primarily focus on individual agents, while physical multi-robot collaboration remains difficult to scale due to costly hardware, dedicated spaces, and repeated resets. In this work, we introduce MATE, a Multi-Agent virtual TEleoperation platform for humanoid collaboration data collection that enables multiple geographically distributed operators to simultaneously control whole-body humanoids in a shared physics-based environment. MATE removes the need for multiple physical robots and co-located operation while preserving physically coupled interactions among humanoids, objects, and environments. Using MATE, we construct a multi-humanoid collaboration dataset comprising 24.1 hours of coordinated behavior across 2,500 joint episodes ",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 5,
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-09-22",
+   "status": "新发现",
+   "status_en": "new",
+   "score": 5,
+   "arxiv_id": "2609.26520",
+   "url": "https://arxiv.org/abs/2609.26520",
+   "summary_zh": "多智能体虚拟遥操作平台：面向人形协作的仿真-遥操作闭环，可迁移到驾驶数据采集范式。"
+  },
+  {
+   "title": "RouteRLT: Learning When and Which RL Specialist Should Control a Vision-Language-Action Policy",
+   "id": "2609.26467v1",
+   "published": "2026-09-22",
+   "authors": "Chongyu Zhu, Jaden Hinds, Hyegang Kim, Juan Sebastian Rojas",
+   "summary": "Vision-language-action (VLA) models provide broad manipulation competence, but often struggle during the precision-critical stages that dominate contact-rich industrial tasks such as connector insertion and cable management. A common remedy is to refine a pretrained VLA with reinforcement learning (RL), enabling task-specific improvement beyond behavior cloning. However, how to preserve its generalist behavior while deciding when RL refinement is needed and which specialized policy should act remains an open question. In this work, we present RouteRLT, a routing framework that learns when and which RL specialist, an RL policy trained for a single precision-critical phase, should take control from a generalist VLA. A phase selector identifies the active controller, a stabilizer suppresses transient switches, and an action-boundary manager handles transitions between chunked policy outputs",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 5,
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-09-22",
+   "status": "新发现",
+   "status_en": "new",
+   "score": 5,
+   "arxiv_id": "2609.26467",
+   "url": "https://arxiv.org/abs/2609.26467",
+   "summary_zh": "RouteRLT：让 VLA 模型学习\"何时、用哪个 RL 专家\"来接管控制，实现语言-动作与强化学习专家的动态调度。"
+  },
+  {
+   "title": "FeasibleFlow: One-Step Joint Transport of Configuration Feasibility and Trajectories for End-to-End Driving",
+   "id": "2609.23488v1",
+   "published": "2026-09-20",
+   "authors": "Xiang Li, Bikun Wang, Qing Xu, Jianjun Wang",
+   "summary": "End-to-end autonomous driving maps current observations directly to future trajectories, yet those trajectories must remain valid as the scene evolves. Future state modeling aims to address this temporal mismatch, but general representations often contain information unrelated to ego planning and affect trajectory generation only through auxiliary supervision, static conditioning, or proposal evaluation. We propose FeasibleFlow, a one-step end-to-end generative framework that jointly transports a configuration-space feasibility field and multimodal ego trajectories. Our Asymmetric Joint MeanFlow uses the pathwise Jacobian-vector product in the MeanFlow identity to incorporate field evolution into trajectory transport. Because safety feedback is sparser than progress feedback, we further introduce the Anchor-relative ranker (ARR) and Pareto-ReinFlow to balance safety and progress in candi",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 5,
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-09-20",
+   "status": "已收录",
+   "status_en": "archived",
+   "score": 5,
+   "arxiv_id": "2609.23488",
+   "url": "https://arxiv.org/abs/2609.23488"
+  },
+  {
+   "title": "Planning-Aligned Pretraining of BEV Representations with Sparse Action-Conditioned Targets for End-to-End Autonomous Driving",
+   "id": "2609.22868v1",
+   "published": "2026-09-19",
+   "authors": "Jaeha Song, Soonmin Hwang",
+   "summary": "End-to-end driving requires planning-relevant bird's-eye-view (BEV) representations, but existing pretraining approaches often rely on task annotations or dense scene reconstruction. We introduce PAVER, Planning-Aligned BEV Encoder Pretraining. From a single LiDAR sweep, PAVER constructs sparse risk and unknown targets describing occupied and unobserved evidence along rule-based ego motions. A 10K-parameter head predicts these targets from masked BEV features conditioned on the action state, directing supervision toward geometric constraints on candidate motions. Pretraining requires no driving-task annotations or dense reconstruction. Only the BEV encoder is transferred, preserving the downstream architecture and camera-only inference. On nuScenes, PAVER reduces VAD-Tiny's average collision rate from 0.51% to 0.19%, while improving planning L2, motion prediction, detection, and mapping.",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 5,
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-09-19",
+   "status": "已收录",
+   "status_en": "archived",
+   "score": 5,
+   "arxiv_id": "2609.22868",
+   "url": "https://arxiv.org/abs/2609.22868"
+  },
+  {
+   "title": "Driving on Registers, Reasoning on Risk: Risk-Aware Occupancy for Register-Based End-to-End Autonomous Driving",
+   "id": "2609.21486v1",
+   "published": "2026-09-18",
+   "authors": "Jiaxing Chen, Hengduo Zou, YuKai Qin, Yiren Zhao",
+   "summary": "Multimodal trajectory prediction improves behavioral coverage in end-to-end autonomous driving, but existing methods remain limited by sparse scene representations. Incomplete evidence leads to low-quality candidate generation and unreliable ranking among geometrically similar trajectories. On a register-based baseline, bad and poor candidates constitute 19.74% of the candidate set, while the oracle-best candidate ranks only 33.9th on average. We propose RRDrive, which introduces risk-aware occupancy as a dense, temporally aligned, and trajectory-queryable representation. Its global structure guides high-quality multimodal generation, while candidate-conditioned risk queries support fine-grained selection. We further construct RiskOcc4D-NAVSIM with automatic risk annotations. RRDrive achieves a selected-trajectory PDMS of 0.951, representing a 1.5% relative improvement over the baseline ",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 5,
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-09-18",
+   "status": "已收录",
+   "status_en": "archived",
+   "score": 5,
+   "arxiv_id": "2609.21486",
+   "url": "https://arxiv.org/abs/2609.21486"
+  },
+  {
+   "title": "Risk-Aware Occupancy for Safety-Oriented End-to-End Autonomous Driving",
+   "id": "2609.21470v1",
+   "published": "2026-09-18",
+   "authors": "Jiaxing Chen, Hengduo Zou, Yiren Zhao, Bolin Gao",
+   "summary": "Sparse representation formulates the environment perception for the end-to-end driving system as a set of discrete elements like objects and lane lines. This formulation meets safety risks in crowded, occluded scenes dealing with unstructured obstacles, uncertain regions, and intricate interactions. In this paper, we propose a dense representation, risk-aware occupancy, to characterize planning-relevant risks in an explicit and uniform manner. It jointly encodes global scene occupancy, map-derived traffic constraints, and future dynamic agent occupancy into a unified BEV map. The unified BEV map captures the risk evidence for trajectory planning in both spatial and temporal dimensions. We design an E2E network, ROIDrive, to realize risk-aware occupancy. It predicts risk-aware occupancy with an independent branch and injects it into planning queries for safety-oriented trajectory generati",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 5,
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-09-18",
+   "status": "已收录",
+   "status_en": "archived",
+   "score": 5,
+   "arxiv_id": "2609.21470",
+   "url": "https://arxiv.org/abs/2609.21470"
+  },
+  {
+   "title": "Stabilizing Trajectory Outputs in End-to-End Autonomous Driving via SC-IMM Based Teacher Signals",
+   "id": "2609.21404v1",
+   "published": "2026-09-18",
+   "authors": "Siewoo Kim, Seung-Hyun Kong",
+   "summary": "End-to-End autonomous driving models commonly predict future waypoints from sensor inputs and convert them into vehicle control commands through a downstream controller. However, conventional waypoint-based imitation learning mainly minimizes coordinate-level errors, making it difficult to capture scene-dependent path-speed changes and temporal instability across waypoint outputs. In this paper, we propose an offline teacher-signal generation and learning method for trajectory-output stabilization based on a Scene-Conditioned Interacting Multiple Model (SC-IMM) to mitigate this issue. The proposed method converts expert trajectories into path-speed states and performs IMM updates conditioned on scene cues to generate path-speed teacher labels and mode posterior probabilities. The generated signals are added to the original trajectory loss as auxiliary supervision during training, while t",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 5,
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-09-18",
+   "status": "已收录",
+   "status_en": "archived",
+   "score": 5,
+   "arxiv_id": "2609.21404",
+   "url": "https://arxiv.org/abs/2609.21404"
+  },
+  {
+   "title": "RAF-VLA: Representation Alignment with the Future for End-to-End Autonomous Driving",
+   "id": "2609.17728v1",
+   "published": "2026-09-15",
+   "authors": "Dogun Kim, Yongjae Lee, Joonhee Lim, Yeina Lee",
+   "summary": "Recent Vision-Language-Action (VLA) models for autonomous driving have incorporated world modeling by predicting future driving scenes alongside driving actions, demonstrating strong planning performance. Future driving scenes are utilized as dense supervision, encouraging the policy to learn rich internal representations useful for planning. However, these World-Modeling VLAs rely on explicit future generation to learn such representations, thereby introducing two key limitations: additional training burden and inference latency. To address these limitations, we propose RAF-VLA (Representation Alignment with the Future), a VLA-based autonomous driving framework that shapes planning-relevant internal representations through direct guidance from future-frame representations. RAF-VLA employs Future-Aligned Supervised Fine-Tuning, in which a straightforward regularization aligns the policy'",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 5,
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-09-15",
+   "status": "已收录",
+   "status_en": "archived",
+   "score": 5,
+   "arxiv_id": "2609.17728",
+   "url": "https://arxiv.org/abs/2609.17728"
+  },
+  {
+   "title": "EditWM: Event-Decomposed World Modeling with Incremental Correction for End-to-End Autonomous Driving",
+   "id": "2609.22317v1",
+   "published": "2026-09-15",
+   "authors": "Junjie Yang, Qingwei Zeng, Youyou Li, Zicheng Ding",
+   "summary": "World models support autonomous driving by predicting the scene evolution associated with candidate trajectories. Driving dynamics differ in predictability, motivating a distinction between regular evolution and event-induced deviations that call for selective correction. We propose EditWM, a world model that decomposes future prediction into normal evolution and event-driven incremental correction in compact visual feature space. A trajectory-conditioned normal predictor provides the base forecast and is then frozen for correction learning. A correction decoder compares this forecast with observation history and planned actions, producing a bounded feature update whose contribution is regulated by a learned gate. The corrected future features condition trajectory scoring through candidate-specific cross-attention, linking world modeling to plan selection. At inference, EditWM uses only ",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 5,
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-09-15",
+   "status": "已收录",
+   "status_en": "archived",
+   "score": 5,
+   "arxiv_id": "2609.22317",
+   "url": "https://arxiv.org/abs/2609.22317"
+  },
+  {
+   "title": "READ: Learning Risk-Informed Fields for End-to-End Autonomous Driving",
+   "id": "2609.12371v1",
+   "published": "2026-09-11",
+   "authors": "Zhiyuan Liu, Yuanxin Tian, Zehong Ke, Jinhao Li",
+   "summary": "Autonomous driving requires more than recognizing what is present in a scene: a planner must determine how road structure, surrounding agents, and their motion states should influence a future maneuver. Existing learning-based planners can capture these influences through latent scene features and trajectory decoders, but the relationship between environmental factors and candidate actions often remains implicit. This limits the ability to inspect, diagnose, or refine how scene context affects the safety of a predicted trajectory. Classical safety fields provide an explicit spatial representation of this relationship, but their risk shapes and relative weights are prescribed in advance and do not adapt to each scene. We introduce READ, a framework that learns an explicit, planning-aligned risk representation from complementary geometric and behavioral constraints. READ instantiates this ",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 5,
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-09-11",
+   "status": "已收录",
+   "status_en": "archived",
+   "score": 5,
+   "arxiv_id": "2609.12371",
+   "url": "https://arxiv.org/abs/2609.12371"
+  },
+  {
+   "title": "Long-Horizon Consistent and Interaction-Aware World Models for Multi-Style End-to-End Driving",
+   "id": "2609.03225v2",
+   "published": "2026-09-03",
+   "authors": "Yuxuan Han, Kunyuan Wu, Liyunong Yang, Zilu Wang",
+   "summary": "End-to-end autonomous driving has increasingly adopted world model-based reinforcement learning frameworks to improve learning efficiency through \\textit{imagined rollouts}. However, existing world models suffer from three key limitations: temporal inconsistency in long-horizon imagined rollouts, inadequate modeling of ego-environment interactions, and limited adaptability to diverse driving styles. To address these challenges, we propose \\textit{StyleDrive}, a world-model-based learning framework that jointly enforces long-horizon consistency, explicitly disentangles interactive traffic states, and supports multi-style policy optimization within a unified learning paradigm. First, we introduce a temporal consistency regularization that integrates historical latent states through gated cross-attention, stabilizing long-horizon imagined rollouts and mitigating error accumulation. Second, ",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 5,
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-09-03",
+   "status": "已收录",
+   "status_en": "archived",
+   "score": 5,
+   "arxiv_id": "2609.03225",
+   "url": "https://arxiv.org/abs/2609.03225"
+  },
+  {
+   "title": "SparseNav: Instruction-conditioned Sparse Semantic Perception for Training-Free Vision-Language Navigation",
+   "id": "2609.26408v1",
+   "published": "2026-09-22",
+   "authors": "Quanhua Chen, Juhan Kang, Runfeng Lin, ZiFei Zhang",
+   "summary": "Map-based vision-language navigation (VLN) relies on persistent spatial representations to connect language understanding with geometric planning. However, acquiring semantics beyond the needs of the current instruction can introduce unnecessary perception cost and irrelevant annotations. Continuously accumulating unrelated objects may not only waste computation, but also clutter the visual-spatial representation consumed by the vision-language model (VLM) planner. To address this problem, we present SparseNav, a training-free framework that follows a less-is-more principle for semantic navigation. SparseNav persistently maintains a lightweight geometric bird's-eye-view (BEV) map and sparse landmark memory, acquiring new semantics on demand using the active sub-instruction to decide what is worth grounding. An instruction manager first tracks navigation progress and identifies the active",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 4,
+   "topic": "vla-autonomous-driving",
+   "date": "2026-09-22",
+   "status": "新发现",
+   "status_en": "new",
+   "score": 4,
+   "arxiv_id": "2609.26408",
+   "url": "https://arxiv.org/abs/2609.26408",
+   "summary_zh": "SparseNav：指令条件下的稀疏语义感知，用于训练式导航，降低对稠密标注的依赖。"
+  },
+  {
+   "title": "NavSafe-$\\infty$: Benchmarking Closed-Loop Driving Safety in Photorealistic Environments",
+   "id": "2609.26618v1",
+   "published": "2026-09-22",
+   "authors": "Yuxin Bao, Hongwei Ruan, Luobin Wang, Seth Z. Zhao",
+   "summary": "End-to-end (E2E) driving policies have progressed rapidly on open-loop (OL) benchmarks, yet OL evaluation cannot reveal whether a policy withstands compounding errors, recovers from failures, or interacts safely with surrounding actors. We introduce NavSafe-$\\infty$, a photorealistic closed-loop (CL) benchmark of 280 scenarios spanning 28 event types, each with success and failure criteria defined within a structured traffic-safety taxonomy, which yields category-level capability scores for Traffic Crashes, Vulnerable Road User Crashes, Traffic Violations, and Traffic Incidents. Evaluating 20 E2E policies, we find that OL gains do not reliably transfer to CL safety. Analyzing two common remedies further shows that passive demonstration perturbation helps mainly when CL rollouts stay near its perturbed training states, and that OL reinforcement-learning fine-tuning exhibits reward hacking",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "topic": "vla-autonomous-driving",
+   "date": "2026-09-22",
+   "status": "新发现",
+   "status_en": "new",
+   "score": 3,
+   "arxiv_id": "2609.26618",
+   "url": "https://arxiv.org/abs/2609.26618",
+   "summary_zh": "NavSafe-∞：在照片级真实环境中基准测试端到端驾驶策略的闭环安全性，暴露开环评测无法发现的累积误差与恢复能力问题。"
+  },
   {
    "title": "PRIME: Perception Feedback with Situational Memory Embeddings in VLA Models",
    "id": "2609.22040",
@@ -11206,12 +11517,12 @@
    "url": "https://arxiv.org/abs/2607.17521v1"
   }
  ],
- "updated_at": "2026-09-22",
- "last_updated": "2026-09-22",
+ "updated_at": "2026-09-23T17:16:23.285403",
+ "last_updated": "2026-09-23T17:16:23.285403",
  "category_counts": {
-  "vla-autonomous-driving": 95,
+  "e2e-autonomous-driving": 131,
+  "vla-autonomous-driving": 97,
   "world-models-ad": 77,
-  "e2e-autonomous-driving": 117,
   "BEV Perception": 14,
   "Planning": 29,
   "Diffusion Policy": 23,
@@ -11248,7 +11559,7 @@
   "Video World Models": 1,
   "Vision Language Models": 1,
   "VLA Autonomous Driving": 4,
-  "null": 6,
+  "other": 6,
   "Vision-Language-Action (VLA)": 13,
   "World Action Models / Autonomous Driving": 1,
   "Simulation & Validation": 1,
@@ -11284,7 +11595,7 @@
   "World Models / Imitation Learning": 1,
   "Motion Planning": 1
  },
- "total_papers": 602,
+ "total_papers": 618,
  "weekly": {
   "week": "2026-09-13 ~ 2026-09-19",
   "report": "weekly/2026-09-19-weekly-summary.md",

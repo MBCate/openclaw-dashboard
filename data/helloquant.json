@@ -1,12 +1,12 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-09-23 07:08 UTC",
-  "status": "operational",
+  "updated": "2026-09-24 07:06 UTC",
+  "status": "stale",
   "last_run": {
     "date": "2026-09-23",
     "timestamp": "2026-09-23T00:05:54.485503",
     "success": true,
-    "note": "采集管线正常运行: 6/6 数据源成功 (OKX加密 + A股收盘 + 期货 + 情绪 + 新闻 + 策略信号)"
+    "note": "采集管线最近一次运行 2026-09-23; 截至 2026-09-24 收盘暂无新数据 (data/daily_raw.json 未更新)"
   },
   "crypto": {
     "status": "success",
@@ -118,7 +118,7 @@
     }
   },
   "strategies": {
-    "note": "8策略信号已生成 (1h/4h 双周期); RSI/Bollinger/Momentum/MeanReversion 1h转空, 其余观望",
+    "note": "8策略信号已生成 (1h/4h 双周期); RSI/Bollinger/Momentum/MeanReversion 1h转空, 其余观望 | 数据滞后1日 (最后更新 2026-09-23)",
     "signals": {
       "DoubleMa": {
         "1h": "观望",
@@ -154,7 +154,7 @@
       }
     },
     "latest_daily_raw": "2026-09-23 (data/daily_raw.json)",
-    "stalled_days": 0
+    "stalled_days": 1
   },
-  "last_check": "2026-09-23T07:08:00Z"
+  "last_check": "2026-09-24T07:06:19Z"
 }

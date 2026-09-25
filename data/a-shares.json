@@ -1,7 +1,7 @@
 {
   "date": "2026-09-24",
-  "time": "noon",
-  "fetched_at": "2026-09-25T03:36:00Z",
+  "time": "close",
+  "fetched_at": "2026-09-25T07:06:50Z",
   "indices": {
     "上证指数": {
       "code": "000001",
@@ -45,92 +45,131 @@
       "change": -38.98,
       "change_pct": -2.35
     },
+    "中证1000": {
+      "code": "000852",
+      "price": 7570.14,
+      "change": -175.42,
+      "change_pct": -2.26
+    },
     "恒生指数": {
       "code": "HSI",
-      "price": 24330.66,
-      "change": -430.47,
-      "change_pct": -1.74
+      "price": 24465.7,
+      "change": -295.43,
+      "change_pct": -1.19
     },
     "恒生科技指数": {
       "code": "HSTECH",
-      "price": 4264.67,
-      "change": -96.46,
-      "change_pct": -2.21
+      "price": 4299.57,
+      "change": -61.56,
+      "change_pct": -1.41
     }
   },
   "sectors": {
-    "top": [
+    "gainers": [
       {
-        "name": "煤炭",
-        "change": 0.63
+        "name": "纺织机械",
+        "change_pct": 1.85,
+        "amount_yi": 9.9
       },
       {
-        "name": "纺织服饰",
-        "change": 0.35
+        "name": "家具行业",
+        "change_pct": 1.35,
+        "amount_yi": 41.9
       },
       {
-        "name": "银行",
-        "change": 0.31
+        "name": "纺织行业",
+        "change_pct": 0.38,
+        "amount_yi": 41.5
       },
       {
-        "name": "家用电器",
-        "change": 0.01
+        "name": "公路桥梁",
+        "change_pct": 0.16,
+        "amount_yi": 10.6
       },
       {
-        "name": "公用事业",
-        "change": -0.11
+        "name": "服装鞋类",
+        "change_pct": 0.08,
+        "amount_yi": 73.5
+      },
+      {
+        "name": "环保行业",
+        "change_pct": 0.08,
+        "amount_yi": 28.8
+      },
+      {
+        "name": "煤炭行业",
+        "change_pct": 0.04,
+        "amount_yi": 157.9
+      },
+      {
+        "name": "石油行业",
+        "change_pct": -0.06,
+        "amount_yi": 48.6
       }
     ],
-    "bottom": [
+    "losers": [
       {
         "name": "有色金属",
-        "change": -3.53
+        "change_pct": -2.99,
+        "amount_yi": 464.6
       },
       {
-        "name": "电子",
-        "change": -2.92
+        "name": "电子器件",
+        "change_pct": -2.96,
+        "amount_yi": 1261.9
       },
       {
-        "name": "建筑材料",
-        "change": -2.81
+        "name": "化纤行业",
+        "change_pct": -2.86,
+        "amount_yi": 91.3
       },
       {
-        "name": "通信",
-        "change": -2.74
+        "name": "次新股",
+        "change_pct": -2.39,
+        "amount_yi": 522.7
       },
       {
-        "name": "医药生物",
-        "change": -2.56
+        "name": "玻璃行业",
+        "change_pct": -2.32,
+        "amount_yi": 174.0
+      },
+      {
+        "name": "生物制药",
+        "change_pct": -2.26,
+        "amount_yi": 338.4
+      },
+      {
+        "name": "电子信息",
+        "change_pct": -2.11,
+        "amount_yi": 1079.4
+      },
+      {
+        "name": "农药化肥",
+        "change_pct": -1.9,
+        "amount_yi": 80.0
       }
     ],
-    "count": 31,
-    "source": "tencent_finance"
+    "count": 49
   },
   "northbound": {
     "沪股通": {
-      "交易状态": 4,
-      "成交净买额": 0.0,
-      "资金净流入": 0.0
+      "status": 4,
+      "net_inflow_yi": 0.0
     },
     "深股通": {
-      "交易状态": 4,
-      "成交净买额": 0.0,
-      "资金净流入": 0.0
+      "status": 4,
+      "net_inflow_yi": 0.0
     },
     "港股通(沪)": {
-      "交易状态": 4,
-      "成交净买额": 0.0,
-      "资金净流入": 420.0
+      "status": 4,
+      "net_inflow_yi": 420.0
     },
     "港股通(深)": {
-      "交易状态": 4,
-      "成交净买额": 0.0,
-      "资金净流入": 420.0
+      "status": 4,
+      "net_inflow_yi": 420.0
     },
-    "_trade_date": "2026-09-24",
-    "_source": "em_kamt",
-    "_note": "北向实时净流入自2024-08起不再披露，显示为0"
+    "note": "北向资金实时披露已停止，hk2sh/hk2sz 返回0；南向为港股通额度(亿元)"
   },
-  "sector_count": 31,
-  "note": "A股为2026-09-24收盘数据（最近交易日）；港股为2026-09-25盘中实时"
+  "sector_count": 49,
+  "note": "A股最新交易日为 2026-09-24 收盘(2026-09-25 数据源暂未更新)；恒生指数为 2026-09-25 盘中。板块为新浪行业分类收盘涨跌。"
 }

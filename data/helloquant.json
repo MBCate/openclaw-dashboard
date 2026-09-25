@@ -1,160 +1,172 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-09-24 07:06 UTC",
-  "status": "stale",
+  "updated": "2026-09-25 07:06 UTC",
+  "status": "success",
   "last_run": {
-    "date": "2026-09-23",
-    "timestamp": "2026-09-23T00:05:54.485503",
+    "date": "2026-09-25",
+    "timestamp": "2026-09-25T00:06:16.868983",
     "success": true,
-    "note": "采集管线最近一次运行 2026-09-23; 截至 2026-09-24 收盘暂无新数据 (data/daily_raw.json 未更新)"
+    "note": "采集管线最近一次运行 2026-09-25 (6/6 成功)"
   },
   "crypto": {
     "status": "success",
     "btc": {
-      "price": 86373.8,
-      "change_24h": 1.21
+      "price": 83988.4,
+      "change_24h": -0.06
     },
     "eth": {
-      "price": 2749.81,
-      "change_24h": 0.73
+      "price": 2673.6,
+      "change_24h": -0.38
     },
-    "note": "OKX 数据正常; BTC 86373.8 (+1.21%) / ETH 2749.81 (+0.73%)"
+    "note": "OKX 数据正常; BTC 83988.4 (-0.06%) / ETH 2673.60 (-0.38%)"
+  },
+  "sentiment": {
+    "crypto_fear_greed": {
+      "value": 71,
+      "classification": "Greed"
+    }
   },
   "stocks": {
     "status": "success",
-    "note": "2026-09-23 A股收盘数据",
+    "note": "2026-09-25 A股/期货收盘数据",
     "data": {
       "上证指数": {
-        "price": 3936.5199,
-        "change": -0.395
+        "price": 3888.3738,
+        "change": -1.223,
+        "volume": 438530412.0
       },
       "深证成指": {
-        "price": 13636.074,
-        "change": -0.639
+        "price": 13316.969,
+        "change": -2.34
       },
       "创业板指": {
-        "price": 3379.61,
-        "change": -0.598
+        "price": 3288.948,
+        "change": -2.683
       },
       "沪金主力": {
-        "price": 935.78,
-        "change": -0.76,
-        "date": "2026-09-22"
+        "price": 927.66,
+        "change": -1.26,
+        "date": "2026-09-24"
       },
       "沪银主力": {
-        "price": 15949.0,
-        "change": -1.18,
-        "date": "2026-09-22"
+        "price": 15661.0,
+        "change": -3.12,
+        "date": "2026-09-24"
       },
       "沪铜主力": {
-        "price": 111320.0,
-        "change": 1.03,
-        "date": "2026-09-22"
+        "price": 110130.0,
+        "change": -0.18,
+        "date": "2026-09-24"
       },
       "螺纹钢主力": {
-        "price": 3114.0,
-        "change": -0.1,
-        "date": "2026-09-22"
+        "price": 3118.0,
+        "change": 0.16,
+        "date": "2026-09-24"
       },
       "沪深300期货": {
-        "price": 4480.6,
-        "change": 0.35,
-        "date": "2026-09-22"
+        "price": 4375.0,
+        "change": -1.95,
+        "date": "2026-09-24"
       },
       "中证500期货": {
-        "price": 7671.0,
-        "change": -0.02,
-        "date": "2026-09-22"
+        "price": 7451.6,
+        "change": -2.6,
+        "date": "2026-09-24"
       },
       "50ETF波动率": {
-        "value": 13.99,
-        "date": "2026-09-21"
-      }
-    },
-    "futures": {
-      "沪金主力": {
-        "price": 935.78,
-        "change": -0.76,
-        "date": "2026-09-22"
-      },
-      "沪银主力": {
-        "price": 15949.0,
-        "change": -1.18,
-        "date": "2026-09-22"
-      },
-      "沪铜主力": {
-        "price": 111320.0,
-        "change": 1.03,
-        "date": "2026-09-22"
-      },
-      "螺纹钢主力": {
-        "price": 3114.0,
-        "change": -0.1,
-        "date": "2026-09-22"
-      },
-      "沪深300期货": {
-        "price": 4480.6,
-        "change": 0.35,
-        "date": "2026-09-22"
-      },
-      "中证500期货": {
-        "price": 7671.0,
-        "change": -0.02,
-        "date": "2026-09-22"
+        "value": 14.73,
+        "date": "2026-09-24"
       }
     }
   },
-  "volatility": {
-    "qvix": 13.99
-  },
-  "sentiment": {
-    "status": "success",
-    "data": {
-      "crypto_fear_greed": {
-        "value": 71,
-        "classification": "Greed",
-        "timestamp": "1790121600"
+  "signals": {
+    "DoubleMa": {
+      "1h": {
+        "signal": "观望",
+        "price": 83994.3
+      },
+      "4h": {
+        "signal": "做空",
+        "price": 83994.3
+      }
+    },
+    "RSI": {
+      "1h": {
+        "signal": "观望",
+        "price": 83994.3
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 83994.3
+      }
+    },
+    "MACD": {
+      "1h": {
+        "signal": "做空",
+        "price": 83994.3
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 83994.3
+      }
+    },
+    "Bollinger": {
+      "1h": {
+        "signal": "观望",
+        "price": 83994.3
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 83994.3
+      }
+    },
+    "Supertrend": {
+      "1h": {
+        "signal": "观望",
+        "price": 83994.3
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 83994.3
+      }
+    },
+    "TripleMa": {
+      "1h": {
+        "signal": "做空",
+        "price": 83994.3
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 83994.3
+      }
+    },
+    "Momentum": {
+      "1h": {
+        "signal": "做空",
+        "price": 83994.3
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 83994.3
+      }
+    },
+    "MeanReversion": {
+      "1h": {
+        "signal": "观望",
+        "price": 83994.3
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 83994.3
       }
     }
   },
-  "strategies": {
-    "note": "8策略信号已生成 (1h/4h 双周期); RSI/Bollinger/Momentum/MeanReversion 1h转空, 其余观望 | 数据滞后1日 (最后更新 2026-09-23)",
-    "signals": {
-      "DoubleMa": {
-        "1h": "观望",
-        "4h": "观望"
-      },
-      "RSI": {
-        "1h": "做空",
-        "4h": "观望"
-      },
-      "MACD": {
-        "1h": "观望",
-        "4h": "观望"
-      },
-      "Bollinger": {
-        "1h": "做空",
-        "4h": "观望"
-      },
-      "Supertrend": {
-        "1h": "观望",
-        "4h": "观望"
-      },
-      "TripleMa": {
-        "1h": "观望",
-        "4h": "观望"
-      },
-      "Momentum": {
-        "1h": "做空",
-        "4h": "观望"
-      },
-      "MeanReversion": {
-        "1h": "做空",
-        "4h": "观望"
-      }
-    },
-    "latest_daily_raw": "2026-09-23 (data/daily_raw.json)",
-    "stalled_days": 1
+  "news": {
+    "status": "ok",
+    "note": "CoinDesk/Cointelegraph RSS 采集"
   },
-  "last_check": "2026-09-24T07:06:19Z"
+  "papers": {
+    "status": "ok",
+    "note": "arXiv 采集 10 篇"
+  }
 }

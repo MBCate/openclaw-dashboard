@@ -1,236 +1,243 @@
 {
-  "updated_at": "2026-09-25T01:15:00Z",
-  "as_of": "Sep 24 2026 18:15 PT / Sep 25 01:15 UTC — 周四美股收盘 + 隔夜/亚太盘前。周四美股尾盘收复大部分盘中跌幅, 收盘几近持平: 标普500微跌、纳指微升、道指小跌(道指本周恐录四连阳转四连阴)。30年期美债收益率仍处2004年来最高, 抵押贷款利率升至7.45%。隔夜油价在连涨后小幅回落(Houthi袭击沙特后获利了结, 美伊据报探讨霍尔木兹协议); 黄金企稳~$4,319; 加密回升: BTC~$84.7K、ETH~$2,695。特朗普与习近平白宫会晤后出席国宴(贸易/关系缓和信号)。",
+  "updated_at": "2026-09-25T13:35:00Z",
+  "as_of": "Sep 25 2026 06:35 PT / Sep 25 13:35 UTC — 周五美股盘前/欧股午盘 + 亚太收盘。隔夜美股在债市抛售中企稳, 标普500与纳指尾盘回稳(周五盘前期货微升), 但道指恐录得连续第四周下跌。30年期美债收益率仍处2004年来最高, 10Y~5.17%, 抵押贷款利率升至7.45%, 全球债市遭遇多年未见的波动。周五盘中油价大幅回落: Brent跌逾2%至~$98.3、WTI跌逾3%至~$92.6(伊朗提出7天内重开霍尔木兹海峡并重启核谈 + Houthi再袭沙特)。黄金~$4,325; 加密承压: BTC~$84.0K(-3%)、ETH~$2,693(-3%) — Bitget交易所遭$3.5亿黑客攻击(疑朝鲜)。USTR Greer称美中贸易谈判细节将于下周一公布(习特会后续)。",
   "indices": [
     {
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "close": 7704.13,
-      "change_pct": -0.02,
-      "note": "S&P 500 周四(9/24)收 7,704.13 (持平, -0.02%) — 盘中一度跌0.5%, 尾盘收复; 债市抛售与收益率攀升仍是主要压力。距52周高(7,817)约-1.4%。"
+      "close": 7708.88,
+      "change_pct": 0.03,
+      "note": "S&P 500 最新 7,708.9 (周五盘前/周四收 7,704.13, +0.03%) — 周四尾盘收复盘中跌幅收平, 债市抛售与收益率攀升仍为主要压力。周五盘前期货小幅走高。"
     },
     {
       "name": "道琼斯",
       "symbol": "^DJI",
-      "close": 51349.98,
-      "change_pct": -0.31,
-      "note": "Dow 周四收 51,349.98 (-0.31%) — 蓝筹走软, 道指恐录得连续第四周下跌(CNBC)。"
+      "close": 51394.88,
+      "change_pct": 0.09,
+      "note": "Dow 最新 51,394.9 (周四收 51,349.98, -0.31%) — 蓝筹走软, 道指恐录得连续第四周下跌(CNBC)。"
     },
     {
       "name": "纳斯达克",
       "symbol": "^IXIC",
-      "close": 26939.37,
-      "change_pct": 0.01,
-      "note": "Nasdaq 周四收 26,939.37 (基本持平, +0.01%) — 早盘因Oracle数据中心'force majeure'传闻领跌, 尾盘科技股回稳。"
+      "close": 26970.03,
+      "change_pct": 0.11,
+      "note": "Nasdaq 最新 26,970.0 (周四收 26,939.37, +0.01%) — 早盘因Oracle数据中心'force majeure'传闻领跌, 尾盘科技股回稳。"
     },
     {
       "name": "罗素2000",
       "symbol": "^RUT",
-      "close": 2838.66,
-      "change_pct": -1.774,
-      "note": "Russell 2000 约 2,839 (-1.77%, 跌幅居前) — 小盘股对融资成本敏感, 收益率飙升冲击最大。"
+      "close": 2835.57,
+      "change_pct": -0.11,
+      "note": "Russell 2000 约 2,835.6 (周四 -1.77%) — 小盘股对融资成本敏感, 收益率飙升冲击最大。"
     },
     {
       "name": "VIX 恐慌指数",
       "symbol": "^VIX",
-      "close": 15.91,
-      "change_pct": 4.803,
-      "note": "VIX 约 15.9 (+4.8%) — 波动率续升, 债券抛售与加息担忧压制风险偏好。"
+      "close": 15.14,
+      "change_pct": -3.38,
+      "note": "VIX 约 15.1 (周四 15.67) — 波动率仍处偏高水平, 债市动荡压制风险偏好。"
     },
     {
       "name": "恒生指数",
       "symbol": "^HSI",
-      "close": 24761.13,
-      "change_pct": -0.294,
-      "note": "HSI 周四(9/24)收约 24,761 (-0.29%) — 美债收益率飙升压制亚太风险偏好; 习特会后关注今日(9/25)亚太反应。"
+      "close": 24510.09,
+      "change_pct": -1.01,
+      "note": "HSI 周五(9/25)收 24,510.09 (-1.01%) — 习特会利好未能持续, 美债收益率飙升与油价扰动压制亚太风险偏好。"
     },
     {
       "name": "日经225",
       "symbol": "^N225",
-      "close": 65513.99,
-      "change_pct": 0.761,
-      "note": "Nikkei 225 约 65,514 (+0.76%) — AI追赶行情延续, 但对收益率上升保持敏感。"
+      "close": 66364.2,
+      "change_pct": 1.3,
+      "note": "Nikkei 225 周五收 66,364.20 (+1.30%) — AI追赶行情延续, 创阶段新高; 对收益率上升保持敏感。"
     },
     {
       "name": "英国富时100",
       "symbol": "^FTSE",
-      "close": 10717.32,
-      "change_pct": 0.113,
-      "note": "FTSE 100 约 10,717 (+0.11%) — 微幅收涨, 全球债市抛售下相对企稳。"
+      "close": 10707.02,
+      "change_pct": 0.25,
+      "note": "FTSE 100 约 10,707 (+0.25%) — 欧股午盘微涨, 全球债市抛售下相对企稳。"
     },
     {
       "name": "德国DAX",
       "symbol": "^GDAXI",
-      "close": 25393.45,
-      "change_pct": -0.068,
-      "note": "DAX 约 25,393 (-0.07%) — 欧股基本持平, 全球收益率飙升与油价反弹构成压力。"
+      "close": 25451.72,
+      "change_pct": 0.73,
+      "note": "DAX 约 25,452 (+0.73%) — 欧股午盘反弹; 但法国新预算之争恐再倒一届政府(CNBC)。"
+    },
+    {
+      "name": "法国CAC40",
+      "symbol": "^FCHI",
+      "close": 8093.01,
+      "change_pct": 0.14,
+      "note": "CAC 40 约 8,093 (+0.14%) — 法债动荡(投资者将其比作2010年希腊)构成压力(Bloomberg)。"
     },
     {
       "name": "上证指数",
       "symbol": "000001",
       "close": 3951.96,
-      "change_pct": -0.004,
-      "note": "上证指数上一交易日收 3,951.96 (几乎持平) — 今日(9/25)开盘前, 关注隔夜美股企稳与习特会利好对A股的提振。"
+      "change_pct": 0.0,
+      "note": "上证指数上一交易日收 3,951.96 (约持平) — 今日(9/25)A股/亚太盘中, 关注习特会利好与隔夜美股企稳对情绪的提振。"
     }
   ],
   "crypto": [
     {
       "name": "Bitcoin (BTC)",
       "symbol": "BTC-USDT",
-      "price": 84713,
-      "change_pct": 0.52,
-      "note": "BTC ~$84,713 (24h +0.52%) — 隔夜自$84K下方小幅回升, 削减此前跌幅; 市场聚焦周五$160亿期权到期。"
+      "price": 83960,
+      "change_pct": -0.5,
+      "note": "BTC 约 $83,960 (24h -0.5%) — 加密承压, Bitget交易所遭$3.5亿黑客攻击(疑朝鲜APT)、市场聚焦周五$160亿期权到期。"
     },
     {
       "name": "Ethereum (ETH)",
       "symbol": "ETH-USDT",
-      "price": 2695.51,
-      "change_pct": 0.46,
-      "note": "ETH ~$2,696 (24h +0.46%) — 随BTC小幅反弹。"
+      "price": 2693.3,
+      "change_pct": 0.22,
+      "note": "ETH 约 $2,693 (24h +0.2%) — 随大盘小幅波动。"
     },
     {
       "name": "Solana (SOL)",
       "symbol": "SOL-USDT",
       "price": 117.66,
-      "change_pct": 2.06,
-      "note": "SOL ~$117.7 (24h +2.06%) — 隔夜高beta币种反弹领涨。"
+      "change_pct": -1.5,
+      "note": "SOL 约 $117.7 (24h 走弱) — 高beta币种对黑客事件与期权到期敏感。"
     }
   ],
   "commodities": {
     "brent_crude": {
-      "value": 99.68,
-      "change_pct": 1.59,
-      "note": "Brent 约 $99.68/bbl (+1.59%) — 逼近$100关口后隔夜小幅回落: Houthi袭击沙特推升供应担忧后获利了结; 美伊据报探讨霍尔木兹协议(Investing)。"
+      "value": 98.3,
+      "change_pct": -2.03,
+      "note": "Brent 约 $98.30/bbl (-2.03%) — 大幅回落: 伊朗提出7天内重开霍尔木兹海峡并重启核谈, 叠加获利了结; Houthi再袭沙特提供下方支撑。"
     },
     "wti_crude": {
-      "value": 93.68,
-      "change_pct": 0.04,
-      "note": "WTI 约 $93.68/bbl (隔夜微跌) — 连涨两日后小幅回落, 通胀/加息担忧仍为焦点。"
+      "value": 92.64,
+      "change_pct": -3.28,
+      "note": "WTI 约 $92.64/bbl (-3.28%) — 油价连涨后急挫, 停火/霍尔木兹谈判预期主导; 柴油出口禁令讨论仍存。"
     },
     "gold": {
-      "value": 4319.1,
-      "change_pct": 0.2,
-      "note": "纽约黄金 ~$4,319 (+0.2%) — 隔夜企稳回升; 美元走强与收益率飙升曾压制, 现小幅反弹。"
+      "value": 4325.2,
+      "change_pct": -1.34,
+      "note": "纽约黄金 约 $4,325 (-1.34%) — 油价回落与美元强势下承压; 收益率飙升亦构成压制。"
     },
     "us_10y_yield": {
-      "value": 5.098,
-      "change_pct": -0.313,
-      "note": "10Y美债收益率约 5.10% — 30年期仍处2004年来最高, 债市抛售延续(CNBC/Bloomberg); 抵押贷款利率升至7.45%, 挤压家庭购买力。"
+      "value": 5.17,
+      "change_pct": 0.2,
+      "note": "10Y美债收益率约 5.17% — 30年期仍处2004年来最高, 美债波动率或创逾一年最大升幅(Bloomberg); 抵押贷款利率升至7.45%。"
     },
     "eurusd": {
-      "value": 1.1372,
-      "change_pct": -0.38,
-      "note": "EUR/USD ~1.1372 (-0.38%) — 美元在收益率飙升与加息押注下维持强势。"
+      "value": 1.1401,
+      "change_pct": -0.5,
+      "note": "EUR/USD 约 1.1401 (-0.5%) — 美元在收益率飙升与加息押注下维持强势。"
     },
     "jpyusd": {
-      "value": 158.42,
-      "change_pct": 0.35,
-      "note": "USD/JPY ~158.42 (+0.35%) — 日元续弱, 美债收益率飙升扩大利差。"
+      "value": 157.11,
+      "change_pct": -0.2,
+      "note": "USD/JPY 约 157.11 (-0.2%) — 日元在利差扩大下仍偏弱。"
     }
   },
   "macro": {
-    "us_market": "周四美股尾盘收复盘中大部分跌幅: 标普500收7,704.13(持平)、纳指26,939.37(+0.01%)、道指51,349.98(-0.31%), 小盘罗素2000(-1.77%)仍最弱。盘中曾因30年期美债收益率触2004年来最高、Oracle数据中心'force majeure'传闻而下挫。美股期货隔夜基本持稳, 道指恐录四连周跌(CNBC)。美国30年固定抵押贷款利率周四跳升5个基点至7.45%(CNBC)。",
-    "fed_rates": "利率担忧主导: 30年期美债收益率触2004年来最高、10Y~5.10%, 全球债券收益率逼近多年高位。彭博: 债券跌幅随通胀与加息押注扩大。抵押贷款利率升破7.45%挤压家庭。Kevin Warsh与美联储面临收益率飙升的新难题(CNBC)。瑞士央行按兵不动, 维持0%利率。",
-    "trump_xi_summit": "特朗普与习近平白宫会晤后出席国宴(CNBC) — 关系缓和信号, 有望提振市场风险偏好与中美贸易预期。此前美中贸易休战已延长两个月(至1月10日), 财长Bessent敦促北京落实更多承诺。峰会聚焦AI安全。",
-    "oil_diesel": "油价在连涨两日后隔夜小幅回落: Houthi袭击沙特炼厂推升供应担忧, 但美伊据报探讨霍尔木兹协议(Investing)令涨幅受限。Brent~$99.7逼近$100; 柴油出口禁令讨论持续, 石油业界警告将推高燃油价格。高油价加剧通胀/加息担忧。",
-    "geopolitics": "地缘: 美国参议院以微弱否决结束伊朗战争的决议(CNBC); 美伊据报探讨霍尔木兹协议; 俄罗斯空袭乌克兰致8死、妇产医院受损(SCMP); 英国外相警告伊朗'不容忍恐吓'。",
-    "europe": "欧股: FTSE(+0.11%)、DAX(-0.07%)基本持平, 全球债市抛售蔓延构成压力。法国新预算之争恐再倒一届政府(CNBC); 瑞士维持0%利率。",
-    "asia": "亚太: 日经(+0.76%)AI追赶行情延续, 港股恒指(-0.29%)习特会前高位震荡。隔夜美股企稳+习特会利好, 今日(周五9/25)A股/亚太或受提振; 但美债收益率飙升与油价高位仍是压制因素。",
-    "crypto_policy": "加密回升: BTC~$84.7K、ETH~$2,696、SOL~$117.7。市场聚焦周五$160亿期权到期(Yahoo)。美联储公布稳定币发行方拟议框架(Investing); Coinbase 100名用户遭假客服诈骗损失数百万(Yahoo)。",
-    "ai": "AI交易隔夜回稳: 纳指收平, 早盘Oracle数据中心'force majeure'传闻曾拖累。软银为OpenAI押注进行创纪录债券发行并支付高昂成本(FT)。微光(Micron)财报成AI叙事焦点(MarketWatch)。",
-    "watch": "本周关注: 1) 30Y美债收益率处2004年来最高、抵押贷款利率7.45% — 关键风险; 2) 美联储高利率/加息押注与Warsh新难题; 3) 9/24 特朗普-习近平白宫会晤+国宴(关系缓和利好); 4) 油价逼近$100(Brent)、霍尔木兹协议进展与柴油出口禁令; 5) 美股尾盘企稳、道指恐四连周跌; 6) 加密回升(BTC~$84.7K)与周五$160亿期权到期; 7) 周五关注境外市场对习特会与隔夜行情的反应。"
+    "us_market": "周四美股尾盘收复盘中大部分跌幅: 标普500收7,704.13(持平)、纳指26,939.37(+0.01%)、道指51,349.98(-0.31%), 小盘罗素2000(-1.77%)最弱。周五盘前期货小幅走高, 但道指恐录得连续第四周下跌(CNBC)。盘中美股曾因30年期美债收益率触2004年来最高、以及Oracle数据中心'force majeure'传闻而下挫。美债波动率(MOVE)或创逾一年最大升幅 — 收益率飙升令市场脱离近期平静(Bloomberg)。",
+    "fed_rates": "利率担忧主导: 30年期美债收益率处2004年来最高, 10Y~5.17%。CNBC: 历史上利率如此快速上升时'总有东西会断裂'。美国30年固定抵押贷款利率跳升至7.45%, 挤压家庭购买力。市场对美联储高利率/加息押注升温, 美元走强。摩根士丹利因收益率飙升与预期加息而改口不再看空美元。美联储公布稳定币发行方拟议框架(Investing)。",
+    "trump_xi_summit": "USTR Greer称美中两天谈判就部分贸易事项达成一致, 细节将于下周一公布(CNBC) — 习特会后续, 关系缓和信号。投资者认为白宫会晤削弱了北京升级贸易战的风险; 峰会同样聚焦AI安全议题。市场等待周一贸易细节以确认利好。",
+    "oil_diesel": "油价周五大幅回落: Brent(-2%)~$98.3、WTI(-3.3%)~$92.6。伊朗提出7天内重开霍尔木兹海峡并重启核谈判, 叠加连涨后获利了结; Houthi周五晨再对沙特目标发动导弹与无人机袭击提供支撑。FT: 全球债市抛售因油价回落而缓解, 但分析师警告'只是暂时'。柴油出口禁令讨论持续, 石油业界警告将推高燃油价格。",
+    "geopolitics": "地缘: 伊朗提出7天内重开霍尔木兹海峡并重启核谈; Houthi再袭沙特; 美伊据报探讨霍尔木兹协议。Bitget交易所遭$3.5亿黑客攻击, 手法'高度符合朝鲜黑客特征'(FT)。美国查封与Tether相关支付公司账户, 检方指控其非法转移数亿美元。ArcelorMittal因俄军袭击关闭乌克兰工厂(FT)。",
+    "europe": "欧股午盘: FTSE(+0.25%)、DAX(+0.73%)、CAC40(+0.14%)走高。FT: 全球债券抛售因油价回落而缓解。法国新预算之争恐再倒一届政府(CNBC); 有投资者将法国债券前景比作2010年希腊(Bloomberg)。",
+    "asia": "亚太: 日经周五收(+1.30%)创阶段新高, AI追赶行情延续; 港股恒指(-1.01%)回吐习特会前涨幅; A股/亚太在习特会利好与隔夜美股企稳中寻找方向, 但收益率飙升与油价高位仍是压制因素。印度卢比承压, 央行干预致外储创两年最大降幅。",
+    "crypto_policy": "加密承压: BTC~$84.0K、ETH~$2,693、SOL~$117.7。Bitget遭$3.5亿黑客攻击(疑朝鲜), 市场聚焦周五$160亿期权到期(Yahoo)。美国查封与Tether相关支付公司账户; 美联储公布稳定币发行方拟议框架。",
+    "ai": "AI交易隔夜回稳: 纳指收平, 早盘Oracle数据中心'force majeure'传闻曾拖累。软银为OpenAI押注进行创纪录债券发行、成本高企(FT)。美光(Micron)财报成AI叙事焦点(MarketWatch); Bank of America警告债市焦虑+金融股走软或预示市场冲击。",
+    "watch": "本周关注: 1) 30Y美债收益率处2004年来最高、抵押贷款利率7.45% — 核心风险; 2) 美联储高利率/加息押注与美元走强; 3) 下周一美中贸易谈判细节(USTR Greer) — 习特会后续; 4) 油价急挫(Brent~$98)、伊朗7天重开霍尔木兹提议与核谈进展; 5) 美股尾盘企稳、道指恐四连周跌; 6) 加密承压(BTC~$84K)、Bitget黑客事件与$160亿期权到期; 7) 日本日经续创新高 vs 港股/亚太回吐。"
   },
   "headlines": [
     {
       "source": "CNBC",
-      "title": "Trump, Xi to attend state dinner after White House meeting",
-      "summary": "特朗普与习近平白宫会晤后出席国宴 — 关系缓和信号, 有望提振市场风险偏好与中美贸易预期。"
+      "title": "Iran offers to reopen Strait of Hormuz within 7 days and restart nuclear talks",
+      "summary": "伊朗提出7天内重开霍尔木兹海峡并重启核谈; Houthi周五晨再对沙特发动导弹与无人机袭击 — 油价回落、地缘风险仍在。"
     },
     {
       "source": "CNBC",
-      "title": "30-year fixed mortgage rate jumps sharply Thursday to 7.45%",
-      "summary": "美国30年期固定抵押贷款利率周四跳升至7.45% — 收益率飙升正在挤压家庭购买力。"
+      "title": "Details on U.S.-China trade negotiations coming Monday, USTR Greer says",
+      "summary": "USTR Greer称两天美中谈判就部分贸易事项达成一致, 细节下周一公布 — 习特会后续, 关系缓和信号。"
     },
     {
       "source": "CNBC",
-      "title": "Stock futures are little changed as Dow heads for fourth straight losing week: Live updates",
-      "summary": "美股期货隔夜基本持稳; 道指恐录得连续第四周下跌。"
+      "title": "Stock futures tick higher, but Dow heads for fourth straight losing week",
+      "summary": "美股期货周五盘前走高, 但道指恐录得连续第四周下跌; 债市抛售延续。"
     },
     {
       "source": "CNBC",
-      "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
-      "summary": "收益率飙升给Warsh与美联储带来全新难题 — 利率政策与债市稳定两难。"
+      "title": "30-year fixed mortgage rate jumps sharply to 7.45%",
+      "summary": "美国30年期固定抵押贷款利率升至7.45% — 收益率飙升挤压家庭购买力。"
     },
     {
-      "source": "CNBC",
-      "title": "Senate narrowly votes down resolution calling for end to Iran war",
-      "summary": "参议院以微弱差距否决结束伊朗战争的决议 — 地缘不确定性延续。"
+      "source": "FT",
+      "title": "Global bond sell-off eases as oil prices retreat from recent highs",
+      "summary": "全球债市抛售因油价回落而缓解, 但分析师警告仅是暂时 — 美债波动率或创逾一年最大升幅。"
     },
     {
-      "source": "Investing Commodities",
-      "title": "Oil dips after sharp gains as U.S., Iran reportedly explore Hormuz deal",
-      "summary": "美伊据报探讨霍尔木兹协议, 油价在大涨后回落。"
-    },
-    {
-      "source": "Investing Commodities",
-      "title": "Oil prices settle up about 3% as Houthi attack on Saudi Arabia lifts supply fears",
-      "summary": "Houthi袭击沙特推升供应担忧, 油价结算涨约3%。"
-    },
-    {
-      "source": "Investing Crypto",
-      "title": "Bitcoin cuts losses, remains muted amid rising oil and yields, hawkish Fed signals",
-      "summary": "BTC削减跌幅, 在油价/收益率上升与鹰派美联储信号下仍显低迷。"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Bitcoin traders prepare for $16B options expiry this Friday",
-      "summary": "BTC交易员备战周五$160亿期权到期。"
-    },
-    {
-      "source": "FT Markets",
-      "title": "US long-term borrowing costs touch highest level since 2004",
-      "summary": "美国长期借贷成本触及2004年来最高 — 全球债市抛售核心。"
-    },
-    {
-      "source": "FT Markets",
-      "title": "US mortgage rates breach 7% as affordability pressures mount",
-      "summary": "美国抵押贷款利率升破7% — 购房负担压力上升。"
+      "source": "FT",
+      "title": "Bitget crypto exchange hit by \\$350mn hack",
+      "summary": "Bitget交易所遭$3.5亿黑客攻击, 公司称手法'高度符合朝鲜黑客特征'。"
     },
     {
       "source": "Bloomberg",
-      "title": "Bond Losses Build on Inflation, Rate-Hike Bets: Markets Wrap",
-      "summary": "债券跌幅随通胀与加息押注扩大; 亚洲利差逼近极值。"
+      "title": "Treasury Volatility Set for Biggest Jump in Year as Bonds Churn",
+      "summary": "美债波动率指标或创逾一年最大升幅 — 收益率升至多年高位后市场脱离平静。"
     },
     {
       "source": "MarketWatch",
-      "title": "3 things Micron investors need to watch as the stakes get higher",
-      "summary": "微光(Micron)投资者需关注的3件事 — AI存储叙事焦点。"
+      "title": "The stock market could be due for a nasty selloff, judging by these two signals",
+      "summary": "美银: 债市焦虑飙升叠加金融股走软, 或预示市场严重冲击。"
     },
     {
       "source": "MarketWatch",
-      "title": "Costco's results beat expectations. Here's why investors are still cautious.",
-      "summary": "Costco财报超预期, 但投资者仍持谨慎。"
-    },
-    {
-      "source": "SCMP Business",
-      "title": "UK will not 'tolerate intimidation', foreign secretary tells Iran",
-      "summary": "英国外相警告伊朗'不容忍恐吓' — 中东地缘紧张。"
-    },
-    {
-      "source": "SCMP Business",
-      "title": "8 killed in Russian strikes on Ukraine, maternity clinic damaged",
-      "summary": "俄军空袭乌克兰致8人死亡, 妇产医院受损。"
+      "title": "'We were wrong.' Why Morgan Stanley changed its tune on the U.S. dollar",
+      "summary": "摩根士丹利因收益率上升与预期加息而改口不再看空美元。"
     },
     {
       "source": "CNBC",
-      "title": "Global debt tops $365 trillion as economists sound alarm over 'vicious cycle'",
-      "summary": "全球债务突破$365万亿, 经济学家警告'恶性循环'。"
+      "title": "History shows financial calamities occur when rates rise rapidly like this: 'Something always breaks'",
+      "summary": "历史显示利率如此快速上升时往往发生金融事故 — 10Y收益率升至多年未见水平。"
+    },
+    {
+      "source": "FT",
+      "title": "ArcelorMittal to shutter Ukraine plant after Russian strikes kill workers",
+      "summary": "俄军空袭致乌克兰克里维里赫工厂员工死亡, 钢铁巨头面临$10亿减值。"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Why One Bond Investor Says France Outlook Echoes Greece in 2010",
+      "summary": "投资者将法国债券前景比作2010年希腊 — 法债动荡构成欧洲风险。"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Strive CEO: Bitcoin Could 'Go to Infinity' as Dollar Debt Crisis Breaks",
+      "summary": "尽管加密承压, 有观点认为美元债务危机将推升比特币。"
+    },
+    {
+      "source": "Investing",
+      "title": "Fed publishes proposed framework for stablecoin issuers",
+      "summary": "美联储公布稳定币发行方拟议框架 — 加密监管推进。"
+    },
+    {
+      "source": "CNBC",
+      "title": "Senate narrowly rejects resolution to end Iran war",
+      "summary": "美国参议院以微弱差距否决结束伊朗战争的决议 — 地缘不确定性延续。"
+    },
+    {
+      "source": "SCMP",
+      "title": "Russia strikes kill 8 in Ukraine; maternity hospital damaged",
+      "summary": "俄罗斯空袭乌克兰致8死、妇产医院受损 — 地缘风险持续。"
+    },
+    {
+      "source": "CNBC",
+      "title": "France's new budget fight could topple another government",
+      "summary": "法国新预算之争恐再倒一届政府 — 欧洲政治风险上升。"
     }
   ],
   "week_performance": {
-    "sp500": -0.1,
-    "dow": -1.7,
-    "nasdaq": 0.7,
-    "note": "上周(截至9/18): 标普500 -0.1%, 道指 -1.7%, 纳指 +0.7%。本周由'AI领跑'转为'收益率/加息担忧主导': 周三(9/23)10Y收益率飙升至19年高引发抛售; 周四(9/24)30年期收益率升至2004年来最高、抵押贷款利率7.45%, 美股盘中走低但尾盘收复, 道指恐录四连周跌。隔夜油价高位回落、加密小幅回升; 习特会与国宴构成风险偏好利多。"
+    "sp500": 7708.88,
+    "dow": 51394.88,
+    "nasdaq": 26970.03,
+    "note": "本周(约9/22-9/25)美股承压: 收益率飙升主导。标普500在7,700附近震荡, 纳指相对抗跌, 道指恐录得连续第四周下跌; 小盘罗素2000受融资成本冲击最重。核心驱动为30年期美债收益率触2004年来最高、抵押贷款利率升至7.45%的债市抛售。周五油价急挫带来短暂喘息。加密走弱(BTC~$84K), Bitget黑客事件施压。"
   }
 }

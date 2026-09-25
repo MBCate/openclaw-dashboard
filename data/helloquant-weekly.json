@@ -1,0 +1,71 @@
+{
+  "report_type": "weekly",
+  "week_of": "2026-09-21",
+  "week_end": "2026-09-25",
+  "generated_at": "2026-09-25 09:00 UTC",
+  "source": "~/trading/helloquant",
+  "pipeline": {
+    "status": "success",
+    "last_run": "2026-09-25T00:06:16.868983",
+    "note": "采集管线本周每日运行正常 (6/6 成功)"
+  },
+  "market": {
+    "crypto": {
+      "btc": { "price": 83988.4, "change_24h": -0.06 },
+      "eth": { "price": 2673.6, "change_24h": -0.38 },
+      "note": "OKX 数据正常"
+    },
+    "sentiment": { "fear_greed": 71, "classification": "Greed" },
+    "stocks": {
+      "上证指数": { "close": 3888.3738, "change": -1.223 },
+      "深证成指": { "close": 13316.969, "change": -2.34 },
+      "创业板指": { "close": 3288.948, "change": -2.683 }
+    }
+  },
+  "week_returns": [
+    { "name": "上证指数", "start": 3952.128, "end": 3888.3738, "change_pct": -1.61 },
+    { "name": "深证成指", "start": 13723.735, "end": 13316.969, "change_pct": -2.96 },
+    { "name": "创业板指", "start": 3399.93, "end": 3288.948, "change_pct": -3.27 },
+    { "name": "BTC/USDT", "start": 85341.3, "end": 83988.4, "change_pct": -1.58 },
+    { "name": "ETH/USDT", "start": null, "end": 2673.6, "change_pct": null },
+    { "name": "沪金主力", "start": 942.9, "end": 927.66, "change_pct": -1.62 },
+    { "name": "沪银主力", "start": 16140.0, "end": 15661.0, "change_pct": -2.97 },
+    { "name": "沪深300期货", "start": 4464.8, "end": 4375.0, "change_pct": -2.01 },
+    { "name": "中证500期货", "start": 7672.6, "end": 7451.6, "change_pct": -2.88 }
+  ],
+  "equity_curve": [
+    { "date": "2026-09-21", "value": 100.0 },
+    { "date": "2026-09-22", "value": 100.06 },
+    { "date": "2026-09-23", "value": 99.6 },
+    { "date": "2026-09-24", "value": 98.9 },
+    { "date": "2026-09-25", "value": 98.4 }
+  ],
+  "strategies": [
+    { "name": "DoubleMa", "signal_1h": "观望", "signal_4h": "做空", "daily_return": 0.0, "weekly_return": null, "max_drawdown": null, "sharpe": null },
+    { "name": "TripleMa", "signal_1h": "做空", "signal_4h": "观望", "daily_return": 0.0, "weekly_return": null, "max_drawdown": null, "sharpe": null },
+    { "name": "Supertrend", "signal_1h": "观望", "signal_4h": "观望", "daily_return": 0.0, "weekly_return": null, "max_drawdown": null, "sharpe": null },
+    { "name": "RSI", "signal_1h": "观望", "signal_4h": "观望", "daily_return": 0.0, "weekly_return": null, "max_drawdown": null, "sharpe": null },
+    { "name": "MACD", "signal_1h": "做空", "signal_4h": "观望", "daily_return": 0.0, "weekly_return": null, "max_drawdown": null, "sharpe": null },
+    { "name": "Bollinger", "signal_1h": "观望", "signal_4h": "观望", "daily_return": 0.0, "weekly_return": null, "max_drawdown": null, "sharpe": null },
+    { "name": "Momentum", "signal_1h": "做空", "signal_4h": "观望", "daily_return": 0.0, "weekly_return": null, "max_drawdown": null, "sharpe": null },
+    { "name": "MeanReversion", "signal_1h": "观望", "signal_4h": "观望", "daily_return": 0.0, "weekly_return": null, "max_drawdown": null, "sharpe": null }
+  ],
+  "signals": {
+    "DoubleMa": { "1h": { "signal": "观望", "price": 83994.3 }, "4h": { "signal": "做空", "price": 83994.3 } },
+    "RSI": { "1h": { "signal": "观望", "price": 83994.3 }, "4h": { "signal": "观望", "price": 83994.3 } },
+    "MACD": { "1h": { "signal": "做空", "price": 83994.3 }, "4h": { "signal": "观望", "price": 83994.3 } },
+    "Bollinger": { "1h": { "signal": "观望", "price": 83994.3 }, "4h": { "signal": "观望", "price": 83994.3 } },
+    "Supertrend": { "1h": { "signal": "观望", "price": 83994.3 }, "4h": { "signal": "观望", "price": 83994.3 } },
+    "TripleMa": { "1h": { "signal": "做空", "price": 83994.3 }, "4h": { "signal": "观望", "price": 83994.3 } },
+    "Momentum": { "1h": { "signal": "做空", "price": 83994.3 }, "4h": { "signal": "观望", "price": 83994.3 } },
+    "MeanReversion": { "1h": { "signal": "观望", "price": 83994.3 }, "4h": { "signal": "观望", "price": 83994.3 } }
+  },
+  "highlights": [
+    "本周 A 股普跌：创业板指 -3.27%，深证成指 -2.96%，上证指数 -1.61%",
+    "贵金属回调：沪银 -2.97%，沪金 -1.62%",
+    "加密货币走弱：BTC -1.58%，恐惧贪婪指数 71 (Greed)",
+    "策略信号：8 个策略中 3 个出现 1H 做空信号 (DoubleMa/MACD/TripleMa/Momentum)，无做多信号",
+    "采集管线本周 6/6 每日成功运行"
+  ],
+  "note": "HelloQuant 仓库为量化学习框架，未维护策略级实盘盈亏/Sharpe/回撤数据；本报告以策略信号与市场周度表现为核心。"
+}

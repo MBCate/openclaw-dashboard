@@ -1,47 +1,47 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-09-25 07:06 UTC",
+  "updated": "2026-09-28 07:10 UTC",
   "status": "success",
   "last_run": {
-    "date": "2026-09-25",
-    "timestamp": "2026-09-25T00:06:16.868983",
+    "date": "2026-09-28",
+    "timestamp": "2026-09-28T00:08:30.576338",
     "success": true,
-    "note": "采集管线最近一次运行 2026-09-25 (6/6 成功)"
+    "note": "采集管线最近一次运行 2026-09-28 (6/6 成功)"
   },
   "crypto": {
     "status": "success",
     "btc": {
-      "price": 83988.4,
-      "change_24h": -0.06
+      "price": 83115.9,
+      "change_24h": -1.68
     },
     "eth": {
-      "price": 2673.6,
-      "change_24h": -0.38
+      "price": 2649.47,
+      "change_24h": -2.13
     },
-    "note": "OKX 数据正常; BTC 83988.4 (-0.06%) / ETH 2673.60 (-0.38%)"
+    "note": "OKX 数据正常; BTC 83115.9 (-1.68%) / ETH 2649.47 (-2.13%)"
   },
   "sentiment": {
     "crypto_fear_greed": {
-      "value": 71,
+      "value": 74,
       "classification": "Greed"
     }
   },
   "stocks": {
     "status": "success",
-    "note": "2026-09-25 A股/期货收盘数据",
+    "note": "2026-09-28 A股/期货收盘数据",
     "data": {
       "上证指数": {
-        "price": 3888.3738,
-        "change": -1.223,
-        "volume": 438530412.0
+        "price": 3823.6206,
+        "change": -1.67,
+        "volume": 452350675.0
       },
       "深证成指": {
-        "price": 13316.969,
-        "change": -2.34
+        "price": 12858.75,
+        "change": -3.44
       },
       "创业板指": {
-        "price": 3288.948,
-        "change": -2.683
+        "price": 3139.82,
+        "change": -4.53
       },
       "沪金主力": {
         "price": 927.66,
@@ -83,97 +83,150 @@
     "DoubleMa": {
       "1h": {
         "signal": "观望",
-        "price": 83994.3
+        "price": 83130.4
       },
       "4h": {
-        "signal": "做空",
-        "price": 83994.3
+        "signal": "做多",
+        "price": 83130.4
       }
     },
     "RSI": {
       "1h": {
-        "signal": "观望",
-        "price": 83994.3
+        "signal": "做多",
+        "price": 83130.4
       },
       "4h": {
         "signal": "观望",
-        "price": 83994.3
+        "price": 83130.4
       }
     },
     "MACD": {
       "1h": {
-        "signal": "做空",
-        "price": 83994.3
+        "signal": "观望",
+        "price": 83130.4
       },
       "4h": {
-        "signal": "观望",
-        "price": 83994.3
+        "signal": "做空",
+        "price": 83130.4
       }
     },
     "Bollinger": {
       "1h": {
         "signal": "观望",
-        "price": 83994.3
+        "price": 83130.4
       },
       "4h": {
-        "signal": "观望",
-        "price": 83994.3
+        "signal": "做多",
+        "price": 83130.4
       }
     },
     "Supertrend": {
       "1h": {
         "signal": "观望",
-        "price": 83994.3
+        "price": 83130.4
       },
       "4h": {
         "signal": "观望",
-        "price": 83994.3
+        "price": 83130.4
       }
     },
     "TripleMa": {
       "1h": {
         "signal": "做空",
-        "price": 83994.3
+        "price": 83130.4
       },
       "4h": {
         "signal": "观望",
-        "price": 83994.3
+        "price": 83130.4
       }
     },
     "Momentum": {
       "1h": {
-        "signal": "做空",
-        "price": 83994.3
+        "signal": "观望",
+        "price": 83130.4
       },
       "4h": {
-        "signal": "观望",
-        "price": 83994.3
+        "signal": "做空",
+        "price": 83130.4
       }
     },
     "MeanReversion": {
       "1h": {
         "signal": "观望",
-        "price": 83994.3
+        "price": 83130.4
       },
       "4h": {
-        "signal": "观望",
-        "price": 83994.3
+        "signal": "做多",
+        "price": 83130.4
       }
     }
   },
   "news": {
-    "status": "ok",
-    "note": "CoinDesk/Cointelegraph RSS 采集"
+    "status": "success",
+    "note": "CoinDesk/Cointelegraph RSS 采集 5 条",
+    "items": [
+      {
+        "source": "Cointelegraph",
+        "title": "South Korea weighs crypto market makers after JPYC trades at 4 times peg",
+        "link": "https://cointelegraph.com/news/south-korea-weighs-crypto-market-makers-after-jpyc-trades-at-4-times-peg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Here’s what happened in crypto today",
+        "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Vitalik Buterin says Hegotá could be Ethereum’s last ‘normal’ fork",
+        "link": "https://cointelegraph.com/news/vitalik-hegota-ethereum-last-normal-fork?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Newsom signs California ban on public officials issuing memecoins",
+        "link": "https://cointelegraph.com/news/newsom-signs-california-ban-on-public-officials-issuing-memecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Zano rolls blockchain back a month after Gateway Address exploit",
+        "link": "https://cointelegraph.com/news/zano-rolls-blockchain-back-a-month-after-gateway-address-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      }
+    ]
   },
   "papers": {
-    "status": "ok",
-    "note": "arXiv 采集 10 篇"
+    "status": "success",
+    "note": "arXiv 采集 10 篇",
+    "items": [
+      {
+        "title": "Algorithmic trading and stochastic integration"
+      },
+      {
+        "title": "How Much Must a Private Mempool Hide? Exact Leakage Thresholds for Sandwich Attacks"
+      },
+      {
+        "title": "On the asymptotic shape of quantile surfaces"
+      },
+      {
+        "title": "Taming the Option Factor Zoo: A High-Dimensional Analysis"
+      },
+      {
+        "title": "Agentic Limit Order Books: Phase Transitions and Market Impact"
+      },
+      {
+        "title": "Same Text, Different Numbers: The Divergence of LLM-Based Measures"
+      },
+      {
+        "title": "Financial Fragility in Societies of LLM Agents: Coordination Failures and Stabilizing Mechanisms"
+      },
+      {
+        "title": "PixSim: a calibrated open-source simulator of instant-payment fraud, recovery and interdiction under analyst capacity constraints"
+      }
+    ]
   },
   "strategies": [
     {
       "name": "DoubleMa",
       "signal_1h": "观望",
-      "signal_4h": "做空",
+      "signal_4h": "做多",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -181,7 +234,7 @@
     },
     {
       "name": "RSI",
-      "signal_1h": "观望",
+      "signal_1h": "做多",
       "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
@@ -190,8 +243,8 @@
     },
     {
       "name": "MACD",
-      "signal_1h": "做空",
-      "signal_4h": "观望",
+      "signal_1h": "观望",
+      "signal_4h": "做空",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -200,7 +253,7 @@
     {
       "name": "Bollinger",
       "signal_1h": "观望",
-      "signal_4h": "观望",
+      "signal_4h": "做多",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -226,8 +279,8 @@
     },
     {
       "name": "Momentum",
-      "signal_1h": "做空",
-      "signal_4h": "观望",
+      "signal_1h": "观望",
+      "signal_4h": "做空",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -236,12 +289,12 @@
     {
       "name": "MeanReversion",
       "signal_1h": "观望",
-      "signal_4h": "观望",
+      "signal_4h": "做多",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
       "sharpe": null
     }
   ],
-  "updated_at": "2026-09-25 07:06 UTC"
+  "updated_at": "2026-09-28 07:10 UTC"
 }

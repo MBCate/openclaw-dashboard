@@ -1,155 +1,130 @@
 {
-  "date": "2026-09-24",
-  "time": "close",
-  "fetched_at": "2026-09-25T07:06:50Z",
+  "date": "2026-09-28",
+  "time": "noon",
+  "fetched_at": "2026-09-28T03:36:52Z",
   "indices": {
     "上证指数": {
       "code": "000001",
-      "price": 3888.37,
-      "change": -48.15,
-      "change_pct": -1.22
+      "price": 3820.82,
+      "change": -67.55,
+      "change_pct": -1.74
     },
     "深证成指": {
       "code": "399001",
-      "price": 13316.97,
-      "change": -319.1,
-      "change_pct": -2.34
+      "price": 12868.28,
+      "change": -448.69,
+      "change_pct": -3.37
     },
     "创业板指": {
       "code": "399006",
-      "price": 3288.95,
-      "change": -90.66,
-      "change_pct": -2.68
+      "price": 3146.9,
+      "change": -142.05,
+      "change_pct": -4.32
     },
     "沪深300": {
       "code": "000300",
-      "price": 4439.14,
-      "change": -78.14,
-      "change_pct": -1.73
+      "price": 4343.63,
+      "change": -95.51,
+      "change_pct": -2.15
     },
     "上证50": {
       "code": "000016",
-      "price": 2842.74,
-      "change": -41.03,
-      "change_pct": -1.42
+      "price": 2804.45,
+      "change": -38.29,
+      "change_pct": -1.35
     },
     "中证500": {
       "code": "000905",
-      "price": 7624.07,
-      "change": -167.75,
-      "change_pct": -2.15
+      "price": 7388.57,
+      "change": -235.5,
+      "change_pct": -3.09
     },
     "科创50": {
       "code": "000688",
-      "price": 1621.87,
-      "change": -38.98,
-      "change_pct": -2.35
+      "price": 1557.07,
+      "change": -64.8,
+      "change_pct": -4.0
     },
     "中证1000": {
       "code": "000852",
-      "price": 7570.14,
-      "change": -175.42,
-      "change_pct": -2.26
+      "price": 7283.16,
+      "change": -286.98,
+      "change_pct": -3.79
     },
     "恒生指数": {
       "code": "HSI",
-      "price": 24465.7,
-      "change": -295.43,
-      "change_pct": -1.19
+      "price": 24680.08,
+      "change": 169.99,
+      "change_pct": 0.69
     },
     "恒生科技指数": {
       "code": "HSTECH",
-      "price": 4299.57,
-      "change": -61.56,
-      "change_pct": -1.41
+      "price": 4289.43,
+      "change": -22.35,
+      "change_pct": -0.52
     }
   },
   "sectors": {
     "gainers": [
       {
-        "name": "纺织机械",
-        "change_pct": 1.85,
-        "amount_yi": 9.9
+        "name": "石油石化",
+        "change_pct": 0.47,
+        "amount_yi": 75.7
       },
       {
-        "name": "家具行业",
-        "change_pct": 1.35,
-        "amount_yi": 41.9
+        "name": "银行",
+        "change_pct": 0.09,
+        "amount_yi": 163.4
       },
       {
-        "name": "纺织行业",
-        "change_pct": 0.38,
-        "amount_yi": 41.5
-      },
-      {
-        "name": "公路桥梁",
-        "change_pct": 0.16,
-        "amount_yi": 10.6
-      },
-      {
-        "name": "服装鞋类",
-        "change_pct": 0.08,
-        "amount_yi": 73.5
-      },
-      {
-        "name": "环保行业",
-        "change_pct": 0.08,
-        "amount_yi": 28.8
-      },
-      {
-        "name": "煤炭行业",
-        "change_pct": 0.04,
-        "amount_yi": 157.9
-      },
-      {
-        "name": "石油行业",
-        "change_pct": -0.06,
-        "amount_yi": 48.6
+        "name": "公用事业",
+        "change_pct": 0.06,
+        "amount_yi": 197.9
       }
     ],
     "losers": [
       {
+        "name": "通信",
+        "change_pct": -7.14,
+        "amount_yi": 1024.3
+      },
+      {
+        "name": "电子",
+        "change_pct": -4.84,
+        "amount_yi": 3238.9
+      },
+      {
+        "name": "建筑材料",
+        "change_pct": -4.28,
+        "amount_yi": 197.4
+      },
+      {
         "name": "有色金属",
-        "change_pct": -2.99,
-        "amount_yi": 464.6
+        "change_pct": -3.95,
+        "amount_yi": 505.4
       },
       {
-        "name": "电子器件",
-        "change_pct": -2.96,
-        "amount_yi": 1261.9
+        "name": "机械设备",
+        "change_pct": -3.88,
+        "amount_yi": 982.0
       },
       {
-        "name": "化纤行业",
-        "change_pct": -2.86,
-        "amount_yi": 91.3
+        "name": "基础化工",
+        "change_pct": -3.0,
+        "amount_yi": 598.3
       },
       {
-        "name": "次新股",
-        "change_pct": -2.39,
-        "amount_yi": 522.7
+        "name": "综合",
+        "change_pct": -2.85,
+        "amount_yi": 20.8
       },
       {
-        "name": "玻璃行业",
-        "change_pct": -2.32,
-        "amount_yi": 174.0
-      },
-      {
-        "name": "生物制药",
-        "change_pct": -2.26,
-        "amount_yi": 338.4
-      },
-      {
-        "name": "电子信息",
-        "change_pct": -2.11,
-        "amount_yi": 1079.4
-      },
-      {
-        "name": "农药化肥",
-        "change_pct": -1.9,
-        "amount_yi": 80.0
+        "name": "社会服务",
+        "change_pct": -2.8,
+        "amount_yi": 75.7
       }
     ],
-    "count": 49
+    "count": 31
   },
   "northbound": {
     "沪股通": {
@@ -160,16 +135,8 @@
       "status": 4,
       "net_inflow_yi": 0.0
     },
-    "港股通(沪)": {
-      "status": 4,
-      "net_inflow_yi": 420.0
-    },
-    "港股通(深)": {
-      "status": 4,
-      "net_inflow_yi": 420.0
-    },
-    "note": "北向资金实时披露已停止，hk2sh/hk2sz 返回0；南向为港股通额度(亿元)"
+    "note": "北向资金实时披露已停止；数据源: 腾讯财经(东财/AkShare 本次不可达)"
   },
-  "sector_count": 49,
-  "note": "A股最新交易日为 2026-09-24 收盘(2026-09-25 数据源暂未更新)；恒生指数为 2026-09-25 盘中。板块为新浪行业分类收盘涨跌。"
+  "sector_count": 31,
+  "note": "数据源: 腾讯财经 qt.gtimg.cn / proxy.finance.qq.com (AkShare 东方财富接口本次不可达)。板块为腾讯行业分类午盘涨跌。"
 }

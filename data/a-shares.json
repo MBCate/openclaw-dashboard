@@ -1,164 +1,142 @@
 {
-  "date": "2026-09-28",
-  "time": "close",
-  "fetched_at": "2026-09-28T07:08:14Z",
+  "date": "2026-09-29",
+  "time": "noon",
+  "fetched_at": "2026-09-29T03:36:07Z",
   "indices": {
     "上证指数": {
       "code": "000001",
-      "price": 3823.62,
-      "change": -64.75,
-      "change_pct": -1.67
+      "price": 3826.51,
+      "change": 2.89,
+      "change_pct": 0.08
     },
     "深证成指": {
       "code": "399001",
-      "price": 12858.75,
-      "change": -458.22,
-      "change_pct": -3.44
+      "price": 12911.78,
+      "change": 53.03,
+      "change_pct": 0.41
     },
     "创业板指": {
       "code": "399006",
-      "price": 3139.82,
-      "change": -149.13,
-      "change_pct": -4.53
+      "price": 3150.37,
+      "change": 10.55,
+      "change_pct": 0.34
     },
     "沪深300": {
       "code": "000300",
-      "price": 4340.76,
-      "change": -98.38,
-      "change_pct": -2.22
+      "price": 4342.07,
+      "change": 1.31,
+      "change_pct": 0.03
     },
     "上证50": {
       "code": "000016",
-      "price": 2806.94,
-      "change": -35.8,
-      "change_pct": -1.26
+      "price": 2802.52,
+      "change": -4.42,
+      "change_pct": -0.16
     },
     "中证500": {
       "code": "000905",
-      "price": 7402.3,
-      "change": -221.77,
-      "change_pct": -2.91
+      "price": 7431.74,
+      "change": 29.44,
+      "change_pct": 0.4
     },
     "科创50": {
       "code": "000688",
-      "price": 1555.98,
-      "change": -65.89,
-      "change_pct": -4.06
+      "price": 1564.98,
+      "change": 9.0,
+      "change_pct": 0.58
     },
     "中证1000": {
       "code": "000852",
-      "price": 7294.17,
-      "change": -275.97,
-      "change_pct": -3.65
-    },
-    "上证180": {
-      "code": "000010",
-      "price": 9378.72,
-      "change": -137.32,
-      "change_pct": -1.44
-    },
-    "中小100": {
-      "code": "399005",
-      "price": 7923.72,
-      "change": -256.63,
-      "change_pct": -3.14
-    },
-    "恒生指数": {
-      "code": "HSI",
-      "price": 24688.14,
-      "change": 178.05,
-      "change_pct": 0.73
-    },
-    "恒生科技指数": {
-      "code": "HSTECH",
-      "price": 4303.39,
-      "change": -8.39,
-      "change_pct": -0.19
+      "price": 7330.53,
+      "change": 36.36,
+      "change_pct": 0.5
     }
   },
   "sectors": {
-    "gainers": [
+    "top5": [
       {
-        "name": "酿酒行业",
-        "change_pct": 0.15
+        "name": "元件",
+        "change_pct": 4.49,
+        "turnover": 548.68
       },
       {
-        "name": "供水供气",
-        "change_pct": 0.01
+        "name": "电池",
+        "change_pct": 4.2,
+        "turnover": 332.36
       },
       {
-        "name": "生物制药",
-        "change_pct": -0.06
+        "name": "房地产",
+        "change_pct": 3.56,
+        "turnover": 194.15
       },
       {
-        "name": "摩托车",
-        "change_pct": -0.3
+        "name": "文化传媒",
+        "change_pct": 3.32,
+        "turnover": 175.01
       },
       {
-        "name": "飞机制造",
-        "change_pct": -0.5
-      },
-      {
-        "name": "石油行业",
-        "change_pct": -0.55
-      },
-      {
-        "name": "公路桥梁",
-        "change_pct": -0.62
-      },
-      {
-        "name": "船舶制造",
-        "change_pct": -0.87
+        "name": "影视院线",
+        "change_pct": 2.8,
+        "turnover": 49.65
       }
     ],
-    "losers": [
+    "bottom5": [
       {
-        "name": "次新股",
-        "change_pct": -5.25
+        "name": "煤炭开采加工",
+        "change_pct": -0.81,
+        "turnover": 75.5
       },
       {
-        "name": "玻璃行业",
-        "change_pct": -5.18
+        "name": "油气开采及服务",
+        "change_pct": -0.51,
+        "turnover": 19.46
       },
       {
-        "name": "家具行业",
-        "change_pct": -4.83
+        "name": "种植业与林业",
+        "change_pct": -0.38,
+        "turnover": 54.16
       },
       {
-        "name": "仪器仪表",
-        "change_pct": -4.56
+        "name": "港口航运",
+        "change_pct": -0.37,
+        "turnover": 51.01
       },
       {
-        "name": "电子信息",
-        "change_pct": -4.37
-      },
-      {
-        "name": "机械行业",
-        "change_pct": -4.25
-      },
-      {
-        "name": "有色金属",
-        "change_pct": -4.2
-      },
-      {
-        "name": "电子器件",
-        "change_pct": -4.14
+        "name": "石油加工贸易",
+        "change_pct": -0.34,
+        "turnover": 34.88
       }
-    ],
-    "count": 49
+    ]
   },
   "northbound": {
-    "沪股通": {
-      "status": 4,
-      "net_inflow_yi": 0.0
-    },
-    "深股通": {
-      "status": 4,
-      "net_inflow_yi": 0.0
-    },
-    "南向资金净买入_yi": 840.0,
-    "note": "北向资金实时披露已停止(仅名义口径)；数据源: 腾讯财经 qt.gtimg.cn / 新浪财经行业板块 / 东财 push2 资金接口"
+    "date": "2026-09-29",
+    "net": 0.0,
+    "items": [
+      {
+        "board": "沪股通",
+        "net": 0.0,
+        "up": 1034,
+        "flat": 50,
+        "down": 561
+      },
+      {
+        "board": "深股通",
+        "net": 0.0,
+        "up": 1342,
+        "flat": 39,
+        "down": 505
+      }
+    ]
   },
-  "sector_count": 49,
-  "note": "数据源: 腾讯行情 qt.gtimg.cn(指数/港股) + 新浪财经行业板块(49个) + 东财 kamt(南向资金)。AkShare 东方财富接口本次部分不可达，采用多源冗余采集。"
+  "southbound": [
+    {
+      "board": "港股通(沪)",
+      "net": 14.059432000000001
+    },
+    {
+      "board": "港股通(深)",
+      "net": -4.431274
+    }
+  ],
+  "note": "数据源: 腾讯行情(指数)/同花顺(板块)/东方财富(AkShare 北向)。东方财富 push2 接口今日经代理不可达，指数改用腾讯源。"
 }

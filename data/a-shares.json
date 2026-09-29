@@ -1,112 +1,114 @@
 {
   "date": "2026-09-29",
-  "time": "noon",
-  "fetched_at": "2026-09-29T03:36:07Z",
+  "time": "close",
+  "fetched_at": "2026-09-29T07:05:41Z",
   "indices": {
     "上证指数": {
       "code": "000001",
-      "price": 3826.51,
-      "change": 2.89,
-      "change_pct": 0.08
+      "price": 3830.45,
+      "change": 6.83,
+      "change_pct": 0.18
     },
     "深证成指": {
       "code": "399001",
-      "price": 12911.78,
-      "change": 53.03,
-      "change_pct": 0.41
+      "price": 12901.95,
+      "change": 43.19,
+      "change_pct": 0.34
     },
     "创业板指": {
       "code": "399006",
-      "price": 3150.37,
-      "change": 10.55,
-      "change_pct": 0.34
+      "price": 3142.56,
+      "change": 2.74,
+      "change_pct": 0.09
     },
     "沪深300": {
       "code": "000300",
-      "price": 4342.07,
-      "change": 1.31,
-      "change_pct": 0.03
+      "price": 4345.21,
+      "change": 4.45,
+      "change_pct": 0.1
     },
     "上证50": {
       "code": "000016",
-      "price": 2802.52,
-      "change": -4.42,
-      "change_pct": -0.16
+      "price": 2810.12,
+      "change": 3.18,
+      "change_pct": 0.11
     },
     "中证500": {
       "code": "000905",
-      "price": 7431.74,
-      "change": 29.44,
-      "change_pct": 0.4
+      "price": 7439.63,
+      "change": 37.33,
+      "change_pct": 0.5
     },
     "科创50": {
       "code": "000688",
-      "price": 1564.98,
-      "change": 9.0,
-      "change_pct": 0.58
+      "price": 1569.34,
+      "change": 13.36,
+      "change_pct": 0.86
     },
     "中证1000": {
       "code": "000852",
-      "price": 7330.53,
-      "change": 36.36,
-      "change_pct": 0.5
+      "price": 7325.35,
+      "change": 31.18,
+      "change_pct": 0.43
     }
   },
   "sectors": {
     "top5": [
       {
-        "name": "元件",
-        "change_pct": 4.49,
-        "turnover": 548.68
-      },
-      {
-        "name": "电池",
-        "change_pct": 4.2,
-        "turnover": 332.36
+        "name": "传媒娱乐",
+        "change_pct": 2.2,
+        "turnover": 98.26
       },
       {
         "name": "房地产",
-        "change_pct": 3.56,
-        "turnover": 194.15
+        "change_pct": 1.8,
+        "turnover": 293.2
       },
       {
-        "name": "文化传媒",
-        "change_pct": 3.32,
-        "turnover": 175.01
+        "name": "建筑建材",
+        "change_pct": 1.46,
+        "turnover": 106.71
       },
       {
-        "name": "影视院线",
-        "change_pct": 2.8,
-        "turnover": 49.65
+        "name": "玻璃行业",
+        "change_pct": 1.23,
+        "turnover": 102.24
+      },
+      {
+        "name": "开发区",
+        "change_pct": 1.19,
+        "turnover": 12.45
       }
     ],
     "bottom5": [
       {
-        "name": "煤炭开采加工",
-        "change_pct": -0.81,
-        "turnover": 75.5
+        "name": "酿酒行业",
+        "change_pct": -0.61,
+        "turnover": 85.93
       },
       {
-        "name": "油气开采及服务",
-        "change_pct": -0.51,
-        "turnover": 19.46
+        "name": "食品行业",
+        "change_pct": -0.67,
+        "turnover": 92.81
       },
       {
-        "name": "种植业与林业",
-        "change_pct": -0.38,
-        "turnover": 54.16
+        "name": "农林牧渔",
+        "change_pct": -0.72,
+        "turnover": 152.88
       },
       {
-        "name": "港口航运",
-        "change_pct": -0.37,
-        "turnover": 51.01
+        "name": "飞机制造",
+        "change_pct": -1.24,
+        "turnover": 46.61
       },
       {
-        "name": "石油加工贸易",
-        "change_pct": -0.34,
-        "turnover": 34.88
+        "name": "摩托车",
+        "change_pct": -1.94,
+        "turnover": 11.72
       }
-    ]
+    ],
+    "count": 49,
+    "source": "sina"
   },
   "northbound": {
     "date": "2026-09-29",
@@ -115,28 +117,33 @@
       {
         "board": "沪股通",
         "net": 0.0,
-        "up": 1034,
-        "flat": 50,
-        "down": 561
+        "up": 958,
+        "flat": 45,
+        "down": 642
       },
       {
         "board": "深股通",
         "net": 0.0,
-        "up": 1342,
-        "flat": 39,
-        "down": 505
+        "up": 1133,
+        "flat": 57,
+        "down": 696
       }
     ]
   },
   "southbound": [
     {
       "board": "港股通(沪)",
-      "net": 14.059432000000001
+      "net": 18.38
     },
     {
       "board": "港股通(深)",
-      "net": -4.431274
+      "net": -10.74
     }
   ],
-  "note": "数据源: 腾讯行情(指数)/同花顺(板块)/东方财富(AkShare 北向)。东方财富 push2 接口今日经代理不可达，指数改用腾讯源。"
+  "breadth": {
+    "up": 2091,
+    "down": 1338,
+    "flat": 102
+  },
+  "note": "数据源: 新浪(指数/行业板块) + 东方财富(AkShare 沪深港通资金)。东财 push2 分片接口今日经代理不可达(48/17.push2.eastmoney.com)，指数改用新浪源；北向资金交易状态为暂停(3)。"
 }

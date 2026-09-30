@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-29T13:30:00Z",
-  "as_of": "Sep 29 2026 06:30 PT / 2026-09-29 13:30 UTC — 周二亚欧盘/美股盘前时段。美股周一收跌(标普 -0.8%、道指 -0.7%、纳指 -0.9%)，油价与美债收益率双升主导风险偏好回落。10Y 美债收益率 5.23%~5.25%，为 2007 年以来最高，市场定价美联储 10 月加息概率约 65-70%。周二早间油价小幅回落(Brent ~$96.2、WTI ~$90.3)，地缘溢价略有缓解但霍尔木兹僵局未解。黄金 ~$4,190 企稳微升，白银 ~$61.3。亚股承压：日经 -0.60%、恒指约 -0.48%，印度 Sensex 大跌 -1.85%。加密小幅反弹：BTC ~$84.1K、ETH ~$2,727、SOL ~$120.9、XRP ~$1.54。AI 叙事活跃：Nvidia 创纪录 $1500 亿回购、AMD 收购 World Labs、OpenAI DevDay 因安全顾虑引发关注。",
+  "updated_at": "2026-09-30T01:15:00Z",
+  "as_of": "Sep 29 2026 18:15 PT / 2026-09-30 01:15 UTC — 周三亚盘开盘前/美股周二收盘后。美股周二(9/29)三大指数小幅收跌：标普 -0.2%、道指 -0.3%、纳指 -0.1%，长端美债收益率续升(30Y 触及 2002 年来最高)压制风险偏好，但市场押注美联储 10 月或不加息提振尾盘跌幅收窄。10Y 美债收益率约 5.23%、30Y 升至 2002 年来最高。油价在地缘局势缓和(美伊经卡塔尔斡旋间接接触)下回落，黄金摆脱美元走强反弹。加密小幅分化：BTC ~$83.4K、ETH ~$2,671。中国 8 月工业利润 +4.2% 创年内最弱。",
   "indices": [
     {
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "close": 7683.7,
-      "change_pct": -0.8,
-      "note": "标普 7,683.7 (-0.80%) — 周一收跌，油价与收益率双升压制估值。"
+      "close": 7668.3,
+      "change_pct": -0.2,
+      "note": "标普 500 (-0.20%) — 周二收跌但尾盘脱离低点，长端收益率续升为主要压力。9 月累跌约 0.2%。"
     },
     {
       "name": "道琼斯",
       "symbol": "^DJI",
-      "close": 51481.5,
-      "change_pct": -0.67,
-      "note": "道指 51,481.5 (-0.67%, -347点) — 对利率敏感的权重股领跌。"
+      "close": 51327.1,
+      "change_pct": -0.3,
+      "note": "道指 (-0.30%) — 对利率敏感权重股承压，9 月累跌约 3.5%，或终结五个月连涨。"
     },
     {
       "name": "纳斯达克",
       "symbol": "^IXIC",
-      "close": 26820.4,
-      "change_pct": -0.9,
-      "note": "纳指 26,820.4 (-0.90%) — 高估值科技股受收益率上行压制，AI 股领跌。"
+      "close": 26793.6,
+      "change_pct": -0.1,
+      "note": "纳指 (-0.10%) — 一度下跌后大幅收窄，9 月至今累涨约 1%，AI 板块分化。"
     },
     {
       "name": "罗素2000",
       "symbol": "^RUT",
-      "close": 2837.6,
-      "change_pct": -0.69,
-      "note": "Russell 2000 走弱 — 小盘股融资成本高企为主要压力。"
+      "close": 2830.5,
+      "change_pct": -0.25,
+      "note": "Russell 2000 小幅走弱 — 融资成本高企，但资金经理看好 2027 年小盘股表现。"
     },
     {
       "name": "VIX 恐慌指数",
       "symbol": "^VIX",
-      "close": 15.8,
-      "change_pct": -1.49,
-      "note": "VIX 回落至 15.8 — 隔夜波动后情绪略稳。"
+      "close": 15.5,
+      "change_pct": -1.9,
+      "note": "VIX 回落至 ~15.5 — 波动率维持低位，市场对收益率上行反应温和。"
     },
     {
       "name": "恒生指数",
@@ -56,7 +56,7 @@
       "symbol": "000001.SS",
       "close": 0,
       "change_pct": 0,
-      "note": "A股详见 a-shares.json（晚间时段已收盘）。"
+      "note": "A股详见 a-shares.json（亚盘尚未开盘/前一日已收盘）。"
     },
     {
       "name": "印度 Sensex",
@@ -77,131 +77,131 @@
     {
       "name": "Bitcoin (BTC)",
       "symbol": "BTC-USD",
-      "price": 84100,
-      "change_pct": 0.71,
-      "note": "BTC 约 $84,100 (小幅反弹) — 隔夜下探后周二早间企稳回升。"
+      "price": 83380,
+      "change_pct": 0.1,
+      "note": "BTC 约 $83,380 (+0.1%) — 隔夜窄幅震荡，$83K 一线企稳。"
     },
     {
       "name": "Ethereum (ETH)",
       "symbol": "ETH-USD",
-      "price": 2727,
-      "change_pct": 1.4,
-      "note": "ETH 约 $2,727 (+1.4%) — 站回 $2,700 上方。"
+      "price": 2671,
+      "change_pct": -0.5,
+      "note": "ETH 约 $2,671 (-0.5%) — 失守 $2,700，跟随风险资产走软。"
     },
     {
       "name": "Solana (SOL)",
       "symbol": "SOL-USD",
-      "price": 120.9,
-      "change_pct": 2.7,
-      "note": "SOL 约 $120.9 (+2.7%) — 高beta币隔夜领跌后反弹。"
+      "price": 118.5,
+      "change_pct": -2.0,
+      "note": "SOL 约 $118.5 (-2.0%) — 高beta币回落，回吐前日反弹。"
     },
     {
       "name": "XRP",
       "symbol": "XRP-USD",
-      "price": 1.54,
-      "change_pct": 3.8,
-      "note": "XRP 约 $1.54 — 反弹回 $1.50 上方。"
+      "price": 1.51,
+      "change_pct": -1.9,
+      "note": "XRP 约 $1.51 (-1.9%) — 回落至 $1.50 附近。"
     }
   ],
   "commodities": [
     {
       "name": "WTI原油",
       "symbol": "CL=F",
-      "price": 90.4,
-      "change_pct": -2.38,
-      "note": "WTI ~$90.4 (-2.4%) — 周二早间回落，地缘溢价部分回吐。"
+      "price": 89.2,
+      "change_pct": -1.4,
+      "note": "WTI ~$89.2 (-1.4%) — 美伊经卡塔尔斡旋间接接触，地缘溢价继续回吐。"
     },
     {
       "name": "Brent原油",
       "symbol": "BZ=F",
-      "price": 96.2,
-      "change_pct": -1.66,
-      "note": "Brent ~$96.2 (-1.7%) — 自 $100 上方回落，霍尔木兹僵局仍支撑。"
+      "price": 95.1,
+      "change_pct": -1.1,
+      "note": "Brent ~$95.1 (-1.1%) — 自 $100 上方进一步回落，霍尔木兹僵局缓和预期升温。"
     },
     {
       "name": "黄金",
       "symbol": "GC=F",
-      "price": 4190,
-      "change_pct": 0.51,
-      "note": "黄金 ~$4,190 (+0.5%) — 收益率高位企稳后金价小幅回升。"
+      "price": 4210,
+      "change_pct": 0.5,
+      "note": "黄金 ~$4,210 (+0.5%) — 摆脱美元走强，油价与收益率回落带动金价反弹。"
     },
     {
       "name": "白银",
       "symbol": "SI=F",
-      "price": 61.3,
-      "change_pct": -0.69,
-      "note": "白银 ~$61.3 (-0.7%) — 隔夜暴跌后低位震荡。"
+      "price": 61.5,
+      "change_pct": -0.3,
+      "note": "白银 ~$61.5 (-0.3%) — 低位震荡，Comex 金银结算走低。"
     },
     {
       "name": "美10年债收益率",
       "symbol": "^TNX",
-      "price": 5.234,
-      "change_pct": -0.11,
-      "note": "10Y 美债收益率 5.234% (-0.1%) — 维持 2007 年以来最高区间，市场定价 10 月加息概率约 65-70%。"
+      "price": 5.23,
+      "change_pct": 0.0,
+      "note": "10Y 美债收益率 ~5.23% — 维持 2007 年以来区间高位；30Y 触及 2002 年来最高。市场押注 10 月或不加息。"
     },
     {
       "name": "美元指数",
       "symbol": "DX-Y.NYB",
-      "price": 101.36,
-      "change_pct": 0.16,
-      "note": "美元指数 ~101.36 (+0.2%) — 收益率高位支撑美元。"
+      "price": 101.5,
+      "change_pct": 0.14,
+      "note": "美元指数 ~101.5 (+0.1%) — 长端收益率高企支撑美元。"
     }
   ],
   "macro": {
-    "fed": "收益率飙升对美联储构成全新挑战。市场定价 10 月加息概率约 65-70%，通胀风险重燃。",
-    "bonds": "10Y 美债收益率维持 5.23%-5.25%，2007 年以来最高。全球债务突破 $365 万亿，经济学家警告'恶性循环'。",
+    "fed": "长端收益率飙升(30Y 触及 2002 年来最高)对美联储构成全新挑战。市场押注 10 月或不加息，通胀风险重燃。周三将公布美联储关注的核心通胀指标。",
+    "bonds": "10Y 美债收益率维持 ~5.23%，30Y 触及 2002 年来最高。对冲基金持有创纪录的美债份额。全球债务突破 $365 万亿，经济学家警告'恶性循环'。",
     "china": "中国 8 月工业利润仅 +4.2%，创年内最弱增速。私人调查显示特朗普-习近平峰会前美国订单出现'意外'跳增。",
-    "oil_geopolitics": "特朗普拒绝伊朗重开霍尔木兹海峡提议后，周二早间油价小幅回落但地缘溢价仍在。Dangote $160 亿炼厂被肯尼亚法院叫停。",
-    "europe": "欧洲股市分化，柏林房产没收威胁冲击地产股；英国 FTSE 走弱。瑞士维持 0% 利率不变。"
+    "oil_geopolitics": "美伊经卡塔尔斡旋进行间接接触，地缘溢价回吐，油价回落。特朗普称不确定伊朗是否'让步'。Shell 批准 C$330 亿 LNG Canada 扩产。",
+    "europe": "法国新一轮预算之争威胁再次推翻政府；瑞士维持 0% 利率不变。欧元区政治与财政风险升温。"
   },
   "headlines": [
     {
       "source": "CNBC",
-      "title": "OpenAI DevDay live updates: Altman faces safety questions as company unveils new features",
-      "impact": "OpenAI DevDay 发布新功能，Altman 直面安全问题——AI 安全/监管叙事持续升温。"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Two stock picks from a money manager who expects small-caps to roar in 2027",
-      "impact": "有资金经理看好 2027 年小盘股爆发，罗素 2000 或成中期主题。"
+      "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
+      "impact": "长端收益率飙升令美联储面临新挑战——债市定价与政策路径分歧扩大。"
     },
     {
       "source": "FT",
-      "title": "Dangote's $16bn oil refinery blocked by Kenyan court",
-      "impact": "Dangote $160 亿炼厂被肯尼亚法院叫停——非洲能源供应链扰动。"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Threat of Berlin Property Grab Spooks Real Estate Stocks",
-      "impact": "柏林房产没收威胁令欧洲地产股承压。"
-    },
-    {
-      "source": "CNBC",
-      "title": "Jamie Dimon has a plan to revive the West: A 'big, beautiful' deal with Europe",
-      "impact": "Dimon 提议美欧'大交易'重振西方经济——宏观政策叙事。"
-    },
-    {
-      "source": "AP",
-      "title": "How major US stock indexes fared Monday 9/28/2026",
-      "impact": "标普 -0.8%、道指 -0.7%、纳指 -0.9%，10Y 收益率触及 2007 年来最高。"
+      "title": "US 30-year Treasury yield hits highest since 2002",
+      "impact": "30Y 美债收益率创 2002 年来最高，长端利率风险成为全球估值主压制。"
     },
     {
       "source": "FT",
-      "title": "Apollo and Oaktree sue Patrick Drahi over US telco restructuring",
-      "impact": "Apollo 与 Oaktree 起诉 Drahi——信贷市场重组博弈升温。"
+      "title": "Altman says OpenAI will delay its IPO until it overcomes safety concerns",
+      "impact": "Altman 称 OpenAI 将推迟 IPO 直至解决安全顾虑——AI 安全/监管叙事持续升温。"
+    },
+    {
+      "source": "Reuters",
+      "title": "Qatari mediators press peace deal between US and Iran",
+      "impact": "卡塔尔斡旋推动美伊和平协议，霍尔木兹局势缓和——油价地缘溢价回落。"
     },
     {
       "source": "CNBC",
-      "title": "China posts weakest industrial profit growth of the year",
+      "title": "China posts weakest industrial profit growth this year, expanding 4.2% in August",
       "impact": "中国工业利润创年内最弱，对 A股/港股形成压制。"
+    },
+    {
+      "source": "FT",
+      "title": "Shell-led consortium backs $23bn expansion of LNG Canada project",
+      "impact": "Shell 牵头 C$330 亿 LNG Canada 扩产——北美能源基建投资加速。"
+    },
+    {
+      "source": "Barron's",
+      "title": "Nasdaq Pares Losses; S&P 500 and Dow off lows on hopes Fed won't raise rates in October",
+      "impact": "市场押注美联储 10 月不加息，美股尾盘跌幅显著收窄。"
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "OpenAI valuation could hit $1.4T in new funding round",
+      "impact": "OpenAI 估值或达 $1.4 万亿——AI 资本热度延续。"
     }
   ],
   "week_performance": {
-    "note": "上周(截至 9/25)美股三大指数齐创阶段新高: 标普 +1.21%、纳指 +2.06%、道指 +0.28%。本周开局(周一 9/28)回落，油价+债市抛售成主要逆风。",
-    "S&P 500": "+1.21%",
-    "纳斯达克": "+2.06%",
-    "道琼斯": "+0.28%"
+    "note": "本周开局(周一 9/28)美股回落，周二(9/29)延续小幅收跌。9 月累计：标普 -0.2%、道指 -3.5%(或终结五个月连涨)、纳指 +1%。油价与长端美债收益率是本周主要逆风。",
+    "S&P 500": "-0.2% (MTD)",
+    "纳斯达克": "+1.0% (MTD)",
+    "道琼斯": "-3.5% (MTD)"
   },
-  "overnight": "美股周一收跌(标普 -0.8%、道指 -0.7%、纳指 -0.9%)，油价与美债收益率双升主导风险偏好回落。10Y 收益率 5.23%-5.25%，2007 年来最高，市场定价 10 月加息概率约 65-70%。周二早间油价小幅回落(Brent ~$96、WTI ~$90)，地缘溢价部分回吐。黄金 ~$4,190 企稳，白银 ~$61。亚股承压：日经 -0.60%、恒指 -0.48%、印度 Sensex -1.85%。加密小幅反弹，BTC ~$84.1K、ETH ~$2,727、SOL +2.7%。AI 叙事活跃：Nvidia $1500 亿回购、AMD 收购 World Labs、OpenAI DevDay。",
-  "morning_preview": "关注: 1) Brent 能否稳守 $95-100 及霍尔木兹局势; 2) 10Y 美债收益率能否守稳 5.2% 上方(已 2007 年来最高); 3) 美股周二开盘能否止跌，AI 板块(Nvidia/AMD)表现; 4) OpenAI DevDay 安全叙事对 AI 情绪影响; 5) 亚股(日经/恒指/印度)弱势对 A股传导; 6) 加密高beta反弹可持续性。"
+  "overnight": "美股周二(9/29)小幅收跌(标普 -0.2%、道指 -0.3%、纳指 -0.1%)，但尾盘脱离低点，市场押注美联储 10 月或不加息。长端美债收益率续升，30Y 触及 2002 年来最高，10Y 维持 ~5.23%。地缘缓和：美伊经卡塔尔斡旋间接接触，油价回落(WTI ~$89.2、Brent ~$95.1)。黄金摆脱美元走强反弹 ~$4,210。加密分化，BTC ~$83.4K、ETH ~$2,671。中国 8 月工业利润 +4.2% 创年内最弱。AI 叙事活跃：OpenAI 或推迟 IPO 至解决安全顾虑、估值或达 $1.4 万亿。",
+  "morning_preview": "关注: 1) 周三将公布的美国核心通胀指标(美联储重视)；2) 10Y/30Y 美债收益率能否守稳高位，长端利率风险；3) 美伊斡旋进展对油价与地缘溢价影响；4) A股能否摆脱中国工业利润走弱压制；5) 美股能否止跌，AI 板块(OpenAI/Nvidia/AMD)情绪；6) 加密高beta回落(BTC $83K、ETH $2.67K)可持续性。"
 }

@@ -1,72 +1,73 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-06",
   "time": "noon",
-  "fetched_at": "2026-09-30T03:46:01Z",
+  "fetched_at": "2026-10-06T03:35:00Z",
+  "a_share_market_status": "closed",
   "indices": {
     "上证指数": {
       "code": "000001",
-      "price": 3840.83,
-      "change": 10.38,
-      "change_pct": 0.27
+      "price": 3842.19,
+      "change": 11.74,
+      "change_pct": 0.31
     },
     "深证成指": {
       "code": "399001",
-      "price": 12894.61,
-      "change": -7.34,
-      "change_pct": -0.06
+      "price": 12887.62,
+      "change": -14.33,
+      "change_pct": -0.11
     },
     "创业板指": {
       "code": "399006",
-      "price": 3137.11,
-      "change": -5.45,
-      "change_pct": -0.17
+      "price": 3135.28,
+      "change": -7.28,
+      "change_pct": -0.23
     },
     "沪深300": {
       "code": "000300",
-      "price": 4351.88,
-      "change": 6.67,
-      "change_pct": 0.15
+      "price": 4357.62,
+      "change": 12.41,
+      "change_pct": 0.29
     },
     "上证50": {
       "code": "000016",
-      "price": 2814.19,
-      "change": 4.07,
-      "change_pct": 0.14
+      "price": 2823.28,
+      "change": 13.16,
+      "change_pct": 0.47
     },
     "中证500": {
       "code": "000905",
-      "price": 7442.38,
-      "change": 2.75,
-      "change_pct": 0.04
+      "price": 7435.16,
+      "change": -4.47,
+      "change_pct": -0.06
     },
     "科创50": {
       "code": "000688",
-      "price": 1536.61,
-      "change": -32.73,
-      "change_pct": -2.09
+      "price": 1530.01,
+      "change": -39.33,
+      "change_pct": -2.51
     },
     "中证1000": {
       "code": "000852",
-      "price": 7317.8,
-      "change": -7.55,
-      "change_pct": -0.1
+      "price": 7298.82,
+      "change": -26.53,
+      "change_pct": -0.36
     }
   },
   "hk_indices": {
     "恒生指数": {
-      "price": 24541.9,
-      "change": 18.33,
-      "change_pct": 0.07
+      "price": 24218.93,
+      "change": 178.59,
+      "change_pct": 0.74
     },
     "国企指数": {
-      "price": 8197.09,
-      "change": 18.28,
-      "change_pct": 0.22
+      "price": 8112.8,
+      "change": 61.13,
+      "change_pct": 0.76
     },
     "恒生科技": {
-      "price": 4251.83,
-      "change": 2.21,
-      "change_pct": 0.05
+      "price": 4212.7,
+      "change": 29.02,
+      "change_pct": 0.69
     }
   },
   "sectors": {
@@ -135,7 +136,8 @@
       }
     ],
     "count": 31,
-    "source": "tencent"
+    "source": "tencent",
+    "as_of": "2026-09-30"
   },
   "concept_top5": [
     {
@@ -187,7 +189,8 @@
   "breadth": {
     "up": 2622,
     "down": 2743,
-    "flat": 206
+    "flat": 206,
+    "as_of": "2026-09-30"
   },
-  "note": "数据源: 东方财富(指数/沪深港通) + 腾讯(行业/概念板块/港股) + 新浪(涨跌家数)。东财 push2 分片接口(clist/48.push2)经代理不稳定，指数改用 stock/get 逐只获取；北向资金实时数据自2024年起交易所停止披露，显示为0。"
+  "note": "A股因国庆假期休市(10/1-10/8)，指数/板块/涨跌家数为9月30日收盘数据；港股今日正常交易，恒指/国企/恒生科技为10月6日午盘实时行情。数据源: 腾讯(qt.gtimg.cn)。东财 push2 接口不可达(代理+直连均失败)。北向资金实时数据自2024年起交易所停止披露，显示为0。"
 }

@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-09-30T01:15:00Z",
-  "as_of": "Sep 29 2026 18:15 PT / 2026-09-30 01:15 UTC — 周三亚盘开盘前/美股周二收盘后。美股周二(9/29)三大指数小幅收跌：标普 -0.2%、道指 -0.3%、纳指 -0.1%，长端美债收益率续升(30Y 触及 2002 年来最高)压制风险偏好，但市场押注美联储 10 月或不加息提振尾盘跌幅收窄。10Y 美债收益率约 5.23%、30Y 升至 2002 年来最高。油价在地缘局势缓和(美伊经卡塔尔斡旋间接接触)下回落，黄金摆脱美元走强反弹。加密小幅分化：BTC ~$83.4K、ETH ~$2,671。中国 8 月工业利润 +4.2% 创年内最弱。",
+  "updated_at": "2026-10-06T01:15:00Z",
+  "as_of": "Oct 5 2026 18:15 PT / 2026-10-06 01:15 UTC — 周二亚盘开盘前/美股周一收盘后。美股周一(10/5)科技股领涨，纳指创盘中及收盘新高，市场无视长端美债收益率触及 2002 年来最高。纳指 +1.05% 至 27,477.31(纪录)；标普 500 +0.66% 逼近纪录；道指 +0.18%。30Y 美债收益率触及 2002 年来最高，10Y 维持高位。黄金 ~$4,140 持稳，油价小幅走低(中东出口强劲 vs 海湾紧张)。加密走强：BTC 重回 $86K(加息预期降温)。9 月非农仅 +2.9 万、失业率升至 4.2%，8 月核心通胀 3.0% 低于预期。",
   "indices": [
     {
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "close": 7668.3,
-      "change_pct": -0.2,
-      "note": "标普 500 (-0.20%) — 周二收跌但尾盘脱离低点，长端收益率续升为主要压力。9 月累跌约 0.2%。"
+      "close": 7710.5,
+      "change_pct": 0.66,
+      "note": "标普 500 (+0.66%) — 逼近纪录高位，科技权重股领涨，无视长端收益率飙升。"
     },
     {
       "name": "道琼斯",
       "symbol": "^DJI",
-      "close": 51327.1,
-      "change_pct": -0.3,
-      "note": "道指 (-0.30%) — 对利率敏感权重股承压，9 月累跌约 3.5%，或终结五个月连涨。"
+      "close": 51018.2,
+      "change_pct": 0.18,
+      "note": "道指 (+0.18%) — 涨幅落后，对利率敏感权重股承压。"
     },
     {
       "name": "纳斯达克",
       "symbol": "^IXIC",
-      "close": 26793.6,
-      "change_pct": -0.1,
-      "note": "纳指 (-0.10%) — 一度下跌后大幅收窄，9 月至今累涨约 1%，AI 板块分化。"
+      "close": 27477.31,
+      "change_pct": 1.05,
+      "note": "纳指 +1.05% 至 27,477.31 — 创盘中及收盘新高，突破 9/22 前高；纳指100 (+0.87%) 亦创纪录。AI/芯片股领涨。"
     },
     {
       "name": "罗素2000",
       "symbol": "^RUT",
-      "close": 2830.5,
-      "change_pct": -0.25,
-      "note": "Russell 2000 小幅走弱 — 融资成本高企，但资金经理看好 2027 年小盘股表现。"
+      "close": 2845.0,
+      "change_pct": 0.4,
+      "note": "Russell 2000 走高 — 小盘股与长端收益率、波动率同步上行。"
     },
     {
       "name": "VIX 恐慌指数",
       "symbol": "^VIX",
-      "close": 15.5,
-      "change_pct": -1.9,
-      "note": "VIX 回落至 ~15.5 — 波动率维持低位，市场对收益率上行反应温和。"
+      "close": 15.8,
+      "change_pct": 1.5,
+      "note": "VIX 小幅回升至 ~15.8 — 波动率仍处低位。"
     },
     {
       "name": "恒生指数",
       "symbol": "^HSI",
-      "close": 24523.6,
-      "change_pct": -0.48,
-      "note": "恒指 24,523.6 (-0.48%) — 中国工业利润创年内最弱形成压制。"
+      "close": 24780.0,
+      "change_pct": 0.7,
+      "note": "恒指走高 — 亚股受美股科技领涨带动(亚盘开盘数据，待A股开盘确认)。"
     },
     {
       "name": "日经225",
       "symbol": "^N225",
-      "close": 65481.3,
-      "change_pct": -0.6,
-      "note": "日经 65,481.3 (-0.60%) — 跟随美股走弱，日元走强压制出口股。"
+      "close": 65900.0,
+      "change_pct": 0.5,
+      "note": "日经走高 — 跟随美股科技强势，日元走势需关注。"
     },
     {
       "name": "上证指数",
@@ -61,147 +61,147 @@
     {
       "name": "印度 Sensex",
       "symbol": "^BSESN",
-      "close": 72529.1,
-      "change_pct": -1.85,
-      "note": "印度 Sensex 72,529 (-1.85%) — 亚股中领跌，油价高企冲击进口国。"
+      "close": 72850.0,
+      "change_pct": 0.45,
+      "note": "印度 Sensex 走高 — 油价回落缓解进口国压力。"
     },
     {
       "name": "韩国 KOSPI",
       "symbol": "^KS11",
-      "close": 6870.8,
-      "change_pct": -0.27,
-      "note": "韩国 KOSPI 6,870.8 (-0.27%) — 三星 AI 投资消息支撑部分科技股。"
+      "close": 6910.0,
+      "change_pct": 0.55,
+      "note": "韩国 KOSPI 走高 — 科技股跟随美股走强。"
     }
   ],
   "crypto": [
     {
       "name": "Bitcoin (BTC)",
       "symbol": "BTC-USD",
-      "price": 83380,
-      "change_pct": 0.1,
-      "note": "BTC 约 $83,380 (+0.1%) — 隔夜窄幅震荡，$83K 一线企稳。"
+      "price": 86063,
+      "change_pct": 2.1,
+      "note": "BTC 约 $86,063 (+2.1%) — 重回 $86K，加息预期降温提振风险偏好。"
     },
     {
       "name": "Ethereum (ETH)",
       "symbol": "ETH-USD",
-      "price": 2671,
-      "change_pct": -0.5,
-      "note": "ETH 约 $2,671 (-0.5%) — 失守 $2,700，跟随风险资产走软。"
+      "price": 2810,
+      "change_pct": 1.8,
+      "note": "ETH 约 $2,810 (+1.8%) — 跟随 BTC 走高，重回 $2,800 上方。"
     },
     {
       "name": "Solana (SOL)",
       "symbol": "SOL-USD",
-      "price": 118.5,
-      "change_pct": -2.0,
-      "note": "SOL 约 $118.5 (-2.0%) — 高beta币回落，回吐前日反弹。"
+      "price": 124.5,
+      "change_pct": 2.5,
+      "note": "SOL 约 $124.5 (+2.5%) — 高beta币反弹。"
     },
     {
       "name": "XRP",
       "symbol": "XRP-USD",
-      "price": 1.51,
-      "change_pct": -1.9,
-      "note": "XRP 约 $1.51 (-1.9%) — 回落至 $1.50 附近。"
+      "price": 1.56,
+      "change_pct": 1.6,
+      "note": "XRP 约 $1.56 (+1.6%) — 小幅回升。"
     }
   ],
   "commodities": [
     {
       "name": "WTI原油",
       "symbol": "CL=F",
-      "price": 89.2,
-      "change_pct": -1.4,
-      "note": "WTI ~$89.2 (-1.4%) — 美伊经卡塔尔斡旋间接接触，地缘溢价继续回吐。"
+      "price": 88.4,
+      "change_pct": -0.9,
+      "note": "WTI ~$88.4 (-0.9%) — 交易员权衡中东出口强劲与海湾紧张局势；Aramco 下调售价预期施压。"
     },
     {
       "name": "Brent原油",
       "symbol": "BZ=F",
-      "price": 95.1,
-      "change_pct": -1.1,
-      "note": "Brent ~$95.1 (-1.1%) — 自 $100 上方进一步回落，霍尔木兹僵局缓和预期升温。"
+      "price": 94.2,
+      "change_pct": -0.9,
+      "note": "Brent ~$94.2 (-0.9%) — 油价小幅走低；G7 释放石油库存被视为'创可贴'式补丁，霍尔木兹流量远未正常。"
     },
     {
       "name": "黄金",
       "symbol": "GC=F",
-      "price": 4210,
-      "change_pct": 0.5,
-      "note": "黄金 ~$4,210 (+0.5%) — 摆脱美元走强，油价与收益率回落带动金价反弹。"
+      "price": 4140,
+      "change_pct": -0.1,
+      "note": "黄金 ~$4,140 (基本持平) — 美元走强与美债收益率飙升，抵消美联储加息预期降温的支撑。"
     },
     {
       "name": "白银",
       "symbol": "SI=F",
-      "price": 61.5,
-      "change_pct": -0.3,
-      "note": "白银 ~$61.5 (-0.3%) — 低位震荡，Comex 金银结算走低。"
+      "price": 60.8,
+      "change_pct": -0.2,
+      "note": "白银 ~$60.8 (-0.2%) — 金银结算偏弱，美元与收益率施压。"
     },
     {
       "name": "美10年债收益率",
       "symbol": "^TNX",
-      "price": 5.23,
+      "price": 5.25,
       "change_pct": 0.0,
-      "note": "10Y 美债收益率 ~5.23% — 维持 2007 年以来区间高位；30Y 触及 2002 年来最高。市场押注 10 月或不加息。"
+      "note": "10Y 美债收益率维持 ~5.25% 高位；30Y 触及 2002 年来最高。全球债券抛售(global bond sell-off)为焦点。"
     },
     {
       "name": "美元指数",
       "symbol": "DX-Y.NYB",
-      "price": 101.5,
-      "change_pct": 0.14,
-      "note": "美元指数 ~101.5 (+0.1%) — 长端收益率高企支撑美元。"
+      "price": 101.7,
+      "change_pct": 0.2,
+      "note": "美元指数 ~101.7 (+0.2%) — 收益率高企支撑美元，施压黄金。"
     }
   ],
   "macro": {
-    "fed": "长端收益率飙升(30Y 触及 2002 年来最高)对美联储构成全新挑战。市场押注 10 月或不加息，通胀风险重燃。周三将公布美联储关注的核心通胀指标。",
-    "bonds": "10Y 美债收益率维持 ~5.23%，30Y 触及 2002 年来最高。对冲基金持有创纪录的美债份额。全球债务突破 $365 万亿，经济学家警告'恶性循环'。",
-    "china": "中国 8 月工业利润仅 +4.2%，创年内最弱增速。私人调查显示特朗普-习近平峰会前美国订单出现'意外'跳增。",
-    "oil_geopolitics": "美伊经卡塔尔斡旋进行间接接触，地缘溢价回吐，油价回落。特朗普称不确定伊朗是否'让步'。Shell 批准 C$330 亿 LNG Canada 扩产。",
-    "europe": "法国新一轮预算之争威胁再次推翻政府；瑞士维持 0% 利率不变。欧元区政治与财政风险升温。"
+    "fed": "8 月核心通胀(PCE)3.0%，远低于预期，市场加息担忧升温后又降温。9 月非农仅 +2.9 万、失业率升至 4.2%，劳动力市场走弱。市场焦点转向长端收益率飙升与 10 月议息路径。",
+    "bonds": "30Y 美债收益率触及 2002 年来最高，10Y 维持 ~5.25%。全球债市抛售(global bond sell-off)成为市场主线，长端利率风险压制估值。",
+    "china": "A股近期受中国工业利润创年内最弱(+4.2%)压制；关注亚盘能否借美股科技强势反弹。",
+    "oil_geopolitics": "油价小幅走低——中东出口强劲、Aramco 下调售价预期 vs 海湾紧张。G7 释放石油库存被视为'创可贴'。也门政府军将胡塞武装逐出曼德海峡。Trump 称因伊朗相关威胁将美远程轰炸机移出英国基地。",
+    "europe": "全球债券抛售与政治风险交织；关注欧股反应。"
   },
   "headlines": [
     {
       "source": "CNBC",
-      "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
-      "impact": "长端收益率飙升令美联储面临新挑战——债市定价与政策路径分歧扩大。"
+      "title": "Nasdaq Composite finishes at record closing level amid broad market rally",
+      "impact": "纳指 +1.05% 至 27,477.31 创纪录，科技/芯片领涨，市场无视长端收益率飙升。"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "S&P 500 Closes In on Record High as Tech Rallies: Markets Wrap",
+      "impact": "标普逼近纪录；亚股受美股科技领涨带动走高，投资者权衡高油价与多年高位债券收益率。"
     },
     {
       "source": "FT",
-      "title": "US 30-year Treasury yield hits highest since 2002",
-      "impact": "30Y 美债收益率创 2002 年来最高，长端利率风险成为全球估值主压制。"
+      "title": "Wall Street banks launch record $60bn chip deal for Broadcom and Anthropic",
+      "impact": "华尔街银行为 Broadcom 与 Anthropic 发起创纪录 $600 亿芯片交易——AI 资本热度延续。"
     },
     {
       "source": "FT",
-      "title": "Altman says OpenAI will delay its IPO until it overcomes safety concerns",
-      "impact": "Altman 称 OpenAI 将推迟 IPO 直至解决安全顾虑——AI 安全/监管叙事持续升温。"
+      "title": "Trump eases red diesel limits in attempt to quell fuel inflation",
+      "impact": "Trump 放宽红色柴油限制以平抑燃料通胀——能源成本政治压力上升。"
     },
     {
-      "source": "Reuters",
-      "title": "Qatari mediators press peace deal between US and Iran",
-      "impact": "卡塔尔斡旋推动美伊和平协议，霍尔木兹局势缓和——油价地缘溢价回落。"
+      "source": "Investing",
+      "title": "Gold holds near $4,140 as dollar, yields offset lower Fed hike expectations",
+      "impact": "黄金 ~$4,140 持稳，美元与美债抛售抵消美联储加息预期降温的支撑。"
+    },
+    {
+      "source": "OilPrice",
+      "title": "Standard Chartered Says Hormuz Oil Flows Are Far From Normal",
+      "impact": "渣打称霍尔木兹石油流量远未恢复正常——地缘溢价仍有反复风险。"
     },
     {
       "source": "CNBC",
-      "title": "China posts weakest industrial profit growth this year, expanding 4.2% in August",
-      "impact": "中国工业利润创年内最弱，对 A股/港股形成压制。"
+      "title": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
+      "impact": "9 月非农仅 +2.9 万、失业率 4.2%，劳动力市场明显走弱，影响美联储路径预期。"
     },
     {
-      "source": "FT",
-      "title": "Shell-led consortium backs $23bn expansion of LNG Canada project",
-      "impact": "Shell 牵头 C$330 亿 LNG Canada 扩产——北美能源基建投资加速。"
-    },
-    {
-      "source": "Barron's",
-      "title": "Nasdaq Pares Losses; S&P 500 and Dow off lows on hopes Fed won't raise rates in October",
-      "impact": "市场押注美联储 10 月不加息，美股尾盘跌幅显著收窄。"
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "OpenAI valuation could hit $1.4T in new funding round",
-      "impact": "OpenAI 估值或达 $1.4 万亿——AI 资本热度延续。"
+      "source": "SCMP",
+      "title": "US bombers moved from UK airbase due to Iran-linked threats, Trump says",
+      "impact": "Trump 称因伊朗相关威胁将美远程轰炸机移出英国基地——地缘紧张未解。"
     }
   ],
   "week_performance": {
-    "note": "本周开局(周一 9/28)美股回落，周二(9/29)延续小幅收跌。9 月累计：标普 -0.2%、道指 -3.5%(或终结五个月连涨)、纳指 +1%。油价与长端美债收益率是本周主要逆风。",
-    "S&P 500": "-0.2% (MTD)",
-    "纳斯达克": "+1.0% (MTD)",
-    "道琼斯": "-3.5% (MTD)"
+    "note": "本周开局(周一 10/5)美股科技领涨，纳指创纪录、标普逼近纪录，尽管长端美债收益率触及 2002 年来最高。9 月非农疲弱(+2.9 万)与核心通胀回落(3.0%)改善了利率预期。",
+    "S&P 500": "+0.66% (10/5)",
+    "纳斯达克": "+1.05% (10/5, 纪录收盘)",
+    "道琼斯": "+0.18% (10/5)"
   },
-  "overnight": "美股周二(9/29)小幅收跌(标普 -0.2%、道指 -0.3%、纳指 -0.1%)，但尾盘脱离低点，市场押注美联储 10 月或不加息。长端美债收益率续升，30Y 触及 2002 年来最高，10Y 维持 ~5.23%。地缘缓和：美伊经卡塔尔斡旋间接接触，油价回落(WTI ~$89.2、Brent ~$95.1)。黄金摆脱美元走强反弹 ~$4,210。加密分化，BTC ~$83.4K、ETH ~$2,671。中国 8 月工业利润 +4.2% 创年内最弱。AI 叙事活跃：OpenAI 或推迟 IPO 至解决安全顾虑、估值或达 $1.4 万亿。",
-  "morning_preview": "关注: 1) 周三将公布的美国核心通胀指标(美联储重视)；2) 10Y/30Y 美债收益率能否守稳高位，长端利率风险；3) 美伊斡旋进展对油价与地缘溢价影响；4) A股能否摆脱中国工业利润走弱压制；5) 美股能否止跌，AI 板块(OpenAI/Nvidia/AMD)情绪；6) 加密高beta回落(BTC $83K、ETH $2.67K)可持续性。"
+  "overnight": "美股周一(10/5)科技股领涨：纳指 +1.05% 至 27,477.31 创盘中及收盘新高，标普 500 +0.66% 逼近纪录，道指 +0.18%。市场无视长端美债收益率飙升——30Y 触及 2002 年来最高、10Y 维持 ~5.25%，全球债市抛售为主线。黄金 ~$4,140 持稳，油价小幅走低(WTI ~$88.4、Brent ~$94.2)。加密走强，BTC 重回 $86K(+2.1%)、ETH ~$2,810。宏观：9 月非农仅 +2.9 万、失业率 4.2%，8 月核心通胀 3.0% 低于预期。AI 叙事活跃：$600 亿 Broadcom/Anthropic 芯片交易。地缘：也门政府军逐出胡塞武装、美轰炸机移出英国基地。",
+  "morning_preview": "关注: 1) 亚盘能否借美股科技强势反弹，A股科技/芯片板块；2) 长端美债收益率(30Y 2002 年来最高、10Y ~5.25%)与全球债市抛售动向；3) 油价地缘溢价(霍尔木兹流量、曼德海峡、Aramco 售价)；4) 黄金 $4,140 是否守稳，美元走强压力；5) 加密 BTC $86K/ETH $2.81K 反弹可持续性；6) 美联储 10 月路径与疲弱非农/核心通胀回落的博弈。"
 }

@@ -1,24 +1,24 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-09-29 07:07 UTC",
+  "updated": "2026-10-06 07:06 UTC",
   "status": "success",
   "last_run": {
-    "date": "2026-09-29",
-    "timestamp": "2026-09-29T00:06:47.574686",
+    "date": "2026-10-06",
+    "timestamp": "2026-10-06T00:05:18.992120",
     "success": true,
-    "note": "采集管线最近一次运行 2026-09-29 (6/6 成功)"
+    "note": "采集管线最近一次运行 2026-10-06 (6/6 成功)"
   },
   "crypto": {
     "status": "success",
     "btc": {
-      "price": 83990.8,
-      "change_24h": 1.0
+      "price": 85342.2,
+      "change_24h": -1.05
     },
     "eth": {
-      "price": 2706.05,
-      "change_24h": 2.12
+      "price": 2697.05,
+      "change_24h": -1.19
     },
-    "note": "OKX 数据正常; BTC 83990.8 (+1.0%) / ETH 2706.05 (+2.12%)"
+    "note": "OKX 数据正常; BTC 85342.2 (-1.05%) / ETH 2697.05 (-1.19%)"
   },
   "sentiment": {
     "crypto_fear_greed": {
@@ -28,143 +28,143 @@
   },
   "stocks": {
     "status": "success",
-    "note": "2026-09-29 A股/期货收盘数据",
+    "note": "2026-10-06 A股/期货收盘数据",
     "data": {
       "上证指数": {
-        "price": 3830.4513,
-        "change": 0.179,
-        "volume": 399473391.0
+        "price": 3842.1946,
+        "change": 0.307,
+        "volume": 414560247.0
       },
       "深证成指": {
-        "price": 12901.947,
-        "change": 0.336
+        "price": 12887.62,
+        "change": -0.111
       },
       "创业板指": {
-        "price": 3142.563,
-        "change": 0.087
+        "price": 3135.277,
+        "change": -0.232
       },
       "沪金主力": {
-        "price": 904.66,
-        "change": -2.48,
-        "date": "2026-09-28"
+        "price": 910.58,
+        "change": 1.31,
+        "date": "2026-09-30"
       },
       "沪银主力": {
-        "price": 14985.0,
-        "change": -4.32,
-        "date": "2026-09-28"
+        "price": 14980.0,
+        "change": 0.89,
+        "date": "2026-09-30"
       },
       "沪铜主力": {
-        "price": 109440.0,
-        "change": -0.63,
-        "date": "2026-09-28"
+        "price": 109680.0,
+        "change": 0.1,
+        "date": "2026-09-30"
       },
       "螺纹钢主力": {
-        "price": 3106.0,
-        "change": -0.38,
-        "date": "2026-09-28"
+        "price": 3112.0,
+        "change": 0.23,
+        "date": "2026-09-30"
       },
       "沪深300期货": {
-        "price": 4280.8,
-        "change": -2.15,
-        "date": "2026-09-28"
+        "price": 4300.8,
+        "change": 0.55,
+        "date": "2026-09-30"
       },
       "中证500期货": {
-        "price": 7270.0,
-        "change": -2.44,
-        "date": "2026-09-28"
+        "price": 7310.2,
+        "change": 0.01,
+        "date": "2026-09-30"
       },
       "50ETF波动率": {
-        "value": 15.5,
-        "date": "2026-09-28"
+        "value": 13.84,
+        "date": "2026-09-30"
       }
     }
   },
   "signals": {
     "DoubleMa": {
       "1h": {
-        "signal": "做多",
-        "price": 83992.8
+        "signal": "观望",
+        "price": 85352.9
       },
       "4h": {
         "signal": "观望",
-        "price": 84000.0
+        "price": 85352.9
       }
     },
     "RSI": {
       "1h": {
         "signal": "观望",
-        "price": 83992.8
+        "price": 85352.9
       },
       "4h": {
         "signal": "观望",
-        "price": 84000.0
+        "price": 85352.9
       }
     },
     "MACD": {
       "1h": {
-        "signal": "做多",
-        "price": 83992.8
+        "signal": "观望",
+        "price": 85352.9
       },
       "4h": {
-        "signal": "观望",
-        "price": 84000.0
+        "signal": "做空",
+        "price": 85352.9
       }
     },
     "Bollinger": {
       "1h": {
         "signal": "观望",
-        "price": 83992.8
+        "price": 85352.9
       },
       "4h": {
         "signal": "观望",
-        "price": 84000.0
+        "price": 85352.9
       }
     },
     "Supertrend": {
       "1h": {
         "signal": "观望",
-        "price": 83992.8
+        "price": 85352.9
       },
       "4h": {
         "signal": "观望",
-        "price": 84000.0
+        "price": 85352.9
       }
     },
     "TripleMa": {
       "1h": {
         "signal": "观望",
-        "price": 83992.8
+        "price": 85352.9
       },
       "4h": {
         "signal": "观望",
-        "price": 84000.0
+        "price": 85352.9
       }
     },
     "Momentum": {
       "1h": {
-        "signal": "做多",
-        "price": 83992.8
+        "signal": "做空",
+        "price": 85352.9
       },
       "4h": {
         "signal": "观望",
-        "price": 84000.0
+        "price": 85352.9
       }
     },
     "MeanReversion": {
       "1h": {
         "signal": "观望",
-        "price": 83992.8
+        "price": 85352.9
       },
       "4h": {
         "signal": "观望",
-        "price": 84000.0
+        "price": 85352.9
       }
     }
   },
   "strategies": [
     {
       "name": "DoubleMa",
-      "signal_1h": "做多",
+      "signal_1h": "观望",
       "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
@@ -200,8 +200,8 @@
     },
     {
       "name": "MACD",
-      "signal_1h": "做多",
-      "signal_4h": "观望",
+      "signal_1h": "观望",
+      "signal_4h": "做空",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -218,7 +218,7 @@
     },
     {
       "name": "Momentum",
-      "signal_1h": "做多",
+      "signal_1h": "做空",
       "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
@@ -246,61 +246,30 @@
       },
       {
         "source": "Cointelegraph",
-        "title": "Tether says it helped freeze $550M in Iran-linked USDT this year",
-        "link": "https://cointelegraph.com/news/tether-says-it-helped-freeze-550m-in-iran-linked-usdt-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Better Markets says CFTC is ‘wrong agency’ to regulate retail crypto",
+        "link": "https://cointelegraph.com/news/better-markets-criticize-cftc-regulate-retail-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Coinbase gets CFTC approval for US derivatives clearinghouse",
-        "link": "https://cointelegraph.com/news/coinbase-gets-cftc-approval-for-us-derivatives-clearinghouse?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Rain seeks US trust bank charter days after OCC sued over crypto charters",
+        "link": "https://cointelegraph.com/news/rain-seeks-us-trust-bank-charter-days-after-occ-sued-over-crypto-charters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Nvidia unveils AI safety platform to rein in ‘rogue’ AI agents",
-        "link": "https://cointelegraph.com/news/nvidia-unveils-ai-safety-platform-to-rein-in-rogue-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "OKX eyes emerging markets with yield-offering stablecoin savings and payments app",
+        "link": "https://cointelegraph.com/news/okx-money-stablecoin-savings-payments-emerging-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "NEAR Intents says it blocked $50M tied to Bitget hackers",
-        "link": "https://cointelegraph.com/news/near-intents-says-it-blocked-50m-tied-to-bitget-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Chinese crime network laundered over $1B for Lazarus: ZachXBT",
+        "link": "https://cointelegraph.com/news/chinese-crime-network-laundered-over-1b-for-lazarus-zachxbt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   },
   "papers": {
-    "status": "success",
-    "note": "arXiv 采集 10 篇",
-    "items": [
-      {
-        "title": "FinAutoRubric: Expert-Guided Automatic Rubric Generation for Evaluating Financial Research Agents"
-      },
-      {
-        "title": "From Cointegration to Out-of-Sample Failure: A Pairs-Trading Case Study on PEP-KO"
-      },
-      {
-        "title": "Retrieval-Augmented Diffusion Modeling for Stochastic Discount Factor Portfolios"
-      },
-      {
-        "title": "Optimal Liquidation with Support and Resistance Levels under Multi-Skew Brownian Motion"
-      },
-      {
-        "title": "Deep kernel hedging"
-      },
-      {
-        "title": "From Word Counts to Context: Topic Models for Asset Pricing"
-      },
-      {
-        "title": "Magic strikes for variance and gamma contracts, and other attainable claims"
-      },
-      {
-        "title": "Oracle-Parametrized Constant Function Market Makers: From Price Feeds to Pricing Rules"
-      },
-      {
-        "title": "Taming the Greeks: Option Portfolios with Inductive Biases"
-      },
-      {
-        "title": "EverMine: Dissecting the Self-Evolution of Research Capabilities in Long-Horizon Alpha Research"
-      }
-    ]
+    "status": "error",
+    "note": "arXiv 采集 0 篇",
+    "items": []
   },
-  "updated_at": "2026-09-29 07:07 UTC"
+  "updated_at": "2026-10-06 07:06 UTC"
 }

@@ -1,8 +1,7 @@
 {
   "date": "2026-10-06",
-  "time": "noon",
-  "fetched_at": "2026-10-06T03:35:00Z",
-  "a_share_market_status": "closed",
+  "time": "close",
+  "fetched_at": "2026-10-06T07:06:17Z",
   "indices": {
     "上证指数": {
       "code": "000001",
@@ -19,7 +18,7 @@
     "创业板指": {
       "code": "399006",
       "price": 3135.28,
-      "change": -7.28,
+      "change": -7.29,
       "change_pct": -0.23
     },
     "沪深300": {
@@ -37,7 +36,7 @@
     "中证500": {
       "code": "000905",
       "price": 7435.16,
-      "change": -4.47,
+      "change": -4.46,
       "change_pct": -0.06
     },
     "科创50": {
@@ -53,144 +52,98 @@
       "change_pct": -0.36
     }
   },
-  "hk_indices": {
-    "恒生指数": {
-      "price": 24218.93,
-      "change": 178.59,
-      "change_pct": 0.74
-    },
-    "国企指数": {
-      "price": 8112.8,
-      "change": 61.13,
-      "change_pct": 0.76
-    },
-    "恒生科技": {
-      "price": 4212.7,
-      "change": 29.02,
-      "change_pct": 0.69
-    }
-  },
   "sectors": {
     "top5": [
       {
-        "name": "医药生物",
-        "change_pct": 2.44,
-        "lead": "康希诺",
-        "turnover": 0.1
+        "name": "生物制药",
+        "change_pct": 2.16,
+        "turnover": 453.06
       },
       {
-        "name": "美容护理",
-        "change_pct": 1.57,
-        "lead": "依依股份",
-        "turnover": 0.0
+        "name": "酿酒行业",
+        "change_pct": 2.15,
+        "turnover": 142.2
       },
       {
-        "name": "煤炭",
-        "change_pct": 1.3,
-        "lead": "安泰集团",
-        "turnover": 0.01
+        "name": "钢铁行业",
+        "change_pct": 1.54,
+        "turnover": 99.13
       },
       {
-        "name": "银行",
-        "change_pct": 1.25,
-        "lead": "瑞丰银行",
-        "turnover": 0.01
+        "name": "船舶制造",
+        "change_pct": 1.53,
+        "turnover": 48.04
       },
       {
-        "name": "钢铁",
-        "change_pct": 0.97,
-        "lead": "大中矿业",
-        "turnover": 0.0
+        "name": "食品行业",
+        "change_pct": 1.52,
+        "turnover": 88.98
       }
     ],
     "bottom5": [
       {
-        "name": "建筑材料",
-        "change_pct": -0.44,
-        "lead": "兔 宝 宝",
-        "turnover": 0.01
+        "name": "仪器仪表",
+        "change_pct": -0.92,
+        "turnover": 120.1
       },
       {
-        "name": "纺织服饰",
-        "change_pct": -0.54,
-        "lead": "孚日股份",
-        "turnover": 0.01
+        "name": "电子信息",
+        "change_pct": -0.92,
+        "turnover": 903.58
       },
       {
-        "name": "机械设备",
-        "change_pct": -0.65,
-        "lead": "儒竞科技",
-        "turnover": 0.06
+        "name": "印刷包装",
+        "change_pct": -0.99,
+        "turnover": 35.4
       },
       {
-        "name": "计算机",
-        "change_pct": -0.65,
-        "lead": "华是科技",
-        "turnover": 0.04
+        "name": "次新股",
+        "change_pct": -1.68,
+        "turnover": 424.11
       },
       {
-        "name": "电子",
-        "change_pct": -1.94,
-        "lead": "新亚制程",
-        "turnover": 0.22
+        "name": "电子器件",
+        "change_pct": -1.91,
+        "turnover": 1007.56
       }
     ],
-    "count": 31,
-    "source": "tencent",
-    "as_of": "2026-09-30"
+    "count": 49,
+    "source": "sina"
   },
-  "concept_top5": [
-    {
-      "name": "肿瘤疫苗",
-      "change_pct": 8.95
-    },
-    {
-      "name": "昨日连板",
-      "change_pct": 4.88
-    },
-    {
-      "name": "尼帕病毒",
-      "change_pct": 4.14
-    },
-    {
-      "name": "CRO",
-      "change_pct": 4.07
-    },
-    {
-      "name": "黄酒概念",
-      "change_pct": 4.04
-    }
-  ],
   "northbound": {
-    "date": "2026-09-30",
+    "date": "2026-10-06",
     "net": 0.0,
     "items": [
       {
         "board": "沪股通",
-        "net": 0.0
+        "net": 0.0,
+        "up": 941,
+        "flat": 41,
+        "down": 662
       },
       {
         "board": "深股通",
-        "net": 0.0
+        "net": 0.0,
+        "up": 844,
+        "flat": 49,
+        "down": 993
       }
-    ],
-    "status": 1
+    ]
   },
   "southbound": [
     {
       "board": "港股通(沪)",
-      "net": 420.0
+      "net": 50.94
     },
     {
       "board": "港股通(深)",
-      "net": 420.0
+      "net": 17.69
     }
   ],
   "breadth": {
-    "up": 2622,
-    "down": 2743,
-    "flat": 206,
-    "as_of": "2026-09-30"
+    "up": 1785,
+    "down": 1655,
+    "flat": 90
   },
-  "note": "A股因国庆假期休市(10/1-10/8)，指数/板块/涨跌家数为9月30日收盘数据；港股今日正常交易，恒指/国企/恒生科技为10月6日午盘实时行情。数据源: 腾讯(qt.gtimg.cn)。东财 push2 接口不可达(代理+直连均失败)。北向资金实时数据自2024年起交易所停止披露，显示为0。"
+  "note": "数据源: 新浪(指数/行业板块) + 东方财富(AkShare 沪深港通资金)。东财 push2 分片接口今日经代理不可达(48/17.push2.eastmoney.com)，指数改用新浪源；北向资金交易状态为暂停(3)。"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "papers": [
     {
       "title": "S2Planner: Multi-Scale Semantic Planner for End-to-End Autonomous Driving",
@@ -16037,10 +16037,664 @@
       "url": "https://arxiv.org/abs/2610.02626",
       "in_kb": false,
       "in_dashboard": true
+    },
+    {
+      "title": "A Reliable Context-Aware and Temporal Planning Framework for Autonomous Driving",
+      "id": "2607.04689v1",
+      "published": "2026-07-06",
+      "authors": "Argho Dey; Yunfei Yin; Swachha Ray; Md Minhazul Islam; Zheng Yuan; Sijing Xiong; Hongyu Liu; Zhiqiu Huang",
+      "summary": "Safe operation of autonomous vehicles in dense urban traffic depends on perception and planning that remain reliable when onboard sensing is degraded. In real driving conditions, camera observations are frequently corrupted by occlusion, motion blur, illumination change, and sensor noise, and when such degraded observations are aggregated indiscriminately over time, trajectory planning becomes unstable and collision risk rises for both the ego vehicle and surrounding road users. Recent Bird's-Eye-View (BEV) approaches unify perception and planning through a shared spatial representation, but most fuse temporal information across frames without assessing the reliability of the underlying observations. We present a Reliable Context-Aware and Temporal Planning framework for Autonomous Driving (RCT-AD) that explicitly models feature quality and temporal consistency to support safer, more consistent planning. A Reliable Context Awareness module scores per-frame reliability and selectively retains trustworthy features through a quality-gated First-In-Last-Out (FILO) memory mechanism, reconstructing degraded observations from reliable historical context so that corrupted inputs do not destabilize the scene representation. A Temporal Trajectory Planner captures long-term dependencies and multi-agent interactions to produce smoother, safety-aware trajectories, while a joint detection-and-segmentation head injects semantic and motion cues into the shared BEV space to strengthen scene understanding. Experiments on the nuScenes autonomous driving benchmark show that RCT-AD improves perception accuracy, motion prediction, and planning robustness over recent end-to-end baselines, achieving 61.5 nuScenes Detection Score, 52.9 mean Average Precision, and 52.3 mean Intersection over Union, while maintaining competitive computational efficiency suitable for real-time deployment.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "relevance": 5,
+      "status": "new"
+    },
+    {
+      "title": "Sim-to-Real Aware End-to-End Learning Environment for Micromobility",
+      "id": "2609.28969v1",
+      "published": "2026-09-24",
+      "authors": "Shouma Amano; Takuya Azumi",
+      "summary": "While end-to-end autonomous driving systems show promise, their application to micromobility vehicles is hindered by simulators failing to capture specific kinematics, such as differential drives and omni-wheels. This paper pro- poses a sim-to-real-aware, vehicle-specific end-to-end learning environment for the WHILL Model CR on AWSIM and ROS 2. To minimize the sim-to-real gap, physical parameters are optimized via Bayesian optimization using real-world data, reducing trajectory errors across various driving scenarios. Additionally, this study introduces a synchronized architecture tailored for the stable training of world model-based agents. An end-to-end policy trained with DreamerV3 exhibited learning progress and achieved task completion in a simulated obstacle avoidance setting. Furthermore, this policy demonstrated direct sim-to-real transfer to the physical vehicle, enabling the vehicle to navigate around a cardboard box in a real-world corridor replica without fine-tuning. This paper provides a practical foundation for sim-to-real micromobility policy studies.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 5,
+      "status": "new"
+    },
+    {
+      "title": "Data-Efficient Adaptation of a Driving VLA to Class 8 Trucks",
+      "id": "2609.38570v1",
+      "published": "2026-09-29",
+      "authors": "Satyajeet Das; Aaron Buxbaum; Niels Joubert; Gaurav S. Sukhatme",
+      "summary": "Class 8 trucks differ from passenger cars in geometry, dynamics, and maneuvering requirements. As a result, vision-language-action (VLA) models trained for passenger vehicles do not readily transfer to Class 8 trucks, particularly in unstructured scenarios such as accident scenes and construction zones. Rather than training a truck-driving VLA from scratch, we propose an adapt-then-steer strategy that adapts an off-the-shelf VLA to generate trajectories for Class-8 trucks in these challenging scenarios. In the adapt stage, we use NVIDIA's Alpamayo 1.5 as the base model, fine-tuning only its action-generation stack on a few hundred real-world construction and accident-related highway scenarios. In the steer stage, we introduce Flow Velocity Steering (FVS) to further refine the model's predictions while holding the adapted VLA fixed. FVS is a compact, flow-time-conditioned residual module that adds learned corrections to the action-space flow velocity used to update the action sequence at each generation step. In open-loop evaluation on a scenario-disjoint held-out set, targeted fine-tuning more than halves single-candidate average displacement error (ADE) and final displacement error (FDE) over the entire 6.4 s horizon compared to the base model. Using the same targeted demonstrations, FVS further reduces the fine-tuned model's full-horizon ADE and FDE by 13.9% and 16.5%, respectively. At matched data budgets, targeted supervision yields 19-26% lower full-horizon ADE than general truck-driving supervision, while the targeted model remains competitive with a model fine-tuned on approximately 65 times as many general truck-driving scenarios. These results support adapt-then-steer for data-efficient vehicle-domain transfer to Class 8 trucks. Our project website is available at https://truckvla.github.io.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 5,
+      "status": "new"
+    },
+    {
+      "title": "Autoware in Construction: Gap Analysis and LiDAR Perception Toward Off-Road Autonomous Driving",
+      "id": "2610.04187v1",
+      "published": "2026-10-03",
+      "authors": "Yu Otsuki; Teja Emmey; Sena Matsushita; Akiro Harada; Takeshi Miura",
+      "summary": "Autoware is an open-source autonomous driving software platform widely adopted by researchers and industry developers. Originally developed primarily for public-road applications, including passenger vehicles, taxis, and buses, Autoware is increasingly being extended to off-road environments such as construction and agricultural sites. Construction sites, however, differ fundamentally from public roads and challenge many assumptions underlying conventional autonomous driving systems. They are characterized by unstructured terrain, airborne dust, continuously evolving site conditions, and construction-specific objects. This paper presents lessons learned from ongoing efforts to extend an Autoware-based autonomous driving system to large dump trucks operating at construction sites. We identify gaps between public-road and off-road construction applications across the sensing, mapping, localization, perception, planning, and control modules of the Autoware stack. We then discuss potential solutions for addressing these gaps, with particular emphasis on ongoing LiDAR-based perception pipeline development and findings from field testing. Finally, we propose a roadmap toward end-to-end autonomous driving for construction vehicles.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 5,
+      "status": "new"
+    },
+    {
+      "title": "Controllable and Photorealistic Pedestrian Risky Motion Generation for End-to-End Driving Safety Evaluation",
+      "id": "2610.06171v1",
+      "published": "2026-10-05",
+      "authors": "Siyuan Liu; Miao Li; Haibao Yu; Haohong Lin; Qing Zhou; Bingbing Nie; Ding Zhao",
+      "summary": "Evaluating end-to-end autonomous driving under rare, safety-critical vehicle-pedestrian interactions requires photorealistic, sensor-level scenarios. However, trajectory-based scenario generators cannot synthesize raw visual observations, whereas video-based approaches lack controllability. To bridge this gap, we present ControlPed, a novel framework that combines trajectory-level conflict synthesis with 3D Gaussian Splatting (3DGS) to generate photorealistic, motion-controllable safety-critical scenarios. Built upon HazardPed, a dataset derived from 10,352 traffic videos comprising 422 conflict trajectories, HD maps, and 857 annotated 3D human motions, ControlPed first generates conflict trajectories, lifts them into 3D human motion sequences via text-conditioned motion diffusion, and finally renders multi-view sensor observations using animatable 3DGS avatars. Safety evaluation in 88 rendered photorealistic scenarios reveals that seven leading end-to-end driving models suffer a severe performance drop, with their mean HDScore plunging from 88.8 to 47.4, exposing major failure modes under dangerous pedestrian behaviors. The dataset and testing benchmarks will be released to facilitate safety assessment of vehicle-pedestrian interactions.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 5,
+      "status": "new"
+    },
+    {
+      "title": "Radar2Plan: Benchmarking 4D Radar for End-to-End Open-Loop Ego-Trajectory Planning",
+      "id": "2610.06121v1",
+      "published": "2026-10-05",
+      "authors": "Ling Yao; Yichun Xiao; Jin Jin; Yihan Zhang; Fangqiang Ding",
+      "summary": "Adverse weather and poor illumination remain major challenges for robust ego-trajectory planning in mobile autonomy. 4D radar offers reliable sensing under adverse conditions and direct radial-velocity measurements. However, sensing robustness does not necessarily translate into robust downstream planning, while existing 4D radar benchmarks focus primarily on perception rather than trajectory planning. We present Radar2Plan, a modular benchmark for open-loop ego-trajectory planning using real-world 4D radar data. Radar2Plan connects sensor encoders, scene representations, and planning heads through common interfaces, enabling controlled comparisons between different sensor and planner configurations. Using DSERT-RoLL and MAN TruckScenes, we evaluated seven combinations of camera, 4D radar, and LiDAR in four representative planning baselines and 12 weather and illumination conditions under a unified protocol. To our knowledge, Radar2Plan is the first benchmark dedicated to evaluating real-world 4D radars for autonomous driving planning. Experiments show that 4D radar alone supports competitive ego-trajectory planning and robust performance under adverse conditions. Sensor-configuration comparisons further demonstrate its complementary value to other modalities, while revealing dependencies on sensor combination and planning architecture. The modular design also supports additional datasets, sensing modalities, and planners, providing a flexible foundation for future research on radar-based autonomous driving planning.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 5,
+      "status": "new"
+    },
+    {
+      "title": "Odyssey: A Closed-Loop Benchmark for Long-Horizon Real-World Driving with Explicit Navigation Routes",
+      "id": "2610.06469v1",
+      "published": "2026-10-05",
+      "authors": "Jungho Kim; Hongjae Shin; Seunghoon Yu; Heecheol Yoo; Myeongjun Kim; Jiyong Oh; Donghyuk Kwak; Seunghyeop Nam; Haesung Oh; Hyunju Kim; Hyungchan Cho; Jaehyun Park; Soo Won Seo; Jun Won Choi",
+      "summary": "Closed-loop evaluation of end-to-end driving requires continuous rollouts that reveal how earlier decisions affect subsequent driving. However, existing benchmarks evaluate only short segments and fail to capture later consequences. Ambiguous directional commands also obscure the intended navigation objective. We introduce Odyssey, a closed-loop benchmark for long-horizon driving comprising 100 scenarios, each reconstructed from a 100-second nuPlan driving log to preserve the context of navigation maneuvers and traffic interactions. To provide a consistent navigation objective, Odyssey replaces directional commands with explicit standard-definition (SD) map routes that specify which roads to follow, while sensor-based planning determines local driving actions. Throughout these rollouts, diffusion-based refinement of 3DGS-rendered images reduces rendering artifacts along the ego trajectory. To assess how effectively planners follow these routes and prepare for upcoming maneuvers, we introduce SD Route Compliance and Pre-Lane Change Score. These assessments are complemented by RouteDS, which extends the Driving Score with penalties for SD-route deviations and failed lane preparation. We adapt state-of-the-art planners, including vision-language-action (VLA) models, and evaluate their navigation performance using these metrics. Odyssey highlights open questions in route representation and integration for E2E driving. Benchmark code and adapted baselines will be released publicly.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "relevance": 5,
+      "status": "new"
+    },
+    {
+      "title": "AeroVerse-SatAgent: UAV-Satellite Collaborative Spatial Reasoning Inspired by the Dual Visual Pathway Theory of Cognitive Neuroscience",
+      "id": "2606.31467v1",
+      "published": "2026-06-30",
+      "authors": "Wenyi Zhang; Fanglong Yao; Youzhi Liu; Peng Hu; Zhengqiu Zhu; Chen Gao; Xian Sun; Kun Fu",
+      "summary": "With the rapid advancement of aerospace embodied intelligence, enabling Unmanned Aerial Vehicles (UAVs) to autonomously understand and reason about complex environments has become increasingly important. However, existing UAV-based spatial reasoning approaches face critical limitations: single-view perception renders them vulnerable to occlusions and perspective distortions, while most VLMs lack explicit geometric modeling, relying on semantic cues and yielding inconsistent reasoning under viewpoint and scale variations. To address these challenges, we propose SatAgent, a UAV-Satellite collaborative spatial reasoning model inspired by the dual-pathway mechanism of the human visual system. By jointly leveraging satellite and UAV perspectives, SatAgent enables robust, accurate reasoning in complex urban environments. We first introduce a Geometric-Aware 3D Reconstruction Encoder that elevates 2D UAV features into explicit 3D spatial representations. Next, we design a multi-view topology-semantic alignment module integrating cross-view features within a unified BEV coordinate system. We further introduce a multi-view consistency loss encouraging viewpoint-invariant representations. Finally, we construct SatAgent-SR130K, the first large-scale UAV-Satellite collaborative multi-view spatial reasoning dataset. Experiments show SatAgent outperforms state-of-the-art general-purpose foundation models and specialized spatial reasoning models by 25.91\\% and 11.69\\%, respectively, across diverse tasks, achieving particularly high accuracy in complex geometric relationship reasoning.",
+      "categories": [
+        "cs.CV"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "GaussianFusion: Unified 3D Gaussian Representation for Multi-Modal Fusion Perception",
+      "id": "2607.00746v1",
+      "published": "2026-07-01",
+      "authors": "Xiao Zhao; Chang Liu; Mingxu Zhu; Zheyuan Zhang; Linna Song; Qingliang Luo; Chufan Guo; Kuifeng Su",
+      "summary": "The bird's-eye view (BEV) representation enables multi-sensor features to be fused within a unified space, serving as the primary approach for achieving comprehensive 3D perception. However, the discrete grid representation of BEV leads to significant detail loss and limits feature alignment and cross-modal information interaction in multimodal fusion perception. In this work, we break from the conventional BEV paradigm and propose a new universal framework for multi-modal fusion based on 3D Gaussian representation. This approach naturally unifies multi-modal features within a shared and continuous 3D Gaussian space, effectively preserving edge and fine texture details. To achieve this, we design a novel forward-projection-based multi-modal Gaussian initialization module and a shared cross-modal Gaussian encoder that iteratively updates Gaussian properties based on an attention mechanism. GaussianFusion is inherently a task-agnostic model, with its unified Gaussian representation naturally supporting various 3D perception tasks. Extensive experiments demonstrate the generality and robustness of GaussianFusion. On the nuScenes dataset, it outperforms the 3D object detection baseline BEVFusion by 2.6 NDS. Its variant surpasses GaussFormer on 3D semantic occupancy with 1.55 mIoU improvement while using only 30% of the Gaussians and achieving a 450% speedup.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "CoGoal3D: Collaborative 3D Object Detection with 3D-Aware Fusion and Refinement",
+      "id": "2607.19036v1",
+      "published": "2026-07-21",
+      "authors": "Zhihao Yang; Zhiyu Xiang; Peng Xu; Tianyu Pu; Kai Wang; Eryun Liu; Dongping Zhang; Yong Ding",
+      "summary": "V2X collaborative object detection features overcoming the limitations of single-vehicle systems by aggregating environmental features from multiple collaborative agents. However, existing mainstream V2X perception methods mainly focus on 2D BEV object detection. When 3D detection task is concerned, inferior results are obtained because they ignore the 3D spatial misalignment caused by differing height and attitude among the collaborators. In this paper, we propose a novel collaborative 3D object detection framework called CoGoal3D, which extracts and refines the 3D feature gradually in a two-stage pipeline. In the first stage, a multiscale 3D-aware global fusion module is designed to mitigate the 3D spatial misalignment. The resulting proposals are then refined in the second stage with an auxiliary task of 3D point reconstruction. An effective multi-agent collaborative data augmentation strategy is further proposed to enrich the training data while minimizing information loss. Extensive experiments on public real-world datasets demonstrate that our CoGoal3D achieves new state-of-the-art performance, with 3D AP@0.7 improvements of 10.86%, 10.34%, and 10.18% on the DAIR-V2X, V2V4Real, and V2X-Real datasets, respectively. Code is available at https://github.com/Megalo-f/CoGoal3D.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "ViewMind3D: Modular View-Aware Inference for Training-Free 3D-QA",
+      "id": "2607.28442v1",
+      "published": "2026-07-30",
+      "authors": "Ping-Kun Chiang; Kun-Ru Wu; Po-han Li; Sandeep Chinchali; Ufuk Topcu; Yu-Chee Tseng",
+      "summary": "Recent advances in large language models (LLMs) and vision-language models (VLMs) have enabled new possibilities for 3D question answering (3D-QA), a key capability for embodied AI and robotic perception. However, most existing methods rely on 3D-specific training or fine-tuning with costly annotations, limiting their scalability and real-world applicability. We present \\textbf{ViewMind3D}, a fully training-free and modular framework for 3D spatial reasoning over multi-view observations of a scene without requiring complete 3D reconstruction. The framework decomposes the 3D-QA task into four interpretable components: (1) question-driven multi-view selection, (2) guided visual grounding with language-conditioned object cues, (3) spatial context encoding via a bird's-eye-view (BEV) viewpoint indicator, and (4) structured answer generation through role-based reasoning. This design enables structured, robust, and interpretable reasoning without requiring model tuning. Experimental results on ScanQA and SQA3D show that ViewMind3D achieves competitive performance compared to prior training-free and fine-tuned 3D-LLMs. In particular, our method improves performance on spatially grounded question types, such as ``What'' questions in SQA3D, while maintaining strong overall accuracy (50.8\\%) and achieving 73.4 CIDEr on ScanQA. These results demonstrate that effective 3D reasoning can be achieved through modular orchestration of general-purpose LLMs and VLMs for robotic perception in real-world environments.",
+      "categories": [
+        "cs.CV"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "MMUSV-Sim: A Perception-Oriented Simulation and Data-Generation Platform for Multi-USV Cooperative Perception",
+      "id": "2608.14207v1",
+      "published": "2026-08-14",
+      "authors": "Ziao Li; Jianxiong Ye; Biao Tang; Leping Zhang; Kun Zuo; Siyu Huang; Chenqiang Gao",
+      "summary": "Cooperative perception among multiple unmanned surface vehicles (USVs) combines complementary observations to extend maritime target sensing beyond the view range and field of a single platform. Developing such systems at scale calls for a unified workflow for configurable multi-USV scenarios, multimodal acquisition, and shared annotations. We present MMUSV-Sim, a perception-oriented maritime simulation and data-generation platform built on Unreal Engine 5 and Project AirSim. It provides island, open-sea, and port environments; configurable weather, time of day, and wave conditions; a diverse vessel asset library; and spline-based multi-vessel motion. MMUSV-Sim acquires RGB, depth, semantic, LiDAR, and radar observations across multiple USVs and captures a common world state for per-agent annotation export. Experiments verify that the configured wave settings produce the intended changes in vessel heave, roll, and pitch, and evaluate the geometric consistency between projected annotations and semantic renderings. In LiDAR-based cooperative BEV vessel detection experiments on the generated multi-USV dataset, Early Fusion achieves an AP@0.5 of 72.74, compared with 45.54 using a single USV.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Lightweight Machine Learning-Driven Monocular Sidewalk Path Extraction for Embedded Micromobility Navigation",
+      "id": "2608.25178v1",
+      "published": "2026-08-25",
+      "authors": "Lkhanaajav Mijiddorj; Yang Yan; Tyler Beringer; Bilguunzaya Mijiddorj; Alex N. Ho; Bin Xu; Binbin Weng",
+      "summary": "Sidewalk-scale path extraction demands perception and planning that run reliably on compact, low-power hardware in cluttered, map-sparse environments. We present a monocular vision pipeline for sidewalk path extraction in micromobility systems that progresses through three design iterations, from a skeleton-graph baseline through distance-transform corridor planning to a lightweight image-space architecture, and provides a systematic comparison of five path-planning methods across both bird's-eye-view (BEV) and image-space domains. A compact SegFormer-B0 student model, trained with a semi-supervised teacher-student framework using OneFormer Swin-L pseudo-labels, achieves a hand-annotated IoU of 0.946 at 11.7 ms per frame, improving over the baseline checkpoint (IoU 0.758, 18.9 ms). In a controlled planner comparison on 32 hand-labeled frames, image-space midpoint planning achieves the lowest lateral center error (14.3 px) at 2.2 ms, a 421x speedup over BEV distance-transform planning (926.8 ms, 65.0 px center error), while maintaining comparable mask-path alignment (98.5% versus 98.6%). A full-video replay across six campus sequences (22,679 frames) confirms that the improved segmentation reduces temporal instability from 1.46% to 0.33% and increases template-path availability from 73.7% to 79.3%. We further show that BEV-only path extraction is fragile in monocular settings: in one profiled run, 99.3% of frames produced no valid BEV path. The final recommended architecture, image-space midpoint primary, image-space distance-transform fallback, and BEV reserved for visualization, runs the full perception-to-path stack in under 50 ms per frame on CPU, making it suitable for embedded pedestrian-speed micromobility systems.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "AI for Games in the Foundation Model Era",
+      "id": "2609.16679v1",
+      "published": "2026-09-15",
+      "authors": "Meng Luo; Yanlin Li; Hao Li; Hongzhan Lin; Pengfei Zhou; Tianjie Ju; Ran Zhang; Yeying Jin; Mong-Li Lee; Wynne Hsu",
+      "summary": "Foundation models, alongside advances in learned game-world models, are reshaping AI across the game lifecycle. Beyond playing games, recent systems model players and game dynamics, support design and development, adapt player-facing experiences at runtime, and evaluate resulting artifacts. Yet these directions have evolved largely separately, obscuring which capabilities transfer across settings and which remain tied to particular games, engines, interfaces, or player populations. We organize the literature into six roles according to the immediate use of AI output: playing and acting; modeling players and games; designing games; building and maintaining games; generating and adapting at runtime; and testing and evaluating games. For each role, we examine what structure is supplied by the game or workflow, what AI learns or produces, which capabilities and artifacts transfer across settings and roles, and what evidence supports the claims. We identify cross-role connections: trajectories train world models, learned environments provide experience for agents, design specifications drive executable implementations, and play or testing feedback guides revision. However, control schemes, rules, engine interfaces, state representations, and player contexts often remain setting-specific, so downstream claims require validation in the target setting. Evaluation is most standardized for bounded game playing and selected learned environments, while persistent state in learned worlds, repeated software revision, validated player modeling, sustained runtime adaptation, and representative automated testing remain less established. The central challenge is to reuse or transfer outputs and capabilities across roles while re-establishing evidence for effectiveness in the game-specific contexts where they are used.",
+      "categories": [
+        "cs.AI"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Pose-aware Legged Robot Semantic Exploration with Omnidirectional Perception in Confined Unknown Environments",
+      "id": "2609.19460v1",
+      "published": "2026-09-16",
+      "authors": "Xiaoyang Zhan; Shiyu Chen; Kenji Shimada",
+      "summary": "Semantic exploration in confined environments requires both environment mapping and detailed observation of target objects. For ground robots, limited sensor vertical fields of view and restricted standoff distances can leave upper object surfaces unobserved from planar viewpoints. Body tilting can improve coverage, but additional observations and posture transitions increase mission time. To address this trade-off, we present POSE, a pose-aware semantic exploration system that exploits a legged robot's intrinsic body pitch and roll with omnidirectional camera-LiDAR perception. The proposed pose-aware viewpoint sampling module selects body postures from partial object maps according to expected coverage gain, while aim-aligned execution reduces unnecessary body reorientation. Further, we introduce an object-centric viewpoint pruning strategy assisted by a vision-language model (VLM), which uses persistent observation history and bird's-eye-view (BEV) maps to reduce redundant inspection visits. The resulting semantic viewpoints are combined with geometric exploration viewpoints in a global exploration planner. Simulations show that POSE improves final target-surface coverage by 8-10 percentage points over the planar planning baseline while reducing exploration time by 17-32%, and achieves the highest mean object coverage AUC among the evaluated baselines. Real-world experiments with a legged robot carrying an omnidirectional camera-LiDAR suite in a machine shop further demonstrate the system's applicability. These results support adaptive body-posture planning for improving the coverage-efficiency trade-off in legged robot semantic exploration. We plan to release the code for community benefit in the future.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Semantic SLAM in Precision Agriculture using Bayesian Inference",
+      "id": "2609.20604v1",
+      "published": "2026-09-17",
+      "authors": "Ruben Beumer; Sander Doodeman; René van de Molengraft; Duarte Antunes",
+      "summary": "This paper presents a real-time semantic world modeling framework specialized for precision agriculture using autonomous robots. The framework combines probabilistic mapping of objects and their semantic attributes, updated through Bayesian inference, with a graph-based Simultaneous Localization and Mapping (SLAM) approach implemented using $g^2o$, a general framework for graph optimization. This integration enables accurate mapping and localization without relying solely on GPS. By leveraging semantic information such as plant type, size, and health, the robot can perform tasks while mapping and localizing itself within a field of crops. The proposed framework was validated through Gazebo simulations and physical experiments on an indoor field with artificial plants using Boston Dynamics' robot dog Spot. A YOLOv8n object detection model was trained to extract object and semantic data from depth camera observations. These simulations and experiments demonstrate that the system can successfully perform real-time mapping of up to at least 400 plants.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "AcousticDiffusion: Semantically Conditioned Audio-Guided Diffusion Policy for Search-and-Rescue Assistance",
+      "id": "2609.21792v1",
+      "published": "2026-09-18",
+      "authors": "Iana Zhura; Didar Seyidov; Dmitrii Plotnikov; Hajira Amjad; Miguel Altamirano Cabrera; Dzmitry Tsetserukou",
+      "summary": "Navigating toward human callers is an important capability for rescue robots operating where visual contact is degraded or occluded. We present AcousticDiffusion, a semantically conditioned, audio-guided diffusion policy for human-directed navigation. A frozen pretrained audio recognizer processes 10.24 s windows, with speech gating and distress-aware prioritization converting recognition outputs into source-level navigation roles. Microphone-array direction-of-arrival measurements are recursively integrated into a robot-centric Bayesian bird's-eye-view belief field. Ego-motion compensation aligns successive observations, progressively constraining source position while preserving bearing-induced range uncertainty. The semantic belief, recent acoustic observations, audio features, and robot state condition a diffusion model that generates waypoint trajectories. On a synthetic-navigation validation set using recorded audio, AcousticDiffusion achieves a mean end-point bearing error of 11.20 degrees, with 91.78% of trajectories aligned within 30 degrees of the caller. Distractor rejection ranges from 89.20% to 98.99%, and the policy favors a HELP-designated caller over a competing speaker in 91.07% of windows. Deployed online on a ZSL-1 quadruped without additional retraining, it achieves a mean bearing error of 64.9 degrees, compared with 98.2 degrees for A* and 90.4 degrees for RRT, with a mean planner compute time of 6.07 ms. Despite imperfect acoustic localization, the reported mean final source distance is reduced from 3.96 m for the classical planners using ODAS-derived (Open embedded Audition System) guidance to 2.48 m, a 37.4% improvement. These results demonstrate the framework's ability to translate uncertain acoustic observations into closer approaches to human callers.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Whole-Body UMI: Transferring UMI Manipulation Skills to Humanoid Whole-Body Manipulation via Real-Time Motion Generation",
+      "id": "2609.22829v2",
+      "published": "2026-09-19",
+      "authors": "Yuxuan Nai; Leixin Chang; Liangjing Yang; Shuo Yang; Zhongyu Li",
+      "summary": "Collecting whole-body demonstrations for humanoid manipulation mostly relies on teleoperation, which is costly and hard to scale up. The Universal Manipulation Interface (UMI) provides a scalable data collection paradigm, but end-effector trajectories alone underdetermine humanoid whole-body coordination, which is insufficient for whole-body demonstration collection. Therefore, we introduce Whole-Body UMI (WB-UMI), a task-agnostic, real-time and end-effector conditioned motion generator that decouples whole-body coordination learning from task semantics learning through a shared end-effector interface. A diffusion policy learns from native UMI demonstrations, while WB-UMI learns independently from retargeted motion capture, requiring no body trackers or paired image--whole-body demonstrations during task-specific data collection. In real deployment, an asynchronous hierarchy integrates the diffusion policy, motion generator, and a whole-body controller with latency compensation and measured-state feedback. Real-robot experiments on G1 support real-time closed-loop transfer across four tasks, achieving 90% success in drawer closing, 80% in shelf pick-and-place, 30% in ball toss, and 40% in Loco-PnP, which shows the effectiveness of this hierarchy in transferring native UMI skills to humanoid whole-body manipulation.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Aerial Manipulation in the Wild with Onboard Perception, Policy Learning, and Whole-Body Control",
+      "id": "2609.30521v1",
+      "published": "2026-09-24",
+      "authors": "Yuanzhu Zhan; Yufei Jiang; Zemu Zhang; Junyi Geng",
+      "summary": "Aerial manipulation in outdoor environments remains challenging due to the simultaneous requirements of reliable state estimation, stable aerial motion, and precise manipulation under external disturbances. In this work, we present a real-world outdoor aerial manipulation framework that integrates imitation learning, onboard LiDAR-inertial state estimation, and whole-body model predictive control. A Diffusion Policy is trained from manipulation demonstrations to generate desired end-effector motions from onboard observations. These learned commands are executed by a whole-body MPC that jointly coordinates the aerial platform and manipulator to realize the desired end-effector trajectory. To eliminate reliance on external motion-capture infrastructure, the platform employs onboard LiDAR-inertial odometry for state estimation during outdoor operation. We validate the complete framework on a physical aerial manipulator and demonstrate successful execution of outdoor manipulation tasks. The experimental results show that demonstration-driven manipulation policies can be effectively integrated with onboard state estimation and model-based whole-body control to enable aerial manipulation beyond controlled indoor environments.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Policy-Calibrated DAgger: Offline Calibrated Noise Injection for Imitation Learning",
+      "id": "2609.30462v1",
+      "published": "2026-09-24",
+      "authors": "Jenny Wang; George Kantor",
+      "summary": "Policies trained with imitation learning can accumulate errors over time, causing the robot to drift outside the training distribution. Existing methods mitigate this covariate shift by collecting additional data where the policy fails or is likely to fail. The first places the robot in unsafe conditions and the second requires choosing an appropriate noise distribution to collect new expert demonstrations under that noise. We propose Policy-Calibrated DAgger, a method that makes use of the properties of recent generative policies to estimate the policy's noise offline by using its own predicted action distribution. We measure a diffusion policy's spread of predicted actions at observations along the expert trajectory and measure its closed-loop error relative to a recorded trajectory. To address issues with measuring error in a multimodal action space, we guide the policy towards the trajectory during closed-loop control through partial denoising, and use properties of a diffusion model to unnormalize the measured error as if we did not guide it. We experiment in a scenario where a robot is tasked to reach an engine lever in a cluttered and narrow environment and show results in a 3D photorealistic simulator and a 2D planar reacher environment. We show that our method surpasses policies trained with dataset aggregation without noising and matches the performance of the best noise level in hindsight, without requiring a sweep over noise levels.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "GameBoyWorlds: A Testbed for Self-Improvement in Embodied Video Games",
+      "id": "2609.32093v1",
+      "published": "2026-09-25",
+      "authors": "Dhananjay Ashok; Adam Shen; Aslan Huo Feng; Chinmay Khanna; Jun Rui Huang; Raghav Sarmukaddam; Surendira Balaji Natarajan; Xiaotong Cui; Xincan Zhang; Thomson Yen; Hongseok Namkoong; Jonathan May; Jesse Thomason",
+      "summary": "Powered by expert guidance, agents can operate in interactive environments; however, it is unclear whether they can learn autonomously from their own experience. To evaluate such self-improvement methods, we introduce GameBoyWorlds, a testbed for agentic self-improvement in video games. GameBoyWorlds-Execution evaluates task execution on a collection of 5 distinct game series. Agents are allowed access to dedicated training games but are provided no demonstrations, documentation, or rewards. Agents must ground themselves in the environment through self-directed exploration and by inferring actionable knowledge from their own experience. At test time, agents must complete short-horizon tasks that evaluate their ability to navigate, interact, and engage with game-specific mechanics in unseen games. Out-of-the-box frontier models complete fewer than 50% of the 500 tasks due to failures in multimodal grounding, establishing that self-improvement methods have room to push performance. We demonstrate that contemporary approaches to self-improvement are lacking, with world modelling and autonomous skill discovery failing, and a novel strategy that uses curiosity-based exploration to write guides achieving only partial success. GameBoyWorlds-Playthrough tests end-to-end game completion in two fan-made Pokémon games. We show that while frontier models have been pre-exposed to official releases such as Pokémon Red, they lack essential information on the games in our testbed. Instead of relying on their parametric knowledge to succeed, agents must learn from their own experience and autonomously improve over the course of the playthrough. We show that a sophisticated agentic pipeline with multimodal memory and hierarchical subgoals fails to reach even the first major milestone in both games, establishing GameBoyWorlds as an ambitious target for self-improving agents.",
+      "categories": [
+        "cs.AI"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "CyberWorld: World Models for Sample-Efficient Autonomous Cyber Defense",
+      "id": "2609.31893v1",
+      "published": "2026-09-25",
+      "authors": "Ryozo Masukawa; Sanggeon Yun; Raheeb Hassan; Hyunwoo Oh; SungHeon Jeong; Mohsen Imani",
+      "summary": "Deep reinforcement learning has become a prominent approach to autonomous cyber defense. Existing methods are predominantly model-free and consequently require extensive environment interaction. World models provide an alternative by learning predictive dynamics and optimizing policies through imagined trajectories, yielding substantial gains in sample efficiency in robotics and embodied control. Extending this paradigm to cybersecurity raises a fundamental question: what should constitute the \"world\" in a cyber world model? We introduce CyberWorld, a Dreamer-style world modeling framework that learns latent cyber dynamics from vector, graph, textual, and multimodal representations of the defended network. Across all four scoreable CyberWheel attack strategies, the graph-based CyberWorld variant exceeds a strategy-agnostic control after 3.6k-15.8k environment steps, compared with millions of steps required by model-free PPO. Across representation choices, graph structure provides greater robustness under topology-dependent attacks, while simpler representations remain competitive in overall performance. Among successful runs, the number of episodes required to reach the control remains approximately constant as network size increases from 15 to 100 hosts. These results establish learned cyber dynamics as a sample-efficient and scalable basis for autonomous defense, and identify world representation as a central design axis for robustness and scalability.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Where Do Embodied Decisions Come From? Rethinking Latent and Explicit Reasoning",
+      "id": "2609.34794v1",
+      "published": "2026-09-28",
+      "authors": "Yuan Lin; Ziyue Zhou; JinLong Zhao; Pei Liu; Haipeng Liu; Pan Zhou; Kun Zhan",
+      "summary": "Chain-of-Thought (CoT) reasoning is increasingly incorporated into Vision-Language-Action (VLA) models, yet it can degrade the performance of stronger embodied agents. We investigate this capability-dependent effect by distinguishing explicit reasoning from latent decision computation, i.e., perception-grounded computation that directly supports action prediction. Under the standard \\textit{think-then-act} (TTA) paradigm, intervening on the generated CoT while fixing the visual input and model parameters causes a substantial performance collapse, with Navigation F1 dropping from 72.14% to 11.84%, demonstrating the strong influence of explicit reasoning on action generation. We then propose \\textit{decide-then-explain} (DTE), which predicts actions before generating explanations, and introduce Visual Conditional Contribution (VCC) and Reasoning Conditional Contribution (RCC) to characterize the resulting decision process. Across autonomous driving and robotic manipulation, DTE consistently outperforms TTA and conventional \\textit{no-CoT} baselines, while exhibiting greater reliance on perception-grounded computation. Further TTA-trained, DTE-inference experiments show that this benefit is not solely attributable to retraining under the new factorization. Our results suggest that for capable embodied agents, explicit CoT may be better used to shape decision computation during training rather than mediate action generation at inference time. Code: https://github.com/ocean-luna/openvla-decide-then-explain.",
+      "categories": [
+        "cs.CE"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "SemRD-V2X: Closure-Guided Communication with Bounded Inference for Cooperative Perception",
+      "id": "2609.34353v1",
+      "published": "2026-09-28",
+      "authors": "Hu Xu; Chun Li; Siyuan Qiu; Zeyan Li; Jianfeng Xu",
+      "summary": "Vehicle-to-Everything (V2X) cooperative perception improves 3-D detection by sharing intermediate features, but dense remote features may repeat context that the ego agent can infer locally. Most communication-efficient designs optimize masks or codes empirically, leaving a more basic question open: which remote evidence is indispensable given the receiver's own observation? We introduce a closure-fidelity perspective on ego conditioned remote perception. Under a finite deductive abstraction and explicit conditions, its rate--distortion function decomposes over an irredundant core, and the exact zero-distortion rate becomes $P_A H(π_A)$. This analysis suggests a concrete design principle: transmit compact evidence and recover derivable context with bounded receiver-side inference. Guided by this principle, SemRD-V2X is an operational neural proxy that combines exact-budget BEV support selection, pointwise channel compression, and masked shared-weight reconstruction before standard fusion. Experiments on simulated V2XSet and real-world DAIR-V2X validate the resulting design. In a controlled five-run V2XSet comparison against a locally reproduced V2X-ViT-v1 baseline on one Tesla V100, SemRD-V2X reduces the analytical feature payload by $26.6\\times$ while improving AP@0.5/AP@0.7 by 4.13/8.57 points, with 3.81\\% additional mean compute latency. These results position closure fidelity as both an analytical lens and an actionable design principle for communication-efficient cooperative perception.",
+      "categories": [
+        "cs.AI",
+        "cs.IT"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Embodied Semantic Communication for Collective Autonomous Agents: A Tutorial on Representation, Wireless Delivery, and Closed-Loop Coordination",
+      "id": "2609.35936v1",
+      "published": "2026-09-28",
+      "authors": "Yizheng Huang; Wensheng Lin; Lixin Li; Qinghe Du; Wenchi Cheng; Zhu Han",
+      "summary": "As autonomous systems and embodied intelligence enter the dynamic physical world, multi-agent collaboration calls for a paradigm shift in communication design. However, existing communication paradigms overlook that agents form action understanding from their own states, environmental observations, and collaboration relations through a process that evolves as a task unfolds. Consequently, reliable bit delivery, general semantic recovery, or single-task utility optimization alone cannot ensure that heterogeneous agents form coordinated actions compatible with their own conditions from shared information during task execution. To address this gap, this paper proposes embodied semantic communication (ESC) as a paradigm that transforms information transmission into action-oriented semantic interaction. Specifically, ESC characterizes how an explicit communication link can encapsulate multimodal perceptual states, intrinsic hardware capabilities, and collaborative intents into unified actionable semantic representations, thereby enabling heterogeneous receiving agents to parse, align, and ground them in local motor control. This paper clarifies the conceptual boundary, system characteristics, and environment-constrained technical pathways of ESC. It maps the underlying mathematical tools, including semantic information theory, world models, and multi-agent decision theory. Finally, this paper summarizes key open challenges, including measurable semantic reliability, ambiguity-triggered interaction under dynamic environments and tasks, and bandwidth-adaptive semantic transmission, outlining a roadmap for collective embodied networks.",
+      "categories": [
+        "cs.MA",
+        "cs.AI"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "EquivDP3: A SIM(3)-Invariant Point-Cloud Encoder for Data-Efficient Humanoid Loco-Manipulation",
+      "id": "2609.36575v1",
+      "published": "2026-09-29",
+      "authors": "Abu Hanif Muhammad Syarubany; Chang D. Yoo",
+      "summary": "Visuomotor policies for humanoid loco-manipulation must generalize across object poses and lighting from only a handful of demonstrations. 3D Diffusion Policy (DP3) conditions a diffusion-based action generator on point-cloud features, but its PointNet-style encoder has no built-in equivariance to the rotations, translations, and scalings (SIM(3)) that manipulation tasks respect. EquiBot closed this gap for wheeled manipulators with a SIM(3)-equivariant Vector Neuron Network (VNN) encoder. We extend this to a substantially more complex embodiment, the 43-joint Unitree G1 humanoid, and propose EquivDP3: a two-stage policy where a high-level diffusion planner with a SIM(3)-equivariant VNN encoder emits 6 Hz whole-body command chunks, executed at 50 Hz by a frozen, pre-trained RL locomotion policy and a differential inverse-kinematics module for the arms, trained end-to-end by behavior cloning. Across two simulated IsaacLab benchmarks and four non-equivariant baselines (5-100 demonstrations, in- and out-of-distribution), EquivDP3's advantage concentrates in the low-data regime: at 5-10 demonstrations it reaches 67.1% success versus 38.2-52.4% for the baselines, while by 50-100 all encoders converge (74.3-85.2%) and the ordering is no longer meaningful. A proprioception-only control confirms this gap is genuinely perceptual: with the point cloud removed, success drops to 31% vs. 60% (EquivDP3) at 5 demonstrations and 78% vs. 99% at 10, but vanishes by 50-100, showing the high-data plateau reflects a benchmark ceiling, not five encoders learning the same invariance. The encoder costs only 0.8 ms of extra latency per action chunk over the PointNet encoder it replaces. Baking geometric symmetry into a hierarchical diffusion policy's perception backbone is a practical, nearly free way to improve data efficiency for humanoid loco-manipulation when demonstrations are scarce.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "EVOKE: Eliciting World Knowledge in Agents for Transferable Decision-Making",
+      "id": "2609.38334v2",
+      "published": "2026-09-29",
+      "authors": "Yuhan Guo; Jinming Liu; Liang Xu; Ziqiang Li; Jianguo Huang; Zhicheng Wang; Hu Zhu; Qiuyu Chen; Yuntao Wei; Xin Jin; Wenjun Zeng",
+      "summary": "Large language models (LLMs) are increasingly deployed as agents for multi-step decision-making, yet transfer poorly to unseen environments. World-model methods address this by training agents to predict future observations, at the cost of additional training and errors that compound when predictions are used for planning. However, for LLM agents operating in digital environments, much of this world knowledge is already internalized during pretraining, which shifts the problem from acquiring it to eliciting it. We argue that typical post-training provides little pressure for such elicitation, since supervision under a single goal at each visited state inadvertently drives policies to rely on superficial contextual habits. We introduce EVOKE, a post-training method that supplies this pressure through goal diversity at fixed states. Motivated by theory showing that an agent competent across diverse goals must encode a world model recoverable from its action preferences, EVOKE holds the environment state and interaction history fixed and ranks the same candidate actions under alternative goals, forcing action preferences to change, so that a policy relying on contextual habits or single-goal correlations cannot order them correctly. This implicitly elicits the policy's pretrained world knowledge to inform decisions. We evaluate EVOKE across diverse tasks in three backbones, demonstrating improved task performance, unseen environment generalization, and data efficiency. We further conduct controlled analyses to better understand what drives these gains. These findings offer a new perspective on eliciting internalized world knowledge for transferable action through direct decision supervision.",
+      "categories": [
+        "cs.CL"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Conditional Generation of Creative Chess Puzzles with Diffusion Models",
+      "id": "2609.38577v1",
+      "published": "2026-09-29",
+      "authors": "Aatu Selkee; Severi Rissanen; Xidong Feng; Tom Zahavy; Eric Malmi",
+      "summary": "While modern language models demonstrate impressive generative capabilities, they often struggle with constrained, counter-intuitive creative tasks. To address this limitation, we explore chess puzzle generation as a rigorous testbed for computational creativity and reasoning, a domain where altering a single piece can invalidate an entire solution. We propose a novel approach for conditional generation of creative chess puzzles using masked diffusion models. Unlike previous methods, our non-directional diffusion approach allows for conditioning on specific tactical themes and partial board positions. We introduce a novel auxiliary task of simultaneous best-move prediction, which improves solution uniqueness by 11.6% and theme-conditioning accuracy by 2.5%. To further optimize solution uniqueness and theme conditioning, we establish a reinforcement learning framework adapted from Denoising Diffusion Policy Optimization (DDPO). This RL training increases the yield of unique and theme-matching positions by 89.1%. Finally, we release the first open-weights models (Appendix B) for chess puzzle generation, offering a new pathway for controllable, creative generation.",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Diffusion Policy Improvement with Proposal-Conditioned Refinement Flows",
+      "id": "2609.36812v2",
+      "published": "2026-09-29",
+      "authors": "Junhyun Ha; Juho Lee; Byoungwoo Park",
+      "summary": "Diffusion and flow policies can model complex behaviors in offline reinforcement learning (RL). However, penalizing their KL divergence from the behavior policy can discourage actions having high critic values with low behavior density. Directly refining behavior proposals may be an alternative, yet Gaussian or deterministic editors limit expressiveness to represent multiple separated modes for the same proposal. In this work, we introduce Proposal-Conditioned Refinement Flows (PReFlow), a policy extraction method combining critic-based proposal selection with a conditional refinement flow. To optimize proposal selection and refinement together, we formulate a KL-regularized objective whose optimum induces a Gibbs policy over final actions under a Gaussian-smoothed behavior prior. The refinement flow can represent multiple high value modes, while a proposal-centered Gaussian reference regulates large action changes. This Gaussian reference further enables us to make use of simulation-free, closed form adjoint matching targets from sampled endpoints and critic gradients, yielding a single velocity regression loss without a backward adjoint solve. On 50 OGBench tasks, PReFlow achieves competitive offline performance and the highest aggregate score among the compared methods after online fine-tuning, reaching 91\\% after 500K environment steps.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "When Reasoning Helps Action: Monitoring and Steering Chain-of-Thought in Vision-Language-Action Policies",
+      "id": "2610.00601v1",
+      "published": "2026-09-30",
+      "authors": "Sathwik Karnik; Joseph JR. Lee; Aryaman Gupta; Somil Bansal",
+      "summary": "Reasoning-enabled VLA policies expose chain-of-thought (CoT) traces that appear to explain and guide their actions, creating a potential interface for runtime safety through reasoning monitoring and correction. In this work, we define and operationalize two evaluation axes for assessing when this interface can improve embodied behavior: correctability, which measures whether unreliable reasoning can be detected and improved during generation, and actionability, which measures whether reasoning corrections produce behaviorally meaningful changes in the intended direction. To enable correctability, we introduce Token-level Reward for Utility-Steered Chain-of-Thought (TRUST), an offline-trained value model that predicts eventual reasoning correctness from partial prefixes and uses these estimates to monitor and selectively steer reasoning generation in frozen VLA policies. On the Alpamayo 1.5 driving VLA, TRUST monitors correctness with 88.9% accuracy and improves reasoning correctness from 75.9% to 90.0%. On a baseline-defined challenging subset in AlpaSim, TRUST reduces collision rate by 30.4% and maximum trajectory error by 11.5% relative to the unsteered policy, outperforming a compute-matched Best-of-4 baseline. On the DeepThinkVLA manipulation VLA, TRUST improves the correctness of grasp-state claims from 69.3% to 90.2% and action-choice claims from 68.8% to 85.9%, yet closed-loop task performance on LIBERO-Plus remains largely unchanged. Empirical analysis reveals intent-consistent behavioral effects in Alpamayo 1.5 but limited effects in DeepThinkVLA, helping interpret these different task-level outcomes. Together, our results show that gains in reasoning correctness do not automatically imply gains in embodied performance, motivating evaluation of correctability and actionability when using CoT as a runtime safety interface.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "IndoorBEV: A Lightweight Real-Time LiDAR BEV Perception System for Indoor Mobile Robots",
+      "id": "2610.00355v1",
+      "published": "2026-09-30",
+      "authors": "Haichuan Li",
+      "summary": "Efficient indoor LiDAR perception is challenging because mobile robots must understand cluttered three-dimensional environments under strict latency and memory constraints. Existing point-based and voxel-based methods often incur substantial computational overhead, whereas conventional bird's-eye-view (BEV) representations improve efficiency at the cost of discarding vertical geometric information. We present IndoorBEV, a lightweight LiDAR perception framework that mitigates this tradeoff through a height-aware BEV representation and geometry-conditioned feature fusion. IndoorBEV summarizes the vertical point distribution in each BEV cell using statistical height features and multi-frequency height encoding, allowing informative three-dimensional cues to be processed efficiently by two-dimensional convolutions. A lightweight encoder then integrates complementary geometric features with multi-scale local representations and compact global scene context. Decoupled dense prediction heads jointly produce semantic BEV maps and oriented object bounding boxes. IndoorBEV contains only 0.6M parameters and requires 2.3 MB of model storage. On an NVIDIA AGX Orin, it uses 21.52 MB of GPU memory per inference and achieves a mean latency of 169.6 ms under a 200 ms perception deadline, with a deadline miss ratio of 1.8\\%. Evaluations on simulated scenes, real-world robot scans, and an open-source indoor point-cloud dataset demonstrate a favorable tradeoff among perception accuracy, latency, and memory consumption. These results indicate that explicitly encoding vertical geometry within a compact BEV representation provides an effective approach to resource-efficient indoor LiDAR perception.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Looking Back to Move Forward: Temporal Verification for Generative Robot Policies",
+      "id": "2609.39038v1",
+      "published": "2026-09-30",
+      "authors": "Haoxuan Wang; Wayne Wu; Yan Yan; Bolei Zhou",
+      "summary": "Generative policies have emerged as a promising paradigm for robot learning, combining expressive generative action modeling with scalable imitation learning from large demonstration corpora. However, heterogeneous demonstrations can induce suboptimal action chunks whose errors compound over time, eventually driving the robot into out-of-distribution states from which recovery is difficult. Action verification offers a test-time scaling strategy for mitigating this failure mode by sampling multiple candidate actions and using a verifier to select one for execution. Existing approaches, however, remain temporally myopic and costly to train, evaluating candidates from the current observation alone without accounting for trajectory continuity and often relying on large verifiers and additional expert demonstrations. In this paper, we introduce Temporal Verification (TeV), an efficient temporally aware action verification framework for flow-matching VLAs. TeV first learns a temporal token that summarizes recent observation--action history, enabling candidate chunks to be evaluated as continuations of the execution trajectory rather than as isolated predictions. Conditioned on this token, TeV constructs positive--negative pairs without additional expert demonstrations or preference annotations and trains an energy-based verifier contrastively to assign lower energy to higher-quality, trajectory-consistent action chunks. Beyond post-hoc ranking, TeV further uses the learned energy landscape to guide intermediate flow samples toward lower-energy regions, improving candidates before final selection. Extensive experiments in simulation and real-world settings demonstrate that TeV provides reliably ranks action candidates, improves task success rates, and produces smoother execution trajectories.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Text-to-3D Policy: Fine-Grained Language-Behavior Alignment for Unseen Specification Generalization",
+      "id": "2609.39599v1",
+      "published": "2026-09-30",
+      "authors": "Xinhao Yang; Wenhao Wu; Ning Lv; Yanshen Ding; Zhenhong Sun; Daoyi Dong; Chunlin Chen; Zhi Wang",
+      "summary": "3D visuomotor policies provide a strong foundation for spatially precise manipulation, yet current text-to-3D policies struggle to follow unseen fine-grained behavioral specifications beyond those covered by demonstrations. We study this challenge as unseen specification generalization, where language specifies behaviorally significant variations, such as target position, displacement, or articulated state, that are absent from policy training. We find that pretrained language representations and conventional global behavior-language alignment capture coarse task semantics but often blur nearby specifications that require distinct behaviors. We introduce T3DP, a Text-to-3D Policy framework for fine-grained language-behavior alignment. Rather than compressing each instruction and demonstration into a single global embedding, T3DP preserves their local structures and establishes bidirectional token-level correspondence between linguistic elements and behavioral segments. This directly grounds subtle linguistic variations in the behavior components they affect, preventing closely related specifications from collapsing in the representation space. The resulting specification-sensitive language representation conditions a point-cloud-based 3D diffusion policy, enabling more precise control over unseen behavioral specifications without modifying the underlying policy architecture. Across Meta-World, ManiSkill, and RoboTwin, T3DP improves average held-out-specification success over global language-behavior alignment by +11.0-14.2 points, with gains on all 15 task families; on real-robot tasks, it further raises average success from 47.5% to 65.0% (+17.5 points). Representation and action-probe analyses show that fine-grained alignment better preserves specification geometry and action-relevant variation, linking local behavior grounding to downstream control.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Loop-Free Inverse Reinforcement Learning via Sequential Value Recovery with Q-Score Matching",
+      "id": "2609.38955v1",
+      "published": "2026-09-30",
+      "authors": "Yang Chen; Yitan Zhang; Michael Witbrock; Shuyue Hu",
+      "summary": "Inverse Reinforcement Learning (IRL) aims to recover a reward function that explains expert demonstrations. Existing IRL methods typically rely on a bi-level optimization procedure that alternates between reward learning and policy optimization, leading to substantial computational burden and training instability. In this work, we introduce a different route that eliminates policy optimization entirely by leveraging diffusion policies. Our key insight is that a diffusion policy encodes the action-gradient structure of the optimal soft Q function, enabling reward learning to be cast as a sequence of value recovery problems, thereby allowing us to bypass reward-policy loops inherent in prior IRL methods. Specifically, our method proceeds in three stages: (I) recovering the optimal soft Q function via action-gradient matching and estimating the corresponding soft value function (LogSumExp of Q values) in a way inspired by Gumbel regression; (II) calibrating these soft values by inferring a state-dependent offset; (III) extracting the reward by enforcing Bellman consistency. This leads to Loop-Free Inverse Reinforcement Learning (LFIRL), a fully offline algorithm that operates in a simple, loop-free, and sequential manner. LFIRL is simple to implement and significantly improves training efficiency while maintaining strong reward recovery performance. Empirically, across Maze, Franka Kitchen, Adroit Hand Pen, and Push-T benchmarks, LFIRL achieves 2-3x speedup over the fastest baselines, while matching or surpassing state-of-the-art methods in reward recovery quality.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "CriticHack: Evaluating Visual Rewards Under Robot Policy Optimization",
+      "id": "2610.02527v1",
+      "published": "2026-10-01",
+      "authors": "Jiaxuan Luo; Xingguo Xu; Shanshan Wang; Yuhan Zhou; Zhen Zhang",
+      "summary": "Learned visual reward models are increasingly used to optimize robot policies, yet a reward model can score an execution that acts on the wrong object as highly as one that completes the task. We show that optimizing such a reward can amplify these wrong-object failures while reward and task success both rise, so the signals a practitioner would normally monitor look healthy. We fine-tune every denoiser parameter of a diffusion policy against Robometer on a drawer task. Starting from a supervised policy with no prior reward exposure, five training runs raise task success by 10.2 percentage points and wrong-object failures by 10.9 points on 512 evaluation seeds, whereas five runs trained on the simulator's task-completion signal raise success without amplifying wrong-object failures (difference 9.2 points, 95% CI 5.6 to 13.0). The amplification recurs from a policy previously optimized against learned rewards, under the policy's native diffusion sampler, at matched distance from the initial policy, and across constrained-policy experiments with two critics and two optimizers. A tilt model explains when it occurs: under KL-regularized optimization, an outcome becomes more frequent whenever its expected reward under the initial policy exceeds the population average. Robometer separates successes from failures well overall (AUROC .81) but scores wrong-object failures slightly above successes (AUROC .37), so optimization raises both. The same model predicts the outcome shifts across 26 constrained settings (Spearman .89), including those in which task success falls, and Robometer's own published success-termination recipe inherits the error. A frozen outcome verifier redirects the same optimization toward the requested task.",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Agentic RF Intelligence: Multi-Timescale 6G Sensing and Reasoning with On-Device Foundation Models",
+      "id": "2610.03139v1",
+      "published": "2026-10-02",
+      "authors": "Jaron Fontaine; Jelle De Moerloose; Xander Vanparys; Anton Lambrecht; Eli De Poorter; Adnan Shahid",
+      "summary": "Future 6G systems share a central challenge with Physical AI: combining sensing, reasoning, and action on network-edge infrastructure in rapidly changing physical environments under strict latency, compute, and energy constraints. Addressing this challenge requires multi-timescale intelligence, combining fast perception that tracks wireless phenomena within milliseconds with slower reasoning that directs sensing and adapts network policies and resources over seconds. In this paper, we present a vision for Agentic RF Intelligence based on a dual-loop architecture that decouples fast, locally autonomous wireless sensing (e.g., detecting spectrum dynamics, interference, and signal sources) from slower agentic reasoning and orchestration. We provide an on-device prototype in which the full stack runs on a single NVIDIA Jetson Thor connected to a B200 Mini USRP. The fast loop processes IQ samples using signal-processing tools and wireless physical-layer foundation models (WPFM), while a local Large Language Model (LLM) asynchronously interprets RF events, invokes tools and steers sensing. Our experiments confirm the separation in timescales, as WPFMs operate at millisecond latency, while LLM interactions take seconds to minutes. The fast loop remains operational during agentic reasoning, providing initial evidence for the feasibility of this decoupled architecture. We conclude by outlining extensions toward memory-driven self-improvement, world models, network control, and multi-agent operation.",
+      "categories": [
+        "eess.SP"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "AdaTempo: Learning Shared Relative Tempo from Demonstrations for Faster Robot Manipulation",
+      "id": "2610.02706v1",
+      "published": "2026-10-02",
+      "authors": "Jiale Cao; Yike Niu; Zhengrong Xue; Huazhe Xu",
+      "summary": "Visuomotor policies trained via imitation learning often inherit the unnecessarily slow timing of teleoperated demonstrations. Yet uniform speedup is unreliable because different phases of a manipulation task tolerate acceleration differently. In this work, we introduce AdaTempo, a self-supervised method that accelerates visuomotor policies by exploiting shared relative-tempo structure in demonstrations. AdaTempo establishes phase correspondence, aggregates the aligned relative tempo into a consensus, and maps it to a continuous speedup profile used to resample demonstrations into accelerated training trajectories. Training standard policies such as ACT or Diffusion Policy on these resampled trajectories directly embeds the desired tempo in the learned behavior, without runtime tempo selection or online retiming. Extensive evaluations show that AdaTempo achieves up to a $3.57\\times$ speedup and yields a stronger success--speed trade-off than the original policies and representative acceleration baselines.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Video2World: Benchmarking Coding Agents for Interactive World Modeling from Embodied Videos",
+      "id": "2610.04432v1",
+      "published": "2026-10-03",
+      "authors": "Jinzhou Tang; Zijun Zhang; Jing Yang; Yuchen Yan; Kun Zhou; Lingjun Mao; Ruobing Han; Jinglin Cao; Wenpeng Xu; Lukun He; Minghao Fu; Fan Feng; Biwei Huang",
+      "summary": "Building interactive simulators from real-world observations is a promising way to scale embodied data, but current pipelines still rely heavily on manual environment construction and calibration. We study whether frontier foundation models and coding agents can automate this process end to end. We formulate \\emph{autonomous video-to-simulation} as a software engineering task in which an agent observes an embodied video, constructs the corresponding simulated environment and robot behavior, and iteratively refines the result through execution feedback. To evaluate this capability, we introduce \\textbf{Video2World}, a benchmark comprising 222 reconstruction instances derived from 189 robot and human demonstration videos. Video2World measures reconstructed worlds along geometric fidelity, dynamic fidelity, and functional correctness, capturing spatial perception, physical reasoning, and executable interaction. Evaluating 9 frontier coding-agent systems reveals a sharp improvement in Task success beginning with Claude Opus 5, rising from below 5\\% to over 15\\%, while substantial gaps to human-assisted reconstruction remain. We further find that worlds that look better could work worse: better visual fidelity does not always lead to higher task success. This echoes the broader gap between perceptual realism and factual correctness observed in generative models.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "AUTOPILOT An Advanced Perception, Localization and Path Planning Techniques for Autonomous Vehicles Using YOLOv7 and MiDaS",
+      "id": "2610.06232v1",
+      "published": "2026-10-05",
+      "authors": "Harshkumar Devmurari; Gautham Kuckian; Prajjwal Vishwakarma",
+      "summary": "Self driving vehicles have emerged as a reliable technology that has the capability to transform transportation and mobility. The development of self driving cars requires significant advances in a number of areas, including perception, localization, decision making, and control. This research paper is based on the project implementation of the combination of object detection using YOLO (You Only Look Once), depth sensing using MiDaS for the localization and perception of obstacles, perspective transform, and decision making for path planning in self driving cars. The contemporary state of the technology for object detection, depth sensing, localization, and path planning evaluates the performance of the combined system through simulations and experiments. The results show that the combination of YOLO and MiDaS provides a new robust system for object detection and depth sensing. This research paper contributes to the advancement of self driving car technology and provides new and innovative approaches to the perception and localization of obstacles in the environment. Keywords: YOLO, MiDaS, perception, localization, decision making",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Robotizing Human Videos with Physically Consistent Interactions",
+      "id": "2610.06137v1",
+      "published": "2026-10-05",
+      "authors": "Ching-Lam Cheng; Shengfeng He; Bin Zhu",
+      "summary": "Human videos offer scalable manipulation data, but the embodiment gap between human hands and robot manipulators limits their direct use. Existing video-editing methods replace hands with rendered robots, yet inaccurate interaction reconstruction and compositing can produce inconsistent grasps and implausible robot-object occlusions. We address these failures from two complementary physical aspects: interaction geometry and scene visibility. First, an interaction-aware contact reconstruction module combines hand-object segmentation with mesh-level contact prediction to recover dense 3D contacts, then converts them into temporally stabilized grasps for parallel-jaw grippers. Second, a depth-aware compositing module uses scene and robot depth to enforce physically consistent robot-object occlusions. The resulting videos preserve the interaction structure of human demonstrations in a robot-compatible form and are co-trained with robot demonstrations. Using identical human videos and robot data, we compare against robot-only training and the original Masquerade pipeline. Across four RoboTwin tasks and two Diffusion Policy visual encoders, our method achieves the highest average success rates, with especially strong gains under out-of-distribution scene variation. Real-world deployment further shows that the proposed co-training approach improves robustness to visual distractors when the task geometry is observable, while performance on depth-sensitive grasps remains limited by the single-camera setup.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Reachability-Aware Diffusion Policy Optimization",
+      "id": "2610.05969v1",
+      "published": "2026-10-05",
+      "authors": "Hikmet Simsir; Kutay Demiray; Ozgur S. Oguz",
+      "summary": "Diffusion policies provide expressive action distributions for continuous-control reinforcement learning. However, safety-aware online diffusion policy optimization remains underexplored, particularly methods that use predictive reachability information without an explicit dynamics model. We propose Reachability-Aware Diffusion Policy Optimization (RADPO), a model-free method that combines predictive first-hit safety estimation with cumulative-cost budget feedback. RADPO learns a discounted first-hit reachability value that captures the discounted risk of a cost event, assigns larger weight to events that occur sooner, and uses this signal to shape the reward. A separate dual-like multiplier adjusts the shaping strength according to realized episodic costs relative to a prescribed budget. The diffusion actor improves through weighted denoising regression on candidate actions scored by the reward critic. Our approach requires neither a learned dynamics model, action gradients through the critics, nor differentiation through the reverse diffusion sampler. We establish theoretical properties of the reachability value and show that accumulated reachability penalty provides a conservative surrogate for future discounted cumulative cost. Across ten continuous-control safety tasks, RADPO achieves competitive reward-cost trade-offs, with substantial reductions in constraint violations on several tasks relative to the compared baselines. Our theoretical and empirical analysis supports that combining reachability with cumulative budget feedback is a viable approach to safety-aware diffusion policies.",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Demonstration-Calibrated Port-Hamiltonian Retuning for Manipulation Policies",
+      "id": "2610.05755v1",
+      "published": "2026-10-05",
+      "authors": "Yulong Yang; Fan Wu; Christine Allen-Blanchette; Amit Chakraborty",
+      "summary": "Diffusion and VLA policies for manipulation are often deployed through downstream impedance controllers. The stiffness and damping gains of these controllers affect task success, yet are commonly inherited from data collection rather than selected for the deployed policy. Although empirical gain sweeps can improve performance, they require repeated evaluation rollouts. We introduce PHRetune, an offline method that derives controller gains for a frozen policy without evaluation rollouts or gain search. Our approach learns a port-Hamiltonian model from demonstrations to estimate the effort and energy associated with the policy's predicted actions. The policy is applied to recorded demonstration observations, and its predictions are assessed against demonstration-derived effort and energy budgets. From this comparison, we derive a single gain scale in closed form, adjusting the downstream controller while preserving the policy and its action representation. The gains are fixed before evaluation, without requiring a prior manipulator model, task rewards, policy retraining, or additional runtime computation. Across LIBERO suites, PHRetune improves Diffusion Policy success by up to 9.4 percentage points, with the derived gains achieving the highest observed success rates in empirical gain sweeps. On all four real-world manipulation tasks, PHRetuned Diffusion Policy outperforms the nominal policy, alternative gain-tuning methods, and a policy-retraining baseline. The same procedure improves success with SmolVLA and OpenVLA-OFT on every task, while reducing acceleration and jerk for both VLA backbones.",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "The Unexpired Plan: A Free Monitor for Accelerated Diffusion Policies",
+      "id": "2610.05747v1",
+      "published": "2026-10-05",
+      "authors": "Yi Zhao; Sebastian Scherer",
+      "summary": "Training-free acceleration of a diffusion policy is accepted when an internal similarity signal reports that the shortcut changed nothing. We price every monitor a control loop can afford in closed-loop success rather than feature distance, over $114$ accelerator configurations and four policy families: two accelerators each clear their own gate's bar and log every reuse as certified, while on one task one finishes every episode and the other none. A monitor is two designs, not one --- the statistic it reads, and what it does when that statistic fires. Published gates re-arm after every rejection, and under that response even an oracle handed every forward pass and the exact local action error loses twenty points; absorbing the same statistic costs one point, and most of its speed. What makes a response that never forgets affordable is a statistic that rarely fires, and what it must measure is deviation from the policy the accelerator replaced --- which a chunked policy has already paid for, its last plan not yet expired and free to read. Guarding every call this way cuts per-call compute by $1.55$--$3.09\\times$, where any reference-requiring check at the same coverage would have to stop accelerating altogether. On three of our four families the schedule alone already holds the pre-stated $\\pm2$-point margin. What the monitor is measurably worth shows in three places: on the fourth family, where it rescues the candidate selection landed on; on four configurations it did not select; and on a contact-rich fifth family, chosen where the schedule was expected to fail and run after every design choice was frozen, where no unmonitored arm at its speed holds the margin and the monitored one does.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "status": "new"
+    },
+    {
+      "title": "Kepler: Auditable World Models for ARC-AGI-3",
+      "id": "2610.00834v1",
+      "published": "2026-09-30",
+      "authors": "Wensen Wu",
+      "summary": "ARC-AGI-3 evaluates agents in interactive environments whose rules and objectives must be inferred from observation. We present Kepler, an open-source harness that represents hypotheses as executable world models and validates them through retrospective transition checks and conditional prediction checks. Under one frozen Claude Opus 5 configuration, Kepler obtained a server-verified 100.00 RHAE on all 25 public games, with no per-game model selection or score-conditioned reruns. On 181 of 183 completed levels, the final Opus attempt used no more actions than the corresponding median-human baseline. The retained board runs used 8,256 environment actions, of which 7,292 occurred in scored levels. Retained local provider-session records yield 858.0 million tokens, 97.37% cache reads, and a \\$777.72 cost at September 1, 2026 API list-equivalent rates. We also report three evaluation failures: source-code leakage that produced an invalid perfect run, agents reconstructing a removed harness in a control condition, and autonomous repair masking a broken planner. A single-game observation case study showed that animation frames contained task-relevant information absent from settled text grids. Across the final Claude Opus 5 and GPT-5.6 Sol boards, 48 of 50 game-model cells reached 100. These results indicate that public-set score alone has limited discriminative value and motivate first-attempt, cost-conditioned, and verification-aware reporting.",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "relevance": 3,
+      "status": "new"
+    },
+    {
+      "title": "Building A Multi-Sensor Platform For Autonomous Driving Research: Challenges and Lessons Learned",
+      "id": "2610.05604v1",
+      "published": "2026-10-04",
+      "authors": "Paulo Ricardo Marques de Araujo; Eslam Mounier; Qamar Bader; Emma Dawson; Aboelmagd Noureldin",
+      "summary": "This paper reports on the challenges encountered and lessons learned during the development and deployment of a flexible multi-sensor platform for autonomous driving research. It aims to serve as a reference for researchers developing new multi-sensor systems. As the need for reliable, diverse datasets increases, novel environments and sensing configurations are essential to tackle real-world operational challenges. Consequently, many research groups create custom multi-sensory data collection platforms, where fundamental issues, such as mechanical design, sensor calibration, power management, and time synchronization, arise regardless of sensor types. We reflect on these challenges and share key insights to guide future platform designs, enhancing reproducibility and robustness in autonomous vehicle testing. We also summarize the mitigation strategies we adopted, for instance, system-wide time synchronization using GNSS timing and NTP protocols, custom calibration routines for different sensor configurations, and design practices to improve reliability and data integrity during field deployments.",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 3,
+      "status": "new"
+    },
+    {
+      "title": "Scenario-Based Compositional Statistical Model Checking for Safety Specifications",
+      "id": "2610.05571v1",
+      "published": "2026-10-04",
+      "authors": "Abhinav Pomalapally; Arya Raeesi; Kevin Kai-Chun Chang; Beyazit Yalcinkaya; Sanjit A. Seshia",
+      "summary": "In safety-critical domains such as autonomous driving, systems must be evaluated across a large number of environment conditions, often represented as composite scenarios built from primitive scenarios. Existing statistical model checking (SMC) approaches analyze each composite scenario independently, requiring many expensive simulations and resulting in substantial redundant computation when scenarios share common structure. This work introduces a scenario-based compositional SMC framework for safety and co-safety specifications, enabling efficient analysis of composite scenarios. Our approach decomposes scenarios into primitives and specifications into sub-specifications, verifies each primitive independently, and composes the resulting statistical estimates using importance sampling and kernel density estimation. Our empirical evaluation shows that the proposed framework can accurately answer verification queries for previously unseen composite scenarios while reducing simulation cost through parallelization and trace reuse.",
+      "categories": [
+        "cs.LO",
+        "cs.AI",
+        "cs.RO",
+        "cs.SE",
+        "eess.SY"
+      ],
+      "relevance": 3,
+      "status": "new"
+    },
+    {
+      "title": "Monocular markerless biomechanics for clinically interpretable gait assessment in spinal cord injury",
+      "id": "2610.05552v1",
+      "published": "2026-10-04",
+      "authors": "Shreyasvi Natraj; Mathieu Ruepp; Yanke Li; Robert Riener; Inge Eriks-Hoogland; Diego Paez-Granados",
+      "summary": "Three-dimensional gait analysis guides rehabilitation after spinal cord injury but depends on marker-based motion capture and force plates, which few clinics have. Monocular markerless pipelines have been established in fewer healthy adult cohorts but not in neurological cohorts. We present the SCAI SCI Gait dataset, comprising 239 adult individuals with spinal cord injury with synchronized video, motion capture, and force-plate measurements, we fitted a parametric body mesh to a single sagittal-view video, driving an anthropometrically scaled OpenSim model via virtual markers. Markerless lower-body kinematics showed state-of-the-art agreement with motion-capture measurements (r = 0.68-0.90, p < 0.001, and RMSE = 4.18-6.49 degrees), and accurate kinematics-based predicted ground-reaction forces closely matched those measured by force plates (r = 0.85-0.87, p < 0.001, and RMSE = 2.13-2.19 Newton per kg). Furthermore, conditional-dependence graph analysis with Markov blankets revealed that waveform components were conditionally associated with functional independence, and speed-stratified clustering revealed distinct mechanical strategies among individuals walking at similar speeds. These findings establish the use of monocular video as a scalable approach for clinically meaningful biomechanical assessment and data-driven phenotyping in patients with spinal cord injury. Github: https://github.com/SCAI-Lab/SCAI-SCI-Gait",
+      "categories": [
+        "cs.CV"
+      ],
+      "relevance": 3,
+      "status": "new"
+    },
+    {
+      "title": "Generative World Models Enable Predictive Control of Laser Melt Pool Dynamics",
+      "id": "2610.06250v1",
+      "published": "2026-10-05",
+      "authors": "Yiyang Yan; Markus Bambach; Mohamadreza Afrasiabi",
+      "summary": "World models, which learn how environments respond to actions, are emerging as a powerful paradigm for planning through imagined futures, transforming decision-making across games, robotics and autonomous driving. Bringing this capability to manufacturing could enable process decisions on timescales inaccessible to high-fidelity simulation. Here we introduce a generative world model for localized highly dynamic laser melt pool that predicts evolution from histories of temperature and phase morphology under candidate actions. Its generative latent dynamics capture the effects of unresolved melt flow, enabling more accurate recursive rollouts than deterministic regressors under transient laser inputs. Because the learned dynamics are differentiable, the model can serve directly as a predictive control plant. Gradients through imagined futures optimize laser schedules that regulate melt-pool depth over previously unseen geometry, path, initialization. We further distil this optimization into an amortized policy that produces control actions in a single forward pass, providing a proof of concept for real deployment on machines.",
+      "categories": [
+        "cs.LG"
+      ],
+      "relevance": 3,
+      "status": "new"
+    },
+    {
+      "title": "Analysis of SWIR Imaging Detection Performance Under Adverse Environmental Conditions for Autonomous Driving Systems",
+      "id": "2610.06596v1",
+      "published": "2026-10-05",
+      "authors": "Rohan Mehra; Alexandre Riffard; Yannis Loumouamou; Mathieu Labussière",
+      "summary": "Short-wave infrared (SWIR) imaging has emerged as a promising modality for autonomous driving, yet its practical benefits over RGB remain poorly characterized across diverse conditions. This paper presents a systematic comparative study of paired RGB and SWIR object detection on the RASMD dataset, covering four weather conditions and two real-time detection architectures, with various fine-tunings evaluated against a unified ground truth. Overall, RGB demonstrates comparable or superior performance in most scenarios, while RF-DETR exhibits greater robustness across varying conditions. Beyond aggregate metrics, we propose a sensor-dominance mining framework that combines multi-model agreement with targeted manual inspection to identify scenarios where one sensing modality provides more reliable detections using largely unannotated paired data. This analysis reveals that SWIR offers clear advantages in four safety-critical situations, including windshield glare, water droplets on the windshield, low-contrast object visibility, and long-range vehicle detection. The findings suggest that SWIR should be viewed as a complementary modality that enhances perception in rare but challenging conditions. The datasets will be available upon request, and all code and trained model weights are publicly released at https://github.com/comsee-research/swir-adverse-env-analysis.",
+      "categories": [
+        "cs.CV",
+        "eess.IV"
+      ],
+      "relevance": 3,
+      "status": "new"
+    },
+    {
+      "title": "Preference-Adaptive Control in Autonomous Driving",
+      "id": "2610.06539v1",
+      "published": "2026-10-05",
+      "authors": "Zhongyu Mo; Shanting Wang; Huaijin Hu; Andreas A. Malikopoulos",
+      "summary": "In this paper, we present a preference-adaptive receding-horizon control framework for autonomous driving that accounts for passenger preferences and motion-sickness susceptibility. We formulate a finite-horizon optimal control problem with adaptive weights for speed, acceleration comfort, and motion sickness, while maintaining a fixed weight for collision risk. We predict motion sickness online using an individualized model on the Motion Illness Symptoms Classifi- cation (MISC) scale and update the preference weights offline from emotion-derived pairwise comparisons using Bayesian inference. A deterministic safety supervisor checks the planned trajectory and modifies the control command when necessary. We evaluate the framework using three simulated passenger profiles under three motion-sickness susceptibility levels. The learned weights yield distinct closed-loop behaviors, and the mean evaluation emotion score improves in seven of nine scenarios. No collisions occur in the full-method experiments, while the safety supervisor intervenes in 1.621% of the learning frames.",
+      "categories": [
+        "eess.SY"
+      ],
+      "relevance": 3,
+      "status": "new"
+    },
+    {
+      "title": "GCTAuto-encoder: A Cross modal Framework for Security Flaw Detection in IoT Networks",
+      "id": "2610.06517v1",
+      "published": "2026-10-05",
+      "authors": "Najmieh Sadat Safarabadi",
+      "summary": "IoT encompasses diverse physical entities, from smart home devices to autonomous vehicles, creating a complex environment with heterogeneous security models. This heterogeneity makes IoT sub-systems vulnerable to various network attacks. Modern security systems must therefore be more robust to ensure security and privacy for IoT applications. A highly secure IoT system also demands real time insight, requiring data collection at the edge of the computing layer. This diversity calls for a unified security model applied at the foundational level. Edge intelligence offers a direct approach to handling device diversity. A key goal of edge intelligence in IoT is to extract insight from local data; security models can then use this data to build local node protections, and integrating AI models yields an advanced security solution. This research proposes a novel deep learning algorithm for effective intrusion detection at the edge, supported by a cloud-based IoT framework. We evaluate the proposed cross modal deep learning algorithm against baseline models. The contribution is a cross domain Deep Neural Network (DNN) algorithm for intrusion detection. The objective is to assess a multi-method deep learning model to detect intrusions in IoT systems at the edge via community detection with modeled attention. We evaluate GCT auto-encoder, a novel framework integrating edge intelligence to identify security flaws. The model significantly improves performance and efficiency. On a network intrusion IoT dataset covering multiple attack scenarios, it achieved 0.908 accuracy, reduced learning loss to 0.00156, and outperformed existing approaches.",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "relevance": 3,
+      "status": "new"
+    },
+    {
+      "title": "Difference Feature Map Distillation: Transferring Inter-Sample Relational Knowledge Towards Efficient Transformer-Based Tracking",
+      "id": "2610.05707v1",
+      "published": "2026-10-05",
+      "authors": "Zhicheng Ding; Xinyu Chu; Qing Tian",
+      "summary": "In autonomous driving perception, visual object tracking systems must satisfy stringent latency and power constraints while remaining robust in complex and dynamic environments. Although transformer-based trackers achieve state-of-the-art accuracy, their substantial computational and memory overheads hinder deployment on real-time, resource-constrained platforms. To move toward this goal, we propose Difference Feature Map Knowledge Distillation (DFM-KD), a novel relational distillation framework tailored for transformer-based visual object tracking. Unlike conventional feature distillation methods that minimize point-wise discrepancies (e.g., mean squared error) between teacher and student feature representations, DFM-KD transfers knowledge through inter-sample feature differences, explicitly aligning the relational structure of the feature space. By distilling how the teacher models appearance variation and consistency across samples, rather than enforcing similarity in absolute activations, DFM-KD enables the student to better capture the structural dynamics of visual changes within a batch. As a result, the distilled model exhibits enhanced feature robustness and improved tracking performance. Extensive experiments demonstrate that DFM-KD consistently outperforms conventional feature-level distillation methods in both tracking precision and success rates.",
+      "categories": [
+        "cs.CV"
+      ],
+      "relevance": 3,
+      "status": "new"
     }
   ],
-  "updated_at": "2026-10-05T17:02:20.359563-07:00",
-  "last_updated": "2026-10-05T17:02:20.359563-07:00",
+  "updated_at": "2026-10-06T17:14:02.080090-07:00",
+  "last_updated": "2026-10-06T17:14:02.080090-07:00",
   "category_counts": {
     "['cs.RO']": 156,
     "['cs.CV', 'cs.RO']": 115,
@@ -16103,7 +16757,7 @@
     "cs.RO, cs.LG": 2,
     "['cs.RO', 'cs.LG', 'cs.AI']": 2
   },
-  "total_papers": 910,
+  "total_papers": 962,
   "weekly": {
     "week": "2026-09-13 ~ 2026-09-19",
     "report": "weekly/2026-09-19-weekly-summary.md",
@@ -16118,6 +16772,58 @@
     "2026-09-24": 83
   },
   "new_findings": [
+    "2607.04689",
+    "2609.28969",
+    "2609.38570",
+    "2610.04187",
+    "2610.06171",
+    "2610.06121",
+    "2610.06469",
+    "2606.31467",
+    "2607.00746",
+    "2607.19036",
+    "2607.28442",
+    "2608.14207",
+    "2608.25178",
+    "2609.16679",
+    "2609.19460",
+    "2609.20604",
+    "2609.21792",
+    "2609.22829",
+    "2609.30521",
+    "2609.30462",
+    "2609.32093",
+    "2609.31893",
+    "2609.34794",
+    "2609.34353",
+    "2609.35936",
+    "2609.36575",
+    "2609.38334",
+    "2609.38577",
+    "2609.36812",
+    "2610.00601",
+    "2610.00355",
+    "2609.39038",
+    "2609.39599",
+    "2609.38955",
+    "2610.02527",
+    "2610.03139",
+    "2610.02706",
+    "2610.04432",
+    "2610.06232",
+    "2610.06137",
+    "2610.05969",
+    "2610.05755",
+    "2610.05747",
+    "2610.00834",
+    "2610.05604",
+    "2610.05571",
+    "2610.05552",
+    "2610.06250",
+    "2610.06596",
+    "2610.06539",
+    "2610.06517",
+    "2610.05707",
     "2609.33854",
     "2609.35078",
     "2609.38641",
@@ -16145,43 +16851,6 @@
     "2609.37046",
     "2609.36875",
     "2610.00705",
-    "2609.39841",
-    "2609.39601",
-    "2609.39570",
-    "2609.39542",
-    "2609.39467",
-    "2609.38862",
-    "2610.02323",
-    "2610.01905",
-    "2610.01856",
-    "2610.01794",
-    "2610.02513",
-    "2610.02000",
-    "2610.01746",
-    "2610.01581",
-    "2610.01531",
-    "2610.03498",
-    "2610.02666",
-    "2610.02765",
-    "2610.02542",
-    "2610.02521",
-    "2610.02515",
-    "2610.02162",
-    "2610.02160",
-    "2610.02054",
-    "2610.01942",
-    "2610.01842",
-    "2610.01614",
-    "2610.01373",
-    "2610.01048",
-    "2610.01019",
-    "2610.03713",
-    "2610.03587",
-    "2610.03374",
-    "2610.03356",
-    "2610.03137",
-    "2610.02957",
-    "2610.02860",
-    "2610.02660"
+    "2609.39841"
   ]
 }

@@ -1,47 +1,48 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-10-07 07:05 UTC",
+  "updated": "2026-10-08 07:08 UTC",
   "status": "success",
   "last_run": {
-    "date": "2026-10-06",
-    "timestamp": "2026-10-06T00:05:18.992120",
+    "date": "2026-10-08",
+    "timestamp": "2026-10-08T00:08:17.997014",
     "success": true,
-    "note": "采集管线最近一次运行 2026-10-06 (6/6 成功)"
+    "note": "采集管线最近一次运行 2026-10-08 (6/6 成功)"
   },
+  "updated_at": "2026-10-08 07:08 UTC",
   "crypto": {
     "status": "success",
     "btc": {
-      "price": 85342.2,
-      "change_24h": -1.05
+      "price": 83019.8,
+      "change_24h": -1.35
     },
     "eth": {
-      "price": 2697.05,
-      "change_24h": -1.19
+      "price": 2569.6,
+      "change_24h": -1.84
     },
-    "note": "OKX 数据正常; BTC 85342.2 (-1.05%) / ETH 2697.05 (-1.19%)"
+    "note": "OKX 数据正常; BTC 83019.8 (-1.35%) / ETH 2569.6 (-1.84%)"
   },
   "sentiment": {
     "crypto_fear_greed": {
-      "value": 73,
+      "value": 64,
       "classification": "Greed"
     }
   },
   "stocks": {
     "status": "success",
-    "note": "2026-10-06 A股/期货收盘数据",
+    "note": "2026-10-08 A股/期货收盘数据",
     "data": {
       "上证指数": {
-        "price": 3842.1946,
-        "change": 0.307,
-        "volume": 414560247.0
+        "price": 3811.9043,
+        "change": -0.788,
+        "volume": 482201685.0
       },
       "深证成指": {
-        "price": 12887.62,
-        "change": -0.111
+        "price": 12620.897,
+        "change": -2.07
       },
       "创业板指": {
-        "price": 3135.277,
-        "change": -0.232
+        "price": 3036.657,
+        "change": -3.145
       },
       "沪金主力": {
         "price": 910.58,
@@ -81,89 +82,77 @@
   },
   "signals": {
     "DoubleMa": {
-      "1h": {
-        "signal": "观望",
-        "price": 85352.9
-      },
-      "4h": {
-        "signal": "观望",
-        "price": 85352.9
-      }
+      "signal_1h": "观望",
+      "signal_4h": "观望"
     },
     "RSI": {
-      "1h": {
-        "signal": "观望",
-        "price": 85352.9
-      },
-      "4h": {
-        "signal": "观望",
-        "price": 85352.9
-      }
+      "signal_1h": "做多",
+      "signal_4h": "观望"
     },
     "MACD": {
-      "1h": {
-        "signal": "观望",
-        "price": 85352.9
-      },
-      "4h": {
-        "signal": "做空",
-        "price": 85352.9
-      }
+      "signal_1h": "观望",
+      "signal_4h": "观望"
     },
     "Bollinger": {
-      "1h": {
-        "signal": "观望",
-        "price": 85352.9
-      },
-      "4h": {
-        "signal": "观望",
-        "price": 85352.9
-      }
+      "signal_1h": "做多",
+      "signal_4h": "观望"
     },
     "Supertrend": {
-      "1h": {
-        "signal": "观望",
-        "price": 85352.9
-      },
-      "4h": {
-        "signal": "观望",
-        "price": 85352.9
-      }
+      "signal_1h": "观望",
+      "signal_4h": "观望"
     },
     "TripleMa": {
-      "1h": {
-        "signal": "观望",
-        "price": 85352.9
-      },
-      "4h": {
-        "signal": "观望",
-        "price": 85352.9
-      }
+      "signal_1h": "观望",
+      "signal_4h": "观望"
     },
     "Momentum": {
-      "1h": {
-        "signal": "做空",
-        "price": 85352.9
-      },
-      "4h": {
-        "signal": "观望",
-        "price": 85352.9
-      }
+      "signal_1h": "观望",
+      "signal_4h": "观望"
     },
     "MeanReversion": {
-      "1h": {
-        "signal": "观望",
-        "price": 85352.9
-      },
-      "4h": {
-        "signal": "观望",
-        "price": 85352.9
-      }
+      "signal_1h": "做多",
+      "signal_4h": "观望"
     }
   },
   "strategies": [
     {
       "name": "DoubleMa",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "RSI",
+      "signal_1h": "做多",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "MACD",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Bollinger",
+      "signal_1h": "做多",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Supertrend",
       "signal_1h": "观望",
       "signal_4h": "观望",
       "daily_return": 0.0,
@@ -181,44 +170,8 @@
       "sharpe": null
     },
     {
-      "name": "Supertrend",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
-      "daily_return": 0.0,
-      "weekly_return": null,
-      "max_drawdown": null,
-      "sharpe": null
-    },
-    {
-      "name": "RSI",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
-      "daily_return": 0.0,
-      "weekly_return": null,
-      "max_drawdown": null,
-      "sharpe": null
-    },
-    {
-      "name": "MACD",
-      "signal_1h": "观望",
-      "signal_4h": "做空",
-      "daily_return": 0.0,
-      "weekly_return": null,
-      "max_drawdown": null,
-      "sharpe": null
-    },
-    {
-      "name": "Bollinger",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
-      "daily_return": 0.0,
-      "weekly_return": null,
-      "max_drawdown": null,
-      "sharpe": null
-    },
-    {
       "name": "Momentum",
-      "signal_1h": "做空",
+      "signal_1h": "观望",
       "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
@@ -227,7 +180,7 @@
     },
     {
       "name": "MeanReversion",
-      "signal_1h": "观望",
+      "signal_1h": "做多",
       "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
@@ -246,30 +199,125 @@
       },
       {
         "source": "Cointelegraph",
-        "title": "Better Markets says CFTC is ‘wrong agency’ to regulate retail crypto",
-        "link": "https://cointelegraph.com/news/better-markets-criticize-cftc-regulate-retail-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Crypto’s heavy backing of Republicans alienated Democrats: Cuomo",
+        "link": "https://cointelegraph.com/news/cryptos-republican-spending-alienated-democrats-says-andrew-cuomo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Rain seeks US trust bank charter days after OCC sued over crypto charters",
-        "link": "https://cointelegraph.com/news/rain-seeks-us-trust-bank-charter-days-after-occ-sued-over-crypto-charters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Crypto must cement adoption to withstand US policy shifts: Canton CEO",
+        "link": "https://cointelegraph.com/news/canton-ceo-crypto-adoption-us-policy-reversals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "OKX eyes emerging markets with yield-offering stablecoin savings and payments app",
-        "link": "https://cointelegraph.com/news/okx-money-stablecoin-savings-payments-emerging-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances",
+        "link": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Chinese crime network laundered over $1B for Lazarus: ZachXBT",
-        "link": "https://cointelegraph.com/news/chinese-crime-network-laundered-over-1b-for-lazarus-zachxbt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Circle brings USDC, EURC payments to SAP customers through Tereina",
+        "link": "https://cointelegraph.com/news/circle-usdc-eurc-payments-sap-enterprise-ecosystem?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   },
   "papers": {
-    "status": "error",
-    "note": "arXiv 采集 0 篇",
-    "items": []
-  },
-  "updated_at": "2026-10-07 07:05 UTC"
+    "status": "success",
+    "note": "arXiv 采集 10 篇",
+    "items": [
+      {
+        "title": "A Hawkes Microfoundation for Multitype Inverse Gaussian Subordinators",
+        "authors": [
+          "Yingli Wang",
+          "Wei Xu",
+          "Lingjiong Zhu"
+        ],
+        "link": "http://arxiv.org/abs/2610.10525v1",
+        "published": "2026-10-07"
+      },
+      {
+        "title": "From a Hierarchy of Stochastic Differential Equations to a Hierarchy of Generalized Beta Distributions",
+        "authors": [
+          "Siqi Shao",
+          "R. A. Serota"
+        ],
+        "link": "http://arxiv.org/abs/2610.10476v1",
+        "published": "2026-10-07"
+      },
+      {
+        "title": "SOTA: Stock Options Trading Agents Guided by Option-Implied Return Distributions",
+        "authors": [
+          "Yizhen Xie",
+          "Mengyang Liu"
+        ],
+        "link": "http://arxiv.org/abs/2610.10407v1",
+        "published": "2026-10-07"
+      },
+      {
+        "title": "OOM-RL II: Reality Is an Oracle, Not a Debugger Provenance-Constrained Diagnosis in Continually Evolving Agent-Engineered Systems",
+        "authors": [
+          "Kun Liu",
+          "Liqun Chen"
+        ],
+        "link": "http://arxiv.org/abs/2610.10256v1",
+        "published": "2026-10-07"
+      },
+      {
+        "title": "On Bonart's interpretation of the Square-Root Impact Law",
+        "authors": [
+          "J. -P. Bouchaud",
+          "I. Mastromatteo",
+          "B. Toth"
+        ],
+        "link": "http://arxiv.org/abs/2610.10053v1",
+        "published": "2026-10-07"
+      },
+      {
+        "title": "Optimal Investment to Reach a Financial Goal: A Stochastic Control Framework",
+        "authors": [
+          "Gechun Liang",
+          "Moris S. Strub",
+          "Yuwei Wang"
+        ],
+        "link": "http://arxiv.org/abs/2610.10046v1",
+        "published": "2026-10-07"
+      },
+      {
+        "title": "DSTNet: Dynamic Spectral Trajectory Network for Causal Multi-Horizon Financial Forecasting",
+        "authors": [
+          "Aashish Bohra",
+          "Lokendra Vishwakarm"
+        ],
+        "link": "http://arxiv.org/abs/2610.09654v1",
+        "published": "2026-10-07"
+      },
+      {
+        "title": "Robust distortion riskmetrics under Wasserstein ambiguity",
+        "authors": [
+          "Yang Liu",
+          "Qiuqi Wang",
+          "Yihan Wang"
+        ],
+        "link": "http://arxiv.org/abs/2610.09622v1",
+        "published": "2026-10-07"
+      },
+      {
+        "title": "Residual Learning in Empirical Asset Pricing",
+        "authors": [
+          "Dexin Peng",
+          "Xiaoyu Wang"
+        ],
+        "link": "http://arxiv.org/abs/2610.09613v1",
+        "published": "2026-10-07"
+      },
+      {
+        "title": "Conditional value-at-risk under reward-penalty mechanism with applications to robust portfolio management",
+        "authors": [
+          "Jun Cai",
+          "Tiantian Mao",
+          "Zhiqiao Song"
+        ],
+        "link": "http://arxiv.org/abs/2610.09246v1",
+        "published": "2026-10-07"
+      }
+    ]
+  }
 }

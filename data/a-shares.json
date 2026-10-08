@@ -1,156 +1,201 @@
 {
   "date": "2026-10-08",
-  "time": "noon",
-  "fetched_at": "2026-10-08T03:35:00Z",
+  "time": "close",
+  "fetched_at": "2026-10-08T07:08:07Z",
   "indices": {
     "上证指数": {
       "code": "000001",
-      "price": 3831.84,
-      "change": -10.35,
-      "change_pct": -0.27
+      "price": 3811.9,
+      "change": -30.29,
+      "change_pct": -0.79,
+      "amount": 811183096365.0
     },
     "深证成指": {
       "code": "399001",
-      "price": 12727.71,
-      "change": -159.91,
-      "change_pct": -1.24
+      "price": 12620.9,
+      "change": -266.72,
+      "change_pct": -2.07,
+      "amount": 870925645420.475
     },
     "创业板指": {
       "code": "399006",
-      "price": 3068.62,
-      "change": -66.66,
-      "change_pct": -2.13
+      "price": 3036.66,
+      "change": -98.62,
+      "change_pct": -3.15,
+      "amount": 422754972777.42
     },
     "沪深300": {
       "code": "000300",
-      "price": 4338.67,
-      "change": -18.94,
-      "change_pct": -0.43
+      "price": 4310.28,
+      "change": -47.34,
+      "change_pct": -1.09,
+      "amount": 446208261546.0
     },
     "上证50": {
       "code": "000016",
-      "price": 2822.16,
-      "change": -1.12,
-      "change_pct": -0.04
+      "price": 2805.12,
+      "change": -18.16,
+      "change_pct": -0.64,
+      "amount": 127447925185.0
     },
     "中证500": {
       "code": "000905",
-      "price": 7308.93,
-      "change": -126.23,
-      "change_pct": -1.7
+      "price": 7248.43,
+      "change": -186.73,
+      "change_pct": -2.51,
+      "amount": 292217164834.0
     },
     "科创50": {
       "code": "000688",
-      "price": 1474.04,
-      "change": -55.96,
-      "change_pct": -3.66
+      "price": 1456.32,
+      "change": -73.68,
+      "change_pct": -4.82,
+      "amount": 82397685330.0
     },
     "中证1000": {
       "code": "000852",
-      "price": 7195.25,
-      "change": -103.57,
-      "change_pct": -1.42
+      "price": 7138.58,
+      "change": -160.24,
+      "change_pct": -2.2,
+      "amount": 324005351501.0
+    }
+  },
+  "hk_indices": {
+    "恒生指数": {
+      "code": "HSI",
+      "price": 23856.641,
+      "change_pct": -1.135
+    },
+    "恒生科技指数": {
+      "code": "HSTECH",
+      "price": 4089.31,
+      "change_pct": -2.508
+    },
+    "恒生中国企业指数": {
+      "code": "HSCEI",
+      "price": 8036.209,
+      "change_pct": -0.571
     }
   },
   "hang_seng": {
     "name": "恒生指数",
-    "price": 23971.64,
-    "change": -158.86,
-    "change_pct": -0.66,
-    "time": "11:35"
+    "price": 23856.641,
+    "change_pct": -1.135
   },
   "sectors": {
-    "top5": [
+    "top": [
       {
-        "name": "蓄电池及其他电池",
-        "change_pct": 5.46,
-        "turnover": 31.99
-      },
-      {
-        "name": "锂电专用设备",
-        "change_pct": 5.22,
-        "turnover": 80.1
-      },
-      {
-        "name": "焦炭Ⅲ",
-        "change_pct": 3.99,
-        "turnover": 13.22
-      },
-      {
-        "name": "焦炭Ⅱ",
-        "change_pct": 3.99,
-        "turnover": 13.22
+        "name": "油气开采及服务",
+        "change_pct": 3.6,
+        "net_in": 5.69
       },
       {
         "name": "电池",
-        "change_pct": 3.8,
-        "turnover": 520.3
+        "change_pct": 3.44,
+        "net_in": 6.65
+      },
+      {
+        "name": "燃气",
+        "change_pct": 2.44,
+        "net_in": 0.02
+      },
+      {
+        "name": "煤炭开采加工",
+        "change_pct": 2.14,
+        "net_in": 9.52
+      },
+      {
+        "name": "港口航运",
+        "change_pct": 2.04,
+        "net_in": -10.26
+      },
+      {
+        "name": "电力",
+        "change_pct": 1.23,
+        "net_in": 34.62
       }
     ],
-    "bottom5": [
+    "bottom": [
       {
-        "name": "集成电路制造",
-        "change_pct": -4.3,
-        "turnover": 85.86
+        "name": "通信设备",
+        "change_pct": -3.03,
+        "net_in": -56.0
       },
       {
-        "name": "光学元件",
-        "change_pct": -4.34,
-        "turnover": 106.51
+        "name": "自动化设备",
+        "change_pct": -3.08,
+        "net_in": -23.26
       },
       {
-        "name": "分立器件",
-        "change_pct": -5.55,
-        "turnover": 149.37
+        "name": "医疗服务",
+        "change_pct": -3.1,
+        "net_in": -23.31
       },
       {
-        "name": "文字媒体",
-        "change_pct": -7.08,
-        "turnover": 15.45
+        "name": "电子化学品",
+        "change_pct": -3.68,
+        "net_in": -15.4
       },
       {
-        "name": "视频媒体",
-        "change_pct": -7.76,
-        "turnover": 10.93
-      }
-    ],
-    "count": 496,
-    "source": "eastmoney"
-  },
-  "northbound": {
-    "date": "2026-10-08",
-    "net": 0.0,
-    "items": [
-      {
-        "board": "沪股通",
-        "net": 0.0,
-        "up": 652,
-        "flat": 53,
-        "down": 939
+        "name": "生物制品",
+        "change_pct": -3.96,
+        "net_in": -16.21
       },
       {
-        "board": "深股通",
-        "net": 0.0,
-        "up": 696,
-        "flat": 48,
-        "down": 1142
+        "name": "半导体",
+        "change_pct": -4.98,
+        "net_in": -131.58
       }
     ]
   },
-  "southbound": [
+  "hsgt": [
     {
-      "board": "港股通(沪)",
-      "net": 29.97
+      "date": "2026-10-08",
+      "type": "沪港通",
+      "board": "沪股通",
+      "direction": "北向",
+      "net_buy": 0.0
     },
     {
+      "date": "2026-10-08",
+      "type": "沪港通",
+      "board": "港股通(沪)",
+      "direction": "南向",
+      "net_buy": 37.827833
+    },
+    {
+      "date": "2026-10-08",
+      "type": "深港通",
+      "board": "深股通",
+      "direction": "北向",
+      "net_buy": 0.0
+    },
+    {
+      "date": "2026-10-08",
+      "type": "深港通",
       "board": "港股通(深)",
-      "net": 19.39
+      "direction": "南向",
+      "net_buy": 23.034947
     }
   ],
-  "breadth": {
-    "up": 2074,
-    "down": 3322,
-    "flat": 161
-  },
-  "note": "数据源: 新浪(指数/恒指, 11:35北京时间) + 东方财富(496个行业板块/沪深港通)。北向资金交易状态为暂停(1)，净流入显示0。"
+  "north_flow": {
+    "net_buy_total": 0.0,
+    "note": "沪股通+深股通",
+    "detail": [
+      {
+        "date": "2026-10-08",
+        "type": "沪港通",
+        "board": "沪股通",
+        "direction": "北向",
+        "net_buy": 0.0
+      },
+      {
+        "date": "2026-10-08",
+        "type": "深港通",
+        "board": "深股通",
+        "direction": "北向",
+        "net_buy": 0.0
+      }
+    ]
+  }
 }

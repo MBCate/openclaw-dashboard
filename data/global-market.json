@@ -1,62 +1,62 @@
 {
-  "updated_at": "2026-10-08T13:30:00Z",
-  "as_of": "Oct 08 2026 06:30 PT / 2026-10-08 13:30 UTC — 周四。亚太收盘普跌(恒指 -1.43%、日经 -1.42%、KOSPI -2.62%)，A股长假后复市。美股周四承压：道指期货一度跌约300点，受收益率高企与油价飙升拖累。10Y 美债收益率持稳 ~5.30%，30Y 仍处高位。霍尔木兹海峡油轮遇袭推动原油大涨：Brent ~$104(+3.95%)、WTI ~$91.7(+3.85%)。加密走弱：BTC ~$82.3k、ETH ~$2,534。黄金 ~$4,148 基本持稳。",
+  "updated_at": "2026-10-08T23:00:00Z",
+  "as_of": "Oct 08 2026 ~16:00 PT / 2026-10-08 23:00 UTC — 周四美股收盘。AI板块因OpenAI营收不及预期重挫，纳指领跌；道指在收益率回落后逆势收涨。油价盘中反转走低（特朗普称中期选举前不打击伊朗）。加密续跌，BTC失守$82k、ETH跌破$2,500。",
   "indices": [
     {
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "close": 7772.59,
-      "change_pct": -0.37,
-      "note": "标普500 (-0.37%) 收 7,772.59 — 收益率高企叠加油价飙升压制估值，从周二 7,844 纪录高位继续回吐。"
+      "close": 7765.36,
+      "change_pct": -0.47,
+      "note": "标普500 (-0.47%) 收 7,765.36 — 周四连续第二日下跌，OpenAI营收报告引爆AI抛售，自周二纪录高位7,844继续回吐；多数板块仍上涨但被科技拖累。"
     },
     {
       "name": "道琼斯",
       "symbol": "^DJI",
-      "close": 50999.81,
-      "change_pct": -0.35,
-      "note": "道指 (-0.35%) 收 50,999.81 — 权重股走弱，周四道指期货一度下挫约300点。"
+      "close": 51231.64,
+      "change_pct": 0.1,
+      "note": "道指 (+0.10%) 收 51,231.64 — 收益率回落支撑，盘中在涨跌间反复后逆势收涨，价值/周期股相对抗跌。"
     },
     {
       "name": "纳斯达克",
       "symbol": "^IXIC",
-      "close": 27409.16,
-      "change_pct": -0.47,
-      "note": "纳指 (-0.47%) 收 27,409.16 — 利率敏感成长股承压，AI 板块领跌。"
+      "close": 27193.34,
+      "change_pct": -1.25,
+      "note": "纳指 (-1.25%) 收 27,193.34 — 领跌大盘，OpenAI年化营收约$50B，远低于此前$68-70B预期，Nvidia/Oracle/CoreWeave/Micron 等AI链集体下挫。"
     },
     {
       "name": "罗素2000",
       "symbol": "^RUT",
-      "close": 2793.2,
-      "change_pct": -1.31,
-      "note": "Russell 2000 (-1.31%) — 小盘股跌幅居前，风险偏好进一步降温。"
+      "close": 2794.13,
+      "change_pct": 0.03,
+      "note": "Russell 2000 (+0.03%) 基本收平 — 小盘股在收益率回落中小幅企稳，与大盘科技分化。"
     },
     {
       "name": "VIX 恐慌指数",
       "symbol": "^VIX",
-      "close": 15.57,
-      "change_pct": 3.25,
-      "note": "VIX 升至 ~15.6 (+3.25%) — 债市抛售与地缘风险令波动率继续抬升。"
+      "close": 15.41,
+      "change_pct": 2.19,
+      "note": "VIX 升至 ~15.4 (+2.19%) — AI抛售与债市波动推升波动率，但仍处近年低位区间。"
     },
     {
       "name": "恒生指数",
       "symbol": "^HSI",
-      "close": 23785.79,
+      "close": 24280.56,
       "change_pct": -1.43,
-      "note": "恒指 -1.43% 至 23,786 — 亚太普跌，跟随美股与油价冲击，科技/金融承压。"
+      "note": "恒指 (-1.43%) 收 24,281 — 亚太周四普跌，跟随美股与油价冲击，科技/金融承压。"
     },
     {
       "name": "日经225",
       "symbol": "^N225",
-      "close": 69042.11,
-      "change_pct": -1.42,
-      "note": "日经 -1.42% 至 69,042 — 半导体与出口股回落，油价高企压制进口成本。"
+      "close": 68333.32,
+      "change_pct": -1.03,
+      "note": "日经 (-1.03%) 收 68,333 — 半导体与AI链跟随美股走弱，油价回落略缓进口成本压力。"
     },
     {
       "name": "上证指数",
       "symbol": "000001.SS",
       "close": 0,
       "change_pct": 0,
-      "note": "A股长假后(10/8)复市，详见 a-shares.json。"
+      "note": "A股 10/8 长假后复市，详见 a-shares.json。"
     },
     {
       "name": "印度 Sensex",
@@ -75,99 +75,99 @@
     {
       "name": "英国富时100",
       "symbol": "^FTSE",
-      "close": 10471.67,
-      "change_pct": 0.13,
-      "note": "富时100 (+0.13%) — 欧股分化，能源股受油价支撑逆势小涨。"
+      "close": 10441.6,
+      "change_pct": -0.16,
+      "note": "富时100 (-0.16%) 收 10,442 — 油价反转走低令能源股回吐，欧股整体偏弱。"
     },
     {
       "name": "德国DAX",
       "symbol": "^GDAXI",
-      "close": 24948.51,
-      "change_pct": -0.62,
-      "note": "德国DAX (-0.62%) — 欧股走低，法国债券动荡与政治风险拖累。"
+      "close": 24806.97,
+      "change_pct": -1.19,
+      "note": "德国DAX (-1.19%) 收 24,807 — 科技与工业股承压，法国债券与政治风险仍压制欧股情绪。"
     }
   ],
   "crypto": [
     {
       "name": "Bitcoin (BTC)",
       "symbol": "BTC-USD",
-      "price": 82325.67,
-      "change_pct": -1.14,
-      "note": "BTC ~$82,326 (-1.14%) — 跌破 $83k 支撑，利率上行与避险情绪持续打压，52周高 $124,167。"
+      "price": 81672,
+      "change_pct": -2.0,
+      "note": "BTC ~$81,672 (-2.00% 24h) — 失守 $82k，利率上行与AI板块避险情绪双重打压，52周高 $124,167。"
     },
     {
       "name": "Ethereum (ETH)",
       "symbol": "ETH-USD",
-      "price": 2533.83,
-      "change_pct": -1.54,
-      "note": "ETH ~$2,534 (-1.54%) — 弱势延续，加密市场整体承压。"
+      "price": 2474.12,
+      "change_pct": -4.13,
+      "note": "ETH ~$2,474 (-4.13% 24h) — 跌破 $2,500，跌幅大于BTC，加密整体风险偏好降温。"
     }
   ],
   "commodities": [
     {
       "name": "WTI原油",
       "symbol": "CL=F",
-      "price": 91.68,
-      "change_pct": 3.85,
-      "note": "WTI ~$91.7 (+3.85%) — 霍尔木兹海峡油轮遇袭、航运流量放缓，供应担忧推涨。"
+      "price": 91.03,
+      "change_pct": -0.5,
+      "note": "WTI ~$91.0 (-0.50%) — 盘中反转走低，特朗普称中期选举前不打击伊朗，地缘溢价部分回吐。"
     },
     {
       "name": "Brent原油",
       "symbol": "BZ=F",
-      "price": 104.16,
-      "change_pct": 3.95,
-      "note": "Brent ~$104.2 (+3.95%) — 大涨逾4%，中东地缘溢价显著扩大。"
+      "price": 103.63,
+      "change_pct": -0.62,
+      "note": "Brent ~$103.6 (-0.62%) — 自盘中高位回落，霍尔木兹油轮遇袭的涨幅被伊朗表态抹去大半。"
     },
     {
       "name": "黄金",
       "symbol": "GC=F",
-      "price": 4148.0,
-      "change_pct": 0.18,
-      "note": "黄金 ~$4,148 (+0.18%) — 避险需求与地缘风险支撑，基本持稳于高位。"
+      "price": 4174.7,
+      "change_pct": 0.43,
+      "note": "黄金 ~$4,175 (+0.43%) — 收益率回落与避险需求支撑，续创高位；白银 ~$60.0 (+0.98%)。"
     }
   ],
   "macro": {
-    "fed": "美债收益率高企：10Y 持稳 ~5.30%，30Y 仍处 2002 以来高位。市场关注美联储后续加息路径，BlackRock Rieder 等就收益率曲线与加息发表观点。",
-    "bonds": "全球债市抛售延续，法国债券动荡引发 ECB 应对讨论(TPI 工具)；摩根士丹利债券资深人士十年来首次看多。",
-    "geopolitics": "霍尔木兹海峡油轮遇袭、航运流量放缓成为核心风险，油价大涨；伊朗/中东局势紧张；俄乌冲突持续(乌东爆炸致33人死亡)。",
-    "trade": "美国参议院选战聚焦蓝领选民；休斯敦初创企业瞄准关键金属以削弱中国主导；加拿大 MFS 崩溃(30亿美元)后续诉讼。",
-    "asia": "亚太周四普跌：韩国 KOSPI -2.62% 领跌、恒指 -1.43%、日经 -1.42%、印度 -1.44%；A股长假后复市。SCMP 呼吁中国就霍尔木兹问题超越口头表态。"
+    "fed": "美债收益率回落：10Y ~5.23% (-0.87%)，30Y 仍处2002以来高位。收益率走低支撑道指逆势收涨，市场持续关注美联储加息路径。",
+    "bonds": "全球债市波动延续，法国债券动荡引发 ECB 应对讨论(TPI工具)；摩根士丹利债券资深人士十年来首度看多，暗示收益率或近顶。",
+    "geopolitics": "霍尔木兹海峡油轮遇袭与航运放缓曾推油价大涨，但特朗普表示中期选举前不打击伊朗，油价盘中反转走低；中东局势仍为最大不确定性。",
+    "trade": "SpaceX 频谱/Starlink 移动计划冲击 AT&T、Verizon、T-Mobile 股价；Amex 因反洗钱失职被罚$3.5亿；美参议院选战聚焦蓝领选民。",
+    "asia": "亚太周四普跌：韩国 KOSPI -2.62% 领跌、恒指 -1.43%、日经 -1.03%、印度 -1.44%；A股长假后复市，关注外资流向。"
   },
   "headlines": [
     {
       "source": "CNBC",
-      "title": "Dow futures slide 300 points as yields continue rising; oil gains 4%: Live updates",
-      "note": "收益率续升+油价大涨4%，道指期货承压，风险偏好降温。"
-    },
-    {
-      "source": "FT",
-      "title": "Oil prices jump on tanker attacks and slowing flows through Strait of Hormuz",
-      "note": "霍尔木兹油轮遇袭推动油价跳涨，地缘溢价扩大。"
-    },
-    {
-      "source": "FT",
-      "title": "What is driving the global bond sell-off? You asked, we answered",
-      "note": "解析全球债市抛售成因，收益率上行为核心矛盾。"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "What's the TPI? How ECB Can Respond to French Bond Turmoil",
-      "note": "法国债券动荡，ECB 或动用 TPI 工具应对。"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Morgan Stanley Bond Veteran Is Bullish for First Time in Decade",
-      "note": "大摩债券资深人士十年首度看多，或暗示收益率见顶预期。"
+      "title": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
+      "note": "OpenAI年化营收约$50B，远低于$68-70B预期，AI链集体重挫，纳指领跌。"
     },
     {
       "source": "MarketWatch",
-      "title": "Rising yields are quietly crashing the stock market's earlier winners of 2026",
-      "note": "收益率上行打压年内领涨股，市场结构悄然轮动。"
+      "title": "Stock Market on Oct. 8, 2026: Dow ends higher as Treasury yields retreat, S&P 500 and Nasdaq fall as AI stocks struggle",
+      "note": "收益率回落助道指收涨，标普/纳指因AI股疲软下跌，市场结构分化。"
+    },
+    {
+      "source": "FT",
+      "title": "Trump says US 'will not be attacking Iran' before midterm elections",
+      "note": "地缘风险降温，油价盘中反转走低，回吐霍尔木兹遇袭涨幅。"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Asian Stocks Slip After US Tech Jitters, Oil Drops: Markets Wrap",
+      "note": "亚股受美股科技动荡拖累走低，油价回落；风险偏好整体降温。"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "SpaceX's Starlink Mobile plans are pressuring AT&T and Verizon shares",
+      "note": "SpaceX频谱交易冲击电信三巨头(T/VZ/TMUS)，板块承压。"
+    },
+    {
+      "source": "Investor's Business Daily",
+      "title": "OpenAI Revenue View $20 Bil Short, Says Report. AI Stocks Fall.",
+      "note": "营收预期缺口约$200亿成为AI交易回调导火索，估值敏感度上升。"
     }
   ],
   "week_performance": {
-    "note": "本周美股自周二纪录高位回调，债市抛售与油价飙升成为主要压制；亚太周四普跌，韩国领跌逾2.6%，A股复市。加密跌破关键支撑，黄金受避险支撑持稳，美元与美债收益率维持强势。"
+    "note": "本周美股自周二纪录高位回调，AI交易因OpenAI营收报告深度回撤成为核心矛盾；收益率回落但债市波动仍在，油价地缘溢价高位反复。亚太周四普跌，韩国领跌逾2.6%，A股长假后复市。加密续跌破关键支撑，黄金受避险支撑续处高位，美元小幅走软。"
   },
-  "overnight": "隔夜至周四(10/8)：亚太收盘普跌——KOSPI 6,626(-2.62%)、恒指 23,786(-1.43%)、日经 69,042(-1.42%)、印度 71,593(-1.44%)。A股长假后复市。美股周四承压，道指期货一度跌约300点：标普500 7,772.59(-0.37%)、道指 50,999.81(-0.35%)、纳指 27,409.16(-0.47%)、Russell 2000 2,793(-1.31%)；VIX 15.6(+3.25%)。欧股分化：富时100 10,472(+0.13%)、DAX 24,949(-0.62%)。10Y 美债收益率 ~5.30%、30Y 仍处高位。商品：Brent ~$104.2(+3.95%)、WTI ~$91.7(+3.85%)、黄金 ~$4,148(+0.18%)。加密：BTC ~$82.3k(-1.14%)、ETH ~$2,534(-1.54%)。焦点：霍尔木兹油轮遇袭推油价大涨、全球债市抛售、法国债券动荡与 ECB TPI、A股复市外资流向。",
-  "morning_preview": "关注霍尔木兹地缘风险与油价传导的通胀压力、10Y/30Y 收益率走向与美联储加息路径、法国债券动荡下 ECB 是否启用 TPI。A股复市聚焦外资流向与科技板块联动；加密需守 $82k 支撑，黄金受避险与地缘溢价支撑或继续高位震荡。"
+  "overnight": "隔夜至周四(10/8)美股收盘：AI板块因 OpenAI 营收不及预期重挫——纳指 27,193(-1.25%)、标普500 7,765.36(-0.47%，连续第二日下跌)、道指逆势收涨 51,232(+0.10%)、Russell 2000 2,794(+0.03%)；VIX 15.4(+2.19%)。收益率回落：10Y ~5.23%(-0.87%)。商品盘中反转：Brent ~$103.6(-0.62%)、WTI ~$91.0(-0.50%)、黄金 ~$4,175(+0.43%)。加密续跌：BTC ~$81.7k(-2.0%)、ETH ~$2,474(-4.1%)。亚太(10/8)：KOSPI 6,626(-2.62%)领跌、恒指 24,281(-1.43%)、日经 68,333(-1.03%)、印度 71,593(-1.44%)。焦点：OpenAI营收报告引爆AI抛售、特朗普称中期选举前不打击伊朗令油价回吐、债市波动与法国政治风险、SpaceX冲击电信股。",
+  "morning_preview": "周五(10/9)关注：1) AI板块抛售是否延续——OpenAI营收缺口或持续压制Nvidia/Oracle等算力链及亚洲半导体；2) 美债收益率回落能否延续，10Y若跌破5.2%或缓解估值压力；3) 油价地缘溢价回吐后的通胀传导，伊朗局势仍存变数；4) A股复市后外资流向与科技/半导体联动；5) 加密需守 $80k，ETH若失$2,450恐进一步走弱。"
 }

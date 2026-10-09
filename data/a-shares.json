@@ -1,181 +1,165 @@
 {
   "date": "2026-10-08",
-  "time": "close",
-  "fetched_at": "2026-10-08T07:08:07Z",
+  "time": "noon",
+  "fetched_at": "2026-10-09T03:36:05Z",
   "indices": {
     "上证指数": {
       "code": "000001",
-      "price": 3811.9,
-      "change": -30.29,
-      "change_pct": -0.79,
-      "amount": 811183096365.0
+      "price": 3765.71,
+      "change": -46.19,
+      "change_pct": -1.21,
+      "amount": 543683688724.0
     },
     "深证成指": {
       "code": "399001",
-      "price": 12620.9,
-      "change": -266.72,
-      "change_pct": -2.07,
-      "amount": 870925645420.475
+      "price": 12356.56,
+      "change": -264.34,
+      "change_pct": -2.09,
+      "amount": 624896710531.0
     },
     "创业板指": {
       "code": "399006",
-      "price": 3036.66,
-      "change": -98.62,
-      "change_pct": -3.15,
-      "amount": 422754972777.42
+      "price": 2957.32,
+      "change": -79.33,
+      "change_pct": -2.61,
+      "amount": 305188184101.0
     },
     "沪深300": {
       "code": "000300",
-      "price": 4310.28,
-      "change": -47.34,
-      "change_pct": -1.09,
-      "amount": 446208261546.0
+      "price": 4255.65,
+      "change": -54.62,
+      "change_pct": -1.27,
+      "amount": 301908558775.0
     },
     "上证50": {
       "code": "000016",
-      "price": 2805.12,
-      "change": -18.16,
-      "change_pct": -0.64,
-      "amount": 127447925185.0
+      "price": 2780.27,
+      "change": -24.86,
+      "change_pct": -0.89,
+      "amount": 81972832705.0
     },
     "中证500": {
       "code": "000905",
-      "price": 7248.43,
-      "change": -186.73,
-      "change_pct": -2.51,
-      "amount": 292217164834.0
+      "price": 7089.4,
+      "change": -159.04,
+      "change_pct": -2.19,
+      "amount": 204433297191.0
     },
     "科创50": {
       "code": "000688",
-      "price": 1456.32,
-      "change": -73.68,
-      "change_pct": -4.82,
-      "amount": 82397685330.0
+      "price": 1401.24,
+      "change": -55.08,
+      "change_pct": -3.78,
+      "amount": 56211551098.0
     },
     "中证1000": {
       "code": "000852",
-      "price": 7138.58,
-      "change": -160.24,
-      "change_pct": -2.2,
-      "amount": 324005351501.0
+      "price": 6968.22,
+      "change": -170.36,
+      "change_pct": -2.39,
+      "amount": 234284163460.0
     }
   },
   "hk_indices": {
     "恒生指数": {
       "code": "HSI",
-      "price": 23856.641,
-      "change_pct": -1.135
+      "price": 24033.102
     },
     "恒生科技指数": {
       "code": "HSTECH",
-      "price": 4089.31,
-      "change_pct": -2.508
+      "price": 4125.1
     },
     "恒生中国企业指数": {
       "code": "HSCEI",
-      "price": 8036.209,
-      "change_pct": -0.571
+      "price": 8078.93
     }
   },
   "hang_seng": {
-    "name": "恒生指数",
-    "price": 23856.641,
-    "change_pct": -1.135
+    "code": "HSI",
+    "price": 24033.102
   },
   "sectors": {
     "top": [
       {
-        "name": "油气开采及服务",
-        "change_pct": 3.6,
-        "net_in": 5.69
+        "name": "公路桥梁",
+        "change_pct": 1.36
       },
       {
-        "name": "电池",
-        "change_pct": 3.44,
-        "net_in": 6.65
+        "name": "酿酒行业",
+        "change_pct": 0.66
       },
       {
-        "name": "燃气",
-        "change_pct": 2.44,
-        "net_in": 0.02
+        "name": "煤炭行业",
+        "change_pct": 0.06
       },
       {
-        "name": "煤炭开采加工",
-        "change_pct": 2.14,
-        "net_in": 9.52
+        "name": "金融行业",
+        "change_pct": 0.06
       },
       {
-        "name": "港口航运",
-        "change_pct": 2.04,
-        "net_in": -10.26
+        "name": "生物制药",
+        "change_pct": -0.01
       },
       {
-        "name": "电力",
-        "change_pct": 1.23,
-        "net_in": 34.62
+        "name": "农林牧渔",
+        "change_pct": -0.08
       }
     ],
     "bottom": [
       {
-        "name": "通信设备",
-        "change_pct": -3.03,
-        "net_in": -56.0
+        "name": "陶瓷行业",
+        "change_pct": -7.01
       },
       {
-        "name": "自动化设备",
-        "change_pct": -3.08,
-        "net_in": -23.26
+        "name": "玻璃行业",
+        "change_pct": -5.48
       },
       {
-        "name": "医疗服务",
-        "change_pct": -3.1,
-        "net_in": -23.31
+        "name": "电子器件",
+        "change_pct": -5.01
       },
       {
-        "name": "电子化学品",
-        "change_pct": -3.68,
-        "net_in": -15.4
+        "name": "飞机制造",
+        "change_pct": -4.12
       },
       {
-        "name": "生物制品",
-        "change_pct": -3.96,
-        "net_in": -16.21
+        "name": "机械行业",
+        "change_pct": -4.01
       },
       {
-        "name": "半导体",
-        "change_pct": -4.98,
-        "net_in": -131.58
+        "name": "次新股",
+        "change_pct": -3.58
       }
     ]
   },
   "hsgt": [
     {
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "type": "沪港通",
       "board": "沪股通",
       "direction": "北向",
       "net_buy": 0.0
     },
     {
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "type": "沪港通",
       "board": "港股通(沪)",
       "direction": "南向",
-      "net_buy": 37.827833
+      "net_buy": -8.861
     },
     {
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "type": "深港通",
       "board": "深股通",
       "direction": "北向",
       "net_buy": 0.0
     },
     {
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "type": "深港通",
       "board": "港股通(深)",
       "direction": "南向",
-      "net_buy": 23.034947
+      "net_buy": -11.7161
     }
   ],
   "north_flow": {
@@ -183,14 +167,14 @@
     "note": "沪股通+深股通",
     "detail": [
       {
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "type": "沪港通",
         "board": "沪股通",
         "direction": "北向",
         "net_buy": 0.0
       },
       {
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "type": "深港通",
         "board": "深股通",
         "direction": "北向",

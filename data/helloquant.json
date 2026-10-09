@@ -1,78 +1,132 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-10-08 07:08 UTC",
+  "updated": "2026-10-09 07:07 UTC",
+  "updated_at": "2026-10-09 07:07 UTC",
   "status": "success",
   "last_run": {
-    "date": "2026-10-08",
-    "timestamp": "2026-10-08T00:08:17.997014",
+    "date": "2026-10-09",
+    "timestamp": "2026-10-09T00:06:03.753768",
     "success": true,
-    "note": "采集管线最近一次运行 2026-10-08 (6/6 成功)"
+    "note": "采集管线最近一次运行 2026-10-09 (5/6 成功)"
   },
-  "updated_at": "2026-10-08 07:08 UTC",
   "crypto": {
     "status": "success",
-    "btc": {
-      "price": 83019.8,
-      "change_24h": -1.35
-    },
-    "eth": {
-      "price": 2569.6,
-      "change_24h": -1.84
-    },
-    "note": "OKX 数据正常; BTC 83019.8 (-1.35%) / ETH 2569.6 (-1.84%)"
+    "data": {
+      "BTC/USDT": {
+        "price": 82534.0,
+        "change_24h": -0.4607072217666071,
+        "high_24h": 83287.6,
+        "low_24h": 80400.0,
+        "volume_24h": 766878997.8926075,
+        "indicators_1h": {
+          "rsi": 83.2,
+          "macd": -95.08,
+          "macd_signal": -258.33,
+          "macd_status": "金叉",
+          "ma5": 82424.7,
+          "ma20": 81920.97,
+          "bb_upper": 83006.09,
+          "bb_lower": 80835.85,
+          "trend": "偏多"
+        },
+        "indicators_4h": {
+          "rsi": 26.9,
+          "macd": -825.49,
+          "macd_signal": -675.61,
+          "macd_status": "死叉",
+          "ma5": 81904.78,
+          "ma20": 83715.5,
+          "bb_upper": 86812.8,
+          "bb_lower": 80618.19,
+          "trend": "偏空"
+        }
+      },
+      "ETH/USDT": {
+        "price": 2498.39,
+        "change_24h": -2.6754237321148233,
+        "high_24h": 2577.44,
+        "low_24h": 2406.36,
+        "volume_24h": 486420897.34530836,
+        "indicators_1h": {
+          "rsi": 88.4,
+          "macd": -13.33,
+          "macd_signal": -20.75,
+          "macd_status": "金叉",
+          "ma5": 2493.83,
+          "ma20": 2479.57,
+          "bb_upper": 2543.45,
+          "bb_lower": 2415.69,
+          "trend": "偏多"
+        },
+        "indicators_4h": {
+          "rsi": 21.5,
+          "macd": -55.51,
+          "macd_signal": -45.77,
+          "macd_status": "死叉",
+          "ma5": 2473.37,
+          "ma20": 2588.72,
+          "bb_upper": 2767.91,
+          "bb_lower": 2409.53,
+          "trend": "偏空"
+        }
+      }
+    }
   },
   "sentiment": {
-    "crypto_fear_greed": {
-      "value": 64,
-      "classification": "Greed"
+    "status": "success",
+    "data": {
+      "crypto_fear_greed": {
+        "value": 59,
+        "classification": "Greed",
+        "timestamp": "1791504000"
+      }
     }
   },
   "stocks": {
     "status": "success",
-    "note": "2026-10-08 A股/期货收盘数据",
     "data": {
       "上证指数": {
-        "price": 3811.9043,
-        "change": -0.788,
-        "volume": 482201685.0
+        "price": 3813.7913,
+        "change": 0.05,
+        "volume": 535149921.0
       },
       "深证成指": {
-        "price": 12620.897,
-        "change": -2.07
+        "price": 12641.858,
+        "change": 0.166
       },
       "创业板指": {
-        "price": 3036.657,
-        "change": -3.145
+        "price": 3043.335,
+        "change": 0.22
       },
       "沪金主力": {
-        "price": 910.58,
-        "change": 1.31,
-        "date": "2026-09-30"
+        "price": 893.12,
+        "change": -1.92,
+        "date": "2026-10-08"
       },
       "沪银主力": {
-        "price": 14980.0,
-        "change": 0.89,
-        "date": "2026-09-30"
+        "price": 14412.0,
+        "change": -3.79,
+        "date": "2026-10-08"
       },
       "沪铜主力": {
-        "price": 109680.0,
-        "change": 0.1,
-        "date": "2026-09-30"
+        "price": 110260.0,
+        "change": 0.53,
+        "date": "2026-10-08"
       },
       "螺纹钢主力": {
-        "price": 3112.0,
-        "change": 0.23,
-        "date": "2026-09-30"
+        "price": 3061.0,
+        "change": -1.64,
+        "date": "2026-10-08"
       },
       "沪深300期货": {
-        "price": 4300.8,
-        "change": 0.55,
-        "date": "2026-09-30"
+        "price": 4248.0,
+        "change": -1.23,
+        "date": "2026-10-08"
       },
       "中证500期货": {
-        "price": 7310.2,
-        "change": 0.01,
-        "date": "2026-09-30"
+        "price": 7122.8,
+        "change": -2.56,
+        "date": "2026-10-08"
       },
       "50ETF波动率": {
         "value": 13.84,
@@ -86,7 +140,7 @@
       "signal_4h": "观望"
     },
     "RSI": {
-      "signal_1h": "做多",
+      "signal_1h": "做空",
       "signal_4h": "观望"
     },
     "MACD": {
@@ -94,8 +148,8 @@
       "signal_4h": "观望"
     },
     "Bollinger": {
-      "signal_1h": "做多",
-      "signal_4h": "观望"
+      "signal_1h": "观望",
+      "signal_4h": "做多"
     },
     "Supertrend": {
       "signal_1h": "观望",
@@ -103,15 +157,15 @@
     },
     "TripleMa": {
       "signal_1h": "观望",
-      "signal_4h": "观望"
+      "signal_4h": "做空"
     },
     "Momentum": {
-      "signal_1h": "观望",
+      "signal_1h": "做多",
       "signal_4h": "观望"
     },
     "MeanReversion": {
-      "signal_1h": "做多",
-      "signal_4h": "观望"
+      "signal_1h": "观望",
+      "signal_4h": "做多"
     }
   },
   "strategies": [
@@ -126,7 +180,7 @@
     },
     {
       "name": "RSI",
-      "signal_1h": "做多",
+      "signal_1h": "做空",
       "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
@@ -144,8 +198,8 @@
     },
     {
       "name": "Bollinger",
-      "signal_1h": "做多",
-      "signal_4h": "观望",
+      "signal_1h": "观望",
+      "signal_4h": "做多",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -163,7 +217,7 @@
     {
       "name": "TripleMa",
       "signal_1h": "观望",
-      "signal_4h": "观望",
+      "signal_4h": "做空",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -171,7 +225,7 @@
     },
     {
       "name": "Momentum",
-      "signal_1h": "观望",
+      "signal_1h": "做多",
       "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
@@ -180,8 +234,8 @@
     },
     {
       "name": "MeanReversion",
-      "signal_1h": "做多",
-      "signal_4h": "观望",
+      "signal_1h": "观望",
+      "signal_4h": "做多",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -190,32 +244,41 @@
   ],
   "news": {
     "status": "success",
-    "note": "RSS 采集 5 条",
-    "items": [
+    "data": [
       {
         "source": "Cointelegraph",
         "title": "Here’s what happened in crypto today",
-        "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Fri, 09 Oct 2026 05:38:03 +0000",
+        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here’s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/article-c"
       },
       {
         "source": "Cointelegraph",
-        "title": "Crypto’s heavy backing of Republicans alienated Democrats: Cuomo",
-        "link": "https://cointelegraph.com/news/cryptos-republican-spending-alienated-democrats-says-andrew-cuomo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Crypto projects apply for Anthropic’s new frontier AI security scanner",
+        "link": "https://cointelegraph.com/news/crypto-projects-apply-for-anthropics-new-frontier-ai-security-scanner?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Fri, 09 Oct 2026 05:34:33 +0000",
+        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Crypto projects apply for Anthropic’s new frontier AI security scanner  \" class=\"type:primaryImage\" src=\"https://s3-images.ctmed"
       },
       {
         "source": "Cointelegraph",
-        "title": "Crypto must cement adoption to withstand US policy shifts: Canton CEO",
-        "link": "https://cointelegraph.com/news/canton-ceo-crypto-adoption-us-policy-reversals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Trump administration outlines quantum, AI initiatives in $6B science push",
+        "link": "https://cointelegraph.com/news/trump-administration-quantum-computing-ai-6-billion-science-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Fri, 09 Oct 2026 05:25:27 +0000",
+        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Trump administration outlines quantum, AI initiatives in $6B science push\" class=\"type:primaryImage\" src=\"https://s3-images.ctme"
       },
       {
         "source": "Cointelegraph",
-        "title": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances",
-        "link": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Thailand finalizes rules paving way for Bitcoin, Ether ETFs",
+        "link": "https://cointelegraph.com/news/thailand-finalizes-rules-paving-way-for-bitcoin-ether-etfs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Fri, 09 Oct 2026 03:08:51 +0000",
+        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Thailand finalizes rules paving way for Bitcoin, Ether ETFs\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/a"
       },
       {
         "source": "Cointelegraph",
-        "title": "Circle brings USDC, EURC payments to SAP customers through Tereina",
-        "link": "https://cointelegraph.com/news/circle-usdc-eurc-payments-sap-enterprise-ecosystem?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Cantor Fitzgerald faces Senate Democrat’s questions over Tether ties",
+        "link": "https://cointelegraph.com/news/cantor-fitzgerald-faces-senate-democrats-probe-over-tether-ties?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Fri, 09 Oct 2026 00:46:27 +0000",
+        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Cantor Fitzgerald faces Senate Democrat’s questions over Tether ties  \" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia"
       }
     ]
   },

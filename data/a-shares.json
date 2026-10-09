@@ -1,134 +1,116 @@
 {
-  "date": "2026-10-08",
-  "time": "noon",
-  "fetched_at": "2026-10-09T03:36:05Z",
+  "date": "2026-10-09",
+  "time": "close",
+  "fetched_at": "2026-10-09T07:06:50Z",
   "indices": {
     "上证指数": {
       "code": "000001",
-      "price": 3765.71,
-      "change": -46.19,
-      "change_pct": -1.21,
-      "amount": 543683688724.0
+      "price": 3813.79,
+      "change": 1.89,
+      "change_pct": 0.05,
+      "amount": 888561198264.0
     },
     "深证成指": {
       "code": "399001",
-      "price": 12356.56,
-      "change": -264.34,
-      "change_pct": -2.09,
-      "amount": 624896710531.0
+      "price": 12641.86,
+      "change": 20.96,
+      "change_pct": 0.17,
+      "amount": 1011979134583.0
     },
     "创业板指": {
       "code": "399006",
-      "price": 2957.32,
-      "change": -79.33,
-      "change_pct": -2.61,
-      "amount": 305188184101.0
+      "price": 3043.34,
+      "change": 6.68,
+      "change_pct": 0.22,
+      "amount": 492045403473.0
     },
     "沪深300": {
       "code": "000300",
-      "price": 4255.65,
-      "change": -54.62,
-      "change_pct": -1.27,
-      "amount": 301908558775.0
+      "price": 4317.25,
+      "change": 6.98,
+      "change_pct": 0.16,
+      "amount": 496179130802.0
     },
     "上证50": {
       "code": "000016",
-      "price": 2780.27,
-      "change": -24.86,
-      "change_pct": -0.89,
-      "amount": 81972832705.0
+      "price": 2807.46,
+      "change": 2.33,
+      "change_pct": 0.08,
+      "amount": 138579885126.0
     },
     "中证500": {
       "code": "000905",
-      "price": 7089.4,
-      "change": -159.04,
-      "change_pct": -2.19,
-      "amount": 204433297191.0
+      "price": 7251.01,
+      "change": 2.57,
+      "change_pct": 0.04,
+      "amount": 331446262760.0
     },
     "科创50": {
       "code": "000688",
-      "price": 1401.24,
-      "change": -55.08,
-      "change_pct": -3.78,
-      "amount": 56211551098.0
+      "price": 1457.27,
+      "change": 0.94,
+      "change_pct": 0.07,
+      "amount": 91972939475.0
     },
     "中证1000": {
       "code": "000852",
-      "price": 6968.22,
-      "change": -170.36,
-      "change_pct": -2.39,
-      "amount": 234284163460.0
+      "price": 7155.91,
+      "change": 17.33,
+      "change_pct": 0.24,
+      "amount": 386282618623.0
     }
-  },
-  "hk_indices": {
-    "恒生指数": {
-      "code": "HSI",
-      "price": 24033.102
-    },
-    "恒生科技指数": {
-      "code": "HSTECH",
-      "price": 4125.1
-    },
-    "恒生中国企业指数": {
-      "code": "HSCEI",
-      "price": 8078.93
-    }
-  },
-  "hang_seng": {
-    "code": "HSI",
-    "price": 24033.102
   },
   "sectors": {
     "top": [
       {
-        "name": "公路桥梁",
-        "change_pct": 1.36
+        "name": "传媒娱乐",
+        "change_pct": 6.01
       },
       {
-        "name": "酿酒行业",
-        "change_pct": 0.66
+        "name": "商业百货",
+        "change_pct": 2.91
       },
       {
-        "name": "煤炭行业",
-        "change_pct": 0.06
-      },
-      {
-        "name": "金融行业",
-        "change_pct": 0.06
-      },
-      {
-        "name": "生物制药",
-        "change_pct": -0.01
+        "name": "印刷包装",
+        "change_pct": 2.74
       },
       {
         "name": "农林牧渔",
-        "change_pct": -0.08
+        "change_pct": 2.71
+      },
+      {
+        "name": "纺织机械",
+        "change_pct": 2.42
+      },
+      {
+        "name": "服装鞋类",
+        "change_pct": 2.19
       }
     ],
     "bottom": [
       {
-        "name": "陶瓷行业",
-        "change_pct": -7.01
-      },
-      {
-        "name": "玻璃行业",
-        "change_pct": -5.48
+        "name": "开发区",
+        "change_pct": -1.1
       },
       {
         "name": "电子器件",
-        "change_pct": -5.01
+        "change_pct": -1.64
       },
       {
         "name": "飞机制造",
-        "change_pct": -4.12
+        "change_pct": -2.0
       },
       {
-        "name": "机械行业",
-        "change_pct": -4.01
+        "name": "船舶制造",
+        "change_pct": -2.27
       },
       {
-        "name": "次新股",
-        "change_pct": -3.58
+        "name": "玻璃行业",
+        "change_pct": -2.7
+      },
+      {
+        "name": "陶瓷行业",
+        "change_pct": -5.16
       }
     ]
   },
@@ -145,7 +127,7 @@
       "type": "沪港通",
       "board": "港股通(沪)",
       "direction": "南向",
-      "net_buy": -8.861
+      "net_buy": -5.8917
     },
     {
       "date": "2026-10-09",
@@ -159,12 +141,12 @@
       "type": "深港通",
       "board": "港股通(深)",
       "direction": "南向",
-      "net_buy": -11.7161
+      "net_buy": 5.749
     }
   ],
   "north_flow": {
     "net_buy_total": 0.0,
-    "note": "沪股通+深股通",
+    "note": "沪股通+深股通；自2024-08起北向实时净买入不再披露，成交净买额显示为0",
     "detail": [
       {
         "date": "2026-10-09",
@@ -181,5 +163,21 @@
         "net_buy": 0.0
       }
     ]
+  },
+  "hk_indices": {
+    "恒生指数": {
+      "code": "HSI",
+      "price": 24172.14,
+      "change_pct": 1.62
+    },
+    "恒生科技指数": {
+      "code": "HSTECH",
+      "price": 4183.2,
+      "change_pct": 2.7
+    }
+  },
+  "hang_seng": {
+    "code": "HSI",
+    "price": 24172.14
   }
 }

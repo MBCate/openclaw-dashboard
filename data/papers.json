@@ -1,6 +1,164 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "papers": [
+    {
+      "id": "2610.10390",
+      "title": "Explicit Geometric Chain-of-Thought for Vision-Language-Action in Autonomous Driving",
+      "authors": "(arXiv 2610.10390)",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "relevance": 5,
+      "contribution_cn": "提出 GeoCoTDrive：面向驾驶的显式几何思维链 VLA 框架，解决“驾驶动作需 3D 几何、而视觉-语言推理停留在 2D 语义空间”的错配问题。",
+      "method_cn": "“先 2D 思考、再以专用 3D 先验驱动”：先定位决策关键的 2D 区域，再从几何基础模型中采样该区域的局部 3D 先验特征，交错注入自回归上下文以生成轨迹；并引入面向规划的监督信号约束该过程。",
+      "results_cn": "在驾驶规划基准上验证几何接地显著提升轨迹生成质量，将 3D 几何线索显式引入 VLA 推理链路。",
+      "url": "https://arxiv.org/abs/2610.10390v1",
+      "gaze": false
+    },
+    {
+      "id": "2610.09695",
+      "title": "Do Better Visual Representations Always Lead to Better End-to-End Autonomous Driving?",
+      "authors": "(arXiv 2610.09695)",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "relevance": 4,
+      "contribution_cn": "系统研究视觉基础模型(VFM)表征是否总能提升端到端自动驾驶性能，提出 planner-agnostic 的视觉表征对齐框架 ViRA（不改变规划器结构与推理成本）。",
+      "method_cn": "以多种 VFM 为对齐目标，将表征对齐到规划器特征，跨多种 E2E 规划器与零样本闭环评测，并分析辅助感知监督的影响。",
+      "results_cn": "(1) VFM 引导的视觉表征跨规划器一致提升驾驶性能，并可迁移到零样本闭环；(2) VFM 目标的选择影响规划；(3) 辅助感知监督可将 5 个目标间 EPDMS 差距从 2.7 收窄到 0.5。",
+      "url": "https://arxiv.org/abs/2610.09695v1",
+      "gaze": false
+    },
+    {
+      "id": "2610.09763",
+      "title": "Beyond Policy Support: Interaction Constrained Offline Reinforcement Learning for Autonomous Driving",
+      "authors": "(arXiv 2610.09763)",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "contribution_cn": "指出离线 RL 在交互式场景（自动驾驶）中的“交互分布偏移 (IDS)”问题：自车轨迹在边际行为分布下支持良好，却与周围智能体行为联合支持不足。",
+      "method_cn": "提出 Interaction-Constrained Drive Policy (ICDP)，在自车与其交互对象的行为联合空间上施加约束，而非仅约束策略自身动作空间。",
+      "results_cn": "缓解 IDS 带来的价值估计不可靠问题，提升离线 RL 驾驶策略的安全性与可靠性。",
+      "url": "https://arxiv.org/abs/2610.09763v1",
+      "gaze": false
+    },
+    {
+      "id": "2610.09943",
+      "title": "Many Ways to Succeed: Diversity-Driven RL Fine-Tuning for VLA Generalization",
+      "authors": "(arXiv 2610.09943)",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "relevance": 4,
+      "contribution_cn": "提出 DRIVE：将成功行为的多样性显式转化为 RL 目标，用于 VLA 策略微调，缓解开放环/闭环泛化不足。",
+      "method_cn": "在匹配任务条件下对 rollout 分组，做时序对齐轨迹比较，从相对行为多样性导出成功条件化的内在奖励，促使策略覆盖更多潜在有效解模式。",
+      "results_cn": "RL 全局收缩行为的同时反而多样化成功轨迹；相比监督微调覆盖更多潜在任务有效解空间，在分布偏移下提供替代策略。",
+      "url": "https://arxiv.org/abs/2610.09943v1",
+      "gaze": false
+    },
+    {
+      "id": "2610.09520",
+      "title": "Not All Uncertainty Matters: Simulation-in-the-Loop Fast-Slow Reasoning for Decision-Critical Autonomous Driving System",
+      "authors": "(arXiv 2610.09520)",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "relevance": 4,
+      "contribution_cn": "提出 SIGMA：面向任务的车-云快慢协同框架，解决“何时该让云端大 VLM 影响时敏驾驶决策”的问题——只在解决该不确定性真正能改善规划时才调用。",
+      "method_cn": "将规划器嵌入不确定性评估，在语义与几何下的可行场景实现中评估其对规划的影响；仿真在环 (SITL) 做快慢推理触发。",
+      "results_cn": "相比基于感知不确定性/启发式/资源驱动的触发，更精准地在必要时启用云端推理，兼顾实时性与决策质量。",
+      "url": "https://arxiv.org/abs/2610.09520v1",
+      "gaze": false
+    },
+    {
+      "id": "2610.09369",
+      "title": "Immiscible Diffusion Policy: Preserving Multimodal Robot Actions through Label-Free Noise Assignment",
+      "authors": "(arXiv 2610.09369)",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "relevance": 4,
+      "contribution_cn": "发现扩散策略在多模态数据下仍会坍缩到单一模态，指出“独立动作-噪声配对”导致的路径交叉/混合是主因；提出 Immiscible Diffusion Policy。",
+      "method_cn": "无需标签的训练期插件，通过动作-噪声分配使噪声到动作的路径尽量互不混溶 (immiscible)，从而保留模态特异性行为。",
+      "results_cn": "在机器人密集低维动作空间缓解模态坍缩，恢复并保持扩散策略的多模态动作分布能力。",
+      "url": "https://arxiv.org/abs/2610.09369v1",
+      "gaze": false
+    },
+    {
+      "id": "2610.04356",
+      "title": "SelectOccFlow: Selective Spatiotemporal Aggregation for 3D Occupancy and Scene Flow Prediction",
+      "authors": "(arXiv 2610.04356)",
+      "published": "2026-10-03",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "relevance": 4,
+      "contribution_cn": "提出 SelectOccFlow：选择性时空聚合框架，解决相机基占用/场景流预测中语义不兼容特征、历史观测错位与体素结构不完整导致的聚合不可靠问题。",
+      "method_cn": "跨图像/时间/体素三域渐进精炼：语义引导采样 (SGS) 用语义先验约束特征采样；状态条件时间聚合 (SCTA) 依据体素状态选择性检索历史证据；进一步精炼体素结构。",
+      "results_cn": "在 3D 占用与场景流预测上取得提升，兼顾几何、语义与运动建模的鲁棒性。",
+      "url": "https://arxiv.org/abs/2610.04356v1",
+      "gaze": false
+    },
+    {
+      "id": "2610.10178",
+      "title": "Do Vision-Language-Action Models Understand Instructions? A Mechanistic Interpretability Study on Language Grounding",
+      "authors": "(arXiv 2610.10178)",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 3,
+      "contribution_cn": "对 VLA 模型 π0.5 与 GR00T N1.7 的语言接地能力做受控机制可解释性研究，考察其动作生成是否真正依赖语言指令。",
+      "method_cn": "对动作生成模块残差流施加激活/归因 patching，系统破坏输入任务指令，观察对动作输出的因果影响。",
+      "results_cn": "揭示 VLA 对语言指令的依赖程度与视觉/浅层相关性偏置，为 VLA 鲁棒部署提供机制层面证据。",
+      "url": "https://arxiv.org/abs/2610.10178v1",
+      "gaze": false
+    },
+    {
+      "id": "2610.08043",
+      "title": "Vector Map Quality Metrics for Contextual Autonomous Driving Systems",
+      "authors": "(arXiv 2610.08043)",
+      "published": "2026-10-06",
+      "categories": [
+        "cs.RO"
+      ],
+      "relevance": 3,
+      "contribution_cn": "提出矢量地图质量指标 GOSPAM，用于度量地图的位置误差、存在性与完整性差异，指导地图更新触发与编译部署决策。",
+      "method_cn": "在点/折线要素地图上做仿真，分析其对偏置、假正、假负、坐标误差等常见退化的敏感性。",
+      "results_cn": "GOSPAM 提供统一且可解释的度量，有效刻画多种地图偏差形式，服务于众源地图维护。",
+      "url": "https://arxiv.org/abs/2610.08043v1",
+      "gaze": false
+    },
+    {
+      "id": "2610.09438",
+      "title": "Controllable Crowd Generation through World-Model Planning",
+      "authors": "(arXiv 2610.09438)",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.CV"
+      ],
+      "relevance": 3,
+      "contribution_cn": "提出 Ctrl-CWM：多智能体可控人群世界模型，将“用想象未来做规划”的世界模型原则引入人群仿真，支持运行时用户目标控制。",
+      "method_cn": "包含学习人类运动动力学表征的 encoder、提出行人位移的 actor、评估想象轨迹的 critic 与选择动作的 planner。",
+      "results_cn": "在机器人导航/自动驾驶/城市规划等场景实现更真实、可随环境与用户目标自适应的人群仿真。",
+      "url": "https://arxiv.org/abs/2610.09438v1",
+      "gaze": false
+    },
     {
       "id": "2610.05331",
       "title": "VAMPS: Visual and Motor Policies from Sampling-Based Planning",
@@ -16819,8 +16977,8 @@
       "status": "new"
     }
   ],
-  "updated_at": "2026-10-07T17:10:49.866278-07:00",
-  "last_updated": "2026-10-07T17:10:49.866278-07:00",
+  "updated_at": "2026-10-08T17:21:37.061168-07:00",
+  "last_updated": "2026-10-08T17:21:37.061168-07:00",
   "category_counts": {
     "['cs.RO', 'cs.AI', 'cs.LG']": 8,
     "['cs.LG']": 11,
@@ -16956,7 +17114,7 @@
     "['cs.CV', 'eess.IV']": 1,
     "['cs.CR', 'cs.AI']": 1
   },
-  "total_papers": 970,
+  "total_papers": 980,
   "weekly": {
     "week": "2026-09-13 ~ 2026-09-19",
     "report": "weekly/2026-09-19-weekly-summary.md",
@@ -16971,6 +17129,16 @@
     "2026-09-24": 83
   },
   "new_findings": [
+    "2610.10390",
+    "2610.09695",
+    "2610.09763",
+    "2610.09943",
+    "2610.09520",
+    "2610.09369",
+    "2610.04356",
+    "2610.10178",
+    "2610.08043",
+    "2610.09438",
     "2610.05331",
     "2610.08271",
     "2610.07015",
@@ -17020,16 +17188,6 @@
     "2610.06232",
     "2610.06137",
     "2610.05969",
-    "2610.05755",
-    "2610.05747",
-    "2610.00834",
-    "2610.05604",
-    "2610.05571",
-    "2610.05552",
-    "2610.06250",
-    "2610.06596",
-    "2610.06539",
-    "2610.06517",
-    "2610.05707"
+    "2610.05755"
   ]
 }

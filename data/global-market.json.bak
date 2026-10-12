@@ -1,27 +1,27 @@
 {
-  "updated_at": "2026-10-12T01:15:00Z",
-  "as_of": "Oct 12 2026 ~01:15 UTC / 10月12日 09:15 CST — 周一亚洲开盘前。美股股指期货基本持平，等待银行财报季启动；隔夜商品：WTI ~$90.0(-2.0%)回落、黄金 ~$4,229(+0.30%)续强、白银 ~$61.6(+0.91%)、天然气 ~$3.16(-1.8%)。加密小幅走高，BTC ~$83.9k(+1.1%)。中东：美军在阿曼湾击中商业油轮事件持续发酵；飓风 Isaias 后墨西哥湾产量恢复中。",
+  "updated_at": "2026-10-12T13:30:00Z",
+  "as_of": "Oct 12 2026 ~13:30 UTC / 10月12日 21:30 CST — 周一美股盘中(哥伦布日，债市休市)。股指期货/现货窄幅震荡，标普持平、纳指100微跌，市场等待周二启动的银行财报季。中东局势持续升级：沙特周一遭新一轮无人机与巡航导弹袭击，此前周末利雅得机场遇袭致伤亡；霍尔木兹海峡风险溢价仍在，油价波动加大。加密回落：BTC ~$82.5k(-1.4%)、ETH ~$2,528。",
   "indices": [
     {
       "name": "S&P 500",
       "symbol": "^GSPC",
       "close": 7839.38,
-      "change_pct": 0.6,
-      "note": "标普500 (+0.6%) 收 7,839.38 — 周五反弹，逼近三天前创下的历史高点，收复本周AI抛售失地。"
+      "change_pct": 0.0,
+      "note": "标普500 现货持平(周一哥伦布日，债市休市、成交清淡)，上周五收 7,839.38 (+0.6%)，逼近历史高点。"
     },
     {
       "name": "道琼斯",
       "symbol": "^DJI",
       "close": 51712.54,
-      "change_pct": 0.8,
-      "note": "道指 (+0.8%, +423.31点) 收 51,712.54 — 领涨大盘，价值/周期股稳健，本周表现坚挺。"
+      "change_pct": 0.0,
+      "note": "道指 基本持平，上周五收 51,712.54 (+0.8%, +423点)，价值/周期股稳健。"
     },
     {
       "name": "纳斯达克",
       "symbol": "^IXIC",
       "close": 27534.25,
-      "change_pct": 0.6,
-      "note": "纳指 (+0.6%) 收 27,534.25 — 科技股反弹带动，从周四AI抛售中回暖。"
+      "change_pct": -0.2,
+      "note": "纳指 100 微跌 -0.18%，上周五纳指收 27,534.25 (+0.6%)；科技股在周中 AI 抛售后回暖后转震荡。"
     },
     {
       "name": "罗素2000",
@@ -35,7 +35,7 @@
       "symbol": "^VIX",
       "close": 15.07,
       "change_pct": -2.21,
-      "note": "VIX 回落至 ~15.07 — 风险偏好回暖，波动率处于近年低位区间。"
+      "note": "VIX 处于 ~15 低位区间 — 风险偏好回暖；中东地缘升级尚未显著推高波动率。"
     },
     {
       "name": "恒生指数",
@@ -48,59 +48,24 @@
       "name": "日经225",
       "symbol": "^N225",
       "close": 69030.92,
-      "change_pct": -0.02,
-      "note": "日经 (周五 -0.02%) 收 69,031 — 基本收平，半导体链观望美股AI走向。"
-    },
-    {
-      "name": "上证指数",
-      "symbol": "000001.SS",
-      "close": 0,
-      "change_pct": 0,
-      "note": "A股详情见 a-shares.json（周末休市）。"
-    },
-    {
-      "name": "印度 Sensex",
-      "symbol": "^BSESN",
-      "close": 71593.24,
       "change_pct": 0.0,
-      "note": "印度 Sensex 参考上一交易日 — 油价高企仍压制进口国情绪。"
-    },
-    {
-      "name": "韩国 KOSPI",
-      "symbol": "^KS11",
-      "close": 6625.93,
-      "change_pct": 0.0,
-      "note": "韩国 KOSPI 参考上一交易日 — 关注半导体链与外资流向。"
-    },
-    {
-      "name": "英国富时100",
-      "symbol": "^FTSE",
-      "close": 10553.89,
-      "change_pct": 1.04,
-      "note": "富时100 (周五 +1.04%) 收 ~10,551 — 欧股走强，软件与矿业股领涨，油价企稳。"
-    },
-    {
-      "name": "德国DAX",
-      "symbol": "^GDAXI",
-      "close": 25087.27,
-      "change_pct": 1.13,
-      "note": "德国DAX (周五 +1.13%) 收 25,087 — 自两月低位反弹，欧股全线上涨(9大指数齐升)。"
+      "note": "日经225 基本收平 — 缺乏方向，关注半导体链与日元走势。"
     }
   ],
   "crypto": [
     {
       "name": "Bitcoin (BTC)",
       "symbol": "BTC-USD",
-      "price": 83900,
-      "change_pct": 1.13,
-      "note": "BTC ~$83,900 (+1.13%) 隔夜走高 — 结束此前连跌并守住 $80k 关口；全时高 $126,198。"
+      "price": 82578,
+      "change_pct": -1.38,
+      "note": "BTC ~$82,578 (-1.38%) — 周一回落，跌破 $83k；日内区间 $82,514-$84,336，全时高 $126,198。"
     },
     {
       "name": "Ethereum (ETH)",
       "symbol": "ETH-USD",
-      "price": 2506.82,
-      "change_pct": 0.4,
-      "note": "ETH ~$2,507 (+0.40%) — 于 $2,500 关口附近反复争夺，此前创约三周低位后企稳。全时高 $4,953.73。"
+      "price": 2528,
+      "change_pct": 1.26,
+      "note": "ETH ~$2,528 (+1.26%) — 于 $2,500 关口附近企稳，此前创约三周低位后反弹；全时高 $4,953.73。"
     }
   ],
   "commodities": [
@@ -109,85 +74,65 @@
       "symbol": "CL=F",
       "price": 90.04,
       "change_pct": -1.97,
-      "note": "WTI ~$90.0 (-1.97%) 隔夜回落 — 特朗普称对伊/俄谈判推进降温地缘溢价，飓风 Isaias 后墨西哥湾产量逐步恢复，油价自上周高位回吐。"
+      "note": "WTI ~$90.0 (-1.97%) — 特朗普称俄乌达成'能源停火'叠加飓风后墨西哥湾产量恢复，油价自高位回吐；沙特遇袭带来部分支撑。"
     },
     {
       "name": "Brent原油",
       "symbol": "BZ=F",
       "price": 101.6,
       "change_pct": 0.5,
-      "note": "Brent ~$101.6 — 霍尔木兹/阿曼湾风险溢价仍在，价格维持高位；本周关注中东局势与 OPEC+ 动向。"
+      "note": "Brent ~$101.6 — 霍尔木兹/沙特风险溢价仍在，价格维持高位；全球柴油价格接近纪录高位。"
     },
     {
       "name": "黄金",
       "symbol": "GC=F",
       "price": 4228.8,
       "change_pct": 0.3,
-      "note": "黄金 ~$4,229 (+0.30%) 隔夜续强 — 避险与降息预期双重支撑，续刷历史高位区间；白银 ~$61.6 (+0.91%)。"
+      "note": "黄金 ~$4,229 (+0.30%) 续强 — 避险与降息预期双重支撑，续处历史高位区间；白银 ~$61.6 (+0.91%)。"
     }
   ],
   "macro": {
-    "fed": "美联储降息预期升温：周五公布疲软就业数据后，市场定价10月降息概率约92%，美债收益率回落支撑股指。",
-    "bonds": "AI 企业密集发债(borrowing spree)令科技债承压、利差重定价；新兴市场被认为对欧洲债务动荡准备更充分。",
-    "geopolitics": "中东局势升级为最大风险：美军在阿曼湾击中一商业油轮，伊朗加大霍尔木兹海峡油轮袭击；特朗普称对伊谈判'富有成效'但称将'考虑'加入沙特打击胡塞武装。飓风 Isaias 登陆佛州致至少2人遇难，关闭墨西哥湾逾60%产量。",
-    "trade": "银行财报季本周启动：周二 JPM、GS、WFC、C 打头阵，周三 BAC、MS；科技焦点 ASML(周三)、台积电(周四)。经济数据周：周三9月CPI、周四9月PPI+零售销售(均8:30 ET)，为10月28日美联储决议定调。",
-    "asia": "亚太周五分化：恒指 +1.79% 领涨(内地长假后复市)，日经基本收平；周一亚洲开盘关注A股外资流向、半导体链(T台积电财报前瞻)与美债收益率联动。"
+    "fed": "美联储降息预期升温：上周疲软就业数据后，市场定价 10 月降息概率约 92%；但 Citi 经济学家指出 AI 以外的实体经济放缓、利率对经济仍具限制性。周三 9 月 CPI、周四 PPI+零售销售为 10/28 决议定调。",
+    "bonds": "周一美国债市因哥伦布日休市；此前 AI 企业密集发债令科技债承压、利差重定价。",
+    "asia": "亚太周五分化：恒指 +1.79% 领涨(内地长假后复市)，日经基本收平。周一亚洲开盘关注 A 股外资流向、半导体链与美债收益率联动。",
+    "geopolitics": "中东局势持续升级为最大风险：沙特周一遭新一轮无人机与巡航导弹袭击，此前周末利雅得机场遇袭致伤亡；FAA 警告美国航司沙特上空飞行风险。特朗普称俄乌达成'能源停火'(泽连斯基指俄方违反)。",
+    "trade": "中国与欧盟达成意外贸易协议，暂时缓解贸易摩擦，将对华混合动力车出口设严格配额。"
   },
   "headlines": [
     {
-      "source": "CNBC",
-      "title": "Nasdaq jumps as tech shares rebound following sell-off",
-      "note": "科技股反弹带动纳指领涨，周四AI抛售后情绪回暖，标普500逼近纪录高点。"
-    },
-    {
-      "source": "FT",
-      "title": "US hits commercial tanker in Gulf of Oman as tensions flare",
-      "note": "美军在阿曼湾击中商业油轮，中东局势升级，油价风险溢价维持。"
-    },
-    {
-      "source": "GV Wire / AP",
-      "title": "Oil prices settle higher as Hurricane Isaias shuts 70% of Gulf production",
-      "note": "飓风 Isaias 关闭墨西哥湾逾70%原油产量，油价收涨，供给担忧升温。"
-    },
-    {
-      "source": "CNBC",
-      "title": "Trump says he's 'going to look at' joining Saudi Arabia against Iran-backed Houthis",
-      "note": "特朗普称将考虑加入沙特打击胡塞武装，地缘不确定性加剧。"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Bank earnings to shed first light on how higher yields are affecting the economy",
-      "note": "银行财报季启动，将首次反映高利率环境对经济的实际影响。"
+      "source": "Bloomberg",
+      "title": "Saudi Arabia Faces Fresh Attacks",
+      "note": "沙特周一遭新一轮无人机与巡航导弹袭击，周末利雅得机场遇袭致伤亡 — 中东安全风险持续升温。"
     },
     {
       "source": "Bloomberg",
-      "title": "Emerging Markets Better Armed for Renewed European Debt Turmoil",
-      "note": "新兴市场被认为对欧洲债务动荡准备更充分，法国债券与政治风险受关注。"
+      "title": "Oil Swings on Russia-Ukraine Progress, Saudi Attacks",
+      "note": "美股期货在财报季前波动，美债市休市；特朗普称俄乌达成'能源停火'，油价受地缘与供需双向拉锯。"
     },
     {
-      "source": "FT",
-      "title": "Hurricane Isaias kills at least two and disrupts US oil and gas production",
-      "note": "飓风 Isaias 登陆佛州致至少2人遇难，持续扰乱美国油气生产。"
+      "source": "CNBC",
+      "title": "FAA warns U.S. airlines of safety risks over Saudi Arabia after attacks",
+      "note": "FAA 警告美国航司沙特上空飞行风险，机场遇袭扰乱旅行，达美权衡 10/23 开航计划。"
     },
     {
-      "source": "Schwab Network",
-      "title": "Week Ahead: Banks Kick Off Earnings; CPI, PPI & Retail Sales in Focus",
-      "note": "本周(10/12-16)银行财报季启动，周三9月CPI、周四PPI+零售销售为10月28日美联储决议定调。"
-    },
-    {
-      "source": "FT",
-      "title": "Trump faces Republican opposition to his diesel deal with Russia's Putin",
-      "note": "特朗普与普京柴油交易遭党内反对，能源与地缘政治交织，油价敏感。"
+      "source": "CNBC",
+      "title": "Microsoft to rely more on homegrown AI chips, reducing dependence on Nvidia",
+      "note": "微软加大自研 AI 芯片使用，降低对英伟达依赖 — 有望扩大利润率、强化 AI 栈，AI 芯片竞赛升温。"
     },
     {
       "source": "SCMP",
-      "title": "At least 139 migrants dead after boat capsizes off Djibouti",
-      "note": "吉布提外海移民船倾覆致至少139人遇难，人道与地缘风险事件。"
+      "title": "China, EU take a breath after surprise deal brings temporary halt to trade tussle",
+      "note": "中欧达成意外贸易协议，暂时止住贸易对决，将对华混合动力车出口设严格配额 — 利好中欧贸易情绪。"
+    },
+    {
+      "source": "SCMP",
+      "title": "Global diesel shortage: why Gulf refined fuel exports lag crude oil shipments",
+      "note": "全球柴油价格接近纪录高位，海湾炼油出口恢复滞后于原油 — 能源供应链压力延续。"
     }
   ],
   "week_performance": {
-    "note": "本周美股以纪录周收官：标普500 +0.6% 逼近历史高点、道指 +0.8%(+423点)、纳指 +0.6%，科技股在周中AI抛售后反弹，疲软就业数据推升美联储降息预期(概率约92%)带动收益率回落。欧股全线上涨(DAX +1.13%、富时100 +1.04%)；亚太恒指 +1.79% 领涨、日经基本收平。商品方面：中东霍尔木兹海峡油轮遇袭叠加飓风 Isaias 关闭墨西哥湾逾60%产量，油价维持高位(Brent ~$101.6)；黄金续处高位(~$4,175)。加密企稳：BTC ~$83.1k、ETH ~$2,507。下周焦点：银行财报季开启、美联储降息路径、中东局势与油价、飓风供给扰动。"
+    "note": "本周(10/12-16)关键：1) 银行财报季周二启动(JPM/GS/WFC/C 打头阵，周三 BAC/MS)，反映高利率下信贷与经济状况；2) 科技焦点 ASML(周三)、台积电(周四)前瞻半导体与 AI 资本开支周期；3) 经济数据：周三 9 月 CPI、周四 PPI+零售销售，为 10/28 美联储决议定调(当前定价降息概率约 92%)；4) 中东地缘升级(沙特遇袭、霍尔木兹风险)与油价；5) 加密守 BTC $80k、ETH $2,450 支撑。"
   },
-  "overnight": "周一亚洲开盘前(10/12 01:15 UTC)：美股股指期货基本持平，等待财报季启动。隔夜商品分化——WTI ~$90.0(-2.0%)因对伊/俄谈判推进与飓风后产量恢复而回落，黄金 ~$4,229(+0.30%)续创历史高位区间、白银 ~$61.6(+0.91%)走强，天然气 ~$3.16(-1.8%)。加密小幅上行：BTC ~$83,900(+1.13%)、ETH ~$2,507 附近。上周五回顾：美股以纪录周收官(标普 +0.6%、道指 +0.8%、纳指 +0.6%)，欧股全线上涨(DAX +1.13%、富时100 +1.04%)，恒指 +1.79% 领涨亚太。地缘：美军在阿曼湾击中商业油轮持续发酵，霍尔木兹风险溢价仍在；特朗普称将考虑加入沙特打击胡塞武装。",
-  "morning_preview": "本周(10/12-16)关键：1) 银行财报季周二启动(JPM/GS/WFC/C)，周三 BAC/MS，反映高利率对信贷与经济的影响；2) 科技焦点 ASML(周三)、台积电(周四)前瞻半导体与AI资本开支周期；3) 经济数据：周三9月CPI、周四9月PPI+零售销售，为10月28日美联储决议定调(当前定价10月降息概率约92%)；4) 商品：WTI 回落至 $90，黄金续强于 $4,229，关注中东局势与飓风后产量恢复；5) 加密守住 BTC $80k、ETH $2,450 支撑；6) 周一亚太开盘与A股外资流向、美债收益率联动。"
+  "overnight": "周一(10/12)盘中，哥伦布日美股现货交投清淡、债市休市，标普持平、纳指100微跌，市场等待周二银行财报季启动。中东局势持续升级：沙特遭新一轮无人机与巡航导弹袭击，霍尔木兹风险溢价仍在，油价波动加大(WTI ~$90、Brent ~$101.6)。黄金续强于 ~$4,229、白银 ~$61.6。加密回落：BTC ~$82,578(-1.38%)、ETH ~$2,528(+1.26%)。",
+  "morning_preview": "周二(10/13)前瞻：1) 银行财报季正式启动，JPM/GS/WFC/C 业绩为市场定调；2) 关注中东局势对油价与风险偏好的溢出(沙特遇袭、霍尔木兹)；3) 美元与美债收益率随降息预期波动；4) 加密 BTC $80k 支撑、ETH $2,450 支撑；5) A 股/港股外资流向与半导体链联动。"
 }

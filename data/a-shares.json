@@ -1,183 +1,168 @@
 {
   "date": "2026-10-13",
-  "time": "noon",
-  "fetched_at": "2026-10-13T03:35:46Z",
+  "time": "close",
+  "fetched_at": "2026-10-13T07:08:51Z",
   "indices": {
     "上证指数": {
       "code": "000001",
-      "price": 3787.16,
-      "change": -10.08,
-      "change_pct": -0.27,
-      "amount": 469151049936.9
+      "price": 3800.86,
+      "change": 3.62,
+      "change_pct": 0.1,
+      "amount": 779302288023.0
     },
     "深证成指": {
       "code": "399001",
-      "price": 12288.403,
-      "change": -96.466,
-      "change_pct": -0.779,
-      "amount": 539039275419.0
+      "price": 12353.7,
+      "change": -31.17,
+      "change_pct": -0.25,
+      "amount": 896606160173.0
     },
     "创业板指": {
       "code": "399006",
-      "price": 2935.544,
-      "change": -28.28,
-      "change_pct": -0.954,
-      "amount": 272486638118.0
+      "price": 2958.34,
+      "change": -5.48,
+      "change_pct": -0.18,
+      "amount": 449737550432.0
     },
     "沪深300": {
       "code": "000300",
-      "price": 4263.4,
-      "change": -24.58,
-      "change_pct": -0.57,
-      "amount": 255026732361.7
+      "price": 4275.68,
+      "change": -12.3,
+      "change_pct": -0.29,
+      "amount": 442037721503.0
     },
     "上证50": {
       "code": "000016",
-      "price": 2802.89,
-      "change": -16.52,
-      "change_pct": -0.59,
-      "amount": 71227328062.4
+      "price": 2807.42,
+      "change": -11.99,
+      "change_pct": -0.42,
+      "amount": 125945749180.0
     },
     "中证500": {
       "code": "000905",
-      "price": 7043.02,
-      "change": -50.0,
-      "change_pct": -0.7,
-      "amount": 162193826527.6
+      "price": 7085.09,
+      "change": -7.93,
+      "change_pct": -0.11,
+      "amount": 275135815181.0
     },
     "科创50": {
       "code": "000688",
-      "price": 1417.07,
-      "change": -9.65,
-      "change_pct": -0.68,
-      "amount": 45189686569.7
+      "price": 1427.18,
+      "change": 0.46,
+      "change_pct": 0.03,
+      "amount": 76980320633.0
     },
     "中证1000": {
       "code": "000852",
-      "price": 6974.0,
-      "change": -47.47,
-      "change_pct": -0.68,
-      "amount": 205078935685.5
+      "price": 7023.22,
+      "change": 1.75,
+      "change_pct": 0.03,
+      "amount": 337828277709.0
     }
   },
   "sectors": {
     "top": [
       {
-        "name": "印制电路板",
-        "change_pct": 6.26
+        "name": "其他数字媒体",
+        "change_pct": 11.94
       },
       {
-        "name": "元件",
-        "change_pct": 4.73
+        "name": "印制电路板",
+        "change_pct": 6.08
       },
       {
         "name": "纺织化学制品",
-        "change_pct": 4.51
+        "change_pct": 5.43
       },
       {
-        "name": "期货",
-        "change_pct": 4.28
+        "name": "元件",
+        "change_pct": 4.77
       },
       {
-        "name": "其他数字媒体",
-        "change_pct": 3.79
+        "name": "地面兵装Ⅲ",
+        "change_pct": 4.54
+      },
+      {
+        "name": "航海装备Ⅲ",
+        "change_pct": 4.36
       },
       {
         "name": "防水材料",
-        "change_pct": 3.51
+        "change_pct": 4.28
+      },
+      {
+        "name": "电商服务",
+        "change_pct": 4.22
+      },
+      {
+        "name": "期货",
+        "change_pct": 3.65
+      },
+      {
+        "name": "百货",
+        "change_pct": 3.56
       }
     ],
     "bottom": [
       {
         "name": "锂电专用设备",
-        "change_pct": -4.67
-      },
-      {
-        "name": "视频媒体",
-        "change_pct": -4.35
+        "change_pct": -3.32
       },
       {
         "name": "电池化学品",
-        "change_pct": -4.1
+        "change_pct": -3.14
+      },
+      {
+        "name": "保险Ⅲ",
+        "change_pct": -3.12
       },
       {
         "name": "逆变器",
-        "change_pct": -3.82
+        "change_pct": -2.99
+      },
+      {
+        "name": "诊断服务",
+        "change_pct": -2.84
+      },
+      {
+        "name": "纺织鞋类制造",
+        "change_pct": -2.69
       },
       {
         "name": "电池",
-        "change_pct": -3.72
+        "change_pct": -2.67
       },
       {
         "name": "风电零部件",
-        "change_pct": -3.53
-      }
-    ]
-  },
-  "hsgt": [
-    {
-      "date": "2026-10-13",
-      "type": "沪港通",
-      "board": "沪股通",
-      "direction": "北向",
-      "net_buy": 0.0
-    },
-    {
-      "date": "2026-10-13",
-      "type": "沪港通",
-      "board": "港股通(沪)",
-      "direction": "南向",
-      "net_buy": 7.0341
-    },
-    {
-      "date": "2026-10-13",
-      "type": "深港通",
-      "board": "深股通",
-      "direction": "北向",
-      "net_buy": 0.0
-    },
-    {
-      "date": "2026-10-13",
-      "type": "深港通",
-      "board": "港股通(深)",
-      "direction": "南向",
-      "net_buy": -2.3615
-    }
-  ],
-  "north_flow": {
-    "net_buy_total": 0.0,
-    "note": "沪股通+深股通；自2024-08起北向实时净买入不再披露，成交净买额显示为0",
-    "detail": [
-      {
-        "date": "2026-10-13",
-        "type": "沪港通",
-        "board": "沪股通",
-        "direction": "北向",
-        "net_buy": 0.0
+        "change_pct": -2.66
       },
       {
-        "date": "2026-10-13",
-        "type": "深港通",
-        "board": "深股通",
-        "direction": "北向",
-        "net_buy": 0.0
+        "name": "风电设备",
+        "change_pct": -2.6
+      },
+      {
+        "name": "风电整机",
+        "change_pct": -2.28
+      },
+      {
+        "name": "锂电池",
+        "change_pct": -2.09
       }
     ]
   },
-  "hk_indices": {
-    "恒生指数": {
-      "code": "HSI",
-      "price": 24050.381,
-      "change_pct": -0.91
+  "northbound": {
+    "沪股通": {
+      "net_buy": 0.0,
+      "up": 720,
+      "flat": 57,
+      "down": 867
     },
-    "恒生科技指数": {
-      "code": "HSTECH",
-      "price": 4066.56,
-      "change_pct": -2.471
+    "深股通": {
+      "net_buy": 0.0,
+      "up": 896,
+      "flat": 56,
+      "down": 934
     }
   },
-  "hang_seng": {
-    "code": "HSI",
-    "price": 24050.381
-  }
+  "total_amount": 1675908448196.0
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11",
+ "updated": "2026-10-12",
  "papers": [
   {
    "id": "2610.07031",
@@ -18631,56 +18631,738 @@
    ],
    "relevance": 3,
    "status": "new"
+  },
+  {
+   "id": "2610.13453v1",
+   "title": "Reflect-VLA: Internalizing Reflective Guidance via Dual-Path On-Policy Self-Distillation for Autonomous Driving",
+   "authors": "Yuechen Luo; He Chong; Fang Li; Shaoqing Xu; Hexin Zhang; Ruiqi Zhang; Ziying Song; Lei Yang; Zhi-Xin Yang; Fuxi Wen",
+   "published": "2026-10-09",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 5,
+   "summary": "Reinforcement Learning (RL) substantially improves planning performance in autonomous-driving Vision-Language-Action (VLA) models. However, existing RL methods rely on scalar trajectory rewards that m",
+   "url": "https://arxiv.org/abs/2610.13453",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.13409v1",
+   "title": "ManeuverFlow: Maneuver Hypothesis Generation with Future Evidence for Trajectory Evaluation and Refinement in End-to-End Autonomous Driving",
+   "authors": "Yuhao Wei; Yong Chen; Chen Yang; Yingchen Wang; Delin Ouyang; Lingfeng Qi; Qi Lan; Zhanhua Zhang; Jie Li; Guofa Li",
+   "published": "2026-10-09",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 5,
+   "summary": "End-to-end planning in complex scenes must model diverse driving intentions and select the most appropriate trajectory using scene context and future risks. However, multi-query regression may collaps",
+   "url": "https://arxiv.org/abs/2610.13409",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.13945v1",
+   "title": "Splat2Act: From Captured Scenes to Personalized VLA Manipulation",
+   "authors": "Xiaomeng Ye; Krishna Jaganathan; Gyubeum Lim; Gunjan Chhablani; Muhammad Zubair Irshad; Zsolt Kira",
+   "published": "2026-10-09",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "relevance": 3,
+   "summary": "A user who brings a generalist manipulation policy into their home or office wants it to pick up their objects from their shelves, counters, and tables. Yet even a strong generalist like $π_{0.5}$ ach",
+   "url": "https://arxiv.org/abs/2610.13945",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.13943v1",
+   "title": "Noise Space Learning for VLA Adaptation",
+   "authors": "Junjie Lu; Chuheng Zhang; Yucen Wang; Yuhua Jiang; Xinyao Qin; Min Xu; Li Zhao",
+   "published": "2026-10-09",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Pretrained vision-language-action (VLA) models encode broad manipulation priors, yet adapting them to specific tasks requires balancing limited robot interaction, computational resources, and safety c",
+   "url": "https://arxiv.org/abs/2610.13943",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.13732v1",
+   "title": "LAPT-Scale: Scaling Embodied Policies with Latent Action Pre-Training on Human Videos",
+   "authors": "Zhiyuan Xiang; Peidong Liu; Mingyang Li; Jiawei Li; Wenhow Li; Wenbo Ding; Xiang Deng",
+   "published": "2026-10-09",
+   "categories": [
+    "cs.CV",
+    "cs.AI",
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Scaling generalist robotic policies is limited by the high cost of collecting embodied interaction data. Large-scale egocentric human videos offer a rich alternative, but they lack robot action labels",
+   "url": "https://arxiv.org/abs/2610.13732",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.13628v1",
+   "title": "JitterVLA: A Replay Benchmark for Motion Quality in VLA-Driven Human-Robot Manipulation",
+   "authors": "Faith Ogunwoye; Didar Seyidov; Konstantin Gubernatorov; Dzmitry Tsetserukou",
+   "published": "2026-10-09",
+   "categories": [
+    "cs.RO",
+    "cs.HC",
+    "cs.LG"
+   ],
+   "relevance": 3,
+   "summary": "Vision-language-action (VLA) policies issue sparse targets whose arrival at the robot controller is delayed and irregular, so a reasonable predicted action can still produce abrupt motion near people.",
+   "url": "https://arxiv.org/abs/2610.13628",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.13578v1",
+   "title": "RARA: Robust Policy Fine-Tuning through Retrieval-Anchored Representation Alignment for Robotic Manipulation",
+   "authors": "Xuhui Kang; Sung-Wook Lee; Yan Zhuang; Tianle Zhong; Yen-Ling Kuo",
+   "published": "2026-10-09",
+   "categories": [
+    "cs.RO",
+    "cs.CV",
+    "cs.LG"
+   ],
+   "relevance": 3,
+   "summary": "Pre-trained robot policies, such as Vision-Language-Action (VLA) models, provide a strong foundation for generalist robotic manipulation, but adapting them to new tasks with only a few demonstrations",
+   "url": "https://arxiv.org/abs/2610.13578",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.13262v1",
+   "title": "Dual-Stream Memory for Vision-Language-Action Policies",
+   "authors": "Yang Wang; Ping Liu; Ruiyu Wang; Xuhua Chen; Lingfeng Zhang; Tao Zhang",
+   "published": "2026-10-09",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "relevance": 3,
+   "summary": "Memory-dependent manipulation requires a policy to track execution state and recover visual evidence that is no longer observable. We propose dual-stream memory for vision-language-action policies, as",
+   "url": "https://arxiv.org/abs/2610.13262",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.13212v1",
+   "title": "Beyond Actions: Learning Future Operation Targets for Vision-Language-Action Models",
+   "authors": "Min Lin; Bokai Zhou; Jianqi Lin; Kaiyuan Yang; Yicheng Chang; Junjie Yu; Xiaofan Liu; Jianhua Han; Rui Li; Shen Zhao; Xiaodan Liang",
+   "published": "2026-10-09",
+   "categories": [
+    "cs.RO",
+    "cs.AI"
+   ],
+   "relevance": 3,
+   "summary": "Actions specify what a robot should execute, but do not describe what those commands will achieve. Vision-language-action (VLA) policies nevertheless learn primarily by predicting action chunks from i",
+   "url": "https://arxiv.org/abs/2610.13212",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.13117v1",
+   "title": "Forward Dynamics Models",
+   "authors": "Zipei Ma; Junzhe Jiang; Jiahui Zhang; Juntong Zhang; Chun Gu; Bozhou Zhang; Jiankang Deng; Xiatian Zhu; Li Zhang",
+   "published": "2026-10-09",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Vision-language-action (VLA) models and world action models (WAMs) have advanced robotic policy learning by building on pretrained vision-language models (VLMs) and video generative models (VGMs), res",
+   "url": "https://arxiv.org/abs/2610.13117",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.12936v1",
+   "title": "Evo-World: A Lightweight Vision-Language-Action Model with Future Motion Prediction via Optical-Flow Supervision",
+   "authors": "Zile Zhong; Yuxin Du; Tao Lin; Haoxiao Wang; Wei Dai; Binhua Zuo; Bo Zhao",
+   "published": "2026-10-09",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Vision-language-action (VLA) models provide a unified framework for visual understanding, language grounding, and robot control, yet anticipating how the scene will evolve beyond the current observati",
+   "url": "https://arxiv.org/abs/2610.12936",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.12914v1",
+   "title": "OGPO: Offline Goal-conditioned Policy Optimization for Recoverable Vision-Language-Action Models",
+   "authors": "Xule Gao; Xi Wang; Zehua Zang; Rui Wang; Changwen Zheng; Chuxiong Sun",
+   "published": "2026-10-09",
+   "categories": [
+    "cs.AI"
+   ],
+   "relevance": 3,
+   "summary": "Vision-language-action (VLA) models have shown strong promise in robotic manipulation, yet their post-training still predominantly relies on trajectory-level supervised imitation over robot demonstrat",
+   "url": "https://arxiv.org/abs/2610.12914",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.12832v1",
+   "title": "VLMs are Native Action Models: Unleashing the Manipulation Capabilities of VLMs with Explicit Action-Space Grounding",
+   "authors": "Jingkun Yi; Shujie Zhang; Zirui Zhou; Haoxiao Wang; Haiyang Sun; Yuhang Dong; Xudong Xu; Xing Shen; Tao Zhang; Yong Liu; Jiangning Zhang",
+   "published": "2026-10-09",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Pretrained vision-language models (VLMs) already exhibit strong visual, spatial and reasoning capabilities relevant to robotic manipulation. The key challenge in turning pretrained VLMs into generalis",
+   "url": "https://arxiv.org/abs/2610.12832",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.13912v1",
+   "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+   "authors": "Taoyong Cui; Pinxian Zeng; Wanghan Xu; Hao Xiao; Shuhan Xue; Qiang Gao; Wanli Ouyang; Pheng Ann Heng; Zhenfei Yin; Yingcheng Wu; Ling Yang",
+   "published": "2026-10-09",
+   "categories": [
+    "cs.CL"
+   ],
+   "relevance": 3,
+   "summary": "Recursive self-improvement (RSI) aims to transform interaction experience into persistent improvements, yet external feedback is costly and world-model predictions may become unreliable as policies ev",
+   "url": "https://arxiv.org/abs/2610.13912",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.13872v1",
+   "title": "Tracking the Invisible: Self-Supervised Wheel Track Detection with Thermal-RGB Fusion",
+   "authors": "Yiming Yang; Jeremy P. Bos",
+   "published": "2026-10-09",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Accurate detection of drivable area is essential for autonomous driving and advanced driver assistance systems. While state-of-the-art methods focus on general traversability estimation, they prove in",
+   "url": "https://arxiv.org/abs/2610.13872",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.13077v1",
+   "title": "Towards Safer Cities: A Design Process for Perception Datasets in Urban Driving Scenarios",
+   "authors": "Alexander Kroth; Cristian Martinez; Steven Peters",
+   "published": "2026-10-09",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Urban environments present significant challenges for the perception systems of automated driving due to their high complexity, characterized by dense traffic, diverse obstacles, or a wide range of po",
+   "url": "https://arxiv.org/abs/2610.13077",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.13119v1",
+   "title": "Human2Dex: Dexterous Robot Learning from Wrist-Centric Human Demonstrations",
+   "authors": "Jiachen Zhang; Yuanyuan Li; Shaqi Luo",
+   "published": "2026-10-09",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Collecting dexterous manipulation demonstrations for each robot hand requires repeated task-specific data acquisition. We ask whether one shared corpus of natural human demonstrations can instead serv",
+   "url": "https://arxiv.org/abs/2610.13119",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.12747v1",
+   "title": "Trajectory Prediction for Autonomous Driving in Road Construction Zones Using Human-in-the-Loop Driving Data",
+   "authors": "Shuo Zhang; Aman Sunesh; Semiha Ergan; Kaan Ozbay",
+   "published": "2026-10-08",
+   "categories": [
+    "cs.RO",
+    "cs.AI",
+    "cs.LG"
+   ],
+   "relevance": 5,
+   "summary": "Ego-trajectory prediction in urban roadway work zones remains an underexplored topic in autonomous-driving research, with limited dedicated data and systematic evaluation. Roadway work zones involve t",
+   "url": "https://arxiv.org/abs/2610.12747",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.12793v1",
+   "title": "Gamma: Grounded Multi-Agent Memory with Mechanical Audit for Memory-Intensive Manipulation",
+   "authors": "Yudong Liu; Yueqian Lin; Zijia Tang; Yuxi Zheng; Yuan Li; Shuai Zhang; Yi Li; Taotao Jing; Shuangjun Liu; Dashan Gao; Ning Bi; Jingwei Sun; Yiran Chen; Hai Helen Li",
+   "published": "2026-10-08",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Pretrained vision-language-action (VLA) policies fail on memory tasks, behaviour that depends on events observed long before the current frame, because their training data is overwhelmingly Markov and",
+   "url": "https://arxiv.org/abs/2610.12793",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.12734v1",
+   "title": "StereoEngine: Scaling Stereo Bimanual Robot Data without Stereo Cameras",
+   "authors": "Jason Chen; I-Chun Arthur Liu; Gaurav Sukhatme; Daniel Seita",
+   "published": "2026-10-08",
+   "categories": [
+    "cs.RO",
+    "cs.CV",
+    "cs.LG"
+   ],
+   "relevance": 3,
+   "summary": "Stereo vision is increasingly used for robotic manipulation, with a growing body of work incorporating it into Vision-Language-Action (VLA) models. However, the scarcity of large-scale, real-world ste",
+   "url": "https://arxiv.org/abs/2610.12734",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.12710v1",
+   "title": "REMM: Revisable Embodied Memory for Manipulation",
+   "authors": "Revanth Krishna Senthilkumaran; Ruwan Wickramarachchi; Alessandro Oltramari; Jonathan Francis",
+   "published": "2026-10-08",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Long-horizon manipulation requires robots to retain task-relevant history while revising conclusions no longer supported by physical evidence. Retaining observations alone does not specify which compl",
+   "url": "https://arxiv.org/abs/2610.12710",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.12696v1",
+   "title": "Spa-Bench: A Real-Robot Benchmark for Spatial Grounding in Vision-Language-Action Models",
+   "authors": "Justin Tien-Smith; Matthew Pidden; Rolandos Alexandros Potamias",
+   "published": "2026-10-08",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Vision-language-action models (VLAs) offer a promising route toward general-purpose robotics by transferring semantic knowledge from large-scale vision-language pretraining into language-conditioned c",
+   "url": "https://arxiv.org/abs/2610.12696",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.12435v1",
+   "title": "VioLA: Learning Generalist Humanoid Control Policies from Human Data",
+   "authors": "Mert Albaba; Jens Beißwenger; Anna Manasyan; Daniel Marta; Michael J. Black; Wieland Brendel; Andreas Krause; Georg Martius; Martin Riedmiller",
+   "published": "2026-10-08",
+   "categories": [
+    "cs.RO",
+    "cs.LG"
+   ],
+   "relevance": 3,
+   "summary": "Teaching a humanoid to follow instructions with its whole body runs into two obstacles. Its action space is large and tightly coupled: legs, arms, and fingers must move together while the robot keeps",
+   "url": "https://arxiv.org/abs/2610.12435",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.12369v1",
+   "title": "Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement",
+   "authors": "Kairui Hu; Siyuan Hu; Fangzhou Hong; Zhaoxi Chen; Ziwei Liu",
+   "published": "2026-10-08",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "relevance": 3,
+   "summary": "Most robot policies keep a model in the control loop: a VLA maps observations to actions, and an Agent Harness, such as Agent-as-Policy or Harness VLA queries a VLM for decision making at run time. We",
+   "url": "https://arxiv.org/abs/2610.12369",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.12185v1",
+   "title": "RESETTLE: Robotic Recovery through Disagreement-Triggered Retrieval and Efficient Corrective Control",
+   "authors": "Yuxin Chen; Senqiao Yang; Zixuan Wang; Jinhui Ye; Changsheng Lu; Pengguang Chen; Shu Liu; Zhuotao Tian; Jiaya Jia",
+   "published": "2026-10-08",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Reliable robotic manipulation requires timely intervention to correct emerging deviations and restore progress after execution errors. However, recovery methods based on repeated vision-language reaso",
+   "url": "https://arxiv.org/abs/2610.12185",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.12575v1",
+   "title": "Mind the Temporal Gap: Evaluating Video Models for Temporal Understanding in Driving",
+   "authors": "Shiva Sreeram; Erfan Aasi; Tsun-Hsuan Wang; Alaa Maalouf; Daniela Rus",
+   "published": "2026-10-08",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Modern video-language models are increasingly treated as general-purpose video reasoners, yet it remains unclear whether they robustly capture temporal dynamics in safety-critical settings such as dri",
+   "url": "https://arxiv.org/abs/2610.12575",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.12684v1",
+   "title": "Non-Prehensile Multi-Object Placement with Mobile Robots via Diffusion-Based Trajectory Planning",
+   "authors": "Lance Pharand; Megnath Ramesh; Mark Chiu; Yash Vardhan Pant; Stephen L. Smith",
+   "published": "2026-10-08",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Non-prehensile manipulation with mobile robots has primarily targeted placement in coarse goal regions. Precision placement has been studied with manipulators on benchmarks such as Push-T, where an om",
+   "url": "https://arxiv.org/abs/2610.12684",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.09335v1",
+   "title": "SearchWorld: Spatial Value-Grounded Imagination for UAV Object Search via World Models",
+   "authors": "Yatai Ji; Zhengqiu Zhu; Yong Zhao; Yue Hu; Fanglong Yao; Chen Gao; Pengfei Zhu; Quanjun Yin",
+   "published": "2026-10-07",
+   "categories": [
+    "cs.AI",
+    "cs.LG"
+   ],
+   "relevance": 3,
+   "summary": "Autonomous unmanned aerial vehicle (UAV) object search involves a closed loop of perception, decision-making, and action under partial observability. Urban environments pose several challenges: large",
+   "url": "https://arxiv.org/abs/2610.09335",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.10409v1",
+   "title": "RobotWorld: Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks and Embodiments",
+   "authors": "Zhiqin Yang; Chenxin Li; Xiaomeng Hu; Yibin Liu; Weidong Huang; Jiankai Sun; Haitao Li; Zijian Wu; Yuzhi Huang; Fanding Huang; Hanwen Sun; Jiashun Liu; Jingqi Tong; Mingxin Huang; Shaoli Hu; Shijue Huang; Tianyi Bai; Xinyuan Wang; Yunlong Lin; Zhengyang Tang; Zhexin Zhang; Zhuo Chen; Xierui Song; Juntao Dai; Boyuan Chen; Jiaming Ji; Fangneng Zhan; Mengkang Hu; Wei Xue; Yonggang Zhang; Han Hu; Tsung-Yi Ho; Yike Guo",
+   "published": "2026-10-07",
+   "categories": [
+    "cs.RO",
+    "cs.LG"
+   ],
+   "relevance": 3,
+   "summary": "General-purpose agents increasingly write code, use tools, and complete complex digital tasks, raising the question of how far these capabilities carry into the physical world. To investigate this, we",
+   "url": "https://arxiv.org/abs/2610.10409",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.08458v1",
+   "title": "Behavioral Safety Assessment towards Large-scale Deployment of Autonomous Vehicles, Part II: Assessment Results",
+   "authors": "Henry X. Liu; Tinghan Wang; Xintao Yan; Haowei Sun; Zhijie Qiao; Kenneth Boyd; Shuo Feng; Greg Stevens; Greg McGuire",
+   "published": "2026-10-06",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 4,
+   "summary": "Third-party evaluations of autonomous vehicle (AV) safety can play a vital role in improving public acceptance, building consumer confidence, and establishing effective safety standards. In Part I of",
+   "url": "https://arxiv.org/abs/2610.08458",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.08450v1",
+   "title": "Behavioral Safety Assessment towards Large-scale Deployment of Autonomous Vehicles, Part I: Methodology",
+   "authors": "Henry X. Liu; Tinghan Wang; Xintao Yan; Haowei Sun; Zhijie Qiao; Kenneth Boyd; Shuo Feng; Greg Stevens; Greg McGuire",
+   "published": "2026-10-06",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 4,
+   "summary": "Autonomous vehicles (AVs) have significantly advanced in real-world deployment in recent years, yet safety continues to be a critical barrier to widespread adoption. Traditional functional safety appr",
+   "url": "https://arxiv.org/abs/2610.08450",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.08112v1",
+   "title": "Energy-Aware Path Following: Comparative Analysis of Reinforcement Learning and NMPC for Electric Vehicles",
+   "authors": "Mohamed Sabaa; Mostafa Emam",
+   "published": "2026-10-06",
+   "categories": [
+    "cs.RO",
+    "cs.LG",
+    "eess.SY"
+   ],
+   "relevance": 4,
+   "summary": "Path-following control strategies typically follow the bi-objective optimization dilemma: minimizing deviations from a reference path while maintaining smooth speed profiles. The latter objective is e",
+   "url": "https://arxiv.org/abs/2610.08112",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.09194v1",
+   "title": "Patient, Place, Prior (P$^3$): What Counts as Personalization in Medical World Models?",
+   "authors": "Xingrui Gu; Hanxue Gu; Yuxiang Zhang; Yang Yang",
+   "published": "2026-10-06",
+   "categories": [
+    "cs.LG",
+    "cs.AI"
+   ],
+   "relevance": 3,
+   "summary": "Longitudinal models forecast how a patient's imaging state evolves, but accuracy does not show whether the patient's observed trajectory drives the prediction. A population-average forecast may be use",
+   "url": "https://arxiv.org/abs/2610.09194",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.08771v1",
+   "title": "Mission-Aware Attestation Envelopes for Time-Critical Autonomous Action: A Hardware-in-the-Loop V2I Study",
+   "authors": "Dimitrios Nikou; Nikolaos Kekatos; Sophia Petridou; Stylianos Basagiannis",
+   "published": "2026-10-06",
+   "categories": [
+    "cs.CR",
+    "cs.RO",
+    "eess.SY"
+   ],
+   "relevance": 3,
+   "summary": "An autonomous system that asks for a privileged physical action is usually gated on integrity evidence: a platform proves what it is running, and the request is granted or refused on that basis. Such",
+   "url": "https://arxiv.org/abs/2610.08771",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.08761v1",
+   "title": "VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning",
+   "authors": "Zewei Zhou; Rachel Luo; Yulong Cao; Chaowei Xiao; Chensheng Peng; Boyi Li; Thomas Tian; Zheng Lian; Yan Wang; Jiaqi Ma; Boris Ivanovic; Marco Pavone; Wenhao Ding",
+   "published": "2026-10-06",
+   "categories": [
+    "cs.AI",
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Self-improving policies continually expose new failure patterns, changing what their judges must be able to verify. However, current fixed judges constrain both optimization feedback and the discovery",
+   "url": "https://arxiv.org/abs/2610.08761",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.08119v1",
+   "title": "AutodidactWAM: Cross-Modal Self-Distillation from Generated Video to Robot Actions",
+   "authors": "Sergei Kurchev; Iaroslav Kolomiets; Miguel Altamirano Cabrera; Artem Lykov; Dzmitry Tsetserukou",
+   "published": "2026-10-06",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "World-action models (WAMs) such as Cosmos 3 jointly generate future video and robot actions from an observation and instruction. Adapting one such model with a lightweight LoRA fine-tune to a previous",
+   "url": "https://arxiv.org/abs/2610.08119",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.08115v1",
+   "title": "Context-Conditioned Hamilton-Jacobi Reachability for Adaptive Safety Filtering",
+   "authors": "Ali Fuat Sahin; Yunus Yazoglu; John Talbot; Zeyuan Feng; James Dallas; Somil Bansal",
+   "published": "2026-10-06",
+   "categories": [
+    "eess.SY",
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Hamilton-Jacobi reachability constructs safety certificates for specified dynamics and safety constraints, tying each certificate to the deployment context for which it is synthesized. We ask whether",
+   "url": "https://arxiv.org/abs/2610.08115",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.07882v1",
+   "title": "CUSP: CUSUM-Governed Survival Hazard Alarms at the Perception Onset for Off-Road Navigation",
+   "authors": "Inuk Kang; Seung-Woo Seo",
+   "published": "2026-10-06",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Off-road navigation exposes a robot to potentially hazardous terrain en route. Although learning-based navigation uses safety supervision to choose which path to drive, it provides no runtime alarm wh",
+   "url": "https://arxiv.org/abs/2610.07882",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.07674v1",
+   "title": "Belief-Informed Hybrid Control with Almost-Sure Target-Set Convergence",
+   "authors": "Clinton Enwerem; Saleh Kemal; John S. Baras; Calin Belta",
+   "published": "2026-10-06",
+   "categories": [
+    "eess.SY",
+    "cs.RO",
+    "math.OC"
+   ],
+   "relevance": 3,
+   "summary": "Controlling a hybrid system to a target set under parameter uncertainty can require informative actions that temporarily drive the system state away from the specified set. We propose a belief-informe",
+   "url": "https://arxiv.org/abs/2610.07674",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.07511v1",
+   "title": "MobileVISTA: Generative Data Augmentation for Pose Generalization in Mobile Manipulation",
+   "authors": "Suzannah Wistreich; Stephen Tian; Isabella Huang; Vitor Campagnolo Guizilini; Sergey Zakharov; Katherine Liu; Jiajun Wu",
+   "published": "2026-10-05",
+   "categories": [
+    "cs.RO",
+    "cs.CV",
+    "cs.LG"
+   ],
+   "relevance": 3,
+   "summary": "Mobile manipulators such as humanoid robots are increasingly deployed in dynamic, unstructured environments to perform dexterous manipulation tasks. However, end-to-end manipulation policies trained t",
+   "url": "https://arxiv.org/abs/2610.07511",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.04536v1",
+   "title": "WasserMan: Benchmark for Underwater Manipulation Policy Learning",
+   "authors": "Danil Belov; Artem Erkhov; Sergei Parsegov; Pavel Osinenko",
+   "published": "2026-10-03",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Underwater manipulation couples visual decisions, contact forces and a thruster-controlled floating base. We introduce WasserMan, to our knowledge the first multi-task simulation benchmark for visuomo",
+   "url": "https://arxiv.org/abs/2610.04536",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2609.39127v1",
+   "title": "How to Reduce Localization Ambiguity? Geometry-Semantic Constrained BEV Representation Learning for Satellite-Ground Localization",
+   "authors": "Junming Feng; Panwang Xia; Qiong Wu; Xudong Lu; Zeyu Jiao; Kun Lv; Zherong Wu; Yi Wan; Peifeng Ma; Li-Ta Hsu; Zhi Zheng",
+   "published": "2026-09-30",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance": 4,
+   "summary": "Satellite-ground localization estimates the planar position and yaw orientation of a ground camera within a geo-referenced satellite image. Most recent methods map ground and satellite features into a",
+   "url": "https://arxiv.org/abs/2609.39127",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2609.39322v1",
+   "title": "A Biophysically Detailed C. elegans Circuit as a Task-Agnostic Dynamical Core for Visually Robust Robot Manipulation",
+   "authors": "Linrui Qian; Jiajia Zhang; Gan He; Bohan Sun; Zhiwei Lin; Qianhao Wang; Zewu Cai; Nianyu Yi; Mengdi Zhao; Kai Du",
+   "published": "2026-09-30",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Robot policies are usually trained for one task, one body and one visual environment, and generalize poorly beyond these conditions. Whether a nervous system can instead supply the sensorimotor comput",
+   "url": "https://arxiv.org/abs/2609.39322",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2610.00280v1",
+   "title": "Stable and Counterfactually Robust Physical World Models from Imposed Structure and Learned Physics",
+   "authors": "Yufeng Wang; Parivesh Priye; Lu Wei; Haibin Ling",
+   "published": "2026-09-24",
+   "categories": [
+    "cs.LG"
+   ],
+   "relevance": 3,
+   "summary": "A world model learns to forecast how a physical system evolves from recorded trajectories, yet the systems it imitates obey physical laws that are neither fully supplied nor reliably respected. The mo",
+   "url": "https://arxiv.org/abs/2610.00280",
+   "status": "new",
+   "in_kb": false
+  },
+  {
+   "id": "2609.27346v1",
+   "title": "Reflection-Aware Reasoning for Non-Line-of-Sight Pedestrian Localization",
+   "authors": "Byeonggyu Park; Mingu Jeon; Seong-Woo Kim",
+   "published": "2026-09-23",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "summary": "Reliable localization of non-line-of-sight (NLOS) pedestrians is critical for safe urban autonomous driving, yet it remains highly challenging in ego-dynamic outdoor environments, where ego-vehicle mo",
+   "url": "https://arxiv.org/abs/2609.27346",
+   "status": "new",
+   "in_kb": false
   }
  ],
- "updated_at": "2026-10-11T17:11:44.890916-07:00",
- "last_updated": "2026-10-11T17:11:44.890916-07:00",
+ "updated_at": "2026-10-12T17:11:52.789831-07:00",
+ "last_updated": "2026-10-12T17:11:52.789831-07:00",
  "category_counts": {
+  "['cs.RO']": 197,
+  "['cs.CV', 'cs.RO']": 165,
+  "['cs.CV']": 115,
+  "[]": 99,
+  "['cs.AI', 'cs.RO']": 44,
+  "['cs.LG', 'cs.RO']": 28,
   "['cs.AI', 'cs.CV']": 25,
-  "['cs.CV', 'cs.RO']": 160,
-  "['cs.LG', 'cs.RO']": 26,
-  "['cs.AI', 'cs.RO']": 42,
-  "['cs.AI', 'cs.CV', 'cs.LG', 'cs.RO']": 3,
-  "['cs.LG']": 12,
-  "['cs.CV']": 114,
-  "['cs.AI']": 21,
-  "['cs.AI', 'cs.LG', 'cs.RO']": 14,
-  "['cs.RO']": 177,
-  "['cs.AI', 'cs.LG', 'cs.RO', 'eess.SY']": 2,
-  "['cs.CR']": 1,
-  "['cs.AI', 'cs.CV', 'cs.RO']": 21,
-  "['cs.CV ; cs.AI ; cs.LG ; cs.RO']": 4,
-  "['cs.CV ; cs.AI ; cs.RO']": 1,
+  "['cs.AI']": 22,
+  "['cs.AI', 'cs.CV', 'cs.RO']": 22,
+  "['.', 'C', 'V', 'c', 's']": 22,
+  "['Robotics (cs.RO)']": 20,
+  "['.', 'O', 'R', 'c', 's']": 16,
+  "['cs.AI', 'cs.LG', 'cs.RO']": 15,
+  "['cs.LG']": 13,
+  "[' ', ',', '.', '.', 'C', 'O', 'R', 'V', 'c', 'c', 's', 's']": 10,
+  "['cs.AI', 'cs.LG']": 9,
+  "['cs.CV', 'cs.LG', 'cs.RO']": 8,
+  "[' ', ',', '.', '.', 'A', 'I', 'O', 'R', 'c', 'c', 's', 's']": 8,
+  "['.', 'A', 'I', 'c', 's']": 8,
+  "['Computer Vision and Pattern Recognition (cs.CV)']": 7,
   "['cs.RO ; cs.CV']": 6,
+  "['cs.CV', 'cs.LG']": 6,
+  "['cs.AI', 'cs.CV', 'cs.LG']": 6,
+  "['Robotics']": 6,
+  "['cs.RO', 'eess.SY']": 6,
+  "[' ', ',', '.', '.', 'A', 'C', 'I', 'V', 'c', 'c', 's', 's']": 6,
   "['cs.CV ; cs.AI']": 5,
+  "['cs.CV', 'cs.CV']": 5,
+  "['cs.RO', 'cs.RO']": 5,
+  "['cs.CV ; cs.AI ; cs.LG ; cs.RO']": 4,
+  "['cs.CV ; cs.RO']": 4,
+  "[' ', ' ', ' ', ',', ',', ',', '.', '.', '.', '.', 'A', 'C', 'G', 'I', 'L', 'O', 'R', 'V', 'c', 'c', 'c', 'c', 's', 's', 's', 's']": 4,
+  "['Robotics (cs.RO) ; Computer Vision and Pattern Recognition (cs.CV)']": 4,
+  "['Robotics (cs.RO) ; Artificial Intelligence (cs.AI)']": 4,
+  "['cs.AI', 'cs.CV', 'cs.LG', 'cs.RO']": 3,
+  "['cs.RO ; cs.AI']": 3,
+  "['cs.CV', 'cs.CV', 'cs.RO']": 3,
+  "['Artificial Intelligence']": 3,
+  "[' ', ' ', ',', ',', '.', '.', '.', 'C', 'G', 'L', 'O', 'R', 'V', 'c', 'c', 'c', 's', 's', 's']": 3,
+  "[' ', ',', '.', '.', 'C', 'G', 'L', 'V', 'c', 'c', 's', 's']": 3,
+  "['cs.CL']": 3,
+  "['cs.AI', 'cs.LG', 'cs.RO', 'eess.SY']": 2,
+  "['cs.HC', 'cs.RO']": 2,
+  "['cs.SE']": 2,
+  "['eess.SY']": 2,
+  "['cs.CL', 'cs.CV', 'cs.RO']": 2,
+  "['eess.SP']": 2,
+  "['Robotics (cs.RO) ; Machine Learning (cs.LG)']": 2,
+  "['Robotics (cs.RO) ; Artificial Intelligence (cs.AI); Machine Learning (cs.LG)']": 2,
+  "['cs.AI', 'cs.CL', 'cs.CV', 'cs.RO']": 2,
+  "[' ', ',', '.', '.', 'G', 'L', 'O', 'R', 'c', 'c', 's', 's']": 2,
+  "['cs.AI', 'cs.RO', 'cs.RO']": 2,
+  "['Artificial Intelligence (cs.AI)']": 2,
+  "['Robotics (cs.RO) ; Systems and Control (eess.SY)']": 2,
+  "['.', 'G', 'L', 'c', 's']": 2,
+  "['cs.AI', 'cs.MA']": 2,
+  "['cs.CR']": 1,
+  "['cs.CV ; cs.AI ; cs.RO']": 1,
   "['cs.CV ; cs.AI ; cs.GR ; cs.LG']": 1,
   "['cs.DC ; cs.AI']": 1,
   "['cs.CR ; cs.RO']": 1,
-  "['cs.CV ; cs.RO']": 4,
-  "['cs.RO ; cs.AI']": 3,
-  "['cs.CV', 'cs.LG']": 6,
-  "['cs.HC', 'cs.RO']": 2,
-  "[]": 99,
-  "['cs.AI', 'cs.CV', 'cs.LG']": 6,
   "['cs.ET', 'cs.RO']": 1,
-  "['cs.SE']": 2,
   "['cs.CV ; cs.AI ; cs.LG']": 1,
-  "['cs.CV', 'cs.CV']": 5,
-  "['cs.CV', 'cs.CV', 'cs.RO']": 3,
-  "['cs.RO', 'cs.RO']": 5,
   "['cs.AI', 'cs.LG', 'cs.MA']": 1,
-  "['cs.AI', 'cs.LG']": 7,
   "['cs.AI', 'cs.ET', 'cs.LG', 'cs.RO', 'eess.SY']": 1,
-  "['cs.CV', 'cs.LG', 'cs.RO']": 5,
-  "[' ', ' ', ' ', ',', ',', ',', '.', '.', '.', '.', 'A', 'C', 'G', 'I', 'L', 'O', 'R', 'V', 'c', 'c', 'c', 'c', 's', 's', 's', 's']": 4,
-  "[' ', ',', '.', '.', 'C', 'O', 'R', 'V', 'c', 'c', 's', 's']": 10,
   "[' ', ' ', ' ', ',', ',', ',', '.', '.', '.', '.', 'A', 'C', 'E', 'I', 'O', 'R', 'T', 'V', 'c', 'c', 'c', 'c', 's', 's', 's', 's']": 1,
-  "['.', 'C', 'V', 'c', 's']": 22,
-  "['Artificial Intelligence']": 3,
-  "['Robotics']": 6,
-  "['.', 'O', 'R', 'c', 's']": 16,
   "[' ', ' ', ',', ',', '.', '.', '.', 'A', 'G', 'I', 'L', 'O', 'R', 'c', 'c', 'c', 's', 's', 's']": 1,
-  "[' ', ' ', ',', ',', '.', '.', '.', 'C', 'G', 'L', 'O', 'R', 'V', 'c', 'c', 'c', 's', 's', 's']": 3,
   "['cs.CV', 'eess.SY']": 1,
   "['cs.LG', 'eess.SY']": 1,
   "['cs.AI', 'cs.RO', 'eess.SY']": 1,
@@ -18690,65 +19372,47 @@
   "['cs.AI ; cs.CV']": 1,
   "['cs.CV ; cs.LG']": 1,
   "['cs.CV ; cs.GR']": 1,
-  "['eess.SY']": 2,
   "['cs.CV', 'cs.LG', 'cs.MA', 'cs.RO']": 1,
-  "['cs.CL', 'cs.CV', 'cs.RO']": 2,
-  "['cs.RO', 'eess.SY']": 5,
   "['cs.AI', 'cs.LG', 'eess.SY']": 1,
   "['cs.CV', 'cs.DC', 'cs.RO', 'eess.SY']": 1,
   "['cs.LO', 'cs.RO', 'eess.SY']": 1,
-  "['eess.SP']": 2,
   "['cs.CV', 'cs.RO', 'cs.RO']": 1,
   "['cs.AI', 'cs.HC', 'cs.LG', 'cs.RO']": 1,
   "['cs.AI', 'cs.MA', 'cs.RO']": 1,
-  "['Robotics (cs.RO)']": 20,
   "['Robotics (cs.RO) ; Human-Computer Interaction (cs.HC)']": 1,
-  "['Robotics (cs.RO) ; Machine Learning (cs.LG)']": 2,
   "['Robotics (cs.RO) ; Multiagent Systems (cs.MA)']": 1,
   "['Systems and Control (eess.SY) ; Robotics (cs.RO)']": 1,
-  "['Computer Vision and Pattern Recognition (cs.CV)']": 7,
-  "['Robotics (cs.RO) ; Artificial Intelligence (cs.AI); Machine Learning (cs.LG)']": 2,
   "['cs.CV', 'cs.RO', 'eess.SP']": 1,
-  "['cs.AI', 'cs.CL', 'cs.CV', 'cs.RO']": 2,
   "['cs.AI', 'cs.CL', 'cs.CV', 'cs.LG', 'cs.RO']": 1,
   "['cs.CR', 'cs.RO']": 1,
-  "[' ', ',', '.', '.', 'A', 'I', 'O', 'R', 'c', 'c', 's', 's']": 8,
-  "[' ', ',', '.', '.', 'A', 'C', 'I', 'V', 'c', 'c', 's', 's']": 6,
-  "['.', 'A', 'I', 'c', 's']": 8,
-  "[' ', ',', '.', '.', 'C', 'G', 'L', 'V', 'c', 'c', 's', 's']": 3,
-  "[' ', ',', '.', '.', 'G', 'L', 'O', 'R', 'c', 'c', 's', 's']": 2,
   "[' ', ' ', ' ', ',', ',', ',', '.', '.', '.', '.', 'A', 'C', 'E', 'I', 'N', 'O', 'R', 'V', 'c', 'c', 'c', 'c', 's', 's', 's', 's']": 1,
   "[' ', ' ', ',', ',', '.', '.', '.', 'A', 'A', 'I', 'M', 'S', 'Y', 'c', 'c', 'e', 'e', 's', 's', 's', 's']": 1,
   "[' ', ',', '.', '.', 'A', 'G', 'I', 'L', 'c', 'c', 's', 's']": 1,
-  "['cs.CL']": 2,
   "['cs.AI', 'cs.CV', 'cs.RO', 'eess.SY']": 1,
   "['cs.AI', 'cs.CL', 'cs.CV']": 1,
-  "['cs.AI', 'cs.RO', 'cs.RO']": 2,
   "['Computer Vision and Pattern Recognition (cs.CV) ; Robotics (cs.RO)']": 1,
-  "['Artificial Intelligence (cs.AI)']": 2,
-  "['Robotics (cs.RO) ; Computer Vision and Pattern Recognition (cs.CV)']": 4,
   "['Cryptography and Security (cs.CR) ; Artificial Intelligence (cs.AI); Machine Learning (cs.LG)']": 1,
   "['Robotics (cs.RO) ; Computer Vision and Pattern Recognition (cs.CV); Machine Learning (cs.LG)']": 1,
   "['Machine Learning (cs.LG) ; Computer Vision and Pattern Recognition (cs.CV)']": 1,
   "['Artificial Intelligence (cs.AI) ; Machine Learning (cs.LG); Robotics (cs.RO)']": 1,
   "['Artificial Intelligence (cs.AI) ; Robotics (cs.RO)']": 1,
-  "['Robotics (cs.RO) ; Artificial Intelligence (cs.AI)']": 4,
-  "['Robotics (cs.RO) ; Systems and Control (eess.SY)']": 2,
   "['Robotics (cs.RO) ; Formal Languages and Automata Theory (cs.FL)']": 1,
   "['Computer Vision and Pattern Recognition']": 1,
   "[' ', ' ', ',', ',', '-', '.', '.', '.', 'A', 'G', 'I', 'L', 'a', 'c', 'c', 'c', 'h', 'h', 'i', 'l', 'm', 'p', 'p', 'p', 's', 's', 's', 's', 's', 'y']": 1,
-  "['.', 'G', 'L', 'c', 's']": 2,
   "[' ', ' ', ' ', ' ', ',', ',', ',', ',', '.', '.', '.', '.', '.', 'A', 'C', 'G', 'I', 'I', 'L', 'P', 'S', 'V', 'V', 'c', 'c', 'c', 'e', 'e', 'e', 'e', 's', 's', 's', 's', 's', 's', 's']": 1,
   "[' ', ',', '.', '.', 'C', 'G', 'L', 'L', 'c', 'c', 's', 's']": 1,
   "['cs.AI', 'cs.CR', 'cs.LG']": 1,
   "['cs.CE']": 1,
   "['cs.AI', 'cs.IT']": 1,
-  "['cs.AI', 'cs.MA']": 2,
   "['cs.AI', 'cs.LO', 'cs.RO', 'cs.SE', 'eess.SY']": 1,
   "['cs.CV', 'eess.IV']": 1,
-  "['cs.AI', 'cs.CR']": 1
+  "['cs.AI', 'cs.CR']": 1,
+  "['cs.HC', 'cs.LG', 'cs.RO']": 1,
+  "['cs.LG', 'cs.RO', 'eess.SY']": 1,
+  "['cs.CR', 'cs.RO', 'eess.SY']": 1,
+  "['cs.RO', 'eess.SY', 'math.OC']": 1
  },
- "total_papers": 1079,
+ "total_papers": 1124,
  "weekly": {
   "week": "2026-09-13 ~ 2026-09-19",
   "report": "weekly/2026-09-19-weekly-summary.md",
@@ -18763,6 +19427,51 @@
   "2026-09-24": 83
  },
  "new_findings": [
+  "2609.27346",
+  "2610.00280",
+  "2609.39322",
+  "2609.39127",
+  "2610.04536",
+  "2610.07511",
+  "2610.07674",
+  "2610.07882",
+  "2610.08115",
+  "2610.08119",
+  "2610.08761",
+  "2610.08771",
+  "2610.09194",
+  "2610.08112",
+  "2610.08450",
+  "2610.08458",
+  "2610.10409",
+  "2610.09335",
+  "2610.12684",
+  "2610.12575",
+  "2610.12185",
+  "2610.12369",
+  "2610.12435",
+  "2610.12696",
+  "2610.12710",
+  "2610.12734",
+  "2610.12793",
+  "2610.12747",
+  "2610.13119",
+  "2610.13077",
+  "2610.13872",
+  "2610.13912",
+  "2610.12832",
+  "2610.12914",
+  "2610.12936",
+  "2610.13117",
+  "2610.13212",
+  "2610.13262",
+  "2610.13578",
+  "2610.13628",
+  "2610.13732",
+  "2610.13943",
+  "2610.13945",
+  "2610.13409",
+  "2610.13453",
   "2610.07031",
   "2610.06171",
   "2610.06008",
@@ -18797,61 +19506,6 @@
   "2610.08760",
   "2610.08297",
   "2610.09174",
-  "2610.08573",
-  "2610.08339",
-  "2610.10912",
-  "2610.10526",
-  "2610.10437",
-  "2610.09940",
-  "2610.09718",
-  "2610.09708",
-  "2610.09696",
-  "2610.09496",
-  "2610.09462",
-  "2610.09451",
-  "2610.09514",
-  "2610.09305",
-  "2610.09285",
-  "2610.10116",
-  "2610.09444",
-  "2610.12451",
-  "2610.12285",
-  "2610.12231",
-  "2610.12107",
-  "2610.12090",
-  "2610.12026",
-  "2610.12007",
-  "2610.11971",
-  "2610.11952",
-  "2610.11771",
-  "2610.11508",
-  "2610.11418",
-  "2610.11416",
-  "2610.12468",
-  "2610.12464",
-  "2610.12461",
-  "2610.12459",
-  "2610.12417",
-  "2610.12412",
-  "2610.12407",
-  "2610.12333",
-  "2610.12299",
-  "2610.11942",
-  "2610.11723",
-  "2610.11444",
-  "2610.11376",
-  "2610.11174",
-  "2610.11577",
-  "2610.12266",
-  "2610.11580",
-  "2610.12149",
-  "2610.06137",
-  "2610.05969",
-  "2610.05747",
-  "2610.10810",
-  "2610.10534",
-  "2610.11264",
-  "2610.12046",
-  "2610.12355"
+  "2610.08573"
  ]
 }

@@ -1,167 +1,164 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-10-13 07:08 UTC",
-  "updated_at": "2026-10-13 07:08 UTC",
+  "updated": "2026-10-14 07:08 UTC",
   "status": "success",
   "last_run": {
-    "date": "2026-10-13",
-    "timestamp": "2026-10-13T00:06:52.911897",
+    "date": "2026-10-14",
+    "timestamp": "2026-10-14T00:07:53.875841",
     "success": true,
-    "note": "采集管线最近一次运行 2026-10-13 (6/6 成功)"
+    "note": "采集管线最近一次运行 2026-10-14 (6/6 成功)"
   },
   "crypto": {
     "status": "success",
-    "data": {
-      "BTC/USDT": {
-        "price": 83706.7,
-        "change_24h": -0.5951935625992335,
-        "high_24h": 84361.6,
-        "low_24h": 81032.8,
-        "volume_24h": 588657819.4073576,
-        "indicators_1h": {
-          "rsi": 62.8,
-          "macd": 73.27,
-          "macd_signal": -109.56,
-          "macd_status": "金叉",
-          "ma5": 83587.42,
-          "ma20": 82789.77,
-          "bb_upper": 84007.29,
-          "bb_lower": 81572.26,
-          "trend": "偏多"
-        },
-        "indicators_4h": {
-          "rsi": 55.7,
-          "macd": -82.97,
-          "macd_signal": -125.38,
-          "macd_status": "金叉",
-          "ma5": 82895.24,
-          "ma20": 83159.19,
-          "bb_upper": 84197.98,
-          "bb_lower": 82120.4,
-          "trend": "偏空"
-        }
-      },
-      "ETH/USDT": {
-        "price": 2530.52,
-        "change_24h": -1.6842342464848652,
-        "high_24h": 2579.98,
-        "low_24h": 2409.11,
-        "volume_24h": 489190669.1076709,
-        "indicators_1h": {
-          "rsi": 54.1,
-          "macd": -3.09,
-          "macd_signal": -9.32,
-          "macd_status": "金叉",
-          "ma5": 2524.73,
-          "ma20": 2505.74,
-          "bb_upper": 2570.38,
-          "bb_lower": 2441.11,
-          "trend": "偏多"
-        },
-        "indicators_4h": {
-          "rsi": 54.5,
-          "macd": -9.95,
-          "macd_signal": -12.67,
-          "macd_status": "金叉",
-          "ma5": 2507.8,
-          "ma20": 2516.36,
-          "bb_upper": 2568.04,
-          "bb_lower": 2464.68,
-          "trend": "偏空"
-        }
-      }
-    }
+    "btc": {
+      "price": 83606.6,
+      "change_24h": -0.1
+    },
+    "eth": {
+      "price": 2509.17,
+      "change_24h": -0.8
+    },
+    "note": "OKX 数据正常; BTC 83606.6 (-0.1%) / ETH 2509.17 (-0.8%)"
   },
   "sentiment": {
-    "status": "success",
-    "data": {
-      "crypto_fear_greed": {
-        "value": 57,
-        "classification": "Greed",
-        "timestamp": "1791849600"
-      }
+    "crypto_fear_greed": {
+      "value": 62,
+      "classification": "Greed"
     }
   },
   "stocks": {
     "status": "success",
+    "note": "2026-10-14 A股/期货收盘数据",
     "data": {
       "上证指数": {
-        "price": 3800.8644,
-        "change": 0.095,
-        "volume": 483305909.0
+        "price": 3767.2271,
+        "change": -0.885,
+        "volume": 445962554.0
       },
       "深证成指": {
-        "price": 12353.699,
-        "change": -0.252
+        "price": 12110.591,
+        "change": -1.968
       },
       "创业板指": {
-        "price": 2958.344,
-        "change": -0.185
+        "price": 2866.763,
+        "change": -3.096
       },
       "沪金主力": {
-        "price": 905.52,
-        "change": -0.34,
-        "date": "2026-10-12"
+        "price": 907.02,
+        "change": 0.17,
+        "date": "2026-10-13"
       },
       "沪银主力": {
-        "price": 14816.0,
-        "change": 0.67,
-        "date": "2026-10-12"
+        "price": 14743.0,
+        "change": -0.49,
+        "date": "2026-10-13"
       },
       "沪铜主力": {
-        "price": 110630.0,
-        "change": 0.47,
-        "date": "2026-10-12"
+        "price": 110990.0,
+        "change": 0.33,
+        "date": "2026-10-13"
       },
       "螺纹钢主力": {
-        "price": 3090.0,
-        "change": 0.32,
-        "date": "2026-10-12"
+        "price": 3089.0,
+        "change": -0.03,
+        "date": "2026-10-13"
       },
       "沪深300期货": {
-        "price": 4233.6,
-        "change": -0.26,
-        "date": "2026-10-12"
+        "price": 4217.6,
+        "change": -0.38,
+        "date": "2026-10-13"
       },
       "中证500期货": {
-        "price": 6986.0,
-        "change": -1.76,
-        "date": "2026-10-12"
+        "price": 6962.2,
+        "change": -0.34,
+        "date": "2026-10-13"
+      },
+      "50ETF波动率": {
+        "value": 15.8,
+        "date": "2026-10-13"
       }
     }
   },
   "signals": {
     "DoubleMa": {
-      "signal_1h": "观望",
-      "signal_4h": "观望"
-    },
-    "TripleMa": {
-      "signal_1h": "观望",
-      "signal_4h": "做空"
-    },
-    "Supertrend": {
-      "signal_1h": "观望",
-      "signal_4h": "观望"
+      "1h": {
+        "signal": "观望",
+        "price": 83588.8
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 83574.5
+      }
     },
     "RSI": {
-      "signal_1h": "观望",
-      "signal_4h": "观望"
+      "1h": {
+        "signal": "观望",
+        "price": 83588.8
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 83574.5
+      }
     },
     "MACD": {
-      "signal_1h": "做多",
-      "signal_4h": "做多"
+      "1h": {
+        "signal": "观望",
+        "price": 83588.8
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 83574.5
+      }
     },
     "Bollinger": {
-      "signal_1h": "观望",
-      "signal_4h": "做多"
+      "1h": {
+        "signal": "观望",
+        "price": 83588.8
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 83574.5
+      }
+    },
+    "Supertrend": {
+      "1h": {
+        "signal": "观望",
+        "price": 83588.8
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 83574.5
+      }
+    },
+    "TripleMa": {
+      "1h": {
+        "signal": "观望",
+        "price": 83588.8
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 83574.5
+      }
     },
     "Momentum": {
-      "signal_1h": "观望",
-      "signal_4h": "做多"
+      "1h": {
+        "signal": "观望",
+        "price": 83588.8
+      },
+      "4h": {
+        "signal": "做空",
+        "price": 83574.5
+      }
     },
     "MeanReversion": {
-      "signal_1h": "观望",
-      "signal_4h": "做多"
+      "1h": {
+        "signal": "观望",
+        "price": 83588.8
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 83574.5
+      }
     }
   },
   "strategies": [
@@ -177,7 +174,7 @@
     {
       "name": "TripleMa",
       "signal_1h": "观望",
-      "signal_4h": "做空",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -203,8 +200,8 @@
     },
     {
       "name": "MACD",
-      "signal_1h": "做多",
-      "signal_4h": "做多",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -213,7 +210,7 @@
     {
       "name": "Bollinger",
       "signal_1h": "观望",
-      "signal_4h": "做多",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -222,7 +219,7 @@
     {
       "name": "Momentum",
       "signal_1h": "观望",
-      "signal_4h": "做多",
+      "signal_4h": "做空",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -231,7 +228,7 @@
     {
       "name": "MeanReversion",
       "signal_1h": "观望",
-      "signal_4h": "做多",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -240,151 +237,70 @@
   ],
   "news": {
     "status": "success",
-    "data": [
+    "note": "RSS 采集 5 条",
+    "items": [
       {
         "source": "Cointelegraph",
         "title": "Here’s what happened in crypto today",
-        "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Tue, 13 Oct 2026 05:51:31 +0000",
-        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here’s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/article-c"
+        "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Blur is shutting down its website, so why are NFT collectors cheering?",
-        "link": "https://cointelegraph.com/news/blur-is-shutting-down-its-website-so-why-are-nft-collectors-cheering?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Tue, 13 Oct 2026 05:38:37 +0000",
-        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Blur is shutting down its website, so why are NFT collectors cheering?\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia"
+        "title": "Starknet introduces wallet privacy feature for DeFi activity",
+        "link": "https://cointelegraph.com/news/starknet-introduces-wallet-privacy-feature-for-defi-activity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Binance to shut down crypto mining pool services in November",
-        "link": "https://cointelegraph.com/news/binance-shut-down-crypto-mining-pool-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Tue, 13 Oct 2026 05:23:26 +0000",
-        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Binance to shut down crypto mining pool services in November\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/"
+        "title": "Fed’s Williams sees AI supply squeeze lasting beyond 2 years",
+        "link": "https://cointelegraph.com/markets/feds-williams-sees-ai-supply-squeeze-lasting-beyond-2-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "South Korea moves to block 27 crypto websites, including KuCoin, MEXC",
-        "link": "https://cointelegraph.com/news/south-korea-moves-to-block-27-crypto-websites-including-kucoin-mexc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Tue, 13 Oct 2026 02:41:30 +0000",
-        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"South Korea moves to block 27 crypto websites, including KuCoin, MEXC\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia."
+        "title": "Bitwise’s Hougan says Q3 charts point to ‘crypto spring’",
+        "link": "https://cointelegraph.com/markets/bitwises-hougan-says-q3-charts-point-to-crypto-spring?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Meta claims new Muse Wonder AI models rival OpenAI, Anthropic",
-        "link": "https://cointelegraph.com/news/meta-launches-muse-wonder-ai-models-challenging-top-rivals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Tue, 13 Oct 2026 01:54:31 +0000",
-        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Meta claims new Muse Wonder AI models rival OpenAI, Anthropic\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media"
+        "title": "Ledger asks resellers to halt sales in Southeast Asia and Hong Kong",
+        "link": "https://cointelegraph.com/news/ledger-asks-resellers-to-halt-sales-in-southeast-asia-and-hong-kong?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   },
   "papers": {
     "status": "success",
-    "note": "",
+    "note": "arXiv 采集 10 篇",
     "items": [
       {
-        "title": "CorrFlow: Exact and Permutation-Equivariant Flow Matching on the Correlation Elliptope",
-        "authors": [
-          "Gautier Marti"
-        ],
-        "summary": "Correlation matrices combine nonlinear positive-definiteness constraints with a simultaneous row-column permutation symmetry. Their generation therefore involves two distinct problems. First, every output must remain on the correlation elliptope, irrespective of how its variables are ordered. Second",
-        "link": "http://arxiv.org/abs/2610.13606v1",
-        "published": "2026-10-09"
+        "title": "The Missile and the Toll: Two-Way Flow Through the Strait of Hormuz"
       },
       {
-        "title": "$L_0$ Feature Selection via Monte Carlo Tree Search in High-Dimensional Financial Regression",
-        "authors": [
-          "Cameron Mouangue",
-          "Tristan Cazenave"
-        ],
-        "summary": "Feature selection is a central problem in high-dimensional financial regression, where large numbers of engineered variables and strong correlations among predictors reduce model stability and interpretability. $L_1$ regularization (Lasso) is widely used for sparse regression, but its shrinkage can ",
-        "link": "http://arxiv.org/abs/2610.13574v1",
-        "published": "2026-10-09"
+        "title": "Discrete-Time Survival Modelling with Dynamic Industrial Graphs for Mortgage Credit Risk"
       },
       {
-        "title": "Three options are roughly enough - Variance-optimal semi-static hedging in the rough Heston model",
-        "authors": [
-          "Paolo Di Tella",
-          "Martin Keller-Ressel",
-          "Beatrice Ongarato"
-        ],
-        "summary": "This paper studies semi-static variance-optimal hedging of variance swaps in the rough Heston model under a risk-neutral measure. We combine dynamic trading in the underlying asset with static positions in a finite basket of European options, with the aim of minimizing the variance of the residual h",
-        "link": "http://arxiv.org/abs/2610.13543v1",
-        "published": "2026-10-09"
+        "title": "A GLE-LSV model with state-dependent leverage and colored noise"
       },
       {
-        "title": "Realized Tail-Risk Conditional Autoregressive Expectile Models: Accurate and Stable Forecasting Performance",
-        "authors": [
-          "Keisuke Sasaki",
-          "Yasuhiro Omori"
-        ],
-        "summary": "A realized tail-risk conditional autoregressive expectile (RTCARE) model is proposed for joint forecasting of value-at-risk (VaR) and expected shortfall (ES). Realized tail measures such as the realized quantile and the realized ES, constructed from intraday high-frequency returns, are incorporated ",
-        "link": "http://arxiv.org/abs/2610.13446v1",
-        "published": "2026-10-09"
+        "title": "How Well Do LLMs Perform in Peer Review? Evidence from Finance and Accounting"
       },
       {
-        "title": "Enhancing credit risk scorecards with transactional-based behavioural features",
-        "authors": [
-          "Dian Prinsloo",
-          "Tanja Verster",
-          "Neill Smit"
-        ],
-        "summary": "Background: Credit risk modelling is fundamental in financial institutions, typically using credit history, repayment behaviour, income, and outstanding debt to estimate a borrower's probability of default. Although transactional data are sometimes incorporated through aggregated measures such as re",
-        "link": "http://arxiv.org/abs/2610.13199v1",
-        "published": "2026-10-09"
+        "title": "Risk Measures for the Climate Transition Age: Why Symmetric Risk Budgets are unlikely to mitigate two-dimensionally asymmetric Climate Change risks"
       },
       {
-        "title": "Entropy Regularization under No-Shorting: Structure Preservation and Convexity in Dynamic Mean-Variance Portfolio Selection",
-        "authors": [
-          "Xinagyu Cui",
-          "Xun Li",
-          "Ziyan Li"
-        ],
-        "summary": "This paper studies entropy regularization for the discrete-time dynamic mean--variance portfolio problem with no-shorting constraints. In the unconstrained setting, entropy regularization can be introduced without changing the basic quadratic structure of the dynamic program. Under no-shorting, this",
-        "link": "http://arxiv.org/abs/2610.13162v1",
-        "published": "2026-10-09"
+        "title": "Portfolio Decarbonization under Incomplete Carbon and Transition Information"
       },
       {
-        "title": "MLP-Initialized Reinforcement Learning for Exit Timing in SPX Short-Straddle Portfolios",
-        "authors": [
-          "Jianning Wang",
-          "Robert Ślepaczuk",
-          "Paweł Sakowski"
-        ],
-        "summary": "This paper studies exit timing for SPX short-straddle portfolios using a two-stage supervised and reinforcement-learning framework. Historical episodes first generate ex-post optimal hold/exit labels for training a multilayer perceptron (MLP) using only contemporaneously available state variables at",
-        "link": "http://arxiv.org/abs/2610.13126v1",
-        "published": "2026-10-09"
+        "title": "On integrability of local utility maximizing strategies"
       },
       {
-        "title": "FOMO: FLEX Options and Market Outcomes",
-        "authors": [
-          "Shivesh Prakash",
-          "Frank Ferstler",
-          "Nicholas Pezolano"
-        ],
-        "summary": "FLEX options are customized exchange-traded contracts allowing participants to choose nonstandard strikes, expirations, exercise styles, and settlement terms while retaining central clearing. We investigate whether single-name FLEX activity leaves measurable footprints in regular listed-option marke",
-        "link": "http://arxiv.org/abs/2610.13044v1",
-        "published": "2026-10-09"
+        "title": "Structured SDEs for Realized GARCH: Continuous-Time Volatility Modelling and Component-Level Analysis"
       },
       {
-        "title": "The Financing of Debt Relief: Intermediary Liquidity and the Value of Borrower Information",
-        "authors": [
-          "Arka P. Bandyopadhyay"
-        ],
-        "summary": "I study how intermediary liquidity affects mortgage resolution using 1.9 million Ginnie Mae buyout options from 2019 to 2022. When funding markets froze in 2020, nonbank issuers repurchased far fewer delinquent loans than depositories servicing loans in the same pools and, within the same issuer and",
-        "link": "http://arxiv.org/abs/2610.12875v1",
-        "published": "2026-10-09"
+        "title": "E-Backtesting Expected Shortfall without Value-at-Risk Forecasts under Time-series Models"
       },
       {
-        "title": "A Distributional Framework for Behavioral Characterization and Risk Management of Large Language Models",
-        "authors": [
-          "David García-Lorite",
-          "Raul Merino"
-        ],
-        "summary": "Large language models are stochastic by nature. Repeated executions under the same experimental conditions may produce different responses. We propose a framework that can be applied across the model lifecycle, from task design to residual behavior and continuous monitoring. The method consists of b",
-        "link": "http://arxiv.org/abs/2610.12718v1",
-        "published": "2026-10-08"
+        "title": "Designing Independent Variation: A Guided Iteration Methodology for Price Experiments in Short, Correlated Panels"
       }
     ]
-  }
+  },
+  "updated_at": "2026-10-14 07:08 UTC"
 }

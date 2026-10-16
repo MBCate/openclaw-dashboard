@@ -1,81 +1,81 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-10-15 07:06 UTC",
+  "updated": "2026-10-16 07:06 UTC",
   "status": "success",
   "last_run": {
-    "date": "2026-10-15",
-    "timestamp": "2026-10-15T00:05:18.997427",
+    "date": "2026-10-16",
+    "timestamp": "2026-10-16T00:05:13.332719",
     "success": true,
-    "note": "采集管线最近一次运行 2026-10-15 (6/6 成功)"
+    "note": "采集管线最近一次运行 2026-10-16 (6/6 成功)"
   },
   "crypto": {
     "status": "success",
     "btc": {
-      "price": 80944.2,
-      "change_24h": -3.1
+      "price": 82249.9,
+      "change_24h": 1.67
     },
     "eth": {
-      "price": 2359.36,
-      "change_24h": -5.95
+      "price": 2454.02,
+      "change_24h": 4.1
     },
-    "note": "OKX 数据正常; BTC 80944.2 (-3.1%) / ETH 2359.36 (-5.95%)"
+    "note": "OKX 数据正常; BTC 82249.9 (+1.67%) / ETH 2454.02 (+4.1%)"
   },
   "sentiment": {
     "crypto_fear_greed": {
-      "value": 53,
-      "classification": "Neutral"
+      "value": 63,
+      "classification": "Greed"
     }
   },
   "stocks": {
     "status": "success",
-    "note": "2026-10-15 A股/期货收盘数据",
+    "note": "2026-10-16 A股/期货收盘数据",
     "data": {
       "上证指数": {
-        "price": 3707.476,
-        "change": -1.586,
-        "volume": 510163189.0
+        "price": 3716.2842,
+        "change": 0.238,
+        "volume": 472632158.0
       },
       "深证成指": {
-        "price": 11816.788,
-        "change": -2.426
+        "price": 11802.459,
+        "change": -0.121
       },
       "创业板指": {
-        "price": 2783.175,
-        "change": -2.916
+        "price": 2772.384,
+        "change": -0.388
       },
       "沪金主力": {
-        "price": 896.64,
-        "change": -1.14,
-        "date": "2026-10-14"
+        "price": 893.6,
+        "change": -0.34,
+        "date": "2026-10-15"
       },
       "沪银主力": {
-        "price": 14289.0,
-        "change": -3.08,
-        "date": "2026-10-14"
+        "price": 13660.0,
+        "change": -4.4,
+        "date": "2026-10-15"
       },
       "沪铜主力": {
-        "price": 111080.0,
-        "change": 0.08,
-        "date": "2026-10-14"
+        "price": 108940.0,
+        "change": -1.93,
+        "date": "2026-10-15"
       },
       "螺纹钢主力": {
-        "price": 3073.0,
-        "change": -0.52,
-        "date": "2026-10-14"
+        "price": 3071.0,
+        "change": -0.07,
+        "date": "2026-10-15"
       },
       "沪深300期货": {
-        "price": 4160.6,
-        "change": -1.35,
-        "date": "2026-10-14"
+        "price": 4092.6,
+        "change": -1.63,
+        "date": "2026-10-15"
       },
       "中证500期货": {
-        "price": 6874.6,
-        "change": -1.26,
-        "date": "2026-10-14"
+        "price": 6638.2,
+        "change": -3.44,
+        "date": "2026-10-15"
       },
       "50ETF波动率": {
-        "value": 16.63,
-        "date": "2026-10-14"
+        "value": 17.95,
+        "date": "2026-10-15"
       }
     }
   },
@@ -83,81 +83,81 @@
     "DoubleMa": {
       "1h": {
         "signal": "观望",
-        "price": 80885.0
+        "price": 82224.6
       },
       "4h": {
-        "signal": "做空",
-        "price": 80867.6
+        "signal": "观望",
+        "price": 82218.2
       }
     },
     "RSI": {
       "1h": {
-        "signal": "观望",
-        "price": 80885.0
+        "signal": "做空",
+        "price": 82224.6
       },
       "4h": {
         "signal": "观望",
-        "price": 80867.6
+        "price": 82218.2
       }
     },
     "MACD": {
       "1h": {
         "signal": "观望",
-        "price": 80885.0
+        "price": 82224.6
       },
       "4h": {
-        "signal": "做空",
-        "price": 80867.6
+        "signal": "做多",
+        "price": 82218.2
       }
     },
     "Bollinger": {
       "1h": {
         "signal": "观望",
-        "price": 80885.0
+        "price": 82224.6
       },
       "4h": {
-        "signal": "做多",
-        "price": 80867.6
+        "signal": "观望",
+        "price": 82218.2
       }
     },
     "Supertrend": {
       "1h": {
         "signal": "观望",
-        "price": 80885.0
+        "price": 82224.6
       },
       "4h": {
         "signal": "观望",
-        "price": 80867.6
+        "price": 82218.2
       }
     },
     "TripleMa": {
       "1h": {
         "signal": "观望",
-        "price": 80885.0
+        "price": 82224.6
       },
       "4h": {
-        "signal": "做空",
-        "price": 80867.6
+        "signal": "观望",
+        "price": 82218.2
       }
     },
     "Momentum": {
       "1h": {
-        "signal": "观望",
-        "price": 80885.0
+        "signal": "做空",
+        "price": 82224.6
       },
       "4h": {
         "signal": "观望",
-        "price": 80867.6
+        "price": 82218.2
       }
     },
     "MeanReversion": {
       "1h": {
         "signal": "观望",
-        "price": 80885.0
+        "price": 82224.6
       },
       "4h": {
-        "signal": "做多",
-        "price": 80867.6
+        "signal": "观望",
+        "price": 82218.2
       }
     }
   },
@@ -165,7 +165,7 @@
     {
       "name": "DoubleMa",
       "signal_1h": "观望",
-      "signal_4h": "做空",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -174,7 +174,7 @@
     {
       "name": "TripleMa",
       "signal_1h": "观望",
-      "signal_4h": "做空",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -191,7 +191,7 @@
     },
     {
       "name": "RSI",
-      "signal_1h": "观望",
+      "signal_1h": "做空",
       "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
@@ -201,7 +201,7 @@
     {
       "name": "MACD",
       "signal_1h": "观望",
-      "signal_4h": "做空",
+      "signal_4h": "做多",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -210,7 +210,7 @@
     {
       "name": "Bollinger",
       "signal_1h": "观望",
-      "signal_4h": "做多",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -218,7 +218,7 @@
     },
     {
       "name": "Momentum",
-      "signal_1h": "观望",
+      "signal_1h": "做空",
       "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
@@ -228,7 +228,7 @@
     {
       "name": "MeanReversion",
       "signal_1h": "观望",
-      "signal_4h": "做多",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -241,66 +241,35 @@
     "items": [
       {
         "source": "Cointelegraph",
-        "title": "South Korea plans cybersecurity overhaul after attacks hit banks, crypto firms",
-        "link": "https://cointelegraph.com/news/south-korea-cybersecurity-overhaul-crypto-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "source": "Cointelegraph",
         "title": "Here’s what happened in crypto today",
         "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Australia seeks feedback on crypto platform rules ahead of 2027 rollout",
-        "link": "https://cointelegraph.com/news/australia-seeks-feedback-on-crypto-platform-rules-ahead-of-2027-rollout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "OpenAI model helped itself to testnet crypto, then kept quiet about it",
+        "link": "https://cointelegraph.com/news/openai-model-spent-testnet-eth-without-authorization?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Bitcoin miners plunge up to 13% in Wall Street’s worst selloff since July",
-        "link": "https://cointelegraph.com/markets/bitcoin-miners-plunge-up-to-13-in-wall-streets-worst-selloff-since-july?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Balaji’s ‘Singapore of social media’ begins with a wave of bans",
+        "link": "https://cointelegraph.com/news/balajis-singapore-of-social-media-begins-with-a-wave-of-bans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "VanEck seeks to withdraw application for Lido staked Ether ETF",
-        "link": "https://cointelegraph.com/news/vaneck-seeks-to-withdraw-application-for-lido-staked-ether-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "MSCI adopts index exclusion rules that could oust Strategy",
+        "link": "https://cointelegraph.com/news/msci-adopts-index-exclusion-rules-that-could-oust-strategy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Australia releases draft bill to adopt OECD crypto tax reporting framework",
+        "link": "https://cointelegraph.com/news/australia-releases-draft-bill-to-adopt-oecd-crypto-tax-reporting-framework?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   },
   "papers": {
-    "status": "success",
-    "note": "arXiv 采集 10 篇",
-    "items": [
-      {
-        "title": "Regime Detection in Latent Factor Models -- A Bayesian Decision-Theoretic Approach"
-      },
-      {
-        "title": "Data-Driven Dynamic Portfolio Selection with Vine Copula Simulation and Reinforcement Learning"
-      },
-      {
-        "title": "Interior smoothness and zero-variance geometry for finite-maturity Heston American puts"
-      },
-      {
-        "title": "Common Signals, Spurious Cross-Excitation, and Identification in Multivariate Hawkes Processes"
-      },
-      {
-        "title": "Beyond Time Induction: Structured Conditional Neural Solvers for Parametric Stochastic-Volatility Pricing"
-      },
-      {
-        "title": "The Missile and the Toll: Two-Way Flow Through the Strait of Hormuz"
-      },
-      {
-        "title": "Discrete-Time Survival Modelling with Dynamic Industrial Graphs for Mortgage Credit Risk"
-      },
-      {
-        "title": "A GLE-LSV model with state-dependent leverage and colored noise"
-      },
-      {
-        "title": "How Well Do LLMs Perform in Peer Review? Evidence from Finance and Accounting"
-      },
-      {
-        "title": "Risk Measures for the Climate Transition Age: Why Symmetric Risk Budgets are unlikely to mitigate two-dimensionally asymmetric Climate Change risks"
-      }
-    ]
+    "status": "error",
+    "note": "arXiv 采集 0 篇",
+    "items": []
   },
-  "updated_at": "2026-10-15 07:06 UTC"
+  "updated_at": "2026-10-16 07:06 UTC"
 }

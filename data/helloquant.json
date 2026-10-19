@@ -1,81 +1,81 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-10-16 07:06 UTC",
+  "updated": "2026-10-19 07:06 UTC",
   "status": "success",
   "last_run": {
-    "date": "2026-10-16",
-    "timestamp": "2026-10-16T00:05:13.332719",
+    "date": "2026-10-19",
+    "timestamp": "2026-10-19T00:05:21.174098",
     "success": true,
-    "note": "采集管线最近一次运行 2026-10-16 (6/6 成功)"
+    "note": "采集管线最近一次运行 2026-10-19 (6/6 成功)"
   },
   "crypto": {
     "status": "success",
     "btc": {
-      "price": 82249.9,
-      "change_24h": 1.67
+      "price": 82883.6,
+      "change_24h": 1.36
     },
     "eth": {
-      "price": 2454.02,
-      "change_24h": 4.1
+      "price": 2431.98,
+      "change_24h": 0.77
     },
-    "note": "OKX 数据正常; BTC 82249.9 (+1.67%) / ETH 2454.02 (+4.1%)"
+    "note": "OKX 数据正常; BTC 82883.6 (+1.36%) / ETH 2431.98 (+0.77%)"
   },
   "sentiment": {
     "crypto_fear_greed": {
-      "value": 63,
+      "value": 59,
       "classification": "Greed"
     }
   },
   "stocks": {
     "status": "success",
-    "note": "2026-10-16 A股/期货收盘数据",
+    "note": "2026-10-19 A股/期货收盘数据",
     "data": {
       "上证指数": {
-        "price": 3716.2842,
-        "change": 0.238,
-        "volume": 472632158.0
+        "price": 3730.92,
+        "change": 0.394,
+        "volume": 417791248.0
       },
       "深证成指": {
-        "price": 11802.459,
-        "change": -0.121
+        "price": 11817.423,
+        "change": 0.127
       },
       "创业板指": {
-        "price": 2772.384,
-        "change": -0.388
+        "price": 2746.291,
+        "change": -0.941
       },
       "沪金主力": {
-        "price": 893.6,
-        "change": -0.34,
-        "date": "2026-10-15"
+        "price": 901.82,
+        "change": 0.92,
+        "date": "2026-10-16"
       },
       "沪银主力": {
-        "price": 13660.0,
-        "change": -4.4,
-        "date": "2026-10-15"
+        "price": 14029.0,
+        "change": 2.7,
+        "date": "2026-10-16"
       },
       "沪铜主力": {
-        "price": 108940.0,
-        "change": -1.93,
-        "date": "2026-10-15"
+        "price": 109860.0,
+        "change": 0.84,
+        "date": "2026-10-16"
       },
       "螺纹钢主力": {
-        "price": 3071.0,
-        "change": -0.07,
-        "date": "2026-10-15"
+        "price": 3074.0,
+        "change": 0.1,
+        "date": "2026-10-16"
       },
       "沪深300期货": {
-        "price": 4092.6,
-        "change": -1.63,
-        "date": "2026-10-15"
+        "price": 4088.8,
+        "change": -0.09,
+        "date": "2026-10-16"
       },
       "中证500期货": {
-        "price": 6638.2,
-        "change": -3.44,
-        "date": "2026-10-15"
+        "price": 6667.8,
+        "change": 0.45,
+        "date": "2026-10-16"
       },
       "50ETF波动率": {
-        "value": 17.95,
-        "date": "2026-10-15"
+        "value": 16.36,
+        "date": "2026-10-16"
       }
     }
   },
@@ -83,81 +83,81 @@
     "DoubleMa": {
       "1h": {
         "signal": "观望",
-        "price": 82224.6
+        "price": 82885.7
       },
       "4h": {
         "signal": "观望",
-        "price": 82218.2
+        "price": 82881.1
       }
     },
     "RSI": {
       "1h": {
         "signal": "做空",
-        "price": 82224.6
+        "price": 82885.7
       },
       "4h": {
         "signal": "观望",
-        "price": 82218.2
+        "price": 82881.1
       }
     },
     "MACD": {
       "1h": {
         "signal": "观望",
-        "price": 82224.6
+        "price": 82885.7
       },
       "4h": {
         "signal": "做多",
-        "price": 82218.2
+        "price": 82881.1
       }
     },
     "Bollinger": {
       "1h": {
         "signal": "观望",
-        "price": 82224.6
+        "price": 82885.7
       },
       "4h": {
-        "signal": "观望",
-        "price": 82218.2
+        "signal": "做空",
+        "price": 82881.1
       }
     },
     "Supertrend": {
       "1h": {
         "signal": "观望",
-        "price": 82224.6
+        "price": 82885.7
       },
       "4h": {
         "signal": "观望",
-        "price": 82218.2
+        "price": 82881.1
       }
     },
     "TripleMa": {
       "1h": {
         "signal": "观望",
-        "price": 82224.6
+        "price": 82885.7
       },
       "4h": {
         "signal": "观望",
-        "price": 82218.2
+        "price": 82881.1
       }
     },
     "Momentum": {
       "1h": {
-        "signal": "做空",
-        "price": 82224.6
+        "signal": "观望",
+        "price": 82885.7
       },
       "4h": {
-        "signal": "观望",
-        "price": 82218.2
+        "signal": "做多",
+        "price": 82881.1
       }
     },
     "MeanReversion": {
       "1h": {
         "signal": "观望",
-        "price": 82224.6
+        "price": 82885.7
       },
       "4h": {
-        "signal": "观望",
-        "price": 82218.2
+        "signal": "做空",
+        "price": 82881.1
       }
     }
   },
@@ -210,7 +210,7 @@
     {
       "name": "Bollinger",
       "signal_1h": "观望",
-      "signal_4h": "观望",
+      "signal_4h": "做空",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -218,8 +218,8 @@
     },
     {
       "name": "Momentum",
-      "signal_1h": "做空",
-      "signal_4h": "观望",
+      "signal_1h": "观望",
+      "signal_4h": "做多",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -228,7 +228,7 @@
     {
       "name": "MeanReversion",
       "signal_1h": "观望",
-      "signal_4h": "观望",
+      "signal_4h": "做空",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -241,28 +241,28 @@
     "items": [
       {
         "source": "Cointelegraph",
+        "title": "Zoom adds ‘proof of human’ badges to show you’re not a deepfake",
+        "link": "https://cointelegraph.com/news/zoom-proof-of-human-badges-world-id-ai-deepfakes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
         "title": "Here’s what happened in crypto today",
         "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "OpenAI model helped itself to testnet crypto, then kept quiet about it",
-        "link": "https://cointelegraph.com/news/openai-model-spent-testnet-eth-without-authorization?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "South Korea to meet crypto exchanges amid calls for tax delay",
+        "link": "https://cointelegraph.com/news/south-korea-to-meet-crypto-exchanges-amid-calls-for-tax-delay?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Balaji’s ‘Singapore of social media’ begins with a wave of bans",
-        "link": "https://cointelegraph.com/news/balajis-singapore-of-social-media-begins-with-a-wave-of-bans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Qubic freezes chain after attacker drains 1.4K wallets with weak seeds",
+        "link": "https://cointelegraph.com/news/qubic-freezes-chain-after-attacker-drains-14k-wallets-with-weak-seeds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "MSCI adopts index exclusion rules that could oust Strategy",
-        "link": "https://cointelegraph.com/news/msci-adopts-index-exclusion-rules-that-could-oust-strategy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "source": "Cointelegraph",
-        "title": "Australia releases draft bill to adopt OECD crypto tax reporting framework",
-        "link": "https://cointelegraph.com/news/australia-releases-draft-bill-to-adopt-oecd-crypto-tax-reporting-framework?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Richard Heart caught ‘off-guard,’ QDay gets even closer: Hodler’s Digest",
+        "link": "https://cointelegraph.com/magazine/richard-heart-caught-with-pants-down-qday-gets-even-closer-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   },
@@ -271,5 +271,5 @@
     "note": "arXiv 采集 0 篇",
     "items": []
   },
-  "updated_at": "2026-10-16 07:06 UTC"
+  "updated_at": "2026-10-19 07:06 UTC"
 }

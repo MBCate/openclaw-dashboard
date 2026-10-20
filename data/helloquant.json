@@ -1,81 +1,81 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-10-19 07:06 UTC",
+  "updated": "2026-10-20 07:06 UTC",
   "status": "success",
   "last_run": {
-    "date": "2026-10-19",
-    "timestamp": "2026-10-19T00:05:21.174098",
+    "date": "2026-10-20",
+    "timestamp": "2026-10-20T00:05:16.995317",
     "success": true,
-    "note": "采集管线最近一次运行 2026-10-19 (6/6 成功)"
+    "note": "采集管线最近一次运行 2026-10-20 (6/6 成功)"
   },
   "crypto": {
     "status": "success",
     "btc": {
-      "price": 82883.6,
-      "change_24h": 1.36
+      "price": 81800.6,
+      "change_24h": -1.29
     },
     "eth": {
-      "price": 2431.98,
-      "change_24h": 0.77
+      "price": 2396.61,
+      "change_24h": -1.47
     },
-    "note": "OKX 数据正常; BTC 82883.6 (+1.36%) / ETH 2431.98 (+0.77%)"
+    "note": "OKX 数据正常; BTC 81800.6 (-1.29%) / ETH 2396.61 (-1.47%)"
   },
   "sentiment": {
     "crypto_fear_greed": {
-      "value": 59,
+      "value": 55,
       "classification": "Greed"
     }
   },
   "stocks": {
     "status": "success",
-    "note": "2026-10-19 A股/期货收盘数据",
+    "note": "2026-10-20 A股/期货收盘数据",
     "data": {
       "上证指数": {
-        "price": 3730.92,
-        "change": 0.394,
-        "volume": 417791248.0
+        "price": 3735.3704,
+        "change": 0.119,
+        "volume": 408693062.0
       },
       "深证成指": {
-        "price": 11817.423,
-        "change": 0.127
+        "price": 11801.29,
+        "change": -0.137
       },
       "创业板指": {
-        "price": 2746.291,
-        "change": -0.941
+        "price": 2739.203,
+        "change": -0.258
       },
       "沪金主力": {
-        "price": 901.82,
-        "change": 0.92,
-        "date": "2026-10-16"
+        "price": 902.42,
+        "change": 0.07,
+        "date": "2026-10-19"
       },
       "沪银主力": {
-        "price": 14029.0,
-        "change": 2.7,
-        "date": "2026-10-16"
+        "price": 13999.0,
+        "change": -0.21,
+        "date": "2026-10-19"
       },
       "沪铜主力": {
-        "price": 109860.0,
-        "change": 0.84,
-        "date": "2026-10-16"
+        "price": 109770.0,
+        "change": -0.08,
+        "date": "2026-10-19"
       },
       "螺纹钢主力": {
-        "price": 3074.0,
-        "change": 0.1,
-        "date": "2026-10-16"
+        "price": 3068.0,
+        "change": -0.2,
+        "date": "2026-10-19"
       },
       "沪深300期货": {
-        "price": 4088.8,
-        "change": -0.09,
-        "date": "2026-10-16"
+        "price": 4110.4,
+        "change": 0.53,
+        "date": "2026-10-19"
       },
       "中证500期货": {
-        "price": 6667.8,
-        "change": 0.45,
-        "date": "2026-10-16"
+        "price": 6719.8,
+        "change": 0.78,
+        "date": "2026-10-19"
       },
       "50ETF波动率": {
-        "value": 16.36,
-        "date": "2026-10-16"
+        "value": 16.11,
+        "date": "2026-10-19"
       }
     }
   },
@@ -83,81 +83,81 @@
     "DoubleMa": {
       "1h": {
         "signal": "观望",
-        "price": 82885.7
+        "price": 81778.4
       },
       "4h": {
         "signal": "观望",
-        "price": 82881.1
+        "price": 81774.7
       }
     },
     "RSI": {
       "1h": {
-        "signal": "做空",
-        "price": 82885.7
+        "signal": "观望",
+        "price": 81778.4
       },
       "4h": {
         "signal": "观望",
-        "price": 82881.1
+        "price": 81774.7
       }
     },
     "MACD": {
       "1h": {
         "signal": "观望",
-        "price": 82885.7
+        "price": 81778.4
       },
       "4h": {
-        "signal": "做多",
-        "price": 82881.1
+        "signal": "观望",
+        "price": 81774.7
       }
     },
     "Bollinger": {
       "1h": {
         "signal": "观望",
-        "price": 82885.7
+        "price": 81778.4
       },
       "4h": {
-        "signal": "做空",
-        "price": 82881.1
+        "signal": "观望",
+        "price": 81774.7
       }
     },
     "Supertrend": {
       "1h": {
         "signal": "观望",
-        "price": 82885.7
+        "price": 81778.4
       },
       "4h": {
         "signal": "观望",
-        "price": 82881.1
+        "price": 81774.7
       }
     },
     "TripleMa": {
       "1h": {
         "signal": "观望",
-        "price": 82885.7
+        "price": 81778.4
       },
       "4h": {
         "signal": "观望",
-        "price": 82881.1
+        "price": 81774.7
       }
     },
     "Momentum": {
       "1h": {
-        "signal": "观望",
-        "price": 82885.7
+        "signal": "做空",
+        "price": 81778.4
       },
       "4h": {
-        "signal": "做多",
-        "price": 82881.1
+        "signal": "观望",
+        "price": 81774.7
       }
     },
     "MeanReversion": {
       "1h": {
         "signal": "观望",
-        "price": 82885.7
+        "price": 81778.4
       },
       "4h": {
-        "signal": "做空",
-        "price": 82881.1
+        "signal": "观望",
+        "price": 81774.7
       }
     }
   },
@@ -191,7 +191,7 @@
     },
     {
       "name": "RSI",
-      "signal_1h": "做空",
+      "signal_1h": "观望",
       "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
@@ -201,7 +201,7 @@
     {
       "name": "MACD",
       "signal_1h": "观望",
-      "signal_4h": "做多",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -210,7 +210,7 @@
     {
       "name": "Bollinger",
       "signal_1h": "观望",
-      "signal_4h": "做空",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -218,8 +218,8 @@
     },
     {
       "name": "Momentum",
-      "signal_1h": "观望",
-      "signal_4h": "做多",
+      "signal_1h": "做空",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -228,7 +228,7 @@
     {
       "name": "MeanReversion",
       "signal_1h": "观望",
-      "signal_4h": "做空",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -241,35 +241,66 @@
     "items": [
       {
         "source": "Cointelegraph",
-        "title": "Zoom adds ‘proof of human’ badges to show you’re not a deepfake",
-        "link": "https://cointelegraph.com/news/zoom-proof-of-human-badges-world-id-ai-deepfakes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "US Bitcoin ETFs draw $527M in biggest showing since September",
+        "link": "https://cointelegraph.com/markets/bitcoin-etfs-527m-inflows-biggest-since-september?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Here’s what happened in crypto today",
-        "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Sophon sets Nov. 25 withdrawal deadline ahead of mainnet shutdown",
+        "link": "https://cointelegraph.com/news/sophon-sets-nov-25-withdrawal-deadline-ahead-of-mainnet-shutdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "South Korea to meet crypto exchanges amid calls for tax delay",
-        "link": "https://cointelegraph.com/news/south-korea-to-meet-crypto-exchanges-amid-calls-for-tax-delay?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "US bans DeepSeek from civilian agency IT systems",
+        "link": "https://cointelegraph.com/news/us-bans-deepseek-from-civilian-agency-it-systems?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Qubic freezes chain after attacker drains 1.4K wallets with weak seeds",
-        "link": "https://cointelegraph.com/news/qubic-freezes-chain-after-attacker-drains-14k-wallets-with-weak-seeds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Bitcoin rally could revive treasury buying, but easy-money days over",
+        "link": "https://cointelegraph.com/markets/bitcoin-rally-could-revive-treasury-buying-but-easy-money-days-over?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Richard Heart caught ‘off-guard,’ QDay gets even closer: Hodler’s Digest",
-        "link": "https://cointelegraph.com/magazine/richard-heart-caught-with-pants-down-qday-gets-even-closer-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Solana treasury firm SkyAI sells all SOL holdings, launches $201M buyback",
+        "link": "https://cointelegraph.com/news/solana-treasury-skyai-sells-all-sol-holdings-launches-201m-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   },
   "papers": {
-    "status": "error",
-    "note": "arXiv 采集 0 篇",
-    "items": []
+    "status": "success",
+    "note": "arXiv 采集 10 篇",
+    "items": [
+      {
+        "title": "Teacher Supervision, Fixed Representations and Calibration: Exact Risk Calculations for Candidate-Scoring Decision Models"
+      },
+      {
+        "title": "Cooperative Multi-Agent Reinforcement Learning for Market Making on Prediction-Market Order Books"
+      },
+      {
+        "title": "Probability-Weighting Functions for Normal Tempered-Stable Laws: Orthogonal Channels and Information-Theoretic Indices"
+      },
+      {
+        "title": "Regime-Aware Interpretable Ranking for Sector Rotation"
+      },
+      {
+        "title": "SHADE: Shrinkage via Halted Alpha-stable Denoising for Heavy-Tailed Probabilistic Time Series Forecasting"
+      },
+      {
+        "title": "The Control Layer Behind Rule-Following Agents Trading Across Market Conditions"
+      },
+      {
+        "title": "AuDQ: Auditable Data Quality through Agentic Rule Discovery"
+      },
+      {
+        "title": "Conflicting History in Foundation Model Return Forecasts"
+      },
+      {
+        "title": "Amortized Neural Filtering for Calibrated Posteriors in Statistical Arbitrage"
+      },
+      {
+        "title": "Topological Compression of Prediction Market Belief States for Event Forecasting"
+      }
+    ]
   },
-  "updated_at": "2026-10-19 07:06 UTC"
+  "updated_at": "2026-10-20 07:06 UTC"
 }

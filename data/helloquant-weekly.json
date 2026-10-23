@@ -1,78 +1,329 @@
 {
   "report_type": "weekly",
-  "week_of": "2026-10-12",
-  "week_end": "2026-10-16",
-  "generated_at": "2026-10-16 09:00 UTC",
+  "week_of": "2026-10-19",
+  "week_end": "2026-10-23",
+  "generated_at": "2026-10-23 09:01 UTC",
   "source": "~/trading/helloquant",
   "pipeline": {
     "status": "success",
-    "last_run": "2026-10-16T00:05:13.332719",
-    "note": "采集管线本周每日运行正常 (行情/加密/情绪/新闻均成功；论文源 arXiv 解析持续失败已隔离)"
+    "last_run": "2026-10-23T00:06:00.987423",
+    "note": "采集管线最近一次运行 2026-10-23 (2026-10-23T00:06:00)，6/6 成功"
   },
   "market": {
     "crypto": {
-      "btc": { "price": 82249.9, "change_24h": 1.67 },
-      "eth": { "price": 2454.02, "change_24h": 4.1 },
-      "note": "OKX 数据正常；BTC 1H 偏多/4H 偏空 (4H MACD 死叉)，ETH 1H 偏多/4H 偏空但 4H MACD 金叉"
+      "btc": {
+        "price": 81787.6,
+        "change_24h": -0.78
+      },
+      "eth": {
+        "price": 2405.96,
+        "change_24h": -0.99
+      },
+      "note": "OKX 数据正常；BTC 1H 偏多 (MACD 金叉) / 4H 偏空 (MACD 死叉)"
     },
-    "sentiment": { "fear_greed": 63, "classification": "Greed" },
+    "sentiment": {
+      "fear_greed": 50,
+      "classification": "Neutral"
+    },
     "stocks": {
-      "上证指数": { "close": 3716.28, "change_pct": 0.24 },
-      "深证成指": { "close": 11802.46, "change_pct": -0.12 },
-      "创业板指": { "close": 2772.38, "change_pct": -0.39 }
+      "上证指数": {
+        "close": 3690.48,
+        "change_pct": 0.89
+      },
+      "深证成指": {
+        "close": 11673.83,
+        "change_pct": 2.79
+      },
+      "创业板指": {
+        "close": 2684.1,
+        "change_pct": 4.16
+      }
     }
   },
   "week_returns": [
-    { "name": "上证指数", "start": 3813.79, "end": 3716.28, "change_pct": -2.56 },
-    { "name": "深证成指", "start": 12641.86, "end": 11802.46, "change_pct": -6.64 },
-    { "name": "创业板指", "start": 3043.34, "end": 2772.38, "change_pct": -8.90 },
-    { "name": "沪深300", "start": 4317.25, "end": 4170.61, "change_pct": -3.40 },
-    { "name": "上证50", "start": 2807.46, "end": 2768.34, "change_pct": -1.39 },
-    { "name": "中证500", "start": 7251.01, "end": 6772.75, "change_pct": -6.60 },
-    { "name": "科创50", "start": 1457.27, "end": 1358.65, "change_pct": -6.77 },
-    { "name": "中证1000", "start": 7155.91, "end": 6681.94, "change_pct": -6.62 },
-    { "name": "BTC/USDT", "start": 82534.0, "end": 82249.9, "change_pct": -0.34 },
-    { "name": "ETH/USDT", "start": 2498.39, "end": 2454.02, "change_pct": -1.78 },
-    { "name": "沪金主力", "start": 893.12, "end": 893.6, "change_pct": 0.05 },
-    { "name": "沪银主力", "start": 14412.0, "end": 13660.0, "change_pct": -5.22 },
-    { "name": "沪深300期货", "start": 4248.0, "end": 4092.6, "change_pct": -3.66 },
-    { "name": "中证500期货", "start": 7122.8, "end": 6638.2, "change_pct": -6.80 }
+    {
+      "name": "上证指数",
+      "start": 3716.28,
+      "end": 3690.48,
+      "change_pct": -0.69
+    },
+    {
+      "name": "深证成指",
+      "start": 11802.46,
+      "end": 11673.83,
+      "change_pct": -1.09
+    },
+    {
+      "name": "创业板指",
+      "start": 2772.38,
+      "end": 2684.1,
+      "change_pct": -3.18
+    },
+    {
+      "name": "沪深300",
+      "start": 4170.61,
+      "end": 4105.33,
+      "change_pct": -1.57
+    },
+    {
+      "name": "上证50",
+      "start": 2768.34,
+      "end": 2757.68,
+      "change_pct": -0.39
+    },
+    {
+      "name": "中证500",
+      "start": 6772.75,
+      "end": 6814.44,
+      "change_pct": 0.62
+    },
+    {
+      "name": "科创50",
+      "start": 1358.65,
+      "end": 1345.51,
+      "change_pct": -0.97
+    },
+    {
+      "name": "中证1000",
+      "start": 6681.94,
+      "end": 6734.55,
+      "change_pct": 0.79
+    },
+    {
+      "name": "BTC/USDT",
+      "start": 82249.9,
+      "end": 81787.6,
+      "change_pct": -0.56
+    },
+    {
+      "name": "ETH/USDT",
+      "start": 2454.02,
+      "end": 2405.96,
+      "change_pct": -1.96
+    },
+    {
+      "name": "沪金主力",
+      "start": 893.6,
+      "end": 881.46,
+      "change_pct": -1.36
+    },
+    {
+      "name": "沪银主力",
+      "start": 13660.0,
+      "end": 13608.0,
+      "change_pct": -0.38
+    },
+    {
+      "name": "沪铜主力",
+      "start": null,
+      "end": 107590.0,
+      "change_pct": null
+    },
+    {
+      "name": "螺纹钢主力",
+      "start": null,
+      "end": 3059.0,
+      "change_pct": null
+    },
+    {
+      "name": "沪深300期货",
+      "start": 4092.6,
+      "end": 3970.0,
+      "change_pct": -3.0
+    },
+    {
+      "name": "中证500期货",
+      "start": 6638.2,
+      "end": 6543.0,
+      "change_pct": -1.43
+    }
   ],
   "equity_curve": [
-    { "date": "2026-10-09", "value": 100.0 },
-    { "date": "2026-10-13", "value": 96.64 },
-    { "date": "2026-10-14", "value": 94.14 },
-    { "date": "2026-10-15", "value": 91.10 },
-    { "date": "2026-10-16", "value": 91.26 }
+    {
+      "date": "2026-10-16",
+      "value": 100.0
+    },
+    {
+      "date": "2026-10-19",
+      "value": 99.8
+    },
+    {
+      "date": "2026-10-20",
+      "value": 99.98
+    },
+    {
+      "date": "2026-10-22",
+      "value": 96.96
+    },
+    {
+      "date": "2026-10-23",
+      "value": 99.19
+    }
   ],
   "strategies": [
-    { "name": "DoubleMa", "signal_1h": "观望", "signal_4h": "观望", "daily_return": 0.0, "weekly_return": null, "max_drawdown": null, "sharpe": null },
-    { "name": "TripleMa", "signal_1h": "观望", "signal_4h": "观望", "daily_return": 0.0, "weekly_return": null, "max_drawdown": null, "sharpe": null },
-    { "name": "Supertrend", "signal_1h": "观望", "signal_4h": "观望", "daily_return": 0.0, "weekly_return": null, "max_drawdown": null, "sharpe": null },
-    { "name": "RSI", "signal_1h": "做空", "signal_4h": "观望", "daily_return": 0.0, "weekly_return": null, "max_drawdown": null, "sharpe": null },
-    { "name": "MACD", "signal_1h": "观望", "signal_4h": "做多", "daily_return": 0.0, "weekly_return": null, "max_drawdown": null, "sharpe": null },
-    { "name": "Bollinger", "signal_1h": "观望", "signal_4h": "观望", "daily_return": 0.0, "weekly_return": null, "max_drawdown": null, "sharpe": null },
-    { "name": "Momentum", "signal_1h": "做空", "signal_4h": "观望", "daily_return": 0.0, "weekly_return": null, "max_drawdown": null, "sharpe": null },
-    { "name": "MeanReversion", "signal_1h": "观望", "signal_4h": "观望", "daily_return": 0.0, "weekly_return": null, "max_drawdown": null, "sharpe": null }
+    {
+      "name": "DoubleMa",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "TripleMa",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Supertrend",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "RSI",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "MACD",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Bollinger",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Momentum",
+      "signal_1h": "做多",
+      "signal_4h": "做空",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "MeanReversion",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    }
   ],
   "signals": {
-    "DoubleMa": { "1h": { "signal": "观望", "price": 82224.6 }, "4h": { "signal": "观望", "price": 82218.2 } },
-    "RSI": { "1h": { "signal": "做空", "price": 82224.6 }, "4h": { "signal": "观望", "price": 82218.2 } },
-    "MACD": { "1h": { "signal": "观望", "price": 82224.6 }, "4h": { "signal": "做多", "price": 82218.2 } },
-    "Bollinger": { "1h": { "signal": "观望", "price": 82224.6 }, "4h": { "signal": "观望", "price": 82218.2 } },
-    "Supertrend": { "1h": { "signal": "观望", "price": 82224.6 }, "4h": { "signal": "观望", "price": 82218.2 } },
-    "TripleMa": { "1h": { "signal": "观望", "price": 82224.6 }, "4h": { "signal": "观望", "price": 82218.2 } },
-    "Momentum": { "1h": { "signal": "做空", "price": 82224.6 }, "4h": { "signal": "观望", "price": 82218.2 } },
-    "MeanReversion": { "1h": { "signal": "观望", "price": 82224.6 }, "4h": { "signal": "观望", "price": 82218.2 } }
+    "DoubleMa": {
+      "1h": {
+        "signal": "观望",
+        "price": 81800.0
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 81803.4
+      }
+    },
+    "TripleMa": {
+      "1h": {
+        "signal": "观望",
+        "price": 81800.0
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 81803.4
+      }
+    },
+    "Supertrend": {
+      "1h": {
+        "signal": "观望",
+        "price": 81800.0
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 81803.4
+      }
+    },
+    "RSI": {
+      "1h": {
+        "signal": "观望",
+        "price": 81800.0
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 81803.4
+      }
+    },
+    "MACD": {
+      "1h": {
+        "signal": "观望",
+        "price": 81800.0
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 81803.4
+      }
+    },
+    "Bollinger": {
+      "1h": {
+        "signal": "观望",
+        "price": 81800.0
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 81803.4
+      }
+    },
+    "Momentum": {
+      "1h": {
+        "signal": "做多",
+        "price": 81800.0
+      },
+      "4h": {
+        "signal": "做空",
+        "price": 81803.4
+      }
+    },
+    "MeanReversion": {
+      "1h": {
+        "signal": "观望",
+        "price": 81800.0
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 81803.4
+      }
+    }
   },
   "highlights": [
-    "本周 A 股大幅回调：创业板指 -8.90%、深证成指 -6.64%、中证500 -6.60%、科创50 -6.77%，上证指数相对抗跌 -2.56%",
-    "大盘股显著抗跌：上证50 仅 -1.39%，沪深300 -3.40%，市场风格偏向权重防御",
-    "股指期货同步走弱：中证500期货 -6.80%、沪深300期货 -3.66%",
-    "贵金属分化：沪银主力 -5.22% 延续弱势，沪金主力 +0.05% 基本持平",
-    "加密货币相对平稳：BTC -0.34% 守稳 $82,000，ETH -1.78% 回落至 $2,454；恐惧贪婪指数 63 (Greed)",
-    "策略信号明显转弱：8 个策略中 6 个 1H/4H 全部观望，仅 RSI/Momentum 1H 做空、MACD 4H 做多，方向性信号稀少，多在等待",
-    "采集管线本周每日成功运行，唯一持续问题是 arXiv 论文源解析失败（已隔离，不影响行情数据）"
+    "本周 A股指数分化：创业板指 -3.18%、深证成指 -1.09%，上证指数 -0.69%；大盘蓝筹相对抗跌（上证50 -0.39%，沪深300 -1.57%）",
+    "中小盘周内深V反转：中证500 +0.62%、中证1000 +0.79% 由周中重挫转为周度收正",
+    "港股恒生指数 23,188.18 (+1.10%)，与 A股 同步反弹",
+    "周五全场普涨：涨 4525 家 / 跌 909 家，涨停 150 家，两市成交 19,563 亿元，风险偏好明显修复",
+    "加密弱势整理：BTC -0.56% 收 $81,788，ETH -1.96% 至 $2,406；恐惧贪婪指数 50 (Neutral)，情绪由中性偏弱",
+    "策略信号：8 个策略中 7 个 1H/4H 全部观望，分歧/方向性信号仅 Momentum(1H 做多/4H 做空)；周内 A股 大跌后快速反弹，趋势类策略处于等待确认阶段",
+    "采集管线本周每日正常运行（行情/加密/情绪/新闻成功；arXiv 论文源异常已隔离，不影响行情数据）"
   ],
-  "note": "HelloQuant 仓库为量化学习框架，未维护策略级实盘盈亏/Sharpe/回撤数据；本报告以策略信号与市场周度表现为核心。"
+  "note": "HelloQuant 仓库为量化学习框架，未维护策略级实盘盈亏/Sharpe/回撤数据；本报告以策略信号与市场周度表现为核心，equity_curve 为等权 8 大指数基准组合。"
 }

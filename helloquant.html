@@ -15,6 +15,22 @@
   </div>
 
   <div class="container">
+    <div class="section" id="weekly-section" style="display:none">
+      <div class="section-title" id="weekly-title">周报</div>
+      <div class="card" id="weekly-highlights"></div>
+      <div class="card" style="margin-top:16px">
+        <div id="weekly-chart" class="chart-container-sm"></div>
+      </div>
+      <div class="card" style="margin-top:16px">
+        <table>
+          <thead>
+            <tr><th>品种</th><th>上周五</th><th>本周五</th><th>周涨跌</th></tr>
+          </thead>
+          <tbody id="weekly-returns"></tbody>
+        </table>
+      </div>
+    </div>
+
     <div class="section">
       <div class="section-title">策略信号</div>
       <div class="grid-4" id="strategies"></div>
@@ -117,6 +133,58 @@
           <td style="font-family:var(--font-mono)">${s.sharpe?.toFixed(2) || '—'}</td>
         `;
         tbody.appendChild(tr);
+      });
+
+      renderWeekly(data.weekly);
+    }
+
+    function renderWeekly(w) {
+      if (!w) return;
+      document.getElementById('weekly-section').style.display = '';
+      document.getElementById('weekly-title').textContent =
+        `周报 ${w.week_of} ~ ${w.week_end}`;
+
+      // 摘要
+      const box = document.getElementById('weekly-highlights');
+      box.innerHTML = (w.highlights || []).map(h =>
+        `<p style="margin:6px 0;color:var(--text-secondary)">• ${h}</p>`).join('')
+        + `<p style="margin-top:10px;color:var(--text-muted);font-size:12px">${w.pipeline?.note || ''}｜生成于 ${w.generated_at}</p>`;
+
+      // 基准净值曲线
+      if (w.equity_curve?.length) {
+        initChart('weekly-chart', {
+          title: { text: '等权 8 大指数基准（上周五 = 100）', left: 'center',
+                   textStyle: { fontSize: 12, fontWeight: 'normal' } },
+          tooltip: { trigger: 'axis' },
+          xAxis: { type: 'category', data: w.equity_curve.map(d => d.date) },
+          yAxis: { type: 'value', min: v => Math.floor(Math.min(v.min, 100) - 1), scale: true },
+          series: [{ type: 'line', data: w.equity_curve.map(d => d.value), smooth: true,
+            areaStyle: { opacity: 0.1, color: '#58a6ff' },
+            lineStyle: { color: '#58a6ff', width: 2 },
+            itemStyle: { color: '#58a6ff' },
+            markLine: { silent: true, symbol: 'none', data: [{ yAxis: 100 }],
+              lineStyle: { color: '#8b949e', type: 'dashed' }, label: { show: false } } }],
+          grid: { left: 60, right: 20, top: 40, bottom: 30 },
+        });
+      } else {
+        const c = document.getElementById('weekly-chart');
+        if (c) c.parentElement.style.display = 'none';
+      }
+
+      // 周度涨跌表
+      const rt = document.getElementById('weekly-returns');
+      const fmtP = v => v == null ? '—'
+        : (v >= 1000 ? v.toLocaleString('zh-CN', { maximumFractionDigits: 2 })
+                     : v.toFixed(2));
+      (w.week_returns || []).forEach(r => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td style="font-weight:600">${r.name}</td>
+          <td style="font-family:var(--font-mono)">${fmtP(r.start)}</td>
+          <td style="font-family:var(--font-mono)">${fmtP(r.end)}</td>
+          <td>${formatChange(r.change_pct)}</td>
+        `;
+        rt.appendChild(tr);
       });
     }
 

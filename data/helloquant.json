@@ -1,48 +1,132 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-10-22 07:05 UTC",
-  "status": "partial",
+  "updated": "2026-10-23 07:06 UTC",
+  "status": "success",
   "last_run": {
-    "date": "2026-10-20",
-    "timestamp": "2026-10-20T00:05:16.995317",
-    "success": false,
-    "note": "HelloQuant 采集管线最近一次成功运行 2026-10-20；今日(10-22)未产生新 daily_raw.json（已滞后2天）"
+    "date": "2026-10-23",
+    "timestamp": "2026-10-23T00:06:00.987423",
+    "success": true,
+    "note": "采集管线已恢复，2026-10-23 00:06 全量采集成功 (6/6)"
   },
   "crypto": {
-    "status": "degraded",
+    "status": "success",
     "btc": {
-      "price": 82512.6,
-      "change_24h": 0.05
+      "price": 81787.6,
+      "change_24h": -0.78,
+      "high_24h": 82481.7,
+      "low_24h": 80924.9
     },
     "eth": {
-      "price": null,
-      "change_24h": null
+      "price": 2405.96,
+      "change_24h": -0.99,
+      "high_24h": 2433.93,
+      "low_24h": 2360.34
     },
-    "note": "交易所 API 不可达，BTC 价格取自 OKX 网页行情 (2026-10-22)；ETH 暂缺，显示时将回退旧值"
+    "indicators": {
+      "btc_1h": {
+        "rsi": 61.6,
+        "macd": -203.27,
+        "macd_signal": -317.93,
+        "macd_status": "金叉",
+        "ma5": 81800.62,
+        "ma20": 81581.95,
+        "bb_upper": 82066.16,
+        "bb_lower": 81097.74,
+        "trend": "偏多"
+      },
+      "btc_4h": {
+        "rsi": 39.3,
+        "macd": -92.46,
+        "macd_signal": 123.37,
+        "macd_status": "死叉",
+        "ma5": 81655.72,
+        "ma20": 82557.84,
+        "bb_upper": 84553.29,
+        "bb_lower": 80562.4,
+        "trend": "偏空"
+      },
+      "eth_1h": {
+        "rsi": 62.1,
+        "macd": -6.53,
+        "macd_signal": -10.78,
+        "macd_status": "金叉",
+        "ma5": 2404.97,
+        "ma20": 2396.77,
+        "bb_upper": 2420.0,
+        "bb_lower": 2373.53,
+        "trend": "偏多"
+      },
+      "eth_4h": {
+        "rsi": 40.5,
+        "macd": -3.91,
+        "macd_signal": 3.42,
+        "macd_status": "死叉",
+        "ma5": 2398.38,
+        "ma20": 2431.91,
+        "bb_upper": 2506.2,
+        "bb_lower": 2357.63,
+        "trend": "偏空"
+      }
+    },
+    "note": "OKX 交易所 API 已恢复，实时数据"
   },
   "sentiment": {
     "crypto_fear_greed": {
-      "value": 68,
-      "classification": "Greed",
+      "value": 50,
+      "classification": "Neutral",
       "source": "alternative.me",
-      "date": "2026-10-21"
+      "date": "2026-10-23"
     }
   },
   "stocks": {
     "status": "success",
-    "note": "2026-10-22 A股收盘（新浪+东财）",
+    "note": "2026-10-23 A股收盘（新浪）",
     "data": {
       "上证指数": {
-        "price": 3658.03,
-        "change": -1.48
+        "price": 3690.4753,
+        "change": 0.887
       },
       "深证成指": {
-        "price": 11357.32,
-        "change": -2.97
+        "price": 11673.826,
+        "change": 2.787
       },
       "创业板指": {
-        "price": 2576.9,
-        "change": -4.37
+        "price": 2684.097,
+        "change": 4.16
+      },
+      "沪金主力": {
+        "price": 881.46,
+        "change": -0.6,
+        "date": "2026-10-22"
+      },
+      "沪银主力": {
+        "price": 13608.0,
+        "change": -1.92,
+        "date": "2026-10-22"
+      },
+      "沪铜主力": {
+        "price": 107590.0,
+        "change": -1.09,
+        "date": "2026-10-22"
+      },
+      "螺纹钢主力": {
+        "price": 3059.0,
+        "change": -0.71,
+        "date": "2026-10-22"
+      },
+      "沪深300期货": {
+        "price": 3970.0,
+        "change": -1.92,
+        "date": "2026-10-22"
+      },
+      "中证500期货": {
+        "price": 6543.0,
+        "change": -2.85,
+        "date": "2026-10-22"
+      },
+      "50ETF波动率": {
+        "value": 16.37,
+        "date": "2026-10-22"
       }
     }
   },
@@ -52,81 +136,81 @@
       "DoubleMa": {
         "1h": {
           "signal": "观望",
-          "current_price": 81778.4
+          "current_price": 81800.0
         },
         "4h": {
           "signal": "观望",
-          "current_price": 81774.7
+          "current_price": 81803.4
         }
       },
       "RSI": {
         "1h": {
           "signal": "观望",
-          "current_price": 81778.4
+          "current_price": 81800.0
         },
         "4h": {
           "signal": "观望",
-          "current_price": 81774.7
+          "current_price": 81803.4
         }
       },
       "MACD": {
         "1h": {
           "signal": "观望",
-          "current_price": 81778.4
+          "current_price": 81800.0
         },
         "4h": {
           "signal": "观望",
-          "current_price": 81774.7
+          "current_price": 81803.4
         }
       },
       "Bollinger": {
         "1h": {
           "signal": "观望",
-          "current_price": 81778.4
+          "current_price": 81800.0
         },
         "4h": {
           "signal": "观望",
-          "current_price": 81774.7
+          "current_price": 81803.4
         }
       },
       "Supertrend": {
         "1h": {
           "signal": "观望",
-          "current_price": 81778.4
+          "current_price": 81800.0
         },
         "4h": {
           "signal": "观望",
-          "current_price": 81774.7
+          "current_price": 81803.4
         }
       },
       "TripleMa": {
         "1h": {
           "signal": "观望",
-          "current_price": 81778.4
+          "current_price": 81800.0
         },
         "4h": {
           "signal": "观望",
-          "current_price": 81774.7
+          "current_price": 81803.4
         }
       },
       "Momentum": {
         "1h": {
-          "signal": "做空",
-          "current_price": 81778.4
+          "signal": "做多",
+          "current_price": 81800.0
         },
         "4h": {
-          "signal": "观望",
-          "current_price": 81774.7
+          "signal": "做空",
+          "current_price": 81803.4
         }
       },
       "MeanReversion": {
         "1h": {
           "signal": "观望",
-          "current_price": 81778.4
+          "current_price": 81800.0
         },
         "4h": {
           "signal": "观望",
-          "current_price": 81774.7
+          "current_price": 81803.4
         }
       }
     }
@@ -136,97 +220,97 @@
       "name": "DoubleMa",
       "signal_1h": "观望",
       "signal_4h": "观望",
-      "daily_return": 0.0,
+      "daily_return": -0.78,
       "weekly_return": null,
       "max_drawdown": null,
       "sharpe": null,
-      "data_as_of": "2026-10-20",
-      "stale": true,
-      "price": 82512.6
+      "data_as_of": "2026-10-23",
+      "stale": false,
+      "price": 81787.6
     },
     {
       "name": "TripleMa",
       "signal_1h": "观望",
       "signal_4h": "观望",
-      "daily_return": 0.0,
+      "daily_return": -0.78,
       "weekly_return": null,
       "max_drawdown": null,
       "sharpe": null,
-      "data_as_of": "2026-10-20",
-      "stale": true,
-      "price": 82512.6
+      "data_as_of": "2026-10-23",
+      "stale": false,
+      "price": 81787.6
     },
     {
       "name": "Supertrend",
       "signal_1h": "观望",
       "signal_4h": "观望",
-      "daily_return": 0.0,
+      "daily_return": -0.78,
       "weekly_return": null,
       "max_drawdown": null,
       "sharpe": null,
-      "data_as_of": "2026-10-20",
-      "stale": true,
-      "price": 82512.6
+      "data_as_of": "2026-10-23",
+      "stale": false,
+      "price": 81787.6
     },
     {
       "name": "RSI",
       "signal_1h": "观望",
       "signal_4h": "观望",
-      "daily_return": 0.0,
+      "daily_return": -0.78,
       "weekly_return": null,
       "max_drawdown": null,
       "sharpe": null,
-      "data_as_of": "2026-10-20",
-      "stale": true,
-      "price": 82512.6
+      "data_as_of": "2026-10-23",
+      "stale": false,
+      "price": 81787.6
     },
     {
       "name": "MACD",
       "signal_1h": "观望",
       "signal_4h": "观望",
-      "daily_return": 0.0,
+      "daily_return": -0.78,
       "weekly_return": null,
       "max_drawdown": null,
       "sharpe": null,
-      "data_as_of": "2026-10-20",
-      "stale": true,
-      "price": 82512.6
+      "data_as_of": "2026-10-23",
+      "stale": false,
+      "price": 81787.6
     },
     {
       "name": "Bollinger",
       "signal_1h": "观望",
       "signal_4h": "观望",
-      "daily_return": 0.0,
+      "daily_return": -0.78,
       "weekly_return": null,
       "max_drawdown": null,
       "sharpe": null,
-      "data_as_of": "2026-10-20",
-      "stale": true,
-      "price": 82512.6
+      "data_as_of": "2026-10-23",
+      "stale": false,
+      "price": 81787.6
     },
     {
       "name": "Momentum",
-      "signal_1h": "做空",
-      "signal_4h": "观望",
-      "daily_return": 0.0,
+      "signal_1h": "做多",
+      "signal_4h": "做空",
+      "daily_return": -0.78,
       "weekly_return": null,
       "max_drawdown": null,
       "sharpe": null,
-      "data_as_of": "2026-10-20",
-      "stale": true,
-      "price": 82512.6
+      "data_as_of": "2026-10-23",
+      "stale": false,
+      "price": 81787.6
     },
     {
       "name": "MeanReversion",
       "signal_1h": "观望",
       "signal_4h": "观望",
-      "daily_return": 0.0,
+      "daily_return": -0.78,
       "weekly_return": null,
       "max_drawdown": null,
       "sharpe": null,
-      "data_as_of": "2026-10-20",
-      "stale": true,
-      "price": 82512.6
+      "data_as_of": "2026-10-23",
+      "stale": false,
+      "price": 81787.6
     }
   ],
   "news": {
@@ -234,38 +318,33 @@
     "data": [
       {
         "source": "Cointelegraph",
-        "title": "US Bitcoin ETFs draw $527M in biggest showing since September",
-        "link": "https://cointelegraph.com/markets/bitcoin-etfs-527m-inflows-biggest-since-september?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Tue, 20 Oct 2026 05:39:20 +0000",
-        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"US Bitcoin ETFs draw $527M in biggest showing since September\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media"
+        "title": "Here’s what happened in crypto today",
+        "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Fri, 23 Oct 2026 05:15:14 +0000"
       },
       {
         "source": "Cointelegraph",
-        "title": "Sophon sets Nov. 25 withdrawal deadline ahead of mainnet shutdown",
-        "link": "https://cointelegraph.com/news/sophon-sets-nov-25-withdrawal-deadline-ahead-of-mainnet-shutdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Tue, 20 Oct 2026 05:14:11 +0000",
-        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Sophon sets Nov. 25 withdrawal deadline ahead of mainnet shutdown\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/m"
+        "title": "Ethereum delays Glamsterdam Hoodi testnet launch over security risks",
+        "link": "https://cointelegraph.com/news/ethereum-delays-glamsterdam-testnet-fork-gas-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Fri, 23 Oct 2026 05:09:41 +0000"
       },
       {
         "source": "Cointelegraph",
-        "title": "US bans DeepSeek from civilian agency IT systems",
-        "link": "https://cointelegraph.com/news/us-bans-deepseek-from-civilian-agency-it-systems?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Tue, 20 Oct 2026 04:07:58 +0000",
-        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"US bans DeepSeek from civilian agency IT systems\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-cove"
+        "title": "Bitcoin Core changes security policy as AI makes bugs easier to find",
+        "link": "https://cointelegraph.com/news/bitcoin-core-changes-security-policy-as-ai-makes-bugs-easier-to-find?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Fri, 23 Oct 2026 04:34:14 +0000"
       },
       {
         "source": "Cointelegraph",
-        "title": "Bitcoin rally could revive treasury buying, but easy-money days over",
-        "link": "https://cointelegraph.com/markets/bitcoin-rally-could-revive-treasury-buying-but-easy-money-days-over?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Tue, 20 Oct 2026 01:35:00 +0000",
-        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin rally could revive treasury buying, but easy-money days over\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.i"
+        "title": "Switzerland’s first retail spot Bitcoin ETF targets November launch",
+        "link": "https://cointelegraph.com/news/switzerland-approves-first-spot-bitcoin-etf-for-retail-investors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Fri, 23 Oct 2026 00:59:35 +0000"
       },
       {
         "source": "Cointelegraph",
-        "title": "Solana treasury firm SkyAI sells all SOL holdings, launches $201M buyback",
-        "link": "https://cointelegraph.com/news/solana-treasury-skyai-sells-all-sol-holdings-launches-201m-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Mon, 19 Oct 2026 21:04:34 +0000",
-        "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Solana treasury firm SkyAI sells all SOL holdings, launches $201M buyback\" class=\"type:primaryImage\" src=\"https://s3-images.ctme"
+        "title": "Pentagon bans US forces from using military info to bet in prediction markets",
+        "link": "https://cointelegraph.com/news/pentagon-bans-us-forces-from-using-military-info-to-bet-in-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Thu, 22 Oct 2026 23:50:42 +0000"
       }
     ]
   },
@@ -374,16 +453,16 @@
       }
     ]
   },
-  "updated_at": "2026-10-22T07:08:07.078322Z",
+  "updated_at": "2026-10-23T07:06:40Z",
   "alerts": [
     {
-      "severity": "WARN",
-      "msg": "HelloQuant 采集管线停滞：daily_raw.json 停留在 2026-10-20（滞后2天），策略信号非最新"
+      "severity": "INFO",
+      "msg": "采集管线已恢复，今日数据完整采集（昨日起滞后问题解决）"
     },
     {
       "severity": "INFO",
-      "msg": "加密交易所 API (OKX/Binance/CoinGecko) 网络不可达，BTC 价格改用网页行情"
+      "msg": "Momentum 策略出现分歧：1h 做多 / 4h 做空；其余7个策略均为观望"
     }
   ],
-  "crypto_note": "BTC 82512.6 (+0.05%)；策略信号基于 10-20 数据，价格参考值已更新为最新 BTC"
+  "crypto_note": "BTC 81788 (-0.78%)，ETH 2406 (-0.99%)；恐贪指数 50 (Neutral)"
 }

@@ -2,127 +2,150 @@
   "indices": {
     "上证指数": {
       "code": "000001",
-      "price": 3614.12,
-      "change": -43.9,
-      "change_pct": -1.2
+      "price": 3690.48,
+      "change": 32.45,
+      "change_pct": 0.89
     },
     "深证成指": {
       "code": "399001",
-      "price": 11175.85,
-      "change": -181.47,
-      "change_pct": -1.6
+      "price": 11673.83,
+      "change": 316.51,
+      "change_pct": 2.79
     },
     "创业板指": {
       "code": "399006",
-      "price": 2521.77,
-      "change": -55.13,
-      "change_pct": -2.14
+      "price": 2684.1,
+      "change": 107.2,
+      "change_pct": 4.16
     },
     "沪深300": {
       "code": "000300",
-      "price": 4014.6,
-      "change": -21.7,
-      "change_pct": -0.54
+      "price": 4105.33,
+      "change": 69.03,
+      "change_pct": 1.71
     },
     "上证50": {
       "code": "000016",
-      "price": 2722.88,
-      "change": -1.92,
-      "change_pct": -0.07
+      "price": 2757.68,
+      "change": 32.88,
+      "change_pct": 1.21
     },
     "中证500": {
-      "code": "000905",
-      "price": 6510.13,
-      "change": -145.12,
-      "change_pct": -2.18
+      "code": "399905",
+      "price": 6814.44,
+      "change": 159.19,
+      "change_pct": 2.39
     },
     "科创50": {
       "code": "000688",
-      "price": 1265.77,
-      "change": -40.1,
-      "change_pct": -3.07
+      "price": 1345.51,
+      "change": 39.64,
+      "change_pct": 3.04
     },
     "中证1000": {
-      "code": "000852",
-      "price": 6383.47,
-      "change": -194.81,
-      "change_pct": -2.96
+      "code": "399852",
+      "price": 6734.55,
+      "change": 156.28,
+      "change_pct": 2.38
     }
   },
   "hang_seng": {
     "name": "恒生指数",
-    "price": 23010.17,
-    "change": 75.49,
-    "change_pct": 0.33,
-    "time": "2026/10/23"
+    "price": 23188.18,
+    "change": 253.5,
+    "change_pct": 1.1,
+    "time": "2026-10-23"
   },
-  "total_turnover_yi": 10679.9,
+  "total_turnover_yi": 19562.6,
   "total_volume_shares": 0.0,
   "sectors": {
+    "source": "同花顺行业",
     "top5": [
       {
-        "name": "邮政业",
-        "change_pct": 2.51,
-        "turnover": 10.82
+        "name": "电机",
+        "change_pct": 5.3,
+        "turnover": 129.51,
+        "leader": "华阳智能",
+        "leader_pct": 20.0
       },
       {
-        "name": "其他金融业",
-        "change_pct": 2.23,
-        "turnover": 44.77
+        "name": "自动化设备",
+        "change_pct": 5.08,
+        "turnover": 506.0,
+        "leader": "宇树科技",
+        "leader_pct": 20.0
       },
       {
-        "name": "保险业",
-        "change_pct": 1.37,
-        "turnover": 57.32
+        "name": "软件开发",
+        "change_pct": 4.88,
+        "turnover": 589.43,
+        "leader": "众诚科技",
+        "leader_pct": 30.0
       },
       {
-        "name": "酒、饮料和精制茶制造业",
-        "change_pct": 1.23,
-        "turnover": 132.41
+        "name": "影视院线",
+        "change_pct": 4.11,
+        "turnover": 111.63,
+        "leader": "中广天择",
+        "leader_pct": 10.01
       },
       {
-        "name": "货币金融服务",
-        "change_pct": 0.22,
-        "turnover": 223.28
+        "name": "IT服务",
+        "change_pct": 3.95,
+        "turnover": 458.3,
+        "leader": "海天瑞声",
+        "leader_pct": 20.0
       }
     ],
     "bottom5": [
       {
-        "name": "机动车、电子产品和日用产品修理业",
-        "change_pct": -7.99,
-        "turnover": 0.91
+        "name": "银行",
+        "change_pct": -0.54,
+        "turnover": 461.88,
+        "leader": "苏州银行",
+        "leader_pct": 2.1
       },
       {
-        "name": "非金属矿采选业",
-        "change_pct": -6.32,
-        "turnover": 1.36
+        "name": "电力",
+        "change_pct": -0.38,
+        "turnover": 318.8,
+        "leader": "艾能聚",
+        "leader_pct": 2.97
       },
       {
-        "name": "木材加工和木、竹、藤、棕、草制品业",
-        "change_pct": -6.15,
-        "turnover": 8.92
+        "name": "元件",
+        "change_pct": -0.13,
+        "turnover": 972.37,
+        "leader": "嘉立创",
+        "leader_pct": 7.43
       },
       {
-        "name": "房屋建筑业",
-        "change_pct": -6.05,
-        "turnover": 3.15
+        "name": "石油加工贸易",
+        "change_pct": -0.1,
+        "turnover": 86.9,
+        "leader": "统一股份",
+        "leader_pct": 10.0
       },
       {
-        "name": "文教、工美、体育和娱乐用品制造业",
-        "change_pct": -5.82,
-        "turnover": 19.04
+        "name": "种植业与林业",
+        "change_pct": -0.08,
+        "turnover": 66.39,
+        "leader": "平潭发展",
+        "leader_pct": 3.55
       }
     ]
   },
   "breadth": {
-    "up": 642,
-    "down": 4872,
-    "flat": 62
+    "up": 4525,
+    "down": 909,
+    "flat": 142,
+    "limit_up": 150,
+    "limit_down": 17
   },
   "north_money": null,
   "north_money_note": "沪深港通北向资金自2024-08起已停止实时披露，接口不可用",
-  "date": "2026-10-22",
-  "time": "noon",
-  "fetched_at": "2026-10-23T03:36:03Z",
-  "note": "数据源: AkShare(新浪财经指数/恒指 + 证监会行业板块聚合)，东财接口被墙。北向资金已暂停披露。"
+  "date": "2026-10-23",
+  "time": "close",
+  "fetched_at": "2026-10-23T07:05:57Z",
+  "note": "数据源: AkShare(新浪财经指数/恒指/全市场个股 + 同花顺行业板块)，东财接口被墙。北向资金已暂停披露。"
 }

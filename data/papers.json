@@ -1,6 +1,103 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "papers": [
+  {
+   "title": "RadioDreamer: A World Model for Radio Map Forecasting and Imagination-Based Optimization",
+   "id": "2610.29382",
+   "arxiv_id": "2610.29382",
+   "published": "2026-10-21",
+   "authors": "Haoye Chai, Mugen Peng",
+   "summary": "把无线信道从「静态重建」转为「动作条件化的世界模型」：两阶段潜空间架构 + 时空 Transformer，学习网络配置动作如何驱动无线环境演化，再在想象空间中做网络优化。与自驾无直接关联，但动作条件化世界模型 + 想象式优化的范式可迁移（如 V2X 通信约束下的规划）。",
+   "categories": [
+    "cs.NI"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-21",
+   "status": "new",
+   "status_en": "新发现",
+   "url": "https://arxiv.org/abs/2610.29382",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3
+  },
+  {
+   "title": "RangeNav: Task-Aligned LiDAR Range-Image Pretraining for Robot Navigation",
+   "id": "2610.29845",
+   "arxiv_id": "2610.29845",
+   "published": "2026-10-21",
+   "authors": "Samuel Foo Enze, Manthan Patel, Fan Yang, Linus Kramer, Pascal Roth et al.",
+   "summary": "183k 参数的车载/机器人激光雷达距离图像编码器，全合成数据预训练，用各向异性卷积 + 循环填充处理 360° 距离图的极端长宽比与方位接缝，以导航对齐目标预训练后用 RL 微调。对「轻量 3D 感知骨干 + 大规模并行 RL 仿真」有参考价值。",
+   "categories": [
+    "cs.RO",
+    "cs.LG"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-21",
+   "status": "new",
+   "status_en": "新发现",
+   "url": "https://arxiv.org/abs/2610.29845",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3
+  },
+  {
+   "title": "Structured Perception Representations for Off-road Dynamics Learning",
+   "id": "2610.22900",
+   "arxiv_id": "2610.22900",
+   "published": "2026-10-16",
+   "authors": "Micah Nye, Samuel Triest, Matthew Sivaprakasam, Isaiah Adu, Sebastian Scherer et al.",
+   "summary": "SpatialBEV：在预测状态周围查询 BEV 特征来条件化车辆动力学模型，显式引入动力学问题的空间结构，提升越野高速工况下的控制精度。属 BEV 表征在非结构化地形上的应用，与主流城市自动驾驶略有距离。",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-16",
+   "status": "new",
+   "status_en": "新发现",
+   "url": "https://arxiv.org/abs/2610.22900",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3
+  },
+  {
+   "title": "LynxScenes: A Large-Scale Real-World Benchmark for Outdoor Wheel-Legged Robot Perception, Navigation, Imagination and Reconstruction",
+   "id": "2610.18093",
+   "arxiv_id": "2610.18093",
+   "published": "2026-10-13",
+   "authors": "Jun Tian, Hao Wu, Ruo Chen, Yili Liao, Hongyi Lin et al.",
+   "summary": "轮足机器人 LYNX M20 采集的大规模真实数据集：约 10 万条 30 秒片段、833.6 小时、3294.7 公里、300 万标注帧，四鱼眼 + 双激光雷达 + IMU + 里程计，支持感知/导航/未来场景想象（世界模型）/重建四类任务。可作户外开放环境 world model 评测补充基准。",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-13",
+   "status": "new",
+   "status_en": "新发现",
+   "url": "https://arxiv.org/abs/2610.18093",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3
+  },
+  {
+   "title": "Patient, Place, Prior (P$^3$): What Counts as Personalization in Medical World Models?",
+   "id": "2610.09194",
+   "arxiv_id": "2610.09194",
+   "published": "2026-10-06",
+   "authors": "Xingrui Gu, Hanxue Gu, Yuxiang Zhang, Yang Yang",
+   "summary": "医疗纵向影像世界模型的「个性化」审计框架（Patient/Place/Prior 三维），并提出 Cancer JEPA 单步预测冻结表征。核心贡献在于提出「平均预测优于个性化并不能证明世界模型有效」的评测思路——这一审计逻辑对自驾世界模型的个性化/条件化评估同样值得借鉴。",
+   "categories": [
+    "cs.LG",
+    "cs.AI"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-06",
+   "status": "new",
+   "status_en": "新发现",
+   "url": "https://arxiv.org/abs/2610.09194",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3
+  },
   {
    "title": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
    "id": "2610.30953",

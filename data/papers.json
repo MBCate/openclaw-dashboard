@@ -102,10 +102,12 @@
    "title": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
    "id": "2610.30953",
    "published": "2610.30953",
-   "authors": "Gabriel Manalu, Saad Wazir, Thao Do, Seongah Kim, Hyeontaek Hwang et al.",
-   "summary": "用因果反事实干预检验驾驶 VLA 的「推理—动作」耦合：扰动模型自身推理文本后轨迹变化远小于遮挡相机输入，说明语言推理并非轨迹生成的真正因果来源；并在多模型多基准上复现该结论。",
+   "authors": "Gabriel Manalu, Saad Wazir, Thao Do, Seongah Kim, Hyeontaek Hwang, Tolcha Yalew Kidane et al.",
+   "summary": "对驾驶 VLA 的可解释性叙事做因果检验：用推理扰动与场景级反事实对比，证明「轨迹依赖生成的推理」与「推理忠实反映轨迹的因果因素」两条假设均不成立——改推理文本对轨迹影响很小，而遮挡视觉输入影响大得多。该低耦合模式在 4 个 VLA 模型、多个基准与推理架构上一致复现，对以推理文本做安全审计的做法构成实质挑战。",
    "categories": [
-    "cs.AI"
+    "cs.CV",
+    "cs.AI",
+    "cs.RO"
    ],
    "topic": "vla-autonomous-driving",
    "date": "2026-10-22",
@@ -113,9 +115,11 @@
    "status_en": "新发现",
    "arxiv_id": "2610.30953",
    "url": "https://arxiv.org/abs/2610.30953",
-   "in_kb": false,
+   "in_kb": true,
    "in_dashboard": true,
-   "score": 5
+   "score": 5,
+   "weekly_pick": true,
+   "weekly_analysis": "vla-autonomous-driving/analysis/2610.30953-ReasoningAction-Coupling-Counterfactual.md"
   },
   {
    "title": "TerraTransfer++: Demonstration-Free End-to-End Planner",
@@ -183,12 +187,11 @@
    "title": "Post-hoc Epistemic Uncertainty for Vision-Language-Action Policies",
    "id": "2610.29730",
    "published": "2610.29730",
-   "authors": "Johannes Keller, Albrecht M. Bloße, Adrian Lindenmeyer, Thomas Neumuth, Daniel Schneider",
-   "summary": "Vision-language-action (VLA) policies need to recognize gaps in their training knowledge to request useful demonstrations or assistance in new situations, especially when failures are costly. Disagreement within an ensemble of independently trained policies can guide these decisions, but requires training and running multiple policies. We propose post-hoc kernel-variance heads that estimate epistemic uncertainty from the embeddings of a single policy. Each head computes the conditional variance of a Gaussian process conditioned on embeddings from the training demonstrations. Fitting requires no regression targets or gradient updates and leaves the policy unchanged. In experiments with SmolVLA on LIBERO-10, the kernel variance heads perform competitively with two-policy ensemble scores in task-level correlation with task success, in demonstration acquisition during active learning, and in",
+   "authors": "Johannes Keller, Albrecht M. Bloße, Adrian Lindenmeyer, Thomas Neumuth, Daniel Schneider et al.",
+   "summary": "提出 post-hoc kernel-variance heads：在单一训练好的 VLA 上，用高斯过程在策略 embedding 上计算条件方差来估计认知不确定性，拟合无需回归目标与梯度更新、不改动策略。SmolVLA + LIBERO-10 上，任务级相关性、主动学习演示获取、referral 到更强 supervisor 三项均与 two-policy ensemble 打平，VL backbone head 打分快约 50 倍且 setup 成本更低；并指出 LIBERO-10 既有评测主要奖励任务间覆盖差异、任务内排序受执行方差干扰，建议用受控扰动补充评测。",
    "categories": [
     "cs.RO",
-    "cs.LG",
-    "stat.ML"
+    "cs.LG"
    ],
    "topic": "vla-autonomous-driving",
    "date": "2026-10-21",
@@ -196,19 +199,22 @@
    "status_en": "新发现",
    "arxiv_id": "2610.29730",
    "url": "https://arxiv.org/abs/2610.29730",
-   "in_kb": false,
+   "in_kb": true,
    "in_dashboard": true,
-   "score": 5
+   "score": 5,
+   "weekly_pick": true,
+   "weekly_analysis": "vla-autonomous-driving/analysis/2026-10-21_Post-hoc-Epistemic-Uncertainty-for-Visio.md"
   },
   {
    "title": "DriveMLP: When Training Strategy Outperforms Model Complexity in Autonomous Driving",
    "id": "2610.29676",
    "published": "2610.29676",
    "authors": "Alessandro Canevaro, Julian Schmidt, Hang Yu, Ye Jin, Sajad Marvi, Georg Martius et al.",
-   "summary": "Learning motion planning policies that remain reliable under closed-loop execution is a central challenge in Autonomous Driving (AD). Imitation Learning (IL) scales well to large AD datasets but suffers from distribution shift, causal confusion, and compounding errors under closed-loop execution. In contrast, Reinforcement Learning (RL) typically requires handcrafted rule-based rewards and massive simulation. We study a simple closed-loop IL framework that uses RL purely as an optimization tool, guided by a trajectory-distance reward derived from logged expert data. We refer to this training strategy as Expert-Guided RL (EGRL). Through a controlled empirical study we find evidence that the training procedure, rather than model size and complexity, accounts for a substantial part of the performance gains. We then introduce DriveMLP, a lightweight MLP policy trained with EGRL, as a simple ",
+   "summary": "提出 Expert-Guided RL (EGRL)：把 RL 纯粹当优化工具，奖励直接取「与专家日志轨迹的距离」，无需手工规则奖励；受控实验表明性能提升主要来自训练策略而非模型规模。据此给出轻量 MLP 策略 DriveMLP，nuPlan Val14 Reactive 得分 86.51，比前 SOTA IL 规划器 Flow Planner 高 3.2 分，推理快 15 倍以上。代码已开源。",
    "categories": [
-    "cs.LG",
-    "cs.RO"
+    "cs.RO",
+    "cs.CV",
+    "cs.LG"
    ],
    "topic": "e2e-autonomous-driving",
    "date": "2026-10-21",
@@ -216,9 +222,11 @@
    "status_en": "新发现",
    "arxiv_id": "2610.29676",
    "url": "https://arxiv.org/abs/2610.29676",
-   "in_kb": false,
+   "in_kb": true,
    "in_dashboard": true,
-   "score": 5
+   "score": 5,
+   "weekly_pick": true,
+   "weekly_analysis": "e2e-autonomous-driving/analysis/2026-10-21_DriveMLP.md"
   },
   {
    "title": "FM-Occ: Feature-Diverse Upsampling and Memory-Aware Decoding for 3D Occupancy Prediction",
@@ -321,7 +329,7 @@
    "id": "2610.28631",
    "published": "2610.28631",
    "authors": "Weiqi Zhang, Wenyuan Zhang, Yu-Shen Liu, Junsheng Zhou",
-   "summary": "Current world models for explicit world simulation typically follow two distinct pathways: (1) video generative models (e.g., Sora), which simulate realistic appearances but fail to preserve 3D consistency; and (2) 3D generative models (e.g., Marble), which generate geometrically consistent scenes but often yield static, less realistic observations. We present AEON, a unified framework that bridges video-based and 3D-based world models and combines the benefits of both. The key insight of AEON lies in a generative model that operates within the text- or image-conditioned video latent space while producing renderable 4D graphics primitives---specifically, 4D Gaussian Splatting (4DGS)---as the explicit world representation. We train a 4D reconstruction model to predict both 4DGS and camera poses from monocular videos, serving as our initialized 4D decoder. Furthermore, we design a domain a",
+   "summary": "统一视频世界模型与 3D 世界模型：在 text/image 条件化的 video latent space 中生成，但输出可渲染的显式 4D 表示（4D Gaussian Splatting）。用单目视频训练 4D 重建模型预测 4DGS 与相机位姿作为 4D decoder 初始化，并通过在 video VAE 上蒸馏的 domain adapter 将生成性 video latent 译为重建性 4D latent。支持按预测相机轨迹渲染的 video world modeling 与持久 4D 动态环境，在标准 benchmark 上取得 SOTA。",
    "categories": [
     "cs.CV"
    ],
@@ -331,9 +339,11 @@
    "status_en": "新发现",
    "arxiv_id": "2610.28631",
    "url": "https://arxiv.org/abs/2610.28631",
-   "in_kb": false,
+   "in_kb": true,
    "in_dashboard": true,
-   "score": 5
+   "score": 5,
+   "weekly_pick": true,
+   "weekly_analysis": "world-models-ad/analysis/2026-10-20_AEON-video-3d-world-models.md"
   },
   {
    "title": "OverSeer: Multi-Agent World Models Beyond What Agents See",
@@ -2671,7 +2681,7 @@
    "score": 5,
    "arxiv_id": "2609.20756",
    "url": "https://arxiv.org/abs/2609.20756",
-   "weekly_pick": true,
+   "weekly_pick": false,
    "weekly_analysis": "e2e-autonomous-driving/analysis/2609.20756_OPTED-On-Policy-Fine-Tuning.md"
   },
   {
@@ -2831,7 +2841,7 @@
    "score": 5,
    "arxiv_id": "2609.20034",
    "url": "https://arxiv.org/abs/2609.20034",
-   "weekly_pick": true,
+   "weekly_pick": false,
    "weekly_analysis": "world-models-ad/analysis/2609.20034_Astronex-World-1.0.md"
   },
   {
@@ -3145,7 +3155,7 @@
    "score": 5,
    "arxiv_id": "2609.18623",
    "url": "https://arxiv.org/abs/2609.18623",
-   "weekly_pick": true,
+   "weekly_pick": false,
    "weekly_analysis": "vla-autonomous-driving/analysis/2609.18623_FIVE-VLA.md"
   },
   {
@@ -3241,7 +3251,7 @@
    "score": 5,
    "arxiv_id": "2609.18442",
    "url": "https://arxiv.org/abs/2609.18442",
-   "weekly_pick": true,
+   "weekly_pick": false,
    "weekly_analysis": "world-models-ad/analysis/2609.18442_RiskWorld.md"
   },
   {
@@ -3692,7 +3702,7 @@
    "score": 5,
    "arxiv_id": "2609.16074",
    "url": "https://arxiv.org/abs/2609.16074",
-   "weekly_pick": true,
+   "weekly_pick": false,
    "weekly_analysis": "vla-autonomous-driving/analysis/2609.16074_World-Action-Models-Survey.md"
   },
   {
@@ -6756,13 +6766,13 @@
   {
    "title": "Perceives but Doesn't Brake: A Perception-Action Binding Gap in Reasoning Driving VLAs",
    "id": "2610.28184",
-   "published": "2026-10-20",
-   "authors": "Matteo Cercola, Katie Z Luo, Simone Formentin, Marco Pavone",
-   "summary": "Reasoning-augmented vision-language-action (VLA) driving models can perceive and reason about safety-critical hazards yet fail to translate that evidence into safe actions. We characterize this failure as a perception-action binding gap: hazard information is available inside the model but exerts insufficient control over trajectory generation. Using matched simulated counterfactuals and logged driving replay, we show that in-path hazards are actually encoded in the visual representation, but longitudinal plans are dominated by ego-speed history and respond only weakly to hazard proximity or the model's own reasoning trace. Further analysis shows that the trajectory generator is capable of braking but sometimes fails to do so due to the perception-action binding gap. Without retraining or modifying any weights, we inject a hazard-conditioned energy into the frozen flow-matching sampler of Alpamayo-1.5, restoring the missing coupling at generation time. With exact obstacle geometry, guidance cuts footprint intrusion from 58.1% to 14.5% and recovers safe braking whenever sufficient stopping distance remains, eliminating collisions entirely in our braking-relevant closed-loop battery. It also reverses the diagnosed dependence of the plan, from tracking ego speed to responding to obstacle range. These results separate hazard perception from hazard control in driving VLAs, show that unsafe behavior can arise even when the model has both the evidence and the ability to act on it, and propose a simple fix for bridging this binding gap.",
+   "published": "2610.28184",
+   "authors": "Matteo Cercola, Katie Z Luo, Simone Formentin, Marco Pavone et al.",
+   "summary": "揭示推理增强驾驶 VLA 的「感知-动作绑定缺口」：危险物已被视觉表征编码、轨迹生成器也具备刹车能力，但危险信息对轨迹生成缺乏因果控制力；纵向规划由 ego 速度历史主导，对障碍距离与自身推理文本响应微弱。用反事实实验诊断，并在冻结 flow-matching 采样器中注入 hazard 条件能量做推理时修复：footprint intrusion 58.1%→14.5%，制动测试集碰撞消除，无需重训改权重。",
    "categories": [
-    "bev",
-    "e2e",
-    "vla"
+    "cs.RO",
+    "cs.CV",
+    "cs.LG"
    ],
    "topic": "e2e-autonomous-driving",
    "date": "2026-10-20",
@@ -6770,9 +6780,11 @@
    "status_en": "新发现",
    "arxiv_id": "2610.28184",
    "url": "https://arxiv.org/abs/2610.28184",
-   "in_kb": false,
+   "in_kb": true,
    "in_dashboard": true,
-   "score": 5
+   "score": 5,
+   "weekly_pick": true,
+   "weekly_analysis": "e2e-autonomous-driving/analysis/2026-10-20_Perceives-but-Doesnt-Brake.md"
   },
   {
    "title": "Where Do the Gaussians Go? Foreground Attraction for Camera-Based Weakly Supervised 3D Occupancy",
@@ -24273,8 +24285,8 @@
    "url": "https://arxiv.org/abs/2509.25822"
   }
  ],
- "updated_at": "2026-10-22T17:08:39.887643-07:00",
- "last_updated": "2026-10-22T17:08:39.887643-07:00",
+ "updated_at": "2026-10-24T19:01:47.400382-07:00",
+ "last_updated": "2026-10-24T19:01:47.400382-07:00",
  "category_counts": {
   "cs.RO": 574,
   "cs.CV": 448,
@@ -24334,19 +24346,19 @@
   "q-bio.NC": 1,
   "cs.HC": 1
  },
- "total_papers": 1536,
+ "total_papers": 1386,
  "weekly": {
-  "week": "2026-09-13 ~ 2026-09-19",
-  "report": "weekly/2026-09-19-weekly-summary.md",
+  "week": "2026-10-18 ~ 2026-10-24",
+  "report": "weekly/2026-10-24-weekly-summary.md",
   "picks": [
-   "2609.20034",
-   "2609.20756",
-   "2609.18623",
-   "2609.16074",
-   "2609.18442"
+   "2610.28184",
+   "2610.29676",
+   "2610.30953",
+   "2610.29730",
+   "2610.28631"
   ],
-  "generated_at": "2026-09-19T19:00:00-07:00",
-  "2026-09-24": 83
+  "generated_at": "2026-10-24T19:01:47.400382-07:00",
+  "total_papers": 1536
  },
  "new_findings": {
   "date": "2026-10-22",

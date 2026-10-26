@@ -1,217 +1,154 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-10-23 07:06 UTC",
+  "updated": "2026-10-26 07:14 UTC",
   "status": "success",
   "last_run": {
-    "date": "2026-10-23",
-    "timestamp": "2026-10-23T00:06:00.987423",
+    "date": "2026-10-26",
+    "timestamp": "2026-10-26T00:05:25.411268",
     "success": true,
-    "note": "采集管线已恢复，2026-10-23 00:06 全量采集成功 (6/6)"
+    "note": "采集管线最近一次运行 2026-10-26 (6/6 成功)"
   },
   "crypto": {
     "status": "success",
     "btc": {
-      "price": 81787.6,
-      "change_24h": -0.78,
-      "high_24h": 82481.7,
-      "low_24h": 80924.9
+      "price": 80191.9,
+      "change_24h": -0.53
     },
     "eth": {
-      "price": 2405.96,
-      "change_24h": -0.99,
-      "high_24h": 2433.93,
-      "low_24h": 2360.34
+      "price": 2322.87,
+      "change_24h": -1.07
     },
-    "indicators": {
-      "btc_1h": {
-        "rsi": 61.6,
-        "macd": -203.27,
-        "macd_signal": -317.93,
-        "macd_status": "金叉",
-        "ma5": 81800.62,
-        "ma20": 81581.95,
-        "bb_upper": 82066.16,
-        "bb_lower": 81097.74,
-        "trend": "偏多"
-      },
-      "btc_4h": {
-        "rsi": 39.3,
-        "macd": -92.46,
-        "macd_signal": 123.37,
-        "macd_status": "死叉",
-        "ma5": 81655.72,
-        "ma20": 82557.84,
-        "bb_upper": 84553.29,
-        "bb_lower": 80562.4,
-        "trend": "偏空"
-      },
-      "eth_1h": {
-        "rsi": 62.1,
-        "macd": -6.53,
-        "macd_signal": -10.78,
-        "macd_status": "金叉",
-        "ma5": 2404.97,
-        "ma20": 2396.77,
-        "bb_upper": 2420.0,
-        "bb_lower": 2373.53,
-        "trend": "偏多"
-      },
-      "eth_4h": {
-        "rsi": 40.5,
-        "macd": -3.91,
-        "macd_signal": 3.42,
-        "macd_status": "死叉",
-        "ma5": 2398.38,
-        "ma20": 2431.91,
-        "bb_upper": 2506.2,
-        "bb_lower": 2357.63,
-        "trend": "偏空"
-      }
-    },
-    "note": "OKX 交易所 API 已恢复，实时数据"
+    "note": "OKX 数据正常; BTC 80191.9 (-0.53%) / ETH 2322.87 (-1.07%)"
   },
-  "sentiment": {
-    "crypto_fear_greed": {
-      "value": 50,
-      "classification": "Neutral",
-      "source": "alternative.me",
-      "date": "2026-10-23"
-    }
-  },
+  "sentiment": {},
   "stocks": {
     "status": "success",
-    "note": "2026-10-23 A股收盘（新浪）",
+    "note": "2026-10-26 A股/期货收盘数据",
     "data": {
       "上证指数": {
-        "price": 3690.4753,
-        "change": 0.887
+        "price": 3697.5199,
+        "change": 0.191,
+        "volume": 432794318.0
       },
       "深证成指": {
-        "price": 11673.826,
-        "change": 2.787
+        "price": 11534.379,
+        "change": -1.195
       },
       "创业板指": {
-        "price": 2684.097,
-        "change": 4.16
+        "price": 2638.231,
+        "change": -1.709
       },
       "沪金主力": {
-        "price": 881.46,
-        "change": -0.6,
-        "date": "2026-10-22"
+        "price": 864.36,
+        "change": -1.94,
+        "date": "2026-10-23"
       },
       "沪银主力": {
-        "price": 13608.0,
-        "change": -1.92,
-        "date": "2026-10-22"
+        "price": 13108.0,
+        "change": -3.67,
+        "date": "2026-10-23"
       },
       "沪铜主力": {
-        "price": 107590.0,
-        "change": -1.09,
-        "date": "2026-10-22"
+        "price": 107900.0,
+        "change": 0.29,
+        "date": "2026-10-23"
       },
       "螺纹钢主力": {
-        "price": 3059.0,
-        "change": -0.71,
-        "date": "2026-10-22"
+        "price": 3047.0,
+        "change": -0.39,
+        "date": "2026-10-23"
       },
       "沪深300期货": {
-        "price": 3970.0,
-        "change": -1.92,
-        "date": "2026-10-22"
+        "price": 4055.0,
+        "change": 2.14,
+        "date": "2026-10-23"
       },
       "中证500期货": {
-        "price": 6543.0,
-        "change": -2.85,
-        "date": "2026-10-22"
-      },
-      "50ETF波动率": {
-        "value": 16.37,
-        "date": "2026-10-22"
+        "price": 6742.0,
+        "change": 3.04,
+        "date": "2026-10-23"
       }
     }
   },
   "signals": {
-    "status": "success",
-    "data": {
-      "DoubleMa": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 81800.0
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 81803.4
-        }
+    "DoubleMa": {
+      "1h": {
+        "signal": "观望",
+        "price": 80096.8
       },
-      "RSI": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 81800.0
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 81803.4
-        }
+      "4h": {
+        "signal": "观望",
+        "price": 80090.6
+      }
+    },
+    "RSI": {
+      "1h": {
+        "signal": "观望",
+        "price": 80096.8
       },
-      "MACD": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 81800.0
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 81803.4
-        }
+      "4h": {
+        "signal": "做多",
+        "price": 80090.6
+      }
+    },
+    "MACD": {
+      "1h": {
+        "signal": "观望",
+        "price": 80096.8
       },
-      "Bollinger": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 81800.0
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 81803.4
-        }
+      "4h": {
+        "signal": "观望",
+        "price": 80090.6
+      }
+    },
+    "Bollinger": {
+      "1h": {
+        "signal": "观望",
+        "price": 80096.8
       },
-      "Supertrend": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 81800.0
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 81803.4
-        }
+      "4h": {
+        "signal": "做多",
+        "price": 80090.6
+      }
+    },
+    "Supertrend": {
+      "1h": {
+        "signal": "观望",
+        "price": 80096.8
       },
-      "TripleMa": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 81800.0
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 81803.4
-        }
+      "4h": {
+        "signal": "观望",
+        "price": 80090.6
+      }
+    },
+    "TripleMa": {
+      "1h": {
+        "signal": "观望",
+        "price": 80096.8
       },
-      "Momentum": {
-        "1h": {
-          "signal": "做多",
-          "current_price": 81800.0
-        },
-        "4h": {
-          "signal": "做空",
-          "current_price": 81803.4
-        }
+      "4h": {
+        "signal": "观望",
+        "price": 80090.6
+      }
+    },
+    "Momentum": {
+      "1h": {
+        "signal": "观望",
+        "price": 80096.8
       },
-      "MeanReversion": {
-        "1h": {
-          "signal": "观望",
-          "current_price": 81800.0
-        },
-        "4h": {
-          "signal": "观望",
-          "current_price": 81803.4
-        }
+      "4h": {
+        "signal": "观望",
+        "price": 80090.6
+      }
+    },
+    "MeanReversion": {
+      "1h": {
+        "signal": "观望",
+        "price": 80096.8
+      },
+      "4h": {
+        "signal": "做多",
+        "price": 80090.6
       }
     }
   },
@@ -220,420 +157,120 @@
       "name": "DoubleMa",
       "signal_1h": "观望",
       "signal_4h": "观望",
-      "daily_return": -0.78,
+      "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
-      "sharpe": null,
-      "data_as_of": "2026-10-23",
-      "stale": false,
-      "price": 81787.6
+      "sharpe": null
     },
     {
       "name": "TripleMa",
       "signal_1h": "观望",
       "signal_4h": "观望",
-      "daily_return": -0.78,
+      "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
-      "sharpe": null,
-      "data_as_of": "2026-10-23",
-      "stale": false,
-      "price": 81787.6
+      "sharpe": null
     },
     {
       "name": "Supertrend",
       "signal_1h": "观望",
       "signal_4h": "观望",
-      "daily_return": -0.78,
+      "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
-      "sharpe": null,
-      "data_as_of": "2026-10-23",
-      "stale": false,
-      "price": 81787.6
+      "sharpe": null
     },
     {
       "name": "RSI",
       "signal_1h": "观望",
-      "signal_4h": "观望",
-      "daily_return": -0.78,
+      "signal_4h": "做多",
+      "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
-      "sharpe": null,
-      "data_as_of": "2026-10-23",
-      "stale": false,
-      "price": 81787.6
+      "sharpe": null
     },
     {
       "name": "MACD",
       "signal_1h": "观望",
       "signal_4h": "观望",
-      "daily_return": -0.78,
+      "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
-      "sharpe": null,
-      "data_as_of": "2026-10-23",
-      "stale": false,
-      "price": 81787.6
+      "sharpe": null
     },
     {
       "name": "Bollinger",
       "signal_1h": "观望",
-      "signal_4h": "观望",
-      "daily_return": -0.78,
+      "signal_4h": "做多",
+      "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
-      "sharpe": null,
-      "data_as_of": "2026-10-23",
-      "stale": false,
-      "price": 81787.6
+      "sharpe": null
     },
     {
       "name": "Momentum",
-      "signal_1h": "做多",
-      "signal_4h": "做空",
-      "daily_return": -0.78,
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
-      "sharpe": null,
-      "data_as_of": "2026-10-23",
-      "stale": false,
-      "price": 81787.6
+      "sharpe": null
     },
     {
       "name": "MeanReversion",
       "signal_1h": "观望",
-      "signal_4h": "观望",
-      "daily_return": -0.78,
+      "signal_4h": "做多",
+      "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
-      "sharpe": null,
-      "data_as_of": "2026-10-23",
-      "stale": false,
-      "price": 81787.6
+      "sharpe": null
     }
   ],
   "news": {
     "status": "success",
-    "data": [
+    "note": "RSS 采集 5 条",
+    "items": [
       {
         "source": "Cointelegraph",
         "title": "Here’s what happened in crypto today",
-        "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Fri, 23 Oct 2026 05:15:14 +0000"
+        "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Ethereum delays Glamsterdam Hoodi testnet launch over security risks",
-        "link": "https://cointelegraph.com/news/ethereum-delays-glamsterdam-testnet-fork-gas-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Fri, 23 Oct 2026 05:09:41 +0000"
+        "title": "Musk warns over 200 AI neoclouds face ‘guppy-level death’",
+        "link": "https://cointelegraph.com/news/musk-warns-over-200-ai-neoclouds-face-guppy-level-death?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Bitcoin Core changes security policy as AI makes bugs easier to find",
-        "link": "https://cointelegraph.com/news/bitcoin-core-changes-security-policy-as-ai-makes-bugs-easier-to-find?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Fri, 23 Oct 2026 04:34:14 +0000"
+        "title": "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise",
+        "link": "https://cointelegraph.com/news/hong-kong-names-nasdaq-listed-solana-company-a-strategic-enterprise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Switzerland’s first retail spot Bitcoin ETF targets November launch",
-        "link": "https://cointelegraph.com/news/switzerland-approves-first-spot-bitcoin-etf-for-retail-investors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Fri, 23 Oct 2026 00:59:35 +0000"
+        "title": "Keystone says website breach exposed hardware wallet buyers’ addresses",
+        "link": "https://cointelegraph.com/news/keystone-says-website-breach-exposed-hardware-wallet-buyers-addresses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Pentagon bans US forces from using military info to bet in prediction markets",
-        "link": "https://cointelegraph.com/news/pentagon-bans-us-forces-from-using-military-info-to-bet-in-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Thu, 22 Oct 2026 23:50:42 +0000"
+        "title": "Standard Chartered-led Anchorpoint says it’s not rushing retail stablecoin",
+        "link": "https://cointelegraph.com/news/standard-chartered-led-anchorpoint-says-its-not-rushing-retail-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   },
   "papers": {
-    "status": "success",
-    "data": [
-      {
-        "title": "Teacher Supervision, Fixed Representations and Calibration: Exact Risk Calculations for Candidate-Scoring Decision Models",
-        "authors": [
-          "Agus Sudjianto",
-          "Denis Burakov"
-        ],
-        "summary": "Candidate-scoring decision models return a probability distribution over a presented set of answers. Public documentation of one such system, Jev, and of an open counterpart, JevAny, describes three training ingredients that determine what these probabilities estimate: soft targets from larger model",
-        "link": "http://arxiv.org/abs/2610.26797v1",
-        "published": "2026-10-19"
-      },
-      {
-        "title": "Cooperative Multi-Agent Reinforcement Learning for Market Making on Prediction-Market Order Books",
-        "authors": [
-          "Skander Lejmi"
-        ],
-        "summary": "A market maker provides liquidity by quoting prices to buy and sell an asset, earning the spread while managing inventory risk. We study market makers trained with multi-agent reinforcement learning on prediction markets, specifically Polymarket, whose thin order books pose distinct challenges. Thre",
-        "link": "http://arxiv.org/abs/2610.26789v1",
-        "published": "2026-10-19"
-      },
-      {
-        "title": "Probability-Weighting Functions for Normal Tempered-Stable Laws: Orthogonal Channels and Information-Theoretic Indices",
-        "authors": [
-          "Akash Deep",
-          "Bhathiya Divelgama",
-          "A. Alexandre Trindade"
-        ],
-        "summary": "A probability-weighting function (PWF) maps objective probabilities into decision weights. We construct PWFs from changes in the distribution of returns rather than from a parametric family: with prior and posterior return distributions $F_{prior}$ and $F_{post}$, the PWF is $w(p) = F_{post}(F_{prio",
-        "link": "http://arxiv.org/abs/2610.26746v1",
-        "published": "2026-10-19"
-      },
-      {
-        "title": "Regime-Aware Interpretable Ranking for Sector Rotation",
-        "authors": [
-          "Kelvin J. L. Koa",
-          "Ziling Liu",
-          "Xinyang Li"
-        ],
-        "summary": "Sector rotation is a common decision in benchmark-relative portfolio management, where portfolio managers rank sectors for overweight and underweight positions. We formulate this task as ranking sector actions by expected future risk-adjusted active performance, measured with forward sector-benchmar",
-        "link": "http://arxiv.org/abs/2610.26456v1",
-        "published": "2026-10-19"
-      },
-      {
-        "title": "SHADE: Shrinkage via Halted Alpha-stable Denoising for Heavy-Tailed Probabilistic Time Series Forecasting",
-        "authors": [
-          "Jiahao Weng",
-          "Jiyu Liu"
-        ],
-        "summary": "Time-series observations are particularly susceptible to noise, and many real-world series have low signal-to-noise ratios (SNRs) together with heavy-tailed and time-varying disturbances. When Gaussian diffusion models are used for forecasting, reversing all the way to the zero-noise endpoint may yi",
-        "link": "http://arxiv.org/abs/2610.26358v1",
-        "published": "2026-10-19"
-      },
-      {
-        "title": "The Control Layer Behind Rule-Following Agents Trading Across Market Conditions",
-        "authors": [
-          "Saad Naja",
-          "Nasser Odtallah",
-          "Jake Van-Praag"
-        ],
-        "summary": "Trading discipline often fails people. Our study tested whether four AI trading agents followed their strategies and risk rules. Offering traders the evidence and an agent evaluation toolkit to separate luck from following the rules, before giving agents meaningful autonomy or capital. Our study ana",
-        "link": "http://arxiv.org/abs/2610.26324v1",
-        "published": "2026-10-19"
-      },
-      {
-        "title": "AuDQ: Auditable Data Quality through Agentic Rule Discovery",
-        "authors": [
-          "Jacopo Biggiogera",
-          "Nicolas Colombo",
-          "Krati Saxena"
-        ],
-        "summary": "High-stakes tabular pipelines rely on scattered, static quality checks that are hard to evolve and audit against policy intent. Regulated domains particularly suffer as the LLM-era automation raises expectations for traceability and accountability. We propose a vision for an ontology-grounded, repos",
-        "link": "http://arxiv.org/abs/2610.26031v1",
-        "published": "2026-10-19"
-      },
-      {
-        "title": "Conflicting History in Foundation Model Return Forecasts",
-        "authors": [
-          "Levent Bulut"
-        ],
-        "summary": "Older observations can help a forecaster learn a predictive relationship while becoming misleading when that relationship changes. We study this tension using paired return histories that differ in older observations but share recent returns and the conditional distribution of the next return. Acros",
-        "link": "http://arxiv.org/abs/2610.25822v1",
-        "published": "2026-10-19"
-      },
-      {
-        "title": "Amortized Neural Filtering for Calibrated Posteriors in Statistical Arbitrage",
-        "authors": [
-          "Minkey Chang"
-        ],
-        "summary": "Statistical arbitrage trades on an estimate of the state of a residual spread, and conventional practice discards the uncertainty of that estimate. We keep the uncertainty and use it in the trading decision. A Neural Filter Estimator (NFE) is trained on simulated paths of a mean-reverting process wh",
-        "link": "http://arxiv.org/abs/2610.25802v1",
-        "published": "2026-10-19"
-      },
-      {
-        "title": "Topological Compression of Prediction Market Belief States for Event Forecasting",
-        "authors": [
-          "Aadit Jerfy"
-        ],
-        "summary": "Topological Data Analysis (TDA) and Persistent Homology (PH) have been utilized in numerous fields$-$from protein modeling to financial analysis$-$to understand the underlying structure of data. In this paper, we incorporate TDA and PH into forecasting models over a prediction market universe to det",
-        "link": "http://arxiv.org/abs/2610.25756v1",
-        "published": "2026-10-19"
-      }
-    ]
+    "status": "error",
+    "note": "arXiv 采集 0 篇",
+    "items": []
   },
-  "updated_at": "2026-10-23T07:06:40Z",
+  "updated_at": "2026-10-26 07:14 UTC",
   "alerts": [
     {
       "severity": "INFO",
-      "msg": "采集管线已恢复，今日数据完整采集（昨日起滞后问题解决）"
+      "msg": "采集管线 6/6 成功；QVIX 502、恐慌贪婪指数与 arXiv 因代理超时采集失败"
     },
     {
       "severity": "INFO",
-      "msg": "Momentum 策略出现分歧：1h 做多 / 4h 做空；其余7个策略均为观望"
+      "msg": "RSI / Bollinger / MeanReversion 4h 转做多，其余策略观望；BTC $80,191.90 (-0.53%)"
     }
-  ],
-  "crypto_note": "BTC 81788 (-0.78%)，ETH 2406 (-0.99%)；恐贪指数 50 (Neutral)",
-  "weekly": {
-    "week_of": "2026-10-19",
-    "week_end": "2026-10-23",
-    "generated_at": "2026-10-23 09:01 UTC",
-    "pipeline": {
-      "status": "success",
-      "last_run": "2026-10-23T00:06:00.987423",
-      "note": "采集管线最近一次运行 2026-10-23 (2026-10-23T00:06:00)，6/6 成功"
-    },
-    "market": {
-      "crypto": {
-        "btc": {
-          "price": 81787.6,
-          "change_24h": -0.78
-        },
-        "eth": {
-          "price": 2405.96,
-          "change_24h": -0.99
-        },
-        "note": "OKX 数据正常；BTC 1H 偏多 (MACD 金叉) / 4H 偏空 (MACD 死叉)"
-      },
-      "sentiment": {
-        "fear_greed": 50,
-        "classification": "Neutral"
-      },
-      "stocks": {
-        "上证指数": {
-          "close": 3690.48,
-          "change_pct": 0.89
-        },
-        "深证成指": {
-          "close": 11673.83,
-          "change_pct": 2.79
-        },
-        "创业板指": {
-          "close": 2684.1,
-          "change_pct": 4.16
-        }
-      }
-    },
-    "week_returns": [
-      {
-        "name": "上证指数",
-        "start": 3716.28,
-        "end": 3690.48,
-        "change_pct": -0.69
-      },
-      {
-        "name": "深证成指",
-        "start": 11802.46,
-        "end": 11673.83,
-        "change_pct": -1.09
-      },
-      {
-        "name": "创业板指",
-        "start": 2772.38,
-        "end": 2684.1,
-        "change_pct": -3.18
-      },
-      {
-        "name": "沪深300",
-        "start": 4170.61,
-        "end": 4105.33,
-        "change_pct": -1.57
-      },
-      {
-        "name": "上证50",
-        "start": 2768.34,
-        "end": 2757.68,
-        "change_pct": -0.39
-      },
-      {
-        "name": "中证500",
-        "start": 6772.75,
-        "end": 6814.44,
-        "change_pct": 0.62
-      },
-      {
-        "name": "科创50",
-        "start": 1358.65,
-        "end": 1345.51,
-        "change_pct": -0.97
-      },
-      {
-        "name": "中证1000",
-        "start": 6681.94,
-        "end": 6734.55,
-        "change_pct": 0.79
-      },
-      {
-        "name": "BTC/USDT",
-        "start": 82249.9,
-        "end": 81787.6,
-        "change_pct": -0.56
-      },
-      {
-        "name": "ETH/USDT",
-        "start": 2454.02,
-        "end": 2405.96,
-        "change_pct": -1.96
-      },
-      {
-        "name": "沪金主力",
-        "start": 893.6,
-        "end": 881.46,
-        "change_pct": -1.36
-      },
-      {
-        "name": "沪银主力",
-        "start": 13660.0,
-        "end": 13608.0,
-        "change_pct": -0.38
-      },
-      {
-        "name": "沪铜主力",
-        "start": null,
-        "end": 107590.0,
-        "change_pct": null
-      },
-      {
-        "name": "螺纹钢主力",
-        "start": null,
-        "end": 3059.0,
-        "change_pct": null
-      },
-      {
-        "name": "沪深300期货",
-        "start": 4092.6,
-        "end": 3970.0,
-        "change_pct": -3.0
-      },
-      {
-        "name": "中证500期货",
-        "start": 6638.2,
-        "end": 6543.0,
-        "change_pct": -1.43
-      }
-    ],
-    "equity_curve": [
-      {
-        "date": "2026-10-16",
-        "value": 100.0
-      },
-      {
-        "date": "2026-10-19",
-        "value": 99.8
-      },
-      {
-        "date": "2026-10-20",
-        "value": 99.98
-      },
-      {
-        "date": "2026-10-22",
-        "value": 96.96
-      },
-      {
-        "date": "2026-10-23",
-        "value": 99.19
-      }
-    ],
-    "highlights": [
-      "本周 A股指数分化：创业板指 -3.18%、深证成指 -1.09%，上证指数 -0.69%；大盘蓝筹相对抗跌（上证50 -0.39%，沪深300 -1.57%）",
-      "中小盘周内深V反转：中证500 +0.62%、中证1000 +0.79% 由周中重挫转为周度收正",
-      "港股恒生指数 23,188.18 (+1.10%)，与 A股 同步反弹",
-      "周五全场普涨：涨 4525 家 / 跌 909 家，涨停 150 家，两市成交 19,563 亿元，风险偏好明显修复",
-      "加密弱势整理：BTC -0.56% 收 $81,788，ETH -1.96% 至 $2,406；恐惧贪婪指数 50 (Neutral)，情绪由中性偏弱",
-      "策略信号：8 个策略中 7 个 1H/4H 全部观望，分歧/方向性信号仅 Momentum(1H 做多/4H 做空)；周内 A股 大跌后快速反弹，趋势类策略处于等待确认阶段",
-      "采集管线本周每日正常运行（行情/加密/情绪/新闻成功；arXiv 论文源异常已隔离，不影响行情数据）"
-    ],
-    "note": "HelloQuant 仓库为量化学习框架，未维护策略级实盘盈亏/Sharpe/回撤数据；本报告以策略信号与市场周度表现为核心，equity_curve 为等权 8 大指数基准组合。"
-  }
+  ]
 }

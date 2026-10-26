@@ -1,0 +1,266 @@
+{
+  "source": "~/trading/helloquant",
+  "updated": "2026-10-26 07:14 UTC",
+  "status": "success",
+  "last_run": {
+    "date": "2026-10-26",
+    "timestamp": "2026-10-26T00:05:25.411268",
+    "success": true,
+    "note": "采集管线最近一次运行 2026-10-26 (6/6 成功)"
+  },
+  "crypto": {
+    "status": "success",
+    "btc": {
+      "price": 80191.9,
+      "change_24h": -0.53
+    },
+    "eth": {
+      "price": 2322.87,
+      "change_24h": -1.07
+    },
+    "note": "OKX 数据正常; BTC 80191.9 (-0.53%) / ETH 2322.87 (-1.07%)"
+  },
+  "sentiment": {},
+  "stocks": {
+    "status": "success",
+    "note": "2026-10-26 A股/期货收盘数据",
+    "data": {
+      "上证指数": {
+        "price": 3697.5199,
+        "change": 0.191,
+        "volume": 432794318.0
+      },
+      "深证成指": {
+        "price": 11534.379,
+        "change": -1.195
+      },
+      "创业板指": {
+        "price": 2638.231,
+        "change": -1.709
+      },
+      "沪金主力": {
+        "price": 864.36,
+        "change": -1.94,
+        "date": "2026-10-23"
+      },
+      "沪银主力": {
+        "price": 13108.0,
+        "change": -3.67,
+        "date": "2026-10-23"
+      },
+      "沪铜主力": {
+        "price": 107900.0,
+        "change": 0.29,
+        "date": "2026-10-23"
+      },
+      "螺纹钢主力": {
+        "price": 3047.0,
+        "change": -0.39,
+        "date": "2026-10-23"
+      },
+      "沪深300期货": {
+        "price": 4055.0,
+        "change": 2.14,
+        "date": "2026-10-23"
+      },
+      "中证500期货": {
+        "price": 6742.0,
+        "change": 3.04,
+        "date": "2026-10-23"
+      }
+    }
+  },
+  "signals": {
+    "DoubleMa": {
+      "1h": {
+        "signal": "观望",
+        "price": 80096.8
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 80090.6
+      }
+    },
+    "RSI": {
+      "1h": {
+        "signal": "观望",
+        "price": 80096.8
+      },
+      "4h": {
+        "signal": "做多",
+        "price": 80090.6
+      }
+    },
+    "MACD": {
+      "1h": {
+        "signal": "观望",
+        "price": 80096.8
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 80090.6
+      }
+    },
+    "Bollinger": {
+      "1h": {
+        "signal": "观望",
+        "price": 80096.8
+      },
+      "4h": {
+        "signal": "做多",
+        "price": 80090.6
+      }
+    },
+    "Supertrend": {
+      "1h": {
+        "signal": "观望",
+        "price": 80096.8
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 80090.6
+      }
+    },
+    "TripleMa": {
+      "1h": {
+        "signal": "观望",
+        "price": 80096.8
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 80090.6
+      }
+    },
+    "Momentum": {
+      "1h": {
+        "signal": "观望",
+        "price": 80096.8
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 80090.6
+      }
+    },
+    "MeanReversion": {
+      "1h": {
+        "signal": "观望",
+        "price": 80096.8
+      },
+      "4h": {
+        "signal": "做多",
+        "price": 80090.6
+      }
+    }
+  },
+  "strategies": [
+    {
+      "name": "DoubleMa",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "TripleMa",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Supertrend",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "RSI",
+      "signal_1h": "观望",
+      "signal_4h": "做多",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "MACD",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Bollinger",
+      "signal_1h": "观望",
+      "signal_4h": "做多",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Momentum",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "MeanReversion",
+      "signal_1h": "观望",
+      "signal_4h": "做多",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    }
+  ],
+  "news": {
+    "status": "success",
+    "note": "RSS 采集 5 条",
+    "items": [
+      {
+        "source": "Cointelegraph",
+        "title": "Here’s what happened in crypto today",
+        "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Musk warns over 200 AI neoclouds face ‘guppy-level death’",
+        "link": "https://cointelegraph.com/news/musk-warns-over-200-ai-neoclouds-face-guppy-level-death?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise",
+        "link": "https://cointelegraph.com/news/hong-kong-names-nasdaq-listed-solana-company-a-strategic-enterprise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Keystone says website breach exposed hardware wallet buyers’ addresses",
+        "link": "https://cointelegraph.com/news/keystone-says-website-breach-exposed-hardware-wallet-buyers-addresses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Standard Chartered-led Anchorpoint says it’s not rushing retail stablecoin",
+        "link": "https://cointelegraph.com/news/standard-chartered-led-anchorpoint-says-its-not-rushing-retail-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      }
+    ]
+  },
+  "papers": {
+    "status": "error",
+    "note": "arXiv 采集 0 篇",
+    "items": []
+  },
+  "updated_at": "2026-10-26 07:14 UTC"
+}

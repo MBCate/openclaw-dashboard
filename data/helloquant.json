@@ -1,72 +1,81 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-10-26 07:14 UTC",
+  "updated": "2026-10-27 07:06 UTC",
   "status": "success",
   "last_run": {
-    "date": "2026-10-26",
-    "timestamp": "2026-10-26T00:05:25.411268",
+    "date": "2026-10-27",
+    "timestamp": "2026-10-27T00:05:09.564618",
     "success": true,
-    "note": "采集管线最近一次运行 2026-10-26 (6/6 成功)"
+    "note": "采集管线最近一次运行 2026-10-27 (6/6 成功)"
   },
   "crypto": {
     "status": "success",
     "btc": {
-      "price": 80191.9,
-      "change_24h": -0.53
+      "price": 79657.3,
+      "change_24h": -0.64
     },
     "eth": {
-      "price": 2322.87,
-      "change_24h": -1.07
+      "price": 2304.36,
+      "change_24h": -0.75
     },
-    "note": "OKX 数据正常; BTC 80191.9 (-0.53%) / ETH 2322.87 (-1.07%)"
+    "note": "OKX 数据正常; BTC 79657.3 (-0.64%) / ETH 2304.36 (-0.75%)"
   },
-  "sentiment": {},
+  "sentiment": {
+    "crypto_fear_greed": {
+      "value": 48,
+      "classification": "Neutral"
+    }
+  },
   "stocks": {
     "status": "success",
-    "note": "2026-10-26 A股/期货收盘数据",
+    "note": "2026-10-27 A股/期货收盘数据",
     "data": {
       "上证指数": {
-        "price": 3697.5199,
-        "change": 0.191,
-        "volume": 432794318.0
+        "price": 3648.301,
+        "change": -1.331,
+        "volume": 417789532.0
       },
       "深证成指": {
-        "price": 11534.379,
-        "change": -1.195
+        "price": 11245.731,
+        "change": -2.503
       },
       "创业板指": {
-        "price": 2638.231,
-        "change": -1.709
+        "price": 2548.149,
+        "change": -3.414
       },
       "沪金主力": {
-        "price": 864.36,
-        "change": -1.94,
-        "date": "2026-10-23"
+        "price": 862.58,
+        "change": -0.21,
+        "date": "2026-10-26"
       },
       "沪银主力": {
-        "price": 13108.0,
-        "change": -3.67,
-        "date": "2026-10-23"
+        "price": 13040.0,
+        "change": -0.52,
+        "date": "2026-10-26"
       },
       "沪铜主力": {
-        "price": 107900.0,
-        "change": 0.29,
-        "date": "2026-10-23"
+        "price": 108110.0,
+        "change": 0.19,
+        "date": "2026-10-26"
       },
       "螺纹钢主力": {
-        "price": 3047.0,
-        "change": -0.39,
-        "date": "2026-10-23"
+        "price": 3037.0,
+        "change": -0.33,
+        "date": "2026-10-26"
       },
       "沪深300期货": {
-        "price": 4055.0,
-        "change": 2.14,
-        "date": "2026-10-23"
+        "price": 4049.0,
+        "change": -0.15,
+        "date": "2026-10-26"
       },
       "中证500期货": {
-        "price": 6742.0,
-        "change": 3.04,
-        "date": "2026-10-23"
+        "price": 6637.0,
+        "change": -1.56,
+        "date": "2026-10-26"
+      },
+      "50ETF波动率": {
+        "value": 16.31,
+        "date": "2026-10-26"
       }
     }
   },
@@ -74,81 +83,81 @@
     "DoubleMa": {
       "1h": {
         "signal": "观望",
-        "price": 80096.8
+        "price": 79632.7
       },
       "4h": {
         "signal": "观望",
-        "price": 80090.6
+        "price": 79632.7
       }
     },
     "RSI": {
       "1h": {
         "signal": "观望",
-        "price": 80096.8
+        "price": 79632.7
       },
       "4h": {
-        "signal": "做多",
-        "price": 80090.6
+        "signal": "观望",
+        "price": 79632.7
       }
     },
     "MACD": {
       "1h": {
         "signal": "观望",
-        "price": 80096.8
+        "price": 79632.7
       },
       "4h": {
-        "signal": "观望",
-        "price": 80090.6
+        "signal": "做空",
+        "price": 79632.7
       }
     },
     "Bollinger": {
       "1h": {
         "signal": "观望",
-        "price": 80096.8
+        "price": 79632.7
       },
       "4h": {
-        "signal": "做多",
-        "price": 80090.6
+        "signal": "观望",
+        "price": 79632.7
       }
     },
     "Supertrend": {
       "1h": {
         "signal": "观望",
-        "price": 80096.8
+        "price": 79632.7
       },
       "4h": {
         "signal": "观望",
-        "price": 80090.6
+        "price": 79632.7
       }
     },
     "TripleMa": {
       "1h": {
         "signal": "观望",
-        "price": 80096.8
+        "price": 79632.7
       },
       "4h": {
         "signal": "观望",
-        "price": 80090.6
+        "price": 79632.7
       }
     },
     "Momentum": {
       "1h": {
-        "signal": "观望",
-        "price": 80096.8
+        "signal": "做空",
+        "price": 79632.7
       },
       "4h": {
-        "signal": "观望",
-        "price": 80090.6
+        "signal": "做空",
+        "price": 79632.7
       }
     },
     "MeanReversion": {
       "1h": {
         "signal": "观望",
-        "price": 80096.8
+        "price": 79632.7
       },
       "4h": {
-        "signal": "做多",
-        "price": 80090.6
+        "signal": "观望",
+        "price": 79632.7
       }
     }
   },
@@ -183,7 +192,7 @@
     {
       "name": "RSI",
       "signal_1h": "观望",
-      "signal_4h": "做多",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -192,7 +201,7 @@
     {
       "name": "MACD",
       "signal_1h": "观望",
-      "signal_4h": "观望",
+      "signal_4h": "做空",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -201,7 +210,7 @@
     {
       "name": "Bollinger",
       "signal_1h": "观望",
-      "signal_4h": "做多",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -209,8 +218,8 @@
     },
     {
       "name": "Momentum",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
+      "signal_1h": "做空",
+      "signal_4h": "做空",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -219,7 +228,7 @@
     {
       "name": "MeanReversion",
       "signal_1h": "观望",
-      "signal_4h": "做多",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -237,23 +246,23 @@
       },
       {
         "source": "Cointelegraph",
-        "title": "Musk warns over 200 AI neoclouds face ‘guppy-level death’",
-        "link": "https://cointelegraph.com/news/musk-warns-over-200-ai-neoclouds-face-guppy-level-death?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "RedotPay weighs confidential US IPO filing by year-end: Bloomberg",
+        "link": "https://cointelegraph.com/news/redotpay-weighs-confidential-us-ipo-filing-by-year-end-bloomberg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise",
-        "link": "https://cointelegraph.com/news/hong-kong-names-nasdaq-listed-solana-company-a-strategic-enterprise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Keystone breach deepens: Hackers stole key used to verify wallets as genuine",
+        "link": "https://cointelegraph.com/news/keystone-breach-deepens-hackers-stole-key-used-to-verify-wallets-as-genuine?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Keystone says website breach exposed hardware wallet buyers’ addresses",
-        "link": "https://cointelegraph.com/news/keystone-says-website-breach-exposed-hardware-wallet-buyers-addresses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Ripple wins final US approval for national trust bank",
+        "link": "https://cointelegraph.com/news/ripple-wins-final-us-approval-for-national-trust-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Standard Chartered-led Anchorpoint says it’s not rushing retail stablecoin",
-        "link": "https://cointelegraph.com/news/standard-chartered-led-anchorpoint-says-its-not-rushing-retail-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "US OCC calls on community banks to become payment stablecoin issuers",
+        "link": "https://cointelegraph.com/news/occ-community-banks-stablecoin-issuers-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   },
@@ -262,15 +271,5 @@
     "note": "arXiv 采集 0 篇",
     "items": []
   },
-  "updated_at": "2026-10-26 07:14 UTC",
-  "alerts": [
-    {
-      "severity": "INFO",
-      "msg": "采集管线 6/6 成功；QVIX 502、恐慌贪婪指数与 arXiv 因代理超时采集失败"
-    },
-    {
-      "severity": "INFO",
-      "msg": "RSI / Bollinger / MeanReversion 4h 转做多，其余策略观望；BTC $80,191.90 (-0.53%)"
-    }
-  ]
+  "updated_at": "2026-10-27 07:06 UTC"
 }

@@ -1,128 +1,156 @@
 {
+  "date": "2026-10-27",
+  "time": "close",
+  "fetched_at": "2026-10-27T07:06:31Z",
   "indices": {
     "上证指数": {
       "code": "000001",
-      "price": 3692.58,
-      "change": -4.94,
-      "change_pct": -0.13
+      "price": 3648.3,
+      "change": -49.22,
+      "change_pct": -1.33
     },
     "深证成指": {
       "code": "399001",
-      "price": 11496.44,
-      "change": -37.94,
-      "change_pct": -0.33
+      "price": 11245.73,
+      "change": -288.65,
+      "change_pct": -2.5
     },
     "创业板指": {
       "code": "399006",
-      "price": 2626.31,
-      "change": -11.92,
-      "change_pct": -0.45
+      "price": 2548.15,
+      "change": -90.08,
+      "change_pct": -3.41
     },
     "沪深300": {
       "code": "000300",
-      "price": 4098.17,
-      "change": -5.37,
-      "change_pct": -0.13
+      "price": 4049.55,
+      "change": -53.99,
+      "change_pct": -1.32
     },
     "上证50": {
       "code": "000016",
-      "price": 2759.86,
-      "change": -9.2,
-      "change_pct": -0.33
+      "price": 2746.79,
+      "change": -22.26,
+      "change_pct": -0.8
     },
     "中证500": {
       "code": "000905",
-      "price": 6655.63,
-      "change": -57.09,
-      "change_pct": -0.85
+      "price": 6511.42,
+      "change": -201.31,
+      "change_pct": -3.0
     },
     "科创50": {
       "code": "000688",
-      "price": 1295.83,
-      "change": -19.67,
-      "change_pct": -1.5
+      "price": 1252.28,
+      "change": -63.22,
+      "change_pct": -4.81
     },
     "中证1000": {
       "code": "000852",
-      "price": 6587.87,
-      "change": -42.9,
-      "change_pct": -0.65
+      "price": 6427.17,
+      "change": -203.6,
+      "change_pct": -3.07
     }
   },
   "hang_seng": {
     "name": "恒生指数",
-    "price": 23134.89,
-    "change": -76.92,
-    "change_pct": -0.33,
-    "time": ""
+    "price": 23031.12,
+    "change": -180.69,
+    "change_pct": -0.78,
+    "time": "15:06:31"
   },
-  "total_turnover_yi": 8699.9,
-  "total_volume_shares": 0.0,
   "sectors": {
     "top5": [
       {
-        "name": "木材加工和木、竹、藤、棕、草制品业",
-        "change_pct": 2.45,
-        "turnover": 7.21
+        "name": "公路桥梁",
+        "change_pct": 0.12,
+        "turnover": 15.48
       },
       {
-        "name": "渔业",
-        "change_pct": 1.89,
-        "turnover": 16.8
+        "name": "商业百货",
+        "change_pct": -0.2,
+        "turnover": 172.32
       },
       {
-        "name": "文化艺术业",
-        "change_pct": 1.71,
-        "turnover": 16.25
+        "name": "酿酒行业",
+        "change_pct": -0.31,
+        "turnover": 136.34
       },
       {
-        "name": "道路运输业",
-        "change_pct": 1.5,
-        "turnover": 14.46
+        "name": "纺织机械",
+        "change_pct": -0.35,
+        "turnover": 15.53
       },
       {
-        "name": "水上运输业",
-        "change_pct": 1.41,
-        "turnover": 47.93
+        "name": "金融行业",
+        "change_pct": -0.47,
+        "turnover": 437.11
       }
     ],
     "bottom5": [
       {
-        "name": "其他金融业",
-        "change_pct": -2.73,
-        "turnover": 32.3
+        "name": "次新股",
+        "change_pct": -3.61,
+        "turnover": 515.28
       },
       {
-        "name": "专用设备制造业",
-        "change_pct": -2.72,
-        "turnover": 4.44
+        "name": "电子器件",
+        "change_pct": -3.64,
+        "turnover": 1001.64
       },
       {
-        "name": "教育",
-        "change_pct": -2.42,
-        "turnover": 6.2
+        "name": "塑料制品",
+        "change_pct": -3.81,
+        "turnover": 57.27
       },
       {
-        "name": "医药制造业",
-        "change_pct": -2.14,
-        "turnover": 63.02
+        "name": "电子信息",
+        "change_pct": -4.06,
+        "turnover": 1068.32
       },
       {
-        "name": "研究和试验发展",
-        "change_pct": -2.14,
-        "turnover": 138.79
+        "name": "飞机制造",
+        "change_pct": -5.15,
+        "turnover": 57.8
+      }
+    ],
+    "count": 49,
+    "source": "sina"
+  },
+  "northbound": {
+    "date": "2026-10-27",
+    "net": 0.0,
+    "items": [
+      {
+        "board": "沪股通",
+        "net": 0.0,
+        "up": 214,
+        "flat": 19,
+        "down": 1413
+      },
+      {
+        "board": "深股通",
+        "net": 0.0,
+        "up": 206,
+        "flat": 11,
+        "down": 1676
       }
     ]
   },
+  "southbound": [
+    {
+      "board": "港股通(沪)",
+      "net": 1.81
+    },
+    {
+      "board": "港股通(深)",
+      "net": 5.11
+    }
+  ],
   "breadth": {
-    "up": 1676,
-    "down": 3714,
-    "flat": 186
+    "up": 420,
+    "down": 3089,
+    "flat": 30
   },
-  "north_money": null,
-  "north_money_note": "沪深港通北向资金自2024-08起已停止实时披露，接口不可用",
-  "date": "2026-10-27",
-  "time": "noon",
-  "fetched_at": "2026-10-27T03:35:25Z",
-  "note": "数据源: AkShare(新浪财经指数/恒指 + 证监会行业板块聚合)，东财接口被墙。北向资金已暂停披露。"
+  "note": "数据源: 新浪(指数/行业板块) + 东方财富(AkShare 沪深港通资金)。东财 push2 分片接口今日经代理不可达(48/17.push2.eastmoney.com)，指数改用新浪源；北向资金交易状态为暂停(3)。"
 }

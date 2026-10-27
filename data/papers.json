@@ -1,6 +1,396 @@
 {
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "papers": [
+  {
+   "title": "FogTTA: Online Test-Time Adaptation for Robust Transformer-based Object Detection in Foggy Weather",
+   "id": "2610.29618",
+   "arxiv_id": "2610.29618",
+   "published": "2026-10-21",
+   "authors": "Ali Abedi, Q. M. Jonathan Wu, Ning Zhang, Shiqi Tian",
+   "summary": "提出面向车载目标检测的在线测试时自适应（TTA）方法，针对雨雾雪等恶劣天气带来的域偏移做无标签在线校正，缓解部署环境下的性能骤降。",
+   "categories": [
+    "cs.CV",
+    "cs.AI"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-21",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.29618",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4
+  },
+  {
+   "title": "FaultGene: LLM-Assisted Fault-Augmented Test Generation for Hardware-in-the-Loop Validation of Autonomous Driving Systems",
+   "id": "2610.29969",
+   "arxiv_id": "2610.29969",
+   "published": "2026-10-21",
+   "authors": "Chaoran Yuan, Fadi Kurdahi",
+   "summary": "用 LLM 辅助生成故障注入测试用例，面向硬件在环（HIL）的自动驾驶信息物理系统，补齐正常工况之外由传感器/计算故障引发的失效场景验证。",
+   "categories": [
+    "cs.SE",
+    "cs.AI"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-21",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.29969",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4
+  },
+  {
+   "title": "Foundation4D: Towards a unified perception and reconstruction model for autonomous vehicles",
+   "id": "2610.30340",
+   "arxiv_id": "2610.30340",
+   "published": "2026-10-21",
+   "authors": "NVIDIA, :, Sérgio Agostinho, Maximilian Apodaca, Emmanuel Attia, Guillem Braso, George Dong, Ilya Fedorov, Michele Fenzi, Gang Huang, Jiahui Huang, Shengyu Huang, Bingxin Ke, Laura Leal-Taixé, Kuan-Ting Lee, Mingxuan Liu, Tian Liu, Tim Meinhardt, Aljoša Ošep, Naveen Kumar Rai, Kefei Ren, Cristiano Saltori, Keqiang Wu, Ning Xu, Fei Xue, Jin-Bey Yu, Lei Zhang, Qunjie Zhou",
+   "summary": "统一前馈模型，从多相机驾驶视频同时完成几何估计、3D 检测、语义占据与高斯重建；因子化时空骨干共享表征，减少多任务重复建模。",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-21",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.30340",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4
+  },
+  {
+   "title": "Integrated Longitudinal and Lateral Control for High-Speed Platooning of Articulated Vehicles",
+   "id": "2610.30437",
+   "arxiv_id": "2610.30437",
+   "published": "2026-10-21",
+   "authors": "Aashish Shaju, Steve Southward, Mehdi Ahmadian",
+   "summary": "面向铰接式车辆高速队列行驶的纵横向一体化控制框架，兼顾高速工况下的安全性与燃油/通行效率。",
+   "categories": [
+    "cs.RO",
+    "eess.SY"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-21",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.30437",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4
+  },
+  {
+   "title": "Causal Analysis of Failures of Cyber-Physical Systems with Continuous Inputs",
+   "id": "2610.30737",
+   "arxiv_id": "2610.30737",
+   "published": "2026-10-22",
+   "authors": "Tom Yaacov, David A. Kelly, Khen Elimelech, Hana Chockler",
+   "summary": "针对自动驾驶等连续输入信息物理系统，提出黑盒故障的因果分析方法，用于定位失效根因而非仅做相关性归因。",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-22",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.30737",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4
+  },
+  {
+   "title": "RaSFNet: Ray-aligned and Scan-aware Fusion Network for LiDAR Semantic Segmentation",
+   "id": "2610.31186",
+   "arxiv_id": "2610.31186",
+   "published": "2026-10-22",
+   "authors": "Chuang Chen",
+   "summary": "面向 LiDAR 点云语义分割的射线对齐与扫描感知融合网络，缓解投影式方法在 2D 转换中的几何信息损失。",
+   "categories": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-22",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.31186",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4
+  },
+  {
+   "title": "DriveMind: Mind-Evolving Belief Tracking for Closed-Loop Autonomous Driving",
+   "id": "2610.32069",
+   "arxiv_id": "2610.32069",
+   "published": "2026-10-23",
+   "authors": "Yan Shi, Kehua Chen, Jiarui Qi, Yihong Tang, Haichen Liao, Yinhai Wang",
+   "summary": "指出 MLLM 驾驶模型逐帧\"从零推理\"缺乏连续信念，提出信念演化跟踪机制，在闭环驾驶中维持跨帧场景理解与决策一致性。",
+   "categories": [
+    "cs.AI"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-23",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.32069",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4
+  },
+  {
+   "title": "Towards Effective and Transferable Physical Camouflage against Multi-View BEV-based 3D Perception in Autonomous Driving",
+   "id": "2610.32230",
+   "arxiv_id": "2610.32230",
+   "published": "2026-10-23",
+   "authors": "Linye Lyu, Jiawei Zhou, Daojing He, Yu Li",
+   "summary": "首次系统研究针对多视角 BEV 3D 感知的物理对抗伪装攻击，并关注其在真实世界中的可迁移性。",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-23",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.32230",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4
+  },
+  {
+   "title": "DriveOSS: Dataset and Benchmark for 3D Anomaly Segmentation and Open-set Semantic Segmentation in Autonomous Driving",
+   "id": "2610.32612",
+   "arxiv_id": "2610.32612",
+   "published": "2026-10-23",
+   "authors": "Zhiran Yan, Savankumar Bhanderi, Sourabh Lolge, Rui Song, Girdharbhai Paneliya, Shiva Agrawal, Gordon Elger",
+   "summary": "构建 3D 异常分割与开集分割的数据集与基准，突破现有方法默认的闭集假设，评测感知模型对未知物体的识别能力。",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-23",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.32612",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4
+  },
+  {
+   "title": "Robust Offset-Free Lane-Keeping Control Framework for Vision-Only Automated Vehicles",
+   "id": "2610.32666",
+   "arxiv_id": "2610.32666",
+   "published": "2026-10-23",
+   "authors": "Der-Hau Lee",
+   "summary": "针对大曲率道路高速过弯的纯视觉车道保持，提出无静差偏移的鲁棒控制框架，兼顾跟踪精度与车辆稳定性。",
+   "categories": [
+    "cs.RO",
+    "cs.CV",
+    "eess.SY"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-23",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.32666",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4
+  },
+  {
+   "title": "Safe World Model for Joint Trajectory and Beamforming Design of Mobile Base Stations",
+   "id": "2610.29534",
+   "arxiv_id": "2610.29534",
+   "published": "2026-10-21",
+   "authors": "Abdolrasoul Sakhaei Gharagezlou, Zeinab Askari Donbeh, Mehdi Monemi, Matti Latva-aho, Mehdi Rasti",
+   "summary": "注意：这是移动基站（无人机/地面平台）轨迹与波束成形的联合优化，属无线通信领域，与自动驾驶只有\"世界模型/轨迹\"字面重合——收录仅为追踪世界模型方法的外溢，相关性存疑。",
+   "categories": [
+    "eess.SY"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-21",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.29534",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3
+  },
+  {
+   "title": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
+   "id": "2610.30932",
+   "arxiv_id": "2610.30932",
+   "published": "2026-10-22",
+   "authors": "Jujia Zhao, Jiakai Tang, Jing Yu, Wen Chen, Jian Wu, Han Zhu, Fei Sun, Suzan Verberne, Zhaochun Ren",
+   "summary": "注意：购物推荐智能体的交互式用户模拟基准，非自动驾驶。收录是因为它构建\"推荐世界模型\"，方法上可参考，但与主业相关性低。",
+   "categories": [
+    "cs.IR"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-22",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.30932",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3
+  },
+  {
+   "title": "In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations",
+   "id": "2610.30988",
+   "arxiv_id": "2610.30988",
+   "published": "2026-10-22",
+   "authors": "Hengyi Sim, Quentin Rouxel, Dennis Hong, Darwin Caldwell, Fei Chen",
+   "summary": "面向软体衣物双臂操作的上下文学习世界模型，处理高维状态空间与材料相关形变，属机器人操作而非驾驶。",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-22",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.30988",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3
+  },
+  {
+   "title": "See What I Need, Dream What I Want: A Navigation Foundation Model on a Self-Constructed Representation Space",
+   "id": "2610.31762",
+   "arxiv_id": "2610.31762",
+   "published": "2026-10-22",
+   "authors": "Jiawei Chen, Yinxi Wang, Zihan Yang, Meijun Gao, Yaowei Liu, Shuming Zhang, Zecheng Li, Xiangju Mi, Yuxuan Liu, Runzhong Huang, Tianlin Li, Xun Zhang, Zhengyang Wang, Xu Miao, Tong Yang",
+   "summary": "What visual representation should a navigation policy act on? Navigation policies built on vision foundation models largely leave representation design to the e",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-22",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.31762",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3
+  },
+  {
+   "title": "SAGE: A hybrid vision-language and geometry framework for work-zone pathway prediction under temporary traffic control",
+   "id": "2610.31835",
+   "arxiv_id": "2610.31835",
+   "published": "2026-10-22",
+   "authors": "Jiaxi Liu, Keshu Wu, Weizhe Tang, Bofeng Cao, Sikai Chen, Xiaopeng Li, Steven T. Parker, Bin Ran",
+   "summary": "混合视觉语言与几何的工作区通行路径预测：将可见交通管控设施的语言解读与几何路径预测结合，输出连续可通行轨迹，直击施工区等长尾场景。",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-22",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.31835",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3
+  },
+  {
+   "title": "Interpreting Physics in Video Encoders using Multi-Object Interaction Videos",
+   "id": "2610.31983",
+   "arxiv_id": "2610.31983",
+   "published": "2026-10-22",
+   "authors": "Ayushi Mehrotra, Sai Vidyaranya Nuthalapati",
+   "summary": "多物体交互视频探针，用于解释视频编码器潜空间到底编码了哪些物理规律，为\"世界模型能规划什么\"划定边界。",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-22",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.31983",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3
+  },
+  {
+   "title": "HGWM: Hierarchical Graph-Guided World Model for Zero-Shot Object Navigation via Graph Matching",
+   "id": "2610.32554",
+   "arxiv_id": "2610.32554",
+   "published": "2026-10-23",
+   "authors": "I-tak Ieong, Hao Tang",
+   "summary": "分层图引导世界模型用于零样本物体导航，将 LLM 生成的房间锚点先验与持久化空间语义记忆耦合。",
+   "categories": [
+    "cs.RO",
+    "cs.MA"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-23",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.32554",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3
+  },
+  {
+   "title": "DT-JEPA: Learning to Predict Future Representations for Decision-Making",
+   "id": "2610.32657",
+   "arxiv_id": "2610.32657",
+   "published": "2026-10-23",
+   "authors": "Changxu Ni, Yiyang Ni, Jun Li, Feiran You, Hongyang Du, Haitao Zhao, Shi Jin",
+   "summary": "将 Decision Transformer 的回报条件化与 JEPA 的未来表征预测结合，在潜空间而非像素空间做前瞻建模。",
+   "categories": [
+    "cs.LG"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-23",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.32657",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3
+  },
+  {
+   "title": "Adaptive World-Models for Anomaly Recognition (AWARE): A Framework for Robot Dynamics Prediction and Introspection",
+   "id": "2610.32742",
+   "arxiv_id": "2610.32742",
+   "published": "2026-10-23",
+   "authors": "Luke Beddow, George Mavroghenis, Rodrigo Chacon Quesada, Kamil Dreczkowski, Cong Sun, Jiankai Wang, Oscar Kwong-Fai Pang, Antoine Cully",
+   "summary": "机器人基础设施异常识别的自适应世界模型框架，用世界模型预测偏离来发现未知异常。",
+   "categories": [
+    "cs.RO",
+    "cs.AI"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-23",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.32742",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3
+  },
+  {
+   "title": "UniAction: Unified Action Conditioning for World Models",
+   "id": "2610.32977",
+   "arxiv_id": "2610.32977",
+   "published": "2026-10-23",
+   "authors": "Bowen Xue, Zizhang Li, Hong-Xing Yu, Jiajun Wu",
+   "summary": "统一异构动作类型的条件化（离散/连续/多本体），解决动作条件世界模型按动作类型割裂、动作标注数据被碎片化的问题。",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-23",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.32977",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3
+  },
   {
    "title": "DRILL: Training World Models to Improve Policies, Not Predict Pixels",
    "id": "2610.30814",
@@ -24691,8 +25081,8 @@
    "url": "https://arxiv.org/abs/2509.25822"
   }
  ],
- "updated_at": "2026-10-26T00:12:14Z",
- "last_updated": "2026-10-26T00:12:14Z",
+ "updated_at": "2026-10-27T00:13:38Z",
+ "last_updated": "2026-10-27T00:13:38Z",
  "category_counts": {
   "cs.RO": 574,
   "cs.CV": 381,
@@ -24710,7 +25100,7 @@
   "Robotics (cs.RO) ; Computer Vision and Pattern Recognition (cs.CV)": 4,
   "Robotics (cs.RO) ; Artificial Intelligence (cs.AI)": 4
  },
- "total_papers": 1407,
+ "total_papers": 1427,
  "weekly": {
   "week": "2026-10-18 ~ 2026-10-24",
   "report": "weekly/2026-10-24-weekly-summary.md",
@@ -24725,13 +25115,10 @@
   "total_papers": 1536
  },
  "new_findings": {
-  "date": "2026-10-25",
-  "count": 21,
-  "added": 21,
-  "five_star": [
-   "2610.30814",
-   "2610.31194"
-  ],
+  "date": "2026-10-26",
+  "count": 20,
+  "added": 20,
+  "five_star": [],
   "updated_existing": 0
  }
 }

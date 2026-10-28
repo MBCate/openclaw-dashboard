@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-27T17:12:25",
  "papers": [
   {
    "title": "FogTTA: Online Test-Time Adaptation for Robust Transformer-based Object Detection in Foggy Weather",
@@ -25079,10 +25079,839 @@
    "score": 4,
    "arxiv_id": "2509.25822v4",
    "url": "https://arxiv.org/abs/2509.25822"
+  },
+  {
+   "title": "Model-Aware Generation of Safety-Critical Scenes for Robust End-to-End Driving via Distilled Planner Surrogates",
+   "id": "2610.35448",
+   "arxiv_id": "2610.35448",
+   "published": "2026-10-27",
+   "authors": "Khaled M. Seyam (University of Stuttgart, Germany), Julian Wiederer (Mercedes-Benz AG, Germany), Samar Fathalah (University of Stuttgart, Germany), Markus Braun (Mercedes-Benz AG, Germany), Bin Yang (University of Stuttgart, Germany)",
+   "summary": "End-to-end driving models perform well on standard benchmarks but collide frequently in safety-critical scenarios",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.35448",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "reason": "E2E driving / driving world model 核心"
+  },
+  {
+   "title": "Dream to Assist: Intent-Conditioned World Models for Shared Vehicle Control",
+   "id": "2610.34650",
+   "arxiv_id": "2610.34650",
+   "published": "2026-10-27",
+   "authors": "Jonathan DeCastro, Thomas Balch, Emily Sumner, Deepak Gopinath, Laporsha Dees, Patricio Reyes Gomez, Elliot Weiss, Megan Applegate-Kenton, Todd Rowell, John Leonard, Avinash Balachandran, Guy Rosman",
+   "summary": "Assistive agents in shared-control settings face a dual challenge: acting proactively to align with the human's intentions while remaining legible enough for the human to comprehend and fluently respo",
+   "categories": [
+    "cs.RO",
+    "cs.HC",
+    "cs.LG"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.34650",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "reason": "E2E driving / driving world model 核心"
+  },
+  {
+   "title": "Designing Versatile Samples for Learned Trajectory Scoring",
+   "id": "2609.01799",
+   "arxiv_id": "2609.01799",
+   "published": "2026-10-27",
+   "authors": "Yaguang Li, Jiaru Zhang, Chuheng Wei, Can Cui, Ziran Wang",
+   "summary": "Many current end-to-end driving policies emit a pool of candidate trajectories and select one, which makes selection a separable component: a scorer can be retrained while the planner, its backbone, a",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2609.01799",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "reason": "E2E driving / driving world model 核心"
+  },
+  {
+   "title": "IntNet: A Communication-Driven Multi-Agent Reinforcement Learning Framework for Cooperative Autonomous Driving",
+   "id": "2610.34466",
+   "arxiv_id": "2610.34466",
+   "published": "2026-10-27",
+   "authors": "Leandro Parada, Kevin Yu, Panagiotis Angeloudis",
+   "summary": "Achieving safety in autonomous driving through Multi-Agent Reinforcement Learning (MARL) is a critical yet challenging task due to non-stationarity, partial observability, and the need for effective c",
+   "categories": [
+    "cs.RO",
+    "cs.LG"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.34466",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "reason": "E2E driving / driving world model 核心"
+  },
+  {
+   "title": "Road Infrastructure Perception for Autonomous Driving: Taxonomy, Representations, Tasks, and Challenges",
+   "id": "2610.33758",
+   "arxiv_id": "2610.33758",
+   "published": "2026-10-27",
+   "authors": "Guoyang Zhao, Weiqing Qi, Kai Zhang, Zhihai Bi, Tianshuai Hu, Zeying Gong, Dezong Zhao, Jun Ma",
+   "summary": "Road infrastructure perception is a fundamental component of autonomous driving, as it recovers the structured road elements that define roadway geometry, delimit operational space, and encode traffic",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.33758",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "reason": "E2E driving / driving world model 核心"
+  },
+  {
+   "title": "AdaThinkDrive: Adaptive Thinking via Reinforcement Learning for Autonomous Driving",
+   "id": "2509.13769",
+   "arxiv_id": "2509.13769",
+   "published": "2026-10-27",
+   "authors": "Yuechen Luo, Fang Li, Shaoqing Xu, Zhiyi Lai, Lei Yang, Qimao Chen, Ziang Luo, Zixun Xie, Shengyin Jiang, Jiaxin Liu, Long Chen, Bing Wang, Ken Deng, Zhi-xin Yang",
+   "summary": "While reasoning technology like Chain of Thought (CoT) has been widely adopted in Vision Language Action (VLA) models, it demonstrates promising capabilities in end to end autonomous driving",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "vla-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2509.13769",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "reason": "E2E driving / driving world model 核心"
+  },
+  {
+   "title": "Security of Deep Reinforcement Learning for Autonomous Driving: A Survey",
+   "id": "2212.06123",
+   "arxiv_id": "2212.06123",
+   "published": "2026-10-27",
+   "authors": "Ambra Demontis, Srishti Gupta, Maura Pintor, Luca Demetrio, Kathrin Grosse, Hsiao-Ying Lin, Chengfang Fang, Battista Biggio, Fabio Roli",
+   "summary": "arXiv:2212.06123v4 Announce Type: replace-cross Abstract: Reinforcement learning (RL) enables agents to learn optimal behaviors through interaction with their environment and has been increasingly dep",
+   "categories": [
+    "cs.LG",
+    "cs.RO"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2212.06123",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "reason": "E2E driving / driving world model 核心"
+  },
+  {
+   "title": "OSWAM: An Effective World Action Model with One-Step Action Generation",
+   "id": "2610.35850",
+   "arxiv_id": "2610.35850",
+   "published": "2026-10-27",
+   "authors": "Guowen Zhang, Liyi Chen, Xu Hu, Pengfei Wang, Jingfan Chen, Chenhang He, Lei Zhang",
+   "summary": "Direct-policy World Action Models (WAM) have demonstrated the benefits of decoupling action generation from explicit future visual prediction for efficient inference in autonomous driving and embodied",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.35850",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "reason": "E2E driving / driving world model 核心"
+  },
+  {
+   "title": "DriveUniTok: A Unified Multimodal Tokenizer for Driving World-Action Models",
+   "id": "2610.35044",
+   "arxiv_id": "2610.35044",
+   "published": "2026-10-27",
+   "authors": "Jingbo Xu, Hanchao Leng, JiaHui Huang, Hanbing Li, Jingwei Zhao, Kuiyuan Yang, Chen Gao, Guang Chen, Hangjun Ye, Yong Li",
+   "summary": "World models are emerging as a fundamental component of policy learning for real-world agents, enabling agents to predict future world states and plan actions within a learned representation of the dy",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.35044",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "reason": "E2E driving / driving world model 核心"
+  },
+  {
+   "title": "Flow-ERD: Agent-type Aware Flow Matching With Entropy-Regularized Distillation for Diverse Traffic Simulation",
+   "id": "2607.06957",
+   "arxiv_id": "2607.06957",
+   "published": "2026-10-27",
+   "authors": "Seulbin Hwang, Kiyoung Om, Dae Jung Kim, Jinhan Lee",
+   "summary": "arXiv:2607.06957v2 Announce Type: replace-cross Abstract: Realistic and diverse traffic simulation is essential to autonomous driving development",
+   "categories": [
+    "cs.RO",
+    "cs.LG"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2607.06957",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "reason": "E2E driving / driving world model 核心"
+  },
+  {
+   "title": "AutoWorld: Learning Multi-Agent Traffic Simulation with Self-Supervised World Models",
+   "id": "2603.28963",
+   "arxiv_id": "2603.28963",
+   "published": "2026-10-27",
+   "authors": "Mozhgan Pourkeshavarz, Tianran Liu, Nicholas Rhinehart",
+   "summary": "Simulation with realistic traffic agents is essential for validating autonomous driving systems",
+   "categories": [
+    "cs.RO",
+    "cs.AI",
+    "cs.CV",
+    "cs.LG"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2603.28963",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "reason": "E2E driving / driving world model 核心"
+  },
+  {
+   "title": "Interpretable Collision Avoidance and Feasibility Guarantees through an Uncertainty Aware Pipeline",
+   "id": "2610.33186",
+   "arxiv_id": "2610.33186",
+   "published": "2026-10-27",
+   "authors": "Doris Xu, Jin Hyun Park, Guadalupe Alvarado Fernandez, Adhyan Prasad, Mark Campbell",
+   "summary": "Autonomous vehicles (AVs) operating in dynamic, challenging conditions such as intersections and roundabouts must guarantee collision avoidance under uncertainty while maintaining real-time feasibilit",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.33186",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4,
+   "reason": "E2E driving 或 world model 相关"
+  },
+  {
+   "title": "Revisiting Direct Control: A Field Evaluation of Sensor Fusion Efficacy in Teleoperating Full-Scale Autonomous Vehicles via Bird's Eye View",
+   "id": "2610.35630",
+   "arxiv_id": "2610.35630",
+   "published": "2026-10-27",
+   "authors": "Stanis{\\l}aw Kuczma, S{\\l}awomir K. Tadeja, Micha{\\l} R. Nowicki",
+   "summary": "In autonomous driving, robot teleoperation serves as a critical safety fallback mechanism, requiring operators to assume direct control in the event of system failure",
+   "categories": [
+    "cs.RO",
+    "cs.HC"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.35630",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4,
+   "reason": "E2E driving 或 world model 相关"
+  },
+  {
+   "title": "FreqPKC: Frequency-Aware PeakConv for Radar Semantic Segmentation",
+   "id": "2610.33504",
+   "arxiv_id": "2610.33504",
+   "published": "2026-10-27",
+   "authors": "Yangyong Deng, Pengyu Zhang, Shaoqiu Song, Xiaotao Huang, Jian Wang",
+   "summary": "Automotive millimeter-wave (mmWave) radar has attracted increasing attention for semantic segmentation in autonomous driving, owing to its robustness under adverse weather and lighting conditions",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.33504",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4,
+   "reason": "E2E driving 或 world model 相关"
+  },
+  {
+   "title": "RSKD: Grounding Semantic Consistency in Driving VLMs via Distillation",
+   "id": "2610.34689",
+   "arxiv_id": "2610.34689",
+   "published": "2026-10-27",
+   "authors": "Chuchu Xie, Yang Zhong, Kangan Qian, Hao Ye, Kun Jiang, Diange Yang",
+   "summary": "Knowledge distillation can transfer large multimodal models to compact models for autonomous driving, but uniform token-level matching can dilute planning-relevant semantics and amplify teacher errors",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.34689",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4,
+   "reason": "E2E driving 或 world model 相关"
+  },
+  {
+   "title": "C-DFF: Concept-Level Diagnostics for Mechanism Parity in Simulation-Based Validation of Autonomous Driving Perception",
+   "id": "2610.33760",
+   "arxiv_id": "2610.33760",
+   "published": "2026-10-27",
+   "authors": "Danial Safaei, Siddartha Khastgir, Matthew Higgins, Jeroen Ploeg, Mohsen Alirezaei, Son Tong, Ludo Gielen",
+   "summary": "Simulation is widely used in autonomous-driving validation, but matching task outputs between real and synthetic images does not guarantee that a system relies on the same visual evidence",
+   "categories": [
+    "cs.CV",
+    "cs.AI",
+    "cs.RO"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.33760",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4,
+   "reason": "E2E driving 或 world model 相关"
+  },
+  {
+   "title": "STATIC: Surface-normal-guided Two-branch Alignment and Temporal Integration for Consistent Video Depth Estimation",
+   "id": "2412.01090",
+   "arxiv_id": "2412.01090",
+   "published": "2026-10-27",
+   "authors": "Sunghun Yang, Minhyeok Lee, Suhwan Cho, Jungho Lee, Sangyoun Lee",
+   "summary": "Video depth estimation is essential for applications such as autonomous driving, AR/VR, and robotics",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2412.01090",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4,
+   "reason": "E2E driving 或 world model 相关"
+  },
+  {
+   "title": "Sparse Recovery Bird's-Eye View Model Soup for Robust Camera-Based 3D Object Detection",
+   "id": "2610.34976",
+   "arxiv_id": "2610.34976",
+   "published": "2026-10-27",
+   "authors": "Jinwoo Chung, Sangho An, Hyunsung Park, Jangho Kim",
+   "summary": "Camera-based bird's-eye view (BEV) perception methods such as Fast-BEV have demonstrated promising results with fast inference speed and competitive accuracy",
+   "categories": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.34976",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4,
+   "reason": "E2E driving 或 world model 相关"
+  },
+  {
+   "title": "Freeze What Is Settled, Cache What Is Smooth: Spatial Freezing Keeps Step Caching in Its Low-Error Regime",
+   "id": "2610.34177",
+   "arxiv_id": "2610.34177",
+   "published": "2026-10-27",
+   "authors": "Baiyan Li, Ganxuan Yang",
+   "summary": "Instruction-based image editors built on diffusion transformers run tens of denoising steps",
+   "categories": [
+    "cs.CV",
+    "cs.LG",
+    "cs.MM"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.34177",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "AD 感知/数据/仿真 外围"
+  },
+  {
+   "title": "FlockWorld: Toward Population-Scale Multi-Agent Video World Models through Artificial Life Simulation",
+   "id": "2610.34564",
+   "arxiv_id": "2610.34564",
+   "published": "2026-10-27",
+   "authors": "Meryem Koksal, Yunzhe Wang, Volkan Ustun",
+   "summary": "Most action-conditioned video world models remain limited to a single player, while existing multiplayer models support only small, fixed groups of agents",
+   "categories": [
+    "cs.CV",
+    "cs.MA"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.34564",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "通用 world model / VLA (可迁移)"
+  },
+  {
+   "title": "Mix Forcing: Causal Pre-Training via Mixture Attention for Interactive World Models",
+   "id": "2610.33589",
+   "arxiv_id": "2610.33589",
+   "published": "2026-10-27",
+   "authors": "Zelin Gao, Hao Ouyang, Jiapeng Zhu, Qiuyu Wang, Jingye Chen, Zichen Liu, Xing Zhu, Yujun Shen, Yinghao Xu",
+   "summary": "While interactive video world models require autoregressive generation, directly adapting pretrained bidirectional video diffusion models into autoregressive ones with teacher forcing can disrupt thei",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.33589",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "通用 world model / VLA (可迁移)"
+  },
+  {
+   "title": "Computer Vision Navigation for an Autonomous Vehicle Model Using Reinforcement Learning",
+   "id": "2610.33755",
+   "arxiv_id": "2610.33755",
+   "published": "2026-10-27",
+   "authors": "Dinis Fernandes, Tiago Ribeiro, Ant\\'onio Ribeiro, Carolina Lopes, Gil Lopes, A. Fernando Ribeiro",
+   "summary": "This work aims to assess the capabilities of the reinforcement learning algorithm, Proximal Policy Optimization (PPO), in developing a policy capable of controlling the speed and steering angle of a v",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.33755",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "AD 感知/数据/仿真 外围"
+  },
+  {
+   "title": "Cross-Scenario Controller Parameter Transformation from Real-World Driving Data through Flow Matching",
+   "id": "2610.32719",
+   "arxiv_id": "2610.32719",
+   "published": "2026-10-27",
+   "authors": "Christian Zink, Maik Pfefferkorn, Eric Lenz, Felix Kallmeyer, Rolf Findeisen",
+   "summary": "Advanced Driver Assistance Systems have become increasingly widespread, aiming to support drivers, reduce workload, and improve traffic safety",
+   "categories": [
+    "eess.SY",
+    "cs.LG",
+    "cs.SY"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.32719",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "AD 感知/数据/仿真 外围"
+  },
+  {
+   "title": "Metro-WM: Long-Horizon Latent Planning with Realisable Sub-Goals",
+   "id": "2609.31868",
+   "arxiv_id": "2609.31868",
+   "published": "2026-10-27",
+   "authors": "Royson Lee, Fady Rezk, Titouan Parcollet, Timothy Hospedales, Cristina Cornelio",
+   "summary": "Model-predictive control with Joint-Embedding Predictive Architectures (JEPAs) provides a strong zero-shot goal-reaching planner, but it is only effective over short planning horizons",
+   "categories": [
+    "cs.AI",
+    "cs.RO"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2609.31868",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "通用 world model / VLA (可迁移)"
+  },
+  {
+   "title": "World-in-Context: Interactive Video World Modeling with In-Context Conditioning",
+   "id": "2610.33169",
+   "arxiv_id": "2610.33169",
+   "published": "2026-10-27",
+   "authors": "Harold Haodong Chen, Rui Peng, Rongjin Guo, Lingteng Qiu, Kejie Qiu, Chao Xu, Zilong Dong",
+   "summary": "Interactive video world models require coordinated control over viewing perspectives, character actions, and camera motion",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.33169",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "通用 world model / VLA (可迁移)"
+  },
+  {
+   "title": "Understanding and Repairing Cooperative Perception under Adverse Weather",
+   "id": "2610.35110",
+   "arxiv_id": "2610.35110",
+   "published": "2026-10-27",
+   "authors": "Mengxu Ma (Northwestern Polytechnical University)",
+   "summary": "A cooperative 3D detector can miss a vehicle even when the LiDAR points on it remain unchanged",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.35110",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "AD 感知/数据/仿真 外围"
+  },
+  {
+   "title": "LegoOcc++: Towards Consistent Open-Vocabulary 3D Occupancy Prediction",
+   "id": "2610.34093",
+   "arxiv_id": "2610.34093",
+   "published": "2026-10-27",
+   "authors": "Changqing Zhou, Yueru Luo, Han Zhang, Zeyu Jiang, Changhao Chen",
+   "summary": "Open-vocabulary 3D occupancy prediction is important for embodied agents operating in complex environments whose semantic categories extend beyond fixed taxonomies",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.34093",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "AD 感知/数据/仿真 外围"
+  },
+  {
+   "title": "OVM-Occ: Open-Vocabulary Monocular Occupancy Prediction via Geometry-Aware Vision-Language Distillation",
+   "id": "2610.35312",
+   "arxiv_id": "2610.35312",
+   "published": "2026-10-27",
+   "authors": "Shuyang Yu, Haibo Qin, Shaohan Hu, Wei Shan, Xiaoqing Guan, You Wang, Guang Li",
+   "summary": "Monocular occupancy prediction in indoor scenes aims to recover a scene's 3D geometry and semantics from a single RGB image",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.35312",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "AD 感知/数据/仿真 外围"
+  },
+  {
+   "title": "VGGT-$\\Omega$",
+   "id": "2605.15195",
+   "arxiv_id": "2605.15195",
+   "published": "2026-10-27",
+   "authors": "Jianyuan Wang, Minghao Chen, Shangzhan Zhang, Nikita Karaev, Johannes Sch\\\"onberger, Patrick Labatut, Piotr Bojanowski, David Novotny, Andrea Vedaldi, Christian Rupprecht",
+   "summary": "Recent feed-forward reconstruction models, such as VGGT, have proven competitive with traditional optimization-based reconstructors while also providing geometry-aware features useful for other tasks",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2605.15195",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "通用 world model / VLA (可迁移)"
+  },
+  {
+   "title": "Asking the World: Generalist Physical Reasoning through Agentic World Modeling and Probing",
+   "id": "2609.39135",
+   "arxiv_id": "2609.39135",
+   "published": "2026-10-27",
+   "authors": "Shenxiang Zeng, Chen Yang, Peiyao Chen, Guohui Zhang, Jiansheng Fan, Chen Wang",
+   "summary": "Physical reasoning from video requires inferring latent physical properties and dynamics beyond direct observation",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2609.39135",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "通用 world model / VLA (可迁移)"
+  },
+  {
+   "title": "RIDE-Splat: Reflection Removal for In-the-Wild Driving Environments",
+   "id": "2610.34632",
+   "arxiv_id": "2610.34632",
+   "published": "2026-10-27",
+   "authors": "Kevin David Hayes, Alex Hanson, Allen Tu, Pranav Asthana, Matthias Zwicker, Tom Goldstein",
+   "summary": "Driving video captured through a windshield violates the world-space consistency assumed by 3D Gaussian Splatting (3DGS): the road scene exhibits parallax while cabin reflections remain attached to th",
+   "categories": [
+    "cs.CV",
+    "cs.AI"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.34632",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "AD 感知/数据/仿真 外围"
+  },
+  {
+   "title": "ActECC: Action Chunk Temporal Harnessing for Edge-Cloud Collaborative VLA Inference System",
+   "id": "2603.07949",
+   "arxiv_id": "2603.07949",
+   "published": "2026-10-27",
+   "authors": "Zihao Zheng, Zhihao Mao, Hui Huang, Sicheng Tian, Hangyu Cao, Ziyun Zhang, Chenyue Li, Jiayu Chen, Maoliang Li, Hailong Zou, Guojie Luo, Xiang Chen",
+   "summary": "arXiv:2603.07949v3 Announce Type: replace-cross Abstract: VLA models have emerged as the mainstream for embodied intelligence, which decouples reasoning and execution via action chunks",
+   "categories": [
+    "cs.DC",
+    "cs.RO"
+   ],
+   "topic": "vla-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2603.07949",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "通用 world model / VLA (可迁移)"
+  },
+  {
+   "title": "When Does Dynamics Randomization Test Context Inference?",
+   "id": "2610.32414",
+   "arxiv_id": "2610.32414",
+   "published": "2026-10-27",
+   "authors": "Oleg Smirnov, Sofiane Ennadir, John Pertoft, Bjartur Hjaltason, Sara Karimi",
+   "summary": "Environments with randomized dynamics are widely used to ask whether world models need explicit context inference",
+   "categories": [
+    "cs.LG"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.32414",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "通用 world model / VLA (可迁移)"
+  },
+  {
+   "title": "Behavioural Quality Is Not Learning Utility: Objective Mismatch in Human Behaviour Models for Robot Learning",
+   "id": "2610.34839",
+   "arxiv_id": "2610.34839",
+   "published": "2026-10-27",
+   "authors": "Haoyang Jiang, Dana Kulic, Michael Burke, Pamela Carreno-Medrano",
+   "summary": "Human behaviour models are increasingly used to provide simulated human interactions for training robots via reinforcement learning (RL)",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.34839",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "AD 感知/数据/仿真 外围"
+  },
+  {
+   "title": "UniWorld: A Unified World Model for Real-Time Visual World Simulation",
+   "id": "2610.32381",
+   "arxiv_id": "2610.32381",
+   "published": "2026-10-27",
+   "authors": "Xin Zhang, Yabo Chen, Shuaiwei Wang, Zixuan Duan, Haibin Huang, Feng Xu, Xuelong Li",
+   "summary": "Continuous visual world simulation requires coupling evolving scene geometry with temporally persistent appearance",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.32381",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "通用 world model / VLA (可迁移)"
+  },
+  {
+   "title": "Learning from Next-Frame Prediction: Towards Unified and Scalable Visual World Modeling",
+   "id": "2610.30724",
+   "arxiv_id": "2610.30724",
+   "published": "2026-10-27",
+   "authors": "Yifeng Yao, Jinghan Li, Zhihao Zhang, Yajiao Xiong, Yang Jin, Kun Xu, Huishuai Zhang, Dongyan Zhao",
+   "summary": "arXiv:2610.30724v2 Announce Type: replace-cross Abstract: Video provides a natural source of supervision: what happens next serves as a learning signal for visual world modeling",
+   "categories": [
+    "cs.CV",
+    "cs.AI"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.30724",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "通用 world model / VLA (可迁移)"
+  },
+  {
+   "title": "$\\Psi$-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model",
+   "id": "2610.32177",
+   "arxiv_id": "2610.32177",
+   "published": "2026-10-27",
+   "authors": "Khai Loong Aw, Klemen Kotar, Baihan Zhang, Yifan Liu, Lilian Chen, Atlas Kazemian, Rahul Venkatesh, Daniel Yamins",
+   "summary": "Humans reason about the physical world by flexibly combining different forms of inference as a problem unfolds",
+   "categories": [
+    "cs.AI",
+    "cs.CV",
+    "cs.LG"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.32177",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "通用 world model / VLA (可迁移)"
+  },
+  {
+   "title": "Distilling Dense Trajectory Teachers For Large-Motion Video World Models",
+   "id": "2610.33566",
+   "arxiv_id": "2610.33566",
+   "published": "2026-10-27",
+   "authors": "Shuofeng Sun, Linqing Zhao, Haibin Yan",
+   "summary": "Video world models are expected to generate videos that accurately follow specified camera trajectories while maintaining consistent 3D structures",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.33566",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "通用 world model / VLA (可迁移)"
+  },
+  {
+   "title": "WorldPager: Zero-Stall Tiered Memory for Long-Horizon World Models on a Single Consumer GPU",
+   "id": "2610.35529",
+   "arxiv_id": "2610.35529",
+   "published": "2026-10-27",
+   "authors": "Bingnan Liu, Ruini Xue",
+   "summary": "Interactive world models keep the KV of past chunks as retrieval memory so that revisited places stay consistent",
+   "categories": [
+    "cs.DC",
+    "cs.CV"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.35529",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "通用 world model / VLA (可迁移)"
+  },
+  {
+   "title": "WM-VLM: Probing Internal World Models for Interleaved Visual-Textual Reasoning",
+   "id": "2609.34826",
+   "arxiv_id": "2609.34826",
+   "published": "2026-10-27",
+   "authors": "Yuheng Zha, Yilei Wang, Qiyue Gao, Junrong Chen, Yujia Wu, Zhengfeng Lai, Zhengzhong Liu, Eric P. Xing",
+   "summary": "Humans often solve spatial problems by mentally simulating visual transformations",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2609.34826",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "通用 world model / VLA (可迁移)"
   }
  ],
- "updated_at": "2026-10-27T00:13:38Z",
- "last_updated": "2026-10-27T00:13:38Z",
+ "updated_at": "2026-10-27T17:12:25",
+ "last_updated": "2026-10-27",
  "category_counts": {
   "cs.RO": 574,
   "cs.CV": 381,
@@ -25100,7 +25929,7 @@
   "Robotics (cs.RO) ; Computer Vision and Pattern Recognition (cs.CV)": 4,
   "Robotics (cs.RO) ; Artificial Intelligence (cs.AI)": 4
  },
- "total_papers": 1427,
+ "total_papers": 1467,
  "weekly": {
   "week": "2026-10-18 ~ 2026-10-24",
   "report": "weekly/2026-10-24-weekly-summary.md",
@@ -25115,10 +25944,22 @@
   "total_papers": 1536
  },
  "new_findings": {
-  "date": "2026-10-26",
-  "count": 20,
-  "added": 20,
-  "five_star": [],
+  "date": "2026-10-27",
+  "count": 40,
+  "added": 40,
+  "five_star": [
+   "2610.35448",
+   "2610.34650",
+   "2609.01799",
+   "2610.34466",
+   "2610.33758",
+   "2509.13769",
+   "2212.06123",
+   "2610.35850",
+   "2610.35044",
+   "2607.06957",
+   "2603.28963"
+  ],
   "updated_existing": 0
  }
 }

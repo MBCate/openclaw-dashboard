@@ -1,171 +1,171 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-10-27 07:06 UTC",
+  "updated": "2026-10-29 07:05 UTC",
   "status": "success",
   "last_run": {
-    "date": "2026-10-27",
-    "timestamp": "2026-10-27T00:05:09.564618",
+    "date": "2026-10-29",
+    "timestamp": "2026-10-29T00:05:16.850276",
     "success": true,
-    "note": "采集管线最近一次运行 2026-10-27 (6/6 成功)"
+    "note": "采集管线最近一次运行 2026-10-29 (6/6 成功)"
   },
   "crypto": {
     "status": "success",
     "btc": {
-      "price": 79657.3,
-      "change_24h": -0.64
+      "price": 79939.1,
+      "change_24h": -1.24
     },
     "eth": {
-      "price": 2304.36,
-      "change_24h": -0.75
+      "price": 2312.28,
+      "change_24h": -1.82
     },
-    "note": "OKX 数据正常; BTC 79657.3 (-0.64%) / ETH 2304.36 (-0.75%)"
+    "note": "OKX 数据正常; BTC 79939.1 (-1.24%) / ETH 2312.28 (-1.82%)"
   },
   "sentiment": {
     "crypto_fear_greed": {
-      "value": 48,
+      "value": 51,
       "classification": "Neutral"
     }
   },
   "stocks": {
     "status": "success",
-    "note": "2026-10-27 A股/期货收盘数据",
+    "note": "2026-10-29 A股/期货收盘数据",
     "data": {
       "上证指数": {
-        "price": 3648.301,
-        "change": -1.331,
-        "volume": 417789532.0
+        "price": 3651.4337,
+        "change": -0.816,
+        "volume": 443564144.0
       },
       "深证成指": {
-        "price": 11245.731,
-        "change": -2.503
+        "price": 11138.198,
+        "change": -2.92
       },
       "创业板指": {
-        "price": 2548.149,
-        "change": -3.414
+        "price": 2517.588,
+        "change": -4.447
       },
       "沪金主力": {
-        "price": 862.58,
-        "change": -0.21,
-        "date": "2026-10-26"
+        "price": 867.4,
+        "change": 0.72,
+        "date": "2026-10-28"
       },
       "沪银主力": {
-        "price": 13040.0,
-        "change": -0.52,
-        "date": "2026-10-26"
+        "price": 13010.0,
+        "change": 1.94,
+        "date": "2026-10-28"
       },
       "沪铜主力": {
-        "price": 108110.0,
-        "change": 0.19,
-        "date": "2026-10-26"
+        "price": 109200.0,
+        "change": 0.75,
+        "date": "2026-10-28"
       },
       "螺纹钢主力": {
-        "price": 3037.0,
-        "change": -0.33,
-        "date": "2026-10-26"
+        "price": 3043.0,
+        "change": 0.1,
+        "date": "2026-10-28"
       },
       "沪深300期货": {
-        "price": 4049.0,
-        "change": -0.15,
-        "date": "2026-10-26"
+        "price": 4027.2,
+        "change": 0.9,
+        "date": "2026-10-28"
       },
       "中证500期货": {
-        "price": 6637.0,
-        "change": -1.56,
-        "date": "2026-10-26"
+        "price": 6564.0,
+        "change": 2.44,
+        "date": "2026-10-28"
       },
       "50ETF波动率": {
-        "value": 16.31,
-        "date": "2026-10-26"
+        "value": 15.44,
+        "date": "2026-10-28"
       }
     }
   },
   "signals": {
     "DoubleMa": {
       "1h": {
-        "signal": "观望",
-        "price": 79632.7
+        "signal": "做空",
+        "price": 79949.3
       },
       "4h": {
-        "signal": "观望",
-        "price": 79632.7
+        "signal": "做多",
+        "price": 79949.3
       }
     },
     "RSI": {
       "1h": {
         "signal": "观望",
-        "price": 79632.7
+        "price": 79949.3
       },
       "4h": {
         "signal": "观望",
-        "price": 79632.7
+        "price": 79949.3
       }
     },
     "MACD": {
       "1h": {
         "signal": "观望",
-        "price": 79632.7
+        "price": 79949.3
       },
       "4h": {
-        "signal": "做空",
-        "price": 79632.7
+        "signal": "观望",
+        "price": 79949.3
       }
     },
     "Bollinger": {
       "1h": {
         "signal": "观望",
-        "price": 79632.7
+        "price": 79949.3
       },
       "4h": {
-        "signal": "观望",
-        "price": 79632.7
+        "signal": "做空",
+        "price": 79949.3
       }
     },
     "Supertrend": {
       "1h": {
         "signal": "观望",
-        "price": 79632.7
+        "price": 79949.3
       },
       "4h": {
         "signal": "观望",
-        "price": 79632.7
+        "price": 79949.3
       }
     },
     "TripleMa": {
       "1h": {
         "signal": "观望",
-        "price": 79632.7
+        "price": 79949.3
       },
       "4h": {
         "signal": "观望",
-        "price": 79632.7
+        "price": 79949.3
       }
     },
     "Momentum": {
       "1h": {
-        "signal": "做空",
-        "price": 79632.7
+        "signal": "观望",
+        "price": 79949.3
       },
       "4h": {
         "signal": "做空",
-        "price": 79632.7
+        "price": 79949.3
       }
     },
     "MeanReversion": {
       "1h": {
         "signal": "观望",
-        "price": 79632.7
+        "price": 79949.3
       },
       "4h": {
-        "signal": "观望",
-        "price": 79632.7
+        "signal": "做空",
+        "price": 79949.3
       }
     }
   },
   "strategies": [
     {
       "name": "DoubleMa",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
+      "signal_1h": "做空",
+      "signal_4h": "做多",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -201,7 +201,7 @@
     {
       "name": "MACD",
       "signal_1h": "观望",
-      "signal_4h": "做空",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -210,7 +210,7 @@
     {
       "name": "Bollinger",
       "signal_1h": "观望",
-      "signal_4h": "观望",
+      "signal_4h": "做空",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -218,7 +218,7 @@
     },
     {
       "name": "Momentum",
-      "signal_1h": "做空",
+      "signal_1h": "观望",
       "signal_4h": "做空",
       "daily_return": 0.0,
       "weekly_return": null,
@@ -228,7 +228,7 @@
     {
       "name": "MeanReversion",
       "signal_1h": "观望",
-      "signal_4h": "观望",
+      "signal_4h": "做空",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -246,30 +246,61 @@
       },
       {
         "source": "Cointelegraph",
-        "title": "RedotPay weighs confidential US IPO filing by year-end: Bloomberg",
-        "link": "https://cointelegraph.com/news/redotpay-weighs-confidential-us-ipo-filing-by-year-end-bloomberg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Your fridge could one day stake Ether, launch memecoins: CFTC chair",
+        "link": "https://cointelegraph.com/news/a-fridge-that-launches-memecoins-cftc-floats-ai-crypto-future?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Keystone breach deepens: Hackers stole key used to verify wallets as genuine",
-        "link": "https://cointelegraph.com/news/keystone-breach-deepens-hackers-stole-key-used-to-verify-wallets-as-genuine?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Tampered Ledger wallets cost Singapore users $2.7M: Police",
+        "link": "https://cointelegraph.com/news/tampered-ledger-wallets-cost-singapore-users-27m-police?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "Ripple wins final US approval for national trust bank",
-        "link": "https://cointelegraph.com/news/ripple-wins-final-us-approval-for-national-trust-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Fed’s hawkish rate hold keeps pressure on Bitcoin: Analysts",
+        "link": "https://cointelegraph.com/markets/bitcoin-faces-fresh-pressure-after-feds-hawkish-rate-hold-analysts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "source": "Cointelegraph",
-        "title": "US OCC calls on community banks to become payment stablecoin issuers",
-        "link": "https://cointelegraph.com/news/occ-community-banks-stablecoin-issuers-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "title": "Canadian ‘crypto king’ case to go to jury as criminal trial winds down",
+        "link": "https://cointelegraph.com/news/canada-crypto-king-jury-criminal-trial-closing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   },
   "papers": {
-    "status": "error",
-    "note": "arXiv 采集 0 篇",
-    "items": []
+    "status": "success",
+    "note": "arXiv 采集 10 篇",
+    "items": [
+      {
+        "title": "Contemporaneous Transmission Networks and Systemic Risk in European Banking"
+      },
+      {
+        "title": "Optimal Order Placement under a State-Dependent Hawkes Process Limit Order Book model"
+      },
+      {
+        "title": "An Application of Geometric Riemannian Pricing Algorithm for Valuing Catastrophe Bonds in Incomplete Markets: Market-Consistent Financial Entropy and the Split of Frequency and Severity Risk Premia"
+      },
+      {
+        "title": "A Deep Learning-Driven Operator Splitting Scheme for Free Boundary Problems: An Application to American Option Pricing in Incomplete Markets"
+      },
+      {
+        "title": "Depositing More Should Not Earn Less: Supplier Income Monotonicity and Rate Curve Design in Pooled Lending Markets"
+      },
+      {
+        "title": "Simple Portfolios that Deliver Consistent Decent Returns"
+      },
+      {
+        "title": "Risk measures for infinite-server queues driven by a Cox-BESQ process"
+      },
+      {
+        "title": "The Term Structure of Implied Fee Rates in Liquidity Pools"
+      },
+      {
+        "title": "Event definition and the branching ratio: Hawkes estimates of price-change clustering in the consolidated quote feed"
+      },
+      {
+        "title": "Does Ecosystem Activity Validate TVL?"
+      }
+    ]
   },
-  "updated_at": "2026-10-27 07:06 UTC"
+  "updated_at": "2026-10-29 07:05 UTC"
 }

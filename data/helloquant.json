@@ -1,24 +1,24 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-10-29 07:05 UTC",
+  "updated": "2026-10-30 07:07 UTC",
   "status": "success",
   "last_run": {
     "date": "2026-10-29",
-    "timestamp": "2026-10-29T00:05:16.850276",
+    "timestamp": "2026-10-30T00:08:23.880115",
     "success": true,
-    "note": "采集管线最近一次运行 2026-10-29 (6/6 成功)"
+    "note": "HelloQuant 原始采集最新 2026-10-29；本卡由收盘巡检更新 (OKX 实时价)"
   },
   "crypto": {
     "status": "success",
     "btc": {
-      "price": 79939.1,
-      "change_24h": -1.24
-    },
-    "eth": {
-      "price": 2312.28,
+      "price": 78507.4,
       "change_24h": -1.82
     },
-    "note": "OKX 数据正常; BTC 79939.1 (-1.24%) / ETH 2312.28 (-1.82%)"
+    "eth": {
+      "price": 2251.7,
+      "change_24h": -2.65
+    },
+    "note": "OKX 实时: BTC 78507 (-1.82%) / ETH 2251.70 (-2.65%)"
   },
   "sentiment": {
     "crypto_fear_greed": {
@@ -28,20 +28,19 @@
   },
   "stocks": {
     "status": "success",
-    "note": "2026-10-29 A股/期货收盘数据",
+    "note": "2026-10-29 A股收盘数据",
     "data": {
       "上证指数": {
-        "price": 3651.4337,
-        "change": -0.816,
-        "volume": 443564144.0
+        "price": 3599.02,
+        "change": -1.44
       },
       "深证成指": {
-        "price": 11138.198,
-        "change": -2.92
+        "price": 10833.78,
+        "change": -2.73
       },
       "创业板指": {
-        "price": 2517.588,
-        "change": -4.447
+        "price": 2413.63,
+        "change": -4.13
       },
       "沪金主力": {
         "price": 867.4,

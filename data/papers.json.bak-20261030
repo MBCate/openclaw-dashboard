@@ -1,6 +1,421 @@
 {
-  "updated": "2026-10-28T17:15:15",
+  "updated": "2026-10-29T17:16:39",
   "papers": [
+    {
+      "title": "World Dreamer v5-lite: A Multi-Robot World Action Model with One Dreamer",
+      "id": "2610.37518",
+      "arxiv_id": "2610.37518",
+      "published": "2026-10-27",
+      "authors": "Guoning Wu, Zijian Cai, Yuhang Zhang, Ying Liu, Yongbin Zheng",
+      "summary": "Multi-robot control requires integrating distributed camera views while predicting separate action sequences. Most vision-language-action and world-action models target one robot. Combining multiple views alone does not establish spatial correspondence between them. World Dreamer v5-lite is a multi-",
+      "categories": [
+        "cs.RO"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-27",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.37518",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+      "id": "2610.37666",
+      "arxiv_id": "2610.37666",
+      "published": "2026-10-27",
+      "authors": "Chaehyun Kim, Chi-Pin Huang, Jisoo Kim, Min-Hung Chen, Yu-Chiang Frank Wang, Seungryong Kim, Fu-En Yang",
+      "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning fro",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-27",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.37666",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "Retrieve to Act: Motion Primitive Graph Retrieval for Robust VLA Execution",
+      "id": "2610.37215",
+      "arxiv_id": "2610.37215",
+      "published": "2026-10-27",
+      "authors": "Pham Tri Quang, Bao-Ngoc Dao, Minh Duc Nguyen, Duc-Duy Nguyen, Hung T. Ho, Linh Dang Le, Trong-Bao Ho, Thien-Loc Ha, Tan Q. Nguyen, Tuan Dam, Vu N. Duong, Daniel Sonntag, Ngan Le, Khoa D. Doan, Jan Peters, An Thai Le, Duy M. H. Nguyen, Vien Anh Ngo",
+      "summary": "Vision-Language-Action (VLA) policies demonstrate remarkable semantic generalization, yet remain highly vulnerable to out-of-distribution (OOD) visual shifts during execution. While existing test-time methods attempt to suppress spurious visual cues, they fundamentally overlook the rich, uncorrupted",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-27",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.37215",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "Benchmarking Obstacle-Conditioned Safety in Household Robot Navigation",
+      "id": "2610.34674",
+      "arxiv_id": "2610.34674",
+      "published": "2026-10-26",
+      "authors": "Hyunwoong Bae, Jisu Han, Jiyeon Choi, Dohoon Kim, Taesup Moon",
+      "summary": "Safe household navigation requires robots to regulate clearance and speed according to what an obstacle is and how close it is, without unnecessary conservatism. Yet existing evaluations do not test whether semantic safety distinctions are reflected in continuous motion. To that end, we introduce OS",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-26",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.34674",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "RobotAgentBench: Towards Open-world Robot Autonomy",
+      "id": "2610.34649",
+      "arxiv_id": "2610.34649",
+      "published": "2026-10-26",
+      "authors": "Lingjun Mao, Jinglin Cao, Lukun He, Wenpeng Xu, Yuchen Yan, Hengyu Jin, Zijun Zhang, Jinzhou Tang, Songyao Jin, Ziche Liu, Yifei Shao, Junbo Huang, Fang Nan, Ruobing Han, Ziqiao Xi, Ziming Xu, Shuang Liang, Sibo Zhu, Wenyi Wu, Xinyue Wang, Yiming Huang, Xinkai Zou, Gao Zhu, Kun Zhou, Biwei Huang",
+      "summary": "Recent advances in vision-language-action (VLA) and world-action models (WAMs) have significantly improved robotic manipulation, yet deploying robots in the open world demands a higher level of autonomy beyond executing predefined tasks. Robot agents offer a promising paradigm for this transition, i",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-26",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.34649",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "Robot-Aligned 3D Gaussian Splatting for Precise Reaching with Wrist-Camera VLA Policies",
+      "id": "2610.35626",
+      "arxiv_id": "2610.35626",
+      "published": "2026-10-26",
+      "authors": "Zuoxu Wang, Xiao Liang",
+      "summary": "Efficient robotic data collection remains a major bottleneck for vision-language-action (VLA) policy learning, especially for tasks requiring accurate end-effector positioning and camera-action alignment. This challenge is particularly severe in electronic-waste disassembly, where robots operate in ",
+      "categories": [
+        "cs.RO"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-26",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.35626",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "JevVLA: Jev-Inspired Energy-Based Adaptation for Vision-Language-Action Policies",
+      "id": "2610.35010",
+      "arxiv_id": "2610.35010",
+      "published": "2026-10-26",
+      "authors": "Wei Wang, Wenqiao Zhang, Zheqi Lv, Zheng Dong, Yingjie Niu, Jiaqi Zhu, Jun Xiao, Chao Li, Yueting Zhuang",
+      "summary": "Vision-language-action (VLA) policies can select among discrete candidates for pick-and-place manipulation or generate continuous action chunks for motion control. Improving both forms of decision making through a common mechanism while retaining the capabilities of a pretrained policy is an importa",
+      "categories": [
+        "cs.RO"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-26",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.35010",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "VLA-HWBench: Where the Time Goes When VLA Models Run on Edge Hardware",
+      "id": "2610.34717",
+      "arxiv_id": "2610.34717",
+      "published": "2026-10-26",
+      "authors": "Borui Xu, Hongshi Tan, Wenqi Jiang, Bingsheng He, Ming Wu, Jason Zeng, Michael Heinrich",
+      "summary": "Vision-language-action (VLA) models increasingly run on edge devices aboard robots, where inference latency constrains closed-loop robot control. However, it remains unclear how to design VLA models, their inference software and edge hardware so that robots can run VLA inference in real time. Most V",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-26",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.34717",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "Beyond Behaviour: A Stimulus-Response Safety Evaluation of Vision-Language-Action Models",
+      "id": "2610.34837",
+      "arxiv_id": "2610.34837",
+      "published": "2026-10-26",
+      "authors": "Vy Vo, Dinh Phung",
+      "summary": "Humans exhibit biological sensitivity to safety-critical stimuli that can trigger defensive action. Across three models and two video benchmarks, we investigate whether similar responses emerge in vision-language-action models by examining their internal representations and action tendencies in resp",
+      "categories": [
+        "cs.AI"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-26",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.34837",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "TRIAGE: Efficient Vision-Language-Action Inference Needs Both Reuse and Pruning",
+      "id": "2610.34519",
+      "arxiv_id": "2610.34519",
+      "published": "2026-10-25",
+      "authors": "Sooyoung Kwon, Carlee Joe-Wong, Kyunghan Lee",
+      "summary": "Vision-language-action (VLA) models are increasingly used for robot manipulation because they map camera images and a language instruction directly to actions. Robots that cannot be tethered to a workstation, such as mobile manipulators and humanoids, must run them on onboard embedded boards, where ",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-25",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.34519",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "RoboDuo: Attempt, Check and Atomic Recovery through Code for Vision-Language-Action Models",
+      "id": "2610.34108",
+      "arxiv_id": "2610.34108",
+      "published": "2026-10-25",
+      "authors": "Jie Wang, Bo Zhang, Renzhi Lu, Jianyu Chen",
+      "summary": "Vision-Language-Action (VLA) models map a language instruction and the current observation directly to actions, without checking whether the instruction has been completed. For long-horizon tasks, a single failed step therefore goes unnoticed and leaves the whole task unfinished. Such failed episode",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-25",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.34108",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience",
+      "id": "2610.34186",
+      "arxiv_id": "2610.34186",
+      "published": "2026-10-25",
+      "authors": "Yang Liu, Jiacheng Liu, Hengtao Li, Yuheng Huang, Zijian Yang, Ji Dai, Maoxin Wang, Yi Gao, Qishen Wang, Baohua Yin, Peiyang Li, Shuanghao Bai, Mingyang Sun, Pengxiang Ding, Jianqin Yin, Lixin Yang, Donglin Wang",
+      "summary": "Extending Vision-Language-Action models (VLAs) to humanoid robots requires coordinated whole-body control and diverse demonstrations that are costly to collect in real-world scenarios. Although egocentric human demonstrations provide a complementary source of task experience, differences in visual e",
+      "categories": [
+        "cs.RO"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-25",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.34186",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "Variational Cognitive Memory Abstraction for Long-Horizon Vision-Language-Action Models",
+      "id": "2610.34251",
+      "arxiv_id": "2610.34251",
+      "published": "2026-10-25",
+      "authors": "Xinyu Liu, Daiying Tian, Chenwei Tang, Ruyang Han, Chengyang Zhang, Qingyu Zeng, Wei Ju, Liangli Zhen, Jiancheng Lv",
+      "summary": "Vision-Language-Action (VLA) models have shown remarkable success in robotic manipulation, yet their ability to execute long-horizon tasks remains limited by insufficient long- term memory modeling. Existing methods either rely on implicit temporal representations within policy networks, where histo",
+      "categories": [
+        "cs.AI"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-25",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.34251",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions",
+      "id": "2610.34356",
+      "arxiv_id": "2610.34356",
+      "published": "2026-10-25",
+      "authors": "Haoyu Zhao, Xingyue Zhao, Zhian Su, Bohan Hou, Yinzhou Tang, Fengyi Wang, Kehan Li, Yuming Jiang, Siteng Huang, Xin Li, Zhenyu Zeng, Mingxiu Chen, Deli Zhao, Zhongyu Li",
+      "summary": "Scaling vision-language-action (VLA) models is constrained by scarce action-labeled demonstrations and incompatible control spaces across robot embodiments. We present RynnVLA-Latent, a framework that turns heterogeneous interaction videos into scalable supervision for robot policy pretraining. At i",
+      "categories": [
+        "cs.RO"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-25",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.34356",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "TAD: Distilling Vision-Language-Action Policies from Teacher Trajectories Alone",
+      "id": "2610.33650",
+      "arxiv_id": "2610.33650",
+      "published": "2026-10-24",
+      "authors": "Yun Zhu, Da Wang",
+      "summary": "Online distillation of vision-language-action (VLA) policies commonly relies on teacher action scores that an inference-only interface may not expose. Trajectory-only Adversarial Distillation (\\gad{}) instead turns a fixed bank of teacher joint-position features into adaptive feedback: a discriminat",
+      "categories": [
+        "cs.AI"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-24",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.33650",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models",
+      "id": "2610.33685",
+      "arxiv_id": "2610.33685",
+      "published": "2026-10-24",
+      "authors": "Qingyuan Cai, Bo Zhang, Yongzhen Huang, Jianyu Chen",
+      "summary": "Vision-Language-Action (VLA) models are bottlenecked by the scarcity of robot data. Egocentric human manipulation videos offer an abundant, diverse, and semantically-rich alternative that inherently captures manipulation intent. However, the embodiment gap makes it difficult to extract action-releva",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-24",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.33685",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning",
+      "id": "2610.37378",
+      "arxiv_id": "2610.37378",
+      "published": "2026-10-27",
+      "authors": "Bojun Zou, Wenhao Yu, Jiaohao Li, Jiaxuan Lin, Guanting Ye, Haohan Geng, Weihao Yu, Yanyong Zhang, Jianmin Ji",
+      "summary": "Vision-Language-Action (VLA) models integrate high-level reasoning with low-level action execution for end-to-end robotic control. However, most VLA models target static manipulation in unconstrained environments, overlooking spatial constraints and dynamic obstacles. Fine-tuning VLAs on obstacle-av",
+      "categories": [
+        "cs.RO"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-27",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.37378",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "Vision-Language-Action or World-Action? Just Action Models",
+      "id": "2610.37219",
+      "arxiv_id": "2610.37219",
+      "published": "2026-10-27",
+      "authors": "Yonghao Yu, Lang Huang, Runyi Li, Toshihiko Yamasaki",
+      "summary": "The vision-language-action (VLA) and world-action model (WAM) communities debate whether control policies should inherit pretrained knowledge from vision-language models or from visual generators. The debate, however, bundles three separable choices: backbone initialization, the objective applied to",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-27",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.37219",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
+      "id": "2610.37381",
+      "arxiv_id": "2610.37381",
+      "published": "2026-10-27",
+      "authors": "Hanqing Wang, Zhaotian Cai, Ruichuan An, Bohan Zeng, Tao Zhang, Yilin Chen, Xu Jiang, Kaiquan Chen, Chongyang Wu, Haoran Li, Fan Yang, Mingan Lin, Wentao Zhang, Zenan Zhou, Youzheng Wu",
+      "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "topic": "vla-autonomous-driving",
+      "date": "2026-10-27",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.37381",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 3,
+      "reason": "VLA 方法可迁移到驾驶"
+    },
+    {
+      "title": "Program-Level Adversarial Co-Adaptive Self-Play for Robotic Security",
+      "id": "2610.36143",
+      "arxiv_id": "2610.36143",
+      "published": "2026-10-26",
+      "authors": "Leo Benaharon, Chi Zhang, Wei Zheng, Weifan Zhang, Yifan Wei",
+      "summary": "Coding agents can adapt robotic software by revising executable programs, but successful responses to an evolving opponent may not remain effective. We present a framework for program-level adversarial co-adaptive self-play in which coding agents generate attacks and defenses from tested opponent co",
+      "categories": [
+        "cs.RO"
+      ],
+      "topic": "e2e-autonomous-driving",
+      "date": "2026-10-26",
+      "status": "新发现",
+      "status_en": "new",
+      "url": "https://arxiv.org/abs/2610.36143",
+      "in_kb": false,
+      "in_dashboard": true,
+      "score": 4,
+      "reason": "自动驾驶核心相关"
+    },
     {
       "title": "Model-Aware Generation of Safety-Critical Scenes for Robust End-to-End Driving via Distilled Planner Surrogates",
       "id": "2610.35448",
@@ -26181,5 +26596,6 @@
     "generated_at": "2026-10-24T19:01:47.400382-07:00",
     "total_papers": 1536
   },
-  "new_findings": 9
+  "new_findings": 9,
+  "last_scan": "2026-10-29T17:16:39"
 }

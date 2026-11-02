@@ -1,6 +1,331 @@
 {
- "updated": "2026-10-31T19:02:42-07:00",
+ "updated": "2026-11-01T16:10:44-08:00",
  "papers": [
+  {
+   "title": "Agentic LinkDreamer: Adaptive Neuro-Fuzzy World-Model Decision Making for Intermittent V2X Cooperative Perception",
+   "id": "2610.39258v1",
+   "arxiv_id": "2610.39258v1",
+   "published": "2026-10-29",
+   "authors": "Zhaoyu Liu, Dongmin Wang, Liu Cao, Jijing Cai, Kai Fang, Syed Ishtiaque Ahmed, Almetwally M. Mostafa",
+   "summary": "Intermittent vehicle-to-everything (V2X) communication can remove collaborator information needed for cooperative perception, degrading object detection during link outages. Existing recovery methods reconstruct missing features but rarely determine when to trust predictions, reuse historical observations, or request fresh information. This paper proposes Agentic LinkDreamer, a soft-computing framework integrating a latent world model with an interpretable neuro-fuzzy decision agent. It maintains causal collaborator memory and uses a relative-motion-conditioned recurrent world model to predict",
+   "categories": [
+    "cs.NI"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-29",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.39258v1",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "reason": "世界模型 + 车路协同感知，直接面向自动驾驶 V2X 中断恢复"
+  },
+  {
+   "title": "world2vec: Mechanistic world models through latent dynamics learning",
+   "id": "2610.40637v1",
+   "arxiv_id": "2610.40637v1",
+   "published": "2026-10-29",
+   "authors": "Tobias Schmidt, Rodrigo Gonzalez Laiz, Krisztián Szuppinger, Steffen Schneider",
+   "summary": "World models can achieve strong control performance without faithfully capturing the dynamics of their environment, limiting their potential for mechanistic interpretability and scientific discovery. Here, we introduce world2vec to learn mechanistic world models without reward information directly from observations and actions. World2vec learns latent dynamics that faithfully reproduce the true system over long prediction horizons, with at least one order of magnitude fewer parameters than DreamerV3, TD-MPC2 and LeWM. This enables state of the art performance in controlling continuous environm",
+   "categories": [
+    "cs.LG"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-29",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.40637v1",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4,
+   "reason": "无奖励机制性世界模型，潜动力学可解释"
+  },
+  {
+   "title": "Bayesian Offline Multi-Agent Reinforcement Learning with Latent World Models",
+   "id": "2610.39576v1",
+   "arxiv_id": "2610.39576v1",
+   "published": "2026-10-29",
+   "authors": "Xi Xiong, Lu Liu, Yiming Li, Jakob Foerster",
+   "summary": "Model-based offline multi-agent reinforcement learning (MARL) provides a promising approach to multi-agent decision-making under partial observability, where the global state is unavailable from offline data. However, limited dataset coverage can lead to substantial out-of-distribution (OOD) model errors, which may mislead policy optimization and degrade downstream performance. Existing model-based offline MARL methods typically rely on access to global states or mitigate model errors through pessimistic or conservative policy optimization, leaving the reliability and refinement of learned wor",
+   "categories": [
+    "cs.MA"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-29",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.39576v1",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "贝叶斯离线 MARL + 潜世界模型"
+  },
+  {
+   "title": "BEVLight: Generalizable Traffic Signal Control from UAV Bird's-Eye Views",
+   "id": "2610.39320v1",
+   "arxiv_id": "2610.39320v1",
+   "published": "2026-10-29",
+   "authors": "Maonan Wang, Yuxin Cai, Junming Liu, Zhengyan Huang, Yi Yu, Ding Wang, Yifeng Zhang, Yirong Chen",
+   "summary": "Learning-based traffic signal control (TSC) has achieved promising performance, but most methods rely on structured traffic states that must be estimated from sensor observations in real deployments. Visual TSC learns signal decisions directly from images, yet existing methods depend on fixed roadside cameras and remain tied to specific intersection configurations and visual domains. UAVs offer on-demand bird's-eye-view (BEV) observations that jointly capture intersection topology and traffic dynamics, making them a promising sensing platform for visual TSC. We present BEVLight, a generalizabl",
+   "categories": [
+    "eess.SY",
+    "cs.LG"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-29",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.39320v1",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "UAV 鸟瞰视角信号灯控制，BEV 感知相关"
+  },
+  {
+   "title": "Structural-Test Geometry as an Inductive Bias for Partially Observable World Models",
+   "id": "2610.38903v1",
+   "arxiv_id": "2610.38903v1",
+   "published": "2026-10-28",
+   "authors": "Todd Y. Zhou",
+   "summary": "Predictive world-model objectives need not organize latent histories according to distinctions required for later control. With privileged simulator access during training, should response-derived structural information be predicted, decoded, or imposed directly on latent geometry--and how do these choices compare with structured belief distillation? We define posterior-marginalized structural tests whose response distributions induce a pseudometric over histories, then train quotient-preserving (QP) world models by aligning shared latent Euclidean distances to that metric. Across a fixed six-",
+   "categories": [
+    "cs.LG"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-28",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.38903v1",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "部分可观测世界模型的潜空间几何归纳偏置"
+  },
+  {
+   "title": "Cinematize from Unreal: Agentic Choreography for Controllable World Simulation",
+   "id": "2610.38468v1",
+   "arxiv_id": "2610.38468v1",
+   "published": "2026-10-28",
+   "authors": "Zifan Song, Caihua Shan, Kaitao Song, Yifan Yang, Dongsheng Li, Cairong Zhao",
+   "summary": "Controllable world simulation requires more than visually plausible frames: scenes must retain persistent state, coordinated actions, and editable temporal structure. Generative world models offer flexible visual synthesis, but their outputs do not always expose the objects and transitions needed for precise revision. Graphics engines provide executable state and direct control, yet translating language into valid operations requires specialized knowledge of assets, geometry, and interdependent APIs. We present CineU (Cinematize from Unreal), an agentic system for language-driven world orchest",
+   "categories": [
+    "cs.MA"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-28",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.38468v1",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "智能体编排的可控世界仿真"
+  },
+  {
+   "title": "SO-101 Bench: Accessible Spatial Manipulation",
+   "id": "2610.36420v1",
+   "arxiv_id": "2610.36420v1",
+   "published": "2026-10-27",
+   "authors": "Truman Hickok",
+   "summary": "Low-cost arms such as the SO-101 have become the most common entry point to robot learning, yet no released policy performs spatially constrained, language-conditioned tasks on them out of the box, and existing SO-101 benchmarks run only on physical hardware with simple tasks and few held-out objects. We introduce SO-101 Bench, a simulated benchmark for language-conditioned spatial manipulation built on an Isaac Lab digital twin of a real SO-101 setup. It has four tasks scored as five families, 138 objects in seen, unseen-instance and unseen-class splits, 916 evaluation episodes with subsets f",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.36420v1",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "低成本机械臂语言条件空间操作基准"
+  },
+  {
+   "title": "Robotic Optical Coherence Tomography-Guided Geometric Modeling of Soft Tissue: 3D Representations for Data-Driven Closed-Loop Shape Control",
+   "id": "2610.32961v1",
+   "arxiv_id": "2610.32961v1",
+   "published": "2026-10-23",
+   "authors": "Chaoyu Zhang, Guangshen Ma, Mark Draelos",
+   "summary": "In medical robotics, data-driven soft-tissue shape control requires deforming tissue toward desired morphologies through sequential physical interactions. This challenge is particularly important in microscale manipulation, where localized deformation is difficult to observe, represent, and control, while physics-based models can be computationally expensive and difficult to adapt to realistic environments. Optical coherence tomography (OCT) provides high-resolution volumetric perception of tissue deformation, but target-conditioned control requires effective representations of both observed a",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-23",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.32961v1",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "扩散策略用于软组织形状闭环控制"
+  },
+  {
+   "title": "Decentralized Multi-View, Multi-Zone Tracking for Scalable Camera Networks",
+   "id": "2610.33069v1",
+   "arxiv_id": "2610.33069v1",
+   "published": "2026-10-20",
+   "authors": "David Voihanski, Mor Sinai, Ben Zion Bobrovsky",
+   "summary": "We present a decentralized multi-view tracking system for scalable camera networks. Single-view detections are projected to bird's-eye-view (BEV) coordinates and fused by independent multi-view trackers, each managing a dynamic spatial zone. To support scalability across spatially partitioned camera networks, we introduce a decentralized layer for trajectory unification, utilizing a locking protocol and periodic track-merging operations termed global collate. This process is supported by a delayed-output buffering mechanism that retroactively applies history corrections. The configurable delay",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-20",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.33069v1",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "多相机 BEV 融合去中心化跟踪"
+  },
+  {
+   "title": "What Novice Operators See Changes What the Policy Learns: A User Study of Keypoint Hand Visual Representation for Teleoperated Demonstration",
+   "id": "2610.27907v1",
+   "arxiv_id": "2610.27907v1",
+   "published": "2026-10-20",
+   "authors": "Amane Yamaguchi, Shohei Kamiguchi, Masashi Hamaya, Shigeo Yoshida, Takuji Narumi, Mai Nishimura",
+   "summary": "Imitation learning increasingly relies on novice operators, whose demonstrations fall short of experts' in number and inter-trial consistency. Operators act on what they are shown, yet how the rendering of the robot affects their demonstrations, and the policies trained on them, has not been examined. We study this question with PointHand, a teleoperation interface that renders a multi-fingered robot hand as sparse keypoints at its fingertips and joints, the same keypoints a policy can observe. In a simulated mug-in-box task, 18 novices and 4 experts collected 2,200 trials under three renderin",
+   "categories": [
+    "cs.RO",
+    "cs.HC"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-20",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.27907v1",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "示教表示对模仿学习策略的影响"
+  },
+  {
+   "title": "Learning to Be Different: Component Specialization for Compositional Diffusion Policies",
+   "id": "2610.27194v1",
+   "arxiv_id": "2610.27194v1",
+   "published": "2026-10-19",
+   "authors": "Alec Laprevotte, Haonan Chen, Xiaoshen Han, Yilun Du",
+   "summary": "Diffusion policies with linearly composed scores have emerged as a promising approach to multitask robotic learning by combining separate factors to enable modular, task-wise adaptation, compositional generalization, and interpretable functional decomposition. However, current training objectives do not encourage factor specialization, often resulting in uninterpretable denoisers whose composed prediction is an average over identical copies, undermining their architectural premise. To address this, we propose a drop-in score-decorrelation auxiliary loss, motivated by projective composition the",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-19",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.27194v1",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4,
+   "reason": "扩散策略组分特化，规划相关"
+  },
+  {
+   "title": "Humanoid SRL: Augmenting Humanoids with Supernumerary Limbs for Coordinated Loco-Manipulation",
+   "id": "2610.25628v1",
+   "arxiv_id": "2610.25628v1",
+   "published": "2026-10-19",
+   "authors": "Fukang Liu, Feiyang Wu, Paul Barsa, Jaehwi Jang, Akshat Jain, Zhigen Zhao, Yipu Chen, Zhaoyuan Gu, Nikhil Vemuri, Anshul Chandaliya, Kaijie Zhu, Sean Lublinsky, Matthew Zhu, Tony G. Chen, Ye Zhao",
+   "summary": "Humanoid robots are envisioned to perform diverse human-level tasks through their anthropomorphic morphology. Their dual-arm configuration enables a broad range of everyday actions. Yet, as in humans, this morphology can constrain loco-manipulation when both arms are occupied or additional contacts are required beyond their reach. Supernumerary robotic limbs (SRLs) offer a way to extend these capabilities, but their integration requires the added limb to be coordinated with whole-body motion and balance. In this study, we develop and integrate a supernumerary arm into a humanoid platform to in",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-19",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.25628v1",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "人形机器人超级肢体协调 loco-manipulation"
+  },
+  {
+   "title": "PASS-VLN: Passability-Aware Local-Command Vision-and-Language Navigation",
+   "id": "2610.22812v1",
+   "arxiv_id": "2610.22812v1",
+   "published": "2026-10-16",
+   "authors": "Cong Zou, Xiangsheng Shi, Xuanhui Wang, Fubin Wang, Guangjun Ge, Chao Wang, Yu Wang",
+   "summary": "Reliable vision-and-language navigation (VLN) requires not only understanding instructions but also determining whether and how a robot can physically execute them. However, existing VLN benchmarks typically assume executable instructions and focus on long-horizon tasks. This leaves body-dependent local execution, including passability and collision-free execution, largely unexamined. Evaluating these factors within long-horizon tasks would entangle local physical execution with task planning and long-term spatial memory, making navigation failures difficult to attribute. We therefore focus on",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-16",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.22812v1",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "可通过性感知 VLN，具身导航"
+  },
+  {
+   "title": "Thinking from Above: Efficient Spatial Reasoning with Bird's-Eye-View Visual Tokens",
+   "id": "2610.22700v1",
+   "arxiv_id": "2610.22700v1",
+   "published": "2026-10-15",
+   "authors": "Faizan Siddiqui, Nirav Savaliya, Sahith Reddy Chada, Enna Sachdeva",
+   "summary": "Existing video multimodal large language models (MLLMs) organize observations primarily in time, but embodied spatial reasoning requires organizing them in space. Consequently, their visual representations can remain locally consistent across nearby frames while lacking a persistent spatial context that is stable across viewpoints and time. We exploit depth and camera pose, which are naturally available to embodied agents, to explicitly establish this spatial correspondence. We introduce Cambrian-BEV, which extends Cambrian-S with a parameter-free geometric tokenization scheme that back-projec",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-15",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.22700v1",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4,
+   "reason": "BEV 视觉 token 用于具身空间推理"
+  },
+  {
+   "title": "MonoMIP: Multi-Height Inverse Perspective Mapping for Monocular 3D Object Detection",
+   "id": "2610.19071v1",
+   "arxiv_id": "2610.19071v1",
+   "published": "2026-10-13",
+   "authors": "Emir Ulurak, Furkan Kıraç",
+   "summary": "Monocular 3D object detection methods increasingly rely on depth-guided transformers, but they operate entirely in the perspective image plane where spatial relationships are distorted by foreshortening. We propose MonoMIP, a dual-decoder framework that adds complementary 3D geometric reasoning through Bird's-Eye View (BEV) features constructed via Multi-Height Inverse Perspective Mapping. We perform IPM at K elevation planes spanning ground to rooftop, producing an ordered stack of height-conditioned metric BEV features that reduces above-ground misprojection and exposes depth-dependent appea",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-13",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.19071v1",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4,
+   "reason": "BEV 几何先验用于单目 3D 检测，自动驾驶感知"
+  },
+  {
+   "title": "DiffNash: Finding Nash Equilibrium in High-Dimensional Continuous Action Spaces with Diffusion Policies",
+   "id": "2610.15932v1",
+   "arxiv_id": "2610.15932v1",
+   "published": "2026-10-11",
+   "authors": "Haichuan Wang, Anagha Satish, Jiale Zheng, Saisneha Ghatti, Lingkai Kong, Kai Wang, Milind Tambe",
+   "summary": "Computing equilibria in high-dimensional continuous games requires learning and representing rich, multi-modal strategy distributions, something conventional neural policies struggle to achieve. Diffusion models offer a natural solution, but standard diffusion training requires direct samples from a fixed target distribution, which are generally unavailable under iterative game-solving updates. We propose a diffusion-based framework for equilibrium computation that enables diffusion-based variants of Online Mirror Descent (OMD) and Fictitious Play (FP). Our approach derives a reweighted score-",
+   "categories": [
+    "cs.LG",
+    "cs.AI",
+    "cs.GT",
+    "cs.MA"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-11",
+   "status": "新发现",
+   "status_en": "new",
+   "url": "https://arxiv.org/abs/2610.15932v1",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "reason": "扩散策略求连续动作空间纳什均衡"
+  },
   {
    "title": "A Unified Benchmark for Aerial-Enhanced Autonomous Driving: The KITScenes Aerial Dataset",
    "id": "2610.40455v1",
@@ -30482,11 +30807,11 @@
    "reason": "自动驾驶核心方向"
   }
  ],
- "updated_at": "2026-10-31T17:11:08-07:00",
- "last_updated": "2026-10-31T17:11:08-07:00",
+ "updated_at": "2026-11-01T16:10:44-08:00",
+ "last_updated": "2026-11-01T16:10:44-08:00",
  "category_counts": {
-  "e2e-autonomous-driving": 400,
-  "world-models-ad": 318,
+  "world-models-ad": 323,
+  "e2e-autonomous-driving": 411,
   "vla-autonomous-driving": 255,
   "robotics": 1,
   "Planning": 29,
@@ -30561,7 +30886,7 @@
   "World Models / Imitation Learning": 1,
   "Motion Planning": 1
  },
- "total_papers": 1642,
+ "total_papers": 1658,
  "weekly": {
   "week": "2026-10-18 ~ 2026-10-24",
   "report": "weekly/2026-10-24-weekly-summary.md",
@@ -30575,6 +30900,6 @@
   "generated_at": "2026-10-24T19:01:47.400382-07:00",
   "total_papers": 1536
  },
- "new_findings": 9,
- "last_scan": "2026-10-29T17:16:39"
+ "new_findings": 715,
+ "last_scan": "2026-11-01T16:10:44-08:00"
 }

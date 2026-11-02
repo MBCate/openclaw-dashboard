@@ -1,0 +1,158 @@
+{
+  "date": "2026-11-02",
+  "time": "午盘",
+  "fetched_at": "2026-11-02T11:35:20.939964+08:00",
+  "indices": {
+    "上证指数": {
+      "code": "sh000001",
+      "price": 3640.9301,
+      "change": 41.91,
+      "change_pct": 1.16
+    },
+    "深证成指": {
+      "code": "sz399001",
+      "price": 11092.389,
+      "change": 258.6,
+      "change_pct": 2.39
+    },
+    "创业板指": {
+      "code": "sz399006",
+      "price": 2492.914,
+      "change": 79.29,
+      "change_pct": 3.28
+    },
+    "沪深300": {
+      "code": "sh000300",
+      "price": 4035.7241,
+      "change": 50.22,
+      "change_pct": 1.26
+    },
+    "上证50": {
+      "code": "sh000016",
+      "price": 2762.3569,
+      "change": 20.25,
+      "change_pct": 0.74
+    },
+    "中证500": {
+      "code": "sh000905",
+      "price": 6429.6521,
+      "change": 163.47,
+      "change_pct": 2.61
+    },
+    "科创50": {
+      "code": "sh000688",
+      "price": 1195.0801,
+      "change": 34.24,
+      "change_pct": 2.95
+    },
+    "中证1000": {
+      "code": "sh000852",
+      "price": 6330.9843,
+      "change": 169.76,
+      "change_pct": 2.76
+    },
+    "北证50": {
+      "code": "bj899050",
+      "price": 903.682,
+      "change": 17.94,
+      "change_pct": 2.03
+    }
+  },
+  "hang_seng": {
+    "name": "恒生指数",
+    "price": 23294.42,
+    "change": -7.32,
+    "change_pct": -0.03,
+    "time": "2026/11/02"
+  },
+  "sectors": {
+    "top5": [
+      {
+        "name": "传媒娱乐",
+        "change_pct": 5.7302713376728,
+        "turnover": 11018153538.0,
+        "leader": "华策影视"
+      },
+      {
+        "name": "电子信息",
+        "change_pct": 4.4739950723953,
+        "turnover": 83343827699.0,
+        "leader": "银之杰"
+      },
+      {
+        "name": "玻璃行业",
+        "change_pct": 3.456379918149,
+        "turnover": 5073008495.0,
+        "leader": "亚玛顿"
+      },
+      {
+        "name": "酿酒行业",
+        "change_pct": 3.4008887753333,
+        "turnover": 21586565066.0,
+        "leader": "水井坊"
+      },
+      {
+        "name": "电器行业",
+        "change_pct": 3.2994664132739,
+        "turnover": 16144410060.0,
+        "leader": "阳光电源"
+      }
+    ],
+    "bottom5": [
+      {
+        "name": "煤炭行业",
+        "change_pct": -0.89529289221765,
+        "turnover": 8920797503.0,
+        "leader": "神州数码"
+      },
+      {
+        "name": "石油行业",
+        "change_pct": 0.13707079706669,
+        "turnover": 4552739538.0,
+        "leader": "岳阳兴长"
+      },
+      {
+        "name": "家具行业",
+        "change_pct": 0.22792355794518,
+        "turnover": 1175150142.0,
+        "leader": "ST喜临门"
+      },
+      {
+        "name": "公路桥梁",
+        "change_pct": 0.49666178146882,
+        "turnover": 1552999963.0,
+        "leader": "中原高速"
+      },
+      {
+        "name": "供水供气",
+        "change_pct": 0.51116333725029,
+        "turnover": 1310745701.0,
+        "leader": "德龙汇能"
+      }
+    ],
+    "count": 49,
+    "source": "sina"
+  },
+  "northbound": {
+    "net": null,
+    "unit": "亿元",
+    "note": "沪深港通实时净流入自2024-08起停止披露"
+  },
+  "southbound": [
+    {
+      "board": "港股通(沪)",
+      "net": 420.0
+    },
+    {
+      "board": "港股通(深)",
+      "net": 420.0
+    }
+  ],
+  "breadth": {
+    "up": 4782,
+    "down": 714,
+    "flat": 80,
+    "total": 5576
+  },
+  "note": "午盘数据 (新浪实时指数+行业板块, 东财接口异常已降级)"
+}

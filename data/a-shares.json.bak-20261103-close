@@ -1,0 +1,118 @@
+{
+  "indices": {
+    "上证指数": {
+      "code": "000001",
+      "price": 3638.03,
+      "change": 39.01,
+      "change_pct": 1.08
+    },
+    "深证成指": {
+      "code": "399001",
+      "price": 11010.68,
+      "change": 176.89,
+      "change_pct": 1.63
+    },
+    "创业板指": {
+      "code": "399006",
+      "price": 2458.7,
+      "change": 45.07,
+      "change_pct": 1.87
+    },
+    "沪深300": {
+      "code": "000300",
+      "price": 4016.92,
+      "change": 31.42,
+      "change_pct": 0.79
+    },
+    "上证50": {
+      "code": "000016",
+      "price": 2762.54,
+      "change": 20.43,
+      "change_pct": 0.75
+    },
+    "中证500": {
+      "code": "000905",
+      "price": 6420.23,
+      "change": 154.04,
+      "change_pct": 2.46
+    },
+    "科创50": {
+      "code": "000688",
+      "price": 1196.94,
+      "change": 36.1,
+      "change_pct": 3.11
+    },
+    "中证1000": {
+      "code": "000852",
+      "price": 6329.34,
+      "change": 168.11,
+      "change_pct": 2.73
+    }
+  },
+  "hang_seng": {
+    "name": "恒生指数",
+    "price": 23393.32,
+    "change": 98.9,
+    "change_pct": 0.42,
+    "time": ""
+  },
+  "total_turnover_yi": 9996.25,
+  "total_volume_shares": 0.0,
+  "sectors": {
+    "top5": [
+      {
+        "name": "教育运营及其他",
+        "change_pct": 9.25
+      },
+      {
+        "name": "视频媒体",
+        "change_pct": 5.64
+      },
+      {
+        "name": "蓄电池及其他电池",
+        "change_pct": 5.18
+      },
+      {
+        "name": "文字媒体",
+        "change_pct": 5.02
+      },
+      {
+        "name": "涂料",
+        "change_pct": 4.4
+      }
+    ],
+    "bottom5": [
+      {
+        "name": "半导体设备",
+        "change_pct": -4.0
+      },
+      {
+        "name": "医疗研发外包",
+        "change_pct": -3.99
+      },
+      {
+        "name": "诊断服务",
+        "change_pct": -3.7
+      },
+      {
+        "name": "通信网络设备及器件",
+        "change_pct": -3.39
+      },
+      {
+        "name": "半导体材料",
+        "change_pct": -2.96
+      }
+    ]
+  },
+  "breadth": {
+    "up": 3303,
+    "down": 2135,
+    "flat": 132
+  },
+  "north_money": null,
+  "north_money_note": "沪深港通北向资金自2024-08起已停止实时披露，接口不可用",
+  "date": "2026-11-03",
+  "time": "noon",
+  "fetched_at": "2026-11-03T03:36:52Z",
+  "note": "数据源: AkShare(新浪指数日线含今日实时 + 东财行业板块 spot)。北向资金已暂停披露。"
+}

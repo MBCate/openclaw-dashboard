@@ -1,0 +1,306 @@
+{
+  "source": "~/trading/helloquant",
+  "updated": "2026-11-02 07:06 UTC",
+  "status": "success",
+  "last_run": {
+    "date": "2026-11-02",
+    "timestamp": "2026-11-01T23:05:42.638488",
+    "success": true,
+    "note": "采集管线最近一次运行 2026-11-02 (6/6 成功，A股收盘后执行)"
+  },
+  "crypto": {
+    "status": "success",
+    "btc": {
+      "price": 78208.9,
+      "change_24h": 0.33
+    },
+    "eth": {
+      "price": 2288.77,
+      "change_24h": 0.87
+    },
+    "note": "OKX 数据正常; BTC 78208.9 (+0.33%) / ETH 2288.77 (+0.87%)"
+  },
+  "sentiment": {
+    "crypto_fear_greed": {
+      "value": 37,
+      "classification": "Fear"
+    }
+  },
+  "stocks": {
+    "status": "success",
+    "note": "2026-11-02 A股收盘数据",
+    "data": {
+      "上证指数": {
+        "price": 3638.031,
+        "change": 1.084,
+        "volume": 565372836.0
+      },
+      "深证成指": {
+        "price": 11010.678,
+        "change": 1.633
+      },
+      "创业板指": {
+        "price": 2458.698,
+        "change": 1.867
+      },
+      "沪金主力": {
+        "price": 855.18,
+        "change": -1.39,
+        "date": "2026-10-30"
+      },
+      "沪银主力": {
+        "price": 12093.0,
+        "change": -4.64,
+        "date": "2026-10-30"
+      },
+      "沪铜主力": {
+        "price": 108050.0,
+        "change": -0.56,
+        "date": "2026-10-30"
+      },
+      "螺纹钢主力": {
+        "price": 3030.0,
+        "change": -0.85,
+        "date": "2026-10-30"
+      },
+      "沪深300期货": {
+        "price": 3928.0,
+        "change": -1.32,
+        "date": "2026-10-30"
+      },
+      "中证500期货": {
+        "price": 6187.2,
+        "change": -2.94,
+        "date": "2026-10-30"
+      },
+      "50ETF波动率": {
+        "value": 15.82,
+        "date": "2026-10-30"
+      }
+    }
+  },
+  "signals": {
+    "DoubleMa": {
+      "1h": {
+        "signal": "观望",
+        "price": 78231.5
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 78231.5
+      }
+    },
+    "RSI": {
+      "1h": {
+        "signal": "观望",
+        "price": 78231.5
+      },
+      "4h": {
+        "signal": "做空",
+        "price": 78231.5
+      }
+    },
+    "MACD": {
+      "1h": {
+        "signal": "观望",
+        "price": 78231.5
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 78231.5
+      }
+    },
+    "Bollinger": {
+      "1h": {
+        "signal": "观望",
+        "price": 78231.5
+      },
+      "4h": {
+        "signal": "做空",
+        "price": 78231.5
+      }
+    },
+    "Supertrend": {
+      "1h": {
+        "signal": "观望",
+        "price": 78231.5
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 78231.5
+      }
+    },
+    "TripleMa": {
+      "1h": {
+        "signal": "观望",
+        "price": 78231.5
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 78231.5
+      }
+    },
+    "Momentum": {
+      "1h": {
+        "signal": "观望",
+        "price": 78231.5
+      },
+      "4h": {
+        "signal": "做多",
+        "price": 78231.5
+      }
+    },
+    "MeanReversion": {
+      "1h": {
+        "signal": "观望",
+        "price": 78231.5
+      },
+      "4h": {
+        "signal": "做空",
+        "price": 78231.5
+      }
+    }
+  },
+  "strategies": [
+    {
+      "name": "DoubleMa",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "TripleMa",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Supertrend",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "RSI",
+      "signal_1h": "观望",
+      "signal_4h": "做空",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "MACD",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Bollinger",
+      "signal_1h": "观望",
+      "signal_4h": "做空",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Momentum",
+      "signal_1h": "观望",
+      "signal_4h": "做多",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "MeanReversion",
+      "signal_1h": "观望",
+      "signal_4h": "做空",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    }
+  ],
+  "news": {
+    "status": "success",
+    "note": "RSS 采集 5 条",
+    "items": [
+      {
+        "source": "Cointelegraph",
+        "title": "BTCPay Server warns of hot wallet thefts running on outdated software",
+        "link": "https://cointelegraph.com/news/btcpay-server-hot-wallet-thefts-older-versions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Bank of Korea probes financial firms’ exposure to crypto risks",
+        "link": "https://cointelegraph.com/news/bank-of-korea-probes-financial-firms-exposure-to-crypto-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "THORChain halts swaps after block reorg bug, slowing Binance hackers",
+        "link": "https://cointelegraph.com/news/thorchain-halts-swaps-after-block-reorg-bug-slowing-binance-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Binance net outflows surge to $5.8B as withdrawals resume after record hack",
+        "link": "https://cointelegraph.com/news/binance-net-outflows-surge-to-58b-as-withdrawals-resume-after-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "THORChain founder rejects freeze request, CZ thanks Secret Service: Hodler’s Digest",
+        "link": "https://cointelegraph.com/magazine/36b-flees-binance-on-reopen-thorchain-co-founder-opposes-coin-freeze-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      }
+    ]
+  },
+  "papers": {
+    "status": "success",
+    "note": "arXiv 采集 10 篇",
+    "items": [
+      {
+        "title": "Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products"
+      },
+      {
+        "title": "When is the deepest drawdown also the longest?"
+      },
+      {
+        "title": "A New GAUSS Software Component for Implementing Dynamic Tests of Contagion with an Application"
+      },
+      {
+        "title": "QBX: A Compiler for Well-Formed, Auditable Alpha Programs"
+      },
+      {
+        "title": "Expected shortfall estimation and capital coverage under overlapping scenarios"
+      },
+      {
+        "title": "Neural Network Methods in the 2BSDE Formalism for Solving the High-Dimensional Black--Scholes Equation with Transaction Costs"
+      },
+      {
+        "title": "Exponential Convergence of the Lifted Gradient Flow of the Bass Functional"
+      },
+      {
+        "title": "Comparing tail forecasts: the number of exceedances is the sample size"
+      },
+      {
+        "title": "The Generalised Kessler Syndrome and the Persian Gulf"
+      },
+      {
+        "title": "Strong rate for one-dimensional driftless continuous strict local martingales"
+      }
+    ]
+  },
+  "updated_at": "2026-11-02 07:06 UTC"
+}

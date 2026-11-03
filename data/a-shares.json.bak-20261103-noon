@@ -1,0 +1,128 @@
+{
+  "indices": {
+    "上证指数": {
+      "code": "000001",
+      "price": 3638.03,
+      "change": 39.01,
+      "change_pct": 1.08
+    },
+    "深证成指": {
+      "code": "399001",
+      "price": 11010.68,
+      "change": 176.89,
+      "change_pct": 1.63
+    },
+    "创业板指": {
+      "code": "399006",
+      "price": 2458.7,
+      "change": 45.07,
+      "change_pct": 1.87
+    },
+    "沪深300": {
+      "code": "000300",
+      "price": 4016.92,
+      "change": 31.42,
+      "change_pct": 0.79
+    },
+    "上证50": {
+      "code": "000016",
+      "price": 2762.54,
+      "change": 20.43,
+      "change_pct": 0.74
+    },
+    "中证500": {
+      "code": "000905",
+      "price": 6420.23,
+      "change": 154.04,
+      "change_pct": 2.46
+    },
+    "科创50": {
+      "code": "000688",
+      "price": 1196.94,
+      "change": 36.1,
+      "change_pct": 3.11
+    },
+    "中证1000": {
+      "code": "000852",
+      "price": 6329.34,
+      "change": 168.11,
+      "change_pct": 2.73
+    }
+  },
+  "hang_seng": {
+    "name": "恒生指数",
+    "price": 23416.35,
+    "change": 121.93,
+    "change_pct": 0.52,
+    "time": ""
+  },
+  "total_turnover_yi": 17836.9,
+  "total_volume_shares": 0.0,
+  "sectors": {
+    "top5": [
+      {
+        "name": "广播、电视、电影和影视录音制作业",
+        "change_pct": 8.96,
+        "turnover": 136.39
+      },
+      {
+        "name": "新闻和出版业",
+        "change_pct": 8.89,
+        "turnover": 130.59
+      },
+      {
+        "name": "其他金融业",
+        "change_pct": 8.4,
+        "turnover": 102.05
+      },
+      {
+        "name": "住宿业",
+        "change_pct": 6.06,
+        "turnover": 18.55
+      },
+      {
+        "name": "互联网和相关服务",
+        "change_pct": 6.05,
+        "turnover": 363.47
+      }
+    ],
+    "bottom5": [
+      {
+        "name": "木材加工和木、竹、藤、棕、草制品业",
+        "change_pct": -2.19,
+        "turnover": 10.7
+      },
+      {
+        "name": "石油和天然气开采业",
+        "change_pct": -1.57,
+        "turnover": 244.0
+      },
+      {
+        "name": "煤炭开采和洗选业",
+        "change_pct": -1.04,
+        "turnover": 104.62
+      },
+      {
+        "name": "货币金融服务",
+        "change_pct": -1.03,
+        "turnover": 529.33
+      },
+      {
+        "name": "开采辅助活动",
+        "change_pct": -0.56,
+        "turnover": 37.68
+      }
+    ]
+  },
+  "breadth": {
+    "up": 4680,
+    "down": 818,
+    "flat": 78
+  },
+  "north_money": null,
+  "north_money_note": "沪深港通北向资金自2024-08起已停止实时披露，接口不可用",
+  "date": "2026-11-02",
+  "time": "close",
+  "fetched_at": "2026-11-02T07:05:36Z",
+  "note": "数据源: AkShare(新浪财经指数/恒指 + 证监会行业板块聚合)，东财接口被墙。北向资金已暂停披露。"
+}

@@ -28,7 +28,7 @@
       "code": "000016",
       "price": 2762.54,
       "change": 20.43,
-      "change_pct": 0.74
+      "change_pct": 0.75
     },
     "中证500": {
       "code": "000905",
@@ -51,78 +51,68 @@
   },
   "hang_seng": {
     "name": "恒生指数",
-    "price": 23416.35,
-    "change": 121.93,
-    "change_pct": 0.52,
+    "price": 23393.32,
+    "change": 98.9,
+    "change_pct": 0.42,
     "time": ""
   },
-  "total_turnover_yi": 17836.9,
+  "total_turnover_yi": 9996.25,
   "total_volume_shares": 0.0,
   "sectors": {
     "top5": [
       {
-        "name": "广播、电视、电影和影视录音制作业",
-        "change_pct": 8.96,
-        "turnover": 136.39
+        "name": "教育运营及其他",
+        "change_pct": 9.25
       },
       {
-        "name": "新闻和出版业",
-        "change_pct": 8.89,
-        "turnover": 130.59
+        "name": "视频媒体",
+        "change_pct": 5.64
       },
       {
-        "name": "其他金融业",
-        "change_pct": 8.4,
-        "turnover": 102.05
+        "name": "蓄电池及其他电池",
+        "change_pct": 5.18
       },
       {
-        "name": "住宿业",
-        "change_pct": 6.06,
-        "turnover": 18.55
+        "name": "文字媒体",
+        "change_pct": 5.02
       },
       {
-        "name": "互联网和相关服务",
-        "change_pct": 6.05,
-        "turnover": 363.47
+        "name": "涂料",
+        "change_pct": 4.4
       }
     ],
     "bottom5": [
       {
-        "name": "木材加工和木、竹、藤、棕、草制品业",
-        "change_pct": -2.19,
-        "turnover": 10.7
+        "name": "半导体设备",
+        "change_pct": -4.0
       },
       {
-        "name": "石油和天然气开采业",
-        "change_pct": -1.57,
-        "turnover": 244.0
+        "name": "医疗研发外包",
+        "change_pct": -3.99
       },
       {
-        "name": "煤炭开采和洗选业",
-        "change_pct": -1.04,
-        "turnover": 104.62
+        "name": "诊断服务",
+        "change_pct": -3.7
       },
       {
-        "name": "货币金融服务",
-        "change_pct": -1.03,
-        "turnover": 529.33
+        "name": "通信网络设备及器件",
+        "change_pct": -3.39
       },
       {
-        "name": "开采辅助活动",
-        "change_pct": -0.56,
-        "turnover": 37.68
+        "name": "半导体材料",
+        "change_pct": -2.96
       }
     ]
   },
   "breadth": {
-    "up": 4680,
-    "down": 818,
-    "flat": 78
+    "up": 3303,
+    "down": 2135,
+    "flat": 132
   },
   "north_money": null,
   "north_money_note": "沪深港通北向资金自2024-08起已停止实时披露，接口不可用",
-  "date": "2026-11-02",
-  "time": "close",
-  "fetched_at": "2026-11-02T07:05:36Z",
-  "note": "数据源: AkShare(新浪财经指数/恒指 + 证监会行业板块聚合)，东财接口被墙。北向资金已暂停披露。"
+  "date": "2026-11-03",
+  "time": "noon",
+  "fetched_at": "2026-11-03T03:36:52Z",
+  "note": "数据源: AkShare(新浪指数日线含今日实时 + 东财行业板块 spot)。北向资金已暂停披露。"
 }

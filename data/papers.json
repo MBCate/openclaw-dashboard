@@ -1,6 +1,563 @@
 {
- "updated": "2026-11-01T16:10:44-08:00",
+ "updated": "2026-11-03T16:16:16-08:00",
  "papers": [
+  {
+   "title": "Seeing Through the Illusion: Test-Time Scaling for World Action Models",
+   "id": "2611.03585",
+   "published": "2611.03585",
+   "authors": "Cheikh Ahmed, Mahdi Mostajabdaveh, Milad Yazdani et al.",
+   "summary": "指出 world action model (WAM) 的核心缺陷：生成的未来看似合理，但与之共同生成的动作未必能实现它。提出 WISE——执行前的候选筛选器，对每个采样 rollout 打三项分：动作有效性与时序规律性、动作与想象运动之间的逆动力学一致性、指令条件下的任务进度，冻结 WAM 只执行最高分候选。RoboLab(Cosmos 3 Edge) 闭环成功率 6.0%→24.0%，LIBERO(DreamZero) 75.1%→78.3%。对「用世界模型做规划的自动驾驶」是直接可借鉴的 test-time scaling 思路。",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-11-02",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2611.03585",
+   "url": "https://arxiv.org/abs/2611.03585",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "weekly_pick": false,
+   "weekly_analysis": "world-models-ad/analysis/2611.03585-WISE-TestTimeScaling-WAM.md"
+  },
+  {
+   "title": "X-World 1.6: Building Controllable Virtual Cities with World Models",
+   "id": "2611.00596",
+   "published": "2611.00596",
+   "authors": " XPeng,  :, Boyang Wang et al.",
+   "summary": "小鹏 X-World 1.6：可控制的虚拟城市生成式世界模型，加强对交通灯、路面标线的语义控制与跨相机空间一致性；Virtual City 支持从单张图像生成多相机未来视频；后训练实现因果少步生成，长时域 rollout 质量衰减更慢。附专用评测套件。是闭环仿真/策略学习的产业级基座。",
+   "categories": [
+    "cs.AI"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-31",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2611.00596",
+   "url": "https://arxiv.org/abs/2611.00596",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4,
+   "weekly_pick": false
+  },
+  {
+   "title": "Scene-Adaptive Readout and Decoding in Diffusion Driving VLAs",
+   "id": "2611.02076",
+   "published": "2611.02076",
+   "authors": "Seungjun Yu, Jiho Choi, Inha Kang et al.",
+   "summary": "研究扩散式驾驶 VLA 的推理冗余：发现「深度-解码解耦」——首轮前向后的后层表征已足以读出可用轨迹，而前层表征更需要继续去噪；且最佳读出层与解码深度随场景而变。据此提出场景条件读出 MoE + 自适应解码策略（仅必要时追加细化）。属于 VLA 驾驶的实用加速工作。",
+   "categories": [
+    "cs.CV",
+    "cs.AI",
+    "cs.RO"
+   ],
+   "topic": "vla-autonomous-driving",
+   "date": "2026-11-01",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2611.02076",
+   "url": "https://arxiv.org/abs/2611.02076",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4,
+   "weekly_pick": false
+  },
+  {
+   "title": "PlanContext: Benchmarking In-Context Driving Decision-Making",
+   "id": "2611.03067",
+   "published": "2611.03067",
+   "authors": "Ruikai Li, Naiyu Gao, Hao Shan et al.",
+   "summary": "PlanContext 基准：固定观测场景、只变化高层驾驶意图，构造成对评估，从而可控地考察「上下文相关决策」；覆盖 6 类驾驶上下文，用类别均衡指标同时评估决策正确性、道路合规与动态安全。在 NAVSIM 的 9,561 个场景实例、23 个 E2E 模型上实验，显示传统驾驶质量分数高 ≠ 路线级上下文决策强——对当前 E2E 评测体系是实质性批评。",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-11-02",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2611.03067",
+   "url": "https://arxiv.org/abs/2611.03067",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4,
+   "weekly_pick": false
+  },
+  {
+   "title": "PRIME W0: Physical Priors from World Models for Embodied Manipulation",
+   "id": "2610.39528",
+   "published": "2610.39528",
+   "authors": "Huabin Peng, Fagang Jin, Yancong Wei et al.",
+   "summary": "PRIME W0：层次化条件 flow-matching VLA，从预训练 VLM 做逐层 KV 注入到自适应 MoE 动作专家；用异步世界模型子目标图像 + DINOv2 历史帧语义桥提供动力学感知条件；Action Dynamic Manifold flow matching 用协方差结构噪声尊重机器人运动学耦合。LIBERO 与真机 SOTA。",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-29",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2610.39528",
+   "url": "https://arxiv.org/abs/2610.39528",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "weekly_pick": false
+  },
+  {
+   "title": "STEER: Route-Aware Adaptive Reasoning for Autonomous Driving",
+   "id": "2611.00718",
+   "published": "2611.00718",
+   "authors": "Yangang Zou, Pei Liu, Nan Song et al.",
+   "summary": "STEER：VLA 驾驶模型「过度思考」问题——过多 chain-of-thought 既费算力又可能降低规划质量。已有自适应推理依赖场景难度标注，STEER 首次做到无需任何场景难度标签的显式路线优化，决定何时走 CoT、何时直接输出。与 2610.30953（推理-动作低耦合）形成呼应：推理文本对轨迹影响有限，按需触发才是正解。",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "vla-autonomous-driving",
+   "date": "2026-10-31",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2611.00718",
+   "url": "https://arxiv.org/abs/2611.00718",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "weekly_pick": false
+  },
+  {
+   "title": "DriftingPlanner: Drifting Generative Models for One-Step Trajectory Planning in End-to-End Autonomous Driving",
+   "id": "2611.01283",
+   "published": "2611.01283",
+   "authors": "Ziming Liu, Yizhan Qu, Leichen Wang et al.",
+   "summary": "DriftingPlanner：把 drifting 生成模型（训练期就把迭代拉到一步）用于轨迹规划。难点在于规划中每个场景自身就是条件，只有一个正样本（专家轨迹），互斥项会把生成轨迹推到真值外的球壳上。作者给出逐场景场计算的修正方案，仅用 drifting loss 训练、不含坐标回归项，实现一步推理。对「回归过于平滑 / 扩散太慢」的两难是一个优雅解。",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-31",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2611.01283",
+   "url": "https://arxiv.org/abs/2611.01283",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "weekly_pick": false
+  },
+  {
+   "title": "SCOUT: Planning under Occlusion via Object-Centric World Model Rollouts",
+   "id": "2611.01600",
+   "published": "2611.01600",
+   "authors": "Amir Hossain Raj, Xuesu Xiao",
+   "summary": "SCOUT：针对遮挡下的机器人规划，用物体级场景表征重建被遮挡几何并推导「遮挡者层级 + 可达走廊」的关系型规划状态；LLM 提出结构化动作候选，再用学习到的动作条件世界模型做 MCTS 评估。Reveal/Placement 任务优于 VLA 基线。虽是机械臂场景，但「LLM 提议 + 世界模型 rollout 评估」的组合范式对长尾驾驶决策有迁移价值。",
+   "categories": [
+    "cs.RO",
+    "cs.AI",
+    "cs.CV"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-11-01",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2611.01600",
+   "url": "https://arxiv.org/abs/2611.01600",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4,
+   "weekly_pick": false
+  },
+  {
+   "title": "ODE Policy: Robot Learning via Action Dynamics, Not Actions",
+   "id": "2611.01729",
+   "published": "2611.01729",
+   "authors": "Jindou Jia, Jingliang Li, Kuangji Zuo et al.",
+   "summary": "ODE Policy：不直接学动作值，而学动作的「动力学」——用神经 ODE 学习动作向量场，在 IL 中用短动作块、RL 中用单步匹配积分后的动作到目标；部署时由上一动作积分得到下一动作，轨迹天然连续。可作 visuomotor policy、VLA/WAM 的动作头、以及 model-based RL 的 actor。对扩散/flow 动作头之外的第三条路线，值得关注。",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-11-01",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2611.01729",
+   "url": "https://arxiv.org/abs/2611.01729",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4,
+   "weekly_pick": false
+  },
+  {
+   "title": "LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks",
+   "id": "2610.40016",
+   "published": "2610.40016",
+   "authors": "Enqiao Lu, Yuxiang Xie, Xingrui Yu et al.",
+   "summary": "Agentic robots must turn a high-level goal into actions while keeping the physical conditions needed for future steps valid. A completed action does not ensure that its effects will persist: a later disturbance can invalidate support that the remaining plan still assumes. We present LOGIV, a graph engineering framework for agentic robot execution that uses an explicit task graph to connect symbolic planning, observation-based verification, and embodied action. LOGIV compiles a validated plan into condition-support and resource-ordering edges, checks their physical validity during execution, and uses dependency tracing to determine what must be restored after a failure. Repair is constrained by retained unfinished actions, and the combined continuation is symbolically validated before execution resumes. The framework operates above existing Vision-Language-Action (VLA) and World Action Mo",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-29",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2610.40016",
+   "url": "https://arxiv.org/abs/2610.40016",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4,
+   "weekly_pick": false
+  },
+  {
+   "title": "Mechanistic Interpretability for End-to-End Self-Driving",
+   "id": "2610.41185",
+   "published": "2610.41185",
+   "authors": "Manav Gagvani, Benjamin Namikas, Sivamurugan Velmurugan et al.",
+   "summary": "End-to-end (E2E) autonomous driving models achieve strong planning performance but remain largely opaque, limiting observability and trust. We apply mechanistic interpretability to E2E driving by training Sparse Autoencoders (SAEs) on the internal activations of a simple, single-camera end-to-end path planning model. Unsupervised clustering of SAE latents reveals interpretable structure aligned with route intent, vehicle speed, and braking behavior, recovering route intent with 98.3% accuracy without supervision. Through paired counterfactual image edits, we further show that specific SAE features are visually grounded and systematically respond to scene changes such as traffic light state and stop sign presence. Steering individual SAE latents produces predictable, monotonic changes in planner outputs including lateral displacement, curvature, and braking. Finally, we demonstrate a prac",
+   "categories": [
+    "cs.RO",
+    "cs.CV",
+    "cs.LG"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-30",
+   "status": "已收录",
+   "status_en": "indexed",
+   "arxiv_id": "2610.41185",
+   "url": "https://arxiv.org/abs/2610.41185",
+   "in_kb": true,
+   "in_dashboard": true,
+   "score": 4,
+   "weekly_pick": false
+  },
+  {
+   "title": "INTERACT: Learning Interaction-Aware World Dynamics from Driving Videos for Autonomous Driving",
+   "id": "2611.02526",
+   "published": "2611.02526",
+   "authors": "Zhan Chen, Songyan Zhang, Wenhui Huang et al.",
+   "summary": "INTERACT：三阶段框架，先从无标注驾驶视频中学 slot-based 物体级世界模型，再迁移到轨迹规划。用循环 slot 把稠密视觉特征聚成时序一致的场景实体（无需目标框标注）；从 slot 上下文与视频转移中反推潜在 ego 动作，用以条件化未来 slot 预测，显式建模「自车运动—周边实体」协同演化；最后接入规划。相比 NAVIDSIM 类 E2E 用稠密 BEV 隐式编码交互，这条路线让交互变得显式可读。",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-11-02",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2611.02526",
+   "url": "https://arxiv.org/abs/2611.02526",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 4,
+   "weekly_pick": false
+  },
+  {
+   "title": "Scaling Action-Free Video Latent Prediction for Transferable Representations in End-to-End Autonomous Driving",
+   "id": "2611.02853",
+   "published": "2611.02853",
+   "authors": "Xingtai Gui, Xubin Zhou, Yucheng Zhou et al.",
+   "summary": "ScaleDrive 研究「无动作标注的互联网驾驶视频」作为预训练目标能否迁移到端到端规划：只用大规模开放世界驾驶视频做视频潜变量预测预训练，下游规划训练时冻结视频编码器，从而单独检验表征可迁移性。ego-motion 与深度探针显示，随预训练规模增大，冻结表征中的时序与几何信息单调增强，并系统比较了不同下游数据集/架构下的迁移效果。结论对「数据规模 > 标注质量」的自动驾驶预训练路线是有力支撑。",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-11-02",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2611.02853",
+   "url": "https://arxiv.org/abs/2611.02853",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "weekly_pick": true,
+   "weekly_analysis": "e2e-autonomous-driving/analysis/2611.02853-ScaleDrive-ActionFreeVideoPretrain.md"
+  },
+  {
+   "title": "Coupling Execution Horizon and Sampling Depth in Flow-Matching VLA Policies",
+   "id": "2610.32102",
+   "published": "2610.32102",
+   "authors": "Jiabing Yang, Yuan Xu, Yixiang Chen et al.",
+   "summary": "Flow-matching Vision-Language-Action (VLA) models generate expressive continuous trajectories for robotic manipulation, yet balancing real-time responsiveness with execution stability remains a persistent challenge. Standard deployment workflows typically treat numerical solver depth and execution horizon as decoupled choices. The horizon amortizes inference latency, while solver depth is kept high to preserve integration fidelity. In this paper, we reveal a fundamental compute-execution coupling in flow-matching VLAs governed by a systematic sign reversal. While coarse numerical integration degrades precision under rapid replanning, it markedly improves task performance under extended open-loop commitment. Geometrically, numerical truncation contracts lateral action dispersion around an invariant trajectory centroid, serving as an implicit regularizer that suppresses compounding open-lo",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "vla-autonomous-driving",
+   "date": "2026-10-23",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2610.32102",
+   "url": "https://arxiv.org/abs/2610.32102",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "weekly_pick": false
+  },
+  {
+   "title": "From Tabletop to Walking Bot: Deploying a VLA Model on a Legged Manipulator Robot",
+   "id": "2610.32271",
+   "published": "2610.32271",
+   "authors": "Giovanni Minelli, Antonio Langella, Giovanni B. Dessy et al.",
+   "summary": "Vision-language-action (VLA) models are typically pretrained on broad, diverse datasets and subsequently fine-tuned on a comparatively small dataset tailored to a specific target robot. Such adaptation recipe is now widely established, achieving its most mature results on fixed-base arms due to their static base dynamics and consistent reference frame. Mounting the same arm on a quadruped extends the workspace to the entire floor, but fundamentally changes the embodiment: rather than controlling the arm in isolation, the policy must jointly coordinate base navigation, body posture, and end-effector motion. In this work, we study the practical demands of this embodiment change across data collection, model adaptation, and inference design to achieve closed-loop loco-manipulation on a Unitree Go2 with an AgileX Piper arm. We report the choices that made this real-robot deployment feasible,",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "vla-autonomous-driving",
+   "date": "2026-10-23",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2610.32271",
+   "url": "https://arxiv.org/abs/2610.32271",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "weekly_pick": false
+  },
+  {
+   "title": "Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy",
+   "id": "2610.35832",
+   "published": "2610.35832",
+   "authors": "Yifei Yao, Yude Zou, Guanbo Jiao et al.",
+   "summary": "Frontier multimodal large language models (MLLMs) can control robots without robot-specific training, but how their capabilities compare and interact with post-trained vision-language-action (VLA) and world action model (WAM) policies across manipulation demands remains to be thoroughly evaluated. In this report, we evaluate GPT-6-Astra on EBench as the core of an agent that controls a robot through an agent harness under the same visual and proprioceptive observation protocol as post-trained policies. We study two agent configurations: direct control, in which the agent generates waypoint commands directly, and harness with policy, in which it can also invoke a post-trained VLA or WAM policy for action execution. Under direct control, the agent achieves competitive overall performance relative to post-trained policies. It leads on short-horizon tasks and exhibits the least performance v",
+   "categories": [
+    "cs.RO",
+    "cs.AI"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-26",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2610.35832",
+   "url": "https://arxiv.org/abs/2610.35832",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "weekly_pick": false
+  },
+  {
+   "title": "SO-101 Bench: Accessible Spatial Manipulation",
+   "id": "2610.36420",
+   "published": "2610.36420",
+   "authors": "Truman Hickok",
+   "summary": "Low-cost arms such as the SO-101 have become the most common entry point to robot learning, yet no released policy performs spatially constrained, language-conditioned tasks on them out of the box, and existing SO-101 benchmarks run only on physical hardware with simple tasks and few held-out objects. We introduce SO-101 Bench, a simulated benchmark for language-conditioned spatial manipulation built on an Isaac Lab digital twin of a real SO-101 setup. It has four tasks scored as five families, 138 objects in seen, unseen-instance and unseen-class splits, 916 evaluation episodes with subsets for held-out appearances, rotate-to-fit planning and occlusion memory, and 3,629 simulated demonstrations on which every learned policy is fine-tuned under an equal compute budget. The twin ranks policies as the real robot does: five policies trained without real data, four VLAs and an LLM agent, kee",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2610.36420",
+   "url": "https://arxiv.org/abs/2610.36420",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "weekly_pick": false
+  },
+  {
+   "title": "Making Self-Driving Laboratories Auditable:A Unified Framework for Hybrid Actions,Measurements, and Safe Execution",
+   "id": "2610.36761",
+   "published": "2610.36761",
+   "authors": "Zihan Zhang, Zeyu Wu, Xin Zhang et al.",
+   "summary": "Self-driving laboratories (SDLs) are laboratory systems that couple experimental planning, automated execution, and measurement feedback in a closed loop. Integrating flexible robot control with the typed application programming interfaces (APIs) and continuous measurements exposed by laboratory instruments remains an execution-interface challenge. To address this challenge, we propose a traceable framework comprising four components: LAM (Lab Action Model), OpenSDL, Safe-SDL, and L3-Bench. LAM is a proposed measurement-conditioned policy architecture that extends vision-language-action paradigms to generate both continuous robot trajectories and typed instrument API calls. OpenSDL is an execution substrate with an initial control implementation, designed to map role-level operations to heterogeneous devices, coordinate execution, and record timestamped causal events. The proposed Safe-S",
+   "categories": [
+    "cs.RO",
+    "cs.AI"
+   ],
+   "topic": "vla-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2610.36761",
+   "url": "https://arxiv.org/abs/2610.36761",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "weekly_pick": false
+  },
+  {
+   "title": "TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation",
+   "id": "2610.40349",
+   "published": "2610.40349",
+   "authors": "Haozhe Zhang, Gu Zhang, Zirui Zou et al.",
+   "summary": "Human demonstrations offer an efficient and scalable source of data for dexterous robot manipulation, but differences in sensing and hand morphology complicate the transfer of contact-rich interactions. We present TouchBridge, a hardware--software co-designed framework for human-to-robot data transformation. A wearable human demonstration interface and a corresponding robot interface establish cross-embodiment correspondence in visual and fingertip tactile sensing. We introduce Tac-Retarget, a tactile-conditioned retargeting method that uses measured contact to align fingertip contact patches and preserve their spatial relations within and across hands. Unlike object-aware or simulation-based transfer pipelines, Tac-Retarget requires no object mesh, object-pose estimate, or physics simulation for retargeting, enabling direct and scalable conversion of human demonstrations into robot-doma",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "vla-autonomous-driving",
+   "date": "2026-10-29",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2610.40349",
+   "url": "https://arxiv.org/abs/2610.40349",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "weekly_pick": false
+  },
+  {
+   "title": "BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing",
+   "id": "2610.40532",
+   "published": "2610.40532",
+   "authors": "Xiangyu Xu, Bangshuai Peng, Ziyi Liu et al.",
+   "summary": "How effectively can vision-language-action (VLA) models learn diverse language-conditioned behaviors as training data scales? Investigating this question requires large and varied robot datasets, whose collection on physical robots remains costly. We introduce BURGER, a language-conditioned robotic drawing benchmark with a scalable, prompt-driven pipeline for generating continuous drawing trajectories, both in simulation and the real world. In BURGER, an agent starts from the same blank canvas and controls a robot arm to draw the object or spatial composition specified by language, while each instruction allows an open-ended variety of valid drawings and stroke orders. Using 28,200 simulated demonstrations spanning 282 drawing tasks, we evaluate five representative VLA models across data scales, language grounding, and multimodal behavior. BURGER supports fine-grained analysis of languag",
+   "categories": [
+    "cs.RO",
+    "cs.AI"
+   ],
+   "topic": "vla-autonomous-driving",
+   "date": "2026-10-29",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2610.40532",
+   "url": "https://arxiv.org/abs/2610.40532",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "weekly_pick": false
+  },
+  {
+   "title": "Gym-Anything for Robotics: Scaling physical simulations with digital agents",
+   "id": "2610.40565",
+   "published": "2610.40565",
+   "authors": "Pranjal Aggarwal, Sean Welleck",
+   "summary": "Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world. However, despite decades of progress, available simulations cover only a narrow range of real-world tasks and physical phenomena. The core bottleneck is that creating better simulations requires significant expert effort and therefore does not scale. To address this, we introduce Gym-Anything for Robotics, a framework in which coding agents create realistic robotics simulations. Our core insight is that simulation creation is a coding agent task, so improvements in coding agents translate directly into richer and more faithful simulations. We select simulations based on U.S. GDP data to cover economically valuable physical work, define what makes a good simulation and a good task, and develop an adversarial creation-audit loop that checks each simulation and task ",
+   "categories": [
+    "cs.RO",
+    "cs.AI",
+    "cs.LG"
+   ],
+   "topic": "vla-autonomous-driving",
+   "date": "2026-10-29",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2610.40565",
+   "url": "https://arxiv.org/abs/2610.40565",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "weekly_pick": false
+  },
+  {
+   "title": "CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents",
+   "id": "2610.40799",
+   "published": "2610.40799",
+   "authors": "Yijia Fan, Xilin He, Yilei Jiang et al.",
+   "summary": "Across coding, web, and tool-use tasks, language-model agents are now routinely trained with the same recipe: supervised fine-tuning (SFT) to learn the interface, then multi-turn reinforcement learning (RL) to master it. Code-as-policy (CaP) casts robot manipulation in the same form, as the policy writes code against robot APIs and reads back the results, so the same recipe should apply. Yet existing CaP agents sidestep training: they either prompt closed frontier models or delegate manipulation to pre-trained vision-language-action models (VLAs) and high-level skills, while small open vision-language models (VLMs) fail outright. We present CaPtain, an open post-training pipeline that turns a small open VLM into a capable CaP agent, with no VLA, frontier model, or privileged state at test time. CaPtain trains and deploys the policy inside CaPtain-Harness, which exposes low-level percepti",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "vla-autonomous-driving",
+   "date": "2026-10-29",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2610.40799",
+   "url": "https://arxiv.org/abs/2610.40799",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "weekly_pick": false
+  },
+  {
+   "title": "Let LiDAR Decide Where to Look: Geometry-Measured Token Selection for Efficient Sparse Latent World Models",
+   "id": "2610.40935",
+   "published": "2610.40935",
+   "authors": "Zeping Zhang, Zhuoya Zhao, Robert Laganière",
+   "summary": "Vision-centric autonomous driving models encode thousands of image tokens per frame, yet most depict sky, buildings, or empty road---content irrelevant to planning. Worse, these tokens dilute the planner's attention: we show that randomly discarding 75% of tokens already outperforms the dense model, because the planner can concentrate on the remaining driving-critical content. Building on this finding, we present Geometry-Aware Token Selection (GATS), which uses LiDAR and radar point projections to select a small fraction of image tokens before the vision backbone runs. Because the selector operates on measured 3D geometry rather than visual features, the backbone encodes only the selected patches, cutting end-to-end FLOPs by up to $18\\times$. Each kept token receives a 3D anchor from its LiDAR point and is fed to a self-supervised latent world model that predicts future features and 3D ",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-29",
+   "status": "已收录",
+   "status_en": "indexed",
+   "arxiv_id": "2610.40935",
+   "url": "https://arxiv.org/abs/2610.40935",
+   "in_kb": true,
+   "in_dashboard": true,
+   "score": 3,
+   "weekly_pick": false
+  },
+  {
+   "title": "TRACE: Target-State Risk-Aligned Conditional Execution for Embodied Tracking",
+   "id": "2610.41275",
+   "published": "2610.41275",
+   "authors": "Mingyang Lyu, Gongce Cao, Yiyang Jia et al.",
+   "summary": "Embodied visual tracking requires a robot to follow a language-specified person under occlusion, look-alike distractors, and ambiguous instructions. We show that improving tracking persistence can simultaneously increase safety violations. Using a compact 0.6B vision-language-action (VLA) tracker with a frozen backbone, we update only the planner head with proximal policy optimization (PPO). PPO improves success and following rates across all three EVT-Bench settings, but increases the collision rate on distracted tracking because episodes that previously ended in target loss can instead end in contact. We introduce TRACE, an execution-time target-state risk gate that preserves the learned policy and intervenes selectively. A lightweight risk head processes 84 cues, including candidate boxes, identity margins, a learned range-and-bearing probe, and the policy's commands. When the calibra",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "vla-autonomous-driving",
+   "date": "2026-10-30",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2610.41275",
+   "url": "https://arxiv.org/abs/2610.41275",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "weekly_pick": false
+  },
+  {
+   "title": "Cross-Embodiment Motion Planning by Coupling Body-Agnostic World Model with Differentiable Ego-Dynamics",
+   "id": "2610.41330",
+   "published": "2610.41330",
+   "authors": "Zhidong Wang, Zirui Li, Haoran Xu et al.",
+   "summary": "Motion planning in clutter is embodiment-specific: the feasible free space and reachable commands depend on each robot's geometry and dynamics. Existing cross-embodiment policies output normalized commands that disregard these differences, or compensate through per-robot training and distillation. World models can in principle pool cross-embodiment data, yet command-conditioned models bind their latent dynamics to a single action space, while pose-conditioned models omit the mapping from commands to body-specific motion. On flat ground, however, embodiment affects the planner's observations only through the camera ego-motion. This letter proposes Hourglass, an hourglass-shaped architecture that factorizes cross-embodiment motion planning at this interface: a body-agnostic world model and each robot's differentiable ego-dynamics, which map commands to that ego-motion, are coupled only thr",
+   "categories": [
+    "cs.RO"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-30",
+   "status": "已收录",
+   "status_en": "indexed",
+   "arxiv_id": "2610.41330",
+   "url": "https://arxiv.org/abs/2610.41330",
+   "in_kb": true,
+   "in_dashboard": true,
+   "score": 3,
+   "weekly_pick": false
+  },
+  {
+   "title": "Xiaomi Auto World Model 2.0: Causal World Models for Real-World Driving and Embodied Intelligence",
+   "id": "2611.01677",
+   "published": "2611.01677",
+   "authors": "Zhenxin Zhu, Zhijian Huang, Cheng Chi et al.",
+   "summary": "小米汽车世界模型 2.0：面向物理 AI 的统一流式因果世界模型，用 View-Temporal Attention + Multi-view RoPE 编码跨视角/跨时序依赖；WorldRec 2.0 单次前向从多视角多时刻观测重建静态+动态 3D Gaussian，并将渲染结果作为显式场景上下文以抑制长时域生成漂移；时间层引入 Gated Linear Attention 降低多视角 rollout 的算力与 KV-cache。配套物理交互数据管线覆盖长尾事件。产业界在驾驶世界模型上的工程整合度已相当高，可作为闭环仿真的参考架构。",
+   "categories": [
+    "cs.AI",
+    "cs.LG"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-11-01",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2611.01677",
+   "url": "https://arxiv.org/abs/2611.01677",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "weekly_pick": true,
+   "weekly_analysis": "world-models-ad/analysis/2611.01677-XiaomiAutoWorldModel2.md"
+  },
+  {
+   "title": "Fast-Slow Evolutionary Occupancy Prediction via Controlled Dynamics",
+   "id": "2611.02499",
+   "published": "2611.02499",
+   "authors": "Runhe Yang, Zhiyuan Zhou, Yuxiang Yan et al.",
+   "summary": "EvoOcc：把快慢两个占据栅格预测模型的融合建模为连续时间受控动力系统，可适配慢系统变延迟与快系统不规则到达；在不改上游架构的前提下改善精度-延迟折中。对车端部署有直接价值。",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-11-02",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2611.02499",
+   "url": "https://arxiv.org/abs/2611.02499",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 3,
+   "weekly_pick": false
+  },
   {
    "title": "Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals",
    "id": "2610.30953",
@@ -21,8 +578,51 @@
    "in_kb": true,
    "in_dashboard": true,
    "score": 5,
-   "weekly_pick": true,
+   "weekly_pick": false,
    "weekly_analysis": "vla-autonomous-driving/analysis/2610.30953-ReasoningAction-Coupling-Counterfactual.md"
+  },
+  {
+   "title": "DriveUniTok: A Unified Multimodal Tokenizer for Driving World-Action Models",
+   "id": "2610.35044",
+   "arxiv_id": "2610.35044",
+   "published": "2026-10-27",
+   "authors": "Jingbo Xu, Hanchao Leng, JiaHui Huang, Hanbing Li, Jingwei Zhao, Kuiyuan Yang, Chen Gao, Guang Chen, Hangjun Ye, Yong Li",
+   "summary": "World models are emerging as a fundamental component of policy learning for real-world agents, enabling agents to predict future world states and plan actions within a learned representation of the dy",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-27",
+   "status": "已收录",
+   "status_en": "indexed",
+   "url": "https://arxiv.org/abs/2610.35044",
+   "in_kb": true,
+   "in_dashboard": true,
+   "score": 5,
+   "reason": "E2E driving / driving world model 核心",
+   "weekly_pick": false
+  },
+  {
+   "title": "Structured Representation Probing for Risk Anticipation in End-to-End Autonomous Driving",
+   "id": "2610.37299",
+   "arxiv_id": "2610.37299",
+   "published": "2026-10-27",
+   "authors": "Jiawei Liang, Tianrui Lou, Le Yang, Xianghao Jiao, Wei Wang, Xiaochun Cao",
+   "summary": "针对端到端驾驶策略的内部表征做「结构化探针」(SRP)：从冻结策略中分别读取 actor、ego、map 三类表征，各自学习线性风险方向，再用基数归一化的 log-mean-exp 池化聚合，并引入事件窗口监督把读出信号与即将发生的硬失败对齐。在线只输出单一通用风险分数，不改动驾驶策略本身。Bench2Drive 上 DriveTransformer/UniAD/VAD 的帧级 PR-AUC、ROC-AUC 均优于运行时基线，DriveTransformer 在 2 秒预测视界 ROC-AUC 达较好水平。价值在于把「风险预警」变成对内部结构表征的轻量读取，是 E2E 可监控性的实用路线。",
+   "categories": [
+    "cs.LG"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "已收录",
+   "status_en": "indexed",
+   "url": "https://arxiv.org/abs/2610.37299",
+   "in_kb": true,
+   "in_dashboard": true,
+   "score": 5,
+   "weekly_pick": true,
+   "weekly_analysis": "e2e-autonomous-driving/analysis/2610.37299-SRP-RiskAnticipation.md"
   },
   {
    "title": "TerraTransfer++: Demonstration-Free End-to-End Planner",
@@ -6950,27 +7550,6 @@
    "reason": "AD/VLA 核心"
   },
   {
-   "title": "Cross-Embodiment Motion Planning by Coupling Body-Agnostic World Model with Differentiable Ego-Dynamics",
-   "id": "2610.41330v1",
-   "arxiv_id": "2610.41330v1",
-   "published": "2026-10-30",
-   "date": "2026-10-30",
-   "authors": "Zhidong Wang, Zirui Li, Haoran Xu, Yujie Yan, Zitong Shan, Jingsong Liang, Han Yu, Chen Lv",
-   "summary": "Motion planning in clutter is embodiment-specific: the feasible free space and reachable commands depend on each robot's geometry and dynamics. Existing cross-embodiment policies output normalized commands that disregard these differences, or compensate through per-robot training and distillation. World models can in principle pool cross-embodiment data, yet command-conditioned models bind their latent dynamics to a single action space, while pose-conditioned models omit the mapping from commands to body-specific motion. On flat ground, however, embodiment affects the planner's observations only through the camera ego-motion. This letter proposes Hourglass, an hourglass-shaped architecture that factorizes cross-embodiment motion planning at this interface: a body-agnostic world model and each robot's differentiable ego-dynamics, which map commands to that ego-motion, are coupled only through it. The world model is trained on data pooled across embodiments and camera mounts; each robot's ego-dynamics is a reduced-order template with identified physical parameters. A generalist parameter-conditioned policy is learned once at this junction: each imagined step rolls out the template and then the world model, and imagination training through each robot's template makes the policy body-aware. On seven simulated robots of five locomotion types, the generalist policy outperforms imitation-learning and diffusion-policy baselines on the same world model by 3.8--10.6 percentage points in success rate and matches per-robot specialists without dedicated training, while approaching its parameter-conditioned MPPI teacher within 1.4--2.8 points without an online map. After three minutes of teleoperated driving for identification, the synthetic-data-trained model transfers zero-shot to a real skid-steer robot unseen in training, navigating unseen indoor scenes.",
-   "categories": [
-    "cs.RO",
-    "cs.RO"
-   ],
-   "topic": "e2e-autonomous-driving",
-   "status": "新发现",
-   "status_en": "unverified",
-   "url": "https://arxiv.org/abs/2610.41330v1",
-   "in_kb": false,
-   "in_dashboard": true,
-   "score": 5,
-   "reason": "AD/VLA 核心、世界模型"
-  },
-  {
    "title": "VLA Policies Do Not Know When Not to Act: Unintended Task Execution and Start Suppression",
    "id": "2610.41609v1",
    "arxiv_id": "2610.41609v1",
@@ -7010,29 +7589,6 @@
    "status": "新发现",
    "status_en": "unverified",
    "url": "https://arxiv.org/abs/2610.41408v1",
-   "in_kb": false,
-   "in_dashboard": true,
-   "score": 5,
-   "reason": "AD/VLA 核心"
-  },
-  {
-   "title": "Mechanistic Interpretability for End-to-End Self-Driving",
-   "id": "2610.41185v1",
-   "arxiv_id": "2610.41185v1",
-   "published": "2026-10-30",
-   "date": "2026-10-30",
-   "authors": "Manav Gagvani, Benjamin Namikas, Sivamurugan Velmurugan, Nysa Kumar, Shrey Sharma, Thomas Peterson, Pratyush Mathur, Hyunseo Chang, Rohan Paleja",
-   "summary": "End-to-end (E2E) autonomous driving models achieve strong planning performance but remain largely opaque, limiting observability and trust. We apply mechanistic interpretability to E2E driving by training Sparse Autoencoders (SAEs) on the internal activations of a simple, single-camera end-to-end path planning model. Unsupervised clustering of SAE latents reveals interpretable structure aligned with route intent, vehicle speed, and braking behavior, recovering route intent with 98.3% accuracy without supervision. Through paired counterfactual image edits, we further show that specific SAE features are visually grounded and systematically respond to scene changes such as traffic light state and stop sign presence. Steering individual SAE latents produces predictable, monotonic changes in planner outputs including lateral displacement, curvature, and braking. Finally, we demonstrate a practical application of these representations: we build a lightweight adapter trained on SAE latents that reduces trajectory selection error by 3.44%, outperforming an equivalent adapter that omits SAE latents, confirming that the sparse representation captures useful information for interpretability. Code and visualizations are available at https://mgagvani.github.io/mechanistic-interpretability-for-e2e-driving/",
-   "categories": [
-    "cs.RO",
-    "cs.CV",
-    "cs.LG",
-    "cs.RO"
-   ],
-   "topic": "e2e-autonomous-driving",
-   "status": "新发现",
-   "status_en": "unverified",
-   "url": "https://arxiv.org/abs/2610.41185v1",
    "in_kb": false,
    "in_dashboard": true,
    "score": 5,
@@ -7385,27 +7941,6 @@
    "reason": "端到端/VLA/世界模型 × 自动驾驶"
   },
   {
-   "title": "Let LiDAR Decide Where to Look: Geometry-Measured Token Selection for Efficient Sparse Latent World Models",
-   "id": "2610.40935v1",
-   "arxiv_id": "2610.40935v1",
-   "published": "2026-10-29",
-   "date": "2026-10-29",
-   "authors": "Zeping Zhang, Zhuoya Zhao, Robert Laganière",
-   "summary": "Vision-centric autonomous driving models encode thousands of image tokens per frame, yet most depict sky, buildings, or empty road---content irrelevant to planning. Worse, these tokens dilute the planner's attention: we show that randomly discarding 75% of tokens already outperforms the dense model, because the planner can concentrate on the remaining driving-critical content. Building on this finding, we present Geometry-Aware Token Selection (GATS), which uses LiDAR and radar point projections to select a small fraction of image tokens before the vision backbone runs. Because the selector operates on measured 3D geometry rather than visual features, the backbone encodes only the selected patches, cutting end-to-end FLOPs by up to $18\\times$. Each kept token receives a 3D anchor from its LiDAR point and is fed to a self-supervised latent world model that predicts future features and 3D displacements without box annotations. At 25% budget, GATS achieves a 3-sec L2 displacement error of 0.520 m on nuScenes and an EPDMS of 88.9 on NAVSIM---surpassing the dense baseline (0.573 m / 85.9) at $6.6\\times$ fewer total FLOPs. At an extreme 10% budget (24 GFLOPs, $18\\times$ reduction), it still beats the dense baseline on both nuScenes (0.537 m vs. 0.573 m L2) and NAVSIM (87.9 vs. 85.9 EPDMS). On 739 intent-critical scenarios, GATS covers 95.8% of hazardous vehicles and achieves a 0.09% collision rate---73.5% lower than the dense model (0.34%).",
-   "categories": [
-    "cs.CV",
-    "cs.CV"
-   ],
-   "topic": "e2e-autonomous-driving",
-   "status": "新发现",
-   "status_en": "unverified",
-   "url": "https://arxiv.org/abs/2610.40935v1",
-   "in_kb": false,
-   "in_dashboard": true,
-   "score": 5,
-   "reason": "AD/VLA 核心、世界模型"
-  },
-  {
    "title": "world2vec: Mechanistic world models through latent dynamics learning",
    "id": "2610.40637v1",
    "arxiv_id": "2610.40637v1",
@@ -7485,27 +8020,6 @@
    "in_dashboard": true,
    "score": 4,
    "reason": "自动驾驶直接相关"
-  },
-  {
-   "title": "BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing",
-   "id": "2610.40532v1",
-   "arxiv_id": "2610.40532v1",
-   "published": "2026-10-29",
-   "authors": "Xiangyu Xu, Bangshuai Peng, Ziyi Liu, Mengjie Zhao, Chenhao Lu, Zhengyang Fan, Huazhe Xu, Kaizhe Hu",
-   "summary": "How effectively can vision-language-action (VLA) models learn diverse language-conditioned behaviors as training data scales? Investigating this question requires large and varied robot datasets, whose collection on physical robots remains costly. We introduce BURGER, a language-conditioned robotic drawing benchmark with a scalable, prompt-driven pipeline for generating continuous drawing trajectories, both in simulation and the real world. In BURGER, an agent starts from the same blank canvas a",
-   "categories": [
-    "cs.RO",
-    "cs.AI"
-   ],
-   "topic": "vla-autonomous-driving",
-   "date": "2026-10-29",
-   "status": "新发现",
-   "status_en": "new",
-   "url": "https://arxiv.org/abs/2610.40532v1",
-   "in_kb": false,
-   "in_dashboard": true,
-   "score": 4,
-   "reason": "VLA × 驾驶/导航"
   },
   {
    "title": "OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation",
@@ -7717,48 +8231,6 @@
    "reason": "UAV 鸟瞰视角信号灯控制，BEV 感知相关"
   },
   {
-   "title": "PRIME W0: Physical Priors from World Models for Embodied Manipulation",
-   "id": "2610.39528v1",
-   "arxiv_id": "2610.39528v1",
-   "published": "2026-10-29",
-   "authors": "Huabin Peng, Fagang Jin, Yancong Wei, Tengfei Ma, Chuhang Liu, Chao Yu, Liqing Chen",
-   "summary": "Vision-Language-Action (VLA) models excel at instruction following, yet most remain feed-forward: they condition actions only on the current observation and discard both long-horizon temporal context and the hierarchical structure of VLM representations. We present PRIME W0, a hierarchical conditional flow-matching framework that closes this gap through three synergistic designs: (1)per-layer KV injection from a pretrained VLM into an Adaptive MoE action expert; (2)dynamics-aware conditioning vi",
-   "categories": [
-    "cs.RO"
-   ],
-   "topic": "world-models-ad",
-   "date": "2026-10-29",
-   "status": "新发现",
-   "status_en": "new",
-   "url": "https://arxiv.org/abs/2610.39528v1",
-   "in_kb": false,
-   "in_dashboard": true,
-   "score": 3,
-   "reason": "VLA 方法（可迁移）"
-  },
-  {
-   "title": "Gym-Anything for Robotics: Scaling physical simulations with digital agents",
-   "id": "2610.40565v1",
-   "arxiv_id": "2610.40565v1",
-   "published": "2026-10-29",
-   "authors": "Pranjal Aggarwal, Sean Welleck",
-   "summary": "Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world. However, despite decades of progress, available simulations cover only a narrow range of real-world tasks and physical phenomena. The core bottleneck is that creating better simulations requires significant expert effort and therefore does not scale. To address this, we introduce Gym-Anything for Robotics, a framework in which coding agents create realistic robotics simul",
-   "categories": [
-    "cs.RO",
-    "cs.AI",
-    "cs.LG"
-   ],
-   "topic": "vla-autonomous-driving",
-   "date": "2026-10-29",
-   "status": "新发现",
-   "status_en": "new",
-   "url": "https://arxiv.org/abs/2610.40565v1",
-   "in_kb": false,
-   "in_dashboard": true,
-   "score": 3,
-   "reason": "VLA 方法（可迁移）"
-  },
-  {
    "title": "Improving Fine-Grained Manipulation through Demonstration Expansion and Execution Design",
    "id": "2610.40430v1",
    "arxiv_id": "2610.40430v1",
@@ -7800,26 +8272,6 @@
    "reason": "VLA 方法（可迁移）"
   },
   {
-   "title": "TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation",
-   "id": "2610.40349v1",
-   "arxiv_id": "2610.40349v1",
-   "published": "2026-10-29",
-   "authors": "Haozhe Zhang, Gu Zhang, Zirui Zou, Yuzheng Chen, Jinlong Wu, Zixuan Hu, Jianke Zhang, Yucheng Hu",
-   "summary": "Human demonstrations offer an efficient and scalable source of data for dexterous robot manipulation, but differences in sensing and hand morphology complicate the transfer of contact-rich interactions. We present TouchBridge, a hardware--software co-designed framework for human-to-robot data transformation. A wearable human demonstration interface and a corresponding robot interface establish cross-embodiment correspondence in visual and fingertip tactile sensing. We introduce Tac-Retarget, a t",
-   "categories": [
-    "cs.RO"
-   ],
-   "topic": "vla-autonomous-driving",
-   "date": "2026-10-29",
-   "status": "新发现",
-   "status_en": "new",
-   "url": "https://arxiv.org/abs/2610.40349v1",
-   "in_kb": false,
-   "in_dashboard": true,
-   "score": 3,
-   "reason": "VLA 方法（可迁移）"
-  },
-  {
    "title": "RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence",
    "id": "2610.40026v1",
    "arxiv_id": "2610.40026v1",
@@ -7834,26 +8286,6 @@
    "status": "新发现",
    "status_en": "new",
    "url": "https://arxiv.org/abs/2610.40026v1",
-   "in_kb": false,
-   "in_dashboard": true,
-   "score": 3,
-   "reason": "VLA 方法（可迁移）"
-  },
-  {
-   "title": "LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks",
-   "id": "2610.40016v1",
-   "arxiv_id": "2610.40016v1",
-   "published": "2026-10-29",
-   "authors": "Enqiao Lu, Yuxiang Xie, Xingrui Yu, Yuyang Wang, Yipeng Gu, Zhenglin Wan, Pengfei Zhou, Wangbo Zhao",
-   "summary": "Agentic robots must turn a high-level goal into actions while keeping the physical conditions needed for future steps valid. A completed action does not ensure that its effects will persist: a later disturbance can invalidate support that the remaining plan still assumes. We present LOGIV, a graph engineering framework for agentic robot execution that uses an explicit task graph to connect symbolic planning, observation-based verification, and embodied action. LOGIV compiles a validated plan int",
-   "categories": [
-    "cs.RO"
-   ],
-   "topic": "world-models-ad",
-   "date": "2026-10-29",
-   "status": "新发现",
-   "status_en": "new",
-   "url": "https://arxiv.org/abs/2610.40016v1",
    "in_kb": false,
    "in_dashboard": true,
    "score": 3,
@@ -9034,27 +9466,6 @@
    "reason": "E2E driving / driving world model 核心"
   },
   {
-   "title": "DriveUniTok: A Unified Multimodal Tokenizer for Driving World-Action Models",
-   "id": "2610.35044",
-   "arxiv_id": "2610.35044",
-   "published": "2026-10-27",
-   "authors": "Jingbo Xu, Hanchao Leng, JiaHui Huang, Hanbing Li, Jingwei Zhao, Kuiyuan Yang, Chen Gao, Guang Chen, Hangjun Ye, Yong Li",
-   "summary": "World models are emerging as a fundamental component of policy learning for real-world agents, enabling agents to predict future world states and plan actions within a learned representation of the dy",
-   "categories": [
-    "cs.CV",
-    "cs.RO"
-   ],
-   "topic": "world-models-ad",
-   "date": "2026-10-27",
-   "status": "已收录",
-   "status_en": "indexed",
-   "url": "https://arxiv.org/abs/2610.35044",
-   "in_kb": true,
-   "in_dashboard": true,
-   "score": 5,
-   "reason": "E2E driving / driving world model 核心"
-  },
-  {
    "title": "Flow-ERD: Agent-type Aware Flow Matching With Entropy-Regularized Distillation for Diverse Traffic Simulation",
    "id": "2607.06957",
    "arxiv_id": "2607.06957",
@@ -9263,25 +9674,6 @@
    "reason": "E2E driving 或 world model 相关"
   },
   {
-   "title": "Structured Representation Probing for Risk Anticipation in End-to-End Autonomous Driving",
-   "id": "2610.37299",
-   "arxiv_id": "2610.37299",
-   "published": "2026-10-27",
-   "authors": "Jiawei Liang, Tianrui Lou, Le Yang, Xianghao Jiao, Wei Wang, Xiaochun Cao",
-   "summary": "结构化表征探针 SRP，从冻结策略内部 actor/ego/map 表征读取风险方向，做失效预警",
-   "categories": [
-    "cs.LG"
-   ],
-   "topic": "e2e-autonomous-driving",
-   "date": "2026-10-27",
-   "status": "已收录",
-   "status_en": "indexed",
-   "url": "https://arxiv.org/abs/2610.37299",
-   "in_kb": true,
-   "in_dashboard": true,
-   "score": 4
-  },
-  {
    "title": "From 12 to 200 Demonstrations: How ACT, Diffusion Policy, SmolVLA and $π_{0.5}$ Scale on a Low-Cost Arm",
    "id": "2610.37170",
    "arxiv_id": "2610.37170",
@@ -9318,26 +9710,6 @@
    "in_kb": true,
    "in_dashboard": true,
    "score": 4
-  },
-  {
-   "title": "SO-101 Bench: Accessible Spatial Manipulation",
-   "id": "2610.36420v1",
-   "arxiv_id": "2610.36420v1",
-   "published": "2026-10-27",
-   "authors": "Truman Hickok",
-   "summary": "Low-cost arms such as the SO-101 have become the most common entry point to robot learning, yet no released policy performs spatially constrained, language-conditioned tasks on them out of the box, and existing SO-101 benchmarks run only on physical hardware with simple tasks and few held-out objects. We introduce SO-101 Bench, a simulated benchmark for language-conditioned spatial manipulation built on an Isaac Lab digital twin of a real SO-101 setup. It has four tasks scored as five families, 138 objects in seen, unseen-instance and unseen-class splits, 916 evaluation episodes with subsets f",
-   "categories": [
-    "cs.CV"
-   ],
-   "topic": "e2e-autonomous-driving",
-   "date": "2026-10-27",
-   "status": "新发现",
-   "status_en": "new",
-   "url": "https://arxiv.org/abs/2610.36420v1",
-   "in_kb": false,
-   "in_dashboard": true,
-   "score": 3,
-   "reason": "低成本机械臂语言条件空间操作基准"
   },
   {
    "title": "Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer",
@@ -10715,27 +11087,6 @@
    "reason": "世界模型（可迁移）"
   },
   {
-   "title": "Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy",
-   "id": "2610.35832v1",
-   "arxiv_id": "2610.35832v1",
-   "published": "2026-10-26",
-   "authors": "Yifei Yao, Yude Zou, Guanbo Jiao, Xing Gao, Ning Gao, Yukai Wang, Jiantong Chen, Zihou Zhu",
-   "summary": "Frontier multimodal large language models (MLLMs) can control robots without robot-specific training, but how their capabilities compare and interact with post-trained vision-language-action (VLA) and world action model (WAM) policies across manipulation demands remains to be thoroughly evaluated. In this report, we evaluate GPT-6-Astra on EBench as the core of an agent that controls a robot through an agent harness under the same visual and proprioceptive observation protocol as post-trained po",
-   "categories": [
-    "cs.RO",
-    "cs.AI"
-   ],
-   "topic": "world-models-ad",
-   "date": "2026-10-26",
-   "status": "新发现",
-   "status_en": "new",
-   "url": "https://arxiv.org/abs/2610.35832v1",
-   "in_kb": false,
-   "in_dashboard": true,
-   "score": 3,
-   "reason": "VLA 方法（可迁移）"
-  },
-  {
    "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent",
    "id": "2610.35817v2",
    "arxiv_id": "2610.35817v2",
@@ -11709,26 +12060,6 @@
    "reason": "AD/VLA 核心"
   },
   {
-   "title": "From Tabletop to Walking Bot: Deploying a VLA Model on a Legged Manipulator Robot",
-   "id": "2610.32271v1",
-   "arxiv_id": "2610.32271v1",
-   "published": "2026-10-23",
-   "authors": "Giovanni Minelli, Antonio Langella, Giovanni B. Dessy, Lorenzo Amatucci, Giulio Turrisi, Victor Barasuol, Claudio Semini",
-   "summary": "Vision-language-action (VLA) models are typically pretrained on broad, diverse datasets and subsequently fine-tuned on a comparatively small dataset tailored to a specific target robot. Such adaptation recipe is now widely established, achieving its most mature results on fixed-base arms due to their static base dynamics and consistent reference frame. Mounting the same arm on a quadruped extends the workspace to the entire floor, but fundamentally changes the embodiment: rather than controlling",
-   "categories": [
-    "cs.RO"
-   ],
-   "topic": "vla-autonomous-driving",
-   "date": "2026-10-23",
-   "status": "新发现",
-   "status_en": "new",
-   "url": "https://arxiv.org/abs/2610.32271v1",
-   "in_kb": false,
-   "in_dashboard": true,
-   "score": 4,
-   "reason": "VLA × 驾驶/导航"
-  },
-  {
    "title": "TravSUITE: Traversability via Self-Supervised, Uncertainty-Aware IRL and Terrain Estimation",
    "id": "2610.32130v1",
    "arxiv_id": "2610.32130v1",
@@ -11988,26 +12319,6 @@
    "status": "新发现",
    "status_en": "new",
    "url": "https://arxiv.org/abs/2610.32208v1",
-   "in_kb": false,
-   "in_dashboard": true,
-   "score": 3,
-   "reason": "VLA 方法（可迁移）"
-  },
-  {
-   "title": "Coupling Execution Horizon and Sampling Depth in Flow-Matching VLA Policies",
-   "id": "2610.32102v1",
-   "arxiv_id": "2610.32102v1",
-   "published": "2026-10-23",
-   "authors": "Jiabing Yang, Yuan Xu, Yixiang Chen, Qisen Ma, Peiyan Li, Kai Wang, Chenhang Cui, Tao Yu",
-   "summary": "Flow-matching Vision-Language-Action (VLA) models generate expressive continuous trajectories for robotic manipulation, yet balancing real-time responsiveness with execution stability remains a persistent challenge. Standard deployment workflows typically treat numerical solver depth and execution horizon as decoupled choices. The horizon amortizes inference latency, while solver depth is kept high to preserve integration fidelity. In this paper, we reveal a fundamental compute-execution couplin",
-   "categories": [
-    "cs.RO"
-   ],
-   "topic": "vla-autonomous-driving",
-   "date": "2026-10-23",
-   "status": "新发现",
-   "status_en": "new",
-   "url": "https://arxiv.org/abs/2610.32102v1",
    "in_kb": false,
    "in_dashboard": true,
    "score": 3,
@@ -19638,22 +19949,6 @@
    "in_kb": false,
    "status": "新发现",
    "status_en": "new"
-  },
-  {
-   "id": "2610.09194v1",
-   "title": "Patient, Place, Prior (P$^3$): What Counts as Personalization in Medical World Models?",
-   "authors": "Xingrui Gu; Hanxue Gu; Yuxiang Zhang; Yang Yang",
-   "published": "2026-10-06",
-   "categories": [
-    "cs.LG",
-    "cs.AI"
-   ],
-   "summary": "Longitudinal models forecast how a patient's imaging state evolves, but accuracy does not show whether the patient's observed trajectory drives the prediction. A population-average forecast may be use",
-   "url": "https://arxiv.org/abs/2610.09194",
-   "status": "new",
-   "in_kb": false,
-   "score": 3,
-   "arxiv_id": "2610.09194v1"
   },
   {
    "id": "2610.08771v1",
@@ -32590,16 +32885,17 @@
    "in_kb": false
   }
  ],
- "updated_at": "2026-11-01T16:10:44-08:00",
- "last_updated": "2026-11-01T16:10:44-08:00",
+ "updated_at": "2026-11-03T16:16:16-08:00",
+ "last_updated": "2026-11-03T16:16:16-08:00",
  "category_counts": {
-  "world-models-ad": 323,
-  "e2e-autonomous-driving": 411,
-  "vla-autonomous-driving": 255,
-  "robotics": 1,
+  "world-models-ad": 340,
+  "vla-autonomous-driving": 266,
+  "e2e-autonomous-driving": 480,
   "Planning": 29,
   "Diffusion Policy": 23,
   "BEV Perception": 14,
+  "other": 361,
+  "robotics": 1,
   "World Models / Autonomous Driving": 5,
   "World Action Models": 7,
   "End-to-End Autonomous Driving": 9,
@@ -32615,74 +32911,215 @@
   "World Models": 60,
   "Perception": 7,
   "LLM Agents": 1,
+  "VLA Reasoning": 1,
+  "Motion Planning": 1,
   "World Models / Evaluation": 2,
+  "World Models AD": 8,
+  "Vision-Language-Action (VLA)": 13,
+  "End-to-End Autonomous Driving / World Models": 1,
+  "World Models / Autonomous Navigation": 1,
   "World Models / Planning": 1,
   "World Models / Data": 1,
   "World Models / Robot Learning": 1,
-  "Simulation & Validation / Autonomous Driving": 1,
   "World Models / Dynamics": 1,
   "World Models / Representation": 1,
   "World Models / Reliability": 1,
-  "World Models / Omnimodal": 1,
-  "Imitation Learning / World Token": 1,
-  "VLA Reasoning": 1,
-  "World Models AD": 8,
   "Autonomous Driving RL": 1,
   "VLA Robustness": 1,
-  "Video Generation": 1,
-  "Video World Models": 1,
-  "Vision Language Models": 1,
-  "VLA Autonomous Driving": 4,
-  "other": 362,
-  "Vision-Language-Action (VLA)": 13,
   "World Action Models / Autonomous Driving": 1,
-  "Simulation & Validation": 1,
   "End-to-End Autonomous Driving / Simulation": 2,
-  "Planning & Navigation": 1,
-  "End-to-End Autonomous Driving / World Models": 1,
-  "VLA / Embodied AI": 1,
-  "World Models / Autonomous Navigation": 1,
   "World Action Models / Deployment": 1,
   "Imitation Learning / Behavioral Cloning": 1,
   "VLA / Long-Horizon Manipulation": 1,
   "VLA / Visual Perception": 1,
   "VLA / Instruction Generalization": 1,
   "VLA / Data Synthesis / Pretraining": 1,
-  "Perception / Traversability / Robotics": 1,
-  "VLA / Mobile Manipulation": 1,
   "VLA / BEV Perception": 1,
   "BEV Perception / HD Map": 1,
   "BEV Perception / Trajectory Prediction": 1,
   "VLA / World Model": 1,
   "Vision-Language-Action (VLA) / Safety": 1,
   "World Model / Robot Learning": 1,
+  "Diffusion Policy / Navigation": 1,
+  "Imitation Learning": 1,
+  "Simulation & Validation / Autonomous Driving": 1,
+  "World Models / Omnimodal": 1,
+  "Imitation Learning / World Token": 1,
+  "Video Generation": 1,
+  "Video World Models": 1,
+  "Vision Language Models": 1,
+  "VLA Autonomous Driving": 4,
+  "Simulation & Validation": 1,
+  "Planning & Navigation": 1,
+  "VLA / Embodied AI": 1,
+  "Perception / Traversability / Robotics": 1,
+  "VLA / Mobile Manipulation": 1,
   "Imitation Learning / Perception": 1,
   "Diffusion Policy / Imitation Learning": 1,
   "Planning / Motion Planning": 1,
   "VLA / Reasoning": 1,
-  "Diffusion Policy / Navigation": 1,
   "VLA / Imitation Learning": 1,
   "Fintech ML": 1,
   "World Models / JEPA / Multi-Agent Prediction": 1,
   "Vision-Language Navigation / Traversability": 1,
-  "Imitation Learning": 1,
-  "World Models / Imitation Learning": 1,
-  "Motion Planning": 1
+  "World Models / Imitation Learning": 1
  },
- "total_papers": 1658,
- "weekly": {
-  "week": "2026-10-18 ~ 2026-10-24",
-  "report": "weekly/2026-10-24-weekly-summary.md",
-  "picks": [
-   "2610.28184",
-   "2610.29676",
-   "2610.30953",
-   "2610.29730",
-   "2610.28631"
-  ],
-  "generated_at": "2026-10-24T19:01:47.400382-07:00",
-  "total_papers": 1536
- },
- "new_findings": 715,
- "last_scan": "2026-11-01T16:10:44-08:00"
+ "total_papers": 1754,
+ "weekly": [
+  {
+   "title": "Scaling Action-Free Video Latent Prediction for Transferable Representations in End-to-End Autonomous Driving",
+   "id": "2611.02853",
+   "published": "2611.02853",
+   "authors": "Xingtai Gui, Xubin Zhou, Yucheng Zhou et al.",
+   "summary": "ScaleDrive 研究「无动作标注的互联网驾驶视频」作为预训练目标能否迁移到端到端规划：只用大规模开放世界驾驶视频做视频潜变量预测预训练，下游规划训练时冻结视频编码器，从而单独检验表征可迁移性。ego-motion 与深度探针显示，随预训练规模增大，冻结表征中的时序与几何信息单调增强，并系统比较了不同下游数据集/架构下的迁移效果。结论对「数据规模 > 标注质量」的自动驾驶预训练路线是有力支撑。",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-11-02",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2611.02853",
+   "url": "https://arxiv.org/abs/2611.02853",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "weekly_pick": true,
+   "weekly_analysis": "e2e-autonomous-driving/analysis/2611.02853-ScaleDrive-ActionFreeVideoPretrain.md"
+  },
+  {
+   "title": "Xiaomi Auto World Model 2.0: Causal World Models for Real-World Driving and Embodied Intelligence",
+   "id": "2611.01677",
+   "published": "2611.01677",
+   "authors": "Zhenxin Zhu, Zhijian Huang, Cheng Chi et al.",
+   "summary": "小米汽车世界模型 2.0：面向物理 AI 的统一流式因果世界模型，用 View-Temporal Attention + Multi-view RoPE 编码跨视角/跨时序依赖；WorldRec 2.0 单次前向从多视角多时刻观测重建静态+动态 3D Gaussian，并将渲染结果作为显式场景上下文以抑制长时域生成漂移；时间层引入 Gated Linear Attention 降低多视角 rollout 的算力与 KV-cache。配套物理交互数据管线覆盖长尾事件。产业界在驾驶世界模型上的工程整合度已相当高，可作为闭环仿真的参考架构。",
+   "categories": [
+    "cs.AI",
+    "cs.LG"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-11-01",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2611.01677",
+   "url": "https://arxiv.org/abs/2611.01677",
+   "in_kb": false,
+   "in_dashboard": true,
+   "score": 5,
+   "weekly_pick": true,
+   "weekly_analysis": "world-models-ad/analysis/2611.01677-XiaomiAutoWorldModel2.md"
+  },
+  {
+   "title": "Structured Representation Probing for Risk Anticipation in End-to-End Autonomous Driving",
+   "id": "2610.37299",
+   "arxiv_id": "2610.37299",
+   "published": "2026-10-27",
+   "authors": "Jiawei Liang, Tianrui Lou, Le Yang, Xianghao Jiao, Wei Wang, Xiaochun Cao",
+   "summary": "针对端到端驾驶策略的内部表征做「结构化探针」(SRP)：从冻结策略中分别读取 actor、ego、map 三类表征，各自学习线性风险方向，再用基数归一化的 log-mean-exp 池化聚合，并引入事件窗口监督把读出信号与即将发生的硬失败对齐。在线只输出单一通用风险分数，不改动驾驶策略本身。Bench2Drive 上 DriveTransformer/UniAD/VAD 的帧级 PR-AUC、ROC-AUC 均优于运行时基线，DriveTransformer 在 2 秒预测视界 ROC-AUC 达较好水平。价值在于把「风险预警」变成对内部结构表征的轻量读取，是 E2E 可监控性的实用路线。",
+   "categories": [
+    "cs.LG"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-27",
+   "status": "已收录",
+   "status_en": "indexed",
+   "url": "https://arxiv.org/abs/2610.37299",
+   "in_kb": true,
+   "in_dashboard": true,
+   "score": 5,
+   "weekly_pick": true,
+   "weekly_analysis": "e2e-autonomous-driving/analysis/2610.37299-SRP-RiskAnticipation.md"
+  },
+  {
+   "title": "Post-hoc Epistemic Uncertainty for Vision-Language-Action Policies",
+   "id": "2610.29730",
+   "published": "2610.29730",
+   "authors": "Johannes Keller, Albrecht M. Bloße, Adrian Lindenmeyer, Thomas Neumuth, Daniel Schneider et al.",
+   "summary": "提出 post-hoc kernel-variance heads：在单一训练好的 VLA 上，用高斯过程在策略 embedding 上计算条件方差来估计认知不确定性，拟合无需回归目标与梯度更新、不改动策略。SmolVLA + LIBERO-10 上，任务级相关性、主动学习演示获取、referral 到更强 supervisor 三项均与 two-policy ensemble 打平，VL backbone head 打分快约 50 倍且 setup 成本更低；并指出 LIBERO-10 既有评测主要奖励任务间覆盖差异、任务内排序受执行方差干扰，建议用受控扰动补充评测。",
+   "categories": [
+    "cs.RO",
+    "cs.LG"
+   ],
+   "topic": "vla-autonomous-driving",
+   "date": "2026-10-21",
+   "status": "new",
+   "status_en": "新发现",
+   "arxiv_id": "2610.29730",
+   "url": "https://arxiv.org/abs/2610.29730",
+   "in_kb": true,
+   "in_dashboard": true,
+   "score": 5,
+   "weekly_pick": true,
+   "weekly_analysis": "vla-autonomous-driving/analysis/2026-10-21_Post-hoc-Epistemic-Uncertainty-for-Visio.md"
+  },
+  {
+   "title": "DriveMLP: When Training Strategy Outperforms Model Complexity in Autonomous Driving",
+   "id": "2610.29676",
+   "published": "2610.29676",
+   "authors": "Alessandro Canevaro, Julian Schmidt, Hang Yu, Ye Jin, Sajad Marvi, Georg Martius et al.",
+   "summary": "提出 Expert-Guided RL (EGRL)：把 RL 纯粹当优化工具，奖励直接取「与专家日志轨迹的距离」，无需手工规则奖励；受控实验表明性能提升主要来自训练策略而非模型规模。据此给出轻量 MLP 策略 DriveMLP，nuPlan Val14 Reactive 得分 86.51，比前 SOTA IL 规划器 Flow Planner 高 3.2 分，推理快 15 倍以上。代码已开源。",
+   "categories": [
+    "cs.RO",
+    "cs.CV",
+    "cs.LG"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-21",
+   "status": "new",
+   "status_en": "新发现",
+   "arxiv_id": "2610.29676",
+   "url": "https://arxiv.org/abs/2610.29676",
+   "in_kb": true,
+   "in_dashboard": true,
+   "score": 5,
+   "weekly_pick": true,
+   "weekly_analysis": "e2e-autonomous-driving/analysis/2026-10-21_DriveMLP.md"
+  },
+  {
+   "title": "AEON: Unifying Video and 3D World Models",
+   "id": "2610.28631",
+   "published": "2610.28631",
+   "authors": "Weiqi Zhang, Wenyuan Zhang, Yu-Shen Liu, Junsheng Zhou",
+   "summary": "统一视频世界模型与 3D 世界模型：在 text/image 条件化的 video latent space 中生成，但输出可渲染的显式 4D 表示（4D Gaussian Splatting）。用单目视频训练 4D 重建模型预测 4DGS 与相机位姿作为 4D decoder 初始化，并通过在 video VAE 上蒸馏的 domain adapter 将生成性 video latent 译为重建性 4D latent。支持按预测相机轨迹渲染的 video world modeling 与持久 4D 动态环境，在标准 benchmark 上取得 SOTA。",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-10-20",
+   "status": "new",
+   "status_en": "新发现",
+   "arxiv_id": "2610.28631",
+   "url": "https://arxiv.org/abs/2610.28631",
+   "in_kb": true,
+   "in_dashboard": true,
+   "score": 5,
+   "weekly_pick": true,
+   "weekly_analysis": "world-models-ad/analysis/2026-10-20_AEON-video-3d-world-models.md"
+  },
+  {
+   "title": "Perceives but Doesn't Brake: A Perception-Action Binding Gap in Reasoning Driving VLAs",
+   "id": "2610.28184",
+   "published": "2610.28184",
+   "authors": "Matteo Cercola, Katie Z Luo, Simone Formentin, Marco Pavone et al.",
+   "summary": "揭示推理增强驾驶 VLA 的「感知-动作绑定缺口」：危险物已被视觉表征编码、轨迹生成器也具备刹车能力，但危险信息对轨迹生成缺乏因果控制力；纵向规划由 ego 速度历史主导，对障碍距离与自身推理文本响应微弱。用反事实实验诊断，并在冻结 flow-matching 采样器中注入 hazard 条件能量做推理时修复：footprint intrusion 58.1%→14.5%，制动测试集碰撞消除，无需重训改权重。",
+   "categories": [
+    "cs.RO",
+    "cs.CV",
+    "cs.LG"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-10-20",
+   "status": "new",
+   "status_en": "新发现",
+   "arxiv_id": "2610.28184",
+   "url": "https://arxiv.org/abs/2610.28184",
+   "in_kb": true,
+   "in_dashboard": true,
+   "score": 5,
+   "weekly_pick": true,
+   "weekly_analysis": "e2e-autonomous-driving/analysis/2026-10-20_Perceives-but-Doesnt-Brake.md"
+  }
+ ],
+ "new_findings": 1309,
+ "last_scan": "2026-11-03T16:16:16-08:00"
 }

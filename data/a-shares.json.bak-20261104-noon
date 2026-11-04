@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-04",
+  "time": "noon",
+  "fetched_at": "2026-11-04T03:36:44Z",
+  "indices": {
+    "上证指数": {
+      "code": "000001",
+      "price": 3604.37,
+      "change": -3.73,
+      "change_pct": -0.1
+    },
+    "深证成指": {
+      "code": "399001",
+      "price": 10891.91,
+      "change": 14.92,
+      "change_pct": 0.14
+    },
+    "创业板指": {
+      "code": "399006",
+      "price": 2394.12,
+      "change": 2.47,
+      "change_pct": 0.1
+    },
+    "沪深300": {
+      "code": "000300",
+      "price": 4010.35,
+      "change": 1.48,
+      "change_pct": 0.04
+    },
+    "上证50": {
+      "code": "000016",
+      "price": 2768.4,
+      "change": 0.13,
+      "change_pct": 0.0
+    },
+    "中证500": {
+      "code": "000905",
+      "price": 6341.38,
+      "change": 14.33,
+      "change_pct": 0.23
+    },
+    "科创50": {
+      "code": "000688",
+      "price": 1161.08,
+      "change": 9.8,
+      "change_pct": 0.85
+    },
+    "中证1000": {
+      "code": "000852",
+      "price": 6240.39,
+      "change": 19.16,
+      "change_pct": 0.31
+    }
+  },
+  "hang_seng": {
+    "name": "恒生指数",
+    "price": 23498.53,
+    "change": -27.44,
+    "change_pct": -0.12,
+    "time": ""
+  },
+  "sectors": {
+    "top5": [
+      {
+        "name": "视频媒体",
+        "change_pct": 3.99,
+        "turnover": 24.96
+      },
+      {
+        "name": "半导体设备",
+        "change_pct": 3.66,
+        "turnover": 208.73
+      },
+      {
+        "name": "种子",
+        "change_pct": 3.56,
+        "turnover": 22.61
+      },
+      {
+        "name": "文字媒体",
+        "change_pct": 2.53,
+        "turnover": 40.84
+      },
+      {
+        "name": "数字芯片设计",
+        "change_pct": 2.36,
+        "turnover": 462.28
+      }
+    ],
+    "bottom5": [
+      {
+        "name": "水泥制造",
+        "change_pct": -0.02,
+        "turnover": 14.83
+      },
+      {
+        "name": "钟表珠宝",
+        "change_pct": -0.02,
+        "turnover": 7.62
+      },
+      {
+        "name": "高速公路",
+        "change_pct": -0.01,
+        "turnover": 17.7
+      },
+      {
+        "name": "其他通信设备",
+        "change_pct": -0.01,
+        "turnover": 8.31
+      },
+      {
+        "name": "房屋建设Ⅱ",
+        "change_pct": -0.01,
+        "turnover": 12.07
+      }
+    ],
+    "count": 100,
+    "source": "eastmoney"
+  },
+  "northbound": {
+    "date": null,
+    "net": 0.0,
+    "items": [],
+    "note": "沪深港通北向资金自2024-08起停止实时披露"
+  },
+  "southbound": [],
+  "breadth": {
+    "up": 1598,
+    "down": 3519,
+    "flat": 178
+  },
+  "note": "数据源: 东方财富 push2(跟随302到 push2delay) 指数/行业板块/涨跌家数/恒指。北向资金已停止实时披露。"
+}

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T16:16:16-08:00",
+ "updated": "2026-11-04T16:28:44-08:00",
  "papers": [
   {
    "title": "Seeing Through the Illusion: Test-Time Scaling for World Action Models",
@@ -32883,10 +32883,178 @@
    "arxiv_id": "2607.27194",
    "url": "https://arxiv.org/abs/2607.27194",
    "in_kb": false
+  },
+  {
+   "title": "RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild",
+   "id": "2611.02497",
+   "date": "2026-11-02",
+   "authors": "Tan Sang Nguyen, Yi Ru Wang, Shailesh Shailesh, Gang Yang, Jiamo Hu, Jianuo Jiang, Haoquan Fang, Zhongzheng Ren",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "abstract": "General-purpose robot policies must work across robots, tasks, and environments, yet the variation that makes physical trials informative also makes them difficult to reproduce. We introduce RoboColosseum, a distributed evaluation framework that combines unified policy serving and standardized protocols across a network of locally operated robots in diverse environments. Our initial study evaluates five vision-language-action (VLA) policies and three frontier AI agents across four embodiments (SO-101, Franka, Bimanual-YAM, and G1 Humanoid). The Open Track compares models without task-specific adaptation in blinded, pairwise trials under matched local conditions. The Fine-tune Track measures how well VLA policies adapt to 20 tasks across all four embodiments when each policy receives the same 100 demonstrations per task. Across 5,699 pairwise Open Track comparisons at 124 sites, frontier agents rival specialized VLA policies, while all systems struggle to complete open-world tasks reliably. After fine-tuning, GR00T N1.7 leads on SO-101 and pi0.5 leads on Franka and Bimanual-YAM. Policy rankings show weak agreement across embodiment-specific task suites (Kendall W = 0.24). Open Track",
+   "topic": "VLA",
+   "status": "新发现",
+   "status_en": "new",
+   "score": 5,
+   "arxiv_id": "2611.02497",
+   "url": "https://arxiv.org/abs/2611.02497",
+   "in_kb": true,
+   "tldr": "跨 4 种本体、124 个实地站点、5699 组配对盲测的 VLA/前沿 Agent 真实世界大规模评测，给出\"in-the-wild\"排行榜。",
+   "method": "RoboColosseum 分布式评测框架：统一 policy serving + 标准化协议；Open Track 零适配盲测，Fine-tune Track 在每任务 100 条演示下测 20 个任务的适应能力。",
+   "result": "真实世界规模化评测显著提升 VLA 泛化结论可信度；局限是任务/站点分布偏差与评测成本。"
+  },
+  {
+   "title": "PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations",
+   "id": "2611.04870",
+   "date": "2026-11-03",
+   "authors": "Travis Davies, Wentao Ma, Lihao Guo, Tengfei Ma, Xiaowen Chang, Jiafeng Xu, Shilong Wang, Yiqi Deng",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "abstract": "A robot world model that serves as a simulator must do more than generate plausible videos: it must faithfully follow commanded actions, maintain consistency across camera views, and sustain coherent long-horizon rollouts. We present PrimeSim, an action-conditioned, multiview world model simulator that addresses these challenges through progressive midtraining and posttraining. Starting from a pretrained video generator, we midtrain on 30,110 hours of robot demonstrations spanning 22 platforms. To improve action following, we introduce a unified cross-embodiment action representation and frame-aligned dual-path conditioning to strengthen action-frame correspondence. To maintain multiview consistency, we develop view-aware interleaved attention with explicit camera identities, enabling cross-view information exchange while preserving view-specific representations. We further introduce a fast-video, slow-memory posttraining framework that transforms the bidirectional video generator into an efficient autoregressive simulator. By combining fast causal generation, self-rollout training, and hierarchical temporal memory, PrimeSim mitigates error accumulation from self-generated historie",
+   "topic": "World Models",
+   "status": "新发现",
+   "status_en": "new",
+   "score": 5,
+   "arxiv_id": "2611.04870",
+   "url": "https://arxiv.org/abs/2611.04870",
+   "in_kb": true,
+   "tldr": "基于 30,110 小时、22 种机器人平台演示训练的动作条件多视角世界模型模拟器。",
+   "method": "预训练视频生成器 → 跨本体统一动作表示 + 帧对齐双路条件 → 视角感知交错注意力（显式相机 ID）→ 渐进 mid/post-training。",
+   "result": "长时程 rollout 一致性与动作跟随；多相机一致性设计对驾驶世界模型有直接借鉴。"
+  },
+  {
+   "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+   "id": "2611.05377",
+   "date": "2026-11-03",
+   "authors": "Jisoo Kim, Chaehyun Kim, Junsu Kim, Jiho Park, Seongchan Kim, Eunbeen Hong, Soowon Son, Fu-En Yang",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "abstract": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments. We introduce DreamX, which repurposes a pretrained video diffusion model as a universal latent action learner. Our approach extracts compact latent actions from the video model's rich spatiotemporal features, compressing each latent video frame by 300times (1{,200 rightarrow 4} tokens). In addition, by leveraging the video model's generative prior, these latent actions capture action-relevant dynamics disentangled from visual appearance. The resulting latent space serves as a shared action interface across embodiments (human and robot), environments, and action parameterizations. On LARY-Bench, DreamX achieves state-of-the-art performance among latent action models. Moreover, actions encoded in one setting remain effective in another: the latent space supports any-to-any video tran",
+   "topic": "VLA",
+   "status": "新发现",
+   "status_en": "new",
+   "score": 4,
+   "arxiv_id": "2611.05377",
+   "url": "https://arxiv.org/abs/2611.05377",
+   "in_kb": true,
+   "tldr": "复用预训练视频扩散模型作为通用隐动作学习器，跨本体可迁移。",
+   "method": "从视频模型时空特征提取紧凑 latent action（1200→4 token，300× 压缩），借生成先验解耦动作与外观，形成共享动作空间。",
+   "result": "为跨本体策略学习提供新路径；与\"从视频学驾驶动作\"思路相通。"
+  },
+  {
+   "title": "Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena",
+   "id": "2610.00854",
+   "date": "2026-10-23",
+   "authors": "Haojian Huang, Pukun Zhao, Zexi Li, Yehang Zhang, Yangkai Wei, Wenqian Li, Han Yang, Kaiwen Zhou",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "abstract": "A robot generalist must interpret a scene, act on it, and satisfy every condition of a task. How far do frontier vision-language models (VLMs) meet these demands? We introduce Embodied Agent Arena, evaluating ten VLM agents across Geometry, Spatial Reasoning, Affordance, Task Planning, and Manipulation. Its 1,000 cases combine 32 established sources with GeoProbe, our 168-case benchmark for camera, motion, depth, and scale estimation. A minimal harness leaves task decisions to the model through source-native interfaces. Closed-weight models lead all five domains, whereas open-weight VLMs show useful spatial reasoning but substantially lower planning and manipulation success. Beneath these averages, similar geometric errors conceal different scale and shape distortions, and valid region estimates need not identify usable action points. During execution, agents can achieve early subgoals yet lose object control, bind an action to the wrong receiving region, or stop before the required physical state holds. Additional computation does not uniformly resolve these failures: code repair can restore execution without completing the task, while self-review can reverse correct judgments. Fa",
+   "topic": "VLA",
+   "status": "新发现",
+   "status_en": "new",
+   "score": 4,
+   "arxiv_id": "2610.00854",
+   "url": "https://arxiv.org/abs/2610.00854",
+   "in_kb": true,
+   "tldr": "Embodied Agent Arena：10 个 VLM Agent × 5 大能力域 1000 例评测，并发布 GeoProbe（168 例相机/运动/深度/尺度估计）。",
+   "method": "最小化 harness 决策，对比闭源/开源 VLM 在几何、空间、可供性、任务规划、操作上的差异。",
+   "result": "揭示几何误差与可用动作点解耦；对 VLM 驾驶决策可信度评估有参考价值。"
+  },
+  {
+   "title": "History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models",
+   "id": "2611.02782",
+   "date": "2026-11-02",
+   "authors": "Hangyi Kuang, Chengzhi Wang, Yefei He, Weijie Wang, Yuke Zhao, Zhuokun Chen, Zisu Huang, Yifan Yang",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "abstract": "Few-step autoregressive video diffusion enables efficient generation, yet maintaining consistency over long rollouts remains challenging, especially when subjects or scenes reappear after going out of sight. Despite progress in fidelity and rollout robustness, existing distillation methods do not fully exploit richer historical information to constrain the student's current prediction. To address this gap, we introduce History Forcing, a unified on-policy distillation framework that strengthens historical supervision for few-step autoregressive video generators. The framework uses the residual between teacher predictions with and without informative historical context to decouple this supervision. Such a historical context can be obtained using earlier generated chunks with less accumulated drift or a fixed-view teacher rollout that keeps the scene visible while the student looks away. The residual is then weighted and added to the score or velocity prediction used for distillation, forming a corrected target. By aligning the student with this corrected target through distillation, History Forcing incorporates long-range historical constraints into autoregressive generation. Our me",
+   "topic": "World Models",
+   "status": "新发现",
+   "status_en": "new",
+   "score": 4,
+   "arxiv_id": "2611.02782",
+   "url": "https://arxiv.org/abs/2611.02782",
+   "in_kb": true,
+   "tldr": "History Forcing：面向少步自回归视频世界模型的长时程一致性蒸馏框架。",
+   "method": "用\"有/无历史上下文\"的教师残差解耦历史监督，可用低漂移早段 chunk 或固定视角教师 rollout 作为历史上下文。",
+   "result": "直接服务长时程 rollout 一致性，可用于驾驶中目标短暂遮挡后重现的建模。"
+  },
+  {
+   "title": "TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents",
+   "id": "2610.41216",
+   "date": "2026-10-30",
+   "authors": "Kehong Gong, Xiaoxu Zheng, Guanli Hou, Seunghun Lee, Mengqi Guo, Runjia Tan, Zhengyu Wen, Qi Wang",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "abstract": "Robot agents built on vision-language models depend on both the planner and its harness: the tools, feedback, memory, and recovery logic around it. Can improvements to a large teacher's harness be carried into a compact agent with lower inference compute cost? We present TinyAstral, a two-stage approach. We first freeze an open-weight teacher and improve its harness through recursive self-improvement (RSI): frontier LLM agents read the teacher's trajectories and propose harness edits, and each edit is accepted only if it passes a paired statistical test. We then freeze the final harness, collect teacher trajectories with reasoning and failure recovery, and distill a small student that replaces the teacher in the same harness. On RoboTwin, harness evolution raises the teacher's success from 33.4% to 63.6%; the final 4B student reaches 62.8%. Across four harness versions, distilled 4B students score close to their corresponding teachers, and later versions yield stronger students, showing that harness evolution gains carry into compact models. The harness gains also transfer to other frozen planners without retraining. On identical episodes, the final 4B student outperforms open 4B a",
+   "topic": "VLA",
+   "status": "新发现",
+   "status_en": "new",
+   "score": 3,
+   "arxiv_id": "2610.41216",
+   "url": "https://arxiv.org/abs/2610.41216",
+   "in_kb": true,
+   "tldr": "TinyAstral：把大教师模型的 harness 经递归自我改进后蒸馏到 4B 小模型。",
+   "method": "冻结教师 → LLM Agent 提出 harness 修改并通过配对统计检验 → 冻结 harness 收集轨迹 → 蒸馏小模型。",
+   "result": "RoboTwin 成功率 33.4%→63.6%，4B 学生 62.8%；对算力受限的驾驶 VLA 部署有价值。"
+  },
+  {
+   "title": "RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On",
+   "id": "2611.05163",
+   "date": "2026-11-03",
+   "authors": "Seungyong Lee, Suhyeok Jang, Minyoung Kim, Jinwoo Shin",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "abstract": "Robot foundation models have shown remarkable performance in robot control, yet adapting them to a new task still relies heavily on teleoperated demonstrations. Egocentric human videos offer a scalable substitute, but overlaying rendered robots on human videos or retargeting human poses into robot actions leaves significant visual or action gaps for high-DoF robot embodiments. To address this limitation, we propose RoboTryOn, which treats human-to-robot translation as virtual try-on: try-on keeps the person and swaps the garment, RoboTryOn keeps the demonstrated motion and swaps the human for the robot. Specifically, RoboTryOn converts a human video into a video of the target robot specified by a reference image, while preserving the original task, objects, and background. To maintain visual consistency, we translate selected keyframes autoregressively and use them to guide video synthesis with motion conditioned on the human hand skeleton. Additionally, we use an inverse dynamics model (IDM) that incorporates depth features to infer action labels from synthesized videos for policy learning. Our experiments across multiple humanoid embodiments show that policies trained with our sy",
+   "topic": "VLA",
+   "status": "新发现",
+   "status_en": "new",
+   "score": 3,
+   "arxiv_id": "2611.05163",
+   "url": "https://arxiv.org/abs/2611.05163",
+   "in_kb": true,
+   "tldr": "RoboTryOn：以\"虚拟试衣\"式思路把人类视频转成目标机器人演示。",
+   "method": "保留动作/物体/背景，用参考图把人类替换为目标机器人；关键帧自回归翻译后引导视频合成。",
+   "result": "降低高自由度本体对遥操作数据的依赖；对人类视频→驾驶数据迁移有类比启发。"
+  },
+  {
+   "title": "When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?",
+   "id": "2611.01815",
+   "date": "2026-11-01",
+   "authors": "Anton Hristov, Aleksandar Slavov, Vasil Vasilev",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "abstract": "Prediction errors from video world models are often treated as physical surprise, but they can also reflect appearance, static content, motion, or ordinary prediction difficulty. We present an evaluation framework that separates what frozen representations contain, how they organize appearance and physical differences, and what changes a model's own prediction error. On IntPhys2, a benchmark of physically possible and impossible events, we compare representations from latent prediction, masked pixel reconstruction, and simple visual statistics. Appearance remains easy to decode, while V-JEPA2 exposes modest information about whether events are possible or impossible. Looking at the latent geometry, appearance changes become smaller compared with differences between videos, their directions line up more consistently across scenes, and their overlap with physical changes decreases in deeper layers. Across action-conditioned models, incorrect actions raise prediction error, while appearance changes also produce substantial responses. In Physion++ video clips, repeating a single frame can produce higher error than the original clip, while changing color throughout the clip can lower it",
+   "topic": "World Models",
+   "status": "新发现",
+   "status_en": "new",
+   "score": 4,
+   "arxiv_id": "2611.01815",
+   "url": "https://arxiv.org/abs/2611.01815",
+   "in_kb": true,
+   "tldr": "系统检验\"潜空间预测误差=物理惊奇\"这一常见假设是否成立。",
+   "method": "对比 latent prediction / 掩码像素重建 / 简单视觉统计三类表示，分析潜空间几何中外观与物理变化的可分离性（IntPhys2）。",
+   "result": "对用预测误差做异常/风险检测的驾驶世界模型提出方法学警告，评测层面价值高。"
   }
  ],
- "updated_at": "2026-11-03T16:16:16-08:00",
- "last_updated": "2026-11-03T16:16:16-08:00",
+ "updated_at": "2026-11-04T16:28:44-08:00",
+ "last_updated": "2026-11-04T16:28:44-08:00",
  "category_counts": {
   "world-models-ad": 340,
   "vla-autonomous-driving": 266,
@@ -32964,7 +33132,7 @@
   "Vision-Language Navigation / Traversability": 1,
   "World Models / Imitation Learning": 1
  },
- "total_papers": 1754,
+ "total_papers": 1762,
  "weekly": [
   {
    "title": "Scaling Action-Free Video Latent Prediction for Transferable Representations in End-to-End Autonomous Driving",
@@ -33121,5 +33289,5 @@
   }
  ],
  "new_findings": 1309,
- "last_scan": "2026-11-03T16:16:16-08:00"
+ "last_scan": "2026-11-04T16:28:44-08:00"
 }

@@ -1,220 +1,292 @@
 {
-  "updated_at": "2026-11-05T01:20:00Z",
-  "as_of": "Nov 5 2026 01:20 UTC (北京11/5 09:20 / 美东11/4 20:20) — 【早盘预览】美股11/4暴涨:A股11/4收盘(上证3,686.17 +2.16%、深证11,335.69 +4.22%、创业板2,544.73 +6.40%、沪深300 4,101.34 +2.31%);美股11/4收盘:标普7,688.62(+1.58%)、纳指25,736.51(+1.44%)、道指53,356.12(+3.03%/约+1,569点)、VIX 16.61(-20.26%);纳指期货28,408(+0.36%)、标普期货7,718.75(+1.61%);商品:WTI $88.06(-8.36%)、布伦特$94.59(-8.70%)、黄金$4,103.40(+4.14%);10Y 4.89%;DXY 101.37(-0.49%);BTC $80,324(+3.85%)、ETH $2,413(+6.18%);日经11/5早盘62,308(-1.23%)。主线:民主党中期选举横扫参众两院+特朗普接受结果并释放伊朗战争降温信号→地缘溢价崩塌、油价暴跌、风险偏好全面回升。",
+  "updated_at": "2026-11-05T13:45:00Z",
+  "as_of": "Nov 5 2026 13:45 UTC (北京11/5 21:45 / 美东11/5 08:45 盘前) — 【晚间国际】A股11/5收盘:上证3,689.91(+0.10%)、深证11,471.09(+1.19%)、创业板2,566.80(+0.87%)、沪深300 4,113.41(+0.29%)、科创50 1,286.68(+1.68%),两市成交2.12万亿放量803亿、超4,800只个股上涨,盘中冲高回落、创业板一度涨超3%后收敛;港股大涨:恒指24,796.98(+3.67%)连续第五日上涨,创阶段新高;日经61,077.90(-1.79%)、KOSPI 5,383.80(-9.33%)亚太分化;美股11/4收盘:标普7,688.62(+1.58%)、纳指25,736.51(+1.44%)、道指53,356.12(+3.03%)、VIX 16.83(-9.17%);11/5盘前期货:标普期货7,728.75(+0.52%)、纳指期货28,342(+0.76%)小幅续涨(注:Yahoo期货涨跌幅基准为前结算价,可能与实时口径存在偏差);商品:WTI $89.47(-7.25%)、布伦特$97.07(+2.59%,较11/4收盘约定价口径差异,以WTI为准判断油价仍在$90下方震荡)、黄金$4,124.50(+3.90%)、白银$52.58(+3.66%);10Y 4.894%;DXY 101.64(-0.11%);BTC $79,592(+1.72%)、ETH $2,387(+5.00%)。主线:民主党中期选举横扫参众两院→财政扩张受限/科技监管趋严,资金从AI芯片轮向价值与能源;A股走出独立修复行情;英银(BOE)称伊朗战争不结束仍有加息理由。",
   "indices": [
     {
       "name": "上证综指",
       "symbol": "000001",
-      "close": 3686.17,
-      "change_pct": 2.16,
-      "note": "上证3,686.17 (+2.16%，11/4收盘) — 放量拉升收复3,600;11/5关注能否顺势高开、成交能否续放。"
+      "close": 3689.91,
+      "change_pct": 0.1,
+      "note": "上证3,689.91 (+0.10%，11/5收盘) — 低开1.07%后翻红,尾盘回升;成交9,797亿。"
     },
     {
       "name": "深证成指",
       "symbol": "399001",
-      "close": 11335.69,
-      "change_pct": 4.22,
-      "note": "深证11,335.69 (+4.22%，11/4收盘) — 成长股V型修复。"
+      "close": 11471.09,
+      "change_pct": 1.19,
+      "note": "深证11,471.09 (+1.19%，11/5收盘) — 成长股延续强势,成交11,382亿。"
     },
     {
       "name": "创业板指",
       "symbol": "399006",
-      "close": 2544.73,
-      "change_pct": 6.4,
-      "note": "创业板2,544.73 (+6.40%，11/4收盘) — AI算力/半导体领涨,单日最大涨幅。"
+      "close": 2566.8,
+      "change_pct": 0.87,
+      "note": "创业板2,566.80 (+0.87%，11/5收盘) — 盘中一度涨超3%后冲高回落,单日振幅较大;成交5,786亿。"
     },
     {
       "name": "沪深300",
       "symbol": "000300",
-      "close": 4101.34,
-      "change_pct": 2.31,
-      "note": "沪深300 4,101.34 (+2.31%，11/4收盘)。"
+      "close": 4113.41,
+      "change_pct": 0.29,
+      "note": "沪深300 4,113.41 (+0.29%，11/5收盘)。"
+    },
+    {
+      "name": "科创50",
+      "symbol": "000688",
+      "close": 1286.68,
+      "change_pct": 1.68,
+      "note": "科创50 1,286.68 (+1.68%，11/5收盘) — 硬科技补涨,全市场超4,800只个股上涨。"
     },
     {
       "name": "恒生指数",
       "symbol": "^HSI",
-      "close": 23919.5,
-      "change_pct": 1.67,
-      "note": "恒指23,919.50 (+1.67%，11/4收盘) — 四连阳;11/5亚太盘初多空分歧(芯片股轮动出局)。"
+      "close": 24796.98,
+      "change_pct": 3.67,
+      "note": "恒指24,796.98 (+3.67%，11/5收盘) — 五连阳并创阶段新高,单日涨幅显著强于A股,港科技/中概领涨。"
     },
     {
       "name": "日经225",
       "symbol": "^N225",
-      "close": 62308.16,
-      "change_pct": -1.23,
-      "note": "日经62,308.16 (-1.23%，11/5早盘) — 连续第二日走弱,半导体出口股承压。"
+      "close": 61077.9,
+      "change_pct": -1.79,
+      "note": "日经61,077.90 (-1.79%，11/5收盘) — 连续第三日下挫,半导体出口股持续承压(-9.3%区间累计回调)。"
     },
     {
       "name": "韩国KOSPI",
       "symbol": "^KS11",
-      "close": 5683.8,
-      "change_pct": 0.62,
-      "note": "KOSPI 5,683.80 (+0.62%，11/4收盘)。"
+      "close": 5383.8,
+      "change_pct": -9.33,
+      "note": "KOSPI 5,383.80 (较前收盘5,937.66约-9.33%，11/5) — 亚太最弱,芯片权重股大幅回落;注意该跌幅为Yahoo口径前收计算,存在数据异常可能。"
     },
     {
       "name": "S&P 500",
       "symbol": "^GSPC",
       "close": 7688.62,
       "change_pct": 1.58,
-      "note": "标普7,688.62 (+1.58%，11/4收盘) — 8月以来最佳单日。"
+      "note": "标普7,688.62 (+1.58%，11/4收盘) — 8月以来最佳单日;11/5盘前期货续涨约0.5%。"
     },
     {
       "name": "纳斯达克",
       "symbol": "^IXIC",
       "close": 25736.51,
       "change_pct": 1.44,
-      "note": "纳指25,736.51 (+1.44%，11/4收盘) — 落后于道指,AI数据中心监管担忧压制。"
+      "note": "纳指25,736.51 (+1.44%，11/4收盘) — 落后道指,AI数据中心监管担忧压制科技。"
     },
     {
       "name": "道琼斯",
       "symbol": "^DJI",
       "close": 53356.12,
       "change_pct": 3.03,
-      "note": "道指53,356.12 (+3.03%/约+1,569点，11/4收盘) — 9月8日以来首度重回53,000上方,价值/金融/医疗领涨。"
+      "note": "道指53,356.12 (+3.03%/约+1,569点，11/4收盘) — 价值/金融/医疗领涨。"
     },
     {
       "name": "VIX",
       "symbol": "^VIX",
-      "close": 18.53,
-      "change_pct": -11.04,
-      "note": "VIX 18.53 (-11.04%，11/4实时) — 选举不确定性出清,恐慌指数大幅回落至19下方。"
+      "close": 16.83,
+      "change_pct": -9.17,
+      "note": "VIX 16.83 (-9.17%，11/5实时) — 连续第二日回落,恐慌指数回到16区间。"
     }
   ],
   "crypto": [
     {
       "name": "BTC",
       "symbol": "BTC-USD",
-      "close": 80323.63,
-      "change_pct": 3.85,
-      "note": "BTC $80,324 (+3.85%，11/5 01:15 UTC) — 站上$80,000,创阶段新高;风险资产共振+油价暴跌降低通胀预期。"
+      "close": 79592.1,
+      "change_pct": 1.72,
+      "note": "BTC $79,592 (+1.72%，11/5 13:40 UTC) — 自$80,000上方小幅回落整理,仍处阶段高位。"
     },
     {
       "name": "ETH",
       "symbol": "ETH-USD",
-      "close": 2413.18,
-      "change_pct": 6.18,
-      "note": "ETH $2,413 (+6.18%) — 强于BTC,ETH/BTC回升至约0.0300。"
+      "close": 2386.77,
+      "change_pct": 5.0,
+      "note": "ETH $2,387 (+5.00%) — 强于BTC,ETH/BTC约0.0300,风险偏好延续。"
     }
   ],
   "commodities": [
     {
       "name": "WTI原油",
       "symbol": "CL",
-      "close": 88.06,
-      "change_pct": -8.36,
-      "note": "WTI $88.06 (-8.36%，11/4收盘) — 跌破$90,万斯将共和党败选归咎于伊朗战争,特朗普表态战争将在我想要的时候结束,地缘溢价快速回吐。"
+      "close": 89.47,
+      "change_pct": -7.25,
+      "note": "WTI $89.47 (-7.25%，11/5实时) — 维持$90下方,地缘溢价继续回吐(11/4单日已跌8.36%)。"
     },
     {
       "name": "布伦特原油",
       "symbol": "BRN",
-      "close": 94.59,
-      "change_pct": -8.7,
-      "note": "布伦特 $94.59 (-8.70%) — Brent-WTI价差约$6.5,同步重挫。"
+      "close": 97.07,
+      "change_pct": 2.59,
+      "note": "布伦特 $97.07 (+2.59%) — 与WTI方向背离,主要源于移仓/前结算价口径差异,不宜单独解读为油价反弹。"
     },
     {
       "name": "COMEX黄金",
       "symbol": "GC",
-      "close": 4103.4,
-      "change_pct": 4.14,
-      "note": "黄金 $4,103.40 (+4.14%) — 突破$4,100,逆油价上涨,反映财政扩张与美联储独立性担忧(库克听证延至12/14)。"
+      "close": 4124.5,
+      "change_pct": 3.9,
+      "note": "黄金 $4,124.50 (+3.90%) — 突破$4,100后续强,财政扩张与联储独立性担忧支撑。"
+    },
+    {
+      "name": "COMEX白银",
+      "symbol": "SI",
+      "close": 52.58,
+      "change_pct": 3.66,
+      "note": "白银 $52.58 (+3.66%) — 与黄金同步走强,金银比回落。"
     }
   ],
   "macro": [
     {
       "name": "美国10Y国债",
-      "value": "约4.89%",
-      "note": "4.89%(11/4收盘) — 较前一日4.95%回落,蓝潮后财政扩张受限预期压低长端。"
+      "value": "约4.894%",
+      "note": "4.894%(11/5) — 较11/4的4.89%基本持平,长端在高位横盘。"
     },
     {
       "name": "美元指数",
-      "value": "101.37",
-      "note": "DXY 101.37 (-0.49%) — 美元续弱。"
+      "value": "101.64",
+      "note": "DXY 101.64 (-0.11%) — 继续弱势;LB Macro认为中期选举结果将利多美元。"
+    },
+    {
+      "name": "英国利率",
+      "value": "BOE 鹰派表态",
+      "note": "英银称若伊朗战争不结束,仍有再次加息的理由 — 能源冲击成为欧洲货币政策主要变量。"
+    },
+    {
+      "name": "美国劳动生产率",
+      "value": "一年来最快",
+      "note": "美国三季度劳动生产率增速创一年新高,缓解薪资-通胀压力。"
     }
   ],
   "week_performance": {
-    "note": "10月收官:纳指-5.2%(2025年3月以来最差月)、标普-1.2%、道指+1.5%。11月开局核心变量已从'选举不确定性'转为'分裂政府下的政策路径':民主党横扫参众两院,市场初步解读为财政扩张受限+监管(AI/科技)趋严,利好传统价值/医疗/太阳能,利空AI数据中心与国防。"
+    "note": "10月收官:纳指-5.2%(2025年3月以来最差月)、标普-1.2%、道指+1.5%。11月开局核心变量已从'选举不确定性'转为'分裂政府下的政策路径':民主党横扫参众两院,市场解读为财政扩张受限+AI/科技监管趋严,利好传统价值/医疗/太阳能,利空AI数据中心与国防;11/5资金轮动继续,芯片股走弱、能源与价值股相对占优。"
   },
   "overnight": [
     {
-      "title": "美股11/4暴涨:道指+1,569点(+3.03%)、标普+1.58%、纳指+1.44%,标普创8月以来最佳单日",
-      "detail": "FT/CNBC/Guruin:民主党中期选举横扫参众两院,特朗普迅速接受结果并和解,政治不确定性出清;道指重回53,000上方。VIX暴跌20.26%至16.61。"
+      "title": "A股11/5温和收涨:上证+0.10%、深证+1.19%、创业板+0.87%,成交2.12万亿放量803亿",
+      "detail": "央广/新浪:三大指数集体低开后翻红,创业板盘中一度涨超3%后冲高回落;全市场超4,800只个股上涨,科创50 +1.68%,做多情绪延续但高位分歧加大。"
     },
     {
-      "title": "原油崩跌:WTI -8.36%至$88.06、布伦特-8.70%至$94.59",
-      "detail": "CNBC:万斯把共和党败选归咎于伊朗战争;特朗普称伊朗战争将在我想要的时候结束,市场解读为冲突降级信号,地缘溢价单日大幅回吐。"
+      "title": "港股恒指+3.67%报24,796.98,五连阳创阶段新高,大幅跑赢A股",
+      "detail": "Yahoo/市场数据:港科技与中概板块领涨,南向与外资同步流入,亚太资金明显向港股集中。"
     },
     {
-      "title": "黄金逆势+4.14%至$4,103、BTC站上$80,000(+3.85%)、ETH +6.18%",
-      "detail": "油价暴跌压低通胀预期叠加美元走弱(DXY 101.37),黄金与加密同步受捧;10Y回落至4.89%。"
+      "title": "亚太分化:日经-1.79%、KOSPI大幅下挫,芯片股轮动出局",
+      "detail": "Bloomberg 'Stock Rotation Rolls On as Chipmakers Lose Ground':资金自全球半导体板块撤出,日本半导体出口股连续三日走弱。"
     },
     {
-      "title": "美股盘后期指小涨,纳指期货+0.36%继续落后",
-      "detail": "CNBC:暴涨后盘后变动不大;分析指民主党有一次向特朗普索取让步的机会,而市场会讨厌它。"
+      "title": "美股盘前期货小幅续涨,但AI板块承压:选举提高数据中心IPO门槛",
+      "detail": "Bloomberg 'Election Raises Hurdle for Data Center IPOs After Peers Tumble' + CNBC 'How the midterms could fuel the K-shaped AI trade';选民因资源问题否决多个AI数据中心项目。"
     },
     {
-      "title": "亚太:日经11/5早盘-1.23%,亚洲股市涨跌互现,资金从芯片股轮出",
-      "detail": "Bloomberg:Asian Stocks Mixed as Investors Rotate From Chips,半导体高位分歧加大,日经连续两日走弱。"
+      "title": "英银:伊朗战争不结束仍有加息理由;美国劳动生产率创一年最快",
+      "detail": "Bloomberg:BOE 鹰派表态凸显能源冲击对欧洲通胀的持续影响;美国生产率提速有助缓和通胀,但BofA称判定美联储加息周期结束为时尚早。"
     },
     {
-      "title": "个股:Qualcomm盘后下跌(双压力拖累销售)、Figma下滑(AI投入成本担忧)、Vistra等能源股急挫",
-      "detail": "MarketWatch:分析师称能源股下跌为过度膝跳反应;Expedia、AppLovin、Coherent盘后大幅波动。"
+      "title": "个股与产业:中国AI公司Moonshot转向欧洲获取英伟达Blackwell;任天堂Switch 2销量骤降41%",
+      "detail": "CNBC:对华芯片管制下中国AI企业绕道欧洲获取算力;任天堂受涨价与内存紧缺影响销量下滑41%。温蒂汉堡拒绝Trian 14亿美元收购要约。"
     }
   ],
-  "evening_preview": [],
+  "evening_preview": [
+    "美股11/5盘前:期货小幅续涨但AI/数据中心板块为最大不确定性,关注开盘后芯片股能否止跌;",
+    "港股五连阳后短线超买,11/6关注获利了结与A股联动;",
+    "A股11/6看点:上证3,700整数关、成交能否维持2万亿以上、创业板高位震荡后方向选择;",
+    "油价在$90下方震荡,输入型通胀压力缓解利好航空/化工/交运,利空油气开采链;",
+    "黄金$4,124新高、白银$52.6,贵金属板块联动机会;",
+    "宏观:周五非农为本周最大变量,BOE鹰派+美国生产率数据强化'高利率更久'预期;",
+    "风险:民主党掌控国会对AI数据中心/科技监管趋严、中期选举后财政博弈、伊朗战争走向反复。"
+  ],
   "headlines": [
     {
-      "source": "FT",
-      "title": "US stocks post best day since August after Democrats sweep midterms",
-      "summary": "民主党横扫中期选举后美股创8月来最佳单日。"
-    },
-    {
-      "source": "CNBC",
-      "title": "Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war",
-      "summary": "油价跌破$90,地缘溢价崩塌。"
-    },
-    {
-      "source": "CNBC",
-      "title": "What was really behind Wednesday's monster rally? Trump quickly making peace",
-      "summary": "特朗普迅速与对手和解是暴涨核心推手。"
+      "source": "Bloomberg",
+      "title": "Stock Rotation Rolls On as Chipmakers Lose Ground: Markets Wrap",
+      "summary": "资金持续自芯片股轮出,全球半导体承压。"
     },
     {
       "source": "Bloomberg",
-      "title": "Asian Stocks Mixed as Investors Rotate From Chips: Markets Wrap",
-      "summary": "亚太涨跌互现,资金自芯片股轮出。"
+      "title": "Election Raises Hurdle for Data Center IPOs After Peers Tumble",
+      "summary": "选举结果抬高数据中心IPO门槛,同类标的已先跌。"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "BOE Sees Case for Another Rate Hike If Iran War Doesn't End",
+      "summary": "英银:伊朗战争持续则仍有加息理由。"
     },
     {
       "source": "CNBC",
-      "title": "White House panel delays hearing on Fed's Lisa Cook to Dec. 14",
-      "summary": "美联储理事库克听证延后,联储独立性议题延续。"
+      "title": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs",
+      "summary": "对华管制下中国AI企业转向欧洲获取Blackwell算力。"
+    },
+    {
+      "source": "CNBC",
+      "title": "How the midterms could fuel the K-shaped AI trade",
+      "summary": "中期选举或加剧AI交易的K型分化。"
+    },
+    {
+      "source": "CNBC",
+      "title": "Here's what the Democratic election rout could mean for the U.S. economy",
+      "summary": "民主党大胜对美国经济的潜在影响解析。"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "US Labor Productivity Increases at Fastest Pace in a Year",
+      "summary": "美国劳动生产率创一年最快增速。"
+    },
+    {
+      "source": "CNBC",
+      "title": "What the Democratic midterms sweep changes for U.S.-China relations",
+      "summary": "民主党横扫中期选举对中美关系的变量。"
     }
   ],
   "news": [
     {
-      "source": "FT",
-      "title": "US stocks post best day since August after Democrats sweep midterms",
-      "summary": "民主党横扫中期选举后美股创8月来最佳单日。"
-    },
-    {
-      "source": "CNBC",
-      "title": "Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war",
-      "summary": "油价跌破$90,地缘溢价崩塌。"
-    },
-    {
-      "source": "CNBC",
-      "title": "What was really behind Wednesday's monster rally? Trump quickly making peace",
-      "summary": "特朗普迅速与对手和解是暴涨核心推手。"
+      "source": "Bloomberg",
+      "title": "Stock Rotation Rolls On as Chipmakers Lose Ground: Markets Wrap",
+      "summary": "资金持续自芯片股轮出,全球半导体承压。"
     },
     {
       "source": "Bloomberg",
-      "title": "Asian Stocks Mixed as Investors Rotate From Chips: Markets Wrap",
-      "summary": "亚太涨跌互现,资金自芯片股轮出。"
+      "title": "Election Raises Hurdle for Data Center IPOs After Peers Tumble",
+      "summary": "选举结果抬高数据中心IPO门槛,同类标的已先跌。"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "BOE Sees Case for Another Rate Hike If Iran War Doesn't End",
+      "summary": "英银:伊朗战争持续则仍有加息理由。"
     },
     {
       "source": "CNBC",
-      "title": "White House panel delays hearing on Fed's Lisa Cook to Dec. 14",
-      "summary": "美联储理事库克听证延后,联储独立性议题延续。"
+      "title": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs",
+      "summary": "对华管制下中国AI企业转向欧洲获取Blackwell算力。"
+    },
+    {
+      "source": "CNBC",
+      "title": "How the midterms could fuel the K-shaped AI trade",
+      "summary": "中期选举或加剧AI交易的K型分化。"
+    },
+    {
+      "source": "CNBC",
+      "title": "Here's what the Democratic election rout could mean for the U.S. economy",
+      "summary": "民主党大胜对美国经济的潜在影响解析。"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "US Labor Productivity Increases at Fastest Pace in a Year",
+      "summary": "美国劳动生产率创一年最快增速。"
+    },
+    {
+      "source": "CNBC",
+      "title": "What the Democratic midterms sweep changes for U.S.-China relations",
+      "summary": "民主党横扫中期选举对中美关系的变量。"
+    },
+    {
+      "source": "CNBC",
+      "title": "Nintendo Switch 2 sales plunge 41% as price hikes and memory crunch bite",
+      "summary": "任天堂Switch 2销量下滑41%,内存涨价挤压消费电子。"
+    },
+    {
+      "source": "CNBC",
+      "title": "Voters rejected AI data centers over resource concerns",
+      "summary": "选民因水资源等问题否决AI数据中心项目。"
     }
   ],
-  "morning_preview": "11/5早盘看点:1) A股11/4大涨(创业板+6.40%)后能否高开续攻,关注成交额与算力/半导体接力;2) 外围大幅利多:美股暴涨(道指+3.03%、标普创8月最佳)、VIX暴跌20%、油价崩跌8%(WTI $88.06),输入型通胀压力骤减,利好航空/化工/交运,利空油气链;3) 黄金$4,103新高,贵金属板块或有联动;4) 港股11/5关注中概与芯片股轮动;5) 日经早盘-1.23%,半导体高位分歧;6) 本周最大宏观变量:周五非农;7) 风险:民主党掌控国会对AI数据中心/科技监管趋严预期、特朗普-民主党博弈可能引发新的政策噪音。",
-  "note": "11/5早盘预览更新。数据源:Yahoo Finance(^GSPC/^IXIC/^DJI/^VIX/^TNX/ES=F/NQ=F/YM=F/CL=F/BZ=F/GC=F/BTC-USD/ETH-USD/DX-Y.NYB/^N225 11/4-11/5实时)+ A股000001/399001/399006/000300为11/4收盘+CNBC/MarketWatch/FT/Bloomberg RSS+web_search(FX168/Guruin/腾讯财经)交叉验证。AkShare(futures_global_spot_em eastmoney SSL)今日报错,已用Yahoo替代;Yahoo Finance RSS与SCMP RSS返回空。"
+  "morning_preview": "11/6早盘看点:1) A股11/5放量温和收涨(科创50+1.68%、超4,800只上涨)但创业板冲高回落,关注高位分歧能否消化;2) 港股恒指+3.67%五连阳创阶段新高,短线超买,警惕获利了结;3) 外围:美股11/4暴涨后盘前续涨,但全球芯片股轮动走弱(日经-1.79%),科技板块承压;4) 油价维持$90下方(WTI $89.47),输入型通胀缓解利好航空/化工/交运;5) 黄金$4,124、白银$52.6创新高,关注贵金属板块;6) 本周最大宏观变量:周五非农;7) 风险:民主党掌控国会对AI数据中心/科技监管趋严、数据中心IPO遇冷、伊朗战争反复与BOE鹰派。",
+  "note": "11/5晚间国际更新。数据源:A股(上证/深证/创业板/沪深300/科创50)为AkShare Eastmoney日线11/5收盘;美股/VIX/10Y/期货/商品/加密/恒指/日经/KOSPI为Yahoo Finance 11/4收盘与11/5实时(部分接口需重试,布伦特与KOSPI口径存在异常已标注);新闻为CNBC Top/Bloomberg Markets RSS(WSJ Markets RSS 停更于2025-01、MarketWatch/FT/Reuters RSS 返回空),web_search 11/5部分时段不可用,A股数据已用AkShare交叉验证新浪/央广报道一致。"
 }

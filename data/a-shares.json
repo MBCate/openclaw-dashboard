@@ -1,127 +1,127 @@
 {
-  "date": "2026-11-04",
-  "time": "close",
-  "fetched_at": "2026-11-04T07:38:16Z",
+  "date": "2026-11-05",
+  "time": "noon",
+  "fetched_at": "2026-11-05T04:06:50Z",
   "indices": {
     "上证指数": {
       "code": "000001",
-      "price": 3686.17,
-      "change": 78.07,
-      "change_pct": 2.16
+      "price": 3689.79,
+      "change": 3.62,
+      "change_pct": 0.1
     },
     "深证成指": {
       "code": "399001",
-      "price": 11335.69,
-      "change": 458.7,
-      "change_pct": 4.22
+      "price": 11498.77,
+      "change": 163.08,
+      "change_pct": 1.44
     },
     "创业板指": {
       "code": "399006",
-      "price": 2544.73,
-      "change": 153.08,
-      "change_pct": 6.4
+      "price": 2576.28,
+      "change": 31.55,
+      "change_pct": 1.24
     },
     "沪深300": {
       "code": "000300",
-      "price": 4101.34,
-      "change": 92.47,
-      "change_pct": 2.31
+      "price": 4115.93,
+      "change": 14.59,
+      "change_pct": 0.36
     },
     "上证50": {
       "code": "000016",
-      "price": 2808.54,
-      "change": 40.27,
-      "change_pct": 1.45
+      "price": 2808.26,
+      "change": -0.28,
+      "change_pct": -0.01
     },
     "中证500": {
       "code": "000905",
-      "price": 6622.03,
-      "change": 294.98,
-      "change_pct": 4.66
+      "price": 6752.62,
+      "change": 130.59,
+      "change_pct": 1.97
     },
     "科创50": {
       "code": "000688",
-      "price": 1265.47,
-      "change": 114.19,
-      "change_pct": 9.92
+      "price": 1292.12,
+      "change": 26.65,
+      "change_pct": 2.11
     },
     "中证1000": {
       "code": "000852",
-      "price": 6511.81,
-      "change": 290.58,
-      "change_pct": 4.67
+      "price": 6649.06,
+      "change": 137.25,
+      "change_pct": 2.11
     }
   },
   "hang_seng": {
     "name": "恒生指数",
-    "price": 23881.59,
-    "change": 355.62,
-    "change_pct": 1.51,
-    "time": "收盘"
+    "price": 24705.26,
+    "change": 785.76,
+    "change_pct": 3.29,
+    "time": "午盘"
   },
   "sectors": {
     "top5": [
       {
-        "name": "半导体设备",
-        "code": "BK1326",
-        "change_pct": 15.22,
-        "amount": 47429366982.0
+        "name": "光伏辅材",
+        "code": "BK1316",
+        "change_pct": 10.68,
+        "amount": 4230414442.0
       },
       {
-        "name": "半导体材料",
-        "code": "BK1325",
-        "change_pct": 11.89,
-        "amount": 28240153181.0
+        "name": "光伏加工设备",
+        "code": "BK1317",
+        "change_pct": 10.58,
+        "amount": 8112564766.0
       },
       {
-        "name": "半导体",
-        "code": "BK1036",
-        "change_pct": 10.64,
-        "amount": 264766994863.0
+        "name": "光伏电池组件",
+        "code": "BK1315",
+        "change_pct": 9.72,
+        "amount": 9703022885.0
       },
       {
-        "name": "集成电路制造",
-        "code": "BK1329",
-        "change_pct": 10.63,
-        "amount": 17539118088.0
+        "name": "光伏设备",
+        "code": "BK1031",
+        "change_pct": 9.38,
+        "amount": 42726518309.0
       },
       {
-        "name": "黄金",
-        "code": "BK1617",
-        "change_pct": 10.59,
-        "amount": 15107406999.0
+        "name": "白银",
+        "code": "BK1616",
+        "change_pct": 7.71,
+        "amount": 4185040514.0
       }
     ],
     "bottom5": [
       {
-        "name": "瓷砖地板",
-        "code": "BK1538",
-        "change_pct": 3.41,
-        "amount": 1001023268.0
+        "name": "摩托车",
+        "code": "BK1521",
+        "change_pct": 2.82,
+        "amount": 1286333344.0
       },
       {
-        "name": "其他专业工程",
-        "code": "BK1477",
-        "change_pct": 3.41,
-        "amount": 4344061755.0
+        "name": "娱乐用品",
+        "code": "BK1543",
+        "change_pct": 2.8,
+        "amount": 1575376911.0
       },
       {
-        "name": "锂",
-        "code": "BK1621",
-        "change_pct": 3.46,
-        "amount": 7027490213.0
+        "name": "改性塑料",
+        "code": "BK1437",
+        "change_pct": 2.76,
+        "amount": 1838698300.0
       },
       {
-        "name": "冶钢辅料",
-        "code": "BK1372",
-        "change_pct": 3.46,
-        "amount": 638797905.0
+        "name": "装修建材",
+        "code": "BK0476",
+        "change_pct": 2.76,
+        "amount": 3581995127.0
       },
       {
-        "name": "辅料",
-        "code": "BK1348",
-        "change_pct": 3.46,
-        "amount": 476551407.0
+        "name": "园林工程",
+        "code": "BK1473",
+        "change_pct": 2.75,
+        "amount": 1136959414.0
       }
     ],
     "count": 100,
@@ -135,16 +135,17 @@
   },
   "southbound": [],
   "breadth": {
-    "up": 4396,
-    "down": 771,
-    "flat": 128
+    "up": 4792,
+    "down": 676,
+    "flat": 103,
+    "coverage": 5571
   },
   "turnover": {
-    "sh_amount": 953265155867.1,
-    "sz_amount": 1084429058169.67,
-    "total_amount": 2037694214036.77,
-    "total_yi": 20376.94,
-    "note": "沪市+深市成交额(元), 约 2.04 万亿"
+    "sh_amount": 674616676506.6,
+    "sz_amount": 789757653280.01,
+    "total_amount": 1464374329786.6099,
+    "total_yi": 14643.74,
+    "note": "沪市+深市成交额(元)"
   },
-  "note": "数据源: 东方财富 push2his(日K收盘)+push2(行业板块/涨跌家数)。北向资金已停止实时披露。"
+  "note": "数据源: 东方财富 push2his(日K午盘)+push2(行业板块/涨跌家数)。北向资金已停止实时披露。"
 }

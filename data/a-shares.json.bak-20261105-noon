@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-05",
+  "time": "close",
+  "fetched_at": "2026-11-05T07:26:08Z",
+  "indices": {
+    "上证指数": {
+      "code": "000001",
+      "price": 3689.91,
+      "change": 3.74,
+      "change_pct": 0.1,
+      "prev_close": 3686.17,
+      "date": "2026-11-05"
+    },
+    "深证成指": {
+      "code": "399001",
+      "price": 11471.09,
+      "change": 135.4,
+      "change_pct": 1.19,
+      "prev_close": 11335.69,
+      "date": "2026-11-05"
+    },
+    "创业板指": {
+      "code": "399006",
+      "price": 2566.8,
+      "change": 22.07,
+      "change_pct": 0.87,
+      "prev_close": 2544.73,
+      "date": "2026-11-05"
+    },
+    "沪深300": {
+      "code": "000300",
+      "price": 4113.41,
+      "change": 12.07,
+      "change_pct": 0.29,
+      "prev_close": 4101.34,
+      "date": "2026-11-05"
+    },
+    "上证50": {
+      "code": "000016",
+      "price": 2811.16,
+      "change": 2.62,
+      "change_pct": 0.09,
+      "prev_close": 2808.54,
+      "date": "2026-11-05"
+    },
+    "中证500": {
+      "code": "000905",
+      "price": 6740.93,
+      "change": 118.9,
+      "change_pct": 1.8,
+      "prev_close": 6622.03,
+      "date": "2026-11-05"
+    },
+    "科创50": {
+      "code": "000688",
+      "price": 1286.68,
+      "change": 21.21,
+      "change_pct": 1.68,
+      "prev_close": 1265.47,
+      "date": "2026-11-05"
+    },
+    "中证1000": {
+      "code": "000852",
+      "price": 6650.14,
+      "change": 138.33,
+      "change_pct": 2.12,
+      "prev_close": 6511.81,
+      "date": "2026-11-05"
+    }
+  },
+  "hang_seng": {
+    "error": "数据源不可达(日K接口失败)",
+    "source_attempt": "eastmoney push2his/sina/tx"
+  },
+  "sectors": {
+    "top5": [],
+    "bottom5": [],
+    "count": 0,
+    "source": "unavailable",
+    "error": "东方财富行业板块接口全部不可达"
+  },
+  "northbound": {
+    "date": null,
+    "net": 0.0,
+    "items": [],
+    "note": "沪深港通北向资金自2024-08起停止实时披露；今日接口亦不可达"
+  },
+  "southbound": [],
+  "breadth": {
+    "up": 0,
+    "down": 0,
+    "flat": 0,
+    "coverage": 0,
+    "error": "全市场快照接口不可达"
+  },
+  "turnover": {
+    "total_yi": null,
+    "error": "接口不可达"
+  },
+  "data_quality": {
+    "indices_ok": 8,
+    "indices_failed": [],
+    "note": "部分接口经代理不可达，指数用东方财富日K补齐(前收盘取自11-04收盘)"
+  }
+}

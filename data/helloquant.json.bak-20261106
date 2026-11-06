@@ -1,0 +1,232 @@
+{
+  "source": "~/trading/helloquant",
+  "updated": "2026-11-05 07:31 UTC",
+  "status": "success",
+  "last_run": {
+    "date": "2026-11-04",
+    "timestamp": "2026-11-04T23:26:43.855718",
+    "success": true,
+    "note": "采集管线最近一次运行 2026-11-04 (6/6 成功)"
+  },
+  "crypto": {
+    "status": "success",
+    "btc": {
+      "price": 80607.5,
+      "change_24h": 2.92
+    },
+    "eth": {
+      "price": 2425.02,
+      "change_24h": 5.2
+    },
+    "note": "OKX 数据正常; BTC 80607.5 (+2.92%) / ETH 2425.02 (+5.2%)"
+  },
+  "sentiment": {
+    "crypto_fear_greed": {
+      "value": 50,
+      "classification": "Neutral"
+    }
+  },
+  "stocks": {
+    "status": "success",
+    "note": "2026-11-04 A股/期货收盘数据",
+    "data": {
+      "50ETF波动率": {
+        "value": 15.9,
+        "date": "2026-11-02"
+      }
+    }
+  },
+  "signals": {
+    "DoubleMa": {
+      "1h": {
+        "signal": "观望",
+        "price": 80524.0
+      },
+      "4h": {
+        "signal": "做多",
+        "price": 80482.5
+      }
+    },
+    "RSI": {
+      "1h": {
+        "signal": "观望",
+        "price": 80524.0
+      },
+      "4h": {
+        "signal": "做空",
+        "price": 80482.5
+      }
+    },
+    "MACD": {
+      "1h": {
+        "signal": "做空",
+        "price": 80524.0
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 80482.5
+      }
+    },
+    "Bollinger": {
+      "1h": {
+        "signal": "观望",
+        "price": 80524.0
+      },
+      "4h": {
+        "signal": "做空",
+        "price": 80482.5
+      }
+    },
+    "Supertrend": {
+      "1h": {
+        "signal": "观望",
+        "price": 80524.0
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 80482.5
+      }
+    },
+    "TripleMa": {
+      "1h": {
+        "signal": "观望",
+        "price": 80524.0
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 80482.5
+      }
+    },
+    "Momentum": {
+      "1h": {
+        "signal": "观望",
+        "price": 80524.0
+      },
+      "4h": {
+        "signal": "做多",
+        "price": 80482.5
+      }
+    },
+    "MeanReversion": {
+      "1h": {
+        "signal": "观望",
+        "price": 80524.0
+      },
+      "4h": {
+        "signal": "做空",
+        "price": 80482.5
+      }
+    }
+  },
+  "strategies": [
+    {
+      "name": "DoubleMa",
+      "signal_1h": "观望",
+      "signal_4h": "做多",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "TripleMa",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Supertrend",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "RSI",
+      "signal_1h": "观望",
+      "signal_4h": "做空",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "MACD",
+      "signal_1h": "做空",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Bollinger",
+      "signal_1h": "观望",
+      "signal_4h": "做空",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Momentum",
+      "signal_1h": "观望",
+      "signal_4h": "做多",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "MeanReversion",
+      "signal_1h": "观望",
+      "signal_4h": "做空",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    }
+  ],
+  "news": {
+    "status": "success",
+    "note": "RSS 采集 5 条",
+    "items": [
+      {
+        "source": "Cointelegraph",
+        "title": "Here’s what happened in crypto today",
+        "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Binance, Polymarket seek Polygon hard fork to recover $6.8M in stolen crypto",
+        "link": "https://cointelegraph.com/news/polygon-hard-fork-binance-polymarket-6-8m-hack-recovery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "‘Lawyer up’: Democrats target Trump, Big Tech after midterm sweep",
+        "link": "https://cointelegraph.com/news/lawyer-up-democrats-target-trump-big-tech-after-midterm-sweep?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "India warns AI-powered hackers targeting crypto exchanges at ‘machine speed’",
+        "link": "https://cointelegraph.com/news/india-warns-ai-powered-hackers-targeting-crypto-exchanges-at-machine-speed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Mercado Bitcoin says phased reopening to begin Monday, will cover losses",
+        "link": "https://cointelegraph.com/news/mercado-bitcoin-phased-reopening-to-begin-monday-pledges-to-cover-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      }
+    ]
+  },
+  "papers": {
+    "status": "error",
+    "note": "arXiv 采集 0 篇",
+    "items": []
+  },
+  "updated_at": "2026-11-05 07:31 UTC"
+}

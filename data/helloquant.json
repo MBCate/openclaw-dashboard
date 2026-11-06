@@ -1,34 +1,45 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-11-05 07:31 UTC",
+  "updated": "2026-11-06 07:35 UTC",
   "status": "success",
   "last_run": {
-    "date": "2026-11-04",
-    "timestamp": "2026-11-04T23:26:43.855718",
+    "date": "2026-11-05",
+    "timestamp": "2026-11-05T23:30:58.982525",
     "success": true,
-    "note": "采集管线最近一次运行 2026-11-04 (6/6 成功)"
+    "note": "采集管线最近一次运行 2026-11-05 (5/6 成功；策略信号生成因 OKX instruments 接口失败跳过，信号由本地指标重算)"
   },
   "crypto": {
     "status": "success",
     "btc": {
-      "price": 80607.5,
-      "change_24h": 2.92
+      "price": 75316.2,
+      "change_24h": -6.36,
+      "high_24h": 80643.6,
+      "low_24h": 75200.0,
+      "trend_1h": "偏空",
+      "trend_4h": "偏空",
+      "rsi_1h": 39.0,
+      "rsi_4h": 40.9
     },
     "eth": {
-      "price": 2425.02,
-      "change_24h": 5.2
+      "price": 2215.48,
+      "change_24h": -8.39,
+      "high_24h": 2427.04,
+      "low_24h": 2206.0,
+      "trend_1h": "偏空",
+      "trend_4h": "偏空",
+      "rsi_1h": 30.7,
+      "rsi_4h": 43.8
     },
-    "note": "OKX 数据正常; BTC 80607.5 (+2.92%) / ETH 2425.02 (+5.2%)"
+    "note": "OKX 数据正常; BTC 75316.2 (-6.36%) / ETH 2215.48 (-8.39%)"
   },
   "sentiment": {
     "crypto_fear_greed": {
-      "value": 50,
-      "classification": "Neutral"
+      "value": 28,
+      "classification": "Fear"
     }
   },
   "stocks": {
     "status": "success",
-    "note": "2026-11-04 A股/期货收盘数据",
     "data": {
       "50ETF波动率": {
         "value": 15.9,
@@ -39,109 +50,109 @@
   "signals": {
     "DoubleMa": {
       "1h": {
-        "signal": "观望",
-        "price": 80524.0
+        "signal": "做空",
+        "price": 75316.2
       },
       "4h": {
-        "signal": "做多",
-        "price": 80482.5
+        "signal": "做空",
+        "price": 75316.2
+      }
+    },
+    "TripleMa": {
+      "1h": {
+        "signal": "做空",
+        "price": 75316.2
+      },
+      "4h": {
+        "signal": "做空",
+        "price": 75316.2
+      }
+    },
+    "Supertrend": {
+      "1h": {
+        "signal": "做空",
+        "price": 75316.2
+      },
+      "4h": {
+        "signal": "做空",
+        "price": 75316.2
       }
     },
     "RSI": {
       "1h": {
         "signal": "观望",
-        "price": 80524.0
+        "price": 75316.2
       },
       "4h": {
-        "signal": "做空",
-        "price": 80482.5
+        "signal": "观望",
+        "price": 75316.2
       }
     },
     "MACD": {
       "1h": {
         "signal": "做空",
-        "price": 80524.0
+        "price": 75316.2
       },
       "4h": {
-        "signal": "观望",
-        "price": 80482.5
+        "signal": "做空",
+        "price": 75316.2
       }
     },
     "Bollinger": {
       "1h": {
         "signal": "观望",
-        "price": 80524.0
-      },
-      "4h": {
-        "signal": "做空",
-        "price": 80482.5
-      }
-    },
-    "Supertrend": {
-      "1h": {
-        "signal": "观望",
-        "price": 80524.0
+        "price": 75316.2
       },
       "4h": {
         "signal": "观望",
-        "price": 80482.5
-      }
-    },
-    "TripleMa": {
-      "1h": {
-        "signal": "观望",
-        "price": 80524.0
-      },
-      "4h": {
-        "signal": "观望",
-        "price": 80482.5
+        "price": 75316.2
       }
     },
     "Momentum": {
       "1h": {
-        "signal": "观望",
-        "price": 80524.0
+        "signal": "做空",
+        "price": 75316.2
       },
       "4h": {
-        "signal": "做多",
-        "price": 80482.5
+        "signal": "做空",
+        "price": 75316.2
       }
     },
     "MeanReversion": {
       "1h": {
         "signal": "观望",
-        "price": 80524.0
+        "price": 75316.2
       },
       "4h": {
-        "signal": "做空",
-        "price": 80482.5
+        "signal": "观望",
+        "price": 75316.2
       }
     }
   },
   "strategies": [
     {
       "name": "DoubleMa",
-      "signal_1h": "观望",
-      "signal_4h": "做多",
-      "daily_return": 0.0,
+      "signal_1h": "做空",
+      "signal_4h": "做空",
+      "daily_return": -6.36,
       "weekly_return": null,
       "max_drawdown": null,
       "sharpe": null
     },
     {
       "name": "TripleMa",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
-      "daily_return": 0.0,
+      "signal_1h": "做空",
+      "signal_4h": "做空",
+      "daily_return": -6.36,
       "weekly_return": null,
       "max_drawdown": null,
       "sharpe": null
     },
     {
       "name": "Supertrend",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
-      "daily_return": 0.0,
+      "signal_1h": "做空",
+      "signal_4h": "做空",
+      "daily_return": -6.36,
       "weekly_return": null,
       "max_drawdown": null,
       "sharpe": null
@@ -149,8 +160,8 @@
     {
       "name": "RSI",
       "signal_1h": "观望",
-      "signal_4h": "做空",
-      "daily_return": 0.0,
+      "signal_4h": "观望",
+      "daily_return": -6.36,
       "weekly_return": null,
       "max_drawdown": null,
       "sharpe": null
@@ -158,8 +169,8 @@
     {
       "name": "MACD",
       "signal_1h": "做空",
-      "signal_4h": "观望",
-      "daily_return": 0.0,
+      "signal_4h": "做空",
+      "daily_return": -6.36,
       "weekly_return": null,
       "max_drawdown": null,
       "sharpe": null
@@ -167,17 +178,17 @@
     {
       "name": "Bollinger",
       "signal_1h": "观望",
-      "signal_4h": "做空",
-      "daily_return": 0.0,
+      "signal_4h": "观望",
+      "daily_return": -6.36,
       "weekly_return": null,
       "max_drawdown": null,
       "sharpe": null
     },
     {
       "name": "Momentum",
-      "signal_1h": "观望",
-      "signal_4h": "做多",
-      "daily_return": 0.0,
+      "signal_1h": "做空",
+      "signal_4h": "做空",
+      "daily_return": -6.36,
       "weekly_return": null,
       "max_drawdown": null,
       "sharpe": null
@@ -185,11 +196,31 @@
     {
       "name": "MeanReversion",
       "signal_1h": "观望",
-      "signal_4h": "做空",
-      "daily_return": 0.0,
+      "signal_4h": "观望",
+      "daily_return": -6.36,
       "weekly_return": null,
       "max_drawdown": null,
       "sharpe": null
+    }
+  ],
+  "summary": {
+    "long_4h": 0,
+    "short_4h": 5,
+    "neutral_4h": 3,
+    "bias": "偏空"
+  },
+  "alerts": [
+    {
+      "severity": "WARN",
+      "msg": "BTC 24h -6.36%，跌破 76000；1h/4h 均为偏空 + MACD 死叉"
+    },
+    {
+      "severity": "WARN",
+      "msg": "ETH 24h -8.39%，1h RSI 30.7 接近超卖"
+    },
+    {
+      "severity": "WARN",
+      "msg": "加密恐惧贪婪指数降至 28 (Fear)，前值 50 (Neutral)"
     }
   ],
   "news": {
@@ -224,9 +255,117 @@
     ]
   },
   "papers": {
-    "status": "error",
-    "note": "arXiv 采集 0 篇",
-    "items": []
+    "status": "success",
+    "data": [
+      {
+        "title": "FINCOSMOS: An Open-World Evaluation Paradigm for Agents in Finance",
+        "authors": [
+          "Yupeng Cao",
+          "Xueqing Peng",
+          "Lingfei Qian"
+        ],
+        "summary": "Language agents increasingly work for users on the open Web, and finance is where trusting them is hardest. The data must come from the Web, the strategy lives in the user's head, and correctness depends on time, so an agent can fail silently: a strategy the user never asked for, unverified data, or",
+        "link": "http://arxiv.org/abs/2611.07464v1",
+        "published": "2026-11-05"
+      },
+      {
+        "title": "Information-Theoretic Model for the Growth Optimal Portfolio of Stocks",
+        "authors": [
+          "Eckhard Platen",
+          "Kevin Fergusson"
+        ],
+        "summary": "Drawing on information-theoretic principles and empirical evidence, a proxy for the growth-optimal portfolio of stocks (the benchmark) is constructed and modeled. The derivative of its activity time captures overreactions in trading behavior and follows a fast-moving, quasi-stationary scalar diffusi",
+        "link": "http://arxiv.org/abs/2611.07457v1",
+        "published": "2026-11-05"
+      },
+      {
+        "title": "Neural Realized Measures: Forecast-Supervised Intraday Aggregation for Volatility Forecasting",
+        "authors": [
+          "Brian Sing Fan Chan",
+          "Jennifer So Kuen Chan"
+        ],
+        "summary": "High-frequency volatility forecasting typically separates measurement from prediction: intraday observations are first compressed into a daily realized measure using a fixed aggregation rule, and the resulting statistic is then passed to a forecasting model. This conventional pipeline therefore trea",
+        "link": "http://arxiv.org/abs/2611.07287v1",
+        "published": "2026-11-05"
+      },
+      {
+        "title": "A Rough Instantaneous Squared VIX Model for Term Structure and Option Pricing",
+        "authors": [
+          "Tianfeng Yang",
+          "Wen Su",
+          "Blanka Horvath"
+        ],
+        "summary": "The VIX term structure provides forward-looking measures of market uncertainty across horizons, while VIX options allow investors to hedge volatility risk. This paper proposes a rough instantaneous squared VIX (RISVIX) model by introducing fractional memory into the conventional Markovian framework.",
+        "link": "http://arxiv.org/abs/2611.07120v1",
+        "published": "2026-11-04"
+      },
+      {
+        "title": "Credibility Clustering for Experience Rating: An Automated Approach to Risk Group Allocation in Group Life Insurance",
+        "authors": [
+          "Thom van Rijn",
+          "Frank Weber",
+          "Michael Merz"
+        ],
+        "summary": "In insurance, experience rating plays a crucial role in mitigating adverse selection by adjusting premiums according to historical claims experience. A key step in this process is the classification of insured collectives into homogeneous risk groups. Within group life insurance, this classification",
+        "link": "http://arxiv.org/abs/2611.07110v1",
+        "published": "2026-11-04"
+      },
+      {
+        "title": "Necessary and sufficient conditions for the martingale property of stochastic exponentials driven by multi-dimensional diffusions",
+        "authors": [
+          "Erhan Bayraktar",
+          "Hao Xing"
+        ],
+        "summary": "We give necessary and sufficient coefficient conditions for stochastic exponentials driven by multidimensional diffusions to be true martingales. The classical reduction to non-exit of the diffusion with Girsanov-shifted drift separates the analysis into smooth boundary points, infinity, and nonsmoo",
+        "link": "http://arxiv.org/abs/2611.07083v1",
+        "published": "2026-11-04"
+      },
+      {
+        "title": "Hard to Fool: A Bounded LLM Research Loop for Quantitative Finance, and What Two Dozen Campaigns Found",
+        "authors": [
+          "Henry Zhang"
+        ],
+        "summary": "Agentic research loops that let a language model propose a change, run a fixed experiment and keep whatever improves the metric work well in machine learning. In trading research the same loop is a machine for producing false discoveries: a backtest that \"improves the metric\" is, by default, overfit",
+        "link": "http://arxiv.org/abs/2611.06607v1",
+        "published": "2026-11-04"
+      },
+      {
+        "title": "Constrained defined-contribution pension management: A reparameterized neural network approach",
+        "authors": [
+          "Yueman Feng",
+          "Wenyuan Li"
+        ],
+        "summary": "This paper studies constrained defined contribution (DC) pension management under a two-factor financial market model. The pension participant is allowed to invest in cash, two nominal bonds, an inflation-linked bond, and a stock index. Moreover, they can also purchase term life insurance to manage ",
+        "link": "http://arxiv.org/abs/2611.06495v1",
+        "published": "2026-11-04"
+      },
+      {
+        "title": "A general technique for explicit quantile representations",
+        "authors": [
+          "Wolfgang Schadner"
+        ],
+        "summary": "This work proves existence of contours independent of probability level for exact quantile integrals of strictly positive real-analytic densities. Explicit constructions cover five broad distribution families and yield a finite-interval representation of Black-Scholes implied volatility using forwar",
+        "link": "http://arxiv.org/abs/2611.06459v1",
+        "published": "2026-11-04"
+      },
+      {
+        "title": "Exponential Seniority Weighting Chain-Ladder Reserving",
+        "authors": [
+          "Mario V. Wüthrich"
+        ],
+        "summary": "We develop a tractable state-space version of the chain-ladder model. The state-space dynamics acts on the accident year axis which, in contrast to the classical chain-ladder model, makes accident years dependent. This state-space version yields an exponential seniority weighting in the chain-ladder",
+        "link": "http://arxiv.org/abs/2611.06126v1",
+        "published": "2026-11-04"
+      }
+    ]
   },
-  "updated_at": "2026-11-05 07:31 UTC"
+  "data_quality": {
+    "collect_success": "5/6",
+    "failed": [
+      "策略信号生成(OKX instruments)",
+      "A股指数采集",
+      "期货主力合约"
+    ]
+  },
+  "updated_at": "2026-11-06 07:35 UTC"
 }

@@ -1,184 +1,187 @@
 {
   "report_type": "weekly",
-  "week_of": "2026-10-26",
-  "week_end": "2026-10-30",
-  "generated_at": "2026-10-30 09:01 UTC",
+  "week_of": "2026-11-02",
+  "week_end": "2026-11-06",
+  "generated_at": "2026-11-06 09:02 UTC",
   "source": "~/trading/helloquant",
   "pipeline": {
     "status": "success",
-    "last_run": "2026-10-30T00:08:23.880115",
-    "note": "HelloQuant 原始采集最新 2026-10-29；本卡由收盘巡检更新 (OKX 实时价)"
+    "last_run": "2026-11-05T23:30:58.982525",
+    "note": "采集管线最近一次运行 2026-11-05 (5/6 成功；策略信号生成因 OKX instruments 接口失败跳过，信号由本地指标重算)"
   },
   "market": {
     "crypto": {
       "btc": {
-        "price": 78507.4,
-        "change_24h": -1.82
+        "price": 75316.2,
+        "change_24h": -6.36
       },
       "eth": {
-        "price": 2251.7,
-        "change_24h": -2.65
+        "price": 2215.48,
+        "change_24h": -8.39
       },
-      "note": "OKX 数据正常；BTC 1H 偏空 / 4H 偏多（RSI 1H 36.1）；恐贪 51 (Neutral)"
+      "note": "OKX 数据正常；BTC 1H 偏空 / 4H 偏空（RSI 1H 39.0）；恐贪 28 (Fear)"
     },
     "sentiment": {
-      "fear_greed": 51,
-      "classification": "Neutral"
+      "fear_greed": 28,
+      "classification": "Fear"
     },
     "stocks": {
       "上证指数": {
-        "close": 3599.02,
-        "change_pct": -1.44
+        "close": 3649.18,
+        "change_pct": 1.39,
+        "daily_pct": -1.1
       },
       "深证成指": {
-        "close": 10833.78,
-        "change_pct": -2.73
+        "close": 11175.78,
+        "change_pct": 3.16,
+        "daily_pct": -2.57
       },
       "创业板指": {
-        "close": 2413.63,
-        "change_pct": -4.13
+        "close": 2465.23,
+        "change_pct": 2.14,
+        "daily_pct": -3.96
       }
     },
     "hang_seng": {
-      "close": 23283.859,
-      "change_pct": 1.42
+      "close": null,
+      "change_pct": -1.39
     }
   },
   "week_returns": [
     {
       "name": "上证指数",
-      "start": 3690.48,
-      "end": 3599.02,
-      "change_pct": -2.48
+      "start": 3599.02,
+      "end": 3649.18,
+      "change_pct": 1.39
     },
     {
       "name": "深证成指",
-      "start": 11673.83,
-      "end": 10833.78,
-      "change_pct": -7.2
+      "start": 10833.78,
+      "end": 11175.78,
+      "change_pct": 3.16
     },
     {
       "name": "创业板指",
-      "start": 2684.1,
-      "end": 2413.63,
-      "change_pct": -10.08
+      "start": 2413.63,
+      "end": 2465.23,
+      "change_pct": 2.14
     },
     {
       "name": "沪深300",
-      "start": 4105.33,
-      "end": 3985.5,
-      "change_pct": -2.92
+      "start": 3985.5,
+      "end": 4054.28,
+      "change_pct": 1.73
     },
     {
       "name": "上证50",
-      "start": 2757.68,
-      "end": 2742.11,
-      "change_pct": -0.56
+      "start": 2742.11,
+      "end": 2787.41,
+      "change_pct": 1.65
     },
     {
       "name": "中证500",
-      "start": 6814.44,
-      "end": 6266.19,
-      "change_pct": -8.05
+      "start": 6266.19,
+      "end": 6597.35,
+      "change_pct": 5.28
     },
     {
       "name": "科创50",
-      "start": 1345.51,
-      "end": 1160.84,
-      "change_pct": -13.72
+      "start": 1160.84,
+      "end": 1253.2,
+      "change_pct": 7.96
     },
     {
       "name": "中证1000",
-      "start": 6734.55,
-      "end": 6161.23,
-      "change_pct": -8.51
+      "start": 6161.23,
+      "end": 6505.35,
+      "change_pct": 5.59
     },
     {
       "name": "BTC/USDT",
-      "start": 81787.6,
-      "end": 78507.4,
-      "change_pct": -4.01
+      "start": 78507.4,
+      "end": 75316.2,
+      "change_pct": -4.06
     },
     {
       "name": "ETH/USDT",
-      "start": 2405.96,
-      "end": 2251.7,
-      "change_pct": -6.41
+      "start": 2251.7,
+      "end": 2215.48,
+      "change_pct": -1.61
     },
     {
       "name": "沪金主力",
-      "start": 881.46,
-      "end": 867.4,
-      "as_of": "2026-10-28",
-      "change_pct": -1.6
+      "start": 867.4,
+      "end": null,
+      "as_of": null,
+      "change_pct": null
     },
     {
       "name": "沪银主力",
-      "start": 13608.0,
-      "end": 13010.0,
-      "as_of": "2026-10-28",
-      "change_pct": -4.39
+      "start": 13010.0,
+      "end": null,
+      "as_of": null,
+      "change_pct": null
     },
     {
       "name": "沪铜主力",
-      "start": 107590.0,
-      "end": 109200.0,
-      "as_of": "2026-10-28",
-      "change_pct": 1.5
+      "start": 109200.0,
+      "end": null,
+      "as_of": null,
+      "change_pct": null
     },
     {
       "name": "螺纹钢主力",
-      "start": 3059.0,
-      "end": 3043.0,
-      "as_of": "2026-10-28",
-      "change_pct": -0.52
+      "start": 3043.0,
+      "end": null,
+      "as_of": null,
+      "change_pct": null
     },
     {
       "name": "沪深300期货",
-      "start": 3970.0,
-      "end": 4027.2,
-      "as_of": "2026-10-28",
-      "change_pct": 1.44
+      "start": 4027.2,
+      "end": null,
+      "as_of": null,
+      "change_pct": null
     },
     {
       "name": "中证500期货",
-      "start": 6543.0,
-      "end": 6564.0,
-      "as_of": "2026-10-28",
-      "change_pct": 0.32
+      "start": 6564.0,
+      "end": null,
+      "as_of": null,
+      "change_pct": null
     }
   ],
   "equity_curve": [
     {
-      "date": "2026-10-23",
+      "date": "2026-10-30",
       "value": 100.0
     },
     {
-      "date": "2026-10-26",
-      "value": 99.05
+      "date": "2026-11-02",
+      "value": 101.8
     },
     {
-      "date": "2026-10-27",
-      "value": 96.55
+      "date": "2026-11-03",
+      "value": 100.3
     },
     {
-      "date": "2026-10-28",
-      "value": 98.25
+      "date": "2026-11-04",
+      "value": 104.77
     },
     {
-      "date": "2026-10-29",
-      "value": 95.94
+      "date": "2026-11-05",
+      "value": 105.85
     },
     {
-      "date": "2026-10-30",
-      "value": 93.31
+      "date": "2026-11-06",
+      "value": 103.61
     }
   ],
   "strategies": [
     {
       "name": "DoubleMa",
       "signal_1h": "做空",
-      "signal_4h": "做多",
+      "signal_4h": "做空",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -186,8 +189,8 @@
     },
     {
       "name": "TripleMa",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
+      "signal_1h": "做空",
+      "signal_4h": "做空",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -195,8 +198,8 @@
     },
     {
       "name": "Supertrend",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
+      "signal_1h": "做空",
+      "signal_4h": "做空",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -213,8 +216,8 @@
     },
     {
       "name": "MACD",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
+      "signal_1h": "做空",
+      "signal_4h": "做空",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -223,7 +226,7 @@
     {
       "name": "Bollinger",
       "signal_1h": "观望",
-      "signal_4h": "做空",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -231,7 +234,7 @@
     },
     {
       "name": "Momentum",
-      "signal_1h": "观望",
+      "signal_1h": "做空",
       "signal_4h": "做空",
       "daily_return": 0.0,
       "weekly_return": null,
@@ -241,7 +244,7 @@
     {
       "name": "MeanReversion",
       "signal_1h": "观望",
-      "signal_4h": "做空",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -252,92 +255,93 @@
     "DoubleMa": {
       "1h": {
         "signal": "做空",
-        "price": 79949.3
+        "price": 75316.2
       },
       "4h": {
-        "signal": "做多",
-        "price": 79949.3
+        "signal": "做空",
+        "price": 75316.2
+      }
+    },
+    "TripleMa": {
+      "1h": {
+        "signal": "做空",
+        "price": 75316.2
+      },
+      "4h": {
+        "signal": "做空",
+        "price": 75316.2
+      }
+    },
+    "Supertrend": {
+      "1h": {
+        "signal": "做空",
+        "price": 75316.2
+      },
+      "4h": {
+        "signal": "做空",
+        "price": 75316.2
       }
     },
     "RSI": {
       "1h": {
         "signal": "观望",
-        "price": 79949.3
+        "price": 75316.2
       },
       "4h": {
         "signal": "观望",
-        "price": 79949.3
+        "price": 75316.2
       }
     },
     "MACD": {
       "1h": {
-        "signal": "观望",
-        "price": 79949.3
+        "signal": "做空",
+        "price": 75316.2
       },
       "4h": {
-        "signal": "观望",
-        "price": 79949.3
+        "signal": "做空",
+        "price": 75316.2
       }
     },
     "Bollinger": {
       "1h": {
         "signal": "观望",
-        "price": 79949.3
-      },
-      "4h": {
-        "signal": "做空",
-        "price": 79949.3
-      }
-    },
-    "Supertrend": {
-      "1h": {
-        "signal": "观望",
-        "price": 79949.3
+        "price": 75316.2
       },
       "4h": {
         "signal": "观望",
-        "price": 79949.3
-      }
-    },
-    "TripleMa": {
-      "1h": {
-        "signal": "观望",
-        "price": 79949.3
-      },
-      "4h": {
-        "signal": "观望",
-        "price": 79949.3
+        "price": 75316.2
       }
     },
     "Momentum": {
       "1h": {
-        "signal": "观望",
-        "price": 79949.3
+        "signal": "做空",
+        "price": 75316.2
       },
       "4h": {
         "signal": "做空",
-        "price": 79949.3
+        "price": 75316.2
       }
     },
     "MeanReversion": {
       "1h": {
         "signal": "观望",
-        "price": 79949.3
+        "price": 75316.2
       },
       "4h": {
-        "signal": "做空",
-        "price": 79949.3
+        "signal": "观望",
+        "price": 75316.2
       }
     }
   },
   "highlights": [
-    "A股本周五连跌：上证 -2.48%、深成指 -7.20%、创业板指 -10.08%；等权8大指数基准 -6.69%（周内最低 93.31 @ 2026-10-30）",
-    "风格全线杀跌：科创50 -13.72%、中证1000 -8.51%、中证500 -8.05%；大盘蓝筹相对抗跌（上证50 -0.56%、沪深300 -2.92%）",
-    "最重一击 2026-10-30：等权基准单日 -2.78%，为本周最大跌幅日",
-    "港股韧性：恒生指数 23,283.86（+1.42%），与A股成长股走势背离；末个交易日 A股 涨 455 / 跌 1855 家",
-    "加密破位：BTC $78,507（周 -4.01%、24h -1.82%），ETH $2,252（周 -6.41%）；恐惧贪婪 51 (Neutral)；Binance 疑似被盗并暂停充提为主要风险事件",
-    "策略信号：8 个策略中 4 个观望——做空 3 个（Bollinger, Momentum, MeanReversion）、纯做多 0 个（无）、1H/4H 多空分歧 1 个（DoubleMa）；偏空信号占优，与 BTC 跌破 $80,000 箱体一致",
-    "采集管线：最近运行 2026-10-29，6/6 模块成功（行情/加密/情绪/新闻/论文/信号）"
+    "A股本周反弹：上证 +1.39%、深成指 +3.16%、创业板指 +2.14%；等权8大指数基准 +3.61%（周内区间 100.30–105.85，最低 @ 2026-11-03）",
+    "风格：成长股领涨，科创50 +7.96% 最强（科创50 +7.96%、中证1000 +5.59%、中证500 +5.28%；上证50 +1.65%、沪深300 +1.73%）",
+    "最大单日波动 2026-11-04：等权基准单日 +4.47%，为周内最大单日涨幅",
+    "周内节奏：4 个交易日中 2 天上涨 / 2 天下跌",
+    "港股：恒生指数 -1.39%（点位未披露）；末个交易日 A股 涨 53 / 跌 443 家",
+    "加密走弱：BTC $75,316（周 -4.06%、24h -6.36%），ETH $2,215（周 -1.61%）；恐惧贪婪 28 (Fear)",
+    "策略信号：8 个策略中 3 个观望——做空 5 个（DoubleMa, TripleMa, Supertrend, MACD, Momentum）、纯做多 0 个（无）、1H/4H 多空分歧 0 个（无）；偏空信号占优，与 BTC 走弱一致",
+    "采集管线：最近运行 2026-11-05，5/6 模块成功；失败项：策略信号生成(OKX instruments)、A股指数采集、期货主力合约"
   ],
   "note": "HelloQuant 仓库为量化学习框架，未维护策略级实盘盈亏/Sharpe/回撤数据；本报告以策略信号与市场周度表现为核心，equity_curve 为等权 8 大指数基准组合（上周五=100）。"
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06T16:00:00-08:00",
  "papers": [
   {
    "id": "2611.04711",
@@ -36028,17 +36028,258 @@
    "method": "对比 latent prediction / 掩码像素重建 / 简单视觉统计三类表示，分析潜空间几何中外观与物理变化的可分离性（IntPhys2）。",
    "result": "对用预测误差做异常/风险检测的驾驶世界模型提出方法学警告，评测层面价值高。",
    "is_new": false
+  },
+  {
+   "id": "2611.08111",
+   "title": "Reinforcing End-to-End Autonomous Driving Safety via Negative-Aware Planning in a Unified World-Action Model",
+   "authors": [
+    "Zihao Zhang",
+    "Xinyu Zhang",
+    "Bing Zeng",
+    "Xingyu Chen",
+    "Zhenning Li",
+    "Bin Yu",
+    "Ziyuan Pu"
+   ],
+   "published": "2026-11-05",
+   "arxiv_url": "https://arxiv.org/abs/2611.08111",
+   "pdf_url": "https://arxiv.org/pdf/2611.08111",
+   "summary": "World-action models (WAMs) jointly model future traffic states and driving actions for end-to-end autonomous driving in intelligent transportation systems. However, their action learning remains dominated by expert-trajectory imitation, leaving unsafe alternatives close to expert trajectories insufficiently constrained. To improve WAM robustness in safety-critical scenarios, we propose NegWAM, a safety post-training framework for unified WAMs that learns explicit safety boundaries from near-expert failure trajectories. NegWAM constructs negative trajectories that are geometrically close to the expert trajectory yet carry safety risks, uses them as repulsive anchors to steer predictions away from dangerous behavior, and encodes them as scene-conditioned rider tokens to learn scene--trajectory compatibility. During training, NegWAM jointly optimizes the flow-matching and near-expert negative objectives, while the auxiliary rider branch is discarded at inference, incurring no additional overhead. On NAVSIM v2, NegWAM achieves 40.4 EPDMS on navhard, a 4.1% relative improvement over the strongest compared scorer-free WAM baseline, and achieves 93.3 EPDMS on navtest. These results demonstrate that NegWAM achieves strong performance in safety-critical scenarios while preserving routine-driving performance. Zero-shot closed-loop evaluation on HUGSIM further demonstrates cross-benchmark generalization. The code is available at https://github.com/Zizizi-hao/NegWAM.",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "source": "arxiv",
+   "relevance_score": 5,
+   "topic": "e2e-autonomous-driving",
+   "is_new": true,
+   "analysis_path": "e2e-autonomous-driving/analysis/2611.08111-NegWAM-SafetyPostTraining-WAM.md",
+   "in_kb": true
+  },
+  {
+   "id": "2611.07912",
+   "title": "GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving",
+   "authors": [
+    "Xiyan Su",
+    "Finn Rasmus Schäfer",
+    "Hojun Lim",
+    "Frank Diermeyer",
+    "Johannes Betz",
+    "Markus Lienkamp"
+   ],
+   "published": "2026-11-05",
+   "arxiv_url": "https://arxiv.org/abs/2611.07912",
+   "pdf_url": "https://arxiv.org/pdf/2611.07912",
+   "summary": "World action models (WAMs) for autonomous driving couple the driving policy and the visual world model in a single generative network whose objectives are fixed post-training. Conditioning on a new driving objective requires retraining. We study energy guidance as a general mechanism and present GuidedWAM, a model-agnostic framework for injecting driving objectives into frozen WAMs at sampling time. Our framework constructs each objective as differentiable energies on the sampler's intermediate clean-action estimate, which needs only forward access to the frozen model, and is stabilized by sampling-time guidance scheduling, per-energy normalization, and velocity-bounded correction. On the NAVSIM v2 hard-split, guidance improves all three frozen, publicly released WAMs by 1.8 to 3.6 EPDMS, averaged over three sampler seeds, and adds less than 10% to the sampling time per step. These results position energy guidance as a practical post-training control channel for WAMs.",
+   "categories": [
+    "cs.AI",
+    "cs.RO"
+   ],
+   "source": "arxiv",
+   "relevance_score": 5,
+   "topic": "world-models-ad",
+   "is_new": true,
+   "analysis_path": "world-models-ad/analysis/2611.07912-GuidedWAM-EnergyGuidance.md",
+   "in_kb": true
+  },
+  {
+   "id": "2611.07939",
+   "title": "WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation",
+   "authors": [
+    "Jiahao Cui",
+    "Jiaye Li",
+    "Wenhao Zhang",
+    "Yaoyi Li",
+    "Shan Luan",
+    "Quanhui Tang",
+    "Jianhua Han",
+    "Lin Cheng",
+    "Hang Xu",
+    "Siyu Zhu"
+   ],
+   "published": "2026-11-05",
+   "arxiv_url": "https://arxiv.org/abs/2611.07939",
+   "pdf_url": "https://arxiv.org/pdf/2611.07939",
+   "summary": "Autoregressive driving world models systematically suffer from structural drift, identity drift, and quality decay over long rollout horizons due to transient conditioning signals that lack persistent state. We present WAM-Sim, a driving world model anchored by a persistent hierarchical memory and optimized via online flow-matching RL. WAM-Sim structures persistent context across three temporal and semantic scales: pose-aligned structural tokens encoding persistent road topology, read-only scene tokens supplying geolocated background appearance, and write-once instance tokens preserving individual traffic participant identities across occlusions and chunk boundaries. To restore visual sharpness and physical plausibility degraded by multi-scale conditioning, we introduce an online post-training framework that optimizes self-generated rollouts via flow-matching RL guided by hierarchy-aligned visual rewards and a vision-language model physical judge. The invariant memory empirically confines policy optimization within the anchored context, helping suppress semantic collapse and reward hacking, while online RL systematically enforces physical commonsense and fine-grained visual fidelity. On the nuScenes benchmark, WAM-Sim achieves a superior generation fidelity (FID=3.47, FVD=25.72) and strong downstream perception performance (24.16 mAP, 71.23 road mIoU). On minute-scale rollouts of self-collected data, WAM-Sim substantially mitigates structural and identity drift, preserving high scene similarity and subject identity coherence across extended horizons. Project page: https://fudan-generative-vision.github.io/WAM-Sim.",
+   "categories": [
+    "cs.CV"
+   ],
+   "source": "arxiv",
+   "relevance_score": 5,
+   "topic": "world-models-ad",
+   "is_new": true,
+   "analysis_path": "world-models-ad/analysis/2611.07939-WAM-Sim-PersistentMemory-OnlineRL.md",
+   "in_kb": true
+  },
+  {
+   "id": "2611.06160",
+   "title": "DSRS: Teaching MLLMs to Perceive, Reason, and Segment in Complex Driving Scenes",
+   "authors": [
+    "Sicen Guo",
+    "Zhengfei Song",
+    "Kuanhsun Chen",
+    "Xu Huang",
+    "Ping Zhong",
+    "Wei Ye",
+    "Shaoyi Du",
+    "Rui Fan"
+   ],
+   "published": "2026-11-04",
+   "arxiv_url": "https://arxiv.org/abs/2611.06160",
+   "pdf_url": "https://arxiv.org/pdf/2611.06160",
+   "summary": "Existing reasoning segmentation frameworks typically employ multimodal large language models (MLLMs) with broad world knowledge to extract semantics in a human-like manner and generate corresponding segmentation masks. Nevertheless, these frameworks lack the necessary scene-specific awareness. This paper introduces driving scene reasoning segmentation (DSRS), a scene-specific task that requires models to interpret implicit instructions, infer spatial relations, detect potential risks, handle challenging conditions, and comprehend underlying traffic rules, ultimately generating accurate segmentation masks. Meanwhile, we establish a benchmark dataset to facilitate future research on the DSRS task. To pioneer this task, we propose DSRS-Net, a novel architecture with advanced reasoning segmentation capability for automated driving. Specifically, DSRS-Net seamlessly infuses geometric features for deeper reasoning segmentation, without compromising the original multimodal fusion mechanism. This strategy effectively mitigates the modality representation mismatch in MLLMs caused by RGB-only pretraining, while enhancing the integration of geometric, contextual, and linguistic features. Extensive experiments demonstrate the superior performance of DSRS-Net in both driving scene reasoning segmentation and other language-driven segmentation tasks across various public datasets. The source code and dataset will be released upon publication.",
+   "categories": [
+    "cs.CV"
+   ],
+   "source": "arxiv",
+   "relevance_score": 4,
+   "topic": "vla-autonomous-driving",
+   "is_new": true
+  },
+  {
+   "id": "2611.06273",
+   "title": "Quo Vadis, Driving Scene Reconstruction? Occlusion-Aware Gaussian Densification",
+   "authors": [
+    "Dung Do Tien",
+    "Kien Nguyen Do Trung",
+    "Kiet Dang Vu",
+    "Trung Thai Tran",
+    "Duc Dung Nguyen"
+   ],
+   "published": "2026-11-04",
+   "arxiv_url": "https://arxiv.org/abs/2611.06273",
+   "pdf_url": "https://arxiv.org/pdf/2611.06273",
+   "summary": "While recent feed-forward 3D Gaussian Splatting methods enable efficient driving-scene reconstruction from surround-view images, their reliance on a single observation fundamentally hinders novel-view synthesis. Regions occluded in the input can become visible from novel viewpoints, leaving the reconstructed Gaussians under-constrained and incomplete. Moving beyond image-space inpainting for rendered views, we introduce OccSplat, a feed-forward framework whose core contribution is Occlusion-Aware Gaussian Densification, explicitly targeting missing scene geometry rather than missing pixels. By predicting new Gaussian primitives for unsupported regions, OccSplat completes the scene directly in the 3D representation. Specifically, OccSplat first identifies occluded regions that lack Gaussian support through Gaussian Occlusion Mapping. Gaussian Occlusion Completion then generates new primitives for these regions. The predicted primitives are integrated into the original representation to improve novel-view synthesis while retaining feed-forward inference without per-scene optimization. Experiments on the nuScenes benchmark demonstrate that OccSplat improves on the compared methods and yields particularly large gains in occluded regions, leading to more accurate and visually coherent driving-scene reconstruction.",
+   "categories": [
+    "cs.CV",
+    "cs.AI"
+   ],
+   "source": "arxiv",
+   "relevance_score": 4,
+   "topic": "world-models-ad",
+   "is_new": true
+  },
+  {
+   "id": "2611.04173",
+   "title": "ReconDreamer#: Self-Evolving Closed-Loop Synergy of Reconstruction and Generation for Dynamic Driving Scenes",
+   "authors": [
+    "Songling Liu",
+    "Guosheng Zhao",
+    "Xiaofeng Wang",
+    "Chaojun Ni",
+    "Guan Huang",
+    "Jiwen Lu",
+    "Xingang Wang",
+    "Zheng Zhu"
+   ],
+   "published": "2026-11-03",
+   "arxiv_url": "https://arxiv.org/abs/2611.04173",
+   "pdf_url": "https://arxiv.org/pdf/2611.04173",
+   "summary": "Dynamic driving scene reconstruction has made remarkable strides in recent years by leveraging generative priors, particularly in the quality of novel trajectory rendering. Nevertheless, a significant gap remains between the generated data and real-world sensor observations, severely hindering further improvements in reconstruction fidelity. In this paper, we present ReconDreamer#, a self-evolving framework that synergizes reconstruction and generation for dynamic driving scenes, which substantially bridges the gap between synthesized novel trajectory data and recorded real-world observations. Within this self-evolving closed-loop framework, the generative and reconstruction models mutually reinforce each other through iterative refinement, ultimately yielding a significant enhancement in the 3D representation capability of the reconstruction model. Additionally, we introduce a geometry-prior-based adaptive ground model to further enhance the rendering quality of the reconstruction model. To validate the effectiveness of the proposed method, we conduct comprehensive evaluations on Waymo, nuScenes, PandaSet, and EUVS benchmarks. Specifically on Waymo, at a 6-m lateral shift, ReconDreamer# improves NTA-IoU and NTL-IoU by 8.8% and 3.0%, respectively, and reduces FID by 15.1% relative to ReconDreamer++.",
+   "categories": [
+    "cs.CV"
+   ],
+   "source": "arxiv",
+   "relevance_score": 3,
+   "topic": "world-models-ad",
+   "is_new": true
+  },
+  {
+   "id": "2611.06085",
+   "title": "GeoBiaset: A Counterfactual Benchmark for Demographic Bias in World-Level Geolocalization",
+   "authors": [
+    "Niccolò Niccoli",
+    "Silvia Dani",
+    "Marco Mistretta",
+    "Andrew D. Bagdanov",
+    "Marco Bertini",
+    "Lorenzo Seidenari"
+   ],
+   "published": "2026-11-04",
+   "arxiv_url": "https://arxiv.org/abs/2611.06085",
+   "pdf_url": "https://arxiv.org/pdf/2611.06085",
+   "summary": "World-level image geolocalization is an increasingly important task, yet the biases of current models remain poorly understood. Prior work has identified coarse dataset imbalances noting, for instance, that some cities are absent from training sets and that models tend to perform better in wealthier regions. However, no one has yet examined which visual cues drive these disparities. To do so, we introduce GeoBiaset, the first benchmark designed to measure how geolocalization models are influenced by the apparent race of a person inserted into the image foreground. The dataset consists of 9,541 images, pairing existing geotagged background images with counterfactual edits spanning seven races, holding the ground-truth coordinates fixed. Controlled masking experiments show that occlusion and background drift do not fully explain geolocalization degradation. Alongside the benchmark, we introduce the Person-Origin Perturbation Indicators (POPI), novel metrics that quantify model resilience to these demographic perturbations by measuring whether predictions are pulled toward the region associated with the inserted group. Our evaluation of state-of-the-art geolocalization and multimodal large language models reveals a 16-47% drop in continent-level performance when a subject from a demographically mismatched group is inserted. A landmark versus no-landmark analysis and gradient-weighted heatmaps show that models preferentially attend to geographic landmarks when present, but shift attention to facial features in their absence.",
+   "categories": [
+    "cs.CV"
+   ],
+   "source": "arxiv",
+   "relevance_score": 3,
+   "topic": "vla-autonomous-driving",
+   "is_new": true
+  },
+  {
+   "id": "2611.07540",
+   "title": "Action-Conditioned VLM Monitoring for Autonomous Vehicle Semantic Anomalies",
+   "authors": [
+    "Daniel Adejumo",
+    "Omkar Ankalkope",
+    "Kunal Runwal",
+    "Aliasghar Arab"
+   ],
+   "published": "2026-11-05",
+   "arxiv_url": "https://arxiv.org/abs/2611.07540",
+   "pdf_url": "https://arxiv.org/pdf/2611.07540",
+   "summary": "We study action-conditioned monitoring of autonomous-vehicle behavior in semantically unusual driving scenes. The target is whether the executed ego action is appropriate for the scene: the same scene can admit both normal and anomalous behavior, so visual unusualness alone does not determine the monitoring label. A Vision-Language Model (VLM) first predicts the scene-required action from an outcome-hidden video window; the monitor then compares that expectation with the realized ego-motion trajectory under an explicit compatibility rule. To study this monitoring task, we contribute a six-field taxonomy of 112 paired scenarios spanning both failure polarities (42 derived from documented incidents), a generated video corpus with estimated trajectories, and an exploratory two-stage monitor on that corpus. On 235 clips from 15 scenario families, the two-stage protocol with a fixed T-2.5 s window obtains 83.0% accuracy and anomaly recall 0.773, versus 74.5% and 0.536 for a single-stage video-only baseline; specificity is 0.880 versus 0.928.",
+   "categories": [
+    "cs.CV",
+    "cs.AI"
+   ],
+   "source": "arxiv",
+   "relevance_score": 3,
+   "topic": "vla-autonomous-driving",
+   "is_new": true
+  },
+  {
+   "id": "2611.04368",
+   "title": "RAFT: Reasoning-Aligned Fine-Tuning Improves Robustness of VLA Post-Training",
+   "authors": [
+    "Shresth Grover",
+    "Andrey Kolobov",
+    "Dhruv Shah"
+   ],
+   "published": "2026-11-03",
+   "arxiv_url": "https://arxiv.org/abs/2611.04368",
+   "pdf_url": "https://arxiv.org/pdf/2611.04368",
+   "summary": "Adapting a generalist vision-language-action (VLA) policy to a target task with limited demonstrations can improve nominal task success while reducing robustness to variations in appearance, objects, and instructions. We introduce reasoning-aligned fine-tuning (RAFT), a two-stage post-training procedure: RAFT first trains low-rank adapters on task-relevant reasoning annotations, then freezes them while fine-tuning the policy on action demonstrations. On a physical DROID robot, RAFT achieves $75.0\\%$ out-of-distribution success, compared with $27.9\\%$ for plain fine-tuning; on a multi-stage bimanual YAM task, it reaches $70.0\\%$ mean success, compared with $36.0\\%$ for the strongest baseline. RAFT also improves success under visual, object, and instruction shifts in simulated pick-and-place and open-drawer tasks. Compared with plain fine-tuning, RAFT policies place more attention on annotated task regions and yield higher linear-probe accuracy for object identity in later layers. A broader reasoning-data mixture further improves downstream success across demonstration budgets.",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "source": "arxiv",
+   "relevance_score": 3,
+   "topic": "vla-autonomous-driving",
+   "is_new": true
+  },
+  {
+   "id": "2611.05093",
+   "title": "LoopQ: Fair, Closed-Loop Evaluation of Quantized Vision-Language-Action Models",
+   "authors": [
+    "Syed Umer Bukhari",
+    "Magnus Almgren",
+    "Ahmed Ali-Eldin"
+   ],
+   "published": "2026-11-03",
+   "arxiv_url": "https://arxiv.org/abs/2611.05093",
+   "pdf_url": "https://arxiv.org/pdf/2611.05093",
+   "summary": "Post-training quantization (PTQ) for vision-language-action (VLA) models promises smaller and faster VLA deployments. However, when analyzing existing VLA quantization works, we realised that it is hard to reason about the performance of the suggested quantization method compared to existing, similar, or in many cases, simpler PTQ methods. We present LoopQ, a closed-loop benchmark that compares multiple quantization policies on the same checkpoint, layers and engine, varying only the method and the kernels. We evaluate RTN, AWQ, GPTQ, ActQuant and QuantVLA on four VLAs with more than 180,000 episodes of LIBERO and LIBERO-plus, compare against QVLA's reported results on the same layers, and benchmark whether the four public VLA-quantization releases can be reproduced. We benchmark the methods on an NVIDIA H100, an L4, and a Jetson AGX Thor. Our results show that while quantization reliably saves memory, 2-3x for real low-bit models, VLA-specific PTQ methods underperform compared to simpler generic baselines. At 4 bits, RTN, AWQ and GPTQ match or exceed ActQuant and QuantVLA, plain RTN matches the calibrated methods, and plain AWQ matches the success QVLA reports for itself. Standard LIBERO hides the losses that do exist: configurations with no significant LIBERO loss lose 1.5-4.3 points under paired LIBERO-plus perturbations. Speed is a weaker story. At batch 1 on the H100, no quantized pi0.5 or OpenVLA-OFT configuration is faster than its 16-bit model (1.06-1.58x slower on library kernels); only the L4 with int8 kernels gains (4-14%), the Thor is slower on every 4-bit configuration, and the engine alone changes latency by 2.1x. Profiling explains why: pi0.5's quantized backbone is compute-bound, while its memory-bound action expert, 63% of GPU time and 13% of the parameters, stays in 16 bits.",
+   "categories": [
+    "cs.RO"
+   ],
+   "source": "arxiv",
+   "relevance_score": 3,
+   "topic": "vla-autonomous-driving",
+   "is_new": true
   }
  ],
- "updated_at": "2026-11-05T16:00:00-08:00",
- "last_updated": "2026-11-05",
+ "updated_at": "2026-11-06T16:00:00-08:00",
+ "last_updated": "2026-11-06T16:00:00-08:00",
  "category_counts": {
   "World Models": 79,
   "Diffusion Policy": 28,
-  "e2e-autonomous-driving": 490,
+  "e2e-autonomous-driving": 491,
   "BEV Perception": 23,
-  "vla-autonomous-driving": 275,
-  "world-models-ad": 344,
+  "vla-autonomous-driving": 280,
+  "world-models-ad": 348,
   "Planning": 29,
   "other": 361,
   "robotics": 1,
@@ -36109,8 +36350,73 @@
   "Vision-Language Navigation / Traversability": 1,
   "World Models / Imitation Learning": 1
  },
- "total_papers": 1815,
+ "total_papers": 1825,
  "weekly": [
+  {
+   "title": "WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation",
+   "id": "2611.07939",
+   "published": "2611.07939",
+   "authors": "Jiahao Cui et al.",
+   "summary": "WAM-Sim 针对自回归驾驶世界模型的结构漂移、身份漂移与质量衰减：用持久分层记忆（位姿对齐结构 token / 只读场景 token / 一次性实例 token）锚定长时程一致性，并用在线 flow-matching RL 在后训练阶段恢复清晰度与物理合理性。属于「长时程一致 + RL 后训练」的代表工作。",
+   "categories": [
+    "cs.CV"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-11-05",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2611.07939",
+   "url": "https://arxiv.org/abs/2611.07939",
+   "in_kb": true,
+   "in_dashboard": true,
+   "score": 5,
+   "weekly_pick": true,
+   "weekly_analysis": "world-models-ad/analysis/2611.07939-WAM-Sim-PersistentMemory-OnlineRL.md"
+  },
+  {
+   "title": "GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving",
+   "id": "2611.07912",
+   "published": "2611.07912",
+   "authors": "Xiyan Su et al.",
+   "summary": "GuidedWAM 研究能量引导（energy guidance）这一通用机制：在采样阶段向冻结的 WAM 注入驾驶目标，用对中间 clean-action 估计的可微能量实现，仅需前向访问，并配合引导调度、逐能量归一化与速度有界修正。在 NAVSIM v2 hard-split 上对三个公开 WAM 均提升 1.8–3.6 EPDMS，采样开销 <10%。价值在于「免重训即可更换驾驶目标」。",
+   "categories": [
+    "cs.AI",
+    "cs.RO"
+   ],
+   "topic": "world-models-ad",
+   "date": "2026-11-05",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2611.07912",
+   "url": "https://arxiv.org/abs/2611.07912",
+   "in_kb": true,
+   "in_dashboard": true,
+   "score": 5,
+   "weekly_pick": true,
+   "weekly_analysis": "world-models-ad/analysis/2611.07912-GuidedWAM-EnergyGuidance.md"
+  },
+  {
+   "title": "Reinforcing End-to-End Autonomous Driving Safety via Negative-Aware Planning in a Unified World-Action Model",
+   "id": "2611.08111",
+   "published": "2611.08111",
+   "authors": "Zihao Zhang et al.",
+   "summary": "NegWAM 提出面向统一 World-Action Model 的安全后训练框架：以「几何上贴近专家轨迹但存在风险」的负样本作为排斥锚点，并编码为场景条件 rider token 学习场景—轨迹兼容性，联合 flow-matching 与负样本目标优化。直击 WAM 端到端驾驶仅靠专家轨迹模仿、对近专家失败模式约束不足的痛点。",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "topic": "e2e-autonomous-driving",
+   "date": "2026-11-05",
+   "status": "新发现",
+   "status_en": "new",
+   "arxiv_id": "2611.08111",
+   "url": "https://arxiv.org/abs/2611.08111",
+   "in_kb": true,
+   "in_dashboard": true,
+   "score": 5,
+   "weekly_pick": true,
+   "weekly_analysis": "e2e-autonomous-driving/analysis/2611.08111-NegWAM-SafetyPostTraining-WAM.md"
+  },
   {
    "title": "Scaling Action-Free Video Latent Prediction for Transferable Representations in End-to-End Autonomous Driving",
    "id": "2611.02853",
@@ -36196,75 +36502,8 @@
    "score": 5,
    "weekly_pick": true,
    "weekly_analysis": "vla-autonomous-driving/analysis/2026-10-21_Post-hoc-Epistemic-Uncertainty-for-Visio.md"
-  },
-  {
-   "title": "DriveMLP: When Training Strategy Outperforms Model Complexity in Autonomous Driving",
-   "id": "2610.29676",
-   "published": "2610.29676",
-   "authors": "Alessandro Canevaro, Julian Schmidt, Hang Yu, Ye Jin, Sajad Marvi, Georg Martius et al.",
-   "summary": "提出 Expert-Guided RL (EGRL)：把 RL 纯粹当优化工具，奖励直接取「与专家日志轨迹的距离」，无需手工规则奖励；受控实验表明性能提升主要来自训练策略而非模型规模。据此给出轻量 MLP 策略 DriveMLP，nuPlan Val14 Reactive 得分 86.51，比前 SOTA IL 规划器 Flow Planner 高 3.2 分，推理快 15 倍以上。代码已开源。",
-   "categories": [
-    "cs.RO",
-    "cs.CV",
-    "cs.LG"
-   ],
-   "topic": "e2e-autonomous-driving",
-   "date": "2026-10-21",
-   "status": "new",
-   "status_en": "新发现",
-   "arxiv_id": "2610.29676",
-   "url": "https://arxiv.org/abs/2610.29676",
-   "in_kb": true,
-   "in_dashboard": true,
-   "score": 5,
-   "weekly_pick": true,
-   "weekly_analysis": "e2e-autonomous-driving/analysis/2026-10-21_DriveMLP.md"
-  },
-  {
-   "title": "AEON: Unifying Video and 3D World Models",
-   "id": "2610.28631",
-   "published": "2610.28631",
-   "authors": "Weiqi Zhang, Wenyuan Zhang, Yu-Shen Liu, Junsheng Zhou",
-   "summary": "统一视频世界模型与 3D 世界模型：在 text/image 条件化的 video latent space 中生成，但输出可渲染的显式 4D 表示（4D Gaussian Splatting）。用单目视频训练 4D 重建模型预测 4DGS 与相机位姿作为 4D decoder 初始化，并通过在 video VAE 上蒸馏的 domain adapter 将生成性 video latent 译为重建性 4D latent。支持按预测相机轨迹渲染的 video world modeling 与持久 4D 动态环境，在标准 benchmark 上取得 SOTA。",
-   "categories": [
-    "cs.CV"
-   ],
-   "topic": "world-models-ad",
-   "date": "2026-10-20",
-   "status": "new",
-   "status_en": "新发现",
-   "arxiv_id": "2610.28631",
-   "url": "https://arxiv.org/abs/2610.28631",
-   "in_kb": true,
-   "in_dashboard": true,
-   "score": 5,
-   "weekly_pick": true,
-   "weekly_analysis": "world-models-ad/analysis/2026-10-20_AEON-video-3d-world-models.md"
-  },
-  {
-   "title": "Perceives but Doesn't Brake: A Perception-Action Binding Gap in Reasoning Driving VLAs",
-   "id": "2610.28184",
-   "published": "2610.28184",
-   "authors": "Matteo Cercola, Katie Z Luo, Simone Formentin, Marco Pavone et al.",
-   "summary": "揭示推理增强驾驶 VLA 的「感知-动作绑定缺口」：危险物已被视觉表征编码、轨迹生成器也具备刹车能力，但危险信息对轨迹生成缺乏因果控制力；纵向规划由 ego 速度历史主导，对障碍距离与自身推理文本响应微弱。用反事实实验诊断，并在冻结 flow-matching 采样器中注入 hazard 条件能量做推理时修复：footprint intrusion 58.1%→14.5%，制动测试集碰撞消除，无需重训改权重。",
-   "categories": [
-    "cs.RO",
-    "cs.CV",
-    "cs.LG"
-   ],
-   "topic": "e2e-autonomous-driving",
-   "date": "2026-10-20",
-   "status": "new",
-   "status_en": "新发现",
-   "arxiv_id": "2610.28184",
-   "url": "https://arxiv.org/abs/2610.28184",
-   "in_kb": true,
-   "in_dashboard": true,
-   "score": 5,
-   "weekly_pick": true,
-   "weekly_analysis": "e2e-autonomous-driving/analysis/2026-10-20_Perceives-but-Doesnt-Brake.md"
   }
  ],
- "new_findings": 53,
- "last_scan": "2026-11-05T16:00:00-08:00"
+ "new_findings": 63,
+ "last_scan": "2026-11-06T16:00:00-08:00"
 }

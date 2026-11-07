@@ -1,304 +1,318 @@
 {
-  "updated_at": "2026-11-06T13:35:00Z",
-  "as_of": "Nov 6 2026 13:35 UTC (北京11/6 21:35 晚间 / 美东11/6 08:35 盘前) — 【晚间国际数据】美股抛售暂歇,盘前期货反弹,市场等待10月非农:11/5收盘标普7,353.73(-4.36%)、纳指24,315.00(-5.52%,自10/6高点回撤超10%确认技术性回调)、道指51,523.06(-3.44%);VIX 27.48(-2.48%)自28.18高位小幅回落。亚太11/6收盘全线补跌但跌幅收窄:日经57,434.77(-5.96%,技术性熊市)、KOSPI 5,059.69(-6.02%,盘中熔断后回升)、恒指24,481.86(-1.27%,失守25,000)。美元与商品:美元指数102.04(+0.48%)走强、10Y 4.837%高位不变;WTI $90.84(+0.35%)、布伦特$98.56(+0.28%)逼近$100、黄金$4,072(-1.00%)回落、白银$52.29(-0.17%)。加密续跌:BTC $75,617(-4.97%)、ETH $2,228(-6.46%)。主线:AI三重压力——监管(民主党'全国数据中心暂停令')、融资(ING抛售5亿美元数据中心贷款)、估值(Anthropic IPO预期下压);快钱/系统性基金被指放大$2.3万亿科技股抛售。今晚10月非农为最大变量。",
+  "updated_at": "2026-11-07T13:35:00Z",
+  "as_of": "Nov 7 2026 13:35 UTC (北京11/7 21:35 / 美东11/7 08:35 周六休市) — 【晚间国际数据】周五(11/6)美股在AI抛售后分化反弹:标普7,376.86(+0.31%)、纳指24,579.43(+1.09%)、道指51,285.73(-0.46%);三大指数本周仍全线收跌(标普-2.48%、纳指-3.37%、道指-8.24%)。10月非农+16.5万远超预期(预期5.9万),失业率降至4.1%,12月加息概率升至81%,美元指数升至102.30(+0.74%),黄金回落-0.94%至$4,074.9,10Y升至4.859%。欧股STOXX 600-1.00%、德DAX-1.92%;亚太周五重挫,日经-5.96%、KOSPI-6.02%、恒指-1.27%。BTC约$75,914横盘,ETH约$2,244。",
   "indices": [
     {
-      "name": "上证综指",
-      "symbol": "000001",
-      "close": 3689.91,
-      "change_pct": 0.1,
-      "note": "上证3,689.91 (+0.10%，11/5收盘) — 低开1.07%后翻红,尾盘回升;成交9,797亿。"
+      "name": "标普500",
+      "symbol": "^GSPC",
+      "close": 7376.86,
+      "change_pct": 0.31,
+      "note": "7,376.86 (+0.31%，11/6收盘) — 周四暴跌4.36%后小幅反弹,全周-2.48%。"
     },
     {
-      "name": "深证成指",
-      "symbol": "399001",
-      "close": 11471.09,
-      "change_pct": 1.19,
-      "note": "深证11,471.09 (+1.19%，11/5收盘) — 成长股延续强势,成交11,382亿。"
+      "name": "纳斯达克综指",
+      "symbol": "^IXIC",
+      "close": 24579.43,
+      "change_pct": 1.09,
+      "note": "24,579.43 (+1.09%，11/6收盘) — 科技股领衔反弹,全周-3.37%,仍处技术性回调区间。"
     },
     {
-      "name": "创业板指",
-      "symbol": "399006",
-      "close": 2566.8,
-      "change_pct": 0.87,
-      "note": "创业板2,566.80 (+0.87%，11/5收盘) — 盘中一度涨超3%后冲高回落,单日振幅较大;成交5,786亿。"
+      "name": "道琼斯",
+      "symbol": "^DJI",
+      "close": 51285.73,
+      "change_pct": -0.46,
+      "note": "51,285.73 (-0.46%，11/6收盘) — 连续两日下跌,全周-8.24%,为三大指数最弱。"
     },
     {
-      "name": "沪深300",
-      "symbol": "000300",
-      "close": 4113.41,
-      "change_pct": 0.29,
-      "note": "沪深300 4,113.41 (+0.29%，11/5收盘)。"
+      "name": "VIX恐慌指数",
+      "symbol": "^VIX",
+      "close": 25.64,
+      "change_pct": -9.01,
+      "note": "25.64 (-9.01%，11/6收盘) — 自28.18回落,但仍显著高于8月低位14.25。"
     },
     {
-      "name": "科创50",
-      "symbol": "000688",
-      "close": 1286.68,
-      "change_pct": 1.68,
-      "note": "科创50 1,286.68 (+1.68%，11/5收盘) — 硬科技补涨,全市场超4,800只个股上涨。"
+      "name": "STOXX 600",
+      "symbol": "^STOXX",
+      "close": 648.33,
+      "change_pct": -1.0,
+      "note": "648.33 (-1.00%，11/6收盘) — AI担忧深化,保险股领跌。"
     },
     {
-      "name": "恒生指数",
-      "symbol": "^HSI",
-      "close": 24481.86,
-      "change_pct": -1.27,
-      "note": "恒指24,481.86 (-1.27%，11/6收盘) — 五连阳后随外围回吐,失守25,000,恒生科技跌幅居前;南向资金承接力度一般。"
+      "name": "德国DAX",
+      "symbol": "^GDAXI",
+      "close": 25820.36,
+      "change_pct": -1.92,
+      "note": "25,820.36 (-1.92%，11/6收盘) — 欧股中表现最差。"
+    },
+    {
+      "name": "英国FTSE 100",
+      "symbol": "^FTSE",
+      "close": 10673.94,
+      "change_pct": -1.01,
+      "note": "10,673.94 (-1.01%，11/6收盘)。"
     },
     {
       "name": "日经225",
       "symbol": "^N225",
       "close": 57434.77,
       "change_pct": -5.96,
-      "note": "日经57,434.77 (-5.96%，11/6收盘) — 自6月高点回撤超20%确认为技术性熊市,半导体设备股(东京电子/爱德万)领跌;较盘中低点略有回升。"
+      "note": "57,434.77 (-5.96%，11/6收盘) — 亚太补跌,自高点回撤超10%,进入技术性熊市。"
     },
     {
       "name": "韩国KOSPI",
       "symbol": "^KS11",
       "close": 5059.69,
       "change_pct": -6.02,
-      "note": "KOSPI 5,059.69 (-6.02%，11/6收盘) — 盘中一度触发熔断并停牌20分钟,收盘跌幅收窄,三星/SK海力士为主要拖累。"
+      "note": "5,059.69 (-6.02%，11/6收盘) — 全周-11.7%,AI/半导体权重拖累。"
     },
     {
-      "name": "S&P 500",
-      "symbol": "^GSPC",
-      "close": 7353.73,
-      "change_pct": -4.36,
-      "note": "标普7,353.73 (-4.36%，11/5收盘) — 抹去中期选举后全部涨幅,为关税冲击\"解放日\"以来最大单日跌幅。"
+      "name": "恒生指数",
+      "symbol": "^HSI",
+      "close": 24481.86,
+      "change_pct": -1.27,
+      "note": "24,481.86 (-1.27%，11/6收盘) — 相对抗跌,但全周仍-1.3%。"
     },
     {
-      "name": "纳斯达克",
-      "symbol": "^IXIC",
-      "close": 24315.0,
-      "change_pct": -5.52,
-      "note": "纳指24,315.00 (-5.52%，11/5收盘) — 自10/6历史高点回撤超10%,确认技术性回调;纳指100单日市值蒸发约2.3万亿美元。"
+      "name": "澳洲ASX 200",
+      "symbol": "^AXJO",
+      "close": 9020.8,
+      "change_pct": 0.0,
+      "note": "9,020.80 (0.00%，11/6收盘)。"
     },
     {
-      "name": "道琼斯",
-      "symbol": "^DJI",
-      "close": 51523.06,
-      "change_pct": -3.44,
-      "note": "道指51,523.06 (-3.44%/约-1,800点，11/5收盘) — 蓝筹同步补跌,价值股未能延续强势。"
-    },
-    {
-      "name": "VIX",
-      "symbol": "^VIX",
-      "close": 28.18,
-      "change_pct": 69.66,
-      "note": "VIX 27.48 (-2.48%，11/6实时) — 由28.18高位小幅回落,恐慌情绪边际缓和但仍在27以上高位。",
-      "realtime": {
-        "price": 27.48,
-        "chg_pct": -2.48,
-        "time": "2026-11-06T13:16:16Z"
-      }
-    },
-    {
-      "name": "富时100",
-      "symbol": "^FTSE",
-      "close": 10782.66,
-      "change_pct": -0.43,
-      "note": "富时100 10,782.66 (-0.43%，11/5收盘) — 欧股相对抗跌,前期已跑赢华尔街。"
-    },
-    {
-      "name": "德国DAX",
-      "symbol": "^GDAXI",
-      "close": 26325.01,
-      "change_pct": -0.426,
-      "note": "DAX 26,325.01 (-0.43%，11/5收盘) — 欧洲股市受科技权重较低保护,跌幅显著小于美股。"
+      "name": "上证综指",
+      "symbol": "000001",
+      "close": 3689.91,
+      "change_pct": 0.1,
+      "note": "3,689.91 (+0.10%，11/5收盘,最新可得) — A股11/6数据待下个交易日更新。"
     }
   ],
   "crypto": [
     {
       "name": "BTC",
-      "symbol": "BTC-USD",
-      "price": 75617.59,
-      "close": 75617.59,
-      "change_pct": -4.97,
-      "note": "BTC $75,617 (-4.97%，11/6 13:31 UTC) — 自隔夜$75,915继续阴跌,风险资产去杠杆未见止稳;较10月高点回撤明显。"
+      "symbol": "BTC-USDT",
+      "price": 75914.4,
+      "close": 75914.4,
+      "change_pct": 0.21,
+      "note": "BTC $75,914 (+0.21% 24h，OKX 11/7 13:31 UTC) — 在$75,000附近横盘,24h区间$74,888-$76,251,风险偏好回暖未传导至加密。"
     },
     {
       "name": "ETH",
-      "symbol": "ETH-USD",
-      "price": 2228.53,
-      "close": 2228.53,
-      "change_pct": -6.46,
-      "note": "ETH $2,228 (-6.46%，11/6 13:31 UTC) — 跌幅大于BTC,山寨/DeFi板块承压更重。"
+      "symbol": "ETH-USDT",
+      "price": 2244.16,
+      "close": 2244.16,
+      "change_pct": 0.51,
+      "note": "ETH $2,244 (+0.51% 24h，OKX 11/7 13:31 UTC) — 24h区间$2,210-$2,254。"
+    },
+    {
+      "name": "SOL",
+      "symbol": "SOL-USDT",
+      "price": 89.98,
+      "close": 89.98,
+      "change_pct": 0.0,
+      "note": "SOL $89.98 (0.00% 24h) — 徘徊$90下方。"
     }
   ],
   "commodities": [
     {
       "name": "WTI原油",
       "symbol": "CL=F",
-      "close": 90.84,
-      "change_pct": 0.35,
-      "note": "WTI $90.84 (+0.35%，11/6实时) — 隔夜反弹后涨势收敛,维持$90上方。"
+      "close": 90.83,
+      "change_pct": 0.34,
+      "note": "WTI $90.83 (+0.34%，11/6收盘) — 全周-12.8%,伊朗局势溢价快速消退。"
     },
     {
       "name": "布伦特原油",
       "symbol": "BZ=F",
-      "close": 98.56,
-      "change_pct": 0.28,
-      "note": "布伦特 $98.56 (+0.28%，11/6实时) — 逼近$100关口。"
+      "close": 98.32,
+      "change_pct": 0.03,
+      "note": "Brent $98.32 (+0.03%，11/6收盘) — 仍低于$100关口。"
     },
     {
       "name": "COMEX黄金",
       "symbol": "GC=F",
-      "close": 4072.3,
-      "change_pct": -1.0,
-      "note": "黄金 $4,072.3 (-1.00%，11/6实时) — 避险资产未获买盘,流动性挤兑下继续回落至$4,100下方。"
+      "close": 4074.9,
+      "change_pct": -0.94,
+      "note": "$4,074.9 (-0.94%，11/6收盘) — 强就业推升美元与加息预期,压制金价;央行购金创年内月度新高形成支撑。"
     },
     {
       "name": "COMEX白银",
       "symbol": "SI=F",
-      "close": 52.285,
-      "change_pct": -0.17,
-      "note": "白银 $52.29 (-0.17%，11/6实时) — 基本走平,跌幅小于黄金。"
+      "close": 51.942,
+      "change_pct": -0.82,
+      "note": "$51.94 (-0.82%，11/6收盘) — 守住$50上方。"
     }
   ],
   "macro": [
     {
       "name": "美国10Y国债",
-      "value": "约4.837%",
-      "note": "4.837%(11/5收盘) — 仍在4.8%以上高位,股市暴跌未带来显著避险买盘,是本次抛售'非典型避险'的标志。"
+      "value": "4.859%",
+      "note": "4.859% (+2.2bp，11/6收盘) — 强就业+加息预期推动收益率上行,股市反弹并未带来避险买盘。"
     },
     {
-      "name": "美元指数",
-      "value": "102.04 (+0.48%)",
-      "note": "DXY 102.04 (+0.48%，11/6实时) — 由101.6升至102关口,资金回流美元,与美股下跌同时出现,流动性收紧特征。"
+      "name": "美元指数DXY",
+      "value": "102.30",
+      "note": "102.30 (+0.74%，11/6收盘) — 站上102,为本周最强单日。"
     },
     {
-      "name": "亚太收盘",
-      "value": "日经-5.96% / KOSPI-6.02% / 恒指-1.27%",
-      "note": "亚太全线收跌,日韩芯片链为震中;A股11/6收盘见a-shares.json(上证低开,盘中跌幅约1%附近)。"
+      "name": "10月非农就业",
+      "value": "+16.5万",
+      "note": "远超预期5.9万;失业率降至4.1%(预期4.2%)。但平均失业时长升至27周以上,为疫情外十年最高。"
     },
     {
-      "name": "周五数据",
-      "value": "10月非农(今晚)",
-      "note": "10月就业报告于11/6美东时间08:30公布,为本轮抛售后首个关键基本面数据;CGD显示私人部门新增8.6万。彭博称'抛售暂缓,焦点转向就业'。"
+      "name": "12月加息概率",
+      "value": "81%",
+      "note": "据Bloomberg/ausecure,由69%升至81% — 市场对美联储12月加息定价大幅升温。"
+    },
+    {
+      "name": "英国央行",
+      "value": "加息至4.25%",
+      "note": "自伊朗战争以来首次加息,警告通胀将接近5%。"
     }
   ],
   "week_performance": {
-    "note": "本周(11/2-11/6)由'选举后反弹'急转为'AI监管+资本开支担忧主导的去杠杆':11/4美股暴涨(标普+1.58%、道指+3.03%),11/5全部回吐并转为大跌(标普-4.36%、纳指-5.52%),11/6盘前小幅反弹、亚太补跌(日经-5.96%、KOSPI-6.02%)。纳指跌破10%回调线进入技术性回调,日经进入技术性熊市;美元走强、黄金回落、加密续跌,呈典型流动性收缩特征。A股11/5逆势收涨、港股五连阳后回吐,相对独立但外部压力显著上升。"
+    "note": "本周(11/2-11/6)主线=中期选举民主党大胜 → AI资本开支与数据中心遭政治性否定 → 全球AI交易去杠杆。标普-2.48%、纳指-3.37%、道指-8.24%、日经-5.96%、KOSPI-6.02%、WTI-12.8%;VIX从16.61升至25.64。周五出现分化:纳指/标普反弹而道指续跌,显示资金由价值周期股回流科技。"
   },
   "overnight": [
     {
-      "title": "美股抛售暂停反弹,'去杠杆'由恐慌转为消化",
-      "detail": "Bloomberg'US Stock Rout Pauses as AI Trade Draws Buyers':盘前指数期货小幅反弹,部分资金开始抄底AI龙头,但市场普遍认为反弹脆弱,焦点转向10月非农。"
+      "title": "美股周五分化反弹,但全周重挫",
+      "detail": "标普+0.31%、纳指+1.09%、道指-0.46%。FT: 'US stocks recover after tech rout'(纳指100 +1.4%)。反弹被普遍视为技术性修复而非趋势反转。"
     },
     {
-      "title": "快钱/系统性基金是$2.3万亿科技股抛售的推手",
-      "detail": "Bloomberg'Fast-Money Systematic Funds Stoked $2.3 Trillion Tech-Stock Rout':CTA与波动率目标策略在纳指跌破关键位后被动减仓,放大跌幅;后续仍有再平衡卖压。"
+      "title": "10月非农大超预期,12月加息定价升至81%",
+      "detail": "+16.5万 vs 预期5.9万,失业率4.1%。Bloomberg Economics认为招聘已扩散至白领、制造与运输,强化美联储继续紧缩理由。美元与收益率上行、黄金承压。"
     },
     {
-      "title": "AI债务担忧升温:ING寻求出售5亿美元数据中心贷款",
-      "detail": "CNBC:AI基建融资链条出现松动迹象,私募信贷与IDC贷款二级市场折价成交,数据中心资本开支可持续性受质疑。"
+      "title": "中期选举结果重塑AI叙事",
+      "detail": "民主党横扫国会。CNBC: Anthropic IPO撞上'数据中心反弹情绪';FT: 'Data centres rebuked — Capex, meet the electorate'。AI基础设施资本开支的政治与监管风险成为新变量。"
     },
     {
-      "title": "Anthropic IPO估值预期因AI抛售承压",
-      "detail": "Bloomberg:AI一级市场估值锚下移,对后续AI资产IPO定价形成压制。"
+      "title": "欧股连续承压,DAX领跌1.92%",
+      "detail": "STOXX 600收于648.33(-1.00%),保险股领跌;英央行加息至4.25%并警告通胀接近5%。"
     },
     {
-      "title": "英国与欧洲躲过最差行情",
-      "detail": "Bloomberg'UK & Europe Avoid Worst of Stock Rout':欧股科技权重低,富时100/DAX跌幅远小于美股,资金出现区域再平衡。"
+      "title": "亚太周五补跌,日经进入技术性熊市",
+      "detail": "日经-5.96%、KOSPI-6.02%,均为全球AI/半导体权重最高的市场,补跌幅度远超欧美。"
     },
     {
-      "title": "民主党横扫后市场重估利率路径",
-      "detail": "CNBC'Democratic sweep gives markets a reason to rethink path of interest rates':财政扩张预期上升与长端利率黏性,构成估值压力;"
+      "title": "加密:政治红利期结束,价格横盘",
+      "detail": "Bloomberg: 'Crypto's Trump-Fueled Washington Boom Reaches Its Endgame' — 民主党掌控国会意味着更严格监管。BTC $75.9K横盘,未跟随股市反弹。"
     },
     {
-      "title": "英国央行自伊朗战争以来首次加息,警告通胀逼近5%",
-      "detail": "CNBC:全球利率环境重新转紧,风险资产分母端压力加大。"
+      "title": "美中贸易:美方警告中国须立即履行釜山协议",
+      "detail": "FT: 华盛顿指北京未履行增加稀土等关键产品供应的承诺。同时Trafigura在亚洲大量扫铜,现货升水创历史新高,显示中国供应紧张。"
     },
     {
-      "title": "特斯拉宣布明年在德州停产Cybertruck,转产Cybercab",
-      "detail": "CNBC:马斯克确认产线切换,传统车企2027年面临成本上升与市场收缩双重压力。"
+      "title": "地缘:伊朗局势升级风险仍高",
+      "detail": "CNBC: 尽管民主党大胜,美伊仍处碰撞轨道,中东紧张持续;俄罗斯经北极(摩尔曼斯克)出口生铁规避乌克兰打击。"
     }
   ],
   "evening_preview": [
     {
-      "title": "下周关注1",
-      "detail": "10月非农(今晚)结果对利率路径的定价影响;若就业弱于预期,可能反而加剧'衰退+AI降温'双杀担忧。"
+      "title": "下周关注1:AI资本开支的政治定价",
+      "detail": "数据中心与AI基础设施成为选举议题后,相关监管、地方审批与税收政策可能生变,需跟踪超大规模厂商的capex指引修正。"
     },
     {
-      "title": "下周关注2",
-      "detail": "民主党'数据中心暂停令'是否进入立法程序;Nvidia国会简报进展。"
+      "title": "下周关注2:加息预期与利率路径",
+      "detail": "12月加息概率81%,10Y升至4.86%。若收益率继续上行,高估值科技股反弹的可持续性存疑。"
     },
     {
-      "title": "下周关注3",
-      "detail": "CTA/波动率目标基金再平衡卖压是否延续;纳指10%回调后能否在24,000-24,500形成支撑。"
+      "title": "下周关注3:亚太补跌是否结束",
+      "detail": "日经/KOSPI单日-6%级别的下跌需要观察周一开盘能否止稳,否则可能引发全球风险平价与CTA策略的进一步减仓。"
     },
     {
-      "title": "下周关注4",
-      "detail": "A股/港股对外部冲击的独立性:关注11/9开盘补跌幅度与南向资金流向。"
+      "title": "下周关注4:加密监管立法",
+      "detail": "民主党掌控国会后,加密市场结构法案方向可能转向更严格,关注BTC能否守住$75K。"
     },
     {
-      "title": "下周关注5",
-      "detail": "油价逼近$100与英国央行加息,通胀二次上行风险对全球风险资产的压制。"
+      "title": "下周关注5:美中釜山协议执行",
+      "detail": "稀土供应与关税落实进展,直接关系A股稀土/资源板块与全球供应链定价。"
     }
   ],
   "headlines": [
     {
-      "title": "美股:抛售暂歇,期货反弹,市场等待10月非农",
-      "detail": "标普7,353.73(-4.36%)、纳指24,315(-5.52%)、道指51,523(-3.44%)为11/5收盘;11/6盘前小幅反弹。VIX 27.48(-2.48%)。"
+      "title": "美股:AI抛售后分化反弹,纳指+1.09%但道指续跌",
+      "detail": "标普7,376.86(+0.31%)、纳指24,579.43(+1.09%)、道指51,285.73(-0.46%);周四曾暴跌4.36%/5.52%/3.44%。VIX 25.64(-9.01%)。"
     },
     {
-      "title": "亚太收跌:日经-5.96%技术性熊市、KOSPI-6.02%、恒指-1.27%",
-      "detail": "芯片链为震中,但较盘中低点均有所收窄。"
+      "title": "宏观:10月非农+16.5万远超预期,12月加息概率升至81%",
+      "detail": "失业率4.1%。美元指数102.30(+0.74%),10Y 4.859%(+2.2bp),黄金-0.94%至$4,074.9。"
     },
     {
-      "title": "加密续跌:BTC $75,617(-4.97%)、ETH $2,228(-6.46%)",
-      "detail": "去杠杆幅度最大,情绪最悲观。"
+      "title": "欧洲:STOXX 600 -1.00%,DAX -1.92%,英央行加息至4.25%",
+      "detail": "AI担忧叠加保险股抛售;英国通胀预期接近5%。"
     },
     {
-      "title": "美元走强至102.04(+0.48%),黄金回落至$4,072(-1.00%)",
-      "detail": "典型'现金为王'式调整,并非传统避险轮动。"
+      "title": "亚太:日经-5.96%、KOSPI-6.02%,恒指-1.27%",
+      "detail": "AI/半导体高权重市场补跌最剧,日经进入技术性熊市。"
     },
     {
-      "title": "AI叙事遇三重压力:监管(数据中心暂停令)、融资(ING抛售IDC贷款)、估值(Anthropic IPO)",
-      "detail": "AI资本开支链条成为本轮全球风险资产的核心定价变量。"
+      "title": "加密:民主党掌控国会,加密政治红利期结束",
+      "detail": "BTC $75.9K横盘,ETH $2,244,SOL $90下方。"
     }
   ],
   "news": [
     {
       "source": "Bloomberg",
-      "title": "Stocks Selloff Pauses Rebound After Tech Rout; Jobs Report Ahead"
+      "title": "US Jobs Surge Raises Odds of December Fed Hike"
     },
     {
       "source": "Bloomberg",
-      "title": "Fast-Money Systematic Funds Stoked $2.3 Trillion Tech-Stock Rout"
+      "title": "Crypto's Trump-Fueled Washington Boom Reaches Its Endgame"
     },
     {
       "source": "Bloomberg",
-      "title": "UK & Europe Avoid Worst of Stock Rout"
+      "title": "Trafigura Snaps Up Copper in Asia as China Faces Supply Crunch"
     },
     {
       "source": "Bloomberg",
-      "title": "Anthropic IPO Valuation Expectations Pressured After AI Rout"
+      "title": "Berkshire Hathaway's Operating Earnings Fall, Buybacks Rise"
+    },
+    {
+      "source": "FT",
+      "title": "How Wall Street's all-in bet on AI blew up"
+    },
+    {
+      "source": "FT",
+      "title": "Data centres rebuked — Capex, meet the electorate"
+    },
+    {
+      "source": "FT",
+      "title": "US warns China it must 'immediately' meet terms of Busan trade deal"
+    },
+    {
+      "source": "FT",
+      "title": "US stocks recover after tech rout"
     },
     {
       "source": "CNBC",
-      "title": "Democratic sweep gives markets a reason to rethink path of interest rates"
+      "title": "Risk of Iran war escalation remains high despite Democratic sweep in U.S. midterm elections"
     },
     {
       "source": "CNBC",
-      "title": "AI debt concerns grow as ING reportedly seeks buyers for $500 million of data center loans"
+      "title": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers"
+    },
+    {
+      "source": "CNBC",
+      "title": "A disturbing employment trend is hiding beneath the latest strong job numbers"
     },
     {
       "source": "CNBC",
       "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%"
     },
     {
-      "source": "CNBC",
-      "title": "The October jobs report is out Friday. Here's everything to expect"
+      "source": "MarketWatch",
+      "title": "Nvidia, AMD and other chip stocks rebound — but is relief from the 'violent' selloff only temporary?"
     },
     {
-      "source": "CNBC",
-      "title": "Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says"
+      "source": "MarketWatch",
+      "title": "Data centers run on debt. That was a problem for bonds this year — and it's only going to get worse."
     },
     {
-      "source": "CNBC",
-      "title": "Where's the growth? Legacy automakers face a tougher 2027 as costs rise, market tightens"
+      "source": "MarketWatch",
+      "title": "Elon Musk opens the door for a big SpaceX acquisition"
     }
   ],
   "morning_preview": "",
-  "note": "11/6晚间国际数据更新。数据源:美股/VIX/10Y/商品/加密/日经/KOSPI/恒指/美元指数为Yahoo Finance chart API(11/5收盘与11/6 13:30 UTC实时/收盘);新闻为feedparser读取CNBC Top News、CNBC Markets、Bloomberg Markets、MarketWatch RSS(WSJ Markets RSS停更于2025-01,Yahoo Finance RSS返回空);web_search 补充但可用结果有限;A股11/6收盘数据见a-shares.json。"
+  "note": "11/7晚间国际数据更新(周六,美股/欧股休市,采用11/6收官数据)。数据源:美股指数/VIX/美元指数/10Y/商品/欧股/日经/KOSPI/恒指/ASX为Yahoo Finance chart API(11/6收盘);加密为OKX Spot API(11/7 13:31 UTC实时);新闻为feedparser读取CNBC Top News、CNBC Markets、Bloomberg Markets、MarketWatch、FT Markets RSS(WSJ Markets RSS停更于2025-01,已弃用;Yahoo Finance RSS无返回)。非农/加息概率/金价参考跨源交叉验证(CNBC、Bloomberg、ausecure、RIO Times)。"
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T16:00:00-08:00",
+ "updated": "2026-11-07T16:00:00-08:00",
  "papers": [
   {
    "id": "2611.04711",
@@ -36269,6 +36269,293 @@
    "relevance_score": 3,
    "topic": "vla-autonomous-driving",
    "is_new": true
+  },
+  {
+   "id": "2610.29915",
+   "title": "CausalAlign: Causal Alignment of Video Generation Models for Consistent Ego-Motion",
+   "authors": [
+    "Kai Zhu",
+    "Yintianrun Zhang",
+    "Shuwei Jiang",
+    "Ruolin Zuo",
+    "Yixin Chen",
+    "Duomin Wang",
+    "Miao Liu",
+    "Yin Li"
+   ],
+   "published": "2026-10-21",
+   "arxiv_url": "https://arxiv.org/abs/2610.29915",
+   "pdf_url": "https://arxiv.org/pdf/2610.29915",
+   "summary": "Diffusion-based video generation models (VGMs) can produce visually plausible videos, yet their camera ego-motion often drifts over long horizons. Camera ego-motion determines how the viewpoint changes between frames and is essential for maintaining consistent geometry and trajectories. To address this problem, we propose CausalAlign, a causal alignment framework with two components. First, we diagnose how precise ego motion is represented, used, and retained within VGMs using linear probes and causal interventions, revealing a rise-and-fall pattern during denoising. Second, we strengthen ego-motion state in VGM by aligning the representations at the identified layers to a 3D foundation model through delta-token space. This space encodes the changes between consecutive frames, allowing the alignment to focus on ego-motion dynamics rather than static scene content. With Wan2.2 fine-tuned on DL3DV and RealEstate10K, CausalAlign can largely improve motion accuracy, geometric consistency, and temporal smoothness, while preserving visual quality. For example, it improves geometric consistency by more than 20% relative to the base model. Moreover, with the fine-tuned VGM, CausalAlign imp",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 4,
+   "topic": "world-models-ad",
+   "is_new": true,
+   "source": "arxiv"
+  },
+  {
+   "id": "2610.36726",
+   "title": "Learning Side-by-Side Navigation for Personal Mobility Vehicles from Human Drivers",
+   "authors": [
+    "Luis Yoichi Morales",
+    "Florent Ferreri"
+   ],
+   "published": "2026-10-27",
+   "arxiv_url": "https://arxiv.org/abs/2610.36726",
+   "pdf_url": "https://arxiv.org/pdf/2610.36726",
+   "summary": "This paper presents an approach to achieve side-by-side autonomous motion with a pair of personal mobility vehicles (PMVs). Given a global path, two PMVs plan cooperatively so as to hold a social formation that lets the passengers hold a conversation, while keeping the ride safe and smooth. Each vehicle runs its own sampling-based model-predictive planner; the planners exchange nothing but the odometry each vehicle could observe of the other, and the joint decision is expressed as a pair of utility matrices over pairs of candidate trajectories, resolved by a common rule. The behavioural parameters are fitted by inverse reinforcement learning from 409 minutes of driving by ten pairs of people in human-driven PMVs in an indoor environment, and the lanes the pair can use are derived offline from the corridor itself rather than fixed by hand. A safety layer the cost cannot override executes a move only if the vehicle can still brake clear, measured from its whole body, and a vehicle that is stuck reverses along its own path and continues. In closed-loop simulation over 24 runs in the conditions the drivers were recorded in and 24 in four generated obstacle layouts, no vehicle entered a",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance_score": 4,
+   "topic": "e2e-autonomous-driving",
+   "is_new": true,
+   "source": "arxiv"
+  },
+  {
+   "id": "2610.40257",
+   "title": "Learned Terminal Costs for Short-Horizon Model Predictive Control of Autonomous Trucks in Interactive Highway Traffic",
+   "authors": [
+    "Hooman Hamze",
+    "Benjamin Houshmand",
+    "Deepthi Pathare",
+    "Erik Börve",
+    "Morteza Haghir Chehreghani",
+    "Nikolce Murgovski"
+   ],
+   "published": "2026-10-29",
+   "arxiv_url": "https://arxiv.org/abs/2610.40257",
+   "pdf_url": "https://arxiv.org/pdf/2610.40257",
+   "summary": "Autonomous highway driving for heavy-duty trucks is a challenging control problem. The greater mass, dimensions and intricate dynamics increase the requirements for cooperation from surrounding traffic in critical maneuvers, requiring a careful balance between safety constraints and efficient long-horizon decision making. Model Predictive Control (MPC) provides rigorous constraint satisfaction but relies on terminal cost which can limit its effectiveness at short, computationally affordable horizons. Reinforcement Learning (RL) captures long-term driving behavior but offers no constraint guarantees and tends toward overly conservative policies when trained under sparse collision penalties. In this paper, we propose a hybrid MPC and RL framework for highway driving in autonomous trucks, where a finite-horizon MPC, solved via dynamic programming, uses a pre-trained RL model for terminal cost estimation. We evaluate the framework in a simulation environment with reactive surrounding traffic and compare it against pure MPC with zero terminal cost, rollout with terminal cost estimation using a base policy, and pure RL. Results show that the hybrid approach achieves zero collisions with ",
+   "categories": [
+    "cs.LG",
+    "cs.AI",
+    "cs.RO",
+    "eess.SY"
+   ],
+   "relevance_score": 4,
+   "topic": "e2e-autonomous-driving",
+   "is_new": true,
+   "source": "arxiv"
+  },
+  {
+   "id": "2611.02008",
+   "title": "NAS-PO: Native Attention-Strategy Policy Optimization for Vision-Language Models",
+   "authors": [
+    "Ke An",
+    "Shizhe Xiang",
+    "Yue Liu",
+    "Liang Chen",
+    "Pei Fu",
+    "Shaojie Zhang",
+    "Xiaoxing Hu",
+    "Yupei Wang"
+   ],
+   "published": "2026-11-01",
+   "arxiv_url": "https://arxiv.org/abs/2611.02008",
+   "pdf_url": "https://arxiv.org/pdf/2611.02008",
+   "summary": "Reinforcement learning with verifiable rewards (RLVR) has become an effective post-training paradigm for vision-language models (VLMs). Standard RLVR, however, assigns identical outcome-derived credit to all generated tokens regardless of their perceptual relevance. Recent perception-aware methods estimate visual reliance through image perturbation or masking. These indirect proxies require perturbation branches, while corruption sensitivity does not necessarily identify the visual evidence used for reasoning. We instead shape model perception through native attention, an intrinsic model signal. Rather than treating attention as a post-hoc explanation, we formulate it as a reward-anchored, token-aligned routing signal that encourages attention patterns supporting visually grounded reasoning. To this end, we propose NAS-PO, a Native Attention-Strategy Policy Optimization framework. NAS-PO analyzes native attention with a visual mass policy that quantifies visual allocation and a conditional visual policy that captures spatial routing over visual tokens, making the optimization well-posed. Based on this, Native Attention-Strategy Advantage Shaping (NAS-AS) draws on the visual-mass po",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 4,
+   "topic": "vla-autonomous-driving",
+   "is_new": true,
+   "source": "arxiv"
+  },
+  {
+   "id": "2610.24349",
+   "title": "FlashRT-PAI: Fast Kernels Are Not Fast Pipelines for Physical AI Inference",
+   "authors": [
+    "Liang Su",
+    "David Chen",
+    "Jason Li",
+    "Kevin Guo",
+    "Teresa Lv"
+   ],
+   "published": "2026-10-17",
+   "arxiv_url": "https://arxiv.org/abs/2610.24349",
+   "pdf_url": "https://arxiv.org/pdf/2610.24349",
+   "summary": "Vision-language-action (VLA), video-action (VA), and world action models (WAMs) form the backbone of modern physical AI systems, yet their real-time single-batch inference remains a defining bottleneck. Latency is dominated not by individual kernel computation, but by system-level overhead: thousands of short kernel launches, intermediate data movement across operator boundaries, and redundant recomputation across consecutive decisions. General-purpose graph compilers cannot address these costs, as they optimize individual calls in isolation and lack visibility into cross-call state semantics and global pipeline structure. We present FLASHRT-PAI, a low-latency inference engine built around model-hardware pipeline co-design rather than isolated kernel optimization. FLASHRT-PAI combines three core mechanisms: deep kernel fusion with launch overlap eliminates inter-operator boundaries and launch gaps; an execution contract formalizes the pipeline's stage DAG, update rates, and named buffers to enable cross-decision state reuse and selective refresh; and execution-state capsules enable fast snapshot, restore, and fork of persistent pipeline state. The system also supports drop-in accel",
+   "categories": [
+    "cs.AI"
+   ],
+   "relevance_score": 3,
+   "topic": "world-models-ad",
+   "is_new": true,
+   "source": "arxiv"
+  },
+  {
+   "id": "2610.26813",
+   "title": "PICA-WAM: Visual Perturbation Invariance via Cross-Appearance Self-Alignment in World Action Models",
+   "authors": [
+    "Yude Zou",
+    "Yifei Yao",
+    "Guanbo Jiao",
+    "Jianming Ma",
+    "Guanjie Zheng",
+    "Xing Gao"
+   ],
+   "published": "2026-10-19",
+   "arxiv_url": "https://arxiv.org/abs/2610.26813",
+   "pdf_url": "https://arxiv.org/pdf/2610.26813",
+   "summary": "World Action Models (WAMs) jointly predict future video and generate actions, yet remain sensitive to task-irrelevant visual perturbations, i.e., changes in visual appearance that should not affect robot behavior. We identify a gap in conventional WAM training: video prediction encourages representations to preserve appearance information, while action generation does not explicitly enforce invariance to task-irrelevant appearance. Data augmentation exposes WAMs to such perturbations but does not require perturbed and nominal observations to produce consistent action representations, and alignment with external pretrained features does not guarantee the desired invariance. To address this gap, we propose PICA-WAM, a self-supervised training framework that casts perturbation invariance as an auxiliary cross-appearance self-alignment task for WAMs. An exponential-moving-average (EMA) teacher processes the nominal observation to provide a deeper-layer target, while the online WAM processes a perturbed observation and aligns its shallower-layer action representation to this target through a lightweight projection head. Across four strong WAMs evaluated on RoboTwin 2.0, LIBERO-Plus, EBe",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance_score": 3,
+   "topic": "world-models-ad",
+   "is_new": true,
+   "source": "arxiv"
+  },
+  {
+   "id": "2610.28122",
+   "title": "De-Diffusing WAMs: Action-Sufficient Direct Prediction for Robot Control",
+   "authors": [
+    "Shaoyi Zheng",
+    "Zhongtao Jiang",
+    "Yue Peng",
+    "Wenbo Lu",
+    "Shunchi Zhang",
+    "Xi Wang",
+    "Shengji Wan"
+   ],
+   "published": "2026-10-20",
+   "arxiv_url": "https://arxiv.org/abs/2610.28122",
+   "pdf_url": "https://arxiv.org/pdf/2610.28122",
+   "summary": "Cascade world-action models (WAMs) use predicted visual futures to condition robot actions, but inherit costly iterative inference from diffusion-pretrained experts. We ask what a single-step predicted future must preserve to support accurate single-step action prediction. In the evaluated WAM, resampling video noise has little effect on downstream actions, yet naively truncating both streams to one step substantially reduces task success. Video-space supervision only partially closes this gap, and a local sensitivity analysis shows that vision prediction errors have highly unequal consequences for action accuracy. These findings motivate DirectWAM, which converts pretrained video and action experts into single-step predictors without stochastic sampling through action-sufficient distillation, while retaining the explicit future-to-action cascade. After learning a one-step action model, we train the future predictor by decoding actions from its own predicted futures and backpropagating demonstration action error through the expert, with an optional future-latent reconstruction loss. The resulting objective evaluates the student-generated future through its downstream control conseq",
+   "categories": [
+    "cs.RO",
+    "cs.AI"
+   ],
+   "relevance_score": 3,
+   "topic": "world-models-ad",
+   "is_new": true,
+   "source": "arxiv"
+  },
+  {
+   "id": "2610.32276",
+   "title": "Empirically Calibrated Differential Games for Simulating Driver Interactions",
+   "authors": [
+    "Amirmohammad Khakpour",
+    "Nachuan Li",
+    "Pedram Beigi",
+    " Yu",
+    " Nie"
+   ],
+   "published": "2026-10-23",
+   "arxiv_url": "https://arxiv.org/abs/2610.32276",
+   "pdf_url": "https://arxiv.org/pdf/2610.32276",
+   "summary": "Game-theoretic models can resolve vehicle interactions without hand-written priority rules, but whether they describe human drivers once calibrated has rarely been tested. This study formulates a general-sum differential game of vehicle interactions at urban intersections, calibrates it to observed driving, and evaluates it on data not used for calibration. Each vehicle minimizes a cost that combines speed tracking, adherence to a map-derived lane route, control effort, gap keeping based on the intelligent driver model, a predictive conflict term, and a contact barrier, while perceiving the other vehicles with a delay. The game is solved with a feedback iterative linear-quadratic algorithm, and ten behavioral parameters per vehicle are calibrated by Bayesian optimization on trajectories recorded at four intersections in Washington, D.C. The calibrated game reproduces the trajectories of 819 vehicles with a mean position error of 1.00 m. When only each vehicle's route is known, as in a simulator, it is the most accurate of the compared models on 96 held-out vehicles (7.42 m), and ten-fold cross-validation shows that it is significantly more accurate than calibrated SUMO (by 3.61 m),",
+   "categories": [
+    "cs.MA",
+    "math.OC"
+   ],
+   "relevance_score": 3,
+   "topic": "e2e-autonomous-driving",
+   "is_new": true,
+   "source": "arxiv"
+  },
+  {
+   "id": "2610.38238",
+   "title": "Variational Consequence-Driven Offline Reinforcement Learning",
+   "authors": [
+    "Wen Jiang",
+    "Ke Jiang",
+    "Xiaoyang Tan"
+   ],
+   "published": "2026-10-28",
+   "arxiv_url": "https://arxiv.org/abs/2610.38238",
+   "pdf_url": "https://arxiv.org/pdf/2610.38238",
+   "summary": "Offline reinforcement learning (RL) typically mitigates distribution shift by imposing divergence constraints on the action distributions of the learned and behavior policies. However, this paradigm cannot ensure the underlying dynamic consistency structure: even minor action deviations can lead to drastically different transitions, inadvertently driving the agent away from the offline dataset. To address this, we explore policy constraints through their induced state-consequence distributions rather than relying on pure action-distribution matching. Nevertheless, directly enforcing such consequence-aware constraints is computationally intractable without access to the true underlying dynamics model. To bypass this issue, we propose Structural Behavior Regularization (StBR), which replaces the intractable objective with a closed-form latent divergence. Structuring this latent space to reflect transition dynamics renders the latent divergence a theoretically bounded surrogate for the true consequence-distribution divergence. By regularizing the learned policy with this latent divergence, StBR adaptively tightens the behavior constraint in dynamics-sensitive regions, effectively prev",
+   "categories": [
+    "cs.LG"
+   ],
+   "relevance_score": 3,
+   "topic": "e2e-autonomous-driving",
+   "is_new": true,
+   "source": "arxiv"
+  },
+  {
+   "id": "2611.04873",
+   "title": "Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training",
+   "authors": [
+    "Zicheng Kong",
+    "Zhenbo Xu",
+    "Haoyan Zhang",
+    "Jinghan Yang",
+    "Zhenzhen Li",
+    "Yiwei Ru",
+    "Liuyu Xiang",
+    "WanTing Xu"
+   ],
+   "published": "2026-11-03",
+   "arxiv_url": "https://arxiv.org/abs/2611.04873",
+   "pdf_url": "https://arxiv.org/pdf/2611.04873",
+   "summary": "Video world models enable candidate actions to be evaluated through imagined outcomes, but high predicted rewards can favor trajectories with poor execution quality. We introduce Trusting Imagined Futures (TIF), an offline supervision selection method for vision-language-action (VLA) post-training that audits predicted rewards using execution feedback. A multidimensional reward model predicts a utility score for candidate ranking and five dimensions of execution quality. An auditor uses reward predictions and uncertainty to identify overestimation patterns learned from paired imagined videos and real executions. TIF accepts the candidate with the highest predicted utility when its advantage over the existing trajectory exceeds a margin and its audit risk passes a threshold; otherwise, it retains the existing supervision. The retained real trajectories then supervise behavior cloning. Across four LIBERO suites and three training seeds, TIF achieves a mean success rate of 76.25%, improving over training on the existing trajectories by 3.00 percentage points with the same trajectory count and training budget. Adding audit gating yields 1.47 percentage points with the reward model and ",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "relevance_score": 3,
+   "topic": "vla-autonomous-driving",
+   "is_new": true,
+   "source": "arxiv"
+  },
+  {
+   "id": "2611.07850",
+   "title": "Learning Robotic World Models with Semantic and Visual Feedback",
+   "authors": [
+    "Hao Wu",
+    "Yuqi Li",
+    "Yizhou Zhao",
+    "Kun Wang",
+    "Xiao Luo",
+    "Yu Cheng",
+    "Bo An",
+    "Yingli Tian"
+   ],
+   "published": "2026-11-05",
+   "arxiv_url": "https://arxiv.org/abs/2611.07850",
+   "pdf_url": "https://arxiv.org/pdf/2611.07850",
+   "summary": "Robot world models predict action-conditioned future visual states to support robotic planning and decision making. However, visual reconstruction does not fully capture task progress, semantic evaluation alone provides limited constraints on fine-grained visual errors, and homogeneous predictions limit comparative feedback. We present RoboImagine, a framework for post-training autoregressive robotic world models through candidate-future comparisons with semantic and visual feedback. Diverse search promotes diversity among candidate trajectories under shared visual observations, action sequences, and task instructions. A frozen multimodal evaluator provides task-relevant semantic preferences through pairwise video comparisons in both presentation orders, complemented by pixel- and perceptual-level visual consistency feedback that constrains local structural and appearance errors. These signals drive policy optimization through group-relative advantages. Fixed initial context and branch-specific rolling histories support long-sequence generation with bounded context and consistent conditioning between candidate generation and policy optimization. Experiments with separately trained ",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "relevance_score": 3,
+   "topic": "world-models-ad",
+   "is_new": true,
+   "source": "arxiv"
+  },
+  {
+   "id": "2611.08449",
+   "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+   "authors": [
+    "Yu-Cheng Chou",
+    "Shihao Wang",
+    "Jin Huang",
+    "Chi-Pin Huang",
+    "Chiao-An Yang",
+    "Xianzhe Fan",
+    "Jing Wang",
+    "Zhiqi Li"
+   ],
+   "published": "2026-11-05",
+   "arxiv_url": "https://arxiv.org/abs/2611.08449",
+   "pdf_url": "https://arxiv.org/pdf/2611.08449",
+   "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known structure of visual primitives to predict their coordinates jointly, using a lightweight drafter that generates an entire primitive in one forward pass. The layout adapts to the primitive's type, dimensionality, and length, supporting compact boxes and long, variable-length trajectories. Crucially, spatial accuracy need not require reproducing an autoregressive model's exact token sequence. VFlash therefore trains on annotated primitives and directly accepts structurally valid predictions without target-token agreement. Across the evaluated 2D and 3D robot trajectory tasks, VFlash consistently reduces prediction errors relative to autoregressive decoding. Preliminary single-rollout measurement",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "relevance_score": 3,
+   "topic": "world-models-ad",
+   "is_new": true,
+   "source": "arxiv"
   }
  ],
  "updated_at": "2026-11-06T16:00:00-08:00",

@@ -723,14 +723,28 @@
    "published": "2026-11-04",
    "arxiv_url": "https://arxiv.org/abs/2611.06007",
    "pdf_url": "https://arxiv.org/pdf/2611.06007",
-   "summary": "Motorized Two-Wheelers (MTWs) dominate personal transport across much of the Global South, yet remain largely overlooked in predictive perception research for autonomous driving and ADAS. We introduce MotoVerse, a benchmark for predictive perception from an MTW's ego-centric perspective. MotoVerse comprises 949 maneuver clips collected in dense, unstructured traffic and trajectory annotations for over 31,000 surrounding road agents, including over 16,000 MTWs, enabling two complementary tasks: Ego-Rider Maneuver Anticipation (ERMA) and Traffic Agent Trajectory Prediction (TATP). Each clip is further annotated with an MTW-specific challenge taxonomy comprising dynamic ego-motion, weak traffic structure and contextual occlusion, enabling challenge-aware evaluation. We benchmark established conventional prediction models, general-purpose Vision-Language Models (VLMs), driving-specific VLMs ",
+   "summary": "首个从两轮车自身视角出发的预测感知基准：949 clip、31k+ agent 轨迹（16k+ 两轮车），含 ERMA/TATP 两任务与 MTW 专属挑战分类法。video backbone 只用 1/5 片段即达近似满观测精度，zero-shot VLM 接近简单基线，左转与动态自车运动为最大失效点。",
    "categories": [
     "cs.CV"
    ],
    "relevance_score": 5,
    "topic": "vla-autonomous-driving",
    "is_new": true,
-   "source": "arxiv"
+   "source": "arxiv",
+   "weekly_pick": true,
+   "weekly": true,
+   "weekly_analysis": "vla-autonomous-driving/analysis/2611.06007_MotoVerse-MTW-Predictive-Perception-Benchmark.md",
+   "weekly_rank": 5,
+   "week": "2026-11-07",
+   "in_kb": true,
+   "in_dashboard": true,
+   "analysis_path": "vla-autonomous-driving/analysis/2611.06007_MotoVerse-MTW-Predictive-Perception-Benchmark.md",
+   "status": "已收录",
+   "status_en": "collected",
+   "summary_zh": "首个从两轮车自身视角出发的预测感知基准：949 clip、31k+ agent 轨迹（16k+ 两轮车），含 ERMA/TATP 两任务与 MTW 专属挑战分类法。video backbone 只用 1/5 片段即达近似满观测精度，zero-shot VLM 接近简单基线，左转与动态自车运动为最大失效点。",
+   "score": 5,
+   "arxiv_id": "2611.06007",
+   "url": "https://arxiv.org/abs/2611.06007"
   },
   {
    "id": "2611.05072",
@@ -793,14 +807,28 @@
    "published": "2026-11-03",
    "arxiv_url": "https://arxiv.org/abs/2611.05249",
    "pdf_url": "https://arxiv.org/pdf/2611.05249",
-   "summary": "Vision-language-action (VLA) models increasingly pair a pre-trained vision-language model (VLM) with a flow-matching expert that conditions its action predictions on the VLM's key-value representations. Those representations must carry information useful for control, yet the VLM was never trained for the action expert's flow-matching objective. Two signals can address this: gradients backpropagated from the expert's loss (coupling), or VLM supervision to predict discrete tokens encoding the same target actions. Prominent training recipes forgo the first, blocking expert-to-VLM gradients (insulation) to protect the VLM's existing capabilities, while also supervising it on vision-language data and action tokens. Because vision-language co-training also aims to preserve those capabilities, the additional protection provided by insulation is unclear. At the same time, insulation removes a di",
+   "summary": "用 2×2 因子实验拆解\"梯度绝缘\"与\"动作 token 监督\"：绝缘之所以成立，是因为动作 token 监督已提供动作相关性信号；无该监督时耦合显著更好。无 token 监督时 coupling 降开环轨迹误差约 25%，闭环 route progress +17%（有监督）/+40%（无），机器人操作结论一致。",
    "categories": [
     "cs.RO"
    ],
    "relevance_score": 5,
    "topic": "vla-autonomous-driving",
    "is_new": true,
-   "source": "arxiv"
+   "source": "arxiv",
+   "weekly_pick": true,
+   "weekly": true,
+   "weekly_analysis": "vla-autonomous-driving/analysis/2611.05249_Should-the-Action-Expert-Train-the-VLM.md",
+   "weekly_rank": 4,
+   "week": "2026-11-07",
+   "in_kb": true,
+   "in_dashboard": true,
+   "analysis_path": "vla-autonomous-driving/analysis/2611.05249_Should-the-Action-Expert-Train-the-VLM.md",
+   "status": "已收录",
+   "status_en": "collected",
+   "summary_zh": "用 2×2 因子实验拆解\"梯度绝缘\"与\"动作 token 监督\"：绝缘之所以成立，是因为动作 token 监督已提供动作相关性信号；无该监督时耦合显著更好。无 token 监督时 coupling 降开环轨迹误差约 25%，闭环 route progress +17%（有监督）/+40%（无），机器人操作结论一致。",
+   "score": 5,
+   "arxiv_id": "2611.05249",
+   "url": "https://arxiv.org/abs/2611.05249"
   },
   {
    "id": "2611.04166",
@@ -36044,7 +36072,7 @@
    "published": "2026-11-05",
    "arxiv_url": "https://arxiv.org/abs/2611.08111",
    "pdf_url": "https://arxiv.org/pdf/2611.08111",
-   "summary": "World-action models (WAMs) jointly model future traffic states and driving actions for end-to-end autonomous driving in intelligent transportation systems. However, their action learning remains dominated by expert-trajectory imitation, leaving unsafe alternatives close to expert trajectories insufficiently constrained. To improve WAM robustness in safety-critical scenarios, we propose NegWAM, a safety post-training framework for unified WAMs that learns explicit safety boundaries from near-expert failure trajectories. NegWAM constructs negative trajectories that are geometrically close to the expert trajectory yet carry safety risks, uses them as repulsive anchors to steer predictions away from dangerous behavior, and encodes them as scene-conditioned rider tokens to learn scene--trajectory compatibility. During training, NegWAM jointly optimizes the flow-matching and near-expert negative objectives, while the auxiliary rider branch is discarded at inference, incurring no additional overhead. On NAVSIM v2, NegWAM achieves 40.4 EPDMS on navhard, a 4.1% relative improvement over the strongest compared scorer-free WAM baseline, and achieves 93.3 EPDMS on navtest. These results demonstrate that NegWAM achieves strong performance in safety-critical scenarios while preserving routine-driving performance. Zero-shot closed-loop evaluation on HUGSIM further demonstrates cross-benchmark generalization. The code is available at https://github.com/Zizizi-hao/NegWAM.",
+   "summary": "World-Action Model 只用专家轨迹模仿，对\"贴着专家但危险\"的动作缺乏约束。构造近专家负轨迹作排斥锚点 + 场景条件 rider token，训练完丢弃辅助分支，推理零开销。NAVSIM v2 navhard 40.4 EPDMS（+4.1% 相对），navtest 93.3 EPDMS，HUGSIM 零样本闭环泛化。",
    "categories": [
     "cs.RO",
     "cs.CV"
@@ -36054,7 +36082,19 @@
    "topic": "e2e-autonomous-driving",
    "is_new": true,
    "analysis_path": "e2e-autonomous-driving/analysis/2611.08111-NegWAM-SafetyPostTraining-WAM.md",
-   "in_kb": true
+   "in_kb": true,
+   "weekly_pick": true,
+   "weekly": true,
+   "weekly_analysis": "e2e-autonomous-driving/analysis/2611.08111-NegWAM-SafetyPostTraining-WAM.md",
+   "weekly_rank": 1,
+   "week": "2026-11-07",
+   "in_dashboard": true,
+   "status": "已收录",
+   "status_en": "collected",
+   "summary_zh": "World-Action Model 只用专家轨迹模仿，对\"贴着专家但危险\"的动作缺乏约束。构造近专家负轨迹作排斥锚点 + 场景条件 rider token，训练完丢弃辅助分支，推理零开销。NAVSIM v2 navhard 40.4 EPDMS（+4.1% 相对），navtest 93.3 EPDMS，HUGSIM 零样本闭环泛化。",
+   "score": 5,
+   "arxiv_id": "2611.08111",
+   "url": "https://arxiv.org/abs/2611.08111"
   },
   {
    "id": "2611.07912",
@@ -36070,7 +36110,7 @@
    "published": "2026-11-05",
    "arxiv_url": "https://arxiv.org/abs/2611.07912",
    "pdf_url": "https://arxiv.org/pdf/2611.07912",
-   "summary": "World action models (WAMs) for autonomous driving couple the driving policy and the visual world model in a single generative network whose objectives are fixed post-training. Conditioning on a new driving objective requires retraining. We study energy guidance as a general mechanism and present GuidedWAM, a model-agnostic framework for injecting driving objectives into frozen WAMs at sampling time. Our framework constructs each objective as differentiable energies on the sampler's intermediate clean-action estimate, which needs only forward access to the frozen model, and is stabilized by sampling-time guidance scheduling, per-energy normalization, and velocity-bounded correction. On the NAVSIM v2 hard-split, guidance improves all three frozen, publicly released WAMs by 1.8 to 3.6 EPDMS, averaged over three sampler seeds, and adds less than 10% to the sampling time per step. These results position energy guidance as a practical post-training control channel for WAMs.",
+   "summary": "免训练的模型无关框架：把驾驶目标写成作用在采样器中间 clean-action 估计上的可微能量，只需前向访问冻结 WAM，即可在推理期切换驾驶目标。三个公开冻结 WAM 在 navhard 全部提升 1.8~3.6 EPDMS，每步采样开销 <10%，零训练成本。",
    "categories": [
     "cs.AI",
     "cs.RO"
@@ -36080,7 +36120,19 @@
    "topic": "world-models-ad",
    "is_new": true,
    "analysis_path": "world-models-ad/analysis/2611.07912-GuidedWAM-EnergyGuidance.md",
-   "in_kb": true
+   "in_kb": true,
+   "weekly_pick": true,
+   "weekly": true,
+   "weekly_analysis": "world-models-ad/analysis/2611.07912-GuidedWAM-EnergyGuidance.md",
+   "weekly_rank": 2,
+   "week": "2026-11-07",
+   "in_dashboard": true,
+   "status": "已收录",
+   "status_en": "collected",
+   "summary_zh": "免训练的模型无关框架：把驾驶目标写成作用在采样器中间 clean-action 估计上的可微能量，只需前向访问冻结 WAM，即可在推理期切换驾驶目标。三个公开冻结 WAM 在 navhard 全部提升 1.8~3.6 EPDMS，每步采样开销 <10%，零训练成本。",
+   "score": 5,
+   "arxiv_id": "2611.07912",
+   "url": "https://arxiv.org/abs/2611.07912"
   },
   {
    "id": "2611.07939",
@@ -36100,7 +36152,7 @@
    "published": "2026-11-05",
    "arxiv_url": "https://arxiv.org/abs/2611.07939",
    "pdf_url": "https://arxiv.org/pdf/2611.07939",
-   "summary": "Autoregressive driving world models systematically suffer from structural drift, identity drift, and quality decay over long rollout horizons due to transient conditioning signals that lack persistent state. We present WAM-Sim, a driving world model anchored by a persistent hierarchical memory and optimized via online flow-matching RL. WAM-Sim structures persistent context across three temporal and semantic scales: pose-aligned structural tokens encoding persistent road topology, read-only scene tokens supplying geolocated background appearance, and write-once instance tokens preserving individual traffic participant identities across occlusions and chunk boundaries. To restore visual sharpness and physical plausibility degraded by multi-scale conditioning, we introduce an online post-training framework that optimizes self-generated rollouts via flow-matching RL guided by hierarchy-aligned visual rewards and a vision-language model physical judge. The invariant memory empirically confines policy optimization within the anchored context, helping suppress semantic collapse and reward hacking, while online RL systematically enforces physical commonsense and fine-grained visual fidelity. On the nuScenes benchmark, WAM-Sim achieves a superior generation fidelity (FID=3.47, FVD=25.72) and strong downstream perception performance (24.16 mAP, 71.23 road mIoU). On minute-scale rollouts of self-collected data, WAM-Sim substantially mitigates structural and identity drift, preserving high scene similarity and subject identity coherence across extended horizons. Project page: https://fudan-generative-vision.github.io/WAM-Sim.",
+   "summary": "针对自回归驾驶世界模型的结构/身份/质量三重漂移，提出三级持久分层记忆（结构/场景/实例 token）锚定上下文，并用在线 flow-matching RL + VLM 物理判别器恢复画质与物理性。nuScenes FID 3.47 / FVD 25.72，下游 24.16 mAP / 71.23 road mIoU，分钟级 rollout 显著抑制漂移。",
    "categories": [
     "cs.CV"
    ],
@@ -36109,7 +36161,19 @@
    "topic": "world-models-ad",
    "is_new": true,
    "analysis_path": "world-models-ad/analysis/2611.07939-WAM-Sim-PersistentMemory-OnlineRL.md",
-   "in_kb": true
+   "in_kb": true,
+   "weekly_pick": true,
+   "weekly": true,
+   "weekly_analysis": "world-models-ad/analysis/2611.07939-WAM-Sim-PersistentMemory-OnlineRL.md",
+   "weekly_rank": 3,
+   "week": "2026-11-07",
+   "in_dashboard": true,
+   "status": "已收录",
+   "status_en": "collected",
+   "summary_zh": "针对自回归驾驶世界模型的结构/身份/质量三重漂移，提出三级持久分层记忆（结构/场景/实例 token）锚定上下文，并用在线 flow-matching RL + VLM 物理判别器恢复画质与物理性。nuScenes FID 3.47 / FVD 25.72，下游 24.16 mAP / 71.23 road mIoU，分钟级 rollout 显著抑制漂移。",
+   "score": 5,
+   "arxiv_id": "2611.07939",
+   "url": "https://arxiv.org/abs/2611.07939"
   },
   {
    "id": "2611.06160",
@@ -36559,7 +36623,7 @@
   }
  ],
  "updated_at": "2026-11-06T16:00:00-08:00",
- "last_updated": "2026-11-06T16:00:00-08:00",
+ "last_updated": "2026-11-07",
  "category_counts": {
   "World Models": 79,
   "Diffusion Policy": 28,
@@ -36792,5 +36856,44 @@
   }
  ],
  "new_findings": 63,
- "last_scan": "2026-11-06T16:00:00-08:00"
+ "last_scan": "2026-11-06T16:00:00-08:00",
+ "weekly_roundup": {
+  "week": "2026-11-07",
+  "range": "2026-10-31 ~ 2026-11-07",
+  "title": "论文周报 · 2026-10-31 ~ 2026-11-07",
+  "analysis_path": "e2e-autonomous-driving/analysis/2026-11-07-weekly-roundup.md",
+  "theme": "训练期内化安全 + 推理期切换目标；VLA 训练配方重审；两轮车基准",
+  "picks": [
+   {
+    "id": "2611.08111",
+    "title": "Reinforcing End-to-End Autonomous Driving Safety via Negative-Aware Planning in a Unified World-Action Model",
+    "rank": 1,
+    "path": "e2e-autonomous-driving/analysis/2611.08111-NegWAM-SafetyPostTraining-WAM.md"
+   },
+   {
+    "id": "2611.07912",
+    "title": "GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving",
+    "rank": 2,
+    "path": "world-models-ad/analysis/2611.07912-GuidedWAM-EnergyGuidance.md"
+   },
+   {
+    "id": "2611.07939",
+    "title": "WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation",
+    "rank": 3,
+    "path": "world-models-ad/analysis/2611.07939-WAM-Sim-PersistentMemory-OnlineRL.md"
+   },
+   {
+    "id": "2611.05249",
+    "title": "Should the Action Expert Train the VLM? Action-Token Supervision and Gradient Routing in Mixture-of-Transformer VLAs",
+    "rank": 4,
+    "path": "vla-autonomous-driving/analysis/2611.05249_Should-the-Action-Expert-Train-the-VLM.md"
+   },
+   {
+    "id": "2611.06007",
+    "title": "MotoVerse: A Benchmark for Predictive Perception of Motorized Two-Wheelers in Dense Unstructured Traffic",
+    "rank": 5,
+    "path": "vla-autonomous-driving/analysis/2611.06007_MotoVerse-MTW-Predictive-Perception-Benchmark.md"
+   }
+  ]
+ }
 }

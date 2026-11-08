@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07T13:35:00Z",
-  "as_of": "Nov 7 2026 13:35 UTC (北京11/7 21:35 / 美东11/7 08:35 周六休市) — 【晚间国际数据】周五(11/6)美股在AI抛售后分化反弹:标普7,376.86(+0.31%)、纳指24,579.43(+1.09%)、道指51,285.73(-0.46%);三大指数本周仍全线收跌(标普-2.48%、纳指-3.37%、道指-8.24%)。10月非农+16.5万远超预期(预期5.9万),失业率降至4.1%,12月加息概率升至81%,美元指数升至102.30(+0.74%),黄金回落-0.94%至$4,074.9,10Y升至4.859%。欧股STOXX 600-1.00%、德DAX-1.92%;亚太周五重挫,日经-5.96%、KOSPI-6.02%、恒指-1.27%。BTC约$75,914横盘,ETH约$2,244。",
+  "updated_at": "2026-11-08T13:32:00Z",
+  "as_of": "Nov 8 2026 13:35 UTC (北京11/8 21:35 / 美东11/8 08:35 周日休市) — 【晚间国际数据】周末全球股/债/商品市场休市,数据仍采11/6(周五)收官:标普7,376.86(+0.31%)、纳指24,579.43(+1.09%)、道指51,285.73(-0.46%),三大指数全周分别-2.48%/-3.37%/-8.24%;10月非农+16.5万远超预期,12月加息概率升至81%,美元102.28、10Y 4.86%、黄金$4,074.9(-0.94%)。周末主线=地缘:11/8胡塞武装向利雅得发射弹道/巡航导弹,沙特阿美阿卜杜拉国王金融区总部大楼受损(10/14后再度遇袭),周一油价与避险资产面临跳空风险。加密周末小幅反弹:BTC约$75,980(+0.20%)、ETH约$2,239(-0.06%)、SOL约$89.5(-0.31%)。",
   "indices": [
     {
       "name": "标普500",
@@ -91,26 +91,26 @@
     {
       "name": "BTC",
       "symbol": "BTC-USDT",
-      "price": 75914.4,
-      "close": 75914.4,
-      "change_pct": 0.21,
-      "note": "BTC $75,914 (+0.21% 24h，OKX 11/7 13:31 UTC) — 在$75,000附近横盘,24h区间$74,888-$76,251,风险偏好回暖未传导至加密。"
+      "price": 75978,
+      "close": 75978,
+      "change_pct": 0.18,
+      "note": "BTC $75,978 (+0.18% 24h,CoinGecko 11/08 13:32 UTC) — 周末在$75,000-$76,200窄幅波动,10月-7.3%后连续第二个月下跌,等待周一美股方向。"
     },
     {
       "name": "ETH",
       "symbol": "ETH-USDT",
-      "price": 2244.16,
-      "close": 2244.16,
-      "change_pct": 0.51,
-      "note": "ETH $2,244 (+0.51% 24h，OKX 11/7 13:31 UTC) — 24h区间$2,210-$2,254。"
+      "price": 2239.24,
+      "close": 2239.24,
+      "change_pct": -0.11,
+      "note": "ETH $2,239.24 (-0.11% 24h) — 在$2,240附近横盘,相对BTC偏弱。"
     },
     {
       "name": "SOL",
       "symbol": "SOL-USDT",
-      "price": 89.98,
-      "close": 89.98,
-      "change_pct": 0.0,
-      "note": "SOL $89.98 (0.00% 24h) — 徘徊$90下方。"
+      "price": 89.52,
+      "close": 89.52,
+      "change_pct": -0.37,
+      "note": "SOL $89.52 (-0.37% 24h) — 失守$90关口。"
     }
   ],
   "commodities": [
@@ -171,148 +171,116 @@
     }
   ],
   "week_performance": {
-    "note": "本周(11/2-11/6)主线=中期选举民主党大胜 → AI资本开支与数据中心遭政治性否定 → 全球AI交易去杠杆。标普-2.48%、纳指-3.37%、道指-8.24%、日经-5.96%、KOSPI-6.02%、WTI-12.8%;VIX从16.61升至25.64。周五出现分化:纳指/标普反弹而道指续跌,显示资金由价值周期股回流科技。"
+    "note": "本周(11/2-11/6)主线=中期选举民主党大胜 → AI资本开支与数据中心遭政治性否定 → 全球AI交易去杠杆。标普-2.48%、纳指-3.37%、道指-8.24%、日经-5.96%、KOSPI-6.02%、WTI-12.8%;VIX从16.61升至25.64。周五分化:纳指/标普反弹而道指续跌,资金由价值周期股回流科技。FT:'How Wall Street's all-in bet on AI blew up'。"
   },
   "overnight": [
     {
-      "title": "美股周五分化反弹,但全周重挫",
-      "detail": "标普+0.31%、纳指+1.09%、道指-0.46%。FT: 'US stocks recover after tech rout'(纳指100 +1.4%)。反弹被普遍视为技术性修复而非趋势反转。"
+      "title": "周末休市,地缘风险重新定价",
+      "detail": "11/8胡塞导弹袭击利雅得、沙特阿美大楼受损,继10/14、11/4后第三次升级。周一开盘WTI/布伦特与黄金存在跳空高开风险;本周WTI已因伊朗溢价消退重挫-12.8%至$90.83。"
     },
     {
-      "title": "10月非农大超预期,12月加息定价升至81%",
-      "detail": "+16.5万 vs 预期5.9万,失业率4.1%。Bloomberg Economics认为招聘已扩散至白领、制造与运输,强化美联储继续紧缩理由。美元与收益率上行、黄金承压。"
+      "title": "美股周五分化反弹,反弹质量存疑",
+      "detail": "标普+0.31%、纳指+1.09%、道指-0.46%。FT/CNBC均定性为超跌修复;MarketWatch指出其\"捕捉抛售的指标\"已再度发出警告。"
     },
     {
-      "title": "中期选举结果重塑AI叙事",
-      "detail": "民主党横扫国会。CNBC: Anthropic IPO撞上'数据中心反弹情绪';FT: 'Data centres rebuked — Capex, meet the electorate'。AI基础设施资本开支的政治与监管风险成为新变量。"
-    },
-    {
-      "title": "欧股连续承压,DAX领跌1.92%",
-      "detail": "STOXX 600收于648.33(-1.00%),保险股领跌;英央行加息至4.25%并警告通胀接近5%。"
-    },
-    {
-      "title": "亚太周五补跌,日经进入技术性熊市",
-      "detail": "日经-5.96%、KOSPI-6.02%,均为全球AI/半导体权重最高的市场,补跌幅度远超欧美。"
-    },
-    {
-      "title": "加密:政治红利期结束,价格横盘",
-      "detail": "Bloomberg: 'Crypto's Trump-Fueled Washington Boom Reaches Its Endgame' — 民主党掌控国会意味着更严格监管。BTC $75.9K横盘,未跟随股市反弹。"
-    },
-    {
-      "title": "美中贸易:美方警告中国须立即履行釜山协议",
-      "detail": "FT: 华盛顿指北京未履行增加稀土等关键产品供应的承诺。同时Trafigura在亚洲大量扫铜,现货升水创历史新高,显示中国供应紧张。"
-    },
-    {
-      "title": "地缘:伊朗局势升级风险仍高",
-      "detail": "CNBC: 尽管民主党大胜,美伊仍处碰撞轨道,中东紧张持续;俄罗斯经北极(摩尔曼斯克)出口生铁规避乌克兰打击。"
+      "title": "强就业+加息预期仍在压制估值",
+      "detail": "10月非农+16.5万、失业率4.1%,12月加息概率81%,10Y 4.86%。CNBC同时提示\"强劲就业数据下隐藏的就业趋势恶化\"(平均失业时长27周+)。"
     }
   ],
   "evening_preview": [
     {
-      "title": "下周关注1:AI资本开支的政治定价",
-      "detail": "数据中心与AI基础设施成为选举议题后,相关监管、地方审批与税收政策可能生变,需跟踪超大规模厂商的capex指引修正。"
+      "title": "周一关注1:利雅得遇袭后的原油与避险跳空",
+      "detail": "沙特阿美总部再度受损,若袭击持续或波及出口设施,油价将逆转本周-12.8%跌势;黄金($4,074.9)与VIX(25.64)为直接受益标的。"
     },
     {
-      "title": "下周关注2:加息预期与利率路径",
-      "detail": "12月加息概率81%,10Y升至4.86%。若收益率继续上行,高估值科技股反弹的可持续性存疑。"
+      "title": "周一关注2:AI交易能否止跌",
+      "detail": "标普距52周高点回撤约4%、纳指约5%。需观察周五反弹是否延续,或FT所述\"AI全押注破裂\"进入第二轮去杠杆。"
     },
     {
-      "title": "下周关注3:亚太补跌是否结束",
-      "detail": "日经/KOSPI单日-6%级别的下跌需要观察周一开盘能否止稳,否则可能引发全球风险平价与CTA策略的进一步减仓。"
+      "title": "周一关注3:加息路径与利率定价",
+      "detail": "12月加息概率81%,10Y 4.86%。周二起关注美联储官员发言与CPI预期变化;若收益率破4.9%,高估值科技反弹难持续。"
     },
     {
-      "title": "下周关注4:加密监管立法",
-      "detail": "民主党掌控国会后,加密市场结构法案方向可能转向更严格,关注BTC能否守住$75K。"
-    },
-    {
-      "title": "下周关注5:美中釜山协议执行",
-      "detail": "稀土供应与关税落实进展,直接关系A股稀土/资源板块与全球供应链定价。"
+      "title": "周一关注4:关税与中期选举后续",
+      "detail": "民主党拟推动终结特朗普关税,同时AI数据中心面临监管/审批收紧。政策不确定性仍是本周美股主要波动源。"
     }
   ],
   "headlines": [
     {
-      "title": "美股:AI抛售后分化反弹,纳指+1.09%但道指续跌",
-      "detail": "标普7,376.86(+0.31%)、纳指24,579.43(+1.09%)、道指51,285.73(-0.46%);周四曾暴跌4.36%/5.52%/3.44%。VIX 25.64(-9.01%)。"
+      "title": "地缘:胡塞导弹袭击利雅得,沙特阿美总部大楼受损",
+      "detail": "11/8沙特防空拦截胡塞武装射向利雅得的两枚弹道导弹,另拦截两枚巡航导弹;阿卜杜拉国王金融区内沙特阿美大楼受损。继10/14首次击中阿美总部、11/4哈立德国王机场遇袭后再度升级,胡塞已威胁继续攻击。"
+    },
+    {
+      "title": "美股:周五分化反弹,全周重挫",
+      "detail": "标普7,376.86(+0.31%)、纳指24,579.43(+1.09%)、道指51,285.73(-0.46%);周四单日曾跌4.36%/5.52%/3.44%。VIX 25.64(-9.01%)。FT: 'US stocks recover after tech rout',反弹被视为技术性修复。"
     },
     {
       "title": "宏观:10月非农+16.5万远超预期,12月加息概率升至81%",
-      "detail": "失业率4.1%。美元指数102.30(+0.74%),10Y 4.859%(+2.2bp),黄金-0.94%至$4,074.9。"
+      "detail": "失业率4.1%(预期4.2%),但平均失业时长升至27周以上,为疫情外十年最高。美元指数102.28(+0.74%)、10Y 4.86%、黄金$4,074.9(-0.94%)。"
     },
     {
-      "title": "欧洲:STOXX 600 -1.00%,DAX -1.92%,英央行加息至4.25%",
-      "detail": "AI担忧叠加保险股抛售;英国通胀预期接近5%。"
+      "title": "AI交易:FT深度复盘华尔街押注AI如何破裂",
+      "detail": "FT: 'How Wall Street's all-in bet on AI blew up' + 'Data centres rebuked';Bloomberg 'AI Slump Revives Asia's Forgotten Trades'。AI资本开支叙事遭政治与估值双杀,资金转向中国/印度等非AI市场。"
     },
     {
-      "title": "亚太:日经-5.96%、KOSPI-6.02%,恒指-1.27%",
-      "detail": "AI/半导体高权重市场补跌最剧,日经进入技术性熊市。"
+      "title": "加密:行业备战与特朗普关系的清算",
+      "detail": "FT: 'Crypto industry braces for reckoning over Trump ties';Bloomberg 'Crypto's Trump-Fueled Washington Boom Reaches Its Endgame'。中期选举后政策红利预期降温。"
     },
     {
-      "title": "加密:民主党掌控国会,加密政治红利期结束",
-      "detail": "BTC $75.9K横盘,ETH $2,244,SOL $90下方。"
+      "title": "贸易:民主党将推动终结特朗普关税",
+      "detail": "CNBC: 'How Democrats will try to end Trump's tariffs' — 中期选举大胜后立法与调查工具增加,关税政策不确定性上升,关注美元与进口链反应。"
     }
   ],
   "news": [
     {
-      "source": "Bloomberg",
-      "title": "US Jobs Surge Raises Odds of December Fed Hike"
+      "source": "FT Markets",
+      "title": "Saudi Aramco office in Riyadh damaged in latest Houthi strikes"
     },
     {
-      "source": "Bloomberg",
-      "title": "Crypto's Trump-Fueled Washington Boom Reaches Its Endgame"
+      "source": "CNBC",
+      "title": "Saudi Aramco building in Riyadh damaged after attempted attack"
     },
     {
-      "source": "Bloomberg",
-      "title": "Trafigura Snaps Up Copper in Asia as China Faces Supply Crunch"
+      "source": "FT Markets",
+      "title": "Crypto industry braces for reckoning over Trump ties"
     },
     {
-      "source": "Bloomberg",
-      "title": "Berkshire Hathaway's Operating Earnings Fall, Buybacks Rise"
-    },
-    {
-      "source": "FT",
+      "source": "FT Markets",
       "title": "How Wall Street's all-in bet on AI blew up"
     },
     {
-      "source": "FT",
-      "title": "Data centres rebuked — Capex, meet the electorate"
+      "source": "FT Markets",
+      "title": "Data centres rebuked"
     },
     {
-      "source": "FT",
-      "title": "US warns China it must 'immediately' meet terms of Busan trade deal"
+      "source": "Bloomberg",
+      "title": "AI Slump Revives Asia's Forgotten Trades From China to India"
     },
     {
-      "source": "FT",
-      "title": "US stocks recover after tech rout"
+      "source": "Bloomberg",
+      "title": "Indian Stocks Snap Diwali Win Streak in First Drop Since 2017"
     },
     {
-      "source": "CNBC",
-      "title": "Risk of Iran war escalation remains high despite Democratic sweep in U.S. midterm elections"
-    },
-    {
-      "source": "CNBC",
-      "title": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers"
+      "source": "MarketWatch",
+      "title": "This market signal called the tech selloff. Now it's sending another warning."
     },
     {
       "source": "CNBC",
+      "title": "How Democrats will try to end Trump's tariffs"
+    },
+    {
+      "source": "CNBC",
+      "title": "Cathie Wood 'always feels better when the market is worried' — here's why"
+    },
+    {
+      "source": "CNBC Markets",
       "title": "A disturbing employment trend is hiding beneath the latest strong job numbers"
     },
     {
-      "source": "CNBC",
-      "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Nvidia, AMD and other chip stocks rebound — but is relief from the 'violent' selloff only temporary?"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Data centers run on debt. That was a problem for bonds this year — and it's only going to get worse."
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Elon Musk opens the door for a big SpaceX acquisition"
+      "source": "FT Markets",
+      "title": "Berkshire Hathaway steps up share buybacks with $9.6bn of purchases"
     }
   ],
-  "morning_preview": "",
-  "note": "11/7晚间国际数据更新(周六,美股/欧股休市,采用11/6收官数据)。数据源:美股指数/VIX/美元指数/10Y/商品/欧股/日经/KOSPI/恒指/ASX为Yahoo Finance chart API(11/6收盘);加密为OKX Spot API(11/7 13:31 UTC实时);新闻为feedparser读取CNBC Top News、CNBC Markets、Bloomberg Markets、MarketWatch、FT Markets RSS(WSJ Markets RSS停更于2025-01,已弃用;Yahoo Finance RSS无返回)。非农/加息概率/金价参考跨源交叉验证(CNBC、Bloomberg、ausecure、RIO Times)。"
+  "morning_preview": [],
+  "note": "11/8晚间国际数据更新(周日,全球股/债/商品市场休市,沿用11/6收盘数据)。数据源:指数/VIX/美元指数/10Y/商品/欧股/日经/KOSPI/恒指/ASX/上证为Yahoo Finance chart API(11/6收盘复核,与上期一致);加密为CoinGecko Simple Price API(11/8 13:3x UTC实时;OKX API返回403、Binance返回451地域限制,已降级);新闻为feedparser读取CNBC Top News、CNBC Markets、Bloomberg Markets、MarketWatch、FT Markets、SCMP RSS(WSJ Markets RSS停更于2025-01已弃用;Yahoo Finance RSS无返回);利雅得遇袭经Reuters/AFP/联合早报/澎湃交叉验证。"
 }

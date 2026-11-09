@@ -1,6 +1,866 @@
 {
- "updated": "2026-11-07T16:00:00-08:00",
+ "updated": "2026-11-08T16:22:49-08:00",
  "papers": [
+  {
+   "id": "2611.00177",
+   "title": "AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation",
+   "authors": [
+    "Hao Xue",
+    "Peng-Fei Zhang",
+    "Ying Cheng",
+    "Lanyun Zhu",
+    "Lei Zhu",
+    "Heng Tao Shen"
+   ],
+   "published": "2026-10-30",
+   "arxiv_url": "https://arxiv.org/abs/2611.00177",
+   "pdf_url": "https://arxiv.org/pdf/2611.00177",
+   "summary": "Egocentric observations provide a robot-centric view of manipulation processes, capturing contact interactions and object-state changes that are important for visuomotor policy learning but difficult to observe from external cameras. However, collecting such data at scale remains expensive due to additional hardware requirements and platform-specific deployment costs. Synthesizing egocentric observations from large-scale exocentric manipulation videos provides a scalable alternative. However, existing methods struggle to synthesize physically consistent and policy-relevant egocentric videos under substantial viewpoint transformations, severe occlusions, complex object interactions, and inherently sparse observations from available exocentric viewpoints. Code will be made publicly available at https://github.com/xueha0/AuroraWorld",
+   "categories": [
+    "cs.AI",
+    "cs.CV"
+   ],
+   "relevance_score": 5,
+   "topic": "World Models",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2610.31166",
+   "title": "Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation",
+   "authors": [
+    "Chenyuan Chen",
+    "Ran Ding",
+    "Lechen Zhang",
+    "Zewen He",
+    "Yoshihiko Nakamura"
+   ],
+   "published": "2026-10-22",
+   "arxiv_url": "https://arxiv.org/abs/2610.31166",
+   "pdf_url": "https://arxiv.org/pdf/2610.31166",
+   "summary": "Humanoid loco-manipulation in dynamic scenes is non-Markovian: cues vanish as objects change or are hidden, or leave the view as the robot turns and walks, yet whole-body vision-language-action (VLA) policies see only the present. We present WholeBodyMem, an object-guided perceptual memory that keeps the pre-history of object events seen before the robot acts on its goal. SAM3 tracks the task objects, and their events causally select key frames within an adaptive budget, which the action expert reads by cross-attention together with object tokens encoding appearance, geometry and time. We also contribute HuMeGo, a humanoid memory benchmark with six simulated and six real-world Unitree G1 tasks. Keeping the right frames rather than more frames, WholeBodyMem surpasses memoryless and uniform-memory baselines, raising its base policy's success from 29.1% to 72.6% in simulation and from 36.7% to 88.3% on the real robot, while also improving the standard SIMPLE tasks (70.2% to 86.9%).",
+   "categories": [
+    "cs.RO",
+    "cs.CV",
+    "cs.LG"
+   ],
+   "relevance_score": 5,
+   "topic": "World Models",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.02815",
+   "title": "Predictive Safety Guardrails Do Not Always Make LLM Agents Safer",
+   "authors": [
+    "Weixiang Zhao",
+    "Zhihao Liu",
+    "Guancheng Li",
+    "Yanyan Zhao",
+    "Bing Qin",
+    "Ting Liu"
+   ],
+   "published": "2026-11-02",
+   "arxiv_url": "https://arxiv.org/abs/2611.02815",
+   "pdf_url": "https://arxiv.org/pdf/2611.02815",
+   "summary": "Large language model agents increasingly take consequential actions in digital and physical environments, where safety risks may emerge only after multiple interaction steps. This has motivated world-model-driven predictive safety guardrails, which anticipate future consequences before execution. However, existing evaluations largely focus on end-to-end safety outcomes, leaving unclear whether safety gains arise from reliable prediction and faithful use of predicted risks. In this work, we systematically diagnose the prediction-to-action pipeline along three dimensions: how world-model predictions are integrated into decision making, whether the predictions themselves are reliable, and whether their content is faithfully used. Across seven policy models and two safety environments, we find that stronger prediction involvement does not yield monotonic safety gains and can reduce task completion while substantially increasing inference cost. We further find that world-model predictions remain insufficiently reliable, especially over longer horizons, where safety prediction degrades substantially relative to near-term forecasting. Finally, we find that safety gains can persist even un",
+   "categories": [
+    "cs.AI"
+   ],
+   "relevance_score": 3,
+   "topic": "World Models",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.03428",
+   "title": "Toward Uncertainty-Aware, Physics-Grounded Human World Models",
+   "authors": [
+    "Yufei Zhang",
+    "Zijun Cui"
+   ],
+   "published": "2026-11-02",
+   "arxiv_url": "https://arxiv.org/abs/2611.03428",
+   "pdf_url": "https://arxiv.org/pdf/2611.03428",
+   "summary": "A robot that acts around people needs a world model of the human: a belief over the person's body state and a dynamics model that predicts where that state goes next. This abstract argues that two published components form exactly these two halves, and specifies how to couple them. KNOWN [1] reconstructs the 3D human body while estimating both aleatoric and epistemic uncertainty in real time (11.6 ms per frame); its aleatoric term identifies unreliable observations, its epistemic term identifies inputs from low-density regions of the training data, and refinement driven by the epistemic term reduces the error on such inputs from 81.3 to 70.3 mm. PhysMoP [2] predicts future body configuration by solving the Euler-Lagrange equations of the body with learned dynamics terms, reducing the 80 ms prediction error from 9.6 to 2.1 mm on Human3.6M and from 12.1 to 0.7 mm on 3DPW. We define the interface between the two, propose three mechanisms by which KNOWN's uncertainty enters PhysMoP, and specify an evaluation protocol on in-the-wild video. No new experimental results are reported here.",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance_score": 5,
+   "topic": "World Models",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.01682",
+   "title": "Leveraging 2D Foundation Priors for Generalized Category Discovery under Test-Time Adaptation in 3D LiDAR Segmentation",
+   "authors": [
+    "Hanqi Chen",
+    "Chaoqi Chen",
+    "Tian Ji",
+    "Hui Huang"
+   ],
+   "published": "2026-11-01",
+   "arxiv_url": "https://arxiv.org/abs/2611.01682",
+   "pdf_url": "https://arxiv.org/pdf/2611.01682",
+   "summary": "In autonomous driving, 3D LiDAR semantic segmentation is expected to adapt to evolving environments and recognize previously unseen categories, making generalized category discovery under test-time adaptation (GCD-TTA) an important problem. However, existing works treat GCD and TTA separately, while the limited semantic information in 3D point clouds makes GCD-TTA under domain shift more prone to feature collapse when combining GCD with TTA. To address this issue, we propose a two-stage framework for GCD-TTA in 3D LiDAR semantic segmentation. Specifically, in the first stage, we adaptively aggregate local 3D features according to geometric density variations and obtain reliable pseudo labels under a global class-wise prototype consistency constraint. In the second stage, we cast category discovery as an optimal transport assignment process for globally consistent grouping of novel categories. Meanwhile, semantic features from 2D vision foundation models are fused with 3D point cloud features to enrich 3D semantic information and promote a more separable feature space. Extensive experiments on Synth4D to SemanticKITTI, SynLiDAR to SemanticKITTI, and Synth4D to nuScenes demonstrate t",
+   "categories": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "relevance_score": 3,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.01996",
+   "title": "Safety4DM: A Vision-Language Framework for Risk-Aware Dynamic Maps in Vehicle-Road-Cloud Collaborative Driving",
+   "authors": [
+    "Zhengshu Zhou",
+    "Shaoyu Wang",
+    "Lu Tao",
+    "Xinhui Hu",
+    "Jiaqi Gu",
+    "Tingting Zhao"
+   ],
+   "published": "2026-11-01",
+   "arxiv_url": "https://arxiv.org/abs/2611.01996",
+   "pdf_url": "https://arxiv.org/pdf/2611.01996",
+   "summary": "Dynamic map (DM) is a core information infrastructure for vehicle-road-cloud (VRC) cooperative autonomous driving. It fuses perception data from multiple sources to overcome the inherent line-of-sight and field-of-view limits of single-vehicle perception. However, DM still falls short on driving safety in two ways. First, DM data specifications already define road conditions semantically, but no pipeline yet turns real-world road observations into fine-grained risk entities in the DM. Second, existing DM systems lack a natural language interface for driving risks. To close these gaps, we propose Safety4DM, a safety-oriented language system for VRC dynamic maps. We first build RoadRisk, a real-world road image dataset that covers four types of road conditions and four risk levels. On this dataset, we fine-tune a vision-language model (VLM) for road safety risk perception. The model outputs structured risk representations that the DM can ingest directly. We then introduce a Safety-aware Step-wise Prompting (SafeStep) mechanism as the natural language query interface of the DM. SafeStep answers queries accurately and also generates actionable driving advice. To build and evaluate this",
+   "categories": [
+    "cs.AI"
+   ],
+   "relevance_score": 3,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.02260",
+   "title": "Towards a Theory for the Design of Rules in Multi-Agent Systems: the case of Homogeneous Fleets",
+   "authors": [
+    "Matteo Penlington",
+    "Lorenzo Fiaschi",
+    "Raj Kiriti Velicheti",
+    "Andrea Censi",
+    "Emilio Frazzoli"
+   ],
+   "published": "2026-11-01",
+   "arxiv_url": "https://arxiv.org/abs/2611.02260",
+   "pdf_url": "https://arxiv.org/pdf/2611.02260",
+   "summary": "The regulation of systems composed of many interacting decentralised agents is a long-standing problem. This problem has typically been resolved by the imposition of rules. Rules resolve the limitations of sub-optimal agents whilst simultaneously aligning the behaviour of the agents with the demands of society. Traffic laws, for example, let a driver cross a junction without seeing around the corner, and transport protocols such as TCP let applications share a network without knowing of one another. The problem is more pressing today, as autonomous systems are deployed in society. In this work, we establish the basis of a system-agnostic theory of rule design for multi-agent systems. We first state the rule design problem (RDP) in its generality. It relates a rule to the set of system performances, defined by the regulator, that the agents deployed under it can attain. However, it is not yet possible to solve the RDP in full generality. As such, we introduce the homogeneous rule design problem (HRDP), in which the agents in each environment are identical, and among other interesting properties, show that under worst-case aggregation the two problems have the same solution, bypassin",
+   "categories": [
+    "cs.MA"
+   ],
+   "relevance_score": 3,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.02552",
+   "title": "Vehicle Speed-Aware Jammer-Resilient Receiver for Multi-User MIMO V2X Systems",
+   "authors": [
+    "Hanyoung Park",
+    "Yongjae Jang",
+    "Ji-Woong Choi"
+   ],
+   "published": "2026-11-02",
+   "arxiv_url": "https://arxiv.org/abs/2611.02552",
+   "pdf_url": "https://arxiv.org/pdf/2611.02552",
+   "summary": "Vehicle-to-everything (V2X) communication plays a crucial role in enabling connected and autonomous driving by supporting the reliable exchange of safety-critical information among vehicles and infrastructure. However, due to the open nature of wireless channels, V2X systems are vulnerable to various physical-layer attacks, among which jamming is one of the most intuitive and severe threats. In this paper, we propose a vehicle speed-aware jammer-resilient reception framework for multi-user multiple-input multiple-output (MIMO) V2X systems. The proposed method exploits the fundamental difference in Doppler characteristics between stationary jammers and moving vehicles. By transforming the received signal into the Doppler domain, the receiver identifies low-Doppler components associated with static interference and suppresses them through Doppler-domain filtering. Notably, the proposed approach does not require prior knowledge of the jammer channel or its spatial direction, making it suitable for practical V2X environments. Simulation results demonstrate that the proposed framework effectively mitigates strong jamming signals and significantly improves the achievable sum-rate compare",
+   "categories": [
+    "eess.SP"
+   ],
+   "relevance_score": 3,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.02648",
+   "title": "ReinSeg: Retrieval-Guided Bounded Multimodal Refinement for 3-D Road Anomaly Segmentation",
+   "authors": [
+    "Haifa Zhang",
+    "Yijing Wang",
+    "Zhiqiang Zuo"
+   ],
+   "published": "2026-11-02",
+   "arxiv_url": "https://arxiv.org/abs/2611.02648",
+   "pdf_url": "https://arxiv.org/pdf/2611.02648",
+   "summary": "3-D road anomaly segmentation is essential for risk-aware perception in autonomous driving. Its central challenge is to rank sparsely observed hazards ahead of abundant normal road structures while preserving point-wise metric localization. LiDAR provides accurate 3-D point support, whereas surround-view imagery offers complementary semantic context for separating unexpected hazards from challenging normal structures. We propose ReinSeg, a retrieval-guided bounded multimodal refinement framework for point-wise road anomaly segmentation. Occupied LiDAR bird's-eye-view cells retrieve scene-specific context from a shared memory of eight surround-view images without supplying calibration variables to the retrieval module. A relative-norm-bounded residual returns this context to the LiDAR point features, so the frozen LIDO anomaly-scoring interface is preserved, and the refinement is optimized with in-distribution semantic labels only. On the Spotting the Unexpected (STU) benchmark, ReinSeg improves validation average precision from 27.54\\% to 35.67\\% and reduces the false-positive rate at 95\\% anomaly recall from 34.85\\% to 10.61\\%, shrinking the high-recall screening set from 67.54 to",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 3,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.03229",
+   "title": "CL3DOD: Understanding the Stability-Plasticity Dilemma in Outdoor Class-Incremental 3D Object Detection",
+   "authors": [
+    "Muhammad Ahmed Ullah Khan",
+    "Khalil Ahmed",
+    "Didier Stricker",
+    "Muhammad Zeshan Afzal"
+   ],
+   "published": "2026-11-02",
+   "arxiv_url": "https://arxiv.org/abs/2611.03229",
+   "pdf_url": "https://arxiv.org/pdf/2611.03229",
+   "summary": "Class-incremental learning (CIL) for outdoor 3D object detection remains largely underexplored. Existing outdoor studies are limited to single-benchmark evaluations, with SDCoT++ considering KITTI and CL2OD considering nuScenes under different incremental settings. This makes it difficult to assess whether observed continual-learning behavior generalizes across autonomous-driving benchmarks. To the best of our knowledge, we provide the first unified cross-benchmark analysis of outdoor class-incremental 3D object detection across multiple autonomous-driving benchmarks, covering both two-task and multi-stage settings. We investigate: (1) how severely existing 3D detectors forget previously learned classes, (2) how incremental training exposes the stability-plasticity dilemma between knowledge retention and new-class acquisition, and (3) which forms of supervision are most effective for balancing these objectives. We introduce CL3DOD, a class-incremental 3D detection framework that restores missing supervision for previous classes using predictions from the previous-stage detector, preserves old-class responses through query-wise knowledge distillation, and employs EMA-based temporal ",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 3,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.03465",
+   "title": "HIVE-Diff: High Frame Rate HDR Video Reconstruction from a Single LDR Frame and Events",
+   "authors": [
+    "Caixin Wang",
+    "Qingrui Wang",
+    "Jie Zhang",
+    "Ralph Etienne-Cummings"
+   ],
+   "published": "2026-11-02",
+   "arxiv_url": "https://arxiv.org/abs/2611.03465",
+   "pdf_url": "https://arxiv.org/pdf/2611.03465",
+   "summary": "High frame rate HDR video is important in applications such as autonomous driving and scientific imaging, where rapid motion and extreme illumination often occur simultaneously. Conventional frame cameras face a trade-off between temporal resolution and dynamic range, while event cameras provide complementary high-speed brightness-change measurements over a wide illumination range. These properties have motivated event-based HDR reconstruction, with existing methods broadly following event-only and hybrid event-frame paradigms. Event-only HDR reconstruction, however, suffers from brightness and color drift due to the lack of absolute intensity references. Hybrid event-frame methods alleviate this ambiguity using low-dynamic-range (LDR) frames as anchors, but most perform one-to-one HDR reconstruction at available LDR timestamps. In this work, we investigate single-reference HDR temporal expansion, reconstructing N HDR frames from one LDR reference and events instead of N aligned LDR observations. We develop HIVE-Diff, an event-conditioned video diffusion framework that decomposes the task into event-guided temporal generation and HDR content completion. Because paired real HDR-even",
+   "categories": [
+    "eess.IV",
+    "cs.CV"
+   ],
+   "relevance_score": 3,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.04034",
+   "title": "Do Pretrained Backbones Transfer to Physical Sensors? A Systematic Study of Multimodal Initialization Across the Sensor Stack",
+   "authors": [
+    "Fabio Montello",
+    "Ronja Güldenring",
+    "Lucas Mogensen Sandby",
+    "Christoffer Koo Øhrstrøm",
+    "Lazaros Nalpantidis"
+   ],
+   "published": "2026-11-02",
+   "arxiv_url": "https://arxiv.org/abs/2611.04034",
+   "pdf_url": "https://arxiv.org/pdf/2611.04034",
+   "summary": "Transfer learning from pretrained backbones has become standard practice in multi-sensor computer vision---yet two questions remain open: which pretrained weights transfer best to multi-sensor setups, and can in-domain pretraining outperform off-the-shelf solutions? Frameworks like MultiMAE demonstrate the utility of masked autoencoding in a multi-modal context, but rely entirely on dense, model-derived modalities. It is unclear how robustly these methods translate to real-world applications that use physical sensors, where the aggregation of diverse public datasets for large-scale pretraining inherently introduces modality sparsity. To investigate this systematically, we curate a multi-sensor autonomous driving collection of $2.82M$ images from 16 publicly available datasets, incorporating both physical hardware modalities (RGB, LWIR, NIR, Event) and model-derived modalities (Stereo Depth, Segmentation). We use this collection for in-domain pretraining based on the MultiMAE approach. We adapt MultiMAE's loss formulation to accommodate sparse samples, and study the effect of an enforced encoder bottleneck for modality alignment and of additional losses specific to dense reconstruct",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 3,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.05890",
+   "title": "CellCanon: An Agentic Cellular World Model for Prediction, Explanation, and Observation-Driven Updating",
+   "authors": [
+    "Zhaokang Liang",
+    "Shuyang Zhuang",
+    "Xiaoran Jiao",
+    "Hao Chen"
+   ],
+   "published": "2026-11-04",
+   "arxiv_url": "https://arxiv.org/abs/2611.05890",
+   "pdf_url": "https://arxiv.org/pdf/2611.05890",
+   "summary": "Biological discovery requires using molecular knowledge and new measurements to infer responses beyond the conditions already observed. We introduce CellCanon, the first agentic cellular world model to unify single-cell expression prediction, evidence-grounded explanation, and observation-driven updating. Its predictive core reuses condition-level biological evidence across gene-specific numerical readouts to guide single-cell expression generation. A shared world state links predictions, acquired measurements, and source-linked claims, supporting explanation and revision. On 339 held-out SciPlex3 conditions across three cell lines, CellCanon improves differential-expression AUPRC and Macro-F1 over the best baseline for each metric by 63.3% and 17.3%, respectively, and direction Macro-F1 by 7.2%. Relative to gene-wise reasoning on matched drug-cell cohorts, measured language-model token use falls by 99.77% for Predict and 98.41% for Explain. On the source-grounded benchmark, Explain correctly answers all answerable questions with supporting proofs and identifies all insufficient-evidence cases. In simulated experimental feedback, Update uses one measured source context per drug to ",
+   "categories": [
+    "q-bio.QM",
+    "cs.AI"
+   ],
+   "relevance_score": 5,
+   "topic": "World Models",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.06061",
+   "title": "TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds",
+   "authors": [
+    "Jiaao Yu",
+    "Yanjian Zhang",
+    "Haoyang Jiang",
+    "Guillaume Wisniewski",
+    "Nadi Tomeh",
+    "Shijie Jia"
+   ],
+   "published": "2026-11-04",
+   "arxiv_url": "https://arxiv.org/abs/2611.06061",
+   "pdf_url": "https://arxiv.org/pdf/2611.06061",
+   "summary": "Recent video world models allow users to explore generated environments through camera navigation. Continuous hand motion provides a fine-grained action channel for interacting with the people and objects encountered during exploration. We present TouchéWorld, a framework that integrates gesture-driven interaction into a camera-controlled video world model. Given an initial image and a scene-description prompt, the model generates video conditioned on temporally aligned camera and hand controls. We construct joint camera--hand training data from heterogeneous egocentric videos through annotation completion, consistency-based filtering, and temporal alignment. Building on a pretrained camera-controlled world model, we combine spatial hand-skeleton conditioning with numerical hand-motion features through parameter-efficient adaptation. Causal adaptation and few-step distillation support chunk-level online generation, allowing users to update their controls based on generated visual feedback. We further introduce TouchéBench to evaluate hand-motion following, camera--hand coordination, online interaction, and object response. Together, these components establish a framework for studyi",
+   "categories": [
+    "cs.CV",
+    "cs.AI"
+   ],
+   "relevance_score": 5,
+   "topic": "World Models",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.06120",
+   "title": "ReactWorld: Structuring Interaction Responses for Embodied Video Generation",
+   "authors": [
+    "Hanwei Liu",
+    "Huijia Zhang",
+    "Hanzhang Wang",
+    "Guangyu Liu",
+    "Hanbei Zhan",
+    "Linjie Hu",
+    "Bin Xiao",
+    "Xuan Zhou",
+    "Dong Zhang"
+   ],
+   "published": "2026-11-04",
+   "arxiv_url": "https://arxiv.org/abs/2611.06120",
+   "pdf_url": "https://arxiv.org/pdf/2611.06120",
+   "summary": "Embodied video world models predict scene changes caused by robot actions, yet generated object responses may remain inconsistent with task intent and contact dynamics. Critical responses in embodied scenes often concentrate in local regions and specific time intervals. Inspired by chain-of-thought reasoning, we introduce ReactWorld, an embodied video generation model guided by structured interaction anticipation. In the generation backbone's feature space, an interaction response field predictor anticipates how the interaction will unfold, explicitly describing participant roles, future motion response intensity, and local motion changes. A response feedback adapter forms increments to object features from the difference between the object branch's outputs with predicted and zeroed local dynamics inputs. It also converts predicted displacements into positional biases for temporal attention. These two mechanisms guide object feature updates and information retrieval across frames, respectively. Through interaction anticipation and generative feedback, ReactWorld achieves an average score of 77.51 on RBench, outperforming PhysisForcing by 3.29 points with improvements in all nine ca",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance_score": 5,
+   "topic": "World Models",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.07867",
+   "title": "PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State",
+   "authors": [
+    "Jihai Zhang",
+    "Yuhan Zhou",
+    "Junyou Li",
+    "Deheng Ye",
+    "Qi Dou",
+    "Yu Cheng"
+   ],
+   "published": "2026-11-05",
+   "arxiv_url": "https://arxiv.org/abs/2611.07867",
+   "pdf_url": "https://arxiv.org/pdf/2611.07867",
+   "summary": "Building a playable world requires more than generating plausible video: it demands responsive control, persistent spatial structure, and coherent interactions with dynamic entities. Using generated frames as the sole recurrent world representation ties these requirements to view-dependent appearance synthesis, making it difficult to maintain long-term spatial and temporal consistency in generation and interaction. We present PlayGen2, a real-time interactive world model that separates learned 3D state evolution from neural rendering. PlayGen2 maintains a persistent world memory comprising static geometry represented by a volumetric occupancy grid and identity-indexed 3D states for the player and other entities. Within a fixed-size local region, its world-state model jointly learns action-conditioned entity dynamics, geometry completion, and entity discovery, committing updates to a persistent world memory. A separate neural renderer synthesizes first-person observations from depth and semantic projections of the world state, without feeding generated images back into state prediction. Using Doom as a testbed, we demonstrate that the model successfully learns world dynamics includi",
+   "categories": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "relevance_score": 5,
+   "topic": "World Models",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.08128",
+   "title": "FreeOcc: Decoupling Ego-Motion for Efficient 4D Occupancy Forecasting via Continuous Flow Matching",
+   "authors": [
+    "Zeping Zhang",
+    "Zhuoya Zhao",
+    "Samy Metari",
+    "Robert Laganière"
+   ],
+   "published": "2026-11-05",
+   "arxiv_url": "https://arxiv.org/abs/2611.08128",
+   "pdf_url": "https://arxiv.org/pdf/2611.08128",
+   "summary": "Current 4D occupancy world models use heavy cross-attention or deep recurrence to disentangle ego-motion from scene dynamics. This requires significant computational capacity. However, this effort is largely redundant since the ego-vehicle's intended future motion is provided by the downstream motion planner. We present FreeOcc, a lightweight continuous-time world model that introduces explicit $SE(2)$ geometric decoupling into a conditional flow-matching framework. By mathematically factoring out self-motion, we create a purely dynamic feature space. This space supports attention-free temporal fusion and allows physics-constrained ODEs to operate strictly on residual agent kinematics. To maximize deployment efficiency, FreeOcc introduces an uncertainty-aware blending mechanism. This routes well-observed voxels to a single-pass decoder, reserving the ODE solver exclusively for ambiguous, high-uncertainty regions. Requiring only 28.3M parameters-roughly 40% of comparable models-our optimal ensemble mode (FreeOcc-E) runs at 27 FPS. On nuScenes, FreeOcc achieves state-of-the-art forecasting performance with a 0.47 m Near Field Chamfer Distance (NFCD) and 32.1% mIoU. Furthermore, the m",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 3,
+   "topic": "World Models",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.08392",
+   "title": "Learning a patient world model for health system simulation in intensive care",
+   "authors": [
+    "Yingtai Li",
+    "Ruoyan Wang",
+    "Yu Li",
+    "Shaohua Kevin Zhou"
+   ],
+   "published": "2026-11-05",
+   "arxiv_url": "https://arxiv.org/abs/2611.08392",
+   "pdf_url": "https://arxiv.org/pdf/2611.08392",
+   "summary": "Designing healthcare strategies requires anticipating their clinical and operational consequences before implementation, a task that often relies on health system simulation. Such a simulation necessitates modeling how patient states evolve and generate care demands. However, conventional approaches typically tailor compact state transitions to a single policy question and omit history-dependent dynamics, thus requiring the redefinition of states and transitions when there is a new question that entails different clinical information. We propose to learn a patient world model from longitudinal EHRs using a neural network to provide a shared clinical representation of patient trajectories that can serve simulation questions across scenarios. Taking ICU operations as an example, we train the model on MIMIC-IV, freeze it, and couple its time-queryable predictions to shared ICU calendars, resources, and queues via scenario-specific mappings, so that one model renders admission demand, care tasks, and discharge proposals across simulations evaluating ICU bed capacity, care dispatch, and post-ICU transfer capacity. Experiments show that our model matches Markov and semi-Markov comparator",
+   "categories": [
+    "cs.AI"
+   ],
+   "relevance_score": 5,
+   "topic": "World Models",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.04392",
+   "title": "Aero-VPA: Few-Step Flow-Matching Control over Non-Reconstructive JEPA Latents for Agile Flight on Edge Hardware",
+   "authors": [
+    "Yeonseok Lee"
+   ],
+   "published": "2026-11-03",
+   "arxiv_url": "https://arxiv.org/abs/2611.04392",
+   "pdf_url": "https://arxiv.org/pdf/2611.04392",
+   "summary": "Vision-Language-Action (VLA) models generalize across tasks, but their autoregressive decoders need sequential forward passes in proportion to the action horizon, each bounded below on embedded aerial platforms by streaming billions of parameters from memory. We present Aero-VPA, a lightweight Vision-Predictor-Action architecture for 3D navigation on edge hardware. A compact RGB-D Vision Transformer and a five-head ensemble predictor, trained without pixel reconstruction, forecast the next latent state; a Conditional Flow Matching solver generates a velocity and yaw-rate chunk in two Euler steps, so each decision takes five sequential network evaluations; and the ensemble dispersion drives an uncertainty fallback. Version 1 specified the architecture, deployment and protocol without results. This version reports the first closed-loop evaluation: PX4 software-in-the-loop simulation of quadrotor missions in procedurally generated forests. Behaviour cloning failed on all 60 missions despite open-loop errors of 0.02-0.04 m/s: the policy copies its last command, a copycat form of causal confusion. DAgger with a privileged, safety-gated supervisor gave the first successes but plateaued a",
+   "categories": [
+    "cs.LO",
+    "cs.LG",
+    "cs.RO"
+   ],
+   "relevance_score": 5,
+   "topic": "World Models",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.04972",
+   "title": "Caging Vision-Language Navigation for Legged Robots via Barrier-Certified Safety Architecture",
+   "authors": [
+    "Abhijeet M. Kulkarni",
+    "Saimouli Katragadda",
+    "Yuze Du",
+    "Zijun Sha",
+    "Guoquan Huang"
+   ],
+   "published": "2026-11-03",
+   "arxiv_url": "https://arxiv.org/abs/2611.04972",
+   "pdf_url": "https://arxiv.org/pdf/2611.04972",
+   "summary": "By harnessing the inherent commonsense capabilities of pretrained Large Language Models (LLMs) and Vision-Language Models (VLMs), current Vision-Language Action(VLA) models for legged robots excel at interpreting language-based navigation commands but lack the physical grounding and explicit safety assurance required for real-world operation. Therefore, this paper aims to cage Legged-Vision-Language Navigation (VLN) through a safety architecture that provides physical grounding and ensures navigation safety. The key idea is not to abandon the powerful capabilities of end-to-end VLA planning, but rather to augment and cage them. In particular, we integrate a high-level VLA planner with a low-level physical-grounding layer that leverages efficient state estimation, in-situ 3D spatial perception, and an Signed Distance Field (SDF) representation to generate executable trajectories. We provide a navigation planner with provable collision-avoidance guarantees under the stated assumptions by combining a low-dimensional Bezier-parameterized MPPI planner with Discrete Exponential Barrier Function (dEBF) constraints. The proposed Legged-VLN system is modular, making it compatible with vario",
+   "categories": [
+    "cs.RO",
+    "eess.SY"
+   ],
+   "relevance_score": 3,
+   "topic": "Robotics",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.07411",
+   "title": "Kinematic Hypothesis Context: Embodiment-Conditioned Learned Video Coding for Bandwidth-Limited Robot Policy Uplinks",
+   "authors": [
+    "Yuze Lu"
+   ],
+   "published": "2026-11-05",
+   "arxiv_url": "https://arxiv.org/abs/2611.07411",
+   "pdf_url": "https://arxiv.org/pdf/2611.07411",
+   "summary": "Robots increasingly run large vision-language-action policies on remote servers, making the camera uplink the bottleneck. Existing video codecs spend bits on content the receiver could predict: the robot's own motion. We introduce the kinematic hypothesis context, a zero-rate conditioning signal that both ends build from joint states, the robot model and the camera calibration. Ego-motion homographies, per-link robot reprojections, an end-effector plane and a background memory warp the previous reconstruction into hypotheses that condition a learned video codec. We prove that history-only and global-pose conditioning with a limited receptive field cannot access this information under large motion, and that coding gains become task gains at the policy's success cliff. On LIBERO, the context saves 23.9% bit rate over a capacity-matched history-conditioned codec and 40-56% over x264, x265 and SVT-AV1, and needs 23.2% fewer bits than DCVC-RT at equal policy action deviation; trained to lower rates, it matches DCVC-RT in PSNR. In closed loop at equal rate, OpenVLA-OFT success nearly doubles from 22.8% to 43.1% at 6 kbps (72.6% with lower-rate training, 23.6 points above DCVC-RT), pi_0.5",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "relevance_score": 4,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.04710",
+   "title": "DenseTwins: Dense Modality Decoupling for Multimodal Self-Supervision",
+   "authors": [
+    "Carlo Sgaravatti",
+    "Daniele Kopyshevskiy",
+    "Davide Secco",
+    "Giacomo Boracchi"
+   ],
+   "published": "2026-11-03",
+   "arxiv_url": "https://arxiv.org/abs/2611.04710",
+   "pdf_url": "https://arxiv.org/pdf/2611.04710",
+   "summary": "Multimodal perception is central to many computer vision applications, including robotics and autonomous driving, where different sensing modalities provide complementary cues. Self-supervised learning offers a scalable solution for exploiting large amounts of unlabeled multimodal data. However, existing methods either neglect modality-specific information by enforcing feature-space alignment between modalities or learn only global representations without preserving spatial structure. We propose DenseTwins, a multimodal self-supervised framework that learns dense representations by explicitly decoupling the dense feature space into shared and modality-specific components. The proposed approach combines dense cross-modal correspondences with redundancy-reduction objectives, enabling the model to capture both shared semantics and modality-specific cues within a structured dense embedding space. DenseTwins jointly optimizes an intra-modal objective across augmented views and a cross-modal objective that aligns shared features while decorrelating modality-specific information. We evaluate DenseTwins across multiple multimodal benchmarks and sensing setups, achieving state-of-the-art or",
+   "categories": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG"
+   ],
+   "relevance_score": 3,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.04912",
+   "title": "MiCaDe: Online LiDAR-Camera Miscalibration Change Detection for Autonomous Driving",
+   "authors": [
+    "Carlo Sgaravatti",
+    "Riccardo Pieroni",
+    "Matteo Corno",
+    "Sergio M. Savaresi",
+    "Luca Magri",
+    "Giacomo Boracchi"
+   ],
+   "published": "2026-11-03",
+   "arxiv_url": "https://arxiv.org/abs/2611.04912",
+   "pdf_url": "https://arxiv.org/pdf/2611.04912",
+   "summary": "Reliable multi-sensor perception in autonomous vehicles requires accurate calibration between cameras and LiDAR. However, calibration drift is often unavoidable in long-term deployments: vibrations, thermal effects, and minor mechanical shocks may alter the relative pose between sensors, leading to systematic errors in downstream fusion tasks. We propose MiCaDe (Miscalibration Change Detection), an online solution detecting when the extrinsic LiDAR-camera calibration parameters are no longer accurate by means of sequential change detection. MiCaDe requires no calibration targets, or modification of the perception stack, providing low false-alarm rates with negligible computational overhead. Our key insight is that 3D and 2D bounding boxes produced by standard object detectors should remain geometrically consistent under correct calibration. By matching cross-modal detections, we derive geometric consistency metrics that serve as sensitive indicators of extrinsic drift. These metrics are aggregated into fixed-size batches and scored against a reference distribution, producing a likelihood stream that is monitored by a Change Point Model (CPM). Crucially, the CPM accumulates statisti",
+   "categories": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "relevance_score": 3,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.05291",
+   "title": "Low-Density 3D Point Cloud Classification",
+   "authors": [
+    "Ahmed Baha Ben Jmaa",
+    "Faten Chaieb"
+   ],
+   "published": "2026-11-03",
+   "arxiv_url": "https://arxiv.org/abs/2611.05291",
+   "pdf_url": "https://arxiv.org/pdf/2611.05291",
+   "summary": "3D point cloud classification, a task in computer vision, has recently gained substantial interest due to its extensive applications across various domains such as augmented and virtual reality, robotics, and autonomous driving. However, classifying 3D point clouds becomes challenging in real-world scenarios where the density levels vary. These variations are due to limitations inherent to current sensing technologies and variable environmental conditions, which often prevent the capture of detailed and comprehensive geometric representations. Existing classification methods, which have demonstrated impressive results on dense point clouds, may be affected and could experience reduced performance when dealing with low-density point clouds. Addressing this challenge, this paper introduces LD-PointNet++, an architecture optimized for the classification of low-density point clouds. To pave the way for LD-PointNet++, we conduct the first benchmarking study that systematically evaluates state-of-the-art point cloud classification methods across varying densities, revealing significant performance declines in low-density environments. Experimental results on the ModelNet benchmark datase",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 3,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.06204",
+   "title": "CoSafe: Cooperative Runtime Safety Assurance for Mixed-Traffic Autonomous Driving",
+   "authors": [
+    "Dingji Wang",
+    "You Lu",
+    "Haowen Jiang",
+    "Yanggang Chen",
+    "Yuyang Bi",
+    "Bihuan Chen",
+    "Shenglin Bao",
+    "Xin Peng"
+   ],
+   "published": "2026-11-04",
+   "arxiv_url": "https://arxiv.org/abs/2611.06204",
+   "pdf_url": "https://arxiv.org/pdf/2611.06204",
+   "summary": "With the rapid development of autonomous driving systems (ADSes), real-world roads are evolving into mixed-traffic environments where autonomous vehicles (AVs) and other traffic participants (e.g., human-driven vehicles (HDVs), cyclists, and pedestrians) coexist and interact with each other. However, current ADSes still incur various safety violations in mixed traffic scenarios, raising a strong demand for runtime safety assurance frameworks that can continuously monitor hazards and prevent potential violations. Existing ego-centric assurance approaches are insufficient for mixed traffic, where violations often arise from locally reasonable yet jointly incompatible decisions among multiple vehicles and cannot be reliably resolved through independent takeover. To bridge this gap, we propose CoSafe, a modular and ADS-agnostic cooperative runtime safety assurance framework for mixed-traffic autonomous driving to extend runtime safety assurance from ego-centric takeover to scene-level cooperative intervention. CoSafe leverages vehicle-to-everything (V2X) communication to enable roadside units (RSUs) to monitor scene-level hazards and jointly mitigate hazards involving multiple vehicles",
+   "categories": [
+    "cs.SE",
+    "cs.AI",
+    "cs.RO"
+   ],
+   "relevance_score": 3,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.06229",
+   "title": "Bug2Scenario: Root-Cause-Preserving Test Scenario Amplification for Autonomous Driving Software",
+   "authors": [
+    "Yuchen Cao",
+    "Zhenyu Mao",
+    "Jacky Wai Keung",
+    "Yifei Wang",
+    "Yihan Liao",
+    "Jingyu Zhang"
+   ],
+   "published": "2026-11-04",
+   "arxiv_url": "https://arxiv.org/abs/2611.06229",
+   "pdf_url": "https://arxiv.org/pdf/2611.06229",
+   "summary": "Simulation-based fuzzing exposes autonomous driving system (ADS) failures by repeatedly mutating and executing scenarios, but converting one failure into reusable regression scenarios remains difficult. Such variants test whether the mechanism persists after software changes, for example by varying weather or actor placement while retaining a collision's actor-route conflict. We present Bug2Scenario, a root-cause-guided post-fuzzing framework. From scenario data, traces, and oracle evidence, it extracts a root-cause pattern. An LLM proposes semantic variations over actors, missions, routes, and weather. Deterministic rules construct DriveFuzz-compatible scenarios. Execution evidence and manual review assess preservation. Separating these responsibilities prevents fluency, syntax, or recurring labels from masquerading as causal evidence. Under matched seeds, six LLM backbones, candidate budget, and execution pipeline, Bug2Scenario improves strict preservation by 6.7 percentage points (p=0.104; not significant) and boundary-inclusive preservation by 10.6 points (p=0.011). Feedback helps some initially unsuccessful seeds yield a strictly preserved candidate. Seed-level stopping then a",
+   "categories": [
+    "cs.SE"
+   ],
+   "relevance_score": 3,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.07081",
+   "title": "Wide View Synthesis from Overlapping Perspective Cameras in Autonomous Driving",
+   "authors": [
+    "Kaixuan Zhang",
+    "Zhipeng Xiong",
+    "Minxian Li",
+    "Mingwu Ren",
+    "Xiatian Zhu"
+   ],
+   "published": "2026-11-04",
+   "arxiv_url": "https://arxiv.org/abs/2611.07081",
+   "pdf_url": "https://arxiv.org/pdf/2611.07081",
+   "summary": "Multi-perspective-camera systems are widely adopted since they provide broad visual coverage for autonomous driving, motivating the synthesis of a unified wide view from spatially separated observations. In this work, we formulate wide view synthesis (WVS), which aims to synthesize a geometrically consistent wide view at a specified virtual viewpoint from multiple perspective cameras. Unlike conventional image stitching, WVS requires reasoning about 3D geometry and visibility to handle depth-dependent parallax and occlusions arising from spatially separated camera centers. While vanilla 3D Gaussian Splatting (3DGS) enables high-fidelity view synthesis, its reliance on per-scene optimization limits its applicability to driving scenes. Furthermore, WVS introduces additional challenges, *e.g.*, peripheral stretching under perspective projection and photometric inconsistencies across cameras. To address these challenges, we propose **Wide-View Gaussian Splatting (WV-GS)**, a feed-forward Gaussian-splatting framework that synthesizes wide views without per-scene optimization. Specifically, we introduce Piecewise Perspective Rendering (PPR) to mitigate peripheral stretching through local",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 3,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.07613",
+   "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
+   "authors": [
+    "Kotaro Oishi",
+    "Kazuma Ikeda",
+    "Ryosei Hara",
+    "Ryo Yoshida",
+    "Mariko Isogawa",
+    "Kentaro Yoshioka"
+   ],
+   "published": "2026-11-05",
+   "arxiv_url": "https://arxiv.org/abs/2611.07613",
+   "pdf_url": "https://arxiv.org/pdf/2611.07613",
+   "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as fog, rain, transparent objects, and low-reflectance surfaces. Full-waveform LiDAR (FWL) addresses these limitations by capturing the complete return waveform as a histogram, preserving rich reflection characteristics including multi-path echoes and weak signals. While recent Transformer-based approaches have demonstrated promise on FWL data, two fundamental bottlenecks remain: high computational cost from redundant tokens in low-intensity background regions, and limited generalization due to scarce annotated training data. We address both bottlenecks by exploiting the physical structure inherent to FWL data. First, we propose FWL-ToPM, a token pruning and merging mechanism that leverages intensity distributions to selectively reduce tokens while retaining critical waveform content. Second, we introduce FWLAug, a data augmentation framework designed as a regularization method that preserves waveform structure, retaining the Time-of-Flight waveform of each ray and the frustum geometry, to improve generalization to unseen scenes. Evaluated on the Ghost-FWL benchmark,",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 3,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.05617",
+   "title": "Barrier-State-Based Safe Navigation in Complex Environments Using Look-Ahead Safety Corridors",
+   "authors": [
+    "Yunlin Wei",
+    "Fangfei Li",
+    "Junhui Zhang"
+   ],
+   "published": "2026-11-03",
+   "arxiv_url": "https://arxiv.org/abs/2611.05617",
+   "pdf_url": "https://arxiv.org/pdf/2611.05617",
+   "summary": "Safe navigation in cluttered environments requires a safety representation that captures the available motion space along the planned path. A single local safe region may restrict progress through narrow passages and continuous turns. This paper presents a planning-guided look-ahead safety corridor framework for barrier-state-based navigation. Local safe convex polytopes are constructed around collision-free seeds along the forward reference path. Their facet constraints are combined using softmin, and the local functions are fused using softmax with entropy-based adaptive compensation. The resulting safe set remains within the union of the local polytopes while reducing the shrinkage caused by fixed compensation. A Poisson boundary-value problem then defines a differentiable interior safety field while preserving the prescribed corridor boundary. This field is embedded into the robot dynamics through one geometric barrier state. We establish sufficient conditions for corridor invariance based on barrier-state boundedness and active-corridor validity. Navigation simulations cover cluttered layouts, narrow passages, and moving obstacles. A differential-drive ground vehicle further d",
+   "categories": [
+    "eess.SY"
+   ],
+   "relevance_score": 3,
+   "topic": "E2E Autonomous Driving",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.06287",
+   "title": "Corridor-Based Monitoring and Emergency Braking Decision for Automated Vehicle Safety",
+   "authors": [
+    "Junnan Pan",
+    "Vladislav Nenchev",
+    "Mohak Mansharamani",
+    "Prodromos Sotiriadis",
+    "Ferdinand Englberger"
+   ],
+   "published": "2026-11-04",
+   "arxiv_url": "https://arxiv.org/abs/2611.06287",
+   "pdf_url": "https://arxiv.org/pdf/2611.06287",
+   "summary": "This paper addresses emergency-braking decisions for a redundant safety channel in automated vehicles. The channel is responsible for identifying hazards from sensor data and determining whether braking is necessary, given the constrained computational resources of embedded hardware. We present an emergency-braking approach that uses a predicted motion corridor to filter \\ac{lidar} measurements and then decide whether the ego vehicle must brake. \\ac{pmcm} constructs a curvature-aware boundary from the planned path and vehicle geometry so that the monitored region contains the full swept body on both straight and curved paths. \\ac{gdeta} then decides whether the ego vehicle must command an emergency brake for objects inside this boundary, scoring geometric occupancy and temporal urgency independently. Hard gates permit braking when either source is conclusive; soft-OR arbitration combines partial evidence when neither gate is active. Consecutive-scan confirmation reduces sensitivity to transient measurement noise. Corridor coverage is evaluated in controlled collision simulations and recorded campus driving. Braking decisions are evaluated in Monte Carlo simulations of lead-vehicle ",
+   "categories": [
+    "cs.RO",
+    "eess.SY"
+   ],
+   "relevance_score": 3,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.06635",
+   "title": "Uncertainty-Driven Efficient Communication for UAV-Based Collaborative Perception",
+   "authors": [
+    "Jiuwu Hao",
+    "Yuting Wan",
+    "Liguo Sun",
+    "Zao Zhang",
+    "Yueyang Wu",
+    "Pin Lv"
+   ],
+   "published": "2026-11-04",
+   "arxiv_url": "https://arxiv.org/abs/2611.06635",
+   "pdf_url": "https://arxiv.org/pdf/2611.06635",
+   "summary": "Unmanned aerial vehicle (UAV)-based collaborative perception enables multiple agents to share complementary perceptual information, overcoming limitations such as occlusion and limited sensing range. Communication efficiency is a critical bottleneck, as UAVs operate under stringent bandwidth and computational constraints. However, existing spatial selection methods focus predominantly on foreground regions to reduce missed detections, neglecting perceptually ambiguous regions and leaving false detections unresolved. We propose UCP, an uncertainty-driven framework that characterizes collaborative value through observational uncertainty, identifying sensor-limited regions, and discriminative uncertainty, capturing model-level ambiguity near the decision boundary. These estimates drive spatial request and supply maps for efficient inter-agent communication, and the received messages are aggregated via U-Fusion, an uncertainty-guided cross-attention module. Experiments on three benchmarks across 3D object detection and trajectory prediction demonstrate a superior performance-bandwidth trade-off with high interpretability and strong generalizability.",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 3,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.06911",
+   "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
+   "authors": [
+    "Fei Lin",
+    "Tengchao Zhang",
+    "Ziyang Gong",
+    "Xiaotong Yu",
+    "Bohan Zhang",
+    "Yifan Zhou",
+    "Qihao Yang",
+    "Ji Dai",
+    "Dong Li",
+    "Yining Jiang",
+    "Qinghua Ni",
+    "Jun Huang",
+    "Qiang Zhang",
+    "Yue Zhou",
+    "Zhihang Zhong",
+    "Yonglin Tian",
+    "Fei-Yue Wang",
+    "Xue Yang"
+   ],
+   "published": "2026-11-04",
+   "arxiv_url": "https://arxiv.org/abs/2611.06911",
+   "pdf_url": "https://arxiv.org/pdf/2611.06911",
+   "summary": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large Language Models (MLLMs) are increasingly considered as embodied brains for such systems, existing laboratory benchmarks mainly focus on safety, anomaly detection, or general scientific understanding, leaving their execution-oriented embodied capabilities underexplored. To fill this gap, we introduce BEAKER, a Benchmark for evaluating Embodied Actionability, Knowledge, Experimentation, and Reasoning in SDCLs. BEAKER contains 1,000 expert-curated question-answer samples across 11 image and video task types, covering key judgments required for chemical laboratory execution, including affordance grounding, trajectory planning, equipment, state, and safety recognition, apparatus setup, operation and step reasoning, and temporal procedure reasoning. All questions and annotations are manually created and reviewed by chemistry and embodied Artificial Intelligence (AI) experts, without AI-assisted generation or annotatio",
+   "categories": [
+    "cs.AI"
+   ],
+   "relevance_score": 3,
+   "topic": "E2E Autonomous Driving",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.04477",
+   "title": "Spectrally Routed Diffusion Policy for Multi-Task Robotic Manipulation",
+   "authors": [
+    "Mingcong Li",
+    "Yihan Zhou",
+    "Jiayu Qu",
+    "Xueyang Guo",
+    "Yilin Mo"
+   ],
+   "published": "2026-11-03",
+   "arxiv_url": "https://arxiv.org/abs/2611.04477",
+   "pdf_url": "https://arxiv.org/pdf/2611.04477",
+   "summary": "Diffusion-based policies have achieved strong performance on single-task robotic manipulation. However, a single model trained jointly on multiple tasks consistently underperforms the per-task specialists trained on the same demonstrations. We focus on two challenges. First, the convolutional encoders commonly used in diffusion-based policies produce visual conditions that are not discriminative enough. Second, gradients from incompatible action modes update the shared denoiser's dense parameters along the same directions, causing destructive interference during joint training. To address both, we propose SR-DP (Spectrally Routed Diffusion Policy). A frozen VGGT encoder with a spatial-compression adapter produces compact multi-scale semantic-geometric tokens, a task-discriminative visual condition for tasks that share a workspace. We first train the denoiser as a standard diffusion policy, then decompose selected linear layers by SVD into a frozen basis of orthogonal rank-one experts, adapted through spectral routing and Householder input rotations. On six RoboTwin tasks, SR-DP averages a 68.4% success rate, surpassing multi-task VO-DP by 21.8 points and the strongest per-task base",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance_score": 4,
+   "topic": "World Models",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.04493",
+   "title": "Physical Diffusion Policy via MPM-Guided 3D Gaussian Simulation",
+   "authors": [
+    "Can Wang",
+    "Qiyuan Qiao",
+    "Lei Liu",
+    "Ge Yuan",
+    "Xinhui Liu",
+    "Dong Xu"
+   ],
+   "published": "2026-11-03",
+   "arxiv_url": "https://arxiv.org/abs/2611.04493",
+   "pdf_url": "https://arxiv.org/pdf/2611.04493",
+   "summary": "Learning robust manipulation policies for diverse everyday objects remains challenging because objects with different materials exhibit distinct deformation and contact dynamics. While diffusion policies provide a powerful framework for modeling multimodal manipulation behaviors, they typically lack explicit physical reasoning and may produce averaged actions when facing heterogeneous objects. We present a physics-aware diffusion policy that augments visual imitation learning with object physical understanding. Our framework recovers material properties from visual demonstrations by coupling 3D Gaussian Splatting with differentiable Material Point Method simulation, where video guidance and particle-level constraints enable accurate physical parameter estimation. The estimated physics conditions are further integrated into a material-aware Mixture-of-Experts diffusion policy, allowing adaptive behavior generation across different physical regimes. For practical deployment, we introduce a physics memory bank that provides efficient physical retrieval without requiring online simulation optimization. Experiments on a wide range of simulated and real-world objects demonstrate improved",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance_score": 4,
+   "topic": "World Models",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.05567",
+   "title": "MESA: An Evaluation Framework for Compositional, Semantic, and Spatial Generalization in Robotics",
+   "authors": [
+    "Albert Wilcox",
+    "Frank Chang",
+    "Nhi Nguyen",
+    "Aishani Chakraborty",
+    "Jeremy A. Collins",
+    "Vaibhav Saxena",
+    "Benjamin Joffe",
+    "Siddharth Karamcheti",
+    "Animesh Garg"
+   ],
+   "published": "2026-11-03",
+   "arxiv_url": "https://arxiv.org/abs/2611.05567",
+   "pdf_url": "https://arxiv.org/pdf/2611.05567",
+   "summary": "Despite growing interest in foundation models for robotic manipulation, systematic evaluation of their capabilities remains elusive. Existing benchmarks are either narrow and saturated, offering little signal on SOTA methods, broadly scoped, providing diversity at the cost of controlled experimentation, or require training on large, messy open-source datasets. We introduce MESA, an evaluation framework designed for precise, reproducible measurement of language-conditioned policy generalization. MESA provides five evaluation suites that isolate in-distribution performance and four distinct axes of generalization: spatial configuration, object instance, object category, and subtask composition, enabling researchers to diagnose where and why policies fail, not just whether they fail. To populate these suites at scale, we develop MESA-Gen, a pipeline for task and demonstration generation built by improving MimicGen. We instantiate the framework on two platforms and release both: the single-arm MESA suite, and BiMESA, the first large-scale benchmark for bimanual generalization. We evaluate seven baseline methods spanning diffusion policies, VLM-based approaches, and pretrained VLAs, fin",
+   "categories": [
+    "cs.RO",
+    "cs.AI"
+   ],
+   "relevance_score": 3,
+   "topic": "AD Perception/Planning",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
+  {
+   "id": "2611.05667",
+   "title": "Correct Robots Before They Make Mistakes: Proactive Human-in-the-Loop Intervention via Preference Learning",
+   "authors": [
+    "Xinkai Jiang",
+    "Jing Jiang",
+    "Hongyi Zhou",
+    "Pankhuri Vanjani",
+    "Ahmad Baki",
+    "Jakub Suliga",
+    "Ge Li",
+    "Zhuoyue Li",
+    "Gerhard Neumann",
+    "Rudolf Lioutikov"
+   ],
+   "published": "2026-11-03",
+   "arxiv_url": "https://arxiv.org/abs/2611.05667",
+   "pdf_url": "https://arxiv.org/pdf/2611.05667",
+   "summary": "This paper presents Proactive Human-in-the-Loop (PHIL), a framework for proactive policy correction and preference-based post-training. PHIL enables operators to preview policy-predicted future motion and intervene before anticipated undesirable actions. During takeover, PHIL continues querying the policy and displaying its predicted trajectories in the physical workspace through an extended reality (XR) interface. PHIL pairs rejected policy predictions with corrective action chunks subsequently executed from the same physical state over the same horizon, and preference-based post-training encourages the policy to favor these corrections. This paper evaluates PHIL on four real-world manipulation tasks using a diffusion policy and a pretrained vision-language-action policy. With five correction episodes per condition, PHIL increases mean success rates across the evaluated tasks and demonstration budgets from 44.0% to 70.3% for the diffusion policy and from 57.8% to 76.9% for X-VLA, compared with HG-DAgger. Separately, policies trained with proactive corrections show fewer unnecessary recovery behaviors in successful episodes. Project page: https://intuitive-robots.github.io/PHIL-pag",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance_score": 4,
+   "topic": "World Models",
+   "is_new": true,
+   "source": "arxiv",
+   "added": "2026-11-08"
+  },
   {
    "id": "2611.04711",
    "title": "Cycle WAM: Coupling Action and Video through Cycle Consistency",
@@ -25,7 +885,7 @@
    ],
    "relevance_score": 3,
    "topic": "World Models",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -50,7 +910,7 @@
    ],
    "relevance_score": 3,
    "topic": "World Models",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -69,7 +929,7 @@
    ],
    "relevance_score": 3,
    "topic": "World Models",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -88,7 +948,7 @@
    ],
    "relevance_score": 3,
    "topic": "World Models",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -106,7 +966,7 @@
    ],
    "relevance_score": 3,
    "topic": "Diffusion Policy",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -130,7 +990,7 @@
    ],
    "relevance_score": 3,
    "topic": "World Models",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -155,7 +1015,7 @@
    ],
    "relevance_score": 3,
    "topic": "World Models",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -180,7 +1040,7 @@
    ],
    "relevance_score": 3,
    "topic": "World Models",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -205,7 +1065,7 @@
    ],
    "relevance_score": 3,
    "topic": "World Models",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -230,7 +1090,7 @@
    ],
    "relevance_score": 3,
    "topic": "World Models",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -252,7 +1112,7 @@
    ],
    "relevance_score": 3,
    "topic": "World Models",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -274,7 +1134,7 @@
    ],
    "relevance_score": 3,
    "topic": "Diffusion Policy",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -301,7 +1161,7 @@
    ],
    "relevance_score": 3,
    "topic": "World Models",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -327,7 +1187,7 @@
    ],
    "relevance_score": 3,
    "topic": "World Models",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -350,7 +1210,7 @@
    ],
    "relevance_score": 3,
    "topic": "Diffusion Policy",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -374,7 +1234,7 @@
    ],
    "relevance_score": 3,
    "topic": "World Models",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -396,7 +1256,7 @@
    ],
    "relevance_score": 3,
    "topic": "World Models",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -417,7 +1277,7 @@
    ],
    "relevance_score": 3,
    "topic": "Diffusion Policy",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -442,7 +1302,7 @@
    ],
    "relevance_score": 3,
    "topic": "World Models",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -463,7 +1323,7 @@
    ],
    "relevance_score": 3,
    "topic": "Diffusion Policy",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -489,7 +1349,7 @@
    ],
    "relevance_score": 3,
    "topic": "e2e-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -514,7 +1374,7 @@
    ],
    "relevance_score": 3,
    "topic": "e2e-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -534,7 +1394,7 @@
    ],
    "relevance_score": 4,
    "topic": "BEV Perception",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -553,7 +1413,7 @@
    ],
    "relevance_score": 4,
    "topic": "BEV Perception",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -575,7 +1435,7 @@
    ],
    "relevance_score": 4,
    "topic": "BEV Perception",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -601,7 +1461,7 @@
    ],
    "relevance_score": 4,
    "topic": "BEV Perception",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -623,7 +1483,7 @@
    ],
    "relevance_score": 4,
    "topic": "BEV Perception",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -641,7 +1501,7 @@
    ],
    "relevance_score": 4,
    "topic": "BEV Perception",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -665,7 +1525,7 @@
    ],
    "relevance_score": 4,
    "topic": "BEV Perception",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -685,7 +1545,7 @@
    ],
    "relevance_score": 4,
    "topic": "BEV Perception",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -709,7 +1569,7 @@
    ],
    "relevance_score": 4,
    "topic": "BEV Perception",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -729,7 +1589,7 @@
    ],
    "relevance_score": 5,
    "topic": "vla-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv",
    "weekly_pick": true,
    "weekly": true,
@@ -765,7 +1625,7 @@
    ],
    "relevance_score": 5,
    "topic": "world-models-ad",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -788,7 +1648,7 @@
    ],
    "relevance_score": 5,
    "topic": "e2e-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -813,7 +1673,7 @@
    ],
    "relevance_score": 5,
    "topic": "vla-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv",
    "weekly_pick": true,
    "weekly": true,
@@ -852,7 +1712,7 @@
    ],
    "relevance_score": 5,
    "topic": "vla-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -873,7 +1733,7 @@
    ],
    "relevance_score": 5,
    "topic": "vla-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -894,7 +1754,7 @@
    ],
    "relevance_score": 5,
    "topic": "vla-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -915,7 +1775,7 @@
    ],
    "relevance_score": 5,
    "topic": "vla-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -939,7 +1799,7 @@
    ],
    "relevance_score": 5,
    "topic": "world-models-ad",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -964,7 +1824,7 @@
    ],
    "relevance_score": 5,
    "topic": "e2e-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -986,7 +1846,7 @@
    ],
    "relevance_score": 5,
    "topic": "vla-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -1007,7 +1867,7 @@
    ],
    "relevance_score": 5,
    "topic": "vla-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -1031,7 +1891,7 @@
    ],
    "relevance_score": 3,
    "topic": "World Models",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -1056,7 +1916,7 @@
    ],
    "relevance_score": 4,
    "topic": "e2e-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -1081,7 +1941,7 @@
    ],
    "relevance_score": 5,
    "topic": "world-models-ad",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -1107,7 +1967,7 @@
    ],
    "relevance_score": 5,
    "topic": "e2e-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -1127,7 +1987,7 @@
    ],
    "relevance_score": 5,
    "topic": "e2e-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -1148,7 +2008,7 @@
    ],
    "relevance_score": 5,
    "topic": "e2e-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -1174,7 +2034,7 @@
    ],
    "relevance_score": 5,
    "topic": "e2e-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -1199,7 +2059,7 @@
    ],
    "relevance_score": 5,
    "topic": "e2e-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -1223,7 +2083,7 @@
    ],
    "relevance_score": 5,
    "topic": "world-models-ad",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -1241,7 +2101,7 @@
    ],
    "relevance_score": 5,
    "topic": "vla-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -36080,7 +36940,7 @@
    "source": "arxiv",
    "relevance_score": 5,
    "topic": "e2e-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "analysis_path": "e2e-autonomous-driving/analysis/2611.08111-NegWAM-SafetyPostTraining-WAM.md",
    "in_kb": true,
    "weekly_pick": true,
@@ -36118,7 +36978,7 @@
    "source": "arxiv",
    "relevance_score": 5,
    "topic": "world-models-ad",
-   "is_new": true,
+   "is_new": false,
    "analysis_path": "world-models-ad/analysis/2611.07912-GuidedWAM-EnergyGuidance.md",
    "in_kb": true,
    "weekly_pick": true,
@@ -36159,7 +37019,7 @@
    "source": "arxiv",
    "relevance_score": 5,
    "topic": "world-models-ad",
-   "is_new": true,
+   "is_new": false,
    "analysis_path": "world-models-ad/analysis/2611.07939-WAM-Sim-PersistentMemory-OnlineRL.md",
    "in_kb": true,
    "weekly_pick": true,
@@ -36198,7 +37058,7 @@
    "source": "arxiv",
    "relevance_score": 4,
    "topic": "vla-autonomous-driving",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2611.06273",
@@ -36221,7 +37081,7 @@
    "source": "arxiv",
    "relevance_score": 4,
    "topic": "world-models-ad",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2611.04173",
@@ -36246,7 +37106,7 @@
    "source": "arxiv",
    "relevance_score": 3,
    "topic": "world-models-ad",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2611.06085",
@@ -36269,7 +37129,7 @@
    "source": "arxiv",
    "relevance_score": 3,
    "topic": "vla-autonomous-driving",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2611.07540",
@@ -36291,7 +37151,7 @@
    "source": "arxiv",
    "relevance_score": 3,
    "topic": "vla-autonomous-driving",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2611.04368",
@@ -36312,7 +37172,7 @@
    "source": "arxiv",
    "relevance_score": 3,
    "topic": "vla-autonomous-driving",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2611.05093",
@@ -36332,7 +37192,7 @@
    "source": "arxiv",
    "relevance_score": 3,
    "topic": "vla-autonomous-driving",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2610.29915",
@@ -36356,7 +37216,7 @@
    ],
    "relevance_score": 4,
    "topic": "world-models-ad",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -36375,7 +37235,7 @@
    ],
    "relevance_score": 4,
    "topic": "e2e-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -36401,7 +37261,7 @@
    ],
    "relevance_score": 4,
    "topic": "e2e-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -36426,7 +37286,7 @@
    ],
    "relevance_score": 4,
    "topic": "vla-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -36448,7 +37308,7 @@
    ],
    "relevance_score": 3,
    "topic": "world-models-ad",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -36472,7 +37332,7 @@
    ],
    "relevance_score": 3,
    "topic": "world-models-ad",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -36497,7 +37357,7 @@
    ],
    "relevance_score": 3,
    "topic": "world-models-ad",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -36520,7 +37380,7 @@
    ],
    "relevance_score": 3,
    "topic": "e2e-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -36540,7 +37400,7 @@
    ],
    "relevance_score": 3,
    "topic": "e2e-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -36566,7 +37426,7 @@
    ],
    "relevance_score": 3,
    "topic": "vla-autonomous-driving",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -36592,7 +37452,7 @@
    ],
    "relevance_score": 3,
    "topic": "world-models-ad",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   },
   {
@@ -36618,7 +37478,7 @@
    ],
    "relevance_score": 3,
    "topic": "world-models-ad",
-   "is_new": true,
+   "is_new": false,
    "source": "arxiv"
   }
  ],
@@ -36855,8 +37715,45 @@
    "weekly_analysis": "vla-autonomous-driving/analysis/2026-10-21_Post-hoc-Epistemic-Uncertainty-for-Visio.md"
   }
  ],
- "new_findings": 63,
- "last_scan": "2026-11-06T16:00:00-08:00",
+ "new_findings": [
+  "2611.00177",
+  "2610.31166",
+  "2611.02815",
+  "2611.03428",
+  "2611.01682",
+  "2611.01996",
+  "2611.02260",
+  "2611.02552",
+  "2611.02648",
+  "2611.03229",
+  "2611.03465",
+  "2611.04034",
+  "2611.05890",
+  "2611.06061",
+  "2611.06120",
+  "2611.07867",
+  "2611.08128",
+  "2611.08392",
+  "2611.04392",
+  "2611.04972",
+  "2611.07411",
+  "2611.04710",
+  "2611.04912",
+  "2611.05291",
+  "2611.06204",
+  "2611.06229",
+  "2611.07081",
+  "2611.07613",
+  "2611.05617",
+  "2611.06287",
+  "2611.06635",
+  "2611.06911",
+  "2611.04477",
+  "2611.04493",
+  "2611.05567",
+  "2611.05667"
+ ],
+ "last_scan": "2026-11-08T16:22:49-08:00",
  "weekly_roundup": {
   "week": "2026-11-07",
   "range": "2026-10-31 ~ 2026-11-07",

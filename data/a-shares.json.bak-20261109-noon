@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-09",
+  "time": "noon",
+  "fetched_at": "2026-11-09T03:35:48Z",
+  "indices": {
+    "上证指数": {
+      "code": "000001",
+      "price": 3665.94,
+      "change": 16.76,
+      "change_pct": 0.46,
+      "prev_close": 3649.18,
+      "high": 3679.09,
+      "low": 3653.05,
+      "date": "2026-11-09"
+    },
+    "沪深300": {
+      "code": "000300",
+      "price": 4064.17,
+      "change": 9.89,
+      "change_pct": 0.24,
+      "prev_close": 4054.28,
+      "high": 4081.09,
+      "low": 4054.0,
+      "date": "2026-11-09"
+    },
+    "上证50": {
+      "code": "000016",
+      "price": 2788.54,
+      "change": 1.13,
+      "change_pct": 0.04,
+      "prev_close": 2787.41,
+      "high": 2795.97,
+      "low": 2780.81,
+      "date": "2026-11-09"
+    },
+    "中证500": {
+      "code": "000905",
+      "price": 6618.4,
+      "change": 21.05,
+      "change_pct": 0.32,
+      "prev_close": 6597.35,
+      "high": 6691.11,
+      "low": 6599.45,
+      "date": "2026-11-09"
+    },
+    "科创50": {
+      "code": "000688",
+      "price": 1261.95,
+      "change": 8.75,
+      "change_pct": 0.7,
+      "prev_close": 1253.2,
+      "high": 1277.34,
+      "low": 1255.0,
+      "date": "2026-11-09"
+    },
+    "中证1000": {
+      "code": "000852",
+      "price": 6537.88,
+      "change": 32.53,
+      "change_pct": 0.5,
+      "prev_close": 6505.35,
+      "high": 6612.02,
+      "low": 6516.64,
+      "date": "2026-11-09"
+    },
+    "深证成指": {
+      "code": "399001",
+      "price": 11206.24,
+      "change": 30.46,
+      "change_pct": 0.27,
+      "prev_close": 11175.78,
+      "high": 11311.2,
+      "low": 11176.1,
+      "date": "2026-11-09"
+    },
+    "创业板指": {
+      "code": "399006",
+      "price": 2478.94,
+      "change": 13.71,
+      "change_pct": 0.56,
+      "prev_close": 2465.23,
+      "high": 2511.71,
+      "low": 2468.99,
+      "date": "2026-11-09"
+    }
+  },
+  "sectors": {
+    "top5": [
+      {
+        "name": "卫浴电器",
+        "change_pct": 5.04
+      },
+      {
+        "name": "印制电路板",
+        "change_pct": 4.85
+      },
+      {
+        "name": "焦炭Ⅲ",
+        "change_pct": 4.66
+      },
+      {
+        "name": "焦炭Ⅱ",
+        "change_pct": 4.66
+      },
+      {
+        "name": "元件",
+        "change_pct": 4.06
+      }
+    ],
+    "bottom5": [
+      {
+        "name": "宠物食品",
+        "change_pct": -2.73
+      },
+      {
+        "name": "视频媒体",
+        "change_pct": -2.5
+      },
+      {
+        "name": "光伏主材",
+        "change_pct": -2.19
+      },
+      {
+        "name": "钾肥",
+        "change_pct": -2.18
+      },
+      {
+        "name": "线下药店",
+        "change_pct": -2.1
+      }
+    ],
+    "count": 496,
+    "up": 251,
+    "down": 241,
+    "median_change_pct": 0.02,
+    "source": "akshare stock_board_industry_name_em"
+  },
+  "northbound": {
+    "date": "2026-11-06",
+    "net": null,
+    "items": [],
+    "note": "北向资金历史接口最新日期 2026-11-06；实时净流入自 2024-08 停止披露"
+  },
+  "hang_seng": {
+    "price": 87454.21,
+    "change_pct": 0.12
+  },
+  "breadth": {
+    "up": 251,
+    "down": 241,
+    "flat": 0,
+    "coverage": 496,
+    "metric": "行业板块涨跌家数"
+  },
+  "data_quality": {
+    "indices_ok": 8,
+    "indices_failed": [],
+    "sectors_ok": true,
+    "note": "AkShare 东方财富快照；深证/创业板取日K最新(午盘未收)；北向自2024-08停止实时披露"
+  }
+}

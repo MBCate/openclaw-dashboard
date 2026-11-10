@@ -1,0 +1,267 @@
+{
+  "updated_at": "2026-11-09T13:35:00Z",
+  "as_of": "Nov 9 2026 13:35 UTC (北京11/9 21:35 / 美东11/9 08:35 周一) — 【晚间国际】美股盘前：期指延续反弹，ES 7,454.0(+0.70%)、NQ 27,253.5(+0.62%)、YM 51,920(+1.04%，补涨此前落后的道指)。核心变量：①英伟达(NVDA)盘前-5%，因董事会调查黄仁勋与被指中国间谍人士的往来，拖累AI板块，AMD -1.1%；②油价续跌，WTI $87.54(-3.6%)，Bloomberg称“外交进展希望升温”，霍尔木兹风险溢价快速回吐；③黄金刷新高位至$4,137.9(+1.5%)，与油价背离，显示避险买盘仍在；④欧股收涨（DAX +0.98%、STOXX 600 +0.86%、FTSE +0.62%），日经+2.33%以58,775.5收盘，恒指24,448.95(-0.13%)基本走平；⑤加密续跌，BTC $74,662(-1.73%)失守$75,000、ETH $2,119(-5.37%)。VIX回落至23.45。中国10月PPI同比转正、创四年多新高，CPI增速放缓。",
+  "indices": [
+    {
+      "name": "标普500",
+      "symbol": "^GSPC",
+      "close": 7376.86,
+      "change_pct": 0.31,
+      "note": "7,376.86 (+0.31%，11/6收盘) — 周五反弹；今日盘前ES期指7,454.0(+0.70%)，指向高开。"
+    },
+    {
+      "name": "纳斯达克综指",
+      "symbol": "^IXIC",
+      "close": 24579.43,
+      "change_pct": 1.09,
+      "note": "24,579.43 (+1.09%，11/6收盘) — 今日盘前NQ 27,253.5(+0.62%)，但NVDA -5%限制涨幅。"
+    },
+    {
+      "name": "道琼斯",
+      "symbol": "^DJI",
+      "close": 51285.73,
+      "change_pct": -0.46,
+      "note": "51,285.73 (-0.46%，11/6收盘) — 今日盘前YM 51,920(+1.04%)，为三大期指最强，价值股补涨。"
+    },
+    {
+      "name": "VIX恐慌指数",
+      "symbol": "^VIX",
+      "close": 23.45,
+      "change_pct": -8.54,
+      "note": "23.45 (-8.54%，11/9实时) — 自周五25.64回落，但仍在20以上高位。"
+    },
+    {
+      "name": "德国DAX",
+      "symbol": "^GDAXI",
+      "close": 26072.46,
+      "change_pct": 0.98,
+      "note": "26,072.46 (+0.98%，11/9收盘) — 从周五-1.92%反弹，收复25,900。"
+    },
+    {
+      "name": "英国FTSE 100",
+      "symbol": "^FTSE",
+      "close": 10740.14,
+      "change_pct": 0.62,
+      "note": "10,740.14 (+0.62%，11/9收盘) — 油气股随油价下跌拖累，涨幅弱于欧陆。"
+    },
+    {
+      "name": "STOXX 600",
+      "symbol": "^STOXX",
+      "close": 653.92,
+      "change_pct": 0.86,
+      "note": "653.92 (+0.86%，11/9收盘) — 全面反弹，科技与保险股领涨。"
+    },
+    {
+      "name": "日经225",
+      "symbol": "^N225",
+      "close": 58775.5,
+      "change_pct": 2.33,
+      "note": "58,775.50 (+2.33%，11/9收盘) — 自周五-5.96%暴跌强反弹，仍未收复60,000。"
+    },
+    {
+      "name": "恒生指数",
+      "symbol": "^HSI",
+      "close": 24448.95,
+      "change_pct": -0.13,
+      "note": "24,448.95 (-0.13%，11/9收盘) — 盘中冲高回落，24,500得而复失。"
+    }
+  ],
+  "crypto": [
+    {
+      "name": "BTC",
+      "symbol": "BTC-USDT",
+      "price": 74662,
+      "close": 74662,
+      "change_pct": -1.73,
+      "note": "BTC $74,662 (-1.73% 24h,CoinGecko 11/9 13:30 UTC) — 失守$75,000，连续三个交易日走低。"
+    },
+    {
+      "name": "ETH",
+      "symbol": "ETH-USDT",
+      "price": 2119.0,
+      "close": 2119.0,
+      "change_pct": -5.37,
+      "note": "ETH $2,119.00 (-5.37% 24h) — 明显弱于BTC，两日累计跌幅超9%。"
+    },
+    {
+      "name": "SOL",
+      "symbol": "SOL-USDT",
+      "price": 86.55,
+      "close": 86.55,
+      "change_pct": -3.33,
+      "note": "SOL $86.55 (-3.33% 24h) — 继续在$90下方运行。"
+    },
+    {
+      "name": "BNB",
+      "symbol": "BNB-USDT",
+      "price": 684.52,
+      "close": 684.52,
+      "change_pct": -1.95,
+      "note": "BNB $684.52 (-1.95% 24h) — 跌破$700。"
+    }
+  ],
+  "commodities": [
+    {
+      "name": "WTI原油",
+      "symbol": "CL=F",
+      "close": 87.54,
+      "change_pct": -3.62,
+      "note": "WTI $87.54 (-3.62%，11/9实时) — 盘前加速下跌，Bloomberg称美伊外交进展希望升温，霍尔木兹地缘溢价快速回吐。"
+    },
+    {
+      "name": "COMEX黄金",
+      "symbol": "GC=F",
+      "close": 4137.9,
+      "change_pct": 1.54,
+      "note": "$4,137.9 (+1.54%，11/9实时) — 创阶段新高，与油价走势背离，AI股风险+加息预期下仍获避险买盘。"
+    }
+  ],
+  "macro": [
+    {
+      "name": "美元指数DXY",
+      "value": "101.82",
+      "note": "101.82 (+0.31%，11/9实时) — 站上101.8，SocGen预计2027年美元环境“更不友好”。"
+    },
+    {
+      "name": "美国10Y国债",
+      "value": "4.86%",
+      "note": "4.86% (11/6收盘) — 周五基本走平；12月加息预期81%为短线主导。"
+    },
+    {
+      "name": "12月加息概率",
+      "value": "81%",
+      "note": "维持高位，10月非农+16.5万远超预期后市场重新定价。"
+    },
+    {
+      "name": "中国10月PPI",
+      "value": "同比转正",
+      "note": "CNBC：中国10月PPI创四年多新高，CPI放缓 — 上游价格修复、内需仍偏弱。"
+    },
+    {
+      "name": "英国央行",
+      "value": "加息至4.25%",
+      "note": "上周自伊朗战争以来首次加息，警告通胀将接近5%。"
+    }
+  ],
+  "week_performance": {
+    "note": "本周(11/2-11/6)主线=中期选举民主党大胜 → AI资本开支与数据中心遭政治性否定 → 全球AI交易去杠杆。标普-2.48%、纳指-3.37%、道指-8.24%、日经-5.96%、KOSPI-6.02%、WTI-12.8%;VIX从16.61升至25.64。周五分化:纳指/标普反弹而道指续跌,资金由价值周期股回流科技。FT:'How Wall Street's all-in bet on AI blew up'。"
+  },
+  "overnight": [
+    {
+      "title": "英伟达盘前跌5%，董事会调查黄仁勋与被指中国间谍的关系",
+      "detail": "CNBC/MarketWatch 11/9：NVDA内部调查CEO与一名被指控为中国间谍人士往来，事件在中期选举后AI资本开支遭政治审视的背景下发酵。NVDA盘前186.64(-5%)，AMD 449.04(-1.1%)；分析师电话会聚焦该事件对AI订单与合规的影响。"
+    },
+    {
+      "title": "油价加速下跌3.6%，外交进展预期升温",
+      "detail": "Bloomberg：“Oil Extends Drop as Hopes Grow of Diplomatic Progress to End War”。WTI $87.54，较周五90.83下跌3.6%，回吐上周霍尔木兹三艘油轮触雷后的全部溢价。卢比奥称伊朗要求“离谱”，外交突破希望仍小，油价波动率料维持高位。"
+    },
+    {
+      "title": "黄金逆势创阶段新高$4,137.9(+1.5%)",
+      "detail": "与油价、风险资产走势背离，显示避险买盘与通胀对冲需求仍在；DXY回升至101.82，金价与美元同涨，反映避险属性主导。"
+    },
+    {
+      "title": "欧股收涨、日经+2.33%、恒指微跌",
+      "detail": "DAX 26,072.46(+0.98%)、STOXX 600 653.92(+0.86%)、FTSE 10,740.14(+0.62%)；日经58,775.5(+2.33%)自周五暴跌强反弹；恒指24,448.95(-0.13%)冲高回落。"
+    },
+    {
+      "title": "加密续跌：BTC失守$75,000，ETH -5.4%",
+      "detail": "BTC $74,662(-1.73%)、ETH $2,119(-5.37%)、SOL $86.55(-3.33%)、BNB $684.52(-1.95%)。中期选举后政策红利预期降温叠加AI去杠杆，山寨币跌幅显著大于BTC。"
+    },
+    {
+      "title": "宏观：中国PPI创四年多新高，CPI放缓",
+      "detail": "CNBC：中国10月批发价格通胀升至四年多最高，消费者物价增速放缓 — 上游/反内卷政策效果显现，但终端需求仍弱。美国方面国会复会，政府拨款、赫格塞斯听证与债务上限进入议程。"
+    }
+  ],
+  "evening_preview": "美股周一盘前走高但结构分化：三大期指全线上涨（YM +1.04%领涨），而英伟达因董事会调查黄仁勋与被指间谍人士往来下跌5%，成为AI交易的最新拖累。Citi建议在AI情绪改善前“回避全球科技交易”，MarketWatch关注Nvidia、Anthropic、CoreWeave本周能否给AI板块喘息。油价-3.6%是最重要的边际变化：外交进展预期压倒霍尔木兹断供担忧，能源股承压（FTSE涨幅落后），但黄金逆势创新高，说明避险需求未消退。本周关注：政府拨款与债务上限（国会复会）、CPI、美联储官员发言、以及英伟达调查进展。",
+  "headlines": [
+    {
+      "title": "地缘:霍尔木兹三油轮触雷,伊朗称“违规通行”,美对格什姆岛防空系统有限打击",
+      "detail": "新华社/联合早报/法新社交叉验证。革命卫队列为“擅自穿越”:船只关闭定位、未走伊朗批准航线。伊拉克一处气田综合体遇袭亦影响区域电厂供气。"
+    },
+    {
+      "title": "地缘:特朗普称若谈判进展则“极不可能”再打击伊朗",
+      "detail": "CNBC 11/8:同时警告仍可能打击。市场解读为冲突降温概率上升,是油价未跳涨的主要原因。"
+    },
+    {
+      "title": "美股:期指小幅上行,英伟达调查事件为AI叙事添风险",
+      "detail": "ES 7,421.0(+0.26%)、NQ 27,115.0(+0.11%);NVDA调查CEO与中国间谍嫌疑人关系。周五标普7,376.86(+0.31%)、纳指24,579.43(+1.09%)、道指51,285.73(-0.46%)。"
+    },
+    {
+      "title": "宏观:12月加息概率81%,10Y 4.859%",
+      "detail": "10月非农+16.5万远超预期,失业率4.1%。本周关注CPI与美联储官员发言;金价在加息预期与地缘之间拉扯。"
+    },
+    {
+      "title": "亚太:A股11/6收跌1.10%,日经早盘反弹2.48%",
+      "detail": "上证3,649.16(-1.10%,11/6最终值)、日经58,857.87(+2.48%)、KOSPI 5,076.71(+0.34%)、ASX 8,977.60(-0.48%)。"
+    },
+    {
+      "title": "加密:周末走弱,ETH -4.36%领跌",
+      "detail": "BTC $75,156、ETH $2,136.59、SOL $87.54。FT:加密行业与特朗普关系的清算;中期选举后政策红利预期降温。"
+    }
+  ],
+  "news": [
+    {
+      "source": "CNBC",
+      "title": "Nvidia stock falls 5% as scrutiny turns to Jensen Huang's relationship with alleged Chinese spy"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Oil Extends Drop as Hopes Grow of Diplomatic Progress to End War"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "Wall Street Sticks With AI Playbook After Historic Tech Unwind"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Until AI sentiment improves, it's better to sit out the global tech trade, Citi tells investors"
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Can the AI trade catch a break? Nvidia, Anthropic and CoreWeave may have a say"
+    },
+    {
+      "source": "CNBC",
+      "title": "China wholesale inflation hits highest in more than four years as consumer measure slows"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "SocGen's Juckes Sees 'Less Dollar-Friendly' Year in 2027"
+    },
+    {
+      "source": "Bloomberg",
+      "title": "ECB Succession Advances as Ministers Look to Pick Trio of Jobs"
+    },
+    {
+      "source": "CNBC",
+      "title": "Congress returns with government funding, Pete Hegseth and the debt limit on the agenda"
+    },
+    {
+      "source": "CNBC",
+      "title": "Here are Monday's biggest analyst calls: Nvidia, SpaceX, Apple, Oracle, AMD, Meta"
+    }
+  ],
+  "morning_preview": [
+    {
+      "title": "关注1:09:15-09:30 A股集合竞价能否承接11/6补跌",
+      "detail": "上证11/6收3,649.16(-1.10%),创业板/科技权重压力更大。隔夜AI叙事有英伟达调查扰动、也有日经+2.48%的修复,预计高开概率略高但需看竞价成交。"
+    },
+    {
+      "title": "关注2:霍尔木兹事件是否二次发酵",
+      "detail": "三艘油轮触雷+美对格什姆岛打击,若后续波及出口设施,油价与航运板块将再定价;目前WTI -0.36%说明市场在等待谈判结果。关注中远海能等油运、以及黄金股。"
+    },
+    {
+      "title": "关注3:黄金$/4,115避险买盘,加息预期仍是压制",
+      "detail": "12月加息概率81%、10Y 4.859%。若金价守住$4,100,贵金属板块情绪继续修复;若收益率破4.9%则承压。"
+    },
+    {
+      "title": "关注4:英伟达调查事件的扩散风险",
+      "detail": "若从公司治理升级为中美科技/出口管制议题,将直接冲击A股算力链与光模块。开盘关注AI硬件板块是否走弱。"
+    },
+    {
+      "title": "关注5:本周数据与政策",
+      "detail": "CPI、美联储官员发言;民主党推动终结关税的立法动作。"
+    }
+  ],
+  "note": "数据源：Yahoo Finance chart API（指数/期货/商品，11/9 13:30 UTC 实时或收盘）、CoinGecko（加密）、RSS：CNBC / Bloomberg / MarketWatch（WSJ Markets feed 停留在2025-01，未采用）。A股数据见 a-shares.json。"
+}

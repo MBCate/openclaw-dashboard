@@ -1,6 +1,398 @@
 {
- "updated": "2026-11-08T16:22:49-08:00",
+ "updated": "2026-11-09T16:14:32-08:00",
  "papers": [
+  {
+   "id": "2611.00044",
+   "title": "SparseWAM: Driving World-Action Models are Worth 16 Register Tokens",
+   "authors": [
+    "Yixiang Yang",
+    "Lizhong Zhang",
+    "Xingyu Zhang",
+    "Zhiwen Chen",
+    "Jie Ling",
+    "Qiankun Yu",
+    "Xingliang Liu",
+    "Yang Lei",
+    "Zhipeng Zhang"
+   ],
+   "published": "8 Oct 2026",
+   "arxiv_url": "https://arxiv.org/abs/2611.00044",
+   "pdf_url": "https://arxiv.org/pdf/2611.00044",
+   "summary": "World Action Models (WAMs) transfer scene-dynamics priors to planning by jointly forecasting future scenes and ego trajectories. However, WAMs built on video generators must generate dense future videos at inference, incurring prohibitive latency, while efficient variants discard the world branch at deployment and thus forgo test-time imagination. Even when dense video latents are replaced with patch-level DINO or JEPA features, these representations still involve long token sequences and encode decision-irrelevant information. We therefore propose SparseWAM, which forecasts in a sparse register space of only 16 tokens per frame, compressed from frozen DINOv2 features and shaped by joint planning-and-scoring pretraining to concentrate decision-relevant information. Within this space, SparseWAM employs a modality-decoupled Mixture-of-Transformers with a causal attention mask that lets action tokens condition on imagined future registers, retaining explicit imagine-then-act reasoning at deployment. Its compactness further enables low-cost multimodal sampling. As a result, our SparseWAM achieves 92.6 PDMS on NAVSIM v1, 90.1 EPDMS on NAVSIM v2, and 39.6 on NavHard at only 164 ms latency, roughly 1/5 that of DriveVA, demonstrating the efficiency of the sparse register space. Code will be released upon acceptance.",
+   "categories": [
+    "cs.CV"
+   ],
+   "subjects": "Computer Vision and Pattern Recognition (cs.CV)",
+   "relevance_score": 5,
+   "score": 5,
+   "topic": "e2e-autonomous-driving",
+   "is_new": true,
+   "status": "新发现",
+   "status_en": "new",
+   "in_kb": true,
+   "source": "arxiv",
+   "added": "2026-11-09",
+   "tldr": "稀疏 register 空间（每帧仅 16 token）做驾驶世界-动作模型，兼顾预测能力与推理效率。",
+   "contribution_cn": "现有 WAM 依赖视频生成器导致推理延迟高，而丢掉 world 分支又丧失测试时想象能力。SparseWAM 把冻结 DINOv2 特征压缩到稀疏 register 空间，配合 modality-decoupled MoT 与因果注意力，在 16 token/帧下完成联合规划与打分。",
+   "method_cn": "冻结 DINOv2 提特征 → 压缩为每帧 16 个 register token → 联合规划+打分预训练塑造决策相关表示 → 解耦 MoT 因果掩码分离动作流与场景流。",
+   "summary_zh": " 【TL;DR】稀疏 register 空间（每帧仅 16 token）做驾驶世界-动作模型，兼顾预测能力与推理效率。\n\n【核心贡献】现有 WAM 依赖视频生成器导致推理延迟高，而丢掉 world 分支又丧失测试时想象能力。SparseWAM 把冻结 DINOv2 特征压缩到稀疏 register 空间，配合 modality-decoupled MoT 与因果注意力，在 16 token/帧下完成联合规划与打分。\n\n【方法要点】冻结 DINOv2 提特征 → 压缩为每帧 16 个 register token → 联合规划+打分预训练塑造决策相关表示 → 解耦 MoT 因果掩码分离动作流与场景流。",
+   "analysis_path": "world-models-ad/analysis/2611.00044-SparseWAM-SparseRegisterWAM.md"
+  },
+  {
+   "id": "2611.00071",
+   "title": "How Reliable Are Object Detection Models Beyond Clear Weather? A Deployment-Oriented Robustness Study for Autonomous Driving",
+   "authors": [
+    "Munshaibur Rahman Mahin",
+    "Isha Das",
+    "Most. Sonia Islam",
+    "Mohammad Sakib Mahmood",
+    "M. F. Mridha",
+    "Md. Jakir Hossen"
+   ],
+   "published": "15 Oct 2026",
+   "arxiv_url": "https://arxiv.org/abs/2611.00071",
+   "pdf_url": "https://arxiv.org/pdf/2611.00071",
+   "summary": "Autonomous driving perception systems must maintain reliable object detection under diverse environmental conditions, not only in clear daytime scenes. However, the cross-weather robustness of modern detectors remains insufficiently characterised under source-only evaluation. This study evaluates representative object detection architectures trained exclusively on clear daytime driving scenes and tested without adaptation under unseen fog, rain, snow, and night conditions. The evaluation covers lightweight and medium-scale one-stage, two-stage, and transformer-based detectors within a unified protocol. Robustness is assessed using performance Drop (%), a Weather Robustness Index (WRI), and class-level sensitivity analysis for critical road participants, including cars, buses, trucks, and persons. Prediction confidence reliability under environmental domain shift is measured using Expected Calibration Error (ECE). Results reveal consistent performance degradation in adverse conditions, reaching 62.90% at night. Buses show the highest sensitivity to environmental variability, while cars remain comparatively stable across weather transitions. Comparisons indicate that YOLO-based detectors exhibit the lowest calibration mismatch, reflecting stronger agreement between predicted confidence and empirical detection correctness. In contrast, DETR achieves the lowest robustness score, with a WRI of 0.6859, indicating greater vulnerability to cross-weather domain shift. These findings offer deployment-oriented insights into detector robustness and confidence reliability for safety-critical intelligent vehicle perception systems.",
+   "categories": [
+    "cs.CV"
+   ],
+   "subjects": "Computer Vision and Pattern Recognition (cs.CV)",
+   "relevance_score": 3,
+   "score": 3,
+   "topic": "e2e-autonomous-driving",
+   "is_new": true,
+   "status": "新发现",
+   "status_en": "new",
+   "in_kb": false,
+   "source": "arxiv",
+   "added": "2026-11-09",
+   "tldr": "系统评测纯晴天训练的目标检测器在雾雨雪夜下的鲁棒性衰减。",
+   "contribution_cn": "自动驾驶感知需跨天气可靠，但跨天气鲁棒性缺乏系统刻画。作者在 source-only（无适应）设置下统一协议评测一阶段/两阶段/Transformer 检测器。",
+   "method_cn": "性能下降百分比（Drop%）、Weather Robustness Index（WRI）、关键类别敏感度分析与期望置信度可靠性度量。",
+   "summary_zh": " 【TL;DR】系统评测纯晴天训练的目标检测器在雾雨雪夜下的鲁棒性衰减。\n\n【核心贡献】自动驾驶感知需跨天气可靠，但跨天气鲁棒性缺乏系统刻画。作者在 source-only（无适应）设置下统一协议评测一阶段/两阶段/Transformer 检测器。\n\n【方法要点】性能下降百分比（Drop%）、Weather Robustness Index（WRI）、关键类别敏感度分析与期望置信度可靠性度量。"
+  },
+  {
+   "id": "2611.00828",
+   "title": "Answer Correction with Verifiable Rewards: A Gemma-Family Study of Multi-View Driving QA",
+   "authors": [
+    "T N Rickesh",
+    "Pranav Vinodh",
+    "Sowmya Kamath S"
+   ],
+   "published": "31 Oct 2026 (",
+   "arxiv_url": "https://arxiv.org/abs/2611.00828",
+   "pdf_url": "https://arxiv.org/pdf/2611.00828",
+   "summary": "Multi-camera driving question answering provides a discrete test of vision-language models, but post-training gains can reflect changed selected answers or improved answer extraction. We investigate this distinction within the Gemma model family using archived, task-linked WaymoQA evaluations. A zero-shot diagnostic on 5,519 test questions spans effective-small, mixture-of-experts, unified, and dense checkpoints, with serving differences disclosed rather than interpreted as architecture effects. The strongest controlled evidence is a matched-harness Gemma-4-12B base/GRPO pair: accuracy rises from 73.78% to 75.43%, a gain of 1.65 percentage points with a scene-cluster bootstrap interval of [+0.84, +2.41]. There are 215 improvements and 124 regressions; 213 improvements start from an extractable but incorrect base answer, and only two recover previously unextractable responses. Crossing correctness with extraction state shows why correct noncompliant outputs cannot be counted as prediction errors. Category counts reveal a critical safety asymmetry: routine perception gains (+5.93 pp) mask a regression in safety-critical hazard prediction (-1.82 pp), demonstrating that unweighted outcome rewards can trade off rare edge cases for aggregate accuracy. Reward saturation describes sampled training dynamics rather than an architectural ceiling. A separate archived Gemma-31B thinking comparison yields no detected average improvement, with uncertainty that does not establish equivalence. These results support a modest answer-selection gain for the recorded tuning configuration and a reproducible diagnostic accounting, without attributing corrected labels to specific grounding mechanisms or claiming superiority over matched supervised tuning.",
+   "categories": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "subjects": "Computer Vision and Pattern Recognition (cs.CV); Machine Learning (cs.LG)",
+   "relevance_score": 3,
+   "score": 3,
+   "topic": "e2e-autonomous-driving",
+   "is_new": true,
+   "status": "新发现",
+   "status_en": "new",
+   "in_kb": false,
+   "source": "arxiv",
+   "added": "2026-11-09",
+   "tldr": "Gemma 家族在多视角驾驶 QA 上的收益主要来自\"答案提取\"而非\"答案选择\"。",
+   "contribution_cn": "后训练收益可能来自改变了被选答案，也可能只是答案变得可提取。作者用保留的 WaymoQA 评测做诊断，最强证据为同 harness 下 Gemma-4-12B 的 base/GRPO 配对。",
+   "method_cn": "5,519 题零样本诊断；准确率 73.78%→75.43%（+1.65pp，场景簇 bootstrap [+0.84,+2.41]），215 改进中 213 起于\"可提取但错误\"的答案，仅 2 例恢复了原本无法提取的回答。",
+   "summary_zh": " 【TL;DR】Gemma 家族在多视角驾驶 QA 上的收益主要来自\"答案提取\"而非\"答案选择\"。\n\n【核心贡献】后训练收益可能来自改变了被选答案，也可能只是答案变得可提取。作者用保留的 WaymoQA 评测做诊断，最强证据为同 harness 下 Gemma-4-12B 的 base/GRPO 配对。\n\n【方法要点】5,519 题零样本诊断；准确率 73.78%→75.43%（+1.65pp，场景簇 bootstrap [+0.84,+2.41]），215 改进中 213 起于\"可提取但错误\"的答案，仅 2 例恢复了原本无法提取的回答。"
+  },
+  {
+   "id": "2611.00833",
+   "title": "Fewer Tokens, More Answers: Verifiable-Reward Tuning of an Ornith-Style VLM for Multi-View Driving QA",
+   "authors": [
+    "T N Rickesh",
+    "Pranav Vinodh",
+    "Sowmya Kamath S"
+   ],
+   "published": "31 Oct 2026 (",
+   "arxiv_url": "https://arxiv.org/abs/2611.00833",
+   "pdf_url": "https://arxiv.org/pdf/2611.00833",
+   "summary": "Reasoning-enabled model derivatives must turn intermediate deliberation into a usable answer within a deployment budget. We study that transition in an Ornith checkpoint adapted to multi-camera driving question answering with verifiable rewards. Paired archived outputs show that, on a selected 400-question development screen with a 256-token cap, GRPO increases answer extraction from 78.25% to 90.25% and accuracy from 55.50% to 63.75%. Of 39 wrong-to-correct transitions, 33 begin with an unextractable base response. The base's 87 unextractable responses all reach the token cap. Checkpoint-verified reconstruction on those same questions gives a much smaller first-pass accuracy gain at 512 tokens: +0.75 percentage points, versus +8.25 at 256. A later answer-cued continuation is analyzed separately; it helps the base more and narrows the adapter difference. On the full 2,511-question development set, this recovery-enabled pipeline reduces mean generated tokens from 108.6 to 47.1, while the paired accuracy interval includes zero gain. We frame these findings as adaptation of answer delivery under finite budgets, with explicit selection and provenance limits. Ornith's self-scaffolding lineage and newer reasoning-enabled derivatives such as Bonsai motivate the problem, but our measured results concern Ornith alone and do not establish a shared architectural mechanism or cross-model transfer.",
+   "categories": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "subjects": "Computer Vision and Pattern Recognition (cs.CV); Computation and Language (cs.CL); Machine Learning (cs.LG)",
+   "relevance_score": 3,
+   "score": 3,
+   "topic": "e2e-autonomous-driving",
+   "is_new": true,
+   "status": "新发现",
+   "status_en": "new",
+   "in_kb": false,
+   "source": "arxiv",
+   "added": "2026-11-09",
+   "tldr": "用可验证奖励把\"推理\"转换成可用答案：Oracle 检查点驾驶 QA 研究。",
+   "contribution_cn": "推理型模型必须在部署预算内产出答案。作者研究 Ornith 检查点多相机驾驶 QA 的可验证奖励适配。",
+   "method_cn": "256 token 上限下 GRPO 使答案提取率 78.25%→90.25%、准确率 55.50%→63.75%；39 个错转对里 33 个始于不可提取的 base 回答；512 token 时首过准确率增益仅 +0.75pp（vs 256 时 +8.25）。",
+   "summary_zh": " 【TL;DR】用可验证奖励把\"推理\"转换成可用答案：Oracle 检查点驾驶 QA 研究。\n\n【核心贡献】推理型模型必须在部署预算内产出答案。作者研究 Ornith 检查点多相机驾驶 QA 的可验证奖励适配。\n\n【方法要点】256 token 上限下 GRPO 使答案提取率 78.25%→90.25%、准确率 55.50%→63.75%；39 个错转对里 33 个始于不可提取的 base 回答；512 token 时首过准确率增益仅 +0.75pp（vs 256 时 +8.25）。"
+  },
+  {
+   "id": "2611.02240",
+   "title": "When to Probe and When to Act: Clarity-Aware Risk-Adaptive Control for Interactive Driving",
+   "authors": [
+    "Youran Wang",
+    "Devodita Chakravarty",
+    "Yiwei Lyu"
+   ],
+   "published": "1 Nov 2026",
+   "arxiv_url": "https://arxiv.org/abs/2611.02240",
+   "pdf_url": "https://arxiv.org/pdf/2611.02240",
+   "summary": "Safe navigation in interactive traffic requires autonomous vehicles to reason about unobservable human characteristics and the reciprocal nature of multi-agent interactions. Traditional architectures often decouple prediction from planning, leading to the \"Frozen Robot Problem\" or unsafe maneuvers under high ambiguity because they treat risk assessment and information acquisition as independent objectives. We argue that the notion of safety should not remain static but must instead dynamically co-evolve with the system's internal confidence: the robot should actively clarify ambiguity when necessary while also recognizing the diminishing returns of information, and naturally transition toward task execution. We introduce a unified belief-space Model Predictive Control (MPC) framework that couples multistep information planning with a clarity-adaptive Conditional Value-at-Risk (CVaR) barrier mechanism. By treating clarity, a scalar informational state, as an explicit planning variable, the controller co-designs its probing strategy with its safety specification, tightening conservatism under high ambiguity and relaxing constraints as confidence improves. We further provide a performance analysis showing that the cost of information seeking and the expected planning-cost gap to a controller that knows the true human characteristic are bounded by residual ambiguity and solver error. We evaluate the framework in lane-merging and unsignalized-intersection scenarios against representative interactive-planning baselines. Across 5,000 simulations, the proposed method achieves the highest success rates (94.6% and 93.2%) and the lowest collision rates (1.2% and 1.4%) among the compared methods, providing a principled foundation for robust decision-making in human-centric environments.",
+   "categories": [
+    "cs.RO"
+   ],
+   "subjects": "Robotics (cs.RO)",
+   "relevance_score": 4,
+   "score": 4,
+   "topic": "e2e-autonomous-driving",
+   "is_new": true,
+   "status": "新发现",
+   "status_en": "new",
+   "in_kb": false,
+   "source": "arxiv",
+   "added": "2026-11-09",
+   "tldr": "把信息获取与风险评估统一进 belief-space MPC，按清晰度自适应调整风险。",
+   "contribution_cn": "传统架构解耦预测与规划，导致\"冻结机器人\"问题。作者主张安全应随内部置信动态演化：该探测时探测、该行动时行动。",
+   "method_cn": "belief-space MPC + 多步信息规划 + clarity-adaptive CVaR 屏障约束，显式建模信息收益递减。",
+   "summary_zh": " 【TL;DR】把信息获取与风险评估统一进 belief-space MPC，按清晰度自适应调整风险。\n\n【核心贡献】传统架构解耦预测与规划，导致\"冻结机器人\"问题。作者主张安全应随内部置信动态演化：该探测时探测、该行动时行动。\n\n【方法要点】belief-space MPC + 多步信息规划 + clarity-adaptive CVaR 屏障约束，显式建模信息收益递减。"
+  },
+  {
+   "id": "2611.02405",
+   "title": "MirrorComm: A Communication-Efficient Cooperative Perception Framework via Mirrored World Models",
+   "authors": [
+    "Shenghan Luo",
+    "Yin Xu",
+    "Cixiao Zhang",
+    "Yang Wang",
+    "Yujie Cao",
+    "Zhuoran Xiao",
+    "Wenjun Zhang"
+   ],
+   "published": "2 Nov 2026",
+   "arxiv_url": "https://arxiv.org/abs/2611.02405",
+   "pdf_url": "https://arxiv.org/pdf/2611.02405",
+   "summary": "Cooperative perception (CP) requires substantial communication bandwidth to exchange sensing information among connected agents. A variety of compression techniques have been proposed to reduce transmission costs while retaining task-relevant information. However, most existing methods follow a frame-wise compression paradigm, overlooking temporal predictability and repeatedly transmitting information that could be inferred from historical context. To address these limitations, we propose MirrorComm, the first world model-based communication-efficient CP framework. Specifically, mirrored world models at the transmitter and receiver predict the transmitter's current observation from a shared history of its reconstructed observations. The transmitter compares this prediction with its current observation and selectively transmits observation updates to correct prediction errors, reducing repeated transmission of predictable information. Experiments on the OPV2V dataset across two downstream tasks including object detection and semantic segmentation show that MirrorComm reduces communication bandwidth requirements by up to approximately 66-fold while maintaining comparable performance to a state-of-the-art (SOTA) method. Ablation studies further demonstrate the effectiveness of the individual components.",
+   "categories": [
+    "cs.CV"
+   ],
+   "subjects": "Signal Processing (eess.SP); Computer Vision and Pattern Recognition (cs.CV)",
+   "relevance_score": 4,
+   "score": 4,
+   "topic": "World Action Models",
+   "is_new": true,
+   "status": "新发现",
+   "status_en": "new",
+   "in_kb": false,
+   "source": "arxiv",
+   "added": "2026-11-09",
+   "tldr": "首个基于世界模型的通信高效协同感知框架：只传预测误差。",
+   "contribution_cn": "协同感知带宽压力大，现有方法逐帧压缩、忽略时序可预测性。MirrorComm 在收发两端部署镜像世界模型，由共享历史预测发送端当前观测，只传输修正预测误差的更新。",
+   "method_cn": "发送端/接收端镜像世界模型 → 预测-观测残差 → 选择性传输观测更新。",
+   "summary_zh": " 【TL;DR】首个基于世界模型的通信高效协同感知框架：只传预测误差。\n\n【核心贡献】协同感知带宽压力大，现有方法逐帧压缩、忽略时序可预测性。MirrorComm 在收发两端部署镜像世界模型，由共享历史预测发送端当前观测，只传输修正预测误差的更新。\n\n【方法要点】发送端/接收端镜像世界模型 → 预测-观测残差 → 选择性传输观测更新。"
+  },
+  {
+   "id": "2611.02677",
+   "title": "Visuo-tactile Diffusion Policy for Robotic Manipulation with Auxiliary Tactile Dynamics Prediction",
+   "authors": [
+    "Kaihong Ouyang",
+    "Zihao Su",
+    "Chengxuan Zheng",
+    "Weiyi Lai",
+    "Dong Zhou"
+   ],
+   "published": "",
+   "arxiv_url": "https://arxiv.org/abs/2611.02677",
+   "pdf_url": "https://arxiv.org/pdf/2611.02677",
+   "summary": "",
+   "categories": [
+    "cs.RO"
+   ],
+   "subjects": "",
+   "relevance_score": 3,
+   "score": 3,
+   "topic": "Diffusion Policy",
+   "is_new": true,
+   "status": "新发现",
+   "status_en": "new",
+   "in_kb": false,
+   "source": "arxiv",
+   "added": "2026-11-09",
+   "tldr": "带辅助触觉动力学预测的视触觉扩散策略。",
+   "contribution_cn": "在扩散策略中引入视触觉观测，并用辅助的触觉动力学预测任务增强表征。",
+   "method_cn": "多模态（视觉+触觉）扩散策略 + 辅助触觉动力学预测头，用于机器人操作。",
+   "summary_zh": " 【TL;DR】带辅助触觉动力学预测的视触觉扩散策略。\n\n【核心贡献】在扩散策略中引入视触觉观测，并用辅助的触觉动力学预测任务增强表征。\n\n【方法要点】多模态（视觉+触觉）扩散策略 + 辅助触觉动力学预测头，用于机器人操作。"
+  },
+  {
+   "id": "2611.05615",
+   "title": "$\\mathcal{C}^\\infty$ Smooth Trajectory Planning with Application to Soft Robots",
+   "authors": [
+    "Reinhard M. Grassmann",
+    "Abdulaziz Y. Alkayas",
+    "Lingyun Chen",
+    "Sami Haddadin"
+   ],
+   "published": "",
+   "arxiv_url": "https://arxiv.org/abs/2611.05615",
+   "pdf_url": "https://arxiv.org/pdf/2611.05615",
+   "summary": "",
+   "categories": [
+    "cs.RO"
+   ],
+   "subjects": "",
+   "relevance_score": 3,
+   "score": 3,
+   "topic": "e2e-autonomous-driving",
+   "is_new": true,
+   "status": "新发现",
+   "status_en": "new",
+   "in_kb": false,
+   "source": "arxiv",
+   "added": "2026-11-09",
+   "tldr": "软体机器人 C∞ 平滑轨迹规划。",
+   "contribution_cn": "面向软体机器人连续可微轨迹生成，避免高阶不连续带来的执行抖动。",
+   "method_cn": "构造 C∞ 平滑轨迹参数化并求解满足软体约束的规划问题。",
+   "summary_zh": " 【TL;DR】软体机器人 C∞ 平滑轨迹规划。\n\n【核心贡献】面向软体机器人连续可微轨迹生成，避免高阶不连续带来的执行抖动。\n\n【方法要点】构造 C∞ 平滑轨迹参数化并求解满足软体约束的规划问题。"
+  },
+  {
+   "id": "2611.06453",
+   "title": "Beyond Infraction Scores: Failure-Boundary Profiles for Closed-Loop Evaluation of Driving and Robot Navigation Agents",
+   "authors": [
+    "Milan Bulat",
+    "Gino Ardelean",
+    "Ellington Kirby"
+   ],
+   "published": "4 Nov 2026",
+   "arxiv_url": "https://arxiv.org/abs/2611.06453",
+   "pdf_url": "https://arxiv.org/pdf/2611.06453",
+   "summary": "Closed-loop driving benchmarks in CARLA rank agents by a driving score that multiplies route completion by an infraction penalty. This score does not distinguish an agent that stops in front of an obstacle from one that pushes past it. In a corridor closed by two parked cars, for example, one agent that drives through with contact averages 52.2 on the blocked widths, while the agents that stop average between 37.8 and 40.6. We propose failure-boundary profiles, an evaluation in which each scenario family varies one measured factor, such as corridor width or the time gap in oncoming traffic, and each variant is certified from measurement as one where the agent should proceed or one where it should stop. Along this axis we estimate two curves per agent, commitment (the probability of attempting the passage) and competence (the probability of passing without contact), and locate where each crosses one half, with intervals that account for the simulator's run-to-run variance. The certified labels also give a summary metric, decision accuracy, which credits clean passes on passable variants and stops on blocked ones. We evaluate seven driving agents on seven CARLA families. The rule-based expert reaches a decision accuracy of 0.74 and TFv6, the highest-scoring learned agent, 0.60. Agents with similar driving scores fail in different ways, and agents that reliably stop at a blocked corridor still rarely wait for a gap in oncoming traffic. We also apply the method, unchanged, to a warehouse robot in Isaac Sim. The navigation policy we test stops at blocked gaps in only one of three families, and two fine-tuned versions of it pass more gaps cleanly but no longer stop at all.",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "subjects": "Robotics (cs.RO); Computer Vision and Pattern Recognition (cs.CV); Software Engineering (cs.SE)",
+   "relevance_score": 4,
+   "score": 4,
+   "topic": "e2e-autonomous-driving",
+   "is_new": true,
+   "status": "新发现",
+   "status_en": "new",
+   "in_kb": false,
+   "source": "arxiv",
+   "added": "2026-11-09",
+   "tldr": "用失效边界曲线替代单一 infraction 分数来评价闭环驾驶/导航智能体。",
+   "contribution_cn": "CARLA 驾驶分 = 路线完成度 × infraction 惩罚，无法区分\"停在障碍前\"与\"顶着障碍硬闯\"。作者按单因素变化的场景族提出 commitment / competence 两条曲线。",
+   "method_cn": "每个场景族变化一个可测因子（走廊宽度、对向车时距）并标注应通行/应停止 → 估计尝试通过概率与无接触通过概率 → 定位失效边界。",
+   "summary_zh": " 【TL;DR】用失效边界曲线替代单一 infraction 分数来评价闭环驾驶/导航智能体。\n\n【核心贡献】CARLA 驾驶分 = 路线完成度 × infraction 惩罚，无法区分\"停在障碍前\"与\"顶着障碍硬闯\"。作者按单因素变化的场景族提出 commitment / competence 两条曲线。\n\n【方法要点】每个场景族变化一个可测因子（走廊宽度、对向车时距）并标注应通行/应停止 → 估计尝试通过概率与无接触通过概率 → 定位失效边界。"
+  },
+  {
+   "id": "2611.08631",
+   "title": "BEVCast: Path-Adaptive BEV for Efficient End-to-End Autonomous Driving",
+   "authors": [
+    "Qiren Wang",
+    "Mingyu Guo",
+    "Zixuan Wang",
+    "Weisong Shi"
+   ],
+   "published": "5 Nov 2026",
+   "arxiv_url": "https://arxiv.org/abs/2611.08631",
+   "pdf_url": "https://arxiv.org/pdf/2611.08631",
+   "summary": "Camera-based driving models build a dense bird's-eye-view (BEV) grid and spend the same computation on every cell of it, although the vehicle crosses only a few of those cells within the planning horizon. We present BEVCast, a two-stage BEV whose resolution adapts to the predicted driving path. A coarse pass encodes the whole scene on a grid of 4.096 m cells. A heat head trained on the recorded path assigns a heat to every coarse cell and the cells with the highest heat are refined into 1.024 m cells under a fixed budget. The remaining cells keep their coarse resolution, so the trajectory head reads a mixed-resolution BEV that still covers the entire scene and needs neither an HD map nor a navigation command. Against a full grid of 1.024 m cells with the same architecture and training recipe, BEVCast at a 10% refinement budget encodes 28% of the BEV queries and needs 66% of the BEV encoder time at batch size 1. On nuScenes its mean displacement error is 1.078 m against 1.149 m and its drivable area violation rate is 1.46% against 2.29%. On NAVSIM navtest its mean displacement error is 0.577 m against 0.598 m and its extended predictive driver model score is 82.51 against 81.28. Next to published planners BEVCast reaches a comparable error on both benchmarks without a navigation command. The resolution of a driving BEV can therefore follow the task instead of the grid.",
+   "categories": [
+    "cs.CV"
+   ],
+   "subjects": "Computer Vision and Pattern Recognition (cs.CV)",
+   "relevance_score": 4,
+   "score": 4,
+   "topic": "BEV Perception",
+   "is_new": true,
+   "status": "新发现",
+   "status_en": "new",
+   "in_kb": false,
+   "source": "arxiv",
+   "added": "2026-11-09",
+   "tldr": "BEV 分辨率按预测行驶路径自适应：路径经过的格子细化，其余保持粗分辨率。",
+   "contribution_cn": "相机 e2e 模型对整张稠密 BEV 做等量计算，但规划视野内车辆只经过少量格子。BEVCast 两阶段：4.096m 粗网格 + 热度头选中格子细化到 1.024m。",
+   "method_cn": "粗网格编码全场景 → 路径热度头选 top-k → 固定预算内细化 → 轨迹头读混合分辨率 BEV。10% 细化预算下仅需 28% 的 BEV query、66% 编码算力，无需 HD 地图或导航指令。",
+   "summary_zh": " 【TL;DR】BEV 分辨率按预测行驶路径自适应：路径经过的格子细化，其余保持粗分辨率。\n\n【核心贡献】相机 e2e 模型对整张稠密 BEV 做等量计算，但规划视野内车辆只经过少量格子。BEVCast 两阶段：4.096m 粗网格 + 热度头选中格子细化到 1.024m。\n\n【方法要点】粗网格编码全场景 → 路径热度头选 top-k → 固定预算内细化 → 轨迹头读混合分辨率 BEV。10% 细化预算下仅需 28% 的 BEV query、66% 编码算力，无需 HD 地图或导航指令。"
+  },
+  {
+   "id": "2611.08657",
+   "title": "JEPAhead: From Inpainting to Causal Forecasting for Urban Driving",
+   "authors": [
+    "Daniel G. P. Petrini",
+    "Davi Pincinato",
+    "Fabio Grassiotto",
+    "Pedro L. F. Prado",
+    "Alexandre F. S. Osorio",
+    "Raphael V. Ramos",
+    "Felipe Pamboukian"
+   ],
+   "published": "5 Nov 2026",
+   "arxiv_url": "https://arxiv.org/abs/2611.08657",
+   "pdf_url": "https://arxiv.org/pdf/2611.08657",
+   "summary": "We fine-tune a pre-trained V-JEPA1 predictor from bidirectional latent inpainting to action-free causal forecasting while keeping the encoder frozen. Using contiguous past observations, horizon-aligned targets, and group-level causal attention, the model forecasts eight future token groups, corresponding to sixteen frames, in one forward pass. On CARLA Town12, it retrieves the correct future among 591 candidates in 69.0% of cases, compared with 55.3% for persistence, with greater gains at longer horizons and on tokens exhibiting greater change. It also outperforms a compact predictor trained from scratch with six times fewer parameters. Semantic analysis indicates driving-relevant information in predicted features: a fixed linear probe trained on real encoder tokens achieves 0.16 mIoU on patches undergoing semantic-class changes, versus 0.13 for persistence. Vehicle-conditioned retrieval improves over persistence by 15 percentage points at the longest horizon. Pixel-space evaluation shows modest L1 gains but little improvement under LPIPS, motivating direct evaluation through latent and semantic measures alongside an oracle reconstruction reference. These findings support further investigation of latent forecasting for driving perception, while downstream utility remains unverified.",
+   "categories": [
+    "cs.CV",
+    "cs.AI"
+   ],
+   "subjects": "Computer Vision and Pattern Recognition (cs.CV); Artificial Intelligence (cs.AI)",
+   "relevance_score": 4,
+   "score": 4,
+   "topic": "e2e-autonomous-driving",
+   "is_new": true,
+   "status": "新发现",
+   "status_en": "new",
+   "in_kb": false,
+   "source": "arxiv",
+   "added": "2026-11-09",
+   "tldr": "把 V-JEPA1 从双向潜修补微调为无动作因果预测，作为城市驾驶表征。",
+   "contribution_cn": "冻结编码器，只把一个预训练 V-JEPA1 predictor 从双向 inpainting 改为因果预测；用连续过去观测、horizon 对齐目标与组级因果注意力，一次前向预测 16 帧。",
+   "method_cn": "CARLA Town12：591 候选中检索正确未来 69.0%（persistence 55.3%），长时程收益更大；固定线性探针在发生语义类别变化的 patch 上 0.16 mIoU（persistence 0.13）。",
+   "summary_zh": " 【TL;DR】把 V-JEPA1 从双向潜修补微调为无动作因果预测，作为城市驾驶表征。\n\n【核心贡献】冻结编码器，只把一个预训练 V-JEPA1 predictor 从双向 inpainting 改为因果预测；用连续过去观测、horizon 对齐目标与组级因果注意力，一次前向预测 16 帧。\n\n【方法要点】CARLA Town12：591 候选中检索正确未来 69.0%（persistence 55.3%），长时程收益更大；固定线性探针在发生语义类别变化的 patch 上 0.16 mIoU（persistence 0.13）。"
+  },
+  {
+   "id": "2611.09340",
+   "title": "Horizon-Coupled Obstacle Guidance for Relative-Action Diffusion Policies",
+   "authors": [
+    "Guangyuan Wang",
+    "Haishan Xia",
+    "Zitao Zhang",
+    "Kejia Chen",
+    "Yuanchen Sun",
+    "Zhenguo Sun",
+    "Donghao Zhang",
+    "Yu Zhang",
+    "Alois Knoll"
+   ],
+   "published": "",
+   "arxiv_url": "https://arxiv.org/abs/2611.09340",
+   "pdf_url": "https://arxiv.org/pdf/2611.09340",
+   "summary": "",
+   "categories": [
+    "cs.RO"
+   ],
+   "subjects": "",
+   "relevance_score": 3,
+   "score": 3,
+   "topic": "Diffusion Policy",
+   "is_new": true,
+   "status": "新发现",
+   "status_en": "new",
+   "in_kb": false,
+   "source": "arxiv",
+   "added": "2026-11-09",
+   "tldr": "面向相对动作空间扩散策略的 horizon 耦合障碍物引导。",
+   "contribution_cn": "针对相对动作参数化的扩散策略，用 horizon 耦合的障碍引导改善避障表现。",
+   "method_cn": "在扩散采样过程中引入随预测时域耦合变化的障碍物代价引导。",
+   "summary_zh": " 【TL;DR】面向相对动作空间扩散策略的 horizon 耦合障碍物引导。\n\n【核心贡献】针对相对动作参数化的扩散策略，用 horizon 耦合的障碍引导改善避障表现。\n\n【方法要点】在扩散采样过程中引入随预测时域耦合变化的障碍物代价引导。"
+  },
   {
    "id": "2611.00177",
    "title": "AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation",
@@ -532,7 +924,8 @@
    "topic": "AD Perception/Planning",
    "is_new": true,
    "source": "arxiv",
-   "added": "2026-11-08"
+   "added": "2026-11-08",
+   "score": 3
   },
   {
    "id": "2611.05291",
@@ -623,11 +1016,12 @@
    "categories": [
     "cs.CV"
    ],
-   "relevance_score": 3,
+   "relevance_score": 4,
    "topic": "AD Perception/Planning",
    "is_new": true,
    "source": "arxiv",
-   "added": "2026-11-08"
+   "added": "2026-11-08",
+   "score": 4
   },
   {
    "id": "2611.07613",
@@ -1626,7 +2020,8 @@
    "relevance_score": 5,
    "topic": "world-models-ad",
    "is_new": false,
-   "source": "arxiv"
+   "source": "arxiv",
+   "score": 5
   },
   {
    "id": "2611.04374",
@@ -2164,11 +2559,13 @@
    "status_en": "new",
    "arxiv_id": "2611.02076",
    "url": "https://arxiv.org/abs/2611.02076",
-   "in_kb": false,
+   "in_kb": true,
    "in_dashboard": true,
-   "score": 4,
+   "score": 5,
    "weekly_pick": false,
-   "is_new": false
+   "is_new": false,
+   "relevance_score": 5,
+   "analysis_path": "e2e-autonomous-driving/analysis/2611.02076-SceneAdaptiveReadout-DiffusionVLA.md"
   },
   {
    "title": "PlanContext: Benchmarking In-Context Driving Decision-Making",
@@ -2230,9 +2627,10 @@
    "url": "https://arxiv.org/abs/2611.00718",
    "in_kb": false,
    "in_dashboard": true,
-   "score": 5,
+   "score": 4,
    "weekly_pick": false,
-   "is_new": false
+   "is_new": false,
+   "relevance_score": 4
   },
   {
    "title": "DriftingPlanner: Drifting Generative Models for One-Step Trajectory Planning in End-to-End Autonomous Driving",
@@ -2250,11 +2648,12 @@
    "status_en": "new",
    "arxiv_id": "2611.01283",
    "url": "https://arxiv.org/abs/2611.01283",
-   "in_kb": false,
+   "in_kb": true,
    "in_dashboard": true,
    "score": 5,
    "weekly_pick": false,
-   "is_new": false
+   "is_new": false,
+   "analysis_path": "e2e-autonomous-driving/analysis/2611.01283-DriftingPlanner-OneStepTrajectory.md"
   },
   {
    "title": "SCOUT: Planning under Occlusion via Object-Centric World Model Rollouts",
@@ -2361,9 +2760,10 @@
    "url": "https://arxiv.org/abs/2611.02526",
    "in_kb": false,
    "in_dashboard": true,
-   "score": 4,
+   "score": 5,
    "weekly_pick": false,
-   "is_new": false
+   "is_new": false,
+   "relevance_score": 5
   },
   {
    "title": "Scaling Action-Free Video Latent Prediction for Transferable Representations in End-to-End Autonomous Driving",
@@ -37081,7 +37481,8 @@
    "source": "arxiv",
    "relevance_score": 4,
    "topic": "world-models-ad",
-   "is_new": false
+   "is_new": false,
+   "score": 4
   },
   {
    "id": "2611.04173",
@@ -37482,37 +37883,42 @@
    "source": "arxiv"
   }
  ],
- "updated_at": "2026-11-06T16:00:00-08:00",
- "last_updated": "2026-11-07",
+ "updated_at": "2026-11-09T16:14:32-08:00",
+ "last_updated": "2026-11-09",
  "category_counts": {
-  "World Models": 79,
-  "Diffusion Policy": 28,
-  "e2e-autonomous-driving": 491,
-  "BEV Perception": 23,
-  "vla-autonomous-driving": 280,
-  "world-models-ad": 348,
-  "Planning": 29,
-  "other": 361,
-  "robotics": 1,
-  "World Models / Autonomous Driving": 5,
-  "World Action Models": 7,
-  "End-to-End Autonomous Driving": 9,
-  "Embodied AI / Robotics": 1,
-  "World Action Models / Robot Manipulation": 3,
+  "e2e-autonomous-driving": 503,
+  "null": 361,
+  "world-models-ad": 354,
+  "vla-autonomous-driving": 282,
+  "World Models": 93,
   "VLA": 55,
-  "BEV / 3D Perception": 1,
-  "World Action Models / Robotic Manipulation": 3,
-  "LLM Agent": 1,
+  "Diffusion Policy": 30,
+  "Planning": 29,
+  "BEV Perception": 24,
+  "AD Perception/Planning": 19,
   "End-to-End AD": 13,
-  "Dataset Analysis": 1,
-  "World Model": 2,
+  "Vision-Language-Action (VLA)": 13,
+  "End-to-End Autonomous Driving": 9,
+  "World Action Models": 8,
+  "World Models AD": 8,
   "Perception": 7,
+  "World Models / Autonomous Driving": 5,
+  "VLA Autonomous Driving": 4,
+  "World Action Models / Robot Manipulation": 3,
+  "World Action Models / Robotic Manipulation": 3,
+  "E2E Autonomous Driving": 2,
+  "World Model": 2,
+  "World Models / Evaluation": 2,
+  "End-to-End Autonomous Driving / Simulation": 2,
+  "Robotics": 1,
+  "robotics": 1,
+  "Embodied AI / Robotics": 1,
+  "BEV / 3D Perception": 1,
+  "LLM Agent": 1,
+  "Dataset Analysis": 1,
   "LLM Agents": 1,
   "VLA Reasoning": 1,
   "Motion Planning": 1,
-  "World Models / Evaluation": 2,
-  "World Models AD": 8,
-  "Vision-Language-Action (VLA)": 13,
   "End-to-End Autonomous Driving / World Models": 1,
   "World Models / Autonomous Navigation": 1,
   "World Models / Planning": 1,
@@ -37524,7 +37930,6 @@
   "Autonomous Driving RL": 1,
   "VLA Robustness": 1,
   "World Action Models / Autonomous Driving": 1,
-  "End-to-End Autonomous Driving / Simulation": 2,
   "World Action Models / Deployment": 1,
   "Imitation Learning / Behavioral Cloning": 1,
   "VLA / Long-Horizon Manipulation": 1,
@@ -37545,7 +37950,6 @@
   "Video Generation": 1,
   "Video World Models": 1,
   "Vision Language Models": 1,
-  "VLA Autonomous Driving": 4,
   "Simulation & Validation": 1,
   "Planning & Navigation": 1,
   "VLA / Embodied AI": 1,
@@ -37561,7 +37965,7 @@
   "Vision-Language Navigation / Traversability": 1,
   "World Models / Imitation Learning": 1
  },
- "total_papers": 1825,
+ "total_papers": 1885,
  "weekly": [
   {
    "title": "WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation",
@@ -37716,6 +38120,18 @@
   }
  ],
  "new_findings": [
+  "2611.09340",
+  "2611.08657",
+  "2611.08631",
+  "2611.06453",
+  "2611.05615",
+  "2611.02677",
+  "2611.02405",
+  "2611.02240",
+  "2611.00833",
+  "2611.00828",
+  "2611.00071",
+  "2611.00044",
   "2611.00177",
   "2610.31166",
   "2611.02815",
@@ -37753,7 +38169,7 @@
   "2611.05567",
   "2611.05667"
  ],
- "last_scan": "2026-11-08T16:22:49-08:00",
+ "last_scan": "2026-11-09",
  "weekly_roundup": {
   "week": "2026-11-07",
   "range": "2026-10-31 ~ 2026-11-07",

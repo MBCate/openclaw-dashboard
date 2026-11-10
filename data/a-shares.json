@@ -1,199 +1,133 @@
 {
-  "date": "2026-11-09",
-  "time": "close",
-  "fetched_at": "2026-11-09T07:08:15Z",
+  "date": "2026-11-10",
+  "time": "noon",
+  "fetched_at": "2026-11-10T03:35:30Z",
   "indices": {
     "上证指数": {
       "code": "000001",
-      "price": 3660.79,
-      "change": 11.61,
-      "change_pct": 0.32,
-      "prev_close": 3649.18,
-      "high": 3679.09,
-      "low": 3653.05,
-      "date": "2026-11-09",
-      "source": "em-spot"
+      "price": 3662.81,
+      "change": 2.02,
+      "change_pct": 0.06
     },
     "深证成指": {
       "code": "399001",
-      "price": 11145.49,
-      "change": -30.29,
-      "change_pct": -0.27,
-      "prev_close": 11175.78,
-      "high": 11311.2,
-      "low": 11145.49,
-      "date": "2026-11-09",
-      "source": "em-daily"
+      "price": 11229.66,
+      "change": 84.17,
+      "change_pct": 0.76
     },
     "创业板指": {
       "code": "399006",
-      "price": 2458.56,
-      "change": -6.67,
-      "change_pct": -0.27,
-      "prev_close": 2465.23,
-      "high": 2511.71,
-      "low": 2458.01,
-      "date": "2026-11-09",
-      "source": "em-daily"
+      "price": 2495.29,
+      "change": 36.73,
+      "change_pct": 1.49
     },
     "沪深300": {
       "code": "000300",
-      "price": 4056.11,
-      "change": 1.83,
-      "change_pct": 0.05,
-      "prev_close": 4054.28,
-      "high": 4081.09,
-      "low": 4054.0,
-      "date": "2026-11-09",
-      "source": "em-spot"
+      "price": 4058.95,
+      "change": 2.84,
+      "change_pct": 0.07
     },
     "上证50": {
       "code": "000016",
-      "price": 2789.15,
-      "change": 1.74,
-      "change_pct": 0.06,
-      "prev_close": 2787.41,
-      "high": 2795.97,
-      "low": 2780.81,
-      "date": "2026-11-09",
-      "source": "em-spot"
+      "price": 2777.0,
+      "change": -12.15,
+      "change_pct": -0.44
     },
     "中证500": {
       "code": "000905",
-      "price": 6586.18,
-      "change": -11.17,
-      "change_pct": -0.17,
-      "prev_close": 6597.35,
-      "high": 6691.11,
-      "low": 6583.97,
-      "date": "2026-11-09",
-      "source": "em-spot"
+      "price": 6640.4,
+      "change": 54.22,
+      "change_pct": 0.82
     },
     "科创50": {
       "code": "000688",
-      "price": 1256.96,
-      "change": 3.76,
-      "change_pct": 0.3,
-      "prev_close": 1253.2,
-      "high": 1277.34,
-      "low": 1252.62,
-      "date": "2026-11-09",
-      "source": "em-spot"
+      "price": 1270.14,
+      "change": 13.18,
+      "change_pct": 1.05
     },
     "中证1000": {
       "code": "000852",
-      "price": 6499.74,
-      "change": -5.61,
-      "change_pct": -0.09,
-      "prev_close": 6505.35,
-      "high": 6612.02,
-      "low": 6499.74,
-      "date": "2026-11-09",
-      "source": "em-spot"
+      "price": 6570.03,
+      "change": 70.29,
+      "change_pct": 1.08
     }
   },
   "hang_seng": {
-    "code": "HSI",
-    "price": 24482.51,
-    "change": 0.65,
-    "change_pct": 0.0,
-    "prev_close": 24481.86,
-    "date": "2026-11-09"
+    "name": "恒生指数",
+    "price": 24507.11,
+    "change": 58.16,
+    "change_pct": 0.24,
+    "time": ""
   },
   "sectors": {
     "top5": [
       {
-        "name": "焦炭Ⅲ",
-        "change_pct": 5.39
+        "name": "文字媒体",
+        "change_pct": 8.61,
+        "turnover": 56.6
       },
       {
-        "name": "焦炭Ⅱ",
-        "change_pct": 5.39
+        "name": "其他数字媒体",
+        "change_pct": 7.37,
+        "turnover": 29.39
       },
       {
-        "name": "卫浴电器",
-        "change_pct": 5.1
+        "name": "影视动漫制作",
+        "change_pct": 6.59,
+        "turnover": 134.0
       },
       {
-        "name": "汽车综合服务",
-        "change_pct": 4.15
+        "name": "影视院线",
+        "change_pct": 6.04,
+        "turnover": 145.29
       },
       {
-        "name": "煤炭",
-        "change_pct": 3.47
+        "name": "钨",
+        "change_pct": 5.84,
+        "turnover": 44.02
       }
     ],
     "bottom5": [
       {
-        "name": "教育运营及其他",
-        "change_pct": -6.67
+        "name": "其他通用设备",
+        "change_pct": 1.75,
+        "turnover": 59.45
       },
       {
-        "name": "宠物食品",
-        "change_pct": -3.48
+        "name": "改性塑料",
+        "change_pct": 1.77,
+        "turnover": 16.98
       },
       {
-        "name": "钾肥",
-        "change_pct": -2.98
+        "name": "仪器仪表",
+        "change_pct": 1.77,
+        "turnover": 98.97
       },
       {
-        "name": "逆变器",
-        "change_pct": -2.94
+        "name": "机械设备",
+        "change_pct": 1.78,
+        "turnover": 943.52
       },
       {
-        "name": "锂",
-        "change_pct": -2.93
+        "name": "合成树脂",
+        "change_pct": 1.8,
+        "turnover": 42.69
       }
     ],
-    "count": 496,
-    "up": 188,
-    "down": 307,
-    "median_change_pct": -0.23,
-    "source": "akshare stock_board_industry_name_em"
+    "count": 100,
+    "source": "eastmoney"
   },
   "northbound": {
-    "date": "2026-11-09",
-    "net": null,
+    "date": null,
+    "net": 0.0,
     "items": [],
-    "note": "实时净流入自 2024-08 起停止披露；北向成交额及持股数据仍可参考东方财富披露",
-    "summary": [
-      {
-        "board": "沪股通",
-        "direction": "北向",
-        "net": 0.0,
-        "status": 3
-      },
-      {
-        "board": "港股通(沪)",
-        "direction": "南向",
-        "net": 18.819637,
-        "status": 1
-      },
-      {
-        "board": "深股通",
-        "direction": "北向",
-        "net": 0.0,
-        "status": 3
-      },
-      {
-        "board": "港股通(深)",
-        "direction": "南向",
-        "net": 9.939167,
-        "status": 1
-      }
-    ]
+    "note": "沪深港通北向资金自2024-08起停止实时披露"
   },
+  "southbound": [],
   "breadth": {
-    "up": 188,
-    "down": 307,
-    "flat": 1,
-    "coverage": 496,
-    "metric": "行业板块涨跌家数"
+    "up": 3675,
+    "down": 1389,
+    "flat": 231
   },
-  "data_quality": {
-    "indices_ok": 8,
-    "indices_failed": [],
-    "sectors_ok": true,
-    "note": "AkShare 东方财富快照：上证/沪深300等用指数实时快照，深证/创业板用日K收盘（东财指数列表未含深市）；北向自2024-08停止实时披露"
-  }
+  "note": "数据源: 东方财富 push2(跟随302到 push2delay) 指数/行业板块/涨跌家数/恒指。北向资金已停止实时披露。"
 }

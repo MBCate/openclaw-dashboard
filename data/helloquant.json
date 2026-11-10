@@ -1,120 +1,115 @@
 {
   "source": "~/trading/helloquant",
-  "updated": "2026-11-09 07:14 UTC",
+  "updated": "2026-11-10 07:15 UTC",
   "status": "success",
   "last_run": {
-    "date": "2026-11-08",
-    "timestamp": "2026-11-08T23:09:41.615929",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-09T23:15:22.551498",
     "success": true,
-    "note": "采集管线最近一次运行 2026-11-08 (6/6 成功)"
+    "note": "采集管线最近一次运行 2026-11-10 (6/6 成功)"
   },
   "crypto": {
     "status": "success",
     "btc": {
-      "price": 74168.8,
-      "change_24h": -2.24
+      "price": 74663.2,
+      "change_24h": 0.92
     },
     "eth": {
-      "price": 2105.37,
-      "change_24h": -5.83
+      "price": 2116.13,
+      "change_24h": 1.17
     },
-    "note": "OKX 数据正常; BTC 74168.8 (-2.24%) / ETH 2105.37 (-5.83%)"
+    "note": "OKX 数据正常; BTC 74663.2 (+0.92%) / ETH 2116.13 (+1.17%)"
   },
   "sentiment": {
     "crypto_fear_greed": {
-      "value": 29,
+      "value": 32,
       "classification": "Fear"
     }
   },
   "stocks": {
     "status": "success",
-    "note": "2026-11-08 A股/期货收盘数据",
-    "data": {
-      "50ETF波动率": {
-        "value": 15.95,
-        "date": "2026-11-06"
-      }
-    }
+    "note": "2026-11-10 A股/期货收盘数据",
+    "data": {}
   },
   "signals": {
     "DoubleMa": {
       "1h": {
         "signal": "观望",
-        "price": 74015.7
+        "price": 74678.7
       },
       "4h": {
         "signal": "观望",
-        "price": 74037.7
+        "price": 74688.8
       }
     },
     "RSI": {
       "1h": {
         "signal": "观望",
-        "price": 74015.7
+        "price": 74678.7
       },
       "4h": {
-        "signal": "做多",
-        "price": 74037.7
+        "signal": "观望",
+        "price": 74688.8
       }
     },
     "MACD": {
       "1h": {
-        "signal": "观望",
-        "price": 74015.7
+        "signal": "做空",
+        "price": 74678.7
       },
       "4h": {
-        "signal": "做空",
-        "price": 74037.7
+        "signal": "做多",
+        "price": 74688.8
       }
     },
     "Bollinger": {
       "1h": {
         "signal": "观望",
-        "price": 74015.7
+        "price": 74678.7
       },
       "4h": {
-        "signal": "做多",
-        "price": 74037.7
+        "signal": "观望",
+        "price": 74688.8
       }
     },
     "Supertrend": {
       "1h": {
         "signal": "观望",
-        "price": 74015.7
+        "price": 74678.7
       },
       "4h": {
         "signal": "观望",
-        "price": 74037.7
+        "price": 74688.8
       }
     },
     "TripleMa": {
       "1h": {
-        "signal": "观望",
-        "price": 74015.7
+        "signal": "做空",
+        "price": 74678.7
       },
       "4h": {
-        "signal": "做空",
-        "price": 74037.7
+        "signal": "观望",
+        "price": 74688.8
       }
     },
     "Momentum": {
       "1h": {
         "signal": "观望",
-        "price": 74015.7
+        "price": 74678.7
       },
       "4h": {
-        "signal": "做空",
-        "price": 74037.7
+        "signal": "观望",
+        "price": 74688.8
       }
     },
     "MeanReversion": {
       "1h": {
         "signal": "观望",
-        "price": 74015.7
+        "price": 74678.7
       },
       "4h": {
-        "signal": "做多",
-        "price": 74037.7
+        "signal": "观望",
+        "price": 74688.8
       }
     }
   },
@@ -130,8 +125,8 @@
     },
     {
       "name": "TripleMa",
-      "signal_1h": "观望",
-      "signal_4h": "做空",
+      "signal_1h": "做空",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -149,7 +144,7 @@
     {
       "name": "RSI",
       "signal_1h": "观望",
-      "signal_4h": "做多",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -157,8 +152,8 @@
     },
     {
       "name": "MACD",
-      "signal_1h": "观望",
-      "signal_4h": "做空",
+      "signal_1h": "做空",
+      "signal_4h": "做多",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -167,7 +162,7 @@
     {
       "name": "Bollinger",
       "signal_1h": "观望",
-      "signal_4h": "做多",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -176,7 +171,7 @@
     {
       "name": "Momentum",
       "signal_1h": "观望",
-      "signal_4h": "做空",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -185,7 +180,7 @@
     {
       "name": "MeanReversion",
       "signal_1h": "观望",
-      "signal_4h": "做多",
+      "signal_4h": "观望",
       "daily_return": 0.0,
       "weekly_return": null,
       "max_drawdown": null,
@@ -259,5 +254,5 @@
       }
     ]
   },
-  "updated_at": "2026-11-09 07:14 UTC"
+  "updated_at": "2026-11-10 07:15 UTC"
 }

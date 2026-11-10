@@ -1,0 +1,263 @@
+{
+  "source": "~/trading/helloquant",
+  "updated": "2026-11-09 07:14 UTC",
+  "status": "success",
+  "last_run": {
+    "date": "2026-11-08",
+    "timestamp": "2026-11-08T23:09:41.615929",
+    "success": true,
+    "note": "采集管线最近一次运行 2026-11-08 (6/6 成功)"
+  },
+  "crypto": {
+    "status": "success",
+    "btc": {
+      "price": 74168.8,
+      "change_24h": -2.24
+    },
+    "eth": {
+      "price": 2105.37,
+      "change_24h": -5.83
+    },
+    "note": "OKX 数据正常; BTC 74168.8 (-2.24%) / ETH 2105.37 (-5.83%)"
+  },
+  "sentiment": {
+    "crypto_fear_greed": {
+      "value": 29,
+      "classification": "Fear"
+    }
+  },
+  "stocks": {
+    "status": "success",
+    "note": "2026-11-08 A股/期货收盘数据",
+    "data": {
+      "50ETF波动率": {
+        "value": 15.95,
+        "date": "2026-11-06"
+      }
+    }
+  },
+  "signals": {
+    "DoubleMa": {
+      "1h": {
+        "signal": "观望",
+        "price": 74015.7
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 74037.7
+      }
+    },
+    "RSI": {
+      "1h": {
+        "signal": "观望",
+        "price": 74015.7
+      },
+      "4h": {
+        "signal": "做多",
+        "price": 74037.7
+      }
+    },
+    "MACD": {
+      "1h": {
+        "signal": "观望",
+        "price": 74015.7
+      },
+      "4h": {
+        "signal": "做空",
+        "price": 74037.7
+      }
+    },
+    "Bollinger": {
+      "1h": {
+        "signal": "观望",
+        "price": 74015.7
+      },
+      "4h": {
+        "signal": "做多",
+        "price": 74037.7
+      }
+    },
+    "Supertrend": {
+      "1h": {
+        "signal": "观望",
+        "price": 74015.7
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 74037.7
+      }
+    },
+    "TripleMa": {
+      "1h": {
+        "signal": "观望",
+        "price": 74015.7
+      },
+      "4h": {
+        "signal": "做空",
+        "price": 74037.7
+      }
+    },
+    "Momentum": {
+      "1h": {
+        "signal": "观望",
+        "price": 74015.7
+      },
+      "4h": {
+        "signal": "做空",
+        "price": 74037.7
+      }
+    },
+    "MeanReversion": {
+      "1h": {
+        "signal": "观望",
+        "price": 74015.7
+      },
+      "4h": {
+        "signal": "做多",
+        "price": 74037.7
+      }
+    }
+  },
+  "strategies": [
+    {
+      "name": "DoubleMa",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "TripleMa",
+      "signal_1h": "观望",
+      "signal_4h": "做空",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Supertrend",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "RSI",
+      "signal_1h": "观望",
+      "signal_4h": "做多",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "MACD",
+      "signal_1h": "观望",
+      "signal_4h": "做空",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Bollinger",
+      "signal_1h": "观望",
+      "signal_4h": "做多",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Momentum",
+      "signal_1h": "观望",
+      "signal_4h": "做空",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "MeanReversion",
+      "signal_1h": "观望",
+      "signal_4h": "做多",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    }
+  ],
+  "news": {
+    "status": "success",
+    "note": "RSS 采集 5 条",
+    "items": [
+      {
+        "source": "Cointelegraph",
+        "title": "Here’s what happened in crypto today",
+        "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Zcash devs propose another block time cut days after NU7 upgrade",
+        "link": "https://cointelegraph.com/news/zcash-developers-propose-20-second-blocks-nu7-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "tBTC bridge partially resumes as $120M Aave reserve remains frozen",
+        "link": "https://cointelegraph.com/news/tbtc-bridge-resumes-aave-120m-reserve-frozen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Vitalik ‘pivots’ ETH to store of value, crypto suffers after US midterms: Hodler’s Digest",
+        "link": "https://cointelegraph.com/magazine/vitaliks-pivots-to-eth-as-a-store-of-value-us-election-weighs-on-crypto-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Binance France emails announce closure of its users’ accounts on Dec. 31",
+        "link": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      }
+    ]
+  },
+  "papers": {
+    "status": "success",
+    "note": "arXiv 采集 10 篇",
+    "items": [
+      {
+        "title": "The Logic of Factor Portfolios: Boolean Rules, Interactions, and Trading Costs"
+      },
+      {
+        "title": "Drift-invariant kernels for discount curve models"
+      },
+      {
+        "title": "The End-of-Day Reversal After 2019: A Pre-Registered Test on S&P 500 Stocks Excluding Heavily Traded Names"
+      },
+      {
+        "title": "Joint modelling of financial cost and carbon footprint in motor insurance claims: a BINAR(1) decision framework for circular auto parts adoption"
+      },
+      {
+        "title": "Towards Robust Reinforcement Learning Market Making: Lessons from Loss Function Experimentation"
+      },
+      {
+        "title": "Portfolio-aware scenario transfer of reserve movements: evidence from Lloyd's syndicates"
+      },
+      {
+        "title": "Does a Trading Policy Need to Know What It Trades? Microstructure Invariance and Zero-Shot Transfer of Execution Policies"
+      },
+      {
+        "title": "FINCOSMOS: An Open-World Evaluation Paradigm for Agents in Finance"
+      },
+      {
+        "title": "Information-Theoretic Model for the Growth Optimal Portfolio of Stocks"
+      },
+      {
+        "title": "Neural Realized Measures: Forecast-Supervised Intraday Aggregation for Volatility Forecasting"
+      }
+    ]
+  },
+  "updated_at": "2026-11-09 07:14 UTC"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-10",
+  "time": "close",
+  "fetched_at": "2026-11-10T07:05:19Z",
+  "indices": {},
+  "hang_seng": {
+    "error": "HTTPSConnectionPool(host='hq.sinajs.cn', port=443): Max retries exceeded with url: /list=rt_hkHSI (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)')))"
+  },
+  "sectors": {
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "northbound": {
+    "date": "2026-11-10",
+    "net": 0.0,
+    "items": [
+      {
+        "board": "沪股通",
+        "net": 0.0,
+        "up": 1063,
+        "flat": 55,
+        "down": 528
+      },
+      {
+        "board": "深股通",
+        "net": 0.0,
+        "up": 1433,
+        "flat": 56,
+        "down": 404
+      }
+    ]
+  },
+  "southbound": [
+    {
+      "board": "港股通(沪)",
+      "net": -19.99
+    },
+    {
+      "board": "港股通(深)",
+      "net": -6.34
+    }
+  ],
+  "breadth": {
+    "up": 2496,
+    "down": 932,
+    "flat": 111
+  },
+  "note": "数据源: 新浪(指数/行业板块) + 东方财富(AkShare 沪深港通资金)。东财 push2 分片接口今日经代理不可达(48/17.push2.eastmoney.com)，指数改用新浪源；北向资金交易状态为暂停(3)。"
+}

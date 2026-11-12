@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-11",
+  "time": "close",
+  "fetched_at": "2026-11-11T07:05:19Z",
+  "indices": {
+    "上证指数": {
+      "code": "000001",
+      "price": 3680.64,
+      "change": 16.92,
+      "change_pct": 0.46,
+      "turnover_yi": 7361.5
+    },
+    "深证成指": {
+      "code": "399001",
+      "price": 11389.74,
+      "change": 148.2,
+      "change_pct": 1.32,
+      "turnover_yi": 9401.2
+    },
+    "创业板指": {
+      "code": "399006",
+      "price": 2572.07,
+      "change": 77.67,
+      "change_pct": 3.11,
+      "turnover_yi": 4805.4
+    },
+    "沪深300": {
+      "code": "000300",
+      "price": 4075.71,
+      "change": 16.6,
+      "change_pct": 0.41,
+      "turnover_yi": 4421.3
+    },
+    "上证50": {
+      "code": "000016",
+      "price": 2765.54,
+      "change": -7.42,
+      "change_pct": -0.27,
+      "turnover_yi": 1107.6
+    },
+    "中证500": {
+      "code": "000905",
+      "price": 6713.18,
+      "change": 67.29,
+      "change_pct": 1.01,
+      "turnover_yi": 2750.9
+    },
+    "科创50": {
+      "code": "000688",
+      "price": 1300.38,
+      "change": 35.36,
+      "change_pct": 2.8,
+      "turnover_yi": 764.4
+    },
+    "中证1000": {
+      "code": "000852",
+      "price": 6669.55,
+      "change": 90.19,
+      "change_pct": 1.37,
+      "turnover_yi": 3375.3
+    }
+  },
+  "breadth": {
+    "up": 3415,
+    "down": 1676,
+    "flat": 205
+  },
+  "hang_seng": {
+    "name": "恒生指数",
+    "price": 24352.83,
+    "change": -204.21,
+    "change_pct": -0.83,
+    "time": ""
+  },
+  "sectors": {
+    "top5": [
+      {
+        "name": "其他数字媒体",
+        "change_pct": 7.27,
+        "turnover": 42.2
+      },
+      {
+        "name": "通信网络设备及器件",
+        "change_pct": 7.19,
+        "turnover": 1016.6
+      },
+      {
+        "name": "通信线缆及配套",
+        "change_pct": 6.04,
+        "turnover": 245.9
+      },
+      {
+        "name": "印制电路板",
+        "change_pct": 5.76,
+        "turnover": 856.7
+      },
+      {
+        "name": "元件",
+        "change_pct": 4.9,
+        "turnover": 982.1
+      }
+    ],
+    "bottom5": [
+      {
+        "name": "教育",
+        "change_pct": 1.77,
+        "turnover": 30.2
+      },
+      {
+        "name": "印染",
+        "change_pct": 1.77,
+        "turnover": 3.2
+      },
+      {
+        "name": "油田服务",
+        "change_pct": 1.77,
+        "turnover": 10.8
+      },
+      {
+        "name": "包装印刷",
+        "change_pct": 1.76,
+        "turnover": 69.5
+      },
+      {
+        "name": "辅料",
+        "change_pct": 1.76,
+        "turnover": 3.2
+      }
+    ],
+    "count": 100,
+    "source": "eastmoney"
+  },
+  "southbound": [],
+  "northbound": {
+    "date": null,
+    "net": 0.0,
+    "items": [],
+    "note": "沪深港通北向资金自2024-08起停止实时披露"
+  },
+  "note": "数据源: 东方财富 push2 (指数/行业板块/涨跌家数/恒指)。北向资金已停止实时披露。"
+}

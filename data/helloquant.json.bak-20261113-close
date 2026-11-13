@@ -1,0 +1,259 @@
+{
+  "source": "~/trading/helloquant",
+  "updated": "2026-11-12 07:15 UTC",
+  "status": "success",
+  "last_run": {
+    "date": "2026-11-11",
+    "timestamp": "2026-11-11T23:08:59.925348",
+    "success": true,
+    "note": "采集管线本次运行成功 (6/6)；A股指数/期货子项因行情接口不可达失败，加密/情绪/新闻/论文/信号均正常"
+  },
+  "crypto": {
+    "status": "success",
+    "btc": {
+      "price": 73518.0,
+      "change_24h": -0.16
+    },
+    "eth": {
+      "price": 2045.98,
+      "change_24h": -0.52
+    },
+    "note": "OKX 数据正常; BTC 73518.00 (-0.16%) / ETH 2045.98 (-0.52%)"
+  },
+  "sentiment": {
+    "crypto_fear_greed": {
+      "value": 28,
+      "classification": "Fear",
+      "timestamp": "1794441600"
+    }
+  },
+  "stocks": {
+    "status": "partial",
+    "note": "2026-11-12 A股指数/期货采集失败(行情接口SSL/网关异常)，加密与信号正常",
+    "data": {}
+  },
+  "signals": {
+    "DoubleMa": {
+      "1h": {
+        "signal": "做空",
+        "price": 73572.6
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 73569.8
+      }
+    },
+    "RSI": {
+      "1h": {
+        "signal": "做多",
+        "price": 73572.6
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 73569.8
+      }
+    },
+    "MACD": {
+      "1h": {
+        "signal": "观望",
+        "price": 73572.6
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 73569.8
+      }
+    },
+    "Bollinger": {
+      "1h": {
+        "signal": "观望",
+        "price": 73572.6
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 73569.8
+      }
+    },
+    "Supertrend": {
+      "1h": {
+        "signal": "观望",
+        "price": 73572.6
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 73569.8
+      }
+    },
+    "TripleMa": {
+      "1h": {
+        "signal": "观望",
+        "price": 73572.6
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 73569.8
+      }
+    },
+    "Momentum": {
+      "1h": {
+        "signal": "做空",
+        "price": 73572.6
+      },
+      "4h": {
+        "signal": "做空",
+        "price": 73569.8
+      }
+    },
+    "MeanReversion": {
+      "1h": {
+        "signal": "观望",
+        "price": 73572.6
+      },
+      "4h": {
+        "signal": "观望",
+        "price": 73569.8
+      }
+    }
+  },
+  "strategies": [
+    {
+      "name": "DoubleMa",
+      "signal_1h": "做空",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "TripleMa",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Supertrend",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "RSI",
+      "signal_1h": "做多",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "MACD",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Bollinger",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Momentum",
+      "signal_1h": "做空",
+      "signal_4h": "做空",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "MeanReversion",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "daily_return": 0.0,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    }
+  ],
+  "news": {
+    "status": "success",
+    "note": "RSS 采集 5 条",
+    "items": [
+      {
+        "source": "Cointelegraph",
+        "title": "Here’s what happened in crypto today",
+        "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "South Korea to permit crypto withdrawal freezes during hacking threats",
+        "link": "https://cointelegraph.com/news/south-korea-crypto-withdrawal-freezes-suspected-hacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Binance CSO unwittingly foreshadowed $6.3B hack tactic months before attack",
+        "link": "https://cointelegraph.com/news/binance-cso-foreshadowed-6b-hack-tactic-months-before-attack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "MSCI confirms Strategy’s removal from indexes at end of November",
+        "link": "https://cointelegraph.com/news/msci-confirms-strategys-removal-from-indexes-end-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Suiet wallet to shut down in latest exit from Sui ecosystem",
+        "link": "https://cointelegraph.com/news/suiet-wallet-shut-down-latest-exit-sui-ecosystem?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      }
+    ]
+  },
+  "papers": {
+    "status": "success",
+    "note": "arXiv 采集 10 篇",
+    "items": [
+      {
+        "title": "Point-in-Time Encoders for Earnings Calls"
+      },
+      {
+        "title": "Deep Learning for Operator Maps in Optimal Liquidation"
+      },
+      {
+        "title": "Fine-Tuning an Order-Flow Foundation Model for Sub-Second Forecasting"
+      },
+      {
+        "title": "Deceleration without identification: testing a power-law trend in Bitcoin prices under persistent noise"
+      },
+      {
+        "title": "Nonzero-Sum Stochastic Exit Games with Singular Belief Dynamics"
+      },
+      {
+        "title": "Optimal Trading Speed on Blockchain"
+      },
+      {
+        "title": "Tabular Foundation Models in Financial Predictions"
+      },
+      {
+        "title": "Making sense of rule 605"
+      },
+      {
+        "title": "Diversification Across Predictors: Heterogeneous Ensemble Learning for Cross-Sectional Return Prediction"
+      },
+      {
+        "title": "Diversified-Risk-Perception Risk Measures and Portfolio Selection"
+      }
+    ]
+  },
+  "updated_at": "2026-11-12 07:15 UTC"
+}

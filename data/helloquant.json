@@ -1,259 +1,258 @@
 {
-  "source": "~/trading/helloquant",
-  "updated": "2026-11-12 07:15 UTC",
+ "source": "~/trading/helloquant",
+ "updated": "2026-11-13 07:10 UTC",
+ "status": "success",
+ "last_run": {
+  "date": "2026-11-12",
+  "timestamp": "2026-11-12T23:06:30.100065",
+  "success": true,
+  "note": "采集管线 6/6 成功；A股指数与期货子项因新浪/东财接口SSL异常失败，加密/情绪/新闻/论文/信号均正常"
+ },
+ "crypto": {
   "status": "success",
-  "last_run": {
-    "date": "2026-11-11",
-    "timestamp": "2026-11-11T23:08:59.925348",
-    "success": true,
-    "note": "采集管线本次运行成功 (6/6)；A股指数/期货子项因行情接口不可达失败，加密/情绪/新闻/论文/信号均正常"
+  "btc": {
+   "price": 69199.9,
+   "change_24h": -5.96,
+   "high_24h": 73698.8,
+   "low_24h": 67510.4,
+   "rsi_1h": 23.7,
+   "rsi_4h": 14.9,
+   "macd_1h": "死叉",
+   "macd_4h": "死叉",
+   "trend_1h": "偏空",
+   "trend_4h": "偏空"
   },
-  "crypto": {
-    "status": "success",
-    "btc": {
-      "price": 73518.0,
-      "change_24h": -0.16
-    },
-    "eth": {
-      "price": 2045.98,
-      "change_24h": -0.52
-    },
-    "note": "OKX 数据正常; BTC 73518.00 (-0.16%) / ETH 2045.98 (-0.52%)"
+  "eth": {
+   "price": 1943.68,
+   "change_24h": -5.06,
+   "high_24h": 2053.33,
+   "low_24h": 1895.04,
+   "rsi_1h": 25.9,
+   "rsi_4h": 25.6,
+   "macd_1h": "死叉",
+   "macd_4h": "死叉",
+   "trend_1h": "偏空",
+   "trend_4h": "偏空"
   },
-  "sentiment": {
-    "crypto_fear_greed": {
-      "value": 28,
-      "classification": "Fear",
-      "timestamp": "1794441600"
-    }
+  "note": "OKX 正常; BTC 跌破 7 万关口至 69,199.90 (-5.96%)，ETH 1,943.68 (-5.06%)；RSI 严重超卖(4h BTC 14.9 / ETH 25.6)，MACD 1h+4h 双死叉"
+ },
+ "sentiment": {
+  "crypto_fear_greed": {
+   "value": 20,
+   "classification": "Extreme Fear",
+   "timestamp": "1794528000"
   },
-  "stocks": {
-    "status": "partial",
-    "note": "2026-11-12 A股指数/期货采集失败(行情接口SSL/网关异常)，加密与信号正常",
-    "data": {}
+  "qvix": 14.23
+ },
+ "stocks": {
+  "status": "partial",
+  "note": "2026-11-12 A股指数/期货采集失败(新浪/东财接口SSL)，仅取到50ETF波动率 14.23",
+  "data": {
+   "50ETF波动率": {
+    "value": 14.23,
+    "date": "2026-11-12"
+   }
+  }
+ },
+ "signals": {
+  "DoubleMa": {
+   "1h": {
+    "signal": "观望",
+    "price": 69199.9
+   },
+   "4h": {
+    "signal": "观望",
+    "price": 69199.9
+   }
   },
-  "signals": {
-    "DoubleMa": {
-      "1h": {
-        "signal": "做空",
-        "price": 73572.6
-      },
-      "4h": {
-        "signal": "观望",
-        "price": 73569.8
-      }
-    },
-    "RSI": {
-      "1h": {
-        "signal": "做多",
-        "price": 73572.6
-      },
-      "4h": {
-        "signal": "观望",
-        "price": 73569.8
-      }
-    },
-    "MACD": {
-      "1h": {
-        "signal": "观望",
-        "price": 73572.6
-      },
-      "4h": {
-        "signal": "观望",
-        "price": 73569.8
-      }
-    },
-    "Bollinger": {
-      "1h": {
-        "signal": "观望",
-        "price": 73572.6
-      },
-      "4h": {
-        "signal": "观望",
-        "price": 73569.8
-      }
-    },
-    "Supertrend": {
-      "1h": {
-        "signal": "观望",
-        "price": 73572.6
-      },
-      "4h": {
-        "signal": "观望",
-        "price": 73569.8
-      }
-    },
-    "TripleMa": {
-      "1h": {
-        "signal": "观望",
-        "price": 73572.6
-      },
-      "4h": {
-        "signal": "观望",
-        "price": 73569.8
-      }
-    },
-    "Momentum": {
-      "1h": {
-        "signal": "做空",
-        "price": 73572.6
-      },
-      "4h": {
-        "signal": "做空",
-        "price": 73569.8
-      }
-    },
-    "MeanReversion": {
-      "1h": {
-        "signal": "观望",
-        "price": 73572.6
-      },
-      "4h": {
-        "signal": "观望",
-        "price": 73569.8
-      }
-    }
+  "RSI": {
+   "1h": {
+    "signal": "观望",
+    "price": 69199.9
+   },
+   "4h": {
+    "signal": "做多",
+    "price": 69199.9
+   }
   },
-  "strategies": [
-    {
-      "name": "DoubleMa",
-      "signal_1h": "做空",
-      "signal_4h": "观望",
-      "daily_return": 0.0,
-      "weekly_return": null,
-      "max_drawdown": null,
-      "sharpe": null
-    },
-    {
-      "name": "TripleMa",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
-      "daily_return": 0.0,
-      "weekly_return": null,
-      "max_drawdown": null,
-      "sharpe": null
-    },
-    {
-      "name": "Supertrend",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
-      "daily_return": 0.0,
-      "weekly_return": null,
-      "max_drawdown": null,
-      "sharpe": null
-    },
-    {
-      "name": "RSI",
-      "signal_1h": "做多",
-      "signal_4h": "观望",
-      "daily_return": 0.0,
-      "weekly_return": null,
-      "max_drawdown": null,
-      "sharpe": null
-    },
-    {
-      "name": "MACD",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
-      "daily_return": 0.0,
-      "weekly_return": null,
-      "max_drawdown": null,
-      "sharpe": null
-    },
-    {
-      "name": "Bollinger",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
-      "daily_return": 0.0,
-      "weekly_return": null,
-      "max_drawdown": null,
-      "sharpe": null
-    },
-    {
-      "name": "Momentum",
-      "signal_1h": "做空",
-      "signal_4h": "做空",
-      "daily_return": 0.0,
-      "weekly_return": null,
-      "max_drawdown": null,
-      "sharpe": null
-    },
-    {
-      "name": "MeanReversion",
-      "signal_1h": "观望",
-      "signal_4h": "观望",
-      "daily_return": 0.0,
-      "weekly_return": null,
-      "max_drawdown": null,
-      "sharpe": null
-    }
-  ],
-  "news": {
-    "status": "success",
-    "note": "RSS 采集 5 条",
-    "items": [
-      {
-        "source": "Cointelegraph",
-        "title": "Here’s what happened in crypto today",
-        "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "source": "Cointelegraph",
-        "title": "South Korea to permit crypto withdrawal freezes during hacking threats",
-        "link": "https://cointelegraph.com/news/south-korea-crypto-withdrawal-freezes-suspected-hacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "source": "Cointelegraph",
-        "title": "Binance CSO unwittingly foreshadowed $6.3B hack tactic months before attack",
-        "link": "https://cointelegraph.com/news/binance-cso-foreshadowed-6b-hack-tactic-months-before-attack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "source": "Cointelegraph",
-        "title": "MSCI confirms Strategy’s removal from indexes at end of November",
-        "link": "https://cointelegraph.com/news/msci-confirms-strategys-removal-from-indexes-end-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "source": "Cointelegraph",
-        "title": "Suiet wallet to shut down in latest exit from Sui ecosystem",
-        "link": "https://cointelegraph.com/news/suiet-wallet-shut-down-latest-exit-sui-ecosystem?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      }
-    ]
+  "MACD": {
+   "1h": {
+    "signal": "观望",
+    "price": 69199.9
+   },
+   "4h": {
+    "signal": "做空",
+    "price": 69199.9
+   }
   },
-  "papers": {
-    "status": "success",
-    "note": "arXiv 采集 10 篇",
-    "items": [
-      {
-        "title": "Point-in-Time Encoders for Earnings Calls"
-      },
-      {
-        "title": "Deep Learning for Operator Maps in Optimal Liquidation"
-      },
-      {
-        "title": "Fine-Tuning an Order-Flow Foundation Model for Sub-Second Forecasting"
-      },
-      {
-        "title": "Deceleration without identification: testing a power-law trend in Bitcoin prices under persistent noise"
-      },
-      {
-        "title": "Nonzero-Sum Stochastic Exit Games with Singular Belief Dynamics"
-      },
-      {
-        "title": "Optimal Trading Speed on Blockchain"
-      },
-      {
-        "title": "Tabular Foundation Models in Financial Predictions"
-      },
-      {
-        "title": "Making sense of rule 605"
-      },
-      {
-        "title": "Diversification Across Predictors: Heterogeneous Ensemble Learning for Cross-Sectional Return Prediction"
-      },
-      {
-        "title": "Diversified-Risk-Perception Risk Measures and Portfolio Selection"
-      }
-    ]
+  "Bollinger": {
+   "1h": {
+    "signal": "做多",
+    "price": 69199.9
+   },
+   "4h": {
+    "signal": "做多",
+    "price": 69199.9
+   }
   },
-  "updated_at": "2026-11-12 07:15 UTC"
+  "Supertrend": {
+   "1h": {
+    "signal": "观望",
+    "price": 69199.9
+   },
+   "4h": {
+    "signal": "观望",
+    "price": 69199.9
+   }
+  },
+  "TripleMa": {
+   "1h": {
+    "signal": "观望",
+    "price": 69199.9
+   },
+   "4h": {
+    "signal": "观望",
+    "price": 69199.9
+   }
+  },
+  "Momentum": {
+   "1h": {
+    "signal": "观望",
+    "price": 69199.9
+   },
+   "4h": {
+    "signal": "观望",
+    "price": 69199.9
+   }
+  },
+  "MeanReversion": {
+   "1h": {
+    "signal": "做多",
+    "price": 69199.9
+   },
+   "4h": {
+    "signal": "做多",
+    "price": 69199.9
+   }
+  }
+ },
+ "strategies": [
+  {
+   "name": "DoubleMa",
+   "signal_1h": "观望",
+   "signal_4h": "观望",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null
+  },
+  {
+   "name": "RSI",
+   "signal_1h": "观望",
+   "signal_4h": "做多",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null
+  },
+  {
+   "name": "MACD",
+   "signal_1h": "观望",
+   "signal_4h": "做空",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null
+  },
+  {
+   "name": "Bollinger",
+   "signal_1h": "做多",
+   "signal_4h": "做多",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null
+  },
+  {
+   "name": "Supertrend",
+   "signal_1h": "观望",
+   "signal_4h": "观望",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null
+  },
+  {
+   "name": "TripleMa",
+   "signal_1h": "观望",
+   "signal_4h": "观望",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null
+  },
+  {
+   "name": "Momentum",
+   "signal_1h": "观望",
+   "signal_4h": "观望",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null
+  },
+  {
+   "name": "MeanReversion",
+   "signal_1h": "做多",
+   "signal_4h": "做多",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null
+  }
+ ],
+ "news": {
+  "status": "success",
+  "note": "RSS 采集 5 条",
+  "items": [
+   {
+    "source": "Cointelegraph",
+    "title": "Here’s what happened in crypto today",
+    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   },
+   {
+    "source": "Cointelegraph",
+    "title": "Bitcoin slides below $70K amid thin liquidity, ETF outflows",
+    "link": "https://cointelegraph.com/markets/bitcoin-falls-below-70k-crypto-extreme-fear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   },
+   {
+    "source": "Cointelegraph",
+    "title": "Trump nominates Hester Peirce successor among SEC, CFTC picks",
+    "link": "https://cointelegraph.com/news/trump-nominates-hester-peirce-successor-among-sec-cftc-picks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   },
+   {
+    "source": "Cointelegraph",
+    "title": "Former Nvidia CEO Huang had third alleged affair: Reuters",
+    "link": "https://cointelegraph.com/news/former-nvidia-ceo-huang-had-third-alleged-affair-reuters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   },
+   {
+    "source": "Cointelegraph",
+    "title": "Gemini’s quarterly retail trading volume sinks to 3-year low",
+    "link": "https://cointelegraph.com/markets/geminis-quarterly-retail-trading-volume-sinks-to-3-year-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   }
+  ]
+ },
+ "alerts": [
+  {
+   "severity": "CRITICAL",
+   "text": "BTC 24h -5.96% 跌破 70,000 美元，加密恐慌贪婪指数 20 (Extreme Fear)"
+  },
+  {
+   "severity": "WARN",
+   "text": "8 个策略中 6 个给出同向(做多/做空)信号仅 3 个，方向分歧明显；4h 周期 RSI/Bollinger/MeanReversion 做多与 MACD 做空对冲"
+  },
+  {
+   "severity": "WARN",
+   "text": "A股创业板指收盘 -3.57%、恒指 -3.46%，风险资产同步走弱"
+  }
+ ]
 }

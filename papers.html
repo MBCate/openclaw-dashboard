@@ -22,6 +22,11 @@
       </div>
     </div>
 
+    <div class="section" id="weekly-section" style="display:none">
+      <div class="section-title" id="weekly-title">📅 本周最佳论文</div>
+      <div id="weekly-list"></div>
+    </div>
+
     <div class="section">
       <div class="section-title">今日论文</div>
       <div id="paper-list"></div>
@@ -42,6 +47,35 @@
       }
 
       document.getElementById('last-updated').textContent = `Updated: ${formatTime(data.updated_at)}`;
+
+      // Weekly top papers
+      loadData('weekly-2026-11-14.json').then(w => {
+        if (!w || !w.top_papers?.length) return;
+        document.getElementById('weekly-section').style.display = '';
+        document.getElementById('weekly-title').textContent =
+          `📅 ${w.title || '本周最佳论文'}`;
+        const wl = document.getElementById('weekly-list');
+        if (w.trend_note) {
+          const note = document.createElement('div');
+          note.className = 'card';
+          note.style.marginBottom = '8px';
+          note.innerHTML = `<div class="paper-summary" style="font-style:italic">${w.trend_note}</div>`;
+          wl.appendChild(note);
+        }
+        w.top_papers.forEach((p, i) => {
+          const card = document.createElement('div');
+          card.className = 'card paper-card';
+          card.style.marginBottom = '8px';
+          card.innerHTML = `
+            <div class="stars" style="color:var(--accent-yellow)">#${i + 1} ${starRating(p.relevance)} [${p.relevance}/5]</div>
+            <div class="paper-title"><a href="${p.url}" target="_blank" style="color:var(--text-primary);text-decoration:none;">${p.title}</a></div>
+            <div class="authors">${p.authors || ''} | arXiv:${p.id}</div>
+            ${p.tags?.length ? `<div style="margin-top:6px">${p.tags.map(t => `<span class="badge badge-blue">${t}</span>`).join(' ')}</div>` : ''}
+            <div class="paper-summary">${p.summary_cn || ''}</div>
+          `;
+          wl.appendChild(card);
+        });
+      });
 
       // Category chart
       if (data.category_counts) {

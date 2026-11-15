@@ -1,0 +1,75 @@
+{
+  "week_of": "2026-11-08",
+  "generated_at": "2026-11-14 18:00 PST",
+  "title": "论文周报 · 2026-11-08 → 2026-11-14",
+  "trend_note": "本周主线：世界-动作模型从“能想象”走向“会判断”——安全边界（负样本/排斥锚）、因果可靠性（幸存者偏差）、JEPA 潜空间规划、VLA 几何条件化，四条路线同周集中出现。",
+  "top_papers": [
+    {
+      "id": "2611.08111",
+      "title": "NegWAM: Reinforcing End-to-End Autonomous Driving Safety via Negative-Aware Planning in a Unified World-Action Model",
+      "authors": "Zihao Zhang et al.",
+      "relevance": 5,
+      "tags": [
+        "WAM",
+        "safety",
+        "negative-samples",
+        "flow-matching"
+      ],
+      "summary_cn": "near-expert 负轨迹排斥锚 + rider tokens；navhard 40.4 EPDMS，零推理开销",
+      "url": "https://arxiv.org/abs/2611.08111"
+    },
+    {
+      "id": "2611.10632",
+      "title": "Latent-WAM++: Shaping World and Action Representations for End-to-End Autonomous Driving",
+      "authors": "Yichen Zhang et al.",
+      "relevance": 5,
+      "tags": [
+        "WAM",
+        "representation",
+        "e2e-planning"
+      ],
+      "summary_cn": "世界表示与动作表示联合整形，解决世界模型与规划解耦；E2E AD 的 WAM 升级版",
+      "url": "https://arxiv.org/abs/2611.10632"
+    },
+    {
+      "id": "2611.16579",
+      "title": "ActWorld-JEPA: Action-Conditioned JEPA World Models Meet Latent Planning for End-to-End Autonomous Driving",
+      "authors": "Ziying Song et al.",
+      "relevance": 5,
+      "tags": [
+        "JEPA",
+        "latent-planning",
+        "world-model"
+      ],
+      "summary_cn": "动作条件 JEPA 世界模型 + 潜空间规划，绕开像素重建直接对接 E2E 驾驶",
+      "url": "https://arxiv.org/abs/2611.16579"
+    },
+    {
+      "id": "2611.11516",
+      "title": "Breaking survivorship bias in driving world models",
+      "authors": "Zihao Sheng et al.",
+      "relevance": 5,
+      "tags": [
+        "world-model",
+        "data-bias",
+        "safety"
+      ],
+      "summary_cn": "揭示驾驶世界模型的幸存者偏差，事故视频混训 NWM 作 imagination engine 选轨迹",
+      "url": "https://arxiv.org/abs/2611.11516"
+    },
+    {
+      "id": "2611.16727",
+      "title": "From Foundation VLM to Versatile Driving VLM: A Triplet Incremental Training Approach",
+      "authors": "Shengtao Wu et al.",
+      "relevance": 5,
+      "tags": [
+        "VLA",
+        "VLM",
+        "depth-prior",
+        "incremental-training"
+      ],
+      "summary_cn": "通用VLM只缺度量深度；三流增量训练（深度辅助流+KL防漂移），部署零开销，四benchmark超SOTA",
+      "url": "https://arxiv.org/abs/2611.16727"
+    }
+  ]
+}

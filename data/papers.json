@@ -1,9 +1,280 @@
 {
-  "updated": "2026-11-14",
-  "date": "2026-11-14T16:00:00",
-  "total_papers": 2050,
-  "new_papers": 15,
+  "updated": "2026-11-15",
+  "date": "2026-11-15T16:00:00",
+  "total_papers": 2062,
+  "new_papers": 12,
   "papers": [
+    {
+      "id": "2611.15238",
+      "title": "Towards Robust Vision-Language Reasoning: A Multi-Stage Optimization Pipeline with Masked Diffusion Model",
+      "authors": [
+        "Shunming Liu",
+        "Pei Huang",
+        "Yajing Sun",
+        "Huaxiao Liu"
+      ],
+      "published": "2026-11-11",
+      "score": 5,
+      "url": "https://arxiv.org/abs/2611.15238",
+      "arxiv_id": "2611.15238",
+      "categories": [
+        "cs.AI"
+      ],
+      "summary": "在标准 VLM 架构上（无需单独 action expert / MoE）把离散扩散生成搬到自动驾驶：SFT 阶段优化规划输入表示抑制幻觉，RL 阶段用 metric-guided 多样性过滤提升探索，推理时 Dynamic AD Decoding (DAD) 按场景复杂度自适应切换解码模式。NAVSIM 闭环 + nuScenes/DriveCoT 开源均超自回归 VLM 基线，较未优化版本 +29.7%。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.14048",
+      "title": "LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning",
+      "authors": [
+        "Xuheng Zhang",
+        "Yiming Zhang",
+        "Jialin Gao",
+        "Hao Chen",
+        "Jiaming Liu",
+        "Ji Li",
+        "Runzhong Huang",
+        "Yinxi Wang",
+        "Chenyang Gu",
+        "Zihan Yang",
+        "Yaowei Liu",
+        "Zhonghao Yan",
+        "Ziyu Guo",
+        "Renrui Zhang",
+        "Peng Jia",
+        "Pheng-Ann Heng",
+        "Shanghang Zhang"
+      ],
+      "published": "2026-11-10",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2611.14048",
+      "arxiv_id": "2611.14048",
+      "categories": [
+        "cs.RO"
+      ],
+      "summary": "World Action Model 的\"全局物理表示对操作不够用\"问题：在 world expert 与 action expert 之间插一个交互中心潜空间 expert（MoT），用机器人-环境视觉交互线索监督，并联合预测未来表示与 progress 值做 world-to-action 自适应迁移；14k+ 小时机器人数据预训练。对 WAM 架构设计有直接借鉴价值。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.14365",
+      "title": "From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models",
+      "authors": [
+        "Guoqiang Liang",
+        "Yiqi Lin",
+        "Yanzhe Chen",
+        "Kevin Yuchen Ma",
+        "Mike Zheng Shou"
+      ],
+      "published": "2026-11-10",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2611.14365",
+      "arxiv_id": "2611.14365",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "summary": "把机器人低维信号（本体感知、动作、value）注入视频扩散模型的问题重新定义为\"分布对齐\"问题：以冻结 VDM denoiser 的重建误差为探针，发现常规空间编码严重偏离先验，而频域打包（每信号占不重叠频带 + IDCT 提升到空间潜变量）几乎不需 denoiser 修正。最终统一成单张 meta-frame。机制解释非常清晰，值得迁移到驾驶 WAM。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.15011",
+      "title": "Fast Inference-Time Policy Refinement via Action-Affine World Models",
+      "authors": [
+        "Run Wang",
+        "Yilin Mo",
+        "Liang Wu"
+      ],
+      "published": "2026-11-11",
+      "score": 3,
+      "url": "https://arxiv.org/abs/2611.15011",
+      "arxiv_id": "2611.15011",
+      "categories": [
+        "cs.RO"
+      ],
+      "summary": "用 action-affine 世界模型离线学习局部动作敏感性：把策略提议视为名义轨迹 + 对修正量的线性响应，一次性预测整条 horizon，再用二次代价 + 线性约束化为凸 QP。在线精化只需一次模型评估 + 一次 QP 求解，权重全冻结，平均额外开销 3.8ms。对 E2E 驾驶的 test-time 轨迹精化有参考意义。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.15215",
+      "title": "AFTER: A World Model with Adaptive Fast--Slow Timescales for Error-Driven Retention",
+      "authors": [
+        "Haoyi Zhang",
+        "Qi Zhang",
+        "Yunfan Ren",
+        "Yi Bin",
+        "Lei Zhu",
+        "Heng Tao Shen"
+      ],
+      "published": "2026-11-11",
+      "score": 3,
+      "url": "https://arxiv.org/abs/2611.15215",
+      "arxiv_id": "2611.15215",
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "summary": "AFTER-WM 用\"快/慢双时间尺度\"预测误差驱动修正：快修正会衰减、慢修正持久保留，并动态调整预训练 experts 的混合权重而不改动其参数，同时兼顾响应性、稳定性与持久性。对应驾驶中载荷/路面突变等动力学漂移场景，思路可借鉴。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.11500",
+      "title": "ForeAct: Geometry-Guided Action Learning from World Representations",
+      "authors": [
+        "Wei Lu",
+        "Jiaxi Zhang",
+        "Yunheng Wang",
+        "Taowen Wang",
+        "Yuetong Fang",
+        "Zhenhui Zhang",
+        "Shuning Zhang",
+        "Zizhao Yuan",
+        "Yixiao Feng",
+        "Zecui Zeng",
+        "Renjing Xu"
+      ],
+      "published": "2026-11-08",
+      "score": 3,
+      "url": "https://arxiv.org/abs/2611.11500",
+      "arxiv_id": "2611.11500",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "summary": "ForeAct 把预训练视频世界模型当单次前向的表示骨干——直接处理当前观测的干净潜变量，跳过未来帧合成与迭代去噪；用受下一帧相对深度监督的可学习 token 在双向注意力中塑造共享视频表示。低延迟控制路线，与迭代 diffusion WAM 形成鲜明对比。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.15744",
+      "title": "Latent Imagination for Parameterized Action Spaces",
+      "authors": [
+        "Atahan Cilan",
+        "İhsan Mert Muhacıroğlu",
+        "Ümit Can Bekar"
+      ],
+      "published": "2026-11-11",
+      "score": 3,
+      "url": "https://arxiv.org/abs/2611.15744",
+      "arxiv_id": "2611.15744",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "summary": "HyLI 在潜想象中学习混合（离散+连续参数）策略并单次前向决策：用反事实模式评估给每个离散动作在任意想象状态都有学习信号，配合 success-window replay 保留稀有成功。7 个 PAMDP benchmark 达标最强 model-free 基线，样本效率 2.4x，决策比 DLPA 规划器快 67x。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.17159",
+      "title": "Inner Product Regularization for Imitation Learning",
+      "authors": [
+        "Benjamin A. Christie",
+        "Tianyu Qiu",
+        "Amy H. Choi",
+        "David Fridovich-Keil",
+        "Dylan P. Losey"
+      ],
+      "published": "2026-11-12",
+      "score": 3,
+      "url": "https://arxiv.org/abs/2611.17159",
+      "arxiv_id": "2611.17159",
+      "categories": [
+        "cs.RO"
+      ],
+      "summary": "InneR：正则化不再逐状态约束敏感性，而是约束\"同一扰动在不同状态下引起的输出变化应当一致\"。证明动作空间内积经策略 Jacobian 诱导出状态空间内积（随机策略下即 Fisher 信息），其零空间决定扰动的一阶影响；按内积对齐聚类状态并最小化最小特征值，使邻近状态共享零空间——不损表达力的鲁棒性正则，对驾驶策略扰动鲁棒性有直接价值。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.11166",
+      "title": "DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight",
+      "authors": [
+        "Zhongxi Chen",
+        "Yi Yang",
+        "Xinyi Chen",
+        "Mingzhe Ye",
+        "Yaping Li",
+        "Zhihong Liu",
+        "Congsheng Xu",
+        "Haonan Wang",
+        "Zhijie Deng"
+      ],
+      "published": "2026-11-08",
+      "score": 3,
+      "url": "https://arxiv.org/abs/2611.11166",
+      "arxiv_id": "2611.11166",
+      "categories": [
+        "cs.RO"
+      ],
+      "summary": "DexForesight 不显式预测未来，而是训练动作条件的空间世界模型（预测 3D 手部点运动 + 视觉特征变化，含被遮挡手指），冻结后把策略 query 对齐到世界模型预测 query，将空间动力学注入策略潜变量。部署时只留策略，仅用 RGB+语言+状态。DexJoCo 11 任务 49.4%→60.5%，真机 58.3%。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.16424",
+      "title": "PhysCapBench: A Cross-Domain Benchmark for Physically Grounded Video Captioning",
+      "authors": [
+        "Haofeng Wang",
+        "Pengcheng Wen",
+        "Ruiqi Li",
+        "Yuhao Zhang",
+        "Tiange Zhang",
+        "Boren Zheng",
+        "Xuanyi Liu",
+        "Siyu Tao",
+        "Danni Yu",
+        "Gan Lin",
+        "Haocheng Tang",
+        "Tianzizhe Guo",
+        "Mingyuan Su",
+        "Boyuan Chen",
+        "Zhongyuan Wang"
+      ],
+      "published": "2026-11-12",
+      "score": 3,
+      "url": "https://arxiv.org/abs/2611.16424",
+      "arxiv_id": "2611.16424",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "summary": "PhysCapBench：首个跨第三人称场景、自我中心操作、手持夹爪演示三域的统一\"物理接地\"视频描述 benchmark，1500 段人工校验序列，7 个物理维度评准确性+覆盖度；并验证下游效用（视频重建 LPIPS 降 8.6–9.5%，自我中心域降 26.9–30.9%）。对世界模型预训练数据质量治理有用。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.14274",
+      "title": "From Prediction to Action: Learning Physical Context for Deformable Linear Object Manipulation",
+      "authors": [
+        "Chengxiao Dong",
+        "Alessio Caporali",
+        "Hongyu Lan",
+        "Gianluca Palli"
+      ],
+      "published": "2026-11-10",
+      "score": 3,
+      "url": "https://arxiv.org/abs/2611.14274",
+      "arxiv_id": "2611.14274",
+      "categories": [
+        "cs.RO"
+      ],
+      "summary": "区分\"预测效用\"与\"决策效用\"：在 DLO 平面单抓取形状控制中，几何真值参数对预测更准，但对控制没有可检测增益；交互历史表示反而降低 9.9% 执行误差。提出 Geometry-Pointer-Flow 解耦抓取点选择与抓取条件运动生成。对\"世界模型是否该输出物理参数\"的重要反例。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.11798",
+      "title": "PAIR: Proprioception-Aligned Image-Ray Representations for Viewpoint-Robust Manipulation",
+      "authors": [
+        "Sung-Wook Lee",
+        "Xuhui Kang",
+        "Dylan Losey",
+        "Yen-Ling Kuo"
+      ],
+      "published": "2026-11-09",
+      "score": 3,
+      "url": "https://arxiv.org/abs/2611.11798",
+      "arxiv_id": "2611.11798",
+      "categories": [
+        "cs.RO"
+      ],
+      "summary": "PAIR 用机器人本体感知对齐 joint image-ray 表示做对比学习：让机器人状态相近的观测在跨视角时也保持表示接近，从而把\"视角依赖的外观\"与\"任务相关状态\"解耦。视角鲁棒操作是 VLA 落地到车端多相机配置的关键瓶颈之一。",
+      "status": "新发现"
+    },
     {
       "id": "2611.08111",
       "title": "NegWAM: Reinforcing End-to-End Autonomous Driving Safety via Negative-Aware Planning in a Unified World-Action Model",

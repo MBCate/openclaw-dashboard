@@ -1,9 +1,324 @@
 {
-  "updated": "2026-11-15",
-  "date": "2026-11-15T16:00:00",
-  "total_papers": 2062,
+  "updated": "2026-11-16",
+  "date": "2026-11-16T16:00:00",
+  "total_papers": 2074,
   "new_papers": 12,
   "papers": [
+    {
+      "id": "2611.16767",
+      "title": "Evaluating Video LLMs' Understanding of Corner Cases in Autonomous Driving",
+      "authors": [
+        "Gabriel Manalu",
+        "Minh Son Hoang",
+        "Hyeontaek Hwang",
+        "Jaesung Lee",
+        "Hyojin Choi",
+        "Tran Tuan Phong",
+        "Seon Kwon Kim",
+        "Saad Wazir",
+        "Daeyoung Kim"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.16767",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "abstract": "Natural language explanations promised by modern Video Large Language Models (Video LLMs) offer autonomous driving systems a path toward detailed scene description and interpretable decision making on the road. While recent benchmarks have begun assessing these models on driving scenes, they mainly target routine traffic conditions and general comprehension tasks based on existing driving datasets and therefore fail to evaluate model performance on the rarest and most safety-critical driving events, also known as \"corner cases\". To provide a comprehensive evaluation of Video LLMs on precisely these scenarios, we introduce DashBench, a benchmark testing 25 Video LLMs on 1,709 carefully curated driving videos spanning not only collision-related corner cases but also rare non-collision ones. Through extensive prompts and open-ended question answering, we expose a critical capability gap: all evaluated models perform substantially below the threshold required for safety-critical driving applications, frequently misjudging or missing dangerous events on the road ahead and hallucinating non-existent agents or actions in their explanations. We believe DashBench, combining an extensive dataset with a rigorous evaluation toolkit and a detailed diagnosis of current model limitations, drives progress toward safer, more explainable autonomous driving systems. The code and data will be shared at: cornercase-dashbench.github.io",
+      "score": 4,
+      "summary": "DashBench：面向 Corner Case 的 Video LLM 评测基准，1,709 段精筛驾驶视频（含碰撞与非碰撞罕见事件），测试 25 个 Video LLM，开放式问答。揭示模型在稀有安全关键场景上的显著能力缺口。",
+      "why_relevant": "补上了驾驶 Video-LLM 评测中 corner case 的空白，可作为 VLM 驾驶推理方向的评测参照。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.17720",
+      "title": "Ego2Flow: Benchmarking the Traffic-System Impact of Autonomous Driving on Maps Distilled from Real-World Roads",
+      "authors": [
+        "Yu Dong",
+        "Weiying Shen",
+        "Hangyu Li",
+        "Shu Han",
+        "Hong Li",
+        "Xiangbo Gao",
+        "Keshu Wu",
+        "Zhengzhong Tu",
+        "Soyoung Ahn",
+        "Zhiyuan Liu",
+        "Xiaopeng Li"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.17720",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "abstract": "End-to-end autonomous driving is predominantly evaluated through ego-vehicle safety and task completion. Its deployment in urban traffic, however, creates sustained interactions among vehicles whose collective effects remain insufficiently evaluated. We introduce Ego2Flow, a closed-loop benchmark for assessing the traffic-system impact of autonomous driving on maps distilled from real-world cities. To construct realistic 3D urban environments for sustained closed-loop traffic simulation, we develop an agent-guided map distillation framework that integrates real-world maps and observations with complementary geographic information. Through an iterative feedback mechanism and a traffic information graph that jointly guide scene generation, the framework preserves lane topology, critical road geometry and decision-relevant visual conditions while simplifying nonessential details and completing unobserved regions. Using our proposed framework, we generate and publicly release six CARLA maps from the Argoverse 2 dataset, covering the corresponding real-world regions and enabling paired comparisons of driving behavior under real and simulated observations. On these maps, Ego2Flow evaluates how autonomous driving policies affect traffic efficiency, safety, stability and energy consumption across diverse road structures. Compared with existing construction methods, our framework achieves the lowest average displacement error between planning outputs from paired real and simulated observations. We further benchmark representative driving policies to characterize their system-level impact on urban traffic. Project Page: https://github.com/Fisher-007/Ego2Flow.",
+      "score": 4,
+      "summary": "闭环基准，评估端到端自动驾驶对城市交通系统的宏观影响（不只是自车安全）。提出 agent 引导的地图蒸馏框架，从真实地图+观测+地理信息构建可长期闭环仿真的 3D 城市场景，用迭代反馈 + 交通信息图指导场景生成，保留车道拓扑/关键道路几何/决策相关视觉条件。用于衡量 E2E 策略部署后的交通流效应。",
+      "why_relevant": "端到端 AD 评测从单车安全扩展到系统级交通影响，对「部署后真实世界表现」问题提供了新的闭环评测范式。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.18372",
+      "title": "Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment",
+      "authors": [
+        "Suvarna Kadam",
+        "Soran Parsa"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18372",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.ET",
+        "cs.LG"
+      ],
+      "abstract": "Vision-language-action (VLA) models adapt web-pretrained vision-language models to output robot actions, so that web knowledge carries over to physical control. In under 4 years the field has moved from RT-2, the first VLA, to open models that fine-tune on a single consumer GPU and to proprietary generalists that clean unseen homes. This survey reviews 88 works from December 2022 to October 2026, mainly on manipulation and navigation, plus humanoid control, world-action models and evaluation. We follow a VLA through its life cycle, from model design to training and deployment, along seven axes. Model design covers (a) inputs and memory, what the model observes; (b) architecture, how its pipeline is built; (c) action output, how it produces motor commands; and (d) intermediate predictions, what else it predicts, from reasoning steps to future observations. Training covers (e) pretraining data, the mix of robot, web, human and simulated data, and (f) post-training, adaptation to the target robot. Deployment covers (g) real-time execution, keeping pace with the robot. We analyse 22 models on these axes and report their training data, model size, inference speed and hardware. Three trends emerge: (i) training data has broadened, from about 10,000 hours of teleoperated robot data ($π_0$) to 23,000 community-collected episodes (SmolVLA) and 20,000 hours of egocentric human video (GR00T N1.7); (ii) model sizes have split: most recent models have 3-7 billion parameters, while a new group under one billion runs on consumer GPUs; and (iii) generalist VLAs are emerging that handle both manipulation and navigation, such as UniVLA and Qwen-VLA. We also compare VLAs with world-action models, which predict future observations as well as actions. We review evidence that some VLAs with near-perfect benchmark scores fail when objects or the camera move slightly, and open up further research questions.",
+      "score": 4,
+      "summary": "VLA 全生命周期综述：覆盖 2022.12–2026.10 共 88 篇工作，沿七条轴线展开——模型设计（输入与记忆、架构、动作输出、中间预测）、训练（预训练等）、部署与评测，涵盖 manipulation、navigation、人形控制、world-action model 与评估。",
+      "why_relevant": "目前最完整的 VLA 综述，是进入该方向的索引型必读文献。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.16246",
+      "title": "What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation",
+      "authors": [
+        "Jinze Tao",
+        "Yuxiao Han",
+        "Kangkang Dong",
+        "Yancong Wei",
+        "Xiaojun Zhu",
+        "Bokui Chen",
+        "Houde Liu"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.16246",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "abstract": "Navigation agents use a large language model (LLM) planner to call a vision-language-action (VLA) model. Each episode needs the LLM, adding cost and delay. We distill successful agent experience into the VLA instead of distilling the planner. The VLA then navigates alone at test time. Agent sessions are not VLA demonstrations. They include motions driven by planner tools and sub-instructions, along with detours. We present H2E, a task-level experience distillation method that converts these sessions into VLA training data. Every motion becomes a VLA action under the original task instruction, with the resulting poses as targets. H2E masks the loss on steps that move away from the goal. It labels every visited state within 1 m of the goal as a stop. We then update the VLA with low-rank adaptation. The VLA learns to stop at the goal and find goals the base model never reaches. On all 3,189 REVERIE-CE val-unseen episodes, H2E raises the success rate of an 8B VLA from 35.0% to 44.9%.",
+      "score": 3,
+      "summary": "H2E：把 LLM planner 调用 VLA 的导航智能体会话蒸馏进 VLA 本身，使测试时 VLA 可独立导航。将每个动作按原始任务指令重标为 VLA 动作，屏蔽偏离目标步骤的 loss，对目标 1m 内状态标注为 stop，再用 LoRA 更新 VLA。",
+      "why_relevant": "任务级经验蒸馏，替代运行时 LLM 调用以降低延迟与成本（3 星）。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.16589",
+      "title": "STVLA: Spatial-aware and Temporal-memory forVision-Language-Action Models",
+      "authors": [
+        "Zhuo Han",
+        "Yeqiang Wang",
+        "Xinran Wang",
+        "Hongwei Han",
+        "Yi Xiong",
+        "Zunian Wan",
+        "Jianbo Mao",
+        "Huan Peng",
+        "Yongcheng Liu",
+        "Wei Shan",
+        "Maoqing Yao"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.16589",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Robotic manipulation often requires both spatial scene understanding and task history. However, many vision-language-action (VLA) policies rely primarily on current observations, without explicitly integrating spatial structure and task history. Appearance-based memories can be sensitive to occlusion and viewpoint changes, while spatial representations of the current scene alone do not preserve how the scene has changed during task execution. We introduce STVLA, a framework that incorporates features from a pretrained visual geometry foundation model into temporal memory alongside visual representations. This allows the policy to recall past scene structure as context for current action decisions. To select informative history, STVLA uses a mathematically grounded scoring rule that balances relevance to the current observation with complementary evidence from memory. Across evaluations on LIBERO, LIBERO-Mem, MIKASA-Robo, and SimplerEnv Bridge, STVLA achieves the highest average success rate among the compared methods on each benchmark. On real-world block stacking, object organization, and phone packaging, it improves success over $π_{0.5}$ by $58.33$, $30.00$, and $35.00$ percentage points, respectively. These results support integrating scene geometry into temporal memory to improve manipulation requiring both spatial precision and task history. Project website: \\href{https://stvla.github.io/}{https://stvla.github.io/}",
+      "score": 3,
+      "summary": "STVLA：在 VLA 策略的时序记忆中引入预训练视觉几何基础模型特征，与视觉表征并列，使策略能回忆过去的场景结构作为当前决策上下文；用有数学依据的打分规则在「与当前观测的相关性」和「记忆中的互补证据」间平衡，挑选有信息量的历史。",
+      "why_relevant": "时空记忆 + 几何先验的 VLA 改进，对需要长时序推理的驾驶 VLA 有借鉴意义（3 星）。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.16742",
+      "title": "Fog-FWL: A Large-Scale Full-Waveform LiDAR Dataset for Recovering Fog-Hidden Objects",
+      "authors": [
+        "Kazuma Ikeda",
+        "Kotaro Oishi",
+        "Ryosei Hara",
+        "Ryo Yoshida",
+        "Takahiro Kado",
+        "Ibuki Fujioka",
+        "Taro Beppu",
+        "Mariko Isogawa",
+        "Kentaro Yoshioka"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.16742",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "LiDAR is a core sensor for autonomous driving, yet it is highly vulnerable to fog. Fog scattering produces strong backscatter near the sensor and attenuates reflections from objects behind it, so weak object returns are often discarded by the peak detection that converts received signals into point clouds. Full-waveform LiDAR (FWL), which records the received optical signal before peak detection, retains these weak returns, but the lack of suitable data has prevented research on recovering fog-hidden objects from FWL. We present Fog-FWL, a dataset foundation for this task that consists of a real-world benchmark, Fog-FWL-Real, and a large-scale synthetic training set, Fog-FWL-Sim. Fog-FWL-Real contains 7,527 real foggy FWL frames from 8 scenes and 58 sequences, which is 579x larger than the only existing real foggy FWL data, together with histogram-level Object/Fog/Noise labels, 10,719 3D bounding boxes, and three difficulty levels defined by the attenuation of object reflections. Fog-FWL-Sim contains 12,000 frames generated by our physics-based simulator, Fog-FWL-Simulator, which integrates spatially heterogeneous fog density fields, time-resolved light transport including multiple scattering, and a photon-counting SPAD receiver model. The two subsets share the same sensor format and annotation protocol, enabling a strict sim-to-real evaluation in which no real waveforms are used for training. Our analysis shows that, under the hardest condition, object returns are included in the three strongest peaks for only 34.9% of object rays, underscoring the need for waveform-level recovery. Fog-FWL-Real, Fog-FWL-Sim, and the Fog-FWL-Simulator will be publicly released to facilitate research on fog-robust LiDAR perception.",
+      "score": 3,
+      "summary": "Fog-FWL：面向雾天被遮蔽目标恢复的大规模全波形 LiDAR 数据集。Fog-FWL-Real 含 8 场景 58 序列 7,527 帧真实雾天 FWL（比现有唯一真实雾天 FWL 数据大 579 倍），带直方图级 Object/Fog/Noise 标签；另配大规模合成训练集 Fog-FWL-Sim。",
+      "why_relevant": "利用峰值检测前的全波形信号恢复弱回波，为恶劣天气 LiDAR 感知提供数据基础（3 星）。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.17394",
+      "title": "Agentic-Teacher: An Agentic Data Engine for Failure-Driven VLA Post-Training",
+      "authors": [
+        "Gongyue Teng",
+        "Yuqing Xie",
+        "Yixian Zhang",
+        "Feng Gao",
+        "Shu'ang Yu",
+        "Jiaji Rao",
+        "Sukai Wang",
+        "Guanghui Ren",
+        "Ya Zhang",
+        "Maoqing Yao",
+        "Yu Wang",
+        "Chao Yu",
+        "Xinlei Chen"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.17394",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Improving a pretrained vision-language-action (VLA) model requires demonstrations that address its weaknesses and provide effective supervision for learning. Coding agents can autonomously generate demonstrations through environment interaction, yet successful execution alone does not ensure effective supervision for VLA learning. We introduce Agentic-Teacher, an autonomous data engine for failure-driven VLA post-training. Given a VLA checkpoint, a task specification, and configured environment tools, the engine analyzes failed rollouts, selects intervention states, and iteratively develops closed-loop code policies through execution feedback. Validated policies become reusable demonstration generators that collect successful continuations from states where the VLA struggles. To make these demonstrations suitable for learning, Agentic-Teacher introduces temporally correlated action noise to broaden state-action coverage, removes idle frames while preserving gripper transitions, and filters trajectories using the frozen base model's flow-matching loss. The resulting demonstrations are combined with successful VLA rollouts for post-training, yielding an updated policy that operates without coding-agent assistance. Agentic-Teacher thus connects the weaknesses of a target VLA to both the generation and curation of its training data. In simulation, it improves $π_0$ success rates from 79.4% to 87.8% on LIBERO-10, from 80.4% to 90.6% on MetaWorld-10, and from 0% to 30.0% across three RoboCasa tasks.",
+      "score": 3,
+      "summary": "Agentic-Teacher：失败驱动的 VLA 后训练数据引擎。给定 VLA checkpoint、任务规格与环境工具，分析失败 rollout、选择干预状态，通过执行反馈迭代开发闭环代码策略；验证后的策略成为可复用的示范生成器，并引入时间相关动作噪声使示范适配学习。",
+      "why_relevant": "自动化数据飞轮解决 VLA 后训练数据稀缺问题（3 星）。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.17438",
+      "title": "Real-Time Diffusion Relighting as a Neural Sensor: Closing the Low-Light Domain Gap for Robotic Perception",
+      "authors": [
+        "Shengjie Xu",
+        "Alexander Gao",
+        "Anshul Rai",
+        "Dae Yeol Lee",
+        "Guan-Ming Su",
+        "Ming C. Lin"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.17438",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Low-light conditions severely degrade robotic perception: object detectors trained on daylight imagery are prone to failure under dark and adverse weather conditions that fall outside of their training distribution. Furthermore, from an efficiency standpoint, existing Low-Light Image Enhancement (LLIE) methods are designed for offline processing and are therefore impractical to integrate into live control loops. To address these issues, we propose to embed a Generative Neural Sensor within the control loop that treats illumination as a generative prior rather than a signal processing problem, enabling task-relevant semantic recovery. We further propose an Real-Time Perceptual Architecture that decouples high-latency semantic recovery from low-latency robotic control. Rather than blocking the control loop, our system runs a large-scale image-to-image diffusion model in a background thread, and is activated only when a drop in detection confidence signals a perceptual uncertainty event, significantly reducing computational overhead. Our method sets a new state-of-the-art performance on the ExDark low-light benchmark with 87.1% mAP, and under adverse weather conditions, significantly boosts detection rates over competing methods. On a navigation task in a closed-loop autonomous driving simulator (CARLA), we achieve a 100% lap completion rate, establishing a simulation-based proof-of-concept for integrating high-latency generative models with standard robotic control autonomy stacks.",
+      "score": 3,
+      "summary": "把图像到图像扩散重打光模型做成「生成式神经传感器」嵌入控制回路，将光照视为生成先验而非信号处理问题；提出实时感知架构，高延迟语义恢复放后台线程，低延迟控制不被阻塞。解决低照度下检测器失效的域差距。",
+      "why_relevant": "低光/恶劣天气下机器人感知的实时化方案，对 AD 传感器鲁棒性有参考价值（3 星）。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.17751",
+      "title": "When Does Cross-View Consistency Matter in Multi-View Appearance Augmentation? A Controlled Study for Visuomotor Policies",
+      "authors": [
+        "Zixuan Jiang"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.17751",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "abstract": "Multi-view visual augmentation often seeks consistency across cameras, but it is unclear which forms of consistency matter for downstream control. We use simulation-state replay to manipulate cross-view coupling while preserving the per-camera perturbation distributions, physical trajectories, and action labels. Across seven LIBERO manipulation tasks, marginal-matched changes in global appearance, ghost injection, and target color have small average costs for a late-fusion Diffusion Policy: point estimates are near zero or negative, and the largest upper endpoint of the 90% posterior credible intervals is 2.55 percentage points. In contrast, geometrically anti-coupled observations reduce success by 3.30 percentage points relative to coupled observations (90% CrI [0.64, 6.28]), with displacement magnitude, direction marginals, and the number of affected views matched. Camera interventions reveal substantial dependence on wrist-view geometry, while feature analysis shows appearance sensitivity patterns associated with the factors randomized during training. ACT shows a higher target-color cost estimate than DP, with uncertainty that includes zero and sensitivity to task composition. Within the tested tasks and policy configurations, these findings motivate selective consistency constraints: appearance coupling can sometimes be relaxed, whereas task-relevant geometry and cross-view spatial correspondence warrant protection.",
+      "score": 3,
+      "summary": "用仿真状态回放做受控实验，在保持单相机扰动分布、物理轨迹与动作标签不变的前提下操纵跨视角耦合，研究多视角外观增强中哪种一致性对下游控制真正重要。七个 LIBERO 任务显示：全局外观/幽灵注入/目标颜色的边缘匹配改动几乎没有代价；而几何反耦合观测使成功率下降 3.30 个百分点。",
+      "why_relevant": "多视角增强一致性的因果分析，对 BEV/多相机训练策略有直接指导（3 星）。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.18176",
+      "title": "ESI: An Embodied Self-Improvement Flywheel for LLM-VLA Agents",
+      "authors": [
+        "Yundi Cai",
+        "Zihan Wang",
+        "Chenxi Han",
+        "Yi Cheng",
+        "Houde Liu",
+        "Zilei Wang"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18176",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Independently pretrained language models and vision-language-action (VLA) policies provide complementary building blocks for embodied agents, but connecting them does not automatically produce coordinated behavior. The VLA may generate actions that diverge from the LLM's intended subtask and, upon regaining control after a correction, undo the promising state restored by the LLM. We introduce ESI (Embodied Self-Improvement), an automated flywheel that uses environmental interaction to align reasoning and action. ESI treats the modular agent as the unit of post-training, repeatedly refining the prompts that guide the LLM, the shared skill interface that expresses its intent, and the VLA parameters that realize that intent, then redeploying these components together. Our key insight is that collaboration itself can supply supervision for improving this interface. The LLM's subtask decisions provide semantic supervision for what the policy should execute, while its effective corrections and subsequent student continuations provide action-level supervision for recovery and handoff. The student also learns from its own effective execution, allowing locally useful experience to contribute even when the overall episode fails. On ten selected RoboDojo tasks, ESI achieves a mean Score of 62.03 and a mean success rate of 49.41% using an LLM-VLA agent without generating task-specific control code. On both metrics, it outperforms the published reference results of all hybrid embodied agents, including the Agent+WAM system GO-3 Nano Preview (47.27 Score and 36.60% success), as well as all compared code-based methods.",
+      "score": 3,
+      "summary": "ESI：LLM-VLA 模块化具身智能体的自改进飞轮。把「模块化智能体」作为后训练单元，反复精炼 LLM 提示、共享技能接口与 VLA 参数并协同重部署；核心洞见是协作过程本身即可提供监督信号，缓解 VLA 动作与 LLM 子任务意图不一致的问题。",
+      "why_relevant": "LLM planner + VLA 协同对齐，对分层驾驶智能体有参考价值（3 星）。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.18397",
+      "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+      "authors": [
+        "Run Luo",
+        "Kuan Zhang",
+        "Qi Deng",
+        "Yukun Chen",
+        "Zhihao Yang",
+        "Yufei Zhang",
+        "Renrong Hu",
+        "Yi Zhang",
+        "Guiyu Ma",
+        "Tianyu Fan",
+        "Longze Chen",
+        "Hao Sun",
+        "Jiaming Li",
+        "Jiaming Yang",
+        "Xiaohao Liu",
+        "Tao Tan",
+        "Minzheng Wang",
+        "Hangtian Jia",
+        "Shuai Yuan",
+        "Lvdi Wang",
+        "Xiao Liu",
+        "Chao Ma",
+        "Yuting Zou",
+        "Yinhe Zheng",
+        "Xiaobo Xia",
+        "Dawei Jiang",
+        "Shaoqing Ren"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18397",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajectories span simulated games and embodied environments, allowing the model to learn environmental dynamics across both physical and virtual domains. Sparse-thinking instruction tuning then substantially reduces redundant computation while preserving the reasoning needed for complex decisions. We train the policy for long-horizon interaction with a stable multi-turn reinforcement learning method that addresses finite context windows, accumulated rollout errors, and sparse rewards. For real-time interaction, a cloud-edge inference engine serves numerous simulated game environments concurrently, supports unbounded-context execution, and keeps online inference latency low. Across multiple challenging 3D open-world games, Gamer demonstrates solid generalization and operational efficiency comparable to skilled players. It also achieves competitive results on a range of conventional 2D game benchmarks. These results suggest that even repetitive keyboard and mouse trajectories can support substantial gains from scaling data and learning algorithms. Training on these trajectories helps Gamer learn complex skills more steadily in environments with both physical and digital properties. This approach offers a path toward generalist agents that can interact across digital and physical worlds.",
+      "score": 3,
+      "summary": "Gamer：面向长时程实时游戏智能体的通用 VLA 基础模型。端到端架构融合感知、记忆管理与多步推理，统一 2D GUI 与 3D 模拟世界；数万小时设备级键鼠交互轨迹继续预训练，稀疏思考指令微调降低冗余计算，并用稳定多轮 RL 训练长时程策略。",
+      "why_relevant": "通用 VLA 基础模型 + 长时程 RL 训练范式，方法可迁移到驾驶决策（3 星）。",
+      "status": "新发现"
+    },
+    {
+      "id": "2611.18562",
+      "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+      "authors": [
+        "Jiaming Tang",
+        "Zhuoyang Zhang",
+        "Junxian Guo",
+        "Fangzhou Zhao",
+        "Yilong Zhao",
+        "Zekai Li",
+        "Xingyang Li",
+        "Yuyang Zhao",
+        "Song Bian",
+        "Zhijian Liu",
+        "Song Han"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18562",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "abstract": "Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight models remain substantially less capable. We show that an open-weight 27B reasoning model can be trained to use real robots natively through reinforcement learning, entirely in simulation and without demonstrations. Like a computer-use agent (CUA), the model observes the environment, reasons in a chain of thought, and generates the next end-effector pose, without any harness. We build a Post-training Engine for Agentic Robotics (PEAR) and use it to train the model on simulated robot tasks at scale with robot-use reinforcement learning (RURL), mirroring how frontier models acquire computer use. We find that the skills acquired in simulation generalize well beyond the training tasks: they transfer to an unseen robot, to the real world, and to novel instructions. After training on LIBERO and RoboDojo in simulation, the model succeeds in 60% of our trials on a real dual-arm robot, whereas the base model succeeds in none. On LIBERO, training raises the success rate from 1.6% to 74.4%, approaching GPT-6 Astra and GPT-6.1 Sol at maximum reasoning effort. Compared with $π_{0.5}$, a vision-language-action model fine-tuned on demonstrations, our model is substantially more robust to changes in the task itself. On LIBERO-Pro, $π_{0.5}$ succeeds in only 0.75% of episodes when assigned a new task in a familiar scene whereas our model succeeds in 57.4%. Finally, the model retains its general capabilities, with no measurable degradation on nine reasoning, coding and vision benchmarks. These results highlight robot-use reinforcement learning as a promising component of foundation-model post-training.",
+      "score": 3,
+      "summary": "在纯仿真中用强化学习训练开源 27B 推理模型原生使用真实机器人（无需示范）：模型观察环境、思维链推理、直接输出末端位姿。构建 PEAR 后训练引擎与 robot-use RL (RURL)，仿真习得技能可泛化到真机。",
+      "why_relevant": "「仿真 RL 训练推理模型直接控机器人」的路线，与驾驶 VLA 的 RL 后训练思路同源（3 星）。",
+      "status": "新发现"
+    },
     {
       "id": "2611.15238",
       "title": "Towards Robust Vision-Language Reasoning: A Multi-Stage Optimization Pipeline with Masked Diffusion Model",

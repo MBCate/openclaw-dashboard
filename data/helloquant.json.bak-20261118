@@ -1,0 +1,262 @@
+{
+ "source": "~/trading/helloquant",
+ "updated": "2026-11-17 07:16 UTC",
+ "status": "success",
+ "last_run": {
+  "date": "2026-11-16",
+  "timestamp": "2026-11-16T23:15:45.550359",
+  "success": true,
+  "note": "采集管线 5/6 成功；A股指数与期货子项因接口异常失败，加密/情绪/新闻/信号正常"
+ },
+ "crypto": {
+  "status": "success",
+  "btc": {
+   "price": 64616.7,
+   "change_24h": 0.15,
+   "high_24h": 65687.0,
+   "low_24h": 63910.0,
+   "rsi_1h": 44.5,
+   "rsi_4h": 53.6,
+   "macd_1h": "死叉",
+   "macd_4h": "金叉",
+   "trend_1h": "偏空",
+   "trend_4h": "偏空"
+  },
+  "eth": {
+   "price": 1829.51,
+   "change_24h": 1.15,
+   "high_24h": 1866.75,
+   "low_24h": 1787.03,
+   "rsi_1h": 55.7,
+   "rsi_4h": 63.0,
+   "macd_1h": "金叉",
+   "macd_4h": "金叉",
+   "trend_1h": "偏多",
+   "trend_4h": "偏空"
+  },
+  "note": "OKX 正常; BTC 64,616.70 (+0.15%)，ETH 1,829.51 (+1.15%)；BTC 1h MACD 死叉但 4h 金叉，ETH 1h/4h 均金叉，短线有企稳迹象"
+ },
+ "sentiment": {
+  "crypto_fear_greed": {
+   "value": 12,
+   "classification": "Extreme Fear",
+   "timestamp": "1794873600"
+  },
+  "qvix": 14.21
+ },
+ "stocks": {
+  "status": "partial",
+  "note": "2026-11-16 A股指数/期货采集失败(接口异常)，仅取到50ETF波动率 14.21",
+  "data": {
+   "50ETF波动率": {
+    "value": 14.21,
+    "date": "2026-11-16"
+   }
+  }
+ },
+ "signals": {
+  "DoubleMa": {
+   "1h": {
+    "signal": "观望",
+    "price": 64623.7
+   },
+   "4h": {
+    "signal": "观望",
+    "price": 64618.9
+   }
+  },
+  "RSI": {
+   "1h": {
+    "signal": "观望",
+    "price": 64623.7
+   },
+   "4h": {
+    "signal": "观望",
+    "price": 64618.9
+   }
+  },
+  "MACD": {
+   "1h": {
+    "signal": "做空",
+    "price": 64623.7
+   },
+   "4h": {
+    "signal": "观望",
+    "price": 64618.9
+   }
+  },
+  "Bollinger": {
+   "1h": {
+    "signal": "观望",
+    "price": 64623.7
+   },
+   "4h": {
+    "signal": "观望",
+    "price": 64618.9
+   }
+  },
+  "Supertrend": {
+   "1h": {
+    "signal": "观望",
+    "price": 64623.7
+   },
+   "4h": {
+    "signal": "观望",
+    "price": 64618.9
+   }
+  },
+  "TripleMa": {
+   "1h": {
+    "signal": "做多",
+    "price": 64623.7
+   },
+   "4h": {
+    "signal": "观望",
+    "price": 64618.9
+   }
+  },
+  "Momentum": {
+   "1h": {
+    "signal": "做空",
+    "price": 64623.7
+   },
+   "4h": {
+    "signal": "做多",
+    "price": 64618.9
+   }
+  },
+  "MeanReversion": {
+   "1h": {
+    "signal": "观望",
+    "price": 64623.7
+   },
+   "4h": {
+    "signal": "观望",
+    "price": 64618.9
+   }
+  }
+ },
+ "strategies": [
+  {
+   "name": "DoubleMa",
+   "signal_1h": "观望",
+   "signal_4h": "观望",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null
+  },
+  {
+   "name": "TripleMa",
+   "signal_1h": "做多",
+   "signal_4h": "观望",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null
+  },
+  {
+   "name": "Supertrend",
+   "signal_1h": "观望",
+   "signal_4h": "观望",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null
+  },
+  {
+   "name": "RSI",
+   "signal_1h": "观望",
+   "signal_4h": "观望",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null
+  },
+  {
+   "name": "MACD",
+   "signal_1h": "做空",
+   "signal_4h": "观望",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null
+  },
+  {
+   "name": "Bollinger",
+   "signal_1h": "观望",
+   "signal_4h": "观望",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null
+  },
+  {
+   "name": "Momentum",
+   "signal_1h": "做空",
+   "signal_4h": "做多",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null
+  },
+  {
+   "name": "MeanReversion",
+   "signal_1h": "观望",
+   "signal_4h": "观望",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null
+  }
+ ],
+ "news": {
+  "status": "success",
+  "note": "RSS 采集 5 条",
+  "items": [
+   {
+    "source": "Cointelegraph",
+    "title": "Ex-Robinhood engineer pleads guilty to $125K Hyperliquid trading scheme",
+    "link": "https://cointelegraph.com/news/ex-robinhood-engineer-pleads-guilty-125k-crypto-trading-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   },
+   {
+    "source": "Cointelegraph",
+    "title": "Here’s what happened in crypto today",
+    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   },
+   {
+    "source": "Cointelegraph",
+    "title": "Trezor customer data exposed in 3rd partner breach this year",
+    "link": "https://cointelegraph.com/news/trezor-customer-data-exposed-in-3rd-partner-breach-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   },
+   {
+    "source": "Cointelegraph",
+    "title": "Hackers inject credit card, crypto-stealing malware into 178 major websites",
+    "link": "https://cointelegraph.com/news/hackers-inject-malware-into-178-major-websites?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   },
+   {
+    "source": "Cointelegraph",
+    "title": "Nvidia shares fall 4% as board reportedly rules out Huang return",
+    "link": "https://cointelegraph.com/news/nvidia-shares-fall-4-as-board-reportedly-rules-out-huang-return?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+   }
+  ]
+ },
+ "alerts": [
+  {
+   "severity": "WARN",
+   "text": "加密恐慌贪婪指数降至 12 (Extreme Fear)，为近期新低；BTC 24h 仅 +0.15% 报 64,616.70，较 11-12 的 69,199.90 已回落 6.6%"
+  },
+  {
+   "severity": "WARN",
+   "text": "策略方向分歧：1h 周期 做多 1 / 做空 2 / 观望 5；4h 周期 做多 1 / 做空 0 / 观望 7。Momentum 1h 做空而 4h 做多，周期冲突"
+  },
+  {
+   "severity": "WARN",
+   "text": "A股午后跳水，跌停 110 家 vs 涨停 51 家，创业板指 -1.20%；风险偏好同步走弱，与加密 Extreme Fear 一致"
+  },
+  {
+   "severity": "INFO",
+   "text": "采集管线 5/6 成功；A股指数(list index out of range)与新浪期货 SSL 异常持续失败；arXiv 采集报错"
+  }
+ ]
+}

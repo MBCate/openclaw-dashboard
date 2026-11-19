@@ -23,14 +23,14 @@
 
     <!-- Sectors treemap -->
     <div class="section">
-      <div class="section-title">板块涨跌</div>
+      <div class="section-title">个股涨跌 (板块接口不可用)</div>
       <div class="grid-2">
         <div class="card">
-          <h2>涨幅前5</h2>
+          <h2>个股涨幅前5</h2>
           <div id="sectors-top" class="chart-container-sm"></div>
         </div>
         <div class="card">
-          <h2>跌幅前5</h2>
+          <h2>个股跌幅前5</h2>
           <div id="sectors-bottom" class="chart-container-sm"></div>
         </div>
       </div>
@@ -69,7 +69,7 @@
 
       // Indices cards
       const indicesEl = document.getElementById('indices');
-      (data.indices || []).forEach(idx => {
+      (data.indices_list || data.indices || []).forEach(idx => {
         const card = document.createElement('div');
         card.className = 'card';
         card.innerHTML = `

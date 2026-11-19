@@ -1,129 +1,352 @@
 {
-  "date": "2026-11-19",
-  "time": "noon",
-  "fetched_at": "2026-11-19T03:35:45Z",
-  "indices": {
-    "上证指数": {
-      "code": "000001",
-      "price": 3571.99,
-      "change": -15.84,
-      "change_pct": -0.44
-    },
-    "深证成指": {
-      "code": "399001",
-      "price": 10604.52,
-      "change": -54.89,
-      "change_pct": -0.51
-    },
-    "创业板指": {
-      "code": "399006",
-      "price": 2297.02,
-      "change": -14.6,
-      "change_pct": -0.63
-    },
-    "沪深300": {
-      "code": "000300",
-      "price": 3964.17,
-      "change": -19.6,
-      "change_pct": -0.49
-    },
-    "上证50": {
-      "code": "000016",
-      "price": 2748.27,
-      "change": -16.27,
-      "change_pct": -0.59
-    },
-    "中证500": {
-      "code": "000905",
-      "price": 6289.36,
-      "change": 7.14,
-      "change_pct": 0.11
-    },
-    "科创50": {
-      "code": "000688",
-      "price": 1260.28,
-      "change": 12.29,
-      "change_pct": 0.98
-    },
-    "中证1000": {
-      "code": "000852",
-      "price": 5990.84,
-      "change": -61.98,
-      "change_pct": -1.02
-    }
+ "date": "2026-11-19",
+ "time": "close",
+ "fetched_at": "2026-11-19T07:35:00Z",
+ "indices": {
+  "上证指数": {
+   "code": "000001",
+   "price": 3577.62,
+   "change": -10.21,
+   "change_pct": -0.28,
+   "open": 3583.12,
+   "high": 3584.28,
+   "low": 3547.94,
+   "prev_close": 3587.83,
+   "turnover_yi": 6369.09
   },
-  "hang_seng": {
-    "name": "恒生指数",
-    "price": 22854.76,
-    "change": -439.99,
-    "change_pct": -1.89,
-    "time": ""
+  "深证成指": {
+   "code": "399001",
+   "price": 10583.2,
+   "change": -76.21,
+   "change_pct": -0.71,
+   "open": 10591.73,
+   "high": 10664.29,
+   "low": 10505.84,
+   "prev_close": 10659.41,
+   "turnover_yi": 6682.38
   },
-  "sectors": {
-    "top5": [
-      {
-        "name": "集成电路制造",
-        "change_pct": 6.94,
-        "turnover": 199.63
-      },
-      {
-        "name": "集成电路封测",
-        "change_pct": 4.36,
-        "turnover": 122.35
-      },
-      {
-        "name": "稀土",
-        "change_pct": 2.1,
-        "turnover": 28.29
-      },
-      {
-        "name": "氨纶",
-        "change_pct": 1.71,
-        "turnover": 1.29
-      },
-      {
-        "name": "半导体设备",
-        "change_pct": 1.5,
-        "turnover": 216.76
-      }
-    ],
-    "bottom5": [
-      {
-        "name": "电力",
-        "change_pct": -0.79,
-        "turnover": 150.44
-      },
-      {
-        "name": "光学元件",
-        "change_pct": -0.79,
-        "turnover": 66.5
-      },
-      {
-        "name": "生活用纸",
-        "change_pct": -0.79,
-        "turnover": 6.17
-      },
-      {
-        "name": "工程机械",
-        "change_pct": -0.79,
-        "turnover": 58.47
-      },
-      {
-        "name": "股份制银行Ⅲ",
-        "change_pct": -0.78,
-        "turnover": 54.02
-      }
-    ],
-    "count": 100,
-    "source": "eastmoney"
+  "创业板指": {
+   "code": "399006",
+   "price": 2293.34,
+   "change": -18.28,
+   "change_pct": -0.79,
+   "open": 2290.21,
+   "high": 2315.78,
+   "low": 2271.99,
+   "prev_close": 2311.62,
+   "turnover_yi": 3143.8
   },
-  "northbound": {
-    "date": null,
-    "net": 0.0,
-    "items": [],
-    "note": "沪深港通北向资金自2024-08起停止实时披露"
+  "沪深300": {
+   "code": "000300",
+   "price": 3984.84,
+   "change": 1.07,
+   "change_pct": 0.03,
+   "open": 3972.43,
+   "high": 3995.55,
+   "low": 3937.75,
+   "prev_close": 3983.77,
+   "turnover_yi": 3954.41
   },
-  "southbound": [],
-  "breadth": {},
-  "note": "午盘数据 (2026-11-19 11:30 CST, 东方财富 push2delay)。指数普遍回调: 上证 -0.44% 报 3571.99, 深证成指 -0.51% 报 10604.52, 创业板指 -0.63% 报 2297.02, 沪深300 -0.49%, 上证50 -0.59%, 中证1000 -1.02%; 科创50 +0.98%、中证500 +0.11% 逆势走强。板块主线为半导体: 集成电路制造 +6.94% 领涨, 集成电路封测 +4.36%, 半导体设备 +1.50%, 稀土 +2.10%; 弱势板块跌幅温和(电力/光学元件 -0.79%)。恒生指数 22854.76 (-1.89%), 港股承压。北向资金自 2024-08 起停止实时披露; 涨跌家数接口本次返回 502, 本报告缺该项。"
+  "上证50": {
+   "code": "000016",
+   "price": 2773.46,
+   "change": 8.92,
+   "change_pct": 0.32,
+   "open": 2762.48,
+   "high": 2776.4,
+   "low": 2729.42,
+   "prev_close": 2764.54,
+   "turnover_yi": 1289.16
+  },
+  "中证500": {
+   "code": "000905",
+   "price": 6251.96,
+   "change": -30.26,
+   "change_pct": -0.48,
+   "open": 6257.5,
+   "high": 6321.4,
+   "low": 6200.92,
+   "prev_close": 6282.22,
+   "turnover_yi": 2242.86
+  },
+  "科创50": {
+   "code": "000688",
+   "price": 1270.78,
+   "change": 22.79,
+   "change_pct": 1.83,
+   "open": 1242.2827,
+   "high": 1276.7789,
+   "low": 1220.3821,
+   "prev_close": 1247.9905,
+   "turnover_yi": 1101.21
+  },
+  "中证1000": {
+   "code": "000852",
+   "price": 5938.9,
+   "change": -113.92,
+   "change_pct": -1.88,
+   "open": 6033.49,
+   "high": 6033.49,
+   "low": 5913.05,
+   "prev_close": 6052.82,
+   "turnover_yi": 2321.21
+  }
+ },
+ "hang_seng": {
+  "name": "恒生指数",
+  "price": 22862.64,
+  "change": -432.11,
+  "change_pct": -1.85,
+  "time": "2026-11-19 16:08 HKT"
+ },
+ "sectors": {
+  "top5": [],
+  "bottom5": [],
+  "count": 0,
+  "source": "unavailable",
+  "note": "东方财富板块接口 (push2 clist, m:90 t:2) 本时段持续 502; 雪球行业接口返回\"服务器繁忙\"{多次重试}。板块数据缺失。"
+ },
+ "northbound": {
+  "date": null,
+  "net": 0.0,
+  "items": [],
+  "note": "沪深港通北向资金自2024-08起停止实时披露"
+ },
+ "southbound": [],
+ "breadth": {
+  "up": 647,
+  "down": 4293,
+  "flat": 60,
+  "total": 5000,
+  "up_pct": 12.9,
+  "source": "xueqiu 全量扫描"
+ },
+ "note": "2026-11-19 A股收盘。上证指数 3577.62 (-0.28%), 深证成指 10583.20 (-0.71%), 创业板指 2293.34 (-0.79%), 沪深300 3984.84 (+0.03%), 上证50 2773.46 (+0.32%), 中证500 6251.96 (-0.48%), 中证1000 5938.90 (-1.88%), 科创50 1270.78 (+1.83%)。格局: 大盘权重股(上证50/沪深300)微涨护盘, 小盘成长(中证1000 -1.88%, 创业板指 -0.79%)显著承压, 科创50 逆势领涨 +1.83% — 典型二八分化。涨跌家数极度恶化: 647 涨 / 4293 跌 / 60 平, 上涨占比仅 12.9%, 赚钱效应差。个股: 涨幅榜以半导体设备/封测为主 (蓝箭电子+20%, 卡莱特+19.97%, 灿芯股份+15.3%, 燕东微+11.37%, 芯碁微装+10.62%, 晶合集成+10.26%); 跌幅榜集中在 AI 算力芯片新股 (燧原科技-U -20%, 沐曦股份-U -14.72%, 盛科通信-U -14.86%)。两市成交额合计约 13051 亿元 (沪 6369 亿 + 深 6682 亿)。恒生指数 22862.64 (-1.85%), 港股同步走弱。数据源: 雪球 (Xueqiu) 收盘快照 — 东方财富 push2/push2his 本次全线不可用 (502 Bad Gateway / TLS 失败), 板块接口未能取到。北向资金自 2024-08 起停止实时披露; 两市成交额合计约 13051 亿元。",
+ "source": "雪球 (Xueqiu) 收盘快照; 东方财富 push2/push2his 本次不可用 (502/SSL)",
+ "top_gainers": [
+  {
+   "name": "*ST仕净",
+   "symbol": "SZ301030",
+   "change_pct": 20.0,
+   "turnover_yi": 0.59
+  },
+  {
+   "name": "蓝箭电子",
+   "symbol": "SZ301348",
+   "change_pct": 20.0,
+   "turnover_yi": 7.84
+  },
+  {
+   "name": "卡莱特",
+   "symbol": "SZ301391",
+   "change_pct": 19.97,
+   "turnover_yi": 8.18
+  },
+  {
+   "name": "灿芯股份",
+   "symbol": "SH688691",
+   "change_pct": 15.3,
+   "turnover_yi": 12.58
+  },
+  {
+   "name": "燕东微",
+   "symbol": "SH688172",
+   "change_pct": 11.37,
+   "turnover_yi": 16.86
+  },
+  {
+   "name": "耐科装备",
+   "symbol": "SH688419",
+   "change_pct": 10.75,
+   "turnover_yi": 2.38
+  },
+  {
+   "name": "芯碁微装",
+   "symbol": "SH688630",
+   "change_pct": 10.62,
+   "turnover_yi": 21.74
+  },
+  {
+   "name": "晶合集成",
+   "symbol": "SH688249",
+   "change_pct": 10.26,
+   "turnover_yi": 20.43
+  },
+  {
+   "name": "康盛股份",
+   "symbol": "SZ002418",
+   "change_pct": 10.14,
+   "turnover_yi": 2.36
+  },
+  {
+   "name": "*ST发展",
+   "symbol": "SZ000838",
+   "change_pct": 10.09,
+   "turnover_yi": 0.11
+  }
+ ],
+ "top_losers": [
+  {
+   "name": "晶雪节能",
+   "symbol": "SZ301010",
+   "change_pct": -20.0,
+   "turnover_yi": 3.85
+  },
+  {
+   "name": "燧原科技-U",
+   "symbol": "SH688801",
+   "change_pct": -20.0,
+   "turnover_yi": 19.62
+  },
+  {
+   "name": "亿田智能",
+   "symbol": "SZ300911",
+   "change_pct": -17.11,
+   "turnover_yi": 5.29
+  },
+  {
+   "name": "天亿马",
+   "symbol": "SZ301178",
+   "change_pct": -15.34,
+   "turnover_yi": 3.41
+  },
+  {
+   "name": "清研环境",
+   "symbol": "SZ301288",
+   "change_pct": -15.29,
+   "turnover_yi": 3.05
+  },
+  {
+   "name": "信息发展",
+   "symbol": "SZ300469",
+   "change_pct": -15.2,
+   "turnover_yi": 3.8
+  },
+  {
+   "name": "盛科通信-U",
+   "symbol": "SH688702",
+   "change_pct": -14.86,
+   "turnover_yi": 34.64
+  },
+  {
+   "name": "沐曦股份-U",
+   "symbol": "SH688802",
+   "change_pct": -14.72,
+   "turnover_yi": 21.52
+  },
+  {
+   "name": "百诚医药",
+   "symbol": "SZ301096",
+   "change_pct": -14.65,
+   "turnover_yi": 2.08
+  },
+  {
+   "name": "众智科技",
+   "symbol": "SZ301361",
+   "change_pct": -14.63,
+   "turnover_yi": 1.3
+  }
+ ],
+ "updated_at": "2026-11-19T07:35:00Z",
+ "indices_list": [
+  {
+   "name": "上证指数",
+   "close": 3577.62,
+   "change_pct": -0.28,
+   "volume": "6,369亿"
+  },
+  {
+   "name": "深证成指",
+   "close": 10583.2,
+   "change_pct": -0.71,
+   "volume": "6,682亿"
+  },
+  {
+   "name": "创业板指",
+   "close": 2293.34,
+   "change_pct": -0.79,
+   "volume": "3,144亿"
+  },
+  {
+   "name": "沪深300",
+   "close": 3984.84,
+   "change_pct": 0.03,
+   "volume": "3,954亿"
+  },
+  {
+   "name": "上证50",
+   "close": 2773.46,
+   "change_pct": 0.32,
+   "volume": "1,289亿"
+  },
+  {
+   "name": "中证500",
+   "close": 6251.96,
+   "change_pct": -0.48,
+   "volume": "2,243亿"
+  },
+  {
+   "name": "科创50",
+   "close": 1270.78,
+   "change_pct": 1.83,
+   "volume": "1,101亿"
+  },
+  {
+   "name": "中证1000",
+   "close": 5938.9,
+   "change_pct": -1.88,
+   "volume": "2,321亿"
+  },
+  {
+   "name": "恒生指数",
+   "close": 22862.64,
+   "change_pct": -1.85,
+   "volume": ""
+  }
+ ],
+ "sectors_top5": [
+  {
+   "name": "*ST仕净",
+   "change_pct": 20.0
+  },
+  {
+   "name": "蓝箭电子",
+   "change_pct": 20.0
+  },
+  {
+   "name": "卡莱特",
+   "change_pct": 19.97
+  },
+  {
+   "name": "灿芯股份",
+   "change_pct": 15.3
+  },
+  {
+   "name": "燕东微",
+   "change_pct": 11.37
+  }
+ ],
+ "sectors_bottom5": [
+  {
+   "name": "晶雪节能",
+   "change_pct": -20.0
+  },
+  {
+   "name": "燧原科技-U",
+   "change_pct": -20.0
+  },
+  {
+   "name": "亿田智能",
+   "change_pct": -17.11
+  },
+  {
+   "name": "天亿马",
+   "change_pct": -15.34
+  },
+  {
+   "name": "清研环境",
+   "change_pct": -15.29
+  }
+ ],
+ "northbound_fallback": true
 }

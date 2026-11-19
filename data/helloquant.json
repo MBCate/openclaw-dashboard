@@ -1,144 +1,126 @@
 {
  "source": "~/trading/helloquant",
- "updated": "2026-11-18 07:08 UTC",
+ "updated": "2026-11-19 07:15 UTC",
  "status": "success",
  "last_run": {
-  "date": "2026-11-17",
-  "timestamp": "2026-11-17T23:07:29.637498",
+  "date": "2026-11-18",
+  "timestamp": "2026-11-18T23:11:51.384762",
   "success": true,
-  "note": "采集管线最近一次运行 2026-11-17 (6/6 成功)"
+  "note": "采集管线 6/6 成功 (加密/波动率/情绪/新闻/论文/策略信号); A股指数与期货切片因网络不可用"
  },
  "crypto": {
   "status": "success",
   "btc": {
-   "price": 64734.4,
-   "change_24h": 0.23
+   "price": 63758.1,
+   "change_24h": -1.54
   },
   "eth": {
-   "price": 1814.56,
-   "change_24h": -0.82
+   "price": 1806.88,
+   "change_24h": -0.53
   },
-  "note": "OKX 数据正常; BTC 64734.4 (+0.23%) / ETH 1814.56 (-0.82%)"
+  "note": "OKX 正常; BTC 63,758.10 (-1.54%) / ETH 1,806.88 (-0.53%)"
  },
  "sentiment": {
   "crypto_fear_greed": {
-   "value": 11,
+   "value": 10,
    "classification": "Extreme Fear"
   }
  },
  "stocks": {
   "status": "success",
-  "note": "2026-11-17 A股/期货收盘数据",
+  "note": "2026-11-18 QVIX",
   "data": {
    "50ETF波动率": {
-    "value": 14.48,
-    "date": "2026-11-17"
+    "value": 14.8,
+    "date": "2026-11-18"
    }
   }
  },
  "signals": {
   "DoubleMa": {
    "1h": {
-    "signal": "做多",
-    "price": 64750.0
+    "signal": "观望",
+    "price": 63680.1
    },
    "4h": {
     "signal": "观望",
-    "price": 64749.9
+    "price": 63667.6
    }
   },
   "RSI": {
    "1h": {
     "signal": "观望",
-    "price": 64750.0
+    "price": 63680.1
    },
    "4h": {
     "signal": "观望",
-    "price": 64749.9
+    "price": 63667.6
    }
   },
   "MACD": {
    "1h": {
-    "signal": "观望",
-    "price": 64750.0
+    "signal": "做多",
+    "price": 63680.1
    },
    "4h": {
     "signal": "观望",
-    "price": 64749.9
+    "price": 63667.6
    }
   },
   "Bollinger": {
    "1h": {
     "signal": "观望",
-    "price": 64750.0
+    "price": 63680.1
    },
    "4h": {
-    "signal": "观望",
-    "price": 64749.9
+    "signal": "做多",
+    "price": 63667.6
    }
   },
   "Supertrend": {
    "1h": {
     "signal": "观望",
-    "price": 64750.0
+    "price": 63680.1
    },
    "4h": {
     "signal": "观望",
-    "price": 64749.9
+    "price": 63667.6
    }
   },
   "TripleMa": {
    "1h": {
     "signal": "观望",
-    "price": 64750.0
+    "price": 63680.1
    },
    "4h": {
     "signal": "观望",
-    "price": 64749.9
+    "price": 63667.6
    }
   },
   "Momentum": {
    "1h": {
     "signal": "做多",
-    "price": 64750.0
+    "price": 63680.1
    },
    "4h": {
-    "signal": "做空",
-    "price": 64749.9
+    "signal": "观望",
+    "price": 63667.6
    }
   },
   "MeanReversion": {
    "1h": {
     "signal": "观望",
-    "price": 64750.0
+    "price": 63680.1
    },
    "4h": {
-    "signal": "观望",
-    "price": 64749.9
+    "signal": "做多",
+    "price": 63667.6
    }
   }
  },
  "strategies": [
   {
    "name": "DoubleMa",
-   "signal_1h": "做多",
-   "signal_4h": "观望",
-   "daily_return": 0.0,
-   "weekly_return": null,
-   "max_drawdown": null,
-   "sharpe": null
-  },
-  {
-   "name": "TripleMa",
-   "signal_1h": "观望",
-   "signal_4h": "观望",
-   "daily_return": 0.0,
-   "weekly_return": null,
-   "max_drawdown": null,
-   "sharpe": null
-  },
-  {
-   "name": "Supertrend",
    "signal_1h": "观望",
    "signal_4h": "观望",
    "daily_return": 0.0,
@@ -157,7 +139,7 @@
   },
   {
    "name": "MACD",
-   "signal_1h": "观望",
+   "signal_1h": "做多",
    "signal_4h": "观望",
    "daily_return": 0.0,
    "weekly_return": null,
@@ -166,6 +148,24 @@
   },
   {
    "name": "Bollinger",
+   "signal_1h": "观望",
+   "signal_4h": "做多",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null
+  },
+  {
+   "name": "Supertrend",
+   "signal_1h": "观望",
+   "signal_4h": "观望",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null
+  },
+  {
+   "name": "TripleMa",
    "signal_1h": "观望",
    "signal_4h": "观望",
    "daily_return": 0.0,
@@ -176,7 +176,7 @@
   {
    "name": "Momentum",
    "signal_1h": "做多",
-   "signal_4h": "做空",
+   "signal_4h": "观望",
    "daily_return": 0.0,
    "weekly_return": null,
    "max_drawdown": null,
@@ -185,97 +185,71 @@
   {
    "name": "MeanReversion",
    "signal_1h": "观望",
-   "signal_4h": "观望",
+   "signal_4h": "做多",
    "daily_return": 0.0,
    "weekly_return": null,
    "max_drawdown": null,
    "sharpe": null
   }
  ],
- "news": {
-  "status": "success",
-  "note": "RSS 采集 5 条",
-  "items": [
-   {
-    "source": "Cointelegraph",
-    "title": "Here’s what happened in crypto today",
-    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-   },
-   {
-    "source": "Cointelegraph",
-    "title": "Ledger hardware implant saga reaches Dubai’s Virgin Megastore",
-    "link": "https://cointelegraph.com/news/ledger-hardware-implant-saga-reaches-dubais-virgin-megastore?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-   },
-   {
-    "source": "Cointelegraph",
-    "title": "Nvidia board rejects Huang comeback despite record $116B quarter",
-    "link": "https://cointelegraph.com/markets/nvidia-board-rejects-huang-comeback-amid-record-116b-quarter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-   },
-   {
-    "source": "Cointelegraph",
-    "title": "CFTC halts some Kalshi Trump mention markets over manipulation concerns",
-    "link": "https://cointelegraph.com/news/cftc-kalshi-trump-mention-markets-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-   },
-   {
-    "source": "Cointelegraph",
-    "title": "Maple Finance CEO targets up to $15B in assets by the end of 2027",
-    "link": "https://cointelegraph.com/news/maple-finance-15b-assets-target-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-   }
-  ]
- },
- "papers": {
-  "status": "success",
-  "note": "arXiv 采集 10 篇",
-  "items": [
-   {
-    "title": "Which Past Matters? Training History and Multi-Forecast Horizon in Equity Transformers"
-   },
-   {
-    "title": "Integrating market sentiments for stock price prediction: A comparative study of Bi-LSTM and multilayer perceptions"
-   },
-   {
-    "title": "Covariate-Indexed Inclusion Probabilities on Unbalanced Panels"
-   },
-   {
-    "title": "Beyond Strike Remapping: Conditional-Gamma Pricing of Leveraged ETF Options under Local Volatility"
-   },
-   {
-    "title": "Explaining Realized Returns: Roll's $R^2$ 40 Years Later"
-   },
-   {
-    "title": "An axiomatic foundation for optimized certainty equivalents"
-   },
-   {
-    "title": "Revisiting Equity-Bond Diversification under Tail Risk and Structural Market Change: Evidence from Global ETFs and Model-Implied Option Prices"
-   },
-   {
-    "title": "Neural Marked Point Processes for Health Insurance Claims"
-   },
-   {
-    "title": "Strategic Repayment and Latent Fragility in Financial Networks: Why Banks Withhold Payable Liquidity"
-   },
-   {
-    "title": "A Second Order Transport Scheme for Dynamic Portfolio Subspaces under a Varying Risk Metric"
-   }
-  ]
- },
- "updated_at": "2026-11-18 07:08 UTC",
- "alerts": [
+ "news": [
   {
-   "severity": "WARN",
-   "text": "加密恐慌贪婪指数 11 (Extreme Fear)，连续处于极度恐慌区间；BTC 64734.4 (+0.23%)，ETH 1814.56 (-0.82%)"
+   "source": "Cointelegraph",
+   "title": "Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts",
+   "link": "https://cointelegraph.com/markets/sygnum-bitcoin-carry-trades-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "Thu, 19 Nov 2026 06:00:00 +0000"
   },
   {
-   "severity": "WARN",
-   "text": "策略方向分歧：1h 做多 2 / 做空 0 / 观望 6；4h 做多 0 / 做空 1 / 观望 7。Momentum 1h 做多而 4h 做空，周期冲突"
+   "source": "Cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "Thu, 19 Nov 2026 06:00:00 +0000"
   },
   {
-   "severity": "INFO",
-   "text": "采集管线 6/6 全部成功（加密/情绪/A股/期货/新闻/信号），较前一日的 5/6 已恢复"
+   "source": "Cointelegraph",
+   "title": "Senators warn GENIUS Act rules could push stablecoin firms toward federal oversight",
+   "link": "https://cointelegraph.com/news/us-senators-genius-act-rules-favor-federal-stablecoin-issuers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "Thu, 19 Nov 2026 05:27:45 +0000"
   },
   {
-   "severity": "INFO",
-   "text": "A股尾盘翻红（上证 +0.09%、科创50 +2.19%），但个股涨跌 1310:3853 仍偏弱；50ETF 波动率 14.48 低位"
+   "source": "Cointelegraph",
+   "title": "Binance hackers stole 192 tokens across 11 networks, court docs show",
+   "link": "https://cointelegraph.com/news/binance-hackers-stole-192-tokens-across-11-networks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "Thu, 19 Nov 2026 05:09:45 +0000"
+  },
+  {
+   "source": "Cointelegraph",
+   "title": "Trump administration unveils new center to choke off scam payments",
+   "link": "https://cointelegraph.com/news/trump-administration-unveils-new-center-choke-off-scam-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "Thu, 19 Nov 2026 01:45:33 +0000"
   }
- ]
+ ],
+ "papers": [
+  {
+   "title": "Stock bubbles in limited participation models with power utilities",
+   "link": "http://arxiv.org/abs/2611.24912v1",
+   "published": "2026-11-18"
+  },
+  {
+   "title": "Vibe-Trading: Towards Agent-Native Trading",
+   "link": "http://arxiv.org/abs/2611.24845v1",
+   "published": "2026-11-18"
+  },
+  {
+   "title": "ChainIT Transaction Truth: Stablecoins, Web3 Wallets, and Multi-Rail Commerce. A Zero-Trust Control Plane for Verified Identity, Organizational Authority, Runtime Compliance, Secure Wallet Execution, and Immutable Settlement Evidence",
+   "link": "http://arxiv.org/abs/2611.24659v1",
+   "published": "2026-11-18"
+  },
+  {
+   "title": "Sensitivity analysis in real options studies: systematic review and recommendations",
+   "link": "http://arxiv.org/abs/2611.24266v1",
+   "published": "2026-11-18"
+  },
+  {
+   "title": "Algorithmic Market Making Can Lead to Rough Volatility Through the Order Book",
+   "link": "http://arxiv.org/abs/2611.24028v1",
+   "published": "2026-11-18"
+  }
+ ],
+ "updated_at": "2026-11-19 07:15 UTC"
 }

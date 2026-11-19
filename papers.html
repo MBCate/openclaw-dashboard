@@ -102,7 +102,7 @@
           <div class="paper-title">
             ${p.url ? `<a href="${p.url}" target="_blank" style="color:var(--text-primary);text-decoration:none;">${p.title}</a>` : p.title}
           </div>
-          <div class="authors">${p.authors || ''} ${p.arxiv_id ? `| arXiv:${p.arxiv_id}` : ''}</div>
+          <div class="authors">${[].concat(p.authors || []).slice(0, 6).join(', ')} ${(p.arxiv_id || p.id) ? `| arXiv:${p.arxiv_id || p.id}` : ''}</div>
           ${p.categories?.length ? `<div style="margin-top:6px">${p.categories.map(c => `<span class="badge badge-blue">${c}</span>`).join(' ')}</div>` : ''}
           <div class="paper-summary">${p.summary || ''}</div>
         `;

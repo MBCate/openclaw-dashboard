@@ -1,28 +1,41 @@
 {
  "source": "~/trading/helloquant",
- "updated": "2026-11-19 07:15 UTC",
+ "updated": "2026-11-20 07:17 UTC",
  "status": "success",
  "last_run": {
-  "date": "2026-11-18",
-  "timestamp": "2026-11-18T23:11:51.384762",
+  "date": "2026-11-19",
+  "timestamp": "2026-11-19T23:15:48.568492",
   "success": true,
-  "note": "采集管线 6/6 成功 (加密/波动率/情绪/新闻/论文/策略信号); A股指数与期货切片因网络不可用"
+  "note": "采集管线 6/6 成功 (加密/波动率/情绪/新闻/论文/策略信号); A股指数与期货切片因新浪数据源 SSL 不可用"
  },
  "crypto": {
   "status": "success",
   "btc": {
-   "price": 63758.1,
-   "change_24h": -1.54
+   "price": 62004.4,
+   "change_24h": -2.57,
+   "high_24h": 64084.9,
+   "low_24h": 61293.8,
+   "rsi_1h": 42.6,
+   "rsi_4h": 27.5,
+   "macd_1h": "金叉",
+   "macd_4h": "死叉",
+   "trend_1h": "偏空",
+   "trend_4h": "偏空"
   },
   "eth": {
-   "price": 1806.88,
-   "change_24h": -0.53
+   "price": 1750.32,
+   "change_24h": -2.93,
+   "high_24h": 1817.49,
+   "low_24h": 1718.18,
+   "rsi_1h": 42.7,
+   "rsi_4h": 32.2,
+   "trend_4h": "偏空"
   },
-  "note": "OKX 正常; BTC 63,758.10 (-1.54%) / ETH 1,806.88 (-0.53%)"
+  "note": "OKX 正常; BTC 62,004.40 (-2.57%) / ETH 1,750.32 (-2.93%)"
  },
  "sentiment": {
   "crypto_fear_greed": {
-   "value": 10,
+   "value": 12,
    "classification": "Extreme Fear"
   }
  },
@@ -40,81 +53,81 @@
   "DoubleMa": {
    "1h": {
     "signal": "观望",
-    "price": 63680.1
+    "price": 61995.5
    },
    "4h": {
     "signal": "观望",
-    "price": 63667.6
+    "price": 61958.0
    }
   },
   "RSI": {
    "1h": {
     "signal": "观望",
-    "price": 63680.1
+    "price": 61995.5
    },
    "4h": {
-    "signal": "观望",
-    "price": 63667.6
+    "signal": "做多",
+    "price": 61958.0
    }
   },
   "MACD": {
    "1h": {
     "signal": "做多",
-    "price": 63680.1
+    "price": 61995.5
    },
    "4h": {
-    "signal": "观望",
-    "price": 63667.6
+    "signal": "做空",
+    "price": 61958.0
    }
   },
   "Bollinger": {
    "1h": {
     "signal": "观望",
-    "price": 63680.1
+    "price": 61995.5
    },
    "4h": {
-    "signal": "做多",
-    "price": 63667.6
+    "signal": "观望",
+    "price": 61958.0
    }
   },
   "Supertrend": {
    "1h": {
     "signal": "观望",
-    "price": 63680.1
+    "price": 61995.5
    },
    "4h": {
     "signal": "观望",
-    "price": 63667.6
+    "price": 61958.0
    }
   },
   "TripleMa": {
    "1h": {
     "signal": "观望",
-    "price": 63680.1
+    "price": 61995.5
    },
    "4h": {
     "signal": "观望",
-    "price": 63667.6
+    "price": 61958.0
    }
   },
   "Momentum": {
    "1h": {
-    "signal": "做多",
-    "price": 63680.1
+    "signal": "观望",
+    "price": 61995.5
    },
    "4h": {
     "signal": "观望",
-    "price": 63667.6
+    "price": 61958.0
    }
   },
   "MeanReversion": {
    "1h": {
     "signal": "观望",
-    "price": 63680.1
+    "price": 61995.5
    },
    "4h": {
-    "signal": "做多",
-    "price": 63667.6
+    "signal": "观望",
+    "price": 61958.0
    }
   }
  },
@@ -126,34 +139,42 @@
    "daily_return": 0.0,
    "weekly_return": null,
    "max_drawdown": null,
-   "sharpe": null
+   "sharpe": null,
+   "price_1h": 61995.5,
+   "price_4h": 61958.0
   },
   {
    "name": "RSI",
-   "signal_1h": "观望",
-   "signal_4h": "观望",
-   "daily_return": 0.0,
-   "weekly_return": null,
-   "max_drawdown": null,
-   "sharpe": null
-  },
-  {
-   "name": "MACD",
-   "signal_1h": "做多",
-   "signal_4h": "观望",
-   "daily_return": 0.0,
-   "weekly_return": null,
-   "max_drawdown": null,
-   "sharpe": null
-  },
-  {
-   "name": "Bollinger",
    "signal_1h": "观望",
    "signal_4h": "做多",
    "daily_return": 0.0,
    "weekly_return": null,
    "max_drawdown": null,
-   "sharpe": null
+   "sharpe": null,
+   "price_1h": 61995.5,
+   "price_4h": 61958.0
+  },
+  {
+   "name": "MACD",
+   "signal_1h": "做多",
+   "signal_4h": "做空",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null,
+   "price_1h": 61995.5,
+   "price_4h": 61958.0
+  },
+  {
+   "name": "Bollinger",
+   "signal_1h": "观望",
+   "signal_4h": "观望",
+   "daily_return": 0.0,
+   "weekly_return": null,
+   "max_drawdown": null,
+   "sharpe": null,
+   "price_1h": 61995.5,
+   "price_4h": 61958.0
   },
   {
    "name": "Supertrend",
@@ -162,7 +183,9 @@
    "daily_return": 0.0,
    "weekly_return": null,
    "max_drawdown": null,
-   "sharpe": null
+   "sharpe": null,
+   "price_1h": 61995.5,
+   "price_4h": 61958.0
   },
   {
    "name": "TripleMa",
@@ -171,85 +194,119 @@
    "daily_return": 0.0,
    "weekly_return": null,
    "max_drawdown": null,
-   "sharpe": null
+   "sharpe": null,
+   "price_1h": 61995.5,
+   "price_4h": 61958.0
   },
   {
    "name": "Momentum",
-   "signal_1h": "做多",
+   "signal_1h": "观望",
    "signal_4h": "观望",
    "daily_return": 0.0,
    "weekly_return": null,
    "max_drawdown": null,
-   "sharpe": null
+   "sharpe": null,
+   "price_1h": 61995.5,
+   "price_4h": 61958.0
   },
   {
    "name": "MeanReversion",
    "signal_1h": "观望",
-   "signal_4h": "做多",
+   "signal_4h": "观望",
    "daily_return": 0.0,
    "weekly_return": null,
    "max_drawdown": null,
-   "sharpe": null
+   "sharpe": null,
+   "price_1h": 61995.5,
+   "price_4h": 61958.0
   }
  ],
  "news": [
   {
    "source": "Cointelegraph",
-   "title": "Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts",
-   "link": "https://cointelegraph.com/markets/sygnum-bitcoin-carry-trades-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "Thu, 19 Nov 2026 06:00:00 +0000"
+   "title": "Anthropic’s $81B IPO draws half the net retail buying of SpaceX’s",
+   "link": "https://cointelegraph.com/markets/anthropic-ipo-spacex-retail-buying-first-day-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "Fri, 20 Nov 2026 06:24:41 +0000"
   },
   {
    "source": "Cointelegraph",
    "title": "Here’s what happened in crypto today",
    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "Thu, 19 Nov 2026 06:00:00 +0000"
+   "published": "Fri, 20 Nov 2026 06:00:00 +0000"
   },
   {
    "source": "Cointelegraph",
-   "title": "Senators warn GENIUS Act rules could push stablecoin firms toward federal oversight",
-   "link": "https://cointelegraph.com/news/us-senators-genius-act-rules-favor-federal-stablecoin-issuers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "Thu, 19 Nov 2026 05:27:45 +0000"
+   "title": "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak",
+   "link": "https://cointelegraph.com/markets/institutional-bitcoin-etf-holdings-clock-record-quarter-after-selling-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "Fri, 20 Nov 2026 03:33:22 +0000"
   },
   {
    "source": "Cointelegraph",
-   "title": "Binance hackers stole 192 tokens across 11 networks, court docs show",
-   "link": "https://cointelegraph.com/news/binance-hackers-stole-192-tokens-across-11-networks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "Thu, 19 Nov 2026 05:09:45 +0000"
+   "title": "Ledger CTO Charles Guillemet to leave after nine years at company",
+   "link": "https://cointelegraph.com/news/ledger-cto-charles-guillemet-to-leave-after-nine-years-at-company?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "Thu, 19 Nov 2026 23:44:02 +0000"
   },
   {
    "source": "Cointelegraph",
-   "title": "Trump administration unveils new center to choke off scam payments",
-   "link": "https://cointelegraph.com/news/trump-administration-unveils-new-center-choke-off-scam-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "Thu, 19 Nov 2026 01:45:33 +0000"
+   "title": "Binance’s $6.5B freeze order, Hong Kong ‘suspicious’ of HYPE: Asia Express",
+   "link": "https://cointelegraph.com/magazine/binances-65b-freeze-order-hong-kong-suspicious-of-hype-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "Thu, 19 Nov 2026 22:25:18 +0000"
   }
  ],
  "papers": [
   {
-   "title": "Stock bubbles in limited participation models with power utilities",
-   "link": "http://arxiv.org/abs/2611.24912v1",
-   "published": "2026-11-18"
+   "title": "Path-Independent Deleveraging Rules",
+   "authors": [
+    "Christoph Schlegel",
+    "Akaki Mamageishvili"
+   ]
   },
   {
-   "title": "Vibe-Trading: Towards Agent-Native Trading",
-   "link": "http://arxiv.org/abs/2611.24845v1",
-   "published": "2026-11-18"
+   "title": "Optimal Control in Pairs Trading with Negative-Power Utility",
+   "authors": [
+    "Aleksei Kozhevnikov"
+   ]
   },
   {
-   "title": "ChainIT Transaction Truth: Stablecoins, Web3 Wallets, and Multi-Rail Commerce. A Zero-Trust Control Plane for Verified Identity, Organizational Authority, Runtime Compliance, Secure Wallet Execution, and Immutable Settlement Evidence",
-   "link": "http://arxiv.org/abs/2611.24659v1",
-   "published": "2026-11-18"
+   "title": "Bond yield dynamics: a multi-country multi-horizon string model",
+   "authors": [
+    "Paul Ruelloux"
+   ]
   },
   {
-   "title": "Sensitivity analysis in real options studies: systematic review and recommendations",
-   "link": "http://arxiv.org/abs/2611.24266v1",
-   "published": "2026-11-18"
+   "title": "A Three-Factor Hull-White Scenario Generator for Macro-Financial Stress Forecasting",
+   "authors": [
+    "Ahmad Qadi",
+    "Thomas Schröder",
+    "Francesca Medda"
+   ]
   },
   {
-   "title": "Algorithmic Market Making Can Lead to Rough Volatility Through the Order Book",
-   "link": "http://arxiv.org/abs/2611.24028v1",
-   "published": "2026-11-18"
+   "title": "Equity and Aggregate Ambiguity",
+   "authors": [
+    "Jose Blanchet",
+    "Yang Liu",
+    "Tiantian Mao"
+   ]
+  },
+  {
+   "title": "Stablecoin Runs as Safe-Asset Stress Signals: Episode-Level Evidence for Central Bank Surveillance",
+   "authors": [
+    "Ahmad Qadi",
+    "Hui Gong",
+    "Francesca Medda"
+   ]
   }
  ],
- "updated_at": "2026-11-19 07:15 UTC"
+ "alerts": [
+  {
+   "severity": "WARN",
+   "text": "BTC 4h RSI 27.5 / ETH 4h RSI 32.2, 均处超卖区; 恐惧贪婪指数 12 (Extreme Fear), 情绪极度悲观"
+  },
+  {
+   "severity": "WARN",
+   "text": "MACD 4h 转做空, 与 RSI 4h 做多信号方向冲突, 策略间分歧扩大"
+  }
+ ],
+ "updated_at": "2026-11-20T07:17:33Z"
 }

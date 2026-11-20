@@ -29,6 +29,15 @@
           <tbody id="weekly-returns"></tbody>
         </table>
       </div>
+      <div class="card" style="margin-top:16px">
+        <div class="subtitle" style="margin-bottom:8px">策略本周回测表现（BTC/USDT 1H）</div>
+        <table>
+          <thead>
+            <tr><th>策略</th><th>1H 信号</th><th>4H 信号</th><th>周收益</th><th>最大回撤</th><th>Sharpe</th><th>交易次数</th></tr>
+          </thead>
+          <tbody id="weekly-strategies"></tbody>
+        </table>
+      </div>
     </div>
 
     <div class="section">
@@ -185,6 +194,22 @@
           <td>${formatChange(r.change_pct)}</td>
         `;
         rt.appendChild(tr);
+      });
+
+      // 策略周度表现
+      const st = document.getElementById('weekly-strategies');
+      (w.strategies || []).forEach(s => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td style="font-weight:600">${s.name}</td>
+          <td>${signalBadge(s.signal_1h)}</td>
+          <td>${signalBadge(s.signal_4h)}</td>
+          <td>${formatChange(s.weekly_return)}</td>
+          <td><span class="down">${s.max_drawdown}%</span></td>
+          <td style="font-family:var(--font-mono)">${s.sharpe?.toFixed(2) ?? '—'}</td>
+          <td style="font-family:var(--font-mono)">${s.trades ?? '—'}</td>
+        `;
+        st.appendChild(tr);
       });
     }
 

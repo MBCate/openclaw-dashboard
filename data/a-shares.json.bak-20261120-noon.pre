@@ -1,0 +1,452 @@
+{
+ "date": "2026-11-20",
+ "time": "noon",
+ "fetched_at": "2026-11-20T03:43:21Z",
+ "indices": {
+  "上证指数": {
+   "code": "000001",
+   "price": 3521.4,
+   "change": -56.22,
+   "change_pct": -1.57,
+   "open": 3527.3,
+   "high": 3534.15,
+   "low": 3500.88,
+   "prev_close": 3577.62,
+   "turnover_yi": 4039.89
+  },
+  "深证成指": {
+   "code": "399001",
+   "price": 10365.76,
+   "change": -217.44,
+   "change_pct": -2.05,
+   "open": 10402.29,
+   "high": 10436.04,
+   "low": 10286.39,
+   "prev_close": 10583.2,
+   "turnover_yi": 4517.79
+  },
+  "创业板指": {
+   "code": "399006",
+   "price": 2245.61,
+   "change": -47.73,
+   "change_pct": -2.08,
+   "open": 2244.06,
+   "high": 2263.3,
+   "low": 2222.77,
+   "prev_close": 2293.34,
+   "turnover_yi": 2148.36
+  },
+  "沪深300": {
+   "code": "000300",
+   "price": 3916.96,
+   "change": -67.88,
+   "change_pct": -1.7,
+   "open": 3925.74,
+   "high": 3932.59,
+   "low": 3894.47,
+   "prev_close": 3984.84,
+   "turnover_yi": 2327.86
+  },
+  "上证50": {
+   "code": "000016",
+   "price": 2722.76,
+   "change": -50.7,
+   "change_pct": -1.83,
+   "open": 2730.24,
+   "high": 2736.91,
+   "low": 2709.06,
+   "prev_close": 2773.46,
+   "turnover_yi": 692.91
+  },
+  "中证500": {
+   "code": "000905",
+   "price": 6099.91,
+   "change": -152.05,
+   "change_pct": -2.43,
+   "open": 6146.79,
+   "high": 6175.38,
+   "low": 6048.38,
+   "prev_close": 6251.96,
+   "turnover_yi": 1406.3
+  },
+  "科创50": {
+   "code": "000688",
+   "price": 1236.38,
+   "change": -34.4,
+   "change_pct": -2.71,
+   "open": 1230.04,
+   "high": 1254.6,
+   "low": 1223.79,
+   "prev_close": 1270.78,
+   "turnover_yi": 549.7
+  },
+  "中证1000": {
+   "code": "000852",
+   "price": 5812.99,
+   "change": -125.91,
+   "change_pct": -2.12,
+   "open": 5826.37,
+   "high": 5841.42,
+   "low": 5711.18,
+   "prev_close": 5938.9,
+   "turnover_yi": 1581.88
+  }
+ },
+ "hang_seng": {
+  "name": "恒生指数",
+  "price": 22407.8,
+  "change": -433.82,
+  "change_pct": -1.9,
+  "time": "午盘"
+ },
+ "sectors": {
+  "top5": [
+   {
+    "name": "其他数字媒体",
+    "change_pct": 15.0,
+    "leader": "风语筑"
+   },
+   {
+    "name": "视频媒体",
+    "change_pct": 7.18,
+    "leader": "芒果超媒"
+   },
+   {
+    "name": "印制电路板",
+    "change_pct": 3.41,
+    "leader": "中京电子"
+   },
+   {
+    "name": "广告媒体",
+    "change_pct": 3.12,
+    "leader": "华媒控股"
+   },
+   {
+    "name": "水产养殖",
+    "change_pct": 3.08,
+    "leader": "好当家"
+   }
+  ],
+  "bottom5": [
+   {
+    "name": "厨房小家电",
+    "change_pct": -4.15
+   },
+   {
+    "name": "涂料",
+    "change_pct": -4.38
+   },
+   {
+    "name": "白银",
+    "change_pct": -4.41
+   },
+   {
+    "name": "其他黑色家电",
+    "change_pct": -4.51
+   },
+   {
+    "name": "稀土",
+    "change_pct": -5.34
+   }
+  ],
+  "count": 496,
+  "source": "东方财富行业板块 stock_board_industry_name_em",
+  "note": "午盘数据"
+ },
+ "northbound": {
+  "date": "2026-11-20",
+  "net": null,
+  "items": [],
+  "note": "北向资金自 2024-08 起停止实时披露净流入, 无可用午盘数据"
+ },
+ "southbound": [],
+ "breadth": {
+  "up": 36,
+  "down": 460,
+  "flat": 0,
+  "total": 496,
+  "up_pct": 7.26,
+  "source": "行业板块口径 (496个行业板块); 个股涨跌家数接口不可用"
+ },
+ "note": "2026-11-20 A股午盘。上证指数 3521.40 (-1.57%), 深证成指 10365.76 (-2.05%), 创业板指 2245.61 (-2.08%), 沪深300 3916.96 (-1.70%), 上证50 2722.76 (-1.83%), 中证500 6099.91 (-2.43%), 中证1000 5812.99 (-2.12%), 科创50 1236.38 (-2.71%)。格局: 全线普跌, 无风格避险 — 权重(上证50/沪深300)与中小盘同步下行, 科创50/中证500 跌幅最深, 前期强势的科技成长回调最重。板块涨跌: 36 涨 / 460 跌 (上涨占比 7.26%), 仅传媒类逆势活跃 (其他数字媒体 +15.00%, 视频媒体 +7.18%, 广告媒体 +3.12%) 及 PCB (+3.41%); 稀土 (-5.34%)、白银 (-4.41%)、涂料 (-4.38%)、黑色家电 (-4.51%)、厨房小家电 (-4.15%) 领跌, 资源与顺周期集体走弱。两市成交额合计约 8558 亿元 (沪 4040 亿 + 深 4518 亿), 较昨日午盘温和放量。港股同步大跌: 恒生指数 22407.80 (-1.90%), 恒生科技 3517.64 (-3.60%)。北向资金自 2024-08 起停止实时披露。数据源: 东方财富 (AkShare); 全市场个股涨跌家数接口本次 SSL 失败, 以行业板块涨跌替代。",
+ "source": "东方财富 (AkShare stock_zh_index_spot_em / stock_board_industry_name_em / stock_hk_index_spot_em)",
+ "top_gainers": [
+  {
+   "name": "*ST仕净",
+   "symbol": "SZ301030",
+   "change_pct": 20.0,
+   "turnover_yi": 0.59
+  },
+  {
+   "name": "蓝箭电子",
+   "symbol": "SZ301348",
+   "change_pct": 20.0,
+   "turnover_yi": 7.84
+  },
+  {
+   "name": "卡莱特",
+   "symbol": "SZ301391",
+   "change_pct": 19.97,
+   "turnover_yi": 8.18
+  },
+  {
+   "name": "灿芯股份",
+   "symbol": "SH688691",
+   "change_pct": 15.3,
+   "turnover_yi": 12.58
+  },
+  {
+   "name": "燕东微",
+   "symbol": "SH688172",
+   "change_pct": 11.37,
+   "turnover_yi": 16.86
+  },
+  {
+   "name": "耐科装备",
+   "symbol": "SH688419",
+   "change_pct": 10.75,
+   "turnover_yi": 2.38
+  },
+  {
+   "name": "芯碁微装",
+   "symbol": "SH688630",
+   "change_pct": 10.62,
+   "turnover_yi": 21.74
+  },
+  {
+   "name": "晶合集成",
+   "symbol": "SH688249",
+   "change_pct": 10.26,
+   "turnover_yi": 20.43
+  },
+  {
+   "name": "康盛股份",
+   "symbol": "SZ002418",
+   "change_pct": 10.14,
+   "turnover_yi": 2.36
+  },
+  {
+   "name": "*ST发展",
+   "symbol": "SZ000838",
+   "change_pct": 10.09,
+   "turnover_yi": 0.11
+  }
+ ],
+ "top_losers": [
+  {
+   "name": "晶雪节能",
+   "symbol": "SZ301010",
+   "change_pct": -20.0,
+   "turnover_yi": 3.85
+  },
+  {
+   "name": "燧原科技-U",
+   "symbol": "SH688801",
+   "change_pct": -20.0,
+   "turnover_yi": 19.62
+  },
+  {
+   "name": "亿田智能",
+   "symbol": "SZ300911",
+   "change_pct": -17.11,
+   "turnover_yi": 5.29
+  },
+  {
+   "name": "天亿马",
+   "symbol": "SZ301178",
+   "change_pct": -15.34,
+   "turnover_yi": 3.41
+  },
+  {
+   "name": "清研环境",
+   "symbol": "SZ301288",
+   "change_pct": -15.29,
+   "turnover_yi": 3.05
+  },
+  {
+   "name": "信息发展",
+   "symbol": "SZ300469",
+   "change_pct": -15.2,
+   "turnover_yi": 3.8
+  },
+  {
+   "name": "盛科通信-U",
+   "symbol": "SH688702",
+   "change_pct": -14.86,
+   "turnover_yi": 34.64
+  },
+  {
+   "name": "沐曦股份-U",
+   "symbol": "SH688802",
+   "change_pct": -14.72,
+   "turnover_yi": 21.52
+  },
+  {
+   "name": "百诚医药",
+   "symbol": "SZ301096",
+   "change_pct": -14.65,
+   "turnover_yi": 2.08
+  },
+  {
+   "name": "众智科技",
+   "symbol": "SZ301361",
+   "change_pct": -14.63,
+   "turnover_yi": 1.3
+  }
+ ],
+ "updated_at": "2026-11-20T03:43:21Z",
+ "indices_list": [
+  {
+   "name": "上证指数",
+   "code": "000001",
+   "price": 3521.4,
+   "change": -56.22,
+   "change_pct": -1.57,
+   "open": 3527.3,
+   "high": 3534.15,
+   "low": 3500.88,
+   "prev_close": 3577.62,
+   "turnover_yi": 4039.89
+  },
+  {
+   "name": "深证成指",
+   "code": "399001",
+   "price": 10365.76,
+   "change": -217.44,
+   "change_pct": -2.05,
+   "open": 10402.29,
+   "high": 10436.04,
+   "low": 10286.39,
+   "prev_close": 10583.2,
+   "turnover_yi": 4517.79
+  },
+  {
+   "name": "创业板指",
+   "code": "399006",
+   "price": 2245.61,
+   "change": -47.73,
+   "change_pct": -2.08,
+   "open": 2244.06,
+   "high": 2263.3,
+   "low": 2222.77,
+   "prev_close": 2293.34,
+   "turnover_yi": 2148.36
+  },
+  {
+   "name": "沪深300",
+   "code": "000300",
+   "price": 3916.96,
+   "change": -67.88,
+   "change_pct": -1.7,
+   "open": 3925.74,
+   "high": 3932.59,
+   "low": 3894.47,
+   "prev_close": 3984.84,
+   "turnover_yi": 2327.86
+  },
+  {
+   "name": "上证50",
+   "code": "000016",
+   "price": 2722.76,
+   "change": -50.7,
+   "change_pct": -1.83,
+   "open": 2730.24,
+   "high": 2736.91,
+   "low": 2709.06,
+   "prev_close": 2773.46,
+   "turnover_yi": 692.91
+  },
+  {
+   "name": "中证500",
+   "code": "000905",
+   "price": 6099.91,
+   "change": -152.05,
+   "change_pct": -2.43,
+   "open": 6146.79,
+   "high": 6175.38,
+   "low": 6048.38,
+   "prev_close": 6251.96,
+   "turnover_yi": 1406.3
+  },
+  {
+   "name": "科创50",
+   "code": "000688",
+   "price": 1236.38,
+   "change": -34.4,
+   "change_pct": -2.71,
+   "open": 1230.04,
+   "high": 1254.6,
+   "low": 1223.79,
+   "prev_close": 1270.78,
+   "turnover_yi": 549.7
+  },
+  {
+   "name": "中证1000",
+   "code": "000852",
+   "price": 5812.99,
+   "change": -125.91,
+   "change_pct": -2.12,
+   "open": 5826.37,
+   "high": 5841.42,
+   "low": 5711.18,
+   "prev_close": 5938.9,
+   "turnover_yi": 1581.88
+  }
+ ],
+ "sectors_top5": [
+  {
+   "name": "其他数字媒体",
+   "change_pct": 15.0,
+   "leader": "风语筑"
+  },
+  {
+   "name": "视频媒体",
+   "change_pct": 7.18,
+   "leader": "芒果超媒"
+  },
+  {
+   "name": "印制电路板",
+   "change_pct": 3.41,
+   "leader": "中京电子"
+  },
+  {
+   "name": "广告媒体",
+   "change_pct": 3.12,
+   "leader": "华媒控股"
+  },
+  {
+   "name": "水产养殖",
+   "change_pct": 3.08,
+   "leader": "好当家"
+  }
+ ],
+ "sectors_bottom5": [
+  {
+   "name": "厨房小家电",
+   "change_pct": -4.15
+  },
+  {
+   "name": "涂料",
+   "change_pct": -4.38
+  },
+  {
+   "name": "白银",
+   "change_pct": -4.41
+  },
+  {
+   "name": "其他黑色家电",
+   "change_pct": -4.51
+  },
+  {
+   "name": "稀土",
+   "change_pct": -5.34
+  }
+ ],
+ "northbound_fallback": true,
+ "hang_seng_tech": {
+  "name": "恒生科技指数",
+  "price": 3517.64,
+  "change": -131.5,
+  "change_pct": -3.6
+ }
+}

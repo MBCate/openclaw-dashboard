@@ -1,9 +1,99 @@
 {
- "updated": "2026-11-19",
- "date": "2026-11-19T16:00:00",
- "total_papers": 2312,
- "new_papers": 18,
+ "updated": "2026-11-21",
+ "date": "2026-11-21T16:00:00",
+ "total_papers": 2316,
+ "new_papers": 4,
  "papers": [
+  {
+   "id": "2611.24352",
+   "title": "OCTR2A: Real-Time RGB-to-BEV Trajectory Projection and Forecasting at Urban Intersections",
+   "authors": [
+    "Emanuele Iacobelli",
+    "Simone Teglia",
+    "Francesco Pro",
+    "Claudia Melis Tonti",
+    "Irene Amerini"
+   ],
+   "published": "18 Nov 2026 (Wed)",
+   "arxiv_url": "https://arxiv.org/abs/2611.24352",
+   "summary": "Trajectory forecasting at urban intersections is often studied assuming that reliable bird's-eye-view (BEV) motion histories are available, which in practice requires costly resources such as LiDAR, aerial views, HD maps, or calibrated infrastructure. We address this upstream perception-to-forecasting problem by reconstructing and predicting agents' BEV trajectories only from paired opposite-corner RGB cameras mounted on existing urban infrastructure at variable heights at inference time. We introduce the Opposite-Corner Trajectory Reconstruction and Anticipation Architecture (OCTR2A), a modular pipeline integrating per-view detection with class refinement, geometric cross-camera matching, t",
+   "categories": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG"
+   ],
+   "relevance_score": 4,
+   "relevance_reason": "BEV 轨迹投影+预测，感知到预测的上游问题，与 BEV 感知方向相关",
+   "status": "新发现"
+  },
+  {
+   "id": "2611.25667",
+   "title": "CauSyncVLA: Causal Latent World Modeling for Asynchronous Robot Control",
+   "authors": [
+    "Xu Pan",
+    "Chubin Zhang",
+    "Xingrui Yu",
+    "Runmin Lan",
+    "Zihao Wang",
+    "Wenkai Guo",
+    "Bofang Jia",
+    "Bo An",
+    "Ziwei Wang"
+   ],
+   "published": "19 Nov 2026 (Thu)",
+   "arxiv_url": "https://arxiv.org/abs/2611.25667",
+   "summary": "Vision-Language-Action (VLA) policies must react while visual inference is still running. Overlapping computation and execution reduces waiting, yet leaves perceptual memory stale and successive action chunks disconnected. We present CauSyncVLA, an asynchronous dual-system controller that aligns perceptual-memory prediction and trajectory correction with actual robot execution. Rather than forecasting pixels or physical states, a Causal Latent World Model predicts current perceptual memory from delayed visual anchors and executed state-action history, supervised through action-sensitive distillation to retain the frozen expert's control response. Conditioned on this updated memory, Predictiv",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "relevance_score": 4,
+   "relevance_reason": "world models 在 VLA 异步控制中的潜空间用法，对 AD 实时推理有借鉴",
+   "status": "新发现"
+  },
+  {
+   "id": "2611.25656",
+   "title": "A$^2$-VLA: Adapting Vision-Language-Action Policies to New Tools through Agentic Affordance Discovery",
+   "authors": [
+    "Chenyuan Zhou",
+    "Chaoyi Huang",
+    "Zibo Wang",
+    "Zhiyuan Li",
+    "Yong-Lu Li"
+   ],
+   "published": "19 Nov 2026 (Thu)",
+   "arxiv_url": "https://arxiv.org/abs/2611.25656",
+   "summary": "Tools with different shapes can have similar functions, but transferring manipulation skills across tools requires understanding how tool geometry relates to the specific task and adjusting the manipulation strategy accordingly. The key challenge is to discover the common affordances that contribute to task completion across different tools and verify whether they support new tools in performing similar work. We present A$^2$-VLA, a tool-adaptation framework that combines an embodied agent with a VLA policy. It treats tool affordances as hypotheses the agent can construct, test, and revise. Given teleoperated demonstrations with a few source tools, the agent reconstructs the scenes in simula",
+   "categories": [
+    "cs.RO",
+    "cs.AI"
+   ],
+   "relevance_score": 3,
+   "relevance_reason": "VLA 工具适配 / agentic affordance，与驾驶无关",
+   "status": "新发现"
+  },
+  {
+   "id": "2611.25398",
+   "title": "RefreshGrad: An Online Adaptive Data-sampling Method for Diffusion-based Visuomotor Learning",
+   "authors": [
+    "Dijia Zhan",
+    "Jinyi Li",
+    "Xuemiao Xu",
+    "Yan Zhou",
+    "Yu Liu",
+    "Shaoshan Liu",
+    "Jie Tang"
+   ],
+   "published": "19 Nov 2026 (Thu)",
+   "arxiv_url": "https://arxiv.org/abs/2611.25398",
+   "summary": "Training vision-language-action (VLA) policies from demonstrations typically samples trajectory segments uniformly or relies on static offline data curation before training. However, we find that demonstration data vary sharply in supervision value across temporal windows, and that each window's value to the policy evolves substantially during training rather than being fixed or captured by raw loss alone. Motivated by this finding, we propose RefreshGrad, an online adaptive data-sampling framework that periodically scores temporal windows from the evolving policy using five policy-native signals and dynamically adjusts their sampling weights during training. RefreshGrad focuses optimization",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance_score": 3,
+   "relevance_reason": "扩散策略/VLA 数据采样，训练效率通用方法",
+   "status": "新发现"
+  },
   {
    "id": "2611.26565",
    "title": "PhyDEX: A Benchmark for Physical Reasoning in Vision-Language-Action Models via Dynamic Extrinsic Dexterity",

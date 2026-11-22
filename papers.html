@@ -49,7 +49,16 @@
       document.getElementById('last-updated').textContent = `Updated: ${formatTime(data.updated_at)}`;
 
       // Weekly top papers
-      loadData('weekly-2026-11-14.json').then(w => {
+      // Weekly digest: try newest known weekly file first, then older ones
+      const WEEKLY_FILES = ['weekly-2026-11-21.json', 'weekly-2026-11-14.json', 'weekly-2026-04-26.json'];
+      (async () => {
+        let w = null;
+        for (const f of WEEKLY_FILES) {
+          w = await loadData(f);
+          if (w && w.top_papers?.length) break;
+        }
+        return w;
+      })().then(w => {
         if (!w || !w.top_papers?.length) return;
         document.getElementById('weekly-section').style.display = '';
         document.getElementById('weekly-title').textContent =

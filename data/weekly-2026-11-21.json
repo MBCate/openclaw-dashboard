@@ -1,0 +1,77 @@
+{
+  "week_of": "2026-11-15",
+  "generated_at": "2026-11-21 18:00 PST",
+  "title": "论文周报 · 2026-11-15 → 2026-11-21",
+  "trend_note": "本周主线转向「部署可行性」：世界-动作从同步管线拆成异步双 GPU（SWIFT）、VLA 语言推理做成可拆卸旋钮（DRIFT）、plan 复用+运动补偿（FastRoverVLA）；同时出现对世界模型评估本身的反省——动作条件性必须被单独探测（Does the Action Matter）。TrajWAM 与 PAD 则分别从训练目标与数据估值两侧挤压「同样的算力换更多收益」。",
+  "top_papers": [
+    {
+      "id": "2611.24719",
+      "title": "DRIFT: Detachable Reasoning for Runtime-Flexible and Efficient End-to-End Driving",
+      "authors": "Emad Aghajanzadeh et al.",
+      "relevance": 5,
+      "tags": [
+        "VLA",
+        "efficiency",
+        "detachable-reasoning",
+        "Bench2Drive"
+      ],
+      "summary_cn": "语言推理可拆卸：蒸馏 surrogate reasoning 让规划器可随时旁路 LM；255M 参数，Bench2Drive DS 97.03 / SR 89.39%",
+      "url": "https://arxiv.org/abs/2611.24719"
+    },
+    {
+      "id": "2611.23813",
+      "title": "SWIFT: Slow World, Instant Freshness, and Timely Action for Asynchronous Autonomous Driving",
+      "authors": "Jiazhe Wang et al.",
+      "relevance": 5,
+      "tags": [
+        "world-action",
+        "async",
+        "latency",
+        "deployment"
+      ],
+      "summary_cn": "后台慢世界+前台 freshness KV：世界更新移出关键路径；NAVSIM 94.2 PDMS、Bench2Drive 80.30 DS（前台 109.9ms）",
+      "url": "https://arxiv.org/abs/2611.23813"
+    },
+    {
+      "id": "2611.24192",
+      "title": "TrajWAM: Trajectory-Conditioned Future Learning for Vision-Language Driving",
+      "authors": "Xuerui Fang et al.",
+      "relevance": 5,
+      "tags": [
+        "WAM",
+        "auxiliary-future-learning",
+        "BEV",
+        "DINOv3"
+      ],
+      "summary_cn": "未来 BEV 预测仅作训练辅助，推理直接出 waypoint；Bench2Drive 全 220 路线 91.53 DS / 75.45% SR，比同等调度纯规划 +5.31",
+      "url": "https://arxiv.org/abs/2611.24192"
+    },
+    {
+      "id": "2611.25604",
+      "title": "PAD: Policy-Aware Data Valuation for Autonomous Driving",
+      "authors": "Chengkai Xu et al.",
+      "relevance": 5,
+      "tags": [
+        "data-efficiency",
+        "data-valuation",
+        "closed-loop"
+      ],
+      "summary_cn": "为每条演示算「针对目标策略」的效用；DiffusionDrive 上 NavTest +3.5 / NavHard +5.0 EPDMS，证明好数据是策略相关的",
+      "url": "https://arxiv.org/abs/2611.25604"
+    },
+    {
+      "id": "2611.24840",
+      "title": "Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving",
+      "authors": "Binay Kumar Singh, Niels Da Vitoria Lobo",
+      "relevance": 4,
+      "tags": [
+        "world-model",
+        "evaluation",
+        "counterfactual",
+        "diagnostic"
+      ],
+      "summary_cn": "动作干预探针：对的动作只涨最多2.5 mIoU，错的动作掉最多23.2（低于无动作模型）；精度≠反事实能力",
+      "url": "https://arxiv.org/abs/2611.24840"
+    }
+  ]
+}

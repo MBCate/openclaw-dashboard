@@ -1,411 +1,388 @@
 {
-  "updated_at": "2026-11-22T13:30Z",
-  "as_of": "Nov 22 2026 13:30 UTC — 【周末晚间】美股休市，价格沿用11/20收盘：标普500 6,910.39(-3.70%)七连跌并进入回调(-10%)、纳指 22,617.73(-5.28%)抹平年内涨幅、道指 48,147.33(-1.93%)进入回调、费半单周-15%(芯片股蒸发$2.3万亿)、VIX 35.89。周末主线转向亚洲救市：中国下调融资保证金比例，台湾考虑降保证金(35年最差单周)，韩国周日紧急会议推出分阶段稳市措施。中东局势升级(沙特/巴林遭袭，伊朗称仍愿谈)。商品：金$3,515(-4.6%)单周约-8.8%、银$41.07(-7.3%)、铜$5.49、布伦特跌破$90至$89.95。10年美债4.91%，美元103.84。加密周末企稳：BTC $60,702(+1.0%，11/21曾破$57K两年低点)、ETH $1,705(+1.4%)、SOL $70.04。FT：AI服务器涨价最多45%、Nscale IPO前放缓招聘；美国港口遭密集黑客攻击。",
-  "indices": [
-    {
-      "name": "标普500",
-      "symbol": "^GSPC",
-      "close": 6910.39,
-      "change_pct": -3.7,
-      "note": "11/20收盘 6,910.39 (-3.70%)，七连跌，正式进入回调区间(-10%)；周跌8.6%"
-    },
-    {
-      "name": "纳斯达克",
-      "symbol": "^IXIC",
-      "close": 22617.73,
-      "change_pct": -5.28,
-      "note": "11/20收盘 22,617.73 (-5.28%)，年初以来转跌；周跌约10%，2020年以来最差单周"
-    },
-    {
-      "name": "道指",
-      "symbol": "^DJI",
-      "close": 48147.33,
-      "change_pct": -1.93,
-      "note": "11/20收盘 48,147.33 (-1.93%, -949点)，进入回调区间；周跌8%"
-    },
-    {
-      "name": "罗素2000",
-      "symbol": "^RUT",
-      "close": 2581.79,
-      "change_pct": -2.76,
-      "note": "11/20收盘 2,581.79 (-2.76%)，小盘股同步下挫"
-    },
-    {
-      "name": "费城半导体指数",
-      "symbol": "^SOX",
-      "close": 8408.59,
-      "change_pct": -10.73,
-      "note": "11/20收盘 -10.73% 至8,408.59，芯片股单周市值蒸发约$2.3万亿"
-    },
-    {
-      "name": "VIX恐慌指数",
-      "symbol": "^VIX",
-      "close": 35.89,
-      "change_pct": 26.2,
-      "note": "35.89 (+26.2%)，单周由22.9飙升至35.9，避险情绪急剧升温"
-    },
-    {
-      "name": "英伟达 (NVDA)",
-      "symbol": "NVDA",
-      "close": 125.53,
-      "change_pct": -14.01,
-      "note": "$125.53 (-14.01%)，单周连跌创2008年金融危机以来最长"
-    },
-    {
-      "name": "Anthropic (ANT)",
-      "symbol": "ANT",
-      "close": 88.91,
-      "change_pct": -8.5,
-      "note": "$88.91 (-8.50%)，上市次日跌破$83发行价附近；FT质疑承销团'绿鞋'行使过早"
-    },
-    {
-      "name": "AMD",
-      "symbol": "AMD",
-      "close": 424.39,
-      "change_pct": -13.25,
-      "note": "$424.39 (-13.25%)，连续两日重挫"
-    },
-    {
-      "name": "特斯拉 (TSLA)",
-      "symbol": "TSLA",
-      "close": 345.82,
-      "change_pct": -7.64,
-      "note": "$345.82 (-7.64%)，成长股遭全面抛售"
-    },
-    {
-      "name": "标普500期货(ES)",
-      "symbol": "ES=F",
-      "close": 6935.0,
-      "change_pct": -3.64,
-      "note": "周末期货收盘 6,935.00；较月内高点7,640已回撤约9.2%"
-    },
-    {
-      "name": "纳指100期货(NQ)",
-      "symbol": "NQ=F",
-      "close": 25126.5,
-      "change_pct": -5.54,
-      "note": "周末期货收盘 25,126.50 (-5.54%)，纳指100进入熊市(-20%)"
-    },
-    {
-      "name": "恒生指数",
-      "symbol": "^HSI",
-      "close": 22410.8,
-      "change_pct": -1.89,
-      "note": "11/20 收盘 -1.89% 至22,410.80，科技股领跌；中国下调保证金比例护盘"
-    },
-    {
-      "name": "日经225",
-      "symbol": "^N225",
-      "close": 56436.65,
-      "change_pct": -5.06,
-      "note": "11/20 收盘 -5.06% 至56,436.65，SoftBank 拖累，亚太最弱"
-    },
-    {
-      "name": "韩国KOSPI",
-      "symbol": "^KS11",
-      "close": 4869.96,
-      "change_pct": -5.22,
-      "note": "11/20 收盘 -5.22% 至4,869.96；韩国周日召开紧急会议，推出分阶段稳市措施"
-    },
-    {
-      "name": "台湾加权指数",
-      "symbol": "^TWII",
-      "close": null,
-      "change_pct": null,
-      "note": "11/20 录得35年来最差单周；当局考虑下调融资保证金比例护盘(Bloomberg)"
-    },
-    {
-      "name": "德国DAX",
-      "symbol": "^GDAXI",
-      "close": 24802.78,
-      "change_pct": -2.6,
-      "note": "-2.60% 至24,802.78"
-    },
-    {
-      "name": "法国CAC40",
-      "symbol": "^FCHI",
-      "close": 7927.75,
-      "change_pct": -1.89,
-      "note": "-1.89% 至7,927.75"
-    },
-    {
-      "name": "英国富时100",
-      "symbol": "^FTSE",
-      "close": 10346.34,
-      "change_pct": -1.02,
-      "note": "-1.02% 至10,346.34，跌幅相对温和"
-    }
-  ],
-  "crypto": [
-    {
-      "name": "比特币 (BTC)",
-      "symbol": "BTC",
-      "price": 60701.99,
-      "change_24h": 1.01,
-      "change_7d": -2.03,
-      "note": "约$60.7K；11/21盘中一度跌破$57,000（两年新低）后周末企稳，24小时小幅反弹"
-    },
-    {
-      "name": "以太坊 (ETH)",
-      "symbol": "ETH",
-      "price": 1705.1,
-      "change_24h": 1.36,
-      "change_7d": -3.93,
-      "note": "约$1,705；11月累计跌约23%，周末与BTC同步企稳"
-    },
-    {
-      "name": "Solana (SOL)",
-      "symbol": "SOL",
-      "price": 70.04,
-      "change_24h": -0.26,
-      "change_7d": -4.86,
-      "note": "约$70.0，跟随大盘弱势整理"
-    }
-  ],
-  "commodities": [
-    {
-      "name": "COMEX黄金",
-      "symbol": "GC=F",
-      "price": 3515.4,
-      "change_pct": -4.62,
-      "note": "$3,515.4/oz (-4.62%)，连跌五日，单周重挫约8.8%，3月以来最差周"
-    },
-    {
-      "name": "COMEX白银",
-      "symbol": "SI=F",
-      "price": 41.07,
-      "change_pct": -7.33,
-      "note": "$41.07/oz (-7.33%)，工业+贵金属双杀"
-    },
-    {
-      "name": "COMEX铜",
-      "symbol": "HG=F",
-      "price": 5.49,
-      "change_pct": -2.35,
-      "note": "$5.490/lb，本月由$6.27持续下滑；FT：贸易商因关税担忧缓解开始将美铜运往中国"
-    },
-    {
-      "name": "WTI原油",
-      "symbol": "CL=F",
-      "price": 83.41,
-      "change_pct": 0.24,
-      "note": "$83.41 (+0.24%)，本周相对抗跌；霍尔木兹运量下降支撑"
-    },
-    {
-      "name": "布伦特原油",
-      "symbol": "BZ=F",
-      "price": 89.95,
-      "change_pct": -2.21,
-      "note": "$89.95 (-2.21%)，跌破$90；FT：伊朗袭击升级令中东出口恢复'日益脆弱'"
-    }
-  ],
-  "macro": [
-    {
-      "name": "美债10年期收益率",
-      "symbol": "^TNX",
-      "price": 4.91,
-      "change": "-14bp",
-      "note": "4.91%，避险买盘推动下行；美债录得大幅周涨"
-    },
-    {
-      "name": "美元指数",
-      "symbol": "DXY",
-      "price": 103.84,
-      "change_pct": -0.09,
-      "note": "103.84 基本持平，避险资金流向黄金/日元"
-    }
-  ],
-  "week_performance": [
-    {
-      "index": "纳斯达克",
-      "week_pct": -10.0,
-      "ytd": "转负"
-    },
-    {
-      "index": "标普500",
-      "week_pct": -8.6,
-      "ytd": "回调区间"
-    },
-    {
-      "index": "道指",
-      "week_pct": -8.0,
-      "ytd": "回调区间"
-    },
-    {
-      "index": "费城半导体",
-      "week_pct": -15.0,
-      "ytd": "芯片股蒸发$2.3万亿"
-    },
-    {
-      "index": "日经225",
-      "week_pct": -5.4,
-      "ytd": ""
-    },
-    {
-      "index": "台湾加权",
-      "week_pct": null,
-      "ytd": "35年最差单周"
-    },
-    {
-      "index": "恒生指数",
-      "week_pct": -5.7,
-      "ytd": ""
-    }
-  ],
-  "overnight": [
-    {
-      "title": "🟢 周日亚洲当局集体护盘",
-      "detail": "中国下调融资保证金比例；台湾考虑下调融资保证金要求；韩国周日召开紧急会议、推出分阶段稳市措施并确保股市稳定基金待命。Bloomberg称'亚洲救市行动加速'。(Bloomberg)"
-    },
-    {
-      "title": "🟢 周末加密企稳",
-      "detail": "BTC 约$60.7K(+1.0%)，11/21 盘中一度跌破$57,000 创两年新低后回升；ETH $1,705(+1.4%)、SOL $70.0(-0.3%)，跌幅较周中明显收窄。"
-    },
-    {
-      "title": "🟡 金属市场一周剧震",
-      "detail": "Bloomberg：铜圈上海会议情绪一边倒看空；金单周跌约8.8%为3月以来最差，银跌超7%，流动性挤兑特征明显。"
-    },
-    {
-      "title": "⚠️ 地缘：中东与欧洲双线紧张",
-      "detail": "沙特称击落伊朗支持的胡塞无人机、巴林工业设施遭伊朗弹药袭击，伊朗表示仍对与美达成协议持开放态度；波罗的海芬兰湾一俄货船遭无人机袭击，俄乌谈判前景复杂。(CNBC/Bloomberg)"
-    },
-    {
-      "title": "⚠️ AI 产业链现'涨价+缩表'信号",
-      "detail": "FT：戴尔、HPE、联想、超微在签约数月后将AI服务器价格上调最多45%；英国数据中心运营商 Nscale 在$350亿IPO前放缓招聘、削减开支。"
-    },
-    {
-      "title": "⚠️ 网络安全风险升温",
-      "detail": "FT：美国最大原油出口港每日遭数千次黑客攻击尝试；CNBC：FBI 数据库再度被入侵；'doomsday economy' 主题交易升温。"
-    },
-    {
-      "title": "🟡 政经与信用端",
-      "detail": "FT：阿根廷借贷成本跳升，米莱支持率下滑令投资者不安；私募股权对'卖给自己'式接续基金交易提出新质疑；SEC 削减高管薪酬披露要求引批评。"
-    },
-    {
-      "title": "🟢 机构观点分歧",
-      "detail": "MarketWatch：Norm Fosback 季节性择时模型显示未来两周市场偏上行；但信贷市场与'聪明钱'抛售仍是主要风险源。"
-    }
-  ],
-  "sources": [
-    {
-      "name": "CNBC",
-      "type": "RSS",
-      "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
-    },
-    {
-      "name": "CNBC Finance",
-      "type": "RSS",
-      "url": "https://www.cnbc.com/id/10000664/device/rss/rss.html"
-    },
-    {
-      "name": "MarketWatch",
-      "type": "RSS",
-      "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories"
-    },
-    {
-      "name": "Bloomberg Markets",
-      "type": "RSS",
-      "url": "https://feeds.bloomberg.com/markets/news.rss"
-    },
-    {
-      "name": "FT Markets",
-      "type": "RSS",
-      "url": "https://www.ft.com/markets?format=rss"
-    },
-    {
-      "name": "Yahoo Finance",
-      "type": "API",
-      "url": "query1.finance.yahoo.com v8/finance/chart"
-    },
-    {
-      "name": "WSJ",
-      "type": "RSS",
-      "status": "stale(2025数据，已忽略)"
-    }
-  ],
-  "notes": "周末休市：指数为11/20收盘价，期货为周五收盘，加密为11/22实时价格。台湾加权指数未取到可靠收盘数据，仅记录事件。",
-  "generated_at": "2026-11-22T13:30:00Z",
-  "generated_at_local": "2026-11-22 05:30 (America/Los_Angeles)",
-  "session_label": "周末（美股11/20收盘价；加密市场实时）",
-  "headline": "美股回调落定后焦点转向亚洲救市：中台韩同步出手护盘，AI产业链现涨价与缩表信号，中东冲突再升级",
-  "news": [
-    {
-      "source": "Bloomberg",
-      "title": "Asia’s Stock Rescue Efforts Gather Pace After Wall Street Plunge",
-      "time": "2026-11-22 11:06",
-      "summary": "华尔街暴跌后亚洲救市行动加速：中国放宽保证金要求，台湾与韩国推出干预措施。"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "Taiwan Mulls Lowering Margin Requirement to Support Stock Market",
-      "time": "2026-11-22 12:35",
-      "summary": "台湾考虑下调融资保证金比例，以遏制基准指数35年来最差单周后的抛售。"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "S. Korea Rolls Out Phased Measures to Stabilize Stock Market",
-      "time": "2026-11-22 10:16",
-      "summary": "韩国紧急会议后推出分阶段稳市措施，确保股市稳定基金随时待命。"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "China’s $1.7 Trillion AI Rout Turns Hot Trade Into Losing Bet",
-      "time": "2026-11-22 00:00",
-      "summary": "中国AI股票交易由热门押注转为亏损策略，市值蒸发规模达$1.7万亿。"
-    },
-    {
-      "source": "CNBC",
-      "title": "Saudi Arabia, Bahrain report new attacks as Iran says it remains open to a deal with U.S.",
-      "time": "2026-11-22 13:25",
-      "summary": "沙特称摧毁伊朗支持的胡塞无人机，巴林一工业设施遭伊朗弹药袭击；伊朗称仍愿与美达成协议。"
-    },
-    {
-      "source": "CNBC",
-      "title": "S&P 500 correction: Five forces behind the market sell-off",
-      "time": "2026-11-21 11:29",
-      "summary": "AI交易崩塌、加息预期、'聪明钱'撤离、信贷市场警示与科技巨头资本开支疑虑共同推动抛售。"
-    },
-    {
-      "source": "FT",
-      "title": "Will Anthropic’s IPO buck the tech sell-off?",
-      "time": "2026-11-22 12:00",
-      "summary": "FT市场问题专栏：Anthropic IPO 能否逆势于科技股抛售。"
-    },
-    {
-      "source": "FT",
-      "title": "Tech suppliers raise AI server prices up to 45% months after deals are signed",
-      "time": "2026-11-22 05:00",
-      "summary": "戴尔、HPE、联想、超微在签约后数月上调AI服务器价格最多45%，成本转嫁给交易公司。"
-    },
-    {
-      "source": "FT",
-      "title": "US ports face cyber attack onslaught as hackers target vital trade routes",
-      "time": "2026-11-22 12:00",
-      "summary": "美国最大原油出口枢纽每日报告数千次黑客攻击尝试，航运公司忙于应对入侵。"
-    },
-    {
-      "source": "FT",
-      "title": "Nscale slows hiring and curtails spending ahead of planned $35bn IPO",
-      "time": "2026-11-22 11:32",
-      "summary": "英国数据中心运营商 Nscale 在$350亿IPO前暂停非关键岗位招聘并削减支出。"
-    },
-    {
-      "source": "FT",
-      "title": "Argentina’s borrowing costs jump as Milei’s falling popularity rattles investors",
-      "time": "2026-11-22 05:00",
-      "summary": "阿根廷借贷成本跳升，米莱支持率下滑动摇投资者信心。"
-    },
-    {
-      "source": "Bloomberg",
-      "title": "From Squeezes to Meltdown, a Week of Mayhem Rocks Metals Markets",
-      "time": "2026-11-22 11:00",
-      "summary": "金属市场经历从逼空到崩盘的一周剧震，铜市情绪一边倒看空。"
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Can stocks bounce back after a brutal week? This timing model says history is on the market’s side.",
-      "time": "2026-11-22 12:30",
-      "summary": "Fosback 季节性择时模型长期记录优异，显示未来两周市场偏上行。"
-    }
-  ]
+ "updated_at": "2026-11-23T01:15Z",
+ "as_of": "Nov 23 2026 01:15 UTC — 【早盘预览】美股上周五延续暴跌(标普 -3.70% 至6,910.39 七连跌并进入回调；纳指 -5.28% 至22,617.73 抹平年内涨幅；费半 -10.73%)，但周一电子盘强力反弹：ES +2.22% 至7,088.75、NQ +2.82% 至25,835.25。周末中国证监会批准下调融资保证金比例100%→80%(11/30起，理论增量资金近4000亿)，台韩同步护盘。贵金属反弹：金$3,591.8(+2.17%)、银$42.10(+2.51%)、铜$5.545(+1.10%)；布伦特$89.78(-0.19%)、WTI$83.18。10年美债4.91%，美元103.77。加密：BTC $60,971(+1.65%)、ETH $1,711(+1.68%)、SOL $70.45(+0.38%)。上证上周五收3,533.79(-1.23%)。",
+ "indices": [
+  {
+   "name": "标普500",
+   "symbol": "^GSPC",
+   "close": 6910.39,
+   "change_pct": -3.7,
+   "note": "11/20收盘 6,910.39 (-3.70%)，七连跌，正式进入回调区间(-10%)；周跌8.6%"
+  },
+  {
+   "name": "纳斯达克",
+   "symbol": "^IXIC",
+   "close": 22617.73,
+   "change_pct": -5.28,
+   "note": "11/20收盘 22,617.73 (-5.28%)，年初以来转跌；周跌约10%，2020年以来最差单周"
+  },
+  {
+   "name": "道指",
+   "symbol": "^DJI",
+   "close": 48147.33,
+   "change_pct": -1.93,
+   "note": "11/20收盘 48,147.33 (-1.93%, -949点)，进入回调区间；周跌8%"
+  },
+  {
+   "name": "罗素2000",
+   "symbol": "^RUT",
+   "close": 2581.79,
+   "change_pct": -2.76,
+   "note": "11/20收盘 2,581.79 (-2.76%)，小盘股同步下挫"
+  },
+  {
+   "name": "费城半导体指数",
+   "symbol": "^SOX",
+   "close": 8408.59,
+   "change_pct": -10.73,
+   "note": "11/20收盘 -10.73% 至8,408.59，芯片股单周市值蒸发约$2.3万亿"
+  },
+  {
+   "name": "VIX恐慌指数",
+   "symbol": "^VIX",
+   "close": 35.89,
+   "change_pct": 26.2,
+   "note": "35.89 (+26.2%)，单周由22.9飙升至35.9，避险情绪急剧升温"
+  },
+  {
+   "name": "英伟达 (NVDA)",
+   "symbol": "NVDA",
+   "close": 125.53,
+   "change_pct": -14.01,
+   "note": "$125.53 (-14.01%)，单周连跌创2008年金融危机以来最长"
+  },
+  {
+   "name": "Anthropic (ANT)",
+   "symbol": "ANT",
+   "close": 88.91,
+   "change_pct": -8.5,
+   "note": "$88.91 (-8.50%)，上市次日跌破$83发行价附近；FT质疑承销团'绿鞋'行使过早"
+  },
+  {
+   "name": "AMD",
+   "symbol": "AMD",
+   "close": 424.39,
+   "change_pct": -13.25,
+   "note": "$424.39 (-13.25%)，连续两日重挫"
+  },
+  {
+   "name": "特斯拉 (TSLA)",
+   "symbol": "TSLA",
+   "close": 345.82,
+   "change_pct": -7.64,
+   "note": "$345.82 (-7.64%)，成长股遭全面抛售"
+  },
+  {
+   "name": "标普500期货(ES)",
+   "symbol": "ES=F",
+   "close": 7088.75,
+   "change_pct": 2.22,
+   "note": "周末期货 7,088.75 (+2.22%)，周一电子盘反弹，较周五收盘大幅回升；本周为感恩节缩短交易周"
+  },
+  {
+   "name": "纳指100期货(NQ)",
+   "symbol": "NQ=F",
+   "close": 25835.25,
+   "change_pct": 2.82,
+   "note": "周末期货 25,835.25 (+2.82%)，芯片股领衔反弹"
+  },
+  {
+   "name": "恒生指数",
+   "symbol": "^HSI",
+   "close": 22410.8,
+   "change_pct": -1.89,
+   "note": "11/20 收盘 -1.89% 至22,410.80，科技股领跌；中国下调保证金比例护盘"
+  },
+  {
+   "name": "日经225",
+   "symbol": "^N225",
+   "close": 56436.65,
+   "change_pct": -5.06,
+   "note": "11/20 收盘 -5.06% 至56,436.65，SoftBank 拖累，亚太最弱"
+  },
+  {
+   "name": "韩国KOSPI",
+   "symbol": "^KS11",
+   "close": 4869.96,
+   "change_pct": -5.22,
+   "note": "11/20 收盘 -5.22% 至4,869.96；韩国周日召开紧急会议，推出分阶段稳市措施"
+  },
+  {
+   "name": "台湾加权指数",
+   "symbol": "^TWII",
+   "close": null,
+   "change_pct": null,
+   "note": "11/20 录得35年来最差单周；当局考虑下调融资保证金比例护盘(Bloomberg)"
+  },
+  {
+   "name": "德国DAX",
+   "symbol": "^GDAXI",
+   "close": 24802.78,
+   "change_pct": -2.6,
+   "note": "-2.60% 至24,802.78"
+  },
+  {
+   "name": "法国CAC40",
+   "symbol": "^FCHI",
+   "close": 7927.75,
+   "change_pct": -1.89,
+   "note": "-1.89% 至7,927.75"
+  },
+  {
+   "name": "英国富时100",
+   "symbol": "^FTSE",
+   "close": 10346.34,
+   "change_pct": -1.02,
+   "note": "-1.02% 至10,346.34，跌幅相对温和"
+  },
+  {
+   "name": "上证指数",
+   "symbol": "000001.SS",
+   "close": 3533.79,
+   "change_pct": -1.23,
+   "note": "11/20收盘 3,533.79 (-1.23%)，为周一开盘参照基准"
+  }
+ ],
+ "crypto": [
+  {
+   "name": "比特币 (BTC)",
+   "symbol": "BTC",
+   "price": 60971.28,
+   "change_24h": 1.65,
+   "change_7d": -2.03,
+   "note": "约$60,971 (+1.65%)，自$57K两年低点继续回升"
+  },
+  {
+   "name": "以太坊 (ETH)",
+   "symbol": "ETH",
+   "price": 1711.08,
+   "change_24h": 1.68,
+   "change_7d": -3.93,
+   "note": "约$1,711 (+1.68%)，同步反弹"
+  },
+  {
+   "name": "Solana (SOL)",
+   "symbol": "SOL",
+   "price": 70.45,
+   "change_24h": 0.38,
+   "change_7d": -4.86,
+   "note": "约$70.45 (+0.38%)，基本持稳"
+  }
+ ],
+ "commodities": [
+  {
+   "name": "COMEX黄金",
+   "symbol": "GC=F",
+   "price": 3591.8,
+   "change_pct": 2.17,
+   "note": "$3,591.8/oz (+2.17%)，自$3,513(2025年9月以来最低)反弹；交易员削减美联储近期加息押注"
+  },
+  {
+   "name": "COMEX白银",
+   "symbol": "SI=F",
+   "price": 42.1,
+   "change_pct": 2.51,
+   "note": "$42.10/oz (+2.51%)，跟随黄金反弹"
+  },
+  {
+   "name": "COMEX铜",
+   "symbol": "HG=F",
+   "price": 5.545,
+   "change_pct": 1.1,
+   "note": "$5.545/lb (+1.10%)，随风险偏好回升小幅反弹"
+  },
+  {
+   "name": "WTI原油",
+   "symbol": "CL=F",
+   "price": 83.18,
+   "change_pct": -0.28,
+   "note": "$83.18 (-0.28%)，窄幅整理"
+  },
+  {
+   "name": "布伦特原油",
+   "symbol": "BZ=F",
+   "price": 89.78,
+   "change_pct": -0.19,
+   "note": "$89.78 (-0.19%)，$90下方徘徊"
+  }
+ ],
+ "macro": [
+  {
+   "name": "美债10年期收益率",
+   "symbol": "^TNX",
+   "price": 4.91,
+   "change": "-14bp",
+   "note": "4.91%，避险买盘推动下行；美债录得大幅周涨"
+  },
+  {
+   "name": "美元指数",
+   "symbol": "DXY",
+   "price": 103.84,
+   "change_pct": -0.09,
+   "note": "103.84 基本持平，避险资金流向黄金/日元"
+  }
+ ],
+ "week_performance": [
+  {
+   "index": "纳斯达克",
+   "week_pct": -10.0,
+   "ytd": "转负"
+  },
+  {
+   "index": "标普500",
+   "week_pct": -8.6,
+   "ytd": "回调区间"
+  },
+  {
+   "index": "道指",
+   "week_pct": -8.0,
+   "ytd": "回调区间"
+  },
+  {
+   "index": "费城半导体",
+   "week_pct": -15.0,
+   "ytd": "芯片股蒸发$2.3万亿"
+  },
+  {
+   "index": "日经225",
+   "week_pct": -5.4,
+   "ytd": ""
+  },
+  {
+   "index": "台湾加权",
+   "week_pct": null,
+   "ytd": "35年最差单周"
+  },
+  {
+   "index": "恒生指数",
+   "week_pct": -5.7,
+   "ytd": ""
+  }
+ ],
+ "overnight": [
+  {
+   "title": "🟢 美股期货周一电子盘反弹",
+   "detail": "标普500期货 +2.22%(7,088.75)、纳指100期货 +2.82%(25,835.25)，抄底资金进场；Bloomberg 称\"全球科技股暴跌后美股期货波动中走高\"，KOSPI 芯片股续跌显示反弹不均衡。本周为感恩节缩短交易周。"
+  },
+  {
+   "title": "🟢 A股三大利好落地",
+   "detail": "11/22 经证监会批准，沪深北交易所同步发布：融资保证金比例由100%下调至80%(11/30起实施，理论上增量资金近4000亿)；同时推出做市/降费配套措施。新浪财经称监管\"稳市组合拳\"。"
+  },
+  {
+   "title": "🟢 亚太同步护盘",
+   "detail": "台湾考虑下调融资保证金并限制做空、韩国推出分阶段稳市措施与稳定基金待命；但韩国股市周日/周一仍续跌。"
+  },
+  {
+   "title": "🟢 贵金属反弹",
+   "detail": "COMEX金 $3,591.8 (+2.17%)，自2025年9月以来最低点$3,513反弹；交易员下调美联储近期加息押注。银 +2.51%、铜 +1.10%。"
+  },
+  {
+   "title": "🟡 美债与美元",
+   "detail": "10年期美债收益率 4.91%(周五-14bp)，State Street 称债股负相关回归；美元指数 103.77 基本持平。"
+  },
+  {
+   "title": "⚠️ 地缘：中东双线",
+   "detail": "沙特击落伊朗支持的胡塞无人机、巴林工业设施遭袭，伊朗称仍愿与美达成协议；波罗的海芬兰湾俄货船遭无人机袭击。"
+  },
+  {
+   "title": "⚠️ AI产业链：涨价+缩表",
+   "detail": "FT：戴尔/HPE/联想/超微 AI 服务器签约后提价最多45%；Nscale 在$350亿IPO前放缓招聘。CNBC：Anthropic IPO 撞上2020年以来最差科技股周。"
+  },
+  {
+   "title": "🟡 其他",
+   "detail": "FT：美国最大原油出口港每日遭数千次黑客攻击；阿根廷借贷成本跳升；SEC 削减高管薪酬披露引批评。"
+  }
+ ],
+ "sources": [
+  {
+   "name": "CNBC",
+   "type": "RSS",
+   "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+  },
+  {
+   "name": "CNBC Finance",
+   "type": "RSS",
+   "url": "https://www.cnbc.com/id/10000664/device/rss/rss.html"
+  },
+  {
+   "name": "MarketWatch",
+   "type": "RSS",
+   "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories"
+  },
+  {
+   "name": "Bloomberg Markets",
+   "type": "RSS",
+   "url": "https://feeds.bloomberg.com/markets/news.rss"
+  },
+  {
+   "name": "FT Markets",
+   "type": "RSS",
+   "url": "https://www.ft.com/markets?format=rss"
+  },
+  {
+   "name": "Yahoo Finance",
+   "type": "API",
+   "url": "query1.finance.yahoo.com v8/finance/chart"
+  },
+  {
+   "name": "WSJ",
+   "type": "RSS",
+   "status": "stale(2025数据，已忽略)"
+  }
+ ],
+ "notes": "早盘预览：美股为11/20收盘价，ES/NQ为11/22晚间电子盘，商品为期货实时，加密为实时。上证为11/20收盘参照基准。数据源：Yahoo Finance API、Bloomberg/CNBC/FT RSS、新浪财经/同花顺(web搜索)。",
+ "generated_at": "2026-11-23T01:15:00Z",
+ "generated_at_local": "2026-11-22 17:15 (America/Los_Angeles)",
+ "session_label": "早盘预览（美股11/20收盘 + 周末期货/加密实时）",
+ "headline": "早盘关键：监管稳市组合拳+美股期货反弹，A股能否承接利好；AI产业链涨价与缩表信号仍在发酵",
+ "news": [
+  {
+   "source": "Bloomberg",
+   "title": "US Stock Futures Bounce After Rout, Havens Drop: Markets Wrap",
+   "time": "2026-11-22 22:02",
+   "summary": "美股期货反弹、避险资产回落；亚洲市场继续承压。"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Gold Rebounds as Traders Pare Bets on Near-Term Fed Rate Hikes",
+   "time": "2026-11-23 00:28",
+   "summary": "金价自八个月最大单周跌幅中反弹，自9/2025以来最低点回升。"
+  },
+  {
+   "source": "CNBC",
+   "title": "Stock market today: futures jump to begin Sunday evening",
+   "time": "2026-11-22 18:00",
+   "summary": "道指期货涨约412点(0.8%)起，标普/纳指期货同步走高，寻求自周五抛售中反弹。"
+  },
+  {
+   "source": "新浪财经",
+   "title": "A股三大利好：降保证金、推做市、降费用，监管层稳市打出\"组合拳\"",
+   "time": "2026-11-23 07:00",
+   "summary": "融资保证金比例100%→80%，11/30起实施，理论增量资金近4000亿元。"
+  },
+  {
+   "source": "Reuters",
+   "title": "Correction or deeper reckoning? Investors seek signs US stock selling will abate",
+   "time": "2026-11-22",
+   "summary": "投资者寻找抛售是否临近尾声的信号，但仍保持谨慎。"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Korean Stocks Drop Again as Asian Regulators Rush to Stem Losses",
+   "time": "2026-11-22 11:06",
+   "summary": "韩股再跌，亚洲监管机构紧急出手遏制损失。"
+  },
+  {
+   "source": "FT",
+   "title": "Tech suppliers raise AI server prices up to 45% months after deals are signed",
+   "time": "2026-11-22 05:00",
+   "summary": "戴尔、HPE、联想、超微在签约数月后上调AI服务器价格最多45%。"
+  },
+  {
+   "source": "FT",
+   "title": "US ports face cyber attack onslaught as hackers target vital trade routes",
+   "time": "2026-11-22 12:00",
+   "summary": "美港口遭密集黑客攻击，瞄准关键贸易通道。"
+  }
+ ]
 }

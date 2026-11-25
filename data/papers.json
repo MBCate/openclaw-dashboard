@@ -1,9 +1,670 @@
 {
- "updated": "2026-11-23T16:05:05",
- "date": "2026-11-23",
- "total_papers": 302,
- "new_papers": 25,
+ "updated": "2026-11-24T16:02:01",
+ "date": "2026-11-24",
+ "total_papers": 328,
+ "new_papers": 26,
  "papers": [
+  {
+   "id": "2611.30064",
+   "title": "How Latent Transition Geometry Matters for Planning in World Models",
+   "authors": [
+    "Xuanya Zhu",
+    "Da Li",
+    "Xiatian Zhu"
+   ],
+   "published": "23 Nov 2026 (Mon)",
+   "summary": "World models support planning by predicting how the environment evolves under candidate actions. However, one-step predictive accuracy alone does not characterize multi-step planning utility, which depends on distinguishing candidate futures. This raises a natural question: How does latent transition geometry shape planning? We investigate this through an action-conditioned transition-field view, using curvature regularization as a controlled intervention. Across four continuous-control tasks, appropriately tuned regularization improves planning, while excessive regularization can be detrimental. By decomposing the transition field into affine and non-affine components, we find that regularization reduces action sensitivity mainly through the non-affine component. To assess its role in planning, we directly manipulate the non-affine action response in frozen models and show that it affects candidate selection and closed-loop success. Further analysis shows that curvature generally brings predicted futures closer together, while preserving more of the differences along the goal direction. This helps explain why the planning effects vary across tasks. We observe broadly consistent planning trends across five sampling- and gradient-based solvers on LeWM and similar rollout-geometry trends on DINO-WM. Qualitative attention visualizations reveal accompanying shifts toward task-relevant visual structure. Together, these findings clarify how latent transition geometry influences multi-step planning.",
+   "categories": [
+    "cs.LG",
+    "cs.RO"
+   ],
+   "relevance_score": 4,
+   "relevance_reason": "潜在转移几何对世界模型规划的影响分析",
+   "status": "新发现",
+   "date": "2026-11-23",
+   "arxiv_url": "https://arxiv.org/abs/2611.30064"
+  },
+  {
+   "id": "2611.30022",
+   "title": "MOVER: Planning Beyond Motion",
+   "authors": [
+    "Xiangyu Li",
+    "Yu Jiang",
+    "Tianyi Wang",
+    "Liang He",
+    "Qixing Huang",
+    "Zhaomiao Guo"
+   ],
+   "published": "23 Nov 2026 (Mon)",
+   "summary": "Residual world models forecast a driving scene through its temporal change, so feature components that stay constant over time vanish from the residual pathway. We ask whether evidence with weak temporal change, such as a waiting pedestrian or a stopped vehicle, can be used more effectively for planning, and introduce MOVER, a complementary event-routing mechanism. A training-time teacher measures how each spatially grounded event query responds when a past frame is removed from shared history and contrasts that sensitivity with the event's pooled temporal residual, prioritizing events that depend on history but receive weak residual evidence. A student predicts the resulting priorities from unperturbed history, so the teacher adds no inference cost. Under fixed total routing mass, one distribution scales a low-rank future bird's-eye-view update and biases trajectory-conditioned event reading. On nuScenes, MOVER reduces ResWorld's UniAD-style average L2 from 0.65 to 0.55 m and its collision rate from 0.23% to 0.12% without direct planner ego status (0.50 m and 0.09% with it), adding 4.1 ms per frame. Matched controls show that the complementary teacher outperforms either signal alone and that the allocation acts mainly during training. Adapted to BridgeDrive-LEAD, MOVER reaches a 96.52 +/- 0.65 driving score over three seeds on the 220-route Bench2Drive closed-loop benchmark, exceeding matched controls in each paired seed by a margin within seed variation.",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance_score": 4,
+   "relevance_reason": "MOVER 超越运动的规划",
+   "status": "新发现",
+   "date": "2026-11-23",
+   "arxiv_url": "https://arxiv.org/abs/2611.30022"
+  },
+  {
+   "id": "2611.29609",
+   "title": "JEPA-Shield: Safe Diffusion Planning with Latent World Models via Conformal Shielding",
+   "authors": [
+    "Taekyung Kim",
+    "Ege Yuceel",
+    "Steven Hong",
+    "Georgios Fainekos",
+    "Dimitra Panagou",
+    "Bardh Hoxha"
+   ],
+   "published": "22 Nov 2026 (Sun)",
+   "summary": "Latent world models enable planning from images, but their predictions do not directly establish whether a robot will satisfy physical constraints. We present JEPA-Shield, which connects a frozen action-conditioned Joint-Embedding Predictive Architecture (JEPA) world model to task-space safety enforcement. Two downstream models predict relative motion from imagined latent rollouts and decode unsafe geometry from the current image. Split conformal prediction turns end-to-end motion-prediction errors into multi-horizon uncertainty tubes. A backup-based shield checks these tubes against physical constraints and screens both candidate trajectories and final proposals in diffusion-inspired sampling-based model predictive control. Under the stated exchangeability and initial-backup assumptions, we establish probabilistic constraint satisfaction at action-block boundaries for a returned plan executed without replanning. We also introduce VParkBench, with geometric car and tractor-trailer parking tasks and a editable photorealistic Gaussian-splatting environment. In closed-loop evaluation, JEPA-Shield achieves success rates of 84.4%, 82.3%, and 99.0%, respectively, with no observed constraint violations. Ablations show complementary benefits from shielding and uncertainty calibration. The results demonstrate the importance of grounding latent world-model predictions in task-space quantities and explicitly accounting for prediction uncertainty in safety-critical planning.",
+   "categories": [
+    "cs.RO",
+    "cs.AI"
+   ],
+   "relevance_score": 4,
+   "relevance_reason": "JEPA-Shield 保形屏蔽的安全扩散规划，潜在世界模型",
+   "status": "新发现",
+   "date": "2026-11-22",
+   "arxiv_url": "https://arxiv.org/abs/2611.29609"
+  },
+  {
+   "id": "2611.27127",
+   "title": "OpenRing: Deadlock-Free Execution of Any Planner on AGV Floors with One-Way Lanes",
+   "authors": [
+    "Zhihao Lin",
+    "Anh-Tu Nguyen",
+    "Hui Zhang",
+    "Yoshinobu Kawahara"
+   ],
+   "published": "20 Nov 2026 (Fri)",
+   "summary": "Lifelong multi-agent path finding replans routes for automated guided vehicles, but deviations can invalidate a plan. With one-way lanes, a late vehicle or lost planner can close a ring of full segments. We separate how fast the floor runs from whether it keeps running. In OpenRing a planner proposes routes and an order, a local guard commits only moves and route changes that cannot close such a ring, and the order binds for a bounded time. Despite arbitrary proposals or planner loss, no ring closes. With two-place segments, traffic can continue under disturbances; progress is guaranteed once they end, and all vehicles exit if entries also stop. Among rules that reroute only on a proposal, every guard veto is necessary, and a clean plan keeps its crossing orders. The guarantee has a price: no rule that never stores a vehicle in a crossing under arbitrary stops carries more than $B/T_s$ per segment of $B$ places and traversal time $T_s$. With binding orders, three planners deadlock in 80 of 126 runs across eight floors. Inside OpenRing, none of the 126 runs deadlocks. OpenRing's closed-loop throughput rivals or exceeds the best baseline's. Physics simulations show no deadlocks or overlaps.",
+   "categories": [
+    "cs.RO",
+    "cs.MA"
+   ],
+   "relevance_score": 4,
+   "relevance_reason": "单向车道 AGV 无死锁路径规划（非 AD，规划算法借鉴）",
+   "status": "新发现",
+   "date": "2026-11-20",
+   "arxiv_url": "https://arxiv.org/abs/2611.27127"
+  },
+  {
+   "id": "2611.27379",
+   "title": "A Lightweight Method for Validating Simulated LiDAR Configurations Based on Point Density over Distance",
+   "authors": [
+    "Benedikt Degenstein",
+    "Michael Spengler",
+    "Julian Stähler",
+    "Carsten Markgraf"
+   ],
+   "published": "20 Nov 2026 (Fri)",
+   "summary": "Simulated LiDAR sensors play a crucial role in validating autonomous systems, yet achieving signal-level realism remains challenging due to simplified sensor models and limited configurability in common simulation environments. This paper presents a lightweight, platform-agnostic method to assess one observable aspect of LiDAR simulation fidelity: the range-dependent point density on annotated objects. The method uses only 3D bounding boxes and point clouds and does not require semantic labels, detailed maps, simulator internals, or perception models. To quantify agreement between real and simulated range-dependent point distributions, we formulate the Density Similarity Score (DSS), a bounded similarity representation derived from the Mean Absolute Percentage Error (MAPE) over discretized distance bins. The method is evaluated against a real-world LiDAR using three CARLA configurations of varying complexity. Results show that naive parameter matching based on sensor datasheets leads to systematic point-density deviations, particularly in the near field, while a custom configuration using the sensor's non-uniform vertical beam angles achieves the highest similarity in the evaluated scenario (DSS: 0.559--0.709). The proposed approach is intended as an early-stage, signal-level consistency check for identifying gross mismatches in simulated LiDAR configurations. It should be interpreted as a complementary validation step rather than a complete measure of simulation quality or downstream perception performance.",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance_score": 4,
+   "relevance_reason": "仿真 LiDAR 配置点密度验证的轻量方法",
+   "status": "新发现",
+   "date": "2026-11-20",
+   "arxiv_url": "https://arxiv.org/abs/2611.27379"
+  },
+  {
+   "id": "2611.26825",
+   "title": "Skill-JEPA: Learning Planner-Aligned Action Spaces for World Models",
+   "authors": [
+    "Tomás Couso Coddou",
+    "Christ Devia",
+    "Rex G. Liu",
+    "Rodrigo Toro Icarte"
+   ],
+   "published": "19 Nov 2026 (Thu)",
+   "summary": "World models based on Joint-Embedding Predictive Architectures (JEPAs) learn from pixels to predict the outcome of actions in a latent space. To reach a goal, a planner samples many candidate action sequences, uses the model to predict where each one leads, and executes the best one. However, standard planners draw their candidates from a Gaussian, while the model has only seen the structured, state-dependent actions of its training data. Its predictions for such candidates are unreliable, and planning fails more often as goals move farther away. We propose Skill-JEPA, which learns an action space aligned with the planner. A variational autoencoder conditioned on the current state encodes short action sequences into latent skills with a standard Gaussian prior, and decodes them back into actions. The world model predicts the effect of skills rather than raw actions, and the planner searches over skills starting from that same Gaussian, so its candidates resemble the model's training data. Skill-JEPA adds a single module, trained end-to-end with the world model, and leaves the planner untouched, with no subgoals, hierarchy, or hand-designed skills. Across three JEPA world models and four benchmarks, average success on goals 80 steps away rises from 42% with raw actions to 62%; the gains grow with goal distance and hold across four planners. On AntMaze, a quadruped locomotion task, success on goals two maze cells away rises from 0.4% to 38%. This suggests that part of the difficulty of reaching distant goals lies in the action space, and can be removed without changing the planner.",
+   "categories": [
+    "cs.RO",
+    "cs.LG"
+   ],
+   "relevance_score": 4,
+   "relevance_reason": "Skill-JEPA 学习规划器对齐的动作空间用于世界模型",
+   "status": "新发现",
+   "date": "2026-11-19",
+   "arxiv_url": "https://arxiv.org/abs/2611.26825"
+  },
+  {
+   "id": "2611.29947",
+   "title": "SAGE-Drive: Benefit-Aware Adaptive Reasoning for Autonomous Driving Planning",
+   "authors": [
+    "Donglei Rong",
+    "Wenbin Yao",
+    "Congcong Bai",
+    "Xi Gao",
+    "Qiaoqiao Ren",
+    "Sheng Jin",
+    "Cheng Xu"
+   ],
+   "published": "23 Nov 2026 (Mon)",
+   "summary": "Explicit reasoning enables autonomous vehicles (AVs) to interpret complex traffic interactions and support trajectory planning, but introduces additional computational demands. Determining when explicit reasoning can improve planning accuracy remains a key challenge, as its benefits vary across driving scenarios. To address this challenge, this study proposes Scene-Adaptive Gating of Explicit Reasoning for Driving (SAGE-Drive), a benefit-aware adaptive reasoning framework for autonomous driving planning. First, paired planning outcomes with and without explicit reasoning are analyzed to measure the reasoning benefit, i.e., the reduction in planning error achieved by explicit reasoning, which serves as the supervision label. SAGE-Drive then learns to predict these benefits using geometric features of the initial trajectory planned without reasoning and multimodal scene information, and invokes explicit reasoning only for the scenarios with the highest predicted benefits under a predefined reasoning budget. Experiments on 1,497 paired driving scenarios reveal that explicit reasoning improves planning accuracy in 53.5% of cases while degrading it in 46.5%, yielding a near-zero average benefit. On the test set, with a 20% reasoning budget, SAGE-Drive achieves an average displacement error (ADE) of 1.5191 m, compared with 1.5252 m for random selection. At a 35% budget, it achieves an ADE of 1.5148 m, close to the 1.5141 m obtained when reasoning is applied to every scenario. These findings establish the predicted reasoning benefit as an effective criterion for reasoning selection, allowing explicit reasoning to be invoked where it improves planning accuracy at a fraction of its computational cost.",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "收益感知的自适应推理用于驾驶规划，推理预算动态分配",
+   "status": "新发现",
+   "date": "2026-11-23",
+   "arxiv_url": "https://arxiv.org/abs/2611.29947"
+  },
+  {
+   "id": "2611.30283",
+   "title": "AdvMTO: Multimodal and Temporal Adversarial Object Attacks via 2D Gaussian Splatting for BEV-Based 3D Object Detection",
+   "authors": [
+    "Zhiyang Cui",
+    "Hao Tan",
+    "Ruonan Li",
+    "Shibin Wu",
+    "Junjian Zhang",
+    "Hong'an Lin",
+    "Zhaoquan Gu"
+   ],
+   "published": "23 Nov 2026 (Mon)",
+   "summary": "Adversarial object attacks pose a threat to BEV-based 3D object detectors in autonomous driving. Existing attacks typically target a single modality, coordinate camera and LiDAR observations at the current timestamp, or model temporal persistence mainly in camera streams. Without a unified construction of current and historical observations, attacks can leave part of the detector's accumulated evidence unsuppressed, limiting their effectiveness. In this paper, we propose AdvMTO, a 2D Gaussian Splatting (2DGS) framework for suppressing detection of persistent adversarial objects. Its oriented surfels encode appearance, geometry, and opacity in one object state, from which camera images and scanline LiDAR returns are generated. AdvMTO then constructs current and historical inputs through detector-native processing, regenerating LiDAR returns in each native source sweep for fusion detectors. We optimize bounded appearance perturbations for each detector, propagating gradients through historical BEV memory for temporal camera detectors. For fusion detectors, bounded geometry refinement along local normals further perturbs both sensing modalities. Experiments on nuScenes demonstrate effective suppression of traffic-cone detection across three BEV detectors. Temporal ablations further highlight the importance of detector-native history modeling for both attack construction and optimization.",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "基于 2D 高斯泼溅的 BEV 多模态时序对抗攻击，BEV 感知鲁棒性",
+   "status": "新发现",
+   "date": "2026-11-23",
+   "arxiv_url": "https://arxiv.org/abs/2611.30283"
+  },
+  {
+   "id": "2611.30389",
+   "title": "AgentMoT: An Agentic Mixture-of-Transformers for End-to-End Autonomous Driving",
+   "authors": [
+    "Qihang Huang",
+    "Collister Chua",
+    "YuJie Yan",
+    "Shiyu Fang",
+    "Zhan Chen",
+    "Haoran Xu",
+    "Zirui Li",
+    "Chen Lv"
+   ],
+   "published": "23 Nov 2026 (Mon)",
+   "summary": "Driving models need to choose which capabilities to use and when to reconsider their decisions. We introduce AgentMoT, a Mixture-of-Transformers with built-in agent reasoning and system scheduling. Combinations of agent, world, and action experts form three jointly trained pathways for direct-action, vision-language-action, and world-action computation. The Router selects a native pathway, while the agent expert supplies reasoning and selects skills. Execution feedback raises wake-up requests, and the agent self-scheduler learns whether to reconsider the task decision or keep it. Mandatory requests invoke the agent directly. The relative-capability principle guides these choices by relating the benefit of additional computation or intervention to its cost. After open-loop initialization, dual-loop evolution trains the Router, agent, and self-scheduler from closed-loop experience while failure-driven updates refine skills and execution feedback. AgentMoT achieves state-of-the-art results on Bench2Drive v0.0.3 and v0.0.4, with 94.48/92.33 driving score and 85.45/82.73% success rate, respectively. With skills disabled, learned routing improves over the strongest fixed pathway by 1.79 driving-score points and 4.09 percentage points of success rate on v0.0.3. Ablation studies further show gains from closed-loop agent learning, two-view queries, and event-triggered wake-up.",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "Agentic Mixture-of-Transformers 端到端驾驶，智能体化 E2E 架构",
+   "status": "新发现",
+   "date": "2026-11-23",
+   "arxiv_url": "https://arxiv.org/abs/2611.30389"
+  },
+  {
+   "id": "2611.30438",
+   "title": "ROSE-Drive: Runtime Orchestration and System Evolution for Autonomous Driving",
+   "authors": [
+    "Qihang Huang",
+    "Zhidong Wang",
+    "Zirui Li",
+    "YuJie Yan",
+    "Jingsong Liang",
+    "Shiyu Fang",
+    "Collister Chua",
+    "Zhan Chen",
+    "Chen Lv"
+   ],
+   "published": "23 Nov 2026 (Mon)",
+   "summary": "End-to-end driving models have made substantial progress, yet reliable closed-loop driving in complex traffic remains challenging. Beyond improving individual models, system-level orchestration offers a complementary approach by coordinating driving capabilities and computation. We introduce ROSE-Drive (Runtime Orchestration and System Evolution), a model-agnostic framework that jointly orchestrates driving execution and computation. It coordinates frozen driving models with driving skills, perception tools, and feedback controllers. A distilled vision-language model (VLM) proposes driving tasks and scene relations. Shared physical state and persistent tasks support capability composition, task continuity, and adaptive scheduling. The orchestrator combines model and skill outputs across control channels, maintains task responsibility through handover, and uses execution feedback to select controllers, reuse valid motion references, and schedule model inference. Offline revisions use execution records to refine skills and their coordination through a stable task interface. Successive system stages inherit these revisions while model, perception, and VLM weights remain fixed. Evaluations with four driving models on Bench2Drive v0.0.3, Bench2Drive v0.0.4, and Fail2Drive show accumulated capability and transfer before target-benchmark revision. On held-out Longest6, driving score (DS) rises from 25 to 52 for AutoMoT and from 22 to 47 for SimLingo across system stages, while both systems skip new model inference on over 71% of control steps.",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "运行时编排与系统演进的自动驾驶框架 ROSE-Drive",
+   "status": "新发现",
+   "date": "2026-11-23",
+   "arxiv_url": "https://arxiv.org/abs/2611.30438"
+  },
+  {
+   "id": "2611.30739",
+   "title": "Coordinating Perception and Planning for Test-Time Adaptation in End-to-End Driving under Distribution Shifts",
+   "authors": [
+    "Shiyu Fang",
+    "Yiming Cui",
+    "Qihang Huang",
+    "Zhan Chen",
+    "Collister Chua",
+    "Wenhui Huang",
+    "Peng Hang",
+    "Chen Lv",
+    "Jian Sun"
+   ],
+   "published": "23 Nov 2026 (Mon)",
+   "summary": "End-to-end autonomous driving has achieved significant milestones, yet its reliance on the i.i.d. assumption renders it vulnerable to real-world distribution shifts. While Test-Time Adaptation (TTA) offers a promising paradigm for on-the-fly enhancement, its application to driving is hindered by two barriers: (i) multi-task adaptation dependency, where updates to upstream perception also affect downstream planning, while perception confidence alone does not directly assess these downstream effects; and (ii) continuous adaptation instability, where recursive online updates over long horizons cause compounding parameter drift. To address these challenges, we propose P2-TTA, a plug-and-play TTA framework for the continual adaptation of end-to-end driving models. P2-TTA coordinates adaptation through a joint objective combining perception entropy minimization with a retrospective temporal planning consistency objective derived from observed ego motion. To stabilize online updates, we use an EMA teacher as a moving parameter reference and reject candidate updates that increase historical planning loss. Extensive experiments across multiple models demonstrate that, by updating an average of 0.11 per mille of parameters with an average adaptation time of 19.9 ms on different backbones, P2-TTA achieves average recovery rates of 36.4%, 30.0%, and 9.3% for L2, collision rate, and PDMS, respectively, under severe distribution shifts. Under a shared perception-planning objective, P2-TTA achieves the highest L2 and collision recovery among the compared TTA baselines on UniAD.",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "分布偏移下端到端驾驶的感知-规划协同测试时自适应",
+   "status": "新发现",
+   "date": "2026-11-23",
+   "arxiv_url": "https://arxiv.org/abs/2611.30739"
+  },
+  {
+   "id": "2611.30918",
+   "title": "CoSel: Cooperation as Selection for End-to-End Driving",
+   "authors": [
+    "Yiping Li",
+    "Haohua Que",
+    "Zhipeng Bao",
+    "Wenjie Zhao",
+    "Qianwen Li"
+   ],
+   "published": "23 Nov 2026 (Mon)",
+   "summary": "Cooperative driving can extend a vehicle's awareness beyond its own sensors, but existing cooperative end-to-end methods inject shared information into the planner and rely on cooperative driving demonstrations to learn how to use it. The moments in which shared information should change a driving decision are rare in such data, providing limited supervision for learning this behavior. We argue that cooperation need not be learned by the planner. Instead, reacting to shared information requires predicting how surrounding agents will move and selecting a response from the candidate trajectories of an ego planner. We introduce CoSel, a cooperation-as-selection framework that leaves the planner and its ego-only input unchanged. A separately trained cooperative predictor uses observations from the ego vehicle, roadside units, and connected automated vehicles to predict surrounding agents and their future motion. CoSel evaluates the planner's candidate trajectories against these predictions, preserves the planner's choice when it remains safe, and selects the closest safe alternative when shared information reveals additional risk. Each safety intervention is traceable to the shared evidence that triggers it. In closed-loop evaluation, CoSel achieves a driving score of 70.7 on V2Xverse, outperforming the best compared cooperative method by 7.5 points, and the highest average driving score of 85.8 on MDrive. Under missing ego detections, the collision count of CoSel increases only from 17 to 19 in 72 scenarios, compared with 19 to 32 for an existing cooperative end-to-end model.",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "CoSel：以协作即选择（cooperation as selection）的端到端驾驶",
+   "status": "新发现",
+   "date": "2026-11-23",
+   "arxiv_url": "https://arxiv.org/abs/2611.30918"
+  },
+  {
+   "id": "2611.31240",
+   "title": "Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action",
+   "authors": [
+    "Seongchan Kim",
+    "Soowon Son",
+    "Sangoh Kim",
+    "Hyunah Ko",
+    "Eunbeen Hong",
+    "Hyunkoo Lee",
+    "Sanghyun Lee",
+    "WonJun Moon",
+    "Kihong Kim",
+    "Dongyeon Son",
+    "Woongchan Nam",
+    "Seungryong Kim"
+   ],
+   "published": "23 Nov 2026 (Mon)",
+   "summary": "Reasoning vision-language-action (VLA) models for autonomous driving use chain-of-thought (CoT) reasoning to guide action generation, but incur substantial memory and computational costs. We study structured pruning for these models, focusing on preserving both scene understanding and trajectory prediction. Our analysis of Taylor importance in Alpamayo-1.5-10B shows that reasoning and trajectory objectives assign different importance to the same vision-language model (VLM) structures. In the action expert, MLP channels exhibit more stable importance rankings across denoising steps than query heads, and a small fraction of channels accounts for most of the measured importance. Based on these findings, we propose MoOP, which combines importance ranks from both objectives for VLM pruning and aggregates stepwise importance to select a fixed subset of expert MLP channels. At 24.0% total parameter reduction, VLM-only pruning with MoOP performs comparably to or slightly better than the strongest baselines in driving, while retaining 94.0% of the dense model's LingoQA score, far above all other methods. At a higher reduction of 30.0%, MoOP degrades much less than every other method, as it is the only one whose reasoning does not collapse. Removing 93.75% of expert MLP channels increases total parameter reduction to 39.4%, with nearly unchanged open-loop errors relative to VLM-only pruning and competitive closed-loop performance. The resulting model achieves a 1.37x end-to-end inference speedup and 36.6% lower peak memory than the dense model, without post-pruning fine-tuning.",
+   "categories": [
+    "cs.CV",
+    "cs.LG",
+    "cs.RO"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "驾驶 VLA 剪枝：推理与动作分别该保留什么，VLA 效率化",
+   "status": "新发现",
+   "date": "2026-11-23",
+   "arxiv_url": "https://arxiv.org/abs/2611.31240"
+  },
+  {
+   "id": "2611.30671",
+   "title": "DriveDreamer-RSI: Recursive Self-Improvement of Driving Perception and Agentic Data Generation",
+   "authors": [
+    "Dingyi Yao",
+    "Tingdong Yu",
+    "Guosheng Zhao",
+    "Chaojun Ni",
+    "Xiaofeng Wang",
+    "Jiming Mao",
+    "Guan Huang",
+    "Lihui Peng",
+    "Zheng Zhu"
+   ],
+   "published": "23 Nov 2026 (Mon)",
+   "summary": "Controllable generation can expand training data for driving perception, but visual realism alone does not ensure learning gains. Effective generation must adapt both what data to generate and how to construct them as the perception model evolves. In this paper, we present DriveDreamer-RSI, a framework for recursive self-improvement of driving perception and agentic data generation through feedback between perception learning and data construction. Its outer loop implements Gap-Guided Target Adaptation, generating labeled videos from current perception gaps and updating targets after training. Its inner loop uses a vision-language agent to iteratively edit scenes through observation and execution feedback. Across rounds, Learning-Feedback-Driven Strategy Refinement derives reusable construction advice from execution experience and downstream learning outcomes. On the nuScenes validation set, DriveDreamer-RSI surpasses the dataset-replay baseline by 4.09 mAP and 4.13 NDS points using approximately half the synthetic frames.",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "DriveDreamer-RSI：驾驶感知与智能体数据生成的递归自我改进",
+   "status": "新发现",
+   "date": "2026-11-23",
+   "arxiv_url": "https://arxiv.org/abs/2611.30671"
+  },
+  {
+   "id": "2611.29123",
+   "title": "Your Diffusion-Based Driving Planner Only Needs a Nudge",
+   "authors": [
+    "Zilin Wang",
+    "Guozheng Ma",
+    "Saeed Rahmani",
+    "Jiong Yang",
+    "Antyanta Bangunharcana",
+    "Yiluan Guo",
+    "Jakob Nicolaus Foerster",
+    "Shimon Whiteson"
+   ],
+   "published": "22 Nov 2026 (Sun)",
+   "summary": "Diffusion-based planners capture the multimodality of human driving behavior well, yet covariate shift in closed-loop driving can lead them to generate trajectories that result in collisions or road departures. Reinforcement learning (RL) finetuning offers a promising way to tackle this issue, but applying it to diffusion-based planners is complicated by their iterative denoising process and receding-horizon execution. We find that small adjustments to the planned trajectories can prevent many of these unsafe outcomes. Motivated by this observation, we propose PlanNudge, which preserves the learned planning capabilities of a pretrained diffusion-based planner by freezing it and trains a lightweight policy that we call the nudge policy. At each planning step, the nudge policy outputs a nudge, a two-dimensional adjustment of the speed and curvature of the plan from the frozen planner. The nudge policy is a multilayer perceptron that predicts the nudge in a single forward pass, and both dimensions directly change the motion of the vehicle, so standard off-policy RL can train it in closed-loop simulation. We evaluate PlanNudge on nuPlan, a large-scale autonomous driving benchmark based on real-world driving data. In all six settings, PlanNudge matches or exceeds the final scores of the previous state-of-the-art RL finetuning method while using about one sixth as many environment steps and less than one fifth as much model compute. We also provide guidelines for reward shaping, value learning, and exploration when using off-policy RL to post-train autonomous driving planners. Our results are reported with means and standard deviations over six training runs. Project page: https://zerlinwang.github.io/plannudge/",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "扩散式驾驶规划器仅需\"轻推\"（nudge）即可显著提升，训练成本极低",
+   "status": "新发现",
+   "date": "2026-11-22",
+   "arxiv_url": "https://arxiv.org/abs/2611.29123"
+  },
+  {
+   "id": "2611.29205",
+   "title": "DriveTTO: Understanding Search and Selection in Test-Time Trajectory Optimization for End-to-End Driving",
+   "authors": [
+    "Xinyao Rao",
+    "Zecheng Tang",
+    "Zheyuan Lai",
+    "Liuxuan Sun",
+    "Minjun Yu",
+    "Xun Cao",
+    "Wei Li"
+   ],
+   "published": "22 Nov 2026 (Sun)",
+   "summary": "In difficult driving scenes, a learned scorer can select a poor trajectory from a fixed pool even when a better candidate is available. Nearby vehicles and road boundaries can also leave only a narrow range of high-scoring maneuvers. These constraints vary with the scene and are difficult to cover exhaustively during training. We introduce DriveTTO, a training-free method that searches around native proposals and checks each proposed refinement against a retained trajectory. A frozen scorer evaluates completed paths at the endpoints they actually reach, guiding resampling in progressively smaller neighborhoods. From a shared reference, one branch draws on planner proposals and another perturbs vehicle controls. DriveTTO blends their poses at matching times and accepts a branch or fusion update only when both frozen scorers predict a gain. On Navtest, DriveTTO recovers nonzero predictive driver model scores (PDMS) in 51.35% of native zero-score cases on average. Accounting for new failures, the zero-score rate falls from 1.63% to 1.13%. Benchmark-specific configurations achieve 95.54 PDMS and 92.30 extended PDMS (EPDMS) on Navtest, 57.10 EPDMS on Navhard, and 40.1 HD-Score on HUGSIM under observed commands. With a single frozen scorer, DriveTTO-S improves all six evaluated planners on both Navtest and Navhard.",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "在扩散世界模型的掩码状态中规划（SilentWAM），新规划范式",
+   "status": "新发现",
+   "date": "2026-11-22",
+   "arxiv_url": "https://arxiv.org/abs/2611.29205"
+  },
+  {
+   "id": "2611.29275",
+   "title": "DriveOddsBench: Are Driving Video World Models Aligned with Real-World Odds?",
+   "authors": [
+    "Jiaxi Liu",
+    "Keshu Wu",
+    "Bin Ran",
+    "Xiaopeng Li"
+   ],
+   "published": "22 Nov 2026 (Sun)",
+   "summary": "Video world models predict how a scene will evolve, and their sampled futures are increasingly used in place of the real one, from planning to simulation. These uses assume that the samples are aligned with real-world odds, with each future appearing among them as often as it would follow the same history in reality, yet current evaluations only score how real each sample looks. Testing this assumption on real driving data is hard for three reasons. Each recorded history has only one real future, so the true probabilities are unknown. Physical quantities must be read from video, where reading errors can look like model errors. Finally, the many possible analyses invite selective reporting. We introduce DriveOddsBench, a pre-registered benchmark that addresses all three. First, if the samples follow the real distribution, the rank of the real outcome among them is uniform in every history, so pooled ranks test them without probability labels. Second, one validated instrument reads the same quantities, such as the lead-vehicle gap and the ego motion, from the generated futures and from the real future, which first passes through the world model's autoencoder so that both are read alike. Third, all confirmatory analyses were frozen before any test clip was measured. We test eleven general and driving world models on 200 held-out Argoverse 2 histories in five scenario families, with 35,200 generated futures. None is aligned, and every model underestimates its uncertainty. The real outcome falls outside the range of all 16 samples in 28-61% of cases instead of the 11.8% expected under the real distribution. Five models are significantly skewed, in opposite directions, and the largest errors are in the ego motion. Nine models beat climatology without being aligned, and among these models neither type nor scale predicts which comes closest.",
+   "categories": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG",
+    "cs.RO"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "驾驶视频世界模型是否与真实世界概率分布对齐的基准，直击世界模型评测痛点",
+   "status": "新发现",
+   "date": "2026-11-22",
+   "arxiv_url": "https://arxiv.org/abs/2611.29275"
+  },
+  {
+   "id": "2611.29553",
+   "title": "Detecting Is Not Choosing: What a World Model Needs to Keep a VLA Policy Safe",
+   "authors": [
+    "Thanish Bolla"
+   ],
+   "published": "22 Nov 2026 (Sun)",
+   "summary": "Vision-language-action (VLA) policies complete most benchmark tasks but often violate safety constraints. Since they are stochastic, one remedy is to sample several candidate action chunks and execute one that a world model predicts is safe. We ask what such a model must do. In simulation, a lookahead safety filter with the simulator as an exact world model raises the safety rate of three VLA policies on LIBERO and of pi0.5 on LIBERO-Plus by 11.5 to 25.7 points. It also helps pi0.5 on three RoboCasa tasks. Learned critics trained on one policy's data detect dangerous states (pooled AUROC up to 0.864) but rank candidates at one state close to chance (within-decision AUROC 0.551-0.560), and the learned dynamics and video models we test do no better. When the simulator's state is perturbed, selection degrades long before detection. In the loop, a median position error of 3.18 mm removes 70% of the gain on LIBERO-Spatial, partly because the error also corrupts the displacement check. On LIBERO-10 the loss is smaller, and the intervals overlap. The median does not predict the cost: a pixel reader with a 0.56 mm median error keeps 6.5 points less of the gain than Gaussian error of a similar median. A world model for safety should thus be judged by within-state ranking, and its state must be accurate in the tail and on handled objects, not only in the median.",
+   "categories": [
+    "cs.RO",
+    "cs.AI",
+    "cs.LG"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "检测≠选择：世界模型如何保证 VLA 策略安全的机理分析",
+   "status": "新发现",
+   "date": "2026-11-22",
+   "arxiv_url": "https://arxiv.org/abs/2611.29553"
+  },
+  {
+   "id": "2611.29753",
+   "title": "DREAM: Dual-Memory Reasoning for Anticipatory 3D Perception in Autonomous Driving",
+   "authors": [
+    "Sriram Mandalika",
+    "Athira Nambiar"
+   ],
+   "published": "22 Nov 2026 (Sun)",
+   "summary": "Autonomous driving systems must not only interpret the current scene but also anticipate perceptual challenges such as occlusions, sparse observations, and recurring failure patterns. However, most existing LiDAR semantic segmentation methods operate in a frame-centric manner, processing each scan independently and discarding past contextual experience, which limits robustness under dynamic scene changes. We propose DREAM, a Dual-memory REAsoning framework for continual LiDAR seMantic segmentation that reframes perception as an experience-driven and anticipatory process. DREAM maintains two complementary memory banks in a strictly online setting: a latent memory that stores compact semantic abstractions of previously observed scenes, and an error memory that records representations associated with uncertain predictions. At each timestep, relevant memory entries are retrieved via cosine similarity and integrated into the feature space through a lightweight modulation mechanism, enabling the model to reinforce consistent semantic patterns while suppressing recurring failure modes. The backbone remains frozen and no past scans are replayed, ensuring computational efficiency and bounded memory growth. Extensive experiments on multiple large-scale LiDAR benchmarks demonstrate that DREAM achieves state-of-the-art performance, with consistent improvements on dynamic and small-scale objects, highlighting the effectiveness of persistent and error-aware memory for robust long-horizon perception.",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "DREAM 双记忆推理用于驾驶前瞻性 3D 感知",
+   "status": "新发现",
+   "date": "2026-11-22",
+   "arxiv_url": "https://arxiv.org/abs/2611.29753"
+  },
+  {
+   "id": "2611.29800",
+   "title": "Generating Safety-Critical Driving Scenarios from Role-Typed Signal Temporal Logic Specifications Drafted by Large Language Models",
+   "authors": [
+    "Zifan Zeng",
+    "Qunli Zhang",
+    "Peng Wang",
+    "Shiming Liu",
+    "Feng Liu",
+    "Zheng Hu"
+   ],
+   "published": "22 Nov 2026 (Sun)",
+   "summary": "Safety-critical scenarios are rare in recorded driving and must be generated to test and train motion planners of automated vehicles. In guided diffusion models, each scenario type needs its own weighted objective, separate from the validity check. Optimized together with the attacker, the vehicle under test can cancel the attack or draw it toward itself. We state each scenario as a signal temporal logic specification with clauses typed by role. Every clause names the agent it may change and the agents it may read, and the vehicle under test reads the attacker only from the attack onset. A large language model drafts the specification from a description, and a type checker accepts it. A compiler derives the optimization: it edits a diffusion model's samples by the smallest change that satisfies the specification, each clause moves only its owner, the attacker is solved against the unreacted vehicle under test before its response, and the monitor of the same specification decides acceptance. On nuScenes and CommonRoad, judged independently of the specification, one parameter set produced valid scenarios at a rate 0.14 above a weighted objective tuned per scenario type, and descriptions yielded at least one valid scenario for 11 of the 16 pre-crash types expressible in the public data. Learned planners fail more often on the generated scenarios than on their seeds. Fine-tuning on them lowers a planner's failure rate on critical scenarios, and the time headway one clause of the label requires, not the generator, sets the size of the gain.",
+   "categories": [
+    "cs.RO",
+    "cs.SE"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "从角色类型 STL 规范生成安全关键驾驶场景",
+   "status": "新发现",
+   "date": "2026-11-22",
+   "arxiv_url": "https://arxiv.org/abs/2611.29800"
+  },
+  {
+   "id": "2611.28509",
+   "title": "AlpaSafe: Risk-Aware Trajectory Selection for Vision-Language-Action Models in Autonomous Driving",
+   "authors": [
+    "Qiren Wang",
+    "Mingyu Guo",
+    "Weisong Shi"
+   ],
+   "published": "21 Nov 2026 (Sat)",
+   "summary": "Reasoning-based driving vision-language-action (VLA) models propose multiple candidate trajectories at each decision, yet only one is executed. Standard evaluation scores the best candidate, assuming an oracle selector that deployment lacks, and leaves the risk of the executed candidate unexamined. Existing online evaluators typically close this gap with a purpose-trained scene or world model, often rolling out each candidate through it at inference time. We introduce AlpaSafe, a risk-aware trajectory selector that reuses the scene representation a frozen driving VLA computes while proposing its candidates. AlpaSafe reads the last hidden token of the VLA's prompt prefill. A lightweight head, trained on the closed-loop simulation outcomes of the candidates, fuses this token with each candidate trajectory and predicts a relative score and collision/offroad logits. A fixed rule removes candidates dominated on the two risk logits and selects the highest-scoring candidate among those remaining, adding neither rollouts nor VLA training. Experiments on 525 AlpaSim scenes show that AlpaSafe outperforms Alpamayo's default first-sample rule and uniform random selection in selected regret and top-1 agreement, and reduces the collision-at-fault or offroad rate from 6.41% and 6.10% to 4.93%. The selector has 1.7M parameters and takes 0.75 ms per decision.",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "VLA 驾驶模型风险感知轨迹选择，安全侧关键补充",
+   "status": "新发现",
+   "date": "2026-11-21",
+   "arxiv_url": "https://arxiv.org/abs/2611.28509"
+  },
+  {
+   "id": "2611.28779",
+   "title": "Imagine Smarter, Drive Faster: Efficient World Modeling for Decision-Aware Autonomous Driving",
+   "authors": [
+    "Feiyang Jia",
+    "Lin Liu",
+    "Zhicheng Bao",
+    "Caiyan Jia",
+    "Ziying Song",
+    "Shengkai Zhang",
+    "Lina Han",
+    "Yan Zhao",
+    "Xiaoshuai Hao"
+   ],
+   "published": "21 Nov 2026 (Sat)",
+   "summary": "World models hold great promise for autonomous driving planning, yet their ability to imagine the future often comes at a formidable computational cost. Efficiency efforts, such as knowledge distillation and domain-specific pre-training, often shift this burden to costly teachers or training pipelines, leaving lightweight world modeling an open challenge. We introduce FastWorld, a natively lightweight world-model framework for efficient autonomous driving planning. FastWorld reduces computation through compact scene representations, short-horizon action-conditioned prediction, and selective candidate verification and score refinement. These designs support efficient future-informed planning without teacher distillation or additional domain-specific pre-training. On NAVSIMv1, FastWorld achieves 92.2 PDMS at 132 FPS on a single 4090 GPU. It also achieves 89.4 EPDMS on NAVSIMv2 and an average L2 of 0.40 over 3 seconds at 17 FPS on nuScenes. Code and models can be found at https://github.com/MoyangSensei/FastWorld.",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "决策感知的高效世界模型，\"想得更聪明、开得更快\"思路",
+   "status": "新发现",
+   "date": "2026-11-21",
+   "arxiv_url": "https://arxiv.org/abs/2611.28779"
+  },
+  {
+   "id": "2611.28720",
+   "title": "Data-Driven Trajectory Prediction via Probabilistic Modes and Constrained Optimization",
+   "authors": [
+    "Danyang Li",
+    "Ana Theodora Balaci",
+    "Matthew Cleaveland",
+    "Roberto Tron"
+   ],
+   "published": "21 Nov 2026 (Sat)",
+   "summary": "Predicting the future trajectories of surrounding agents is a fundamental requirement for safe autonomous driving. Since agent intent is inherently uncertain, multimodal prediction is essential to account for the full range of plausible future behaviors. We introduce Probabilistic Modes and Constrained Optimization trajectory prediction (ProMo-CoOp), a two-stage data-driven framework. At design time, trajectories are clustered into behavioral modes and a Gaussian Mixture Model (GMM) provides probabilistic mode assignments. At prediction time, a candidate trajectory is generated for each mode by solving a convex optimization problem that enforces consistency with the observed trajectory and uses the precomputed mode assignments to guide prediction toward the selected behavioral mode. The framework also supports Signal Temporal Logic (STL)-derived behavioral constraints, with predicate satisfaction probabilities estimated using Conditional Flow Matching (CFM). Experiments show that ProMo-CoOp outperforms state-of-the-art baselines, and that STL-based constraints can further improve performance when the predicted predicate satisfactions are reliable.",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "概率模式+约束优化的轨迹预测",
+   "status": "新发现",
+   "date": "2026-11-21",
+   "arxiv_url": "https://arxiv.org/abs/2611.28720"
+  },
+  {
+   "id": "2611.27638",
+   "title": "Seeing Is Not Steering: Where Verifiable Reasoning Can Enter an End-to-End Driving Planner",
+   "authors": [
+    "Gautam Kumar Jain",
+    "Atharva Mahindrakar",
+    "Shubham Phoolari",
+    "Ignacio Alvarez",
+    "Carsten Markgraf",
+    "Constanze Hungar",
+    "Christoph Lauer",
+    "Julian Staehler"
+   ],
+   "published": "20 Nov 2026 (Fri)",
+   "summary": "Driving models that reason may describe a hazard correctly while choosing their path for other reasons. We study where scene reasoning can enter an end-to-end planner so its influence can be checked. We freeze Drive-JEPA and use a fine-tuned vision-language model to state scene facts. Although fine-tuning improves fact accuracy, the two learned components we test show no detectable benefit from reading them. A rule-based fact check instead rejects or shortens paths that contradict the facts, linking each intervention to a stated fact. On the frozen planner alone, it gains 2.4 EPDMS points on navhard. Its 2.0-point margin over a control that changes the same frames without consulting facts remains statistically uncertain. A diagnostic using exact facts from maps and annotations yields a 3.6-point margin over its corresponding control, with a 95% confidence interval above zero. Separately, a path scorer and plan memory that read no stated facts raise navhard from 41.2 to 51.8. Bounding travel distance using the reasoner's facts adds 0.3 there and reduces navtest by 2.0. The fact check makes each intervention auditable, while the driving value of the reasoner's facts remains unresolved.",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "端到端规划器中可验证推理的介入位置研究，揭示\"看见≠操控\"的推理-动作鸿沟",
+   "status": "新发现",
+   "date": "2026-11-20",
+   "arxiv_url": "https://arxiv.org/abs/2611.27638"
+  },
+  {
+   "id": "2611.28177",
+   "title": "Don't Test Where You Trained: Geographic Overlap Inflates End-to-End Driving Scores",
+   "authors": [
+    "Willi Poh",
+    "Kevin Rösch",
+    "Christoph Stiller"
+   ],
+   "published": "20 Nov 2026 (Fri)",
+   "summary": "In NAVSIMv1, the standard benchmark for end-to-end driving, $89.6\\%$ of the test scenes lie within 4m of a training scene. We show that this geographic overlap inflates the reported scores. We propose a geographically disjoint split of NAVSIMv1 and an evaluation that compares models trained on either split on the same scenes, which neither has seen in training. All sensor-based models we test, DiffusionDrive, Latent TransFuser, and DrivoR, lose 3.4 to 6.1 PDMS points on these scenes, mainly by leaving the road and coming close to other objects, against 1.5 points for a baseline without sensors. The loss concentrates where a training drive of the original split passed the same place. At all other places, models trained on the original split are no better than those trained on the geographic split. Models trained on the original split predict road geometry that no camera can see. The gap persists when the auxiliary map loss is removed, so the models memorize locations even without being supervised to. On nuScenes, the geographic split cuts SparseDrive's mapping accuracy by $59\\%$ and also degrades its planning. Driving scores on logged scenes thus partly measure how well a model remembers the test locations. We release the split to evaluate generalization to new places.",
+   "categories": [
+    "cs.CV",
+    "cs.AI",
+    "cs.RO"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "指出端到端驾驶评测中地理重叠导致分数虚高，影响所有 E2E 基准可信度",
+   "status": "新发现",
+   "date": "2026-11-20",
+   "arxiv_url": "https://arxiv.org/abs/2611.28177"
+  },
+  {
+   "id": "2611.27226",
+   "title": "Trailblazer-F: Speculative Action-Flow Inference for Autonomous Driving",
+   "authors": [
+    "Haibo Hu",
+    "Lianming Huang",
+    "Qiao Li",
+    "Nan Guan",
+    "Chun Jason Xue"
+   ],
+   "published": "20 Nov 2026 (Fri)",
+   "summary": "Driving world-action models generate planned trajectories through iterative action denoising, with each update depending on the preceding state. This sequential dependency incurs substantial inference latency, limiting timely planning. Speculative inference offers an opportunity to reduce this latency by predicting future denoising states for parallel target evaluation, but requires efficient proposal generation and suitable verification for continuous actions. We present Trailblazer-F, a speculative action-flow inference framework in which a lightweight drafter acts as a trailblazer, charting a candidate denoising path through the compact, structured waypoint space so that the target model can verify multiple steps in parallel and advance with fewer sequential updates. Our method maintains planning quality while keeping the pretrained target model frozen.Across all 12,146 NAVSIM v1 navtest scenes, Trailblazer-F maintains near-baseline planning performance, with PDMS changes of +0.04 and -0.08 points for SimWAM and DriveWAM, respectively. Paired inference measurements on an NVIDIA L20 GPU yield 2.31x and 1.55x speedups. Real-vehicle experiments on NVIDIA Jetson AGX Orin further demonstrate 1.96x and 1.37x speedups, together with close qualitative trajectory agreement with native sampling. our code is here https://github.com/DanileHaibo/Trailblazer-F",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "Trailblazer-F 面向自动驾驶的推测式动作流推理，加速扩散规划",
+   "status": "新发现",
+   "date": "2026-11-20",
+   "arxiv_url": "https://arxiv.org/abs/2611.27226"
+  },
+  {
+   "id": "2611.27173",
+   "title": "PACE-WM: Parallel World Modeling with Action History for Visual Planning",
+   "authors": [
+    "Haishan Liu",
+    "Shijie Lian",
+    "Bin Yu",
+    "Yao Zhang",
+    "Changti Wu",
+    "Fanping Liu",
+    "Jianzheng Liu",
+    "Lei Xie",
+    "Cong Huang",
+    "Kai Chen"
+   ],
+   "published": "20 Nov 2026 (Fri)",
+   "summary": "JEPA-style world models support visual planning by predicting future representations conditioned on future actions. However, similar observations can conceal different motion states, making temporal context essential for interpreting future action effects. We propose PACE-WM, a parallel world model that uses executed-action history to contextualize future prediction and planning. Specifically, PACE-WM maintains a recurrent memory of executed actions and uses this memory to condition a causal Transformer. PACE-WM predicts multiple future representations in parallel without recursive predicted-state feedback within each prediction window. We further introduce Reference-Anchored Minimum Progress (RAMP) for action selection during planning. RAMP scores candidate actions by their predicted goal improvement along direct and split paths relative to a shared reference. Across four visual planning tasks, PACE-WM with RAMP achieves an average success rate of $98\\%$ and plans approximately $7$-$9\\times$ faster than autoregressive LeWM under matched CEM settings. We also construct four controlled benchmarks to evaluate PACE-WM's capabilities in motion disambiguation, goal-relative motion, and goal adaptation. Project page is available at https://github.com/LHS180/PACE-WM.",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance_score": 4,
+   "relevance_reason": "PACE-WM 带动作历史的并行世界建模用于视觉规划",
+   "status": "已收录",
+   "date": "2026-11-20",
+   "arxiv_url": "https://arxiv.org/abs/2611.27173"
+  },
+  {
+   "id": "2611.27639",
+   "title": "SOAR: Training-Free Rank-Consistent Rollout Compression for Latent World Model Planning",
+   "authors": [
+    "Anqi Li",
+    "Kai Liu",
+    "Linghe Kong",
+    "Yulun Zhang"
+   ],
+   "published": "20 Nov 2026 (Fri)",
+   "summary": "Latent world models plan by rolling out hundreds of candidate action sequences through a transformer predictor, so a single decision can take tens of seconds. Existing accelerations prune spatial tokens as in vision-language models, yet a sampling-based planner uses predicted costs only to rank candidates, so a rollout can be compressed freely as long as the ranking survives. We propose SOAR, a training-free method that adapts rollout compression to each planning decision. At every decision, SOAR probes a few candidates under several token budgets and keeps the smallest budget that preserves their ranking, so it compresses as far as the current decision allows, without task labels. A closed-loop study of more than 80,000 episodes fixes the rest of the rollout: the first step, which alone reads a real observation, stays exact, and the context frame is cached rather than recomputed. On seven navigation and manipulation tasks with frozen checkpoints, SOAR matches dense-level planning success at 2.3x speedup and retains 98% at 2.5x. Our code is available at https://github.com/starrywiki/SOAR.",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "relevance_score": 4,
+   "relevance_reason": "SOAR 免训练秩一致性 rollout 压缩，潜在世界模型规划加速",
+   "status": "已收录",
+   "date": "2026-11-20",
+   "arxiv_url": "https://arxiv.org/abs/2611.27639"
+  },
+  {
+   "id": "2611.26242",
+   "title": "FastRoverVLA: Fast Vision-Language-Action Execution for Off-Road Autonomous Driving",
+   "authors": [
+    "Changtao Zhao",
+    "Yingxue Guan",
+    "Li Wang",
+    "Shijie Zhao",
+    "Yuhang Zhang",
+    "Shengkai Zhang",
+    "Qing Wang",
+    "Ziying Song"
+   ],
+   "published": "19 Nov 2026 (Thu)",
+   "summary": "Off-road vision-language-action (VLA) models generate scene-conditioned plans, but frequent trajectory updates can repeatedly invoke expensive multimodal inference. Reusing a prediction reduces this demand while leaving its commands exposed to changes in vehicle motion. FastRoverVLA addresses this mismatch by decoupling visual plan generation from motion-conditioned execution. Its training-free interface maintains decoded plans between visual predictions. A speed-curvature action buffer is aligned with measured motion at each update, integrated into a local trajectory, and advanced by consuming the current action. The corrected remainder is written back to the buffer, preserving motion corrections across successive updates. A bounded refresh rule normalizes speed and curvature variations within a newly decoded plan and assigns a short or long reuse budget according to the resulting plan-roughness score. The interface requires neither backbone features nor an additional learned driving policy. Over a 3 s horizon, independent real-request evaluation achieves average displacement error (ADE) and final displacement error (FDE) of 0.328/0.596 m on ORAD-3D and 0.266/0.526 m on RELLIS-3D, reducing FDE by 18.0% and 36.7% at request rates of 6.0% and 4.8%, respectively. These runs retain lower errors across four backbones and both datasets and reduce Qwen3-VL request-processing cost by factors of 16.6 and 20.8 under serial replay, while mechanism and motion-only controls identify persistent state correction as the main source of the observed accuracy benefit. The source code and evaluation materials are publicly available at https://github.com/ADEPT-ORG/FastRoverVLA.",
+   "categories": [
+    "cs.RO",
+    "cs.AI"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "越野场景 VLA 快速执行，解决 VLA 推理延迟瓶颈",
+   "status": "已收录",
+   "date": "2026-11-19",
+   "arxiv_url": "https://arxiv.org/abs/2611.26242"
+  },
   {
    "id": "2611.27963",
    "title": "Non-penetrating World Models",
@@ -83,27 +744,6 @@
    "date": "2026-11-20"
   },
   {
-   "id": "2611.27639",
-   "title": "SOAR: Training-Free Rank-Consistent Rollout Compression for Latent World Model Planning",
-   "authors": [
-    "Anqi Li",
-    "Kai Liu",
-    "Linghe Kong",
-    "Yulun Zhang"
-   ],
-   "published": "20 Nov 2026 (Fri)",
-   "arxiv_url": "https://arxiv.org/abs/2611.27639",
-   "summary": "Latent world models plan by rolling out hundreds of candidate action sequences through a transformer predictor, so a single decision can take tens of seconds. Existing accelerations prune spatial tokens as in vision-language models, yet a sampling-based planner uses predicted costs only to rank candidates, so a rollout can be compressed freely as long as the ranking survives. We propose SOAR, a training-free method that adapts rollout compression to each planning decision. At every decision, SOAR probes a few candidates under several token budgets and keeps the smallest budget that preserves their ranking, so it compresses as far as the current decision allows, without task labels. A closed-loop study of more than 80,000 episodes fixes the rest of the rollout: the first step, which alone reads a real observation, stays exact, and the context frame is cached rather than recomputed. On seven navigation and manipulation tasks with frozen checkpoints, SOAR matches dense-level planning success at 2.3x speedup and retains 98% at 2.5x. Our code is available at https://github.com/starrywiki/SOAR.",
-   "categories": [
-    "cs.RO",
-    "cs.CV"
-   ],
-   "relevance_score": 3,
-   "relevance_reason": "潜在世界模型规划的免训练 rollout 压缩",
-   "status": "新发现",
-   "date": "2026-11-20"
-  },
-  {
    "id": "2611.27447",
    "title": "Mechanism Parity for Simulation-Based Validation of Autonomous-Driving Perception",
    "authors": [
@@ -149,32 +789,6 @@
    ],
    "relevance_score": 5,
    "relevance_reason": "无感知端到端规划器，按候选轨迹几何走廊做证据选择，NAVSIM/Bench2Drive 多项 SOTA",
-   "status": "新发现",
-   "date": "2026-11-20"
-  },
-  {
-   "id": "2611.27173",
-   "title": "PACE-WM: Parallel World Modeling with Action History for Visual Planning",
-   "authors": [
-    "Haishan Liu",
-    "Shijie Lian",
-    "Bin Yu",
-    "Yao Zhang",
-    "Changti Wu",
-    "Fanping Liu",
-    "Jianzheng Liu",
-    "Lei Xie",
-    "Cong Huang",
-    "Kai Chen"
-   ],
-   "published": "20 Nov 2026 (Fri)",
-   "arxiv_url": "https://arxiv.org/abs/2611.27173",
-   "summary": "JEPA-style world models support visual planning by predicting future representations conditioned on future actions. However, similar observations can conceal different motion states, making temporal context essential for interpreting future action effects. We propose PACE-WM, a parallel world model that uses executed-action history to contextualize future prediction and planning. Specifically, PACE-WM maintains a recurrent memory of executed actions and uses this memory to condition a causal Transformer. PACE-WM predicts multiple future representations in parallel without recursive predicted-state feedback within each prediction window. We further introduce Reference-Anchored Minimum Progress (RAMP) for action selection during planning. RAMP scores candidate actions by their predicted goal improvement along direct and split paths relative to a shared reference. Across four visual planning tasks, PACE-WM with RAMP achieves an average success rate of $98\\%$ and plans approximately $7$-$9\\times$ faster than autoregressive LeWM under matched CEM settings. We also construct four controlled benchmarks to evaluate PACE-WM's capabilities in motion disambiguation, goal-relative motion, and goal adaptation. Project page is available at https://github.com/LHS180/PACE-WM.",
-   "categories": [
-    "cs.RO"
-   ],
-   "relevance_score": 4,
-   "relevance_reason": "动作历史条件的并行世界模型视觉规划",
    "status": "新发现",
    "date": "2026-11-20"
   },
@@ -352,41 +966,6 @@
    "relevance_reason": "世界模型倾向学习先验而非视觉证据的校准问题，TailWorld 长尾基准",
    "status": "新发现",
    "date": "2026-11-19"
-  },
-  {
-   "id": "2611.26242",
-   "title": "FastRoverVLA: Fast Vision-Language-Action Execution for Off-Road Autonomous Driving",
-   "authors": [
-    "Changtao Zhao",
-    "Yingxue Guan",
-    "Li Wang",
-    "Shijie Zhao",
-    "Yuhang Zhang",
-    "Shengkai Zhang",
-    "Qing Wang",
-    "Ziying Song"
-   ],
-   "published": "19 Nov 2026 (Thu)",
-   "arxiv_url": "https://arxiv.org/abs/2611.26242",
-   "pdf_url": "https://arxiv.org/pdf/2611.26242",
-   "summary": "Off-road vision-language-action (VLA) models generate scene-conditioned plans, but frequent trajectory updates can repeatedly invoke expensive multimodal inference. Reusing a prediction reduces this demand while leaving its commands exposed to changes in vehicle motion. FastRoverVLA addresses this mismatch by decoupling visual plan generation from motion-conditioned execution. Its training-free interface maintains decoded plans between visual predictions. A speed-curvature action buffer is aligned with measured motion at each update, integrated into a local trajectory, and advanced by consuming the current action. The corrected remainder is written back to the buffer, preserving motion corrections across successive updates. A bounded refresh rule normalizes speed and curvature variations within a newly decoded plan and assigns a short or long reuse budget according to the resulting plan-roughness score. The interface requires neither backbone features nor an additional learned driving policy. Over a 3 s horizon, independent real-request evaluation achieves average displacement error (ADE) and final displacement error (FDE) of 0.328/0.596 m on ORAD-3D and 0.266/0.526 m on RELLIS-3D, reducing FDE by 18.0% and 36.7% at request rates of 6.0% and 4.8%, respectively. These runs retain lower errors across four backbones and both datasets and reduce Qwen3-VL request-processing cost by factors of 16.6 and 20.8 under serial replay, while mechanism and motion-only controls identify persistent state correction as the main source of the observed accuracy benefit. The source code and evaluation materials are publicly available at https://github.com/ADEPT-ORG/FastRoverVLA.",
-   "categories": [
-    "cs.RO",
-    "cs.AI"
-   ],
-   "subjects": "cs.RO",
-   "relevance_score": 5,
-   "score": 5,
-   "topic": "vla-autonomous-driving",
-   "is_new": true,
-   "status": "新发现",
-   "status_en": "new",
-   "in_kb": false,
-   "source": "arxiv",
-   "added": "2026-11-19",
-   "date": "2026-11-19",
-   "url": "https://arxiv.org/abs/2611.26242",
-   "arxiv_id": "2611.26242"
   },
   {
    "id": "2611.26239",
@@ -7416,19 +7995,5 @@
    "abstract": "Dexterous manipulation requires high-dimensional control policies to accomplish complex contact-rich tasks while simultaneously satisfying multiple safety requirements, such as joint limits, unsafe finger configurations, arm collisions, and unstable object interactions. Constrained reinforcement learning (RL) provides a principled framework for incorporating these requirements into dexterous manipulation policy learning. However, existing constrained RL methods for dexterous manipulation primarily focus on cumulative cost constraints and struggle to simultaneously handle multiple heterogeneous constraints during dexterous policy learning. In this work, we propose Multi-constraint Dexterous Policy Optimization (MDPO) for safe dexterous manipulation. We first formulate dexterous manipulation as a multi-constraint policy optimization problem involving both cumulative cost constraints and state-wise cost constraints. Based on this formulation, we integrate multi-constraint projection into the dexterous manipulation policy optimization process. Specifically, we employ constraint-specific policy projections to map the intermediate policy that maximizes task performance onto the feasible regions defined by the cumulative cost constraint and the state-wise cost constraint. Extensive experiments on ReDMan, including safe joint control, finger safety, and grasping tasks, demonstrate that MDPO achieves superior constraint satisfaction while maintaining competitive task performance compared with the baselines. Our code is available at this link.",
    "why_relevant": "e2e-autonomous-driving"
   }
- ],
- "weekly": {
-  "file": "weekly-2026-11-21.json",
-  "week_of": "2026-11-15",
-  "week_end": "2026-11-21",
-  "title": "论文周报 · 2026-11-15 → 2026-11-21",
-  "top_ids": [
-   "2611.24719",
-   "2611.23813",
-   "2611.24192",
-   "2611.25604",
-   "2611.24840"
-  ],
-  "updated": "2026-11-21"
- }
+ ]
 }

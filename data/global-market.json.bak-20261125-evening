@@ -1,0 +1,358 @@
+{
+ "updated_at": "2026-11-25T01:20Z",
+ "as_of": "Nov 25 2026 01:20 UTC（洛杉矶11/24 17:20 / 北京11/25 09:20）— 【早盘预览】11/24美股三大指数集体收跌：标普500 7,201.09（-0.50%，日内自7,340回落）、纳指 23,733.54（-1.48%）、道指 50,018.70（-1.38%）；费城半导体 -8.4%，NVDA -5.86%、美光 -11%、AVGO -11.9%，Anthropic 收于83美元发行价下方。亚太11/25开盘承压：日经 57,192.59（-3.10%）、KOSPI 4,776.11（-5.75%，软银系抛压）、恒指参考11/24收盘 22,219.65。期指续跌：ES 7,189.5（-0.11%）、NQ 26,131（-1.76%）、YM 49,931（+1.53%）。商品：金$3,542.3（-3.9%）、银$40.67（-8.2%）、WTI$81.80、布伦特$88.60；10年美债4.904%、DXY 103.856、VIX 26.36。BTC $59,647（-2.9%）、ETH $1,670（-2.7%）。",
+ "session_label": "早盘预览（11/24 美股收盘 + 亚太11/25开盘 + 隔夜商品/加密）",
+ "generated_at": "2026-11-25T01:20:00Z",
+ "generated_at_local": "2026-11-24 17:20 (America/Los_Angeles)",
+ "headline": "AI交易二次退潮：纳指-1.48%、费半-8.4%，日经-3.1%、KOSPI-5.8%接力下挫；金银大幅回吐，风险偏好全面收缩",
+ "indices": [
+  {
+   "name": "标普500",
+   "symbol": "^GSPC",
+   "close": 7201.09,
+   "change_pct": -0.5,
+   "note": "11/24收盘 7,201.09（-0.50%），周一+4.73%后回吐约一半；11月至今仍跌约5%"
+  },
+  {
+   "name": "纳斯达克",
+   "symbol": "^IXIC",
+   "close": 23733.54,
+   "change_pct": -1.48,
+   "note": "11/24收盘 23,733.54（-1.48%），11月恐创年内最差单月"
+  },
+  {
+   "name": "道指",
+   "symbol": "^DJI",
+   "close": 50018.7,
+   "change_pct": -1.38,
+   "note": "11/24收盘 50,018.70（-1.38%），守住50,000关口"
+  },
+  {
+   "name": "费城半导体指数",
+   "symbol": "^SOX",
+   "close": 8832.5,
+   "change_pct": -8.43,
+   "note": "11/24收盘 8,832.50（-8.43%），周一的+14%全部抹去；美光-11%、AVGO-11.9%"
+  },
+  {
+   "name": "VIX恐慌指数",
+   "symbol": "^VIX",
+   "close": 26.36,
+   "change_pct": -0.98,
+   "note": "11/24收盘 26.36（-0.98%），盘中一度升至29上方"
+  },
+  {
+   "name": "日经225",
+   "symbol": "^N225",
+   "close": 57192.59,
+   "change_pct": -3.1,
+   "note": "11/25开盘 57,192.59（-3.10%），较11/24收盘58,644.63大幅低开；软银重挫"
+  },
+  {
+   "name": "韩国KOSPI",
+   "symbol": "^KS11",
+   "close": 4776.11,
+   "change_pct": -5.75,
+   "note": "11/25开盘 4,776.11（-5.75%），三星/海力士领跌"
+  },
+  {
+   "name": "恒生指数",
+   "symbol": "^HSI",
+   "close": 22219.65,
+   "change_pct": -0.73,
+   "note": "11/24收盘 22,219.65（-0.73%）；11/25港股待开盘，受隔夜美股拖累料低开"
+  },
+  {
+   "name": "英伟达 (NVDA)",
+   "symbol": "NVDA",
+   "close": 155.38,
+   "change_pct": -5.86,
+   "note": "11/24收盘 $155.38（-5.86%），周一+31.5%后回吐；SEC会计调查传闻叠加获利了结"
+  },
+  {
+   "name": "苹果 (AAPL)",
+   "symbol": "AAPL",
+   "close": 349.08,
+   "change_pct": 1.9,
+   "note": "11/23收盘 $349.08（+1.90%）；11/24科技股普跌，资金转向医药等防御板块"
+  },
+  {
+   "name": "微软 (MSFT)",
+   "symbol": "MSFT",
+   "close": 492.5,
+   "change_pct": 1.65,
+   "note": "11/23收盘 $492.50 (+1.65%)"
+  },
+  {
+   "name": "特斯拉 (TSLA)",
+   "symbol": "TSLA",
+   "close": 385.46,
+   "change_pct": 11.47,
+   "note": "11/23收盘 $385.46（+11.47%）；11/24跟随大盘回吐"
+  },
+  {
+   "name": "台积电 (TSM)",
+   "symbol": "TSM",
+   "close": 363.6,
+   "change_pct": 13.74,
+   "note": "11/23收盘 $363.60（+13.74%）；11/24跟随费半重挫"
+  },
+  {
+   "name": "博通 (AVGO)",
+   "symbol": "AVGO",
+   "close": 301.08,
+   "change_pct": -3.98,
+   "note": "11/24收盘 $301.08（-3.98%，盘中一度-11.9%）"
+  },
+  {
+   "name": "AMD",
+   "symbol": "AMD",
+   "close": 453.46,
+   "change_pct": 6.85,
+   "note": "11/23收盘 $453.46（+6.85%）；11/24 AI硬件链集体回落"
+  }
+ ],
+ "crypto": [
+  {
+   "name": "比特币 (BTC)",
+   "symbol": "BTC",
+   "price": 59647,
+   "change_24h": -2.92,
+   "change_7d": null,
+   "note": "约$59,647（-2.92%），失守6万；本月累计跌约24%"
+  },
+  {
+   "name": "以太坊 (ETH)",
+   "symbol": "ETH",
+   "price": 1670.49,
+   "change_24h": -2.74,
+   "change_7d": null,
+   "note": "约$1,670.49（-2.74%），跌破1,700"
+  },
+  {
+   "name": "Solana (SOL)",
+   "symbol": "SOL",
+   "price": 69.86,
+   "change_24h": -3.6,
+   "change_7d": null,
+   "note": "约$69.86（11/24），山寨币跌幅更深"
+  }
+ ],
+ "commodities": [
+  {
+   "name": "COMEX黄金",
+   "symbol": "GC=F",
+   "price": 3542.3,
+   "change_pct": -3.88,
+   "note": "$3,542.3/oz（-3.88%），关税计划强化加息预期，金价连续两日大幅回吐"
+  },
+  {
+   "name": "COMEX白银",
+   "symbol": "SI=F",
+   "price": 40.665,
+   "change_pct": -8.24,
+   "note": "$40.67/oz（-8.24%），工业+货币属性双杀"
+  },
+  {
+   "name": "WTI原油",
+   "symbol": "CL=F",
+   "price": 81.8,
+   "change_pct": -1.69,
+   "note": "$81.80/桶，供需宽松预期压制"
+  },
+  {
+   "name": "布伦特原油",
+   "symbol": "BZ=F",
+   "price": 88.6,
+   "change_pct": -3.68,
+   "note": "$88.60/桶，续弱"
+  },
+  {
+   "name": "COMEX铜",
+   "symbol": "HG=F",
+   "price": 5.503,
+   "change_pct": -2.2,
+   "note": "$5.50/lb（11/24），对中国需求与贸易摩擦敏感"
+  }
+ ],
+ "macro": [
+  {
+   "name": "美债10年期收益率",
+   "symbol": "^TNX",
+   "price": 4.904,
+   "change": "-1.4bp(较11/24)",
+   "note": "4.904%，较11/19的5.05%累计下行约15bp；避险需求与加息预期拉锯"
+  },
+  {
+   "name": "美元指数 DXY",
+   "symbol": "DX-Y.NYB",
+   "price": 103.856,
+   "change": "-0.04%",
+   "note": "103.86，关税计划支撑美元"
+  }
+ ],
+ "week_performance": [
+  {
+   "index": "标普500",
+   "week_pct": -5.07,
+   "ytd": "11月料为3月以来最差月份"
+  },
+  {
+   "index": "纳斯达克",
+   "week_pct": -7.19,
+   "ytd": "11月恐创年内最差单月（10月-5.3%）"
+  },
+  {
+   "index": "道指",
+   "week_pct": -5.02,
+   "ytd": "相对抗跌"
+  },
+  {
+   "index": "费城半导体",
+   "week_pct": -11.05,
+   "ytd": "波动最大，单日±14%"
+  },
+  {
+   "index": "日经225",
+   "week_pct": -6.46,
+   "ytd": "高位剧烈震荡"
+  }
+ ],
+ "overnight": [
+  {
+   "title": "🔴 AI交易二次退潮：纳指-1.48%、费半-8.43%",
+   "detail": "11/24 英伟达回吐5.86%（盘中最多-8.8%），美光-11%、AVGO盘中-11.9%，费城半导体指数单日-8.43%，周一的+14%完全抹去。彭博/FT：市场对AI资本开支持续性再度存疑，资金转向医药等防御板块。"
+  },
+  {
+   "title": "🔴 亚太接力下挫：日经-3.10%、KOSPI-5.75%",
+   "detail": "11/25 开盘日经225报57,192.59（-3.10%），韩国KOSPI报4,776.11（-5.75%），CNBC报道软银重挫逾11%，华尔街AI抛售外溢至亚洲科技股。"
+  },
+  {
+   "title": "🟡 Anthropic 收于发行价下方",
+   "detail": "Anthropic 11/19 以111.50美元开盘，11/24 收于83美元发行价之下，期权多空分歧放大；Nscale 表示保留私有化选项，350亿美元IPO受威胁。"
+  },
+  {
+   "title": "🟡 金银大幅回吐，金-3.88%/银-8.24%",
+   "detail": "彭博：美国关税计划强化市场对加息路径的押注，金价跌至$3,542.3，白银重挫至$40.67。"
+  },
+  {
+   "title": "🟡 澳洲通胀加速，即使RBA已加息",
+   "detail": "彭博：澳大利亚CPI意外加速，为亚太利率路径增添不确定性。"
+  },
+  {
+   "title": "🟢 戴尔AI服务器销售翻倍以上",
+   "detail": "MarketWatch：戴尔财报显示AI业务推动营收同比增长逾一倍，盘后股价上涨。"
+  }
+ ],
+ "news": [
+  {
+   "source": "CNBC",
+   "title": "Stock futures slip as traders await key inflation report, assess tech sell-off",
+   "time": "Wed, 25 Nov 2026 00:41 UTC",
+   "summary": "期指走弱，市场等待关键通胀数据并消化科技股抛售。"
+  },
+  {
+   "source": "CNBC",
+   "title": "SoftBank drops over 11% as Wall Street AI sell-off ripples across Asian tech names",
+   "time": "Wed, 25 Nov 2026 01:04 UTC",
+   "summary": "软银重挫逾11%，华尔街AI抛售外溢至亚洲科技股。"
+  },
+  {
+   "source": "FT",
+   "title": "Anthropic closes below IPO price as tech rally fades",
+   "time": "Tue, 24 Nov 2026 21:11 UTC",
+   "summary": "Anthropic收于发行价下方，科技反弹动能消退。"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Asian Stocks Fall as AI Trade Doubts Resurface: Markets Wrap",
+   "time": "Tue, 24 Nov 2026 22:09 UTC",
+   "summary": "亚洲股市下挫，AI交易疑虑重燃。"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Gold Holds Decline as US Tariff Plans Reinforce Rate-Hike Bets",
+   "time": "Tue, 24 Nov 2026 23:51 UTC",
+   "summary": "关税计划强化加息押注，金价维持跌势。"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Australian Inflation Accelerates, Even After RBA Rate Hikes",
+   "time": "Wed, 25 Nov 2026 00:32 UTC",
+   "summary": "澳洲通胀在加息后仍加速。"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Dell's stock rises as the AI boom helps sales more than double",
+   "time": "Wed, 25 Nov 2026 01:11 UTC",
+   "summary": "戴尔AI业务推动销售增长逾一倍。"
+  },
+  {
+   "source": "SCMP",
+   "title": "Nvidia's Jensen Huang says he is in therapy, as comeback rally fades",
+   "time": "Tue, 24 Nov 2026 22:03 UTC",
+   "summary": "黄仁勋称正在接受心理治疗；复职行情消退。"
+  }
+ ],
+ "sources": [
+  {
+   "name": "CNBC",
+   "type": "RSS",
+   "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+  },
+  {
+   "name": "Bloomberg Markets",
+   "type": "RSS",
+   "url": "https://feeds.bloomberg.com/markets/news.rss"
+  },
+  {
+   "name": "FT Markets",
+   "type": "RSS",
+   "url": "https://www.ft.com/markets?format=rss"
+  },
+  {
+   "name": "MarketWatch",
+   "type": "RSS",
+   "url": "https://feeds.marketwatch.com/marketwatch/topstories/"
+  },
+  {
+   "name": "SCMP Business",
+   "type": "RSS",
+   "url": "https://www.scmp.com/rss/5/feed"
+  },
+  {
+   "name": "Yahoo Finance",
+   "type": "API",
+   "url": "https://query2.finance.yahoo.com/v8/finance/chart/"
+  },
+  {
+   "name": "CoinGecko",
+   "type": "API",
+   "url": "https://api.coingecko.com/api/v3/simple/price"
+  }
+ ],
+ "notes": "美股指数/个股为 Yahoo Finance 11/24 收盘价；期指(ES/NQ/YM)为11/25亚洲时段实时；日经/KOSPI 为 11/25 开盘（Yahoo实时）；恒指为 11/24 收盘（11/25 港股尚未开盘）。商品、美元指数、10年美债为 Yahoo Finance 最新报价；加密货币为 CoinGecko 实时。⚠️ Yahoo Finance RSS 返回0条，以 CNBC/Bloomberg/FT/MarketWatch/SCMP 为主；A股 11/25 尚未开盘，早盘数据未采集。",
+ "futures": [
+  {
+   "name": "标普500期货 (ES)",
+   "symbol": "ES=F",
+   "price": 7189.5,
+   "change_pct": -0.11,
+   "note": "11/25亚洲时段，较11/24收盘7,197.25微跌"
+  },
+  {
+   "name": "纳指100期货 (NQ)",
+   "symbol": "NQ=F",
+   "price": 26131.0,
+   "change_pct": -1.76,
+   "note": "科技股续弱，NQ相对承压"
+  },
+  {
+   "name": "道指期货 (YM)",
+   "symbol": "YM=F",
+   "price": 49931.0,
+   "change_pct": 1.53,
+   "note": "较前结算反弹，资金向价值/防御轮动"
+  }
+ ]
+}

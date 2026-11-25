@@ -1,0 +1,414 @@
+{
+  "source": "OKX 公共行情 + alternative.me (scripts/build_helloquant_live.py)",
+  "updated": "2026-11-24 07:14 UTC",
+  "updated_at": "2026-11-24T07:14:49Z",
+  "status": "success",
+  "last_run": {
+    "date": "2026-11-24",
+    "timestamp": "2026-11-24T07:14:49",
+    "success": true,
+    "note": "本脚本直连 OKX 采集 (BTC/ETH 现价 + 1H/4H/1D 指标 + 8 策略信号); ~/trading/helloquant 原始管线自 2026-11-19 后未更新。A股波动率切片仍为 2026-11-18 QVIX 快照; 新闻/论文沿用上次采集。"
+  },
+  "crypto": {
+    "status": "success",
+    "btc": {
+      "price": 60410.5,
+      "open24h": 61533.9,
+      "high_24h": 64600.0,
+      "low_24h": 59455.0,
+      "change_24h": -1.83,
+      "volume_24h": 900127161.51,
+      "rsi_1h": 26.71,
+      "rsi_4h": 51.21,
+      "macd_1h": "死叉",
+      "macd_4h": "金叉",
+      "trend_1h": "偏空",
+      "trend_4h": "偏空"
+    },
+    "eth": {
+      "price": 1698.51,
+      "open24h": 1727.22,
+      "high_24h": 1845.28,
+      "low_24h": 1669.39,
+      "change_24h": -1.66,
+      "volume_24h": 451214099.33,
+      "rsi_1h": 24.49,
+      "rsi_4h": 52.67,
+      "macd_1h": "死叉",
+      "macd_4h": "金叉",
+      "trend_1h": "偏空",
+      "trend_4h": "偏空"
+    },
+    "eth_signals": {
+      "1h": {
+        "DoubleMa": "做空",
+        "TripleMa": "观望",
+        "Supertrend": "做空",
+        "RSI": "做多",
+        "MACD": "做空",
+        "Bollinger": "观望",
+        "Momentum": "做空",
+        "MeanReversion": "观望"
+      },
+      "4h": {
+        "DoubleMa": "做多",
+        "TripleMa": "观望",
+        "Supertrend": "做空",
+        "RSI": "观望",
+        "MACD": "做多",
+        "Bollinger": "观望",
+        "Momentum": "做空",
+        "MeanReversion": "观望"
+      },
+      "1d": {
+        "DoubleMa": "做空",
+        "TripleMa": "做空",
+        "Supertrend": "做空",
+        "RSI": "做多",
+        "MACD": "做空",
+        "Bollinger": "观望",
+        "Momentum": "做空",
+        "MeanReversion": "观望"
+      }
+    },
+    "eth_indicators": {
+      "1h": {
+        "ma5": 1700.27,
+        "ma10": 1702.65,
+        "ma20": 1727.31,
+        "ma60": 1712.3,
+        "atr10": 16.1,
+        "supertrend": "空头",
+        "st_upper": 1750.94,
+        "st_lower": 1654.36,
+        "trend": "偏空",
+        "rsi14": 24.49,
+        "macd": -7.83,
+        "macd_signal": -3.88,
+        "macd_status": "死叉",
+        "bb_lower": 1662.88,
+        "bb_mid": 1727.31,
+        "bb_upper": 1791.74,
+        "bb_pctb": 27.65,
+        "mom10_pct": -1.49,
+        "z40": -1.11
+      },
+      "4h": {
+        "ma5": 1722.28,
+        "ma10": 1723.16,
+        "ma20": 1695.01,
+        "ma60": 1758.94,
+        "atr10": 42.29,
+        "supertrend": "空头",
+        "st_upper": 1850.03,
+        "st_lower": 1596.29,
+        "trend": "偏空",
+        "rsi14": 52.67,
+        "macd": -5.74,
+        "macd_signal": -10.33,
+        "macd_status": "金叉",
+        "bb_lower": 1610.06,
+        "bb_mid": 1695.01,
+        "bb_upper": 1779.95,
+        "bb_pctb": 52.06,
+        "mom10_pct": -1.16,
+        "z40": -0.47
+      },
+      "1d": {
+        "ma5": 1706.15,
+        "ma10": 1749.75,
+        "ma20": 1924.64,
+        "ma60": 2294.71,
+        "atr10": 114.97,
+        "supertrend": "空头",
+        "st_upper": 2094.67,
+        "st_lower": 1404.83,
+        "trend": "偏空",
+        "rsi14": 27.09,
+        "macd": -159.59,
+        "macd_signal": -154.32,
+        "macd_status": "死叉",
+        "bb_lower": 1516.98,
+        "bb_mid": 1924.64,
+        "bb_upper": 2332.3,
+        "bb_pctb": 22.24,
+        "mom10_pct": -7.76,
+        "z40": -1.67
+      }
+    },
+    "note": "OKX 正常; BTC 60,410.50 (-1.83%) / ETH 1,698.51 (-1.66%) 24h"
+  },
+  "sentiment": {
+    "crypto_fear_greed": {
+      "value": 11,
+      "classification": "Extreme Fear",
+      "yesterday_value": 11
+    }
+  },
+  "stocks": {
+    "status": "success",
+    "note": "2026-11-18 QVIX",
+    "data": {
+      "50ETF波动率": {
+        "value": 14.8,
+        "date": "2026-11-18"
+      }
+    }
+  },
+  "signals": {
+    "1h": {
+      "DoubleMa": "做空",
+      "TripleMa": "观望",
+      "Supertrend": "做空",
+      "RSI": "做多",
+      "MACD": "做空",
+      "Bollinger": "观望",
+      "Momentum": "做空",
+      "MeanReversion": "观望"
+    },
+    "4h": {
+      "DoubleMa": "做多",
+      "TripleMa": "观望",
+      "Supertrend": "做空",
+      "RSI": "观望",
+      "MACD": "做多",
+      "Bollinger": "观望",
+      "Momentum": "观望",
+      "MeanReversion": "观望"
+    },
+    "1d": {
+      "DoubleMa": "做空",
+      "TripleMa": "做空",
+      "Supertrend": "做空",
+      "RSI": "做多",
+      "MACD": "做空",
+      "Bollinger": "观望",
+      "Momentum": "做空",
+      "MeanReversion": "观望"
+    }
+  },
+  "indicators": {
+    "1h": {
+      "ma5": 60445.28,
+      "ma10": 60726.07,
+      "ma20": 61369.78,
+      "ma60": 60906.47,
+      "atr10": 505.71,
+      "supertrend": "空头",
+      "st_upper": 62243.2,
+      "st_lower": 59208.94,
+      "trend": "偏空",
+      "rsi14": 26.71,
+      "macd": -248.6,
+      "macd_signal": -103.02,
+      "macd_status": "死叉",
+      "bb_lower": 59477.25,
+      "bb_mid": 61369.78,
+      "bb_upper": 63262.31,
+      "bb_pctb": 24.66,
+      "mom10_pct": -1.51,
+      "z40": -1.22
+    },
+    "4h": {
+      "ma5": 61235.9,
+      "ma10": 61236.43,
+      "ma20": 60315.24,
+      "ma60": 62644.89,
+      "atr10": 1380.93,
+      "supertrend": "空头",
+      "st_upper": 65379.22,
+      "st_lower": 57093.64,
+      "trend": "偏空",
+      "rsi14": 51.21,
+      "macd": -223.19,
+      "macd_signal": -388.23,
+      "macd_status": "金叉",
+      "bb_lower": 57524.08,
+      "bb_mid": 60315.24,
+      "bb_upper": 63106.39,
+      "bb_pctb": 51.71,
+      "mom10_pct": -0.79,
+      "z40": -0.54
+    },
+    "1d": {
+      "ma5": 60721.06,
+      "ma10": 62315.57,
+      "ma20": 67799.21,
+      "ma60": 77317.9,
+      "atr10": 3295.09,
+      "supertrend": "空头",
+      "st_upper": 72200.84,
+      "st_lower": 52430.3,
+      "trend": "偏空",
+      "rsi14": 19.87,
+      "macd": -4707.05,
+      "macd_signal": -4346.61,
+      "macd_status": "死叉",
+      "bb_lower": 55564.0,
+      "bb_mid": 67799.21,
+      "bb_upper": 80034.43,
+      "bb_pctb": 19.8,
+      "mom10_pct": -8.11,
+      "z40": -1.76
+    }
+  },
+  "strategies": [
+    {
+      "name": "DoubleMa",
+      "signal_1h": "做空",
+      "signal_4h": "做多",
+      "signal_1d": "做空",
+      "daily_return": null,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "TripleMa",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "signal_1d": "做空",
+      "daily_return": null,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Supertrend",
+      "signal_1h": "做空",
+      "signal_4h": "做空",
+      "signal_1d": "做空",
+      "daily_return": null,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "RSI",
+      "signal_1h": "做多",
+      "signal_4h": "观望",
+      "signal_1d": "做多",
+      "daily_return": null,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "MACD",
+      "signal_1h": "做空",
+      "signal_4h": "做多",
+      "signal_1d": "做空",
+      "daily_return": null,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Bollinger",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "signal_1d": "观望",
+      "daily_return": null,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "Momentum",
+      "signal_1h": "做空",
+      "signal_4h": "观望",
+      "signal_1d": "做空",
+      "daily_return": null,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    },
+    {
+      "name": "MeanReversion",
+      "signal_1h": "观望",
+      "signal_4h": "观望",
+      "signal_1d": "观望",
+      "daily_return": null,
+      "weekly_return": null,
+      "max_drawdown": null,
+      "sharpe": null
+    }
+  ],
+  "news": [
+    {
+      "source": "Cointelegraph",
+      "title": "Anthropic’s $81B IPO draws half the net retail buying of SpaceX’s",
+      "link": "https://cointelegraph.com/markets/anthropic-ipo-spacex-retail-buying-first-day-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 20 Nov 2026 06:24:41 +0000"
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 20 Nov 2026 06:00:00 +0000"
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak",
+      "link": "https://cointelegraph.com/markets/institutional-bitcoin-etf-holdings-clock-record-quarter-after-selling-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 20 Nov 2026 03:33:22 +0000"
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Ledger CTO Charles Guillemet to leave after nine years at company",
+      "link": "https://cointelegraph.com/news/ledger-cto-charles-guillemet-to-leave-after-nine-years-at-company?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 19 Nov 2026 23:44:02 +0000"
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Binance’s $6.5B freeze order, Hong Kong ‘suspicious’ of HYPE: Asia Express",
+      "link": "https://cointelegraph.com/magazine/binances-65b-freeze-order-hong-kong-suspicious-of-hype-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 19 Nov 2026 22:25:18 +0000"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Path-Independent Deleveraging Rules",
+      "authors": [
+        "Christoph Schlegel",
+        "Akaki Mamageishvili"
+      ]
+    },
+    {
+      "title": "Optimal Control in Pairs Trading with Negative-Power Utility",
+      "authors": [
+        "Aleksei Kozhevnikov"
+      ]
+    },
+    {
+      "title": "Bond yield dynamics: a multi-country multi-horizon string model",
+      "authors": [
+        "Paul Ruelloux"
+      ]
+    },
+    {
+      "title": "A Three-Factor Hull-White Scenario Generator for Macro-Financial Stress Forecasting",
+      "authors": [
+        "Ahmad Qadi",
+        "Thomas Schröder",
+        "Francesca Medda"
+      ]
+    },
+    {
+      "title": "Equity and Aggregate Ambiguity",
+      "authors": [
+        "Jose Blanchet",
+        "Yang Liu",
+        "Tiantian Mao"
+      ]
+    },
+    {
+      "title": "Stablecoin Runs as Safe-Asset Stress Signals: Episode-Level Evidence for Central Bank Surveillance",
+      "authors": [
+        "Ahmad Qadi",
+        "Hui Gong",
+        "Francesca Medda"
+      ]
+    }
+  ]
+}

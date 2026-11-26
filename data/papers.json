@@ -1,28 +1,160 @@
 {
- "updated": "2026-11-24T16:02:01",
- "date": "2026-11-24",
- "total_papers": 328,
- "new_papers": 26,
+ "updated": "2026-11-25T16:00:00",
+ "date": "2026-11-25",
+ "total_papers": 341,
+ "new_papers": 13,
  "papers": [
   {
-   "id": "2611.30064",
-   "title": "How Latent Transition Geometry Matters for Planning in World Models",
+   "id": "2611.32483",
+   "title": "CodeWAM: A Code World Action Model for End-to-End Autonomous Driving",
    "authors": [
-    "Xuanya Zhu",
-    "Da Li",
-    "Xiatian Zhu"
+    "Zhisheng Chen",
+    "Jinpeng Wang",
+    "Beicheng Lou",
+    "Zhengwei Xie",
+    "Hao Wu",
+    "Rui Qian"
+   ],
+   "published": "24 Nov 2026 (Tue)",
+   "summary": "Driving world models anticipate action consequences through representations of how the world evolves. For autonomous driving, these representations must capture both the surrounding scene and the ego vehicle's motion under a candidate plan. We propose CodeWAM, a driving world model that incorporates executable code as part of its world representation. Code represents ego dynamics by expressing how the vehicle state evolves under plan execution, while a learned visual model captures scene-dependent consequences. Executing the code produces a candidate-conditioned motion sequence, which is evaluated relative to the prior plan and recorded motion history. The resulting execution consequences and learned scene outcomes jointly represent the candidate's future, enabling the planner to assess both what a plan may lead to and how the vehicle transitions into that future. The selected plan becomes part of the next decision's execution context, linking successive choices within the model. CodeWAM achieves 93.6 PDMS on NAVSIM v1 navtest, 92.1 EPDMS on v2 navtest, and 50.6 EPDMS on NAVHARD. Further experiments demonstrate improved pairwise execution consistency and gains on Hydra-MDP and DrivoR without additional training, supporting executable code as a complementary representation for driving world models.",
+   "categories": [
+    "cs.RO",
+    "cs.AI"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "CodeWAM 用可执行代码表达 ego 动力学 + 视觉世界模型表达场景演化，代码世界-动作模型直接嵌入 E2E 驾驶闭环，世界模型与规划接口的新范式",
+   "status": "新发现",
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.32483"
+  },
+  {
+   "id": "2611.32216",
+   "title": "NativeDrive: Native Multimodal Foundations for Autonomous Driving",
+   "authors": [
+    "Zehua Fan",
+    "Qi Jiang",
+    "Wei Li",
+    "Kai Tang",
+    "Yue Jiang",
+    "Yujian Li"
+   ],
+   "published": "24 Nov 2026 (Tue)",
+   "summary": "Autonomous driving requires semantic understanding and fine-grained scene perception for precise action prediction. Vision-language-action models (VLAs) inherit semantic priors, but low-dimensional action labels provide limited structural supervision. Some studies extend VLAs with visual generation tasks or adopt video-based world-action models (WAMs), but both approaches introduce appearance-reconstruction overhead, which is less relevant to planning. Native multimodal models offer an alternative to unify understanding and generation within one backbone. On this basis, we propose NativeDrive, a native encoder-free multimodal driving framework adapting the unified backbone for policy learning and introduce a dense supervision task tailored to driving. The Native Action Interface reuses the understanding expert's token-prediction interface for the discrete policy and adapts the generation expert for continuous policy. Driving Semantic Editing reuses the generation expert's editing capability for dense scene-structure supervision during training, while inference runs only the selected planning policy. NativeDrive achieves competitive planning performance among unified understanding-and-generation models on NAVSIM v1 and v2, with ablations validating its components' effectiveness. Code will be released.",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "NativeDrive：native 多模态统一主干直接做驾驶策略，避开 VLA 的 appearance 重建开销与 WAM 的视频生成负担，端到端+多模态基础模型前沿方向",
+   "status": "新发现",
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.32216"
+  },
+  {
+   "id": "2611.32510",
+   "title": "GeoVLDrive: Geometry-Grounded Vision-Language Reasoning for Autonomous Driving",
+   "authors": [
+    "JiaHui Huang",
+    "Songyan Zhang",
+    "Hanbing Li",
+    "Hanchao Leng",
+    "Kuiyuan Yang",
+    "Guang Chen"
+   ],
+   "published": "24 Nov 2026 (Tue)",
+   "summary": "Vision-language-action (VLA) planners inherit semantic knowledge from pretrained vision-language models, but their reasoning is rarely grounded in 3D scene structure and its evolution over time. We introduce GeoVLDrive, a geometry-grounded VLA framework for 3D spatiotemporal reasoning and planning. Multi-layer features from a 3D foundation model augment the vision-language backbone through gated cross-attention. A structured latent chain of thought (CoT) organizes future scene geometry, key-agent motion, and meta-actions into ordered, separately supervised latent states. An action expert generates trajectory proposals from these states and multi-layer scene features, and ranks them using scene-grounded, interacting score tokens. We also introduce NAVSIM 3DQA to train and evaluate metric 3D spatial and motion understanding. GeoVLDrive achieves 91.8 PDMS on NAVSIM v1 and 90.9 EPDMS on NAVSIM v2. On NAVSIM 3DQA, the geometry-grounded backbone scores 89.2% overall, 4.6 percentage points above the fine-tuned Qwen3-VL-2B baseline. On LingoQA, the backbone achieves 68.6% Lingo-Judge accuracy.",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "GeoVLDrive：以 3D 基础模型几何特征门控注入 VLM，并用结构化隐式 CoT（几何/关键车运动/meta-action）监督，直击 VLA 规划缺乏 3D 落地的问题",
+   "status": "新发现",
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.32510"
+  },
+  {
+   "id": "2611.30573",
+   "title": "Write, Evolve, Read: Streaming Cameras into a Persistent World State for 4D Occupancy Forecasting",
+   "authors": [
+    "ZiAn Wang",
+    "Tianyi Wang",
+    "Zhihao Chen",
+    "Manni Cui",
+    "Junkai Chen",
+    "ZhiJin Chen"
    ],
    "published": "23 Nov 2026 (Mon)",
-   "summary": "World models support planning by predicting how the environment evolves under candidate actions. However, one-step predictive accuracy alone does not characterize multi-step planning utility, which depends on distinguishing candidate futures. This raises a natural question: How does latent transition geometry shape planning? We investigate this through an action-conditioned transition-field view, using curvature regularization as a controlled intervention. Across four continuous-control tasks, appropriately tuned regularization improves planning, while excessive regularization can be detrimental. By decomposing the transition field into affine and non-affine components, we find that regularization reduces action sensitivity mainly through the non-affine component. To assess its role in planning, we directly manipulate the non-affine action response in frozen models and show that it affects candidate selection and closed-loop success. Further analysis shows that curvature generally brings predicted futures closer together, while preserving more of the differences along the goal direction. This helps explain why the planning effects vary across tasks. We observe broadly consistent planning trends across five sampling- and gradient-based solvers on LeWM and similar rollout-geometry trends on DINO-WM. Qualitative attention visualizations reveal accompanying shifts toward task-relevant visual structure. Together, these findings clarify how latent transition geometry influences multi-step planning.",
+   "summary": "4D occupancy forecasting predicts the 3D semantic occupancy of a driving scene seconds ahead. Over a few seconds, the scene changes little while the vehicle moves, so most of the space ahead has already been seen. Sorting the future into unchanged, changed, and unseen space, we find that current camera-based world models fall short on the unchanged part: they fail to hold on to what they have already seen, rather than to forecast what will change. We therefore make what the model has seen its state. PersistWorld streams camera frames into a persistent 3D world state anchored in the scene, writing each frame once instead of rebuilding the state from past frames. The state is learned end to end with the forecast, and an evolver predicts it at any queried time along the ego trajectory. On Occ3D-nuScenes, PersistWorld raises the IoU of the best camera-based world model by 19 points at 1-3 s and by 18 to 24 points up to 8 s, while running more than twice as fast. Code and models: https://github.com/wangzian828/PersistWorld. Project page: https://wangzian828.github.io/PersistWorld",
    "categories": [
-    "cs.LG",
-    "cs.RO"
+    "cs.CV"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "PersistWorld：把流式相机帧写入持久 3D 世界状态做 4D 占据预测，明确指出当前世界模型在『未变化空间』上的系统性失效，问题定位非常准",
+   "status": "新发现",
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.30573"
+  },
+  {
+   "id": "2611.32029",
+   "title": "Do Occupancy World Models Really Follow Actions?",
+   "authors": [
+    "Jongseong Bae",
+    "Ha Young Kim"
+   ],
+   "published": "24 Nov 2026 (Tue)",
+   "summary": "Occupancy world models predict future 3D scenes conditioned on ego actions, yet their predictions may not faithfully follow the specified trajectory under counterfactual actions. Because driving datasets provide sparse coverage of alternative trajectories for each scene, existing models learn the spatial effect of ego motion implicitly from observed scene--trajectory combinations, which may entangle action effects with scene--trajectory correlations. We propose ReCast, an ego-trajectory-guided transformer that grounds future prediction in action-induced geometric correspondence across ego-centric frames. ReCast decouples historical encoding from future decoding and aligns deformable interactions using relative ego transformations, while retaining flexibility for non-rigid scene evolution. We also introduce a counterfactual action-faithfulness benchmark covering in-distribution, tail, and out-of-distribution trajectories. On Occ3D-nuScenes, ReCast achieves competitive standard forecasting performance while improving counterfactual forecasting, with particularly clear gains under out-of-distribution trajectories.",
+   "categories": [
+    "cs.CV",
+    "cs.AI"
+   ],
+   "relevance_score": 5,
+   "relevance_reason": "ReCast：反事实动作下占据世界模型是否真跟随动作——揭示动作效应与场景轨迹相关性解耦问题，对世界模型用于规划的可信度是关键批判",
+   "status": "新发现",
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.32029"
+  },
+  {
+   "id": "2611.32745",
+   "title": "MemAnchorWorld: A Sparse World Model with Horizon-Conditioned Memory Retrieval for Autonomous Driving",
+   "authors": [
+    "Xinyang Jia",
+    "Yuqi Zhang",
+    "Jiakai Wang",
+    "Yahu Yang",
+    "Guandong Pan",
+    "Chao Tong"
+   ],
+   "published": "24 Nov 2026 (Tue)",
+   "summary": "Sparse world models for 4D semantic occupancy forecasting represent scenes with a small set of evolving queries to efficiently predict future geometry and semantics for autonomous driving. However, existing sparse world models face a bottleneck in using historical temporal evidence for long-horizon forecasting. They rely on scene states to carry historical information implicitly, allowing errors to propagate and accumulate across successive forecasting steps and causing geometric and semantic deviations. To address this limitation, we present MemAnchorWorld, a sparse occupancy world model that explicitly retrieves relevant historical geometric and semantic evidence for 4D semantic occupancy forecasting. Inspired by the von Restorff effect, we introduce a forecast-time-conditioned hierarchical dual-path memory-anchor retrieval mechanism. Guided by the effective age and semantic compatibility of historical information, it combines query-level candidate selection with point-level memory-anchor retrieval to provide historical evidence for sparse points at different forecast times. To better use memory anchors and existing features, a point-level residual adapter jointly gated by the task and forecast time separately controls residual corrections to semantics, occupancy confidence, and spatial positions. On Occ3D-nuScenes, MemAnchorWorld achieves an average mIoU of 13.55% and an average IoU of 22.84% across the 1-3 s forecasting horizons, attaining state-of-the-art performance on both metrics.Project page: https://memanchorworld.github.io/",
+   "categories": [
+    "cs.CV"
    ],
    "relevance_score": 4,
-   "relevance_reason": "潜在转移几何对世界模型规划的影响分析",
+   "relevance_reason": "MemAnchorWorld：稀疏世界模型 + horizon 条件历史记忆检索，解决 4D 语义占据长时域误差累积",
    "status": "新发现",
-   "date": "2026-11-23",
-   "arxiv_url": "https://arxiv.org/abs/2611.30064"
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.32745"
+  },
+  {
+   "id": "2611.29125",
+   "title": "SilentWAM: Planning in the Masked State of a Diffusion World Model",
+   "authors": [
+    "Ziyu Zhao",
+    "Casey Sun",
+    "Zeyu Wang",
+    "Shicong Ma",
+    "Emily T Zhang",
+    "Cheng Lu"
+   ],
+   "published": "22 Nov 2026 (Sun)",
+   "summary": "World-action models learn from future prediction, but accessing their future representations directly at test time can require costly frame generation. Methods that generate future frames before planning incur additional forward passes, while future co-training methods omit explicit future predictions at inference. We introduce \\method, a planner that reads the hidden states of masked future tokens without decoding future frames. We pretrain MMaDA-Parallel-M on driving video using frame-level masked world modeling, which predicts a masked suffix of future frames and explicitly includes inputs with all future frames masked. Learned planning queries attend to these masked positions and the observed context, and a continuous head predicts the trajectory in the same forward pass. With a single front camera, \\method reaches 92.0 PDMS on NAVSIM v1 and 89.3 EPDMS on NAVSIM v2, with an end-to-end latency of 60.3\\,ms.",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 4,
+   "relevance_reason": "SilentWAM：不解码未来帧，直接在掩码未来 token 的隐状态上做规划，显著降低 world-action model 推理成本",
+   "status": "新发现",
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.29125"
   },
   {
    "id": "2611.30022",
@@ -42,10 +174,270 @@
     "cs.RO"
    ],
    "relevance_score": 4,
-   "relevance_reason": "MOVER 超越运动的规划",
+   "relevance_reason": "MOVER：指出残差世界模型会让『弱时间变化』证据（等待的行人/停驻车辆）消失，提出事件路由机制，规划安全性视角新颖",
+   "status": "已收录",
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.30022"
+  },
+  {
+   "id": "2611.32473",
+   "title": "OmniPersist: Persistent Dynamic World Modeling via Coupled Panoramic Evolution",
+   "authors": [
+    "Zhilu Zhang",
+    "Xiaoyu Liu",
+    "Wenxi Liu",
+    "Shengfeng He"
+   ],
+   "published": "24 Nov 2026 (Tue)",
+   "summary": "Action-conditioned world models play a vital role in robotics and autonomous driving, yet existing video diffusion models struggle to maintain dynamic object persistence. When the camera turns away and returns, out-of-view moving entities fail to evolve plausibly in latent space, often mutating or vanishing entirely due to bounded perspective views. To resolve this issue, we propose OmniPersist, a unified framework that couples perspective video generation with panoramic evolution within a single-stage diffusion model, without relying on auxiliary models or initial panoramic inputs. To maintain efficiency, we model the panoramic stream at a lower frame rate, bridging both views across space and time via Geometric Anchoring (GeoAnch) for spatial correspondence and Temporal Compensation (TemComp) for temporal aggregation. OmniPersist is agnostic to camera-control architectures, supporting both latent-level and attention-level conditioning. Extensive experiments on a newly constructed dynamic benchmark across image-to-video and video continuation tasks demonstrate consistent gains in visual quality, camera controllability, revisit consistency, and dynamic persistence.",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 4,
+   "relevance_reason": "OmniPersist：单阶段扩散内耦合透视视频与全景演化，解决相机转回后出视野动态实体消失/变异的问题",
+   "status": "新发现",
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.32473"
+  },
+  {
+   "id": "2611.31240",
+   "title": "Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action",
+   "authors": [
+    "Seongchan Kim",
+    "Soowon Son",
+    "Sangoh Kim",
+    "Hyunah Ko",
+    "Eunbeen Hong",
+    "Hyunkoo Lee"
+   ],
+   "published": "23 Nov 2026 (Mon)",
+   "summary": "Reasoning vision-language-action (VLA) models for autonomous driving use chain-of-thought (CoT) reasoning to guide action generation, but incur substantial memory and computational costs. We study structured pruning for these models, focusing on preserving both scene understanding and trajectory prediction. Our analysis of Taylor importance in Alpamayo-1.5-10B shows that reasoning and trajectory objectives assign different importance to the same vision-language model (VLM) structures. In the action expert, MLP channels exhibit more stable importance rankings across denoising steps than query heads, and a small fraction of channels accounts for most of the measured importance. Based on these findings, we propose MoOP, which combines importance ranks from both objectives for VLM pruning and aggregates stepwise importance to select a fixed subset of expert MLP channels. At 24.0% total parameter reduction, VLM-only pruning with MoOP performs comparably to or slightly better than the strongest baselines in driving, while retaining 94.0% of the dense model's LingoQA score, far above all other methods. At a higher reduction of 30.0%, MoOP degrades much less than every other method, as it is the only one whose reasoning does not collapse. Removing 93.75% of expert MLP channels increases total parameter reduction to 39.4%, with nearly unchanged open-loop errors relative to VLM-only pruning and competitive closed-loop performance. The resulting model achieves a 1.37x end-to-end inference speedup and 36.6% lower peak memory than the dense model, without post-pruning fine-tuning.",
+   "categories": [
+    "cs.CV",
+    "cs.LG",
+    "cs.RO"
+   ],
+   "relevance_score": 3,
+   "relevance_reason": "结构化剪枝 driving VLA（Alpamayo-1.5-10B），分析推理与轨迹目标对 VLM 结构重要性的差异，部署工程价值高",
+   "status": "已收录",
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.31240"
+  },
+  {
+   "id": "2611.30389",
+   "title": "AgentMoT: An Agentic Mixture-of-Transformers for End-to-End Autonomous Driving",
+   "authors": [
+    "Qihang Huang",
+    "Collister Chua",
+    "YuJie Yan",
+    "Shiyu Fang",
+    "Zhan Chen",
+    "Haoran Xu"
+   ],
+   "published": "23 Nov 2026 (Mon)",
+   "summary": "Driving models need to choose which capabilities to use and when to reconsider their decisions. We introduce AgentMoT, a Mixture-of-Transformers with built-in agent reasoning and system scheduling. Combinations of agent, world, and action experts form three jointly trained pathways for direct-action, vision-language-action, and world-action computation. The Router selects a native pathway, while the agent expert supplies reasoning and selects skills. Execution feedback raises wake-up requests, and the agent self-scheduler learns whether to reconsider the task decision or keep it. Mandatory requests invoke the agent directly. The relative-capability principle guides these choices by relating the benefit of additional computation or intervention to its cost. After open-loop initialization, dual-loop evolution trains the Router, agent, and self-scheduler from closed-loop experience while failure-driven updates refine skills and execution feedback. AgentMoT achieves state-of-the-art results on Bench2Drive v0.0.3 and v0.0.4, with 94.48/92.33 driving score and 85.45/82.73% success rate, respectively. With skills disabled, learned routing improves over the strongest fixed pathway by 1.79 driving-score points and 4.09 percentage points of success rate on v0.0.3. Ablation studies further show gains from closed-loop agent learning, two-view queries, and event-triggered wake-up.",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance_score": 3,
+   "relevance_reason": "AgentMoT：Mixture-of-Transformers + agent 自调度，在 direct-action/VLA/world-action 三条通路间路由",
+   "status": "已收录",
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.30389"
+  },
+  {
+   "id": "2611.28509",
+   "title": "AlpaSafe: Risk-Aware Trajectory Selection for Vision-Language-Action Models in Autonomous Driving",
+   "authors": [
+    "Qiren Wang",
+    "Mingyu Guo",
+    "Weisong Shi"
+   ],
+   "published": "21 Nov 2026 (Sat)",
+   "summary": "Reasoning-based driving vision-language-action (VLA) models propose multiple candidate trajectories at each decision, yet only one is executed. Standard evaluation scores the best candidate, assuming an oracle selector that deployment lacks, and leaves the risk of the executed candidate unexamined. Existing online evaluators typically close this gap with a purpose-trained scene or world model, often rolling out each candidate through it at inference time. We introduce AlpaSafe, a risk-aware trajectory selector that reuses the scene representation a frozen driving VLA computes while proposing its candidates. AlpaSafe reads the last hidden token of the VLA's prompt prefill. A lightweight head, trained on the closed-loop simulation outcomes of the candidates, fuses this token with each candidate trajectory and predicts a relative score and collision/offroad logits. A fixed rule removes candidates dominated on the two risk logits and selects the highest-scoring candidate among those remaining, adding neither rollouts nor VLA training. Experiments on 525 AlpaSim scenes show that AlpaSafe outperforms Alpamayo's default first-sample rule and uniform random selection in selected regret and top-1 agreement, and reduces the collision-at-fault or offroad rate from 6.41% and 6.10% to 4.93%. The selector has 1.7M parameters and takes 0.75 ms per decision.",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "relevance_score": 3,
+   "relevance_reason": "AlpaSafe：复用冻结 VLA 自身表征做风险感知轨迹选择，解决『oracle 选轨迹』评估与部署的落差",
+   "status": "已收录",
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.28509"
+  },
+  {
+   "id": "2611.32228",
+   "title": "Disentangling Visual Dynamics for World Model Planning",
+   "authors": [
+    "Yuhong Shi",
+    "Yihan Guo",
+    "Jie Wei",
+    "Jianyi Liu",
+    "Jingwen Fu"
+   ],
+   "published": "24 Nov 2026 (Tue)",
+   "summary": "Visual world models enable planning through predictive latent states. However, entangled agent and exogenous dynamics can obscure task progress. Disentangling visual dynamics for planning requires addressing two challenges: 1) suppressing cross-factor interference while retaining useful information; and 2) linking factors to task-relevant signals, since stability alone does not ensure meaningful planning distances. Therefore, we introduce FactorWorld, a disentangled visual dynamics framework for world model planning. To separate agent and exogenous dynamics, we propose a Counterfactual Consensus Residual Factorizer (CCRF) guided by bidirectional counterfactual pairs. CCRF separates shared context from dynamic residuals, combining average and worst-partner constraints to suppress interference with state and motion supervision to retain useful information. To translate these factors into planning decisions, we introduce semantic routing to refine full-representation task predictions for state estimation, trajectory scoring, and task-adapted planning. Experiments on MiniGrid, MetaDrive, and CARLA show improved bidirectional factor stability across two backbones. On MiniGrid, factor routing raises mean SR from 78.80% to 82.40%. Across four continuous control tasks, including Push-T, FactorWorld achieves mean success rates ranging from 91.67% to 100% across tasks. These results demonstrate that combining decoupled visual dynamics with explicit tasks can significantly improve the planning capabilities of world models.",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance_score": 3,
+   "relevance_reason": "FactorWorld：反事实共识残差因子分解，解耦 agent 动态与外生动态以改善世界模型规划的抽象距离",
+   "status": "新发现",
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.32228"
+  },
+  {
+   "id": "2611.31910",
+   "title": "ReJEPA: Bounded Predictive Regulation for Latent World Models",
+   "authors": [
+    "Fangzhou Lin",
+    "Yuping Wang",
+    "Shuo Xing",
+    "Yang Chen",
+    "Yuwen Heng",
+    "Xin Li"
+   ],
+   "published": "24 Nov 2026 (Tue)",
+   "summary": "Latent world models learn representations by predicting future states in an abstract embedding space rather than reconstructing raw pixels. When training across multi-frame sequences, however, not all frames and spatial regions are equally informative or predictable. We argue that forcing a world model to minimize every prediction error may be unnecessary and harmful. Under standard $L_2$ loss, unbounded gradients force the encoder and predictor to overfit noisy or transient frames at the expense of core physical structure, while amplifying gradient conflict with representation regularizers. Conversely, $L_1$ loss bounds large gradients, but its constant gradient magnitude near zero disrupts the local smoothness required for planning. We resolve this tension with \\textbf{ReJEPA}, a bounded predictive regulation principle that combines bounded gradients for large errors with smooth quadratic behavior near zero, instantiated simply via the element-wise $\\log\\cosh$ loss. As a drop-in training replacement across Temporal Straightening, LeWorldModel, and V-JEPA~2.1, $\\log\\cosh$ consistently outperforms $L_2$, a curvature-matched quadratic control, $L_1$, and Smooth-$L_1$ baselines without altering architectures or inference procedures. Notably, the gains grow with environmental complexity, scaling from simple navigation to contact-rich manipulation and real-world autonomous driving on NAVSIM. Probing and geometric analyses confirm that relaxing the penalty on extreme errors yields representations that better capture physical states and align with the true planning cost landscape.",
+   "categories": [
+    "cs.LG"
+   ],
+   "relevance_score": 3,
+   "relevance_reason": "ReJEPA：指出对所有帧统一最小化预测误差有害，提出有界预测正则（L1/L2 之间的折中）",
+   "status": "新发现",
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.31910"
+  },
+  {
+   "id": "2611.30511",
+   "title": "AXE: AlpaSim E2E Closed Loop Challenge Technical Report",
+   "authors": [
+    "Joonhee Lim",
+    "Seonmyeong Lee",
+    "Sihwan Hwang",
+    "Hanbin Jang",
+    "Hiwon Shin",
+    "Dogun Kim"
+   ],
+   "published": "23 Nov 2026 (Mon)",
+   "summary": "This report presents a comprehensive pipeline for developing an end-to-end (E2E) autonomous driving model for the Physical AI AV Track. The framework consists of data curation, HD map auto-labelling, data-driven imitation learning, and simulator-based reinforcement learning. To ensure safety in the closed-loop setting, we introduce a selection-based E2E planning approach that leverages object detection and BEV segmentation to filter out trajectory candidates likely to cause collisions or off-road driving. Trained on NVIDIA NuRec and the NVIDIA PAI-AV dataset, our method scores a fixed vocabulary of trajectory candidates for collision, drivable-area compliance, and progress learned from simulated rollouts, and selects the best candidate that passes the filter. This design highlights the effectiveness of combining E2E planning with perception-based trajectory filtering for safe and reliable closed-loop autonomous driving.",
+   "categories": [
+    "cs.RO",
+    "cs.AI"
+   ],
+   "relevance_score": 3,
+   "relevance_reason": "AXE：AlpaSim E2E 闭环挑战技术报告，NuRec 数据 + 模仿学习 + 仿真 RL + 基于检测/BEV 的轨迹候选筛选",
+   "status": "新发现",
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.30511"
+  },
+  {
+   "id": "2611.29275",
+   "title": "DriveOddsBench: Are Driving Video World Models Aligned with Real-World Odds?",
+   "authors": [
+    "Jiaxi Liu",
+    "Keshu Wu",
+    "Bin Ran",
+    "Xiaopeng Li"
+   ],
+   "published": "22 Nov 2026 (Sun)",
+   "summary": "Video world models predict how a scene will evolve, and their sampled futures are increasingly used in place of the real one, from planning to simulation. These uses assume that the samples are aligned with real-world odds, with each future appearing among them as often as it would follow the same history in reality, yet current evaluations only score how real each sample looks. Testing this assumption on real driving data is hard for three reasons. Each recorded history has only one real future, so the true probabilities are unknown. Physical quantities must be read from video, where reading errors can look like model errors. Finally, the many possible analyses invite selective reporting. We introduce DriveOddsBench, a pre-registered benchmark that addresses all three. First, if the samples follow the real distribution, the rank of the real outcome among them is uniform in every history, so pooled ranks test them without probability labels. Second, one validated instrument reads the same quantities, such as the lead-vehicle gap and the ego motion, from the generated futures and from the real future, which first passes through the world model's autoencoder so that both are read alike. Third, all confirmatory analyses were frozen before any test clip was measured. We test eleven general and driving world models on 200 held-out Argoverse 2 histories in five scenario families, with 35,200 generated futures. None is aligned, and every model underestimates its uncertainty. The real outcome falls outside the range of all 16 samples in 28-61% of cases instead of the 11.8% expected under the real distribution. Five models are significantly skewed, in opposite directions, and the largest errors are in the ego motion. Nine models beat climatology without being aligned, and among these models neither type nor scale predicts which comes closest.",
+   "categories": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG"
+   ],
+   "relevance_score": 3,
+   "relevance_reason": "DriveOddsBench：检验驾驶视频世界模型采样是否与真实世界概率对齐，填补『真实性≠概率正确』的评测空白",
+   "status": "已收录",
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.29275"
+  },
+  {
+   "id": "2611.30023",
+   "title": "QSRadar: Query-Conditioned Sparse Radar-Camera Fusion for Efficient 3D Object Detection",
+   "authors": [
+    "Chenhao Yan",
+    "Hongyu Liu",
+    "Xiang Cai",
+    "Yifei Sun",
+    "Zhe Zhang"
+   ],
+   "published": "23 Nov 2026 (Mon)",
+   "summary": "Reliable 3D object detection for autonomous trucks requires both the semantic detail provided by cameras and the geometric and motion cues measured by 4D radar. Existing radar-camera detectors commonly construct global radar bird's-eye-view (BEV) representations, whose computational and memory costs grow with the perception range. Sparse query-based detectors offer greater efficiency, but global feature construction can obscure point-level radar geometry and motion information. We present QSRadar, a query-conditioned sparse radar fusion framework for efficient long-range 3D detection. Built on a Sparse4Dv3-style visual-temporal detector, QSRadar retrieves a compact set of raw radar points around each evolving object hypothesis. The selected points are represented in an anchor-aligned coordinate frame, augmented with motion residuals, radar cross section, and sweep timing, and aggregated by a query-conditioned set encoder. Radar neighborhoods are retrieved again after each anchor refinement, coupling evidence selection with object estimation. Under the official MAN TruckScenes validation protocol, QSRadar achieves 38.09 mAP and 52.20 NDS, compared with 37.08 mAP and 50.78 NDS for our reproduced Sparse4D-Radar global Radar-BEV baseline. In matched tests on an RTX 4090 D, QSRadar reduces latency by 45%, peak memory usage by 49%, and GFLOPs by 43%.",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 3,
+   "relevance_reason": "QSRadar：query 条件稀疏 4D 雷达-相机融合长距 3D 检测，面向自动驾驶卡车，避免全局 BEV 的开销",
+   "status": "新发现",
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.30023"
+  },
+  {
+   "id": "2611.27667",
+   "title": "GeoScaffold: From Latent to Realized Geometry in Collaborative Detection",
+   "authors": [
+    "Kang Yang",
+    "Yance Fang",
+    "Gaochen Cui",
+    "Xiaoqiang Jin",
+    "Deying Li",
+    "Yongcai Wang"
+   ],
+   "published": "20 Nov 2026 (Fri)",
+   "summary": "Most collaborative 3D detectors fuse bird's-eye-view (BEV) features from connected vehicles and roadside infrastructure to aggregate complementary observations. Although modern communication, alignment, and fusion pipelines encode rich latent geometry in the fused BEV features, the standard readout pipeline inherited from single-agent detectors, i.e., anchor scoring, box decoding, and non-maximum suppression (NMS), does not fully exploit these geometric cues. We empirically identify and quantify this gap on UrbanIng-V2X. Collaboration improves localization at about two-thirds of positive anchors, yet when NMS resolves two overlapping collaborative boxes of one object, it keeps the better-localized box less than half of the time. A key cause is a supervision mismatch: classification scores are trained only for foreground-background discrimination, so nothing in training requires them to rank boxes by localization quality. To address this limitation, we introduce GeoScaffold, a lightweight training-only auxiliary objective. It predicts a foreground mask at each positive anchor, i.e., the cells of a grid over the anchor that lie inside the ground-truth box, to supply the dense spatial supervision that the seven-dimensional box code leaves implicit. Its loss, added to the detection loss, updates the encoder and fusion modules through the fused BEV and trains the detector toward a better-localized box at every positive anchor, including the top-scored one. The auxiliary head is removed at inference, preserving the original detector architecture, communication logic, and inference cost. GeoScaffold raises AP@0.5 and AP@0.7 by 0.98 and 0.55 points on average across all 11 fusion methods on the UrbanIng-V2X validation split, with gains extending to most methods on an unseen intersection and to all ten methods that produce detections on V2V4Real.",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance_score": 3,
+   "relevance_reason": "GeoScaffold：指出协同 BEV 检测中 NMS 读出环节浪费已编码的几何线索，属 BEV 感知实用修正",
+   "status": "新发现",
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.27667"
+  },
+  {
+   "id": "2611.26242",
+   "title": "FastRoverVLA: Fast Vision-Language-Action Execution for Off-Road Autonomous Driving",
+   "authors": [
+    "Changtao Zhao",
+    "Yingxue Guan",
+    "Li Wang",
+    "Shijie Zhao",
+    "Yuhang Zhang",
+    "Shengkai Zhang"
+   ],
+   "published": "19 Nov 2026 (Thu)",
+   "summary": "Off-road vision-language-action (VLA) models generate scene-conditioned plans, but frequent trajectory updates can repeatedly invoke expensive multimodal inference. Reusing a prediction reduces this demand while leaving its commands exposed to changes in vehicle motion. FastRoverVLA addresses this mismatch by decoupling visual plan generation from motion-conditioned execution. Its training-free interface maintains decoded plans between visual predictions. A speed-curvature action buffer is aligned with measured motion at each update, integrated into a local trajectory, and advanced by consuming the current action. The corrected remainder is written back to the buffer, preserving motion corrections across successive updates. A bounded refresh rule normalizes speed and curvature variations within a newly decoded plan and assigns a short or long reuse budget according to the resulting plan-roughness score. The interface requires neither backbone features nor an additional learned driving policy. Over a 3 s horizon, independent real-request evaluation achieves average displacement error (ADE) and final displacement error (FDE) of 0.328/0.596 m on ORAD-3D and 0.266/0.526 m on RELLIS-3D, reducing FDE by 18.0% and 36.7% at request rates of 6.0% and 4.8%, respectively. These runs retain lower errors across four backbones and both datasets and reduce Qwen3-VL request-processing cost by factors of 16.6 and 20.8 under serial replay, while mechanism and motion-only controls identify persistent state correction as the main source of the observed accuracy benefit. The source code and evaluation materials are publicly available at https://github.com/ADEPT-ORG/FastRoverVLA.",
+   "categories": [
+    "cs.RO",
+    "cs.AI"
+   ],
+   "relevance_score": 3,
+   "relevance_reason": "FastRoverVLA：解耦视觉规划生成与运动条件执行，降低越野场景下频繁重规划的多模态推理开销",
+   "status": "已收录",
+   "date": "2026-11-25",
+   "arxiv_url": "https://arxiv.org/abs/2611.26242"
+  },
+  {
+   "id": "2611.30064",
+   "title": "How Latent Transition Geometry Matters for Planning in World Models",
+   "authors": [
+    "Xuanya Zhu",
+    "Da Li",
+    "Xiatian Zhu"
+   ],
+   "published": "23 Nov 2026 (Mon)",
+   "summary": "World models support planning by predicting how the environment evolves under candidate actions. However, one-step predictive accuracy alone does not characterize multi-step planning utility, which depends on distinguishing candidate futures. This raises a natural question: How does latent transition geometry shape planning? We investigate this through an action-conditioned transition-field view, using curvature regularization as a controlled intervention. Across four continuous-control tasks, appropriately tuned regularization improves planning, while excessive regularization can be detrimental. By decomposing the transition field into affine and non-affine components, we find that regularization reduces action sensitivity mainly through the non-affine component. To assess its role in planning, we directly manipulate the non-affine action response in frozen models and show that it affects candidate selection and closed-loop success. Further analysis shows that curvature generally brings predicted futures closer together, while preserving more of the differences along the goal direction. This helps explain why the planning effects vary across tasks. We observe broadly consistent planning trends across five sampling- and gradient-based solvers on LeWM and similar rollout-geometry trends on DINO-WM. Qualitative attention visualizations reveal accompanying shifts toward task-relevant visual structure. Together, these findings clarify how latent transition geometry influences multi-step planning.",
+   "categories": [
+    "cs.LG",
+    "cs.RO"
+   ],
+   "relevance_score": 4,
+   "relevance_reason": "潜在转移几何对世界模型规划的影响分析",
    "status": "新发现",
    "date": "2026-11-23",
-   "arxiv_url": "https://arxiv.org/abs/2611.30022"
+   "arxiv_url": "https://arxiv.org/abs/2611.30064"
   },
   {
    "id": "2611.29609",
@@ -179,30 +571,6 @@
    "arxiv_url": "https://arxiv.org/abs/2611.30283"
   },
   {
-   "id": "2611.30389",
-   "title": "AgentMoT: An Agentic Mixture-of-Transformers for End-to-End Autonomous Driving",
-   "authors": [
-    "Qihang Huang",
-    "Collister Chua",
-    "YuJie Yan",
-    "Shiyu Fang",
-    "Zhan Chen",
-    "Haoran Xu",
-    "Zirui Li",
-    "Chen Lv"
-   ],
-   "published": "23 Nov 2026 (Mon)",
-   "summary": "Driving models need to choose which capabilities to use and when to reconsider their decisions. We introduce AgentMoT, a Mixture-of-Transformers with built-in agent reasoning and system scheduling. Combinations of agent, world, and action experts form three jointly trained pathways for direct-action, vision-language-action, and world-action computation. The Router selects a native pathway, while the agent expert supplies reasoning and selects skills. Execution feedback raises wake-up requests, and the agent self-scheduler learns whether to reconsider the task decision or keep it. Mandatory requests invoke the agent directly. The relative-capability principle guides these choices by relating the benefit of additional computation or intervention to its cost. After open-loop initialization, dual-loop evolution trains the Router, agent, and self-scheduler from closed-loop experience while failure-driven updates refine skills and execution feedback. AgentMoT achieves state-of-the-art results on Bench2Drive v0.0.3 and v0.0.4, with 94.48/92.33 driving score and 85.45/82.73% success rate, respectively. With skills disabled, learned routing improves over the strongest fixed pathway by 1.79 driving-score points and 4.09 percentage points of success rate on v0.0.3. Ablation studies further show gains from closed-loop agent learning, two-view queries, and event-triggered wake-up.",
-   "categories": [
-    "cs.RO"
-   ],
-   "relevance_score": 5,
-   "relevance_reason": "Agentic Mixture-of-Transformers 端到端驾驶，智能体化 E2E 架构",
-   "status": "新发现",
-   "date": "2026-11-23",
-   "arxiv_url": "https://arxiv.org/abs/2611.30389"
-  },
-  {
    "id": "2611.30438",
    "title": "ROSE-Drive: Runtime Orchestration and System Evolution for Autonomous Driving",
    "authors": [
@@ -273,36 +641,6 @@
    "status": "新发现",
    "date": "2026-11-23",
    "arxiv_url": "https://arxiv.org/abs/2611.30918"
-  },
-  {
-   "id": "2611.31240",
-   "title": "Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action",
-   "authors": [
-    "Seongchan Kim",
-    "Soowon Son",
-    "Sangoh Kim",
-    "Hyunah Ko",
-    "Eunbeen Hong",
-    "Hyunkoo Lee",
-    "Sanghyun Lee",
-    "WonJun Moon",
-    "Kihong Kim",
-    "Dongyeon Son",
-    "Woongchan Nam",
-    "Seungryong Kim"
-   ],
-   "published": "23 Nov 2026 (Mon)",
-   "summary": "Reasoning vision-language-action (VLA) models for autonomous driving use chain-of-thought (CoT) reasoning to guide action generation, but incur substantial memory and computational costs. We study structured pruning for these models, focusing on preserving both scene understanding and trajectory prediction. Our analysis of Taylor importance in Alpamayo-1.5-10B shows that reasoning and trajectory objectives assign different importance to the same vision-language model (VLM) structures. In the action expert, MLP channels exhibit more stable importance rankings across denoising steps than query heads, and a small fraction of channels accounts for most of the measured importance. Based on these findings, we propose MoOP, which combines importance ranks from both objectives for VLM pruning and aggregates stepwise importance to select a fixed subset of expert MLP channels. At 24.0% total parameter reduction, VLM-only pruning with MoOP performs comparably to or slightly better than the strongest baselines in driving, while retaining 94.0% of the dense model's LingoQA score, far above all other methods. At a higher reduction of 30.0%, MoOP degrades much less than every other method, as it is the only one whose reasoning does not collapse. Removing 93.75% of expert MLP channels increases total parameter reduction to 39.4%, with nearly unchanged open-loop errors relative to VLM-only pruning and competitive closed-loop performance. The resulting model achieves a 1.37x end-to-end inference speedup and 36.6% lower peak memory than the dense model, without post-pruning fine-tuning.",
-   "categories": [
-    "cs.CV",
-    "cs.LG",
-    "cs.RO"
-   ],
-   "relevance_score": 5,
-   "relevance_reason": "驾驶 VLA 剪枝：推理与动作分别该保留什么，VLA 效率化",
-   "status": "新发现",
-   "date": "2026-11-23",
-   "arxiv_url": "https://arxiv.org/abs/2611.31240"
   },
   {
    "id": "2611.30671",
@@ -378,29 +716,6 @@
    "arxiv_url": "https://arxiv.org/abs/2611.29205"
   },
   {
-   "id": "2611.29275",
-   "title": "DriveOddsBench: Are Driving Video World Models Aligned with Real-World Odds?",
-   "authors": [
-    "Jiaxi Liu",
-    "Keshu Wu",
-    "Bin Ran",
-    "Xiaopeng Li"
-   ],
-   "published": "22 Nov 2026 (Sun)",
-   "summary": "Video world models predict how a scene will evolve, and their sampled futures are increasingly used in place of the real one, from planning to simulation. These uses assume that the samples are aligned with real-world odds, with each future appearing among them as often as it would follow the same history in reality, yet current evaluations only score how real each sample looks. Testing this assumption on real driving data is hard for three reasons. Each recorded history has only one real future, so the true probabilities are unknown. Physical quantities must be read from video, where reading errors can look like model errors. Finally, the many possible analyses invite selective reporting. We introduce DriveOddsBench, a pre-registered benchmark that addresses all three. First, if the samples follow the real distribution, the rank of the real outcome among them is uniform in every history, so pooled ranks test them without probability labels. Second, one validated instrument reads the same quantities, such as the lead-vehicle gap and the ego motion, from the generated futures and from the real future, which first passes through the world model's autoencoder so that both are read alike. Third, all confirmatory analyses were frozen before any test clip was measured. We test eleven general and driving world models on 200 held-out Argoverse 2 histories in five scenario families, with 35,200 generated futures. None is aligned, and every model underestimates its uncertainty. The real outcome falls outside the range of all 16 samples in 28-61% of cases instead of the 11.8% expected under the real distribution. Five models are significantly skewed, in opposite directions, and the largest errors are in the ego motion. Nine models beat climatology without being aligned, and among these models neither type nor scale predicts which comes closest.",
-   "categories": [
-    "cs.CV",
-    "cs.AI",
-    "cs.LG",
-    "cs.RO"
-   ],
-   "relevance_score": 5,
-   "relevance_reason": "驾驶视频世界模型是否与真实世界概率分布对齐的基准，直击世界模型评测痛点",
-   "status": "新发现",
-   "date": "2026-11-22",
-   "arxiv_url": "https://arxiv.org/abs/2611.29275"
-  },
-  {
    "id": "2611.29553",
    "title": "Detecting Is Not Choosing: What a World Model Needs to Keep a VLA Policy Safe",
    "authors": [
@@ -459,26 +774,6 @@
    "status": "新发现",
    "date": "2026-11-22",
    "arxiv_url": "https://arxiv.org/abs/2611.29800"
-  },
-  {
-   "id": "2611.28509",
-   "title": "AlpaSafe: Risk-Aware Trajectory Selection for Vision-Language-Action Models in Autonomous Driving",
-   "authors": [
-    "Qiren Wang",
-    "Mingyu Guo",
-    "Weisong Shi"
-   ],
-   "published": "21 Nov 2026 (Sat)",
-   "summary": "Reasoning-based driving vision-language-action (VLA) models propose multiple candidate trajectories at each decision, yet only one is executed. Standard evaluation scores the best candidate, assuming an oracle selector that deployment lacks, and leaves the risk of the executed candidate unexamined. Existing online evaluators typically close this gap with a purpose-trained scene or world model, often rolling out each candidate through it at inference time. We introduce AlpaSafe, a risk-aware trajectory selector that reuses the scene representation a frozen driving VLA computes while proposing its candidates. AlpaSafe reads the last hidden token of the VLA's prompt prefill. A lightweight head, trained on the closed-loop simulation outcomes of the candidates, fuses this token with each candidate trajectory and predicts a relative score and collision/offroad logits. A fixed rule removes candidates dominated on the two risk logits and selects the highest-scoring candidate among those remaining, adding neither rollouts nor VLA training. Experiments on 525 AlpaSim scenes show that AlpaSafe outperforms Alpamayo's default first-sample rule and uniform random selection in selected regret and top-1 agreement, and reduces the collision-at-fault or offroad rate from 6.41% and 6.10% to 4.93%. The selector has 1.7M parameters and takes 0.75 ms per decision.",
-   "categories": [
-    "cs.RO",
-    "cs.CV"
-   ],
-   "relevance_score": 5,
-   "relevance_reason": "VLA 驾驶模型风险感知轨迹选择，安全侧关键补充",
-   "status": "新发现",
-   "date": "2026-11-21",
-   "arxiv_url": "https://arxiv.org/abs/2611.28509"
   },
   {
    "id": "2611.28779",
@@ -639,31 +934,6 @@
    "status": "已收录",
    "date": "2026-11-20",
    "arxiv_url": "https://arxiv.org/abs/2611.27639"
-  },
-  {
-   "id": "2611.26242",
-   "title": "FastRoverVLA: Fast Vision-Language-Action Execution for Off-Road Autonomous Driving",
-   "authors": [
-    "Changtao Zhao",
-    "Yingxue Guan",
-    "Li Wang",
-    "Shijie Zhao",
-    "Yuhang Zhang",
-    "Shengkai Zhang",
-    "Qing Wang",
-    "Ziying Song"
-   ],
-   "published": "19 Nov 2026 (Thu)",
-   "summary": "Off-road vision-language-action (VLA) models generate scene-conditioned plans, but frequent trajectory updates can repeatedly invoke expensive multimodal inference. Reusing a prediction reduces this demand while leaving its commands exposed to changes in vehicle motion. FastRoverVLA addresses this mismatch by decoupling visual plan generation from motion-conditioned execution. Its training-free interface maintains decoded plans between visual predictions. A speed-curvature action buffer is aligned with measured motion at each update, integrated into a local trajectory, and advanced by consuming the current action. The corrected remainder is written back to the buffer, preserving motion corrections across successive updates. A bounded refresh rule normalizes speed and curvature variations within a newly decoded plan and assigns a short or long reuse budget according to the resulting plan-roughness score. The interface requires neither backbone features nor an additional learned driving policy. Over a 3 s horizon, independent real-request evaluation achieves average displacement error (ADE) and final displacement error (FDE) of 0.328/0.596 m on ORAD-3D and 0.266/0.526 m on RELLIS-3D, reducing FDE by 18.0% and 36.7% at request rates of 6.0% and 4.8%, respectively. These runs retain lower errors across four backbones and both datasets and reduce Qwen3-VL request-processing cost by factors of 16.6 and 20.8 under serial replay, while mechanism and motion-only controls identify persistent state correction as the main source of the observed accuracy benefit. The source code and evaluation materials are publicly available at https://github.com/ADEPT-ORG/FastRoverVLA.",
-   "categories": [
-    "cs.RO",
-    "cs.AI"
-   ],
-   "relevance_score": 5,
-   "relevance_reason": "越野场景 VLA 快速执行，解决 VLA 推理延迟瓶颈",
-   "status": "已收录",
-   "date": "2026-11-19",
-   "arxiv_url": "https://arxiv.org/abs/2611.26242"
   },
   {
    "id": "2611.27963",

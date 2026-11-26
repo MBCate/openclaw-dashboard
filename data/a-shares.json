@@ -1,95 +1,95 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "time": "close",
- "fetched_at": "2026-11-25T07:09:40Z",
+ "fetched_at": "2026-11-26T07:05:29Z",
  "indices": {
   "上证指数": {
    "code": "000001",
-   "price": 3490.4,
-   "prev_close": 3548.37,
-   "change": -57.97,
-   "change_pct": -1.63,
-   "open": 3522.59,
-   "high": 3526.34,
-   "low": 3468.65,
-   "volume": 2461976240
+   "price": 3468.12,
+   "prev_close": 3476.47,
+   "change": -8.35,
+   "change_pct": -0.24,
+   "open": 3490.14,
+   "high": 3497.81,
+   "low": 3455.04,
+   "volume": 6089240
   },
   "深证成指": {
    "code": "399001",
-   "price": 10160.72,
-   "prev_close": 10423.6,
-   "change": -262.88,
-   "change_pct": -2.52,
-   "open": 10272.19,
-   "high": 10402.35,
-   "low": 10090.16,
-   "volume": 2497154771
+   "price": 10068.0,
+   "prev_close": 10086.36,
+   "change": -18.36,
+   "change_pct": -0.18,
+   "open": 10184.94,
+   "high": 10235.5,
+   "low": 9979.06,
+   "volume": 1475256401
   },
   "创业板指": {
    "code": "399006",
-   "price": 2202.66,
-   "prev_close": 2278.99,
-   "change": -76.34,
-   "change_pct": -3.35,
-   "open": 2233.18,
-   "high": 2274.18,
-   "low": 2184.96,
-   "volume": 2547396579
+   "price": 2184.69,
+   "prev_close": 2183.58,
+   "change": 1.1,
+   "change_pct": 0.05,
+   "open": 2213.12,
+   "high": 2227.41,
+   "low": 2155.01,
+   "volume": 2324899788
   },
   "沪深300": {
    "code": "000300",
-   "price": 3926.49,
-   "prev_close": 3963.82,
-   "change": -37.34,
-   "change_pct": -0.94,
-   "open": 3929.84,
-   "high": 3937.33,
-   "low": 3887.12,
-   "volume": 400916
+   "price": 3893.09,
+   "prev_close": 3898.24,
+   "change": -5.14,
+   "change_pct": -0.13,
+   "open": 3918.02,
+   "high": 3922.29,
+   "low": 3877.82,
+   "volume": 1991305912
   },
   "上证50": {
    "code": "000016",
-   "price": 2770.27,
-   "prev_close": 2774.49,
-   "change": -4.22,
-   "change_pct": -0.15,
-   "open": 2758.52,
-   "high": 2771.48,
-   "low": 2740.02,
-   "volume": 293768804
+   "price": 2748.05,
+   "prev_close": 2751.85,
+   "change": -3.8,
+   "change_pct": -0.14,
+   "open": 2758.07,
+   "high": 2762.05,
+   "low": 2743.82,
+   "volume": 3854535000
   },
   "中证500": {
    "code": "000905",
-   "price": 5910.89,
-   "prev_close": 6112.43,
-   "change": -201.54,
-   "change_pct": -3.3,
-   "open": 6029.01,
-   "high": 6099.3,
-   "low": 5901.8,
-   "volume": 3775991908
+   "price": 5852.67,
+   "prev_close": 5890.41,
+   "change": -37.75,
+   "change_pct": -0.64,
+   "open": 5948.93,
+   "high": 5983.74,
+   "low": 5804.19,
+   "volume": 2882667008
   },
   "科创50": {
    "code": "000688",
-   "price": 1194.51,
-   "prev_close": 1250.09,
-   "change": -55.58,
-   "change_pct": -4.45,
-   "open": 1218.69,
-   "high": 1230.4,
-   "low": 1186.63,
-   "volume": 915506500
+   "price": 1164.49,
+   "prev_close": 1186.14,
+   "change": -21.65,
+   "change_pct": -1.83,
+   "open": 1201.06,
+   "high": 1202.31,
+   "low": 1156.57,
+   "volume": 831534100
   },
   "中证1000": {
    "code": "000852",
-   "price": 5553.46,
-   "prev_close": 5799.01,
-   "change": -245.55,
-   "change_pct": -4.23,
-   "open": 5723.92,
-   "high": 5817.84,
-   "low": 5544.44,
-   "volume": 658157916
+   "price": 5517.81,
+   "prev_close": 5541.55,
+   "change": -23.74,
+   "change_pct": -0.43,
+   "open": 5605.77,
+   "high": 5639.51,
+   "low": 5455.62,
+   "volume": 763647216
   }
  },
  "breadth": {
@@ -103,18 +103,18 @@
   "sector_flat": 0,
   "sector_total": 496,
   "source": "东方财富 push2 (上次成功采集)",
-  "stale_from": "2026-11-24",
+  "stale_from": "2026-11-25",
   "stale": true
  },
  "hang_seng": {
   "name": "恒生指数",
-  "price": 22034.62,
-  "prev_close": 22219.65,
-  "change": -185.03,
-  "change_pct": -0.83,
-  "open": 22252.81,
-  "high": 22507.83,
-  "low": 22028.07,
+  "price": 22321.55,
+  "prev_close": 21966.01,
+  "change": 355.54,
+  "change_pct": 1.62,
+  "open": 22234.89,
+  "high": 22543.75,
+  "low": 22217.01,
   "volume": 0
  },
  "sectors": {
@@ -210,117 +210,109 @@
  },
  "southbound": [],
  "northbound": {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "net": null,
   "items": [],
   "note": "北向资金自 2024-08 起停止实时披露净流入, 无可用数据"
  },
- "note": "2026-11-25 A股收盘。上证指数 3490.40 (-1.63%), 深证成指 10160.72 (-2.52%), 创业板指 2202.66 (-3.35%), 沪深300 3926.49 (-0.94%), 上证50 2770.27 (-0.15%), 中证500 5910.89 (-3.30%), 科创50 1194.51 (-4.45%), 中证1000 5553.46 (-4.23%)。恒指 22034.62 (-0.83%)。板块/涨跌家数/个股榜单接口(东方财富 push2 及腾讯/新浪)全部网络不可达, 沿用 2026-11-25 快照。北向资金已停止实时披露。数据源: Yahoo Finance chart API。",
- "updated_at": "2026-11-25T07:09:40Z",
+ "note": "2026-11-26 A股收盘。上证指数 3468.12 (-0.24%), 深证成指 10068.00 (-0.18%), 创业板指 2184.69 (+0.05%), 沪深300 3893.09 (-0.13%), 上证50 2748.05 (-0.14%), 中证500 5852.67 (-0.64%), 科创50 1164.49 (-1.83%), 中证1000 5517.81 (-0.43%)。恒指 22321.55 (+1.62%)。板块/涨跌家数/个股榜单接口(东方财富 push2 及腾讯/新浪)全部网络不可达, 沿用 2026-11-25 快照。北向资金已停止实时披露。数据源: Yahoo Finance chart API。",
+ "updated_at": "2026-11-26T07:05:29Z",
  "indices_list": [
   {
    "name": "上证指数",
    "code": "000001",
-   "price": 3490.4,
-   "prev_close": 3548.37,
-   "change": -57.97,
-   "change_pct": -1.63,
-   "open": 3522.59,
-   "high": 3526.34,
-   "low": 3468.65,
-   "volume": 2461976240,
-   "bar_date": "2026-11-25"
+   "price": 3468.12,
+   "prev_close": 3476.47,
+   "change": -8.35,
+   "change_pct": -0.24,
+   "open": 3490.14,
+   "high": 3497.81,
+   "low": 3455.04,
+   "volume": 6089240
   },
   {
    "name": "深证成指",
    "code": "399001",
-   "price": 10160.72,
-   "prev_close": 10423.6,
-   "change": -262.88,
-   "change_pct": -2.52,
-   "open": 10272.19,
-   "high": 10402.35,
-   "low": 10090.16,
-   "volume": 2497154771,
-   "bar_date": "2026-11-25"
+   "price": 10068.0,
+   "prev_close": 10086.36,
+   "change": -18.36,
+   "change_pct": -0.18,
+   "open": 10184.94,
+   "high": 10235.5,
+   "low": 9979.06,
+   "volume": 1475256401
   },
   {
    "name": "创业板指",
    "code": "399006",
-   "price": 2202.66,
-   "prev_close": 2278.99,
-   "change": -76.34,
-   "change_pct": -3.35,
-   "open": 2233.18,
-   "high": 2274.18,
-   "low": 2184.96,
-   "volume": 2547396579,
-   "bar_date": "2026-11-25"
+   "price": 2184.69,
+   "prev_close": 2183.58,
+   "change": 1.1,
+   "change_pct": 0.05,
+   "open": 2213.12,
+   "high": 2227.41,
+   "low": 2155.01,
+   "volume": 2324899788
   },
   {
    "name": "沪深300",
    "code": "000300",
-   "price": 3926.49,
-   "prev_close": 3963.82,
-   "change": -37.34,
-   "change_pct": -0.94,
-   "open": 3929.84,
-   "high": 3937.33,
-   "low": 3887.12,
-   "volume": 400916,
-   "bar_date": "2026-11-25"
+   "price": 3893.09,
+   "prev_close": 3898.24,
+   "change": -5.14,
+   "change_pct": -0.13,
+   "open": 3918.02,
+   "high": 3922.29,
+   "low": 3877.82,
+   "volume": 1991305912
   },
   {
    "name": "上证50",
    "code": "000016",
-   "price": 2770.27,
-   "prev_close": 2774.49,
-   "change": -4.22,
-   "change_pct": -0.15,
-   "open": 2758.52,
-   "high": 2771.48,
-   "low": 2740.02,
-   "volume": 293768804,
-   "bar_date": "2026-11-25"
+   "price": 2748.05,
+   "prev_close": 2751.85,
+   "change": -3.8,
+   "change_pct": -0.14,
+   "open": 2758.07,
+   "high": 2762.05,
+   "low": 2743.82,
+   "volume": 3854535000
   },
   {
    "name": "中证500",
    "code": "000905",
-   "price": 5910.89,
-   "prev_close": 6112.43,
-   "change": -201.54,
-   "change_pct": -3.3,
-   "open": 6029.01,
-   "high": 6099.3,
-   "low": 5901.8,
-   "volume": 3775991908,
-   "bar_date": "2026-11-25"
+   "price": 5852.67,
+   "prev_close": 5890.41,
+   "change": -37.75,
+   "change_pct": -0.64,
+   "open": 5948.93,
+   "high": 5983.74,
+   "low": 5804.19,
+   "volume": 2882667008
   },
   {
    "name": "科创50",
    "code": "000688",
-   "price": 1194.51,
-   "prev_close": 1250.09,
-   "change": -55.58,
-   "change_pct": -4.45,
-   "open": 1218.69,
-   "high": 1230.4,
-   "low": 1186.63,
-   "volume": 915506500,
-   "bar_date": "2026-11-25"
+   "price": 1164.49,
+   "prev_close": 1186.14,
+   "change": -21.65,
+   "change_pct": -1.83,
+   "open": 1201.06,
+   "high": 1202.31,
+   "low": 1156.57,
+   "volume": 831534100
   },
   {
    "name": "中证1000",
    "code": "000852",
-   "price": 5553.46,
-   "prev_close": 5799.01,
-   "change": -245.55,
-   "change_pct": -4.23,
-   "open": 5723.92,
-   "high": 5817.84,
-   "low": 5544.44,
-   "volume": 658157916,
-   "bar_date": "2026-11-25"
+   "price": 5517.81,
+   "prev_close": 5541.55,
+   "change": -23.74,
+   "change_pct": -0.43,
+   "open": 5605.77,
+   "high": 5639.51,
+   "low": 5455.62,
+   "volume": 763647216
   }
  ],
  "sectors_top5": [
@@ -330,8 +322,7 @@
    "leader": "风语筑",
    "leader_pct": 10.0,
    "up": 2,
-   "down": 0,
-   "stale": true
+   "down": 0
   },
   {
    "name": "视频媒体",
@@ -339,8 +330,7 @@
    "leader": "芒果超媒",
    "leader_pct": 3.19,
    "up": 1,
-   "down": 0,
-   "stale": true
+   "down": 0
   },
   {
    "name": "国有大型银行Ⅲ",
@@ -348,8 +338,7 @@
    "leader": "工商银行",
    "leader_pct": 3.3,
    "up": 6,
-   "down": 0,
-   "stale": true
+   "down": 0
   },
   {
    "name": "核力发电",
@@ -357,8 +346,7 @@
    "leader": "中国广核",
    "leader_pct": 3.45,
    "up": 2,
-   "down": 1,
-   "stale": true
+   "down": 1
   },
   {
    "name": "电信运营商",
@@ -366,8 +354,7 @@
    "leader": "中国电信",
    "leader_pct": 2.66,
    "up": 3,
-   "down": 0,
-   "stale": true
+   "down": 0
   }
  ],
  "sectors_bottom5": [
@@ -377,8 +364,7 @@
    "leader": "三棵树",
    "leader_pct": -8.29,
    "up": 0,
-   "down": 2,
-   "stale": true
+   "down": 2
   },
   {
    "name": "其他黑色家电",
@@ -386,8 +372,7 @@
    "leader": "创维数字",
    "leader_pct": -4.09,
    "up": 0,
-   "down": 5,
-   "stale": true
+   "down": 5
   },
   {
    "name": "集成电路封测",
@@ -395,8 +380,7 @@
    "leader": "蓝箭电子",
    "leader_pct": -3.32,
    "up": 0,
-   "down": 13,
-   "stale": true
+   "down": 13
   },
   {
    "name": "光学元件",
@@ -404,8 +388,7 @@
    "leader": "奥比中光-W",
    "leader_pct": -0.33,
    "up": 0,
-   "down": 27,
-   "stale": true
+   "down": 27
   },
   {
    "name": "激光设备",
@@ -413,8 +396,7 @@
    "leader": "金运激光",
    "leader_pct": -5.65,
    "up": 0,
-   "down": 12,
-   "stale": true
+   "down": 12
   }
  ],
  "northbound_fallback": true,

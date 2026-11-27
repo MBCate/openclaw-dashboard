@@ -46,7 +46,7 @@
         return;
       }
 
-      document.getElementById('last-updated').textContent = `Updated: ${formatTime(data.updated_at)}`;
+      document.getElementById('last-updated').textContent = `Updated: ${formatTime(data.updated_at || data.updated)}`;
 
       // Weekly top papers
       // Weekly digest: try newest known weekly file first, then older ones
@@ -100,16 +100,20 @@
 
       // Paper cards
       const listEl = document.getElementById('paper-list');
-      const papers = (data.papers || []).sort((a, b) => b.score - a.score);
+      const scoreOf = p => p.score ?? p.relevance_score ?? 0;
+      const urlOf = p => p.url || p.arxiv_url || (p.id ? `https://arxiv.org/abs/${p.id}` : '');
+      const papers = (data.papers || []).sort((a, b) => scoreOf(b) - scoreOf(a));
 
       papers.forEach(p => {
+        const score = scoreOf(p);
+        const url = urlOf(p);
         const card = document.createElement('div');
         card.className = 'card paper-card';
         card.style.marginBottom = '8px';
         card.innerHTML = `
-          <div class="stars" style="color:var(--accent-yellow)">${starRating(p.score)} [${p.score}/5]</div>
+          <div class="stars" style="color:var(--accent-yellow)">${starRating(score)} [${score}/5]${p.status ? ` <span class="badge ${p.status === '新发现' ? 'badge-yellow' : 'badge-blue'}" style="margin-left:6px">${p.status}</span>` : ''}</div>
           <div class="paper-title">
-            ${p.url ? `<a href="${p.url}" target="_blank" style="color:var(--text-primary);text-decoration:none;">${p.title}</a>` : p.title}
+            ${url ? `<a href="${url}" target="_blank" style="color:var(--text-primary);text-decoration:none;">${p.title}</a>` : p.title}
           </div>
           <div class="authors">${[].concat(p.authors || []).slice(0, 6).join(', ')} ${(p.arxiv_id || p.id) ? `| arXiv:${p.arxiv_id || p.id}` : ''}</div>
           ${p.categories?.length ? `<div style="margin-top:6px">${p.categories.map(c => `<span class="badge badge-blue">${c}</span>`).join(' ')}</div>` : ''}

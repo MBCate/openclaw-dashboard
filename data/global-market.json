@@ -1,80 +1,80 @@
 {
- "updated_at": "2026-11-26T13:30Z",
- "as_of": "Nov 26 2026 13:30 UTC（洛杉矶11/26 05:30 / 北京11/26 21:30）— 【晚间国际】感恩节休市，情绪由恐慌转修复：11/25美股盘中自低点反弹（标普500最低7,108.33、纳指最低23,458.21、道指最低48,883.24），CNBC称“投资者逢低扫货”，亚太与欧股11/26转涨。美联储偏好通胀指标10月PCE同比3.8%，2027年加息预期升温；美国拟对14个贸易伙伴加征新关税，换取谈判筹码。加密反弹：BTC $60,771（+3.33%）、ETH $1,703.48（+3.15%）、SOL $70.88（+4.38%）。机构分歧：德银看标普500 2027年底9,000点（先见底再涨25%），高盛仍称抄底AI为时过早。",
- "session_label": "晚间国际（11/25美股收盘 + 11/26感恩节休市/亚欧交易 + 加密）",
- "generated_at": "2026-11-26T13:30:00Z",
- "generated_at_local": "2026-11-26 05:30 (America/Los_Angeles)",
- "headline": "感恩节休市情绪修复：美股自低点反弹、全球股市转涨，BTC重回6万上方；PCE 3.8%压制降息预期，关税谈判施压14国",
+ "updated_at": "2026-11-27T01:20Z",
+ "as_of": "Nov 27 2026 01:20 UTC（洛杉矶11/26 17:20 / 北京11/27 09:20）— 感恩节后“黑五”半日市，期指盘前普遍上行：ES 7,250.5、NQ 26,312.75、YM 50,539。11/25美股收盘涨跌互现（标普-0.46%、纳指-0.71%、道指+0.33%），半导体SOX再跌0.65%；VIX回落至26.8。亚太11/26连续第二日反弹，日经11/27早盘+2.11%，KOSPI微涨、韩股仍受AI资金外流压制。原油本周首度转涨（WTI 85.49，+2.2%），中东能源设施与油轮遇袭推升供应风险；黄金站稳3,597.8；美元指数103.83——“美元风暴”创2024年以来最长连涨月。A股预开盘数据因eastmoney接口不可达暂缺。",
+ "session_label": "早盘预览（11/25美股收盘 + 感恩节11/26休市 + 11/26亚太 + 期指/商品/加密盘前）",
+ "generated_at": "2026-11-27T01:20:00Z",
+ "generated_at_local": "2026-11-26 17:20 (America/Los_Angeles)",
+ "headline": "黑五期指反弹：ES/NQ/YM盘前齐涨，日经早盘+2.11%；油市因中东袭击本周首次转涨，美元创两年最长月度连涨",
  "indices": [
   {
    "name": "标普500",
    "symbol": "^GSPC",
-   "close": 7201.09,
-   "change_pct": -0.5,
-   "note": "11/25收盘 7,201.09（-0.50%）；盘中最低7,108.33后反弹，收复大部分跌幅，CNBC称“逢低扫货”"
+   "close": 7182.78,
+   "change_pct": -0.46,
+   "note": "11/25收盘 7,182.78（-0.46%）；11/26感恩节休市。期指ES盘前7,250.5，指向黑五反弹"
   },
   {
    "name": "纳斯达克",
    "symbol": "^IXIC",
-   "close": 23733.54,
-   "change_pct": -1.48,
-   "note": "11/25收盘 23,733.54（-1.48%）；盘中最低23,458.21，尾盘收窄"
+   "close": 23585.8,
+   "change_pct": -0.71,
+   "note": "11/25收盘 23,585.80（-0.71%）；较盘中低点23,458小幅收高。NQ期指盘前26,312.75"
   },
   {
    "name": "道指",
    "symbol": "^DJI",
-   "close": 50018.7,
-   "change_pct": 0.85,
-   "note": "11/25收盘 50,018.70（+0.85%）；盘中最低48,883.24，价值股支撑"
+   "close": 50182.95,
+   "change_pct": 0.33,
+   "note": "11/25收盘 50,182.95（+0.33%），价值股继续跑赢；YM期指盘前50,539"
   },
   {
    "name": "费城半导体指数",
    "symbol": "^SOX",
-   "close": 8832.5,
-   "change_pct": -7.88,
-   "note": "11/25收盘 8,832.50（-7.88%）；半导体重挫后11/26亚洲时段芯片股企稳"
+   "close": 8774.86,
+   "change_pct": -0.65,
+   "note": "11/25收盘 8,774.86（-0.65%），较11/24再跌；自11/19累计-6.8%"
   },
   {
    "name": "VIX恐慌指数",
    "symbol": "^VIX",
-   "close": 30.96,
-   "change_pct": 17.45,
-   "note": "11/25盘中冲高至30.96后回落；11/26休市，恐慌情绪边际缓和"
+   "close": 26.8,
+   "change_pct": -5.27,
+   "note": "11/26收 26.80（-5.27%），自11/20高位35.89持续回落，恐慌情绪缓解"
   },
   {
    "name": "日经225",
    "symbol": "^N225",
-   "close": 57011.62,
-   "change_pct": -2.78,
-   "note": "11/25收盘 57,011.62（-2.78%），较11/24 58,644.63续跌；软银重挫"
+   "close": 57643.82,
+   "change_pct": 2.11,
+   "note": "11/27早盘 57,643.82（+2.11%），11/26休市；连续第二日修复"
   },
   {
    "name": "韩国KOSPI",
    "symbol": "^KS11",
-   "close": 4697.51,
-   "change_pct": -6.16,
-   "note": "11/25收盘 4,697.51（-6.16%），三星/海力士领跌，跌幅居亚太之首"
+   "close": 4731.86,
+   "change_pct": 0.73,
+   "note": "11/27早盘 4,731.86（+0.73%），11/26休市；外资对AI/半导体仍谨慎"
   },
   {
    "name": "恒生指数",
    "symbol": "^HSI",
    "close": 21966.01,
    "change_pct": -1.14,
-   "note": "11/26港股随全球风险偏好修复反弹，科技股领涨"
+   "note": "11/25收盘 21,966.01（-1.14%）；11/26随全球反弹，盘后报约22,226.88（+1.19%）"
   },
   {
    "name": "英伟达 (NVDA)",
    "symbol": "NVDA",
-   "close": 155.38,
-   "change_pct": -5.86,
-   "note": "11/24收盘 $155.38（-5.86%），AI抛售核心；黄仁勋相关政治风波持续发酵"
+   "close": 149.3,
+   "change_pct": -1.1,
+   "note": "11/25收盘 $149.30（-1.10%），较11/24再跌，AI交易核心波动源"
   },
   {
    "name": "苹果 (AAPL)",
    "symbol": "AAPL",
-   "close": 354.07,
-   "change_pct": 1.43,
-   "note": "11/24收盘 $354.07（+1.43%），防御性资金流入"
+   "close": 355.58,
+   "change_pct": 0.89,
+   "note": "11/25收盘 $355.58（+0.89%），防御属性受青睐"
   },
   {
    "name": "微软 (MSFT)",
@@ -116,79 +116,79 @@
   {
    "name": "比特币 (BTC)",
    "symbol": "BTC",
-   "price": 60771,
-   "change_24h": 3.33,
+   "price": 60754,
+   "change_24h": -0.75,
    "change_7d": null,
-   "note": "约$60,771（+3.33%），重回6万关口上方，风险偏好修复带动"
+   "note": "约$60,754（-0.75%），站稳6万上方，风险偏好修复后小幅回吐"
   },
   {
    "name": "以太坊 (ETH)",
    "symbol": "ETH",
-   "price": 1703.48,
-   "change_24h": 3.15,
+   "price": 1700.5,
+   "change_24h": -0.49,
    "change_7d": null,
-   "note": "约$1,703.48（+3.15%），收复1,700整数位"
+   "note": "约$1,700.5（-0.49%），1,700整数位拉锯"
   },
   {
    "name": "Solana (SOL)",
    "symbol": "SOL",
-   "price": 70.88,
-   "change_24h": 4.38,
+   "price": 71.39,
+   "change_24h": -0.82,
    "change_7d": null,
-   "note": "约$70.88（+4.38%），山寨币反弹力度最强"
+   "note": "约$71.39（-0.82%），反弹后横盘"
   }
  ],
  "commodities": [
   {
    "name": "COMEX黄金",
    "symbol": "GC=F",
-   "price": 3527.5,
-   "change_pct": -0.97,
-   "note": "$3,527.5/oz（-0.97%）；PCE 3.8%强化紧缩预期，压制金价"
+   "price": 3597.8,
+   "change_pct": 2.36,
+   "note": "$3,597.8/oz（+2.36%，较11/25）；紧缩预期与避险需求拉锯，金价企稳回升"
   },
   {
    "name": "COMEX白银",
    "symbol": "SI=F",
-   "price": 39.855,
-   "change_pct": -2.22,
-   "note": "$39.86/oz（-2.22%），跌破$40"
+   "price": 42.05,
+   "change_pct": 2.47,
+   "note": "$42.05/oz（+2.47%），重返$40上方"
   },
   {
    "name": "WTI原油",
    "symbol": "CL=F",
-   "price": 82.5,
-   "change_pct": 0.55,
-   "note": "$82.50/桶（+0.55%）；俄乌能源设施遭袭，供应风险支撑"
+   "price": 85.49,
+   "change_pct": 2.61,
+   "note": "$85.49/桶（+2.61%）；中东能源设施与油轮遇袭，油价有望录得本月首个周涨"
   },
   {
    "name": "布伦特原油",
    "symbol": "BZ=F",
-   "price": 89.18,
-   "change_pct": -2.43,
-   "note": "$89.18/桶（-2.43%），供需宽松预期压制"
+   "price": 92.21,
+   "change_pct": 1.43,
+   "note": "$92.21/桶（+1.43%），中东地缘风险溢价抬升"
   },
   {
    "name": "COMEX铜",
    "symbol": "HG=F",
-   "price": 5.393,
-   "change_pct": 0.58,
-   "note": "$5.393/lb（+0.58%）；Trafigura呼吁欧洲加大金属支持，数据中心需求托底"
+   "price": 5.455,
+   "change_pct": 1.94,
+   "note": "$5.455/lb（+1.94%）；数据中心需求+Trafigura呼吁欧洲金属支持"
   }
  ],
  "macro": [
   {
    "name": "美债10年期收益率",
    "symbol": "^TNX",
-   "price": 4.904,
-   "change": "-0.3bp(较11/24)",
-   "note": "4.904%；PCE高于预期限制收益率下行空间"
+   "price": 4.848,
+   "change": "-1.0bp(较11/24)",
+   "note": "11/25收4.848%（较11/24 4.90%小幅回落）；感恩节后现金交易重启，11/26美债走弱"
   },
   {
    "name": "美元指数 DXY",
    "symbol": "DX-Y.NYB",
-   "price": 103.994,
-   "change": "+0.18%",
-   "note": "103.99（+0.18%），关税威胁与紧缩预期支撑美元"
+   "price": 103.83,
+   "change": "+0.16%",
+   "note": "103.83（+0.16%）；AI交易裂痕+加息预期推动避险美元，创2024年以来最长月度连涨"
   }
  ],
  "week_performance": [
@@ -220,90 +220,86 @@
  ],
  "overnight": [
   {
-   "title": "🔴 AI抛售二次升级：期指NQ-2.87%，VIX飙至30.96",
-   "detail": "11/25 美股盘前期指续挫，ES 7,079（-1.92%）、NQ 25,522.75（-2.87%）、YM 49,435（-1.25%）；VIX盘中飙至30.96（+17.45%）。CNBC：AI抛售回归，英伟达、Anthropic领跌；FT：市场对AI繁荣可持续性的担忧升温，美股科技料进一步下滑。"
+   "title": "🟢 黑五期指齐涨：ES+0.94% / NQ+0.81% / YM+0.62%",
+   "detail": "11/27 01:06Z盘前，标普500期指7,250.5、纳指100期指26,312.75、道指期指50,539，较11/25结算价全面走高。MarketWatch：标普周三自低点反弹平息AI恐慌，黑五或迎上涨。"
   },
   {
-   "title": "🔴 美国拟对14个贸易伙伴加征新关税，含中国与欧盟",
-   "detail": "CNBC：美国提议对包括中国、欧盟在内的14个贸易伙伴加征新关税，全球贸易摩擦再起，避险情绪升温，美元走强、金银承压。"
+   "title": "🟢 亚太连续第二日反弹：日经早盘+2.11%，恒指+1.19%",
+   "detail": "Bloomberg：亚洲股市连续两日上涨，AI交易数周剧烈波动后初步企稳；日经11/27早盘57,643.82（+2.11%），KOSPI 4,731.86（+0.73%），恒指报约22,226.88（+1.19%）。美股科技股回升带动。"
   },
   {
-   "title": "🔴 亚太全面收低：KOSPI-6.16%、日经-2.78%、恒指-1.14%",
-   "detail": "11/25 韩国KOSPI收4,697.51（-6.16%），三星/海力士领跌，跌幅居亚太之首；日经收57,011.62（-2.78%）；恒指收21,966.01（-1.14%）。华尔街AI抛售全面外溢至亚洲科技股。"
+   "title": "🔴 鹰派美联储：尽管股市动荡仍准备加息",
+   "detail": "FT：通胀仍是美联储官员首要关切，即使科技股抛售引发经济担忧。CNBC/Liesman：Warsh主席倾向加息（核心PCE 3.8%）。CNBC另报Q3 GDP被大幅上修，特朗普要求调查“创纪录错误”。"
   },
   {
-   "title": "🟡 高盛：AI回调抄底为时尚早",
-   "detail": "Bloomberg：高盛策略师表示现在买入AI回调标的为时过早，市场需进一步消化估值与资本开支担忧（'Goldman Strategist Says It's Too Early to Buy the AI Selloff'）。"
+   "title": "🔴 美国关税清单细节：中国/越南20%、孟柬泰18%",
+   "detail": "CNBC：拟对孟加拉、柬埔寨、泰国征18%，对中国、越南征20%，取决于是否与美达成贸易协议；印度因此获得竞争优势。Bloomberg：多国回应失望与抗议，部分仍留谈判空间。"
   },
   {
-   "title": "🟡 美银：标普500明年升至7,800",
-   "detail": "CNBC：美银预计标普500明年将升至7,800点，收复今年失地，与当前避险情绪形成对比，显示机构对中期仍偏乐观。"
+   "title": "🟢 油市本周首度转涨：WTI 85.49（+2.6%）",
+   "detail": "Bloomberg：中东能源基础设施与油轮遭袭，市场担忧冲突升级扰乱出口，油价有望录得本月首个周涨幅；布伦特92.21（+1.43%）。"
   },
   {
-   "title": "🟡 Shein支付1亿美元和解美国误导消费者指控",
-   "detail": "FT：Shein将支付1亿美元和解美国就其误导消费者的指控，跨境电商监管压力上升。"
+   "title": "🟡 美元“风暴”：创2024年以来最长月度连涨",
+   "detail": "Bloomberg：AI交易裂痕与利率上行推升避险需求，美元势将录得两年来最长月度连涨；DXY 103.83。同时美股基金转向收益更高的信用债。"
+  },
+  {
+   "title": "🟡 芯片出口首超油气：半导体成“新石油”",
+   "detail": "CNBC：2026年半导体出口首次超过石油天然气。FT：AI叙事转向，软件股在本轮科技抛售中相对抗跌，半导体与软件表现并驾齐驱。"
+  },
+  {
+   "title": "🟡 机构分歧：德银看标普9,000 vs 高盛称抄底过早",
+   "detail": "MarketWatch：德银预计科技抛售即将见底，标普500到2027年底涨25%至9,000；高盛则称现在买AI回调为时过早。美银预计标普明年7,800。"
   }
  ],
  "news": [
   {
-   "source": "CNBC",
-   "title": "Global stocks rally as investors shrug off U.S. tariffs and AI jitters to 'fish for bargains'",
-   "time": "Thu, 26 Nov 2026 12:22 UTC",
-   "summary": "全球股市反弹，投资者淡化关税与AI忧虑，开始逢低吸纳。"
+   "source": "Bloomberg",
+   "title": "Asian Stocks Rise for Second Day, Treasuries Slip: Markets Wrap",
+   "time": "Thu, 26 Nov 2026 21:59 UTC",
+   "summary": "亚洲股市连续第二日上涨，AI交易初步企稳；感恩节后美债现金交易重启走弱。"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Latest Oil Market News and Analysis for Nov. 27",
+   "time": "Thu, 26 Nov 2026 23:05 UTC",
+   "summary": "中东能源设施与油轮遇袭，油价有望录得本月首个周涨幅。"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "'Dollar Storm:' Greenback on Track for Longest Winning Run Since 2024",
+   "time": "Thu, 26 Nov 2026 23:44 UTC",
+   "summary": "AI交易裂痕与利率上行推升避险，美元将录得两年来最长月度连涨。"
   },
   {
    "source": "CNBC",
-   "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
-   "time": "Thu, 26 Nov 2026 12:46 UTC",
-   "summary": "美国拟对14个贸易伙伴加税，同时以较低税率换取贸易协议，施压谈判。"
+   "title": "Trump demands probe into 'record setting error' after third-quarter GDP data gets massive revision higher",
+   "time": "Thu, 26 Nov 2026 21:13 UTC",
+   "summary": "Q3 GDP被大幅上修，特朗普称是错误并要求立即调查，数据可信度受质疑。"
   },
   {
    "source": "CNBC",
-   "title": "Fed's preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes",
-   "time": "Wed, 25 Nov 2026 14:18 UTC",
-   "summary": "10月核心PCE同比3.8%，通胀黏性使美联储2027年政策路径更敏感（Warsh主席倾向加息）。"
+   "title": "How Trump's latest tariff moves hand India an edge over rival Asian exporters",
+   "time": "Thu, 26 Nov 2026 04:12 UTC",
+   "summary": "拟对孟柬泰18%、中越20%加税，印度获得相对竞争优势。"
   },
   {
    "source": "FT",
-   "title": "Global stocks climb after volatile US trading over AI risks",
-   "time": "Thu, 26 Nov 2026 12:27 UTC",
-   "summary": "AI风险引发美股剧烈震荡后，全球股市转涨。"
+   "title": "Hawkish Fed poised to raise rates despite stock market turmoil",
+   "time": "Thu, 26 Nov 2026 14:58 UTC",
+   "summary": "通胀仍是美联储首要关切，即使科技股抛售引发经济担忧。"
+  },
+  {
+   "source": "FT",
+   "title": "Software stocks spared in tech rout as AI narrative shifts",
+   "time": "Thu, 26 Nov 2026 05:00 UTC",
+   "summary": "软件股在本轮科技抛售中相对抗跌，市场重新评估AI赢家与输家。"
   },
   {
    "source": "MarketWatch",
    "title": "Futures point to Black Friday gains for Wall Street as global markets welcome U.S. resilience",
    "time": "Thu, 26 Nov 2026 10:37 UTC",
-   "summary": "标普500周三自低点反弹平息AI恐慌，期指指向“黑五”上涨。"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "The tech rout should bottom soon, with a 25% rally for the S&P 500 to follow, says Deutsche Bank",
-   "time": "Thu, 26 Nov 2026 10:11 UTC",
-   "summary": "德银预计科技抛售即将见底，标普500有望涨25%至2027年底9,000点。"
-  },
-  {
-   "source": "CNBC",
-   "title": "Beware higher correlation but nab high U.S. credit yields, fund managers say",
-   "time": "Thu, 26 Nov 2026 05:36 UTC",
-   "summary": "基金经理：AI繁荣或引发衰退，但数据中心仍是具吸引力投资。"
-  },
-  {
-   "source": "CNBC",
-   "title": "Prediction markets push OpenAI IPO expectations later into 2027",
-   "time": "Wed, 25 Nov 2026 17:08 UTC",
-   "summary": "Kalshi显示市场下调OpenAI 2027年6月前IPO概率，AI资产走弱。"
-  },
-  {
-   "source": "SCMP",
-   "title": "UK net migration falls to 77,000, lowest annual level in nearly 30 years",
-   "time": "Thu, 26 Nov 2026 13:19 UTC",
-   "summary": "英国净移民降至近30年最低，或影响英国劳动力与通胀路径。"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "ECB Officials Saw More Tightening With Inflation Outlook Worse",
-   "time": "Thu, 26 Nov 2026 13:09 UTC",
-   "summary": "欧央行纪要显示通胀前景恶化，官员认为需进一步紧缩。"
+   "summary": "期指指向黑五上涨，全球市场认可美国经济韧性。"
   }
  ],
  "sources": [
@@ -343,28 +339,28 @@
    "url": "https://api.coingecko.com/api/v3/simple/price"
   }
  ],
- "notes": "数据说明：11/26为美国感恩节休市，美股指数沿用11/25收盘与盘中低/高点；期指为11/25盘中报价。加密数据来自 CoinGecko（2026-11-26 13:30 UTC）。RSS 来源：CNBC / FT / MarketWatch / Bloomberg / SCMP；WSJ Markets RSS 仍返回旧内容（2025-01），已弃用。",
+ "notes": "数据说明：11/26为美国感恩节休市，美股指数沿用11/25收盘；11/27为黑五半日市（美股13:00 ET收盘）。期指/商品/美元/加密为2026-11-27 01:06Z Yahoo Finance 盘前报价，涨跌幅均以11/25收盘为基准。VIX为11/26收盘。A股预开盘数据因 eastmoney（push2/push2his）接口不可达（代理阻断、直连超时）暂缺，未编造。RSS 来源：CNBC / FT / MarketWatch / Bloomberg；Yahoo RSS 返回空，已弃用。",
  "futures": [
   {
    "name": "标普500期指(ES)",
    "symbol": "ES=F",
-   "price": 7079,
-   "change_pct": -1.92,
-   "note": "11/25盘中报价7,079（-1.92%）；11/26感恩节休市，期指部分时段交易"
+   "price": 7250.5,
+   "change_pct": 0.94,
+   "note": "11/27 01:06Z 盘前7,250.5（较11/25 7,195.75 +0.94%，+0.76%）——黑五半日市前情绪修复"
   },
   {
    "name": "纳指100期指(NQ)",
    "symbol": "NQ=F",
-   "price": 25522.75,
-   "change_pct": -2.87,
-   "note": "11/25盘中25,522.75（-2.87%），为本轮调整低点区"
+   "price": 26312.75,
+   "change_pct": 0.81,
+   "note": "盘前26,312.75（较11/25 26,100.25 +0.81%）"
   },
   {
    "name": "道指期指(YM)",
    "symbol": "YM=F",
-   "price": 49435,
-   "change_pct": -1.25,
-   "note": "11/25盘中49,435（-1.25%），跌幅小于科技指数"
+   "price": 50539.0,
+   "change_pct": 0.62,
+   "note": "盘前50,539（较11/25 50,228 +0.62%），三大期指齐涨"
   }
  ]
 }

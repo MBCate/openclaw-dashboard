@@ -410,5 +410,302 @@
         "Francesca Medda"
       ]
     }
-  ]
+  ],
+  "weekly": {
+    "report_type": "weekly",
+    "week_of": "2026-11-23",
+    "week_end": "2026-11-27",
+    "generated_at": "2026-11-27 09:01 UTC",
+    "source": "~/trading/helloquant",
+    "pipeline": {
+      "status": "success",
+      "last_run": "2026-11-27T07:18:01",
+      "note": "本脚本直连 OKX 采集 (BTC/ETH 现价 + 1H/4H/1D 指标 + 8 策略信号); ~/trading/helloquant 原始管线自 2026-11-19 后未更新。A股波动率切片仍为 2026-11-18 QVIX 快照; 新闻/论文沿用上次采集。"
+    },
+    "market": {
+      "crypto": {
+        "btc": {
+          "price": 61855.3,
+          "change_24h": 2.23
+        },
+        "eth": {
+          "price": 1737.0,
+          "change_24h": 2.82
+        },
+        "note": "OKX 数据正常；BTC 1H 偏空 / 4H 偏空（RSI 1H 42.6）；恐贪 12 (Extreme Fear)"
+      },
+      "sentiment": {
+        "fear_greed": 12,
+        "classification": "Extreme Fear"
+      },
+      "stocks": {
+        "上证指数": {
+          "close": 3606.49,
+          "change_pct": 2.06,
+          "daily_pct": 3.73
+        },
+        "深证成指": {
+          "close": 10814.02,
+          "change_pct": 5.44,
+          "daily_pct": 7.24
+        },
+        "创业板指": {
+          "close": 2443.96,
+          "change_pct": 10.48,
+          "daily_pct": 11.61
+        }
+      },
+      "hang_seng": {
+        "close": 22672.87,
+        "change_pct": 2.01
+      }
+    },
+    "week_returns": [
+      {
+        "name": "上证指数",
+        "start": 3533.79,
+        "end": 3606.49,
+        "change_pct": 2.06
+      },
+      {
+        "name": "深证成指",
+        "start": 10256.39,
+        "end": 10814.02,
+        "change_pct": 5.44
+      },
+      {
+        "name": "创业板指",
+        "start": 2212.13,
+        "end": 2443.96,
+        "change_pct": 10.48
+      },
+      {
+        "name": "沪深300",
+        "start": 3954.57,
+        "end": 4063.06,
+        "change_pct": 2.74
+      },
+      {
+        "name": "上证50",
+        "start": 2785.92,
+        "end": 2834.68,
+        "change_pct": 1.75
+      },
+      {
+        "name": "中证500",
+        "start": 6006.08,
+        "end": 6313.63,
+        "change_pct": 5.12
+      },
+      {
+        "name": "科创50",
+        "start": 1231.09,
+        "end": 1346.25,
+        "change_pct": 9.35
+      },
+      {
+        "name": "中证1000",
+        "start": 5648.63,
+        "end": 5982.91,
+        "change_pct": 5.92
+      },
+      {
+        "name": "BTC/USDT",
+        "start": 61843.7,
+        "end": 61855.3,
+        "change_pct": 0.02
+      },
+      {
+        "name": "ETH/USDT",
+        "start": 1750.32,
+        "end": 1737.0,
+        "change_pct": -0.76
+      },
+      {
+        "name": "沪金主力",
+        "start": null,
+        "end": null,
+        "as_of": null,
+        "change_pct": null
+      },
+      {
+        "name": "沪银主力",
+        "start": null,
+        "end": null,
+        "as_of": null,
+        "change_pct": null
+      },
+      {
+        "name": "沪铜主力",
+        "start": null,
+        "end": null,
+        "as_of": null,
+        "change_pct": null
+      },
+      {
+        "name": "螺纹钢主力",
+        "start": null,
+        "end": null,
+        "as_of": null,
+        "change_pct": null
+      },
+      {
+        "name": "沪深300期货",
+        "start": null,
+        "end": null,
+        "as_of": null,
+        "change_pct": null
+      },
+      {
+        "name": "中证500期货",
+        "start": null,
+        "end": null,
+        "as_of": null,
+        "change_pct": null
+      }
+    ],
+    "equity_curve": [
+      {
+        "date": "2026-11-20",
+        "value": 100.0
+      },
+      {
+        "date": "2026-11-23",
+        "value": 101.13
+      },
+      {
+        "date": "2026-11-24",
+        "value": 101.36
+      },
+      {
+        "date": "2026-11-25",
+        "value": 98.74
+      },
+      {
+        "date": "2026-11-26",
+        "value": 97.73
+      },
+      {
+        "date": "2026-11-27",
+        "value": 105.36
+      }
+    ],
+    "strategies": [
+      {
+        "name": "DoubleMa",
+        "signal_1h": "做多",
+        "signal_4h": "做多",
+        "daily_return": 0.0,
+        "weekly_return": null,
+        "max_drawdown": null,
+        "sharpe": null
+      },
+      {
+        "name": "TripleMa",
+        "signal_1h": "做多",
+        "signal_4h": "观望",
+        "daily_return": 0.0,
+        "weekly_return": null,
+        "max_drawdown": null,
+        "sharpe": null
+      },
+      {
+        "name": "Supertrend",
+        "signal_1h": "做多",
+        "signal_4h": "做多",
+        "daily_return": 0.0,
+        "weekly_return": null,
+        "max_drawdown": null,
+        "sharpe": null
+      },
+      {
+        "name": "RSI",
+        "signal_1h": "做空",
+        "signal_4h": "观望",
+        "daily_return": 0.0,
+        "weekly_return": null,
+        "max_drawdown": null,
+        "sharpe": null
+      },
+      {
+        "name": "MACD",
+        "signal_1h": "做多",
+        "signal_4h": "做多",
+        "daily_return": 0.0,
+        "weekly_return": null,
+        "max_drawdown": null,
+        "sharpe": null
+      },
+      {
+        "name": "Bollinger",
+        "signal_1h": "做空",
+        "signal_4h": "做空",
+        "daily_return": 0.0,
+        "weekly_return": null,
+        "max_drawdown": null,
+        "sharpe": null
+      },
+      {
+        "name": "Momentum",
+        "signal_1h": "做多",
+        "signal_4h": "做多",
+        "daily_return": 0.0,
+        "weekly_return": null,
+        "max_drawdown": null,
+        "sharpe": null
+      },
+      {
+        "name": "MeanReversion",
+        "signal_1h": "做空",
+        "signal_4h": "观望",
+        "daily_return": 0.0,
+        "weekly_return": null,
+        "max_drawdown": null,
+        "sharpe": null
+      }
+    ],
+    "signals": {
+      "1h": {
+        "DoubleMa": "做多",
+        "TripleMa": "做多",
+        "Supertrend": "做多",
+        "RSI": "做空",
+        "MACD": "做多",
+        "Bollinger": "做空",
+        "Momentum": "做多",
+        "MeanReversion": "做空"
+      },
+      "4h": {
+        "DoubleMa": "做多",
+        "TripleMa": "观望",
+        "Supertrend": "做多",
+        "RSI": "观望",
+        "MACD": "做多",
+        "Bollinger": "做空",
+        "Momentum": "做多",
+        "MeanReversion": "观望"
+      },
+      "1d": {
+        "DoubleMa": "做空",
+        "TripleMa": "做空",
+        "Supertrend": "做多",
+        "RSI": "观望",
+        "MACD": "做多",
+        "Bollinger": "观望",
+        "Momentum": "做空",
+        "MeanReversion": "观望"
+      }
+    },
+    "highlights": [
+      "A股本周反弹：上证 +2.06%、深成指 +5.44%、创业板指 +10.48%；等权8大指数基准 +5.36%（周内区间 97.73–105.36，最低 @ 2026-11-26）",
+      "风格：成长股领涨，科创50 +9.35% 最强（科创50 +9.35%、中证1000 +5.92%、中证500 +5.12%；上证50 +1.75%、沪深300 +2.74%）",
+      "最大单日波动 2026-11-27：等权基准单日 +7.84%，为周内最大单日涨幅",
+      "周内节奏：4 个交易日中 2 天上涨 / 2 天下跌",
+      "港股：恒生指数 22,672.87（+2.01%）；末个交易日涨跌家数数据源不可用",
+      "加密横盘：BTC $61,855（周 +0.02%、24h +2.23%），ETH $1,737（周 -0.76%）；恐惧贪婪 12 (Extreme Fear)",
+      "策略信号（1H/4H）：8 个策略中 0 个观望——做空 3 个（RSI, Bollinger, MeanReversion）、纯做多 5 个（DoubleMa, TripleMa, Supertrend, MACD, Momentum）、1H/4H 多空分歧 0 个（无）；多头信号占优",
+      "采集管线：最近运行 2026-11-27；本脚本直连 OKX 采集 (BTC/ETH 现价 + 1H/4H/1D 指标 + 8 策略信号); ~/trading/helloquant 原始管线自 2026-11-19 后未更新。A股波动率切片仍为 2026-11-18 QVIX 快照; 新闻/论文沿用上次采集。"
+    ],
+    "note": "HelloQuant 仓库为量化学习框架，未维护策略级实盘盈亏/Sharpe/回撤数据；本报告以策略信号与市场周度表现为核心，equity_curve 为等权 8 大指数基准组合（上周五=100）。"
+  }
 }

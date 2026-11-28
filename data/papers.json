@@ -1,9 +1,592 @@
 {
- "updated": "2026-11-26T16:00:00",
- "date": "2026-11-26",
- "total_papers": 444,
- "new_papers": 103,
+ "updated": "2026-11-27T16:06:03",
+ "date": "2026-11-27",
+ "total_papers": 475,
+ "new_papers": 31,
  "papers": [
+  {
+   "title": "GeoTex: Geometry-as-Texture Encoding and History-Grounded 4D Occupancy Forecasting",
+   "id": "2611.33693v1",
+   "arxiv_id": "2611.33693v1",
+   "published": "2026-11-25",
+   "date": "2026-11-25",
+   "authors": "Shijun Guo, Yaming Yang, Haoran Xu, Wei Zhao, Ziyu Guan, Cai Xu, Peixi Peng",
+   "summary": "4D occupancy forecasting models 3D scene evolution to support future prediction and scenario generation in autonomous-driving world models. Semantic occupancy abstracts image color and texture into discrete labels, leaving 3D voxel arrangements as the primary cues for distinguishing local shapes within each class. Existing methods borrow image-encoding frameworks to obtain compact latent representations through height channelization or plane factorization, but do not sufficiently model within-column height patterns and cross-column relations jointly before compression, weakening these geometric cues. Forecasting also underutilizes complementary history and struggles to retain reliable observation evidence. We therefore propose GeoTex, an occupancy world model combining geometry-as-texture encoding with history-grounded forecasting. GeoTex Representation jointly encodes within-column height patterns and cross-column relations into compact continuous latent representations and restores 3D structure through content-dependent height unfolding and geometric interaction. GeoTex Prediction retains initial evidence throughout rollout in fixed cross-observation relational memory and incorporates complementary recent history through target-referenced residual updates. After prediction training, decoder-only adaptation improves semantic decoding of predicted states. GeoTex improves average forecasting mIoU and IoU by 9.79% and 11.91% relative to GenieDrive while reducing parameters from 3.47M to 2.33M, with gains increasing at longer horizons. Code is included in the supplementary material.",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance": 5,
+   "tags": [
+    "world model AD"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving",
+   "id": "2611.24840v1",
+   "arxiv_id": "2611.24840v1",
+   "published": "2026-11-18",
+   "date": "2026-11-18",
+   "authors": "Binay Kumar Singh, Niels Da Vitoria Lobo",
+   "summary": "World models are increasingly used in autonomous driving to predict how a scene evolves under the ego vehicle's actions, supporting counterfactual reasoning and model-based planning. However, existing evaluations focus on prediction fidelity and planning performance, and rarely verify that the predictions depend on the conditioning action. In this paper, we study action dependence in action-conditioned semantic forecasting, which predicts future semantic segmentation from past segmentations and the ego action. We compare a forecaster with feature-wise and input-level action conditioning against an identical model without action input, and measure action dependence with test-time action interventions scored by standard segmentation metrics. The evaluation is validated in a synthetic environment with known action-dependent dynamics and applied to Cityscapes and BDD100K, both within each dataset and across the two vehicle platforms. Experiments show that the executed action improves mid-term mIoU by at most 2.5 points on Cityscapes and 0.6 points on BDD100K, whereas a wrong action reduces it by up to 23.2 and 7.0 points, below the model without action input. On real data, feature-wise conditioning depends 1.6 times more on the action than input-level conditioning at similar accuracy, whereas both depend on it equally in the synthetic environment, where the history does not determine the action. These results show that an accuracy gain indicates that a driving world model uses its action, but not how strongly its forecasts depend on it. Code is available at https://github.com/binayksingh/does-action-matter.",
+   "categories": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG",
+    "cs.RO"
+   ],
+   "relevance": 5,
+   "tags": [
+    "world model AD"
+   ],
+   "in_kb": true,
+   "status": "已收录"
+  },
+  {
+   "title": "Efficient World-Model Planning via Physics-Guided Search Distillation",
+   "id": "2611.24171v2",
+   "arxiv_id": "2611.24171v2",
+   "published": "2026-11-18",
+   "date": "2026-11-18",
+   "authors": "Hongyu Zhang, Xiaoshuai Hao, Heye Huang, Qingwen Meng, Wenjun Shi, Jianao Xu, Xin Hu, Xuanru Jin, Jingyi Zhang, Baicang Guo",
+   "summary": "World models support autonomous driving by evaluating candidate trajectories through predicted future scene evolution. However, accurate future prediction does not ensure road-compliant execution; when all candidates violate road boundaries, re-ranking cannot select a feasible trajectory. We propose Physics-Guided Search Distillation (PGSD), a single-view planning framework that combines future representations and execution feedback for verified beyond-pool repair through three components: (1) Execution-Aware Selection checks ego-vehicle road compliance under simulated execution and selects the highest-scoring feasible trajectory; (2) a Clearance-Aware Search Teacher generates beyond-pool corrections and selects demonstrations with larger minimum road-boundary clearance during execution to buffer imitation errors; and (3) a Future-Conditioned Repair Student predicts one correction from rewarder features and execution feedback for single-rollout verification. The pretrained planner and rewarder remain frozen; no future scenes are generated online. On NAVSIM v1, single-view PGSD achieves 90.97 PDMS, exceeding all compared prior single-view planners and retaining 73.2% of the search teacher's PDMS gain over execution-aware selection. On NAVSIM v2 navhard, it reaches 38.96 EPDMS, improving on WorldDrive by 11.24 points (40.5%). The student replaces up to ten search rollouts with a single verification rollout per repair trigger. HUGSIM Hard examples provide qualitative evidence of zero-shot transfer.",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "relevance": 5,
+   "tags": [
+    "world model AD"
+   ],
+   "in_kb": true,
+   "status": "已收录"
+  },
+  {
+   "title": "Beyond the Camera: A Tri-Modal Driving World Model for Future RGB, Thermal, and LiDAR Forecasting in Adverse Weather",
+   "id": "2611.22669v2",
+   "arxiv_id": "2611.22669v2",
+   "published": "2026-11-17",
+   "date": "2026-11-17",
+   "authors": "Faysal Mehrab Chowdhury, Md. Mahfuzur Rahman, Ahmed Rafi Hasan, Kishor Datta Gupta, Mohd Ariful Haque, Savannah Shannon",
+   "summary": "Driving world models forecast what a vehicle's sensors will record next. Most forecast camera video and some add LiDAR, but thermal cameras, which still see in darkness and some adverse weather, are rarely a forecast target, and to our knowledge no world model forecasts all three sensors. We study joint forecasting of RGB, thermal, and LiDAR on real adverse-weather sequences of the DSERT-RoLL dataset. We post-train a pretrained video world model for each sensor and represent LiDAR as a depth video aligned with the RGB camera, with densification and encoding chosen by what the model's video tokenizer can reconstruct. A tri-sensor model sees all three sensors as one video. We score LiDAR in meters against measured returns and compare against persistence baselines passed through the same tokenizer as the model. With this matching, an apparent loss of the thermal model to persistence in fog disappears. On all 58 validation sequences in six weather conditions, post-trained RGB and thermal forecasts beat compression-matched persistence. Joint training lowers the LiDAR error at 2s by 2.1m at a small cost in camera fidelity, and only the tri-sensor model's LiDAR forecasts beat persistence in mean error. Blanking one sensor degrades the forecasts of the others more in snow than in fog.",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance": 5,
+   "tags": [
+    "world model AD"
+   ],
+   "in_kb": true,
+   "status": "已收录"
+  },
+  {
+   "title": "SAFER: Navigating the Exploration-Exploitation Dilemma in World-Model-Based Planning for Autonomous Driving",
+   "id": "2611.20107v1",
+   "arxiv_id": "2611.20107v1",
+   "published": "2026-11-15",
+   "date": "2026-11-15",
+   "authors": "Yansong Qu, Zilin Huang, Zihao Sheng, Sikai Chen, Samuel Labi",
+   "summary": "An autonomous vehicle must foresee the consequences of its actions, especially in the rare, time-critical situations where crashes happen. A world model offers this foresight, but only within the coverage of its training data, which poses an exploration-exploitation dilemma. Within this coverage a planner can hardly improve on the data, and beyond it the model's errors mislead it. Logs of competent driving rarely contain the failures that would widen the coverage, and agents that learn from interaction gain them only by failing themselves, without being shown what to do instead. We propose SAFER, a framework that learns offline from failures that others make, judged by an expert, and keeps learning online from its own driving. Offline, partially trained agents and scripted, recoverable perturbations Stage failures in simulation, and an expert Annotates every visited state with its action and value, so that much of what the planner explores is covered before it drives. In planning, a chunked latent world model Foresees the consequences fast enough for real-time use, and a risk-aware sampling-based planner Evaluates candidate maneuvers by their return minus a bounded collision penalty. Online, a loop continuously Refines the model wherever this driving leaves the coverage of the offline data. In closed-loop evaluation against the compared methods, SAFER reaches the highest route completion and reward per step on the CARLA Leaderboard routes, 0.95 and 0.77 from a privileged bird's-eye view, and the highest episode reward in MetaDrive, 53.4 in regular and 49.0 in safety-critical traffic. Project page: https://ys-qu.github.io/safer-website.",
+   "categories": [
+    "cs.RO",
+    "cs.AI"
+   ],
+   "relevance": 5,
+   "tags": [
+    "world model AD"
+   ],
+   "in_kb": true,
+   "status": "已收录"
+  },
+  {
+   "title": "PanDWM: Panoramic 4D Driving World Models",
+   "id": "2611.19857v1",
+   "arxiv_id": "2611.19857v1",
+   "published": "2026-11-15",
+   "date": "2026-11-15",
+   "authors": "Jiajun Sun, Zeyu Zhang, Zeyu Ren, Guangfeng Jiang, Yang Zhao, Hao Tang",
+   "summary": "Driving world models usually generate videos from six pinhole cameras with separate optical centres and small overlaps, and must learn to keep these views consistent. We present PanDWM, which stitches them into one $360^\\circ$ panoramic band. Camera boundaries then fall inside one image, so keeping the views consistent means keeping the image continuous, and each pixel still records its camera ray. Conditioned on layouts, a causal student generates the band window by window in four steps; it is distilled from a causal teacher and trained on its own rollouts. A feed-forward decoder lifts each frame along these rays into 3D Gaussians, and static Gaussians from neighbouring frames complete them into 4D scenes. On nuScenes, scored in one stitched $360^\\circ$ view, PanDWM has lower FID and FVD than the multi-camera baselines at $8$-$46\\times$ their speed, and keeps its 50-step teacher's FID while lowering FVD by 22-25%.",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance": 5,
+   "tags": [
+    "world model AD"
+   ],
+   "in_kb": true,
+   "status": "已收录"
+  },
+  {
+   "title": "The Operator Mismatch Problem: Deploying BEV Perception with Portable GPU Compute",
+   "id": "2610.11504v1",
+   "arxiv_id": "2610.11504v1",
+   "published": "2026-10-08",
+   "date": "2026-10-08",
+   "authors": "Rohit Verma, Anand V Bodas",
+   "summary": "Modern autonomous driving systems rely on bird's-eye-view (BEV) perception models that fuse camera and LiDAR inputs to detect objects in 3D space. These models are accurate, but they cannot be deployed through standard inference runtimes. The reason is an operator mismatch between dense convolutions (which runtimes handle well), sparse 3D convolutions (which runtimes cannot represent), and geometric scatter operations (which runtimes have no vocabulary for). Today, every sparse convolution library is CUDA-only and PyTorch-coupled, locking BEV deployment to a single vendor's hardware and a single execution framework. We present BEVPIPE, a framework for deploying multimodal BEV perception pipelines using portable GPU compute APIs and integrating them with production inference runtimes. BEVPIPE partitions the model into runtime-managed dense subgraphs and three external operator extensions (voxelizer, sparse encoder, BEV projector), connected through a shared GPU memory space. BEVPIPE achieves a 19.5x end-to-end speedup over conventional deployments while retaining 98.5% of reference mAP. We also showcase that BEVPIPE is portable across different GPU backends.",
+   "categories": [
+    "cs.AI"
+   ],
+   "relevance": 5,
+   "tags": [
+    "E2E AD"
+   ],
+   "in_kb": true,
+   "status": "已收录"
+  },
+  {
+   "title": "MILER: Semantic Mid-Level Representation for Sim-to-Real Reinforcement Learning in Unstructured Autonomous Driving",
+   "id": "2609.20747v1",
+   "arxiv_id": "2609.20747v1",
+   "published": "2026-09-17",
+   "date": "2026-09-17",
+   "authors": "Thomas Steinecker, Denis Trescher, Alexander Bienemann, Thorsten Luettel, Mirko Maehlisch",
+   "summary": "Reinforcement learning constitutes a promising approach owing to its potential for superhuman performance and self-learned policies. However, its application to real-world autonomous driving remains scarce, particularly in unstructured environments, because of the challenges associated with sim-to-real transfer for unstructured environments. In this work, we present MILER, an end-to-end policy framework with zero-shot sim-to-real transfer. During offline training, we employ a custom semantic mid-level representation (MLR) simulator and train the policy network using reinforcement learning, with its control outputs applied directly to a bicycle model. During deployment on the real vehicle, camera and LiDAR data are processed by BEVFusion to generate a semantic bird's-eye-view representation consistent with that of the MLR simulator. The actions generated by the policy network are not applied directly to the real vehicle. Instead, we employ a trajectory-alignment strategy that enables zero-shot sim-to-real transfer of both perception and control. We extensively evaluate the proposed framework on a diverse test track comprising numerous challenges, including various obstacles, hairpin curves, velocities of up to 33.6 km/h, and off-road sections. In total, we drove 17.3 km with two different vehicles on a 3.0 km test track without human intervention, thereby demonstrating the effectiveness of our approach. Furthermore, the entire software stack runs on a Jetson AGX Orin.",
+   "categories": [
+    "cs.RO",
+    "cs.LG"
+   ],
+   "relevance": 5,
+   "tags": [
+    "E2E AD"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "Can Multimodal Fusion MakeSense for Embodied Vision in Degraded Sensing?",
+   "id": "2611.30836v1",
+   "arxiv_id": "2611.30836v1",
+   "published": "2026-11-23",
+   "date": "2026-11-23",
+   "authors": "Cheng-Ru Chou, Shih-Yu Lai, Pei-Lin Chiang, Shou-Po Tsai, Jing-Zhe Huang, Fukuharu Tanaka, Hirozumi Yamaguchi, Bing-Yu Chen, Yu-Lun Liu, Hsun-Ping Hsieh",
+   "summary": "Embodied vision systems rely on complementary sensors to perceive and act as conditions change. Even models that accept arbitrary sensor subsets can exhibit negative fusion: adding a sensor increases prediction error. We propose MakeSense, a multimodal fusion framework that preserves sensor-specific evidence in private streams and combines information through shared bottleneck tokens. Training pairs full and subset views of the same degraded observations, penalizing higher error with more sensors. Where geometry permits, the distance readout uses range measurements alone, while the rest of the prediction draws on all available inputs. Paired tests across five datasets reveal helpful and harmful sensor additions. MakeSense reduces negative fusion on MM-Fi. With lightweight adapters and per-dataset training, the same design improves UAV localization on MMAUD, cooperative 3D detection on V2X-Real, few-shot pose transfer to RELI11D, and command prediction on Humanoid-Everyday, where a world model trained on the frozen core's outputs forecasts future fused states more accurately than a linear baseline at longer tested horizons. MakeSense supports embodied sensing across human activity, aerial systems, robotics, and autonomous driving.",
+   "categories": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG",
+    "cs.RO"
+   ],
+   "relevance": 4,
+   "tags": [
+    "BEV/perception fusion"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "OCTR2A: Real-Time RGB-to-BEV Trajectory Projection and Forecasting at Urban Intersections",
+   "id": "2611.24352v1",
+   "arxiv_id": "2611.24352v1",
+   "published": "2026-11-18",
+   "date": "2026-11-18",
+   "authors": "Emanuele Iacobelli, Simone Teglia, Francesco Pro, Claudia Melis Tonti, Irene Amerini",
+   "summary": "Trajectory forecasting at urban intersections is often studied assuming that reliable bird's-eye-view (BEV) motion histories are available, which in practice requires costly resources such as LiDAR, aerial views, HD maps, or calibrated infrastructure. We address this upstream perception-to-forecasting problem by reconstructing and predicting agents' BEV trajectories only from paired opposite-corner RGB cameras mounted on existing urban infrastructure at variable heights at inference time. We introduce the Opposite-Corner Trajectory Reconstruction and Anticipation Architecture (OCTR2A), a modular pipeline integrating per-view detection with class refinement, geometric cross-camera matching, transformer-based BEV projection, and egocentric GRU forecasting, trained in cascade and mainly supervised with a soft multi-scale spatial-overlap loss. Since no public benchmark provides this sensing configuration, we introduce R3ST++, a Blender-based synthetic benchmark built from SIND trajectories that provides synchronized opposite-corner views, cross-view correspondences, and BEV ground truth, while also serving as a deployment-support simulator for site-specific fine-tuning. Experiments on these datasets show that, with 12 observed and 12 predicted frames at 10\\,Hz, OCTR2A achieves projection~-~forecasting ADE/FDE of 0.144/0.140~-~0.154/0.241~meters in real time on a single consumer GPU. Evaluated on ground-truth BEV histories, the forecasting module improves over the strongest state-of-the-art methods on SIND by 66.7\\%/41.7\\% ADE/FDE. Transfer experiments on TUMTraf-V2X show that R3ST++ pretraining supports adaptation to real-world roadside domains with different sensing configurations.",
+   "categories": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG"
+   ],
+   "relevance": 4,
+   "tags": [
+    "BEV perception"
+   ],
+   "in_kb": true,
+   "status": "已收录"
+  },
+  {
+   "title": "GridDriver: On-Board BEV-Based Language Planning and Reasoning",
+   "id": "2611.21924v1",
+   "arxiv_id": "2611.21924v1",
+   "published": "2026-11-16",
+   "date": "2026-11-16",
+   "authors": "Katharina Winter, William Engel, Zain A. Alishammat, Fabian B. Flohr",
+   "summary": "Bird's-Eye-View (BEV)-conditioned large language models (LLMs) enable language-interactive driving, but onboard deployment requires efficient perception and continuous planning alongside autoregressive language generation. We present GridDriver, an efficient BEV-conditioned LLM framework combining trajectory prediction, structured driving indicators, natural-language navigation, driving explanations, and scene question answering. Lightweight spatio-temporal BEV perception and spatially structured tokens provide scene context to a shared LLM, while frame-wise scheduling interleaves trajectory prediction with asynchronous language generation. GridDriver achieves competitive performance on public benchmarks, reaching 87.9% PDMS on NAVSIM and 57.6% accuracy on nuScenes-QA with a shared planning and QA checkpoint. Spatial representation analyses demonstrate improved geometric information retention and trajectory prediction compared with Q-Former compression. The system achieves 32.7 ms standalone planning latency and 9.4 plans/s in an onboard ROS 2 pipeline. We further evaluate planning on our own data recordings and demonstrate open-loop onboard operation on a research vehicle. Across public benchmarks and real-world evaluations, we identify strengths and limitations of the BEV-based approach.",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance": 4,
+   "tags": [
+    "BEV perception"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "AcousticBEV: Acoustic BEV Object Localization for Intelligent Vehicles",
+   "id": "2611.19381v1",
+   "arxiv_id": "2611.19381v1",
+   "published": "2026-11-14",
+   "date": "2026-11-14",
+   "authors": "Ziang Liu, Shiming Wang, Joseph Adeola, Julian F. P. Kooij",
+   "summary": "Modern autonomous driving and driver assistance systems rely predominantly on cameras, radars and LiDARs for environmental perception. However, these modalities face different environmental limitations, including poor illumination for cameras and adverse weather for LiDAR. Acoustic sensing, particularly using microphone arrays, could provide complementary perception capabilities for autonomous driving, but has remained largely underexplored. In this work, we design a horizontally arranged microphone array that functions as the \"ears\" of a vehicle, enabling localization of nearby moving vehicles in a bird's-eye view (BEV) representation that captures both their relative direction and distance. Using this array, we collect a real-world driving dataset, AcousticScenes, which contains 2,117 static and 2,863 dynamic samples with synchronized spatial acoustic signals, LiDAR point clouds and 3D bounding box annotations. Building on this dataset, we propose AcousticBEV, a learning-based method for acoustic BEV object localization, which estimates the center locations of moving traffic participants in BEV from the microphone-array signals, conditioned on the ego vehicle's own speed. Experimental results demonstrate that AcousticBEV outperforms both classical signal-processing baselines and other learning-based methods, achieving F1 scores of $47.7 \\pm 1.2$% on \"Easy\" scenarios and $45.1 \\pm 1.4$% on \"Difficult\" cases. Our findings demonstrate that acoustic signals from a low-cost, vehicle-mounted microphone array can localize nearby moving vehicles in both azimuth and distance.",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 4,
+   "tags": [
+    "BEV perception"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "HiPFuse: Real-Time LiDAR Semantic Segmentation for Robotic Perception on Edge Devices",
+   "id": "2611.14025v1",
+   "arxiv_id": "2611.14025v1",
+   "published": "2026-11-10",
+   "date": "2026-11-10",
+   "authors": "Haiyang Wu, George Vosselman, Ville Lehtola",
+   "summary": "Real-time robotic perception requires accurate LiDAR semantics under limited resources. Bird's-eye-view (BEV) aggregation is efficient but can mix differently labeled surfaces in columns. We present HiPFuse, a point-BEV fusion framework that exchanges point and height-partitioned BEV features across horizontal scales, combining point-wise detail with 2D spatial context from one LiDAR scan. Fixed height assignments preserve separate vertical aggregation groups, with auxiliary supervision of initial BEV features using targets from the same 3D cells. A dual-scale BEV context module adds broader context from a coarser grid. On SemanticKITTI and MCD, HiPFuse achieves 63.7% and 62.5% mIoU at 14.2 and 22.4 FPS on Jetson AGX Orin, respectively, exceeding the 10 Hz scan rate. Separate training and evaluation show indoor applicability. Replacing only the baseline semantic front end with HiPFuse in fixed robotic systems reduces odometry absolute trajectory error RMSE by 10.6% on average across two outdoor sequences and increases accepted-loop recall by 8.7 percentage points on SemanticKITTI. Qualitative semantic maps show more continuous road labeling. Our code is available at https://github.com/haiyang2022/HiPFuse.",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 4,
+   "tags": [
+    "BEV perception"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "Efficient Diffusion Policy Fine Tuning with Latent Noise Representation Bridging",
+   "id": "2611.07275v1",
+   "arxiv_id": "2611.07275v1",
+   "published": "2026-11-05",
+   "date": "2026-11-05",
+   "authors": "Yuanchu Liang, Yue Yang, An-Chi He, Hanna Kurniawati",
+   "summary": "Pre-trained diffusion and flow policies have emerged as powerful backbones for robotics, yet adapting them to novel data via reinforcement learning (RL) remains computationally expensive, sample inefficient and lacks theoretical guarantees. Prior approaches that fine-tune the initial noise bypass costly backpropagation through time but struggle with the \"noise aliasing\" problem: there does not exista natural link between the noise space value and the action space value. This paper resolves these challenges by introducing the Latent Noise Linear Markov Decision Process (LNL-MDP). We derive the Bridge Equation for LNL-MDPs which eliminates the noise aliasing problem by aligning values with a shared representation between the noise and the action space. Furthermore, our LNL-MDP fine tuning framework falls under the FineTuneRL theory with near-optimal guarantee. Leveraging these insights, we propose Latent Representation Bridging for Diffusion (LARBRID), an algorithm that efficiently learns the representation to optimize the initial distribution that steers the pre-trained model to act optimally in the environment. It yields up to 2-3$\\times$ performance increases on challenging control problems across a diverse suite of robotic locomotion and manipulation tasks. Code can be found at: github.com/Maincode-Research/LARBRID.git.",
+   "categories": [
+    "cs.RO",
+    "cs.AI"
+   ],
+   "relevance": 4,
+   "tags": [
+    "diffusion/IL policy"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "FieldRT: Reconfigurable Architecture from Geometric Sensitivity to Streaming Acceleration",
+   "id": "2611.00476v1",
+   "arxiv_id": "2611.00476v1",
+   "published": "2026-10-31",
+   "date": "2026-10-31",
+   "authors": "Haichuan Li",
+   "summary": "Geometric perception on edge must simultaneously achieve two goals that are rarely addressed together: preserve accurate spatial understanding for object localization and operate within stringent latency, memory, energy, and precision constraints. This coupling is particularly evident in oriented bird's-eye-view (BEV) detection, where global context, multi-scale interactions, and geometric fusion affect both prediction quality and hardware dataflow. Conventional deployment flows first compress a model using aggregate quality or complexity proxies and then map the compressed operations to a fixed accelerator interface. This separation risks removing geometric structures that appear redundant under coarse metrics but are critical for precise localization, while leaving hardware-level efficiencies in the retained geometry unexploited. We present FieldRT, an algorithm-hardware co-design methodology that uses a common analysis of geometric sensitivity and data lifetime to derive both the deployment profile and its spatial realization. We deploy FieldRT with Axis-Fusion Network (AFN), a sub-million-parameter oriented-BEV detector, and construct controlled profiles that vary the capacity and organization of its geometric processing. The experiments show that redundancy is task-dependent rather than uniform across metrics. Dense prediction can improve while real instance detection deteriorates; coarse localization may remain stable while strict-IoU precision degrades. Moreover, transformations that are individually safe can become detrimental when combined. FieldRT translates the retained geometric structure into a parameterized streaming architecture that shares field access and storage across spatial operators. The resulting custom-PL primitives achieve production-scale numerical closure on an AMD Kria KV260 and make otherwise infeasible multi-dilation execution realizable.",
+   "categories": [
+    "cs.AR",
+    "cs.PF"
+   ],
+   "relevance": 4,
+   "tags": [
+    "BEV perception"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "Towards Effective and Transferable Physical Camouflage against Multi-View BEV-based 3D Perception in Autonomous Driving",
+   "id": "2610.32230v1",
+   "arxiv_id": "2610.32230v1",
+   "published": "2026-10-23",
+   "date": "2026-10-23",
+   "authors": "Linye Lyu, Jiawei Zhou, Daojing He, Yu Li",
+   "summary": "Modern autonomous driving systems widely adopt multi-view Bird's-Eye-View (BEV) based 3D perception models due to their superior performance. Despite their success, the robustness of these models against adversarial camouflage attacks remains largely unexplored. Existing camouflage attacks primarily target single-view 2D detectors, limiting their effectiveness in multi-view 3D perception settings. To address this gap, we propose BEVCA, a novel adversarial camouflage generation framework tailored for multi-view BEV-based 3D perception. Our framework integrates a BEV-feature-based adversarial loss with a multi-view neural rendering module, enabling effective and transferable camouflage attacks across different models and tasks. Extensive experiments in both digital and physical settings demonstrate that BEVCA outperforms state-of-the-art baselines and exhibits strong robustness under real-world conditions. Our code is available at https://github.com/WAVE-AT-IDEA/BEVCA.",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance": 4,
+   "tags": [
+    "BEV perception"
+   ],
+   "in_kb": true,
+   "status": "已收录"
+  },
+  {
+   "title": "RangeNav: Task-Aligned LiDAR Range-Image Pretraining for Robot Navigation",
+   "id": "2610.29845v2",
+   "arxiv_id": "2610.29845v2",
+   "published": "2026-10-21",
+   "date": "2026-10-21",
+   "authors": "Samuel Foo Enze, Manthan Patel, Fan Yang, Linus Kramer, Pascal Roth, Marco Hutter, Cesar Cadena",
+   "summary": "Autonomous mobile robots operating in dense crowds and cluttered sites require $360^\\circ$ perception to react to surrounding hazards. While panoramic LiDAR offers full-surround coverage, learning representations within reinforcement learning (RL) is sample-inefficient under sparse rewards, and existing 3D pretrained point-cloud encoders are too memory-heavy for massively parallel RL simulation. We present RangeNav, a compact (183k parameters) LiDAR range-image encoder pretrained entirely on synthetic data. RangeNav uses anisotropic convolutions and circular padding to handle the extreme aspect ratio and azimuthal seam of range images. We pretrain the network using a navigation-aligned objective combining range reconstruction, semantic segmentation, and bird's-eye-view (BEV) prediction, then freeze it for policy learning. In simulation, adding semantic and BEV supervision increases success rates over a reconstruction-only baseline by an average of 32.03 and 23.73 percentage points (pp) in procedurally generated training and out-of-distribution realistic test environments, respectively. Zero-shot real-world deployments on a Unitree B2-W quadruped demonstrate robust navigation through dense crowds, low-light settings, and construction zones where limited-field-of-view depth policies struggle. Code and models will be open-sourced. Project website: https://rangenav.github.io/.",
+   "categories": [
+    "cs.RO",
+    "cs.LG"
+   ],
+   "relevance": 4,
+   "tags": [
+    "BEV perception"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "Structured Perception Representations for Off-road Dynamics Learning",
+   "id": "2610.22900v1",
+   "arxiv_id": "2610.22900v1",
+   "published": "2026-10-16",
+   "date": "2026-10-16",
+   "authors": "Micah Nye, Samuel Triest, Matthew Sivaprakasam, Isaiah Adu, Sebastian Scherer, Wenshan Wang",
+   "summary": "Autonomously navigating off-road terrain at high speed demands accurate control, which often relies on dynamics models that capture complex interactions between the robot and terrain. In off-road regimes, terrain interaction is a major component of the vehicle's dynamics. Prior work attempts to capture this effect by training learned models of the vehicle's dynamics, conditioned on its perception of the local environment. However, said conditioning is often overly simplistic, ignoring the spatial structure of the dynamics problem. Our approach, SpatialBEV, exploits this spatial structure. At each step, we query the bird's-eye-view (BEV) features around the predicted state, conditioning the next prediction on current geometric and semantic cues. We additionally present a benchmarking approach that mines a dataset's most difficult scenarios. On datasets collected across seasons, SpatialBEV reduces prediction error by 17.1%, compared to physics-based and learned baselines. We further evaluate on hardware on high-speed ($\\geq$10 m/s) and geometrically challenging courses with a 25.3% reduction in maximum cross-track error. More details can be found at https://theairlab.org/spatial-bev-dynamics .",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 4,
+   "tags": [
+    "BEV perception"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models",
+   "id": "2610.12355v2",
+   "arxiv_id": "2610.12355v2",
+   "published": "2026-10-08",
+   "date": "2026-10-08",
+   "authors": "Hongxing Li, Yixin Li, Dingming Li, Zixuan Wang, Yuchen Yan, Wenqi Zhang, Weiming Lu, Yongliang Shen",
+   "summary": "Spatial reasoning remains a persistent weakness of vision-language models (VLMs), because RGB inputs do not directly provide geometric evidence. Existing remedies either inject 3D into the model at inference, paying architecture and latency costs, or train with outcome rewards that supervise only the final answer. Spatial errors originate in perception: a misjudged depth or direction can be corrected only by the scene's true geometry, which the 3D-scanned sources of spatial training corpora already provide. We propose GPD (Geometry-Privileged Distillation), which makes geometric evidence the privilege in on-policy self-distillation (OPSD). For each question, depth, semantic, and bird's-eye-view (BEV) cues are rendered as compact text and routed to the teacher alongside the reference answer; a privileged KL, applied only to incorrect trajectories, augments GRPO, and the deployed model remains RGB-only. On the 4B backbone, GPD achieves 57.1 on VSI-Bench and 37.6 average across MindCube, SPARBench, MMSI-Bench, and ViewSpatial, outperforming both GRPO and answer-privileged OPSD across spatial reasoning benchmarks. Ablations confirm the complementarity of 3D and answer privilege, the advantage of question-conditioned routing over full-context injection, and the benefit of restricting distillation to incorrect trajectories.",
+   "categories": [
+    "cs.CV",
+    "cs.AI"
+   ],
+   "relevance": 4,
+   "tags": [
+    "BEV perception"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "BridgeGuard: Explicit Safety Drift for Diffusion-based Autonomous Driving",
+   "id": "2610.11483v1",
+   "arxiv_id": "2610.11483v1",
+   "published": "2026-10-08",
+   "date": "2026-10-08",
+   "authors": "Zhenjun Qiu, Jianing Huang, Dongang Liu, Baiyu Du, Yixun Niu, Hao Yang, Xinyu Huang, Chuan Hu, Shu Liu",
+   "summary": "Diffusion-based driving planners capture diverse behaviors but can generate unsafe trajectories under distribution shift. We propose BridgeGuard, a safety-constrained diffusion planning method that progressively strengthens a constraint term during denoising to drive intermediate trajectories toward a scene-dependent safety domain. Corrections operate in a low-dimensional curve space, promoting geometric coherence. A learned module, DistanceFieldNet, predicts a time-dependent distance field from bird's-eye-view features. Value and spatial-gradient supervision at queries sampled beyond expert trajectories teaches this field about both safe and unsafe regions. The learned field supplies the constraint term through safety injection while the pretrained perception backbone and planner remain frozen. We further establish sufficient conditions for terminal safety in an idealized continuous-time bridge. On Bench2Drive, BridgeGuard improves driving score/success rate from 87.99/74.99% to 90.88/76.36% for BridgeDrive and from 80.79/58.18% to 90.46/74.09% for $\\text{DiffusionDrive}^{\\text{geo}}$, demonstrating cross-model generalization.",
+   "categories": [
+    "cs.AI"
+   ],
+   "relevance": 4,
+   "tags": [
+    "AD planning"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "Safety-Oriented Trajectory Ranking from BEV Perception Outputs",
+   "id": "2610.14066v1",
+   "arxiv_id": "2610.14066v1",
+   "published": "2026-10-07",
+   "date": "2026-10-07",
+   "authors": "Leon Pohl, Martin Frauendorfer, Corinna Schmitt, Mirko Maehlisch",
+   "summary": "Bird's-Eye-View (BEV) representations are increasingly used as compact inputs for autonomous driving perception and planning. However, lightweight and interpretable methods for evaluating candidate ego trajectories directly on BEV outputs remain useful for vehicular safety workflows, rapid prototyping, and human-in-the-loop validation. This paper presents a modular trajectory ranking pipeline that consumes BEVFusion object detections and map segmentations derived from nuScenes sensor data and ranks manually specified candidate trajectories according to safety-first criteria. The ranking prioritizes avoiding collisions and walkway violations, then smaller end distance to the target, and finally path efficiency. To study whether these rule-based rankings resemble human judgment, we created seven BEV traffic scenarios and compared the script output with preferences from a survey of 21 participants. Across 146 pairwise votes, 124 matched the trajectory ranked first by the evaluator, corresponding to an overall agreement of 84.9 %. The results indicate that simple BEV-centric safety heuristics can approximate human preferences in constrained trajectory choice tasks while remaining transparent enough for analysis, dataset curation, and autonomous driving studies.",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "relevance": 4,
+   "tags": [
+    "AD planning"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "From Laboratory to Road: Evaluating Wearable Gaze Accuracy for Driving",
+   "id": "2610.07783v1",
+   "arxiv_id": "2610.07783v1",
+   "published": "2026-10-06",
+   "date": "2026-10-06",
+   "authors": "William Engel, Fabian Flohr",
+   "summary": "Bird's-eye-view (BEV) representations have become a widely used interface between perception and planning in autonomous driving, but they encode what is in a scene, not what is behaviorally relevant to a human driver. Gaze offers a compelling behavioral signal for this gap, yet wearable eye trackers are routinely deployed as if their spatial output were ground truth, despite known sensitivity to head motion, illumination, and calibration drift. We present, to our knowledge, the first unified framework for quantifying wearable gaze accuracy under real driving conditions. Our on-road study contains 41 validated scenes in which one driver fixated a vehicle's license plate. Gaze error is measured as the angular difference between the plate center and the gaze direction estimated by the glasses. Separate indoor studies with the same driver and device systematically analyze how distance, illumination, head motion, target motion, and gaze eccentricity affect both systematic bias and gaze precision. The mean on-road error was 4.58 degrees. Applying an offset estimated from the indoor recordings reduced it to 1.10 degrees and improved all 41 scenes. Because this offset varied between sessions, reliable BEV supervision may require online recalibration and condition-dependent estimates of gaze uncertainty.",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance": 4,
+   "tags": [
+    "AD planning"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "IndoorBEV: A Lightweight Real-Time LiDAR BEV Perception System for Indoor Mobile Robots",
+   "id": "2610.00355v1",
+   "arxiv_id": "2610.00355v1",
+   "published": "2026-09-30",
+   "date": "2026-09-30",
+   "authors": "Haichuan Li",
+   "summary": "Efficient indoor LiDAR perception is challenging because mobile robots must understand cluttered three-dimensional environments under strict latency and memory constraints. Existing point-based and voxel-based methods often incur substantial computational overhead, whereas conventional bird's-eye-view (BEV) representations improve efficiency at the cost of discarding vertical geometric information. We present IndoorBEV, a lightweight LiDAR perception framework that mitigates this tradeoff through a height-aware BEV representation and geometry-conditioned feature fusion. IndoorBEV summarizes the vertical point distribution in each BEV cell using statistical height features and multi-frequency height encoding, allowing informative three-dimensional cues to be processed efficiently by two-dimensional convolutions. A lightweight encoder then integrates complementary geometric features with multi-scale local representations and compact global scene context. Decoupled dense prediction heads jointly produce semantic BEV maps and oriented object bounding boxes. IndoorBEV contains only 0.6M parameters and requires 2.3 MB of model storage. On an NVIDIA AGX Orin, it uses 21.52 MB of GPU memory per inference and achieves a mean latency of 169.6 ms under a 200 ms perception deadline, with a deadline miss ratio of 1.8\\%. Evaluations on simulated scenes, real-world robot scans, and an open-source indoor point-cloud dataset demonstrate a favorable tradeoff among perception accuracy, latency, and memory consumption. These results indicate that explicitly encoding vertical geometry within a compact BEV representation provides an effective approach to resource-efficient indoor LiDAR perception.",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 4,
+   "tags": [
+    "BEV perception"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "AquaBEV-Nav: Learned BEV Occupancy for Underwater Navigation and Exploration",
+   "id": "2609.32156v1",
+   "arxiv_id": "2609.32156v1",
+   "published": "2026-09-26",
+   "date": "2026-09-26",
+   "authors": "Trung Tien Dong, Zhenqi Wu, Sahasra Kondapalli, Jiayi Wu, Yi Sheng, Xiaomin Lin",
+   "summary": "Safe underwater exploration requires a robot to understand where surrounding structures are located and which regions are available for motion. Existing vision-based underwater exploration systems commonly obtain this information indirectly by estimating monocular depth, unprojecting the geometry into 3D space, and accumulating it into a 2D bird's-eye-view occupancy map. This reliance on intermediate depth estimation is particularly problematic underwater, where scattering and wavelength-dependent attenuation degrade visual cues and limit the reliability of monocular depth estimates. We introduce AquaBEV-Nav, an underwater exploration framework that bypasses explicit monocular depth estimation through direct bird's-eye-view occupancy prediction. Built upon the CORAL hierarchical exploration framework, AquaBEV-Nav replaces its depth-based perception front end with AquaBEV. Given a single RGB frame, AquaBEV maps visual features into a learned polar representation, performs causal reasoning along the range dimension, and reconstructs local Cartesian occupancy without relying on intermediate depth prediction. The resulting occupancy map is accumulated into CORAL's persistent spatial memory, providing spatial context for VLM-based high-level planning and collision constraints for dynamics-aware local trajectory generation. Across ten simulated reef environments and six occupancy backbones evaluated under a single protocol, AquaBEV-Nav reaches 37.48 structure IoU and 53.2 target IoU, 88.95% closed-loop coverage with zero collisions.",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "relevance": 4,
+   "tags": [
+    "BEV perception"
+   ],
+   "in_kb": true,
+   "status": "已收录"
+  },
+  {
+   "title": "Dense Coverage, Sparse Refinement: Byte-Constrained Cooperative Perception",
+   "id": "2609.29456v1",
+   "arxiv_id": "2609.29456v1",
+   "published": "2026-09-24",
+   "date": "2026-09-24",
+   "authors": "Melih Yazgan, Timon Müller, J. Marius Zöllner",
+   "summary": "Collaborative perception improves autonomous perception by sharing intermediate Bird's-Eye-View (BEV) features across connected agents, but dense feature exchange is difficult to deploy under strict Vehicle-to-Everything (V2X) bandwidth limits. Existing efficient methods typically either compress the full feature map uniformly, spending bits on low-value background, or sparsify communication, risking the loss of useful context. We propose a coverage-refinement design for byte-constrained cooperative perception: each agent transmits a highly compressed coarse layer over the full BEV map and allocates the remaining budget to selected high-resolution patches. A Task-Aware Benefit Selector ranks cells by estimated downstream utility, enabling deterministic budgeted refinement and zero-retraining adaptation to changing bandwidth. The receiver reconstructs a dense BEV tensor compatible with standard fusion modules. Experiments on DAIR-V2X and OPV2V show strong accuracy-payload trade-offs at kilobyte-scale budgets. On DAIR-V2X, our method reaches 0.60 AP@0.7 at only 1.87 KB per non-ego agent, compared with 0.52 at 4.61 KB for uniform SimVQ compression. Controlled diagnostics further show that the gain arises from coverage-refinement allocation rather than quantization alone. Code will be published.",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance": 4,
+   "tags": [
+    "BEV perception"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "SparseNav: Instruction-conditioned Sparse Semantic Perception for Training-Free Vision-Language Navigation",
+   "id": "2609.26408v1",
+   "arxiv_id": "2609.26408v1",
+   "published": "2026-09-22",
+   "date": "2026-09-22",
+   "authors": "Quanhua Chen, Juhan Kang, Runfeng Lin, ZiFei Zhang, Enquang Feng, Chunran Zheng, Xiwang Dong, Jiarong Lin",
+   "summary": "Map-based vision-language navigation (VLN) relies on persistent spatial representations to connect language understanding with geometric planning. However, acquiring semantics beyond the needs of the current instruction can introduce unnecessary perception cost and irrelevant annotations. Continuously accumulating unrelated objects may not only waste computation, but also clutter the visual-spatial representation consumed by the vision-language model (VLM) planner. To address this problem, we present SparseNav, a training-free framework that follows a less-is-more principle for semantic navigation. SparseNav persistently maintains a lightweight geometric bird's-eye-view (BEV) map and sparse landmark memory, acquiring new semantics on demand using the active sub-instruction to decide what is worth grounding. An instruction manager first tracks navigation progress and identifies the active landmark query. An instruction-conditioned perception mechanism then invokes open-vocabulary segmentation when the queried landmark is visible and its metric location can inform the next decision. The resulting landmark memory supports VLM selection among hybrid frontier and local directional waypoint candidates. Without any additional training, SparseNav achieves success rates of 42.8% on R2R-CE and 40.7% on RxR-CE, both on the Val-Unseen splits. Controlled ablations examine semantic perception strategies and the contributions of individual framework components. Furthermore, we successfully deployed SparseNav on a Unitree Go2 quadruped equipped with an Intel RealSense D455 RGB-D camera for geometric mapping and landmark grounding and a Livox MID-360 LiDAR for localization, without a prebuilt map. We validated its effectiveness across multiple indoor environments using instruction-conditioned waypoint navigation.",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 4,
+   "tags": [
+    "BEV perception"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "Leveraging Vision-Based Point Cloud Map Priors for Camera-Based 3D Object Detection and Online Vectorized HD Mapping",
+   "id": "2609.26325v1",
+   "arxiv_id": "2609.26325v1",
+   "published": "2026-09-22",
+   "date": "2026-09-22",
+   "authors": "Markus Käppeler, Rohit Mohan, Abhinav Valada",
+   "summary": "Camera-based 3D object detection and online vectorized HD mapping provide compact scene representations for autonomous driving, but both depend on accurate metric geometry and remain limited by depth ambiguity. Over long-term deployment, observations from repeated traversals can be accumulated into persistent point cloud priors that provide geometric context beyond the current observations. Existing explicit point cloud prior approaches, however, rely on LiDAR-based map construction and therefore require expensive 3D ranging sensors. We propose a framework that constructs a static point cloud prior map from previous camera traversals using Pi3X and augments each point with DINOv3 features. At runtime, a local prior patch is retrieved using global localization, encoded with a sparse voxel backbone, and fused in bird's-eye view (BEV) with lifted multi-view camera features. Task-specific sparse transformer heads then predict 3D objects and vectorized map elements from the fused representation. On Argoverse 2, the vision-based prior improves a strong baseline from 0.287 to 0.299 CDS and from 0.669 to 0.750 vectorized mapping mAP. Ablations show that semantic DINOv3 features are particularly important for vectorized mapping. These results demonstrate that vision-built geometric-semantic priors provide an effective form of long-term scene memory for camera-based perception, improving both tasks without LiDAR for prior-map construction or online inference.",
+   "categories": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "relevance": 4,
+   "tags": [
+    "BEV perception"
+   ],
+   "in_kb": true,
+   "status": "已收录"
+  },
+  {
+   "title": "Knowing What You Carry: Scalable Physics-Anchored World Models for Robotic Planning with Liquid Payloads",
+   "id": "2611.28387v1",
+   "arxiv_id": "2611.28387v1",
+   "published": "2026-11-20",
+   "date": "2026-11-20",
+   "authors": "Yicheng Zhu, Linfeng Tian, Yang Chen, Tao Li, Zilin Bian",
+   "summary": "Payload-carrying robots, such as delivery robots and autonomous trucks, must choose motions that keep them and their payload safe, so their planners predict the outcome of each candidate motion. Modern planners compare thousands of candidates per step on a GPU, using world models such as batched simulators or learned predictors. Most of them assume a rigid payload, but a liquid payload keeps moving after a maneuver, and its state is rarely measured. Near a safety limit, small prediction errors can make an unsafe plan look safe. Coupled fluid simulations are accurate but too costly for every candidate, while low-order slosh models are cheap but accurate only away from resonance. We study this trade-off on a ground vehicle with a partly filled tank near its rollover limit. First, we build PLiMB (Parallel Liquid-MultiBody), a GPU-parallel slosh simulator that, to our knowledge, couples FLIP liquid two-way with many multibody vehicles for the first time. It provides training data and a high-fidelity reference. Second, we propose a scalable physics-anchored world model that combines a modal-slosh and roll prior, an estimate of the hidden liquid state from the vehicle's own motion history (no sensor in the tank), and a learned correction. Without simulating the fluid, it scores thousands of candidate plans in one batched pass within a 20 Hz control tick on one GPU. We judge each world model by the plans it leads a planner to choose. Near the rollover limit, planners that treat the liquid as a rigid payload or use published low-order slosh models repeatedly pick unsafe plans when a safe one exists. Ours never does in our standard tank and makes about half as many in a wide tank whose sloshing mode lies in the maneuver band. There, the liquid state left by earlier driving can change the best plan, and reading it from the vehicle's history halves our model's near-limit prediction error.",
+   "categories": [
+    "cs.RO"
+   ],
+   "relevance": 3,
+   "tags": [
+    "world-model planning (robotics)"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "Residual-Guided Lightweight Reinforcement Learning for Risk-Aware Trajectory Selection with a Frozen World Model",
+   "id": "2611.22998v1",
+   "arxiv_id": "2611.22998v1",
+   "published": "2026-11-17",
+   "date": "2026-11-17",
+   "authors": "Jiaqi Wu, Yongqi Dong, Yijie Zhong, Maple Shao, Yide Tao, Linsen Cai, Weize Cai, Hai L. Vu, Alvaro Garcia Hernandez",
+   "summary": "In automated driving, world models provide future scene predictions for evaluating candidate trajectories, but fixed selection rules may not capture scene-dependent trade-offs. We propose a residual-guided reinforcement learning (RL) framework for lightweight trajectory selection with a frozen world model and a fixed candidate bank. The framework uses proximal policy optimization (PPO) to fine-tune a joint policy over candidate selection and bounded trajectory residuals. A context-conditioned ranking network learns candidate preferences from feedback obtained by evaluating local perturbations of the selected trajectories. At inference, the selector combines learned preference and predicted risk ranks using fixed weights and returns the selected candidate trajectory without modification. Fine-tuning updates 16,106 parameters across the actor and critic, while the deployed selector retains only the 11,725-parameter ranking network, with the residual branch and critic used exclusively during training. In open-loop evaluation on the nuScenes validation set, the method reduces average Euclidean trajectory error (L2) by 3.99% relative to the RiskWorld model baseline without RL-based selection. Under matched budgets for feedback accesses and actor updates, residual exploration reduces L2 by 0.83% relative to the categorical PPO variant trained without residuals. The method also maintains lower L2 than RiskWorld when risk features are removed or shuffled.",
+   "categories": [
+    "cs.AI",
+    "cs.ET",
+    "cs.LG",
+    "cs.RO",
+    "eess.SY"
+   ],
+   "relevance": 3,
+   "tags": [
+    "RL driv"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "Value and Policy Calibration from Execution Feedback for Socially Compatible Driving",
+   "id": "2611.19969v1",
+   "arxiv_id": "2611.19969v1",
+   "published": "2026-11-15",
+   "date": "2026-11-15",
+   "authors": "Sen Shen, Ning Liu, Xiangrui Kong, Yingwei Li, Dongkun Han",
+   "summary": "Autonomous vehicle (AV) decisions at intersections affect the delay, braking, and motion smoothness of surrounding human-driven vehicles (HDVs). Learning socially compatible behavior requires connecting imagined interaction outcomes with feedback from executed actions. We propose a world-model reinforcement learning framework combines imagined policy improvement with direct value and policy calibration from finalized interactions, balancing AV progress with HDV interaction burden. An interaction-aware latent model supports imagination, while off-policy correction and replay updates enable observed rewards and transitions to supervise both the critic and actor. Simulation experiments at an unsignalized intersection achieve a 100% success and reductions in following-HDV acceleration variation of 65.5% and 44.0% relative to PIWM and DreamerV3, respectively. Ablations identify complementary roles for value calibration in reducing HDV burden and policy calibration in improving passage efficiency. Tests under out-of-distribution traffic shifts further show lower ego jerk and HDV acceleration variation than PIWM at comparable passage times.",
+   "categories": [
+    "cs.RO",
+    "cs.AI"
+   ],
+   "relevance": 3,
+   "tags": [
+    "RL driv"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
+  {
+   "title": "ReinSeg: Retrieval-Guided Bounded Multimodal Refinement for 3-D Road Anomaly Segmentation",
+   "id": "2611.02648v1",
+   "arxiv_id": "2611.02648v1",
+   "published": "2026-11-02",
+   "date": "2026-11-02",
+   "authors": "Haifa Zhang, Yijing Wang, Zhiqiang Zuo",
+   "summary": "3-D road anomaly segmentation is essential for risk-aware perception in autonomous driving. Its central challenge is to rank sparsely observed hazards ahead of abundant normal road structures while preserving point-wise metric localization. LiDAR provides accurate 3-D point support, whereas surround-view imagery offers complementary semantic context for separating unexpected hazards from challenging normal structures. We propose ReinSeg, a retrieval-guided bounded multimodal refinement framework for point-wise road anomaly segmentation. Occupied LiDAR bird's-eye-view cells retrieve scene-specific context from a shared memory of eight surround-view images without supplying calibration variables to the retrieval module. A relative-norm-bounded residual returns this context to the LiDAR point features, so the frozen LIDO anomaly-scoring interface is preserved, and the refinement is optimized with in-distribution semantic labels only. On the Spotting the Unexpected (STU) benchmark, ReinSeg improves validation average precision from 27.54\\% to 35.67\\% and reduces the false-positive rate at 95\\% anomaly recall from 34.85\\% to 10.61\\%, shrinking the high-recall screening set from 67.54 to 20.55 million points. Relative to REL, AP is 24.99 percentage points higher and FPR95 is 0.99 points lower. Matched interfaces and component isolation show that retrieved scene imagery and the relative-norm bound are both essential, and ReinSeg stays above LiDAR-only performance under missing, corrupted, or misaligned camera inputs while running at 21.8 frames per second. These results establish bounded retrieval of scene-specific visual evidence as an effective route to reliable 3-D road-hazard perception.",
+   "categories": [
+    "cs.CV"
+   ],
+   "relevance": 3,
+   "tags": [
+    "AD adjacent"
+   ],
+   "in_kb": false,
+   "status": "新发现"
+  },
   {
    "id": "2610.11583",
    "title": "SDPAD: A Fully Spike-Driven Pipeline for End-to-End Autonomous Driving",
